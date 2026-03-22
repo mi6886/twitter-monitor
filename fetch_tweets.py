@@ -208,8 +208,8 @@ def main():
     # Load dedup set
     seen_urls = load_seen_ids(seen_file)
 
-    # Date range: last 48 hours to catch tweets that grow in likes
-    start_date = (datetime.now(timezone.utc) - timedelta(hours=48)).strftime("%Y-%m-%d")
+    # Date range: last 24 hours
+    start_date = (datetime.now(timezone.utc) - timedelta(hours=24)).strftime("%Y-%m-%d")
     end_date = (datetime.now(timezone.utc) + timedelta(days=1)).strftime("%Y-%m-%d")
 
     # Build all search inputs
