@@ -20,20 +20,20 @@ from urllib.error import HTTPError
 APIFY_TOKEN = os.environ["APIFY_TOKEN"]
 APIFY_BASE = "https://api.apify.com/v2"
 ACTOR_ID = "xtdata~twitter-x-scraper"
-MIN_FAVES = 5000
-MAX_ITEMS_PER_SEARCH = 50
+MIN_FAVES = 2000
+MAX_ITEMS_PER_SEARCH = 100
 POLL_INTERVAL = 15  # seconds
 POLL_TIMEOUT = 300  # 5 minutes per actor
 
 # --- Keyword groups ---
 KEYWORD_SEARCHES = [
-    '(Claude OR "Claude Code" OR AnthropicAI) min_faves:5000',
-    '(OpenAI OR chatgpt OR sama) min_faves:5000',
-    '(Gemini OR "Google AI Studio" OR Notebooklm) min_faves:5000',
-    '("Jensen Huang" OR NVIDIA) min_faves:5000',
-    '(Cursor OR Huggingface OR Perplexity OR Antigravity) min_faves:5000',
-    '(vibecoding OR AIAgent OR "humanoid robot" OR "Humanoid Robots" OR "Embodied AI") min_faves:5000',
-    '("DAN KOE" OR "Peter Steinberger" OR OpenClaw OR "Nano banana") min_faves:5000',
+    '(Claude OR "Claude Code" OR AnthropicAI) min_faves:2000',
+    '(OpenAI OR chatgpt OR sama) min_faves:2000',
+    '(Gemini OR "Google AI Studio" OR Notebooklm) min_faves:2000',
+    '("Jensen Huang" OR NVIDIA) min_faves:2000',
+    '(Cursor OR Huggingface OR Perplexity OR Antigravity) min_faves:2000',
+    '(vibecoding OR AIAgent OR "humanoid robot" OR "Humanoid Robots" OR "Embodied AI") min_faves:2000',
+    '("DAN KOE" OR "Peter Steinberger" OR OpenClaw OR "Nano banana") min_faves:2000',
 ]
 
 # --- Monitored accounts (3 batches) ---
@@ -181,7 +181,7 @@ def extract_tweet(tweet):
 def build_account_search(accounts):
     """Build search query for a batch of accounts."""
     froms = " OR ".join(f"from:{a}" for a in accounts)
-    return f"({froms}) min_faves:5000"
+    return f"({froms}) min_faves:2000"
 
 
 def load_seen_ids(path):
