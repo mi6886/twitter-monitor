@@ -65,7 +65,6 @@ ALL_ACCOUNTS = [
     "DrJimFan", "op7418", "TechieBySA", "Kimi_Moonshot", "mckaywrigley",
     "freepik", "alex_prompter", "heyrobinai", "ciguleva", "Synthetic_Copy",
     "sama", "OpenAI",
-    "RG_Leachman", "minchoi",
 ]
 ACCOUNTS_PER_BATCH = 10  # Small batches for reliable results
 
@@ -208,32 +207,29 @@ def main():
     # Load dedup set
     seen_urls = load_seen_ids(seen_file)
 
-    # Date range: last 24 hours
-    start_date = (datetime.now(timezone.utc) - timedelta(hours=24)).strftime("%Y-%m-%d")
-    end_date = (datetime.now(timezone.utc) + timedelta(days=1)).strftime("%Y-%m-%d")
+    # Date range: use Twitter's since: operator directly in search query
+    since_date = (datetime.now(timezone.utc) - timedelta(hours=28)).strftime("%Y-%m-%d")
 
     # Build all search inputs
     searches = []
 
-    # Keyword searches
+    # Keyword searches - append since: to each query
     for query in KEYWORD_SEARCHES:
+        query_with_date = f"{query} since:{since_date}"
         searches.append({
-            "searchTerms": [query],
+            "searchTerms": [query_with_date],
             "maxItems": MAX_ITEMS_PER_SEARCH,
             "sort": "Top",
-            "start": start_date,
-            "end": end_date,
         })
 
     # Account searches (auto-split into small batches of ACCOUNTS_PER_BATCH)
     for i in range(0, len(ALL_ACCOUNTS), ACCOUNTS_PER_BATCH):
         batch = ALL_ACCOUNTS[i:i + ACCOUNTS_PER_BATCH]
+        query = build_account_search(batch) + f" since:{since_date}"
         searches.append({
-            "searchTerms": [build_account_search(batch)],
+            "searchTerms": [query],
             "maxItems": MAX_ITEMS_PER_SEARCH,
             "sort": "Top",
-            "start": start_date,
-            "end": end_date,
         })
 
     # Launch all actors in parallel
