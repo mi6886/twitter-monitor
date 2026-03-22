@@ -267,10 +267,20 @@ def main():
         items = get_dataset_items(dataset_id)
         print(f"    Got {len(items)} items")
 
+        cutoff_time = datetime.now(timezone.utc) - timedelta(hours=28)  # 28h buffer for timezone edge cases
         for item in items:
             faves = item.get("favorite_count", 0)
             if faves < MIN_FAVES:
                 continue
+            # Hard date filter: discard tweets older than 28 hours
+            created_at = item.get("created_at", "")
+            if created_at:
+                try:
+                    tweet_time = parsedate_to_datetime(created_at)
+                    if tweet_time < cutoff_time:
+                        continue
+                except Exception:
+                    pass  # If parse fails, keep the tweet
             if is_noise(item):
                 continue
             tweet = extract_tweet(item)
