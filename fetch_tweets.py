@@ -36,8 +36,8 @@ KEYWORD_SEARCHES = [
     '("DAN KOE" OR "Peter Steinberger" OR OpenClaw OR "Nano banana") min_faves:2000',
 ]
 
-# --- Monitored accounts (3 batches) ---
-ACCOUNTS_BATCH_1 = [
+# --- Monitored accounts (all in one list, auto-split into small batches) ---
+ALL_ACCOUNTS = [
     "thedankoe", "paulg", "ycombinator", "petergyang", "lexfridman",
     "moltbook", "higgsfield", "perplexity_ai", "NVIDIAAI", "antigravity",
     "googlechrome", "nvidianewsroom", "AMDRadeon", "Microsoft", "NVIDIAGeForce",
@@ -47,8 +47,6 @@ ACCOUNTS_BATCH_1 = [
     "bcherny", "AnthropicAI", "claudeai", "zarazhangrui", "karpathy",
     "openclaw", "steipete", "lukas_m_ziegler", "emmanuel_2m", "saniaspeaks_",
     "CyberRobooo", "godofprompt",
-]
-ACCOUNTS_BATCH_2 = [
     "mikefutia", "ai_bread", "dwarkesh_sp", "PJaccetturo", "OpenAIDevs",
     "billpeeb", "gabriel1", "vista8", "adcock_brett", "reve",
     "skirano", "genel_ai", "tapehead_Lab", "n8n_io", "GoogleAIStudio",
@@ -58,8 +56,6 @@ ACCOUNTS_BATCH_2 = [
     "levie", "GitHubProjects", "starter_story", "levelsio", "deedydas",
     "heyshrutimishra", "DKThomp", "rasbt", "DavidOndrej1", "mims",
     "arena", "SamuelAlbanie",
-]
-ACCOUNTS_BATCH_3 = [
     "itsPaulAi", "snowmaker", "GoogleDeepMind", "GoogleLabs", "ivanboroja",
     "tranmautritam", "Siron93", "kimmonismus", "dickiebush", "awilkinson",
     "huggingface", "zoink", "gregisenberg", "localhost_4173", "aakashgupta",
@@ -69,7 +65,9 @@ ACCOUNTS_BATCH_3 = [
     "DrJimFan", "op7418", "TechieBySA", "Kimi_Moonshot", "mckaywrigley",
     "freepik", "alex_prompter", "heyrobinai", "ciguleva", "Synthetic_Copy",
     "sama", "OpenAI",
+    "RG_Leachman", "minchoi",
 ]
+ACCOUNTS_PER_BATCH = 10  # Small batches for reliable results
 
 # --- Noise filters ---
 NOISE_PATTERNS = [
@@ -227,8 +225,9 @@ def main():
             "end": end_date,
         })
 
-    # Account searches (3 batches)
-    for batch in [ACCOUNTS_BATCH_1, ACCOUNTS_BATCH_2, ACCOUNTS_BATCH_3]:
+    # Account searches (auto-split into small batches of ACCOUNTS_PER_BATCH)
+    for i in range(0, len(ALL_ACCOUNTS), ACCOUNTS_PER_BATCH):
+        batch = ALL_ACCOUNTS[i:i + ACCOUNTS_PER_BATCH]
         searches.append({
             "searchTerms": [build_account_search(batch)],
             "maxItems": MAX_ITEMS_PER_SEARCH,
