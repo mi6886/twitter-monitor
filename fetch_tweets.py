@@ -200,8 +200,10 @@ def main():
     output_dir = Path(__file__).parent / "data"
     output_dir.mkdir(exist_ok=True)
 
+    # Use Beijing time (UTC+8) for period determination
+    beijing_hour = (datetime.now(timezone.utc).hour + 8) % 24
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    period = "morning" if datetime.now(timezone.utc).hour < 12 else "evening"
+    period = "morning" if beijing_hour < 12 else "evening"
     output_file = output_dir / f"feed-{today}-{period}.json"
     seen_file = output_dir / "seen_urls.json"
 
