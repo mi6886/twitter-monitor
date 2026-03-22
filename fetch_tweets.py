@@ -10,7 +10,8 @@ import sys
 import time
 import re
 import hashlib
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.parse import urlencode
@@ -207,6 +208,10 @@ def main():
     # Load dedup set
     seen_urls = load_seen_ids(seen_file)
 
+    # Date range: last 48 hours to catch tweets that grow in likes
+    start_date = (datetime.now(timezone.utc) - timedelta(hours=48)).strftime("%Y-%m-%d")
+    end_date = (datetime.now(timezone.utc) + timedelta(days=1)).strftime("%Y-%m-%d")
+
     # Build all search inputs
     searches = []
 
@@ -216,6 +221,8 @@ def main():
             "searchTerms": [query],
             "maxItems": MAX_ITEMS_PER_SEARCH,
             "sort": "Top",
+            "start": start_date,
+            "end": end_date,
         })
 
     # Account searches (3 batches)
@@ -224,6 +231,8 @@ def main():
             "searchTerms": [build_account_search(batch)],
             "maxItems": MAX_ITEMS_PER_SEARCH,
             "sort": "Top",
+            "start": start_date,
+            "end": end_date,
         })
 
     # Launch all actors in parallel
