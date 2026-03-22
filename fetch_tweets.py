@@ -230,7 +230,7 @@ def main():
     print(f"Launching {len(searches)} actor runs...")
     run_ids = []
     for i, search_input in enumerate(searches):
-        print(f"  [{i+1}/{len(searches)}] Starting: {search_input['searchQueries'][0][:60]}...")
+        print(f"  [{i+1}/{len(searches)}] Starting: {search_input['searchTerms'][0][:60]}...")
         run_id = start_actor(search_input)
         run_ids.append(run_id)
         print(f"    Run ID: {run_id}")
