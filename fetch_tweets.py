@@ -213,7 +213,7 @@ def main():
     # Keyword searches
     for query in KEYWORD_SEARCHES:
         searches.append({
-            "searchQueries": [query],
+            "searchTerms": [query],
             "maxItems": MAX_ITEMS_PER_SEARCH,
             "sort": "Top",
         })
@@ -221,7 +221,7 @@ def main():
     # Account searches (3 batches)
     for batch in [ACCOUNTS_BATCH_1, ACCOUNTS_BATCH_2, ACCOUNTS_BATCH_3]:
         searches.append({
-            "searchQueries": [build_account_search(batch)],
+            "searchTerms": [build_account_search(batch)],
             "maxItems": MAX_ITEMS_PER_SEARCH,
             "sort": "Top",
         })
