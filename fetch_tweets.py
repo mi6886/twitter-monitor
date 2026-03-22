@@ -21,7 +21,7 @@ APIFY_TOKEN = os.environ["APIFY_TOKEN"]
 APIFY_BASE = "https://api.apify.com/v2"
 ACTOR_ID = "xtdata~twitter-x-scraper"
 MIN_FAVES = 5000
-MAX_ITEMS_PER_SEARCH = 100
+MAX_ITEMS_PER_SEARCH = 50
 POLL_INTERVAL = 15  # seconds
 POLL_TIMEOUT = 300  # 5 minutes per actor
 
