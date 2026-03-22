@@ -267,7 +267,7 @@ def main():
         items = get_dataset_items(dataset_id)
         print(f"    Got {len(items)} items")
 
-        cutoff_time = datetime.now(timezone.utc) - timedelta(hours=28)  # 28h buffer for timezone edge cases
+        cutoff_time = datetime.now(timezone.utc) - timedelta(hours=24)
         for item in items:
             faves = item.get("favorite_count", 0)
             if faves < MIN_FAVES:
