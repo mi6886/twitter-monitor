@@ -2,10 +2,10 @@ name: Fetch AI/Tech Tweets
 
 on:
   schedule:
-    # Run at 7:00 AM Beijing time (23:00 UTC previous day)
-    - cron: '0 23 * * *'
-    # Run at 7:00 PM Beijing time (11:00 UTC)
-    - cron: '0 11 * * *'
+    # Run at 6:00 AM Beijing time (22:00 UTC previous day)
+    - cron: '0 22 * * *'
+    # Run at 6:00 PM Beijing time (10:00 UTC)
+    - cron: '0 10 * * *'
   workflow_dispatch: # Allow manual trigger
 
 permissions:
