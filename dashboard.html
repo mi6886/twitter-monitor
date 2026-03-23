@@ -402,7 +402,7 @@
     other:  { label: '其他 AI/Tech',        cls: 'tag-other'  },
   };
 
-  let currentDate = '';  // empty = latest
+  let currentDate = new Date().toISOString().slice(0, 10);  // default to today
 
   function setDate(dateStr) {
     currentDate = dateStr;
@@ -500,39 +500,43 @@
     statsBar.style.display = 'none';
     area.innerHTML = '<div class="state-box"><div class="spinner"></div><p>正在加载…</p></div>';
 
-    let filename;
-    if (currentDate) {
-      filename = `data/feed-${currentDate}-${period}.json`;
-    } else {
-      filename = period === 'morning'
-        ? 'data/feed-latest-morning.json'
-        : 'data/feed-latest-evening.json';
-    }
+    // 始终使用带日期的文件名，确保数据与日期一一对应
+    const filename = `data/feed-${currentDate}-${period}.json`;
+    const periodLabel = period === 'morning' ? '早间' : '晚间';
 
     try {
       const res = await fetch(filename);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      if (!res.ok) throw new Error('no-data');
       const data = await res.json();
 
-      allTweets = (data.tweets || [])
+      // 只显示经过 AI 过滤的推文（有 summary_zh 字段的）
+      const filtered = (data.tweets || []).filter(t => t.summary_zh);
+
+      if (filtered.length === 0) {
+        // 有文件但没有过滤后的数据 → 数据尚未处理
+        allTweets = [];
+        document.getElementById('date-text').textContent = `${currentDate} · ${periodLabel}`;
+        document.getElementById('count-text').textContent = '';
+        statsBar.style.display = 'none';
+        area.innerHTML = '<div class="state-box"><span class="state-icon">📭</span><p>该时段数据尚未处理</p></div>';
+        return;
+      }
+
+      allTweets = filtered
         .map(t => ({ ...t, _cat: categorize(t) }))
         .sort((a, b) => (b.favorite_count || 0) - (a.favorite_count || 0));
 
-      document.getElementById('date-text').textContent =
-        data.date
-          ? `${data.date} · ${period === 'morning' ? '早间' : '晚间'}`
-          : period === 'morning' ? '早间' : '晚间';
+      document.getElementById('date-text').textContent = `${data.date || currentDate} · ${periodLabel}`;
       document.getElementById('count-text').textContent = `共 ${allTweets.length} 条推文`;
 
       render();
     } catch (err) {
+      // 文件不存在 → 该时段暂无数据
       allTweets = [];
-      area.innerHTML = '<div class="state-box"><span class="state-icon">⚠️</span><p>无法加载数据</p></div>';
-      errArea.innerHTML = `
-        <div class="error-banner">
-          <strong>加载失败：</strong>${err.message}
-          &nbsp;—&nbsp;请确认 <code>${filename}</code> 文件存在，或通过本地 HTTP 服务器打开此页面。
-        </div>`;
+      document.getElementById('date-text').textContent = `${currentDate} · ${periodLabel}`;
+      document.getElementById('count-text').textContent = '';
+      statsBar.style.display = 'none';
+      area.innerHTML = '<div class="state-box"><span class="state-icon">📭</span><p>该时段暂无数据</p></div>';
     }
   }
 
