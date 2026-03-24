@@ -122,11 +122,10 @@ def poll_run(run_id):
 
 
 def get_dataset_items(dataset_id):
-    """Fetch items from a dataset with field selection."""
+    """Fetch all fields from a dataset (no field restriction)."""
     url = (
         f"{APIFY_BASE}/datasets/{dataset_id}/items"
         f"?token={APIFY_TOKEN}"
-        f"&fields=url,full_text,favorite_count,author,created_at"
         f"&limit=100"
     )
     req = Request(url)
@@ -153,25 +152,41 @@ def is_noise(tweet):
 
 
 def extract_tweet(tweet):
-    """Extract standardized tweet data."""
+    """Extract standardized tweet data with all available fields."""
     author = tweet.get("author", {})
     if isinstance(author, dict):
         screen_name = author.get("screen_name", "unknown")
     else:
         screen_name = str(author) if author else "unknown"
 
+    tweet_id = tweet.get("id_str") or tweet.get("id", "")
+
     url = tweet.get("url", "")
-    if not url and screen_name != "unknown":
-        tweet_id = tweet.get("id_str") or tweet.get("id", "")
-        if tweet_id:
-            url = f"https://x.com/{screen_name}/status/{tweet_id}"
+    if not url and screen_name != "unknown" and tweet_id:
+        url = f"https://x.com/{screen_name}/status/{tweet_id}"
+
+    # Extract quoted tweet text if present
+    quoted_tweet = tweet.get("quoted_tweet") or tweet.get("quoted_status") or {}
+    quoted_text = ""
+    if isinstance(quoted_tweet, dict):
+        quoted_text = quoted_tweet.get("full_text", "")
+
+    # Extract media info if present
+    media = tweet.get("media") or tweet.get("extended_entities", {}).get("media") or tweet.get("entities", {}).get("media") or []
 
     return {
-        "screen_name": screen_name,
-        "full_text": tweet.get("full_text", ""),
-        "favorite_count": tweet.get("favorite_count", 0),
+        "tweet_id": str(tweet_id) if tweet_id else "",
         "url": url,
+        "screen_name": screen_name,
         "created_at": tweet.get("created_at", ""),
+        "full_text": tweet.get("full_text", ""),
+        "lang": tweet.get("lang", ""),
+        "favorite_count": tweet.get("favorite_count", 0),
+        "retweet_count": tweet.get("retweet_count", 0),
+        "reply_count": tweet.get("reply_count", 0),
+        "view_count": tweet.get("view_count") or (tweet.get("views", {}).get("count") if isinstance(tweet.get("views"), dict) else 0),
+        "quoted_tweet_text": quoted_text,
+        "media": media,
     }
 
 
