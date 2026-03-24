@@ -509,20 +509,19 @@
       if (!res.ok) throw new Error('no-data');
       const data = await res.json();
 
-      // 只显示经过 AI 过滤的推文（有 summary_zh 字段的）
-      const filtered = (data.tweets || []).filter(t => t.summary_zh);
+      // feed 文件已经过 AI/tech 关键词过滤，直接显示
+      const tweets = data.tweets || [];
 
-      if (filtered.length === 0) {
-        // 有文件但没有过滤后的数据 → 数据尚未处理
+      if (tweets.length === 0) {
         allTweets = [];
         document.getElementById('date-text').textContent = `${currentDate} · ${periodLabel}`;
         document.getElementById('count-text').textContent = '';
         statsBar.style.display = 'none';
-        area.innerHTML = '<div class="state-box"><span class="state-icon">📭</span><p>该时段数据尚未处理</p></div>';
+        area.innerHTML = '<div class="state-box"><span class="state-icon">📭</span><p>该时段暂无数据</p></div>';
         return;
       }
 
-      allTweets = filtered
+      allTweets = tweets
         .map(t => ({ ...t, _cat: categorize(t) }))
         .sort((a, b) => (b.favorite_count || 0) - (a.favorite_count || 0));
 

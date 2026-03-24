@@ -1,7 +1,7 @@
 """
 Fetch AI/tech tweets from Twitter via Apify xtdata/twitter-x-scraper.
-Filters for tweets with >= 5000 likes, deduplicates across runs,
-and saves results as JSON for Claude to process.
+Filters for tweets with >= 2000 likes, deduplicates across runs,
+applies AI/tech keyword filter, and saves both raw and filtered results.
 """
 
 import json
@@ -175,6 +175,52 @@ def extract_tweet(tweet):
     }
 
 
+AI_KEYWORDS = [
+    'ai', 'artificial intelligence', 'machine learning', 'deep learning',
+    'llm', 'large language model', 'gpt', 'chatgpt', 'openai', 'claude', 'anthropic',
+    'gemini', 'deepmind', 'google ai', 'nvidia', 'jensen', 'gpu', 'cuda', 'blackwell',
+    'robot', 'humanoid', 'autonomous', 'self-driving', 'optimus',
+    'cursor', 'copilot', 'codex', 'programming', 'developer', 'coding', 'vibecoding',
+    'semiconductor', 'chip', 'quantum', 'transformer', 'diffusion', 'midjourney',
+    'stable diffusion', 'sora', 'text-to', 'image generation', 'video generation',
+    'agi', 'superintelligence', 'alignment', 'rlhf', 'fine-tuning', 'fine tuning',
+    'embedding', 'vector', 'rag', 'retrieval', 'token', 'context window', 'prompt',
+    'agent', 'ai agent', 'mcp', 'model context', 'tool use', 'function calling',
+    'perplexity', 'mistral', 'llama', 'meta ai', 'xai', 'grok', 'groq',
+    'notebooklm', 'devin', 'cognition', 'replit', 'v0', 'bolt', 'lovable',
+    'sam altman', 'dario', 'elon musk', 'satya', 'sundar', 'zuckerberg',
+    'apple intelligence', 'siri', 'neuralink', 'brain-computer',
+    'saas', 'api', 'cloud', 'infrastructure',
+    'open source', 'github', 'hugging face',
+    'benchmark', 'eval', 'sota', 'state of the art',
+    'arxiv', 'breakthrough', 'automation', 'workflow',
+    'data', 'analytics', 'model', 'training', 'inference',
+    'claude code', 'windsurf', 'trae', 'openclaw', 'nano banana',
+    'tech', 'startup', 'silicon valley',
+]
+
+NON_AI_PATTERNS = [
+    r'\b(sepak bola|football|basketball|nba|soccer|cricket|la liga|premier league)\b',
+    r'\b(drama|kdrama|anime|manga|kpop|concert|movie|film|tv show)\b',
+    r'\b(horoscope|zodiac|astrology|aquarius|scorpio|pisces)\b',
+    r'\b(recipe|cooking|food|restaurant|cafe)\b',
+    r'\b(nikah|pasangan|pacar|suami|istri|cinta|jodoh|mantan)\b',
+    r'\b(heath ledger|joker|batman|wildlife|eco system)\b',
+]
+
+
+def is_ai_related(tweet):
+    """Check if a tweet is AI/tech related using keyword matching."""
+    text = (tweet.get("full_text", "") + " " + tweet.get("screen_name", "")).lower()
+    for pat in NON_AI_PATTERNS:
+        if re.search(pat, text):
+            return False
+    for kw in AI_KEYWORDS:
+        if kw in text:
+            return True
+    return False
+
+
 def build_account_search(accounts):
     """Build search query for a batch of accounts."""
     froms = " OR ".join(f"from:{a}" for a in accounts)
@@ -287,27 +333,45 @@ def main():
     # Sort by likes descending
     all_tweets.sort(key=lambda t: t["favorite_count"], reverse=True)
 
-    # Save results
-    result = {
+    # --- Save RAW results (all tweets above MIN_FAVES, before AI filter) ---
+    raw_result = {
         "date": today,
         "period": period,
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "total_tweets": len(all_tweets),
         "tweets": all_tweets,
     }
-    output_file.write_text(json.dumps(result, ensure_ascii=False, indent=2))
-    print(f"\nSaved {len(all_tweets)} tweets to {output_file}")
+    raw_file = output_dir / f"raw-{today}-{period}.json"
+    raw_file.write_text(json.dumps(raw_result, ensure_ascii=False, indent=2))
+    print(f"\nSaved {len(all_tweets)} raw tweets to {raw_file}")
+
+    raw_latest = output_dir / f"raw-latest-{period}.json"
+    raw_latest.write_text(json.dumps(raw_result, ensure_ascii=False, indent=2))
+
+    # --- Apply AI/tech keyword filter ---
+    filtered_tweets = [t for t in all_tweets if is_ai_related(t)]
+    print(f"AI/tech filter: {len(all_tweets)} raw → {len(filtered_tweets)} filtered")
+
+    feed_result = {
+        "date": today,
+        "period": period,
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "total_tweets": len(filtered_tweets),
+        "tweets": filtered_tweets,
+    }
+    feed_file = output_dir / f"feed-{today}-{period}.json"
+    feed_file.write_text(json.dumps(feed_result, ensure_ascii=False, indent=2))
+    print(f"Saved {len(filtered_tweets)} filtered tweets to {feed_file}")
+
+    feed_latest = output_dir / f"feed-latest-{period}.json"
+    feed_latest.write_text(json.dumps(feed_result, ensure_ascii=False, indent=2))
+    print(f"Saved latest to {feed_latest}")
 
     # Update seen URLs (keep last 2000 to prevent unbounded growth)
     seen_list = sorted(seen_urls)
     if len(seen_list) > 2000:
         seen_list = seen_list[-2000:]
     save_seen_ids(seen_file, seen_list)
-
-    # Also save as latest for easy access
-    latest_file = output_dir / f"feed-latest-{period}.json"
-    latest_file.write_text(json.dumps(result, ensure_ascii=False, indent=2))
-    print(f"Saved latest to {latest_file}")
 
 
 if __name__ == "__main__":
