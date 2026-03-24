@@ -460,7 +460,7 @@
       const rank = allTweets.indexOf(tweet) + 1;
       const cat = tweet._cat;
       const tag = TAG_META[cat];
-      const text = tweet.summary_zh || cleanText(tweet.full_text);
+      const text = cleanText(tweet.full_text);
       const handle = tweet.screen_name || '?';
 
       const card = document.createElement('div');
@@ -500,8 +500,8 @@
     statsBar.style.display = 'none';
     area.innerHTML = '<div class="state-box"><div class="spinner"></div><p>正在加载…</p></div>';
 
-    // 始终使用带日期的文件名，确保数据与日期一一对应
-    const filename = `data/feed-${currentDate}-${period}.json`;
+    // 只读取 final 文件（已过滤+去重），不读 raw 文件
+    const filename = `data/final-${currentDate}-${period}.json`;
     const periodLabel = period === 'morning' ? '早间' : '晚间';
 
     try {

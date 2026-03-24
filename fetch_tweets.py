@@ -344,27 +344,20 @@ def main():
     raw_file.write_text(json.dumps(raw_result, ensure_ascii=False, indent=2))
     print(f"\nSaved {len(all_tweets)} raw tweets to {raw_file}")
 
-    raw_latest = output_dir / f"raw-latest-{period}.json"
-    raw_latest.write_text(json.dumps(raw_result, ensure_ascii=False, indent=2))
-
     # --- Apply AI/tech keyword filter ---
     filtered_tweets = [t for t in all_tweets if is_ai_related(t)]
     print(f"AI/tech filter: {len(all_tweets)} raw → {len(filtered_tweets)} filtered")
 
-    feed_result = {
+    final_result = {
         "date": today,
         "period": period,
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "total_tweets": len(filtered_tweets),
         "tweets": filtered_tweets,
     }
-    feed_file = output_dir / f"feed-{today}-{period}.json"
-    feed_file.write_text(json.dumps(feed_result, ensure_ascii=False, indent=2))
-    print(f"Saved {len(filtered_tweets)} filtered tweets to {feed_file}")
-
-    feed_latest = output_dir / f"feed-latest-{period}.json"
-    feed_latest.write_text(json.dumps(feed_result, ensure_ascii=False, indent=2))
-    print(f"Saved latest to {feed_latest}")
+    final_file = output_dir / f"final-{today}-{period}.json"
+    final_file.write_text(json.dumps(final_result, ensure_ascii=False, indent=2))
+    print(f"Saved {len(filtered_tweets)} final tweets to {final_file}")
 
     # Update seen URLs (keep last 2000 to prevent unbounded growth)
     seen_list = sorted(seen_urls)
