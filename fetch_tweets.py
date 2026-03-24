@@ -1,7 +1,7 @@
 """
 Fetch AI/tech tweets from Twitter via Apify xtdata/twitter-x-scraper.
 Filters for tweets with >= 2000 likes, deduplicates across runs,
-applies AI/tech keyword filter, and saves both raw and filtered results.
+and saves raw results as structured JSON.
 """
 
 import json
@@ -190,51 +190,6 @@ def extract_tweet(tweet):
     }
 
 
-# Regex patterns for AI/tech detection (word-boundary aware)
-AI_PATTERNS = [
-    r'\bai\b', r'\bartificial intelligence\b', r'\bmachine learning\b', r'\bdeep learning\b',
-    r'\bllm\b', r'\blarge language model\b', r'\bgpt[-\s]?\d', r'\bchatgpt\b', r'\bopenai\b',
-    r'\bclaude\b', r'\banthropic\b', r'\bgemini\b(?!.*\b(fourth|pond|performance|chanting)\b)',
-    r'\bdeepmind\b', r'\bgoogle ai\b', r'\bnvidia\b', r'\bjensen huang\b', r'\bgpu\b',
-    r'\bcuda\b', r'\bblackwell\b', r'\brobot\b', r'\bhumanoid\b', r'\bself-driving\b',
-    r'\bcursor\b(?!.*\bset\b)', r'\bcopilot\b', r'\bcodex\b', r'\bvibecoding\b', r'\bvibe coding\b',
-    r'\bsemiconductor\b', r'\bquantum\b', r'\bmidjourney\b', r'\bstable diffusion\b',
-    r'\bsora\b', r'\bagi\b', r'\bsuperintelligence\b', r'\brlhf\b', r'\bfine.tuning\b',
-    r'\bembedding\b', r'\brag\b(?=.*\b(pipeline|retrieval|vector)\b)', r'\bcontext window\b',
-    r'\bai agent\b', r'\bmodel context\b', r'\btool use\b', r'\bfunction calling\b',
-    r'\bperplexity\b', r'\bmistral\b', r'\bllama\b(?!.*\b(animal|zoo)\b)', r'\bmeta ai\b',
-    r'\bxai\b', r'\bgrok\b', r'\bgroq\b', r'\bnotebooklm\b', r'\bdevin\b(?=.*\b(ai|code|agent)\b)',
-    r'\breplit\b', r'\bsam altman\b', r'\bdario\b(?=.*\b(amodei|anthropic|claude)\b)',
-    r'\belon musk\b', r'\bneuralink\b', r'\bopen.?source\b(?=.*\b(code|model|weight)\b)',
-    r'\bgithub\b', r'\bhugging face\b', r'\barxiv\b',
-    r'\bclaude code\b', r'\bwindsurf\b', r'\btrae\b(?=.*\b(ai|ide|code)\b)',
-    r'\bopenclaw\b', r'\bnano banana\b',
-    r'\bai\b.*\b(tool|app|agent|model|startup|company|chip|generate|image|video|code)\b',
-    r'\b(tool|app|agent|model|startup|company|chip|generate|image|video|code)\b.*\bai\b',
-]
-
-NON_AI_PATTERNS = [
-    r'\b(sepak bola|football|basketball|nba|soccer|cricket|la liga|premier league|valverde|arbeloa|mourinho)\b',
-    r'\b(drama|kdrama|anime|manga|kpop|concert|movie|film|tv show|ganon|zelda)\b',
-    r'\b(horoscope|zodiac|astrology|aquarius|scorpio|pisces)\b',
-    r'\b(recipe|cooking|food|restaurant|cafe)\b',
-    r'\b(nikah|pasangan|pacar|suami|istri|cinta|jodoh|mantan)\b',
-    r'\b(heath ledger|joker|batman|wildlife|eco system|casino|gamble)\b',
-]
-
-
-def is_ai_related(tweet):
-    """Check if a tweet is AI/tech related using regex patterns."""
-    text = (tweet.get("full_text", "") + " @" + tweet.get("screen_name", "")).lower()
-    for pat in NON_AI_PATTERNS:
-        if re.search(pat, text):
-            return False
-    for pat in AI_PATTERNS:
-        if re.search(pat, text):
-            return True
-    return False
-
-
 def build_account_search(accounts):
     """Build search query for a batch of accounts."""
     froms = " OR ".join(f"from:{a}" for a in accounts)
@@ -262,7 +217,6 @@ def main():
     beijing_hour = beijing_now.hour
     today = beijing_now.strftime("%Y-%m-%d")
     period = "morning" if beijing_hour < 12 else "evening"
-    output_file = output_dir / f"feed-{today}-{period}.json"
     seen_file = output_dir / "seen_urls.json"
 
     # Load dedup set
@@ -358,21 +312,6 @@ def main():
     raw_file = output_dir / f"raw-{today}-{period}.json"
     raw_file.write_text(json.dumps(raw_result, ensure_ascii=False, indent=2))
     print(f"\nSaved {len(all_tweets)} raw tweets to {raw_file}")
-
-    # --- Apply AI/tech keyword filter ---
-    filtered_tweets = [t for t in all_tweets if is_ai_related(t)]
-    print(f"AI/tech filter: {len(all_tweets)} raw → {len(filtered_tweets)} filtered")
-
-    final_result = {
-        "date": today,
-        "period": period,
-        "fetched_at": datetime.now(timezone.utc).isoformat(),
-        "total_tweets": len(filtered_tweets),
-        "tweets": filtered_tweets,
-    }
-    final_file = output_dir / f"final-{today}-{period}.json"
-    final_file.write_text(json.dumps(final_result, ensure_ascii=False, indent=2))
-    print(f"Saved {len(filtered_tweets)} final tweets to {final_file}")
 
     # Update seen URLs (keep last 2000 to prevent unbounded growth)
     seen_list = sorted(seen_urls)
