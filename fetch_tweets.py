@@ -175,48 +175,47 @@ def extract_tweet(tweet):
     }
 
 
-AI_KEYWORDS = [
-    'ai', 'artificial intelligence', 'machine learning', 'deep learning',
-    'llm', 'large language model', 'gpt', 'chatgpt', 'openai', 'claude', 'anthropic',
-    'gemini', 'deepmind', 'google ai', 'nvidia', 'jensen', 'gpu', 'cuda', 'blackwell',
-    'robot', 'humanoid', 'autonomous', 'self-driving', 'optimus',
-    'cursor', 'copilot', 'codex', 'programming', 'developer', 'coding', 'vibecoding',
-    'semiconductor', 'chip', 'quantum', 'transformer', 'diffusion', 'midjourney',
-    'stable diffusion', 'sora', 'text-to', 'image generation', 'video generation',
-    'agi', 'superintelligence', 'alignment', 'rlhf', 'fine-tuning', 'fine tuning',
-    'embedding', 'vector', 'rag', 'retrieval', 'token', 'context window', 'prompt',
-    'agent', 'ai agent', 'mcp', 'model context', 'tool use', 'function calling',
-    'perplexity', 'mistral', 'llama', 'meta ai', 'xai', 'grok', 'groq',
-    'notebooklm', 'devin', 'cognition', 'replit', 'v0', 'bolt', 'lovable',
-    'sam altman', 'dario', 'elon musk', 'satya', 'sundar', 'zuckerberg',
-    'apple intelligence', 'siri', 'neuralink', 'brain-computer',
-    'saas', 'api', 'cloud', 'infrastructure',
-    'open source', 'github', 'hugging face',
-    'benchmark', 'eval', 'sota', 'state of the art',
-    'arxiv', 'breakthrough', 'automation', 'workflow',
-    'data', 'analytics', 'model', 'training', 'inference',
-    'claude code', 'windsurf', 'trae', 'openclaw', 'nano banana',
-    'tech', 'startup', 'silicon valley',
+# Regex patterns for AI/tech detection (word-boundary aware)
+AI_PATTERNS = [
+    r'\bai\b', r'\bartificial intelligence\b', r'\bmachine learning\b', r'\bdeep learning\b',
+    r'\bllm\b', r'\blarge language model\b', r'\bgpt[-\s]?\d', r'\bchatgpt\b', r'\bopenai\b',
+    r'\bclaude\b', r'\banthropic\b', r'\bgemini\b(?!.*\b(fourth|pond|performance|chanting)\b)',
+    r'\bdeepmind\b', r'\bgoogle ai\b', r'\bnvidia\b', r'\bjensen huang\b', r'\bgpu\b',
+    r'\bcuda\b', r'\bblackwell\b', r'\brobot\b', r'\bhumanoid\b', r'\bself-driving\b',
+    r'\bcursor\b(?!.*\bset\b)', r'\bcopilot\b', r'\bcodex\b', r'\bvibecoding\b', r'\bvibe coding\b',
+    r'\bsemiconductor\b', r'\bquantum\b', r'\bmidjourney\b', r'\bstable diffusion\b',
+    r'\bsora\b', r'\bagi\b', r'\bsuperintelligence\b', r'\brlhf\b', r'\bfine.tuning\b',
+    r'\bembedding\b', r'\brag\b(?=.*\b(pipeline|retrieval|vector)\b)', r'\bcontext window\b',
+    r'\bai agent\b', r'\bmodel context\b', r'\btool use\b', r'\bfunction calling\b',
+    r'\bperplexity\b', r'\bmistral\b', r'\bllama\b(?!.*\b(animal|zoo)\b)', r'\bmeta ai\b',
+    r'\bxai\b', r'\bgrok\b', r'\bgroq\b', r'\bnotebooklm\b', r'\bdevin\b(?=.*\b(ai|code|agent)\b)',
+    r'\breplit\b', r'\bsam altman\b', r'\bdario\b(?=.*\b(amodei|anthropic|claude)\b)',
+    r'\belon musk\b', r'\bneuralink\b', r'\bopen.?source\b(?=.*\b(code|model|weight)\b)',
+    r'\bgithub\b', r'\bhugging face\b', r'\barxiv\b',
+    r'\bclaude code\b', r'\bwindsurf\b', r'\btrae\b(?=.*\b(ai|ide|code)\b)',
+    r'\bopenclaw\b', r'\bnano banana\b',
+    r'\bai\b.*\b(tool|app|agent|model|startup|company|chip|generate|image|video|code)\b',
+    r'\b(tool|app|agent|model|startup|company|chip|generate|image|video|code)\b.*\bai\b',
 ]
 
 NON_AI_PATTERNS = [
-    r'\b(sepak bola|football|basketball|nba|soccer|cricket|la liga|premier league)\b',
-    r'\b(drama|kdrama|anime|manga|kpop|concert|movie|film|tv show)\b',
+    r'\b(sepak bola|football|basketball|nba|soccer|cricket|la liga|premier league|valverde|arbeloa|mourinho)\b',
+    r'\b(drama|kdrama|anime|manga|kpop|concert|movie|film|tv show|ganon|zelda)\b',
     r'\b(horoscope|zodiac|astrology|aquarius|scorpio|pisces)\b',
     r'\b(recipe|cooking|food|restaurant|cafe)\b',
     r'\b(nikah|pasangan|pacar|suami|istri|cinta|jodoh|mantan)\b',
-    r'\b(heath ledger|joker|batman|wildlife|eco system)\b',
+    r'\b(heath ledger|joker|batman|wildlife|eco system|casino|gamble)\b',
 ]
 
 
 def is_ai_related(tweet):
-    """Check if a tweet is AI/tech related using keyword matching."""
-    text = (tweet.get("full_text", "") + " " + tweet.get("screen_name", "")).lower()
+    """Check if a tweet is AI/tech related using regex patterns."""
+    text = (tweet.get("full_text", "") + " @" + tweet.get("screen_name", "")).lower()
     for pat in NON_AI_PATTERNS:
         if re.search(pat, text):
             return False
-    for kw in AI_KEYWORDS:
-        if kw in text:
+    for pat in AI_PATTERNS:
+        if re.search(pat, text):
             return True
     return False
 
