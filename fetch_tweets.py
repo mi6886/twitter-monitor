@@ -488,8 +488,10 @@ def main():
     else:
         period = "morning" if beijing_hour < 12 else "evening"
 
-    # Always read seen_urls from main data dir (shared dedup)
-    seen_file = Path(__file__).parent / "data" / "seen_urls.json"
+    if observe_mode:
+        seen_file = Path(__file__).parent / "data" / "observe_seen_urls.json"
+    else:
+        seen_file = Path(__file__).parent / "data" / "seen_urls.json"
 
     # Load dedup set
     seen_urls = load_seen_ids(seen_file)

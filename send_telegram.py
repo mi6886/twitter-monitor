@@ -148,11 +148,15 @@ def main():
 
     # --- Build message ---
     top = tweets[:TOP_N]
+    final_count = data.get('final_count', len(tweets))
+    review_count = data.get('review_count', '?')
     if observe_mode:
-        period_label = f"Observe {period}"
+        header = escape_md2(
+            f"[OBSERVE] {today} {period} | final {final_count} / review {review_count}"
+        )
     else:
         period_label = "Morning" if period == "morning" else "Evening"
-    header = escape_md2(f"AI News | {today} {period_label} | {data.get('final_count', len(tweets))} tweets")
+        header = escape_md2(f"AI News | {today} {period_label} | {final_count} tweets")
 
     lines = [f"*{header}*\n"]
     for i, tw in enumerate(top, 1):
