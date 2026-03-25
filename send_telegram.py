@@ -107,12 +107,21 @@ def save_sent_log(path, digests):
 # --- Main ---
 
 def main():
-    data_dir = Path(__file__).parent / "data"
+    observe_mode = os.environ.get("OBSERVE_MODE") == "1"
+
+    if observe_mode:
+        data_dir = Path(__file__).parent / "data" / "observe"
+    else:
+        data_dir = Path(__file__).parent / "data"
 
     # Determine current period (Beijing time)
     beijing_now = datetime.now(timezone.utc) + timedelta(hours=8)
     today = beijing_now.strftime("%Y-%m-%d")
-    period = "morning" if beijing_now.hour < 12 else "evening"
+
+    if observe_mode:
+        period = beijing_now.strftime("%H%M")
+    else:
+        period = "morning" if beijing_now.hour < 12 else "evening"
 
     final_file = data_dir / f"final-{today}-{period}.json"
     if not final_file.exists():
@@ -126,19 +135,23 @@ def main():
         print("No tweets in final file, skipping Telegram.")
         sys.exit(0)
 
-    # --- Dedup check ---
-    sent_log_file = data_dir / "telegram_sent.json"
-    tweet_urls = [t.get("url", "") for t in tweets]
-    digest = compute_digest(today, period, tweet_urls)
+    # --- Dedup check (skip in observe mode — always send) ---
+    if not observe_mode:
+        sent_log_file = data_dir / "telegram_sent.json"
+        tweet_urls = [t.get("url", "") for t in tweets]
+        digest = compute_digest(today, period, tweet_urls)
 
-    sent_digests = load_sent_log(sent_log_file)
-    if digest in sent_digests:
-        print(f"SKIP: digest {digest} already sent for {today}-{period}. No duplicate push.")
-        sys.exit(0)
+        sent_digests = load_sent_log(sent_log_file)
+        if digest in sent_digests:
+            print(f"SKIP: digest {digest} already sent for {today}-{period}. No duplicate push.")
+            sys.exit(0)
 
     # --- Build message ---
     top = tweets[:TOP_N]
-    period_label = "Morning" if period == "morning" else "Evening"
+    if observe_mode:
+        period_label = f"Observe {period}"
+    else:
+        period_label = "Morning" if period == "morning" else "Evening"
     header = escape_md2(f"AI News | {today} {period_label} | {data.get('final_count', len(tweets))} tweets")
 
     lines = [f"*{header}*\n"]
@@ -161,7 +174,7 @@ def main():
         message = message[:4090] + "\\.\\.\\."
 
     # --- Send with verified receipt ---
-    print(f"Sending {len(top)} tweets to Telegram (digest={digest})...")
+    print(f"Sending {len(top)} tweets to Telegram...")
     result = send_telegram(message)
 
     # Verify response
@@ -181,9 +194,10 @@ def main():
         print(f"Full response: {json.dumps(result)}", file=sys.stderr)
         sys.exit(1)
 
-    # --- Record digest to prevent re-send ---
-    sent_digests.add(digest)
-    save_sent_log(sent_log_file, sent_digests)
+    # --- Record digest to prevent re-send (skip in observe mode) ---
+    if not observe_mode:
+        sent_digests.add(digest)
+        save_sent_log(sent_log_file, sent_digests)
 
     print(f"Verified: message delivered (message_id={message_id}).")
 

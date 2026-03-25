@@ -470,15 +470,26 @@ def save_seen_ids(path, seen_dict, today_str):
 
 
 def main():
-    output_dir = Path(__file__).parent / "data"
-    output_dir.mkdir(exist_ok=True)
+    observe_mode = os.environ.get("OBSERVE_MODE") == "1"
+
+    if observe_mode:
+        output_dir = Path(__file__).parent / "data" / "observe"
+    else:
+        output_dir = Path(__file__).parent / "data"
+    output_dir.mkdir(parents=True, exist_ok=True)
 
     # Use Beijing time (UTC+8) for both period and date
     beijing_now = datetime.now(timezone.utc) + timedelta(hours=8)
     beijing_hour = beijing_now.hour
     today = beijing_now.strftime("%Y-%m-%d")
-    period = "morning" if beijing_hour < 12 else "evening"
-    seen_file = output_dir / "seen_urls.json"
+
+    if observe_mode:
+        period = beijing_now.strftime("%H%M")  # e.g. "1430"
+    else:
+        period = "morning" if beijing_hour < 12 else "evening"
+
+    # Always read seen_urls from main data dir (shared dedup)
+    seen_file = Path(__file__).parent / "data" / "seen_urls.json"
 
     # Load dedup set
     seen_urls = load_seen_ids(seen_file)
