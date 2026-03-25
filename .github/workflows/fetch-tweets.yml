@@ -50,10 +50,14 @@ jobs:
 
       - name: Persist Telegram sent log
         run: |
-          git add data/telegram_sent.json
-          if git diff --staged --quiet; then
-            echo "No sent log changes"
+          if [ -f data/telegram_sent.json ]; then
+            git add data/telegram_sent.json
+            if git diff --staged --quiet; then
+              echo "No sent log changes"
+            else
+              git commit -m "data: update telegram sent log"
+              git push
+            fi
           else
-            git commit -m "data: update telegram sent log"
-            git push
+            echo "No telegram_sent.json to persist"
           fi
