@@ -1,117 +1,16 @@
 {
   "date": "2026-03-25",
   "period": "morning",
-  "fetched_at": "2026-03-25T03:14:38.465325+00:00",
-  "raw_count": 4,
-  "candidate_count": 3,
-  "final_count": 1,
-  "review_count": 1,
+  "fetched_at": "2026-03-25T03:52:54.082877+00:00",
+  "raw_count": 11,
+  "candidate_count": 4,
+  "final_count": 0,
+  "review_count": 3,
   "drop_hard_count": 1,
   "disposition_stats": {
-    "not_ai_content": 1,
-    "low_info_ai_content": 1,
-    "info_value": 1
+    "low_value_pattern": 1,
+    "low_info_ai_content": 2,
+    "not_ai_content": 1
   },
-  "tweets": [
-    {
-      "tweet_id": "2036279719386100126",
-      "url": "https://x.com/minchoi/status/2036279719386100126",
-      "screen_name": "minchoi",
-      "created_at": "Tue Mar 24 03:11:32 +0000 2026",
-      "full_text": "This Claude Code project setup guide literally makes Claude Code 10x better🤯 https://t.co/zcggKFV7qN",
-      "lang": "en",
-      "favorite_count": 2007,
-      "retweet_count": 259,
-      "reply_count": 45,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/zcggKFV7qN",
-          "expanded_url": "https://x.com/minchoi/status/2036279719386100126/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "all": {
-              "tags": [
-                {
-                  "name": "Akshay 🚀",
-                  "screen_name": "akshay_pachaar",
-                  "user_id": "703601972"
-                }
-              ]
-            },
-            "large": {
-              "faces": [
-                {
-                  "h": 63,
-                  "w": 63,
-                  "x": 972,
-                  "y": 171
-                }
-              ]
-            }
-          },
-          "id_str": "2036278181645123585",
-          "indices": [
-            77,
-            100
-          ],
-          "media_key": "3_2036278181645123585",
-          "media_url_https": "https://pbs.twimg.com/media/HEJQN7DWAAEIoGG.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 653,
-                "w": 1166,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1166,
-                "w": 1166,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1176,
-                "w": 1032,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1176,
-                "w": 588,
-                "x": 29,
-                "y": 0
-              },
-              {
-                "h": 1176,
-                "w": 1166,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 1176,
-            "width": 1166
-          },
-          "sizes": {
-            "large": {
-              "h": 1176,
-              "w": 1166
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/zcggKFV7qN"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
-    }
-  ]
+  "tweets": []
 }

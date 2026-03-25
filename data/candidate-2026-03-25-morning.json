@@ -1,27 +1,84 @@
 {
   "date": "2026-03-25",
   "period": "morning",
-  "fetched_at": "2026-03-25T03:14:38.462132+00:00",
-  "raw_count": 4,
-  "candidate_count": 3,
+  "fetched_at": "2026-03-25T03:52:54.079478+00:00",
+  "raw_count": 11,
+  "candidate_count": 4,
   "filter_stats": {
-    "monitored_account": 0,
+    "monitored_account": 1,
     "ai_signal": 3,
-    "too_short": 0,
+    "too_short": 1,
     "reject_pattern": 0,
-    "no_ai_signal": 1
+    "no_ai_signal": 6
   },
   "tweets": [
     {
-      "tweet_id": "2036557654487613473",
-      "url": "https://x.com/litteralyme0/status/2036557654487613473",
-      "screen_name": "litteralyme0",
-      "created_at": "Tue Mar 24 21:35:56 +0000 2026",
-      "full_text": "How it feels watching the AI slop bubble FINALLY busting https://t.co/gn6o4doNg4",
+      "tweet_id": "2036326328140517868",
+      "url": "https://x.com/dracosrevenge/status/2036326328140517868",
+      "screen_name": "dracosrevenge",
+      "created_at": "Tue Mar 24 06:16:44 +0000 2026",
+      "full_text": "hey Claude, sign into Betway and only place winning bets. make no mistakes.\n\nkeep some profits to yourself while you’re at it https://t.co/EIGaL2ry2g",
       "lang": "en",
-      "favorite_count": 8348,
-      "retweet_count": 935,
-      "reply_count": 39,
+      "favorite_count": 4075,
+      "retweet_count": 190,
+      "reply_count": 6,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/EIGaL2ry2g",
+          "expanded_url": "https://x.com/dracosrevenge/status/2036326328140517868/photo/1",
+          "ext_alt_text": "The Sopranos Smoking GIF",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036326323086565378",
+          "indices": [
+            126,
+            149
+          ],
+          "media_key": "16_2036326323086565378",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/HEJ8AH5aIAI_B4W.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 252,
+            "width": 350
+          },
+          "sizes": {
+            "large": {
+              "h": 252,
+              "w": 350
+            }
+          },
+          "type": "animated_gif",
+          "url": "https://t.co/EIGaL2ry2g",
+          "video_info": {
+            "aspect_ratio": [
+              25,
+              18
+            ],
+            "variants": [
+              {
+                "bitrate": 0,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/tweet_video/HEJ8AH5aIAI_B4W.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2036251410753556819",
+      "url": "https://x.com/ctgptlb/status/2036251410753556819",
+      "screen_name": "ctgptlb",
+      "created_at": "Tue Mar 24 01:19:02 +0000 2026",
+      "full_text": "【速報】Anthropic、Claudeがデスクトップを直接操作する「Computer Use」を一般提供開始 https://t.co/I3KDmHf15S",
+      "lang": "ja",
+      "favorite_count": 3252,
+      "retweet_count": 371,
+      "reply_count": 24,
       "view_count": 0,
       "quoted_tweet_text": "",
       "media": [
@@ -32,61 +89,66 @@
           "allow_download_status": {
             "allow_download": true
           },
-          "display_url": "pic.x.com/gn6o4doNg4",
-          "expanded_url": "https://x.com/litteralyme0/status/2036557654487613473/video/1",
+          "display_url": "pic.x.com/I3KDmHf15S",
+          "expanded_url": "https://x.com/ctgptlb/status/2036251410753556819/video/1",
           "ext_media_availability": {
             "status": "Available"
           },
-          "id_str": "2036557596643950592",
+          "id_str": "2036250899409149953",
           "indices": [
-            57,
-            80
+            56,
+            79
           ],
-          "media_key": "13_2036557596643950592",
-          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036557596643950592/img/fb_D6S8fR2xqP5sZ.jpg",
+          "media_key": "13_2036250899409149953",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036250899409149953/img/TnJ7rNQHRSsSM_SG.jpg",
           "original_info": {
             "focus_rects": [],
-            "height": 1080,
-            "width": 1800
+            "height": 3840,
+            "width": 2160
           },
           "sizes": {
             "large": {
-              "h": 1080,
-              "w": 1800
+              "h": 2048,
+              "w": 1152
             }
           },
           "type": "video",
-          "url": "https://t.co/gn6o4doNg4",
+          "url": "https://t.co/I3KDmHf15S",
           "video_info": {
             "aspect_ratio": [
-              5,
-              3
+              9,
+              16
             ],
-            "duration_millis": 15255,
+            "duration_millis": 91158,
             "variants": [
               {
                 "content_type": "application/x-mpegURL",
-                "url": "https://video.twimg.com/amplify_video/2036557596643950592/pl/6VbMWPZbuEbV8LiC.m3u8?v=3a9"
+                "url": "https://video.twimg.com/amplify_video/2036250899409149953/pl/Gx91f7ztj9tWdKnl.m3u8?v=cfc"
               },
               {
-                "bitrate": 256000,
+                "bitrate": 632000,
                 "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2036557596643950592/vid/avc1/450x270/69qvo0HYscOXm1-P.mp4"
+                "url": "https://video.twimg.com/amplify_video/2036250899409149953/vid/avc1/320x568/Wbz5lG9tjngchuJy.mp4"
               },
               {
-                "bitrate": 832000,
+                "bitrate": 950000,
                 "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2036557596643950592/vid/avc1/600x360/toYcmlv67KF6Ye36.mp4"
+                "url": "https://video.twimg.com/amplify_video/2036250899409149953/vid/avc1/480x852/loYD-3LhA6Dq1K_Z.mp4"
               },
               {
                 "bitrate": 2176000,
                 "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2036557596643950592/vid/avc1/1200x720/BHO7euzI43b8fup8.mp4"
+                "url": "https://video.twimg.com/amplify_video/2036250899409149953/vid/avc1/720x1280/9QoDeOITQKb6W13e.mp4"
               },
               {
                 "bitrate": 10368000,
                 "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2036557596643950592/vid/avc1/1800x1080/dpPbpNbGM6rJqdkW.mp4"
+                "url": "https://video.twimg.com/amplify_video/2036250899409149953/vid/avc1/1080x1920/CXHyM2WJA3_HaIYG.mp4"
+              },
+              {
+                "bitrate": 25128000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036250899409149953/vid/avc1/2160x3840/f7OmXjtIC8JekWtE.mp4"
               }
             ]
           }
@@ -95,117 +157,98 @@
       "candidate_reason": "ai_signal"
     },
     {
-      "tweet_id": "2036243825761591714",
-      "url": "https://x.com/dotkrueger/status/2036243825761591714",
-      "screen_name": "dotkrueger",
-      "created_at": "Tue Mar 24 00:48:54 +0000 2026",
-      "full_text": "Claude is smarter than anybody I know.\nIncluding me.",
+      "tweet_id": "2036514078072733792",
+      "url": "https://x.com/vampiric_shirin/status/2036514078072733792",
+      "screen_name": "vampiric_shirin",
+      "created_at": "Tue Mar 24 18:42:47 +0000 2026",
+      "full_text": "all this fruit AI bullshit and the huge push for integrating chatGPT into day-to-day is to create an unintelligent underclass that will never critically engage with the horrors they’ll continue to develop to accumulate all wealth",
       "lang": "en",
-      "favorite_count": 2098,
-      "retweet_count": 107,
-      "reply_count": 226,
+      "favorite_count": 2145,
+      "retweet_count": 131,
+      "reply_count": 2,
       "view_count": 0,
       "quoted_tweet_text": "",
       "media": [],
       "candidate_reason": "ai_signal"
     },
     {
-      "tweet_id": "2036279719386100126",
-      "url": "https://x.com/minchoi/status/2036279719386100126",
-      "screen_name": "minchoi",
-      "created_at": "Tue Mar 24 03:11:32 +0000 2026",
-      "full_text": "This Claude Code project setup guide literally makes Claude Code 10x better🤯 https://t.co/zcggKFV7qN",
+      "tweet_id": "2036476110825988156",
+      "url": "https://x.com/deedydas/status/2036476110825988156",
+      "screen_name": "deedydas",
+      "created_at": "Tue Mar 24 16:11:55 +0000 2026",
+      "full_text": "There’s a GitHub repo called MoneyPrinter with 20k+ stars. Its entire purpose is generating internet slop for profit (yes, including Twitter bots). https://t.co/ITKYwSXgfX",
       "lang": "en",
-      "favorite_count": 2007,
-      "retweet_count": 259,
-      "reply_count": 45,
+      "favorite_count": 2037,
+      "retweet_count": 116,
+      "reply_count": 32,
       "view_count": 0,
       "quoted_tweet_text": "",
       "media": [
         {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/zcggKFV7qN",
-          "expanded_url": "https://x.com/minchoi/status/2036279719386100126/photo/1",
+          "display_url": "pic.x.com/ITKYwSXgfX",
+          "expanded_url": "https://x.com/deedydas/status/2036476110825988156/photo/1",
           "ext_media_availability": {
             "status": "Available"
           },
           "features": {
-            "all": {
-              "tags": [
-                {
-                  "name": "Akshay 🚀",
-                  "screen_name": "akshay_pachaar",
-                  "user_id": "703601972"
-                }
-              ]
-            },
             "large": {
-              "faces": [
-                {
-                  "h": 63,
-                  "w": 63,
-                  "x": 972,
-                  "y": 171
-                }
-              ]
+              "faces": []
             }
           },
-          "id_str": "2036278181645123585",
+          "id_str": "2036476107671871490",
           "indices": [
-            77,
-            100
+            148,
+            171
           ],
-          "media_key": "3_2036278181645123585",
-          "media_url_https": "https://pbs.twimg.com/media/HEJQN7DWAAEIoGG.jpg",
+          "media_key": "3_2036476107671871490",
+          "media_url_https": "https://pbs.twimg.com/media/HEMEOu9aIAIzLq-.jpg",
           "original_info": {
             "focus_rects": [
               {
-                "h": 653,
-                "w": 1166,
+                "h": 1081,
+                "w": 1930,
                 "x": 0,
                 "y": 0
               },
               {
-                "h": 1166,
-                "w": 1166,
+                "h": 1346,
+                "w": 1346,
                 "x": 0,
                 "y": 0
               },
               {
-                "h": 1176,
-                "w": 1032,
+                "h": 1346,
+                "w": 1181,
                 "x": 0,
                 "y": 0
               },
               {
-                "h": 1176,
-                "w": 588,
-                "x": 29,
+                "h": 1346,
+                "w": 673,
+                "x": 0,
                 "y": 0
               },
               {
-                "h": 1176,
-                "w": 1166,
+                "h": 1346,
+                "w": 1930,
                 "x": 0,
                 "y": 0
               }
             ],
-            "height": 1176,
-            "width": 1166
+            "height": 1346,
+            "width": 1930
           },
           "sizes": {
             "large": {
-              "h": 1176,
-              "w": 1166
+              "h": 1346,
+              "w": 1930
             }
           },
           "type": "photo",
-          "url": "https://t.co/zcggKFV7qN"
+          "url": "https://t.co/ITKYwSXgfX"
         }
       ],
-      "candidate_reason": "ai_signal"
+      "candidate_reason": "monitored_account"
     }
   ]
 }
