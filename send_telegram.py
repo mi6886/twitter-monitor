@@ -64,6 +64,9 @@ def make_summary(text, max_len=100):
     text = clean_tweet_text(text)
     # Remove leading RT/reply markers
     text = re.sub(r'^(RT\s+)?@\w+[:\s]*', '', text).strip()
+    # Remove list markers that become orphaned fragments
+    text = re.sub(r'^\s*(\d+[\.\)]\s*|[•▸►—–-]\s*)', '', text).strip()
+    text = re.sub(r'\s+(\d+[\.\)]\s)', ' ', text)
     # Take the first sentence if it fits
     for sep in ['. ', '! ', '? ', '。', '！', '？']:
         idx = text.find(sep)
@@ -73,6 +76,9 @@ def make_summary(text, max_len=100):
     if len(text) <= max_len:
         return text
     cut = text[:max_len].rsplit(' ', 1)[0]
+    # Don't end on an orphan list marker
+    cut = re.sub(r'\s+\d+[\.\)]?\s*$', '', cut)
+    cut = re.sub(r'\s+[•▸►—–-]\s*$', '', cut)
     return cut + '...'
 
 
