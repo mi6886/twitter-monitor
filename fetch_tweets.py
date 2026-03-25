@@ -292,6 +292,10 @@ FINAL_VALUE_PATTERNS = [
     r'\b(jobs?|hiring|replac|automat|disrupt|industr)\b',
     # Japanese/Chinese news markers
     r'(提供終了|発表|リリース|公開|発売|更新)',
+    # Spanish/multilingual news terms
+    r'\b(cerrar|lanzar|anunciar|noticias)\b',
+    # Cross-language terms
+    r'\b(copyright|open.?source)\b',
 ]
 
 # Meme/joke formats — clear low-value patterns
