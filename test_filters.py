@@ -152,6 +152,67 @@ class TestFinalReview:
         disp, reason = final_filter(tw)
         assert disp == "review", f"Expected review, got {disp} ({reason})"
 
+    def test_entertainment_account_with_announced(self):
+        """Entertainment/media account using 'announced' — should NOT enter final."""
+        tw = make_tweet(
+            "OpenAI has officially announced a new partnership with Disney "
+            "for AI-generated content. The anime community is shook!",
+            screen_name="AnimetrendsLA",
+        )
+        disp, reason = final_filter(tw)
+        assert disp == "review", f"Expected review, got {disp} ({reason})"
+
+    def test_gossip_account_with_released(self):
+        """Generic gossip account using 'released' — should NOT enter final."""
+        tw = make_tweet(
+            "Anthropic just released a new Claude model that can control "
+            "your computer. Are we cooked? Is this the end?",
+            screen_name="PopCrave",
+        )
+        disp, reason = final_filter(tw)
+        assert disp == "review", f"Expected review, got {disp} ({reason})"
+
+    def test_random_account_with_launched(self):
+        """Random account with 'launched' — should NOT enter final."""
+        tw = make_tweet(
+            "Google just launched Gemini 2.5 Pro and it's absolutely "
+            "destroying everything. Thread on why this matters.",
+            screen_name="crypto_whale_99",
+        )
+        disp, reason = final_filter(tw)
+        assert disp == "review", f"Expected review, got {disp} ({reason})"
+
+
+class TestWeakSignalTrusted:
+    """Weak news verbs from trusted sources SHOULD still enter final."""
+
+    def test_official_account_announced(self):
+        tw = make_tweet(
+            "We're excited to announce Claude's new computer use capability. "
+            "Now available in research preview on macOS.",
+            screen_name="AnthropicAI",
+        )
+        disp, reason = final_filter(tw)
+        assert disp == "keep", f"Expected keep, got {disp} ({reason})"
+
+    def test_monitored_account_released(self):
+        tw = make_tweet(
+            "OpenAI just released GPT-5 with major improvements to reasoning "
+            "and code generation. Full details in the blog post.",
+            screen_name="sama",
+        )
+        disp, reason = final_filter(tw)
+        assert disp == "keep", f"Expected keep, got {disp} ({reason})"
+
+    def test_researcher_launched(self):
+        tw = make_tweet(
+            "Hugging Face launched a new open-source model that matches "
+            "GPT-4o performance at 1/10th the cost. Incredible work by the team.",
+            screen_name="ClementDelangue",
+        )
+        disp, reason = final_filter(tw)
+        assert disp == "keep", f"Expected keep, got {disp} ({reason})"
+
 
 class TestFinalDropHard:
     """Tweets that should be dropped entirely."""
@@ -182,7 +243,7 @@ class TestFinalDropHard:
 if __name__ == "__main__":
     import sys
 
-    classes = [TestFinalKeep, TestFinalReview, TestFinalDropHard]
+    classes = [TestFinalKeep, TestFinalReview, TestWeakSignalTrusted, TestFinalDropHard]
     passed = 0
     failed = 0
 

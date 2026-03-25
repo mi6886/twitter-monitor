@@ -264,16 +264,14 @@ def candidate_filter(tweet):
 
 
 # --- Final filter: second-pass fine filter (candidate → final) ---
-# Info value signals — tweet must show at least one sign of substance
-FINAL_VALUE_PATTERNS = [
+# Strong info signals — keep from ANY source (hard to fake substance)
+FINAL_VALUE_STRONG = [
     # Dollar amounts or large numbers with context
     r'\$\d',
     r'\b\d+\s*(million|billion|M\b|B\b|percent|%)',
     # New capability / product update
     r'\bcan now\b',
     r'\bnow (can|support|allow|ha[sv]|offer|generat)\b',
-    # News/announcement language
-    r'\b(announc|launch|releas|discontinu|shutt?ing?\s*down|shut.?down|acquir)\b',
     # Technical/product substance
     r'\b(API|benchmark|open.?source|deploy|SDK|framework|inference|fine.?tun)\b',
     r'\bv\d+\.\d',  # version numbers like v2.0, v4.1 (not bare v1)
@@ -283,10 +281,19 @@ FINAL_VALUE_PATTERNS = [
     r'\b(how to|step.by.step|tutorial|guide)\b',
     # Business/industry data
     r'\b(revenue|funding|valuation|subscription|pricing)\b',
-    # Product/creation (substantive)
-    r'\b(shipped|prototype|demo)\b',
     # Hiring/replacement (AI-specific)
     r'\b(hiring|layoff|replac(e|ed|ing)\b.*\bai\b)',
+    # Shutdown/discontinue/acquire — high-impact events, hard to spin
+    r'\b(discontinu|shutt?ing?\s*down|shut.?down|acquir)\b',
+]
+
+# Weak info signals — keep ONLY from high-signal or monitored sources
+# These are common news verbs any entertainment/media account can use
+FINAL_VALUE_WEAK = [
+    # News/announcement language (easy to parrot)
+    r'\b(announc|launch|releas)\b',
+    # Product/creation
+    r'\b(shipped|prototype|demo)\b',
     # Japanese/Chinese news markers
     r'(提供終了|発表|リリース|公開|発売|終了)',
     # Spanish/multilingual news terms
@@ -410,12 +417,22 @@ def final_filter(tweet):
     if is_high_signal and len(clean) >= 60:
         return "keep", "high_signal_source"
 
-    # Rule 8: Has AI product name + substantive info signal → keep
-    for pat in FINAL_VALUE_PATTERNS:
+    is_trusted = is_high_signal or screen_name in MONITORED_ACCOUNTS_LOWER
+
+    # Rule 8: Strong info signal → keep from any source
+    for pat in FINAL_VALUE_STRONG:
         if re.search(pat, text, re.IGNORECASE):
             return "keep", "info_value"
 
-    # Rule 9: Monitored accounts with substantial text + AI name → keep
+    # Rule 9: Weak info signal → keep only from trusted sources
+    for pat in FINAL_VALUE_WEAK:
+        if re.search(pat, text, re.IGNORECASE):
+            if is_trusted:
+                return "keep", "info_value_trusted"
+            else:
+                return "review", "weak_signal_untrusted"
+
+    # Rule 10: Monitored accounts with substantial text + AI name → keep
     if screen_name in MONITORED_ACCOUNTS_LOWER and len(clean) >= 80:
         return "keep", "monitored_lenient"
 
