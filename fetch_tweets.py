@@ -375,16 +375,27 @@ def build_account_search(accounts):
     return f"({froms}) min_faves:2000"
 
 
+SEEN_URLS_RETENTION_DAYS = 7
+
+
 def load_seen_ids(path):
-    """Load previously seen tweet URLs to deduplicate."""
-    if path.exists():
-        return set(json.loads(path.read_text()))
-    return set()
+    """Load previously seen tweet URLs as {url: date_str} dict.
+    Backward-compatible: auto-migrates old list format."""
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text())
+    if isinstance(data, list):
+        # Migrate old list format: mark all as 8 days ago so they expire on next save
+        expire_date = (datetime.now(timezone.utc) - timedelta(days=8)).strftime("%Y-%m-%d")
+        return {url: expire_date for url in data}
+    return data  # already dict
 
 
-def save_seen_ids(path, seen):
-    """Save seen tweet URLs."""
-    path.write_text(json.dumps(sorted(seen), indent=2))
+def save_seen_ids(path, seen_dict, today_str):
+    """Save seen URLs, dropping entries older than SEEN_URLS_RETENTION_DAYS."""
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=SEEN_URLS_RETENTION_DAYS)).strftime("%Y-%m-%d")
+    cleaned = {url: date for url, date in seen_dict.items() if date >= cutoff}
+    path.write_text(json.dumps(cleaned, indent=2))
 
 
 def main():
@@ -475,7 +486,7 @@ def main():
             tweet = extract_tweet(item)
             if tweet["url"] and tweet["url"] not in seen_urls:
                 all_tweets.append(tweet)
-                seen_urls.add(tweet["url"])
+                seen_urls[tweet["url"]] = today
 
     # Sort by likes descending
     all_tweets.sort(key=lambda t: t["favorite_count"], reverse=True)
@@ -571,11 +582,8 @@ def main():
     print(f"Saved {len(keep_tweets)} final tweets to {final_file}")
     print(f"Saved {len(review_tweets)} review tweets to {review_file}")
 
-    # Update seen URLs (keep last 2000 to prevent unbounded growth)
-    seen_list = sorted(seen_urls)
-    if len(seen_list) > 2000:
-        seen_list = seen_list[-2000:]
-    save_seen_ids(seen_file, seen_list)
+    # Update seen URLs (keep last 7 days only)
+    save_seen_ids(seen_file, seen_urls, today)
 
 
 if __name__ == "__main__":

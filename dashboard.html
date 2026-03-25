@@ -310,6 +310,10 @@
         <button class="period-btn active" data-period="morning" onclick="setPeriod('morning')">☀️ 早间</button>
         <button class="period-btn"        data-period="evening" onclick="setPeriod('evening')">🌙 晚间</button>
       </div>
+      <div class="period-toggle">
+        <button class="period-btn active" data-view="final"  onclick="setView('final')">⭐ 精选</button>
+        <button class="period-btn"        data-view="review" onclick="setView('review')">📋 待审</button>
+      </div>
     </div>
   </div>
 
@@ -373,6 +377,7 @@
   let allTweets = [];
   let currentPeriod = 'morning';
   let currentFilter = 'all';
+  let currentView = 'final';
 
   // ── Category classification ──
   const KEYWORDS = {
@@ -500,9 +505,10 @@
     statsBar.style.display = 'none';
     area.innerHTML = '<div class="state-box"><div class="spinner"></div><p>正在加载…</p></div>';
 
-    // 只读取 final 文件（已过滤+去重），不读 raw 文件
-    const filename = `data/final-${currentDate}-${period}.json`;
+    const filePrefix = currentView === 'review' ? 'review' : 'final';
+    const filename = `data/${filePrefix}-${currentDate}-${period}.json`;
     const periodLabel = period === 'morning' ? '早间' : '晚间';
+    const viewLabel = currentView === 'review' ? ' · 待审' : '';
 
     try {
       const res = await fetch(filename);
@@ -514,7 +520,7 @@
 
       if (tweets.length === 0) {
         allTweets = [];
-        document.getElementById('date-text').textContent = `${currentDate} · ${periodLabel}`;
+        document.getElementById('date-text').textContent = `${currentDate} · ${periodLabel}${viewLabel}`;
         document.getElementById('count-text').textContent = '';
         statsBar.style.display = 'none';
         area.innerHTML = '<div class="state-box"><span class="state-icon">📭</span><p>该时段暂无数据</p></div>';
@@ -525,14 +531,14 @@
         .map(t => ({ ...t, _cat: categorize(t) }))
         .sort((a, b) => (b.favorite_count || 0) - (a.favorite_count || 0));
 
-      document.getElementById('date-text').textContent = `${data.date || currentDate} · ${periodLabel}`;
+      document.getElementById('date-text').textContent = `${data.date || currentDate} · ${periodLabel}${viewLabel}`;
       document.getElementById('count-text').textContent = `共 ${allTweets.length} 条推文`;
 
       render();
     } catch (err) {
       // 文件不存在 → 该时段暂无数据
       allTweets = [];
-      document.getElementById('date-text').textContent = `${currentDate} · ${periodLabel}`;
+      document.getElementById('date-text').textContent = `${currentDate} · ${periodLabel}${viewLabel}`;
       document.getElementById('count-text').textContent = '';
       statsBar.style.display = 'none';
       area.innerHTML = '<div class="state-box"><span class="state-icon">📭</span><p>该时段暂无数据</p></div>';
@@ -546,6 +552,15 @@
       b.classList.toggle('active', b.dataset.period === period);
     });
     loadData(period);
+  }
+
+  function setView(view) {
+    if (view === currentView) return;
+    currentView = view;
+    document.querySelectorAll('[data-view]').forEach(b => {
+      b.classList.toggle('active', b.dataset.view === view);
+    });
+    loadData(currentPeriod);
   }
 
   function setFilter(cat) {
