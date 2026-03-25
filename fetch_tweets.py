@@ -276,7 +276,8 @@ FINAL_VALUE_PATTERNS = [
     r'\b(announc|launch|releas|discontinu|shut.?down|acquir|dead|end(ed|ing)|clos(ed|ing))\b',
     r'\b(breaking|officially|confirmed|update[ds]?)\b',
     # Technical/product substance
-    r'\b(feature|API|benchmark|open.?source|deploy|version|SDK|framework|model|inference|fine.?tun)\b',
+    r'\b(feature|API|benchmark|open.?source|deploy|SDK|framework|model|inference|fine.?tun)\b',
+    r'\bv\d',  # version numbers like v2, v4.0
     # Comparison/analysis
     r'\b(compar|versus|\bvs\.?\b|analysis|thread|review)\b',
     # Instructional/tutorial
@@ -298,41 +299,74 @@ FINAL_VALUE_PATTERNS = [
     r'\b(copyright|open.?source)\b',
 ]
 
-# Meme/joke formats — clear low-value patterns
+# Meme/joke formats
 FINAL_MEME_PATTERNS = [
     r'^\s*(pov\s*:|me when\s|me after\s|nobody\s*:|when (you|i|we|the)\s)',
     r'^\s*(hey|yo)\s+(claude|chatgpt|gpt|gemini|sora|copilot)\b',
 ]
 
+# AI product names — used to distinguish "about AI" from "candidate leak"
+AI_PRODUCT_RE = re.compile(
+    r'\b(claude|chatgpt|gpt-?\d|openai|anthropic|gemini|sora|nvidia|cursor|'
+    r'copilot|midjourney|perplexity|grok|hugging\s?face|notebooklm|deepmind|'
+    r'codex|windsurf|replit|llama|mistral|groq|kimi\s*(ai|moonshot))\b', re.IGNORECASE)
+
+# Offensive content patterns
+OFFENSIVE_PATTERNS = [
+    r'\bn[- ]?word\b', r'\bnigga\b', r'\bfaggot\b', r'\bretard\b',
+    r'(kill|rape|shoot)\s+(all|every|those)\b',
+]
+
 
 def final_filter(tweet):
-    """Second-pass fine filter: is this worth keeping in final output?
-    Returns (keep: bool, reason: str)."""
+    """Second-pass fine filter. Returns (disposition, reason) where
+    disposition is one of: 'keep', 'review', 'drop_hard'."""
     text = (tweet.get("full_text", "") + " " + tweet.get("quoted_tweet_text", "")).lower()
     clean = re.sub(r'https?://\S+', '', text).strip()
     screen_name = (tweet.get("screen_name") or "").lower()
+    has_ai_name = bool(AI_PRODUCT_RE.search(clean))
 
-    # Rule 1: Drop obvious meme/joke formats
-    for pat in FINAL_MEME_PATTERNS:
-        if re.search(pat, clean):
-            return False, "meme_format"
+    # --- KEEP layer ---
 
-    # Rule 2: Check for info value signals (before length check —
-    #          short CJK headlines can be highly informative)
+    # Rule 1: Info value signals → keep (before length check for CJK)
     for pat in FINAL_VALUE_PATTERNS:
         if re.search(pat, text, re.IGNORECASE):
-            return True, "info_value"
+            return "keep", "info_value"
 
-    # Rule 3: Must have minimum substance (no value signal + short = drop)
+    # Rule 2: Monitored accounts with enough substance → keep
+    if screen_name in MONITORED_ACCOUNTS_LOWER and len(clean) >= 40:
+        return "keep", "monitored_lenient"
+
+    # --- DROP_HARD layer ---
+
+    # Rule 3: Too brief to extract any value
+    if len(clean) < 20:
+        return "drop_hard", "too_brief"
+
+    # Rule 4: Offensive content
+    for pat in OFFENSIVE_PATTERNS:
+        if re.search(pat, text, re.IGNORECASE):
+            return "drop_hard", "offensive"
+
+    # Rule 5: No AI product name → candidate leak, not really about AI
+    if not has_ai_name:
+        return "drop_hard", "not_ai_content"
+
+    # --- REVIEW layer ---
+    # Passed candidate (has AI signal), has AI product name,
+    # but lacks info value. May still have spread/topic/adaptation value.
+
+    # Rule 6: Meme format with AI name → review (viral AI meme)
+    for pat in FINAL_MEME_PATTERNS:
+        if re.search(pat, clean):
+            return "review", "ai_meme"
+
+    # Rule 7: Short but has AI name → review (hot take / reaction)
     if len(clean) < 40:
-        return False, "too_brief"
+        return "review", "brief_ai_mention"
 
-    # Rule 4: Monitored accounts get lenient pass (already passed candidate)
-    if screen_name in MONITORED_ACCOUNTS_LOWER:
-        return True, "monitored_lenient"
-
-    # Rule 5: No info signal detected
-    return False, "no_info_value"
+    # Rule 8: Has AI name, enough text, no info value → review
+    return "review", "low_info_ai_content"
 
 
 def build_account_search(accounts):
@@ -485,33 +519,57 @@ def main():
     print(f"  Filter stats: {filter_stats}")
     print(f"Saved {len(candidate_tweets)} candidate tweets to {candidate_file}")
 
-    # --- Generate final file (second-pass fine filter on candidate) ---
-    final_tweets = []
-    final_stats = {"info_value": 0, "monitored_lenient": 0,
-                   "too_brief": 0, "meme_format": 0, "no_info_value": 0}
+    # --- Generate final + review files (3-way disposition on candidate) ---
+    keep_tweets = []
+    review_tweets = []
+    drop_hard_tweets = []
+    disposition_stats = {}
     for tweet in candidate_tweets:
-        keep, reason = final_filter(tweet)
-        final_stats[reason] = final_stats.get(reason, 0) + 1
-        if keep:
-            tweet_with_reason = dict(tweet)
-            tweet_with_reason["final_reason"] = reason
-            final_tweets.append(tweet_with_reason)
+        disposition, reason = final_filter(tweet)
+        disposition_stats[reason] = disposition_stats.get(reason, 0) + 1
+        tw = dict(tweet)
+        tw["disposition"] = disposition
+        tw["disposition_reason"] = reason
+        if disposition == "keep":
+            keep_tweets.append(tw)
+        elif disposition == "review":
+            review_tweets.append(tw)
+        else:
+            drop_hard_tweets.append(tw)
 
+    # Save final file (keep only)
     final_result = {
         "date": today,
         "period": period,
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "raw_count": len(all_tweets),
         "candidate_count": len(candidate_tweets),
-        "final_count": len(final_tweets),
-        "final_filter_stats": final_stats,
-        "tweets": final_tweets,
+        "final_count": len(keep_tweets),
+        "review_count": len(review_tweets),
+        "drop_hard_count": len(drop_hard_tweets),
+        "disposition_stats": disposition_stats,
+        "tweets": keep_tweets,
     }
     final_file = output_dir / f"final-{today}-{period}.json"
     final_file.write_text(json.dumps(final_result, ensure_ascii=False, indent=2))
-    print(f"Final filter: {len(candidate_tweets)} candidate → {len(final_tweets)} final")
-    print(f"  Final filter stats: {final_stats}")
-    print(f"Saved {len(final_tweets)} final tweets to {final_file}")
+
+    # Save review file (review only)
+    review_result = {
+        "date": today,
+        "period": period,
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "review_count": len(review_tweets),
+        "tweets": review_tweets,
+    }
+    review_file = output_dir / f"review-{today}-{period}.json"
+    review_file.write_text(json.dumps(review_result, ensure_ascii=False, indent=2))
+
+    print(f"Final filter: {len(candidate_tweets)} candidate → "
+          f"{len(keep_tweets)} keep / {len(review_tweets)} review / "
+          f"{len(drop_hard_tweets)} drop_hard")
+    print(f"  Disposition stats: {disposition_stats}")
+    print(f"Saved {len(keep_tweets)} final tweets to {final_file}")
+    print(f"Saved {len(review_tweets)} review tweets to {review_file}")
 
     # Update seen URLs (keep last 2000 to prevent unbounded growth)
     seen_list = sorted(seen_urls)
