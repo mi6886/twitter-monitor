@@ -273,8 +273,7 @@ FINAL_VALUE_PATTERNS = [
     r'\bcan now\b',
     r'\bnow (can|support|allow|ha[sv]|offer|generat)\b',
     # News/announcement language
-    r'\b(announc|launch|releas|discontinu|shut.?down|acquir)\b',
-    r'\b(breaking|officially confirmed)\b',
+    r'\b(announc|launch|releas|discontinu|shutt?ing?\s*down|shut.?down|acquir)\b',
     # Technical/product substance
     r'\b(API|benchmark|open.?source|deploy|SDK|framework|inference|fine.?tun)\b',
     r'\bv\d+\.\d',  # version numbers like v2.0, v4.1 (not bare v1)
@@ -286,12 +285,10 @@ FINAL_VALUE_PATTERNS = [
     r'\b(revenue|funding|valuation|subscription|pricing)\b',
     # Product/creation (substantive)
     r'\b(shipped|prototype|demo)\b',
-    # List/structured content (suggests effort — requires actual list markers)
-    r'(•|▸|►|\d+[\.\)]\s)',
     # Hiring/replacement (AI-specific)
     r'\b(hiring|layoff|replac(e|ed|ing)\b.*\bai\b)',
     # Japanese/Chinese news markers
-    r'(提供終了|発表|リリース|公開|発売)',
+    r'(提供終了|発表|リリース|公開|発売|終了)',
     # Spanish/multilingual news terms
     r'\b(cerrar|lanzar|anunciar|noticias)\b',
 ]
@@ -309,7 +306,50 @@ FINAL_LOW_VALUE_PATTERNS = [
     r'\b(drama|beef|tea|shade|ratio|cope|seethe|clown)\b',
     # Brand/domain/account trivia
     r'\b(domain|username|handle|rebrand)\b.*\b(bought|sold|taken|available)\b',
+    # Commentary/recap framing (AI mentioned but not the point)
+    r'\bdo you (understand|realize|know) what happened\b',
+    r'\blet that sink in\b',
+    r'\bthink about (that|this|it)\b',
+    # Engagement bait
+    r'\b(comment|reply|retweet|rt)\s+(if|for|to get|".+")\b',
+    r'\bfollow me\b.*\bthread\b',
+    r'\bsteal (these|my|this)\b',
 ]
+
+# Off-topic content that happens to mention AI — route to review
+OFF_TOPIC_PATTERNS = [
+    # Sports context
+    r'\b(real madrid|barcelona|chelsea|man city|premier league|la liga|serie a|nba|nfl)\b',
+    r'\b(nutritionist|coach|player|footballer|striker|goalkeeper|midfielder)\b',
+    r'\b(goal|assists?|penalty|match|stadium|champions league)\b',
+    # Gaming (non-AI)
+    r'\b(gaming.?first|steam\s*deck|xbox|playstation|nintendo|fortnite|minecraft|fps)\b',
+    # Music/entertainment
+    r'\b(music video|album|concert|tour|spotify|tracklist|lyrics|feat\.)\b',
+    r'#\w*(concert|tour|album|mv|musicvideo)\b',
+    # Linux/OS (unless AI-related)
+    r'\b(linux|ubuntu|fedora|arch linux|distro|nobara|desktop environment)\b',
+    # Crypto/trading (unless AI-specific)
+    r'\b(bitcoin|ethereum|crypto|token|nft|web3|blockchain|solana|memecoin)\b',
+]
+
+# High-signal source accounts — researchers, AI companies, devs, analysts
+# These get a trust bonus in final_filter (still need info_value or substance)
+HIGH_SIGNAL_ACCOUNTS = set(a.lower() for a in [
+    # AI companies / official
+    "AnthropicAI", "claudeai", "OpenAI", "OpenAIDevs", "OpenAINewsroom",
+    "ChatGPTapp", "soraofficialapp", "GoogleDeepMind", "GoogleAIStudio",
+    "GoogleLabs", "GeminiApp", "NotebookLM", "NVIDIAAI", "nvidianewsroom",
+    "nvidia", "cursor_ai", "huggingface", "perplexity_ai", "Kimi_Moonshot",
+    "n8n_io", "llama_index",
+    # Researchers / founders / notable devs
+    "karpathy", "sama", "DarioAmodei", "DrJimFan", "ClementDelangue",
+    "gdb", "rasbt", "svpino", "dwarkesh_sp", "lexfridman",
+    "OfficialLoganK", "steipete", "mckaywrigley", "levelsio",
+    "felixrieseberg", "dotey", "op7418",
+    # AI content / analysis
+    "ai_bread", "skirano", "itsPaulAi",
+])
 
 # AI product names — used to distinguish "about AI" from "candidate leak"
 AI_PRODUCT_RE = re.compile(
@@ -331,6 +371,7 @@ def final_filter(tweet):
     clean = re.sub(r'https?://\S+', '', text).strip()
     screen_name = (tweet.get("screen_name") or "").lower()
     has_ai_name = bool(AI_PRODUCT_RE.search(clean))
+    is_high_signal = screen_name in HIGH_SIGNAL_ACCOUNTS
 
     # --- DROP_HARD layer (check first) ---
 
@@ -349,24 +390,33 @@ def final_filter(tweet):
 
     # --- REVIEW layer for low-value content (before keep check) ---
 
-    # Rule 4: Meme/reaction/gossip/trivia patterns → review even if has info signal
+    # Rule 4: Off-topic content that incidentally mentions AI → review
+    for pat in OFF_TOPIC_PATTERNS:
+        if re.search(pat, clean, re.IGNORECASE):
+            return "review", "off_topic"
+
+    # Rule 5: Meme/reaction/gossip/engagement bait → review
     for pat in FINAL_LOW_VALUE_PATTERNS:
         if re.search(pat, clean, re.IGNORECASE):
             return "review", "low_value_pattern"
 
-    # Rule 5: Short with AI name but no real depth → review
+    # Rule 6: Short with AI name but no real depth → review
     if len(clean) < 50:
         return "review", "brief_ai_mention"
 
     # --- KEEP layer (requires AI name + info value signal) ---
 
-    # Rule 6: Has AI product name + substantive info signal → keep
+    # Rule 7: High-signal source + AI name + enough text → keep
+    if is_high_signal and len(clean) >= 60:
+        return "keep", "high_signal_source"
+
+    # Rule 8: Has AI product name + substantive info signal → keep
     for pat in FINAL_VALUE_PATTERNS:
         if re.search(pat, text, re.IGNORECASE):
             return "keep", "info_value"
 
-    # Rule 7: Monitored accounts with substantial text + AI name → keep
-    if screen_name in MONITORED_ACCOUNTS_LOWER and len(clean) >= 60:
+    # Rule 9: Monitored accounts with substantial text + AI name → keep
+    if screen_name in MONITORED_ACCOUNTS_LOWER and len(clean) >= 80:
         return "keep", "monitored_lenient"
 
     # --- Fallback: has AI name, long enough, but no info signal → review ---
