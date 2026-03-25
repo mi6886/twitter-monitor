@@ -1,100 +1,110 @@
 {
   "date": "2026-03-25",
   "period": "morning",
-  "fetched_at": "2026-03-25T00:45:25.535274+00:00",
-  "raw_count": 6,
-  "candidate_count": 4,
-  "final_count": 2,
+  "fetched_at": "2026-03-25T01:04:20.813549+00:00",
+  "raw_count": 9,
+  "candidate_count": 6,
+  "final_count": 3,
   "review_count": 2,
-  "drop_hard_count": 0,
+  "drop_hard_count": 1,
   "disposition_stats": {
     "low_info_ai_content": 2,
-    "info_value": 1,
-    "monitored_lenient": 1
+    "not_ai_content": 1,
+    "info_value": 3
   },
   "tweets": [
     {
-      "tweet_id": "2036292658784874768",
-      "url": "https://x.com/DipWheeler/status/2036292658784874768",
-      "screen_name": "DipWheeler",
-      "created_at": "Tue Mar 24 04:02:56 +0000 2026",
-      "full_text": "*how to claude*\n\n*sup claude*\n\n*gimmie access to palantir* https://t.co/chcLx2nMOO",
-      "lang": "en",
-      "favorite_count": 2170,
-      "retweet_count": 90,
-      "reply_count": 31,
+      "tweet_id": "2036580318220788084",
+      "url": "https://x.com/YahooNewsTopics/status/2036580318220788084",
+      "screen_name": "YahooNewsTopics",
+      "created_at": "Tue Mar 24 23:06:00 +0000 2026",
+      "full_text": "【動画生成AI「Sora」提供終了へ】\nhttps://t.co/Us8K7jthPW",
+      "lang": "ja",
+      "favorite_count": 2270,
+      "retweet_count": 537,
+      "reply_count": 146,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2036581659680895093",
+      "url": "https://x.com/denfaminicogame/status/2036581659680895093",
+      "screen_name": "denfaminicogame",
+      "created_at": "Tue Mar 24 23:11:20 +0000 2026",
+      "full_text": "OpenAI、動画生成AI「Sora」の提供を終了へ。米ディズニーも10億ドル規模の投資やライセンス供与を含む契約から撤退と海外報道\nhttps://t.co/dIFVupVcfJ\n\n昨年9月リリースの「Sora 2」が大きな話題を呼ぶ一方、著作権に関連するさまざまな議論を呼んでいた。終了の理由については明らかにされていない https://t.co/QaxSSpTeap",
+      "lang": "ja",
+      "favorite_count": 2079,
+      "retweet_count": 1294,
+      "reply_count": 104,
       "view_count": 0,
       "quoted_tweet_text": "",
       "media": [
         {
-          "display_url": "pic.x.com/chcLx2nMOO",
-          "expanded_url": "https://x.com/DipWheeler/status/2036292658784874768/photo/1",
+          "display_url": "pic.x.com/QaxSSpTeap",
+          "expanded_url": "https://x.com/denfaminicogame/status/2036581659680895093/photo/1",
           "ext_media_availability": {
             "status": "Available"
           },
           "features": {
             "large": {
-              "faces": [
-                {
-                  "h": 292,
-                  "w": 292,
-                  "x": 410,
-                  "y": 158
-                }
-              ]
+              "faces": []
             }
           },
-          "id_str": "2036292455231053824",
+          "id_str": "2036581653636841472",
           "indices": [
-            59,
-            82
+            164,
+            187
           ],
-          "media_key": "3_2036292455231053824",
-          "media_url_https": "https://pbs.twimg.com/media/HEJdMwTa4AAdpiO.jpg",
+          "media_key": "3_2036581653636841472",
+          "media_url_https": "https://pbs.twimg.com/media/HENkOUUaAAAAFzN.png",
           "original_info": {
             "focus_rects": [
               {
-                "h": 573,
-                "w": 1024,
-                "x": 0,
-                "y": 46
-              },
-              {
-                "h": 1024,
-                "w": 1024,
+                "h": 420,
+                "w": 750,
                 "x": 0,
                 "y": 0
               },
               {
-                "h": 1024,
-                "w": 898,
-                "x": 88,
+                "h": 474,
+                "w": 474,
+                "x": 119,
                 "y": 0
               },
               {
-                "h": 1024,
-                "w": 512,
-                "x": 281,
+                "h": 474,
+                "w": 416,
+                "x": 148,
                 "y": 0
               },
               {
-                "h": 1024,
-                "w": 1024,
+                "h": 474,
+                "w": 237,
+                "x": 238,
+                "y": 0
+              },
+              {
+                "h": 474,
+                "w": 750,
                 "x": 0,
                 "y": 0
               }
             ],
-            "height": 1024,
-            "width": 1024
+            "height": 474,
+            "width": 750
           },
           "sizes": {
             "large": {
-              "h": 1024,
-              "w": 1024
+              "h": 474,
+              "w": 750
             }
           },
           "type": "photo",
-          "url": "https://t.co/chcLx2nMOO"
+          "url": "https://t.co/QaxSSpTeap"
         }
       ],
       "candidate_reason": "ai_signal",
@@ -102,95 +112,148 @@
       "disposition_reason": "info_value"
     },
     {
-      "tweet_id": "2036566134468542651",
-      "url": "https://x.com/cursor_ai/status/2036566134468542651",
-      "screen_name": "cursor_ai",
-      "created_at": "Tue Mar 24 22:09:38 +0000 2026",
-      "full_text": "We're releasing a technical report describing how Composer 2 was trained. https://t.co/cfW8lyMWEy",
+      "tweet_id": "2036451540169343363",
+      "url": "https://x.com/JoshKale/status/2036451540169343363",
+      "screen_name": "JoshKale",
+      "created_at": "Tue Mar 24 14:34:17 +0000 2026",
+      "full_text": "The Anthropic mini IPO is unfolding and you already missed a 15x return\n\nThe stock is named VCX by Fundrise and just went up 1,500% in 5 days on the NYSE\n\nIt’s a fund holding:\n- Anthropic = 21%\n- OpenAI = 10%\n- SpaceX = 5%\n- Databricks = 18% \n- Anduril = 7%\n\n$VCX has a NAV of $19 https://t.co/MHD1oUZ14B",
       "lang": "en",
-      "favorite_count": 2001,
-      "retweet_count": 183,
-      "reply_count": 60,
+      "favorite_count": 2003,
+      "retweet_count": 152,
+      "reply_count": 123,
       "view_count": 0,
       "quoted_tweet_text": "",
       "media": [
         {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/cfW8lyMWEy",
-          "expanded_url": "https://x.com/cursor_ai/status/2036566134468542651/photo/1",
+          "display_url": "pic.x.com/MHD1oUZ14B",
+          "expanded_url": "https://x.com/JoshKale/status/2036451540169343363/photo/1",
           "ext_media_availability": {
             "status": "Available"
           },
           "features": {
             "large": {
-              "faces": [
-                {
-                  "h": 154,
-                  "w": 154,
-                  "x": 1158,
-                  "y": 683
-                }
-              ]
+              "faces": []
             }
           },
-          "id_str": "2036565131300315136",
+          "id_str": "2036450885509808128",
           "indices": [
-            74,
-            97
+            281,
+            304
           ],
-          "media_key": "3_2036565131300315136",
-          "media_url_https": "https://pbs.twimg.com/media/HENVMl0aIAA9FmU.jpg",
+          "media_key": "3_2036450885509808128",
+          "media_url_https": "https://pbs.twimg.com/media/HELtSnFXgAA9wdH.jpg",
           "original_info": {
             "focus_rects": [
               {
-                "h": 1025,
-                "w": 1830,
+                "h": 735,
+                "w": 1312,
                 "x": 0,
                 "y": 0
               },
               {
-                "h": 1025,
-                "w": 1025,
+                "h": 1312,
+                "w": 1312,
                 "x": 0,
                 "y": 0
               },
               {
-                "h": 1025,
-                "w": 899,
+                "h": 1408,
+                "w": 1235,
                 "x": 0,
                 "y": 0
               },
               {
-                "h": 1025,
-                "w": 513,
-                "x": 98,
+                "h": 1408,
+                "w": 704,
+                "x": 0,
                 "y": 0
               },
               {
-                "h": 1025,
-                "w": 2024,
+                "h": 1408,
+                "w": 1312,
                 "x": 0,
                 "y": 0
               }
             ],
-            "height": 1025,
-            "width": 2024
+            "height": 1408,
+            "width": 1312
           },
           "sizes": {
             "large": {
-              "h": 1025,
-              "w": 2024
+              "h": 1408,
+              "w": 1312
             }
           },
           "type": "photo",
-          "url": "https://t.co/cfW8lyMWEy"
+          "url": "https://t.co/MHD1oUZ14B"
+        },
+        {
+          "display_url": "pic.x.com/MHD1oUZ14B",
+          "expanded_url": "https://x.com/JoshKale/status/2036451540169343363/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2036450911028133888",
+          "indices": [
+            281,
+            304
+          ],
+          "media_key": "3_2036450911028133888",
+          "media_url_https": "https://pbs.twimg.com/media/HELtUGJaQAAqVo5.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 736,
+                "w": 1314,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1314,
+                "w": 1314,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1498,
+                "w": 1314,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1498,
+                "w": 749,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1498,
+                "w": 1314,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1498,
+            "width": 1314
+          },
+          "sizes": {
+            "large": {
+              "h": 1498,
+              "w": 1314
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/MHD1oUZ14B"
         }
       ],
-      "candidate_reason": "monitored_account",
+      "candidate_reason": "ai_signal",
       "disposition": "keep",
-      "disposition_reason": "monitored_lenient"
+      "disposition_reason": "info_value"
     }
   ]
 }
