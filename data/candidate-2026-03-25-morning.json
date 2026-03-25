@@ -1,23 +1,17 @@
 {
   "date": "2026-03-25",
   "period": "morning",
-  "fetched_at": "2026-03-25T00:07:25.701972+00:00",
-  "total_tweets": 14,
+  "fetched_at": "2026-03-25T00:07:25.706488+00:00",
+  "raw_count": 14,
+  "candidate_count": 9,
+  "filter_stats": {
+    "monitored_account": 0,
+    "ai_signal": 9,
+    "too_short": 1,
+    "reject_pattern": 0,
+    "no_ai_signal": 4
+  },
   "tweets": [
-    {
-      "tweet_id": "2036557401252389051",
-      "url": "https://x.com/mattxiv/status/2036557401252389051",
-      "screen_name": "mattxiv",
-      "created_at": "Tue Mar 24 21:34:56 +0000 2026",
-      "full_text": "it’s happening",
-      "lang": "en",
-      "favorite_count": 13469,
-      "retweet_count": 476,
-      "reply_count": 59,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": []
-    },
     {
       "tweet_id": "2036364955881185451",
       "url": "https://x.com/iam_elias1/status/2036364955881185451",
@@ -94,35 +88,8 @@
           "type": "photo",
           "url": "https://t.co/v2u58Z4W0a"
         }
-      ]
-    },
-    {
-      "tweet_id": "2036548388498411700",
-      "url": "https://x.com/LZCOficial/status/2036548388498411700",
-      "screen_name": "LZCOficial",
-      "created_at": "Tue Mar 24 20:59:07 +0000 2026",
-      "full_text": "LA BURBUJA HACE POP",
-      "lang": "es",
-      "favorite_count": 5223,
-      "retweet_count": 372,
-      "reply_count": 40,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": []
-    },
-    {
-      "tweet_id": "2036401669966098590",
-      "url": "https://x.com/HOD001ofnaija/status/2036401669966098590",
-      "screen_name": "HOD001ofnaija",
-      "created_at": "Tue Mar 24 11:16:07 +0000 2026",
-      "full_text": "I did this on Saturday and I got interviewed with salary negotiations on that Saturday.",
-      "lang": "en",
-      "favorite_count": 3319,
-      "retweet_count": 249,
-      "reply_count": 22,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": []
+      ],
+      "candidate_reason": "ai_signal"
     },
     {
       "tweet_id": "2036258709425291270",
@@ -207,7 +174,8 @@
           "type": "photo",
           "url": "https://t.co/FRdtm01ijt"
         }
-      ]
+      ],
+      "candidate_reason": "ai_signal"
     },
     {
       "tweet_id": "2036201854661427251",
@@ -221,7 +189,8 @@
       "reply_count": 61,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": []
+      "media": [],
+      "candidate_reason": "ai_signal"
     },
     {
       "tweet_id": "2036277889151258907",
@@ -277,21 +246,8 @@
             ]
           }
         }
-      ]
-    },
-    {
-      "tweet_id": "2036316355432264051",
-      "url": "https://x.com/DowdEdward/status/2036316355432264051",
-      "screen_name": "DowdEdward",
-      "created_at": "Tue Mar 24 05:37:06 +0000 2026",
-      "full_text": "Very expensive capital …screams of desperation. Nothing screams bubble trouble more than this.",
-      "lang": "en",
-      "favorite_count": 2442,
-      "retweet_count": 383,
-      "reply_count": 85,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": []
+      ],
+      "candidate_reason": "ai_signal"
     },
     {
       "tweet_id": "2036297493986811946",
@@ -305,7 +261,8 @@
       "reply_count": 49,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": []
+      "media": [],
+      "candidate_reason": "ai_signal"
     },
     {
       "tweet_id": "2036307726003745178",
@@ -319,7 +276,8 @@
       "reply_count": 105,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": []
+      "media": [],
+      "candidate_reason": "ai_signal"
     },
     {
       "tweet_id": "2036438580671701332",
@@ -333,7 +291,8 @@
       "reply_count": 31,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": []
+      "media": [],
+      "candidate_reason": "ai_signal"
     },
     {
       "tweet_id": "2036243825761591714",
@@ -347,7 +306,8 @@
       "reply_count": 225,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": []
+      "media": [],
+      "candidate_reason": "ai_signal"
     },
     {
       "tweet_id": "2036554032815194428",
@@ -361,21 +321,8 @@
       "reply_count": 76,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": []
-    },
-    {
-      "tweet_id": "2036577255665647771",
-      "url": "https://x.com/MeekMill/status/2036577255665647771",
-      "screen_name": "MeekMill",
-      "created_at": "Tue Mar 24 22:53:50 +0000 2026",
-      "full_text": "Basically saying a rapper not smart enough to achieve a real tech start up lol  soon Ima  find a long term  \"meek mill\" supporter  that's successful in the tech space  that knows my influence value and my thinking patterns ... we gone see!  I always save these post ha",
-      "lang": "en",
-      "favorite_count": 2045,
-      "retweet_count": 130,
-      "reply_count": 271,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": []
+      "media": [],
+      "candidate_reason": "ai_signal"
     }
   ]
 }
