@@ -3,7 +3,9 @@ Read the latest final-{date}-{period}.json and send Top N tweets to Telegram.
 """
 
 import json
+import html
 import os
+import re
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -48,14 +50,30 @@ def fmt_likes(n):
     return str(n)
 
 
-def truncate(text, max_len=120):
-    """Truncate text and remove t.co links."""
-    import re
-    text = re.sub(r'https?://t\.co/\S+', '', text).strip()
-    text = text.replace('\n', ' ')
-    if len(text) > max_len:
-        text = text[:max_len] + '...'
-    return text
+def clean_tweet_text(text):
+    """Clean tweet text: unescape HTML entities, remove t.co links, collapse whitespace."""
+    text = html.unescape(text)
+    text = re.sub(r'https?://t\.co/\S+', '', text)
+    text = re.sub(r'\n+', ' ', text)
+    text = re.sub(r'\s{2,}', ' ', text)
+    return text.strip()
+
+
+def make_summary(text, max_len=100):
+    """Create a one-line summary from cleaned tweet text."""
+    text = clean_tweet_text(text)
+    # Remove leading RT/reply markers
+    text = re.sub(r'^(RT\s+)?@\w+[:\s]*', '', text).strip()
+    # Take the first sentence if it fits
+    for sep in ['. ', '! ', '? ', '。', '！', '？']:
+        idx = text.find(sep)
+        if 0 < idx <= max_len:
+            return text[:idx + len(sep)].strip()
+    # Otherwise truncate at word boundary
+    if len(text) <= max_len:
+        return text
+    cut = text[:max_len].rsplit(' ', 1)[0]
+    return cut + '...'
 
 
 def main():
@@ -85,11 +103,12 @@ def main():
     lines = [f"*{header}*\n"]
     for i, tw in enumerate(top, 1):
         author = escape_md2(f"@{tw.get('screen_name', '?')}")
-        likes = escape_md2(f"{fmt_likes(tw.get('favorite_count', 0))}")
-        summary = escape_md2(truncate(tw.get("full_text", "")))
+        likes = escape_md2(fmt_likes(tw.get('favorite_count', 0)))
+        summary = escape_md2(make_summary(tw.get("full_text", "")))
         url = tw.get("url", "")
+
         lines.append(f"{i}\\. {author} \\| {likes} likes")
-        lines.append(f"{summary}")
+        lines.append(summary)
         if url:
             lines.append(f"[Link]({url})\n")
         else:
@@ -99,7 +118,7 @@ def main():
 
     # Telegram message limit is 4096 chars
     if len(message) > 4096:
-        message = message[:4090] + "\\.\\.\\.)"
+        message = message[:4090] + "\\.\\.\\."
 
     print(f"Sending {len(top)} tweets to Telegram...")
     send_telegram(message)

@@ -273,30 +273,27 @@ FINAL_VALUE_PATTERNS = [
     r'\bcan now\b',
     r'\bnow (can|support|allow|ha[sv]|offer|generat)\b',
     # News/announcement language
-    r'\b(announc|launch|releas|discontinu|shut.?down|acquir|dead|end(ed|ing)|clos(ed|ing))\b',
-    r'\b(breaking|officially|confirmed|update[ds]?)\b',
+    r'\b(announc|launch|releas|discontinu|shut.?down|acquir)\b',
+    r'\b(breaking|officially confirmed)\b',
     # Technical/product substance
-    r'\b(feature|API|benchmark|open.?source|deploy|SDK|framework|model|inference|fine.?tun)\b',
-    r'\bv\d',  # version numbers like v2, v4.0
-    # Comparison/analysis
-    r'\b(compar|versus|\bvs\.?\b|analysis|thread|review)\b',
+    r'\b(API|benchmark|open.?source|deploy|SDK|framework|inference|fine.?tun)\b',
+    r'\bv\d+\.\d',  # version numbers like v2.0, v4.1 (not bare v1)
+    # Comparison/analysis (substantive only)
+    r'\b(compar|versus|\bvs\.?\b|benchmark)\b',
     # Instructional/tutorial
-    r'\b(how to|step.by.step|prompt[s]?|workflow|tutorial|guide)\b',
-    r'\b(here.?s (what|how|a)|found out|turns out|just found)\b',
+    r'\b(how to|step.by.step|tutorial|guide)\b',
     # Business/industry data
-    r'\b(revenue|funding|valuation|subscription|pricing|per (day|month|year))\b',
-    # Product/creation
-    r'\b(shipped|built|prototype|demo|upgrade)\b',
+    r'\b(revenue|funding|valuation|subscription|pricing)\b',
+    # Product/creation (substantive)
+    r'\b(shipped|prototype|demo)\b',
     # List/structured content (suggests effort — requires actual list markers)
     r'(•|▸|►|\d+[\.\)]\s)',
-    # Job/industry impact
-    r'\b(jobs?|hiring|replac|automat|disrupt|industr)\b',
+    # Hiring/replacement (AI-specific)
+    r'\b(hiring|layoff|replac(e|ed|ing)\b.*\bai\b)',
     # Japanese/Chinese news markers
-    r'(提供終了|発表|リリース|公開|発売|更新)',
+    r'(提供終了|発表|リリース|公開|発売)',
     # Spanish/multilingual news terms
     r'\b(cerrar|lanzar|anunciar|noticias)\b',
-    # Cross-language terms
-    r'\b(copyright|open.?source)\b',
 ]
 
 # Meme/joke formats
