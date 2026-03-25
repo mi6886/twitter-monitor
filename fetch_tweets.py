@@ -190,6 +190,79 @@ def extract_tweet(tweet):
     }
 
 
+# --- Candidate filter: rule-based first-pass coarse filter ---
+# Core AI/tech signal patterns (case-insensitive)
+AI_SIGNAL_PATTERNS = [
+    # Products & companies
+    r'\b(chatgpt|openai|gpt-?\d|dall-?e|sora)\b',
+    r'\bclaude\b(?!.{0,30}(le roy|makelele|van damme|chelsea|caicedo|maroc|champion))',
+    r'\b(anthropic|claude code)\b',
+    r'\bgemini\b(?!.{0,20}(fourth|pond|gmmtv|performance|chanting))',
+    r'\bcursor\b(?!.{0,15}(set|mouse|pointer|blink))',
+    r'\b(midjourney|stable diffusion|hugging\s?face)\b',
+    r'\b(perplexity|mistral|groq|grok|xai)\b',
+    r'\b(nvidia|jensen huang|blackwell|cuda|gpu)\b',
+    r'\b(copilot|github copilot|codex)\b',
+    r'\b(notebooklm|google ai|deepmind)\b',
+    r'\b(kimi|moonshot)\b',
+    # General AI/tech terms
+    r'\bai\b(?=.{0,30}(model|agent|tool|generat|code|startup|chip|train|image|video|company|bubble|slop))',
+    r'\b(artificial intelligence|machine learning|deep learning)\b',
+    r'\b(llm|large language model|neural net)\b',
+    r'\b(robot|humanoid|self[- ]driving|autonomous)\b',
+    r'\b(semiconductor|quantum computing)\b',
+    r'\b(vibe\s?coding|vibecoding|ai agent|aiagent)\b',
+    r'\b(agi\b|superintelligence|alignment)\b',
+    r'\b(fine[- ]?tun|embedding|rag pipeline|context window)\b',
+    r'\b(sam altman|dario amodei|elon musk)\b',
+    r'\b(neuralink|tesla bot|optimus)\b',
+    r'\b(openclaw|nano banana)\b',
+    r'\b(windsurf|replit|devin)\b',
+    r'\b(n8n|langchain|llama[\s_]?index)\b',
+]
+
+# Hard reject patterns - definitely not AI/tech content
+REJECT_PATTERNS = [
+    r'\b(sepak bola|football|basketball|nba|soccer|cricket|la liga|premier league|valverde|mourinho)\b',
+    r'\b(drama|kdrama|anime|manga|kpop|concert|movie|film|tv show|ganon|zelda|hollywood)\b',
+    r'\b(horoscope|zodiac|astrology|aquarius|scorpio|pisces)\b',
+    r'\b(recipe|cooking|food|restaurant|cafe)\b',
+    r'\b(nikah|pasangan|pacar|suami|istri|cinta|jodoh|mantan|kehidup)\b',
+    r'\b(love island|bachelor|bachelorette)\b',
+    r'\b(heath ledger|joker|batman|wildlife|eco system|casino|gamble)\b',
+]
+
+MONITORED_ACCOUNTS_LOWER = set(a.lower() for a in ALL_ACCOUNTS)
+
+
+def candidate_filter(tweet):
+    """First-pass coarse filter. Returns (pass: bool, reason: str)."""
+    screen_name = (tweet.get("screen_name") or "").lower()
+
+    # Rule 1: Monitored accounts auto-pass
+    if screen_name in MONITORED_ACCOUNTS_LOWER:
+        return True, "monitored_account"
+
+    text = (tweet.get("full_text", "") + " " + tweet.get("quoted_tweet_text", "")).lower()
+
+    # Rule 2: Reject if text is too short (just URL or empty)
+    clean_text = re.sub(r'https?://\S+', '', text).strip()
+    if len(clean_text) < 15:
+        return False, "too_short"
+
+    # Rule 3: Hard reject patterns
+    for pat in REJECT_PATTERNS:
+        if re.search(pat, text, re.IGNORECASE):
+            return False, "reject_pattern"
+
+    # Rule 4: Must match at least one AI signal
+    for pat in AI_SIGNAL_PATTERNS:
+        if re.search(pat, text, re.IGNORECASE):
+            return True, "ai_signal"
+
+    return False, "no_ai_signal"
+
+
 def build_account_search(accounts):
     """Build search query for a batch of accounts."""
     froms = " OR ".join(f"from:{a}" for a in accounts)
@@ -312,6 +385,33 @@ def main():
     raw_file = output_dir / f"raw-{today}-{period}.json"
     raw_file.write_text(json.dumps(raw_result, ensure_ascii=False, indent=2))
     print(f"\nSaved {len(all_tweets)} raw tweets to {raw_file}")
+
+    # --- Generate candidate file (first-pass coarse filter on raw) ---
+    candidate_tweets = []
+    filter_stats = {"monitored_account": 0, "ai_signal": 0,
+                    "too_short": 0, "reject_pattern": 0, "no_ai_signal": 0}
+    for tweet in all_tweets:
+        passed, reason = candidate_filter(tweet)
+        filter_stats[reason] = filter_stats.get(reason, 0) + 1
+        if passed:
+            tweet_with_source = dict(tweet)
+            tweet_with_source["candidate_reason"] = reason
+            candidate_tweets.append(tweet_with_source)
+
+    candidate_result = {
+        "date": today,
+        "period": period,
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "raw_count": len(all_tweets),
+        "candidate_count": len(candidate_tweets),
+        "filter_stats": filter_stats,
+        "tweets": candidate_tweets,
+    }
+    candidate_file = output_dir / f"candidate-{today}-{period}.json"
+    candidate_file.write_text(json.dumps(candidate_result, ensure_ascii=False, indent=2))
+    print(f"Candidate filter: {len(all_tweets)} raw → {len(candidate_tweets)} candidate")
+    print(f"  Filter stats: {filter_stats}")
+    print(f"Saved {len(candidate_tweets)} candidate tweets to {candidate_file}")
 
     # Update seen URLs (keep last 2000 to prevent unbounded growth)
     seen_list = sorted(seen_urls)
