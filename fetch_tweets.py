@@ -263,6 +263,74 @@ def candidate_filter(tweet):
     return False, "no_ai_signal"
 
 
+# --- Final filter: second-pass fine filter (candidate → final) ---
+# Info value signals — tweet must show at least one sign of substance
+FINAL_VALUE_PATTERNS = [
+    # Dollar amounts or large numbers with context
+    r'\$\d',
+    r'\b\d+\s*(million|billion|M\b|B\b|percent|%)',
+    # New capability / product update
+    r'\bcan now\b',
+    r'\bnow (can|support|allow|ha[sv]|offer|generat)\b',
+    # News/announcement language
+    r'\b(announc|launch|releas|discontinu|shut.?down|acquir|dead|end(ed|ing)|clos(ed|ing))\b',
+    r'\b(breaking|officially|confirmed|update[ds]?)\b',
+    # Technical/product substance
+    r'\b(feature|API|benchmark|open.?source|deploy|version|SDK|framework|model|inference|fine.?tun)\b',
+    # Comparison/analysis
+    r'\b(compar|versus|\bvs\.?\b|analysis|thread|review)\b',
+    # Instructional/tutorial
+    r'\b(how to|step.by.step|prompt[s]?|workflow|tutorial|guide)\b',
+    r'\b(here.?s (what|how|a)|found out|turns out|just found)\b',
+    # Business/industry data
+    r'\b(revenue|funding|valuation|subscription|pricing|per (day|month|year))\b',
+    # Product/creation
+    r'\b(shipped|built|prototype|demo|upgrade)\b',
+    # List/structured content (suggests effort — requires actual list markers)
+    r'(•|▸|►|\d+[\.\)]\s)',
+    # Job/industry impact
+    r'\b(jobs?|hiring|replac|automat|disrupt|industr)\b',
+    # Japanese/Chinese news markers
+    r'(提供終了|発表|リリース|公開|発売|更新)',
+]
+
+# Meme/joke formats — clear low-value patterns
+FINAL_MEME_PATTERNS = [
+    r'^\s*(pov\s*:|me when\s|me after\s|nobody\s*:|when (you|i|we|the)\s)',
+    r'^\s*(hey|yo)\s+(claude|chatgpt|gpt|gemini|sora|copilot)\b',
+]
+
+
+def final_filter(tweet):
+    """Second-pass fine filter: is this worth keeping in final output?
+    Returns (keep: bool, reason: str)."""
+    text = (tweet.get("full_text", "") + " " + tweet.get("quoted_tweet_text", "")).lower()
+    clean = re.sub(r'https?://\S+', '', text).strip()
+    screen_name = (tweet.get("screen_name") or "").lower()
+
+    # Rule 1: Drop obvious meme/joke formats
+    for pat in FINAL_MEME_PATTERNS:
+        if re.search(pat, clean):
+            return False, "meme_format"
+
+    # Rule 2: Check for info value signals (before length check —
+    #          short CJK headlines can be highly informative)
+    for pat in FINAL_VALUE_PATTERNS:
+        if re.search(pat, text, re.IGNORECASE):
+            return True, "info_value"
+
+    # Rule 3: Must have minimum substance (no value signal + short = drop)
+    if len(clean) < 40:
+        return False, "too_brief"
+
+    # Rule 4: Monitored accounts get lenient pass (already passed candidate)
+    if screen_name in MONITORED_ACCOUNTS_LOWER:
+        return True, "monitored_lenient"
+
+    # Rule 5: No info signal detected
+    return False, "no_info_value"
+
+
 def build_account_search(accounts):
     """Build search query for a batch of accounts."""
     froms = " OR ".join(f"from:{a}" for a in accounts)
@@ -412,6 +480,34 @@ def main():
     print(f"Candidate filter: {len(all_tweets)} raw → {len(candidate_tweets)} candidate")
     print(f"  Filter stats: {filter_stats}")
     print(f"Saved {len(candidate_tweets)} candidate tweets to {candidate_file}")
+
+    # --- Generate final file (second-pass fine filter on candidate) ---
+    final_tweets = []
+    final_stats = {"info_value": 0, "monitored_lenient": 0,
+                   "too_brief": 0, "meme_format": 0, "no_info_value": 0}
+    for tweet in candidate_tweets:
+        keep, reason = final_filter(tweet)
+        final_stats[reason] = final_stats.get(reason, 0) + 1
+        if keep:
+            tweet_with_reason = dict(tweet)
+            tweet_with_reason["final_reason"] = reason
+            final_tweets.append(tweet_with_reason)
+
+    final_result = {
+        "date": today,
+        "period": period,
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "raw_count": len(all_tweets),
+        "candidate_count": len(candidate_tweets),
+        "final_count": len(final_tweets),
+        "final_filter_stats": final_stats,
+        "tweets": final_tweets,
+    }
+    final_file = output_dir / f"final-{today}-{period}.json"
+    final_file.write_text(json.dumps(final_result, ensure_ascii=False, indent=2))
+    print(f"Final filter: {len(candidate_tweets)} candidate → {len(final_tweets)} final")
+    print(f"  Final filter stats: {final_stats}")
+    print(f"Saved {len(final_tweets)} final tweets to {final_file}")
 
     # Update seen URLs (keep last 2000 to prevent unbounded growth)
     seen_list = sorted(seen_urls)
