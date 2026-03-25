@@ -47,3 +47,13 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python send_telegram.py
+
+      - name: Persist Telegram sent log
+        run: |
+          git add data/telegram_sent.json
+          if git diff --staged --quiet; then
+            echo "No sent log changes"
+          else
+            git commit -m "data: update telegram sent log"
+            git push
+          fi

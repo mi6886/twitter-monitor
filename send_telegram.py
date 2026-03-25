@@ -1,7 +1,9 @@
 """
 Read the latest final-{date}-{period}.json and send Top N tweets to Telegram.
+Includes dedup (won't re-send identical content) and verified receipt logging.
 """
 
+import hashlib
 import json
 import html
 import os
@@ -18,7 +20,7 @@ TOP_N = 15
 
 
 def send_telegram(text):
-    """Send a message via Telegram Bot API (MarkdownV2)."""
+    """Send a message via Telegram Bot API (MarkdownV2). Returns parsed JSON."""
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     payload = json.dumps({
         "chat_id": TELEGRAM_CHAT_ID,
@@ -31,7 +33,8 @@ def send_telegram(text):
         with urlopen(req, timeout=30) as resp:
             return json.loads(resp.read())
     except HTTPError as e:
-        print(f"Telegram API error {e.code}: {e.read().decode()[:300]}", file=sys.stderr)
+        body = e.read().decode()[:300]
+        print(f"Telegram API HTTP {e.code}: {body}", file=sys.stderr)
         raise
 
 
@@ -62,25 +65,46 @@ def clean_tweet_text(text):
 def make_summary(text, max_len=100):
     """Create a one-line summary from cleaned tweet text."""
     text = clean_tweet_text(text)
-    # Remove leading RT/reply markers
     text = re.sub(r'^(RT\s+)?@\w+[:\s]*', '', text).strip()
-    # Remove list markers that become orphaned fragments
-    text = re.sub(r'^\s*(\d+[\.\)]\s*|[•▸►—–-]\s*)', '', text).strip()
+    text = re.sub(r'^\s*(\d+[\.\)]\s*|[•▸►\u2014\u2013-]\s*)', '', text).strip()
     text = re.sub(r'\s+(\d+[\.\)]\s)', ' ', text)
-    # Take the first sentence if it fits
-    for sep in ['. ', '! ', '? ', '。', '！', '？']:
+    for sep in ['. ', '! ', '? ', '\u3002', '\uff01', '\uff1f']:
         idx = text.find(sep)
         if 0 < idx <= max_len:
             return text[:idx + len(sep)].strip()
-    # Otherwise truncate at word boundary
     if len(text) <= max_len:
         return text
     cut = text[:max_len].rsplit(' ', 1)[0]
-    # Don't end on an orphan list marker
     cut = re.sub(r'\s+\d+[\.\)]?\s*$', '', cut)
-    cut = re.sub(r'\s+[•▸►—–-]\s*$', '', cut)
+    cut = re.sub(r'\s+[•▸►\u2014\u2013-]\s*$', '', cut)
     return cut + '...'
 
+
+# --- Dedup ---
+
+def compute_digest(date, period, tweet_urls):
+    """Stable digest for a specific date+period+content combination."""
+    key = f"{date}|{period}|{'|'.join(sorted(tweet_urls))}"
+    return hashlib.sha256(key.encode()).hexdigest()[:16]
+
+
+def load_sent_log(path):
+    """Load set of previously sent digests."""
+    if not path.exists():
+        return set()
+    try:
+        return set(json.loads(path.read_text()))
+    except (json.JSONDecodeError, TypeError):
+        return set()
+
+
+def save_sent_log(path, digests):
+    """Save sent digests (keep last 50 to avoid unbounded growth)."""
+    recent = sorted(digests)[-50:]
+    path.write_text(json.dumps(recent, indent=2))
+
+
+# --- Main ---
 
 def main():
     data_dir = Path(__file__).parent / "data"
@@ -102,6 +126,17 @@ def main():
         print("No tweets in final file, skipping Telegram.")
         sys.exit(0)
 
+    # --- Dedup check ---
+    sent_log_file = data_dir / "telegram_sent.json"
+    tweet_urls = [t.get("url", "") for t in tweets]
+    digest = compute_digest(today, period, tweet_urls)
+
+    sent_digests = load_sent_log(sent_log_file)
+    if digest in sent_digests:
+        print(f"SKIP: digest {digest} already sent for {today}-{period}. No duplicate push.")
+        sys.exit(0)
+
+    # --- Build message ---
     top = tweets[:TOP_N]
     period_label = "Morning" if period == "morning" else "Evening"
     header = escape_md2(f"AI News | {today} {period_label} | {data.get('final_count', len(tweets))} tweets")
@@ -122,13 +157,35 @@ def main():
 
     message = "\n".join(lines)
 
-    # Telegram message limit is 4096 chars
     if len(message) > 4096:
         message = message[:4090] + "\\.\\.\\."
 
-    print(f"Sending {len(top)} tweets to Telegram...")
-    send_telegram(message)
-    print("Sent successfully.")
+    # --- Send with verified receipt ---
+    print(f"Sending {len(top)} tweets to Telegram (digest={digest})...")
+    result = send_telegram(message)
+
+    # Verify response
+    ok = result.get("ok")
+    msg = result.get("result", {})
+    message_id = msg.get("message_id")
+    chat_id = msg.get("chat", {}).get("id")
+    date_ts = msg.get("date")
+
+    print(f"  ok={ok}")
+    print(f"  chat_id={chat_id}")
+    print(f"  message_id={message_id}")
+    print(f"  date={date_ts}")
+
+    if not ok or not message_id:
+        print("FATAL: Telegram API did not return ok=true or message_id.", file=sys.stderr)
+        print(f"Full response: {json.dumps(result)}", file=sys.stderr)
+        sys.exit(1)
+
+    # --- Record digest to prevent re-send ---
+    sent_digests.add(digest)
+    save_sent_log(sent_log_file, sent_digests)
+
+    print(f"Verified: message delivered (message_id={message_id}).")
 
 
 if __name__ == "__main__":
