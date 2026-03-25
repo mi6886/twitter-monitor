@@ -1,37 +1,36 @@
 {
   "date": "2026-03-25",
   "period": "evening",
-  "fetched_at": "2026-03-25T04:02:21.888290+00:00",
-  "raw_count": 56,
-  "candidate_count": 28,
-  "final_count": 3,
-  "review_count": 22,
+  "fetched_at": "2026-03-25T07:54:32.752823+00:00",
+  "raw_count": 31,
+  "candidate_count": 20,
+  "final_count": 5,
+  "review_count": 12,
   "drop_hard_count": 3,
   "disposition_stats": {
-    "info_value": 3,
-    "low_info_ai_content": 19,
-    "not_ai_content": 2,
+    "info_value": 4,
+    "not_ai_content": 3,
+    "low_info_ai_content": 10,
     "brief_ai_mention": 2,
-    "offensive": 1,
-    "low_value_pattern": 1
+    "monitored_lenient": 1
   },
   "tweets": [
     {
-      "tweet_id": "2036244987428409634",
-      "url": "https://x.com/DailyLoud/status/2036244987428409634",
-      "screen_name": "DailyLoud",
-      "created_at": "Tue Mar 24 00:53:31 +0000 2026",
-      "full_text": "Florida man used ChatGPT to sell his home in 5 days for $1M https://t.co/uUSTXcU5Ch",
+      "tweet_id": "2036537282614747366",
+      "url": "https://x.com/theMadridZone/status/2036537282614747366",
+      "screen_name": "theMadridZone",
+      "created_at": "Tue Mar 24 20:14:59 +0000 2026",
+      "full_text": "🚨 BREAKING: Former Real Madrid nutritionist Itziar Gonzalez says on IG that Real Madrid have been asking the \"free version of ChatGPT\" what supplements they should give the players, and that's what they give them. https://t.co/Ndqn4LALD5",
       "lang": "en",
-      "favorite_count": 20690,
-      "retweet_count": 884,
-      "reply_count": 422,
+      "favorite_count": 32866,
+      "retweet_count": 1688,
+      "reply_count": 713,
       "view_count": 0,
       "quoted_tweet_text": "",
       "media": [
         {
-          "display_url": "pic.x.com/uUSTXcU5Ch",
-          "expanded_url": "https://x.com/DailyLoud/status/2036244987428409634/photo/1",
+          "display_url": "pic.x.com/Ndqn4LALD5",
+          "expanded_url": "https://x.com/theMadridZone/status/2036537282614747366/photo/1",
           "ext_media_availability": {
             "status": "Available"
           },
@@ -39,65 +38,128 @@
             "large": {
               "faces": [
                 {
-                  "h": 186,
-                  "w": 186,
-                  "x": 767,
-                  "y": 50
+                  "h": 111,
+                  "w": 111,
+                  "x": 200,
+                  "y": 83
                 }
               ]
             }
           },
-          "id_str": "2036244982059900929",
+          "id_str": "2036536940024250368",
           "indices": [
-            60,
-            83
+            214,
+            237
           ],
-          "media_key": "3_2036244982059900929",
-          "media_url_https": "https://pbs.twimg.com/media/HEIyBc9aIAEi2dw.jpg",
+          "media_key": "3_2036536940024250368",
+          "media_url_https": "https://pbs.twimg.com/media/HEM7jpIbQAA__xV.jpg",
           "original_info": {
             "focus_rects": [
               {
-                "h": 573,
-                "w": 1024,
+                "h": 319,
+                "w": 569,
                 "x": 0,
-                "y": 109
-              },
-              {
-                "h": 682,
-                "w": 682,
-                "x": 342,
                 "y": 0
               },
               {
-                "h": 682,
-                "w": 598,
-                "x": 426,
+                "h": 569,
+                "w": 569,
+                "x": 0,
                 "y": 0
               },
               {
-                "h": 682,
-                "w": 341,
-                "x": 683,
+                "h": 649,
+                "w": 569,
+                "x": 0,
                 "y": 0
               },
               {
-                "h": 682,
-                "w": 1024,
+                "h": 707,
+                "w": 354,
+                "x": 87,
+                "y": 0
+              },
+              {
+                "h": 707,
+                "w": 569,
                 "x": 0,
                 "y": 0
               }
             ],
-            "height": 682,
-            "width": 1024
+            "height": 707,
+            "width": 569
           },
           "sizes": {
             "large": {
-              "h": 682,
-              "w": 1024
+              "h": 707,
+              "w": 569
             }
           },
           "type": "photo",
-          "url": "https://t.co/uUSTXcU5Ch"
+          "url": "https://t.co/Ndqn4LALD5"
+        },
+        {
+          "display_url": "pic.x.com/Ndqn4LALD5",
+          "expanded_url": "https://x.com/theMadridZone/status/2036537282614747366/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2036537237899468800",
+          "indices": [
+            214,
+            237
+          ],
+          "media_key": "3_2036537237899468800",
+          "media_url_https": "https://pbs.twimg.com/media/HEM70-zaYAAc-ra.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 389,
+                "w": 695,
+                "x": 0,
+                "y": 297
+              },
+              {
+                "h": 686,
+                "w": 686,
+                "x": 9,
+                "y": 0
+              },
+              {
+                "h": 686,
+                "w": 602,
+                "x": 93,
+                "y": 0
+              },
+              {
+                "h": 686,
+                "w": 343,
+                "x": 228,
+                "y": 0
+              },
+              {
+                "h": 686,
+                "w": 695,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 686,
+            "width": 695
+          },
+          "sizes": {
+            "large": {
+              "h": 686,
+              "w": 695
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Ndqn4LALD5"
         }
       ],
       "candidate_reason": "ai_signal",
@@ -105,109 +167,527 @@
       "disposition_reason": "info_value"
     },
     {
-      "tweet_id": "2036297493986811946",
-      "url": "https://x.com/kmeanskaran/status/2036297493986811946",
-      "screen_name": "kmeanskaran",
-      "created_at": "Tue Mar 24 04:22:09 +0000 2026",
-      "full_text": "using claude you can become money printing machine. \n\n&gt; get claude subscription\n&gt; go on maps, linkedin, google business\n&gt; search logistics, e-commerce, ed-tech companies\n&gt; see what they are doing\n&gt; tell them you can do better and faster\n&gt; automate their minor tasks like filling",
+      "tweet_id": "2036587032953094408",
+      "url": "https://x.com/TukiFromKL/status/2036587032953094408",
+      "screen_name": "TukiFromKL",
+      "created_at": "Tue Mar 24 23:32:41 +0000 2026",
+      "full_text": "🚨 Do you understand what happened today.. a single Tuesday..\n\n&gt; Disney pulled out of its $1 billion deal with OpenAI.. the company that spent 100 years suing over Mickey Mouse decided AI video wasn't worth the risk..\n\n&gt; OpenAI killed Sora as a standalone app.. $1 billion in R&amp;D https://t.co/S7iMMeZqxJ",
       "lang": "en",
-      "favorite_count": 2500,
-      "retweet_count": 157,
-      "reply_count": 50,
+      "favorite_count": 2183,
+      "retweet_count": 356,
+      "reply_count": 38,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/S7iMMeZqxJ",
+          "expanded_url": "https://x.com/TukiFromKL/status/2036587032953094408/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036586937537204224",
+          "indices": [
+            289,
+            312
+          ],
+          "media_key": "13_2036586937537204224",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036586937537204224/img/M8DzACUCrX6eO5cj.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/S7iMMeZqxJ",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 13955,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2036586937537204224/pl/8yxzfsR1orcXTNov.m3u8?v=dea"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036586937537204224/vid/avc1/480x270/TSyS3hmIx2W_TfI0.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036586937537204224/vid/avc1/640x360/4NWeouXLqWiZaVrI.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036586937537204224/vid/avc1/1280x720/4GZmI2ZuVpVuiRUt.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036586937537204224/vid/avc1/1920x1080/SGEh_ZG5yJaWrK_J.mp4"
+              }
+            ]
+          }
+        }
+      ],
       "candidate_reason": "ai_signal",
       "disposition": "keep",
       "disposition_reason": "info_value"
     },
     {
-      "tweet_id": "2036292658784874768",
-      "url": "https://x.com/DipWheeler/status/2036292658784874768",
-      "screen_name": "DipWheeler",
-      "created_at": "Tue Mar 24 04:02:56 +0000 2026",
-      "full_text": "*how to claude*\n\n*sup claude*\n\n*gimmie access to palantir* https://t.co/chcLx2nMOO",
+      "tweet_id": "2036653323978420322",
+      "url": "https://x.com/aakashgupta/status/2036653323978420322",
+      "screen_name": "aakashgupta",
+      "created_at": "Wed Mar 25 03:56:06 +0000 2026",
+      "full_text": "Someone just poisoned the Python package that manages AI API keys for NASA, Netflix, Stripe, and NVIDIA.. 97 million downloads a month.. and a simple pip install was enough to steal everything on your machine.\n\nThe attacker picked the one package whose entire job is holding every https://t.co/xXlfbQpjgB",
       "lang": "en",
-      "favorite_count": 2338,
-      "retweet_count": 98,
-      "reply_count": 31,
+      "favorite_count": 2148,
+      "retweet_count": 447,
+      "reply_count": 64,
       "view_count": 0,
       "quoted_tweet_text": "",
       "media": [
         {
-          "display_url": "pic.x.com/chcLx2nMOO",
-          "expanded_url": "https://x.com/DipWheeler/status/2036292658784874768/photo/1",
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/xXlfbQpjgB",
+          "expanded_url": "https://x.com/aakashgupta/status/2036653323978420322/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036653271444824064",
+          "indices": [
+            281,
+            304
+          ],
+          "media_key": "13_2036653271444824064",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036653271444824064/img/oAcAjp1J3E3iod1d.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/xXlfbQpjgB",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 13744,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2036653271444824064/pl/ECv-t5PGDfxy3BHP.m3u8?v=d0e"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036653271444824064/vid/avc1/480x270/4U9pR9T1wkk-MSo2.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036653271444824064/vid/avc1/640x360/7oFl8yNsH2ESUXQB.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036653271444824064/vid/avc1/1280x720/0FFDFRIkKNe3MkHA.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036653271444824064/vid/avc1/1920x1080/sQrF_DDp9KN7sgmt.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2036323247109664978",
+      "url": "https://x.com/Techjunkie_Aman/status/2036323247109664978",
+      "screen_name": "Techjunkie_Aman",
+      "created_at": "Tue Mar 24 06:04:29 +0000 2026",
+      "full_text": "This is what Linux should’ve been from the start.\n\nNobara OS removes all the annoying setup.\n\nBuilt on Fedora, but gaming-first.\n\nOut of the box:\n\n• Steam + Proton-GE ready  \n• WINE dependencies preconfigured  \n• OBS + full media codecs included  \n• NVIDIA/AMD drivers tuned https://t.co/vc8n4ZOR9A",
+      "lang": "en",
+      "favorite_count": 2118,
+      "retweet_count": 139,
+      "reply_count": 89,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/vc8n4ZOR9A",
+          "expanded_url": "https://x.com/Techjunkie_Aman/status/2036323247109664978/photo/1",
           "ext_media_availability": {
             "status": "Available"
           },
           "features": {
             "large": {
-              "faces": [
-                {
-                  "h": 292,
-                  "w": 292,
-                  "x": 410,
-                  "y": 158
-                }
-              ]
+              "faces": []
             }
           },
-          "id_str": "2036292455231053824",
+          "id_str": "2036323242433187840",
           "indices": [
-            59,
-            82
+            275,
+            298
           ],
-          "media_key": "3_2036292455231053824",
-          "media_url_https": "https://pbs.twimg.com/media/HEJdMwTa4AAdpiO.jpg",
+          "media_key": "3_2036323242433187840",
+          "media_url_https": "https://pbs.twimg.com/media/HEJ5MzkaEAAMtV4.jpg",
           "original_info": {
             "focus_rects": [
               {
-                "h": 573,
-                "w": 1024,
+                "h": 605,
+                "w": 1080,
                 "x": 0,
-                "y": 46
+                "y": 0
+              },
+              {
+                "h": 844,
+                "w": 844,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 844,
+                "w": 740,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 844,
+                "w": 422,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 844,
+                "w": 1080,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 844,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 844,
+              "w": 1080
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/vc8n4ZOR9A"
+        },
+        {
+          "display_url": "pic.x.com/vc8n4ZOR9A",
+          "expanded_url": "https://x.com/Techjunkie_Aman/status/2036323247109664978/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2036323243636948992",
+          "indices": [
+            275,
+            298
+          ],
+          "media_key": "3_2036323243636948992",
+          "media_url_https": "https://pbs.twimg.com/media/HEJ5M4DaAAAydk_.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 764,
+                "w": 1365,
+                "x": 0,
+                "y": 0
               },
               {
                 "h": 1024,
                 "w": 1024,
-                "x": 0,
+                "x": 170,
                 "y": 0
               },
               {
                 "h": 1024,
                 "w": 898,
-                "x": 88,
+                "x": 233,
                 "y": 0
               },
               {
                 "h": 1024,
                 "w": 512,
-                "x": 281,
+                "x": 426,
                 "y": 0
               },
               {
                 "h": 1024,
-                "w": 1024,
+                "w": 1365,
                 "x": 0,
                 "y": 0
               }
             ],
             "height": 1024,
-            "width": 1024
+            "width": 1365
           },
           "sizes": {
             "large": {
               "h": 1024,
-              "w": 1024
+              "w": 1365
             }
           },
           "type": "photo",
-          "url": "https://t.co/chcLx2nMOO"
+          "url": "https://t.co/vc8n4ZOR9A"
+        },
+        {
+          "display_url": "pic.x.com/vc8n4ZOR9A",
+          "expanded_url": "https://x.com/Techjunkie_Aman/status/2036323247109664978/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2036323242454216704",
+          "indices": [
+            275,
+            298
+          ],
+          "media_key": "3_2036323242454216704",
+          "media_url_https": "https://pbs.twimg.com/media/HEJ5Mzpa8AADZdR.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 479,
+                "w": 856,
+                "x": 0,
+                "y": 315
+              },
+              {
+                "h": 794,
+                "w": 794,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 794,
+                "w": 696,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 794,
+                "w": 397,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 794,
+                "w": 856,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 794,
+            "width": 856
+          },
+          "sizes": {
+            "large": {
+              "h": 794,
+              "w": 856
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/vc8n4ZOR9A"
+        },
+        {
+          "display_url": "pic.x.com/vc8n4ZOR9A",
+          "expanded_url": "https://x.com/Techjunkie_Aman/status/2036323247109664978/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2036323242475134977",
+          "indices": [
+            275,
+            298
+          ],
+          "media_key": "3_2036323242475134977",
+          "media_url_https": "https://pbs.twimg.com/media/HEJ5MzuaIAEstem.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 489,
+                "w": 873,
+                "x": 0,
+                "y": 290
+              },
+              {
+                "h": 779,
+                "w": 779,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 779,
+                "w": 683,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 779,
+                "w": 390,
+                "x": 131,
+                "y": 0
+              },
+              {
+                "h": 779,
+                "w": 873,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 779,
+            "width": 873
+          },
+          "sizes": {
+            "large": {
+              "h": 779,
+              "w": 873
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/vc8n4ZOR9A"
         }
       ],
       "candidate_reason": "ai_signal",
       "disposition": "keep",
       "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2036499691571953848",
+      "url": "https://x.com/AnthropicAI/status/2036499691571953848",
+      "screen_name": "AnthropicAI",
+      "created_at": "Tue Mar 24 17:45:37 +0000 2026",
+      "full_text": "New from the Anthropic Economic Index: how people’s use of Claude changes with experience.\n\nLonger-term users are more likely to iterate carefully with Claude, and less likely to hand it full autonomy. They attempt higher-value tasks, and receive more successful responses. https://t.co/yCsrA0bLt9",
+      "lang": "en",
+      "favorite_count": 2021,
+      "retweet_count": 199,
+      "reply_count": 147,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/yCsrA0bLt9",
+          "expanded_url": "https://x.com/AnthropicAI/status/2036499691571953848/photo/1",
+          "ext_alt_text": "This table shows the average characteristics for high and low tenure users. We define high-tenure users as those who signed up for Claude at least six months before our data pull.",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2036494947344588801",
+          "indices": [
+            274,
+            297
+          ],
+          "media_key": "3_2036494947344588801",
+          "media_url_https": "https://pbs.twimg.com/media/HEMVXWNaIAEkMLV.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1232,
+                "w": 2200,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1244,
+                "w": 1244,
+                "x": 862,
+                "y": 0
+              },
+              {
+                "h": 1244,
+                "w": 1091,
+                "x": 939,
+                "y": 0
+              },
+              {
+                "h": 1244,
+                "w": 622,
+                "x": 1173,
+                "y": 0
+              },
+              {
+                "h": 1244,
+                "w": 2200,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1244,
+            "width": 2200
+          },
+          "sizes": {
+            "large": {
+              "h": 1158,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/yCsrA0bLt9"
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_lenient"
     }
   ]
 }
