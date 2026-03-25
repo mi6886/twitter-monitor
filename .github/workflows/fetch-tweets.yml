@@ -41,3 +41,9 @@ jobs:
             git commit -m "data: fetch tweets $(date -u +%Y-%m-%dT%H:%M)"
             git push
           fi
+
+      - name: Send to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python send_telegram.py
