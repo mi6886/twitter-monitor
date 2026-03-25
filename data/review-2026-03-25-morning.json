@@ -1,16 +1,8 @@
 {
   "date": "2026-03-25",
   "period": "morning",
-  "fetched_at": "2026-03-25T00:41:30.285629+00:00",
-  "raw_count": 11,
-  "candidate_count": 4,
-  "filter_stats": {
-    "monitored_account": 0,
-    "ai_signal": 4,
-    "too_short": 0,
-    "reject_pattern": 1,
-    "no_ai_signal": 6
-  },
+  "fetched_at": "2026-03-25T00:41:30.289424+00:00",
+  "review_count": 3,
   "tweets": [
     {
       "tweet_id": "2036476382998315281",
@@ -84,7 +76,9 @@
           }
         }
       ],
-      "candidate_reason": "ai_signal"
+      "candidate_reason": "ai_signal",
+      "disposition": "review",
+      "disposition_reason": "low_info_ai_content"
     },
     {
       "tweet_id": "2036560888866418759",
@@ -99,7 +93,9 @@
       "view_count": 0,
       "quoted_tweet_text": "",
       "media": [],
-      "candidate_reason": "ai_signal"
+      "candidate_reason": "ai_signal",
+      "disposition": "review",
+      "disposition_reason": "brief_ai_mention"
     },
     {
       "tweet_id": "2036550370030182403",
@@ -114,86 +110,9 @@
       "view_count": 0,
       "quoted_tweet_text": "",
       "media": [],
-      "candidate_reason": "ai_signal"
-    },
-    {
-      "tweet_id": "2036472778241544609",
-      "url": "https://x.com/h4brev/status/2036472778241544609",
-      "screen_name": "h4brev",
-      "created_at": "Tue Mar 24 15:58:40 +0000 2026",
-      "full_text": "e eu que tava vibecodando de boa hoje e meus agentes de ia começaram a brigar lkkkkk #bolhadev #devspelades #vibecoding https://t.co/d79HV6NnD0",
-      "lang": "pt",
-      "favorite_count": 2007,
-      "retweet_count": 74,
-      "reply_count": 57,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/d79HV6NnD0",
-          "expanded_url": "https://x.com/h4brev/status/2036472778241544609/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2036472772042383360",
-          "indices": [
-            120,
-            143
-          ],
-          "media_key": "3_2036472772042383360",
-          "media_url_https": "https://pbs.twimg.com/media/HEMBMkxXYAAEhzr.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 675,
-                "w": 1206,
-                "x": 0,
-                "y": 54
-              },
-              {
-                "h": 873,
-                "w": 873,
-                "x": 316,
-                "y": 0
-              },
-              {
-                "h": 873,
-                "w": 766,
-                "x": 369,
-                "y": 0
-              },
-              {
-                "h": 873,
-                "w": 437,
-                "x": 534,
-                "y": 0
-              },
-              {
-                "h": 873,
-                "w": 1206,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 873,
-            "width": 1206
-          },
-          "sizes": {
-            "large": {
-              "h": 873,
-              "w": 1206
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/d79HV6NnD0"
-        }
-      ],
-      "candidate_reason": "ai_signal"
+      "candidate_reason": "ai_signal",
+      "disposition": "review",
+      "disposition_reason": "low_info_ai_content"
     }
   ]
 }
