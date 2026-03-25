@@ -239,23 +239,23 @@ def candidate_filter(tweet):
     """First-pass coarse filter. Returns (pass: bool, reason: str)."""
     screen_name = (tweet.get("screen_name") or "").lower()
 
-    # Rule 1: Monitored accounts auto-pass
-    if screen_name in MONITORED_ACCOUNTS_LOWER:
-        return True, "monitored_account"
-
     text = (tweet.get("full_text", "") + " " + tweet.get("quoted_tweet_text", "")).lower()
 
-    # Rule 2: Reject if text is too short (just URL or empty)
+    # Rule 1: Reject if text is too short (just URL or empty)
     clean_text = re.sub(r'https?://\S+', '', text).strip()
     if len(clean_text) < 15:
         return False, "too_short"
 
-    # Rule 3: Hard reject patterns
+    # Rule 2: Hard reject patterns (apply to ALL sources including monitored)
     for pat in REJECT_PATTERNS:
         if re.search(pat, text, re.IGNORECASE):
             return False, "reject_pattern"
 
-    # Rule 4: Must match at least one AI signal
+    # Rule 3: Monitored accounts — lenient pass (passed text length + reject filter)
+    if screen_name in MONITORED_ACCOUNTS_LOWER:
+        return True, "monitored_account"
+
+    # Rule 4: Keyword-sourced — must match at least one AI signal
     for pat in AI_SIGNAL_PATTERNS:
         if re.search(pat, text, re.IGNORECASE):
             return True, "ai_signal"
