@@ -1,16 +1,196 @@
 {
   "date": "2026-03-25",
   "period": "morning",
-  "fetched_at": "2026-03-25T00:41:30.289251+00:00",
-  "raw_count": 11,
+  "fetched_at": "2026-03-25T00:45:25.535274+00:00",
+  "raw_count": 6,
   "candidate_count": 4,
-  "final_count": 0,
-  "review_count": 3,
-  "drop_hard_count": 1,
+  "final_count": 2,
+  "review_count": 2,
+  "drop_hard_count": 0,
   "disposition_stats": {
     "low_info_ai_content": 2,
-    "brief_ai_mention": 1,
-    "not_ai_content": 1
+    "info_value": 1,
+    "monitored_lenient": 1
   },
-  "tweets": []
+  "tweets": [
+    {
+      "tweet_id": "2036292658784874768",
+      "url": "https://x.com/DipWheeler/status/2036292658784874768",
+      "screen_name": "DipWheeler",
+      "created_at": "Tue Mar 24 04:02:56 +0000 2026",
+      "full_text": "*how to claude*\n\n*sup claude*\n\n*gimmie access to palantir* https://t.co/chcLx2nMOO",
+      "lang": "en",
+      "favorite_count": 2170,
+      "retweet_count": 90,
+      "reply_count": 31,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/chcLx2nMOO",
+          "expanded_url": "https://x.com/DipWheeler/status/2036292658784874768/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 292,
+                  "w": 292,
+                  "x": 410,
+                  "y": 158
+                }
+              ]
+            }
+          },
+          "id_str": "2036292455231053824",
+          "indices": [
+            59,
+            82
+          ],
+          "media_key": "3_2036292455231053824",
+          "media_url_https": "https://pbs.twimg.com/media/HEJdMwTa4AAdpiO.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 573,
+                "w": 1024,
+                "x": 0,
+                "y": 46
+              },
+              {
+                "h": 1024,
+                "w": 1024,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1024,
+                "w": 898,
+                "x": 88,
+                "y": 0
+              },
+              {
+                "h": 1024,
+                "w": 512,
+                "x": 281,
+                "y": 0
+              },
+              {
+                "h": 1024,
+                "w": 1024,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1024,
+            "width": 1024
+          },
+          "sizes": {
+            "large": {
+              "h": 1024,
+              "w": 1024
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/chcLx2nMOO"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2036566134468542651",
+      "url": "https://x.com/cursor_ai/status/2036566134468542651",
+      "screen_name": "cursor_ai",
+      "created_at": "Tue Mar 24 22:09:38 +0000 2026",
+      "full_text": "We're releasing a technical report describing how Composer 2 was trained. https://t.co/cfW8lyMWEy",
+      "lang": "en",
+      "favorite_count": 2001,
+      "retweet_count": 183,
+      "reply_count": 60,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/cfW8lyMWEy",
+          "expanded_url": "https://x.com/cursor_ai/status/2036566134468542651/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 154,
+                  "w": 154,
+                  "x": 1158,
+                  "y": 683
+                }
+              ]
+            }
+          },
+          "id_str": "2036565131300315136",
+          "indices": [
+            74,
+            97
+          ],
+          "media_key": "3_2036565131300315136",
+          "media_url_https": "https://pbs.twimg.com/media/HENVMl0aIAA9FmU.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1025,
+                "w": 1830,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1025,
+                "w": 1025,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1025,
+                "w": 899,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1025,
+                "w": 513,
+                "x": 98,
+                "y": 0
+              },
+              {
+                "h": 1025,
+                "w": 2024,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1025,
+            "width": 2024
+          },
+          "sizes": {
+            "large": {
+              "h": 1025,
+              "w": 2024
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/cfW8lyMWEy"
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_lenient"
+    }
+  ]
 }
