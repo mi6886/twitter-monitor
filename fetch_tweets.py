@@ -296,10 +296,19 @@ FINAL_VALUE_PATTERNS = [
     r'\b(cerrar|lanzar|anunciar|noticias)\b',
 ]
 
-# Meme/joke formats
-FINAL_MEME_PATTERNS = [
+# Meme/joke/reaction formats → route to review
+FINAL_LOW_VALUE_PATTERNS = [
+    # Meme formats
     r'^\s*(pov\s*:|me when\s|me after\s|nobody\s*:|when (you|i|we|the)\s)',
     r'^\s*(hey|yo)\s+(claude|chatgpt|gpt|gemini|sora|copilot)\b',
+    # Pure reaction / opinion with no substance
+    r'^(wow|omg|lmao|lol|bruh|damn|holy|wtf|rip)\b',
+    r'\b(is (dead|cooked|over|finished|insane|crazy|wild|goated))\b',
+    r'\b(just (vibes|wow|insane))\b',
+    # Entertainment/gossip framing
+    r'\b(drama|beef|tea|shade|ratio|cope|seethe|clown)\b',
+    # Brand/domain/account trivia
+    r'\b(domain|username|handle|rebrand)\b.*\b(bought|sold|taken|available)\b',
 ]
 
 # AI product names — used to distinguish "about AI" from "candidate leak"
@@ -323,46 +332,44 @@ def final_filter(tweet):
     screen_name = (tweet.get("screen_name") or "").lower()
     has_ai_name = bool(AI_PRODUCT_RE.search(clean))
 
-    # --- KEEP layer ---
+    # --- DROP_HARD layer (check first) ---
 
-    # Rule 1: Info value signals → keep (before length check for CJK)
-    for pat in FINAL_VALUE_PATTERNS:
-        if re.search(pat, text, re.IGNORECASE):
-            return "keep", "info_value"
-
-    # Rule 2: Monitored accounts with enough substance → keep
-    if screen_name in MONITORED_ACCOUNTS_LOWER and len(clean) >= 40:
-        return "keep", "monitored_lenient"
-
-    # --- DROP_HARD layer ---
-
-    # Rule 3: Too brief to extract any value
+    # Rule 1: Too brief to extract any value
     if len(clean) < 20:
         return "drop_hard", "too_brief"
 
-    # Rule 4: Offensive content
+    # Rule 2: Offensive content
     for pat in OFFENSIVE_PATTERNS:
         if re.search(pat, text, re.IGNORECASE):
             return "drop_hard", "offensive"
 
-    # Rule 5: No AI product name → candidate leak, not really about AI
+    # Rule 3: No AI product name → candidate leak, not really about AI
     if not has_ai_name:
         return "drop_hard", "not_ai_content"
 
-    # --- REVIEW layer ---
-    # Passed candidate (has AI signal), has AI product name,
-    # but lacks info value. May still have spread/topic/adaptation value.
+    # --- REVIEW layer for low-value content (before keep check) ---
 
-    # Rule 6: Meme format with AI name → review (viral AI meme)
-    for pat in FINAL_MEME_PATTERNS:
-        if re.search(pat, clean):
-            return "review", "ai_meme"
+    # Rule 4: Meme/reaction/gossip/trivia patterns → review even if has info signal
+    for pat in FINAL_LOW_VALUE_PATTERNS:
+        if re.search(pat, clean, re.IGNORECASE):
+            return "review", "low_value_pattern"
 
-    # Rule 7: Short but has AI name → review (hot take / reaction)
-    if len(clean) < 40:
+    # Rule 5: Short with AI name but no real depth → review
+    if len(clean) < 50:
         return "review", "brief_ai_mention"
 
-    # Rule 8: Has AI name, enough text, no info value → review
+    # --- KEEP layer (requires AI name + info value signal) ---
+
+    # Rule 6: Has AI product name + substantive info signal → keep
+    for pat in FINAL_VALUE_PATTERNS:
+        if re.search(pat, text, re.IGNORECASE):
+            return "keep", "info_value"
+
+    # Rule 7: Monitored accounts with substantial text + AI name → keep
+    if screen_name in MONITORED_ACCOUNTS_LOWER and len(clean) >= 60:
+        return "keep", "monitored_lenient"
+
+    # --- Fallback: has AI name, long enough, but no info signal → review ---
     return "review", "low_info_ai_content"
 
 
