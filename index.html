@@ -515,15 +515,47 @@
       if (!res.ok) throw new Error('no-data');
       const data = await res.json();
 
-      // feed 文件已经过 AI/tech 关键词过滤，直接显示
       const tweets = data.tweets || [];
+      const headerText = `${currentDate} · ${periodLabel}${viewLabel}`;
+      document.getElementById('date-text').textContent = headerText;
 
       if (tweets.length === 0) {
         allTweets = [];
-        document.getElementById('date-text').textContent = `${currentDate} · ${periodLabel}${viewLabel}`;
         document.getElementById('count-text').textContent = '';
         statsBar.style.display = 'none';
-        area.innerHTML = '<div class="state-box"><span class="state-icon">📭</span><p>该时段暂无数据</p></div>';
+
+        // Build detailed status from metadata in the JSON file
+        const raw = data.raw_count ?? '?';
+        const cand = data.candidate_count ?? '?';
+        const fin = data.final_count ?? '?';
+        const rev = data.review_count ?? '?';
+        const updated = data.fetched_at ? new Date(data.fetched_at).toLocaleString('zh-CN') : '未知';
+
+        let statusMsg = '';
+        let statusIcon = '📭';
+        if (raw === 0 || raw === '?') {
+          statusMsg = '该时段未抓取到数据';
+          statusIcon = '⚠️';
+        } else if (cand === 0) {
+          statusMsg = `已抓取 ${raw} 条，但清洗后无可用数据（candidate=0）`;
+          statusIcon = '🔍';
+        } else if (currentView === 'final' && fin === 0) {
+          statusMsg = `已抓取 ${raw} 条 → 清洗 ${cand} 条 → 精选 0 条（全部进入待审或丢弃）`;
+          statusIcon = '📋';
+          // Check if review has data
+          try {
+            const revRes = await fetch(`data/review-${currentDate}-${period}.json`);
+            if (revRes.ok) {
+              const revData = await revRes.json();
+              const revCount = (revData.tweets || []).length;
+              if (revCount > 0) statusMsg += `\n待审有 ${revCount} 条，可切换查看`;
+            }
+          } catch(e) {}
+        } else {
+          statusMsg = '该时段暂无数据';
+        }
+
+        area.innerHTML = `<div class="state-box"><span class="state-icon">${statusIcon}</span><p>${statusMsg.replace(/\n/g,'<br>')}</p><p style="font-size:0.75rem;color:var(--text-dim);margin-top:8px">raw ${raw} → candidate ${cand} → final ${fin} · review ${rev}<br>更新于 ${updated}</p></div>`;
         return;
       }
 
@@ -531,17 +563,19 @@
         .map(t => ({ ...t, _cat: categorize(t) }))
         .sort((a, b) => (b.favorite_count || 0) - (a.favorite_count || 0));
 
+      const countInfo = `共 ${allTweets.length} 条推文`;
+      const extra = data.raw_count ? ` · raw ${data.raw_count} → candidate ${data.candidate_count} → final ${data.final_count} · review ${data.review_count}` : '';
+      document.getElementById('count-text').textContent = countInfo;
       document.getElementById('date-text').textContent = `${data.date || currentDate} · ${periodLabel}${viewLabel}`;
-      document.getElementById('count-text').textContent = `共 ${allTweets.length} 条推文`;
 
       render();
     } catch (err) {
-      // 文件不存在 → 该时段暂无数据
+      // File does not exist — no crawl happened for this date/period
       allTweets = [];
       document.getElementById('date-text').textContent = `${currentDate} · ${periodLabel}${viewLabel}`;
       document.getElementById('count-text').textContent = '';
       statsBar.style.display = 'none';
-      area.innerHTML = '<div class="state-box"><span class="state-icon">📭</span><p>该时段暂无数据</p></div>';
+      area.innerHTML = '<div class="state-box"><span class="state-icon">⚠️</span><p>该时段未抓取（无数据文件）</p><p style="font-size:0.75rem;color:var(--text-dim);margin-top:8px">文件 ' + filename + ' 不存在</p></div>';
     }
   }
 
