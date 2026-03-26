@@ -1,0 +1,631 @@
+{
+  "date": "2026-03-27",
+  "period": "morning",
+  "fetched_at": "2026-03-26T23:22:38.440344+00:00",
+  "raw_count": 96,
+  "candidate_count": 59,
+  "final_count": 9,
+  "review_count": 34,
+  "drop_hard_count": 16,
+  "disposition_stats": {
+    "brief_ai_mention": 6,
+    "low_info_ai_content": 25,
+    "not_ai_content": 16,
+    "info_value": 7,
+    "low_value_pattern": 1,
+    "weak_signal_untrusted": 1,
+    "monitored_lenient": 1,
+    "high_signal_source": 1,
+    "off_topic": 1
+  },
+  "tweets": [
+    {
+      "tweet_id": "2037078783539212784",
+      "url": "https://x.com/Pitah_Finnest/status/2037078783539212784",
+      "screen_name": "Pitah_Finnest",
+      "created_at": "Thu Mar 26 08:06:43 +0000 2026",
+      "full_text": "\"How to hide 50kg of salt in an airport \"\nChatgpt: https://t.co/JLPZjHH9td",
+      "lang": "en",
+      "favorite_count": 12939,
+      "retweet_count": 1262,
+      "reply_count": 136,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/JLPZjHH9td",
+          "expanded_url": "https://x.com/Pitah_Finnest/status/2037078783539212784/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037078780804489216",
+          "indices": [
+            51,
+            74
+          ],
+          "media_key": "3_2037078780804489216",
+          "media_url_https": "https://pbs.twimg.com/media/HEUoW7VWYAA4yp1.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 306,
+                "w": 546,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 306,
+                "w": 306,
+                "x": 37,
+                "y": 0
+              },
+              {
+                "h": 306,
+                "w": 268,
+                "x": 56,
+                "y": 0
+              },
+              {
+                "h": 306,
+                "w": 153,
+                "x": 114,
+                "y": 0
+              },
+              {
+                "h": 306,
+                "w": 588,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 306,
+            "width": 588
+          },
+          "sizes": {
+            "large": {
+              "h": 306,
+              "w": 588
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/JLPZjHH9td"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2037132023207518429",
+      "url": "https://x.com/AiWithSaira/status/2037132023207518429",
+      "screen_name": "AiWithSaira",
+      "created_at": "Thu Mar 26 11:38:17 +0000 2026",
+      "full_text": "THAT'S WHY AIRLINES HATE CLAUDE 4.6\n\nFlight for $879. I paid $299.\nNo points. No affiliations. No VPN.\n\nHere are 8 prompts I used to travel like a pro↓",
+      "lang": "en",
+      "favorite_count": 4128,
+      "retweet_count": 272,
+      "reply_count": 68,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2037219115002405076",
+      "url": "https://x.com/noahzweben/status/2037219115002405076",
+      "screen_name": "noahzweben",
+      "created_at": "Thu Mar 26 17:24:21 +0000 2026",
+      "full_text": "Thrilled to announce Claude Code auto-fix – in the cloud. Web/Mobile sessions can now automatically follow PRs - fixing CI failures and addressing comments so that your PR is always green.\n\nThis happens remotely so you can fully walk away and come back to a ready-to-go PR. https://t.co/F41RTeymXJ",
+      "lang": "en",
+      "favorite_count": 3654,
+      "retweet_count": 269,
+      "reply_count": 220,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/F41RTeymXJ",
+          "expanded_url": "https://x.com/noahzweben/status/2037219115002405076/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037213923913719809",
+          "indices": [
+            274,
+            297
+          ],
+          "media_key": "13_2037213923913719809",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037213923913719809/img/ABhP-shUM0frDRdX.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1400,
+            "width": 1400
+          },
+          "sizes": {
+            "large": {
+              "h": 1400,
+              "w": 1400
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/F41RTeymXJ",
+          "video_info": {
+            "aspect_ratio": [
+              1,
+              1
+            ],
+            "duration_millis": 12181,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2037213923913719809/pl/IfCkgDi-YAVGvNRH.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 432000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037213923913719809/vid/avc1/320x320/GRFlsUUUNshHBxrg.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037213923913719809/vid/avc1/540x540/epExCu7MC1NENL3Q.mp4"
+              },
+              {
+                "bitrate": 1280000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037213923913719809/vid/avc1/720x720/0ejxPcya9AKZCrll.mp4"
+              },
+              {
+                "bitrate": 8768000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037213923913719809/vid/avc1/1080x1080/0gUSJyIBdUWe_Cis.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2037254607001559305",
+      "url": "https://x.com/trq212/status/2037254607001559305",
+      "screen_name": "trq212",
+      "created_at": "Thu Mar 26 19:45:23 +0000 2026",
+      "full_text": "To manage growing demand for Claude we're adjusting our 5 hour session limits for free/Pro/Max subs during peak hours. Your weekly limits remain unchanged.\n\nDuring weekdays between 5am–11am PT / 1pm–7pm GMT, you'll move through your 5-hour session limits faster than before.",
+      "lang": "en",
+      "favorite_count": 3268,
+      "retweet_count": 214,
+      "reply_count": 871,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_lenient"
+    },
+    {
+      "tweet_id": "2037187750005240307",
+      "url": "https://x.com/OfficialLoganK/status/2037187750005240307",
+      "screen_name": "OfficialLoganK",
+      "created_at": "Thu Mar 26 15:19:43 +0000 2026",
+      "full_text": "Introducing Gemini 3.1 Flash Live, our new realtime model to build voice and vision agents!! \n\nWe have spent more than a year improving the model + infra + experience, the results? A step function improvement in quality, reliability, and latency. https://t.co/0esYpmDy5l",
+      "lang": "en",
+      "favorite_count": 2759,
+      "retweet_count": 219,
+      "reply_count": 178,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/0esYpmDy5l",
+          "expanded_url": "https://x.com/OfficialLoganK/status/2037187750005240307/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037187417447555078",
+          "indices": [
+            247,
+            270
+          ],
+          "media_key": "3_2037187417447555078",
+          "media_url_https": "https://pbs.twimg.com/media/HEWLKaXbYAYLCmI.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 579,
+                "w": 1034,
+                "x": 0,
+                "y": 3
+              },
+              {
+                "h": 582,
+                "w": 582,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 582,
+                "w": 511,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 582,
+                "w": 291,
+                "x": 87,
+                "y": 0
+              },
+              {
+                "h": 582,
+                "w": 1034,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 582,
+            "width": 1034
+          },
+          "sizes": {
+            "large": {
+              "h": 582,
+              "w": 1034
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/0esYpmDy5l"
+        },
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/0esYpmDy5l",
+          "expanded_url": "https://x.com/OfficialLoganK/status/2037187750005240307/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037187564306649088",
+          "indices": [
+            247,
+            270
+          ],
+          "media_key": "3_2037187564306649088",
+          "media_url_https": "https://pbs.twimg.com/media/HEWLS9dXUAAvhwq.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 579,
+                "w": 1034,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 620,
+                "w": 620,
+                "x": 180,
+                "y": 0
+              },
+              {
+                "h": 620,
+                "w": 544,
+                "x": 218,
+                "y": 0
+              },
+              {
+                "h": 620,
+                "w": 310,
+                "x": 335,
+                "y": 0
+              },
+              {
+                "h": 620,
+                "w": 1034,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 620,
+            "width": 1034
+          },
+          "sizes": {
+            "large": {
+              "h": 620,
+              "w": 1034
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/0esYpmDy5l"
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "high_signal_source"
+    },
+    {
+      "tweet_id": "2037254665188876355",
+      "url": "https://x.com/cryptopunk7213/status/2037254665188876355",
+      "screen_name": "cryptopunk7213",
+      "created_at": "Thu Mar 26 19:45:37 +0000 2026",
+      "full_text": "lmfao fucking genius move by Apple. \n\nSiri now becomes the #1 AI model without ever running its own model or spending a dollar on training 😂 \n\nlet me explain:\n\n- Claude, chatgpt, gemini can now plug into Siri’s 2.5 billion users\n\n- so Siri becomes the default interface for AI https://t.co/7OTOQmxVfr",
+      "lang": "en",
+      "favorite_count": 2390,
+      "retweet_count": 149,
+      "reply_count": 146,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/7OTOQmxVfr",
+          "expanded_url": "https://x.com/cryptopunk7213/status/2037254665188876355/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 309,
+                  "w": 309,
+                  "x": 502,
+                  "y": 180
+                }
+              ]
+            }
+          },
+          "id_str": "2037254661313363969",
+          "indices": [
+            277,
+            300
+          ],
+          "media_key": "3_2037254661313363969",
+          "media_url_https": "https://pbs.twimg.com/media/HEXIUhSXgAE6jNV.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 636,
+                "w": 1136,
+                "x": 0,
+                "y": 51
+              },
+              {
+                "h": 852,
+                "w": 852,
+                "x": 227,
+                "y": 0
+              },
+              {
+                "h": 852,
+                "w": 747,
+                "x": 280,
+                "y": 0
+              },
+              {
+                "h": 852,
+                "w": 426,
+                "x": 440,
+                "y": 0
+              },
+              {
+                "h": 852,
+                "w": 1136,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 852,
+            "width": 1136
+          },
+          "sizes": {
+            "large": {
+              "h": 852,
+              "w": 1136
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/7OTOQmxVfr"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2036904458974871944",
+      "url": "https://x.com/GoogleResearch/status/2036904458974871944",
+      "screen_name": "GoogleResearch",
+      "created_at": "Wed Mar 25 20:34:01 +0000 2026",
+      "full_text": "Introducing Vibe Coding XR, a new rapid prototyping workflow that empowers Gemini Canvas w/ the XR Blocks framework to turn user prompts into interactive, physics-aware WebXR applications, allowing creators to quickly test intelligent spatial experiences →https://t.co/suwxBMoMvD https://t.co/9eVv5o3fPL",
+      "lang": "en",
+      "favorite_count": 2179,
+      "retweet_count": 282,
+      "reply_count": 58,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/9eVv5o3fPL",
+          "expanded_url": "https://x.com/GoogleResearch/status/2036904458974871944/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036904309590548481",
+          "indices": [
+            280,
+            303
+          ],
+          "media_key": "13_2036904309590548481",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036904309590548481/img/ToYhPfmcAbGwSfCw.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/9eVv5o3fPL",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 17308,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2036904309590548481/pl/kcJi-MhrbK_TsVjH.m3u8?v=6c9"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036904309590548481/vid/avc1/480x270/wD0FrdnHb1N9Q3Y0.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036904309590548481/vid/avc1/640x360/LO8qX6aMr35keohw.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036904309590548481/vid/avc1/1280x720/3EXiJBiA0BQAV68K.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036904309590548481/vid/avc1/1920x1080/AEDOguh8LR4ZbPjz.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2036893450873016704",
+      "url": "https://x.com/chhddavid/status/2036893450873016704",
+      "screen_name": "chhddavid",
+      "created_at": "Wed Mar 25 19:50:16 +0000 2026",
+      "full_text": "this is terrifying.\n\nClaude Opus 4.6 + Remotion can now generate videos. It can do motion design, demos and animations from a single prompt...\n\nit's so over. https://t.co/7XLmUk8MJN",
+      "lang": "en",
+      "favorite_count": 2131,
+      "retweet_count": 152,
+      "reply_count": 47,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/7XLmUk8MJN",
+          "expanded_url": "https://x.com/chhddavid/status/2036893450873016704/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036893397529812992",
+          "indices": [
+            158,
+            181
+          ],
+          "media_key": "13_2036893397529812992",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036893397529812992/img/g9Nhhn6ZRvEeswQQ.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/7XLmUk8MJN",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 17608,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2036893397529812992/pl/CC5AUYZbG6YS7aYZ.m3u8?tag=14"
+              },
+              {
+                "bitrate": 288000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036893397529812992/vid/avc1/480x270/NMJK9Pet1IuP41Qb.mp4?tag=14"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036893397529812992/vid/avc1/640x360/PJ-hfhlpDtxfTm4K.mp4?tag=14"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036893397529812992/vid/avc1/1280x720/H6pdtUzDc_iVOchO.mp4?tag=14"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2037135769996063159",
+      "url": "https://x.com/wayne_culbreth/status/2037135769996063159",
+      "screen_name": "wayne_culbreth",
+      "created_at": "Thu Mar 26 11:53:10 +0000 2026",
+      "full_text": "@ybhrdwj I am very likely going to build this with Claude Code this afternoon and post a link to a free download to this thread, because this is absolutely ridiculous to suggest someone should pay $199 for something that probably took about 18 minutes for Claude Code to make.",
+      "lang": "en",
+      "favorite_count": 2035,
+      "retweet_count": 13,
+      "reply_count": 17,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    }
+  ]
+}
