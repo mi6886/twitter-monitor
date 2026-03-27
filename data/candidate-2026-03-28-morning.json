@@ -1,0 +1,3970 @@
+{
+  "date": "2026-03-28",
+  "period": "morning",
+  "fetched_at": "2026-03-27T23:23:43.252002+00:00",
+  "raw_count": 86,
+  "candidate_count": 51,
+  "filter_stats": {
+    "monitored_account": 7,
+    "ai_signal": 44,
+    "too_short": 4,
+    "reject_pattern": 1,
+    "no_ai_signal": 30
+  },
+  "tweets": [
+    {
+      "tweet_id": "2037317430574227469",
+      "url": "https://x.com/ExcelenciaSTE/status/2037317430574227469",
+      "screen_name": "ExcelenciaSTE",
+      "created_at": "Thu Mar 26 23:55:01 +0000 2026",
+      "full_text": "o gemini tem síndrome de impostor né https://t.co/9u4OsxagNy",
+      "lang": "pt",
+      "favorite_count": 37679,
+      "retweet_count": 1885,
+      "reply_count": 166,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/9u4OsxagNy",
+          "expanded_url": "https://x.com/ExcelenciaSTE/status/2037317430574227469/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037317428502228994",
+          "indices": [
+            37,
+            60
+          ],
+          "media_key": "3_2037317428502228994",
+          "media_url_https": "https://pbs.twimg.com/media/HEYBaDSWcAIFkpO.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 605,
+                "w": 1080,
+                "x": 0,
+                "y": 358
+              },
+              {
+                "h": 963,
+                "w": 963,
+                "x": 86,
+                "y": 0
+              },
+              {
+                "h": 963,
+                "w": 845,
+                "x": 145,
+                "y": 0
+              },
+              {
+                "h": 963,
+                "w": 482,
+                "x": 326,
+                "y": 0
+              },
+              {
+                "h": 963,
+                "w": 1080,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 963,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 963,
+              "w": 1080
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/9u4OsxagNy"
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037591556350505045",
+      "url": "https://x.com/NoahKingJr/status/2037591556350505045",
+      "screen_name": "NoahKingJr",
+      "created_at": "Fri Mar 27 18:04:18 +0000 2026",
+      "full_text": "Me watching Claude fix the bug in my code it wrote 5 minutes ago: https://t.co/3QDQSN5sCY",
+      "lang": "en",
+      "favorite_count": 9662,
+      "retweet_count": 383,
+      "reply_count": 37,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {},
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": false,
+                  "legacy": {
+                    "advertiser_account_service_levels": [],
+                    "advertiser_account_type": "promotable_user",
+                    "analytics_type": "enabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": true,
+                    "can_media_tag": true,
+                    "created_at": "Sat Jun 22 19:58:37 +0000 2013",
+                    "description": "Mark Robak, Director @OtayWater & @SDCWA. Support @YesToTap, efficient government, direct potable reuse, conservation, basic water & sanitation for all people.",
+                    "entities": {
+                      "description": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [],
+                        "user_mentions": [
+                          {
+                            "id_str": "0",
+                            "indices": [
+                              21,
+                              31
+                            ],
+                            "name": "",
+                            "screen_name": "OtayWater"
+                          },
+                          {
+                            "id_str": "0",
+                            "indices": [
+                              34,
+                              40
+                            ],
+                            "name": "",
+                            "screen_name": "SDCWA"
+                          },
+                          {
+                            "id_str": "0",
+                            "indices": [
+                              50,
+                              59
+                            ],
+                            "name": "",
+                            "screen_name": "YesToTap"
+                          }
+                        ]
+                      },
+                      "url": {
+                        "urls": [
+                          {
+                            "display_url": "OtayMark.com",
+                            "expanded_url": "http://www.OtayMark.com",
+                            "indices": [
+                              0,
+                              23
+                            ],
+                            "url": "https://t.co/71JXUdYE9G"
+                          }
+                        ]
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 2898,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 2165,
+                    "following": false,
+                    "friends_count": 1346,
+                    "geo_enabled": true,
+                    "has_custom_timelines": false,
+                    "has_extended_profile": false,
+                    "id_str": "1539408224",
+                    "is_translator": false,
+                    "location": "San Diego County",
+                    "media_count": 11907,
+                    "muting": false,
+                    "name": "Water Mark 🚰",
+                    "normal_followers_count": 2165,
+                    "notifications": false,
+                    "pinned_tweet_ids_str": [],
+                    "profile_background_color": "C0DEED",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1539408224/1672761879",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1524889761508233216/M4dAIi6c_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "0084B4",
+                    "protected": false,
+                    "screen_name": "OtayMark",
+                    "statuses_count": 13828,
+                    "translator_type_enum": "None",
+                    "url": "https://t.co/71JXUdYE9G",
+                    "verified": false,
+                    "want_retweets": false,
+                    "withheld_in_countries": []
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Circle",
+                  "rest_id": "1539408224",
+                  "super_follow_eligible": false,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": false
+          },
+          "display_url": "pic.x.com/3QDQSN5sCY",
+          "expanded_url": "https://x.com/OtayMark/status/1765907163380375974/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "1765907017468895233",
+          "indices": [
+            66,
+            89
+          ],
+          "media_key": "7_1765907017468895233",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1765907017468895233/pu/img/IkD6ThdPRXn9Zz6l.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 902
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 902
+            }
+          },
+          "source_status_id_str": "1765907163380375974",
+          "source_user_id_str": "1539408224",
+          "type": "video",
+          "url": "https://t.co/3QDQSN5sCY",
+          "video_info": {
+            "aspect_ratio": [
+              451,
+              360
+            ],
+            "duration_millis": 18692,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/ext_tw_video/1765907017468895233/pu/pl/PRy4HUHERqMCJt2G.m3u8?tag=12"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/1765907017468895233/pu/vid/avc1/338x270/OuWq8W7auJfKKoJH.mp4?tag=12"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/1765907017468895233/pu/vid/avc1/450x360/U7FM6ZE0wKNq87WX.mp4?tag=12"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/1765907017468895233/pu/vid/avc1/902x720/wSqTs7oofNujaQO4.mp4?tag=12"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037487820437418360",
+      "url": "https://x.com/aiwithjainam/status/2037487820437418360",
+      "screen_name": "aiwithjainam",
+      "created_at": "Fri Mar 27 11:12:05 +0000 2026",
+      "full_text": "🚨BREAKING: Claude has a secret mode called \"Ikigai Career Mapper.\"\n\nIt takes your skills, passions, and income needs and finds the exact intersection that makes work feel effortless.\n\nHere's how to activate it: https://t.co/YptwWmcnv2",
+      "lang": "en",
+      "favorite_count": 6713,
+      "retweet_count": 592,
+      "reply_count": 16,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/YptwWmcnv2",
+          "expanded_url": "https://x.com/aiwithjainam/status/2037487820437418360/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 57,
+                  "w": 57,
+                  "x": 378,
+                  "y": 246
+                },
+                {
+                  "h": 70,
+                  "w": 70,
+                  "x": 296,
+                  "y": 489
+                },
+                {
+                  "h": 396,
+                  "w": 396,
+                  "x": 46,
+                  "y": 389
+                }
+              ]
+            }
+          },
+          "id_str": "2037487818054975488",
+          "indices": [
+            211,
+            234
+          ],
+          "media_key": "3_2037487818054975488",
+          "media_url_https": "https://pbs.twimg.com/media/HEacYB1aQAA44lN.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 896,
+                "w": 1600,
+                "x": 0,
+                "y": 4
+              },
+              {
+                "h": 900,
+                "w": 900,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 900,
+                "w": 789,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 900,
+                "w": 450,
+                "x": 135,
+                "y": 0
+              },
+              {
+                "h": 900,
+                "w": 1600,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 900,
+            "width": 1600
+          },
+          "sizes": {
+            "large": {
+              "h": 900,
+              "w": 1600
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/YptwWmcnv2"
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037500602360746459",
+      "url": "https://x.com/RiserMusic/status/2037500602360746459",
+      "screen_name": "RiserMusic",
+      "created_at": "Fri Mar 27 12:02:53 +0000 2026",
+      "full_text": "MUSIC VIDEO OUT NOW!\nDangerous - GEMINI  \n\n📺YouTube : RISER MUSIC\n🔗 https://t.co/Kiahp8deEj\n\n#DangerousGEMINImv\n.\n#DangerousGEMINI\n#GEMINI_NT\n#RISERMUSIC https://t.co/PfY9KWepTj",
+      "lang": "en",
+      "favorite_count": 6667,
+      "retweet_count": 4748,
+      "reply_count": 202,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/PfY9KWepTj",
+          "expanded_url": "https://x.com/RiserMusic/status/2037500602360746459/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037500539865624576",
+          "indices": [
+            154,
+            177
+          ],
+          "media_key": "13_2037500539865624576",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037500539865624576/img/OZh8l2i5HX878d5s.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1920,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 1920,
+              "w": 1080
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/PfY9KWepTj",
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              16
+            ],
+            "duration_millis": 21833,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2037500539865624576/pl/EHaUwjprsQbZ4QnR.m3u8"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037500539865624576/vid/avc1/320x568/NcH2P2MBA62ueXCN.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037500539865624576/vid/avc1/480x852/zzwpDbc6nS4sDKJt.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037500539865624576/vid/avc1/720x1280/NjiNZC4LXUF2emsR.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037500539865624576/vid/avc1/1080x1920/vzgmD1vpWdwS66Fv.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037564610384208273",
+      "url": "https://x.com/thedankoe/status/2037564610384208273",
+      "screen_name": "thedankoe",
+      "created_at": "Fri Mar 27 16:17:13 +0000 2026",
+      "full_text": "Competition is largely an illusion. 95% of people don't even try to do great things. 0.1% of the people are loud, so you overestimate how many people there are. The rest get stuck worrying about competition and quitting after 2 weeks.",
+      "lang": "en",
+      "favorite_count": 6281,
+      "retweet_count": 764,
+      "reply_count": 372,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account"
+    },
+    {
+      "tweet_id": "2037556151420854302",
+      "url": "https://x.com/NoahKingJr/status/2037556151420854302",
+      "screen_name": "NoahKingJr",
+      "created_at": "Fri Mar 27 15:43:37 +0000 2026",
+      "full_text": "5pm: \"Claude usage limit reached. Your limit will reset at 7pm\"\n\nme from 5-6:59pm https://t.co/9hiKP4o0Na",
+      "lang": "en",
+      "favorite_count": 5832,
+      "retweet_count": 435,
+      "reply_count": 46,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {},
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": true,
+                  "legacy": {
+                    "advertiser_account_service_levels": [
+                      "analytics"
+                    ],
+                    "advertiser_account_type": "promotable_user",
+                    "analytics_type": "disabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": true,
+                    "can_media_tag": true,
+                    "created_at": "Thu Mar 05 01:46:22 +0000 2026",
+                    "description": "Co-founder @ArgaLabs YC X26",
+                    "entities": {
+                      "description": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [],
+                        "user_mentions": [
+                          {
+                            "id_str": "0",
+                            "indices": [
+                              11,
+                              20
+                            ],
+                            "name": "",
+                            "screen_name": "ArgaLabs"
+                          }
+                        ]
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 36,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 95,
+                    "following": false,
+                    "friends_count": 65,
+                    "geo_enabled": false,
+                    "has_custom_timelines": false,
+                    "has_extended_profile": true,
+                    "id_str": "2029372874616954880",
+                    "is_translator": false,
+                    "location": "",
+                    "media_count": 16,
+                    "muting": false,
+                    "name": "Phillip Li",
+                    "normal_followers_count": 95,
+                    "notifications": false,
+                    "pinned_tweet_ids_str": [],
+                    "profile_background_color": "F5F8FA",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/2029372874616954880/1772677100",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2029380962489122816/PSBeBmgD_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "1DA1F2",
+                    "protected": false,
+                    "screen_name": "PhillipLii",
+                    "statuses_count": 26,
+                    "translator_type_enum": "None",
+                    "verified": false,
+                    "want_retweets": false,
+                    "withheld_in_countries": []
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Circle",
+                  "rest_id": "2029372874616954880",
+                  "super_follow_eligible": false,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/9hiKP4o0Na",
+          "expanded_url": "https://x.com/PhillipLii/status/2031418671365763290/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2031418584556294144",
+          "indices": [
+            82,
+            105
+          ],
+          "media_key": "13_2031418584556294144",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2031418584556294144/img/PmVv-XK-CrwBEJ7m.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 564,
+            "width": 888
+          },
+          "sizes": {
+            "large": {
+              "h": 564,
+              "w": 888
+            }
+          },
+          "source_status_id_str": "2031418671365763290",
+          "source_user_id_str": "2029372874616954880",
+          "type": "video",
+          "url": "https://t.co/9hiKP4o0Na",
+          "video_info": {
+            "aspect_ratio": [
+              74,
+              47
+            ],
+            "duration_millis": 16174,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2031418584556294144/pl/J83fOpJ11JfY9atp.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2031418584556294144/vid/avc1/424x270/Dn7IEhz4VopOv8gK.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2031418584556294144/vid/avc1/566x360/QCFb8PfG6N1fpExz.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2031418584556294144/vid/avc1/888x564/t96nSnbDJtnJocCc.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037563832240161241",
+      "url": "https://x.com/TechEmails/status/2037563832240161241",
+      "screen_name": "TechEmails",
+      "created_at": "Fri Mar 27 16:14:08 +0000 2026",
+      "full_text": "Mark Zuckerberg texts Elon Musk\n\nFebruary 3, 2025 https://t.co/Jm2NtyLORM",
+      "lang": "en",
+      "favorite_count": 5789,
+      "retweet_count": 248,
+      "reply_count": 79,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/Jm2NtyLORM",
+          "expanded_url": "https://x.com/TechEmails/status/2037563832240161241/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 145,
+                  "w": 145,
+                  "x": 182,
+                  "y": 591
+                }
+              ]
+            }
+          },
+          "id_str": "2037563787369422848",
+          "indices": [
+            50,
+            73
+          ],
+          "media_key": "3_2037563787369422848",
+          "media_url_https": "https://pbs.twimg.com/media/HEbheBlaoAAi4Jr.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 414,
+                "w": 740,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 740,
+                "w": 740,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 844,
+                "w": 740,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 900,
+                "w": 450,
+                "x": 22,
+                "y": 0
+              },
+              {
+                "h": 900,
+                "w": 740,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 900,
+            "width": 740
+          },
+          "sizes": {
+            "large": {
+              "h": 900,
+              "w": 740
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Jm2NtyLORM"
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037553533717795202",
+      "url": "https://x.com/levelsio/status/2037553533717795202",
+      "screen_name": "levelsio",
+      "created_at": "Fri Mar 27 15:33:13 +0000 2026",
+      "full_text": "I told you guys before Argentinean meat is one of the worst in the world\n\nTheir farms switched from free roaming grass fed beef to factory farmed feedlots like America\n\nNone of it is original great Argentinean meat that they were famous for 30 years ago\n\nUruguay still has free https://t.co/qRbbcCXBNx",
+      "lang": "en",
+      "favorite_count": 5395,
+      "retweet_count": 931,
+      "reply_count": 279,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/qRbbcCXBNx",
+          "expanded_url": "https://x.com/levelsio/status/2037553533717795202/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037553524163129344",
+          "indices": [
+            278,
+            301
+          ],
+          "media_key": "3_2037553524163129344",
+          "media_url_https": "https://pbs.twimg.com/media/HEbYIoKWsAAUGlF.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 848,
+                "w": 1514,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1264,
+                "w": 1264,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1264,
+                "w": 1109,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1264,
+                "w": 632,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1264,
+                "w": 1514,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1264,
+            "width": 1514
+          },
+          "sizes": {
+            "large": {
+              "h": 1264,
+              "w": 1514
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/qRbbcCXBNx"
+        }
+      ],
+      "candidate_reason": "monitored_account"
+    },
+    {
+      "tweet_id": "2037510892334539033",
+      "url": "https://x.com/initjean/status/2037510892334539033",
+      "screen_name": "initjean",
+      "created_at": "Fri Mar 27 12:43:46 +0000 2026",
+      "full_text": "\"Well, Claude Max 20x is actually now Max 5x. But it is better than Pro.\" https://t.co/7Qidu0NtcA",
+      "lang": "en",
+      "favorite_count": 4913,
+      "retweet_count": 327,
+      "reply_count": 72,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/7Qidu0NtcA",
+          "expanded_url": "https://x.com/initjean/status/2037510892334539033/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037510263558057985",
+          "indices": [
+            74,
+            97
+          ],
+          "media_key": "3_2037510263558057985",
+          "media_url_https": "https://pbs.twimg.com/media/HEawyh2XMAEzyIX.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 840,
+                "w": 1500,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1000,
+                "w": 1000,
+                "x": 212,
+                "y": 0
+              },
+              {
+                "h": 1000,
+                "w": 877,
+                "x": 274,
+                "y": 0
+              },
+              {
+                "h": 1000,
+                "w": 500,
+                "x": 462,
+                "y": 0
+              },
+              {
+                "h": 1000,
+                "w": 1500,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1000,
+            "width": 1500
+          },
+          "sizes": {
+            "large": {
+              "h": 1000,
+              "w": 1500
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/7Qidu0NtcA"
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037566060485083399",
+      "url": "https://x.com/aakashgupta/status/2037566060485083399",
+      "screen_name": "aakashgupta",
+      "created_at": "Fri Mar 27 16:22:59 +0000 2026",
+      "full_text": "This is an absolute masterclass from MIT on how to speak \n\nhttps://t.co/otu5clhaBc",
+      "lang": "en",
+      "favorite_count": 4405,
+      "retweet_count": 971,
+      "reply_count": 28,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {},
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": true,
+                  "legacy": {
+                    "advertiser_account_service_levels": [
+                      "analytics"
+                    ],
+                    "advertiser_account_type": "promotable_user",
+                    "analytics_type": "disabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": true,
+                    "can_media_tag": true,
+                    "created_at": "Tue Dec 24 15:44:32 +0000 2024",
+                    "description": "Building @articulateHQ | Helping VCs & founders to build an unforgettable Personal Brand | Writer • Thinker • Self-Improvement",
+                    "entities": {
+                      "description": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [],
+                        "user_mentions": [
+                          {
+                            "id_str": "0",
+                            "indices": [
+                              9,
+                              22
+                            ],
+                            "name": "",
+                            "screen_name": "articulateHQ"
+                          }
+                        ]
+                      },
+                      "url": {
+                        "urls": [
+                          {
+                            "display_url": "calendly.com/articulatehq/3…",
+                            "expanded_url": "https://calendly.com/articulatehq/30min",
+                            "indices": [
+                              0,
+                              23
+                            ],
+                            "url": "https://t.co/Bv5fgIh8rB"
+                          }
+                        ]
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 4024,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 35616,
+                    "following": false,
+                    "friends_count": 92,
+                    "geo_enabled": false,
+                    "has_custom_timelines": false,
+                    "has_extended_profile": true,
+                    "id_str": "1871582672121954304",
+                    "is_translator": false,
+                    "location": "Book your call here:",
+                    "media_count": 846,
+                    "muting": false,
+                    "name": "Jaynit",
+                    "normal_followers_count": 35616,
+                    "notifications": false,
+                    "pinned_tweet_ids_str": [
+                      "1900159993782972547"
+                    ],
+                    "profile_background_color": "F5F8FA",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1871582672121954304/1739799976",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1871881199372914688/FKDqACyE_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "1DA1F2",
+                    "protected": false,
+                    "screen_name": "jaynitx",
+                    "statuses_count": 1956,
+                    "translator_type_enum": "None",
+                    "url": "https://t.co/Bv5fgIh8rB",
+                    "verified": false,
+                    "want_retweets": false,
+                    "withheld_in_countries": []
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Circle",
+                  "rest_id": "1871582672121954304",
+                  "super_follow_eligible": true,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/otu5clhaBc",
+          "expanded_url": "https://x.com/jaynitx/status/2037501962254729620/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037499403209158656",
+          "indices": [
+            59,
+            82
+          ],
+          "media_key": "13_2037499403209158656",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037499403209158656/img/si1_8BNsxmPbb2rk.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "source_status_id_str": "2037501962254729620",
+          "source_user_id_str": "1871582672121954304",
+          "type": "video",
+          "url": "https://t.co/otu5clhaBc",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 3772931,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2037499403209158656/pl/t1g_hL5iIzQdrNaY.m3u8?v=b46"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037499403209158656/vid/avc1/480x270/nzhtw_Z19W7wsLmW.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037499403209158656/vid/avc1/640x360/r78CoBjv2ATWwgDp.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037499403209158656/vid/avc1/1280x720/hyt4GsunQ0dZyRls.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "monitored_account"
+    },
+    {
+      "tweet_id": "2037486559277027470",
+      "url": "https://x.com/hopemidah/status/2037486559277027470",
+      "screen_name": "hopemidah",
+      "created_at": "Fri Mar 27 11:07:05 +0000 2026",
+      "full_text": "Whoever is using Claude to build an app right now can you pause for just one minute? I need this pptx by 2.15😭😭aki woiye",
+      "lang": "en",
+      "favorite_count": 4338,
+      "retweet_count": 291,
+      "reply_count": 60,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037519348693123466",
+      "url": "https://x.com/4sinproyeccion/status/2037519348693123466",
+      "screen_name": "4sinproyeccion",
+      "created_at": "Fri Mar 27 13:17:22 +0000 2026",
+      "full_text": "- Aprendan a usar Claude, en seis meses nos quedamos todos sin laburo jente. Esta mañana combiné Claude con Telegram, Excel, TicPumWayCode y Claro Wifi y armé un sistema automatizado de finanzas que me reporta todos los días.\n- Qué hiciste?\n- Una planilla de gastos.",
+      "lang": "es",
+      "favorite_count": 4330,
+      "retweet_count": 165,
+      "reply_count": 25,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037457480221872188",
+      "url": "https://x.com/iamdevloper/status/2037457480221872188",
+      "screen_name": "iamdevloper",
+      "created_at": "Fri Mar 27 09:11:32 +0000 2026",
+      "full_text": "Black Mirror S8E1: In 2027, developers are allocated a daily Claude token allowance by the government. A junior dev burns through his entire month's supply trying to centre a div. His family starve. He is forced to write the code himself. He can't. Society collapses.",
+      "lang": "en",
+      "favorite_count": 3897,
+      "retweet_count": 446,
+      "reply_count": 44,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037500067977003297",
+      "url": "https://x.com/RiserMusic/status/2037500067977003297",
+      "screen_name": "RiserMusic",
+      "created_at": "Fri Mar 27 12:00:45 +0000 2026",
+      "full_text": "MUSIC VIDEO OUT NOW!\nDangerous - GEMINI  \n\n📺YouTube : RISER MUSIC\n🔗 https://t.co/Kiahp8deEj\n\n#DangerousGEMINImv\n.\n#DangerousGEMINI\n#GEMINI_NT\n#RISERMUSIC https://t.co/jYifN7xgsZ",
+      "lang": "en",
+      "favorite_count": 3896,
+      "retweet_count": 3433,
+      "reply_count": 121,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/jYifN7xgsZ",
+          "expanded_url": "https://x.com/RiserMusic/status/2037500067977003297/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "all": {
+              "tags": [
+                {
+                  "name": "gemini_nt",
+                  "screen_name": "gemini_ti",
+                  "user_id": "1198872710501130240"
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "h": 508,
+                  "w": 508,
+                  "x": 708,
+                  "y": 646
+                }
+              ]
+            }
+          },
+          "id_str": "2037500060003672064",
+          "indices": [
+            154,
+            177
+          ],
+          "media_key": "3_2037500060003672064",
+          "media_url_https": "https://pbs.twimg.com/media/HEangmpbIAAztZf.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 917,
+                "w": 1638,
+                "x": 0,
+                "y": 514
+              },
+              {
+                "h": 1638,
+                "w": 1638,
+                "x": 0,
+                "y": 153
+              },
+              {
+                "h": 1867,
+                "w": 1638,
+                "x": 0,
+                "y": 39
+              },
+              {
+                "h": 2048,
+                "w": 1024,
+                "x": 358,
+                "y": 0
+              },
+              {
+                "h": 2048,
+                "w": 1638,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 2048,
+            "width": 1638
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1638
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/jYifN7xgsZ"
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037473919062380630",
+      "url": "https://x.com/egeberkina/status/2037473919062380630",
+      "screen_name": "egeberkina",
+      "created_at": "Fri Mar 27 10:16:51 +0000 2026",
+      "full_text": "Rotring\n\nBrutalist edition https://t.co/bZMhaUX2jf",
+      "lang": "fr",
+      "favorite_count": 3847,
+      "retweet_count": 184,
+      "reply_count": 9,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/bZMhaUX2jf",
+          "expanded_url": "https://x.com/egeberkina/status/2037473919062380630/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 76,
+                  "w": 76,
+                  "x": 330,
+                  "y": 1076
+                }
+              ]
+            }
+          },
+          "id_str": "2037473850913595392",
+          "indices": [
+            27,
+            50
+          ],
+          "media_key": "3_2037473850913595392",
+          "media_url_https": "https://pbs.twimg.com/media/HEaPrCLaIAAnSCc.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 502,
+                "w": 896,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 896,
+                "w": 896,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1021,
+                "w": 896,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1200,
+                "w": 600,
+                "x": 149,
+                "y": 0
+              },
+              {
+                "h": 1200,
+                "w": 896,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1200,
+            "width": 896
+          },
+          "sizes": {
+            "large": {
+              "h": 1200,
+              "w": 896
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/bZMhaUX2jf"
+        }
+      ],
+      "candidate_reason": "monitored_account"
+    },
+    {
+      "tweet_id": "2037610000122839116",
+      "url": "https://x.com/sama/status/2037610000122839116",
+      "screen_name": "sama",
+      "created_at": "Fri Mar 27 19:17:35 +0000 2026",
+      "full_text": "The first steel beams went up this week at our Michigan Stargate site with Oracle and Related Digital https://t.co/Hl0NBqwfnS",
+      "lang": "en",
+      "favorite_count": 3504,
+      "retweet_count": 188,
+      "reply_count": 615,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/Hl0NBqwfnS",
+          "expanded_url": "https://x.com/sama/status/2037610000122839116/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037609606734925824",
+          "indices": [
+            102,
+            125
+          ],
+          "media_key": "13_2037609606734925824",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037609606734925824/img/tQ8iaeWmXu4KQ6dk.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 2160,
+            "width": 3840
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/Hl0NBqwfnS",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 16033,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2037609606734925824/pl/CrSEn4nG_uof0fPL.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037609606734925824/vid/avc1/480x270/dL4Kvf5N8woJKJT-.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037609606734925824/vid/avc1/640x360/tVBKYvq8AyiEDtDF.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037609606734925824/vid/avc1/1280x720/WViymAwXbJ5HshOw.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037609606734925824/vid/avc1/1920x1080/Bi9TkcPoRQa4xagB.mp4"
+              },
+              {
+                "bitrate": 25128000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037609606734925824/vid/avc1/3840x2160/fxk-n4cH0Ng2r_WY.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "monitored_account"
+    },
+    {
+      "tweet_id": "2037483540275700035",
+      "url": "https://x.com/marcysuicide/status/2037483540275700035",
+      "screen_name": "marcysuicide",
+      "created_at": "Fri Mar 27 10:55:05 +0000 2026",
+      "full_text": "google aramalarında gemini’ı kapatabiliyo muyuz im about to lose it. ai cevabı görmek istesem ai’a sorardım.",
+      "lang": "tr",
+      "favorite_count": 3409,
+      "retweet_count": 55,
+      "reply_count": 29,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037585894648217825",
+      "url": "https://x.com/GabbbarSingh/status/2037585894648217825",
+      "screen_name": "GabbbarSingh",
+      "created_at": "Fri Mar 27 17:41:48 +0000 2026",
+      "full_text": "“I haven’t watched Dhuandhar yet” \n\nIt’s like an AI engineer saying, Sorry I haven’t used chatGPT yet. All Iranis have been very brave, excluding this one :) https://t.co/hjgxYpFa0y",
+      "lang": "en",
+      "favorite_count": 3107,
+      "retweet_count": 171,
+      "reply_count": 80,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {},
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": true,
+                  "legacy": {
+                    "advertiser_account_service_levels": [
+                      "smb"
+                    ],
+                    "advertiser_account_type": "promotable_user",
+                    "analytics_type": "disabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": true,
+                    "can_media_tag": false,
+                    "created_at": "Thu Aug 26 02:52:25 +0000 2021",
+                    "description": "One Stop For All Political News",
+                    "entities": {
+                      "description": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [],
+                        "user_mentions": []
+                      },
+                      "url": {
+                        "urls": [
+                          {
+                            "display_url": "newsarenaindia.com",
+                            "expanded_url": "http://newsarenaindia.com",
+                            "indices": [
+                              0,
+                              23
+                            ],
+                            "url": "https://t.co/UMNcP8FCZt"
+                          }
+                        ]
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 11890,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 267377,
+                    "following": false,
+                    "friends_count": 468,
+                    "geo_enabled": true,
+                    "has_custom_timelines": true,
+                    "has_extended_profile": true,
+                    "id_str": "1430724718676434950",
+                    "is_translator": false,
+                    "location": "",
+                    "media_count": 37775,
+                    "muting": false,
+                    "name": "News Arena India",
+                    "normal_followers_count": 267377,
+                    "notifications": false,
+                    "pinned_tweet_ids_str": [
+                      "2029560284185321492"
+                    ],
+                    "profile_background_color": "F5F8FA",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1430724718676434950/1707233272",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1777294044990758914/7iCYIuO7_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "1DA1F2",
+                    "protected": false,
+                    "screen_name": "NewsArenaIndia",
+                    "statuses_count": 92139,
+                    "translator_type_enum": "None",
+                    "url": "https://t.co/UMNcP8FCZt",
+                    "verified": false,
+                    "want_retweets": false,
+                    "withheld_in_countries": []
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Circle",
+                  "rest_id": "1430724718676434950",
+                  "super_follow_eligible": false,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": false
+          },
+          "display_url": "pic.x.com/hjgxYpFa0y",
+          "expanded_url": "https://x.com/NewsArenaIndia/status/2037530986058318182/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037530955272126464",
+          "indices": [
+            158,
+            181
+          ],
+          "media_key": "7_2037530955272126464",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/2037530955272126464/pu/img/lp63Q2WLEGQ7i8e1.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "source_status_id_str": "2037530986058318182",
+          "source_user_id_str": "1430724718676434950",
+          "type": "video",
+          "url": "https://t.co/hjgxYpFa0y",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 12522,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/ext_tw_video/2037530955272126464/pu/pl/_t8liQk94UOwoKHz.m3u8?v=488"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2037530955272126464/pu/vid/avc1/480x270/SSs8OFP9TJJSejpF.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2037530955272126464/pu/vid/avc1/640x360/X2XBCCKfNyCY0NNc.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2037530955272126464/pu/vid/avc1/1280x720/U_LSmU7zVS8ByXvb.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037435538731344297",
+      "url": "https://x.com/dom_lucre/status/2037435538731344297",
+      "screen_name": "dom_lucre",
+      "created_at": "Fri Mar 27 07:44:20 +0000 2026",
+      "full_text": "🔥🚨JUST IN: The Unitree humanoid robot was spotted running and playing with children on the streets of New York City.\n https://t.co/d3ur6bJJOQ",
+      "lang": "en",
+      "favorite_count": 3047,
+      "retweet_count": 529,
+      "reply_count": 420,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {},
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": true,
+                  "legacy": {
+                    "advertiser_account_service_levels": [
+                      "analytics"
+                    ],
+                    "advertiser_account_type": "promotable_user",
+                    "analytics_type": "disabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": false,
+                    "can_media_tag": true,
+                    "created_at": "Sat Aug 09 03:33:14 +0000 2025",
+                    "description": "sharing modern China.",
+                    "entities": {
+                      "description": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [],
+                        "user_mentions": []
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 6755,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 26440,
+                    "following": false,
+                    "friends_count": 3145,
+                    "geo_enabled": false,
+                    "has_custom_timelines": false,
+                    "has_extended_profile": false,
+                    "id_str": "1954023090830135296",
+                    "is_translator": false,
+                    "location": "",
+                    "media_count": 4345,
+                    "muting": false,
+                    "name": "🇨🇳XuZhenqing徐祯卿",
+                    "normal_followers_count": 26440,
+                    "notifications": false,
+                    "pinned_tweet_ids_str": [
+                      "2008108548526649566"
+                    ],
+                    "profile_background_color": "F5F8FA",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1954023090830135296/1760693108",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1981340371297656832/GV9Hpbtt_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "1DA1F2",
+                    "protected": false,
+                    "screen_name": "XueJia24682",
+                    "statuses_count": 5209,
+                    "translator_type_enum": "None",
+                    "verified": false,
+                    "want_retweets": false,
+                    "withheld_in_countries": []
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Circle",
+                  "rest_id": "1954023090830135296",
+                  "super_follow_eligible": false,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": false
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/d3ur6bJJOQ",
+          "expanded_url": "https://x.com/XueJia24682/status/2037398660594749893/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037398614302162944",
+          "indices": [
+            118,
+            141
+          ],
+          "media_key": "7_2037398614302162944",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/2037398614302162944/pu/img/CZOjhmsvFu_e6qKl.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 874,
+            "width": 720
+          },
+          "sizes": {
+            "large": {
+              "h": 874,
+              "w": 720
+            }
+          },
+          "source_status_id_str": "2037398660594749893",
+          "source_user_id_str": "1954023090830135296",
+          "type": "video",
+          "url": "https://t.co/d3ur6bJJOQ",
+          "video_info": {
+            "aspect_ratio": [
+              360,
+              437
+            ],
+            "duration_millis": 25123,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/ext_tw_video/2037398614302162944/pu/pl/agziC9ANKYzYp_uK.m3u8?v=1d3"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2037398614302162944/pu/vid/avc1/320x388/8Y7mWEykWKdTdwDp.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2037398614302162944/pu/vid/avc1/480x582/nnsmfIGXmpe-Edfc.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2037398614302162944/pu/vid/avc1/720x874/V7lWHV98T1-S97Kc.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037573033523564989",
+      "url": "https://x.com/thugGauss/status/2037573033523564989",
+      "screen_name": "thugGauss",
+      "created_at": "Fri Mar 27 16:50:42 +0000 2026",
+      "full_text": "2 horas me duró la sesión de claude hoy. Con el plan de 100 usd. Y no hice nada demasiado complejo. \nEstafadisimo.",
+      "lang": "es",
+      "favorite_count": 2991,
+      "retweet_count": 45,
+      "reply_count": 144,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037474455883010363",
+      "url": "https://x.com/encorevitoo/status/2037474455883010363",
+      "screen_name": "encorevitoo",
+      "created_at": "Fri Mar 27 10:18:59 +0000 2026",
+      "full_text": "ChatGPT qui me regarde galèrer pour faire mon mémoire après que j’ai atteint la limite journalière https://t.co/v760DZ0l98",
+      "lang": "fr",
+      "favorite_count": 2980,
+      "retweet_count": 108,
+      "reply_count": 11,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/v760DZ0l98",
+          "expanded_url": "https://x.com/encorevitoo/status/2037474455883010363/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037474399041810432",
+          "indices": [
+            99,
+            122
+          ],
+          "media_key": "13_2037474399041810432",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037474399041810432/img/jidfXsRK6tQ60AOd.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/v760DZ0l98",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 12490,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2037474399041810432/pl/_NjG03pd_PVNAtId.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037474399041810432/vid/avc1/480x270/Zc2ynYx7AqpOsAyE.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037474399041810432/vid/avc1/640x360/4fSr-3IYZ89CVQBX.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037474399041810432/vid/avc1/1280x720/Cr45QgpjglREQYZY.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037506626979336270",
+      "url": "https://x.com/WeLoveSF/status/2037506626979336270",
+      "screen_name": "WeLoveSF",
+      "created_at": "Fri Mar 27 12:26:49 +0000 2026",
+      "full_text": "🔥🕺🏻เพลงใหม่คุณ @gemini_ti มาแล้ว~\n อันตรายต่อหัวใจมาก ไวบ์คือจึ้งเลย 🫠❤️\n\nDangerous - GEMINI 🔥\nดาเมจที่สุด!  https://t.co/2rQoD0f9Tg\n\nDANGEROUS GEMINI MV\n\n#DangerousGEMINImv\n#Gemini_NT\n#RISERMUSIC \n#SFcinema 🍿❤️ https://t.co/0SkkQvmn7c",
+      "lang": "th",
+      "favorite_count": 2928,
+      "retweet_count": 2356,
+      "reply_count": 78,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/0SkkQvmn7c",
+          "expanded_url": "https://x.com/WeLoveSF/status/2037506626979336270/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "all": {
+              "tags": [
+                {
+                  "name": "gemini_nt",
+                  "screen_name": "gemini_ti",
+                  "user_id": "1198872710501130240"
+                },
+                {
+                  "name": "gemini_nt",
+                  "screen_name": "gemini_ti",
+                  "user_id": "1198872710501130240"
+                },
+                {
+                  "name": "gemini_nt",
+                  "screen_name": "gemini_ti",
+                  "user_id": "1198872710501130240"
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "h": 402,
+                  "w": 402,
+                  "x": 485,
+                  "y": 280
+                }
+              ]
+            }
+          },
+          "id_str": "2037506620402679808",
+          "indices": [
+            212,
+            235
+          ],
+          "media_key": "3_2037506620402679808",
+          "media_url_https": "https://pbs.twimg.com/media/HEateeCbwAAjfXN.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 655,
+                "w": 1169,
+                "x": 0,
+                "y": 169
+              },
+              {
+                "h": 1169,
+                "w": 1169,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1169,
+                "w": 1025,
+                "x": 144,
+                "y": 0
+              },
+              {
+                "h": 1169,
+                "w": 585,
+                "x": 380,
+                "y": 0
+              },
+              {
+                "h": 1169,
+                "w": 1169,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1169,
+            "width": 1169
+          },
+          "sizes": {
+            "large": {
+              "h": 1169,
+              "w": 1169
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/0SkkQvmn7c"
+        },
+        {
+          "display_url": "pic.x.com/0SkkQvmn7c",
+          "expanded_url": "https://x.com/WeLoveSF/status/2037506626979336270/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "all": {
+              "tags": [
+                {
+                  "name": "gemini_nt",
+                  "screen_name": "gemini_ti",
+                  "user_id": "1198872710501130240"
+                },
+                {
+                  "name": "gemini_nt",
+                  "screen_name": "gemini_ti",
+                  "user_id": "1198872710501130240"
+                },
+                {
+                  "name": "gemini_nt",
+                  "screen_name": "gemini_ti",
+                  "user_id": "1198872710501130240"
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "h": 500,
+                  "w": 500,
+                  "x": 664,
+                  "y": 140
+                }
+              ]
+            }
+          },
+          "id_str": "2037506620415238144",
+          "indices": [
+            212,
+            235
+          ],
+          "media_key": "3_2037506620415238144",
+          "media_url_https": "https://pbs.twimg.com/media/HEateeFbYAAYami.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1147,
+                "w": 2048,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1152,
+                "w": 1152,
+                "x": 192,
+                "y": 0
+              },
+              {
+                "h": 1152,
+                "w": 1011,
+                "x": 263,
+                "y": 0
+              },
+              {
+                "h": 1152,
+                "w": 576,
+                "x": 480,
+                "y": 0
+              },
+              {
+                "h": 1152,
+                "w": 2048,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1152,
+            "width": 2048
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/0SkkQvmn7c"
+        },
+        {
+          "display_url": "pic.x.com/0SkkQvmn7c",
+          "expanded_url": "https://x.com/WeLoveSF/status/2037506626979336270/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "all": {
+              "tags": [
+                {
+                  "name": "gemini_nt",
+                  "screen_name": "gemini_ti",
+                  "user_id": "1198872710501130240"
+                },
+                {
+                  "name": "gemini_nt",
+                  "screen_name": "gemini_ti",
+                  "user_id": "1198872710501130240"
+                },
+                {
+                  "name": "gemini_nt",
+                  "screen_name": "gemini_ti",
+                  "user_id": "1198872710501130240"
+                }
+              ]
+            },
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037506620406878208",
+          "indices": [
+            212,
+            235
+          ],
+          "media_key": "3_2037506620406878208",
+          "media_url_https": "https://pbs.twimg.com/media/HEateeDb0AAhuaa.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1147,
+                "w": 2048,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1152,
+                "w": 1152,
+                "x": 396,
+                "y": 0
+              },
+              {
+                "h": 1152,
+                "w": 1011,
+                "x": 467,
+                "y": 0
+              },
+              {
+                "h": 1152,
+                "w": 576,
+                "x": 684,
+                "y": 0
+              },
+              {
+                "h": 1152,
+                "w": 2048,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1152,
+            "width": 2048
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/0SkkQvmn7c"
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037542287433965671",
+      "url": "https://x.com/joinautopilot/status/2037542287433965671",
+      "screen_name": "joinautopilot",
+      "created_at": "Fri Mar 27 14:48:31 +0000 2026",
+      "full_text": "Update: It’s been 144 days since Michael Burry publicly went bearish on NVIDIA $NVDA\n\nIt’s down 18% since https://t.co/yZ2E2imW9E",
+      "lang": "en",
+      "favorite_count": 2923,
+      "retweet_count": 41,
+      "reply_count": 44,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/yZ2E2imW9E",
+          "expanded_url": "https://x.com/joinautopilot/status/2037542287433965671/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 61,
+                  "w": 61,
+                  "x": 298,
+                  "y": 70
+                }
+              ]
+            }
+          },
+          "id_str": "2037542070064480257",
+          "indices": [
+            106,
+            129
+          ],
+          "media_key": "3_2037542070064480257",
+          "media_url_https": "https://pbs.twimg.com/media/HEbNt6UbgAEj0J1.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 381,
+                "w": 680,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 409,
+                "w": 409,
+                "x": 119,
+                "y": 0
+              },
+              {
+                "h": 409,
+                "w": 359,
+                "x": 144,
+                "y": 0
+              },
+              {
+                "h": 409,
+                "w": 205,
+                "x": 221,
+                "y": 0
+              },
+              {
+                "h": 409,
+                "w": 680,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 409,
+            "width": 680
+          },
+          "sizes": {
+            "large": {
+              "h": 409,
+              "w": 680
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/yZ2E2imW9E"
+        },
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/yZ2E2imW9E",
+          "expanded_url": "https://x.com/joinautopilot/status/2037542287433965671/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 188,
+                  "w": 188,
+                  "x": 9,
+                  "y": 14
+                }
+              ]
+            }
+          },
+          "id_str": "2037542086036303872",
+          "indices": [
+            106,
+            129
+          ],
+          "media_key": "3_2037542086036303872",
+          "media_url_https": "https://pbs.twimg.com/media/HEbNu10aMAA6wi-.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 448,
+                "w": 800,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 800,
+                "w": 800,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 800,
+                "w": 702,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 800,
+                "w": 400,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 800,
+                "w": 800,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 800,
+            "width": 800
+          },
+          "sizes": {
+            "large": {
+              "h": 800,
+              "w": 800
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/yZ2E2imW9E"
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037387388968960183",
+      "url": "https://x.com/_weidai/status/2037387388968960183",
+      "screen_name": "_weidai",
+      "created_at": "Fri Mar 27 04:33:01 +0000 2026",
+      "full_text": "The state of Claude vs. Codex, in two tweets. https://t.co/6IFB0qlGZl",
+      "lang": "en",
+      "favorite_count": 2888,
+      "retweet_count": 161,
+      "reply_count": 149,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/6IFB0qlGZl",
+          "expanded_url": "https://x.com/_weidai/status/2037387388968960183/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 46,
+                  "w": 46,
+                  "x": 56,
+                  "y": 38
+                },
+                {
+                  "h": 43,
+                  "w": 43,
+                  "x": 40,
+                  "y": 676
+                },
+                {
+                  "h": 45,
+                  "w": 45,
+                  "x": 1023,
+                  "y": 779
+                },
+                {
+                  "h": 101,
+                  "w": 101,
+                  "x": 16,
+                  "y": 645
+                }
+              ]
+            }
+          },
+          "id_str": "2037387246312337408",
+          "indices": [
+            46,
+            69
+          ],
+          "media_key": "3_2037387246312337408",
+          "media_url_https": "https://pbs.twimg.com/media/HEZA5-5bsAA5Xsu.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 735,
+                "w": 1312,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1312,
+                "w": 1312,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1322,
+                "w": 1160,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1322,
+                "w": 661,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1322,
+                "w": 1312,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1322,
+            "width": 1312
+          },
+          "sizes": {
+            "large": {
+              "h": 1322,
+              "w": 1312
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/6IFB0qlGZl"
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037614218376348124",
+      "url": "https://x.com/BullTheoryio/status/2037614218376348124",
+      "screen_name": "BullTheoryio",
+      "created_at": "Fri Mar 27 19:34:21 +0000 2026",
+      "full_text": "BREAKING: Anthropic accidentally leaked its next AI model and it just wiped out $14.5 billion from cybersecurity stocks in a single day.\n\nClaude Mythos was accidentally stored in a publicly accessible data cache and discovered before Anthropic could announce it. \n\nThe model https://t.co/iKyVrqDyQU",
+      "lang": "en",
+      "favorite_count": 2693,
+      "retweet_count": 458,
+      "reply_count": 181,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/iKyVrqDyQU",
+          "expanded_url": "https://x.com/BullTheoryio/status/2037614218376348124/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037614041863196672",
+          "indices": [
+            275,
+            298
+          ],
+          "media_key": "3_2037614041863196672",
+          "media_url_https": "https://pbs.twimg.com/media/HEcPLOKakAA_-w5.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 717,
+                "w": 1280,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1280,
+                "w": 1280,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1280,
+                "w": 1123,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1280,
+                "w": 640,
+                "x": 96,
+                "y": 0
+              },
+              {
+                "h": 1280,
+                "w": 1280,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1280,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 1280,
+              "w": 1280
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/iKyVrqDyQU"
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037250664280018980",
+      "url": "https://x.com/dr_cintas/status/2037250664280018980",
+      "screen_name": "dr_cintas",
+      "created_at": "Thu Mar 26 19:29:43 +0000 2026",
+      "full_text": "Claude Cowork complete crash course from zero to expert in 12 minutes.\n\nInstallation, automations, connectors, plugins..all of it:\n\n00:00 Intro\n01:00 Installation &amp; setup\n02:08 Your first task\n03:01 Global instructions (most skip this)\n04:00 What Cowork can actually access\n05:15 https://t.co/As95zlBNoN",
+      "lang": "en",
+      "favorite_count": 2682,
+      "retweet_count": 341,
+      "reply_count": 24,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/As95zlBNoN",
+          "expanded_url": "https://x.com/dr_cintas/status/2037250664280018980/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036896761042571264",
+          "indices": [
+            284,
+            307
+          ],
+          "media_key": "13_2036896761042571264",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036896761042571264/img/pHHw4NTpmGSKTykN.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 2160,
+            "width": 3840
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/As95zlBNoN",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 747766,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2036896761042571264/pl/IVJ-Rn-9SV8iEXo_.m3u8?v=273"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036896761042571264/vid/avc1/480x270/zXG01IDzj6UWEKrY.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036896761042571264/vid/avc1/640x360/WSlYE64NuxJ-wj90.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036896761042571264/vid/avc1/1280x720/NWU3VY-J5zalcUUH.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036896761042571264/vid/avc1/1920x1080/FA7Ew-4v1R_rUJFi.mp4"
+              },
+              {
+                "bitrate": 25128000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036896761042571264/vid/avc1/3840x2160/tsUWOZg9KG0tj3pd.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037551708163674557",
+      "url": "https://x.com/midudev/status/2037551708163674557",
+      "screen_name": "midudev",
+      "created_at": "Fri Mar 27 15:25:57 +0000 2026",
+      "full_text": "¡Esta funcionalidad de Claude Code es una locura! Crea un equipo de agentes en un minuto: https://t.co/721H1pcZIr",
+      "lang": "es",
+      "favorite_count": 2668,
+      "retweet_count": 195,
+      "reply_count": 37,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/721H1pcZIr",
+          "expanded_url": "https://x.com/midudev/status/2037551708163674557/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037551605248065536",
+          "indices": [
+            90,
+            113
+          ],
+          "media_key": "13_2037551605248065536",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037551605248065536/img/F3HOAt9SdG3mt-0i.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/721H1pcZIr",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 152980,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2037551605248065536/pl/gPWpCZqR4HFXvT0C.m3u8?tag=14&v=9ba"
+              },
+              {
+                "bitrate": 288000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037551605248065536/vid/avc1/480x270/x8r5maavJXCaf4IC.mp4?tag=14"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037551605248065536/vid/avc1/640x360/Ehm6jlUxjMVyfW5m.mp4?tag=14"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037551605248065536/vid/avc1/1280x720/kUvrHm8fksRfSCJY.mp4?tag=14"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037529043340247210",
+      "url": "https://x.com/davidonchainx/status/2037529043340247210",
+      "screen_name": "davidonchainx",
+      "created_at": "Fri Mar 27 13:55:54 +0000 2026",
+      "full_text": "How it feels to use claude as someone who can't code https://t.co/TsNzJ7OilW",
+      "lang": "en",
+      "favorite_count": 2630,
+      "retweet_count": 146,
+      "reply_count": 54,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/TsNzJ7OilW",
+          "expanded_url": "https://x.com/davidonchainx/status/2037529043340247210/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037528983341068288",
+          "indices": [
+            53,
+            76
+          ],
+          "media_key": "13_2037528983341068288",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037528983341068288/img/Gffip5Da195zj2IH.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/TsNzJ7OilW",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 17786,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2037528983341068288/pl/Gw-1e2NwKNkhiPDI.m3u8?v=42b"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037528983341068288/vid/avc1/480x270/AifDljYcA_ju84Yl.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037528983341068288/vid/avc1/640x360/3VxCtKfViWk8F4ip.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037528983341068288/vid/avc1/1280x720/PeoC1PrfBtW5l2-0.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037528983341068288/vid/avc1/1920x1080/rIyhC9CZrEXmL81g.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037386789422317783",
+      "url": "https://x.com/OfficialLoganK/status/2037386789422317783",
+      "screen_name": "OfficialLoganK",
+      "created_at": "Fri Mar 27 04:30:38 +0000 2026",
+      "full_text": "Escape competition through authenticity",
+      "lang": "en",
+      "favorite_count": 2537,
+      "retweet_count": 289,
+      "reply_count": 138,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account"
+    },
+    {
+      "tweet_id": "2037381476845543572",
+      "url": "https://x.com/thdxr/status/2037381476845543572",
+      "screen_name": "thdxr",
+      "created_at": "Fri Mar 27 04:09:31 +0000 2026",
+      "full_text": "man the responses to the new claude max limits are crazy\n\neveryones expectations are so out of whack\n\nit's kind of embarrassing to get this mad, i'd just be like damn ok i'll cancel\n\nwere you guys depending on this shit to keep your grandma alive i don't get it",
+      "lang": "en",
+      "favorite_count": 2521,
+      "retweet_count": 68,
+      "reply_count": 209,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037552605224996996",
+      "url": "https://x.com/birdabo/status/2037552605224996996",
+      "screen_name": "birdabo",
+      "created_at": "Fri Mar 27 15:29:31 +0000 2026",
+      "full_text": "🚨a man used Grok to design a cancer vaccine for his dying dog, and it worked. read this. \n\n&gt; tech bro with zero biology background.\n&gt; doggy got cancer.\n&gt; vets said 1-6 months left.\n&gt; bro said nah. \n&gt; he used gpt, gemini, and grok to design a full bioinformatics pipeline.\n&gt; https://t.co/IkUMVL6wPn",
+      "lang": "en",
+      "favorite_count": 2511,
+      "retweet_count": 207,
+      "reply_count": 22,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/IkUMVL6wPn",
+          "expanded_url": "https://x.com/birdabo/status/2037552605224996996/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037552540653694976",
+          "indices": [
+            292,
+            315
+          ],
+          "media_key": "13_2037552540653694976",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037552540653694976/img/-_lrL97CKg42cKoH.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/IkUMVL6wPn",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 11848,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2037552540653694976/pl/z66uAhglnhYGyASS.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037552540653694976/vid/avc1/480x270/AXP8yRAFp6BStON2.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037552540653694976/vid/avc1/640x360/SAtkcQu3b4IBBkF_.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037552540653694976/vid/avc1/1280x720/mymQBsBqYSr0mST6.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037552540653694976/vid/avc1/1920x1080/wI0OFJLwgFD_3hSw.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037265411784192164",
+      "url": "https://x.com/BenjaminBadejo/status/2037265411784192164",
+      "screen_name": "BenjaminBadejo",
+      "created_at": "Thu Mar 26 20:28:19 +0000 2026",
+      "full_text": "@trq212 Too late. I canceled. Trust gone. Dangerous rug pull, and the company didn’t respond for a week. The company can easily do this to people using Claude Computer and hold critical workflows and data hostage in the account unless the user switches to ultra-expensive API billing. 🤮",
+      "lang": "en",
+      "favorite_count": 2496,
+      "retweet_count": 32,
+      "reply_count": 22,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037366608776319399",
+      "url": "https://x.com/theo/status/2037366608776319399",
+      "screen_name": "theo",
+      "created_at": "Fri Mar 27 03:10:26 +0000 2026",
+      "full_text": "Claude Code is kind of like if Codex was drunk.\n\nFun, friendly, bit more creative, makes really dumb mistakes, probably shouldn't be trusted with prod.",
+      "lang": "en",
+      "favorite_count": 2391,
+      "retweet_count": 82,
+      "reply_count": 211,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037398660594749893",
+      "url": "https://x.com/XueJia24682/status/2037398660594749893",
+      "screen_name": "XueJia24682",
+      "created_at": "Fri Mar 27 05:17:48 +0000 2026",
+      "full_text": "✨🇨🇳Unitree humanoid robot appears on the streets of New York. It is interacting with children outdoors. https://t.co/YpHaUPFWmt",
+      "lang": "en",
+      "favorite_count": 2310,
+      "retweet_count": 400,
+      "reply_count": 190,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/YpHaUPFWmt",
+          "expanded_url": "https://x.com/XueJia24682/status/2037398660594749893/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037398614302162944",
+          "indices": [
+            104,
+            127
+          ],
+          "media_key": "7_2037398614302162944",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/2037398614302162944/pu/img/CZOjhmsvFu_e6qKl.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 874,
+            "width": 720
+          },
+          "sizes": {
+            "large": {
+              "h": 874,
+              "w": 720
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/YpHaUPFWmt",
+          "video_info": {
+            "aspect_ratio": [
+              360,
+              437
+            ],
+            "duration_millis": 25123,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/ext_tw_video/2037398614302162944/pu/pl/agziC9ANKYzYp_uK.m3u8?v=1d3"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2037398614302162944/pu/vid/avc1/320x388/8Y7mWEykWKdTdwDp.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2037398614302162944/pu/vid/avc1/480x582/nnsmfIGXmpe-Edfc.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2037398614302162944/pu/vid/avc1/720x874/V7lWHV98T1-S97Kc.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037502329260527922",
+      "url": "https://x.com/baechllmnn/status/2037502329260527922",
+      "screen_name": "baechllmnn",
+      "created_at": "Fri Mar 27 12:09:44 +0000 2026",
+      "full_text": "เเม่ง 😭😭😭😭😭🙏🏻🙏🏻🙏🏻 เจมีไนน์วัย 21 ฆ่าชั้นจริง ๆ ว่ะ ทั้งเสียงที่เข้าเส้นนี่มาก เมโลดี้ ชั้นขนลุกทั้งเพลงน่ะ กับอินเนอร์ในเอ็มวี ชอบเสียงเจมีไนน์มาก เเนวใหม่ ๆ ที่ได้เห็น ทำได้ดีมาก เริ่ด ชั้น ! รัก ! dangerous  !!!\n\nDANGEROUS GEMINI MV\n#DangerousGEMINImv https://t.co/Vsuo2zQXUu",
+      "lang": "th",
+      "favorite_count": 2303,
+      "retweet_count": 1735,
+      "reply_count": 3,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/Vsuo2zQXUu",
+          "expanded_url": "https://x.com/baechllmnn/status/2037502329260527922/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037502254492856320",
+          "indices": [
+            254,
+            277
+          ],
+          "media_key": "13_2037502254492856320",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037502254492856320/img/vD62LN5tTMpoS-rK.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 698,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 698,
+              "w": 1280
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/Vsuo2zQXUu",
+          "video_info": {
+            "aspect_ratio": [
+              640,
+              349
+            ],
+            "duration_millis": 36776,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2037502254492856320/pl/UWKOdzSiFMmaIIZL.m3u8"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037502254492856320/vid/avc1/494x270/wdyKFLHasKX3dmWj.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037502254492856320/vid/avc1/660x360/iY7ks8QTiwOvUuuf.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037502254492856320/vid/avc1/1280x698/nGbDGGlcCPGi-k2g.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037542069460230578",
+      "url": "https://x.com/nealagarwal/status/2037542069460230578",
+      "screen_name": "nealagarwal",
+      "created_at": "Fri Mar 27 14:47:39 +0000 2026",
+      "full_text": "please help\n\nif a cursor wore a party hat would it be like the left or right https://t.co/XqOKNNb92R",
+      "lang": "en",
+      "favorite_count": 2301,
+      "retweet_count": 64,
+      "reply_count": 46,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/XqOKNNb92R",
+          "expanded_url": "https://x.com/nealagarwal/status/2037542069460230578/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037402184921550848",
+          "indices": [
+            77,
+            100
+          ],
+          "media_key": "3_2037402184921550848",
+          "media_url_https": "https://pbs.twimg.com/media/HEZOfhjakAARDJC.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 573,
+                "w": 1023,
+                "x": 0,
+                "y": 227
+              },
+              {
+                "h": 800,
+                "w": 800,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 800,
+                "w": 702,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 800,
+                "w": 400,
+                "x": 132,
+                "y": 0
+              },
+              {
+                "h": 800,
+                "w": 1023,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 800,
+            "width": 1023
+          },
+          "sizes": {
+            "large": {
+              "h": 800,
+              "w": 1023
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/XqOKNNb92R"
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037308278045352337",
+      "url": "https://x.com/elvissun/status/2037308278045352337",
+      "screen_name": "elvissun",
+      "created_at": "Thu Mar 26 23:18:39 +0000 2026",
+      "full_text": "which happen first?\n\n A) Max 20x becomes $1000/mo\n B) Anthropic burns through all its customer goodwill",
+      "lang": "en",
+      "favorite_count": 2300,
+      "retweet_count": 57,
+      "reply_count": 135,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037534620472742075",
+      "url": "https://x.com/MattWalshBlog/status/2037534620472742075",
+      "screen_name": "MattWalshBlog",
+      "created_at": "Fri Mar 27 14:18:03 +0000 2026",
+      "full_text": "@LuisSteeven What I actually want is for people like you, who use ChatGPT to formulate basic replies, to be rounded up and deported to Jupiter",
+      "lang": "en",
+      "favorite_count": 2294,
+      "retweet_count": 53,
+      "reply_count": 61,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037540616305782918",
+      "url": "https://x.com/vivoplt/status/2037540616305782918",
+      "screen_name": "vivoplt",
+      "created_at": "Fri Mar 27 14:41:53 +0000 2026",
+      "full_text": "Cancel weekend plans.\n\nYou need to:\n\n• Learn Claude Code\n• Build 1–2 workflows in Cowork\n• Set up Perplexity Computer &amp; Finance\n• Optimize Cowork (plugins + skills)\n• Set up OpenClaw\n• Test Google AI tools (Nano Banana 2, NotebookLM, etc.)\n• Try basic agentic tools (Manus)",
+      "lang": "en",
+      "favorite_count": 2244,
+      "retweet_count": 303,
+      "reply_count": 40,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037582929648288245",
+      "url": "https://x.com/scaling01/status/2037582929648288245",
+      "screen_name": "scaling01",
+      "created_at": "Fri Mar 27 17:30:01 +0000 2026",
+      "full_text": "APRIL IS GOING TO BE SICK\n\nGPT-5.5\nCLAUDE 5 MYTHOS\nDEEPSEEK-V4",
+      "lang": "en",
+      "favorite_count": 2231,
+      "retweet_count": 91,
+      "reply_count": 85,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037371145075167391",
+      "url": "https://x.com/MarioNawfal/status/2037371145075167391",
+      "screen_name": "MarioNawfal",
+      "created_at": "Fri Mar 27 03:28:28 +0000 2026",
+      "full_text": "🚨LEAKED: ANTHROPIC BUILT AN AI SO GOOD AT HACKING THEY'RE AFRAID TO RELEASE IT...\n\nA data leak just revealed Anthropic is testing a new model called \"Claude Mythos\" that they say is \"by far the most powerful AI model we've ever developed.\"\n\nThe leak happened when draft blog https://t.co/lKTcTzPjTO",
+      "lang": "en",
+      "favorite_count": 2230,
+      "retweet_count": 383,
+      "reply_count": 164,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/lKTcTzPjTO",
+          "expanded_url": "https://x.com/MarioNawfal/status/2037371145075167391/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037370749514928128",
+          "indices": [
+            275,
+            298
+          ],
+          "media_key": "3_2037370749514928128",
+          "media_url_https": "https://pbs.twimg.com/media/HEYx5vib0AASaEi.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 568,
+                "w": 1014,
+                "x": 0,
+                "y": 107
+              },
+              {
+                "h": 675,
+                "w": 675,
+                "x": 195,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 592,
+                "x": 236,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 338,
+                "x": 363,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 1014,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 675,
+            "width": 1014
+          },
+          "sizes": {
+            "large": {
+              "h": 675,
+              "w": 1014
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/lKTcTzPjTO"
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037291560774062509",
+      "url": "https://x.com/monerorape/status/2037291560774062509",
+      "screen_name": "monerorape",
+      "created_at": "Thu Mar 26 22:12:13 +0000 2026",
+      "full_text": "Senador francés, Claude Malhuret, lanza dura crítica a Estados Unidos: “Un puñado de drogadictos se han hecho con el poder y cuando se publica algo sobre el caso Epstein, provocan un gran revuelo en una parte del mundo.” https://t.co/jerxBa2nHm",
+      "lang": "es",
+      "favorite_count": 2161,
+      "retweet_count": 1207,
+      "reply_count": 18,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/jerxBa2nHm",
+          "expanded_url": "https://x.com/monerorape/status/2037291560774062509/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037291334738853888",
+          "indices": [
+            221,
+            244
+          ],
+          "media_key": "13_2037291334738853888",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037291334738853888/img/QUDOzy_oy2FYgQUj.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/jerxBa2nHm",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 85888,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2037291334738853888/pl/WdlI3eKD8kHw-pJE.m3u8?v=c22"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037291334738853888/vid/avc1/480x270/poS_qzHJC8THkWW4.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037291334738853888/vid/avc1/640x360/zKl3whQVrryV-pVT.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037291334738853888/vid/avc1/1280x720/ZnAl8k_XyJ1IL1aO.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037489215341224155",
+      "url": "https://x.com/yoshio_nocode/status/2037489215341224155",
+      "screen_name": "yoshio_nocode",
+      "created_at": "Fri Mar 27 11:17:38 +0000 2026",
+      "full_text": "週末、無料でClaude Code学ぶなら\n『claude-howto』がお勧め。\n\n初級から上級まで13時間のカリキュラムで、\n実例テンプレを元に網羅的に学習できる。\n\n海外の開発者にも人気で信頼性も高く、既にClaude Codeやってる人も知識レベル判定テストがあるので一度受けておくべき。 https://t.co/V9AQbjpf8s",
+      "lang": "ja",
+      "favorite_count": 2150,
+      "retweet_count": 161,
+      "reply_count": 4,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/V9AQbjpf8s",
+          "expanded_url": "https://x.com/yoshio_nocode/status/2037489215341224155/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037487866096586752",
+          "indices": [
+            149,
+            172
+          ],
+          "media_key": "3_2037487866096586752",
+          "media_url_https": "https://pbs.twimg.com/media/HEaca0zbEAAJUXQ.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1002,
+                "w": 1790,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1540,
+                "w": 1540,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1540,
+                "w": 1351,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1540,
+                "w": 770,
+                "x": 107,
+                "y": 0
+              },
+              {
+                "h": 1540,
+                "w": 1790,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1540,
+            "width": 1790
+          },
+          "sizes": {
+            "large": {
+              "h": 1540,
+              "w": 1790
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/V9AQbjpf8s"
+        },
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/V9AQbjpf8s",
+          "expanded_url": "https://x.com/yoshio_nocode/status/2037489215341224155/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037489070411337728",
+          "indices": [
+            149,
+            172
+          ],
+          "media_key": "3_2037489070411337728",
+          "media_url_https": "https://pbs.twimg.com/media/HEadg7Ob0AA3Baq.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 501,
+                "w": 895,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 807,
+                "w": 807,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 807,
+                "w": 708,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 807,
+                "w": 404,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 807,
+                "w": 895,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 807,
+            "width": 895
+          },
+          "sizes": {
+            "large": {
+              "h": 807,
+              "w": 895
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/V9AQbjpf8s"
+        },
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/V9AQbjpf8s",
+          "expanded_url": "https://x.com/yoshio_nocode/status/2037489215341224155/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037489083153584128",
+          "indices": [
+            149,
+            172
+          ],
+          "media_key": "3_2037489083153584128",
+          "media_url_https": "https://pbs.twimg.com/media/HEadhqsbEAAEZxu.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 501,
+                "w": 895,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 807,
+                "w": 807,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 807,
+                "w": 708,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 807,
+                "w": 404,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 807,
+                "w": 895,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 807,
+            "width": 895
+          },
+          "sizes": {
+            "large": {
+              "h": 807,
+              "w": 895
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/V9AQbjpf8s"
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037518117753233745",
+      "url": "https://x.com/TouchlineX/status/2037518117753233745",
+      "screen_name": "TouchlineX",
+      "created_at": "Fri Mar 27 13:12:29 +0000 2026",
+      "full_text": "🚨 𝗡𝗘𝗪: Perplexity predicts the World Cup winners of the next WC editions:\n\n🇦🇷 2026: Argentina\n🇲🇦 2030: Morocco\n🇧🇷 2034: Brazil\n🇪🇸 2038: Spain\n🇳🇱 2042: The Netherlands\n🇦🇷 2046: Argentina\n🇲🇽 2050: Mexico\n🏴󠁧󠁢󠁥󠁮󠁧󠁿 2054: England\n🏴󠁧󠁢󠁥󠁮󠁧󠁿 2058: England https://t.co/32ZPNxOfKw",
+      "lang": "en",
+      "favorite_count": 2150,
+      "retweet_count": 197,
+      "reply_count": 183,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/32ZPNxOfKw",
+          "expanded_url": "https://x.com/TouchlineX/status/2037518117753233745/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037517655926517760",
+          "indices": [
+            246,
+            269
+          ],
+          "media_key": "3_2037517655926517760",
+          "media_url_https": "https://pbs.twimg.com/media/HEa3g0kWMAAx8HL.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1210,
+                "w": 2160,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2160,
+                "w": 2160,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2462,
+                "w": 2160,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2600,
+                "w": 1300,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2600,
+                "w": 2160,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 2600,
+            "width": 2160
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1701
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/32ZPNxOfKw"
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037303596849525160",
+      "url": "https://x.com/MrBeast/status/2037303596849525160",
+      "screen_name": "MrBeast",
+      "created_at": "Thu Mar 26 23:00:03 +0000 2026",
+      "full_text": "@yogscast can you follow me so I can dm you plz",
+      "lang": "en",
+      "favorite_count": 2084,
+      "retweet_count": 63,
+      "reply_count": 540,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account"
+    },
+    {
+      "tweet_id": "2037377109472018444",
+      "url": "https://x.com/M1Astra/status/2037377109472018444",
+      "screen_name": "M1Astra",
+      "created_at": "Fri Mar 27 03:52:10 +0000 2026",
+      "full_text": "Claude Mythos Blog Post\n\nSaved before it was taken down.\n\nhttps://t.co/6XIw1LKnkA",
+      "lang": "en",
+      "favorite_count": 2071,
+      "retweet_count": 199,
+      "reply_count": 123,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037541877231309204",
+      "url": "https://x.com/gotopaby/status/2037541877231309204",
+      "screen_name": "gotopaby",
+      "created_at": "Fri Mar 27 14:46:53 +0000 2026",
+      "full_text": "@vuse_lover I heard of a professor in my uni add hidden white text into their assignment details so that it changes the instructions of ChatGPT like \"somewhere in the paper, mention grapefruits\" and then the prof will ctrl F for grapefruit on every paper and they all get sent to the dean.",
+      "lang": "en",
+      "favorite_count": 2054,
+      "retweet_count": 22,
+      "reply_count": 8,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037412143075655826",
+      "url": "https://x.com/Microinteracti1/status/2037412143075655826",
+      "screen_name": "Microinteracti1",
+      "created_at": "Fri Mar 27 06:11:22 +0000 2026",
+      "full_text": "A French senator just said what American media won’t.\nClaude Malhuret took the floor of the Luxembourg Palace this week and delivered what may be the most surgical dismantling of the Trump administration ever spoken in a legislative chamber. No diplomatic niceties. Just a https://t.co/ocZE94Wb5x",
+      "lang": "en",
+      "favorite_count": 2044,
+      "retweet_count": 777,
+      "reply_count": 33,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/ocZE94Wb5x",
+          "expanded_url": "https://x.com/Microinteracti1/status/2037412143075655826/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 226,
+                  "w": 226,
+                  "x": 198,
+                  "y": 10
+                }
+              ]
+            }
+          },
+          "id_str": "2037412136583114753",
+          "indices": [
+            273,
+            296
+          ],
+          "media_key": "3_2037412136583114753",
+          "media_url_https": "https://pbs.twimg.com/media/HEZXiyYbMAED0J8.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 739,
+                "w": 1320,
+                "x": 0,
+                "y": 545
+              },
+              {
+                "h": 1284,
+                "w": 1284,
+                "x": 36,
+                "y": 0
+              },
+              {
+                "h": 1284,
+                "w": 1126,
+                "x": 194,
+                "y": 0
+              },
+              {
+                "h": 1284,
+                "w": 642,
+                "x": 678,
+                "y": 0
+              },
+              {
+                "h": 1284,
+                "w": 1320,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1284,
+            "width": 1320
+          },
+          "sizes": {
+            "large": {
+              "h": 1284,
+              "w": 1320
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/ocZE94Wb5x"
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037629275315093870",
+      "url": "https://x.com/RT_com/status/2037629275315093870",
+      "screen_name": "RT_com",
+      "created_at": "Fri Mar 27 20:34:11 +0000 2026",
+      "full_text": "IRAN WARNS BIG TECH COULD BE HIT AFTER ISRAEL BOMBS STEEL PLANTS — Fars\n\nTARGETS INCLUDE NVIDIA, INTEL https://t.co/vfMujs0f3j",
+      "lang": "en",
+      "favorite_count": 2040,
+      "retweet_count": 412,
+      "reply_count": 34,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/vfMujs0f3j",
+          "expanded_url": "https://x.com/RT_com/status/2037629275315093870/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037629268013056000",
+          "indices": [
+            103,
+            126
+          ],
+          "media_key": "3_2037629268013056000",
+          "media_url_https": "https://pbs.twimg.com/media/HEcdBf_bgAAVK3V.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 666,
+                "w": 1190,
+                "x": 0,
+                "y": 117
+              },
+              {
+                "h": 783,
+                "w": 783,
+                "x": 407,
+                "y": 0
+              },
+              {
+                "h": 783,
+                "w": 687,
+                "x": 503,
+                "y": 0
+              },
+              {
+                "h": 783,
+                "w": 392,
+                "x": 724,
+                "y": 0
+              },
+              {
+                "h": 783,
+                "w": 1190,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 783,
+            "width": 1190
+          },
+          "sizes": {
+            "large": {
+              "h": 783,
+              "w": 1190
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/vfMujs0f3j"
+        },
+        {
+          "display_url": "pic.x.com/vfMujs0f3j",
+          "expanded_url": "https://x.com/RT_com/status/2037629275315093870/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 48,
+                  "w": 48,
+                  "x": 417,
+                  "y": 376
+                }
+              ]
+            }
+          },
+          "id_str": "2037629267895304192",
+          "indices": [
+            103,
+            126
+          ],
+          "media_key": "3_2037629267895304192",
+          "media_url_https": "https://pbs.twimg.com/media/HEcdBfjWwAAifDV.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 605,
+                "w": 1080,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 720,
+                "w": 720,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 720,
+                "w": 632,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 720,
+                "w": 360,
+                "x": 9,
+                "y": 0
+              },
+              {
+                "h": 720,
+                "w": 1080,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 720,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1080
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/vfMujs0f3j"
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037438768173736112",
+      "url": "https://x.com/TANAKAATSUSHI6/status/2037438768173736112",
+      "screen_name": "TANAKAATSUSHI6",
+      "created_at": "Fri Mar 27 07:57:10 +0000 2026",
+      "full_text": "#トリッカル　#ｽﾋﾟｷ　#同人作品　#おすわりｽﾋﾟｷ　#Gemini　#チュロス https://t.co/fM0aMC5GFl",
+      "lang": "qme",
+      "favorite_count": 2009,
+      "retweet_count": 241,
+      "reply_count": 5,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/fM0aMC5GFl",
+          "expanded_url": "https://x.com/TANAKAATSUSHI6/status/2037438768173736112/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037438765497724928",
+          "indices": [
+            43,
+            66
+          ],
+          "media_key": "3_2037438765497724928",
+          "media_url_https": "https://pbs.twimg.com/media/HEZvwy0aMAAv_SZ.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 573,
+                "w": 1024,
+                "x": 0,
+                "y": 468
+              },
+              {
+                "h": 1024,
+                "w": 1024,
+                "x": 0,
+                "y": 17
+              },
+              {
+                "h": 1041,
+                "w": 913,
+                "x": 111,
+                "y": 0
+              },
+              {
+                "h": 1041,
+                "w": 521,
+                "x": 503,
+                "y": 0
+              },
+              {
+                "h": 1041,
+                "w": 1024,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1041,
+            "width": 1024
+          },
+          "sizes": {
+            "large": {
+              "h": 1041,
+              "w": 1024
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/fM0aMC5GFl"
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    },
+    {
+      "tweet_id": "2037473704486343125",
+      "url": "https://x.com/folaoftech/status/2037473704486343125",
+      "screen_name": "folaoftech",
+      "created_at": "Fri Mar 27 10:16:00 +0000 2026",
+      "full_text": "He asked 5 AI systems who should be sacrificed… ChatGPT threw shade 🤐, Claude stayed sweet ❣️ https://t.co/AkWIFtWiOJ",
+      "lang": "en",
+      "favorite_count": 2006,
+      "retweet_count": 155,
+      "reply_count": 42,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/AkWIFtWiOJ",
+          "expanded_url": "https://x.com/folaoftech/status/2037473704486343125/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037432493360709632",
+          "indices": [
+            94,
+            117
+          ],
+          "media_key": "13_2037432493360709632",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037432493360709632/img/jwEvNa1qFcqee7gn.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1024,
+            "width": 576
+          },
+          "sizes": {
+            "large": {
+              "h": 1024,
+              "w": 576
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/AkWIFtWiOJ",
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              16
+            ],
+            "duration_millis": 44000,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2037432493360709632/pl/ya9almsRGkaQZzm8.m3u8?v=416"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037432493360709632/vid/avc1/320x568/aw84TXJIXL3GYMvv.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037432493360709632/vid/avc1/480x852/RdCGd-SYwwsx579S.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037432493360709632/vid/avc1/576x1024/_Ougkks2Xf6Qlogu.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal"
+    }
+  ]
+}
