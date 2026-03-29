@@ -1,0 +1,118 @@
+{
+  "date": "2026-03-30",
+  "period": "morning",
+  "fetched_at": "2026-03-29T23:24:01.934680+00:00",
+  "raw_count": 64,
+  "candidate_count": 36,
+  "final_count": 2,
+  "review_count": 29,
+  "drop_hard_count": 5,
+  "disposition_stats": {
+    "not_ai_content": 5,
+    "low_info_ai_content": 19,
+    "off_topic": 3,
+    "brief_ai_mention": 6,
+    "weak_signal_untrusted": 1,
+    "info_value": 2
+  },
+  "tweets": [
+    {
+      "tweet_id": "2038259712672546986",
+      "url": "https://x.com/JoshKale/status/2038259712672546986",
+      "screen_name": "JoshKale",
+      "created_at": "Sun Mar 29 14:19:19 +0000 2026",
+      "full_text": "OpenAI 2025: “We need 40% of global chip supply and $1.4T in data centers”\n\nOpenAI early 2026: “Actually $600B”\n\nOpenAI now: “Actually we’ll just rent from Amazon”\n\nMeanwhile:\n&gt; DDR5 went from $200 to $900\n&gt; Memory stocks ran up 300%\n&gt; Oracle CDS hit 16-year highs\n&gt; Microsoft https://t.co/4G2wwuGXVy",
+      "lang": "en",
+      "favorite_count": 2395,
+      "retweet_count": 213,
+      "reply_count": 78,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/4G2wwuGXVy",
+          "expanded_url": "https://x.com/JoshKale/status/2038259712672546986/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2038259636676014080",
+          "indices": [
+            289,
+            312
+          ],
+          "media_key": "13_2038259636676014080",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2038259636676014080/img/3T5lRmllbx46d0_d.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1586,
+            "width": 1206
+          },
+          "sizes": {
+            "large": {
+              "h": 1586,
+              "w": 1206
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/4G2wwuGXVy",
+          "video_info": {
+            "aspect_ratio": [
+              603,
+              793
+            ],
+            "duration_millis": 19270,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2038259636676014080/pl/GHC0jz3LzVdqzzGh.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038259636676014080/vid/avc1/320x420/cd7iRlwkyKiWBgVS.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038259636676014080/vid/avc1/480x630/eFiYFvBy1C5I9hWv.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038259636676014080/vid/avc1/720x946/pWapUf7lVXHfZGIO.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038259636676014080/vid/avc1/1206x1586/-29Px2kJ6lYkjtX7.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2038335584209637577",
+      "url": "https://x.com/samuel_spitz/status/2038335584209637577",
+      "screen_name": "samuel_spitz",
+      "created_at": "Sun Mar 29 19:20:48 +0000 2026",
+      "full_text": "Everyone I know in SF who’s not at OpenAI/Anthropic is freaking out about how their friends are about to make $5-50M with these IPOs",
+      "lang": "en",
+      "favorite_count": 2188,
+      "retweet_count": 17,
+      "reply_count": 57,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    }
+  ]
+}
