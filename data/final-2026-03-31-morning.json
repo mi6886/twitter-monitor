@@ -1,0 +1,953 @@
+{
+  "date": "2026-03-31",
+  "period": "morning",
+  "fetched_at": "2026-03-30T23:27:26.898120+00:00",
+  "raw_count": 77,
+  "candidate_count": 52,
+  "final_count": 14,
+  "review_count": 30,
+  "drop_hard_count": 8,
+  "disposition_stats": {
+    "high_signal_source": 3,
+    "not_ai_content": 8,
+    "low_info_ai_content": 26,
+    "info_value": 10,
+    "low_value_pattern": 1,
+    "monitored_lenient": 1,
+    "weak_signal_untrusted": 1,
+    "brief_ai_mention": 1,
+    "off_topic": 1
+  },
+  "tweets": [
+    {
+      "tweet_id": "2038663014098899416",
+      "url": "https://x.com/claudeai/status/2038663014098899416",
+      "screen_name": "claudeai",
+      "created_at": "Mon Mar 30 17:01:53 +0000 2026",
+      "full_text": "Computer use is now in Claude Code.\n\nClaude can open your apps, click through your UI, and test what it built, right from the CLI.\n\nNow in research preview on Pro and Max plans. https://t.co/s2FDQaDmr1",
+      "lang": "en",
+      "favorite_count": 38731,
+      "retweet_count": 2893,
+      "reply_count": 1894,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {},
+          "display_url": "pic.x.com/s2FDQaDmr1",
+          "expanded_url": "https://x.com/claudeai/status/2038663014098899416/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2038658389862146048",
+          "indices": [
+            178,
+            201
+          ],
+          "media_key": "13_2038658389862146048",
+          "media_url_https": "https://pbs.twimg.com/media/HErKxqCXAAAJ8Y-.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1440,
+            "width": 2560
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/s2FDQaDmr1",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 45050,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2038658389862146048/pl/ZCYprkUK7bth-_UU.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038658389862146048/vid/avc1/480x270/uvZ1jUbYJzuLt7Wk.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038658389862146048/vid/avc1/640x360/uRbhiIoYbQYd7Q3W.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038658389862146048/vid/avc1/1280x720/1h6ff8AQLUduqFQW.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038658389862146048/vid/avc1/2560x1440/RWKrt5E3VVtmNIUK.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "high_signal_source"
+    },
+    {
+      "tweet_id": "2038705696376848409",
+      "url": "https://x.com/CultureCrave/status/2038705696376848409",
+      "screen_name": "CultureCrave",
+      "created_at": "Mon Mar 30 19:51:29 +0000 2026",
+      "full_text": "Details on the death of OpenAI's Sora: \n\n• Video generator was losing ~$1M per day\n\n• It had fewer than 500K users\n\n• Disney execs were informed of the shutdown less than an hour before it was announced\n\n• Disney is now in talks with over a dozen companies to implement AI\n\n• https://t.co/FBdUMBm97N",
+      "lang": "en",
+      "favorite_count": 9394,
+      "retweet_count": 618,
+      "reply_count": 247,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/FBdUMBm97N",
+          "expanded_url": "https://x.com/CultureCrave/status/2038705696376848409/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2038703235666788352",
+          "indices": [
+            276,
+            299
+          ],
+          "media_key": "3_2038703235666788352",
+          "media_url_https": "https://pbs.twimg.com/media/HErtypRbwAADlvf.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 630,
+                "w": 1125,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 630,
+                "w": 630,
+                "x": 195,
+                "y": 0
+              },
+              {
+                "h": 630,
+                "w": 553,
+                "x": 234,
+                "y": 0
+              },
+              {
+                "h": 630,
+                "w": 315,
+                "x": 353,
+                "y": 0
+              },
+              {
+                "h": 630,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 630,
+            "width": 1200
+          },
+          "sizes": {
+            "large": {
+              "h": 630,
+              "w": 1200
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/FBdUMBm97N"
+        },
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/FBdUMBm97N",
+          "expanded_url": "https://x.com/CultureCrave/status/2038705696376848409/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 70,
+                  "w": 70,
+                  "x": 392,
+                  "y": 292
+                },
+                {
+                  "h": 115,
+                  "w": 115,
+                  "x": 277,
+                  "y": 271
+                }
+              ]
+            }
+          },
+          "id_str": "2038703262367617024",
+          "indices": [
+            276,
+            299
+          ],
+          "media_key": "3_2038703262367617024",
+          "media_url_https": "https://pbs.twimg.com/media/HErt0MvaEAALsSh.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 358,
+                "w": 640,
+                "x": 0,
+                "y": 157
+              },
+              {
+                "h": 640,
+                "w": 640,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 640,
+                "w": 561,
+                "x": 79,
+                "y": 0
+              },
+              {
+                "h": 640,
+                "w": 320,
+                "x": 272,
+                "y": 0
+              },
+              {
+                "h": 640,
+                "w": 640,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 640,
+            "width": 640
+          },
+          "sizes": {
+            "large": {
+              "h": 640,
+              "w": 640
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/FBdUMBm97N"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2038686571676008625",
+      "url": "https://x.com/lydiahallie/status/2038686571676008625",
+      "screen_name": "lydiahallie",
+      "created_at": "Mon Mar 30 18:35:30 +0000 2026",
+      "full_text": "We're aware people are hitting usage limits in Claude Code way faster than expected. Actively investigating, will share more when we have an update!",
+      "lang": "en",
+      "favorite_count": 7974,
+      "retweet_count": 394,
+      "reply_count": 929,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_lenient"
+    },
+    {
+      "tweet_id": "2038714312689430704",
+      "url": "https://x.com/Grummz/status/2038714312689430704",
+      "screen_name": "Grummz",
+      "created_at": "Mon Mar 30 20:25:44 +0000 2026",
+      "full_text": "Micron shares are in free fall this week.\n\n- Be Micron.\n\n- Get excited about Sam Altman singing letters “intending” to buy 40% of DRAM.\n\n- Close your entire Crucial consumer memory division so you can sell gamer RAM to OpenAI.\n\n- Sam Altman loses investors, never buys the RAM he https://t.co/SNcSSVaIr6",
+      "lang": "en",
+      "favorite_count": 5195,
+      "retweet_count": 458,
+      "reply_count": 279,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/SNcSSVaIr6",
+          "expanded_url": "https://x.com/Grummz/status/2038714312689430704/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2038714310139260928",
+          "indices": [
+            280,
+            303
+          ],
+          "media_key": "3_2038714310139260928",
+          "media_url_https": "https://pbs.twimg.com/media/HEr33Q5bMAAzfiR.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 564,
+                "w": 1008,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 720,
+                "w": 720,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 720,
+                "w": 632,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 720,
+                "w": 360,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 720,
+                "w": 1008,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 720,
+            "width": 1008
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1008
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/SNcSSVaIr6"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2038666497254433045",
+      "url": "https://x.com/cryptopunk7213/status/2038666497254433045",
+      "screen_name": "cryptopunk7213",
+      "created_at": "Mon Mar 30 17:15:44 +0000 2026",
+      "full_text": "well thats fucking it - anthropic has officially replaced software engineers. claude is now a 24 hr autonomous coding agent.\n\nclaude can now operate your entire computer and CLAUDE CODE = end-to-end software engineering:\n\n- claude writes the code for you\n- then literally opens https://t.co/mjkgiUyUOF",
+      "lang": "en",
+      "favorite_count": 3779,
+      "retweet_count": 163,
+      "reply_count": 272,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/mjkgiUyUOF",
+          "expanded_url": "https://x.com/cryptopunk7213/status/2038666497254433045/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2038666359425351680",
+          "indices": [
+            278,
+            301
+          ],
+          "media_key": "13_2038666359425351680",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2038666359425351680/img/tmU4IKLgyRs4--3Z.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1440,
+            "width": 2560
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/mjkgiUyUOF",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 45098,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2038666359425351680/pl/BhKMcN48_pq_llO0.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038666359425351680/vid/avc1/480x270/NmtnfTwyXm6QeMJM.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038666359425351680/vid/avc1/640x360/rdu6Yg38rsxRhUAy.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038666359425351680/vid/avc1/1280x720/oyWALpJNgy04TEd1.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038666359425351680/vid/avc1/2560x1440/kOl0VtKg1lV-73gm.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2038710800592847214",
+      "url": "https://x.com/Polymarket/status/2038710800592847214",
+      "screen_name": "Polymarket",
+      "created_at": "Mon Mar 30 20:11:46 +0000 2026",
+      "full_text": "BREAKING: OpenAI's Sora video platform was reportedly losing ~$1,000,000.00 per day before they decided to shut it down.",
+      "lang": "en",
+      "favorite_count": 3642,
+      "retweet_count": 219,
+      "reply_count": 228,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2038677236304245087",
+      "url": "https://x.com/romainhuet/status/2038677236304245087",
+      "screen_name": "romainhuet",
+      "created_at": "Mon Mar 30 17:58:24 +0000 2026",
+      "full_text": "We’ve seen Claude Code users bring in Codex for code review and use GPT-5.4 for more complex tasks, so we thought: why not make that easier?\n\nToday we’re open sourcing a plugin for it! You can call Codex from Claude Code with your ChatGPT subscription.\n\nWe love an open ecosystem!",
+      "lang": "en",
+      "favorite_count": 3286,
+      "retweet_count": 190,
+      "reply_count": 200,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2038621065019359339",
+      "url": "https://x.com/AndrewBolis/status/2038621065019359339",
+      "screen_name": "AndrewBolis",
+      "created_at": "Mon Mar 30 14:15:12 +0000 2026",
+      "full_text": "You can make $9000 per month if you have ChatGPT, a laptop, an internet connection, and 1 hour a day.\n\nNormally, this guide costs $79, but today I'm giving it away 100% FREE.\n\nLike + reply 'Money' &amp; I'll send you my detailed guide for FREE.\n\nMust follow me to get DM.\n\nFREE for 48 https://t.co/oHGz0sKyFt",
+      "lang": "en",
+      "favorite_count": 3157,
+      "retweet_count": 332,
+      "reply_count": 4025,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/oHGz0sKyFt",
+          "expanded_url": "https://x.com/AndrewBolis/status/2038621065019359339/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2038621062418886656",
+          "indices": [
+            285,
+            308
+          ],
+          "media_key": "3_2038621062418886656",
+          "media_url_https": "https://pbs.twimg.com/media/HEqjDiEbcAA1AoU.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 398,
+                "w": 711,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 711,
+                "w": 711,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 792,
+                "w": 695,
+                "x": 16,
+                "y": 0
+              },
+              {
+                "h": 792,
+                "w": 396,
+                "x": 178,
+                "y": 0
+              },
+              {
+                "h": 792,
+                "w": 711,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 792,
+            "width": 711
+          },
+          "sizes": {
+            "large": {
+              "h": 792,
+              "w": 711
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/oHGz0sKyFt"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2038619783898284158",
+      "url": "https://x.com/burrytracker/status/2038619783898284158",
+      "screen_name": "burrytracker",
+      "created_at": "Mon Mar 30 14:10:06 +0000 2026",
+      "full_text": "Breaking: The Magnificent 7 have lost over ~$5,000,000,000,000 of market capitalization from their all-time highs\n\n• Microsoft: -33.4%\n• Meta: -32.4%\n• Tesla: -25.7%\n• Amazon: -21.0%\n• Alphabet: -20.1%\n• Nvidia: -19.1%\n• Apple: -13.4% https://t.co/CDmkORXrq6",
+      "lang": "en",
+      "favorite_count": 2931,
+      "retweet_count": 1066,
+      "reply_count": 210,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/CDmkORXrq6",
+          "expanded_url": "https://x.com/burrytracker/status/2038619783898284158/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2038618485128118272",
+          "indices": [
+            235,
+            258
+          ],
+          "media_key": "3_2038618485128118272",
+          "media_url_https": "https://pbs.twimg.com/media/HEqgtg6bQAAHbtl.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1344,
+                "w": 2400,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2400,
+                "w": 2400,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2400,
+                "w": 2105,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2400,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2400,
+                "w": 2400,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 2400,
+            "width": 2400
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/CDmkORXrq6"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2038611920555856041",
+      "url": "https://x.com/Ra1kshit/status/2038611920555856041",
+      "screen_name": "Ra1kshit",
+      "created_at": "Mon Mar 30 13:38:52 +0000 2026",
+      "full_text": "Claude code is essentially unusable for me i hit 36% session limits in 15 mins. Just by using a single agent on my codebase. \n\n@claudeai you need to fix it.\n\nI'm on the 100$ plan btw https://t.co/mLxxsun9TN",
+      "lang": "en",
+      "favorite_count": 2670,
+      "retweet_count": 91,
+      "reply_count": 341,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/mLxxsun9TN",
+          "expanded_url": "https://x.com/Ra1kshit/status/2038611920555856041/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 322,
+                  "w": 322,
+                  "x": 39,
+                  "y": 978
+                }
+              ]
+            }
+          },
+          "id_str": "2038611741878435840",
+          "indices": [
+            183,
+            206
+          ],
+          "media_key": "3_2038611741878435840",
+          "media_url_https": "https://pbs.twimg.com/media/HEqalAWawAAK1Xn.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1133,
+                "w": 2024,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1420,
+                "w": 1420,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1420,
+                "w": 1246,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1420,
+                "w": 710,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1420,
+                "w": 2024,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1420,
+            "width": 2024
+          },
+          "sizes": {
+            "large": {
+              "h": 1420,
+              "w": 2024
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/mLxxsun9TN"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2038693742094246032",
+      "url": "https://x.com/claudeai/status/2038693742094246032",
+      "screen_name": "claudeai",
+      "created_at": "Mon Mar 30 19:03:59 +0000 2026",
+      "full_text": "Auto mode for Claude Code is now available on the Enterprise plan and for API users.\n\nTo try it out, update your install and run claude --enable-auto-mode.",
+      "lang": "en",
+      "favorite_count": 2425,
+      "retweet_count": 155,
+      "reply_count": 312,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "high_signal_source"
+    },
+    {
+      "tweet_id": "2038663016187621727",
+      "url": "https://x.com/claudeai/status/2038663016187621727",
+      "screen_name": "claudeai",
+      "created_at": "Mon Mar 30 17:01:54 +0000 2026",
+      "full_text": "In one prompt, Claude can write the code, compile it, launch the app, click through it, find the bug, fix it, and verify the fix.",
+      "lang": "en",
+      "favorite_count": 2366,
+      "retweet_count": 57,
+      "reply_count": 70,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "high_signal_source"
+    },
+    {
+      "tweet_id": "2038564888499699972",
+      "url": "https://x.com/Ninjago9101/status/2038564888499699972",
+      "screen_name": "Ninjago9101",
+      "created_at": "Mon Mar 30 10:31:58 +0000 2026",
+      "full_text": "Crimson Desert Patch v1.01.02 is now live.\n\nPatch Highlights:\n• Improved graphics with NVIDIA Ray Reconstruction &amp; DLSS\n• Fixed blurry visuals in certain environments\n• Resolved sky &amp; cloud flickering issues\n• Fixed chimney smoke flickering with overlapping objects https://t.co/ENwa0cTu1k",
+      "lang": "en",
+      "favorite_count": 2334,
+      "retweet_count": 71,
+      "reply_count": 53,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/ENwa0cTu1k",
+          "expanded_url": "https://x.com/Ninjago9101/status/2038564888499699972/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 99,
+                  "w": 99,
+                  "x": 472,
+                  "y": 678
+                }
+              ]
+            }
+          },
+          "id_str": "2038564879054045185",
+          "indices": [
+            274,
+            297
+          ],
+          "media_key": "3_2038564879054045185",
+          "media_url_https": "https://pbs.twimg.com/media/HEpv9OuagAEtgGw.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1072,
+                "w": 1914,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1080,
+                "w": 1080,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1080,
+                "w": 947,
+                "x": 52,
+                "y": 0
+              },
+              {
+                "h": 1080,
+                "w": 540,
+                "x": 255,
+                "y": 0
+              },
+              {
+                "h": 1080,
+                "w": 1914,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1080,
+            "width": 1914
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1914
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/ENwa0cTu1k"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2038660653410320556",
+      "url": "https://x.com/dr_cintas/status/2038660653410320556",
+      "screen_name": "dr_cintas",
+      "created_at": "Mon Mar 30 16:52:30 +0000 2026",
+      "full_text": "This is the most complete Claude Code setup that exists right now.\n27 agents. 64 skills. 33 commands. All open source.\n\nThe Anthropic hackathon winner open-sourced his entire system, refined over 10 months of building real products.\n\nWhat's inside:\n→ 27 agents (plan, review, fix https://t.co/FhcoewKY3c",
+      "lang": "en",
+      "favorite_count": 2328,
+      "retweet_count": 217,
+      "reply_count": 63,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/FhcoewKY3c",
+          "expanded_url": "https://x.com/dr_cintas/status/2038660653410320556/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 113,
+                  "w": 113,
+                  "x": 6,
+                  "y": 239
+                }
+              ]
+            }
+          },
+          "id_str": "2038659171818545152",
+          "indices": [
+            280,
+            303
+          ],
+          "media_key": "3_2038659171818545152",
+          "media_url_https": "https://pbs.twimg.com/media/HErFtypWIAA2fho.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 448,
+                "w": 800,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 800,
+                "w": 800,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 912,
+                "w": 800,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1003,
+                "w": 502,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1003,
+                "w": 800,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1003,
+            "width": 800
+          },
+          "sizes": {
+            "large": {
+              "h": 1003,
+              "w": 800
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/FhcoewKY3c"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    }
+  ]
+}
