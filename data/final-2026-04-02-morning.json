@@ -1,0 +1,576 @@
+{
+  "date": "2026-04-02",
+  "period": "morning",
+  "fetched_at": "2026-04-01T23:28:56.731790+00:00",
+  "raw_count": 80,
+  "candidate_count": 38,
+  "final_count": 5,
+  "review_count": 26,
+  "drop_hard_count": 7,
+  "disposition_stats": {
+    "not_ai_content": 7,
+    "low_info_ai_content": 24,
+    "info_value": 4,
+    "monitored_lenient": 1,
+    "brief_ai_mention": 2
+  },
+  "tweets": [
+    {
+      "tweet_id": "2039297115789176995",
+      "url": "https://x.com/IntCyberDigest/status/2039297115789176995",
+      "screen_name": "IntCyberDigest",
+      "created_at": "Wed Apr 01 11:01:35 +0000 2026",
+      "full_text": "🚨‼️ BREAKING: Anthropic has decided to open source their entire codebase and is rebranding their AI to OpenClaude.\n\nAnthropic CEO Dario Amodei said: \"Yesterday was no slip-up. If we disappear just like OpenAI is vanishing right now, our code can live on through the community.\" https://t.co/Yc2nGAMV9N",
+      "lang": "en",
+      "favorite_count": 14080,
+      "retweet_count": 1530,
+      "reply_count": 843,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/Yc2nGAMV9N",
+          "expanded_url": "https://x.com/IntCyberDigest/status/2039297115789176995/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2039294952614866944",
+          "indices": [
+            278,
+            301
+          ],
+          "media_key": "3_2039294952614866944",
+          "media_url_https": "https://pbs.twimg.com/media/HE0H9GrbMAALGR4.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 474,
+                "w": 847,
+                "x": 0,
+                "y": 334
+              },
+              {
+                "h": 847,
+                "w": 847,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 847,
+                "w": 743,
+                "x": 104,
+                "y": 0
+              },
+              {
+                "h": 847,
+                "w": 424,
+                "x": 275,
+                "y": 0
+              },
+              {
+                "h": 847,
+                "w": 847,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 847,
+            "width": 847
+          },
+          "sizes": {
+            "large": {
+              "h": 847,
+              "w": 847
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Yc2nGAMV9N"
+        },
+        {
+          "display_url": "pic.x.com/Yc2nGAMV9N",
+          "expanded_url": "https://x.com/IntCyberDigest/status/2039297115789176995/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 429,
+                  "w": 429,
+                  "x": 138,
+                  "y": 196
+                }
+              ]
+            }
+          },
+          "id_str": "2039295229686374400",
+          "indices": [
+            278,
+            301
+          ],
+          "media_key": "3_2039295229686374400",
+          "media_url_https": "https://pbs.twimg.com/media/HE0INO2a4AAzt2z.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 422,
+                "w": 754,
+                "x": 0,
+                "y": 184
+              },
+              {
+                "h": 754,
+                "w": 754,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 754,
+                "w": 661,
+                "x": 93,
+                "y": 0
+              },
+              {
+                "h": 754,
+                "w": 377,
+                "x": 245,
+                "y": 0
+              },
+              {
+                "h": 754,
+                "w": 754,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 754,
+            "width": 754
+          },
+          "sizes": {
+            "large": {
+              "h": 754,
+              "w": 754
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Yc2nGAMV9N"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2039421575422980329",
+      "url": "https://x.com/bcherny/status/2039421575422980329",
+      "screen_name": "bcherny",
+      "created_at": "Wed Apr 01 19:16:08 +0000 2026",
+      "full_text": "Today we're excited to announce NO_FLICKER mode for Claude Code in the terminal\n\nIt uses an experimental new renderer that we're excited about. The renderer is early and has tradeoffs, but already we've found that most internal users prefer it over the old renderer. It also https://t.co/L6d16HHBg5",
+      "lang": "en",
+      "favorite_count": 4884,
+      "retweet_count": 267,
+      "reply_count": 368,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/L6d16HHBg5",
+          "expanded_url": "https://x.com/bcherny/status/2039421575422980329/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2039416515901235200",
+          "indices": [
+            275,
+            298
+          ],
+          "media_key": "13_2039416515901235200",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2039416515901235200/img/_91X5_AyCflyfZYh.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1400,
+            "width": 1400
+          },
+          "sizes": {
+            "large": {
+              "h": 1400,
+              "w": 1400
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/L6d16HHBg5",
+          "video_info": {
+            "aspect_ratio": [
+              1,
+              1
+            ],
+            "duration_millis": 15253,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2039416515901235200/pl/iBRltqdRlFGAAMCM.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 432000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039416515901235200/vid/avc1/320x320/ANOBr1afU9PfPRgq.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039416515901235200/vid/avc1/540x540/NCcBeKAs-DSLk1PW.mp4"
+              },
+              {
+                "bitrate": 1280000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039416515901235200/vid/avc1/720x720/0gKJWkE2UP1Q-R6D.mp4"
+              },
+              {
+                "bitrate": 8768000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039416515901235200/vid/avc1/1080x1080/hLyC4P1PTksQF3Pv.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_lenient"
+    },
+    {
+      "tweet_id": "2039295237512704028",
+      "url": "https://x.com/_guillecasaus/status/2039295237512704028",
+      "screen_name": "_guillecasaus",
+      "created_at": "Wed Apr 01 10:54:07 +0000 2026",
+      "full_text": "🚨 Ahora puedes ejecutar Claude Code completamente gratis.\n\nSin costes de API. Sin límites de velocidad. Y 100% local en tu máquina.\n\nAquí te explico cómo hacerlo paso a paso 👇 https://t.co/ZbErzTCDi8",
+      "lang": "es",
+      "favorite_count": 2476,
+      "retweet_count": 307,
+      "reply_count": 48,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/ZbErzTCDi8",
+          "expanded_url": "https://x.com/_guillecasaus/status/2039295237512704028/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2039295229283467264",
+          "indices": [
+            176,
+            199
+          ],
+          "media_key": "3_2039295229283467264",
+          "media_url_https": "https://pbs.twimg.com/media/HE0INNWXAAAdhle.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 367,
+                "w": 655,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 655,
+                "w": 655,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 680,
+                "w": 596,
+                "x": 29,
+                "y": 0
+              },
+              {
+                "h": 680,
+                "w": 340,
+                "x": 157,
+                "y": 0
+              },
+              {
+                "h": 680,
+                "w": 655,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 680,
+            "width": 655
+          },
+          "sizes": {
+            "large": {
+              "h": 680,
+              "w": 655
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/ZbErzTCDi8"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2039365791666385002",
+      "url": "https://x.com/theaiportfolios/status/2039365791666385002",
+      "screen_name": "theaiportfolios",
+      "created_at": "Wed Apr 01 15:34:28 +0000 2026",
+      "full_text": "The Claude Autonomous Agents have officially arrived\n\nSo we're setting them up with a brand new $50,000 portfolio to see how well they do at picking in stocks\n\nThe portfolio officially went live &amp; it's already outperforming the $SPY\n\nHere’s the set of stocks it picked https://t.co/AmuCu11x87",
+      "lang": "en",
+      "favorite_count": 2202,
+      "retweet_count": 111,
+      "reply_count": 44,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/AmuCu11x87",
+          "expanded_url": "https://x.com/theaiportfolios/status/2039365791666385002/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2039361396786466816",
+          "indices": [
+            273,
+            296
+          ],
+          "media_key": "3_2039361396786466816",
+          "media_url_https": "https://pbs.twimg.com/media/HE1EYqgaEAAoFz-.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 504,
+                "w": 900,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 558,
+                "w": 558,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 558,
+                "w": 489,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 558,
+                "w": 279,
+                "x": 18,
+                "y": 0
+              },
+              {
+                "h": 558,
+                "w": 900,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 558,
+            "width": 900
+          },
+          "sizes": {
+            "large": {
+              "h": 558,
+              "w": 900
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/AmuCu11x87"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2039084001550336053",
+      "url": "https://x.com/ns123abc/status/2039084001550336053",
+      "screen_name": "ns123abc",
+      "created_at": "Tue Mar 31 20:54:44 +0000 2026",
+      "full_text": "🚨BREAKING: OpenAI has closed $122 billion funding round at $852 billion valuation \n\nTHE LARGEST PRIVATE FUNDING ROUND IN HISTORY https://t.co/a1tb6lMAbE",
+      "lang": "en",
+      "favorite_count": 2088,
+      "retweet_count": 124,
+      "reply_count": 197,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/a1tb6lMAbE",
+          "expanded_url": "https://x.com/ns123abc/status/2039084001550336053/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 416,
+                  "w": 416,
+                  "x": 469,
+                  "y": 238
+                }
+              ]
+            }
+          },
+          "id_str": "2039083997091999744",
+          "indices": [
+            129,
+            152
+          ],
+          "media_key": "3_2039083997091999744",
+          "media_url_https": "https://pbs.twimg.com/media/HExIF4HaMAAUOmJ.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 689,
+                "w": 1230,
+                "x": 0,
+                "y": 423
+              },
+              {
+                "h": 1230,
+                "w": 1230,
+                "x": 0,
+                "y": 152
+              },
+              {
+                "h": 1402,
+                "w": 1230,
+                "x": 0,
+                "y": 60
+              },
+              {
+                "h": 1462,
+                "w": 731,
+                "x": 475,
+                "y": 0
+              },
+              {
+                "h": 1462,
+                "w": 1230,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1462,
+            "width": 1230
+          },
+          "sizes": {
+            "large": {
+              "h": 1462,
+              "w": 1230
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/a1tb6lMAbE"
+        },
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/a1tb6lMAbE",
+          "expanded_url": "https://x.com/ns123abc/status/2039084001550336053/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2039083996953337856",
+          "indices": [
+            129,
+            152
+          ],
+          "media_key": "3_2039083996953337856",
+          "media_url_https": "https://pbs.twimg.com/media/HExIF3mWYAA1-Po.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 224,
+                "w": 400,
+                "x": 0,
+                "y": 58
+              },
+              {
+                "h": 400,
+                "w": 400,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 400,
+                "w": 351,
+                "x": 49,
+                "y": 0
+              },
+              {
+                "h": 400,
+                "w": 200,
+                "x": 150,
+                "y": 0
+              },
+              {
+                "h": 400,
+                "w": 400,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 400,
+            "width": 400
+          },
+          "sizes": {
+            "large": {
+              "h": 400,
+              "w": 400
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/a1tb6lMAbE"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    }
+  ]
+}
