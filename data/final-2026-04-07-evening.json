@@ -1,0 +1,800 @@
+{
+  "date": "2026-04-07",
+  "period": "evening",
+  "fetched_at": "2026-04-07T11:52:27.920862+00:00",
+  "raw_count": 104,
+  "candidate_count": 56,
+  "final_count": 12,
+  "review_count": 30,
+  "drop_hard_count": 14,
+  "disposition_stats": {
+    "not_ai_content": 13,
+    "low_info_ai_content": 27,
+    "info_value": 10,
+    "too_brief": 1,
+    "high_signal_source": 2,
+    "low_value_pattern": 1,
+    "brief_ai_mention": 1,
+    "off_topic": 1
+  },
+  "tweets": [
+    {
+      "tweet_id": "2041306515013783628",
+      "url": "https://x.com/Hesamation/status/2041306515013783628",
+      "screen_name": "Hesamation",
+      "created_at": "Tue Apr 07 00:06:13 +0000 2026",
+      "full_text": "Yes, it’s a bubble. OpenAI will spend $121B in 2028 on compute. won’t turn profit until at least 2030. prepare your GPUs. https://t.co/kpB2Bt8Nxf",
+      "lang": "en",
+      "favorite_count": 8954,
+      "retweet_count": 353,
+      "reply_count": 89,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/kpB2Bt8Nxf",
+          "expanded_url": "https://x.com/Hesamation/status/2041306515013783628/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041306454032867328",
+          "indices": [
+            122,
+            145
+          ],
+          "media_key": "13_2041306454032867328",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041306454032867328/img/Uu0sXWffVU59Mdxb.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 600,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 600,
+              "w": 1080
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/kpB2Bt8Nxf",
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              5
+            ],
+            "duration_millis": 16445,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041306454032867328/pl/BcoWj0IwrRTC-IEa.m3u8?v=c7d"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041306454032867328/vid/avc1/486x270/3OF29afyZrULwX8S.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041306454032867328/vid/avc1/648x360/_wlyOt_6kgn6FKh3.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041306454032867328/vid/avc1/1080x600/vPFIiSZ34I0xrt9U.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041287132463919297",
+      "url": "https://x.com/deredleritt3r/status/2041287132463919297",
+      "screen_name": "deredleritt3r",
+      "created_at": "Mon Apr 06 22:49:12 +0000 2026",
+      "full_text": "Anthropic revenue (annualized):\n\n- January 2025:  $1B \n- May:  $3B \n- June:  $4B \n- August:  $5B \n- October: $7B \n- December:  $8B to $10B\n\n-February 2026:  $14B\n-March 2026: $19B\n-April 2026: $30B (WTF???)",
+      "lang": "en",
+      "favorite_count": 7303,
+      "retweet_count": 322,
+      "reply_count": 155,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041236952998171118",
+      "url": "https://x.com/bensig/status/2041236952998171118",
+      "screen_name": "bensig",
+      "created_at": "Mon Apr 06 19:29:48 +0000 2026",
+      "full_text": "My friend Milla Jovovich and I spent months creating an AI memory system with Claude. It just posted a perfect score on the standard benchmark - beating every product in the space, free or paid.\n\nIt's called MemPalace, and it works nothing like anything else out there.\n\nInstead https://t.co/trAUZyMHIe",
+      "lang": "en",
+      "favorite_count": 6619,
+      "retweet_count": 649,
+      "reply_count": 344,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/trAUZyMHIe",
+          "expanded_url": "https://x.com/bensig/status/2041236952998171118/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041236694406721536",
+          "indices": [
+            279,
+            302
+          ],
+          "media_key": "3_2041236694406721536",
+          "media_url_https": "https://pbs.twimg.com/media/HFPt9Wia8AAiRqy.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 449,
+                "w": 802,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 449,
+                "w": 449,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 449,
+                "w": 394,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 449,
+                "w": 225,
+                "x": 48,
+                "y": 0
+              },
+              {
+                "h": 449,
+                "w": 917,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 449,
+            "width": 917
+          },
+          "sizes": {
+            "large": {
+              "h": 449,
+              "w": 917
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/trAUZyMHIe"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041275563466502560",
+      "url": "https://x.com/AnthropicAI/status/2041275563466502560",
+      "screen_name": "AnthropicAI",
+      "created_at": "Mon Apr 06 22:03:14 +0000 2026",
+      "full_text": "Our run-rate revenue has surpassed $30 billion, up from $9 billion at the end of 2025, as demand for Claude continues to accelerate. This partnership gives us the compute to keep pace.\n\nRead more: https://t.co/XgSjL0And7",
+      "lang": "en",
+      "favorite_count": 6071,
+      "retweet_count": 539,
+      "reply_count": 212,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "high_signal_source"
+    },
+    {
+      "tweet_id": "2041335795450302916",
+      "url": "https://x.com/JeremyNguyenPhD/status/2041335795450302916",
+      "screen_name": "JeremyNguyenPhD",
+      "created_at": "Tue Apr 07 02:02:34 +0000 2026",
+      "full_text": "Milla Jovovich (actress from The Fifth Element) created a world-beating Claude memory system with @bensig?!\n\n- 100% on LongMemEval — first perfect score ever recorded.\n\nFree and 100% open source. Github link in the quoted post from Ben.\n\nI'm keen to hear how it works for you. https://t.co/5AMu96CZ7Z",
+      "lang": "en",
+      "favorite_count": 4890,
+      "retweet_count": 533,
+      "reply_count": 157,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/5AMu96CZ7Z",
+          "expanded_url": "https://x.com/JeremyNguyenPhD/status/2041335795450302916/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041335680568307712",
+          "indices": [
+            277,
+            300
+          ],
+          "media_key": "13_2041335680568307712",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041335680568307712/img/NZvDjMJ7dnBlqdkL.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 870,
+            "width": 720
+          },
+          "sizes": {
+            "large": {
+              "h": 870,
+              "w": 720
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/5AMu96CZ7Z",
+          "video_info": {
+            "aspect_ratio": [
+              24,
+              29
+            ],
+            "duration_millis": 226100,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041335680568307712/pl/IVmd4dX3g42eCiFM.m3u8?tag=14&v=80e"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041335680568307712/vid/avc1/320x386/yBO8wmG5FW8s-Gc_.mp4?tag=14"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041335680568307712/vid/avc1/480x580/QuDMxbz2pMMDs3n_.mp4?tag=14"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041335680568307712/vid/avc1/720x870/2H2hD4Z-6Itm1C4p.mp4?tag=14"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041239990328553546",
+      "url": "https://x.com/LinusEkenstam/status/2041239990328553546",
+      "screen_name": "LinusEkenstam",
+      "created_at": "Mon Apr 06 19:41:52 +0000 2026",
+      "full_text": "NVIDIA just killed the awkward pause in voice AI 😱\n\nPersonaPlex 7B is a real-time conversational model that listens AND speaks simultaneously. Like actually interrupts you mid-sentence like a human.\n\nBeat Gemini Live on dialog naturalness. 18x faster interruptions.\n\n100% open https://t.co/3Ns0X6O07B",
+      "lang": "en",
+      "favorite_count": 2940,
+      "retweet_count": 312,
+      "reply_count": 146,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/3Ns0X6O07B",
+          "expanded_url": "https://x.com/LinusEkenstam/status/2041239990328553546/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041239931289219072",
+          "indices": [
+            277,
+            300
+          ],
+          "media_key": "13_2041239931289219072",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041239931289219072/img/kICtUD7X2_We5pEl.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 618,
+            "width": 960
+          },
+          "sizes": {
+            "large": {
+              "h": 618,
+              "w": 960
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/3Ns0X6O07B",
+          "video_info": {
+            "aspect_ratio": [
+              160,
+              103
+            ],
+            "duration_millis": 43133,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041239931289219072/pl/duahIsyqJIExTz3b.m3u8?v=c52"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041239931289219072/vid/avc1/418x270/rbmPKE_QMCMkp2Qy.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041239931289219072/vid/avc1/558x360/NFkNqPq1JsDqmE6g.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041239931289219072/vid/avc1/960x618/qHIhZ_AKXGyqf-pR.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041192886289494173",
+      "url": "https://x.com/sharbel/status/2041192886289494173",
+      "screen_name": "sharbel",
+      "created_at": "Mon Apr 06 16:34:42 +0000 2026",
+      "full_text": "Full Polymarket Bot Build | Claude Code Tutorial:\n\n0:00 - Intro\n0:53 - Setup\n1:49 - Bullpen CLI\n5:01 - Pull top traders\n8:40 - Set rules\n15:15 - Build a dashboard\n17:38 - Claude hack\n20:39 - Bot LIVE\n23:00 - 2 extra commands\n24:00 - 3 hour results: 13% profit\n25:13 - Honest take https://t.co/0pGByCY2hd",
+      "lang": "en",
+      "favorite_count": 2938,
+      "retweet_count": 385,
+      "reply_count": 78,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/0pGByCY2hd",
+          "expanded_url": "https://x.com/sharbel/status/2041192886289494173/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041191903119753216",
+          "indices": [
+            280,
+            303
+          ],
+          "media_key": "13_2041191903119753216",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041191903119753216/img/-e8_tLt40N3H8_aH.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/0pGByCY2hd",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 1617720,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041191903119753216/pl/E8SEXEuIf_Xc-OTC.m3u8?v=18c"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041191903119753216/vid/avc1/480x270/cjXfu0HKcEEsvjdR.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041191903119753216/vid/avc1/640x360/OwjaAtbfe5ng6cPV.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041191903119753216/vid/avc1/1280x720/hkCnABkG9JQs2xmL.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041191903119753216/vid/avc1/1920x1080/OOTp-gzU-jNQYYT9.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041138856435826998",
+      "url": "https://x.com/SolLunix/status/2041138856435826998",
+      "screen_name": "SolLunix",
+      "created_at": "Mon Apr 06 13:00:00 +0000 2026",
+      "full_text": "You wake up in 2010. NVIDIA is $0.32. \n\nEveryone agrees it's a gaming stock. https://t.co/GbwCwdPVS7",
+      "lang": "en",
+      "favorite_count": 2483,
+      "retweet_count": 27,
+      "reply_count": 45,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/GbwCwdPVS7",
+          "expanded_url": "https://x.com/SolLunix/status/2041138856435826998/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041079202028687360",
+          "indices": [
+            77,
+            100
+          ],
+          "media_key": "13_2041079202028687360",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041079202028687360/img/Sq5Vo6SlzqfJSpPR.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/GbwCwdPVS7",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 16439,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041079202028687360/pl/b_0j3Z44T-gVtKLc.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041079202028687360/vid/avc1/480x270/kaqH0lMWTUFuxOCq.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041079202028687360/vid/avc1/640x360/tORvapoKM1MU-ctw.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041079202028687360/vid/avc1/1280x720/w5rMHyzjQDpSZtqN.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041202511647019251",
+      "url": "https://x.com/OpenAI/status/2041202511647019251",
+      "screen_name": "OpenAI",
+      "created_at": "Mon Apr 06 17:12:57 +0000 2026",
+      "full_text": "Introducing the OpenAI Safety Fellowship, a new program supporting independent research on AI safety and alignment—and the next generation of talent.\n\nhttps://t.co/vAQKvf8KyO",
+      "lang": "en",
+      "favorite_count": 2221,
+      "retweet_count": 236,
+      "reply_count": 310,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "high_signal_source"
+    },
+    {
+      "tweet_id": "2041112612981916146",
+      "url": "https://x.com/oliviscusAI/status/2041112612981916146",
+      "screen_name": "oliviscusAI",
+      "created_at": "Mon Apr 06 11:15:43 +0000 2026",
+      "full_text": "🚨 Someone just built a Claude Code skill that clones any website perfectly in one prompt.\n\nIt uses the built-in Chrome MCP to go straight to the source. It pulls the exact fonts, colors, and layout directly from the browser.\n\n100% Open Source. https://t.co/wz4vIgh5E0",
+      "lang": "en",
+      "favorite_count": 2106,
+      "retweet_count": 159,
+      "reply_count": 64,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/wz4vIgh5E0",
+          "expanded_url": "https://x.com/oliviscusAI/status/2041112612981916146/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041111920368033792",
+          "indices": [
+            244,
+            267
+          ],
+          "media_key": "13_2041111920368033792",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041111920368033792/img/sj6TnPYaERnkh8R8.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/wz4vIgh5E0",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 74133,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041111920368033792/pl/2HSf3C4ppzGoYd_X.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041111920368033792/vid/avc1/480x270/8hjsah3N6PxWUFjN.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041111920368033792/vid/avc1/640x360/OisSVfjKpCc_G2hR.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041111920368033792/vid/avc1/1280x720/6e1GwyAy910akXgt.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041111920368033792/vid/avc1/1920x1080/8ei1WBVJxeyRVWqN.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041219569050677442",
+      "url": "https://x.com/samgrows/status/2041219569050677442",
+      "screen_name": "samgrows",
+      "created_at": "Mon Apr 06 18:20:43 +0000 2026",
+      "full_text": "BREAKING: Claude can now search YouTube for you!\n\nWe plugged Algrow directly into Claude so it finally has real constantly updated youtube data\n\nNo more generic slop from a model that's never watched a video https://t.co/6lPTgF9IEv",
+      "lang": "en",
+      "favorite_count": 2056,
+      "retweet_count": 156,
+      "reply_count": 99,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/6lPTgF9IEv",
+          "expanded_url": "https://x.com/samgrows/status/2041219569050677442/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041219314238504961",
+          "indices": [
+            208,
+            231
+          ],
+          "media_key": "13_2041219314238504961",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041219314238504961/img/9TTuYfHxNGYRldL3.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/6lPTgF9IEv",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 34624,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041219314238504961/pl/CW9nCbOfKpgRhixj.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041219314238504961/vid/avc1/480x270/eHDgEANHVRk-dSKI.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041219314238504961/vid/avc1/640x360/736CihD6nSvf3x75.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041219314238504961/vid/avc1/1280x720/vq2MoyRQtXNyVKZx.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041219314238504961/vid/avc1/1920x1080/xIQNBEYNgQmRz44K.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041278669487018227",
+      "url": "https://x.com/lennysan/status/2041278669487018227",
+      "screen_name": "lennysan",
+      "created_at": "Mon Apr 06 22:15:34 +0000 2026",
+      "full_text": "Breaking: Anthropic is now at $30B ARR.\n\nUp from $19B in February.\n\nThat's $11B ARR added in one month.\n\nWAT. https://t.co/PPkPZYaEHI",
+      "lang": "en",
+      "favorite_count": 2044,
+      "retweet_count": 111,
+      "reply_count": 118,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/PPkPZYaEHI",
+          "expanded_url": "https://x.com/lennysan/status/2041278669487018227/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041277877577244672",
+          "indices": [
+            110,
+            133
+          ],
+          "media_key": "3_2041277877577244672",
+          "media_url_https": "https://pbs.twimg.com/media/HFQTahza4AAlw-L.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 368,
+                "w": 657,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 368,
+                "w": 368,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 368,
+                "w": 323,
+                "x": 5,
+                "y": 0
+              },
+              {
+                "h": 368,
+                "w": 184,
+                "x": 74,
+                "y": 0
+              },
+              {
+                "h": 368,
+                "w": 1332,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 368,
+            "width": 1332
+          },
+          "sizes": {
+            "large": {
+              "h": 368,
+              "w": 1332
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/PPkPZYaEHI"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    }
+  ]
+}
