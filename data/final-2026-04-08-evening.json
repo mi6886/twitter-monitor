@@ -1,0 +1,986 @@
+{
+  "date": "2026-04-08",
+  "period": "evening",
+  "fetched_at": "2026-04-08T11:53:53.465827+00:00",
+  "raw_count": 109,
+  "candidate_count": 63,
+  "final_count": 14,
+  "review_count": 40,
+  "drop_hard_count": 9,
+  "disposition_stats": {
+    "low_info_ai_content": 35,
+    "high_signal_source": 2,
+    "info_value": 11,
+    "not_ai_content": 9,
+    "weak_signal_untrusted": 1,
+    "off_topic": 3,
+    "monitored_lenient": 1,
+    "low_value_pattern": 1
+  },
+  "tweets": [
+    {
+      "tweet_id": "2041658719839383945",
+      "url": "https://x.com/sama/status/2041658719839383945",
+      "screen_name": "sama",
+      "created_at": "Tue Apr 07 23:25:45 +0000 2026",
+      "full_text": "To celebrate 3 million weekly codex users, we are resetting usage limits.\n\nWe will do this every million users up to 10 million.\n\nHappy building!",
+      "lang": "en",
+      "favorite_count": 21625,
+      "retweet_count": 1051,
+      "reply_count": 1431,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "high_signal_source"
+    },
+    {
+      "tweet_id": "2041623274069839900",
+      "url": "https://x.com/NinaDSchick/status/2041623274069839900",
+      "screen_name": "NinaDSchick",
+      "created_at": "Tue Apr 07 21:04:54 +0000 2026",
+      "full_text": "Claude Mythos. \n\nTen trillion parameters: the first model in this weight class. Estimated training cost: ten billion dollars.\n\nOn the hardest coding test in the industry (SWE bench) it scores 94%. \n\nIt found a security flaw in a system that had been running for 27 years, one that",
+      "lang": "en",
+      "favorite_count": 8275,
+      "retweet_count": 658,
+      "reply_count": 411,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041644441547481290",
+      "url": "https://x.com/ns123abc/status/2041644441547481290",
+      "screen_name": "ns123abc",
+      "created_at": "Tue Apr 07 22:29:01 +0000 2026",
+      "full_text": "“Sir… Elon Musk just amended his OpenAI lawsuit… he’s pledging to donate ALL $134 billion in winnings back to the OAI nonprofit… but he wants YOU removed from the nonprofit board…” https://t.co/ckd47Jup7w",
+      "lang": "en",
+      "favorite_count": 4699,
+      "retweet_count": 414,
+      "reply_count": 73,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/ckd47Jup7w",
+          "expanded_url": "https://x.com/ns123abc/status/2041644441547481290/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 462,
+                  "w": 462,
+                  "x": 278,
+                  "y": 151
+                }
+              ]
+            }
+          },
+          "id_str": "2041644437407744000",
+          "indices": [
+            181,
+            204
+          ],
+          "media_key": "3_2041644437407744000",
+          "media_url_https": "https://pbs.twimg.com/media/HFVgzHlXQAA2Ekv.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 473,
+                "w": 845,
+                "x": 0,
+                "y": 165
+              },
+              {
+                "h": 771,
+                "w": 771,
+                "x": 74,
+                "y": 0
+              },
+              {
+                "h": 771,
+                "w": 676,
+                "x": 147,
+                "y": 0
+              },
+              {
+                "h": 771,
+                "w": 386,
+                "x": 292,
+                "y": 0
+              },
+              {
+                "h": 771,
+                "w": 845,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 771,
+            "width": 845
+          },
+          "sizes": {
+            "large": {
+              "h": 771,
+              "w": 845
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/ckd47Jup7w"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041602076602495146",
+      "url": "https://x.com/theaiportfolios/status/2041602076602495146",
+      "screen_name": "theaiportfolios",
+      "created_at": "Tue Apr 07 19:40:40 +0000 2026",
+      "full_text": "Breaking: Claude just made it's first trade\n\nLast week we gave Claude agents a new $50,000 portfolio to see how well they do at picking in stocks\n\nSo far, they've already outperforming the SPY\n\nToday, it just bought it's newest stock:\n\n\"WHY WE SOLD $HWM (Howmet Aerospace)\n\nHowmet https://t.co/KgnZinXrDx",
+      "lang": "en",
+      "favorite_count": 4402,
+      "retweet_count": 198,
+      "reply_count": 99,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/KgnZinXrDx",
+          "expanded_url": "https://x.com/theaiportfolios/status/2041602076602495146/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041600524676689920",
+          "indices": [
+            281,
+            304
+          ],
+          "media_key": "3_2041600524676689920",
+          "media_url_https": "https://pbs.twimg.com/media/HFU43D6a8AAq2_h.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 829,
+                "w": 1480,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 880,
+                "w": 880,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 880,
+                "w": 772,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 880,
+                "w": 440,
+                "x": 39,
+                "y": 0
+              },
+              {
+                "h": 880,
+                "w": 1480,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 880,
+            "width": 1480
+          },
+          "sizes": {
+            "large": {
+              "h": 880,
+              "w": 1480
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/KgnZinXrDx"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041576806810370553",
+      "url": "https://x.com/ihtesham2005/status/2041576806810370553",
+      "screen_name": "ihtesham2005",
+      "created_at": "Tue Apr 07 18:00:16 +0000 2026",
+      "full_text": "A MIT student figured out how to compress an entire semester of lecture content into one 90-minute study session.\n\nHe calls it \"context stacking,\" and it's the most unfair thing I've seen done with NotebookLM.\n\nI asked him to walk me through it. He did. I haven't studied the same https://t.co/qVojrFakUF",
+      "lang": "en",
+      "favorite_count": 4366,
+      "retweet_count": 697,
+      "reply_count": 89,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/qVojrFakUF",
+          "expanded_url": "https://x.com/ihtesham2005/status/2041576806810370553/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 217,
+                  "w": 217,
+                  "x": 17,
+                  "y": 15
+                }
+              ]
+            }
+          },
+          "id_str": "2041576802133688320",
+          "indices": [
+            281,
+            304
+          ],
+          "media_key": "3_2041576802133688320",
+          "media_url_https": "https://pbs.twimg.com/media/HFUjSOjbQAAaL4O.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1572,
+                "w": 2808,
+                "x": 0,
+                "y": 265
+              },
+              {
+                "h": 2025,
+                "w": 2025,
+                "x": 39,
+                "y": 0
+              },
+              {
+                "h": 2025,
+                "w": 1776,
+                "x": 163,
+                "y": 0
+              },
+              {
+                "h": 2025,
+                "w": 1013,
+                "x": 545,
+                "y": 0
+              },
+              {
+                "h": 2025,
+                "w": 2808,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 2025,
+            "width": 2808
+          },
+          "sizes": {
+            "large": {
+              "h": 1477,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/qVojrFakUF"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041704763188793793",
+      "url": "https://x.com/om_patel5/status/2041704763188793793",
+      "screen_name": "om_patel5",
+      "created_at": "Wed Apr 08 02:28:43 +0000 2026",
+      "full_text": "SOMEONE ACTUALLY MEASURED HOW MUCH DUMBER CLAUDE GOT. THE ANSWER IS 67%.\n\nthe data shows Opus 4.6 is thinking 67% less than it used to.\n\nanthropic said nothing until the numbers went public. then suddenly Boris Cherny (creator of Claude Code) shows up on the GitHub issue.\n\nusers https://t.co/P8dEQ09k81",
+      "lang": "en",
+      "favorite_count": 4018,
+      "retweet_count": 337,
+      "reply_count": 269,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/P8dEQ09k81",
+          "expanded_url": "https://x.com/om_patel5/status/2041704763188793793/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 52,
+                  "w": 52,
+                  "x": 190,
+                  "y": 1013
+                }
+              ]
+            }
+          },
+          "id_str": "2041704416575643648",
+          "indices": [
+            280,
+            303
+          ],
+          "media_key": "3_2041704416575643648",
+          "media_url_https": "https://pbs.twimg.com/media/HFWXWXZWYAApDlO.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 797,
+                "w": 1424,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1268,
+                "w": 1268,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1268,
+                "w": 1112,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1268,
+                "w": 634,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1268,
+                "w": 1424,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1268,
+            "width": 1424
+          },
+          "sizes": {
+            "large": {
+              "h": 1268,
+              "w": 1424
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/P8dEQ09k81"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041501396692873308",
+      "url": "https://x.com/MaziyarPanahi/status/2041501396692873308",
+      "screen_name": "MaziyarPanahi",
+      "created_at": "Tue Apr 07 13:00:36 +0000 2026",
+      "full_text": "🚨 Over 1 billion rows of psychiatric genetics data. Now on Hugging Face.\n\nADHD. Depression. Schizophrenia. Bipolar. PTSD. OCD. Autism. Anxiety. Tourette. Eating disorders.\n\n12 disorder groups. 52 publications. Every GWAS summary statistic from the Psychiatric Genomics https://t.co/RWJAxrc2vd",
+      "lang": "en",
+      "favorite_count": 3127,
+      "retweet_count": 445,
+      "reply_count": 87,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/RWJAxrc2vd",
+          "expanded_url": "https://x.com/MaziyarPanahi/status/2041501396692873308/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041493947059761152",
+          "indices": [
+            269,
+            292
+          ],
+          "media_key": "3_2041493947059761152",
+          "media_url_https": "https://pbs.twimg.com/media/HFTX7bWbcAAAPId.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1787,
+                "w": 3191,
+                "x": 0,
+                "y": 1257
+              },
+              {
+                "h": 3191,
+                "w": 3191,
+                "x": 0,
+                "y": 555
+              },
+              {
+                "h": 3638,
+                "w": 3191,
+                "x": 0,
+                "y": 331
+              },
+              {
+                "h": 4096,
+                "w": 2048,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 4096,
+                "w": 3191,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 4096,
+            "width": 3191
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1596
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/RWJAxrc2vd"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041537215742767415",
+      "url": "https://x.com/santtiagom_/status/2041537215742767415",
+      "screen_name": "santtiagom_",
+      "created_at": "Tue Apr 07 15:22:56 +0000 2026",
+      "full_text": "Tutorial de Claude Code en Español (50min).\n\nMuy bueno para dar tus primeros pasos.",
+      "lang": "es",
+      "favorite_count": 2925,
+      "retweet_count": 199,
+      "reply_count": 5,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041651298165256259",
+      "url": "https://x.com/aakashgupta/status/2041651298165256259",
+      "screen_name": "aakashgupta",
+      "created_at": "Tue Apr 07 22:56:16 +0000 2026",
+      "full_text": "Do you understand what's happening?\n\nAnthropic's head of alignment just told you their safest model escaped a sandboxed environment with no internet access, emailed him while he was eating a sandwich in a park, and nobody can fully explain how it got out.\n\nThis is the model that https://t.co/rATX5M03lX",
+      "lang": "en",
+      "favorite_count": 2752,
+      "retweet_count": 687,
+      "reply_count": 168,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/rATX5M03lX",
+          "expanded_url": "https://x.com/aakashgupta/status/2041651298165256259/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041651244440416260",
+          "indices": [
+            280,
+            303
+          ],
+          "media_key": "13_2041651244440416260",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041651244440416260/img/leaEyJqr-fNJCZKj.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/rATX5M03lX",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 13744,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041651244440416260/pl/8wFUIPKajFdKqi-i.m3u8?tag=14&v=3df"
+              },
+              {
+                "bitrate": 288000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041651244440416260/vid/avc1/480x270/zsN_lrqJe-B6z5d8.mp4?tag=14"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041651244440416260/vid/avc1/640x360/1O5tfYh9JdGA-Cha.mp4?tag=14"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041651244440416260/vid/avc1/1280x720/ybwtvLr8c5Cgxc7x.mp4?tag=14"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_lenient"
+    },
+    {
+      "tweet_id": "2041599713972253067",
+      "url": "https://x.com/KelseyTuoc/status/2041599713972253067",
+      "screen_name": "KelseyTuoc",
+      "created_at": "Tue Apr 07 19:31:17 +0000 2026",
+      "full_text": "An underrated feature of this situation: a private company now has incredibly powerful zero-day exploits of almost every software project you've heard of. \n\nAnd Hegseth and Emil Michael have ordered the government not to in any capacity work with Anthropic.",
+      "lang": "en",
+      "favorite_count": 2647,
+      "retweet_count": 194,
+      "reply_count": 40,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041442321351241997",
+      "url": "https://x.com/exploraX_/status/2041442321351241997",
+      "screen_name": "exploraX_",
+      "created_at": "Tue Apr 07 09:05:52 +0000 2026",
+      "full_text": "how to run claude code with gemma 4 completely free (beginner's guide): \n\nthis guide shows you how to use claude code completely free with gemma 4, no subscriptions &amp;no api keys.\n\njust your laptop + 15 mins setup.\n\nthis lets you run open-source models (like google’s gemma) https://t.co/Urxa19MI8w",
+      "lang": "en",
+      "favorite_count": 2617,
+      "retweet_count": 260,
+      "reply_count": 76,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/Urxa19MI8w",
+          "expanded_url": "https://x.com/exploraX_/status/2041442321351241997/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041442193584631808",
+          "indices": [
+            278,
+            301
+          ],
+          "media_key": "3_2041442193584631808",
+          "media_url_https": "https://pbs.twimg.com/media/HFSo2-obMAALNN-.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 374,
+                "w": 668,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 374,
+                "w": 374,
+                "x": 103,
+                "y": 0
+              },
+              {
+                "h": 374,
+                "w": 328,
+                "x": 126,
+                "y": 0
+              },
+              {
+                "h": 374,
+                "w": 187,
+                "x": 197,
+                "y": 0
+              },
+              {
+                "h": 374,
+                "w": 685,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 374,
+            "width": 685
+          },
+          "sizes": {
+            "large": {
+              "h": 374,
+              "w": 685
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Urxa19MI8w"
+        },
+        {
+          "display_url": "pic.x.com/Urxa19MI8w",
+          "expanded_url": "https://x.com/exploraX_/status/2041442321351241997/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041442237876236288",
+          "indices": [
+            278,
+            301
+          ],
+          "media_key": "3_2041442237876236288",
+          "media_url_https": "https://pbs.twimg.com/media/HFSo5joXcAAO68U.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 629,
+                "w": 1123,
+                "x": 0,
+                "y": 16
+              },
+              {
+                "h": 645,
+                "w": 645,
+                "x": 239,
+                "y": 0
+              },
+              {
+                "h": 645,
+                "w": 566,
+                "x": 278,
+                "y": 0
+              },
+              {
+                "h": 645,
+                "w": 323,
+                "x": 400,
+                "y": 0
+              },
+              {
+                "h": 645,
+                "w": 1123,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 645,
+            "width": 1123
+          },
+          "sizes": {
+            "large": {
+              "h": 645,
+              "w": 1123
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Urxa19MI8w"
+        },
+        {
+          "display_url": "pic.x.com/Urxa19MI8w",
+          "expanded_url": "https://x.com/exploraX_/status/2041442321351241997/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041442275700719616",
+          "indices": [
+            278,
+            301
+          ],
+          "media_key": "3_2041442275700719616",
+          "media_url_https": "https://pbs.twimg.com/media/HFSo7wibQAA0B_C.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 843,
+                "w": 1505,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 843,
+                "w": 843,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 843,
+                "w": 739,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 843,
+                "w": 422,
+                "x": 7,
+                "y": 0
+              },
+              {
+                "h": 843,
+                "w": 1749,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 843,
+            "width": 1749
+          },
+          "sizes": {
+            "large": {
+              "h": 843,
+              "w": 1749
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Urxa19MI8w"
+        },
+        {
+          "display_url": "pic.x.com/Urxa19MI8w",
+          "expanded_url": "https://x.com/exploraX_/status/2041442321351241997/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041442290078507008",
+          "indices": [
+            278,
+            301
+          ],
+          "media_key": "3_2041442290078507008",
+          "media_url_https": "https://pbs.twimg.com/media/HFSo8mGW4AAa6HE.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 251,
+                "w": 448,
+                "x": 831,
+                "y": 0
+              },
+              {
+                "h": 251,
+                "w": 251,
+                "x": 930,
+                "y": 0
+              },
+              {
+                "h": 251,
+                "w": 220,
+                "x": 945,
+                "y": 0
+              },
+              {
+                "h": 251,
+                "w": 126,
+                "x": 992,
+                "y": 0
+              },
+              {
+                "h": 251,
+                "w": 1362,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 251,
+            "width": 1362
+          },
+          "sizes": {
+            "large": {
+              "h": 251,
+              "w": 1362
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Urxa19MI8w"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041648263078801765",
+      "url": "https://x.com/OpenAINewsroom/status/2041648263078801765",
+      "screen_name": "OpenAINewsroom",
+      "created_at": "Tue Apr 07 22:44:12 +0000 2026",
+      "full_text": "Today, at the eleventh hour, Elon lodged a court filing pretending to change his tune about attacking the nonprofit OpenAI Foundation.\n\nThe truth is that this case has always been about Elon generating more power and more money for what he wants. Having increasingly realized that",
+      "lang": "en",
+      "favorite_count": 2597,
+      "retweet_count": 154,
+      "reply_count": 447,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "high_signal_source"
+    },
+    {
+      "tweet_id": "2041471058314670358",
+      "url": "https://x.com/rubenhassid/status/2041471058314670358",
+      "screen_name": "rubenhassid",
+      "created_at": "Tue Apr 07 11:00:03 +0000 2026",
+      "full_text": "How to set up Claude Cowork completely in 1 hour:\n\n(duplicate my exact folder, files, and prompts)\n\n1. Download the Claude desktop app.\n2. Click the Cowork tab at the top.\n3. You need a Pro plan ($20/mo). Worth it.\n\n-----\n\n→ 0-10 min: Build your 'Claude Cowork' folder.\nCreate https://t.co/ZT17g2uIQG",
+      "lang": "en",
+      "favorite_count": 2517,
+      "retweet_count": 352,
+      "reply_count": 55,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/ZT17g2uIQG",
+          "expanded_url": "https://x.com/rubenhassid/status/2041471058314670358/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041447969929728000",
+          "indices": [
+            277,
+            300
+          ],
+          "media_key": "3_2041447969929728000",
+          "media_url_https": "https://pbs.twimg.com/media/HFSuHNMakAAlj98.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1814,
+                "w": 3240,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 3240,
+                "w": 3240,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 3694,
+                "w": 3240,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 4050,
+                "w": 2025,
+                "x": 1114,
+                "y": 0
+              },
+              {
+                "h": 4050,
+                "w": 3240,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 4050,
+            "width": 3240
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1638
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/ZT17g2uIQG"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041709994471727409",
+      "url": "https://x.com/DrewPavlou/status/2041709994471727409",
+      "screen_name": "DrewPavlou",
+      "created_at": "Wed Apr 08 02:49:30 +0000 2026",
+      "full_text": "Guys, for the first time in my adult life I am completely debt free.   \n\nOn Christmas Day 2025 I asked ChatGPT to evaluate my personal financial situation and it told me it was disastrous.   \n\nMy net worth was -$30,000 thanks mostly to the $25,000 blank sign fine I received from",
+      "lang": "en",
+      "favorite_count": 2447,
+      "retweet_count": 62,
+      "reply_count": 211,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    }
+  ]
+}
