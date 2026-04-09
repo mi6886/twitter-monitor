@@ -300,8 +300,20 @@ FINAL_VALUE_WEAK = [
     r'\b(cerrar|lanzar|anunciar|noticias)\b',
 ]
 
-# Meme/joke/reaction formats → route to review
-FINAL_LOW_VALUE_PATTERNS = [
+# Gossip/engagement bait → drop_hard
+FINAL_DROP_PATTERNS = [
+    # Entertainment/gossip framing
+    r'\b(drama|beef|tea|shade|ratio|cope|seethe|clown)\b',
+    # Brand/domain/account trivia
+    r'\b(domain|username|handle|rebrand)\b.*\b(bought|sold|taken|available)\b',
+    # Engagement bait
+    r'\b(comment|reply|retweet|rt)\s+(if|for|to get|".+")\b',
+    r'\bfollow me\b.*\bthread\b',
+    r'\bsteal (these|my|this)\b',
+]
+
+# Meme/reaction formats → review (not drop)
+FINAL_MEME_PATTERNS = [
     # Meme formats
     r'^\s*(pov\s*:|me when\s|me after\s|nobody\s*:|when (you|i|we|the)\s)',
     r'^\s*(hey|yo)\s+(claude|chatgpt|gpt|gemini|sora|copilot)\b',
@@ -309,18 +321,10 @@ FINAL_LOW_VALUE_PATTERNS = [
     r'^(wow|omg|lmao|lol|bruh|damn|holy|wtf|rip)\b',
     r'\b(is (dead|cooked|over|finished|insane|crazy|wild|goated))\b',
     r'\b(just (vibes|wow|insane))\b',
-    # Entertainment/gossip framing
-    r'\b(drama|beef|tea|shade|ratio|cope|seethe|clown)\b',
-    # Brand/domain/account trivia
-    r'\b(domain|username|handle|rebrand)\b.*\b(bought|sold|taken|available)\b',
-    # Commentary/recap framing (AI mentioned but not the point)
+    # Commentary/recap framing
     r'\bdo you (understand|realize|know) what happened\b',
     r'\blet that sink in\b',
     r'\bthink about (that|this|it)\b',
-    # Engagement bait
-    r'\b(comment|reply|retweet|rt)\s+(if|for|to get|".+")\b',
-    r'\bfollow me\b.*\bthread\b',
-    r'\bsteal (these|my|this)\b',
 ]
 
 # Off-topic content that happens to mention AI — route to review
@@ -377,12 +381,12 @@ def final_filter(tweet):
     text = (tweet.get("full_text", "") + " " + tweet.get("quoted_tweet_text", "")).lower()
     clean = re.sub(r'https?://\S+', '', text).strip()
     screen_name = (tweet.get("screen_name") or "").lower()
-    has_ai_name = bool(AI_PRODUCT_RE.search(clean))
-    is_high_signal = screen_name in HIGH_SIGNAL_ACCOUNTS
+    likes = tweet.get("favorite_count", 0)
+    is_monitored = screen_name in MONITORED_ACCOUNTS_LOWER
 
-    # --- DROP_HARD layer (check first) ---
+    # --- DROP_HARD layer ---
 
-    # Rule 1: Too brief to extract any value
+    # Rule 1: Too brief
     if len(clean) < 20:
         return "drop_hard", "too_brief"
 
@@ -391,40 +395,29 @@ def final_filter(tweet):
         if re.search(pat, text, re.IGNORECASE):
             return "drop_hard", "offensive"
 
-    # Rule 3: No AI product name → candidate leak, not really about AI
-    if not has_ai_name:
-        return "drop_hard", "not_ai_content"
-
-    # --- REVIEW layer for low-value content (before keep check) ---
-
-    # Rule 4: Off-topic content that incidentally mentions AI → review
+    # Rule 3: Off-topic (sports/gaming/music/crypto/Linux) → drop_hard
     for pat in OFF_TOPIC_PATTERNS:
         if re.search(pat, clean, re.IGNORECASE):
-            return "review", "off_topic"
+            return "drop_hard", "off_topic"
 
-    # Rule 5: Meme/reaction/gossip/engagement bait → review
-    for pat in FINAL_LOW_VALUE_PATTERNS:
+    # Rule 4: Gossip/engagement bait → drop_hard
+    for pat in FINAL_DROP_PATTERNS:
         if re.search(pat, clean, re.IGNORECASE):
-            return "review", "low_value_pattern"
+            return "drop_hard", "gossip_or_bait"
 
-    # Rule 6: Short with AI name but no real depth → review
-    if len(clean) < 50:
-        return "review", "brief_ai_mention"
+    # --- KEEP layer ---
 
-    # --- KEEP layer (requires AI name + info value signal) ---
+    # Rule 5: Monitored account + 2000+ likes → keep directly
+    if is_monitored and likes >= 2000:
+        return "keep", "monitored_popular"
 
-    # Rule 7: High-signal source + AI name + enough text → keep
-    if is_high_signal and len(clean) >= 60:
-        return "keep", "high_signal_source"
-
-    is_trusted = is_high_signal or screen_name in MONITORED_ACCOUNTS_LOWER
-
-    # Rule 8: Strong info signal → keep from any source
+    # Rule 6: Strong info signal → keep from any source
     for pat in FINAL_VALUE_STRONG:
         if re.search(pat, text, re.IGNORECASE):
             return "keep", "info_value"
 
-    # Rule 9: Weak info signal → keep only from trusted sources
+    # Rule 7: Weak info signal → keep from monitored/high-signal sources
+    is_trusted = is_monitored or screen_name in HIGH_SIGNAL_ACCOUNTS
     for pat in FINAL_VALUE_WEAK:
         if re.search(pat, text, re.IGNORECASE):
             if is_trusted:
@@ -432,12 +425,19 @@ def final_filter(tweet):
             else:
                 return "review", "weak_signal_untrusted"
 
-    # Rule 10: Monitored accounts with substantial text + AI name → keep
-    if screen_name in MONITORED_ACCOUNTS_LOWER and len(clean) >= 80:
-        return "keep", "monitored_lenient"
+    # --- REVIEW layer ---
 
-    # --- Fallback: has AI name, long enough, but no info signal → review ---
-    return "review", "low_info_ai_content"
+    # Rule 8: Meme/reaction → review
+    for pat in FINAL_MEME_PATTERNS:
+        if re.search(pat, clean, re.IGNORECASE):
+            return "review", "meme_or_reaction"
+
+    # Rule 9: Short text, no depth → review
+    if len(clean) < 50:
+        return "review", "brief_mention"
+
+    # Fallback: passed all filters but no strong signal → review
+    return "review", "low_info_content"
 
 
 def build_account_search(accounts):
