@@ -368,6 +368,34 @@ AI_PRODUCT_RE = re.compile(
     r'copilot|midjourney|perplexity|grok|hugging\s?face|notebooklm|deepmind|'
     r'codex|windsurf|replit|llama|mistral|groq|kimi\s*(ai|moonshot))\b', re.IGNORECASE)
 
+# Broad AI/tech relevance check — used ONLY for Rule 5 (monitored_popular)
+# Purpose: block monitored accounts' non-AI content (e.g. "lemons vs limes")
+# Intentionally wide — just needs to confirm the tweet is about AI/tech
+AI_TECH_RELEVANCE_RE = re.compile(
+    r'\b('
+    # User-specified keywords
+    r'claude|claude\s*code|jensen\s*huang|nvidia|openai|chatgpt|google\s*ai|gemini|'
+    r'google\s*ai\s*studio|antigravity|elon\s*musk|cursor|notebooklm|openclaw|'
+    r'skill|cli|ide|hugging\s*face|perplexity|nano\s*banana|vibe\s*coding|vibecoding|'
+    r'ai\s*agent|obsidian|peter\s*steinberger|humanoid\s*robot|embodied\s*ai|dan\s*koe|'
+    # Broad AI/ML terms
+    r'artificial\s*intelligence|\bai\b|llm|large\s*language\s*model|machine\s*learning|'
+    r'deep\s*learning|neural\s*net|training\s*data|inference|fine.?tun|'
+    r'prompt|token|embedding|transformer|diffusion|'
+    # AI products & companies
+    r'anthropic|sora|gpt|copilot|midjourney|grok|deepmind|codex|windsurf|replit|'
+    r'mistral|groq|kimi|moonshot|cohere|stability\s*ai|'
+    # Tech/dev terms
+    r'api|sdk|framework|benchmark|open.?source|deploy|saas|'
+    r'developer|engineer|software|coding|coder|automation|robot|'
+    r'startup|tech|algorithm|chatbot|'
+    # Specific topics
+    r'agi|singularity|alignment|autonomous|self.?driving|computer\s*vision|'
+    r'natural\s*language|speech.?to.?text|text.?to.?speech|generative|'
+    r'model\s*collapse|hallucination|rlhf|rag\b|vector\s*database|'
+    r'mcp|cowork|agent|n8n'
+    r')\b', re.IGNORECASE)
+
 # Offensive content patterns
 OFFENSIVE_PATTERNS = [
     r'\bn[- ]?word\b', r'\bnigga\b', r'\bfaggot\b', r'\bretard\b',
@@ -407,9 +435,12 @@ def final_filter(tweet):
 
     # --- KEEP layer ---
 
-    # Rule 5: Monitored account + 2000+ likes → keep directly
+    # Rule 5: Monitored account + 2000+ likes + AI/tech relevant → keep
     if is_monitored and likes >= 2000:
-        return "keep", "monitored_popular"
+        if AI_TECH_RELEVANCE_RE.search(clean):
+            return "keep", "monitored_popular"
+        else:
+            return "review", "monitored_not_ai"
 
     # Rule 6: Strong info signal → keep from any source
     for pat in FINAL_VALUE_STRONG:
