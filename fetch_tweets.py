@@ -21,7 +21,7 @@ APIFY_TOKEN = os.environ["APIFY_TOKEN"]
 APIFY_BASE = "https://api.apify.com/v2"
 ACTOR_ID = "xtdata~twitter-x-scraper"
 MIN_FAVES = 2000
-MAX_ITEMS_PER_SEARCH = 100
+MAX_ITEMS_PER_SEARCH = 200
 POLL_INTERVAL = 15  # seconds
 POLL_TIMEOUT = 300  # 5 minutes per actor
 
@@ -31,7 +31,7 @@ KEYWORD_SEARCHES = [
     '(OpenAI OR chatgpt OR sama) min_faves:2000',
     '(Gemini OR "Google AI Studio" OR Notebooklm) min_faves:2000',
     '("Jensen Huang" OR NVIDIA) min_faves:2000',
-    '(Cursor OR Huggingface OR Perplexity OR Antigravity) min_faves:2000',
+    '(Cursor OR Huggingface OR Perplexity OR Antigravity OR Mistral) min_faves:2000',
     '(vibecoding OR AIAgent OR "humanoid robot" OR "Humanoid Robots" OR "Embodied AI") min_faves:2000',
     '("DAN KOE" OR "Peter Steinberger" OR OpenClaw OR "Nano banana") min_faves:2000',
 ]
@@ -126,7 +126,7 @@ def get_dataset_items(dataset_id):
     url = (
         f"{APIFY_BASE}/datasets/{dataset_id}/items"
         f"?token={APIFY_TOKEN}"
-        f"&limit=100"
+        f"&limit=200"
     )
     req = Request(url)
     with urlopen(req, timeout=60) as resp:
