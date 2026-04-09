@@ -1,0 +1,992 @@
+{
+  "date": "2026-04-09",
+  "period": "evening",
+  "fetched_at": "2026-04-09T11:54:12.258298+00:00",
+  "raw_count": 120,
+  "candidate_count": 68,
+  "final_count": 15,
+  "review_count": 44,
+  "drop_hard_count": 9,
+  "disposition_stats": {
+    "low_info_ai_content": 29,
+    "brief_ai_mention": 9,
+    "low_value_pattern": 2,
+    "info_value": 11,
+    "not_ai_content": 9,
+    "high_signal_source": 2,
+    "weak_signal_untrusted": 3,
+    "info_value_trusted": 1,
+    "monitored_lenient": 1,
+    "off_topic": 1
+  },
+  "tweets": [
+    {
+      "tweet_id": "2041902198305783888",
+      "url": "https://x.com/chddaniel/status/2041902198305783888",
+      "screen_name": "chddaniel",
+      "created_at": "Wed Apr 08 15:33:15 +0000 2026",
+      "full_text": "so you're telling me Claude Code Opus 4.6 can now...\n\n- scan an entire website\n- build it as a mobile app\n- prepare for App Store submission\n- self-maintain the app\n\nwithout any human in the loop?!?\n\nit's so over... https://t.co/Hz4WyT6gYM",
+      "lang": "en",
+      "favorite_count": 4620,
+      "retweet_count": 296,
+      "reply_count": 77,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/Hz4WyT6gYM",
+          "expanded_url": "https://x.com/chddaniel/status/2041902198305783888/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041902146707451910",
+          "indices": [
+            216,
+            239
+          ],
+          "media_key": "13_2041902146707451910",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041902146707451910/img/9uqYptwoJb2SJJIq.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1548
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1548
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/Hz4WyT6gYM",
+          "video_info": {
+            "aspect_ratio": [
+              43,
+              30
+            ],
+            "duration_millis": 20433,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041902146707451910/pl/-Z8fbBVObNvizSsf.m3u8?tag=14&v=252"
+              },
+              {
+                "bitrate": 288000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041902146707451910/vid/avc1/386x270/VxBdhld7sUnZmLOP.mp4?tag=14"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041902146707451910/vid/avc1/516x360/Q5CD_Q911RFGraDh.mp4?tag=14"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041902146707451910/vid/avc1/1032x720/2B8-eva5agGOTEId.mp4?tag=14"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041963869695045944",
+      "url": "https://x.com/itsolelehmann/status/2041963869695045944",
+      "screen_name": "itsolelehmann",
+      "created_at": "Wed Apr 08 19:38:19 +0000 2026",
+      "full_text": "Claude Mythos is like Hiroshima for software.\n\neverything you own online, your bank, your email, your photos, your identity, is now dangerously exposed in ways that didn't exist 48 hours ago\n\nthat's why Karpathy's digital hygiene guide is probably the most important thing you can https://t.co/8kmcPUubpn",
+      "lang": "en",
+      "favorite_count": 3609,
+      "retweet_count": 438,
+      "reply_count": 88,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/8kmcPUubpn",
+          "expanded_url": "https://x.com/itsolelehmann/status/2041963869695045944/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 140,
+                  "w": 140,
+                  "x": 418,
+                  "y": 66
+                },
+                {
+                  "h": 152,
+                  "w": 152,
+                  "x": 17,
+                  "y": 66
+                }
+              ]
+            }
+          },
+          "id_str": "2041963867006496770",
+          "indices": [
+            281,
+            304
+          ],
+          "media_key": "3_2041963867006496770",
+          "media_url_https": "https://pbs.twimg.com/media/HFaDUXka8AIRsuK.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 672,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 690,
+                "w": 690,
+                "x": 105,
+                "y": 0
+              },
+              {
+                "h": 690,
+                "w": 605,
+                "x": 148,
+                "y": 0
+              },
+              {
+                "h": 690,
+                "w": 345,
+                "x": 278,
+                "y": 0
+              },
+              {
+                "h": 690,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 690,
+            "width": 1200
+          },
+          "sizes": {
+            "large": {
+              "h": 690,
+              "w": 1200
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/8kmcPUubpn"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041982449387810962",
+      "url": "https://x.com/NotebookLM/status/2041982449387810962",
+      "screen_name": "NotebookLM",
+      "created_at": "Wed Apr 08 20:52:08 +0000 2026",
+      "full_text": "Last year, we integrated into the @GeminiApp by allowing you to upload your notebooks as sources. Now, we’re taking our relationship to the next level 🏠 ♥️\n\nStarting today, you can now:\n\n— Access all of your personal, unshared notebooks directly inside the Gemini App\n— Use your https://t.co/uidvuUj7uA",
+      "lang": "en",
+      "favorite_count": 3244,
+      "retweet_count": 428,
+      "reply_count": 123,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/uidvuUj7uA",
+          "expanded_url": "https://x.com/NotebookLM/status/2041982449387810962/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041982412570218496",
+          "indices": [
+            279,
+            302
+          ],
+          "media_key": "13_2041982412570218496",
+          "media_url_https": "https://pbs.twimg.com/media/HFaUNyWXAAAcnTw.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/uidvuUj7uA",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 30947,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041982412570218496/pl/2vR2Td3rXMXL1hLn.m3u8?tag=14&v=cfc"
+              },
+              {
+                "bitrate": 288000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041982412570218496/vid/avc1/480x270/kB98yjthsmHhRZBf.mp4?tag=14"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041982412570218496/vid/avc1/640x360/IXT0LfQvpWRSbmQE.mp4?tag=14"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041982412570218496/vid/avc1/1280x720/riB3luJRmOOzqbqQ.mp4?tag=14"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "high_signal_source"
+    },
+    {
+      "tweet_id": "2041940149328834748",
+      "url": "https://x.com/aakashgupta/status/2041940149328834748",
+      "screen_name": "aakashgupta",
+      "created_at": "Wed Apr 08 18:04:03 +0000 2026",
+      "full_text": "Anthropic just mass-obsoleted every agent orchestration startup in a single launch.\n\nThe screenshot tells the full story. That's a production fleet dashboard. 8 agents running. 247 completed tasks. Active status. MCP-connected to HubSpot, pulling deals, generating proposals,",
+      "lang": "en",
+      "favorite_count": 3003,
+      "retweet_count": 249,
+      "reply_count": 155,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "info_value_trusted"
+    },
+    {
+      "tweet_id": "2042005043289977232",
+      "url": "https://x.com/trq212/status/2042005043289977232",
+      "screen_name": "trq212",
+      "created_at": "Wed Apr 08 22:21:55 +0000 2026",
+      "full_text": "I want to do some streams where I work with non-technical people using Claude Code to figure out how they might be able to improve their process. \n\nMy feeling is that just a few tips could make a big difference in efficiency. Any mutuals interested?",
+      "lang": "en",
+      "favorite_count": 2898,
+      "retweet_count": 68,
+      "reply_count": 600,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_lenient"
+    },
+    {
+      "tweet_id": "2041983079787721013",
+      "url": "https://x.com/GeminiApp/status/2041983079787721013",
+      "screen_name": "GeminiApp",
+      "created_at": "Wed Apr 08 20:54:39 +0000 2026",
+      "full_text": "Project organization is here: Introducing notebooks in Gemini.\n\nYou can now keep multiple projects organized and even add past chats and relevant files as sources, so you have a dedicated space to focus on the task at hand.\n\nSelect “New notebook” in the side panel to get started.",
+      "lang": "en",
+      "favorite_count": 2703,
+      "retweet_count": 416,
+      "reply_count": 157,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "high_signal_source"
+    },
+    {
+      "tweet_id": "2041881992346964318",
+      "url": "https://x.com/JohnnotJon/status/2041881992346964318",
+      "screen_name": "JohnnotJon",
+      "created_at": "Wed Apr 08 14:12:57 +0000 2026",
+      "full_text": "If you still have doubts about Claude Mythos, here's what it did already:\n\n&gt; Found a 27-year-old OpenBSD bug in one of the most security-hardened operating systems on earth for &lt;$50\n\n&gt; Broke into a production virtual machine monitor (basically the tech that keeps cloud workloads https://t.co/IElTf4ameS",
+      "lang": "en",
+      "favorite_count": 2567,
+      "retweet_count": 340,
+      "reply_count": 146,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/IElTf4ameS",
+          "expanded_url": "https://x.com/JohnnotJon/status/2041881992346964318/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041881989834477568",
+          "indices": [
+            289,
+            312
+          ],
+          "media_key": "3_2041881989834477568",
+          "media_url_https": "https://pbs.twimg.com/media/HFY42fVaEAAmr0I.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 756,
+                "w": 1350,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 756,
+                "w": 756,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 756,
+                "w": 663,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 756,
+                "w": 378,
+                "x": 2,
+                "y": 0
+              },
+              {
+                "h": 756,
+                "w": 1534,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 756,
+            "width": 1534
+          },
+          "sizes": {
+            "large": {
+              "h": 756,
+              "w": 1534
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/IElTf4ameS"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042001376637542651",
+      "url": "https://x.com/XFreeze/status/2042001376637542651",
+      "screen_name": "XFreeze",
+      "created_at": "Wed Apr 08 22:07:21 +0000 2026",
+      "full_text": "Grok 4.20 Non-Hallucination rate improved to even higher than previous highest\n\nJust days ago, it hit a record-breaking 78% Non-Hallucination Rate - already #1 in the world, smoking Claude Opus 4.6 (max), Gemini 3.1, GPT-5.4 (xhigh), and every other major model\n\nNow, it just https://t.co/duN5JhMmAg",
+      "lang": "en",
+      "favorite_count": 2494,
+      "retweet_count": 464,
+      "reply_count": 311,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/duN5JhMmAg",
+          "expanded_url": "https://x.com/XFreeze/status/2042001376637542651/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 184,
+                  "w": 184,
+                  "x": 1150,
+                  "y": 850
+                }
+              ]
+            }
+          },
+          "id_str": "2041997462991228928",
+          "indices": [
+            276,
+            299
+          ],
+          "media_key": "3_2041997462991228928",
+          "media_url_https": "https://pbs.twimg.com/media/HFah36XXUAAuvA9.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 2294,
+                "w": 4096,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 3072,
+                "w": 3072,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 3072,
+                "w": 2695,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 3072,
+                "w": 1536,
+                "x": 563,
+                "y": 0
+              },
+              {
+                "h": 3072,
+                "w": 4096,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 3072,
+            "width": 4096
+          },
+          "sizes": {
+            "large": {
+              "h": 1536,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/duN5JhMmAg"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041885175898866170",
+      "url": "https://x.com/sharbel/status/2041885175898866170",
+      "screen_name": "sharbel",
+      "created_at": "Wed Apr 08 14:25:36 +0000 2026",
+      "full_text": "&gt; you pay $20 a month for Claude\n&gt; you type questions and read answers\n&gt; you've used maybe 10% of it\n&gt; the other 90% doesn't look like a chatbot\n&gt; it looks like a sparring partner, an interviewer, a red team\n&gt; Claude will argue against your own decisions\n&gt; build the strongest https://t.co/1KrXk7tLN9",
+      "lang": "en",
+      "favorite_count": 2318,
+      "retweet_count": 134,
+      "reply_count": 43,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/1KrXk7tLN9",
+          "expanded_url": "https://x.com/sharbel/status/2041885175898866170/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041885113630298112",
+          "indices": [
+            298,
+            321
+          ],
+          "media_key": "13_2041885113630298112",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041885113630298112/img/NqHO-k7XBEo7MMM-.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1950
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1950
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/1KrXk7tLN9",
+          "video_info": {
+            "aspect_ratio": [
+              65,
+              36
+            ],
+            "duration_millis": 10166,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041885113630298112/pl/tiNjjohlVmbp1Lnw.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041885113630298112/vid/avc1/486x270/pmlvhETfEPzM9_4c.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041885113630298112/vid/avc1/650x360/_vVY6I6vTBO_i56d.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041885113630298112/vid/avc1/1300x720/KH6JfZhWAd817oTG.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041885113630298112/vid/avc1/1950x1080/lm5gbXswZl4THLOj.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041951865802281299",
+      "url": "https://x.com/trikcode/status/2041951865802281299",
+      "screen_name": "trikcode",
+      "created_at": "Wed Apr 08 18:50:37 +0000 2026",
+      "full_text": "So Anthropic built a model that found a 27-year-old bug in OpenBSD.\n\nTwenty. Seven. Years.\n\nMillions of developers looked at that code.\nMillions of test runs.\nThousands of security audits.\nClaude found it overnight. For $50.\n\nAnd Anthropic said \"this is too dangerous to release.\"",
+      "lang": "en",
+      "favorite_count": 2233,
+      "retweet_count": 75,
+      "reply_count": 142,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042090675835990334",
+      "url": "https://x.com/om_patel5/status/2042090675835990334",
+      "screen_name": "om_patel5",
+      "created_at": "Thu Apr 09 04:02:11 +0000 2026",
+      "full_text": "THIS GUY GAVE CLAUDE HIS DEAD GAME'S 30-YEAR-OLD FILES AND ASKED IT TO BRING IT BACK TO LIFE\n\nhe built a multiplayer game in 1992 when he was 19. it ran on CompuServe, won an award from Computer Gaming World, and shut down in 1999.\n\nthe source code didn't survive. all he had left https://t.co/8fChZLArRC",
+      "lang": "en",
+      "favorite_count": 2138,
+      "retweet_count": 123,
+      "reply_count": 34,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/8fChZLArRC",
+          "expanded_url": "https://x.com/om_patel5/status/2042090675835990334/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2042090014520094720",
+          "indices": [
+            281,
+            304
+          ],
+          "media_key": "3_2042090014520094720",
+          "media_url_https": "https://pbs.twimg.com/media/HFb2DHrXsAA-K2c.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 797,
+                "w": 1424,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1158,
+                "w": 1158,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1158,
+                "w": 1016,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1158,
+                "w": 579,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1158,
+                "w": 1424,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1158,
+            "width": 1424
+          },
+          "sizes": {
+            "large": {
+              "h": 1158,
+              "w": 1424
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/8fChZLArRC"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041969136012816755",
+      "url": "https://x.com/theaiportfolios/status/2041969136012816755",
+      "screen_name": "theaiportfolios",
+      "created_at": "Wed Apr 08 19:59:14 +0000 2026",
+      "full_text": "Breaking: Claude called $350 on Broadcom two weeks ago. It hit today. \n\nOn March 31, Claude made AVGO its largest position at 10%. \n\nThe thesis: Broadcom controls 60-80% of the custom AI chip market, AI semiconductor revenue was up 106% YoY to $8.4B, and a $73B backlog across https://t.co/aI1QxMDelm",
+      "lang": "en",
+      "favorite_count": 2093,
+      "retweet_count": 79,
+      "reply_count": 66,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/aI1QxMDelm",
+          "expanded_url": "https://x.com/theaiportfolios/status/2041969136012816755/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041968590815961089",
+          "indices": [
+            277,
+            300
+          ],
+          "media_key": "3_2041968590815961089",
+          "media_url_https": "https://pbs.twimg.com/media/HFaHnVIXIAESFFF.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 512,
+                "w": 914,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 602,
+                "w": 602,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 602,
+                "w": 528,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 602,
+                "w": 301,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 602,
+                "w": 914,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 602,
+            "width": 914
+          },
+          "sizes": {
+            "large": {
+              "h": 602,
+              "w": 914
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/aI1QxMDelm"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041910915763749257",
+      "url": "https://x.com/KobeissiLetter/status/2041910915763749257",
+      "screen_name": "KobeissiLetter",
+      "created_at": "Wed Apr 08 16:07:53 +0000 2026",
+      "full_text": "BREAKING: Perplexity's revenue has reportedly surged +50% in one month after shifting into AI agents, per FT.\n\nAs a result, Perplexity's revenue has doubled in one quarter to more than $450 million in ARR.\n\nThis follows Anthropic's push into the space which said its ARR hit $19 https://t.co/nvT4nexVeH",
+      "lang": "en",
+      "favorite_count": 2076,
+      "retweet_count": 210,
+      "reply_count": 153,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/nvT4nexVeH",
+          "expanded_url": "https://x.com/KobeissiLetter/status/2041910915763749257/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041910912249163776",
+          "indices": [
+            279,
+            302
+          ],
+          "media_key": "3_2041910912249163776",
+          "media_url_https": "https://pbs.twimg.com/media/HFZTJ_ua8AAjLvM.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 391,
+                "w": 698,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 477,
+                "w": 477,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 477,
+                "w": 418,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 477,
+                "w": 239,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 477,
+                "w": 698,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 477,
+            "width": 698
+          },
+          "sizes": {
+            "large": {
+              "h": 477,
+              "w": 698
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/nvT4nexVeH"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041856590341677378",
+      "url": "https://x.com/akshay_pachaar/status/2041856590341677378",
+      "screen_name": "akshay_pachaar",
+      "created_at": "Wed Apr 08 12:32:01 +0000 2026",
+      "full_text": "Another blow to Anthropic!\n\nDevs built a free and better Claude Cowork alternative:\n\n- 100% local\n- voice-enabled\n- works with any LLM\n- MCP tool extensibility\n- obsidian-compatible vault\n- background agents &amp; web search\n- automatic knowledge graph creation\n\n100% open-source. https://t.co/8KHJGzP71G",
+      "lang": "en",
+      "favorite_count": 2057,
+      "retweet_count": 268,
+      "reply_count": 51,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/8KHJGzP71G",
+          "expanded_url": "https://x.com/akshay_pachaar/status/2041856590341677378/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041856533278158854",
+          "indices": [
+            281,
+            304
+          ],
+          "media_key": "13_2041856533278158854",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041856533278158854/img/YTTsbZoCAp796nyK.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1148
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1148
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/8KHJGzP71G",
+          "video_info": {
+            "aspect_ratio": [
+              287,
+              270
+            ],
+            "duration_millis": 79040,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041856533278158854/pl/dOENJvfCHjFH2f4n.m3u8?tag=14&v=d94"
+              },
+              {
+                "bitrate": 288000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041856533278158854/vid/avc1/286x270/kp4dJnNzAOr6ImDE.mp4?tag=14"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041856533278158854/vid/avc1/382x360/7LWLZDJvvBogE8gU.mp4?tag=14"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041856533278158854/vid/avc1/764x720/YUXBnc-m06Q5mDXj.mp4?tag=14"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2041972675418189933",
+      "url": "https://x.com/milesdeutscher/status/2041972675418189933",
+      "screen_name": "milesdeutscher",
+      "created_at": "Wed Apr 08 20:13:18 +0000 2026",
+      "full_text": "Claude Code + Obsidian is the most powerful AI combo I've ever used.\n\nI literally built an AI second brain that runs my entire life.\n\nInspired by Andrej Karpathy's LLM Knowledge Wiki, this tool has been a complete game-changer.\n\nHere's EXACTLY how to build one for yourself: https://t.co/3Y3NeCyWlE",
+      "lang": "en",
+      "favorite_count": 2026,
+      "retweet_count": 212,
+      "reply_count": 81,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/3Y3NeCyWlE",
+          "expanded_url": "https://x.com/milesdeutscher/status/2041972675418189933/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041972623677251584",
+          "indices": [
+            275,
+            298
+          ],
+          "media_key": "13_2041972623677251584",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041972623677251584/img/giUYXkXXRxLQe7Vi.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/3Y3NeCyWlE",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 24853,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041972623677251584/pl/4jOBpplIYTTp3MnE.m3u8?tag=14&v=e20"
+              },
+              {
+                "bitrate": 288000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041972623677251584/vid/avc1/480x270/eZSbQTmCy0rBPE9_.mp4?tag=14"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041972623677251584/vid/avc1/640x360/CsFAef3rWMozHosM.mp4?tag=14"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041972623677251584/vid/avc1/1280x720/oJC7gxRbFSo-BS7w.mp4?tag=14"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    }
+  ]
+}
