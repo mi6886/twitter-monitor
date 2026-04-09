@@ -31,7 +31,7 @@ KEYWORD_SEARCHES = [
     '(OpenAI OR chatgpt OR sama) min_faves:2000',
     '(Gemini OR "Google AI Studio" OR Notebooklm) min_faves:2000',
     '("Jensen Huang" OR NVIDIA) min_faves:2000',
-    '(Cursor OR Huggingface OR Perplexity OR Antigravity OR Mistral) min_faves:2000',
+    '(Cursor OR Huggingface OR Perplexity OR Antigravity) min_faves:2000',
     '(vibecoding OR AIAgent OR "humanoid robot" OR "Humanoid Robots" OR "Embodied AI") min_faves:2000',
     '("DAN KOE" OR "Peter Steinberger" OR OpenClaw OR "Nano banana") min_faves:2000',
 ]
