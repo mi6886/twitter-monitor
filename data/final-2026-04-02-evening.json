@@ -1,18 +1,17 @@
 {
   "date": "2026-04-02",
   "period": "evening",
-  "fetched_at": "2026-04-02T11:43:44.626559+00:00",
+  "fetched_at": "2026-04-02T11:43:44.586696+00:00",
   "raw_count": 98,
   "candidate_count": 47,
-  "final_count": 13,
-  "review_count": 28,
-  "drop_hard_count": 6,
+  "final_count": 18,
+  "review_count": 29,
+  "drop_hard_count": 0,
   "disposition_stats": {
-    "low_info_ai_content": 27,
+    "low_info_content": 28,
     "info_value": 12,
-    "not_ai_content": 6,
-    "brief_ai_mention": 1,
-    "high_signal_source": 1
+    "monitored_popular": 6,
+    "brief_mention": 1
   },
   "tweets": [
     {
@@ -94,10 +93,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2039617101221224858",
+      "url": "https://x.com/naval/status/2039617101221224858",
+      "screen_name": "naval",
+      "created_at": "Thu Apr 02 08:13:05 +0000 2026",
+      "full_text": "Vibe coding is more addictive than any video game ever made (if you know what you want to build).",
+      "lang": "en",
+      "favorite_count": 7869,
+      "retweet_count": 761,
+      "reply_count": 721,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2039640659100147876",
@@ -175,10 +185,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2039334642340200816",
@@ -259,10 +266,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2039416353673593235",
@@ -276,10 +280,7 @@
       "reply_count": 273,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2039463114002039085",
@@ -293,10 +294,7 @@
       "reply_count": 166,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2039355988092833872",
@@ -310,10 +308,7 @@
       "reply_count": 11,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2039551079621566812",
@@ -327,10 +322,7 @@
       "reply_count": 322,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
     },
     {
       "tweet_id": "2039339422026514768",
@@ -411,10 +403,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2039345818906534387",
@@ -505,10 +494,7 @@
           "type": "photo",
           "url": "https://t.co/fjvgQodavc"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2039311247611412981",
@@ -587,10 +573,7 @@
           "type": "photo",
           "url": "https://t.co/5doYfpjM4W"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2039478715302994361",
@@ -671,10 +654,7 @@
           "type": "photo",
           "url": "https://t.co/swkrcKg1O6"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2039348588741087341",
@@ -759,10 +739,172 @@
           "type": "photo",
           "url": "https://t.co/1EtHNOtEF3"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2039274093657325783",
+      "url": "https://x.com/GithubProjects/status/2039274093657325783",
+      "screen_name": "GithubProjects",
+      "created_at": "Wed Apr 01 09:30:06 +0000 2026",
+      "full_text": "Google Stitch introduced a new concept: DESIGN . md\n\nLike README . md but for design systems. A plain markdown file that LLMs read to generate consistent UI.\n\nAn awesome collection of DESIGN . md files inspired by developer-focused websites like Stripe, Vercel, Linear, Notion, https://t.co/3C438sUxbt",
+      "lang": "en",
+      "favorite_count": 2523,
+      "retweet_count": 278,
+      "reply_count": 37,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/3C438sUxbt",
+          "expanded_url": "https://x.com/GithubProjects/status/2039274093657325783/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2039274090813636608",
+          "indices": [
+            278,
+            301
+          ],
+          "media_key": "3_2039274090813636608",
+          "media_url_https": "https://pbs.twimg.com/media/HEz0-yaawAAlasb.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 672,
+                "w": 1200,
+                "x": 0,
+                "y": 473
+              },
+              {
+                "h": 1165,
+                "w": 1165,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1165,
+                "w": 1022,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1165,
+                "w": 583,
+                "x": 218,
+                "y": 0
+              },
+              {
+                "h": 1165,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1165,
+            "width": 1200
+          },
+          "sizes": {
+            "large": {
+              "h": 1165,
+              "w": 1200
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/3C438sUxbt"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2039590158882984166",
+      "url": "https://x.com/aakashgupta/status/2039590158882984166",
+      "screen_name": "aakashgupta",
+      "created_at": "Thu Apr 02 06:26:02 +0000 2026",
+      "full_text": "IShowSpeed just accidentally described Soviet Special Forces strength programming from 1999 and called it a \"cheat code.\"\n\nThe method has a name. Greasing the Groove. Pavel Tsatsouline, a former Soviet Spetsnaz instructor, published it in his book Power to the People. The core",
+      "lang": "en",
+      "favorite_count": 2281,
+      "retweet_count": 211,
+      "reply_count": 14,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2039468626701352976",
+      "url": "https://x.com/Google/status/2039468626701352976",
+      "screen_name": "Google",
+      "created_at": "Wed Apr 01 22:23:06 +0000 2026",
+      "full_text": "Today’s #GoogleDoodle celebrates the launch of Artemis II, the @NASA mission that will send astronauts around the moon and back for the first time in over 50 years. During the approximately 10-day voyage, the crew will test the spacecraft’s systems while traveling farther into https://t.co/i8fKlOsI8P",
+      "lang": "en",
+      "favorite_count": 2190,
+      "retweet_count": 387,
+      "reply_count": 62,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/i8fKlOsI8P",
+          "expanded_url": "https://x.com/Google/status/2039468626701352976/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2039468553892421632",
+          "indices": [
+            278,
+            301
+          ],
+          "media_key": "13_2039468553892421632",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2039468553892421632/img/dx1AGdqDvWdXLwTZ.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1920,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 1920,
+              "w": 1080
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/i8fKlOsI8P",
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              16
+            ],
+            "duration_millis": 12345,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2039468553892421632/pl/BmSpmSN_NOW4j-Mz.m3u8?tag=14&v=cfc"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039468553892421632/vid/avc1/320x568/9h2XWObsQyloufM4.mp4?tag=14"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039468553892421632/vid/avc1/480x852/_VCCS0WdGtNNSi2L.mp4?tag=14"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039468553892421632/vid/avc1/720x1280/D735XHic84JUwxjo.mp4?tag=14"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2039267681635827947",
@@ -776,10 +918,80 @@
       "reply_count": 69,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
+    },
+    {
+      "tweet_id": "2039377223179022578",
+      "url": "https://x.com/deedydas/status/2039377223179022578",
+      "screen_name": "deedydas",
+      "created_at": "Wed Apr 01 16:19:54 +0000 2026",
+      "full_text": "Blows my mind that we currently possess the technology for Google Maps to turn all the street view images of the entire world into a video game you can play!\n\nIn the future, we'll be able to say \"yeah let's check out New York City 100 years ago!\" https://t.co/A3aiMRsLlm",
+      "lang": "en",
+      "favorite_count": 2037,
+      "retweet_count": 109,
+      "reply_count": 58,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/A3aiMRsLlm",
+          "expanded_url": "https://x.com/deedydas/status/2039377223179022578/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2039377169378639872",
+          "indices": [
+            247,
+            270
+          ],
+          "media_key": "13_2039377169378639872",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2039377169378639872/img/khNSxvXzZ3qDiuDj.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/A3aiMRsLlm",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 43135,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2039377169378639872/pl/q7v6WzPXgYfw1Bat.m3u8?tag=14"
+              },
+              {
+                "bitrate": 288000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039377169378639872/vid/avc1/480x270/q7U6EJ7AzoOr7EeG.mp4?tag=14"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039377169378639872/vid/avc1/640x360/8pdcuqjR3A-hOd4Q.mp4?tag=14"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039377169378639872/vid/avc1/1280x720/aC9gQWF4jaVt88dJ.mp4?tag=14"
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }

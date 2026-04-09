@@ -1,8 +1,20 @@
 {
   "date": "2026-04-07",
   "period": "morning",
-  "fetched_at": "2026-04-06T23:27:03.597653+00:00",
+  "fetched_at": "2026-04-06T23:27:03.566424+00:00",
+  "raw_count": 76,
+  "candidate_count": 44,
+  "final_count": 14,
   "review_count": 29,
+  "drop_hard_count": 1,
+  "disposition_stats": {
+    "low_info_content": 24,
+    "brief_mention": 4,
+    "info_value": 7,
+    "monitored_popular": 7,
+    "off_topic": 1,
+    "meme_or_reaction": 1
+  },
   "tweets": [
     {
       "tweet_id": "2041161295169552465",
@@ -164,10 +176,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041124861997879412",
@@ -181,10 +190,7 @@
       "reply_count": 256,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      "media": []
     },
     {
       "tweet_id": "2041213917611856067",
@@ -325,10 +331,7 @@
           "type": "photo",
           "url": "https://t.co/XdYhNIhoQ4"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041157626155741272",
@@ -414,10 +417,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
+    },
+    {
+      "tweet_id": "2041194285828055463",
+      "url": "https://x.com/BasedTorba/status/2041194285828055463",
+      "screen_name": "BasedTorba",
+      "created_at": "Mon Apr 06 16:40:15 +0000 2026",
+      "full_text": "Sam Altman has “an almost a sociopathic lack of concern for the consequences of deceiving someone” \n\nWe get it, he’s Jewish.",
+      "lang": "en",
+      "favorite_count": 7795,
+      "retweet_count": 690,
+      "reply_count": 39,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2041165500890419291",
@@ -502,10 +516,7 @@
           "type": "photo",
           "url": "https://t.co/83U7cOBN1u"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041108140712771900",
@@ -519,10 +530,7 @@
       "reply_count": 27,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041104232648950170",
@@ -603,10 +611,7 @@
           "type": "photo",
           "url": "https://t.co/tVeq5WiSwQ"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2040889495801729194",
@@ -715,10 +720,7 @@
           "type": "photo",
           "url": "https://t.co/xff08A7rZZ"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2041127882429206532",
@@ -732,91 +734,7 @@
       "reply_count": 93,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2041035711063732460",
-      "url": "https://x.com/om_patel5/status/2041035711063732460",
-      "screen_name": "om_patel5",
-      "created_at": "Mon Apr 06 06:10:08 +0000 2026",
-      "full_text": "SOMEONE TURNED THE VIRAL \"TEACH CLAUDE TO TALK LIKE A CAVEMAN TO SAVE TOKENS\" STRATEGY INTO AN ACTUAL CLAUDE CODE SKILL\n\none-line install and it cuts ~75% of tokens while keeping full technical accuracy\n\nthey even benchmarked it with real token counts from the API:\n\n&gt; explain https://t.co/XgaCo7jYku",
-      "lang": "en",
-      "favorite_count": 4855,
-      "retweet_count": 267,
-      "reply_count": 131,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/XgaCo7jYku",
-          "expanded_url": "https://x.com/om_patel5/status/2041035711063732460/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2041035689371070464",
-          "indices": [
-            280,
-            303
-          ],
-          "media_key": "3_2041035689371070464",
-          "media_url_https": "https://pbs.twimg.com/media/HFM3JUbbcAAA8aB.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 990,
-                "w": 1768,
-                "x": 0,
-                "y": 806
-              },
-              {
-                "h": 1768,
-                "w": 1768,
-                "x": 0,
-                "y": 28
-              },
-              {
-                "h": 1796,
-                "w": 1575,
-                "x": 193,
-                "y": 0
-              },
-              {
-                "h": 1796,
-                "w": 898,
-                "x": 870,
-                "y": 0
-              },
-              {
-                "h": 1796,
-                "w": 1768,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 1796,
-            "width": 1768
-          },
-          "sizes": {
-            "large": {
-              "h": 1796,
-              "w": 1768
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/XgaCo7jYku"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      "media": []
     },
     {
       "tweet_id": "2041136040941936966",
@@ -989,10 +907,7 @@
           "type": "photo",
           "url": "https://t.co/bcGNH9BXOG"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041076085236883789",
@@ -1006,10 +921,7 @@
       "reply_count": 633,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041131636633268331",
@@ -1023,10 +935,7 @@
       "reply_count": 92,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041144014531879234",
@@ -1205,10 +1114,7 @@
           "type": "photo",
           "url": "https://t.co/o4Z4fdWQdQ"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041241984744980555",
@@ -1222,10 +1128,7 @@
       "reply_count": 18,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041090907630371072",
@@ -1306,10 +1209,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041016477047034012",
@@ -1390,10 +1290,7 @@
           "type": "photo",
           "url": "https://t.co/WL8v8C5AtN"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041224604878864514",
@@ -1407,10 +1304,7 @@
       "reply_count": 31,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041143552676110795",
@@ -1498,10 +1392,7 @@
           "type": "photo",
           "url": "https://t.co/uxqK9FMJLp"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041190739473043551",
@@ -1807,10 +1698,7 @@
           "type": "photo",
           "url": "https://t.co/cnGunOuJ2z"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2041190504944058849",
@@ -1972,10 +1860,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040994306304118946",
@@ -1989,10 +1874,7 @@
       "reply_count": 13,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040969281811444191",
@@ -2073,10 +1955,7 @@
           "type": "photo",
           "url": "https://t.co/Kok2q3ZHWb"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040927460162683332",
@@ -2161,10 +2040,7 @@
           "type": "photo",
           "url": "https://t.co/G9slDkIIyi"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041034168692593136",
@@ -2178,10 +2054,7 @@
       "reply_count": 8,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041097746535632953",
@@ -2269,10 +2142,7 @@
           "type": "photo",
           "url": "https://t.co/YV0KQD4X37"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040895674288570499",
@@ -2353,10 +2223,7 @@
           "type": "photo",
           "url": "https://t.co/PJbyN4UIVQ"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_value_pattern"
+      ]
     },
     {
       "tweet_id": "2041111862113444221",
@@ -2442,10 +2309,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040927305292476909",
@@ -2459,10 +2323,7 @@
       "reply_count": 17,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     }
   ]
 }

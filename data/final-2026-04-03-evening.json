@@ -1,22 +1,35 @@
 {
   "date": "2026-04-03",
   "period": "evening",
-  "fetched_at": "2026-04-03T11:36:15.009364+00:00",
+  "fetched_at": "2026-04-03T11:36:14.980512+00:00",
   "raw_count": 87,
   "candidate_count": 41,
-  "final_count": 9,
-  "review_count": 26,
-  "drop_hard_count": 6,
+  "final_count": 14,
+  "review_count": 27,
+  "drop_hard_count": 0,
   "disposition_stats": {
-    "not_ai_content": 6,
-    "high_signal_source": 1,
-    "low_info_ai_content": 20,
+    "monitored_popular": 6,
+    "low_info_content": 21,
     "info_value": 8,
-    "brief_ai_mention": 4,
+    "brief_mention": 4,
     "weak_signal_untrusted": 1,
-    "low_value_pattern": 1
+    "meme_or_reaction": 1
   },
   "tweets": [
+    {
+      "tweet_id": "2039908000975257754",
+      "url": "https://x.com/aakashgupta/status/2039908000975257754",
+      "screen_name": "aakashgupta",
+      "created_at": "Fri Apr 03 03:29:01 +0000 2026",
+      "full_text": "NASA pays $100M for Microsoft 365 licensing across the agency. They standardized every system on Microsoft. They put Microsoft Surfaces on the Orion spacecraft as the crew's personal computing devices.\n\nAnd the first technical crisis of humanity's return to the Moon was Reid",
+      "lang": "en",
+      "favorite_count": 10184,
+      "retweet_count": 1642,
+      "reply_count": 297,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
     {
       "tweet_id": "2039836891508261106",
       "url": "https://x.com/claudeai/status/2039836891508261106",
@@ -29,10 +42,7 @@
       "reply_count": 536,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
     },
     {
       "tweet_id": "2039897779728765248",
@@ -108,10 +118,35 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2039809856316768762",
+      "url": "https://x.com/aakashgupta/status/2039809856316768762",
+      "screen_name": "aakashgupta",
+      "created_at": "Thu Apr 02 20:59:02 +0000 2026",
+      "full_text": "Apple accidentally built the world's largest hearing aid company.\n\nAirPods Pro 2 got FDA clearance as a clinical-grade over-the-counter hearing aid in September 2024. The average American pays $4,700 for a pair of prescription hearing aids. AirPods Pro cost $249. That's a 95%",
+      "lang": "en",
+      "favorite_count": 3586,
+      "retweet_count": 941,
+      "reply_count": 54,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2039689820025581700",
+      "url": "https://x.com/aakashgupta/status/2039689820025581700",
+      "screen_name": "aakashgupta",
+      "created_at": "Thu Apr 02 13:02:03 +0000 2026",
+      "full_text": "A 19-year-old drops out of school in Paris, teaches himself to code on an Apple II, builds X-rated chat rooms, and makes his first million before he can legally drink.\n\nThen he hacks the French president's phone. To prove a point about weak security. He gets arrested. Spends a",
+      "lang": "en",
+      "favorite_count": 3550,
+      "retweet_count": 585,
+      "reply_count": 49,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2039804673406935085",
@@ -192,10 +227,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2039773624593223689",
@@ -209,10 +241,21 @@
       "reply_count": 58,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
+    },
+    {
+      "tweet_id": "2039800715607187906",
+      "url": "https://x.com/lydiahallie/status/2039800715607187906",
+      "screen_name": "lydiahallie",
+      "created_at": "Thu Apr 02 20:22:42 +0000 2026",
+      "full_text": "Thank you to everyone who spent time sending us feedback and reports. We've investigated and we're sorry this has been a bad experience.\n\nHere's what we found:",
+      "lang": "en",
+      "favorite_count": 2997,
+      "retweet_count": 168,
+      "reply_count": 895,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2039790085793583217",
@@ -293,10 +336,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2039947001836589323",
@@ -437,10 +477,7 @@
           "type": "photo",
           "url": "https://t.co/RnqEGtQUSl"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2039629191805829537",
@@ -518,10 +555,7 @@
           "type": "photo",
           "url": "https://t.co/c86GiYkLOu"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2039763542690423240",
@@ -535,10 +569,7 @@
       "reply_count": 264,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2039670429615362135",
@@ -688,10 +719,95 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2039704206538363189",
+      "url": "https://x.com/startupideaspod/status/2039704206538363189",
+      "screen_name": "startupideaspod",
+      "created_at": "Thu Apr 02 13:59:13 +0000 2026",
+      "full_text": "Sam Altman predicted the first one-person billion-dollar company.\n\nMatthew Gallagher built a $401M company in year one with $20,000, AI tools, and zero employees.\n\nThis year he's on track for $1.8B. With 2 people.\n\nThe playbook has changed:\n\nOld path:\n- Come up with an idea\n- https://t.co/zjpA2KJquJ",
+      "lang": "en",
+      "favorite_count": 2064,
+      "retweet_count": 201,
+      "reply_count": 112,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/zjpA2KJquJ",
+          "expanded_url": "https://x.com/startupideaspod/status/2039704206538363189/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 218,
+                  "w": 218,
+                  "x": 28,
+                  "y": 516
+                }
+              ]
+            }
+          },
+          "id_str": "2039701013553438720",
+          "indices": [
+            277,
+            300
+          ],
+          "media_key": "3_2039701013553438720",
+          "media_url_https": "https://pbs.twimg.com/media/HE55Q9jbYAAnvtA.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 752,
+                "w": 1342,
+                "x": 0,
+                "y": 328
+              },
+              {
+                "h": 1136,
+                "w": 1136,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1136,
+                "w": 996,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1136,
+                "w": 568,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1136,
+                "w": 1342,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1136,
+            "width": 1342
+          },
+          "sizes": {
+            "large": {
+              "h": 1136,
+              "w": 1342
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/zjpA2KJquJ"
+        }
+      ]
     }
   ]
 }

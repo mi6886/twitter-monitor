@@ -1,20 +1,114 @@
 {
   "date": "2026-04-02",
   "period": "morning",
-  "fetched_at": "2026-04-01T23:28:56.731790+00:00",
+  "fetched_at": "2026-04-01T23:28:56.701392+00:00",
   "raw_count": 80,
   "candidate_count": 38,
-  "final_count": 5,
+  "final_count": 12,
   "review_count": 26,
-  "drop_hard_count": 7,
+  "drop_hard_count": 0,
   "disposition_stats": {
-    "not_ai_content": 7,
-    "low_info_ai_content": 24,
-    "info_value": 4,
-    "monitored_lenient": 1,
-    "brief_ai_mention": 2
+    "monitored_popular": 7,
+    "low_info_content": 24,
+    "info_value": 5,
+    "brief_mention": 2
   },
   "tweets": [
+    {
+      "tweet_id": "2039384038826258535",
+      "url": "https://x.com/MrBeast/status/2039384038826258535",
+      "screen_name": "MrBeast",
+      "created_at": "Wed Apr 01 16:46:59 +0000 2026",
+      "full_text": "I’m deleting my YouTube channel",
+      "lang": "en",
+      "favorite_count": 59072,
+      "retweet_count": 3271,
+      "reply_count": 23388,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2039382564645884014",
+      "url": "https://x.com/levelsio/status/2039382564645884014",
+      "screen_name": "levelsio",
+      "created_at": "Wed Apr 01 16:41:07 +0000 2026",
+      "full_text": "April Fool's pizzas in US are real pizzas in Brazil https://t.co/6kzBrDztzD",
+      "lang": "en",
+      "favorite_count": 14271,
+      "retweet_count": 692,
+      "reply_count": 71,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/6kzBrDztzD",
+          "expanded_url": "https://x.com/levelsio/status/2039382564645884014/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2039382557058310144",
+          "indices": [
+            52,
+            75
+          ],
+          "media_key": "3_2039382557058310144",
+          "media_url_https": "https://pbs.twimg.com/media/HE1XoWqWoAAYZSG.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 672,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 675,
+                "x": 293,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 592,
+                "x": 334,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 338,
+                "x": 461,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 675,
+            "width": 1200
+          },
+          "sizes": {
+            "large": {
+              "h": 675,
+              "w": 1200
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/6kzBrDztzD"
+        }
+      ]
+    },
     {
       "tweet_id": "2039297115789176995",
       "url": "https://x.com/IntCyberDigest/status/2039297115789176995",
@@ -161,10 +255,21 @@
           "type": "photo",
           "url": "https://t.co/Yc2nGAMV9N"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2039282637962178866",
+      "url": "https://x.com/aakashgupta/status/2039282637962178866",
+      "screen_name": "aakashgupta",
+      "created_at": "Wed Apr 01 10:04:03 +0000 2026",
+      "full_text": "Apple engineered a $179 product to age one half faster than the other, and the fix would take about six lines of code.\n\nOne AirPod is always doing more work than the other. The microphone setting defaults to \"Automatic,\" but in practice one pod gets selected as primary for calls,",
+      "lang": "en",
+      "favorite_count": 8026,
+      "retweet_count": 1034,
+      "reply_count": 91,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2039421575422980329",
@@ -242,10 +347,115 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "monitored_lenient"
+      ]
+    },
+    {
+      "tweet_id": "2039471948938215743",
+      "url": "https://x.com/lexfridman/status/2039471948938215743",
+      "screen_name": "lexfridman",
+      "created_at": "Wed Apr 01 22:36:18 +0000 2026",
+      "full_text": "Humans just launched into space, on their way to the moon (flyby around it). It'll be farthest humans have ever traveled into deep space 🤯 Congrats to all the incredible engineers &amp; teams involved! LFG!!!!!!!",
+      "lang": "en",
+      "favorite_count": 4105,
+      "retweet_count": 249,
+      "reply_count": 150,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2039286958711865820",
+      "url": "https://x.com/paulg/status/2039286958711865820",
+      "screen_name": "paulg",
+      "created_at": "Wed Apr 01 10:21:13 +0000 2026",
+      "full_text": "I agreed to get a Phil Foden haircut if 17 yo gets 1550 on the SAT. For people outside the UK, this is the risk I'm taking here: https://t.co/Q9vojGza6L",
+      "lang": "en",
+      "favorite_count": 4091,
+      "retweet_count": 63,
+      "reply_count": 185,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/Q9vojGza6L",
+          "expanded_url": "https://x.com/paulg/status/2039286958711865820/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 42,
+                  "w": 42,
+                  "x": 831,
+                  "y": 12
+                },
+                {
+                  "h": 121,
+                  "w": 121,
+                  "x": 700,
+                  "y": 561
+                }
+              ]
+            }
+          },
+          "id_str": "2039286922540167168",
+          "indices": [
+            129,
+            152
+          ],
+          "media_key": "3_2039286922540167168",
+          "media_url_https": "https://pbs.twimg.com/media/HE0ApsUbMAAIN4B.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 523,
+                "w": 934,
+                "x": 0,
+                "y": 201
+              },
+              {
+                "h": 934,
+                "w": 934,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 974,
+                "w": 854,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 974,
+                "w": 487,
+                "x": 122,
+                "y": 0
+              },
+              {
+                "h": 974,
+                "w": 934,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 974,
+            "width": 934
+          },
+          "sizes": {
+            "large": {
+              "h": 974,
+              "w": 934
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Q9vojGza6L"
+        }
+      ]
     },
     {
       "tweet_id": "2039295237512704028",
@@ -326,10 +536,7 @@
           "type": "photo",
           "url": "https://t.co/ZbErzTCDi8"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2039365791666385002",
@@ -410,10 +617,21 @@
           "type": "photo",
           "url": "https://t.co/AmuCu11x87"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2039284275711971725",
+      "url": "https://x.com/paulg/status/2039284275711971725",
+      "screen_name": "paulg",
+      "created_at": "Wed Apr 01 10:10:34 +0000 2026",
+      "full_text": "Sadly, one way I now recognize fake AI-generated replies is that AIs write punchier sentences than most ordinary humans.",
+      "lang": "en",
+      "favorite_count": 2180,
+      "retweet_count": 48,
+      "reply_count": 569,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2039084001550336053",
@@ -567,10 +785,110 @@
           "type": "photo",
           "url": "https://t.co/a1tb6lMAbE"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2039104896276762702",
+      "url": "https://x.com/iruletheworldmo/status/2039104896276762702",
+      "screen_name": "iruletheworldmo",
+      "created_at": "Tue Mar 31 22:17:46 +0000 2026",
+      "full_text": "🚨BREAKING BENCHMARK LEAKS \n\nCLAUDE MYTHOS https://t.co/J13LqjAEf1",
+      "lang": "en",
+      "favorite_count": 2077,
+      "retweet_count": 126,
+      "reply_count": 123,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/J13LqjAEf1",
+          "expanded_url": "https://x.com/iruletheworldmo/status/2039104896276762702/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 81,
+                  "w": 81,
+                  "x": 132,
+                  "y": 124
+                },
+                {
+                  "h": 121,
+                  "w": 121,
+                  "x": 46,
+                  "y": 589
+                },
+                {
+                  "h": 165,
+                  "w": 165,
+                  "x": 722,
+                  "y": 34
+                },
+                {
+                  "h": 198,
+                  "w": 198,
+                  "x": 683,
+                  "y": 553
+                }
+              ]
+            }
+          },
+          "id_str": "2039104890946109440",
+          "indices": [
+            42,
+            65
+          ],
+          "media_key": "3_2039104890946109440",
+          "media_url_https": "https://pbs.twimg.com/media/HExbGDyawAAkMQG.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 646,
+                "w": 1154,
+                "x": 0,
+                "y": 407
+              },
+              {
+                "h": 1154,
+                "w": 1154,
+                "x": 0,
+                "y": 153
+              },
+              {
+                "h": 1316,
+                "w": 1154,
+                "x": 0,
+                "y": 72
+              },
+              {
+                "h": 1539,
+                "w": 770,
+                "x": 192,
+                "y": 0
+              },
+              {
+                "h": 1539,
+                "w": 1154,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1539,
+            "width": 1154
+          },
+          "sizes": {
+            "large": {
+              "h": 1539,
+              "w": 1154
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/J13LqjAEf1"
+        }
+      ]
     }
   ]
 }

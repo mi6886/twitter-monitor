@@ -1,8 +1,20 @@
 {
   "date": "2026-04-06",
   "period": "morning",
-  "fetched_at": "2026-04-05T23:24:53.044856+00:00",
-  "review_count": 30,
+  "fetched_at": "2026-04-05T23:24:53.011846+00:00",
+  "raw_count": 74,
+  "candidate_count": 56,
+  "final_count": 22,
+  "review_count": 29,
+  "drop_hard_count": 5,
+  "disposition_stats": {
+    "brief_mention": 4,
+    "monitored_popular": 12,
+    "off_topic": 2,
+    "low_info_content": 25,
+    "too_brief": 3,
+    "info_value": 10
+  },
   "tweets": [
     {
       "tweet_id": "2040787102078546068",
@@ -80,27 +92,7 @@
           "type": "photo",
           "url": "https://t.co/ylK7bzLu4A"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
-    },
-    {
-      "tweet_id": "2040864550594252813",
-      "url": "https://x.com/elonmusk/status/2040864550594252813",
-      "screen_name": "elonmusk",
-      "created_at": "Sun Apr 05 18:50:00 +0000 2026",
-      "full_text": "Honest feedback is the goal of Grok",
-      "lang": "en",
-      "favorite_count": 28726,
-      "retweet_count": 3026,
-      "reply_count": 2763,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      ]
     },
     {
       "tweet_id": "2040898312262324362",
@@ -261,10 +253,7 @@
           "type": "photo",
           "url": "https://t.co/o8NONgc5iu"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040725650110120194",
@@ -278,10 +267,7 @@
       "reply_count": 106,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040743173962846395",
@@ -295,10 +281,7 @@
       "reply_count": 36,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040717748762800598",
@@ -312,10 +295,7 @@
       "reply_count": 206,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040637311927603491",
@@ -329,10 +309,7 @@
       "reply_count": 289,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040598610589470893",
@@ -492,10 +469,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040711439652921682",
@@ -589,10 +563,7 @@
           "type": "photo",
           "url": "https://t.co/Z0p9Gp3deK"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040775926401958297",
@@ -673,10 +644,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2040687437836345651",
@@ -749,10 +717,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040520041922515198",
@@ -830,10 +795,92 @@
           "type": "photo",
           "url": "https://t.co/hOK3BXlaBR"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
+    },
+    {
+      "tweet_id": "2040827737854591149",
+      "url": "https://x.com/jescalan/status/2040827737854591149",
+      "screen_name": "jescalan",
+      "created_at": "Sun Apr 05 16:23:44 +0000 2026",
+      "full_text": "Transition to gpt in openclaw not going so great this far 😂 https://t.co/XGL0xQudyr",
+      "lang": "en",
+      "favorite_count": 4342,
+      "retweet_count": 114,
+      "reply_count": 286,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/XGL0xQudyr",
+          "expanded_url": "https://x.com/jescalan/status/2040827737854591149/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 136,
+                  "w": 136,
+                  "x": 766,
+                  "y": 1846
+                }
+              ]
+            }
+          },
+          "id_str": "2040827735212257280",
+          "indices": [
+            60,
+            83
+          ],
+          "media_key": "3_2040827735212257280",
+          "media_url_https": "https://pbs.twimg.com/media/HFJ6Ay0XcAAbDyK.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 530,
+                "w": 947,
+                "x": 0,
+                "y": 298
+              },
+              {
+                "h": 947,
+                "w": 947,
+                "x": 0,
+                "y": 90
+              },
+              {
+                "h": 1080,
+                "w": 947,
+                "x": 0,
+                "y": 23
+              },
+              {
+                "h": 1894,
+                "w": 947,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2048,
+                "w": 947,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 2048,
+            "width": 947
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 947
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/XGL0xQudyr"
+        }
+      ]
     },
     {
       "tweet_id": "2040850209765273723",
@@ -991,10 +1038,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040737214821433638",
@@ -1079,10 +1123,7 @@
           "type": "photo",
           "url": "https://t.co/2OQS84Ef61"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2040647813470830601",
@@ -1096,10 +1137,7 @@
       "reply_count": 35,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040782566345564617",
@@ -1113,10 +1151,7 @@
       "reply_count": 58,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040847854978154916",
@@ -1130,10 +1165,7 @@
       "reply_count": 15,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040784018422292530",
@@ -1214,10 +1246,7 @@
           "type": "photo",
           "url": "https://t.co/eLX28Bkgul"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2040707279738290228",
@@ -1231,10 +1260,7 @@
       "reply_count": 39,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040811055400530138",
@@ -1248,10 +1274,7 @@
       "reply_count": 2541,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040772692866183308",
@@ -1329,10 +1352,7 @@
           "type": "photo",
           "url": "https://t.co/UD5vrHAKWV"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040746711996645527",
@@ -1410,122 +1430,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2040761425023627657",
-      "url": "https://x.com/RiserMusic/status/2040761425023627657",
-      "screen_name": "RiserMusic",
-      "created_at": "Sun Apr 05 12:00:13 +0000 2026",
-      "full_text": "PRESS TOUR UPDATE \nDangerous - GEMINI\n\n📅 21.04.2026\n#️⃣DangerousGEMINI_Presstour\n\n#DangerousGEMINI\n#GEMINI_NT\n#RISERMUSIC https://t.co/wqKzC5yxvI",
-      "lang": "fr",
-      "favorite_count": 2644,
-      "retweet_count": 2369,
-      "reply_count": 57,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/wqKzC5yxvI",
-          "expanded_url": "https://x.com/RiserMusic/status/2040761425023627657/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "all": {
-              "tags": [
-                {
-                  "name": "gemini_nt",
-                  "screen_name": "gemini_ti",
-                  "user_id": "1198872710501130240"
-                }
-              ]
-            },
-            "large": {
-              "faces": [
-                {
-                  "h": 82,
-                  "w": 82,
-                  "x": 872,
-                  "y": 834
-                },
-                {
-                  "h": 98,
-                  "w": 98,
-                  "x": 250,
-                  "y": 1392
-                },
-                {
-                  "h": 254,
-                  "w": 254,
-                  "x": 412,
-                  "y": 256
-                }
-              ]
-            }
-          },
-          "id_str": "2040761415817125888",
-          "indices": [
-            122,
-            145
-          ],
-          "media_key": "3_2040761415817125888",
-          "media_url_https": "https://pbs.twimg.com/media/HFI9sf0aYAAJWYI.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 917,
-                "w": 1638,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1638,
-                "w": 1638,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1867,
-                "w": 1638,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2048,
-                "w": 1024,
-                "x": 614,
-                "y": 0
-              },
-              {
-                "h": 2048,
-                "w": 1638,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 2048,
-            "width": 1638
-          },
-          "sizes": {
-            "large": {
-              "h": 2048,
-              "w": 1638
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/wqKzC5yxvI"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      ]
     },
     {
       "tweet_id": "2040599498297061431",
@@ -1707,10 +1612,7 @@
           "type": "photo",
           "url": "https://t.co/ym1mdDFPcv"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040549938367451156",
@@ -1857,10 +1759,7 @@
           "type": "photo",
           "url": "https://t.co/XzSb9BawNO"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040768856449237365",
@@ -1936,10 +1835,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040855774839087587",
@@ -2092,10 +1988,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040621427049529644",
@@ -2109,173 +2002,7 @@
       "reply_count": 4,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2040731441987010577",
-      "url": "https://x.com/thekitze/status/2040731441987010577",
-      "screen_name": "thekitze",
-      "created_at": "Sun Apr 05 10:01:05 +0000 2026",
-      "full_text": "chatgpt 5.4 vs gemma 4 😬 https://t.co/lavYD2bHcA",
-      "lang": "en",
-      "favorite_count": 2206,
-      "retweet_count": 81,
-      "reply_count": 117,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/lavYD2bHcA",
-          "expanded_url": "https://x.com/thekitze/status/2040731441987010577/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": [
-                {
-                  "h": 77,
-                  "w": 77,
-                  "x": 489,
-                  "y": 1674
-                },
-                {
-                  "h": 113,
-                  "w": 113,
-                  "x": 1382,
-                  "y": 1237
-                },
-                {
-                  "h": 140,
-                  "w": 140,
-                  "x": 1065,
-                  "y": 1226
-                }
-              ]
-            }
-          },
-          "id_str": "2040731436693778432",
-          "indices": [
-            25,
-            48
-          ],
-          "media_key": "3_2040731436693778432",
-          "media_url_https": "https://pbs.twimg.com/media/HFIibe4a8AAEyYu.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 1089,
-                "w": 1944,
-                "x": 0,
-                "y": 378
-              },
-              {
-                "h": 1808,
-                "w": 1808,
-                "x": 136,
-                "y": 0
-              },
-              {
-                "h": 1808,
-                "w": 1586,
-                "x": 358,
-                "y": 0
-              },
-              {
-                "h": 1808,
-                "w": 904,
-                "x": 761,
-                "y": 0
-              },
-              {
-                "h": 1808,
-                "w": 1944,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 1808,
-            "width": 1944
-          },
-          "sizes": {
-            "large": {
-              "h": 1808,
-              "w": 1944
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/lavYD2bHcA"
-        },
-        {
-          "display_url": "pic.x.com/lavYD2bHcA",
-          "expanded_url": "https://x.com/thekitze/status/2040731441987010577/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2040731439659130881",
-          "indices": [
-            25,
-            48
-          ],
-          "media_key": "3_2040731439659130881",
-          "media_url_https": "https://pbs.twimg.com/media/HFIibp7aoAE8KiV.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 1098,
-                "w": 1960,
-                "x": 0,
-                "y": 186
-              },
-              {
-                "h": 1440,
-                "w": 1440,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1440,
-                "w": 1263,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1440,
-                "w": 720,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1440,
-                "w": 1960,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 1440,
-            "width": 1960
-          },
-          "sizes": {
-            "large": {
-              "h": 1440,
-              "w": 1960
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/lavYD2bHcA"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      "media": []
     },
     {
       "tweet_id": "2040914239569776891",
@@ -2436,10 +2163,168 @@
           "type": "photo",
           "url": "https://t.co/vzQFhsh8eb"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
+    },
+    {
+      "tweet_id": "2040657947181916232",
+      "url": "https://x.com/youngcatwoman/status/2040657947181916232",
+      "screen_name": "youngcatwoman",
+      "created_at": "Sun Apr 05 05:09:02 +0000 2026",
+      "full_text": "Her best angles\n\nRose, Blackpink\n\nNano Banana Pro via Hailuo https://t.co/CBV5n2SJkG",
+      "lang": "en",
+      "favorite_count": 2030,
+      "retweet_count": 137,
+      "reply_count": 6,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/CBV5n2SJkG",
+          "expanded_url": "https://x.com/youngcatwoman/status/2040657947181916232/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 492,
+                  "w": 492,
+                  "x": 296,
+                  "y": 410
+                }
+              ]
+            }
+          },
+          "id_str": "2040657940752048128",
+          "indices": [
+            61,
+            84
+          ],
+          "media_key": "3_2040657940752048128",
+          "media_url_https": "https://pbs.twimg.com/media/HFHfldKbIAAwTxt.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1281,
+                "w": 2287,
+                "x": 0,
+                "y": 688
+              },
+              {
+                "h": 2287,
+                "w": 2287,
+                "x": 0,
+                "y": 185
+              },
+              {
+                "h": 2607,
+                "w": 2287,
+                "x": 0,
+                "y": 25
+              },
+              {
+                "h": 4096,
+                "w": 2048,
+                "x": 100,
+                "y": 0
+              },
+              {
+                "h": 4096,
+                "w": 2287,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 4096,
+            "width": 2287
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1144
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/CBV5n2SJkG"
+        },
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/CBV5n2SJkG",
+          "expanded_url": "https://x.com/youngcatwoman/status/2040657947181916232/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 446,
+                  "w": 446,
+                  "x": 420,
+                  "y": 406
+                }
+              ]
+            }
+          },
+          "id_str": "2040657940718419969",
+          "indices": [
+            61,
+            84
+          ],
+          "media_key": "3_2040657940718419969",
+          "media_url_https": "https://pbs.twimg.com/media/HFHfldCaAAEEpdf.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1281,
+                "w": 2287,
+                "x": 0,
+                "y": 688
+              },
+              {
+                "h": 2287,
+                "w": 2287,
+                "x": 0,
+                "y": 185
+              },
+              {
+                "h": 2607,
+                "w": 2287,
+                "x": 0,
+                "y": 25
+              },
+              {
+                "h": 4096,
+                "w": 2048,
+                "x": 239,
+                "y": 0
+              },
+              {
+                "h": 4096,
+                "w": 2287,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 4096,
+            "width": 2287
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1144
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/CBV5n2SJkG"
+        }
+      ]
     }
   ]
 }

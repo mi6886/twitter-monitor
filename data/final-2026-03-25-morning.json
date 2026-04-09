@@ -1,16 +1,95 @@
 {
   "date": "2026-03-25",
   "period": "morning",
-  "fetched_at": "2026-03-25T03:52:54.082877+00:00",
+  "fetched_at": "2026-03-25T03:52:54.074881+00:00",
   "raw_count": 11,
   "candidate_count": 4,
-  "final_count": 0,
+  "final_count": 1,
   "review_count": 3,
-  "drop_hard_count": 1,
+  "drop_hard_count": 0,
   "disposition_stats": {
-    "low_value_pattern": 1,
-    "low_info_ai_content": 2,
-    "not_ai_content": 1
+    "meme_or_reaction": 1,
+    "low_info_content": 2,
+    "monitored_popular": 1
   },
-  "tweets": []
+  "tweets": [
+    {
+      "tweet_id": "2036476110825988156",
+      "url": "https://x.com/deedydas/status/2036476110825988156",
+      "screen_name": "deedydas",
+      "created_at": "Tue Mar 24 16:11:55 +0000 2026",
+      "full_text": "There’s a GitHub repo called MoneyPrinter with 20k+ stars. Its entire purpose is generating internet slop for profit (yes, including Twitter bots). https://t.co/ITKYwSXgfX",
+      "lang": "en",
+      "favorite_count": 2037,
+      "retweet_count": 116,
+      "reply_count": 32,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/ITKYwSXgfX",
+          "expanded_url": "https://x.com/deedydas/status/2036476110825988156/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2036476107671871490",
+          "indices": [
+            148,
+            171
+          ],
+          "media_key": "3_2036476107671871490",
+          "media_url_https": "https://pbs.twimg.com/media/HEMEOu9aIAIzLq-.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1081,
+                "w": 1930,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1346,
+                "w": 1346,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1346,
+                "w": 1181,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1346,
+                "w": 673,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1346,
+                "w": 1930,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1346,
+            "width": 1930
+          },
+          "sizes": {
+            "large": {
+              "h": 1346,
+              "w": 1930
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/ITKYwSXgfX"
+        }
+      ]
+    }
+  ]
 }

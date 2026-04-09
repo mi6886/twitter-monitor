@@ -1,19 +1,18 @@
 {
   "date": "2026-04-04",
   "period": "morning",
-  "fetched_at": "2026-04-03T23:25:15.460375+00:00",
+  "fetched_at": "2026-04-03T23:25:15.428749+00:00",
   "raw_count": 70,
   "candidate_count": 39,
-  "final_count": 7,
-  "review_count": 21,
-  "drop_hard_count": 11,
+  "final_count": 18,
+  "review_count": 20,
+  "drop_hard_count": 1,
   "disposition_stats": {
-    "low_info_ai_content": 14,
-    "high_signal_source": 1,
-    "not_ai_content": 11,
-    "brief_ai_mention": 6,
-    "info_value": 6,
-    "low_value_pattern": 1
+    "low_info_content": 14,
+    "monitored_popular": 10,
+    "brief_mention": 6,
+    "info_value": 8,
+    "gossip_or_bait": 1
   },
   "tweets": [
     {
@@ -95,10 +94,35 @@
           "type": "photo",
           "url": "https://t.co/sOrigP41FJ"
         }
-      ],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      ]
+    },
+    {
+      "tweet_id": "2040090103687594039",
+      "url": "https://x.com/MrBeast/status/2040090103687594039",
+      "screen_name": "MrBeast",
+      "created_at": "Fri Apr 03 15:32:38 +0000 2026",
+      "full_text": "Streamers! You should react live to our 50 streamers video dropping tomorrow at Noon Eastern time. You won’t regret it, this video is insane :D",
+      "lang": "en",
+      "favorite_count": 9273,
+      "retweet_count": 387,
+      "reply_count": 1577,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2040014204195991624",
+      "url": "https://x.com/aakashgupta/status/2040014204195991624",
+      "screen_name": "aakashgupta",
+      "created_at": "Fri Apr 03 10:31:02 +0000 2026",
+      "full_text": "People keep saying \"just cut sugar\" without understanding what 350g per day is actually doing to the tissue of your face.\n\nWhen you eat that much sugar, your pancreas is releasing massive amounts of insulin all day long. That insulin signals your kidneys to reabsorb sodium. And",
+      "lang": "en",
+      "favorite_count": 8966,
+      "retweet_count": 523,
+      "reply_count": 122,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2040089868294848771",
@@ -179,10 +203,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2040011426450808914",
@@ -337,10 +358,94 @@
           "type": "photo",
           "url": "https://t.co/ugITaqyJBo"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2040155663955861733",
+      "url": "https://x.com/MrBeast/status/2040155663955861733",
+      "screen_name": "MrBeast",
+      "created_at": "Fri Apr 03 19:53:09 +0000 2026",
+      "full_text": "Sunday at noon Eastern time I’m doing a massive livestream on the MrBeast YouTube channel! It will all make sense after you see tomorrows video 🙏🏻",
+      "lang": "en",
+      "favorite_count": 3868,
+      "retweet_count": 229,
+      "reply_count": 1216,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2039953723791995100",
+      "url": "https://x.com/heyshrutimishra/status/2039953723791995100",
+      "screen_name": "heyshrutimishra",
+      "created_at": "Fri Apr 03 06:30:42 +0000 2026",
+      "full_text": "China deployed a 1,300-ton data center on the ocean floor off the coast of Hainan.\n\nNo cooling towers or air conditioning. Just cold seawater doing the job for free.\n\nThe result? Cooling costs drop from ~50% of total energy to under 10%. https://t.co/IIEKDfxPy8",
+      "lang": "en",
+      "favorite_count": 3640,
+      "retweet_count": 633,
+      "reply_count": 681,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "display_url": "pic.x.com/IIEKDfxPy8",
+          "expanded_url": "https://x.com/heyshrutimishra/status/2039953723791995100/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2039953706624638976",
+          "indices": [
+            238,
+            261
+          ],
+          "media_key": "7_2039953706624638976",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/2039953706624638976/pu/img/6dyHdQUvgS03-bDB.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 900,
+            "width": 720
+          },
+          "sizes": {
+            "large": {
+              "h": 900,
+              "w": 720
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/IIEKDfxPy8",
+          "video_info": {
+            "aspect_ratio": [
+              4,
+              5
+            ],
+            "duration_millis": 11233,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/ext_tw_video/2039953706624638976/pu/pl/uBVtOhMQHOS6S6Ag.m3u8?tag=12&v=cfc"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2039953706624638976/pu/vid/avc1/320x400/0t_NI8QpWTb2g3P3.mp4?tag=12"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2039953706624638976/pu/vid/avc1/480x600/g9yCgT8Z5WD5zbNW.mp4?tag=12"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2039953706624638976/pu/vid/avc1/720x900/pqacvkJHSUisS777.mp4?tag=12"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2039930111466877394",
@@ -354,10 +459,21 @@
       "reply_count": 408,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
+    },
+    {
+      "tweet_id": "2039818122882961436",
+      "url": "https://x.com/DavidOndrej1/status/2039818122882961436",
+      "screen_name": "DavidOndrej1",
+      "created_at": "Thu Apr 02 21:31:53 +0000 2026",
+      "full_text": "if you're not running Gemma 4 E4B on locally on your airpods\n\nyou're falling behind",
+      "lang": "en",
+      "favorite_count": 2830,
+      "retweet_count": 160,
+      "reply_count": 92,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2039995519439643056",
@@ -692,10 +808,99 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2039849322574205190",
+      "url": "https://x.com/kloss_xyz/status/2039849322574205190",
+      "screen_name": "kloss_xyz",
+      "created_at": "Thu Apr 02 23:35:51 +0000 2026",
+      "full_text": "This is insane. Pedro Franceschi (29 year old CEO of Brex, acquired by Capital One for $5.15B) decomposed his CEO job using OpenClaw.\n\nhere's what he’s built: \n\n&gt; signal ingestion pipeline screens his email, Slack, Google Docs, and WhatsApp... filters everything through specific https://t.co/mSlISNBMox",
+      "lang": "en",
+      "favorite_count": 2601,
+      "retweet_count": 211,
+      "reply_count": 88,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/mSlISNBMox",
+          "expanded_url": "https://x.com/kloss_xyz/status/2039849322574205190/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2039848741377921024",
+          "indices": [
+            283,
+            306
+          ],
+          "media_key": "13_2039848741377921024",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2039848741377921024/img/AH68kSsoV_oenB4h.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/mSlISNBMox",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 559833,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2039848741377921024/pl/hiRwXwCKkgz0RkYN.m3u8?v=818"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039848741377921024/vid/avc1/480x270/4KBATZdy1hdManFY.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039848741377921024/vid/avc1/640x360/UWu4bjIEt7pljAd3.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039848741377921024/vid/avc1/1280x720/KtHYIOsmRNEQDClI.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039848741377921024/vid/avc1/1920x1080/D48cAJ4IfAS5xdgn.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2039823314982744522",
+      "url": "https://x.com/karpathy/status/2039823314982744522",
+      "screen_name": "karpathy",
+      "created_at": "Thu Apr 02 21:52:31 +0000 2026",
+      "full_text": "@liminal_warmth Use epub not PDF, convert epub to txt/md, summarize the wikipedia article into \"book context\", with it in context summarize one chapter at a time, etc. I mean basically imo for good results you have to \"work it\" in chunks and shouldn't expect that just attaching a pdf and asking",
+      "lang": "en",
+      "favorite_count": 2315,
+      "retweet_count": 111,
+      "reply_count": 58,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2040067934215631197",
@@ -709,10 +914,7 @@
       "reply_count": 33,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2040096283361517892",
@@ -862,10 +1064,227 @@
           "type": "photo",
           "url": "https://t.co/vgcO5pVYnr"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2040029064044351927",
+      "url": "https://x.com/DavidOndrej1/status/2040029064044351927",
+      "screen_name": "DavidOndrej1",
+      "created_at": "Fri Apr 03 11:30:05 +0000 2026",
+      "full_text": "DROP EVERYTHING.\n\n&gt; open Terminal\n&gt; type in \"ollama run gemma4\"\n&gt; wait for it to download\n&gt; congrats, you have the best open-source AI model on your laptop",
+      "lang": "en",
+      "favorite_count": 2168,
+      "retweet_count": 93,
+      "reply_count": 78,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2039954725559538096",
+      "url": "https://x.com/Saboo_Shubham_/status/2039954725559538096",
+      "screen_name": "Saboo_Shubham_",
+      "created_at": "Fri Apr 03 06:34:41 +0000 2026",
+      "full_text": "This is getting way too real!\n\nI can now get on a video call with my OpenClaw Agents to chat with them face to face. \n\nAll i need to do is to send them a Google meet invite. https://t.co/3NnDA1p1nT",
+      "lang": "en",
+      "favorite_count": 2143,
+      "retweet_count": 184,
+      "reply_count": 167,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {},
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": true,
+                  "legacy": {
+                    "advertiser_account_service_levels": [
+                      "mms"
+                    ],
+                    "advertiser_account_type": "promotable_user",
+                    "analytics_type": "disabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": true,
+                    "can_media_tag": true,
+                    "created_at": "Sun Apr 23 15:27:43 +0000 2023",
+                    "description": "Home of your AI Self - the AI you birth, raise, and set loose to be a living extension of you. \nhttps://t.co/Rrakf4Wnf7",
+                    "entities": {
+                      "description": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [
+                          {
+                            "display_url": "pika.me",
+                            "expanded_url": "http://pika.me/",
+                            "indices": [
+                              96,
+                              119
+                            ],
+                            "url": "https://t.co/Rrakf4Wnf7"
+                          }
+                        ],
+                        "user_mentions": []
+                      },
+                      "url": {
+                        "urls": [
+                          {
+                            "display_url": "pika.me",
+                            "expanded_url": "http://pika.me/",
+                            "indices": [
+                              0,
+                              23
+                            ],
+                            "url": "https://t.co/Rrakf4Wnf7"
+                          }
+                        ]
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 7782,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 146021,
+                    "following": false,
+                    "friends_count": 92,
+                    "geo_enabled": false,
+                    "has_custom_timelines": false,
+                    "has_extended_profile": true,
+                    "id_str": "1650159466032271360",
+                    "is_translator": false,
+                    "location": "Palo Alto, CA",
+                    "media_count": 311,
+                    "muting": false,
+                    "name": "Pika",
+                    "normal_followers_count": 146021,
+                    "notifications": false,
+                    "pinned_tweet_ids_str": [
+                      "2039804583862796345"
+                    ],
+                    "profile_background_color": "F5F8FA",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1650159466032271360/1771611907",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1965882404670730240/csYrFNAd_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "1DA1F2",
+                    "protected": false,
+                    "screen_name": "pika_labs",
+                    "statuses_count": 2374,
+                    "translator_type_enum": "None",
+                    "url": "https://t.co/Rrakf4Wnf7",
+                    "verified": false,
+                    "verified_type": "Business",
+                    "want_retweets": false,
+                    "withheld_in_countries": []
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Square",
+                  "rest_id": "1650159466032271360",
+                  "super_follow_eligible": false,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/3NnDA1p1nT",
+          "expanded_url": "https://x.com/pika_labs/status/2039804583862796345/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2039802871768883200",
+          "indices": [
+            174,
+            197
+          ],
+          "media_key": "13_2039802871768883200",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2039802871768883200/img/XW4ygAnV6KfUPY5o.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "source_status_id_str": "2039804583862796345",
+          "source_user_id_str": "1650159466032271360",
+          "type": "video",
+          "url": "https://t.co/3NnDA1p1nT",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 60000,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2039802871768883200/pl/0v-tPxqoakVdGXgg.m3u8?v=74c"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039802871768883200/vid/avc1/480x270/KCrxIwsPQNi_BPTe.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039802871768883200/vid/avc1/640x360/IQ_3_D2MuezuWIJp.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039802871768883200/vid/avc1/1280x720/hMXukTUduO5JwZBO.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039802871768883200/vid/avc1/1920x1080/7TxnbHjPG0EHVMem.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2039824293287379426",
+      "url": "https://x.com/svpino/status/2039824293287379426",
+      "screen_name": "svpino",
+      "created_at": "Thu Apr 02 21:56:24 +0000 2026",
+      "full_text": "This is kind of awesome!\n\nYou can send a Google Meet invite to your agent (OpenClaw, Claude, whatever) and have them join you on a real-time video call.\n\nJust think about that for a second:\n\nYou're talking \"face to face\" to your agent.\n\nI think Pika found gold here.",
+      "lang": "en",
+      "favorite_count": 2123,
+      "retweet_count": 167,
+      "reply_count": 101,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2039992307722883168",
+      "url": "https://x.com/aakashgupta/status/2039992307722883168",
+      "screen_name": "aakashgupta",
+      "created_at": "Fri Apr 03 09:04:02 +0000 2026",
+      "full_text": "The real story here is who made these nuggets.\n\nDorada Foods is a joint venture between Lopez Foods and Tyson, originally built in Ponca City, Oklahoma to be McDonald's third chicken nugget supplier. They make McNuggets, McChicken, and Spicy McChicken patties for the golden",
+      "lang": "en",
+      "favorite_count": 2118,
+      "retweet_count": 761,
+      "reply_count": 21,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     }
   ]
 }

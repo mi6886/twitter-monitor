@@ -1,8 +1,17 @@
 {
   "date": "2026-03-25",
   "period": "morning",
-  "fetched_at": "2026-03-25T03:52:54.083015+00:00",
+  "fetched_at": "2026-03-25T03:52:54.074881+00:00",
+  "raw_count": 11,
+  "candidate_count": 4,
+  "final_count": 1,
   "review_count": 3,
+  "drop_hard_count": 0,
+  "disposition_stats": {
+    "meme_or_reaction": 1,
+    "low_info_content": 2,
+    "monitored_popular": 1
+  },
   "tweets": [
     {
       "tweet_id": "2036326328140517868",
@@ -58,10 +67,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_value_pattern"
+      ]
     },
     {
       "tweet_id": "2036251410753556819",
@@ -147,10 +153,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036514078072733792",
@@ -164,10 +167,7 @@
       "reply_count": 2,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     }
   ]
 }

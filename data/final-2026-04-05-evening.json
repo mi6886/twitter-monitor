@@ -1,17 +1,17 @@
 {
   "date": "2026-04-05",
   "period": "evening",
-  "fetched_at": "2026-04-05T11:27:40.333640+00:00",
+  "fetched_at": "2026-04-05T11:27:40.305911+00:00",
   "raw_count": 72,
   "candidate_count": 32,
-  "final_count": 4,
-  "review_count": 20,
-  "drop_hard_count": 8,
+  "final_count": 9,
+  "review_count": 17,
+  "drop_hard_count": 6,
   "disposition_stats": {
-    "low_info_ai_content": 12,
+    "low_info_content": 13,
     "info_value": 4,
-    "not_ai_content": 6,
-    "brief_ai_mention": 4,
+    "monitored_popular": 5,
+    "brief_mention": 4,
     "too_brief": 2,
     "off_topic": 4
   },
@@ -102,10 +102,130 @@
           "type": "photo",
           "url": "https://t.co/aNQVWWLtC1"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2040572272944324650",
+      "url": "https://x.com/karpathy/status/2040572272944324650",
+      "screen_name": "karpathy",
+      "created_at": "Sat Apr 04 23:28:36 +0000 2026",
+      "full_text": "Farzapedia, personal wikipedia of Farza, good example following my Wiki LLM tweet.\n\nI really like this approach to personalization in a number of ways, compared to \"status quo\" of an AI that allegedly gets better the more you use it or something:\n\n1. Explicit. The memory artifact",
+      "lang": "en",
+      "favorite_count": 5344,
+      "retweet_count": 493,
+      "reply_count": 228,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2040542180373340340",
+      "url": "https://x.com/aakashgupta/status/2040542180373340340",
+      "screen_name": "aakashgupta",
+      "created_at": "Sat Apr 04 21:29:01 +0000 2026",
+      "full_text": "Jeffrey Dean Morgan had two days.\n\nHe flew in, met the cast, and was told: \"You're Negan. Get on set and make these people afraid of you.\" A group of actors who'd worked together for six years, built real friendships, survived 80+ episodes together. Morgan had 48 hours to walk in",
+      "lang": "en",
+      "favorite_count": 4973,
+      "retweet_count": 442,
+      "reply_count": 63,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2040482135115735310",
+      "url": "https://x.com/itsPaulAi/status/2040482135115735310",
+      "screen_name": "itsPaulAi",
+      "created_at": "Sat Apr 04 17:30:25 +0000 2026",
+      "full_text": "Friendly reminder that Google has an official app to run Gemma 4 on your phone.\n\n- 100% open source\n- Fully offline and private\n- Multimodal with text/audio/image\n- Works with Gemma E4B and E2B\n\nAnd the app is available on both iOS and Android.\n\nSteps and download below https://t.co/Ii0Mh4XpHH",
+      "lang": "en",
+      "favorite_count": 3739,
+      "retweet_count": 414,
+      "reply_count": 124,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/Ii0Mh4XpHH",
+          "expanded_url": "https://x.com/itsPaulAi/status/2040482135115735310/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2040475050126745600",
+          "indices": [
+            271,
+            294
+          ],
+          "media_key": "13_2040475050126745600",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2040475050126745600/img/5msx-Gq2HpJWo4mU.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1080
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/Ii0Mh4XpHH",
+          "video_info": {
+            "aspect_ratio": [
+              1,
+              1
+            ],
+            "duration_millis": 36641,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2040475050126745600/pl/D4tIv7hkrFazjlpw.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 432000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2040475050126745600/vid/avc1/320x320/6LBgFO50ZAPxg6ut.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2040475050126745600/vid/avc1/540x540/JtRVI_zlenNjkOOB.mp4"
+              },
+              {
+                "bitrate": 1280000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2040475050126745600/vid/avc1/720x720/43pTwX1LEdoU2Epn.mp4"
+              },
+              {
+                "bitrate": 8768000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2040475050126745600/vid/avc1/1080x1080/8oTJGXWh7ci-Vbsx.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2040549459193704852",
+      "url": "https://x.com/karpathy/status/2040549459193704852",
+      "screen_name": "karpathy",
+      "created_at": "Sat Apr 04 21:57:57 +0000 2026",
+      "full_text": "Something I've been thinking about - I am bullish on people (empowered by AI) increasing the visibility, legibility and accountability of their governments.\n\nHistorically, it is the governments that act to make society legible (e.g. \"Seeing like a state\" is the common reference),",
+      "lang": "en",
+      "favorite_count": 3690,
+      "retweet_count": 441,
+      "reply_count": 285,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2040467665874211026",
@@ -183,10 +303,88 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2040409314066837858",
+      "url": "https://x.com/paulg/status/2040409314066837858",
+      "screen_name": "paulg",
+      "created_at": "Sat Apr 04 12:41:04 +0000 2026",
+      "full_text": "I had just been noticing today that Thai speakers seem to spend longer talking about things than I'd expect. https://t.co/La8jWOKVzu",
+      "lang": "en",
+      "favorite_count": 2436,
+      "retweet_count": 294,
+      "reply_count": 178,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/La8jWOKVzu",
+          "expanded_url": "https://x.com/paulg/status/2040409314066837858/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2040409221343391744",
+          "indices": [
+            109,
+            132
+          ],
+          "media_key": "3_2040409221343391744",
+          "media_url_https": "https://pbs.twimg.com/media/HFD9YFKasAAuNFa.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 672,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1167,
+                "w": 1167,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1167,
+                "w": 1024,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1167,
+                "w": 584,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1167,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1167,
+            "width": 1200
+          },
+          "sizes": {
+            "large": {
+              "h": 1167,
+              "w": 1200
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/La8jWOKVzu"
+        }
+      ]
     },
     {
       "tweet_id": "2040437404876824902",
@@ -200,10 +398,7 @@
       "reply_count": 346,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2040382786037584199",
@@ -423,10 +618,7 @@
           "type": "photo",
           "url": "https://t.co/9cDi6E1z8h"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     }
   ]
 }

@@ -1,9 +1,36 @@
 {
   "date": "2026-04-07",
   "period": "evening",
-  "fetched_at": "2026-04-07T11:52:27.921820+00:00",
-  "review_count": 30,
+  "fetched_at": "2026-04-07T11:52:27.880731+00:00",
+  "raw_count": 104,
+  "candidate_count": 56,
+  "final_count": 19,
+  "review_count": 35,
+  "drop_hard_count": 2,
+  "disposition_stats": {
+    "brief_mention": 4,
+    "monitored_popular": 6,
+    "low_info_content": 30,
+    "info_value": 13,
+    "too_brief": 1,
+    "meme_or_reaction": 1,
+    "off_topic": 1
+  },
   "tweets": [
+    {
+      "tweet_id": "2041386515549532217",
+      "url": "https://x.com/elonmusk/status/2041386515549532217",
+      "screen_name": "elonmusk",
+      "created_at": "Tue Apr 07 05:24:07 +0000 2026",
+      "full_text": "Not who you want in charge of superintelligence",
+      "lang": "en",
+      "favorite_count": 33936,
+      "retweet_count": 3329,
+      "reply_count": 1873,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
     {
       "tweet_id": "2041255682154848600",
       "url": "https://x.com/somewheresy/status/2041255682154848600",
@@ -16,10 +43,7 @@
       "reply_count": 29,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041320039190561169",
@@ -87,10 +111,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041451672938123436",
@@ -104,10 +125,7 @@
       "reply_count": 31,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041076800047194538",
@@ -121,10 +139,101 @@
       "reply_count": 99,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
+    },
+    {
+      "tweet_id": "2041169306201841797",
+      "url": "https://x.com/messedupfoods/status/2041169306201841797",
+      "screen_name": "messedupfoods",
+      "created_at": "Mon Apr 06 15:01:00 +0000 2026",
+      "full_text": "about to setup openclaw on this bad boy https://t.co/OC4ou7E9ui",
+      "lang": "en",
+      "favorite_count": 6611,
+      "retweet_count": 677,
+      "reply_count": 15,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/OC4ou7E9ui",
+          "expanded_url": "https://x.com/messedupfoods/status/2041169306201841797/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 52,
+                  "w": 52,
+                  "x": 290,
+                  "y": 741
+                },
+                {
+                  "h": 135,
+                  "w": 135,
+                  "x": 471,
+                  "y": 768
+                }
+              ]
+            }
+          },
+          "id_str": "2041052542864637952",
+          "indices": [
+            40,
+            63
+          ],
+          "media_key": "3_2041052542864637952",
+          "media_url_https": "https://pbs.twimg.com/media/HFNGeUlawAAmsba.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 412,
+                "w": 736,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 736,
+                "w": 736,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 839,
+                "w": 736,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 987,
+                "w": 494,
+                "x": 23,
+                "y": 0
+              },
+              {
+                "h": 987,
+                "w": 736,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 987,
+            "width": 736
+          },
+          "sizes": {
+            "large": {
+              "h": 987,
+              "w": 736
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/OC4ou7E9ui"
+        }
+      ]
     },
     {
       "tweet_id": "2041314633978659092",
@@ -202,10 +311,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041270419013918931",
@@ -293,10 +399,7 @@
           "type": "photo",
           "url": "https://t.co/Y3a9Rz2kij"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041306161438507493",
@@ -411,10 +514,99 @@
           "type": "photo",
           "url": "https://t.co/PX3jNl07Eo"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
+    },
+    {
+      "tweet_id": "2041265590942220459",
+      "url": "https://x.com/KatieMiller/status/2041265590942220459",
+      "screen_name": "KatieMiller",
+      "created_at": "Mon Apr 06 21:23:36 +0000 2026",
+      "full_text": "After reading this piece on Sam Altman, one can reasonably conclude he’s put profit over loyalty, principles, and company governance.\n\nThere’s business savvy and ruthlessness, and there’s Sam, who at multiple points in his career has been the subject of investigations and forced",
+      "lang": "en",
+      "favorite_count": 3821,
+      "retweet_count": 556,
+      "reply_count": 259,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041339964877861159",
+      "url": "https://x.com/Indianinfoguide/status/2041339964877861159",
+      "screen_name": "Indianinfoguide",
+      "created_at": "Tue Apr 07 02:19:08 +0000 2026",
+      "full_text": "🚨DRDO scientists in Pune are developing a humanoid robot for frontline military missions,to reduce risk for troops. https://t.co/IXHDGN8s8L",
+      "lang": "en",
+      "favorite_count": 3783,
+      "retweet_count": 271,
+      "reply_count": 52,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/IXHDGN8s8L",
+          "expanded_url": "https://x.com/Indianinfoguide/status/2041339964877861159/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041339961518256129",
+          "indices": [
+            116,
+            139
+          ],
+          "media_key": "3_2041339961518256129",
+          "media_url_https": "https://pbs.twimg.com/media/HFRL4Sga8AEOiY5.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 560,
+                "w": 1000,
+                "x": 50,
+                "y": 0
+              },
+              {
+                "h": 560,
+                "w": 560,
+                "x": 270,
+                "y": 0
+              },
+              {
+                "h": 560,
+                "w": 491,
+                "x": 305,
+                "y": 0
+              },
+              {
+                "h": 560,
+                "w": 280,
+                "x": 410,
+                "y": 0
+              },
+              {
+                "h": 560,
+                "w": 1050,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 560,
+            "width": 1050
+          },
+          "sizes": {
+            "large": {
+              "h": 560,
+              "w": 1050
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/IXHDGN8s8L"
+        }
+      ]
     },
     {
       "tweet_id": "2041282248314335341",
@@ -428,10 +620,7 @@
       "reply_count": 113,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041134324465234366",
@@ -445,10 +634,21 @@
       "reply_count": 11,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
+    },
+    {
+      "tweet_id": "2041267467562193249",
+      "url": "https://x.com/garrytan/status/2041267467562193249",
+      "screen_name": "garrytan",
+      "created_at": "Mon Apr 06 21:31:03 +0000 2026",
+      "full_text": "I'm telling most everyone I know that they should build a personal OpenClaw",
+      "lang": "en",
+      "favorite_count": 3205,
+      "retweet_count": 261,
+      "reply_count": 116,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2041316063267168268",
@@ -462,10 +662,7 @@
       "reply_count": 43,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041169289667837965",
@@ -479,10 +676,7 @@
       "reply_count": 18,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041316773362848049",
@@ -573,10 +767,7 @@
           "type": "photo",
           "url": "https://t.co/r5RZtWavsU"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041315053190693304",
@@ -654,10 +845,7 @@
           "type": "photo",
           "url": "https://t.co/GBsmCOdZNb"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041204389654802897",
@@ -982,10 +1170,7 @@
           "type": "photo",
           "url": "https://t.co/EzpgnjAtC8"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041127530443555091",
@@ -1063,10 +1248,7 @@
           "type": "photo",
           "url": "https://t.co/akBJvZeNo6"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041179384552571246",
@@ -1080,10 +1262,7 @@
       "reply_count": 26,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041386280211075327",
@@ -1097,10 +1276,7 @@
       "reply_count": 8,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041266862902686146",
@@ -1114,10 +1290,7 @@
       "reply_count": 12,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041098635358699687",
@@ -1131,10 +1304,88 @@
       "reply_count": 2,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
+    },
+    {
+      "tweet_id": "2041138332252438660",
+      "url": "https://x.com/ThePrimeagen/status/2041138332252438660",
+      "screen_name": "ThePrimeagen",
+      "created_at": "Mon Apr 06 12:57:55 +0000 2026",
+      "full_text": "It's been 0 days since AGI was achieved https://t.co/VGQ8iiOnEl",
+      "lang": "en",
+      "favorite_count": 2496,
+      "retweet_count": 60,
+      "reply_count": 84,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/VGQ8iiOnEl",
+          "expanded_url": "https://x.com/ThePrimeagen/status/2041138332252438660/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041138322374852608",
+          "indices": [
+            40,
+            63
+          ],
+          "media_key": "3_2041138322374852608",
+          "media_url_https": "https://pbs.twimg.com/media/HFOUfWKXAAAYVSB.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 197,
+                "w": 352,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 197,
+                "w": 197,
+                "x": 34,
+                "y": 0
+              },
+              {
+                "h": 197,
+                "w": 173,
+                "x": 46,
+                "y": 0
+              },
+              {
+                "h": 197,
+                "w": 99,
+                "x": 83,
+                "y": 0
+              },
+              {
+                "h": 197,
+                "w": 1062,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 197,
+            "width": 1062
+          },
+          "sizes": {
+            "large": {
+              "h": 197,
+              "w": 1062
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/VGQ8iiOnEl"
+        }
+      ]
     },
     {
       "tweet_id": "2041143664869511267",
@@ -1212,10 +1463,7 @@
           "type": "photo",
           "url": "https://t.co/upSJ73cCpk"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041234963891442013",
@@ -1375,10 +1623,7 @@
           "type": "photo",
           "url": "https://t.co/26yugEiSwj"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041360016654172581",
@@ -1392,10 +1637,7 @@
       "reply_count": 29,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_value_pattern"
+      "media": []
     },
     {
       "tweet_id": "2041260593135469037",
@@ -1409,10 +1651,7 @@
       "reply_count": 11,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      "media": []
     },
     {
       "tweet_id": "2041274565406441740",
@@ -1488,10 +1727,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041133254586122605",
@@ -1505,10 +1741,7 @@
       "reply_count": 202,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041114696443683294",
@@ -1754,10 +1987,7 @@
           "type": "photo",
           "url": "https://t.co/LzNkQqmsVS"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041152080707285311",
@@ -1851,99 +2081,7 @@
           "type": "photo",
           "url": "https://t.co/ZkiLCZdVD6"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2041172854851408342",
-      "url": "https://x.com/ParagonTweaks/status/2041172854851408342",
-      "screen_name": "ParagonTweaks",
-      "created_at": "Mon Apr 06 15:15:06 +0000 2026",
-      "full_text": "Best Nvidia App + Nvidia Control Settings in 1 Minute\n\n(Lower Input Delay/Latency + Higher FPS) https://t.co/GzCZy8XueU",
-      "lang": "en",
-      "favorite_count": 2302,
-      "retweet_count": 125,
-      "reply_count": 40,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "additional_media_info": {
-            "monetizable": true
-          },
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/GzCZy8XueU",
-          "expanded_url": "https://x.com/ParagonTweaks/status/2041172854851408342/video/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "id_str": "2041164777188368384",
-          "indices": [
-            96,
-            119
-          ],
-          "media_key": "13_2041164777188368384",
-          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041164777188368384/img/SMOPB1ST69mp4CnK.jpg",
-          "original_info": {
-            "focus_rects": [],
-            "height": 2160,
-            "width": 3840
-          },
-          "sizes": {
-            "large": {
-              "h": 1152,
-              "w": 2048
-            }
-          },
-          "type": "video",
-          "url": "https://t.co/GzCZy8XueU",
-          "video_info": {
-            "aspect_ratio": [
-              16,
-              9
-            ],
-            "duration_millis": 75516,
-            "variants": [
-              {
-                "content_type": "application/x-mpegURL",
-                "url": "https://video.twimg.com/amplify_video/2041164777188368384/pl/kwTUdcn1-CUrlVrj.m3u8?v=c79"
-              },
-              {
-                "bitrate": 256000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2041164777188368384/vid/avc1/480x270/X8cot08RHxTQgjYQ.mp4"
-              },
-              {
-                "bitrate": 832000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2041164777188368384/vid/avc1/640x360/wjGpWMzFYKgKE4sQ.mp4"
-              },
-              {
-                "bitrate": 2176000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2041164777188368384/vid/avc1/1280x720/Q8XGvUbC5alczzra.mp4"
-              },
-              {
-                "bitrate": 10368000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2041164777188368384/vid/avc1/1920x1080/AiK9uvwxtSoWUffS.mp4"
-              },
-              {
-                "bitrate": 25128000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2041164777188368384/vid/avc1/3840x2160/61xnPl_WcOj27BRU.mp4"
-              }
-            ]
-          }
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      ]
     },
     {
       "tweet_id": "2041095335817465890",
@@ -2101,10 +2239,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041118812926308568",
@@ -2185,10 +2320,7 @@
           "type": "photo",
           "url": "https://t.co/pJgXrWK7xv"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     }
   ]
 }

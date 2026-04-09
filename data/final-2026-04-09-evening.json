@@ -1,25 +1,177 @@
 {
   "date": "2026-04-09",
   "period": "evening",
-  "fetched_at": "2026-04-09T11:54:12.258298+00:00",
+  "fetched_at": "2026-04-09T11:54:12.213676+00:00",
   "raw_count": 120,
   "candidate_count": 68,
-  "final_count": 15,
-  "review_count": 44,
-  "drop_hard_count": 9,
+  "final_count": 24,
+  "review_count": 43,
+  "drop_hard_count": 1,
   "disposition_stats": {
-    "low_info_ai_content": 29,
-    "brief_ai_mention": 9,
-    "low_value_pattern": 2,
-    "info_value": 11,
-    "not_ai_content": 9,
-    "high_signal_source": 2,
+    "low_info_content": 31,
+    "brief_mention": 8,
+    "info_value": 13,
+    "meme_or_reaction": 1,
+    "monitored_popular": 11,
     "weak_signal_untrusted": 3,
-    "info_value_trusted": 1,
-    "monitored_lenient": 1,
     "off_topic": 1
   },
   "tweets": [
+    {
+      "tweet_id": "2041916371014185430",
+      "url": "https://x.com/TrungTPhan/status/2041916371014185430",
+      "screen_name": "TrungTPhan",
+      "created_at": "Wed Apr 08 16:29:34 +0000 2026",
+      "full_text": "Claude Opus vs. Claude Mythos https://t.co/VId1kgFwNj",
+      "lang": "en",
+      "favorite_count": 9236,
+      "retweet_count": 293,
+      "reply_count": 83,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/VId1kgFwNj",
+          "expanded_url": "https://x.com/TrungTPhan/status/2041916371014185430/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 175,
+                  "w": 175,
+                  "x": 409,
+                  "y": 255
+                }
+              ]
+            }
+          },
+          "id_str": "2041916333282226176",
+          "indices": [
+            30,
+            53
+          ],
+          "media_key": "3_2041916333282226176",
+          "media_url_https": "https://pbs.twimg.com/media/HFZYFipa8AA0xD-.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 573,
+                "w": 1024,
+                "x": 0,
+                "y": 46
+              },
+              {
+                "h": 746,
+                "w": 746,
+                "x": 164,
+                "y": 0
+              },
+              {
+                "h": 746,
+                "w": 654,
+                "x": 210,
+                "y": 0
+              },
+              {
+                "h": 746,
+                "w": 373,
+                "x": 351,
+                "y": 0
+              },
+              {
+                "h": 746,
+                "w": 1024,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 746,
+            "width": 1024
+          },
+          "sizes": {
+            "large": {
+              "h": 746,
+              "w": 1024
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/VId1kgFwNj"
+        },
+        {
+          "display_url": "pic.x.com/VId1kgFwNj",
+          "expanded_url": "https://x.com/TrungTPhan/status/2041916371014185430/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 238,
+                  "w": 238,
+                  "x": 334,
+                  "y": 105
+                }
+              ]
+            }
+          },
+          "id_str": "2041916333135425542",
+          "indices": [
+            30,
+            53
+          ],
+          "media_key": "3_2041916333135425542",
+          "media_url_https": "https://pbs.twimg.com/media/HFZYFiGa8AYLlXm.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 536,
+                "w": 958,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 958,
+                "w": 958,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1024,
+                "w": 898,
+                "x": 37,
+                "y": 0
+              },
+              {
+                "h": 1024,
+                "w": 512,
+                "x": 230,
+                "y": 0
+              },
+              {
+                "h": 1024,
+                "w": 958,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1024,
+            "width": 958
+          },
+          "sizes": {
+            "large": {
+              "h": 1024,
+              "w": 958
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/VId1kgFwNj"
+        }
+      ]
+    },
     {
       "tweet_id": "2041902198305783888",
       "url": "https://x.com/chddaniel/status/2041902198305783888",
@@ -91,10 +243,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041963869695045944",
@@ -185,10 +334,7 @@
           "type": "photo",
           "url": "https://t.co/8kmcPUubpn"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041982449387810962",
@@ -261,10 +407,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      ]
     },
     {
       "tweet_id": "2041940149328834748",
@@ -278,10 +421,21 @@
       "reply_count": 155,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "info_value_trusted"
+      "media": []
+    },
+    {
+      "tweet_id": "2041929199976640948",
+      "url": "https://x.com/AnthropicAI/status/2041929199976640948",
+      "screen_name": "AnthropicAI",
+      "created_at": "Wed Apr 08 17:20:33 +0000 2026",
+      "full_text": "New on the Engineering Blog: \n\nBuilding Managed Agents—our hosted service for long-running agents—meant solving an old problem in computing: how to design a system for “programs as yet unthought of.”\n\nRead more: https://t.co/YYaEub2QGV",
+      "lang": "en",
+      "favorite_count": 2944,
+      "retweet_count": 361,
+      "reply_count": 189,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2042005043289977232",
@@ -295,10 +449,7 @@
       "reply_count": 600,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "monitored_lenient"
+      "media": []
     },
     {
       "tweet_id": "2041983079787721013",
@@ -312,10 +463,21 @@
       "reply_count": 157,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
+    },
+    {
+      "tweet_id": "2042075317414879351",
+      "url": "https://x.com/aakashgupta/status/2042075317414879351",
+      "screen_name": "aakashgupta",
+      "created_at": "Thu Apr 09 03:01:10 +0000 2026",
+      "full_text": "Piano and language are the only two childhood activities where the cognitive transfer effects have been replicated in 50+ years of research. And parents picked them by accident.\n\nPiano forces bilateral motor coordination. Your left hand and right hand play different rhythms",
+      "lang": "en",
+      "favorite_count": 2633,
+      "retweet_count": 325,
+      "reply_count": 32,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2041881992346964318",
@@ -393,10 +555,21 @@
           "type": "photo",
           "url": "https://t.co/IElTf4ameS"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2041865199485936018",
+      "url": "https://x.com/gregisenberg/status/2041865199485936018",
+      "screen_name": "gregisenberg",
+      "created_at": "Wed Apr 08 13:06:14 +0000 2026",
+      "full_text": "THE CLEAREST PATH TO A $10M+ SOFTWARE EXIT in 2 YEARS (with AI and agents)\n\nbuilding an agency right now is one of the most interesting business moves \n\nthe productized agency had its moment in 2022. it collapsed because scaling humans is a nightmare. inconsistent output, people",
+      "lang": "en",
+      "favorite_count": 2528,
+      "retweet_count": 166,
+      "reply_count": 221,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2042001376637542651",
@@ -484,10 +657,7 @@
           "type": "photo",
           "url": "https://t.co/duN5JhMmAg"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041885175898866170",
@@ -568,10 +738,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041951865802281299",
@@ -585,10 +752,116 @@
       "reply_count": 142,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
+    },
+    {
+      "tweet_id": "2041812497410543910",
+      "url": "https://x.com/paulg/status/2041812497410543910",
+      "screen_name": "paulg",
+      "created_at": "Wed Apr 08 09:36:49 +0000 2026",
+      "full_text": "No one in our family can tell lemons from limes with their eyes closed. We all thought we could, but no one could.\n\nI bet all bartenders know this.",
+      "lang": "en",
+      "favorite_count": 2222,
+      "retweet_count": 21,
+      "reply_count": 251,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041933602381033631",
+      "url": "https://x.com/aakashgupta/status/2041933602381033631",
+      "screen_name": "aakashgupta",
+      "created_at": "Wed Apr 08 17:38:02 +0000 2026",
+      "full_text": "Zuckerberg paid $14.3 billion for a 28-year-old who had never trained a frontier model. Nine months later, that bet just shipped.\n\nThe benchmark table tells you exactly what kind of lab Wang built. Muse Spark leads or ties Opus 4.6 and GPT 5.4 on multimodal perception, health",
+      "lang": "en",
+      "favorite_count": 2192,
+      "retweet_count": 191,
+      "reply_count": 82,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041927689397788789",
+      "url": "https://x.com/claudeai/status/2041927689397788789",
+      "screen_name": "claudeai",
+      "created_at": "Wed Apr 08 17:14:32 +0000 2026",
+      "full_text": "Shipping a production agent meant months of infrastructure work first.\n\nManaged Agents handles that for you. Define your agent's tasks, tools, and guardrails, and we run it on our infrastructure.\n\nHere's what early customers have built: https://t.co/TEMDa1eYNp",
+      "lang": "en",
+      "favorite_count": 2164,
+      "retweet_count": 128,
+      "reply_count": 31,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/TEMDa1eYNp",
+          "expanded_url": "https://x.com/claudeai/status/2041927689397788789/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041916566179098624",
+          "indices": [
+            237,
+            260
+          ],
+          "media_key": "3_2041916566179098624",
+          "media_url_https": "https://pbs.twimg.com/media/HFZYTGQXMAAnwB7.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 605,
+                "w": 1080,
+                "x": 0,
+                "y": 475
+              },
+              {
+                "h": 1080,
+                "w": 1080,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1080,
+                "w": 947,
+                "x": 67,
+                "y": 0
+              },
+              {
+                "h": 1080,
+                "w": 540,
+                "x": 270,
+                "y": 0
+              },
+              {
+                "h": 1080,
+                "w": 1080,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1080,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1080
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/TEMDa1eYNp"
+        }
+      ]
     },
     {
       "tweet_id": "2042090675835990334",
@@ -666,10 +939,21 @@
           "type": "photo",
           "url": "https://t.co/8fChZLArRC"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2042119324543115433",
+      "url": "https://x.com/aakashgupta/status/2042119324543115433",
+      "screen_name": "aakashgupta",
+      "created_at": "Thu Apr 09 05:56:02 +0000 2026",
+      "full_text": "The math on this heist should embarrass every ad agency on the planet.\n\n413,793 KitKat bars. 12 tons. Stolen somewhere between an Italian factory and Poland on March 26. The truck and cargo are still missing.\n\nNestlé's response: deploy a fake presidential motorcade through",
+      "lang": "en",
+      "favorite_count": 2095,
+      "retweet_count": 123,
+      "reply_count": 32,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2041969136012816755",
@@ -750,10 +1034,7 @@
           "type": "photo",
           "url": "https://t.co/aI1QxMDelm"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041910915763749257",
@@ -831,10 +1112,7 @@
           "type": "photo",
           "url": "https://t.co/nvT4nexVeH"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041856590341677378",
@@ -907,10 +1185,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041972675418189933",
@@ -983,10 +1258,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2041881236873077215",
+      "url": "https://x.com/cryptopunk7213/status/2041881236873077215",
+      "screen_name": "cryptopunk7213",
+      "created_at": "Wed Apr 08 14:09:57 +0000 2026",
+      "full_text": "wow so elon is training a 10T grok model to beat anthropic. ~$1.5+ billion cost 👀\n\nxai should have a claude mythos-level model in ~4 months\n\nthey’re also training 6 other models (1-6T size) SIMULTANEOUSLY\n\nhow? colossus 2 - the largest ai training site in the world. $18B worth",
+      "lang": "en",
+      "favorite_count": 2017,
+      "retweet_count": 110,
+      "reply_count": 74,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     }
   ]
 }

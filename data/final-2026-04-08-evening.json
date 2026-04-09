@@ -1,21 +1,19 @@
 {
   "date": "2026-04-08",
   "period": "evening",
-  "fetched_at": "2026-04-08T11:53:53.465827+00:00",
+  "fetched_at": "2026-04-08T11:53:53.421034+00:00",
   "raw_count": 109,
   "candidate_count": 63,
-  "final_count": 14,
+  "final_count": 20,
   "review_count": 40,
-  "drop_hard_count": 9,
+  "drop_hard_count": 3,
   "disposition_stats": {
-    "low_info_ai_content": 35,
-    "high_signal_source": 2,
+    "low_info_content": 38,
+    "monitored_popular": 9,
     "info_value": 11,
-    "not_ai_content": 9,
     "weak_signal_untrusted": 1,
     "off_topic": 3,
-    "monitored_lenient": 1,
-    "low_value_pattern": 1
+    "meme_or_reaction": 1
   },
   "tweets": [
     {
@@ -30,10 +28,7 @@
       "reply_count": 1431,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
     },
     {
       "tweet_id": "2041623274069839900",
@@ -47,10 +42,7 @@
       "reply_count": 411,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2041644441547481290",
@@ -138,10 +130,7 @@
           "type": "photo",
           "url": "https://t.co/ckd47Jup7w"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041602076602495146",
@@ -222,10 +211,7 @@
           "type": "photo",
           "url": "https://t.co/KgnZinXrDx"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041576806810370553",
@@ -310,10 +296,7 @@
           "type": "photo",
           "url": "https://t.co/qVojrFakUF"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041704763188793793",
@@ -398,10 +381,21 @@
           "type": "photo",
           "url": "https://t.co/P8dEQ09k81"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2041523399663784295",
+      "url": "https://x.com/aakashgupta/status/2041523399663784295",
+      "screen_name": "aakashgupta",
+      "created_at": "Tue Apr 07 14:28:02 +0000 2026",
+      "full_text": "These videos were the single most expensive flex in labor history.\n\nTech workers had the best negotiating position of any white-collar workforce in 50 years. Remote work, $250K+ comp, four-day work weeks, unlimited PTO. The only thing keeping that deal alive was ambiguity. Nobody",
+      "lang": "en",
+      "favorite_count": 3924,
+      "retweet_count": 419,
+      "reply_count": 43,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2041501396692873308",
@@ -482,10 +476,7 @@
           "type": "photo",
           "url": "https://t.co/RWJAxrc2vd"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041537215742767415",
@@ -499,10 +490,7 @@
       "reply_count": 5,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2041651298165256259",
@@ -575,10 +563,80 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "monitored_lenient"
+      ]
+    },
+    {
+      "tweet_id": "2041574044449857602",
+      "url": "https://x.com/googlechrome/status/2041574044449857602",
+      "screen_name": "googlechrome",
+      "created_at": "Tue Apr 07 17:49:17 +0000 2026",
+      "full_text": "Introducing a top-to-bottom update for your tabs…literally. Vertical tabs are coming to Chrome! 🚦\n\nAnd there is more: A full-page view free from distraction with a new immersive reading mode. https://t.co/axBqBNlnbW",
+      "lang": "en",
+      "favorite_count": 2711,
+      "retweet_count": 169,
+      "reply_count": 151,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/axBqBNlnbW",
+          "expanded_url": "https://x.com/googlechrome/status/2041574044449857602/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041574008525623296",
+          "indices": [
+            192,
+            215
+          ],
+          "media_key": "13_2041574008525623296",
+          "media_url_https": "https://pbs.twimg.com/media/HFUgxfGWsAA3mq-.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1920,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1920,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/axBqBNlnbW",
+          "video_info": {
+            "aspect_ratio": [
+              1,
+              1
+            ],
+            "duration_millis": 20000,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041574008525623296/pl/FtQQutXnRunANjvu.m3u8?tag=14"
+              },
+              {
+                "bitrate": 432000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041574008525623296/vid/avc1/320x320/6lfShxP_Yvp08Syr.mp4?tag=14"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041574008525623296/vid/avc1/540x540/pGiij58pFUa9oTy4.mp4?tag=14"
+              },
+              {
+                "bitrate": 1280000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041574008525623296/vid/avc1/720x720/uEWUluXyLb16uPMZ.mp4?tag=14"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2041599713972253067",
@@ -592,10 +650,7 @@
       "reply_count": 40,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2041442321351241997",
@@ -862,10 +917,21 @@
           "type": "photo",
           "url": "https://t.co/Urxa19MI8w"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2041644634599022786",
+      "url": "https://x.com/DKThomp/status/2041644634599022786",
+      "screen_name": "DKThomp",
+      "created_at": "Tue Apr 07 22:29:47 +0000 2026",
+      "full_text": "Bibi has been fruitlessly begging US admins to bomb Iran and unleash the animal spirits of regime change for decades, like some shitty startup striking out with traditional VCs, over and over again — and like the savvy CEO of a shitty startup idea, he finally found a dumb-money",
+      "lang": "en",
+      "favorite_count": 2609,
+      "retweet_count": 251,
+      "reply_count": 41,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2041648263078801765",
@@ -879,10 +945,7 @@
       "reply_count": 447,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
     },
     {
       "tweet_id": "2041471058314670358",
@@ -960,10 +1023,7 @@
           "type": "photo",
           "url": "https://t.co/ZT17g2uIQG"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041709994471727409",
@@ -977,10 +1037,49 @@
       "reply_count": 211,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
+    },
+    {
+      "tweet_id": "2041578407238996109",
+      "url": "https://x.com/AnthropicAI/status/2041578407238996109",
+      "screen_name": "AnthropicAI",
+      "created_at": "Tue Apr 07 18:06:37 +0000 2026",
+      "full_text": "Given the pace of AI progress, it won't be long before models this capable are widespread.\n\nBut there are strong reasons for optimism: AI will also be invaluable for defensive work.",
+      "lang": "en",
+      "favorite_count": 2306,
+      "retweet_count": 57,
+      "reply_count": 13,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041651309758275609",
+      "url": "https://x.com/mckaywrigley/status/2041651309758275609",
+      "screen_name": "mckaywrigley",
+      "created_at": "Tue Apr 07 22:56:18 +0000 2026",
+      "full_text": "society needs to grapple with the reality of a mythos-level model being open source in &lt;12 months.\n\ni’m not sure we are prepared.",
+      "lang": "en",
+      "favorite_count": 2206,
+      "retweet_count": 165,
+      "reply_count": 123,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041714270212108657",
+      "url": "https://x.com/openclaw/status/2041714270212108657",
+      "screen_name": "openclaw",
+      "created_at": "Wed Apr 08 03:06:29 +0000 2026",
+      "full_text": "OpenClaw 2026.4.7 🦞\n\n🔮 openclaw infer\n🎬 music + video editing\n💾 session branch/restore\n🔗 webhook-driven TaskFlows\n🤖 Arcee, Gemma 4, Ollama vision\n🧠 memory-wiki: persistent knowledge, not just vibes\n\nBecause “trust me bro” is not a knowledge system. https://t.co/L7OaBHA7Qg",
+      "lang": "en",
+      "favorite_count": 2174,
+      "retweet_count": 225,
+      "reply_count": 169,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     }
   ]
 }

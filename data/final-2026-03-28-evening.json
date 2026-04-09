@@ -1,20 +1,18 @@
 {
   "date": "2026-03-28",
   "period": "evening",
-  "fetched_at": "2026-03-28T11:27:02.521944+00:00",
+  "fetched_at": "2026-03-28T11:27:02.485805+00:00",
   "raw_count": 93,
   "candidate_count": 34,
-  "final_count": 7,
-  "review_count": 22,
-  "drop_hard_count": 5,
+  "final_count": 11,
+  "review_count": 20,
+  "drop_hard_count": 3,
   "disposition_stats": {
-    "low_info_ai_content": 14,
+    "low_info_content": 16,
     "off_topic": 3,
-    "info_value": 4,
-    "not_ai_content": 5,
-    "monitored_lenient": 2,
-    "brief_ai_mention": 5,
-    "high_signal_source": 1
+    "info_value": 5,
+    "monitored_popular": 6,
+    "brief_mention": 4
   },
   "tweets": [
     {
@@ -88,10 +86,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2037638554374099409",
@@ -169,10 +164,7 @@
           "type": "photo",
           "url": "https://t.co/OueEqXZnr7"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2037476279969353772",
@@ -250,10 +242,21 @@
           "type": "photo",
           "url": "https://t.co/EExnkGpjVh"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2037772179526615224",
+      "url": "https://x.com/aakashgupta/status/2037772179526615224",
+      "screen_name": "aakashgupta",
+      "created_at": "Sat Mar 28 06:02:02 +0000 2026",
+      "full_text": "Your visual cortex burns 44% of your brain's energy budget. Turning off the lights in the shower is the fastest way to slash that load to near zero.\n\nYour brain is 2% of your body weight but burns 20% of your total energy. Visual processing alone eats almost half of that. Every",
+      "lang": "en",
+      "favorite_count": 3511,
+      "retweet_count": 419,
+      "reply_count": 44,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2037557726126178749",
@@ -334,10 +337,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "monitored_lenient"
+      ]
     },
     {
       "tweet_id": "2037606694293795110",
@@ -422,10 +422,85 @@
           "type": "photo",
           "url": "https://t.co/iBHLMl4W0r"
         }
-      ],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "monitored_lenient"
+      ]
+    },
+    {
+      "tweet_id": "2037586898450006029",
+      "url": "https://x.com/Google/status/2037586898450006029",
+      "screen_name": "Google",
+      "created_at": "Fri Mar 27 17:45:47 +0000 2026",
+      "full_text": "Your headphones just became a personal translator in 70+ languages. 🎧✨\n\nGoogle Translate’s “Live translate” with headphones is officially on iOS. We're also expanding this capability to more countries around the world for both @Android and iOS users.\n\nTo try it, open the https://t.co/ETAG1yZSkF",
+      "lang": "en",
+      "favorite_count": 2351,
+      "retweet_count": 365,
+      "reply_count": 98,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/ETAG1yZSkF",
+          "expanded_url": "https://x.com/Google/status/2037586898450006029/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037586088747831296",
+          "indices": [
+            272,
+            295
+          ],
+          "media_key": "13_2037586088747831296",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037586088747831296/img/ZV3fUJszDUlFuHVj.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1440,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 1440,
+              "w": 1080
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/ETAG1yZSkF",
+          "video_info": {
+            "aspect_ratio": [
+              3,
+              4
+            ],
+            "duration_millis": 8750,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2037586088747831296/pl/SKinpKldFOwKi3vI.m3u8"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037586088747831296/vid/avc1/320x426/1nSvCt6DGQS-HIhu.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037586088747831296/vid/avc1/480x640/lOlgKNWyMhYHoQOo.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037586088747831296/vid/avc1/720x960/3lR2d1oYCGJOk1iK.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037586088747831296/vid/avc1/1080x1440/YzugSZF74fF8vteT.mp4"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2037498115553386553",
@@ -506,10 +581,7 @@
           "type": "photo",
           "url": "https://t.co/7NpXf3I1nJ"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2037715163562815817",
@@ -523,10 +595,301 @@
       "reply_count": 141,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
+    },
+    {
+      "tweet_id": "2037461154088296748",
+      "url": "https://x.com/kimmonismus/status/2037461154088296748",
+      "screen_name": "kimmonismus",
+      "created_at": "Fri Mar 27 09:26:07 +0000 2026",
+      "full_text": "Confirmed by Fortune: Opus 5: so good that it poses a danger.\n\nIt's a massive leap from version 4.6, and it's so advanced that it poses a huge security risk.\n\nThey'll roll it out slowly because they're concerned about unforeseen consequences, especially security risks.\n\nBesides https://t.co/eQoVsfi38L",
+      "lang": "en",
+      "favorite_count": 2078,
+      "retweet_count": 135,
+      "reply_count": 135,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/eQoVsfi38L",
+          "expanded_url": "https://x.com/kimmonismus/status/2037461154088296748/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037460105147629568",
+          "indices": [
+            279,
+            302
+          ],
+          "media_key": "3_2037460105147629568",
+          "media_url_https": "https://pbs.twimg.com/media/HEaDK7NawAAGFbo.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 306,
+                "w": 546,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 306,
+                "w": 306,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 306,
+                "w": 268,
+                "x": 2,
+                "y": 0
+              },
+              {
+                "h": 306,
+                "w": 153,
+                "x": 60,
+                "y": 0
+              },
+              {
+                "h": 306,
+                "w": 1093,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 306,
+            "width": 1093
+          },
+          "sizes": {
+            "large": {
+              "h": 306,
+              "w": 1093
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/eQoVsfi38L"
+        },
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/eQoVsfi38L",
+          "expanded_url": "https://x.com/kimmonismus/status/2037461154088296748/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037460156586528768",
+          "indices": [
+            279,
+            302
+          ],
+          "media_key": "3_2037460156586528768",
+          "media_url_https": "https://pbs.twimg.com/media/HEaDN61aEAAkD1K.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 655,
+                "w": 1170,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 655,
+                "w": 655,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 655,
+                "w": 575,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 655,
+                "w": 328,
+                "x": 10,
+                "y": 0
+              },
+              {
+                "h": 655,
+                "w": 1396,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 655,
+            "width": 1396
+          },
+          "sizes": {
+            "large": {
+              "h": 655,
+              "w": 1396
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/eQoVsfi38L"
+        },
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/eQoVsfi38L",
+          "expanded_url": "https://x.com/kimmonismus/status/2037461154088296748/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037460556760621056",
+          "indices": [
+            279,
+            302
+          ],
+          "media_key": "3_2037460556760621056",
+          "media_url_https": "https://pbs.twimg.com/media/HEaDlNmWIAAdXGb.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 371,
+                "w": 663,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 371,
+                "w": 371,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 371,
+                "w": 325,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 371,
+                "w": 186,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 371,
+                "w": 681,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 371,
+            "width": 681
+          },
+          "sizes": {
+            "large": {
+              "h": 371,
+              "w": 681
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/eQoVsfi38L"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2037486036004073718",
+      "url": "https://x.com/Python_Dv/status/2037486036004073718",
+      "screen_name": "Python_Dv",
+      "created_at": "Fri Mar 27 11:05:00 +0000 2026",
+      "full_text": "DeepSeek vs. ChatGPT https://t.co/H2We9eAz2I",
+      "lang": "en",
+      "favorite_count": 2005,
+      "retweet_count": 86,
+      "reply_count": 30,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/H2We9eAz2I",
+          "expanded_url": "https://x.com/Python_Dv/status/2037486036004073718/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037018206725169152",
+          "indices": [
+            21,
+            44
+          ],
+          "media_key": "3_2037018206725169152",
+          "media_url_https": "https://pbs.twimg.com/media/HETxRDTbYAAmoDi.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 818,
+                "w": 1461,
+                "x": 0,
+                "y": 313
+              },
+              {
+                "h": 1461,
+                "w": 1461,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1666,
+                "w": 1461,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1702,
+                "w": 851,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1702,
+                "w": 1461,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1702,
+            "width": 1461
+          },
+          "sizes": {
+            "large": {
+              "h": 1702,
+              "w": 1461
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/H2We9eAz2I"
+        }
+      ]
     }
   ]
 }

@@ -1,21 +1,62 @@
 {
   "date": "2026-03-31",
   "period": "evening",
-  "fetched_at": "2026-03-31T11:46:05.372567+00:00",
+  "fetched_at": "2026-03-31T11:46:05.333985+00:00",
   "raw_count": 107,
   "candidate_count": 57,
-  "final_count": 18,
+  "final_count": 28,
   "review_count": 28,
-  "drop_hard_count": 11,
+  "drop_hard_count": 1,
   "disposition_stats": {
-    "low_info_ai_content": 22,
-    "not_ai_content": 10,
-    "brief_ai_mention": 5,
-    "info_value": 18,
-    "too_brief": 1,
-    "low_value_pattern": 1
+    "low_info_content": 23,
+    "monitored_popular": 8,
+    "brief_mention": 5,
+    "info_value": 20,
+    "too_brief": 1
   },
   "tweets": [
+    {
+      "tweet_id": "2038752388249792541",
+      "url": "https://x.com/aakashgupta/status/2038752388249792541",
+      "screen_name": "aakashgupta",
+      "created_at": "Mon Mar 30 22:57:02 +0000 2026",
+      "full_text": "The machine that built the chip in this video should mass-humble every human who's ever lived.\n\nASML's latest EUV lithography system costs $370 million, weighs 180 tons, and requires three Boeing 747s to deliver. It contains over 100,000 individual parts from 5,100 suppliers",
+      "lang": "en",
+      "favorite_count": 11402,
+      "retweet_count": 1581,
+      "reply_count": 125,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2038813799856374135",
+      "url": "https://x.com/aakashgupta/status/2038813799856374135",
+      "screen_name": "aakashgupta",
+      "created_at": "Tue Mar 31 03:01:03 +0000 2026",
+      "full_text": "The timeline on this is genuinely insane.\n\nOctober 2025: Sam Altman flies to Seoul and signs simultaneous deals with Samsung and SK Hynix for 900,000 DRAM wafers per month. That's 40% of global supply. Neither company knew the other was signing a near-identical commitment at the",
+      "lang": "en",
+      "favorite_count": 7145,
+      "retweet_count": 948,
+      "reply_count": 148,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2038849654423798197",
+      "url": "https://x.com/karpathy/status/2038849654423798197",
+      "screen_name": "karpathy",
+      "created_at": "Tue Mar 31 05:23:32 +0000 2026",
+      "full_text": "New supply chain attack this time for npm axios, the most popular HTTP client library with 300M weekly downloads.\n\nScanning my system I found a use imported from googleworkspace/cli from a few days ago when I was experimenting with gmail/gcal cli. The installed version (luckily)",
+      "lang": "en",
+      "favorite_count": 7053,
+      "retweet_count": 770,
+      "reply_count": 361,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
     {
       "tweet_id": "2038690607405617310",
       "url": "https://x.com/jnsyaaa/status/2038690607405617310",
@@ -95,10 +136,7 @@
           "type": "photo",
           "url": "https://t.co/FrulxeKElu"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2038757628323430844",
@@ -176,10 +214,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2038719783680536692",
@@ -267,10 +302,7 @@
           "type": "photo",
           "url": "https://t.co/Y0iLQ1Ugfx"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2038623484813648183",
@@ -351,10 +383,88 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2038704289854767160",
+      "url": "https://x.com/shiri_shh/status/2038704289854767160",
+      "screen_name": "shiri_shh",
+      "created_at": "Mon Mar 30 19:45:54 +0000 2026",
+      "full_text": "People who spent $599 on a Mac Mini to run OpenClaw… now watching Base44 give you the same thing + 130 Skills for just $20/month https://t.co/mfn5bwpu32",
+      "lang": "en",
+      "favorite_count": 3333,
+      "retweet_count": 193,
+      "reply_count": 72,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/mfn5bwpu32",
+          "expanded_url": "https://x.com/shiri_shh/status/2038704289854767160/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2038703780804562944",
+          "indices": [
+            129,
+            152
+          ],
+          "media_key": "13_2038703780804562944",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2038703780804562944/img/OHXRWxxDcuU6zKxs.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/mfn5bwpu32",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 20665,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2038703780804562944/pl/Ba5QFuYJo9uY0xyS.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038703780804562944/vid/avc1/480x270/GQBJIA3SuLV4ddNJ.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038703780804562944/vid/avc1/640x360/X0Ke32pRYV8YyqYI.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038703780804562944/vid/avc1/1280x720/GSswirHXfLV-MjTS.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038703780804562944/vid/avc1/1920x1080/vmEzz2rnoz2NZp8H.mp4"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2038674824537551041",
@@ -368,10 +478,21 @@
       "reply_count": 8,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
+    },
+    {
+      "tweet_id": "2038722531746591219",
+      "url": "https://x.com/levelsio/status/2038722531746591219",
+      "screen_name": "levelsio",
+      "created_at": "Mon Mar 30 20:58:23 +0000 2026",
+      "full_text": "🇵🇹 If you have ever dealt with any Portuguese business (and I have with many in my 5 years here) you know why\n\nPortuguese in Portugal simply do not care about work, some foreigners find that refreshing, but it results in a country where you can't find anyone to do work because",
+      "lang": "en",
+      "favorite_count": 3038,
+      "retweet_count": 231,
+      "reply_count": 452,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2038835449012351197",
@@ -457,10 +578,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2038670330257109461",
@@ -538,10 +656,92 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2038808139492151329",
+      "url": "https://x.com/adxtyahq/status/2038808139492151329",
+      "screen_name": "adxtyahq",
+      "created_at": "Tue Mar 31 02:38:34 +0000 2026",
+      "full_text": "POV: you vibecode in production with Claude Code and it nuked itself\n$27,000 in 23 days on a $200 plan 💀 https://t.co/AWJBE1XKu1",
+      "lang": "en",
+      "favorite_count": 2810,
+      "retweet_count": 91,
+      "reply_count": 128,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/AWJBE1XKu1",
+          "expanded_url": "https://x.com/adxtyahq/status/2038808139492151329/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 363,
+                  "w": 363,
+                  "x": 556,
+                  "y": 133
+                }
+              ]
+            }
+          },
+          "id_str": "2038808132017938432",
+          "indices": [
+            105,
+            128
+          ],
+          "media_key": "3_2038808132017938432",
+          "media_url_https": "https://pbs.twimg.com/media/HEtNMaobYAA1DpN.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 599,
+                "w": 1070,
+                "x": 0,
+                "y": 706
+              },
+              {
+                "h": 1070,
+                "w": 1070,
+                "x": 0,
+                "y": 235
+              },
+              {
+                "h": 1220,
+                "w": 1070,
+                "x": 0,
+                "y": 85
+              },
+              {
+                "h": 1305,
+                "w": 653,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1305,
+                "w": 1070,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1305,
+            "width": 1070
+          },
+          "sizes": {
+            "large": {
+              "h": 1305,
+              "w": 1070
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/AWJBE1XKu1"
+        }
+      ]
     },
     {
       "tweet_id": "2038606144059675034",
@@ -596,10 +796,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2038685439045808221",
@@ -613,10 +810,7 @@
       "reply_count": 144,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2038690786821505378",
@@ -630,10 +824,7 @@
       "reply_count": 168,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2038625148354679270",
@@ -721,10 +912,166 @@
           "type": "photo",
           "url": "https://t.co/Dw0rqfKnaN"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2038614549973401699",
+      "url": "https://x.com/heynavtoor/status/2038614549973401699",
+      "screen_name": "heynavtoor",
+      "created_at": "Mon Mar 30 13:49:18 +0000 2026",
+      "full_text": "🚨 397 billion parameters. On a MacBook. No cloud. No GPU cluster. No data center. A laptop.\n\nSomeone  ran one of the largest AI models on Earth on a machine you can buy at the Apple Store.\n\nIt's called flash-moe.\n\nA pure C and Metal inference engine that runs Qwen3.5-397B on a https://t.co/0op6y4MT2c",
+      "lang": "en",
+      "favorite_count": 2387,
+      "retweet_count": 315,
+      "reply_count": 107,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/0op6y4MT2c",
+          "expanded_url": "https://x.com/heynavtoor/status/2038614549973401699/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2038614547456806912",
+          "indices": [
+            278,
+            301
+          ],
+          "media_key": "3_2038614547456806912",
+          "media_url_https": "https://pbs.twimg.com/media/HEqdIT8bUAABoPe.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 594,
+                "w": 1060,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1060,
+                "w": 1060,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1109,
+                "w": 973,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1109,
+                "w": 555,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1109,
+                "w": 1060,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1109,
+            "width": 1060
+          },
+          "sizes": {
+            "large": {
+              "h": 1109,
+              "w": 1060
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/0op6y4MT2c"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2038698494970433787",
+      "url": "https://x.com/techhalla/status/2038698494970433787",
+      "screen_name": "techhalla",
+      "created_at": "Mon Mar 30 19:22:53 +0000 2026",
+      "full_text": "Seedance 2.0 full prompt is below https://t.co/ht1ILQm7Kp",
+      "lang": "en",
+      "favorite_count": 2318,
+      "retweet_count": 162,
+      "reply_count": 148,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/ht1ILQm7Kp",
+          "expanded_url": "https://x.com/techhalla/status/2038698494970433787/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2038697772690599936",
+          "indices": [
+            34,
+            57
+          ],
+          "media_key": "13_2038697772690599936",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2038697772690599936/img/0AA8sLYMW9Firfzs.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1200,
+            "width": 900
+          },
+          "sizes": {
+            "large": {
+              "h": 1200,
+              "w": 900
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/ht1ILQm7Kp",
+          "video_info": {
+            "aspect_ratio": [
+              3,
+              4
+            ],
+            "duration_millis": 10709,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2038697772690599936/pl/AtHSPmPhq89WsWdT.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038697772690599936/vid/avc1/320x426/cmnybL-uzWj31Hsm.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038697772690599936/vid/avc1/480x640/GgnBFQvN1JaqfLFH.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038697772690599936/vid/avc1/720x960/nI9bOj-RAj5mcpfs.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038697772690599936/vid/avc1/900x1200/Ypz_s3crm-Gv5PeO.mp4"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2038637443780579753",
@@ -738,10 +1085,7 @@
       "reply_count": 46,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2038666714251169903",
@@ -929,10 +1273,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2038713289254064321",
@@ -1008,10 +1349,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2038562686280061403",
@@ -1105,10 +1443,7 @@
           "type": "photo",
           "url": "https://t.co/qQD4o0cIRD"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2038594593680478373",
@@ -1184,10 +1519,35 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2038682313253687435",
+      "url": "https://x.com/mckaywrigley/status/2038682313253687435",
+      "screen_name": "mckaywrigley",
+      "created_at": "Mon Mar 30 18:18:35 +0000 2026",
+      "full_text": "btw we’re 6-12 months away from ai tools being able to:\n\n- autonomously use any piece of software in the world\n- effortlessly clone it in a weekend\n- constantly monitor it for updates\n- add whatever features you want on top of it\n\nall without you ever needing to use your computer",
+      "lang": "en",
+      "favorite_count": 2103,
+      "retweet_count": 107,
+      "reply_count": 193,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2038640963036626971",
+      "url": "https://x.com/sama/status/2038640963036626971",
+      "screen_name": "sama",
+      "created_at": "Mon Mar 30 15:34:16 +0000 2026",
+      "full_text": "This is a very good post:",
+      "lang": "en",
+      "favorite_count": 2026,
+      "retweet_count": 145,
+      "reply_count": 483,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2038564207101436210",
@@ -1268,10 +1628,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2038709835307384890",
@@ -1419,10 +1776,7 @@
           "type": "photo",
           "url": "https://t.co/s5gma69lYw"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     }
   ]
 }

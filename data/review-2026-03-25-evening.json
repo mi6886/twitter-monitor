@@ -1,8 +1,21 @@
 {
   "date": "2026-03-25",
   "period": "evening",
-  "fetched_at": "2026-03-25T11:39:52.773424+00:00",
-  "review_count": 11,
+  "fetched_at": "2026-03-25T11:39:52.756458+00:00",
+  "raw_count": 34,
+  "candidate_count": 17,
+  "final_count": 4,
+  "review_count": 10,
+  "drop_hard_count": 3,
+  "disposition_stats": {
+    "low_info_content": 8,
+    "off_topic": 2,
+    "meme_or_reaction": 1,
+    "too_brief": 1,
+    "monitored_popular": 3,
+    "brief_mention": 1,
+    "info_value": 1
+  },
   "tweets": [
     {
       "tweet_id": "2036697018777890944",
@@ -75,186 +88,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2036702730295918712",
-      "url": "https://x.com/GMMTV/status/2036702730295918712",
-      "screen_name": "GMMTV",
-      "created_at": "Wed Mar 25 07:12:25 +0000 2026",
-      "full_text": "You’re my favorite danger \nDangerous - GEMINI\n\nMUSIC VIDEO RELEASE\n27.03.2026\n\n📺YouTube : RISER MUSIC\n&amp; ALL STREAMING\n\n#DangerousGEMINI\n.\n#GEMINI_NT\n#RISERMUSIC @gemini_ti https://t.co/9EMypYLrQu",
-      "lang": "en",
-      "favorite_count": 2796,
-      "retweet_count": 2182,
-      "reply_count": 33,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/9EMypYLrQu",
-          "expanded_url": "https://x.com/GMMTV/status/2036702730295918712/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": [
-                {
-                  "h": 116,
-                  "w": 116,
-                  "x": 272,
-                  "y": 876
-                },
-                {
-                  "h": 316,
-                  "w": 316,
-                  "x": 354,
-                  "y": 440
-                }
-              ]
-            }
-          },
-          "id_str": "2036702484895604736",
-          "indices": [
-            176,
-            199
-          ],
-          "media_key": "3_2036702484895604736",
-          "media_url_https": "https://pbs.twimg.com/media/HEPSHn1boAAmKtI.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 1835,
-                "w": 3277,
-                "x": 0,
-                "y": 4
-              },
-              {
-                "h": 3277,
-                "w": 3277,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 3736,
-                "w": 3277,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 4096,
-                "w": 2048,
-                "x": 716,
-                "y": 0
-              },
-              {
-                "h": 4096,
-                "w": 3277,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 4096,
-            "width": 3277
-          },
-          "sizes": {
-            "large": {
-              "h": 2048,
-              "w": 1639
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/9EMypYLrQu"
-        },
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/9EMypYLrQu",
-          "expanded_url": "https://x.com/GMMTV/status/2036702730295918712/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": [
-                {
-                  "h": 72,
-                  "w": 72,
-                  "x": 766,
-                  "y": 914
-                },
-                {
-                  "h": 180,
-                  "w": 180,
-                  "x": 782,
-                  "y": 310
-                }
-              ]
-            }
-          },
-          "id_str": "2036702484614529024",
-          "indices": [
-            176,
-            199
-          ],
-          "media_key": "3_2036702484614529024",
-          "media_url_https": "https://pbs.twimg.com/media/HEPSHmyawAAHiLD.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 1835,
-                "w": 3277,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 3277,
-                "w": 3277,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 3736,
-                "w": 3277,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 4096,
-                "w": 2048,
-                "x": 716,
-                "y": 0
-              },
-              {
-                "h": 4096,
-                "w": 3277,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 4096,
-            "width": 3277
-          },
-          "sizes": {
-            "large": {
-              "h": 2048,
-              "w": 1639
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/9EMypYLrQu"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      ]
     },
     {
       "tweet_id": "2036701623431635129",
@@ -335,10 +169,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036702277944357170",
@@ -419,10 +250,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036698748563415076",
@@ -508,10 +336,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036577477565231539",
@@ -665,10 +490,7 @@
           "type": "photo",
           "url": "https://t.co/Ndua9SaNk7"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036648337164874095",
@@ -756,10 +578,7 @@
           "type": "photo",
           "url": "https://t.co/hufN7ukwAY"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_value_pattern"
+      ]
     },
     {
       "tweet_id": "2036526157206560971",
@@ -773,10 +592,7 @@
       "reply_count": 12,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2036689122212130841",
@@ -849,10 +665,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036467957027709313",
@@ -933,10 +746,7 @@
           "type": "photo",
           "url": "https://t.co/BJaYnQSUVO"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2036558185574834624",
@@ -950,10 +760,7 @@
       "reply_count": 53,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     }
   ]
 }

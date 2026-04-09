@@ -1,8 +1,19 @@
 {
   "date": "2026-04-04",
   "period": "evening",
-  "fetched_at": "2026-04-04T11:27:27.532531+00:00",
-  "review_count": 24,
+  "fetched_at": "2026-04-04T11:27:27.499133+00:00",
+  "raw_count": 75,
+  "candidate_count": 40,
+  "final_count": 13,
+  "review_count": 25,
+  "drop_hard_count": 2,
+  "disposition_stats": {
+    "low_info_content": 24,
+    "info_value": 8,
+    "monitored_popular": 5,
+    "off_topic": 2,
+    "meme_or_reaction": 1
+  },
   "tweets": [
     {
       "tweet_id": "2040103683552088149",
@@ -16,10 +27,7 @@
       "reply_count": 80,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040130034221166910",
@@ -33,10 +41,7 @@
       "reply_count": 19,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040147643083489728",
@@ -50,10 +55,7 @@
       "reply_count": 31,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040247648079286743",
@@ -220,27 +222,101 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
-      "tweet_id": "2040209434019082522",
-      "url": "https://x.com/steipete/status/2040209434019082522",
-      "screen_name": "steipete",
-      "created_at": "Fri Apr 03 23:26:48 +0000 2026",
-      "full_text": "woke up and my mentions are full of these\n\nBoth me and @davemorin tried to talk sense into Anthropic, best we managed was delaying this for a week.\n\nFunny how timings match up, first they copy some popular features into their closed harness, then they lock out open source.",
-      "lang": "en",
-      "favorite_count": 4071,
-      "retweet_count": 350,
-      "reply_count": 420,
+      "tweet_id": "2040087253956129126",
+      "url": "https://x.com/soroshijueputa2/status/2040087253956129126",
+      "screen_name": "soroshijueputa2",
+      "created_at": "Fri Apr 03 15:21:18 +0000 2026",
+      "full_text": "🇺🇸✡🕎 El multimillonario judío estadounidense Sam Altman, CEO de Open AI, fue demandado ayer por su propia hermana por abuso sexual y violación continuada. Annie Altman ha acusado a Sam Altman de abusar sexualmente de ella y violarla entre 1997 y 2006. Afirma que el abuso sexual https://t.co/xIIBmLMwhe",
+      "lang": "es",
+      "favorite_count": 4489,
+      "retweet_count": 3316,
+      "reply_count": 213,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/xIIBmLMwhe",
+          "expanded_url": "https://x.com/soroshijueputa2/status/2040087253956129126/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 169,
+                  "w": 169,
+                  "x": 100,
+                  "y": 137
+                },
+                {
+                  "h": 250,
+                  "w": 250,
+                  "x": 367,
+                  "y": 341
+                }
+              ]
+            }
+          },
+          "id_str": "2040087250118316032",
+          "indices": [
+            279,
+            302
+          ],
+          "media_key": "3_2040087250118316032",
+          "media_url_https": "https://pbs.twimg.com/media/HE_Yi44bEAAO-Xe.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 434,
+                "w": 775,
+                "x": 0,
+                "y": 2
+              },
+              {
+                "h": 775,
+                "w": 775,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 797,
+                "w": 699,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 797,
+                "w": 399,
+                "x": 20,
+                "y": 0
+              },
+              {
+                "h": 797,
+                "w": 775,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 797,
+            "width": 775
+          },
+          "sizes": {
+            "large": {
+              "h": 797,
+              "w": 775
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/xIIBmLMwhe"
+        }
+      ]
     },
     {
       "tweet_id": "2040053353967747440",
@@ -313,10 +389,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040041624558801320",
@@ -457,10 +530,7 @@
           "type": "photo",
           "url": "https://t.co/Sz1eHQkMOi"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040196620390961605",
@@ -474,10 +544,7 @@
       "reply_count": 39,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040208978614137075",
@@ -558,10 +625,7 @@
           "type": "photo",
           "url": "https://t.co/6fBZpkQMQQ"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040044096526635022",
@@ -575,10 +639,7 @@
       "reply_count": 238,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040129074618880117",
@@ -592,10 +653,7 @@
       "reply_count": 51,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040199632211333563",
@@ -676,10 +734,7 @@
           "type": "photo",
           "url": "https://t.co/VEOdzvBxpA"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040058745796145632",
@@ -693,10 +748,7 @@
       "reply_count": 67,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040308396218520027",
@@ -786,10 +838,7 @@
           "type": "photo",
           "url": "https://t.co/RHATLROWD6"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040026525802877130",
@@ -954,10 +1003,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040199979927482618",
@@ -1038,10 +1084,7 @@
           "type": "photo",
           "url": "https://t.co/TrVI64LucJ"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_value_pattern"
+      ]
     },
     {
       "tweet_id": "2040059212978676040",
@@ -1189,10 +1232,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040029508544393472",
@@ -1286,10 +1326,7 @@
           "type": "photo",
           "url": "https://t.co/hRSACef002"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2039985907869077532",
@@ -1362,10 +1399,88 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
+    },
+    {
+      "tweet_id": "2040142054211117218",
+      "url": "https://x.com/dr_cintas/status/2040142054211117218",
+      "screen_name": "dr_cintas",
+      "created_at": "Fri Apr 03 18:59:04 +0000 2026",
+      "full_text": "Google Stitch has released 𝗗𝗘𝗦𝗜𝗚𝗡.𝗺𝗱 🤯\n\nOne markdown file that teaches your AI coding agent your entire design system.\n\n→ No Figma exports\n→ No JSON schemas\n→ Nothing to configure\n\nThe part that saves the most time: \n\nA free collection of 40+ pre-built files already https://t.co/Ds4dhMyany",
+      "lang": "en",
+      "favorite_count": 2150,
+      "retweet_count": 269,
+      "reply_count": 35,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/Ds4dhMyany",
+          "expanded_url": "https://x.com/dr_cintas/status/2040142054211117218/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2040138048806236160",
+          "indices": [
+            267,
+            290
+          ],
+          "media_key": "3_2040138048806236160",
+          "media_url_https": "https://pbs.twimg.com/media/HFAGvwvasAAC5Py.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 447,
+                "w": 798,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 798,
+                "w": 798,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 910,
+                "w": 798,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 962,
+                "w": 481,
+                "x": 159,
+                "y": 0
+              },
+              {
+                "h": 962,
+                "w": 798,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 962,
+            "width": 798
+          },
+          "sizes": {
+            "large": {
+              "h": 962,
+              "w": 798
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Ds4dhMyany"
+        }
+      ]
     },
     {
       "tweet_id": "2040024966020952366",
@@ -1379,10 +1494,7 @@
       "reply_count": 8,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040230479392395539",
@@ -1396,10 +1508,7 @@
       "reply_count": 156,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040007933656711349",
@@ -1546,10 +1655,7 @@
           "type": "photo",
           "url": "https://t.co/yYZwdl8rip"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040051647309606990",
@@ -1699,10 +1805,7 @@
           "type": "photo",
           "url": "https://t.co/nfZa6fjiJ5"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040077930349437044",
@@ -1787,10 +1890,7 @@
           "type": "photo",
           "url": "https://t.co/TSfpINKjgo"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     }
   ]
 }

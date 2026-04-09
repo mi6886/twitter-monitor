@@ -1,22 +1,21 @@
 {
   "date": "2026-03-29",
   "period": "evening",
-  "fetched_at": "2026-03-29T11:27:14.015620+00:00",
+  "fetched_at": "2026-03-29T11:27:13.982535+00:00",
   "raw_count": 90,
   "candidate_count": 34,
-  "final_count": 8,
+  "final_count": 14,
   "review_count": 18,
-  "drop_hard_count": 8,
+  "drop_hard_count": 2,
   "disposition_stats": {
-    "info_value": 7,
-    "brief_ai_mention": 1,
-    "not_ai_content": 7,
-    "low_info_ai_content": 14,
+    "info_value": 6,
+    "brief_mention": 1,
+    "low_info_content": 15,
+    "monitored_popular": 8,
     "too_brief": 1,
     "off_topic": 1,
     "weak_signal_untrusted": 1,
-    "low_value_pattern": 1,
-    "monitored_lenient": 1
+    "meme_or_reaction": 1
   },
   "tweets": [
     {
@@ -31,10 +30,7 @@
       "reply_count": 531,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2038077441911275594",
@@ -48,10 +44,85 @@
       "reply_count": 128,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
+    },
+    {
+      "tweet_id": "2038056509805142383",
+      "url": "https://x.com/bcherny/status/2038056509805142383",
+      "screen_name": "bcherny",
+      "created_at": "Sun Mar 29 00:51:51 +0000 2026",
+      "full_text": "A weird part of working at Anthropic: getting a few of these each day https://t.co/cuOKBo0rPr",
+      "lang": "en",
+      "favorite_count": 4672,
+      "retweet_count": 71,
+      "reply_count": 391,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/cuOKBo0rPr",
+          "expanded_url": "https://x.com/bcherny/status/2038056509805142383/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2038056408697192448",
+          "indices": [
+            70,
+            93
+          ],
+          "media_key": "3_2038056408697192448",
+          "media_url_https": "https://pbs.twimg.com/media/HEihgXCawAApTeL.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1030,
+                "w": 1839,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1030,
+                "w": 1030,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1030,
+                "w": 904,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1030,
+                "w": 515,
+                "x": 166,
+                "y": 0
+              },
+              {
+                "h": 1030,
+                "w": 1880,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1030,
+            "width": 1880
+          },
+          "sizes": {
+            "large": {
+              "h": 1030,
+              "w": 1880
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/cuOKBo0rPr"
+        }
+      ]
     },
     {
       "tweet_id": "2038005796630643158",
@@ -65,10 +136,7 @@
       "reply_count": 204,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2037815813843898829",
@@ -249,10 +317,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2037959914971377874",
+      "url": "https://x.com/aakashgupta/status/2037959914971377874",
+      "screen_name": "aakashgupta",
+      "created_at": "Sat Mar 28 18:28:01 +0000 2026",
+      "full_text": "The guy who helped build React, the most popular workaround for the browser's layout engine, just said the workaround isn't sufficient and built the replacement himself.\n\nCheng Lou's resume is the context that makes this announcement hit different. He worked on React at Facebook.",
+      "lang": "en",
+      "favorite_count": 2996,
+      "retweet_count": 278,
+      "reply_count": 46,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2038058835303371085",
@@ -266,10 +345,7 @@
       "reply_count": 41,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "monitored_lenient"
+      "media": []
     },
     {
       "tweet_id": "2038004101162967059",
@@ -360,10 +436,21 @@
           "type": "photo",
           "url": "https://t.co/D0XeS8zF31"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2037915875563765949",
+      "url": "https://x.com/aakashgupta/status/2037915875563765949",
+      "screen_name": "aakashgupta",
+      "created_at": "Sat Mar 28 15:33:02 +0000 2026",
+      "full_text": "Google just mass-obsoleted a feature Apple charges $249 to access.\n\nApple's Live Translation requires AirPods Pro 2 or newer, an iPhone 15 Pro or later, iOS 26, Apple Intelligence enabled, and a downloaded language pack. After meeting all five requirements, you get 5 languages.",
+      "lang": "en",
+      "favorite_count": 2190,
+      "retweet_count": 252,
+      "reply_count": 88,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2038021723719688266",
@@ -377,10 +464,171 @@
       "reply_count": 118,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
+    },
+    {
+      "tweet_id": "2037856950227239235",
+      "url": "https://x.com/tranmautritam/status/2037856950227239235",
+      "screen_name": "tranmautritam",
+      "created_at": "Sat Mar 28 11:38:53 +0000 2026",
+      "full_text": "Dear algo, plz show more content like this\n\nI don’t mind hitting the translate button to understand, or even don’t need it…\n\nThe design speaks for itself\n\n https://t.co/8O2j6GkLRr",
+      "lang": "en",
+      "favorite_count": 2183,
+      "retweet_count": 85,
+      "reply_count": 11,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {},
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": true,
+                  "legacy": {
+                    "advertiser_account_service_levels": [
+                      "analytics"
+                    ],
+                    "advertiser_account_type": "promotable_user",
+                    "analytics_type": "enabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": true,
+                    "can_media_tag": true,
+                    "created_at": "Mon Mar 12 16:36:45 +0000 2012",
+                    "description": "CSSアニメーション屋さん",
+                    "entities": {
+                      "description": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [],
+                        "user_mentions": []
+                      },
+                      "url": {
+                        "urls": [
+                          {
+                            "display_url": "yui540.com",
+                            "expanded_url": "https://yui540.com",
+                            "indices": [
+                              0,
+                              23
+                            ],
+                            "url": "https://t.co/qfHBUcn6P9"
+                          }
+                        ]
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 10960,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 21804,
+                    "following": false,
+                    "friends_count": 781,
+                    "geo_enabled": false,
+                    "has_custom_timelines": true,
+                    "has_extended_profile": false,
+                    "id_str": "522391433",
+                    "is_translator": false,
+                    "location": "",
+                    "media_count": 1120,
+                    "muting": false,
+                    "name": "yui540",
+                    "normal_followers_count": 21804,
+                    "notifications": false,
+                    "pinned_tweet_ids_str": [
+                      "2036666801120305592"
+                    ],
+                    "profile_background_color": "000000",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/522391433/1771204715",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1998260440758140928/Yw4oQOjY_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "779EAA",
+                    "protected": false,
+                    "screen_name": "yui540",
+                    "statuses_count": 5053,
+                    "translator_type_enum": "None",
+                    "url": "https://t.co/qfHBUcn6P9",
+                    "verified": false,
+                    "want_retweets": false,
+                    "withheld_in_countries": []
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Circle",
+                  "rest_id": "522391433",
+                  "super_follow_eligible": false,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/8O2j6GkLRr",
+          "expanded_url": "https://x.com/yui540/status/2037810504983621733/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037810389812121600",
+          "indices": [
+            156,
+            179
+          ],
+          "media_key": "13_2037810389812121600",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037810389812121600/img/uyrxwzp-iqHttthG.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1534,
+            "width": 1534
+          },
+          "sizes": {
+            "large": {
+              "h": 1534,
+              "w": 1534
+            }
+          },
+          "source_status_id_str": "2037810504983621733",
+          "source_user_id_str": "522391433",
+          "type": "video",
+          "url": "https://t.co/8O2j6GkLRr",
+          "video_info": {
+            "aspect_ratio": [
+              1,
+              1
+            ],
+            "duration_millis": 22733,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2037810389812121600/pl/P8ZssTmOh_n0oo4S.m3u8"
+              },
+              {
+                "bitrate": 432000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037810389812121600/vid/avc1/320x320/RBDlYprihob8FZO4.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037810389812121600/vid/avc1/540x540/9W_rfVYt0KpAKDuE.mp4"
+              },
+              {
+                "bitrate": 1280000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037810389812121600/vid/avc1/720x720/RqHmVMb9o8nN1CqP.mp4"
+              },
+              {
+                "bitrate": 8768000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037810389812121600/vid/avc1/1080x1080/XjSfluqUn7Fj8Gue.mp4"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2038163128219832489",
@@ -461,10 +709,166 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2037864710029169065",
+      "url": "https://x.com/sharbel/status/2037864710029169065",
+      "screen_name": "sharbel",
+      "created_at": "Sat Mar 28 12:09:43 +0000 2026",
+      "full_text": "Someone just open sourced a tool that lets your AI agents scrape Twitter, Reddit, YouTube, Github + more.\n\nZero API fees.\n\nHere's how to actually use this:\n\n• Plug it into openclaw. Agent pulls real-time trends, no rate limits.\n• Build market intel bot: scans reddit + X for https://t.co/BR9qfxNxMU",
+      "lang": "en",
+      "favorite_count": 2084,
+      "retweet_count": 207,
+      "reply_count": 98,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/BR9qfxNxMU",
+          "expanded_url": "https://x.com/sharbel/status/2037864710029169065/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037864704518094848",
+          "indices": [
+            275,
+            298
+          ],
+          "media_key": "3_2037864704518094848",
+          "media_url_https": "https://pbs.twimg.com/media/HEfzJtUbgAA_txQ.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 739,
+                "w": 1320,
+                "x": 0,
+                "y": 697
+              },
+              {
+                "h": 1320,
+                "w": 1320,
+                "x": 0,
+                "y": 151
+              },
+              {
+                "h": 1471,
+                "w": 1290,
+                "x": 15,
+                "y": 0
+              },
+              {
+                "h": 1471,
+                "w": 736,
+                "x": 292,
+                "y": 0
+              },
+              {
+                "h": 1471,
+                "w": 1320,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1471,
+            "width": 1320
+          },
+          "sizes": {
+            "large": {
+              "h": 1471,
+              "w": 1320
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/BR9qfxNxMU"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2037839641215398223",
+      "url": "https://x.com/GithubProjects/status/2037839641215398223",
+      "screen_name": "GithubProjects",
+      "created_at": "Sat Mar 28 10:30:06 +0000 2026",
+      "full_text": "Give your ai agent eyes to see the entire internet for free\n\nRead &amp; search\n- Twitter,\n- Reddit,\n- YouTube,\n- GitHub,\n- Bilibili,\n- XiaoHongShu\n\nOne CLI, zero API fees. https://t.co/tFMTGmbbKi",
+      "lang": "en",
+      "favorite_count": 2039,
+      "retweet_count": 213,
+      "reply_count": 50,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/tFMTGmbbKi",
+          "expanded_url": "https://x.com/GithubProjects/status/2037839641215398223/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037839638942056448",
+          "indices": [
+            172,
+            195
+          ],
+          "media_key": "3_2037839638942056448",
+          "media_url_https": "https://pbs.twimg.com/media/HEfcWsxaAAAWiNL.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 668,
+                "w": 1193,
+                "x": 354,
+                "y": 0
+              },
+              {
+                "h": 668,
+                "w": 668,
+                "x": 616,
+                "y": 0
+              },
+              {
+                "h": 668,
+                "w": 586,
+                "x": 657,
+                "y": 0
+              },
+              {
+                "h": 668,
+                "w": 334,
+                "x": 783,
+                "y": 0
+              },
+              {
+                "h": 668,
+                "w": 1900,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 668,
+            "width": 1900
+          },
+          "sizes": {
+            "large": {
+              "h": 668,
+              "w": 1900
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/tFMTGmbbKi"
+        }
+      ]
     }
   ]
 }

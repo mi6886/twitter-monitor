@@ -1,22 +1,35 @@
 {
   "date": "2026-04-07",
   "period": "morning",
-  "fetched_at": "2026-04-06T23:27:03.597059+00:00",
+  "fetched_at": "2026-04-06T23:27:03.566424+00:00",
   "raw_count": 76,
   "candidate_count": 44,
-  "final_count": 7,
+  "final_count": 14,
   "review_count": 29,
-  "drop_hard_count": 8,
+  "drop_hard_count": 1,
   "disposition_stats": {
-    "low_info_ai_content": 23,
-    "brief_ai_mention": 4,
-    "not_ai_content": 8,
-    "high_signal_source": 1,
+    "low_info_content": 24,
+    "brief_mention": 4,
+    "info_value": 7,
+    "monitored_popular": 7,
     "off_topic": 1,
-    "info_value": 6,
-    "low_value_pattern": 1
+    "meme_or_reaction": 1
   },
   "tweets": [
+    {
+      "tweet_id": "2041061191435395416",
+      "url": "https://x.com/Joestar_sann/status/2041061191435395416",
+      "screen_name": "Joestar_sann",
+      "created_at": "Mon Apr 06 07:51:23 +0000 2026",
+      "full_text": "so let me get this straight\n\nall of ai twitter was telling people to buy a mac mini to run openclaw, which is literally just a framework, an orchestration layer that sends api requests to actual ai models. something you can run on a $5/month vps. which is exactly what i do btw",
+      "lang": "en",
+      "favorite_count": 8860,
+      "retweet_count": 523,
+      "reply_count": 368,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
     {
       "tweet_id": "2041275561704931636",
       "url": "https://x.com/AnthropicAI/status/2041275561704931636",
@@ -29,10 +42,204 @@
       "reply_count": 240,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
+    },
+    {
+      "tweet_id": "2041112253349442037",
+      "url": "https://x.com/levelsio/status/2041112253349442037",
+      "screen_name": "levelsio",
+      "created_at": "Mon Apr 06 11:14:17 +0000 2026",
+      "full_text": "Tried Gemma 4 ran locally on my iPhone today\n\nI thought it'd be useful in case the apocalypse happens and I need to ask it for survival tips\n\nLike how to make a fire 🔥 \n\nI guess I'll freeze to death instead 🫠 https://t.co/lFHKm5mcnd",
+      "lang": "en",
+      "favorite_count": 4214,
+      "retweet_count": 107,
+      "reply_count": 389,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/lFHKm5mcnd",
+          "expanded_url": "https://x.com/levelsio/status/2041112253349442037/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041112129609027584",
+          "indices": [
+            209,
+            232
+          ],
+          "media_key": "13_2041112129609027584",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041112129609027584/img/ce2x6l6p3lZ9FRb6.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 2868,
+            "width": 1320
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 943
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/lFHKm5mcnd",
+          "video_info": {
+            "aspect_ratio": [
+              110,
+              239
+            ],
+            "duration_millis": 10868,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041112129609027584/pl/n-r14Vi1r8AXmxtn.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041112129609027584/vid/avc1/320x694/4t0LkNnzCDDygpS-.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041112129609027584/vid/avc1/480x1042/JSvrfgNM4yBaE7P7.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041112129609027584/vid/avc1/720x1564/0jSomIFIBOiJeOE8.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041112129609027584/vid/avc1/1320x2868/7yerHxvfTgDcXPTk.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041109951461142804",
+      "url": "https://x.com/paulg/status/2041109951461142804",
+      "screen_name": "paulg",
+      "created_at": "Mon Apr 06 11:05:09 +0000 2026",
+      "full_text": "@shaunmmaguire They're not against America. They're against Trump. \n\nTrump is harming American interests and, more dangerously, undermining the principles that make America great. By opposing him, they're supporting America.",
+      "lang": "en",
+      "favorite_count": 3936,
+      "retweet_count": 116,
+      "reply_count": 121,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041169571592524163",
+      "url": "https://x.com/aakashgupta/status/2041169571592524163",
+      "screen_name": "aakashgupta",
+      "created_at": "Mon Apr 06 15:02:03 +0000 2026",
+      "full_text": "The story behind the rise of USB-A is wild.\n\nIn 1990, an Intel engineer named Ajay Bhatt couldn't get his wife's printer to work for their daughter's school project. A printer. In his own house. He was a senior architect at the world's biggest chip company, and he couldn't make a",
+      "lang": "en",
+      "favorite_count": 3849,
+      "retweet_count": 609,
+      "reply_count": 71,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041186430974615613",
+      "url": "https://x.com/DKThomp/status/2041186430974615613",
+      "screen_name": "DKThomp",
+      "created_at": "Mon Apr 06 16:09:03 +0000 2026",
+      "full_text": "JPM's Michael Cembalest: \n\nIn the ~160 years after the Civil War, US presidents fired 11 four- and five-star military officers.\n\nIn Trump's first 14 months, the White House has fired 9 of them. https://t.co/volNDO7T3A",
+      "lang": "en",
+      "favorite_count": 3596,
+      "retweet_count": 1377,
+      "reply_count": 81,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/volNDO7T3A",
+          "expanded_url": "https://x.com/DKThomp/status/2041186430974615613/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 50,
+                  "w": 50,
+                  "x": 563,
+                  "y": 211
+                }
+              ]
+            }
+          },
+          "id_str": "2041186199805493248",
+          "indices": [
+            194,
+            217
+          ],
+          "media_key": "3_2041186199805493248",
+          "media_url_https": "https://pbs.twimg.com/media/HFPACLfWAAAi-KN.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 315,
+                "w": 563,
+                "x": 8,
+                "y": 0
+              },
+              {
+                "h": 315,
+                "w": 315,
+                "x": 132,
+                "y": 0
+              },
+              {
+                "h": 315,
+                "w": 276,
+                "x": 151,
+                "y": 0
+              },
+              {
+                "h": 315,
+                "w": 158,
+                "x": 210,
+                "y": 0
+              },
+              {
+                "h": 315,
+                "w": 683,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 315,
+            "width": 683
+          },
+          "sizes": {
+            "large": {
+              "h": 315,
+              "w": 683
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/volNDO7T3A"
+        }
+      ]
     },
     {
       "tweet_id": "2041177356790866204",
@@ -46,10 +253,7 @@
       "reply_count": 49,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2041000616827502883",
@@ -134,10 +338,7 @@
           "type": "photo",
           "url": "https://t.co/YSn3xfmuHQ"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2040942206014419406",
@@ -218,10 +419,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041113689294823832",
@@ -299,10 +497,7 @@
           "type": "photo",
           "url": "https://t.co/Dwi0zJDPWp"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041093558493667403",
@@ -383,10 +578,35 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2041013367662669842",
+      "url": "https://x.com/paulg/status/2041013367662669842",
+      "screen_name": "paulg",
+      "created_at": "Mon Apr 06 04:41:21 +0000 2026",
+      "full_text": "I know it's meant to seem an annoying habit, but I'd like it if I had a friend who was constantly teaching me random facts like Sheldon Cooper does.",
+      "lang": "en",
+      "favorite_count": 2535,
+      "retweet_count": 159,
+      "reply_count": 295,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041019578520846747",
+      "url": "https://x.com/aakashgupta/status/2041019578520846747",
+      "screen_name": "aakashgupta",
+      "created_at": "Mon Apr 06 05:06:02 +0000 2026",
+      "full_text": "The reason red means \"up\" on these emojis dates back to 1697 Osaka, Japan.\n\nRice merchants created the world's first futures exchange at the Dojima Rice Market. They needed to chart whether prices were rising or falling, so they built the candlestick chart, called 陰陽足",
+      "lang": "en",
+      "favorite_count": 2458,
+      "retweet_count": 491,
+      "reply_count": 19,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2040874853881004163",
@@ -474,10 +694,7 @@
           "type": "photo",
           "url": "https://t.co/Z4pZwkXLT2"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     }
   ]
 }

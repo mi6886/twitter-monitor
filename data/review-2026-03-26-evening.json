@@ -1,8 +1,21 @@
 {
   "date": "2026-03-26",
   "period": "evening",
-  "fetched_at": "2026-03-26T11:48:59.034228+00:00",
-  "review_count": 31,
+  "fetched_at": "2026-03-26T11:48:58.996164+00:00",
+  "raw_count": 106,
+  "candidate_count": 52,
+  "final_count": 16,
+  "review_count": 33,
+  "drop_hard_count": 3,
+  "disposition_stats": {
+    "brief_mention": 7,
+    "info_value": 6,
+    "monitored_popular": 10,
+    "low_info_content": 25,
+    "too_brief": 1,
+    "off_topic": 2,
+    "weak_signal_untrusted": 1
+  },
   "tweets": [
     {
       "tweet_id": "2036894135345631576",
@@ -75,10 +88,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2036748454588723434",
@@ -151,10 +161,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2036888047581622487",
@@ -168,10 +175,7 @@
       "reply_count": 68,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2036869446321455276",
@@ -312,10 +316,7 @@
           "type": "photo",
           "url": "https://t.co/I39u08VY0F"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036755322040148089",
@@ -329,10 +330,7 @@
       "reply_count": 611,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2036836677906567604",
@@ -513,10 +511,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036901047587717268",
@@ -530,10 +525,21 @@
       "reply_count": 42,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      "media": []
+    },
+    {
+      "tweet_id": "2036840162378895558",
+      "url": "https://x.com/justalexoki/status/2036840162378895558",
+      "screen_name": "justalexoki",
+      "created_at": "Wed Mar 25 16:18:32 +0000 2026",
+      "full_text": "openclaw died so fast lmaoooo",
+      "lang": "en",
+      "favorite_count": 5162,
+      "retweet_count": 70,
+      "reply_count": 247,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2037033072202490056",
@@ -618,10 +624,7 @@
           "type": "photo",
           "url": "https://t.co/E7A8afR0hZ"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036740283266908174",
@@ -706,10 +709,7 @@
           "type": "photo",
           "url": "https://t.co/AhPT8Fsad9"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2036849470210474126",
@@ -790,10 +790,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036770786053378170",
@@ -807,10 +804,7 @@
       "reply_count": 24,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2036941709066854520",
@@ -824,10 +818,7 @@
       "reply_count": 29,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2036882883286376526",
@@ -908,99 +899,7 @@
           "type": "photo",
           "url": "https://t.co/J0KvqsEVrg"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2037122511926944160",
-      "url": "https://x.com/RiserMusic/status/2037122511926944160",
-      "screen_name": "RiserMusic",
-      "created_at": "Thu Mar 26 11:00:29 +0000 2026",
-      "full_text": "TEASER \nDangerous - GEMINI\n\nMUSIC VIDEO RELEASE\n27.03.2026 | 7 P.M.\n\n📺YouTube : RISER MUSIC\n&amp; ALL STREAMING\n\n#DangerousGEMINI\n.\n#GEMINI_NT\n#RISERMUSIC https://t.co/Xvkxkl2WTR",
-      "lang": "en",
-      "favorite_count": 3210,
-      "retweet_count": 3136,
-      "reply_count": 293,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "additional_media_info": {
-            "monetizable": true
-          },
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/Xvkxkl2WTR",
-          "expanded_url": "https://x.com/RiserMusic/status/2037122511926944160/video/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "id_str": "2037122404917690368",
-          "indices": [
-            155,
-            178
-          ],
-          "media_key": "13_2037122404917690368",
-          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037122404917690368/img/7fDULj-1ApeWolC5.jpg",
-          "original_info": {
-            "focus_rects": [],
-            "height": 2160,
-            "width": 3840
-          },
-          "sizes": {
-            "large": {
-              "h": 1152,
-              "w": 2048
-            }
-          },
-          "type": "video",
-          "url": "https://t.co/Xvkxkl2WTR",
-          "video_info": {
-            "aspect_ratio": [
-              16,
-              9
-            ],
-            "duration_millis": 20280,
-            "variants": [
-              {
-                "content_type": "application/x-mpegURL",
-                "url": "https://video.twimg.com/amplify_video/2037122404917690368/pl/wlaoiPSLFNqAewW3.m3u8"
-              },
-              {
-                "bitrate": 256000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037122404917690368/vid/avc1/480x270/xeXL7MM3P_iEimG9.mp4"
-              },
-              {
-                "bitrate": 832000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037122404917690368/vid/avc1/640x360/rFYR_JiHuZS_G4Tm.mp4"
-              },
-              {
-                "bitrate": 2176000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037122404917690368/vid/avc1/1280x720/-qc8jFxMdP4FM5_u.mp4"
-              },
-              {
-                "bitrate": 10368000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037122404917690368/vid/avc1/1920x1080/RqiNGN9aDrIKwGKU.mp4"
-              },
-              {
-                "bitrate": 25128000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037122404917690368/vid/avc1/3840x2160/N-AQU8qaUDWpjg2w.mp4"
-              }
-            ]
-          }
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      ]
     },
     {
       "tweet_id": "2036889454733074517",
@@ -1014,10 +913,7 @@
       "reply_count": 55,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "weak_signal_untrusted"
+      "media": []
     },
     {
       "tweet_id": "2036859402549158316",
@@ -1105,10 +1001,7 @@
           "type": "photo",
           "url": "https://t.co/6vfnOkOurf"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036800265899446426",
@@ -1122,10 +1015,7 @@
       "reply_count": 196,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2036747532488135122",
@@ -1139,10 +1029,35 @@
       "reply_count": 20,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
+    },
+    {
+      "tweet_id": "2036881186128060493",
+      "url": "https://x.com/SenWarren/status/2036881186128060493",
+      "screen_name": "SenWarren",
+      "created_at": "Wed Mar 25 19:01:32 +0000 2026",
+      "full_text": "NEW: Trump appointed 12 Big Tech executives including Jensen Huang and Mark Zuckerberg to the President's Council of Advisors on Science and Technology.\n\nThis board is usually made up of top scientists and doctors.\n\nIn the Trump Administration only money gets a seat at the table.",
+      "lang": "en",
+      "favorite_count": 2948,
+      "retweet_count": 1114,
+      "reply_count": 258,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2036833264359383068",
+      "url": "https://x.com/emzanotti/status/2036833264359383068",
+      "screen_name": "emzanotti",
+      "created_at": "Wed Mar 25 15:51:07 +0000 2026",
+      "full_text": "I don’t want humanoid robots caring for my kids. I want humanoid robots to do all the housework and laundry and home management so I can care for my kids.",
+      "lang": "en",
+      "favorite_count": 2938,
+      "retweet_count": 203,
+      "reply_count": 81,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2036868956469027109",
@@ -1156,27 +1071,7 @@
       "reply_count": 48,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
-    },
-    {
-      "tweet_id": "2036856308410773803",
-      "url": "https://x.com/kimmonismus/status/2036856308410773803",
-      "screen_name": "kimmonismus",
-      "created_at": "Wed Mar 25 17:22:41 +0000 2026",
-      "full_text": "They are developing Claude into the app that ChatGPT wanted to be.",
-      "lang": "en",
-      "favorite_count": 2853,
-      "retweet_count": 96,
-      "reply_count": 65,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2036891742260367509",
@@ -1254,10 +1149,7 @@
           "type": "photo",
           "url": "https://t.co/y0A8t4DU2W"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036723855293890916",
@@ -1320,10 +1212,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036856345899499976",
@@ -1337,10 +1226,7 @@
       "reply_count": 4,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2036816884708905100",
@@ -1354,10 +1240,7 @@
       "reply_count": 77,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2036852771253563848",
@@ -1517,10 +1400,7 @@
           "type": "photo",
           "url": "https://t.co/6dHKDl9wRq"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036730602347430138",
@@ -1601,10 +1481,7 @@
           "type": "photo",
           "url": "https://t.co/G2TVNIJQJT"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2036843698055524416",
@@ -1618,10 +1495,80 @@
       "reply_count": 184,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
+    },
+    {
+      "tweet_id": "2036830060053930082",
+      "url": "https://x.com/TheInsiderPaper/status/2036830060053930082",
+      "screen_name": "TheInsiderPaper",
+      "created_at": "Wed Mar 25 15:38:23 +0000 2026",
+      "full_text": "BREAKING: AI-powered humanoid robot accompanies first lady Melania Trump to a White House summit on empowering children with educational technology. https://t.co/jt5LC2OPob",
+      "lang": "en",
+      "favorite_count": 2362,
+      "retweet_count": 506,
+      "reply_count": 355,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/jt5LC2OPob",
+          "expanded_url": "https://x.com/TheInsiderPaper/status/2036830060053930082/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036829938721112064",
+          "indices": [
+            149,
+            172
+          ],
+          "media_key": "13_2036829938721112064",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036829938721112064/img/aiIqpZgS3SZM5vHn.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/jt5LC2OPob",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 104235,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2036829938721112064/pl/I64PtgmdmtMI_MT6.m3u8"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036829938721112064/vid/avc1/480x270/6fcJuQA7AjvQ-60e.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036829938721112064/vid/avc1/640x360/iDCIXfermoK0YLl5.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036829938721112064/vid/avc1/1280x720/_4Z7-ldI5G0YGrBa.mp4"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2036867489645420933",
@@ -1788,110 +1735,21 @@
           "type": "photo",
           "url": "https://t.co/eOLziAo0fC"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
-      "tweet_id": "2037122566784266310",
-      "url": "https://x.com/RiserMusic/status/2037122566784266310",
-      "screen_name": "RiserMusic",
-      "created_at": "Thu Mar 26 11:00:42 +0000 2026",
-      "full_text": "TEASER \nDangerous - GEMINI\n\nMUSIC VIDEO RELEASE\n27.03.2026 | 7 P.M.\n\n📺YouTube : RISER MUSIC\n&amp; ALL STREAMING\n\n#DangerousGEMINI\n.\n#GEMINI_NT\n#RISERMUSIC https://t.co/sDybstZDig",
+      "tweet_id": "2036793556786909446",
+      "url": "https://x.com/Kalshi/status/2036793556786909446",
+      "screen_name": "Kalshi",
+      "created_at": "Wed Mar 25 13:13:20 +0000 2026",
+      "full_text": "JUST IN: Trump to appoint Mark Zuckerberg, Larry Ellison and Jensen Huang to new \"tech council\"",
       "lang": "en",
-      "favorite_count": 2318,
-      "retweet_count": 2318,
-      "reply_count": 154,
+      "favorite_count": 2208,
+      "retweet_count": 168,
+      "reply_count": 220,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/sDybstZDig",
-          "expanded_url": "https://x.com/RiserMusic/status/2037122566784266310/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "all": {
-              "tags": [
-                {
-                  "name": "gemini_nt",
-                  "screen_name": "gemini_ti",
-                  "user_id": "1198872710501130240"
-                }
-              ]
-            },
-            "large": {
-              "faces": [
-                {
-                  "h": 490,
-                  "w": 490,
-                  "x": 632,
-                  "y": 654
-                }
-              ]
-            }
-          },
-          "id_str": "2037122558114578432",
-          "indices": [
-            155,
-            178
-          ],
-          "media_key": "3_2037122558114578432",
-          "media_url_https": "https://pbs.twimg.com/media/HEVQLGhawAANZFN.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 917,
-                "w": 1638,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1638,
-                "w": 1638,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1867,
-                "w": 1638,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2048,
-                "w": 1024,
-                "x": 562,
-                "y": 0
-              },
-              {
-                "h": 2048,
-                "w": 1638,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 2048,
-            "width": 1638
-          },
-          "sizes": {
-            "large": {
-              "h": 2048,
-              "w": 1638
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/sDybstZDig"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      "media": []
     },
     {
       "tweet_id": "2037077594596925472",
@@ -2045,10 +1903,7 @@
           "type": "photo",
           "url": "https://t.co/DfLBj9Pz8u"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036852849569624246",
@@ -2129,10 +1984,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     }
   ]
 }

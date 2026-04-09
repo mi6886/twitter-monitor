@@ -1,8 +1,20 @@
 {
   "date": "2026-04-08",
   "period": "evening",
-  "fetched_at": "2026-04-08T11:53:53.466909+00:00",
+  "fetched_at": "2026-04-08T11:53:53.421034+00:00",
+  "raw_count": 109,
+  "candidate_count": 63,
+  "final_count": 20,
   "review_count": 40,
+  "drop_hard_count": 3,
+  "disposition_stats": {
+    "low_info_content": 38,
+    "monitored_popular": 9,
+    "info_value": 11,
+    "weak_signal_untrusted": 1,
+    "off_topic": 3,
+    "meme_or_reaction": 1
+  },
   "tweets": [
     {
       "tweet_id": "2041572097114198163",
@@ -16,10 +28,7 @@
       "reply_count": 76,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041696522966884638",
@@ -33,10 +42,7 @@
       "reply_count": 64,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041797268899238240",
@@ -121,10 +127,7 @@
           "type": "photo",
           "url": "https://t.co/l55nzyu5rj"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041591330086809688",
@@ -138,10 +141,7 @@
       "reply_count": 75,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041486802632986974",
@@ -155,10 +155,7 @@
       "reply_count": 26,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041639260215009355",
@@ -172,10 +169,7 @@
       "reply_count": 93,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041713140044591434",
@@ -256,10 +250,7 @@
           "type": "photo",
           "url": "https://t.co/KZctJs5QRi"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041675940082938149",
@@ -337,10 +328,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041606509654659476",
@@ -425,10 +413,7 @@
           "type": "photo",
           "url": "https://t.co/rITAaoSsiS"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041673699364106438",
@@ -513,10 +498,7 @@
           "type": "photo",
           "url": "https://t.co/3sygWzBUYP"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041811615667073041",
@@ -729,10 +711,7 @@
           "type": "photo",
           "url": "https://t.co/noEAS0pXJT"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041634739426042102",
@@ -746,10 +725,7 @@
       "reply_count": 78,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041627005725339883",
@@ -827,10 +803,7 @@
           "type": "photo",
           "url": "https://t.co/awjqQe3izx"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041532939771732259",
@@ -921,10 +894,92 @@
           "type": "photo",
           "url": "https://t.co/QcOLcU2nMs"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
+    },
+    {
+      "tweet_id": "2041444254065811497",
+      "url": "https://x.com/ihtesham2005/status/2041444254065811497",
+      "screen_name": "ihtesham2005",
+      "created_at": "Tue Apr 07 09:13:33 +0000 2026",
+      "full_text": "I set this up at 4am and spent an hour just talking to it.\n\nIt's called Open-LLM-VTuber. You get a Live2D animated AI companion that runs completely offline, sees your screen, hears your voice, and never forgets your conversations.\n\nThe voice interruption system is different from https://t.co/WriQTBMUzy",
+      "lang": "en",
+      "favorite_count": 3175,
+      "retweet_count": 306,
+      "reply_count": 52,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/WriQTBMUzy",
+          "expanded_url": "https://x.com/ihtesham2005/status/2041444254065811497/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 111,
+                  "w": 111,
+                  "x": 1611,
+                  "y": 533
+                }
+              ]
+            }
+          },
+          "id_str": "2041444251188494337",
+          "indices": [
+            281,
+            304
+          ],
+          "media_key": "3_2041444251188494337",
+          "media_url_https": "https://pbs.twimg.com/media/HFSquvzagAEhahq.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1676,
+                "w": 2992,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1868,
+                "w": 1868,
+                "x": 934,
+                "y": 0
+              },
+              {
+                "h": 1868,
+                "w": 1639,
+                "x": 1049,
+                "y": 0
+              },
+              {
+                "h": 1868,
+                "w": 934,
+                "x": 1401,
+                "y": 0
+              },
+              {
+                "h": 1868,
+                "w": 2992,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1868,
+            "width": 2992
+          },
+          "sizes": {
+            "large": {
+              "h": 1279,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/WriQTBMUzy"
+        }
+      ]
     },
     {
       "tweet_id": "2041596028705443901",
@@ -938,10 +993,7 @@
       "reply_count": 61,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "weak_signal_untrusted"
+      "media": []
     },
     {
       "tweet_id": "2041588737000235379",
@@ -955,10 +1007,7 @@
       "reply_count": 46,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041607187869659648",
@@ -972,10 +1021,7 @@
       "reply_count": 120,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041647325509251279",
@@ -989,44 +1035,78 @@
       "reply_count": 48,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
-      "tweet_id": "2041578409315189125",
-      "url": "https://x.com/AnthropicAI/status/2041578409315189125",
-      "screen_name": "AnthropicAI",
-      "created_at": "Tue Apr 07 18:06:38 +0000 2026",
-      "full_text": "We do not plan to make Mythos Preview generally available. Our goal is to deploy Mythos-class models safely at scale, but first we need safeguards that reliably block their most dangerous outputs.\n\nWe’ll begin testing those safeguards with an upcoming Claude Opus model.",
+      "tweet_id": "2041484973333430319",
+      "url": "https://x.com/Hesamation/status/2041484973333430319",
+      "screen_name": "Hesamation",
+      "created_at": "Tue Apr 07 11:55:21 +0000 2026",
+      "full_text": "This took “vibe coding is the same thing as gambling” to the next level. https://t.co/QwOMg48Mh1",
       "lang": "en",
-      "favorite_count": 2891,
-      "retweet_count": 234,
-      "reply_count": 57,
+      "favorite_count": 2799,
+      "retweet_count": 195,
+      "reply_count": 31,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
-    },
-    {
-      "tweet_id": "2041579717435015321",
-      "url": "https://x.com/linuxfoundation/status/2041579717435015321",
-      "screen_name": "linuxfoundation",
-      "created_at": "Tue Apr 07 18:11:50 +0000 2026",
-      "full_text": "The Linux Foundation is proud to partner with Anthropic to reduce the security burden on open source software maintainers. Together, we are putting powerful AI cybersecurity capabilities directly into the hands of those who secure the infrastructure the world runs on.",
-      "lang": "en",
-      "favorite_count": 2835,
-      "retweet_count": 237,
-      "reply_count": 50,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/QwOMg48Mh1",
+          "expanded_url": "https://x.com/Hesamation/status/2041484973333430319/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041484812733890560",
+          "indices": [
+            73,
+            96
+          ],
+          "media_key": "13_2041484812733890560",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041484812733890560/img/dTRtkLjG9V8WJdN0.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 640,
+            "width": 352
+          },
+          "sizes": {
+            "large": {
+              "h": 640,
+              "w": 352
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/QwOMg48Mh1",
+          "video_info": {
+            "aspect_ratio": [
+              11,
+              20
+            ],
+            "duration_millis": 114066,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041484812733890560/pl/4bjPYXRSI5-sr5m0.m3u8?v=4c5"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041484812733890560/vid/avc1/320x580/NJkEvyLTxFyEwEBJ.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041484812733890560/vid/avc1/352x640/mFQGPDm4J2mhZaij.mp4"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2041603026016678088",
@@ -1167,10 +1247,7 @@
           "type": "photo",
           "url": "https://t.co/8RFLrf6dk4"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041508455110856770",
@@ -1332,174 +1409,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
-      "tweet_id": "2041528259180212526",
-      "url": "https://x.com/BTSPOPBASE/status/2041528259180212526",
-      "screen_name": "BTSPOPBASE",
-      "created_at": "Tue Apr 07 14:47:21 +0000 2026",
-      "full_text": "the member bap released song a week and wrote the lyrics through chatgpt instead of talking about that they keep mentioning bts https://t.co/ZugGi8rdzC",
+      "tweet_id": "2041606842606895249",
+      "url": "https://x.com/SCHIZO_FREQ/status/2041606842606895249",
+      "screen_name": "SCHIZO_FREQ",
+      "created_at": "Tue Apr 07 19:59:37 +0000 2026",
+      "full_text": "I might be overly cynical but I've always assumed this stuff was total capeshit\n\nEvery time there's some big new model release it's accompanied by these stories about how the model is so smart it jailbroke everything, programmed itself a robot body, had sex, started a family etc",
       "lang": "en",
-      "favorite_count": 2561,
-      "retweet_count": 238,
-      "reply_count": 2,
+      "favorite_count": 2427,
+      "retweet_count": 162,
+      "reply_count": 99,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/ZugGi8rdzC",
-          "expanded_url": "https://x.com/BTSPOPBASE/status/2041528259180212526/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": [
-                {
-                  "h": 156,
-                  "w": 156,
-                  "x": 310,
-                  "y": 658
-                }
-              ]
-            }
-          },
-          "id_str": "2041528256223117312",
-          "indices": [
-            128,
-            151
-          ],
-          "media_key": "3_2041528256223117312",
-          "media_url_https": "https://pbs.twimg.com/media/HFT3Ie8aAAA1GAv.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 515,
-                "w": 919,
-                "x": 0,
-                "y": 610
-              },
-              {
-                "h": 919,
-                "w": 919,
-                "x": 0,
-                "y": 408
-              },
-              {
-                "h": 1048,
-                "w": 919,
-                "x": 0,
-                "y": 343
-              },
-              {
-                "h": 1838,
-                "w": 919,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2048,
-                "w": 919,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 2048,
-            "width": 919
-          },
-          "sizes": {
-            "large": {
-              "h": 2048,
-              "w": 919
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/ZugGi8rdzC"
-        },
-        {
-          "display_url": "pic.x.com/ZugGi8rdzC",
-          "expanded_url": "https://x.com/BTSPOPBASE/status/2041528259180212526/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": [
-                {
-                  "h": 146,
-                  "w": 146,
-                  "x": 217,
-                  "y": 212
-                },
-                {
-                  "h": 180,
-                  "w": 180,
-                  "x": 511,
-                  "y": 284
-                }
-              ]
-            }
-          },
-          "id_str": "2041528255967322112",
-          "indices": [
-            128,
-            151
-          ],
-          "media_key": "3_2041528255967322112",
-          "media_url_https": "https://pbs.twimg.com/media/HFT3Id_a4AAU2XC.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 395,
-                "w": 706,
-                "x": 0,
-                "y": 345
-              },
-              {
-                "h": 706,
-                "w": 706,
-                "x": 0,
-                "y": 189
-              },
-              {
-                "h": 805,
-                "w": 706,
-                "x": 0,
-                "y": 139
-              },
-              {
-                "h": 944,
-                "w": 472,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 944,
-                "w": 706,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 944,
-            "width": 706
-          },
-          "sizes": {
-            "large": {
-              "h": 944,
-              "w": 706
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/ZugGi8rdzC"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      "media": []
     },
     {
       "tweet_id": "2041631408397983835",
@@ -1580,10 +1504,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041640528555458674",
@@ -1664,10 +1585,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041612507689709706",
@@ -1740,10 +1658,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041658486279565644",
@@ -1757,10 +1672,7 @@
       "reply_count": 98,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041489172477964682",
@@ -1934,10 +1846,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041507202809098319",
@@ -2085,10 +1994,7 @@
           "type": "photo",
           "url": "https://t.co/owZsKK9m6T"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041593803522634178",
@@ -2169,10 +2075,7 @@
           "type": "photo",
           "url": "https://t.co/Ks2td84AGr"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041512307361218766",
@@ -2253,10 +2156,7 @@
           "type": "photo",
           "url": "https://t.co/EOR9FkVsDJ"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041657708957593653",
@@ -2337,10 +2237,7 @@
           "type": "photo",
           "url": "https://t.co/qPQyIDRT1v"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041586182434537827",
@@ -2418,10 +2315,7 @@
           "type": "photo",
           "url": "https://t.co/klJX0bivnL"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041507232421159023",
@@ -2506,10 +2400,7 @@
           "type": "photo",
           "url": "https://t.co/bPZR2DffVu"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041642349428691270",
@@ -2523,10 +2414,7 @@
       "reply_count": 4,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041621527943090381",
@@ -2604,10 +2492,7 @@
           "type": "photo",
           "url": "https://t.co/moVINSZ0fI"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041593095373123703",
@@ -2780,10 +2665,7 @@
           "type": "photo",
           "url": "https://t.co/IgnRO5BUxd"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_value_pattern"
+      ]
     },
     {
       "tweet_id": "2041593362935845125",
@@ -2797,10 +2679,7 @@
       "reply_count": 14,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041449558715302294",
@@ -2814,10 +2693,7 @@
       "reply_count": 73,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041625303571657006",
@@ -2831,10 +2707,7 @@
       "reply_count": 102,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     }
   ]
 }

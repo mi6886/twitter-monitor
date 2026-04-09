@@ -1,23 +1,36 @@
 {
   "date": "2026-04-05",
   "period": "morning",
-  "fetched_at": "2026-04-04T23:22:33.280178+00:00",
+  "fetched_at": "2026-04-04T23:22:33.242430+00:00",
   "raw_count": 95,
   "candidate_count": 59,
-  "final_count": 9,
-  "review_count": 34,
-  "drop_hard_count": 16,
+  "final_count": 20,
+  "review_count": 35,
+  "drop_hard_count": 4,
   "disposition_stats": {
-    "low_info_ai_content": 29,
+    "low_info_content": 31,
     "weak_signal_untrusted": 2,
-    "not_ai_content": 15,
-    "info_value": 6,
-    "off_topic": 1,
-    "high_signal_source": 3,
-    "brief_ai_mention": 2,
+    "monitored_popular": 13,
+    "info_value": 7,
+    "off_topic": 3,
+    "brief_mention": 2,
     "too_brief": 1
   },
   "tweets": [
+    {
+      "tweet_id": "2040470801506541998",
+      "url": "https://x.com/karpathy/status/2040470801506541998",
+      "screen_name": "karpathy",
+      "created_at": "Sat Apr 04 16:45:23 +0000 2026",
+      "full_text": "Wow, this tweet went very viral!\n\nI wanted share a possibly slightly improved version of the tweet in an \"idea file\". The idea of the idea file is that in this era of LLM agents, there is less of a point/need of sharing the specific code/app, you just share the idea, then the",
+      "lang": "en",
+      "favorite_count": 12787,
+      "retweet_count": 1108,
+      "reply_count": 528,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
     {
       "tweet_id": "2040494000109678631",
       "url": "https://x.com/PolymarketMoney/status/2040494000109678631",
@@ -170,10 +183,35 @@
           "type": "photo",
           "url": "https://t.co/4743ebNe8c"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2040537990372499931",
+      "url": "https://x.com/MrBeast/status/2040537990372499931",
+      "screen_name": "MrBeast",
+      "created_at": "Sat Apr 04 21:12:22 +0000 2026",
+      "full_text": "TOMORROW AT NOON WE WILL BE LIVE ON THE MRBEAST CHANNEL FOR PART 2 OF THE 50 STREAMERS VIDEO AND OVER $1,500,000 WILL BE GIVEN AWAY TO VIEWERS! \n\nSee you then :D",
+      "lang": "en",
+      "favorite_count": 6853,
+      "retweet_count": 368,
+      "reply_count": 1191,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2040447927441854493",
+      "url": "https://x.com/thedankoe/status/2040447927441854493",
+      "screen_name": "thedankoe",
+      "created_at": "Sat Apr 04 15:14:30 +0000 2026",
+      "full_text": "You need to write more.\n\nWithout AI. Without templates. Without knowing what you're writing about. Just you, an idea, and enough time to do the difficult cognitive work necessary to reach true understanding. If you don't, your ability to think will drastically decline.",
+      "lang": "en",
+      "favorite_count": 5458,
+      "retweet_count": 651,
+      "reply_count": 471,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2040228800110174336",
@@ -254,10 +292,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2040323104577339641",
@@ -333,10 +368,113 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2040338088623558937",
+      "url": "https://x.com/aakashgupta/status/2040338088623558937",
+      "screen_name": "aakashgupta",
+      "created_at": "Sat Apr 04 07:58:02 +0000 2026",
+      "full_text": "A 21-year-old loading Coca-Cola trucks in Owatonna, Minnesota. Can't sleep after his night shifts. So he sits on the floor of his parents' basement at 2 AM with a MicroKorg synth on his lap.\n\nHe has zero audio engineering training. Pressing buttons and turning knobs without",
+      "lang": "en",
+      "favorite_count": 4277,
+      "retweet_count": 485,
+      "reply_count": 29,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2040444542118445518",
+      "url": "https://x.com/aakashgupta/status/2040444542118445518",
+      "screen_name": "aakashgupta",
+      "created_at": "Sat Apr 04 15:01:03 +0000 2026",
+      "full_text": "Japan's entire $9 billion cherry blossom economy runs on a 7-day window.\n\n42.7 million international visitors came to Japan in 2025. The single biggest driver of spring travel: these trees. Peak bloom lasts 4 to 6 days before the petals start falling. A strong rainstorm can end",
+      "lang": "en",
+      "favorite_count": 4094,
+      "retweet_count": 509,
+      "reply_count": 30,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2040441020576674301",
+      "url": "https://x.com/kimmonismus/status/2040441020576674301",
+      "screen_name": "kimmonismus",
+      "created_at": "Sat Apr 04 14:47:03 +0000 2026",
+      "full_text": "1/ Insane: A single injection into the inner ear reversed deafness in all ten patients. Some started hearing again within weeks. Gene therapy just crossed a threshold we thought was still years away.\n\nLets dig into this breakthrough and how it works 🧵 https://t.co/HfRowGPSNa",
+      "lang": "en",
+      "favorite_count": 3552,
+      "retweet_count": 603,
+      "reply_count": 64,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/HfRowGPSNa",
+          "expanded_url": "https://x.com/kimmonismus/status/2040441020576674301/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2040441018261344256",
+          "indices": [
+            252,
+            275
+          ],
+          "media_key": "3_2040441018261344256",
+          "media_url_https": "https://pbs.twimg.com/media/HFEaS56akAA3j23.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 614,
+                "w": 1096,
+                "x": 212,
+                "y": 0
+              },
+              {
+                "h": 614,
+                "w": 614,
+                "x": 694,
+                "y": 0
+              },
+              {
+                "h": 614,
+                "w": 539,
+                "x": 744,
+                "y": 0
+              },
+              {
+                "h": 614,
+                "w": 307,
+                "x": 860,
+                "y": 0
+              },
+              {
+                "h": 614,
+                "w": 1308,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 614,
+            "width": 1308
+          },
+          "sizes": {
+            "large": {
+              "h": 614,
+              "w": 1308
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/HfRowGPSNa"
+        }
+      ]
     },
     {
       "tweet_id": "2040333489476681758",
@@ -653,10 +791,49 @@
           "type": "photo",
           "url": "https://t.co/RbYbreRRsV"
         }
-      ],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      ]
+    },
+    {
+      "tweet_id": "2040261847597867159",
+      "url": "https://x.com/ollama/status/2040261847597867159",
+      "screen_name": "ollama",
+      "created_at": "Sat Apr 04 02:55:05 +0000 2026",
+      "full_text": "🦞Ollama's cloud is one of the best places to run OpenClaw.\n\n$20 plan is enough for most day to day OpenClaw usage with open models! \n\nTo make the switch, all you need is to open the terminal and type: \n\nollama launch openclaw \n\nChoose a model: \n\nkimi-k2.5:cloud\nglm-5:cloud",
+      "lang": "en",
+      "favorite_count": 2912,
+      "retweet_count": 270,
+      "reply_count": 146,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2040180056891568513",
+      "url": "https://x.com/aakashgupta/status/2040180056891568513",
+      "screen_name": "aakashgupta",
+      "created_at": "Fri Apr 03 21:30:04 +0000 2026",
+      "full_text": "Streaming platforms would rather cancel your favorite show at its peak than renew it for a full season. The economics explain exactly why.\n\nA single season of prestige TV costs $15 to $25 million per episode. At 8 episodes, that's $120 to $200 million. At 22 episodes, the old",
+      "lang": "en",
+      "favorite_count": 2797,
+      "retweet_count": 566,
+      "reply_count": 29,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2040171739926393151",
+      "url": "https://x.com/aakashgupta/status/2040171739926393151",
+      "screen_name": "aakashgupta",
+      "created_at": "Fri Apr 03 20:57:02 +0000 2026",
+      "full_text": "North Korean intelligence agents built an entire fake company to compromise one JavaScript developer. And it worked.\n\nUNC1069 didn't hack Axios. They befriended its maintainer. They cloned a real company founder's identity, built a branded Slack workspace with fake employee",
+      "lang": "en",
+      "favorite_count": 2523,
+      "retweet_count": 589,
+      "reply_count": 58,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2040233104145891792",
@@ -759,10 +936,7 @@
           "type": "photo",
           "url": "https://t.co/hr26ZYs2ve"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2040380522338115962",
@@ -840,10 +1014,21 @@
           "type": "photo",
           "url": "https://t.co/MZkPNK42fb"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2040286748446703963",
+      "url": "https://x.com/aakashgupta/status/2040286748446703963",
+      "screen_name": "aakashgupta",
+      "created_at": "Sat Apr 04 04:34:02 +0000 2026",
+      "full_text": "California spent years building a case that oil companies were robbing drivers at the pump. A state investigation found zero evidence of price gouging. A six-month CBS investigation found what's actually happening.\n\nThe state charges a 61-cent excise tax per gallon plus",
+      "lang": "en",
+      "favorite_count": 2399,
+      "retweet_count": 401,
+      "reply_count": 39,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2040179539738030182",
@@ -857,10 +1042,7 @@
       "reply_count": 200,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
     },
     {
       "tweet_id": "2040495786438635541",
@@ -874,10 +1056,21 @@
       "reply_count": 87,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
+    },
+    {
+      "tweet_id": "2040386985823518988",
+      "url": "https://x.com/DavidOndrej1/status/2040386985823518988",
+      "screen_name": "DavidOndrej1",
+      "created_at": "Sat Apr 04 11:12:20 +0000 2026",
+      "full_text": "one of the greatest tweets ever",
+      "lang": "en",
+      "favorite_count": 2088,
+      "retweet_count": 284,
+      "reply_count": 10,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2040267176892866634",
@@ -891,10 +1084,7 @@
       "reply_count": 134,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     }
   ]
 }

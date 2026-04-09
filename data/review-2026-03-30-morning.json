@@ -1,8 +1,20 @@
 {
   "date": "2026-03-30",
   "period": "morning",
-  "fetched_at": "2026-03-29T23:24:01.934975+00:00",
-  "review_count": 29,
+  "fetched_at": "2026-03-29T23:24:01.908440+00:00",
+  "raw_count": 64,
+  "candidate_count": 36,
+  "final_count": 8,
+  "review_count": 25,
+  "drop_hard_count": 3,
+  "disposition_stats": {
+    "monitored_popular": 6,
+    "low_info_content": 19,
+    "off_topic": 3,
+    "brief_mention": 5,
+    "weak_signal_untrusted": 1,
+    "info_value": 2
+  },
   "tweets": [
     {
       "tweet_id": "2038263448811786697",
@@ -16,98 +28,7 @@
       "reply_count": 32,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2038209556216766612",
-      "url": "https://x.com/TouchlineX/status/2038209556216766612",
-      "screen_name": "TouchlineX",
-      "created_at": "Sun Mar 29 11:00:00 +0000 2026",
-      "full_text": "🚨 𝗡𝗘𝗪: Biggest club in history per country, according to Perplexity:\n\n🇪🇸 Real Madrid\n🏴󠁧󠁢󠁥󠁮󠁧󠁿 Man United\n🇩🇪 Bayern Munich\n🇮🇹 Juventus\n🇫🇷 Marseille\n🇳🇱 Ajax\n🇵🇹 Benfica\n🇹🇷 Galatasaray\n🏴󠁧󠁢󠁳󠁣󠁴󠁿 Celtic\n🇦🇷 Boca Juniors\n🇧🇷 Sao Paulo\n🇲🇽 Club America https://t.co/z23DZG9DH0",
-      "lang": "en",
-      "favorite_count": 13275,
-      "retweet_count": 1673,
-      "reply_count": 614,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/z23DZG9DH0",
-          "expanded_url": "https://x.com/TouchlineX/status/2038209556216766612/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": [
-                {
-                  "h": 75,
-                  "w": 75,
-                  "x": 1393,
-                  "y": 1553
-                }
-              ]
-            }
-          },
-          "id_str": "2038011230250729472",
-          "indices": [
-            240,
-            263
-          ],
-          "media_key": "3_2038011230250729472",
-          "media_url_https": "https://pbs.twimg.com/media/HEh4aoNaAAA9I9M.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 1210,
-                "w": 2160,
-                "x": 0,
-                "y": 2
-              },
-              {
-                "h": 2160,
-                "w": 2160,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2462,
-                "w": 2160,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2700,
-                "w": 1350,
-                "x": 337,
-                "y": 0
-              },
-              {
-                "h": 2700,
-                "w": 2160,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 2700,
-            "width": 2160
-          },
-          "sizes": {
-            "large": {
-              "h": 2048,
-              "w": 1638
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/z23DZG9DH0"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      "media": []
     },
     {
       "tweet_id": "2038293254844674558",
@@ -185,10 +106,7 @@
           "type": "photo",
           "url": "https://t.co/NcxuU5ukrV"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2038234212160119034",
@@ -261,10 +179,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2038035909992763775",
@@ -342,10 +257,7 @@
           "type": "photo",
           "url": "https://t.co/HQaQPYbDZG"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2038173759409094865",
@@ -499,27 +411,7 @@
           "type": "photo",
           "url": "https://t.co/YQuX8fap0j"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2038209075813494786",
-      "url": "https://x.com/Pivot2Centre/status/2038209075813494786",
-      "screen_name": "Pivot2Centre",
-      "created_at": "Sun Mar 29 10:58:06 +0000 2026",
-      "full_text": "Over 60cr in last 19yrs (source: Gemini)\n\nAmazing for a player whose international career died several years ago",
-      "lang": "en",
-      "favorite_count": 4822,
-      "retweet_count": 159,
-      "reply_count": 36,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      ]
     },
     {
       "tweet_id": "2038286891380818403",
@@ -597,10 +489,7 @@
           "type": "photo",
           "url": "https://t.co/ybFbucjlWV"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2037983845791015385",
@@ -678,10 +567,7 @@
           "type": "photo",
           "url": "https://t.co/5ZD5pjVOwu"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2038230564747305253",
@@ -762,10 +648,7 @@
           "type": "photo",
           "url": "https://t.co/pmWUjef6hZ"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2038199788345135551",
@@ -779,10 +662,7 @@
       "reply_count": 58,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      "media": []
     },
     {
       "tweet_id": "2038312221160374595",
@@ -796,10 +676,7 @@
       "reply_count": 85,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2038126955229577282",
@@ -813,10 +690,7 @@
       "reply_count": 14,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2038286171990790596",
@@ -901,91 +775,7 @@
           "type": "photo",
           "url": "https://t.co/o8huUgPv76"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2038220206309265894",
-      "url": "https://x.com/forzacimbom/status/2038220206309265894",
-      "screen_name": "forzacimbom",
-      "created_at": "Sun Mar 29 11:42:20 +0000 2026",
-      "full_text": "Ülkelere göre tarihin en büyük kulüpleri. (Perplexity)\n\n🇹🇷 Galatasaray\n🇪🇸 Real Madrid\n🏴󠁧󠁢󠁥󠁮󠁧󠁿 Manchester United\n🇩🇪 Bayern Münih\n🇮🇹 Juventus\n🇫🇷 Marsilya\n🇳🇱 Ajax\n🇵🇹 Benfica\n🏴󠁧󠁢󠁳󠁣󠁴󠁿 Celtic\n🇦🇷 Boca Juniors\n🇧🇷 Sao Paulo\n🇲🇽 Club America https://t.co/wzyGaWuncN",
-      "lang": "tr",
-      "favorite_count": 2739,
-      "retweet_count": 138,
-      "reply_count": 61,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/wzyGaWuncN",
-          "expanded_url": "https://x.com/forzacimbom/status/2038220206309265894/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2038220204501561344",
-          "indices": [
-            231,
-            254
-          ],
-          "media_key": "3_2038220204501561344",
-          "media_url_https": "https://pbs.twimg.com/media/HEk2eh9W8AAyxtz.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 501,
-                "w": 894,
-                "x": 0,
-                "y": 353
-              },
-              {
-                "h": 894,
-                "w": 894,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 894,
-                "w": 784,
-                "x": 77,
-                "y": 0
-              },
-              {
-                "h": 894,
-                "w": 447,
-                "x": 246,
-                "y": 0
-              },
-              {
-                "h": 894,
-                "w": 894,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 894,
-            "width": 894
-          },
-          "sizes": {
-            "large": {
-              "h": 894,
-              "w": 894
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/wzyGaWuncN"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      ]
     },
     {
       "tweet_id": "2038321919280419012",
@@ -999,10 +789,7 @@
       "reply_count": 19,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "weak_signal_untrusted"
+      "media": []
     },
     {
       "tweet_id": "2038025563492024378",
@@ -1058,10 +845,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2038086896421872032",
@@ -1119,10 +903,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2038172209047634276",
@@ -1136,10 +917,7 @@
       "reply_count": 78,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2038324246750114143",
@@ -1224,94 +1002,7 @@
           "type": "photo",
           "url": "https://t.co/F7cED7JuGF"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2038220390665724001",
-      "url": "https://x.com/gregisenberg/status/2038220390665724001",
-      "screen_name": "gregisenberg",
-      "created_at": "Sun Mar 29 11:43:04 +0000 2026",
-      "full_text": "How to 10x your Claude with 4 .md files https://t.co/GumVmoQz8O",
-      "lang": "en",
-      "favorite_count": 2270,
-      "retweet_count": 177,
-      "reply_count": 154,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "additional_media_info": {
-            "monetizable": true
-          },
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/GumVmoQz8O",
-          "expanded_url": "https://x.com/gregisenberg/status/2038220390665724001/video/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "id_str": "2038218710050385920",
-          "indices": [
-            40,
-            63
-          ],
-          "media_key": "13_2038218710050385920",
-          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2038218710050385920/img/J0F5yF-ZIgOuQM8V.jpg",
-          "original_info": {
-            "focus_rects": [],
-            "height": 1920,
-            "width": 1080
-          },
-          "sizes": {
-            "large": {
-              "h": 1920,
-              "w": 1080
-            }
-          },
-          "type": "video",
-          "url": "https://t.co/GumVmoQz8O",
-          "video_info": {
-            "aspect_ratio": [
-              9,
-              16
-            ],
-            "duration_millis": 46735,
-            "variants": [
-              {
-                "content_type": "application/x-mpegURL",
-                "url": "https://video.twimg.com/amplify_video/2038218710050385920/pl/dtRpO0oYKW3Aoxff.m3u8?v=991"
-              },
-              {
-                "bitrate": 632000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2038218710050385920/vid/avc1/320x568/NlLmLsKDzyXBhJdM.mp4"
-              },
-              {
-                "bitrate": 950000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2038218710050385920/vid/avc1/480x852/kNlVHjV0Yb43R2zN.mp4"
-              },
-              {
-                "bitrate": 2176000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2038218710050385920/vid/avc1/720x1280/1ihDhl8v9t0t8hQf.mp4"
-              },
-              {
-                "bitrate": 10368000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2038218710050385920/vid/avc1/1080x1920/5UGmlIaPigEyKkeM.mp4"
-              }
-            ]
-          }
-        }
-      ],
-      "candidate_reason": "monitored_account",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2038093486000664846",
@@ -1389,10 +1080,7 @@
           "type": "photo",
           "url": "https://t.co/nvPfDJ6U6T"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2038215035978219792",
@@ -1406,10 +1094,7 @@
       "reply_count": 288,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2038171674441617586",
@@ -1487,10 +1172,7 @@
           "type": "photo",
           "url": "https://t.co/SszaEdmolP"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2038042907316301948",
@@ -1634,10 +1316,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2038004232541069682",
@@ -1715,10 +1394,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2038215118727893107",
@@ -1732,10 +1408,7 @@
       "reply_count": 143,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2038074044793155700",
@@ -1813,10 +1486,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2038260780378751056",
@@ -1830,10 +1500,7 @@
       "reply_count": 5,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     }
   ]
 }

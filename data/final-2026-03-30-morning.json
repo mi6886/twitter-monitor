@@ -1,21 +1,77 @@
 {
   "date": "2026-03-30",
   "period": "morning",
-  "fetched_at": "2026-03-29T23:24:01.934680+00:00",
+  "fetched_at": "2026-03-29T23:24:01.908440+00:00",
   "raw_count": 64,
   "candidate_count": 36,
-  "final_count": 2,
-  "review_count": 29,
-  "drop_hard_count": 5,
+  "final_count": 8,
+  "review_count": 25,
+  "drop_hard_count": 3,
   "disposition_stats": {
-    "not_ai_content": 5,
-    "low_info_ai_content": 19,
+    "monitored_popular": 6,
+    "low_info_content": 19,
     "off_topic": 3,
-    "brief_ai_mention": 6,
+    "brief_mention": 5,
     "weak_signal_untrusted": 1,
     "info_value": 2
   },
   "tweets": [
+    {
+      "tweet_id": "2038299150375416065",
+      "url": "https://x.com/aakashgupta/status/2038299150375416065",
+      "screen_name": "aakashgupta",
+      "created_at": "Sun Mar 29 16:56:01 +0000 2026",
+      "full_text": "Zuckerberg's yacht once sailed 9,600 nautical miles, burned 676,800 liters of diesel, and waited two months in the South Pacific for him to show up.\n\nHe never came. It turned around and went home.\n\nThe vessel burns 1,165 gallons of diesel per hour at cruising speed. The carbon",
+      "lang": "en",
+      "favorite_count": 17616,
+      "retweet_count": 4560,
+      "reply_count": 236,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2038242290460942634",
+      "url": "https://x.com/svpino/status/2038242290460942634",
+      "screen_name": "svpino",
+      "created_at": "Sun Mar 29 13:10:05 +0000 2026",
+      "full_text": "I still remember when people thought \"prompt engineering\" was going to become a real career.",
+      "lang": "en",
+      "favorite_count": 6630,
+      "retweet_count": 241,
+      "reply_count": 290,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2038316078527328296",
+      "url": "https://x.com/dickiebush/status/2038316078527328296",
+      "screen_name": "dickiebush",
+      "created_at": "Sun Mar 29 18:03:17 +0000 2026",
+      "full_text": "All roads lead back to 9 PM bed time, 5 AM wake up, 4 hours of deep, focused work creative work first thing, work out mid day to break it up, admin &amp; calls in the afternoon, hang with friends and loved ones in the evening, repeat forever.",
+      "lang": "en",
+      "favorite_count": 4037,
+      "retweet_count": 290,
+      "reply_count": 61,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2038352249961996440",
+      "url": "https://x.com/aakashgupta/status/2038352249961996440",
+      "screen_name": "aakashgupta",
+      "created_at": "Sun Mar 29 20:27:01 +0000 2026",
+      "full_text": "American Airlines has 77 regional planes sitting in storage because they can't find pilots to fly them. The expected U.S. pilot shortfall in 2026 is 24,000. Training a new commercial pilot takes 2-3 years minimum and costs six figures.\n\nSo American found a loophole. Partner with",
+      "lang": "en",
+      "favorite_count": 2585,
+      "retweet_count": 545,
+      "reply_count": 123,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
     {
       "tweet_id": "2038259712672546986",
       "url": "https://x.com/JoshKale/status/2038259712672546986",
@@ -92,10 +148,102 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2038084923517796839",
+      "url": "https://x.com/openclaw/status/2038084923517796839",
+      "screen_name": "openclaw",
+      "created_at": "Sun Mar 29 02:44:46 +0000 2026",
+      "full_text": "OpenClaw 2026.3.28 🦞\n\n🛡️ Plugin approval hooks — any tool can pause for your OK\n⚡ xAI Responses API + x_search\n💬 ACP bind here: Discord/iMessage\n🩹WhatsApp echo loop, Telegram splitting, Discord reconnect fixes\n\nTokyo pre-ClawCon drop 🇯🇵https://t.co/xKgheOEuxk",
+      "lang": "en",
+      "favorite_count": 2332,
+      "retweet_count": 245,
+      "reply_count": 196,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2038220390665724001",
+      "url": "https://x.com/gregisenberg/status/2038220390665724001",
+      "screen_name": "gregisenberg",
+      "created_at": "Sun Mar 29 11:43:04 +0000 2026",
+      "full_text": "How to 10x your Claude with 4 .md files https://t.co/GumVmoQz8O",
+      "lang": "en",
+      "favorite_count": 2270,
+      "retweet_count": 177,
+      "reply_count": 154,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/GumVmoQz8O",
+          "expanded_url": "https://x.com/gregisenberg/status/2038220390665724001/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2038218710050385920",
+          "indices": [
+            40,
+            63
+          ],
+          "media_key": "13_2038218710050385920",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2038218710050385920/img/J0F5yF-ZIgOuQM8V.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1920,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 1920,
+              "w": 1080
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/GumVmoQz8O",
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              16
+            ],
+            "duration_millis": 46735,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2038218710050385920/pl/dtRpO0oYKW3Aoxff.m3u8?v=991"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038218710050385920/vid/avc1/320x568/NlLmLsKDzyXBhJdM.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038218710050385920/vid/avc1/480x852/kNlVHjV0Yb43R2zN.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038218710050385920/vid/avc1/720x1280/1ihDhl8v9t0t8hQf.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038218710050385920/vid/avc1/1080x1920/5UGmlIaPigEyKkeM.mp4"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2038335584209637577",
@@ -109,10 +257,7 @@
       "reply_count": 57,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     }
   ]
 }

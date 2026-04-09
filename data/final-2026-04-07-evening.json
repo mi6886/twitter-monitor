@@ -1,23 +1,50 @@
 {
   "date": "2026-04-07",
   "period": "evening",
-  "fetched_at": "2026-04-07T11:52:27.920862+00:00",
+  "fetched_at": "2026-04-07T11:52:27.880731+00:00",
   "raw_count": 104,
   "candidate_count": 56,
-  "final_count": 12,
-  "review_count": 30,
-  "drop_hard_count": 14,
+  "final_count": 19,
+  "review_count": 35,
+  "drop_hard_count": 2,
   "disposition_stats": {
-    "not_ai_content": 13,
-    "low_info_ai_content": 27,
-    "info_value": 10,
+    "brief_mention": 4,
+    "monitored_popular": 6,
+    "low_info_content": 30,
+    "info_value": 13,
     "too_brief": 1,
-    "high_signal_source": 2,
-    "low_value_pattern": 1,
-    "brief_ai_mention": 1,
+    "meme_or_reaction": 1,
     "off_topic": 1
   },
   "tweets": [
+    {
+      "tweet_id": "2041357306420777059",
+      "url": "https://x.com/aakashgupta/status/2041357306420777059",
+      "screen_name": "aakashgupta",
+      "created_at": "Tue Apr 07 03:28:03 +0000 2026",
+      "full_text": "The West poured $50 billion into fast breeder nuclear reactors and abandoned every single one. India poured $900 million and just achieved criticality on the first commercially viable one outside Russia.\n\nThe US spent $15 billion. Gave up. Japan spent $12 billion. Their Monju",
+      "lang": "en",
+      "favorite_count": 13032,
+      "retweet_count": 2934,
+      "reply_count": 178,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041326004308787410",
+      "url": "https://x.com/lexfridman/status/2041326004308787410",
+      "screen_name": "lexfridman",
+      "created_at": "Tue Apr 07 01:23:40 +0000 2026",
+      "full_text": "This life is fucking amazing. I'm so grateful to be alive, with all of you on this miracle of a planet. \n\nOh and I'm sorry if I fuck things up sometimes. I'm a flawed human. But I promise to do whatever I can to try to add some more understanding and love to this world. \n\nAfter",
+      "lang": "en",
+      "favorite_count": 9356,
+      "retweet_count": 254,
+      "reply_count": 1114,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
     {
       "tweet_id": "2041306515013783628",
       "url": "https://x.com/Hesamation/status/2041306515013783628",
@@ -92,10 +119,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041287132463919297",
@@ -109,10 +133,7 @@
       "reply_count": 155,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2041236952998171118",
@@ -190,10 +211,7 @@
           "type": "photo",
           "url": "https://t.co/trAUZyMHIe"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041275563466502560",
@@ -207,10 +225,7 @@
       "reply_count": 212,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
     },
     {
       "tweet_id": "2041335795450302916",
@@ -283,10 +298,49 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2041377689366647222",
+      "url": "https://x.com/aakashgupta/status/2041377689366647222",
+      "screen_name": "aakashgupta",
+      "created_at": "Tue Apr 07 04:49:02 +0000 2026",
+      "full_text": "Let me explain exactly why Apple still uses drag-to-install in 2026, because the joke here accidentally proves Apple right.\n\nA macOS .app is a single self-contained folder disguised as a file. Every dependency, every framework, every resource lives inside it. Drag it to",
+      "lang": "en",
+      "favorite_count": 3737,
+      "retweet_count": 462,
+      "reply_count": 142,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041397922940801170",
+      "url": "https://x.com/pmarca/status/2041397922940801170",
+      "screen_name": "pmarca",
+      "created_at": "Tue Apr 07 06:09:26 +0000 2026",
+      "full_text": "Magical OpenClaw experiences that use frontier models cost $300-1,000/day today, heading to $10,000/day and more. The future shape of the entire technology industry will be how to drive that to $20/month.",
+      "lang": "en",
+      "favorite_count": 3507,
+      "retweet_count": 242,
+      "reply_count": 338,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041399689048899641",
+      "url": "https://x.com/elonmusk/status/2041399689048899641",
+      "screen_name": "elonmusk",
+      "created_at": "Tue Apr 07 06:16:27 +0000 2026",
+      "full_text": "@pmarca A friend of mine showed me his OpenClaw setup. He runs open source models locally on his home computers for easier stuff, but spends ~$200/day on frontier models.",
+      "lang": "en",
+      "favorite_count": 3129,
+      "retweet_count": 182,
+      "reply_count": 342,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2041239990328553546",
@@ -362,10 +416,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041192886289494173",
@@ -446,10 +497,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2041311254292336810",
+      "url": "https://x.com/aakashgupta/status/2041311254292336810",
+      "screen_name": "aakashgupta",
+      "created_at": "Tue Apr 07 00:25:03 +0000 2026",
+      "full_text": "The last time France pulled its gold out of New York, the entire global monetary system collapsed within six years.\n\nIn 1963, De Gaulle launched a secret operation called \"Vide-Gousset.\" 44 boat trips. 129 flights. 3,313 tonnes of gold repatriated from the Federal Reserve and the",
+      "lang": "en",
+      "favorite_count": 2535,
+      "retweet_count": 595,
+      "reply_count": 54,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2041138856435826998",
@@ -522,10 +584,88 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2041067672658669874",
+      "url": "https://x.com/EvanLuthra/status/2041067672658669874",
+      "screen_name": "EvanLuthra",
+      "created_at": "Mon Apr 06 08:17:09 +0000 2026",
+      "full_text": "🚨BREAKING: Google just dropped Gemma 4 (OpenClaw for FREE)\n\nIt runs on your phone. Fully offline. No internet needed. No subscription. No data leaving your device.\n\nIt's called Google AI Edge Gallery. Available on both iPhone and Android right now.\n\nWhat it does:\n→ AI chat https://t.co/s7wS20aH3A",
+      "lang": "en",
+      "favorite_count": 2371,
+      "retweet_count": 343,
+      "reply_count": 155,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/s7wS20aH3A",
+          "expanded_url": "https://x.com/EvanLuthra/status/2041067672658669874/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041067559534141440",
+          "indices": [
+            274,
+            297
+          ],
+          "media_key": "13_2041067559534141440",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041067559534141440/img/c5Cc0FFo_GyOW8ao.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1920,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 1920,
+              "w": 1080
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/s7wS20aH3A",
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              16
+            ],
+            "duration_millis": 12996,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041067559534141440/pl/KrG7oFNcJ8wA2Xyf.m3u8"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041067559534141440/vid/avc1/320x568/zOg-4NdjruUim3of.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041067559534141440/vid/avc1/480x852/V16VZNLVjeHmgUvR.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041067559534141440/vid/avc1/720x1280/rJxpQS4W-gpRvBId.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041067559534141440/vid/avc1/1080x1920/NuJqmeWH_raZfSjP.mp4"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2041202511647019251",
@@ -539,10 +679,7 @@
       "reply_count": 310,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
     },
     {
       "tweet_id": "2041112612981916146",
@@ -623,10 +760,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041219569050677442",
@@ -707,10 +841,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041278669487018227",
@@ -791,10 +922,7 @@
           "type": "photo",
           "url": "https://t.co/PPkPZYaEHI"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     }
   ]
 }

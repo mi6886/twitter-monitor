@@ -1,23 +1,100 @@
 {
   "date": "2026-03-26",
   "period": "morning",
-  "fetched_at": "2026-03-25T23:25:50.652549+00:00",
+  "fetched_at": "2026-03-25T23:25:50.616933+00:00",
   "raw_count": 83,
   "candidate_count": 58,
-  "final_count": 11,
-  "review_count": 21,
-  "drop_hard_count": 26,
+  "final_count": 22,
+  "review_count": 32,
+  "drop_hard_count": 4,
   "disposition_stats": {
-    "not_ai_content": 24,
-    "brief_ai_mention": 2,
-    "low_value_pattern": 1,
-    "high_signal_source": 2,
-    "low_info_ai_content": 17,
-    "off_topic": 1,
-    "info_value": 9,
+    "low_info_content": 29,
+    "brief_mention": 2,
+    "meme_or_reaction": 1,
+    "info_value": 10,
+    "monitored_popular": 12,
+    "off_topic": 2,
     "too_brief": 2
   },
   "tweets": [
+    {
+      "tweet_id": "2036642279050367111",
+      "url": "https://x.com/om_patel5/status/2036642279050367111",
+      "screen_name": "om_patel5",
+      "created_at": "Wed Mar 25 03:12:12 +0000 2026",
+      "full_text": "this guy let an AI agent handle his scam texts for a week\n\na scammer asked him to buy a $500 gift card\n\nthe agent spent 4 hours \"driving\" to target. \n\nsent status updates like \"i'm at the red light now, there's a very handsome squirrel on the sidewalk. do you think he's married?\" https://t.co/LcMOkBKKY7",
+      "lang": "en",
+      "favorite_count": 14346,
+      "retweet_count": 955,
+      "reply_count": 155,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/LcMOkBKKY7",
+          "expanded_url": "https://x.com/om_patel5/status/2036642279050367111/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2036566413805015040",
+          "indices": [
+            281,
+            304
+          ],
+          "media_key": "3_2036566413805015040",
+          "media_url_https": "https://pbs.twimg.com/media/HENWXPhW0AAzCjE.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 812,
+                "w": 1450,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 840,
+                "w": 840,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 840,
+                "w": 737,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 840,
+                "w": 420,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 840,
+                "w": 1450,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 840,
+            "width": 1450
+          },
+          "sizes": {
+            "large": {
+              "h": 840,
+              "w": 1450
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/LcMOkBKKY7"
+        }
+      ]
+    },
     {
       "tweet_id": "2036850783526719610",
       "url": "https://x.com/claudeai/status/2036850783526719610",
@@ -95,10 +172,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      ]
+    },
+    {
+      "tweet_id": "2036836816654147718",
+      "url": "https://x.com/karpathy/status/2036836816654147718",
+      "screen_name": "karpathy",
+      "created_at": "Wed Mar 25 16:05:14 +0000 2026",
+      "full_text": "One common issue with personalization in all LLMs is how distracting memory seems to be for the models. A single question from 2 months ago about some topic can keep coming up as some kind of a deep interest of mine with undue mentions in perpetuity. Some kind of trying too hard.",
+      "lang": "en",
+      "favorite_count": 12444,
+      "retweet_count": 601,
+      "reply_count": 1176,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2036755687813120133",
@@ -112,10 +200,180 @@
       "reply_count": 67,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
+    },
+    {
+      "tweet_id": "2036832028960923917",
+      "url": "https://x.com/adcock_brett/status/2036832028960923917",
+      "screen_name": "adcock_brett",
+      "created_at": "Wed Mar 25 15:46:12 +0000 2026",
+      "full_text": "So proud to see F.03 make history as the first humanoid robot in the White House 🤖 🇺🇸 https://t.co/tXsxpEErsi",
+      "lang": "en",
+      "favorite_count": 6570,
+      "retweet_count": 699,
+      "reply_count": 773,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/tXsxpEErsi",
+          "expanded_url": "https://x.com/adcock_brett/status/2036832028960923917/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036831697099231232",
+          "indices": [
+            86,
+            109
+          ],
+          "media_key": "13_2036831697099231232",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036831697099231232/img/c7XoKkX-udT4UQdN.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 954,
+            "width": 1696
+          },
+          "sizes": {
+            "large": {
+              "h": 954,
+              "w": 1696
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/tXsxpEErsi",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 173163,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2036831697099231232/pl/LLbc0dQ918aRdGCx.m3u8"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036831697099231232/vid/avc1/478x270/if4bcL3Cr1r0EVRX.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036831697099231232/vid/avc1/640x360/8VmpIUOnYYhT-_x-.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036831697099231232/vid/avc1/1280x720/e_FQYV46QoKZHacG.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036831697099231232/vid/avc1/1696x954/WJDOIXYB5PKnJEte.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2036765797037863369",
+      "url": "https://x.com/aakashgupta/status/2036765797037863369",
+      "screen_name": "aakashgupta",
+      "created_at": "Wed Mar 25 11:23:01 +0000 2026",
+      "full_text": "The $46 billion vape industry hired flavor chemists to solve a specific problem: nicotine tastes bitter. The human tongue has T2R receptors that detect nicotine and trigger aversion. So the industry reverse-engineered the problem. They loaded e-liquids with fruity aromatic",
+      "lang": "en",
+      "favorite_count": 5375,
+      "retweet_count": 471,
+      "reply_count": 45,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2036768607074406606",
+      "url": "https://x.com/naval/status/2036768607074406606",
+      "screen_name": "naval",
+      "created_at": "Wed Mar 25 11:34:11 +0000 2026",
+      "full_text": "Make your own App Store. https://t.co/Jd3QfhWaCm",
+      "lang": "en",
+      "favorite_count": 4158,
+      "retweet_count": 230,
+      "reply_count": 420,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/Jd3QfhWaCm",
+          "expanded_url": "https://x.com/naval/status/2036768607074406606/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2036768342527385600",
+          "indices": [
+            25,
+            48
+          ],
+          "media_key": "3_2036768342527385600",
+          "media_url_https": "https://pbs.twimg.com/media/HEQOBCobIAAWhvX.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 528,
+                "w": 943,
+                "x": 0,
+                "y": 196
+              },
+              {
+                "h": 943,
+                "w": 943,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1075,
+                "w": 943,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1886,
+                "w": 943,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2048,
+                "w": 943,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 2048,
+            "width": 943
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 943
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Jd3QfhWaCm"
+        }
+      ]
     },
     {
       "tweet_id": "2036809098910638083",
@@ -206,10 +464,21 @@
           "type": "photo",
           "url": "https://t.co/k0jR7VgOBt"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2036730817712656684",
+      "url": "https://x.com/aakashgupta/status/2036730817712656684",
+      "screen_name": "aakashgupta",
+      "created_at": "Wed Mar 25 09:04:02 +0000 2026",
+      "full_text": "Two words and this guy accidentally described a triple-layer behavioral intervention that most diet coaches charge $200/hour to explain.\n\nSodium laureth sulfate, the chemical that makes toothpaste foam, suppresses your sweet taste receptors and amplifies bitter ones. That orange",
+      "lang": "en",
+      "favorite_count": 3139,
+      "retweet_count": 315,
+      "reply_count": 24,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2036553581625745511",
@@ -223,10 +492,21 @@
       "reply_count": 119,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
+    },
+    {
+      "tweet_id": "2036675563939856631",
+      "url": "https://x.com/aakashgupta/status/2036675563939856631",
+      "screen_name": "aakashgupta",
+      "created_at": "Wed Mar 25 05:24:28 +0000 2026",
+      "full_text": "An Auntie Anne’s original pretzel cost about $3.50 in 2009. Today it’s $7.29. The pretzel tracked inflation almost perfectly.\n\nThe pretzel is accidentally the most honest inflation tracker in America. It’s priced in flour, sugar, labor, commercial rent, and energy. Every cost",
+      "lang": "en",
+      "favorite_count": 3095,
+      "retweet_count": 434,
+      "reply_count": 15,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2036702519959962060",
@@ -304,10 +584,21 @@
           "type": "photo",
           "url": "https://t.co/zlmXQVuga1"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2036673787018752269",
+      "url": "https://x.com/aakashgupta/status/2036673787018752269",
+      "screen_name": "aakashgupta",
+      "created_at": "Wed Mar 25 05:17:25 +0000 2026",
+      "full_text": "The US just ran the most effective energy siege in modern history, and most Americans don’t even know it’s happening.\n\nJanuary: the US removes Maduro from Venezuela, cutting off Cuba’s primary oil lifeline of 100,000 barrels per day. Same month, Trump warns tariffs on any country",
+      "lang": "en",
+      "favorite_count": 2618,
+      "retweet_count": 451,
+      "reply_count": 89,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2036531579166613930",
@@ -383,10 +674,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2036758240952783276",
@@ -464,10 +752,21 @@
           "type": "photo",
           "url": "https://t.co/HiTkzgQWuh"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2036697551181902173",
+      "url": "https://x.com/aakashgupta/status/2036697551181902173",
+      "screen_name": "aakashgupta",
+      "created_at": "Wed Mar 25 06:51:50 +0000 2026",
+      "full_text": "Microsoft has now renamed this product four times in four years and each name is worse than the last.\n\nMicrosoft Office (1990-2022). Thirty-two years of brand equity. Everyone on Earth knew what it meant. Your grandmother knew what it meant. “I need to open Office” required zero",
+      "lang": "en",
+      "favorite_count": 2402,
+      "retweet_count": 155,
+      "reply_count": 76,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2036548842099781694",
@@ -481,10 +780,7 @@
       "reply_count": 166,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
     },
     {
       "tweet_id": "2036853669065306534",
@@ -565,10 +861,7 @@
           "type": "photo",
           "url": "https://t.co/m6pUdQDerQ"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2036837084628127781",
@@ -649,10 +942,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2036537041526128656",
@@ -805,10 +1095,35 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2036527129190604948",
+      "url": "https://x.com/aakashgupta/status/2036527129190604948",
+      "screen_name": "aakashgupta",
+      "created_at": "Tue Mar 24 19:34:39 +0000 2026",
+      "full_text": "The most profitable seat on a 787 isn't in business class. It's three economy seats with a $40 mattress pad. I've flown the original version on Air New Zealand. United just figured out the math.\n\nA Polaris suite takes the footprint of roughly four economy seats. At $4,000 one-way",
+      "lang": "en",
+      "favorite_count": 2029,
+      "retweet_count": 91,
+      "reply_count": 77,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2036832183131033977",
+      "url": "https://x.com/levie/status/2036832183131033977",
+      "screen_name": "levie",
+      "created_at": "Wed Mar 25 15:46:49 +0000 2026",
+      "full_text": "Jevons paradox is happening in real time. Companies, especially outside of tech, are realizing that they can now afford to take on software projects that they wouldn’t have been able to tackle before because now AI lets them do so. \n\nWe’re going to start to use software for all",
+      "lang": "en",
+      "favorite_count": 2005,
+      "retweet_count": 282,
+      "reply_count": 142,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     }
   ]
 }

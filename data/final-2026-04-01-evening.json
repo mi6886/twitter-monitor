@@ -1,21 +1,21 @@
 {
   "date": "2026-04-01",
   "period": "evening",
-  "fetched_at": "2026-04-01T11:52:10.208853+00:00",
+  "fetched_at": "2026-04-01T11:52:10.124126+00:00",
   "raw_count": 212,
   "candidate_count": 142,
-  "final_count": 20,
-  "review_count": 107,
-  "drop_hard_count": 15,
+  "final_count": 40,
+  "review_count": 98,
+  "drop_hard_count": 4,
   "disposition_stats": {
-    "low_info_ai_content": 91,
-    "brief_ai_mention": 5,
-    "info_value": 19,
-    "weak_signal_untrusted": 2,
-    "not_ai_content": 15,
-    "low_value_pattern": 6,
+    "low_info_content": 90,
+    "brief_mention": 3,
+    "info_value": 23,
+    "weak_signal_untrusted": 3,
+    "monitored_popular": 17,
+    "meme_or_reaction": 2,
     "off_topic": 3,
-    "monitored_lenient": 1
+    "gossip_or_bait": 1
   },
   "tweets": [
     {
@@ -30,10 +30,7 @@
       "reply_count": 280,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2039006300441620782",
@@ -114,10 +111,367 @@
           "type": "photo",
           "url": "https://t.co/n7hEqAdZQb"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2039025274151465366",
+      "url": "https://x.com/MrBeast/status/2039025274151465366",
+      "screen_name": "MrBeast",
+      "created_at": "Tue Mar 31 17:01:23 +0000 2026",
+      "full_text": "This Saturday 50 streamers compete for $1,000,000 (for their fans) drops! It’s the best video I’ve ever made I’m so freaken excited :D https://t.co/pynsxWiVyb",
+      "lang": "en",
+      "favorite_count": 11628,
+      "retweet_count": 705,
+      "reply_count": 2113,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/pynsxWiVyb",
+          "expanded_url": "https://x.com/MrBeast/status/2039025274151465366/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 70,
+                  "w": 70,
+                  "x": 1206,
+                  "y": 420
+                },
+                {
+                  "h": 70,
+                  "w": 70,
+                  "x": 1016,
+                  "y": 458
+                },
+                {
+                  "h": 68,
+                  "w": 68,
+                  "x": 464,
+                  "y": 500
+                },
+                {
+                  "h": 72,
+                  "w": 72,
+                  "x": 630,
+                  "y": 510
+                },
+                {
+                  "h": 72,
+                  "w": 72,
+                  "x": 1076,
+                  "y": 514
+                },
+                {
+                  "h": 72,
+                  "w": 72,
+                  "x": 694,
+                  "y": 524
+                },
+                {
+                  "h": 76,
+                  "w": 76,
+                  "x": 84,
+                  "y": 548
+                },
+                {
+                  "h": 80,
+                  "w": 80,
+                  "x": 740,
+                  "y": 544
+                },
+                {
+                  "h": 84,
+                  "w": 84,
+                  "x": 1384,
+                  "y": 548
+                },
+                {
+                  "h": 86,
+                  "w": 86,
+                  "x": 1568,
+                  "y": 556
+                },
+                {
+                  "h": 84,
+                  "w": 84,
+                  "x": 1702,
+                  "y": 558
+                },
+                {
+                  "h": 88,
+                  "w": 88,
+                  "x": 1202,
+                  "y": 558
+                },
+                {
+                  "h": 86,
+                  "w": 86,
+                  "x": 338,
+                  "y": 564
+                },
+                {
+                  "h": 80,
+                  "w": 80,
+                  "x": 546,
+                  "y": 580
+                },
+                {
+                  "h": 76,
+                  "w": 76,
+                  "x": 946,
+                  "y": 588
+                },
+                {
+                  "h": 76,
+                  "w": 76,
+                  "x": 442,
+                  "y": 592
+                },
+                {
+                  "h": 78,
+                  "w": 78,
+                  "x": 670,
+                  "y": 744
+                },
+                {
+                  "h": 100,
+                  "w": 100,
+                  "x": 1448,
+                  "y": 732
+                },
+                {
+                  "h": 76,
+                  "w": 76,
+                  "x": 860,
+                  "y": 948
+                },
+                {
+                  "h": 80,
+                  "w": 80,
+                  "x": 1114,
+                  "y": 564
+                },
+                {
+                  "h": 94,
+                  "w": 94,
+                  "x": 164,
+                  "y": 576
+                },
+                {
+                  "h": 86,
+                  "w": 86,
+                  "x": 322,
+                  "y": 864
+                },
+                {
+                  "h": 96,
+                  "w": 96,
+                  "x": 386,
+                  "y": 944
+                },
+                {
+                  "h": 88,
+                  "w": 88,
+                  "x": 1004,
+                  "y": 952
+                },
+                {
+                  "h": 86,
+                  "w": 86,
+                  "x": 562,
+                  "y": 920
+                },
+                {
+                  "h": 98,
+                  "w": 98,
+                  "x": 1628,
+                  "y": 738
+                },
+                {
+                  "h": 100,
+                  "w": 100,
+                  "x": 1436,
+                  "y": 884
+                },
+                {
+                  "h": 98,
+                  "w": 98,
+                  "x": 142,
+                  "y": 940
+                },
+                {
+                  "h": 112,
+                  "w": 112,
+                  "x": 1528,
+                  "y": 1116
+                },
+                {
+                  "h": 128,
+                  "w": 128,
+                  "x": 1092,
+                  "y": 972
+                },
+                {
+                  "h": 152,
+                  "w": 152,
+                  "x": 1370,
+                  "y": 580
+                }
+              ]
+            }
+          },
+          "id_str": "2039025264823590912",
+          "indices": [
+            135,
+            158
+          ],
+          "media_key": "3_2039025264823590912",
+          "media_url_https": "https://pbs.twimg.com/media/HEwSrNXbYAAuCg2.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1007,
+                "w": 1799,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1799,
+                "w": 1799,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2048,
+                "w": 1796,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2048,
+                "w": 1024,
+                "x": 358,
+                "y": 0
+              },
+              {
+                "h": 2048,
+                "w": 1799,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 2048,
+            "width": 1799
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1799
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/pynsxWiVyb"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2038991257582604618",
+      "url": "https://x.com/LexnLin/status/2038991257582604618",
+      "screen_name": "LexnLin",
+      "created_at": "Tue Mar 31 14:46:13 +0000 2026",
+      "full_text": "IT WORKED.\n\nopensource full claude code soon. https://t.co/6TJ2IBgRzq",
+      "lang": "en",
+      "favorite_count": 7939,
+      "retweet_count": 475,
+      "reply_count": 212,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/6TJ2IBgRzq",
+          "expanded_url": "https://x.com/LexnLin/status/2038991257582604618/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2038991248158015488",
+          "indices": [
+            46,
+            69
+          ],
+          "media_key": "3_2038991248158015488",
+          "media_url_https": "https://pbs.twimg.com/media/HEvzvLaWwAAuwiW.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 761,
+                "w": 1359,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 761,
+                "w": 761,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 761,
+                "w": 668,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 761,
+                "w": 381,
+                "x": 143,
+                "y": 0
+              },
+              {
+                "h": 761,
+                "w": 1482,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 761,
+            "width": 1482
+          },
+          "sizes": {
+            "large": {
+              "h": 761,
+              "w": 1482
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/6TJ2IBgRzq"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2039085161971896807",
+      "url": "https://x.com/OpenAI/status/2039085161971896807",
+      "screen_name": "OpenAI",
+      "created_at": "Tue Mar 31 20:59:21 +0000 2026",
+      "full_text": "Today, we closed our latest funding round with $122 billion in committed capital at an $852B post-money valuation.\n\nThe fastest way to expand AI’s benefits is to put useful intelligence in people’s hands early and let access compound globally. \n\nThis funding gives us resources to",
+      "lang": "en",
+      "favorite_count": 6962,
+      "retweet_count": 598,
+      "reply_count": 780,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2038950761522978950",
@@ -190,10 +544,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2039002555200700908",
@@ -271,10 +622,35 @@
           "type": "photo",
           "url": "https://t.co/gCu83bTYX2"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2039210700657307889",
+      "url": "https://x.com/bcherny/status/2039210700657307889",
+      "screen_name": "bcherny",
+      "created_at": "Wed Apr 01 05:18:12 +0000 2026",
+      "full_text": "@wongmjane @BenLesh Mistakes happen. As a team, the important thing is to recognize it’s never an individuals’s fault — it’s the process, the culture, or the infra.\n\nIn this case, there was a manual deploy step that should have been better automated. Our team has made a few improvements to the",
+      "lang": "en",
+      "favorite_count": 5532,
+      "retweet_count": 457,
+      "reply_count": 204,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2039088284249588216",
+      "url": "https://x.com/beginbot/status/2039088284249588216",
+      "screen_name": "beginbot",
+      "created_at": "Tue Mar 31 21:11:46 +0000 2026",
+      "full_text": "wow @garrytan just exposed Anthropic as total frauds\n\nClaude Code was ONLY 512K LOC ☹️\nGary is shipping 37K LOCs PER DAY\n\nso Gary could recreate all of Claude Code in ONLY 13 days!\n\na supposedly $380 billion is big trouble",
+      "lang": "en",
+      "favorite_count": 5375,
+      "retweet_count": 127,
+      "reply_count": 62,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2039076980671316223",
@@ -288,10 +664,141 @@
       "reply_count": 556,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
+    },
+    {
+      "tweet_id": "2038969843701989773",
+      "url": "https://x.com/Google/status/2038969843701989773",
+      "screen_name": "Google",
+      "created_at": "Tue Mar 31 13:21:07 +0000 2026",
+      "full_text": "You asked, we delivered. If you’re a U.S. Google user, you can now change your account username for tools like Gmail, Photos, Drive and more — while keeping your emails, data and account history. Here’s what to know:  \n\n1️⃣ You can choose any available @gmail.com username. \n\n2️⃣ https://t.co/eF2lgbJaFg",
+      "lang": "en",
+      "favorite_count": 4700,
+      "retweet_count": 596,
+      "reply_count": 361,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/eF2lgbJaFg",
+          "expanded_url": "https://x.com/Google/status/2038969843701989773/photo/1",
+          "ext_alt_text": "A minimalist graphic featuring an email address backspacing and changing to a new gmail address.",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2038969817605013504",
+          "indices": [
+            280,
+            303
+          ],
+          "media_key": "16_2038969817605013504",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/HEvgPwYXAAAMwPr.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 540,
+            "width": 960
+          },
+          "sizes": {
+            "large": {
+              "h": 540,
+              "w": 960
+            }
+          },
+          "type": "animated_gif",
+          "url": "https://t.co/eF2lgbJaFg",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "variants": [
+              {
+                "bitrate": 0,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/tweet_video/HEvgPwYXAAAMwPr.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2039012548260082082",
+      "url": "https://x.com/heygurisingh/status/2039012548260082082",
+      "screen_name": "heygurisingh",
+      "created_at": "Tue Mar 31 16:10:49 +0000 2026",
+      "full_text": "Holy shit... Stanford just proved that GPT-5, Gemini, and Claude can't actually see.\n\nThey removed every image from 6 major vision benchmarks.\n\nThe models still scored 70-80% accuracy.\n\nThey were never looking at your photos. Your scans. Your X-rays.\n\nHere's what's really going https://t.co/ryFTPfC4bb",
+      "lang": "en",
+      "favorite_count": 4357,
+      "retweet_count": 919,
+      "reply_count": 258,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/ryFTPfC4bb",
+          "expanded_url": "https://x.com/heygurisingh/status/2039012548260082082/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2039012544103497728",
+          "indices": [
+            279,
+            302
+          ],
+          "media_key": "3_2039012544103497728",
+          "media_url_https": "https://pbs.twimg.com/media/HEwHGw_awAASwZ6.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 672,
+                "w": 1200,
+                "x": 0,
+                "y": 113
+              },
+              {
+                "h": 842,
+                "w": 842,
+                "x": 358,
+                "y": 0
+              },
+              {
+                "h": 842,
+                "w": 739,
+                "x": 439,
+                "y": 0
+              },
+              {
+                "h": 842,
+                "w": 421,
+                "x": 598,
+                "y": 0
+              },
+              {
+                "h": 842,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 842,
+            "width": 1200
+          },
+          "sizes": {
+            "large": {
+              "h": 842,
+              "w": 1200
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/ryFTPfC4bb"
+        }
+      ]
     },
     {
       "tweet_id": "2039017597296128073",
@@ -372,10 +879,21 @@
           "type": "photo",
           "url": "https://t.co/YNGVEO9lQM"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2039054981719089202",
+      "url": "https://x.com/karpathy/status/2039054981719089202",
+      "screen_name": "karpathy",
+      "created_at": "Tue Mar 31 18:59:26 +0000 2026",
+      "full_text": "@gvanrossum LLM = CPU (data: tokens not bytes, dynamics: statistical and vague not deterministic and precise)\nAgent = operating system kernel",
+      "lang": "en",
+      "favorite_count": 4180,
+      "retweet_count": 288,
+      "reply_count": 126,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2039109796322853058",
@@ -389,10 +907,97 @@
       "reply_count": 173,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "monitored_lenient"
+      "media": []
+    },
+    {
+      "tweet_id": "2039045684167676314",
+      "url": "https://x.com/GithubProjects/status/2039045684167676314",
+      "screen_name": "GithubProjects",
+      "created_at": "Tue Mar 31 18:22:29 +0000 2026",
+      "full_text": "&gt; Thanks Anthropic, for Open-sourcing claude code. https://t.co/1ZKk2TXY5Z",
+      "lang": "en",
+      "favorite_count": 3865,
+      "retweet_count": 338,
+      "reply_count": 75,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/1ZKk2TXY5Z",
+          "expanded_url": "https://x.com/GithubProjects/status/2039045684167676314/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2039045623853506560",
+          "indices": [
+            54,
+            77
+          ],
+          "media_key": "13_2039045623853506560",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2039045623853506560/img/_VVZX0Pn84ZvuXJg.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/1ZKk2TXY5Z",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 16033,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2039045623853506560/pl/GRWrcULHF3ouk4fB.m3u8?v=a45"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039045623853506560/vid/avc1/480x270/igxWUlfF407JHgNm.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039045623853506560/vid/avc1/640x360/hrL77lzONbSRRy72.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039045623853506560/vid/avc1/1280x720/Rob0YgI2NVRBcHWL.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2038948940092170486",
+      "url": "https://x.com/aakashgupta/status/2038948940092170486",
+      "screen_name": "aakashgupta",
+      "created_at": "Tue Mar 31 11:58:03 +0000 2026",
+      "full_text": "The math on this is correct and it makes Disney's pricing team look unhinged.\n\nTokyo Disney adult ticket: $51 to $70 per day. Disney World: $109 to $169. A baseline Disney World trip for a family of four runs $7,400 in 2026, and that's before Lightning Lane, park hopper upgrades,",
+      "lang": "en",
+      "favorite_count": 3663,
+      "retweet_count": 281,
+      "reply_count": 126,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2038899844291436861",
@@ -539,10 +1144,7 @@
           "type": "photo",
           "url": "https://t.co/iLLrGBdqde"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2038982433714905253",
@@ -556,10 +1158,21 @@
       "reply_count": 89,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
+    },
+    {
+      "tweet_id": "2039161903122087979",
+      "url": "https://x.com/bcherny/status/2039161903122087979",
+      "screen_name": "bcherny",
+      "created_at": "Wed Apr 01 02:04:18 +0000 2026",
+      "full_text": "@Rahatcodes 👋 This is one of the signals we use to figure out if people are having a good experience. We put it on a dashboard and call it the “fucks” chart",
+      "lang": "en",
+      "favorite_count": 3420,
+      "retweet_count": 127,
+      "reply_count": 205,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2039026208965328909",
@@ -635,10 +1248,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2039207155069505693",
+      "url": "https://x.com/bcherny/status/2039207155069505693",
+      "screen_name": "bcherny",
+      "created_at": "Wed Apr 01 05:04:07 +0000 2026",
+      "full_text": "@ns123abc 👋 it was human error. Our deploy process has a few manual steps, and we didn’t do one of the steps correctly. We have landed a few improvements and are digging in to add more sanity checks.\n\nLike with any other incident, the counter-intuitive answer is to solve the problem by",
+      "lang": "en",
+      "favorite_count": 3127,
+      "retweet_count": 159,
+      "reply_count": 105,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2039126728639975693",
@@ -652,10 +1276,21 @@
       "reply_count": 87,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
+    },
+    {
+      "tweet_id": "2039168928145109343",
+      "url": "https://x.com/bcherny/status/2039168928145109343",
+      "screen_name": "bcherny",
+      "created_at": "Wed Apr 01 02:32:13 +0000 2026",
+      "full_text": "@BenLesh No, can confirm it was not related to bun. Just developer error",
+      "lang": "en",
+      "favorite_count": 2962,
+      "retweet_count": 114,
+      "reply_count": 114,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2038930473662201973",
@@ -736,10 +1371,35 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2039060705190551948",
+      "url": "https://x.com/levelsio/status/2039060705190551948",
+      "screen_name": "levelsio",
+      "created_at": "Tue Mar 31 19:22:10 +0000 2026",
+      "full_text": "Ironically I'm convinced democracy might kinda work\n\nIt just takes 3-5 years of shouting on X about an issue, getting told off for it and then suddenly the governments actually do what people said they should do on here\n\nI wonder if you can fasten that feedback loop from 5 years",
+      "lang": "en",
+      "favorite_count": 2798,
+      "retweet_count": 76,
+      "reply_count": 214,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2039156102949208512",
+      "url": "https://x.com/bcherny/status/2039156102949208512",
+      "screen_name": "bcherny",
+      "created_at": "Wed Apr 01 01:41:15 +0000 2026",
+      "full_text": "@stevekrouse 🫶I came up with the initial list, then a bunch of others contributed words also. This list has gone through many iterations!",
+      "lang": "en",
+      "favorite_count": 2757,
+      "retweet_count": 42,
+      "reply_count": 115,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2039004690898116711",
@@ -815,10 +1475,161 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2039019769350037897",
+      "url": "https://x.com/birdabo/status/2039019769350037897",
+      "screen_name": "birdabo",
+      "created_at": "Tue Mar 31 16:39:30 +0000 2026",
+      "full_text": "POV: you accidentally said “hello” to claude and it costs you 2% of your session limit. https://t.co/7U7ToZQFQf",
+      "lang": "en",
+      "favorite_count": 2677,
+      "retweet_count": 94,
+      "reply_count": 48,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/7U7ToZQFQf",
+          "expanded_url": "https://x.com/birdabo/status/2039019769350037897/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2039019714962477056",
+          "indices": [
+            88,
+            111
+          ],
+          "media_key": "13_2039019714962477056",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2039019714962477056/img/UHo8SjKoPS0oiCk-.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/7U7ToZQFQf",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 9329,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2039019714962477056/pl/UvxX0kdrrR8HAFtR.m3u8"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039019714962477056/vid/avc1/480x270/jqCLZnmiscUCS7B6.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039019714962477056/vid/avc1/640x360/OfX2sfWW0Zg8q3KC.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2039019714962477056/vid/avc1/1280x720/J9eEyqJqPMy2zM3b.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2039125157134905517",
+      "url": "https://x.com/gregisenberg/status/2039125157134905517",
+      "screen_name": "gregisenberg",
+      "created_at": "Tue Mar 31 23:38:17 +0000 2026",
+      "full_text": "sequoia put out a blog post called \"services is the new software\" \n\nlook at this map of over $1T in services being replaced by AI agents https://t.co/aFmDGhysfl",
+      "lang": "en",
+      "favorite_count": 2585,
+      "retweet_count": 284,
+      "reply_count": 161,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/aFmDGhysfl",
+          "expanded_url": "https://x.com/gregisenberg/status/2039125157134905517/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2039123048507625472",
+          "indices": [
+            137,
+            160
+          ],
+          "media_key": "3_2039123048507625472",
+          "media_url_https": "https://pbs.twimg.com/media/HExrm9-b0AA9_yi.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 757,
+                "w": 1352,
+                "x": 0,
+                "y": 399
+              },
+              {
+                "h": 1248,
+                "w": 1248,
+                "x": 104,
+                "y": 0
+              },
+              {
+                "h": 1248,
+                "w": 1095,
+                "x": 257,
+                "y": 0
+              },
+              {
+                "h": 1248,
+                "w": 624,
+                "x": 533,
+                "y": 0
+              },
+              {
+                "h": 1248,
+                "w": 1352,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1248,
+            "width": 1352
+          },
+          "sizes": {
+            "large": {
+              "h": 1248,
+              "w": 1352
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/aFmDGhysfl"
+        }
+      ]
     },
     {
       "tweet_id": "2038999111039357302",
@@ -896,10 +1707,176 @@
           "type": "photo",
           "url": "https://t.co/ycnxtnqBqQ"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2039015034286694618",
+      "url": "https://x.com/OfficialLoganK/status/2039015034286694618",
+      "screen_name": "OfficialLoganK",
+      "created_at": "Tue Mar 31 16:20:41 +0000 2026",
+      "full_text": "Video’s here to stay - introducing Veo 3.1 Lite, our most cost efficient video generation model to date, and on April 7th we are also reducing the price for Veo 3.1 Fast : ) https://t.co/s7OMZaMPho",
+      "lang": "en",
+      "favorite_count": 2413,
+      "retweet_count": 142,
+      "reply_count": 192,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/s7OMZaMPho",
+          "expanded_url": "https://x.com/OfficialLoganK/status/2039015034286694618/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2039014002861207552",
+          "indices": [
+            174,
+            197
+          ],
+          "media_key": "3_2039014002861207552",
+          "media_url_https": "https://pbs.twimg.com/media/HEwIbrSW8AA-vWC.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 586,
+                "w": 1046,
+                "x": 710,
+                "y": 0
+              },
+              {
+                "h": 586,
+                "w": 586,
+                "x": 940,
+                "y": 0
+              },
+              {
+                "h": 586,
+                "w": 514,
+                "x": 976,
+                "y": 0
+              },
+              {
+                "h": 586,
+                "w": 293,
+                "x": 1087,
+                "y": 0
+              },
+              {
+                "h": 586,
+                "w": 1980,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 586,
+            "width": 1980
+          },
+          "sizes": {
+            "large": {
+              "h": 586,
+              "w": 1980
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/s7OMZaMPho"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2038901705543426524",
+      "url": "https://x.com/paulg/status/2038901705543426524",
+      "screen_name": "paulg",
+      "created_at": "Tue Mar 31 08:50:22 +0000 2026",
+      "full_text": "Sadly, he doesn't even have this advantage, as anyone who's had small children knows. When someone is sufficiently unsophisticated, it's possible to know what they're doing even when they don't know themselves. https://t.co/H1QLbIR8BI",
+      "lang": "en",
+      "favorite_count": 2408,
+      "retweet_count": 176,
+      "reply_count": 96,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/H1QLbIR8BI",
+          "expanded_url": "https://x.com/paulg/status/2038901705543426524/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 244,
+                  "w": 244,
+                  "x": 180,
+                  "y": 236
+                }
+              ]
+            }
+          },
+          "id_str": "2038900949948026881",
+          "indices": [
+            211,
+            234
+          ],
+          "media_key": "3_2038900949948026881",
+          "media_url_https": "https://pbs.twimg.com/media/HEuhnIXb0AE1wmy.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 609,
+                "w": 1088,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 613,
+                "w": 613,
+                "x": 475,
+                "y": 0
+              },
+              {
+                "h": 613,
+                "w": 538,
+                "x": 550,
+                "y": 0
+              },
+              {
+                "h": 613,
+                "w": 307,
+                "x": 744,
+                "y": 0
+              },
+              {
+                "h": 613,
+                "w": 1088,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 613,
+            "width": 1088
+          },
+          "sizes": {
+            "large": {
+              "h": 613,
+              "w": 1088
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/H1QLbIR8BI"
+        }
+      ]
     },
     {
       "tweet_id": "2039073153922539901",
@@ -977,10 +1954,7 @@
           "type": "photo",
           "url": "https://t.co/J1N1zebz1D"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2038914700411346949",
@@ -1061,10 +2035,7 @@
           "type": "photo",
           "url": "https://t.co/4EaGcMrY5R"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2039140120830362058",
@@ -1078,10 +2049,7 @@
       "reply_count": 175,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2039115583170728270",
@@ -1095,10 +2063,21 @@
       "reply_count": 97,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
+    },
+    {
+      "tweet_id": "2038918377104970119",
+      "url": "https://x.com/kirat_tw/status/2038918377104970119",
+      "screen_name": "kirat_tw",
+      "created_at": "Tue Mar 31 09:56:37 +0000 2026",
+      "full_text": "claude code is officially open source.",
+      "lang": "en",
+      "favorite_count": 2146,
+      "retweet_count": 101,
+      "reply_count": 135,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2039079005769371936",
@@ -1112,10 +2091,7 @@
       "reply_count": 151,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2039005513015574934",
@@ -1129,10 +2105,7 @@
       "reply_count": 909,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     }
   ]
 }

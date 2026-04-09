@@ -1,21 +1,19 @@
 {
   "date": "2026-03-31",
   "period": "morning",
-  "fetched_at": "2026-03-30T23:27:26.898120+00:00",
+  "fetched_at": "2026-03-30T23:27:26.862973+00:00",
   "raw_count": 77,
   "candidate_count": 52,
-  "final_count": 14,
-  "review_count": 30,
-  "drop_hard_count": 8,
+  "final_count": 22,
+  "review_count": 29,
+  "drop_hard_count": 1,
   "disposition_stats": {
-    "high_signal_source": 3,
-    "not_ai_content": 8,
-    "low_info_ai_content": 26,
-    "info_value": 10,
-    "low_value_pattern": 1,
-    "monitored_lenient": 1,
+    "monitored_popular": 11,
+    "low_info_content": 26,
+    "info_value": 11,
+    "meme_or_reaction": 1,
     "weak_signal_untrusted": 1,
-    "brief_ai_mention": 1,
+    "brief_mention": 1,
     "off_topic": 1
   },
   "tweets": [
@@ -96,10 +94,35 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      ]
+    },
+    {
+      "tweet_id": "2038640777484439805",
+      "url": "https://x.com/MrBeast/status/2038640777484439805",
+      "screen_name": "MrBeast",
+      "created_at": "Mon Mar 30 15:33:32 +0000 2026",
+      "full_text": "Now that Japan sees our tweets, I’m curious what’s popping on Japanese YouTube? Like what videos do you guys watch over there",
+      "lang": "en",
+      "favorite_count": 27425,
+      "retweet_count": 893,
+      "reply_count": 3259,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2038648359817482251",
+      "url": "https://x.com/thedankoe/status/2038648359817482251",
+      "screen_name": "thedankoe",
+      "created_at": "Mon Mar 30 16:03:39 +0000 2026",
+      "full_text": "You can learn anything in 2 weeks.\n\nYou can't master it, obviously, but if you obsess over it, you can become better at it than most people ever will. You'd be surprised how fast your life can change when you understand this.",
+      "lang": "en",
+      "favorite_count": 9402,
+      "retweet_count": 1179,
+      "reply_count": 400,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2038705696376848409",
@@ -259,10 +282,7 @@
           "type": "photo",
           "url": "https://t.co/FBdUMBm97N"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2038686571676008625",
@@ -276,10 +296,7 @@
       "reply_count": 929,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "monitored_lenient"
+      "media": []
     },
     {
       "tweet_id": "2038714312689430704",
@@ -360,10 +377,35 @@
           "type": "photo",
           "url": "https://t.co/SNcSSVaIr6"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2038496710377587107",
+      "url": "https://x.com/aakashgupta/status/2038496710377587107",
+      "screen_name": "aakashgupta",
+      "created_at": "Mon Mar 30 06:01:03 +0000 2026",
+      "full_text": "Printers haven't improved in 20 years because improving them would destroy the most profitable business model in consumer hardware.\n\nHP made $4.2 billion in printing revenue last quarter. Ink cartridge margins run 60-70%. Hardware margins are close to zero. The entire business",
+      "lang": "en",
+      "favorite_count": 4286,
+      "retweet_count": 736,
+      "reply_count": 212,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2038641059400478747",
+      "url": "https://x.com/MrBeast/status/2038641059400478747",
+      "screen_name": "MrBeast",
+      "created_at": "Mon Mar 30 15:34:39 +0000 2026",
+      "full_text": "@KITKAT It wasn’t me!",
+      "lang": "en",
+      "favorite_count": 3974,
+      "retweet_count": 71,
+      "reply_count": 237,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2038666497254433045",
@@ -441,10 +483,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2038710800592847214",
@@ -458,10 +497,7 @@
       "reply_count": 228,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2038677236304245087",
@@ -475,10 +511,7 @@
       "reply_count": 200,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2038621065019359339",
@@ -556,10 +589,7 @@
           "type": "photo",
           "url": "https://t.co/oHGz0sKyFt"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2038619783898284158",
@@ -640,10 +670,7 @@
           "type": "photo",
           "url": "https://t.co/CDmkORXrq6"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2038611920555856041",
@@ -731,10 +758,21 @@
           "type": "photo",
           "url": "https://t.co/mLxxsun9TN"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2038692812116636060",
+      "url": "https://x.com/aakashgupta/status/2038692812116636060",
+      "screen_name": "aakashgupta",
+      "created_at": "Mon Mar 30 19:00:18 +0000 2026",
+      "full_text": "The reason software eats RAM is the same reason factories used to dump chemicals in rivers. The cost is externalized.\n\nEvery mass of inference compute shows up on an engineering manager's AWS bill, broken down to the cent, reviewed quarterly. Every mass of RAM consumed on YOUR",
+      "lang": "en",
+      "favorite_count": 2453,
+      "retweet_count": 376,
+      "reply_count": 38,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2038693742094246032",
@@ -748,10 +786,7 @@
       "reply_count": 312,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
     },
     {
       "tweet_id": "2038663016187621727",
@@ -765,10 +800,7 @@
       "reply_count": 70,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
     },
     {
       "tweet_id": "2038564888499699972",
@@ -853,10 +885,7 @@
           "type": "photo",
           "url": "https://t.co/ENwa0cTu1k"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2038660653410320556",
@@ -944,10 +973,116 @@
           "type": "photo",
           "url": "https://t.co/FhcoewKY3c"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2038632251551023250",
+      "url": "https://x.com/Zai_org/status/2038632251551023250",
+      "screen_name": "Zai_org",
+      "created_at": "Mon Mar 30 14:59:39 +0000 2026",
+      "full_text": "Here comes AutoClaw. We offer a new solution to run OpenClaw locally on your own machine.\n\n- Download and start immediately. No API key required.\n- Bring any model you like, or use GLM-5-Turbo, optimized for tool calling and multi-step tasks.\n- Fully local. Your data never leaves https://t.co/VXiQSWLk7t",
+      "lang": "en",
+      "favorite_count": 2302,
+      "retweet_count": 210,
+      "reply_count": 132,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/VXiQSWLk7t",
+          "expanded_url": "https://x.com/Zai_org/status/2038632251551023250/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2038628782358269952",
+          "indices": [
+            281,
+            304
+          ],
+          "media_key": "13_2038628782358269952",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2038628782358269952/img/qE1xmf5YYKis5niY.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/VXiQSWLk7t",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 48560,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2038628782358269952/pl/aijmeqtZbD1ac5bH.m3u8?v=c0f"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038628782358269952/vid/avc1/480x270/TXQUAehjasX4SHBQ.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038628782358269952/vid/avc1/640x360/xugthhyGf2wgzpJU.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038628782358269952/vid/avc1/1280x720/9TgJwhB8LfW7IVJd.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2038628782358269952/vid/avc1/1920x1080/5HlB7f8nciYJWmko.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2038549048379244743",
+      "url": "https://x.com/aakashgupta/status/2038549048379244743",
+      "screen_name": "aakashgupta",
+      "created_at": "Mon Mar 30 09:29:02 +0000 2026",
+      "full_text": "The math on Fannie and Freddie is so dislocated it looks like a pricing error.\n\nFannie printed $14.4 billion in net income last year. Freddie printed $10.7 billion. Combined market cap on the pink sheets right now: ~$12 billion. The market is pricing $25 billion in annual",
+      "lang": "en",
+      "favorite_count": 2193,
+      "retweet_count": 206,
+      "reply_count": 81,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2038398911216308459",
+      "url": "https://x.com/Dr_Singularity/status/2038398911216308459",
+      "screen_name": "Dr_Singularity",
+      "created_at": "Sun Mar 29 23:32:26 +0000 2026",
+      "full_text": "If you're over 30-40, you'll soon be biologically young again — this time, indefinitely.",
+      "lang": "en",
+      "favorite_count": 2009,
+      "retweet_count": 195,
+      "reply_count": 47,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     }
   ]
 }

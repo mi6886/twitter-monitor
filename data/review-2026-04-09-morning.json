@@ -1,8 +1,20 @@
 {
   "date": "2026-04-09",
   "period": "morning",
-  "fetched_at": "2026-04-08T23:30:53.738128+00:00",
-  "review_count": 32,
+  "fetched_at": "2026-04-08T23:30:53.706735+00:00",
+  "raw_count": 72,
+  "candidate_count": 46,
+  "final_count": 13,
+  "review_count": 28,
+  "drop_hard_count": 5,
+  "disposition_stats": {
+    "monitored_popular": 8,
+    "brief_mention": 7,
+    "low_info_content": 20,
+    "off_topic": 5,
+    "meme_or_reaction": 1,
+    "info_value": 5
+  },
   "tweets": [
     {
       "tweet_id": "2041806698407493739",
@@ -80,10 +92,7 @@
           "type": "photo",
           "url": "https://t.co/xELOL480Uo"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2041853035962306959",
@@ -164,10 +173,7 @@
           "type": "photo",
           "url": "https://t.co/3DtdBHdfri"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2041873085293379591",
@@ -245,10 +251,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041756672851353802",
@@ -324,10 +327,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041822475604926970",
@@ -412,10 +412,7 @@
           "type": "photo",
           "url": "https://t.co/lJ27MBHYFR"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041825324837781749",
@@ -501,10 +498,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041838783797309629",
@@ -592,27 +586,7 @@
           "type": "photo",
           "url": "https://t.co/vPv3NDOr6k"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
-    },
-    {
-      "tweet_id": "2041899009732673858",
-      "url": "https://x.com/schizohustler/status/2041899009732673858",
-      "screen_name": "schizohustler",
-      "created_at": "Wed Apr 08 15:20:35 +0000 2026",
-      "full_text": "smartest guy i know makes $1k/year as a tour guide in rome and has never heard of claude",
-      "lang": "en",
-      "favorite_count": 6864,
-      "retweet_count": 30,
-      "reply_count": 27,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      ]
     },
     {
       "tweet_id": "2041793699223322657",
@@ -693,10 +667,7 @@
           "type": "photo",
           "url": "https://t.co/D8FpbbYAwt"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041890903787286931",
@@ -710,10 +681,21 @@
       "reply_count": 71,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
+    },
+    {
+      "tweet_id": "2041756638739145143",
+      "url": "https://x.com/beffjezos/status/2041756638739145143",
+      "screen_name": "beffjezos",
+      "created_at": "Wed Apr 08 05:54:51 +0000 2026",
+      "full_text": "Holy. 😳\nBro is locked in. \nDon't count xAI out just yet. \n\nPlz free us from the Darioverse ser 🙏😩",
+      "lang": "en",
+      "favorite_count": 5192,
+      "retweet_count": 175,
+      "reply_count": 109,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2041927985226220009",
@@ -789,10 +771,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2041630277584228617",
@@ -806,10 +785,7 @@
       "reply_count": 334,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      "media": []
     },
     {
       "tweet_id": "2041692377967202564",
@@ -890,10 +866,7 @@
           "type": "photo",
           "url": "https://t.co/oPCd0bubZm"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041708747463262241",
@@ -976,98 +949,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2041848539991650485",
-      "url": "https://x.com/TouchlineX/status/2041848539991650485",
-      "screen_name": "TouchlineX",
-      "created_at": "Wed Apr 08 12:00:02 +0000 2026",
-      "full_text": "🚨 𝗡𝗘𝗪: Perplexity predicts Barcelona to win 4-1 vs. Atlético Madrid tonight, with Lamine Yamal scoring a hat-trick. https://t.co/C5jHj8MBQN",
-      "lang": "en",
-      "favorite_count": 3873,
-      "retweet_count": 211,
-      "reply_count": 155,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/C5jHj8MBQN",
-          "expanded_url": "https://x.com/TouchlineX/status/2041848539991650485/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": [
-                {
-                  "h": 343,
-                  "w": 343,
-                  "x": 805,
-                  "y": 185
-                }
-              ]
-            }
-          },
-          "id_str": "2041729312370651142",
-          "indices": [
-            116,
-            139
-          ],
-          "media_key": "3_2041729312370651142",
-          "media_url_https": "https://pbs.twimg.com/media/HFWt_fda8AYDRqA.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 1210,
-                "w": 2160,
-                "x": 0,
-                "y": 1352
-              },
-              {
-                "h": 2160,
-                "w": 2160,
-                "x": 0,
-                "y": 540
-              },
-              {
-                "h": 2462,
-                "w": 2160,
-                "x": 0,
-                "y": 238
-              },
-              {
-                "h": 2700,
-                "w": 1350,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2700,
-                "w": 2160,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 2700,
-            "width": 2160
-          },
-          "sizes": {
-            "large": {
-              "h": 2048,
-              "w": 1638
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/C5jHj8MBQN"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      ]
     },
     {
       "tweet_id": "2041729194833387694",
@@ -1143,10 +1025,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041878645162352931",
@@ -1219,10 +1098,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041935999945625745",
@@ -1303,10 +1179,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2041914130861293913",
@@ -1397,27 +1270,7 @@
           "type": "photo",
           "url": "https://t.co/0liyFdw56C"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2041727515828588963",
-      "url": "https://x.com/paularambles/status/2041727515828588963",
-      "screen_name": "paularambles",
-      "created_at": "Wed Apr 08 03:59:07 +0000 2026",
-      "full_text": "anthropic: “we have finished training the ultimate god model exposing zero-day vulnerabilities in all software including linux and ffmpeg and we also made ten billion dollars last month”\n\nopenai: “we have acquired TBPN”",
-      "lang": "en",
-      "favorite_count": 3287,
-      "retweet_count": 89,
-      "reply_count": 46,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      ]
     },
     {
       "tweet_id": "2041647745761735082",
@@ -1431,27 +1284,7 @@
       "reply_count": 57,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2041809485325304000",
-      "url": "https://x.com/dev_maims/status/2041809485325304000",
-      "screen_name": "dev_maims",
-      "created_at": "Wed Apr 08 09:24:50 +0000 2026",
-      "full_text": "2015:\n- Clash of Clans\n- Subway Surfers\n- Pokémon\n- Shadow fight 2\n\n2019:\n- PUBG\n- Minecraft \n- Fortnite\n- GTA V\n\n2026:\n- X\n- GitHub\n- VS Code\n- ChatGPT\n- Claude",
-      "lang": "en",
-      "favorite_count": 2852,
-      "retweet_count": 359,
-      "reply_count": 38,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      "media": []
     },
     {
       "tweet_id": "2041833700552278060",
@@ -1465,10 +1298,7 @@
       "reply_count": 5,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041837699519107514",
@@ -1482,10 +1312,7 @@
       "reply_count": 126,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041842240062890421",
@@ -1566,10 +1393,7 @@
           "type": "photo",
           "url": "https://t.co/gYcrPDDOVU"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041743999552385291",
@@ -1647,27 +1471,7 @@
           "type": "photo",
           "url": "https://t.co/dfDc3r5e4t"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
-    },
-    {
-      "tweet_id": "2041795851534659612",
-      "url": "https://x.com/DavidOndrej1/status/2041795851534659612",
-      "screen_name": "DavidOndrej1",
-      "created_at": "Wed Apr 08 08:30:40 +0000 2026",
-      "full_text": "if you work at Anthropic\n\nand leak Mythos weights\n\nyou will go down in history.",
-      "lang": "en",
-      "favorite_count": 2274,
-      "retweet_count": 61,
-      "reply_count": 87,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041715136952463785",
@@ -1745,10 +1549,7 @@
           "type": "photo",
           "url": "https://t.co/FBILNyj1VZ"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041627711828005187",
@@ -1762,10 +1563,7 @@
       "reply_count": 56,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2041754834651779568",
@@ -1853,10 +1651,7 @@
           "type": "photo",
           "url": "https://t.co/vFgCDJ72Gn"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041701239365497062",
@@ -1937,10 +1732,7 @@
           "type": "photo",
           "url": "https://t.co/v5mJCed8Yk"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2041764334574170433",
@@ -2121,10 +1913,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     }
   ]
 }

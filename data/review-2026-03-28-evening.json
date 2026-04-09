@@ -1,8 +1,19 @@
 {
   "date": "2026-03-28",
   "period": "evening",
-  "fetched_at": "2026-03-28T11:27:02.522686+00:00",
-  "review_count": 22,
+  "fetched_at": "2026-03-28T11:27:02.485805+00:00",
+  "raw_count": 93,
+  "candidate_count": 34,
+  "final_count": 11,
+  "review_count": 20,
+  "drop_hard_count": 3,
+  "disposition_stats": {
+    "low_info_content": 16,
+    "off_topic": 3,
+    "info_value": 5,
+    "monitored_popular": 6,
+    "brief_mention": 4
+  },
   "tweets": [
     {
       "tweet_id": "2037588866002288790",
@@ -16,10 +27,7 @@
       "reply_count": 19,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2037462097198526599",
@@ -33,167 +41,7 @@
       "reply_count": 21,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2037696673934163979",
-      "url": "https://x.com/Pirat_Nation/status/2037696673934163979",
-      "screen_name": "Pirat_Nation",
-      "created_at": "Sat Mar 28 01:02:00 +0000 2026",
-      "full_text": "A US court has approved a major class-action lawsuit against NVIDIA and its CEO Jensen Huang.\n\nThe claim is that in 2017 and 2018, NVIDIA hid more than one billion dollars in sales from crypto miners.\n\nThey counted that money as normal gaming sales instead. This made their gaming https://t.co/to9Lr9qHjc",
-      "lang": "en",
-      "favorite_count": 6146,
-      "retweet_count": 432,
-      "reply_count": 82,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/to9Lr9qHjc",
-          "expanded_url": "https://x.com/Pirat_Nation/status/2037696673934163979/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": [
-                {
-                  "h": 161,
-                  "w": 161,
-                  "x": 364,
-                  "y": 94
-                },
-                {
-                  "h": 234,
-                  "w": 234,
-                  "x": 327,
-                  "y": 3
-                }
-              ]
-            }
-          },
-          "id_str": "2037692822703472640",
-          "indices": [
-            281,
-            304
-          ],
-          "media_key": "3_2037692822703472640",
-          "media_url_https": "https://pbs.twimg.com/media/HEdW03qagAAlGgp.png",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 457,
-                "w": 816,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 545,
-                "w": 545,
-                "x": 155,
-                "y": 0
-              },
-              {
-                "h": 545,
-                "w": 478,
-                "x": 188,
-                "y": 0
-              },
-              {
-                "h": 545,
-                "w": 273,
-                "x": 291,
-                "y": 0
-              },
-              {
-                "h": 545,
-                "w": 816,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 545,
-            "width": 816
-          },
-          "sizes": {
-            "large": {
-              "h": 545,
-              "w": 816
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/to9Lr9qHjc"
-        },
-        {
-          "display_url": "pic.x.com/to9Lr9qHjc",
-          "expanded_url": "https://x.com/Pirat_Nation/status/2037696673934163979/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2037692919814205440",
-          "indices": [
-            281,
-            304
-          ],
-          "media_key": "3_2037692919814205440",
-          "media_url_https": "https://pbs.twimg.com/media/HEdW6hbasAAkp-_.png",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 268,
-                "w": 478,
-                "x": 0,
-                "y": 125
-              },
-              {
-                "h": 478,
-                "w": 478,
-                "x": 0,
-                "y": 20
-              },
-              {
-                "h": 545,
-                "w": 478,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 546,
-                "w": 273,
-                "x": 41,
-                "y": 0
-              },
-              {
-                "h": 546,
-                "w": 478,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 546,
-            "width": 478
-          },
-          "sizes": {
-            "large": {
-              "h": 546,
-              "w": 478
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/to9Lr9qHjc"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      "media": []
     },
     {
       "tweet_id": "2037636962413424923",
@@ -287,10 +135,225 @@
           "type": "photo",
           "url": "https://t.co/Y7NQ7V19qr"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
+    },
+    {
+      "tweet_id": "2037646722583720305",
+      "url": "https://x.com/Noira_exe/status/2037646722583720305",
+      "screen_name": "Noira_exe",
+      "created_at": "Fri Mar 27 21:43:30 +0000 2026",
+      "full_text": "Sabrina Carpenter , Sydney Sweeney and Dua Lipa 🌸\n\nNano Banana Pro\n\n{\n  “meta”: {\n    “quality”: “ultra_photorealistic, raw style, 8k”,\n    “camera”: “iPhone 15 Pro Max”,\n    “lighting”: “bright, soft studio lighting, high-key white background”,\n    “style”: “high-fashion https://t.co/onFJaEnqMH",
+      "lang": "en",
+      "favorite_count": 4665,
+      "retweet_count": 163,
+      "reply_count": 20,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/onFJaEnqMH",
+          "expanded_url": "https://x.com/Noira_exe/status/2037646722583720305/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037646716388757504",
+          "indices": [
+            273,
+            296
+          ],
+          "media_key": "3_2037646716388757504",
+          "media_url_https": "https://pbs.twimg.com/media/HEcs5IQX0AABhBh.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 430,
+                "w": 768,
+                "x": 0,
+                "y": 162
+              },
+              {
+                "h": 768,
+                "w": 768,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 876,
+                "w": 768,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1376,
+                "w": 688,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1376,
+                "w": 768,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1376,
+            "width": 768
+          },
+          "sizes": {
+            "large": {
+              "h": 1376,
+              "w": 768
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/onFJaEnqMH"
+        },
+        {
+          "display_url": "pic.x.com/onFJaEnqMH",
+          "expanded_url": "https://x.com/Noira_exe/status/2037646722583720305/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 133,
+                  "w": 133,
+                  "x": 110,
+                  "y": 329
+                }
+              ]
+            }
+          },
+          "id_str": "2037646717089157120",
+          "indices": [
+            273,
+            296
+          ],
+          "media_key": "3_2037646717089157120",
+          "media_url_https": "https://pbs.twimg.com/media/HEcs5K3XEAADhoc.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 430,
+                "w": 768,
+                "x": 0,
+                "y": 231
+              },
+              {
+                "h": 768,
+                "w": 768,
+                "x": 0,
+                "y": 62
+              },
+              {
+                "h": 876,
+                "w": 768,
+                "x": 0,
+                "y": 8
+              },
+              {
+                "h": 1376,
+                "w": 688,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1376,
+                "w": 768,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1376,
+            "width": 768
+          },
+          "sizes": {
+            "large": {
+              "h": 1376,
+              "w": 768
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/onFJaEnqMH"
+        },
+        {
+          "display_url": "pic.x.com/onFJaEnqMH",
+          "expanded_url": "https://x.com/Noira_exe/status/2037646722583720305/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 91,
+                  "w": 91,
+                  "x": 310,
+                  "y": 194
+                }
+              ]
+            }
+          },
+          "id_str": "2037646719316545536",
+          "indices": [
+            273,
+            296
+          ],
+          "media_key": "3_2037646719316545536",
+          "media_url_https": "https://pbs.twimg.com/media/HEcs5TKaUAAhYNK.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 430,
+                "w": 768,
+                "x": 0,
+                "y": 25
+              },
+              {
+                "h": 768,
+                "w": 768,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 876,
+                "w": 768,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1376,
+                "w": 688,
+                "x": 33,
+                "y": 0
+              },
+              {
+                "h": 1376,
+                "w": 768,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1376,
+            "width": 768
+          },
+          "sizes": {
+            "large": {
+              "h": 1376,
+              "w": 768
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/onFJaEnqMH"
+        }
+      ]
     },
     {
       "tweet_id": "2037696673799921745",
@@ -366,10 +429,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037454443260608781",
@@ -447,10 +507,7 @@
           "type": "photo",
           "url": "https://t.co/BJiivWyZ8m"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037724831920050511",
@@ -464,116 +521,7 @@
       "reply_count": 3,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2037662847656743392",
-      "url": "https://x.com/TouchlineX/status/2037662847656743392",
-      "screen_name": "TouchlineX",
-      "created_at": "Fri Mar 27 22:47:35 +0000 2026",
-      "full_text": "🚨 𝗡𝗘𝗪: Barcelona's best front-three following Raphinha's injury, as per Perplexity. https://t.co/YaulpWrU6R",
-      "lang": "en",
-      "favorite_count": 3113,
-      "retweet_count": 109,
-      "reply_count": 102,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/YaulpWrU6R",
-          "expanded_url": "https://x.com/TouchlineX/status/2037662847656743392/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": [
-                {
-                  "h": 119,
-                  "w": 119,
-                  "x": 1565,
-                  "y": 1027
-                },
-                {
-                  "h": 443,
-                  "w": 443,
-                  "x": 693,
-                  "y": 287
-                },
-                {
-                  "h": 421,
-                  "w": 421,
-                  "x": 123,
-                  "y": 301
-                },
-                {
-                  "h": 433,
-                  "w": 433,
-                  "x": 1187,
-                  "y": 239
-                }
-              ]
-            }
-          },
-          "id_str": "2037662760952004608",
-          "indices": [
-            84,
-            107
-          ],
-          "media_key": "3_2037662760952004608",
-          "media_url_https": "https://pbs.twimg.com/media/HEc7fC6WAAA5Fi3.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 1210,
-                "w": 2160,
-                "x": 0,
-                "y": 109
-              },
-              {
-                "h": 2160,
-                "w": 2160,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2462,
-                "w": 2160,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2600,
-                "w": 1300,
-                "x": 454,
-                "y": 0
-              },
-              {
-                "h": 2600,
-                "w": 2160,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 2600,
-            "width": 2160
-          },
-          "sizes": {
-            "large": {
-              "h": 2048,
-              "w": 1701
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/YaulpWrU6R"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      "media": []
     },
     {
       "tweet_id": "2037503735455203536",
@@ -587,10 +535,7 @@
       "reply_count": 32,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      "media": []
     },
     {
       "tweet_id": "2037560199448338448",
@@ -668,10 +613,7 @@
           "type": "photo",
           "url": "https://t.co/z3sWV0HtH3"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2037760401564205225",
@@ -685,10 +627,7 @@
       "reply_count": 334,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2037597603362189549",
@@ -851,150 +790,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2037750587480297541",
-      "url": "https://x.com/Plaifahsrc555/status/2037750587480297541",
-      "screen_name": "Plaifahsrc555",
-      "created_at": "Sat Mar 28 04:36:14 +0000 2026",
-      "full_text": "สนุกมากกกๆ เป็นอีกคาแรกเตอร์ใหม่ที่ฟ้าได้ลองทำ รู้สึกตื่นเต้นและแฮปปี้มาก\n\nGemini เป็นน้องที่น่ารักและเป็นคนเก่งมากๆ! เต้นปิดตาน้องก็ยังทำออกมาได้จึ้ง\n\nน้องมักพูดว่าน้องเต้นไม่เก่ง แต่จริงๆ แล้วน้องเก่งโคตรๆเลย!! \n\n❤️‍🔥\n\n#Dangerousgeminimv \n#plaifah_viis https://t.co/uX4rmbIdGV",
-      "lang": "th",
-      "favorite_count": 2615,
-      "retweet_count": 1937,
-      "reply_count": 74,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "additional_media_info": {
-            "monetizable": true
-          },
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/uX4rmbIdGV",
-          "expanded_url": "https://x.com/Plaifahsrc555/status/2037750587480297541/video/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "id_str": "2037750518437818368",
-          "indices": [
-            255,
-            278
-          ],
-          "media_key": "13_2037750518437818368",
-          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037750518437818368/img/EQcLytE43TLbvp2i.jpg",
-          "original_info": {
-            "focus_rects": [],
-            "height": 960,
-            "width": 540
-          },
-          "sizes": {
-            "large": {
-              "h": 960,
-              "w": 540
-            }
-          },
-          "type": "video",
-          "url": "https://t.co/uX4rmbIdGV",
-          "video_info": {
-            "aspect_ratio": [
-              9,
-              16
-            ],
-            "duration_millis": 4160,
-            "variants": [
-              {
-                "content_type": "application/x-mpegURL",
-                "url": "https://video.twimg.com/amplify_video/2037750518437818368/pl/EZb0Mj5PbDw77N8C.m3u8"
-              },
-              {
-                "bitrate": 632000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037750518437818368/vid/avc1/320x568/4mYsHjgHPW5x47YP.mp4"
-              },
-              {
-                "bitrate": 950000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037750518437818368/vid/avc1/480x852/0RFA_dqXlNDM1Jab.mp4"
-              },
-              {
-                "bitrate": 2176000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037750518437818368/vid/avc1/540x960/RgJhFz63vfPVGr0V.mp4"
-              }
-            ]
-          }
-        },
-        {
-          "additional_media_info": {
-            "monetizable": true
-          },
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/uX4rmbIdGV",
-          "expanded_url": "https://x.com/Plaifahsrc555/status/2037750587480297541/video/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "id_str": "2037750518421000192",
-          "indices": [
-            255,
-            278
-          ],
-          "media_key": "13_2037750518421000192",
-          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037750518421000192/img/66w6SLP_0uNOqEwf.jpg",
-          "original_info": {
-            "focus_rects": [],
-            "height": 960,
-            "width": 540
-          },
-          "sizes": {
-            "large": {
-              "h": 960,
-              "w": 540
-            }
-          },
-          "type": "video",
-          "url": "https://t.co/uX4rmbIdGV",
-          "video_info": {
-            "aspect_ratio": [
-              9,
-              16
-            ],
-            "duration_millis": 9033,
-            "variants": [
-              {
-                "content_type": "application/x-mpegURL",
-                "url": "https://video.twimg.com/amplify_video/2037750518421000192/pl/AxgKBPv8_Qt1unk_.m3u8"
-              },
-              {
-                "bitrate": 632000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037750518421000192/vid/avc1/320x568/q5C1G-QNrISG2o90.mp4"
-              },
-              {
-                "bitrate": 950000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037750518421000192/vid/avc1/480x852/1TAHyFSGjgoRuJZa.mp4"
-              },
-              {
-                "bitrate": 2176000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037750518421000192/vid/avc1/540x960/w-v6xKQxu6E4je8_.mp4"
-              }
-            ]
-          }
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      ]
     },
     {
       "tweet_id": "2037590414371287181",
@@ -1141,10 +937,7 @@
           "type": "photo",
           "url": "https://t.co/2jaNFNge9I"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037478614887694722",
@@ -1222,10 +1015,7 @@
           "type": "photo",
           "url": "https://t.co/Y2pnMoW3ih"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037723490128695429",
@@ -1331,10 +1121,7 @@
           "type": "photo",
           "url": "https://t.co/fSSy2ffJte"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2037551737825861868",
@@ -1482,10 +1269,7 @@
           "type": "photo",
           "url": "https://t.co/wqBO2nsywx"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037604733847003367",
@@ -1499,10 +1283,7 @@
       "reply_count": 73,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2037484784264380496",
@@ -1575,10 +1356,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
+    },
+    {
+      "tweet_id": "2037488572333531293",
+      "url": "https://x.com/DocPriyamMD/status/2037488572333531293",
+      "screen_name": "DocPriyamMD",
+      "created_at": "Fri Mar 27 11:15:05 +0000 2026",
+      "full_text": "Imagine thinking 'loud snoring' and 'positional headaches' are medical enigmas that require a LLM to solve.\n\nIn the real world, Obstructive Sleep Apnea is literally the first thing a resident suspects for a snoring patient with refractory hypertension and CKD. But sure, let’s",
+      "lang": "en",
+      "favorite_count": 2138,
+      "retweet_count": 80,
+      "reply_count": 42,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2037633557695226096",
@@ -1651,10 +1443,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037502799400038780",
@@ -1821,94 +1610,7 @@
           "type": "photo",
           "url": "https://t.co/nco9kgj7VQ"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2037486036004073718",
-      "url": "https://x.com/Python_Dv/status/2037486036004073718",
-      "screen_name": "Python_Dv",
-      "created_at": "Fri Mar 27 11:05:00 +0000 2026",
-      "full_text": "DeepSeek vs. ChatGPT https://t.co/H2We9eAz2I",
-      "lang": "en",
-      "favorite_count": 2005,
-      "retweet_count": 86,
-      "reply_count": 30,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/H2We9eAz2I",
-          "expanded_url": "https://x.com/Python_Dv/status/2037486036004073718/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2037018206725169152",
-          "indices": [
-            21,
-            44
-          ],
-          "media_key": "3_2037018206725169152",
-          "media_url_https": "https://pbs.twimg.com/media/HETxRDTbYAAmoDi.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 818,
-                "w": 1461,
-                "x": 0,
-                "y": 313
-              },
-              {
-                "h": 1461,
-                "w": 1461,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1666,
-                "w": 1461,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1702,
-                "w": 851,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1702,
-                "w": 1461,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 1702,
-            "width": 1461
-          },
-          "sizes": {
-            "large": {
-              "h": 1702,
-              "w": 1461
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/H2We9eAz2I"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     }
   ]
 }

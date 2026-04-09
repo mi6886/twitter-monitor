@@ -1,23 +1,36 @@
 {
   "date": "2026-04-08",
   "period": "morning",
-  "fetched_at": "2026-04-07T23:29:57.285449+00:00",
+  "fetched_at": "2026-04-07T23:29:57.247837+00:00",
   "raw_count": 97,
   "candidate_count": 63,
-  "final_count": 10,
-  "review_count": 40,
-  "drop_hard_count": 13,
+  "final_count": 22,
+  "review_count": 37,
+  "drop_hard_count": 4,
   "disposition_stats": {
-    "low_info_ai_content": 32,
-    "not_ai_content": 13,
-    "high_signal_source": 2,
+    "low_info_content": 32,
+    "monitored_popular": 14,
     "info_value": 8,
-    "low_value_pattern": 1,
-    "brief_ai_mention": 4,
-    "off_topic": 2,
+    "brief_mention": 4,
+    "off_topic": 3,
+    "gossip_or_bait": 1,
     "weak_signal_untrusted": 1
   },
   "tweets": [
+    {
+      "tweet_id": "2041545816750567573",
+      "url": "https://x.com/aakashgupta/status/2041545816750567573",
+      "screen_name": "aakashgupta",
+      "created_at": "Tue Apr 07 15:57:07 +0000 2026",
+      "full_text": "There's a physicist at Stanford named Safi Bahcall who modeled this exact principle and the math is wild.\n\nHe calls it \"phase transitions in human networks.\" When you're stationary, your probability of a lucky event is limited to your existing surface area: the people you already",
+      "lang": "en",
+      "favorite_count": 21995,
+      "retweet_count": 4115,
+      "reply_count": 149,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
     {
       "tweet_id": "2041578392852517128",
       "url": "https://x.com/AnthropicAI/status/2041578392852517128",
@@ -30,10 +43,7 @@
       "reply_count": 913,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
     },
     {
       "tweet_id": "2041544357204099238",
@@ -47,10 +57,21 @@
       "reply_count": 14,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
+    },
+    {
+      "tweet_id": "2041580334693720511",
+      "url": "https://x.com/DarioAmodei/status/2041580334693720511",
+      "screen_name": "DarioAmodei",
+      "created_at": "Tue Apr 07 18:14:17 +0000 2026",
+      "full_text": "I’m proud that so many of the world’s leading companies have joined us for Project Glasswing to confront the cyber threat posed by increasingly capable AI systems head-on.\n\nhttps://t.co/pn3HSVsThP",
+      "lang": "en",
+      "favorite_count": 5202,
+      "retweet_count": 297,
+      "reply_count": 153,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2041506289415553529",
@@ -64,10 +85,102 @@
       "reply_count": 175,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
+    },
+    {
+      "tweet_id": "2041605852382351666",
+      "url": "https://x.com/bcherny/status/2041605852382351666",
+      "screen_name": "bcherny",
+      "created_at": "Tue Apr 07 19:55:41 +0000 2026",
+      "full_text": "Mythos is very powerful, and should feel terrifying. I am proud of our approach to responsibly preview it with cyber defenders, rather than generally releasing it into the wild.\n\nModel card here: https://t.co/HjhknJcRKQ",
+      "lang": "en",
+      "favorite_count": 4964,
+      "retweet_count": 295,
+      "reply_count": 337,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041589910935679323",
+      "url": "https://x.com/kimmonismus/status/2041589910935679323",
+      "screen_name": "kimmonismus",
+      "created_at": "Tue Apr 07 18:52:20 +0000 2026",
+      "full_text": "Let that sink in. Read it very carefully:\n\nDuring testing, Claude Mythos Preview broke out of a sandbox environment, built \"a moderately sophisticated multi-step exploit\" to gain internet access, and emailed a researcher while they were eating a sandwich in the park. https://t.co/dokBpkrulv",
+      "lang": "en",
+      "favorite_count": 4518,
+      "retweet_count": 391,
+      "reply_count": 126,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/dokBpkrulv",
+          "expanded_url": "https://x.com/kimmonismus/status/2041589910935679323/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041589898239426560",
+          "indices": [
+            268,
+            291
+          ],
+          "media_key": "3_2041589898239426560",
+          "media_url_https": "https://pbs.twimg.com/media/HFUvMhWWQAAplzu.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 522,
+                "w": 932,
+                "x": 309,
+                "y": 0
+              },
+              {
+                "h": 522,
+                "w": 522,
+                "x": 719,
+                "y": 0
+              },
+              {
+                "h": 522,
+                "w": 458,
+                "x": 783,
+                "y": 0
+              },
+              {
+                "h": 522,
+                "w": 261,
+                "x": 890,
+                "y": 0
+              },
+              {
+                "h": 522,
+                "w": 1241,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 522,
+            "width": 1241
+          },
+          "sizes": {
+            "large": {
+              "h": 522,
+              "w": 1241
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/dokBpkrulv"
+        }
+      ]
     },
     {
       "tweet_id": "2041411785442710008",
@@ -143,10 +256,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2041365413616066909",
+      "url": "https://x.com/aakashgupta/status/2041365413616066909",
+      "screen_name": "aakashgupta",
+      "created_at": "Tue Apr 07 04:00:15 +0000 2026",
+      "full_text": "Her ballet teachers held lit cigarettes under her thigh to test how long she could hold her leg to her ear without getting burned. She was 10.\n\nLuana Lopes Lara spent 8 years at Brazil's Bolshoi Ballet Academy. 97 applicants for every spot. 13-hour days. Classmates hid glass",
+      "lang": "en",
+      "favorite_count": 3559,
+      "retweet_count": 265,
+      "reply_count": 39,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2041433884852936808",
@@ -243,10 +367,250 @@
           "type": "photo",
           "url": "https://t.co/x58a2Hm7fz"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2041436826406170880",
+      "url": "https://x.com/hooeem/status/2041436826406170880",
+      "screen_name": "hooeem",
+      "created_at": "Tue Apr 07 08:44:02 +0000 2026",
+      "full_text": "when you become a millionaire in 1-3 years because you sell personalised knowledge bases and it’s all because (I repeat): \n\n1: you learn how to build llm knowledge bases (the guide drops everything you need)\n\n2: you go to people who are cash rich and time poor. lawyers, doctors, https://t.co/qO4WRVS05Q",
+      "lang": "en",
+      "favorite_count": 3132,
+      "retweet_count": 256,
+      "reply_count": 92,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/qO4WRVS05Q",
+          "expanded_url": "https://x.com/hooeem/status/2041436826406170880/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041436049746882560",
+          "indices": [
+            280,
+            303
+          ],
+          "media_key": "13_2041436049746882560",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041436049746882560/img/Wki3bfBkndIEeiKU.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 2160,
+            "width": 3840
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/qO4WRVS05Q",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 34967,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041436049746882560/pl/KLRmSqe5jQHHDB_A.m3u8"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041436049746882560/vid/avc1/480x270/GgE0PEQQnmnTRTkY.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041436049746882560/vid/avc1/640x360/toCZ7XtJ-fFIPGq4.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041436049746882560/vid/avc1/1280x720/KWGsw93vp-iWVsSs.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041436049746882560/vid/avc1/1920x1080/iEwPnP0Uek-5t4Cl.mp4"
+              },
+              {
+                "bitrate": 25128000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041436049746882560/vid/avc1/3840x2160/p234ShthUpiqUYXk.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041564884098240833",
+      "url": "https://x.com/Google/status/2041564884098240833",
+      "screen_name": "Google",
+      "created_at": "Tue Apr 07 17:12:53 +0000 2026",
+      "full_text": "Too many @GoogleChrome tabs open? Try vertical tabs, rolling out now. \n\nJust right-click any Chrome window and select “Show Tabs Vertically” to move your tabs to the side of the browser window, making it easier to read page titles and manage tab groups. https://t.co/DO7ShWl89f",
+      "lang": "en",
+      "favorite_count": 3042,
+      "retweet_count": 269,
+      "reply_count": 228,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/DO7ShWl89f",
+          "expanded_url": "https://x.com/Google/status/2041564884098240833/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041564602954027008",
+          "indices": [
+            254,
+            277
+          ],
+          "media_key": "13_2041564602954027008",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041564602954027008/img/SvUMOMfmg9HYlgQS.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/DO7ShWl89f",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 9100,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041564602954027008/pl/lQQTl4JhL70ncW7o.m3u8"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041564602954027008/vid/avc1/480x270/zQNNgJRd-IjuRcU1.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041564602954027008/vid/avc1/640x360/DTzklDnU58gEYetS.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041564602954027008/vid/avc1/1280x720/09iR5QwDL0IRAIYC.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041564602954027008/vid/avc1/1920x1080/0WJSCGbuBvu_LaZ6.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041578403686498506",
+      "url": "https://x.com/AnthropicAI/status/2041578403686498506",
+      "screen_name": "AnthropicAI",
+      "created_at": "Tue Apr 07 18:06:36 +0000 2026",
+      "full_text": "Mythos Preview has already found thousands of high-severity vulnerabilities—including some in every major operating system and web browser. https://t.co/YuW484PVrr",
+      "lang": "en",
+      "favorite_count": 3016,
+      "retweet_count": 235,
+      "reply_count": 45,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {},
+          "display_url": "pic.x.com/YuW484PVrr",
+          "expanded_url": "https://x.com/AnthropicAI/status/2041578403686498506/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041570617439457280",
+          "indices": [
+            140,
+            163
+          ],
+          "media_key": "13_2041570617439457280",
+          "media_url_https": "https://pbs.twimg.com/media/HFUk86xXEAEl809.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1620,
+            "width": 2880
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/YuW484PVrr",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 348473,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041570617439457280/pl/E0UNmq0LhnKUzuL_.m3u8?v=436"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041570617439457280/vid/avc1/480x270/nGwP2qb6dxldnCQl.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041570617439457280/vid/avc1/640x360/pACEB8i4H2LFJSm7.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041570617439457280/vid/avc1/1280x720/wnqkrpy148YR1GQM.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041570617439457280/vid/avc1/1920x1080/9kjplcTTrCXqjksJ.mp4"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2041605983659860115",
@@ -327,10 +691,7 @@
           "type": "photo",
           "url": "https://t.co/roAwW0Trts"
         }
-      ],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041520153616437696",
@@ -408,10 +769,21 @@
           "type": "photo",
           "url": "https://t.co/xD4fPRWlEs"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2041451958901350728",
+      "url": "https://x.com/levelsio/status/2041451958901350728",
+      "screen_name": "levelsio",
+      "created_at": "Tue Apr 07 09:44:10 +0000 2026",
+      "full_text": "Imagine what 🇧🇷 Brazil could be 😭",
+      "lang": "en",
+      "favorite_count": 2453,
+      "retweet_count": 106,
+      "reply_count": 130,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2041394640524357743",
@@ -487,10 +859,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2041363640499200353",
+      "url": "https://x.com/paulg/status/2041363640499200353",
+      "screen_name": "paulg",
+      "created_at": "Tue Apr 07 03:53:13 +0000 2026",
+      "full_text": "Since there's yet another article claiming that we \"removed\" Sam because partners distrusted him, no, we didn't. It's not because I want to defend Sam that I keep insisting on this. It's because it's so annoying to read false accounts of my own actions.",
+      "lang": "en",
+      "favorite_count": 2232,
+      "retweet_count": 83,
+      "reply_count": 66,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2041238722914685336",
@@ -581,10 +964,99 @@
           "type": "photo",
           "url": "https://t.co/UbbxDE1BQt"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2041553988194390170",
+      "url": "https://x.com/thedankoe/status/2041553988194390170",
+      "screen_name": "thedankoe",
+      "created_at": "Tue Apr 07 16:29:35 +0000 2026",
+      "full_text": "If you're a writer, be okay with repeating what's already been said, because most ideas have already been exhausted, and genuinely novel ideas are rare.\n\nNobody follows you because you're talking about something new. They follow you because they want to read your point of view.",
+      "lang": "en",
+      "favorite_count": 2205,
+      "retweet_count": 174,
+      "reply_count": 272,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041580372048187449",
+      "url": "https://x.com/kimmonismus/status/2041580372048187449",
+      "screen_name": "kimmonismus",
+      "created_at": "Tue Apr 07 18:14:26 +0000 2026",
+      "full_text": "MYTHOS BENCHMARKS, OFFICIAL. HOLY MOLY \n\nAnthropic cooked!! https://t.co/00ey0SuI75",
+      "lang": "en",
+      "favorite_count": 2149,
+      "retweet_count": 140,
+      "reply_count": 100,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/00ey0SuI75",
+          "expanded_url": "https://x.com/kimmonismus/status/2041580372048187449/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041580366603902976",
+          "indices": [
+            60,
+            83
+          ],
+          "media_key": "3_2041580366603902976",
+          "media_url_https": "https://pbs.twimg.com/media/HFUmhtPWYAA6C6O.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 421,
+                "w": 751,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 751,
+                "w": 751,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 851,
+                "w": 746,
+                "x": 5,
+                "y": 0
+              },
+              {
+                "h": 851,
+                "w": 426,
+                "x": 233,
+                "y": 0
+              },
+              {
+                "h": 851,
+                "w": 751,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 851,
+            "width": 751
+          },
+          "sizes": {
+            "large": {
+              "h": 851,
+              "w": 751
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/00ey0SuI75"
+        }
+      ]
     },
     {
       "tweet_id": "2041610989607727164",
@@ -598,10 +1070,7 @@
       "reply_count": 100,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
     }
   ]
 }

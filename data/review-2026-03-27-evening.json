@@ -1,8 +1,20 @@
 {
   "date": "2026-03-27",
   "period": "evening",
-  "fetched_at": "2026-03-27T11:40:01.763943+00:00",
-  "review_count": 34,
+  "fetched_at": "2026-03-27T11:40:01.721332+00:00",
+  "raw_count": 113,
+  "candidate_count": 51,
+  "final_count": 13,
+  "review_count": 35,
+  "drop_hard_count": 3,
+  "disposition_stats": {
+    "low_info_content": 33,
+    "monitored_popular": 6,
+    "info_value": 7,
+    "gossip_or_bait": 1,
+    "brief_mention": 2,
+    "off_topic": 2
+  },
   "tweets": [
     {
       "tweet_id": "2037401309012468149",
@@ -159,10 +171,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037300233927856215",
@@ -176,10 +185,7 @@
       "reply_count": 186,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2037270839603700103",
@@ -267,10 +273,7 @@
           "type": "photo",
           "url": "https://t.co/xpO7nh0Eec"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037362278870176112",
@@ -348,10 +351,7 @@
           "type": "photo",
           "url": "https://t.co/HorDH0qnib"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037172777690546276",
@@ -365,10 +365,7 @@
       "reply_count": 11,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2037346989244096581",
@@ -382,10 +379,7 @@
       "reply_count": 534,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2037154056452309032",
@@ -399,10 +393,85 @@
       "reply_count": 8,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
+    },
+    {
+      "tweet_id": "2037345535015915681",
+      "url": "https://x.com/DougDougFood/status/2037345535015915681",
+      "screen_name": "DougDougFood",
+      "created_at": "Fri Mar 27 01:46:42 +0000 2026",
+      "full_text": "Vibecoding slop at 300 km/h on the chinese high speed rail. This is what Mao dreamed of https://t.co/OYeHimRFJ5",
+      "lang": "en",
+      "favorite_count": 5858,
+      "retweet_count": 180,
+      "reply_count": 42,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/OYeHimRFJ5",
+          "expanded_url": "https://x.com/DougDougFood/status/2037345535015915681/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037345340509302784",
+          "indices": [
+            88,
+            111
+          ],
+          "media_key": "3_2037345340509302784",
+          "media_url_https": "https://pbs.twimg.com/media/HEYayvnasAAP6zi.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1147,
+                "w": 2048,
+                "x": 0,
+                "y": 389
+              },
+              {
+                "h": 1536,
+                "w": 1536,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1536,
+                "w": 1347,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1536,
+                "w": 768,
+                "x": 179,
+                "y": 0
+              },
+              {
+                "h": 1536,
+                "w": 2048,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1536,
+            "width": 2048
+          },
+          "sizes": {
+            "large": {
+              "h": 1536,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/OYeHimRFJ5"
+        }
+      ]
     },
     {
       "tweet_id": "2037231149664125253",
@@ -478,10 +547,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037404926855561452",
@@ -562,10 +628,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037356108415967410",
@@ -671,10 +734,7 @@
           "type": "photo",
           "url": "https://t.co/ffzPiU5NkS"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037369365411107284",
@@ -688,89 +748,7 @@
       "reply_count": 235,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2037436560707088614",
-      "url": "https://x.com/AlexTaylorNews/status/2037436560707088614",
-      "screen_name": "AlexTaylorNews",
-      "created_at": "Fri Mar 27 07:48:24 +0000 2026",
-      "full_text": "\"Trump, the Mar-a-Lago golfer, is the only bull in the world who walks around with his own china shop. When a clown takes over the Palace, he doesn't become King. It's the Palace that becomes a circus\"\n\nFrench senator Claude Malhuret once again nails it. You won't hear a better https://t.co/q2mpL7XFtK",
-      "lang": "en",
-      "favorite_count": 4092,
-      "retweet_count": 1228,
-      "reply_count": 41,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "additional_media_info": {
-            "monetizable": true
-          },
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/q2mpL7XFtK",
-          "expanded_url": "https://x.com/AlexTaylorNews/status/2037436560707088614/video/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "id_str": "2037434227231199232",
-          "indices": [
-            279,
-            302
-          ],
-          "media_key": "13_2037434227231199232",
-          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037434227231199232/img/98aLOfojQ6BTbVQ1.jpg",
-          "original_info": {
-            "focus_rects": [],
-            "height": 480,
-            "width": 854
-          },
-          "sizes": {
-            "large": {
-              "h": 480,
-              "w": 854
-            }
-          },
-          "type": "video",
-          "url": "https://t.co/q2mpL7XFtK",
-          "video_info": {
-            "aspect_ratio": [
-              427,
-              240
-            ],
-            "duration_millis": 305133,
-            "variants": [
-              {
-                "content_type": "application/x-mpegURL",
-                "url": "https://video.twimg.com/amplify_video/2037434227231199232/pl/zWk3HX3XBCvoZbma.m3u8?v=494"
-              },
-              {
-                "bitrate": 256000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037434227231199232/vid/avc1/480x270/7rV5d0SnQmu2ZXrq.mp4"
-              },
-              {
-                "bitrate": 832000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037434227231199232/vid/avc1/640x360/vnNuxOOvg1uQCwoG.mp4"
-              },
-              {
-                "bitrate": 2176000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037434227231199232/vid/avc1/854x480/lItRuy94IltTHguS.mp4"
-              }
-            ]
-          }
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_value_pattern"
+      "media": []
     },
     {
       "tweet_id": "2037292616983662844",
@@ -864,10 +842,7 @@
           "type": "photo",
           "url": "https://t.co/VS6Ig0Etye"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037152382363001143",
@@ -881,10 +856,7 @@
       "reply_count": 5,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      "media": []
     },
     {
       "tweet_id": "2037337974669746564",
@@ -975,10 +947,7 @@
           "type": "photo",
           "url": "https://t.co/bJae8bVHXs"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037231483048648945",
@@ -1063,10 +1032,7 @@
           "type": "photo",
           "url": "https://t.co/IcAABiGrng"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037403583809814777",
@@ -1142,10 +1108,92 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
+    },
+    {
+      "tweet_id": "2037134518386409536",
+      "url": "https://x.com/NameIsSudee/status/2037134518386409536",
+      "screen_name": "NameIsSudee",
+      "created_at": "Thu Mar 26 11:48:11 +0000 2026",
+      "full_text": "Summer Vibes ☀️ \n\nGoogle Nano Banana 2 🍌 \n\nPrompt:\n{\n  \"image_prompt\": {\n    \"subject\": {\n      \"description\": \"A young woman\",\n      \"physical_attributes\": [\n        \"pale skin\",\n        \"subtle freckles\",\n        \"long, wavy, vibrant red hair\"\n      ]\n    }, https://t.co/2s8wAlq2on",
+      "lang": "en",
+      "favorite_count": 3129,
+      "retweet_count": 100,
+      "reply_count": 23,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/2s8wAlq2on",
+          "expanded_url": "https://x.com/NameIsSudee/status/2037134518386409536/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 174,
+                  "w": 174,
+                  "x": 350,
+                  "y": 208
+                }
+              ]
+            }
+          },
+          "id_str": "2037134508940832768",
+          "indices": [
+            261,
+            284
+          ],
+          "media_key": "3_2037134508940832768",
+          "media_url_https": "https://pbs.twimg.com/media/HEVbCu0bsAAjkUS.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 501,
+                "w": 895,
+                "x": 0,
+                "y": 19
+              },
+              {
+                "h": 895,
+                "w": 895,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1020,
+                "w": 895,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1200,
+                "w": 600,
+                "x": 209,
+                "y": 0
+              },
+              {
+                "h": 1200,
+                "w": 895,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1200,
+            "width": 895
+          },
+          "sizes": {
+            "large": {
+              "h": 1200,
+              "w": 895
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/2s8wAlq2on"
+        }
+      ]
     },
     {
       "tweet_id": "2037219463716618390",
@@ -1159,189 +1207,80 @@
       "reply_count": 30,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
-      "tweet_id": "2037394200627650578",
-      "url": "https://x.com/RiserMusic/status/2037394200627650578",
-      "screen_name": "RiserMusic",
-      "created_at": "Fri Mar 27 05:00:05 +0000 2026",
-      "full_text": "Dangerous - GEMINI\n\nMUSIC VIDEO RELEASE\nTODAY 7 P.M.\n\n📺YouTube : RISER MUSIC\n&amp; ALL STREAMING\n\n#️⃣DangerousGEMINImv\n.\n#DangerousGEMINI\n#GEMINI_NT\n#RISERMUSIC https://t.co/xmQ2yTPWA5",
+      "tweet_id": "2037166084659294353",
+      "url": "https://x.com/ianmiles/status/2037166084659294353",
+      "screen_name": "ianmiles",
+      "created_at": "Thu Mar 26 13:53:37 +0000 2026",
+      "full_text": "Elon Musk: “Hold on to your Tesla stock.”\n\nBecause what’s coming isn’t just another car update—it’s an entirely new paradigm.\n\nFrom Optimus humanoid robots that could one day take care of your kids, walk your dog, and support elderly parents, to CyberCab scaling into mass https://t.co/X9ESk8h6Xh",
       "lang": "en",
-      "favorite_count": 3053,
-      "retweet_count": 2922,
-      "reply_count": 122,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/xmQ2yTPWA5",
-          "expanded_url": "https://x.com/RiserMusic/status/2037394200627650578/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "all": {
-              "tags": [
-                {
-                  "name": "gemini_nt",
-                  "screen_name": "gemini_ti",
-                  "user_id": "1198872710501130240"
-                },
-                {
-                  "name": "Plaifahsrc",
-                  "screen_name": "Plaifahsrc555",
-                  "user_id": "1960980655233490946"
-                }
-              ]
-            },
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2037394192457236480",
-          "indices": [
-            161,
-            184
-          ],
-          "media_key": "3_2037394192457236480",
-          "media_url_https": "https://pbs.twimg.com/media/HEZHOTTbgAAGm40.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 459,
-                "w": 820,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 820,
-                "w": 820,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 935,
-                "w": 820,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1024,
-                "w": 512,
-                "x": 179,
-                "y": 0
-              },
-              {
-                "h": 1024,
-                "w": 820,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 1024,
-            "width": 820
-          },
-          "sizes": {
-            "large": {
-              "h": 1024,
-              "w": 820
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/xmQ2yTPWA5"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
-    },
-    {
-      "tweet_id": "2037376994330181644",
-      "url": "https://x.com/hypertune_/status/2037376994330181644",
-      "screen_name": "hypertune_",
-      "created_at": "Fri Mar 27 03:51:42 +0000 2026",
-      "full_text": "🚨 NVIDIA USERS 🚨\n\nThis Setting is DESTROYING your FPS 🙌⬇️ https://t.co/EaNIbK53Qu",
-      "lang": "en",
-      "favorite_count": 2985,
-      "retweet_count": 200,
-      "reply_count": 32,
+      "favorite_count": 2876,
+      "retweet_count": 410,
+      "reply_count": 81,
       "view_count": 0,
       "quoted_tweet_text": "",
       "media": [
         {
           "additional_media_info": {
-            "monetizable": true
+            "monetizable": false
           },
-          "display_url": "pic.x.com/EaNIbK53Qu",
-          "expanded_url": "https://x.com/hypertune_/status/2037376994330181644/video/1",
+          "display_url": "pic.x.com/X9ESk8h6Xh",
+          "expanded_url": "https://x.com/ianmiles/status/2037166084659294353/video/1",
           "ext_media_availability": {
             "status": "Available"
           },
-          "id_str": "2037376876831002624",
+          "id_str": "2037166013393862656",
           "indices": [
-            58,
-            81
+            273,
+            296
           ],
-          "media_key": "13_2037376876831002624",
-          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037376876831002624/img/7gAqp3TiUrXcWpxA.jpg",
+          "media_key": "7_2037166013393862656",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/2037166013393862656/pu/img/mIiNGhxmFo8Gqk4c.jpg",
           "original_info": {
             "focus_rects": [],
-            "height": 1920,
+            "height": 1080,
             "width": 1920
           },
           "sizes": {
             "large": {
-              "h": 1920,
+              "h": 1080,
               "w": 1920
             }
           },
           "type": "video",
-          "url": "https://t.co/EaNIbK53Qu",
+          "url": "https://t.co/X9ESk8h6Xh",
           "video_info": {
             "aspect_ratio": [
-              1,
-              1
+              16,
+              9
             ],
-            "duration_millis": 22869,
+            "duration_millis": 175466,
             "variants": [
               {
                 "content_type": "application/x-mpegURL",
-                "url": "https://video.twimg.com/amplify_video/2037376876831002624/pl/N293rsa6DwNN9TYN.m3u8?v=5ee"
+                "url": "https://video.twimg.com/ext_tw_video/2037166013393862656/pu/pl/v1lzu581tUn0h8qi.m3u8?tag=12&v=751"
               },
               {
-                "bitrate": 432000,
+                "bitrate": 256000,
                 "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037376876831002624/vid/avc1/320x320/rSyH8_-1VW6WkO6t.mp4"
+                "url": "https://video.twimg.com/ext_tw_video/2037166013393862656/pu/vid/avc1/480x270/HIFFsX9_YMqIG-W0.mp4?tag=12"
               },
               {
                 "bitrate": 832000,
                 "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037376876831002624/vid/avc1/540x540/a3oa2pSnvwAu0mxE.mp4"
+                "url": "https://video.twimg.com/ext_tw_video/2037166013393862656/pu/vid/avc1/640x360/ft4jbmMNw0Noyv3a.mp4?tag=12"
               },
               {
-                "bitrate": 1280000,
+                "bitrate": 2176000,
                 "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037376876831002624/vid/avc1/720x720/oc2on0Sgd3vCZDJf.mp4"
-              },
-              {
-                "bitrate": 8768000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2037376876831002624/vid/avc1/1080x1080/8OynlI-ikAD24NDl.mp4"
+                "url": "https://video.twimg.com/ext_tw_video/2037166013393862656/pu/vid/avc1/1280x720/OYE9m_cGsFpO7fcm.mp4?tag=12"
               }
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      ]
     },
     {
       "tweet_id": "2037259557588668708",
@@ -1654,10 +1593,7 @@
           "type": "photo",
           "url": "https://t.co/SHYtRRZ0st"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037231307474833748",
@@ -1671,10 +1607,7 @@
       "reply_count": 83,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2037341209585443161",
@@ -1752,10 +1685,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037182739695493399",
@@ -1813,10 +1743,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037137527593668662",
@@ -1894,10 +1821,7 @@
           "type": "photo",
           "url": "https://t.co/dHZ5TDZPyD"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037102306051706944",
@@ -1911,10 +1835,21 @@
       "reply_count": 62,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
+    },
+    {
+      "tweet_id": "2037207427603718275",
+      "url": "https://x.com/bennpeifert/status/2037207427603718275",
+      "screen_name": "bennpeifert",
+      "created_at": "Thu Mar 26 16:37:54 +0000 2026",
+      "full_text": "This looks complicated. Let me explain. All the money goes around in a circle. No meaningful value is generated, there is no AGI, only video slop generators with ads, no customers willing to pay a lot of money. It's all about pumping a stock to dump on retail as soon as possible",
+      "lang": "en",
+      "favorite_count": 2375,
+      "retweet_count": 431,
+      "reply_count": 66,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2037327052894822535",
@@ -1928,10 +1863,7 @@
       "reply_count": 18,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2037145631987556748",
@@ -2072,10 +2004,7 @@
           "type": "photo",
           "url": "https://t.co/RfbqmiNB3K"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037216258069061976",
@@ -2161,10 +2090,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037119617857183974",
@@ -2245,10 +2171,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037190712161136683",
@@ -2262,10 +2185,7 @@
       "reply_count": 297,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2037242819165749572",
@@ -2279,10 +2199,7 @@
       "reply_count": 21,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2037172679585755301",
@@ -2577,10 +2494,7 @@
           "type": "photo",
           "url": "https://t.co/75iBvlp8EO"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2037145542246228140",
@@ -2594,10 +2508,7 @@
       "reply_count": 26,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      "media": []
     }
   ]
 }

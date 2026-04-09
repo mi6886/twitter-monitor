@@ -1,8 +1,20 @@
 {
   "date": "2026-04-05",
   "period": "evening",
-  "fetched_at": "2026-04-05T11:27:40.334212+00:00",
-  "review_count": 20,
+  "fetched_at": "2026-04-05T11:27:40.305911+00:00",
+  "raw_count": 72,
+  "candidate_count": 32,
+  "final_count": 9,
+  "review_count": 17,
+  "drop_hard_count": 6,
+  "disposition_stats": {
+    "low_info_content": 13,
+    "info_value": 4,
+    "monitored_popular": 5,
+    "brief_mention": 4,
+    "too_brief": 2,
+    "off_topic": 4
+  },
   "tweets": [
     {
       "tweet_id": "2040550214902108594",
@@ -150,10 +162,7 @@
           "type": "photo",
           "url": "https://t.co/pBuHFlkiXf"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040464383344513095",
@@ -167,10 +176,7 @@
       "reply_count": 424,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040395962422550562",
@@ -463,10 +469,7 @@
           "type": "photo",
           "url": "https://t.co/tkUME7RqlK"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2040512861953270226",
@@ -547,10 +550,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
+    },
+    {
+      "tweet_id": "2040707151199699257",
+      "url": "https://x.com/KatanaSpeaks/status/2040707151199699257",
+      "screen_name": "KatanaSpeaks",
+      "created_at": "Sun Apr 05 08:24:34 +0000 2026",
+      "full_text": "Rape is a disabling assault.\n\nWho on earth wouldn't suffer from mental health challenges after being raped by a family member for 9 years starting as a baby?\n\nSam Altman is a rapist and I'm afraid for the safety of the baby he adopted.",
+      "lang": "en",
+      "favorite_count": 3499,
+      "retweet_count": 542,
+      "reply_count": 2,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2040407962246840336",
@@ -635,10 +649,7 @@
           "type": "photo",
           "url": "https://t.co/UZSI7fOfQd"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2040547396967375293",
@@ -652,10 +663,7 @@
       "reply_count": 29,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040434112343769488",
@@ -669,267 +677,7 @@
       "reply_count": 91,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2040436910158672254",
-      "url": "https://x.com/ChennaiIPL/status/2040436910158672254",
-      "screen_name": "ChennaiIPL",
-      "created_at": "Sat Apr 04 14:30:43 +0000 2026",
-      "full_text": "ChatGPT’s MatchIQ award goes to Jamie Overton, for his brilliant score of 43 off 36 balls, making him the highest scorer by a CSK player at no. 8 or below in the League. \n\nChatGPT’s MatchIQ award goes to Ayush Mhatre for his 73-run knock in our second match.  \n\n#WhistlePodu https://t.co/2zA0knYSFP",
-      "lang": "en",
-      "favorite_count": 2905,
-      "retweet_count": 175,
-      "reply_count": 58,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/2zA0knYSFP",
-          "expanded_url": "https://x.com/ChennaiIPL/status/2040436910158672254/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": [
-                {
-                  "h": 164,
-                  "w": 164,
-                  "x": 722,
-                  "y": 591
-                },
-                {
-                  "h": 184,
-                  "w": 184,
-                  "x": 391,
-                  "y": 319
-                }
-              ]
-            }
-          },
-          "id_str": "2040436879208955904",
-          "indices": [
-            275,
-            298
-          ],
-          "media_key": "3_2040436879208955904",
-          "media_url_https": "https://pbs.twimg.com/media/HFEWh-vbQAABLSz.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 605,
-                "w": 1080,
-                "x": 0,
-                "y": 136
-              },
-              {
-                "h": 1080,
-                "w": 1080,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1231,
-                "w": 1080,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1350,
-                "w": 675,
-                "x": 169,
-                "y": 0
-              },
-              {
-                "h": 1350,
-                "w": 1080,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 1350,
-            "width": 1080
-          },
-          "sizes": {
-            "large": {
-              "h": 1350,
-              "w": 1080
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/2zA0knYSFP"
-        },
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/2zA0knYSFP",
-          "expanded_url": "https://x.com/ChennaiIPL/status/2040436910158672254/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": [
-                {
-                  "h": 197,
-                  "w": 197,
-                  "x": 239,
-                  "y": 412
-                },
-                {
-                  "h": 371,
-                  "w": 371,
-                  "x": 379,
-                  "y": 379
-                }
-              ]
-            }
-          },
-          "id_str": "2040436879116709888",
-          "indices": [
-            275,
-            298
-          ],
-          "media_key": "3_2040436879116709888",
-          "media_url_https": "https://pbs.twimg.com/media/HFEWh-ZbsAAaxTC.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 605,
-                "w": 1080,
-                "x": 0,
-                "y": 204
-              },
-              {
-                "h": 1080,
-                "w": 1080,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1231,
-                "w": 1080,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1350,
-                "w": 675,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1350,
-                "w": 1080,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 1350,
-            "width": 1080
-          },
-          "sizes": {
-            "large": {
-              "h": 1350,
-              "w": 1080
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/2zA0knYSFP"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
-    },
-    {
-      "tweet_id": "2040500903296352663",
-      "url": "https://x.com/RoundtableSpace/status/2040500903296352663",
-      "screen_name": "RoundtableSpace",
-      "created_at": "Sat Apr 04 18:45:00 +0000 2026",
-      "full_text": "MOST COMPLETE CLAUDE CODE SETUP OPEN SOURCED\n\n- 27 agents, 64 skills, 33 commands + built-in AgentShield with 1,282 security tests\n- Handles planning, code review, fixes, TDD, token optimization &amp; more\n- Works on Cursor, OpenCode, Codex CLI — one repo replaces weeks of setup, https://t.co/2GQnKW4gyi",
-      "lang": "en",
-      "favorite_count": 2689,
-      "retweet_count": 377,
-      "reply_count": 67,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/2GQnKW4gyi",
-          "expanded_url": "https://x.com/RoundtableSpace/status/2040500903296352663/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2040486112729366529",
-          "indices": [
-            281,
-            304
-          ],
-          "media_key": "3_2040486112729366529",
-          "media_url_https": "https://pbs.twimg.com/media/HFFDTv5aAAEivP4.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 1039,
-                "w": 1855,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1855,
-                "w": 1855,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2048,
-                "w": 1796,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2048,
-                "w": 1024,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2048,
-                "w": 1855,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 2048,
-            "width": 1855
-          },
-          "sizes": {
-            "large": {
-              "h": 2048,
-              "w": 1855
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/2GQnKW4gyi"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      "media": []
     },
     {
       "tweet_id": "2040402596561813932",
@@ -1228,10 +976,7 @@
           "type": "photo",
           "url": "https://t.co/qcuR4bShmD"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2040547693437591980",
@@ -1245,163 +990,7 @@
       "reply_count": 146,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2040357456325275894",
-      "url": "https://x.com/TouchlineX/status/2040357456325275894",
-      "screen_name": "TouchlineX",
-      "created_at": "Sat Apr 04 09:15:00 +0000 2026",
-      "full_text": "🚨 𝗡𝗘𝗪: Atlético Madrid &amp; Barcelona combined XI, according to Perplexity. https://t.co/aNTRSGmYrb",
-      "lang": "pt",
-      "favorite_count": 2444,
-      "retweet_count": 119,
-      "reply_count": 119,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/aNTRSGmYrb",
-          "expanded_url": "https://x.com/TouchlineX/status/2040357456325275894/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": [
-                {
-                  "h": 103,
-                  "w": 103,
-                  "x": 801,
-                  "y": 653
-                },
-                {
-                  "h": 103,
-                  "w": 103,
-                  "x": 1405,
-                  "y": 1287
-                },
-                {
-                  "h": 109,
-                  "w": 109,
-                  "x": 721,
-                  "y": 239
-                },
-                {
-                  "h": 109,
-                  "w": 109,
-                  "x": 1309,
-                  "y": 289
-                },
-                {
-                  "h": 113,
-                  "w": 113,
-                  "x": 379,
-                  "y": 855
-                },
-                {
-                  "h": 129,
-                  "w": 129,
-                  "x": 1117,
-                  "y": 869
-                },
-                {
-                  "h": 113,
-                  "w": 113,
-                  "x": 141,
-                  "y": 1289
-                },
-                {
-                  "h": 119,
-                  "w": 119,
-                  "x": 973,
-                  "y": 1313
-                },
-                {
-                  "h": 131,
-                  "w": 131,
-                  "x": 543,
-                  "y": 1331
-                }
-              ]
-            }
-          },
-          "id_str": "2040317055191367680",
-          "indices": [
-            77,
-            100
-          ],
-          "media_key": "3_2040317055191367680",
-          "media_url_https": "https://pbs.twimg.com/media/HFCpjTfaQAAg07O.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 1285,
-                "w": 2295,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2295,
-                "w": 2295,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2616,
-                "w": 2295,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2869,
-                "w": 1435,
-                "x": 358,
-                "y": 0
-              },
-              {
-                "h": 2869,
-                "w": 2295,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 2869,
-            "width": 2295
-          },
-          "sizes": {
-            "large": {
-              "h": 2048,
-              "w": 1638
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/aNTRSGmYrb"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
-    },
-    {
-      "tweet_id": "2040578989706924320",
-      "url": "https://x.com/PolymarketMoney/status/2040578989706924320",
-      "screen_name": "PolymarketMoney",
-      "created_at": "Sat Apr 04 23:55:17 +0000 2026",
-      "full_text": "Ashton Kutcher was also an early investor in: \n\n• Uber (2011)\n• Airbnb (2011)\n• Spotify (2010)\n• Square (2009) \n• Duolingo (2011) \n• Anthropic (2023)",
-      "lang": "en",
-      "favorite_count": 2369,
-      "retweet_count": 110,
-      "reply_count": 47,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      "media": []
     },
     {
       "tweet_id": "2040642276486209916",
@@ -1579,10 +1168,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040392112152207733",
@@ -1660,10 +1246,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040348501310312580",
@@ -1721,10 +1304,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040392931841134994",
@@ -1871,10 +1451,7 @@
           "type": "photo",
           "url": "https://t.co/EuMQP7EIlR"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2040480223326814217",
@@ -1888,10 +1465,7 @@
       "reply_count": 121,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040638166122766708",
@@ -1905,10 +1479,7 @@
       "reply_count": 13,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040508733944668408",
@@ -1922,10 +1493,7 @@
       "reply_count": 178,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     }
   ]
 }

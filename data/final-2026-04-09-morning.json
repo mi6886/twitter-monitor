@@ -1,19 +1,18 @@
 {
   "date": "2026-04-09",
   "period": "morning",
-  "fetched_at": "2026-04-08T23:30:53.737356+00:00",
+  "fetched_at": "2026-04-08T23:30:53.706735+00:00",
   "raw_count": 72,
   "candidate_count": 46,
-  "final_count": 9,
-  "review_count": 32,
+  "final_count": 13,
+  "review_count": 28,
   "drop_hard_count": 5,
   "disposition_stats": {
-    "high_signal_source": 3,
-    "brief_ai_mention": 7,
-    "low_info_ai_content": 21,
-    "not_ai_content": 5,
-    "off_topic": 4,
-    "monitored_lenient": 1,
+    "monitored_popular": 8,
+    "brief_mention": 7,
+    "low_info_content": 20,
+    "off_topic": 5,
+    "meme_or_reaction": 1,
     "info_value": 5
   },
   "tweets": [
@@ -94,10 +93,35 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      ]
+    },
+    {
+      "tweet_id": "2041833531866017973",
+      "url": "https://x.com/aakashgupta/status/2041833531866017973",
+      "screen_name": "aakashgupta",
+      "created_at": "Wed Apr 08 11:00:24 +0000 2026",
+      "full_text": "L-theanine is the only legal compound that changes your brainwaves on an EEG within 40 minutes of swallowing a capsule. And the mechanism is wild.\n\nYour brain constantly balances two opposing neurotransmitters. Glutamate fires neurons. GABA calms them. L-theanine is a structural",
+      "lang": "en",
+      "favorite_count": 8350,
+      "retweet_count": 705,
+      "reply_count": 145,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041849503704141961",
+      "url": "https://x.com/steipete/status/2041849503704141961",
+      "screen_name": "steipete",
+      "created_at": "Wed Apr 08 12:03:52 +0000 2026",
+      "full_text": "glad they banned openclaw, the servers are finally reliable again",
+      "lang": "en",
+      "favorite_count": 4466,
+      "retweet_count": 127,
+      "reply_count": 240,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2041853308076257778",
@@ -111,10 +135,7 @@
       "reply_count": 285,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "monitored_lenient"
+      "media": []
     },
     {
       "tweet_id": "2041912812637966552",
@@ -200,10 +221,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      ]
     },
     {
       "tweet_id": "2041929222135173466",
@@ -281,10 +299,7 @@
           "type": "photo",
           "url": "https://t.co/OmEqtdIpbY"
         }
-      ],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      ]
     },
     {
       "tweet_id": "2041776507702657078",
@@ -298,10 +313,7 @@
       "reply_count": 49,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2041897604708233650",
@@ -386,10 +398,21 @@
           "type": "photo",
           "url": "https://t.co/Aaz7oq0QSS"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2041835999022436793",
+      "url": "https://x.com/kimmonismus/status/2041835999022436793",
+      "screen_name": "kimmonismus",
+      "created_at": "Wed Apr 08 11:10:12 +0000 2026",
+      "full_text": "Cant wait for a chinese \"Mythos\" equivalent in 6 months at 1/10 of the cost.",
+      "lang": "en",
+      "favorite_count": 2485,
+      "retweet_count": 94,
+      "reply_count": 143,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2041649291991904565",
@@ -470,10 +493,21 @@
           "type": "photo",
           "url": "https://t.co/bWEJW5gZLw"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2041795851534659612",
+      "url": "https://x.com/DavidOndrej1/status/2041795851534659612",
+      "screen_name": "DavidOndrej1",
+      "created_at": "Wed Apr 08 08:30:40 +0000 2026",
+      "full_text": "if you work at Anthropic\n\nand leak Mythos weights\n\nyou will go down in history.",
+      "lang": "en",
+      "favorite_count": 2274,
+      "retweet_count": 61,
+      "reply_count": 87,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2041746059802915039",
@@ -614,10 +648,7 @@
           "type": "photo",
           "url": "https://t.co/NoyMAb7Dma"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2041942802876252274",
@@ -631,10 +662,7 @@
       "reply_count": 68,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     }
   ]
 }

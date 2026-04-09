@@ -1,8 +1,21 @@
 {
   "date": "2026-04-05",
   "period": "morning",
-  "fetched_at": "2026-04-04T23:22:33.281404+00:00",
-  "review_count": 34,
+  "fetched_at": "2026-04-04T23:22:33.242430+00:00",
+  "raw_count": 95,
+  "candidate_count": 59,
+  "final_count": 20,
+  "review_count": 35,
+  "drop_hard_count": 4,
+  "disposition_stats": {
+    "low_info_content": 31,
+    "weak_signal_untrusted": 2,
+    "monitored_popular": 13,
+    "info_value": 7,
+    "off_topic": 3,
+    "brief_mention": 2,
+    "too_brief": 1
+  },
   "tweets": [
     {
       "tweet_id": "2040420610824634842",
@@ -171,10 +184,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040392588394688838",
@@ -453,10 +463,7 @@
           "type": "photo",
           "url": "https://t.co/rL0xM2XMSW"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040414331775676846",
@@ -667,10 +674,7 @@
           "type": "photo",
           "url": "https://t.co/8F9ZJJjuKS"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "weak_signal_untrusted"
+      ]
     },
     {
       "tweet_id": "2040169635706794388",
@@ -684,10 +688,21 @@
       "reply_count": 135,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
+    },
+    {
+      "tweet_id": "2040221847510302968",
+      "url": "https://x.com/BlueWave2026/status/2040221847510302968",
+      "screen_name": "BlueWave2026",
+      "created_at": "Sat Apr 04 00:16:08 +0000 2026",
+      "full_text": "It would be beautiful to see Sam Altman go to prison.",
+      "lang": "en",
+      "favorite_count": 8599,
+      "retweet_count": 510,
+      "reply_count": 4,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2040351282754453603",
@@ -701,10 +716,7 @@
       "reply_count": 58,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040293326709244244",
@@ -718,10 +730,7 @@
       "reply_count": 15,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040460281743061056",
@@ -809,10 +818,7 @@
           "type": "photo",
           "url": "https://t.co/G1bzvBfyAn"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040398237555908929",
@@ -890,10 +896,7 @@
           "type": "photo",
           "url": "https://t.co/Wfqg4DozxY"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040438564396089501",
@@ -907,10 +910,7 @@
       "reply_count": 24,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040306855583363088",
@@ -988,10 +988,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040375979638706238",
@@ -1142,10 +1139,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040172513955819968",
@@ -1226,10 +1220,7 @@
           "type": "photo",
           "url": "https://t.co/3NDPU9iPAK"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040480436665925846",
@@ -1243,27 +1234,7 @@
       "reply_count": 32,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2040196839060726267",
-      "url": "https://x.com/toromi666/status/2040196839060726267",
-      "screen_name": "toromi666",
-      "created_at": "Fri Apr 03 22:36:46 +0000 2026",
-      "full_text": "Google Gemini please generate me an image of Katy Perry’s 143 album cover but if it was made by Tate McRae",
-      "lang": "en",
-      "favorite_count": 3775,
-      "retweet_count": 148,
-      "reply_count": 12,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      "media": []
     },
     {
       "tweet_id": "2040367090578903354",
@@ -1351,10 +1322,7 @@
           "type": "photo",
           "url": "https://t.co/9tdyvTOvka"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040194686237745220",
@@ -1435,10 +1403,7 @@
           "type": "photo",
           "url": "https://t.co/VsTKGE5Tku"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040385864879198218",
@@ -1452,10 +1417,7 @@
       "reply_count": 0,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040174214175723538",
@@ -1536,10 +1498,7 @@
           "type": "photo",
           "url": "https://t.co/4BbYkMDg2p"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040364637523436008",
@@ -1624,10 +1583,7 @@
           "type": "photo",
           "url": "https://t.co/Ch7jP5bQ13"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2040361231379546308",
@@ -1703,10 +1659,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040293285168808063",
@@ -1791,10 +1744,7 @@
           "type": "photo",
           "url": "https://t.co/YRhXaBAklQ"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040436446280987089",
@@ -1808,10 +1758,7 @@
       "reply_count": 14,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "weak_signal_untrusted"
+      "media": []
     },
     {
       "tweet_id": "2040510174528446964",
@@ -1825,10 +1772,7 @@
       "reply_count": 6,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040173733168468177",
@@ -1913,10 +1857,7 @@
           "type": "photo",
           "url": "https://t.co/U0StlCUzyc"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040338311873515597",
@@ -2277,10 +2218,7 @@
           "type": "photo",
           "url": "https://t.co/lvKb9XUWDl"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040200925663379680",
@@ -2421,10 +2359,7 @@
           "type": "photo",
           "url": "https://t.co/HAL80U4Bh4"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040450515079979254",
@@ -2505,10 +2440,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2040169329342251447",
@@ -2522,10 +2454,7 @@
       "reply_count": 12,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040260083981160672",
@@ -2694,10 +2623,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040208908632117362",
@@ -2711,10 +2637,7 @@
       "reply_count": 12,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040156013894995989",
@@ -2795,10 +2718,21 @@
           "type": "photo",
           "url": "https://t.co/zgmmf9bLic"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
+    },
+    {
+      "tweet_id": "2040154263062815077",
+      "url": "https://x.com/theserfstv/status/2040154263062815077",
+      "screen_name": "theserfstv",
+      "created_at": "Fri Apr 03 19:47:35 +0000 2026",
+      "full_text": "Sam Altman is accused of raping his own sister when she was a child",
+      "lang": "en",
+      "favorite_count": 2131,
+      "retweet_count": 400,
+      "reply_count": 20,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2040257000995717293",
@@ -2812,10 +2746,7 @@
       "reply_count": 71,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
     },
     {
       "tweet_id": "2040272956384039054",
@@ -2896,10 +2827,7 @@
           "type": "photo",
           "url": "https://t.co/vJL37wVNRs"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2040414468702908749",
@@ -2980,10 +2908,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     }
   ]
 }

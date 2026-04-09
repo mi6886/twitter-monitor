@@ -1,21 +1,20 @@
 {
   "date": "2026-03-26",
   "period": "evening",
-  "fetched_at": "2026-03-26T11:48:59.033342+00:00",
+  "fetched_at": "2026-03-26T11:48:58.996164+00:00",
   "raw_count": 106,
   "candidate_count": 52,
-  "final_count": 8,
-  "review_count": 31,
-  "drop_hard_count": 13,
+  "final_count": 16,
+  "review_count": 33,
+  "drop_hard_count": 3,
   "disposition_stats": {
-    "brief_ai_mention": 6,
-    "info_value": 7,
-    "not_ai_content": 12,
-    "low_info_ai_content": 22,
+    "brief_mention": 7,
+    "info_value": 6,
+    "monitored_popular": 10,
+    "low_info_content": 25,
     "too_brief": 1,
     "off_topic": 2,
-    "weak_signal_untrusted": 1,
-    "high_signal_source": 1
+    "weak_signal_untrusted": 1
   },
   "tweets": [
     {
@@ -311,10 +310,176 @@
           "type": "photo",
           "url": "https://t.co/4ftJuukA7M"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2036876590320398841",
+      "url": "https://x.com/venturetwins/status/2036876590320398841",
+      "screen_name": "venturetwins",
+      "created_at": "Wed Mar 25 18:43:17 +0000 2026",
+      "full_text": "Marco Rubio realizing he has to be JD Vance now https://t.co/OiAqYT0qS9",
+      "lang": "en",
+      "favorite_count": 7164,
+      "retweet_count": 390,
+      "reply_count": 24,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/OiAqYT0qS9",
+          "expanded_url": "https://x.com/venturetwins/status/2036876590320398841/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 153,
+                  "w": 153,
+                  "x": 495,
+                  "y": 163
+                }
+              ]
+            }
+          },
+          "id_str": "2036876587564732416",
+          "indices": [
+            48,
+            71
+          ],
+          "media_key": "3_2036876587564732416",
+          "media_url_https": "https://pbs.twimg.com/media/HERwdu0bEAAgN2W.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 573,
+                "w": 1024,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1024,
+                "w": 1024,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1024,
+                "w": 898,
+                "x": 126,
+                "y": 0
+              },
+              {
+                "h": 1024,
+                "w": 512,
+                "x": 332,
+                "y": 0
+              },
+              {
+                "h": 1024,
+                "w": 1024,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1024,
+            "width": 1024
+          },
+          "sizes": {
+            "large": {
+              "h": 1024,
+              "w": 1024
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/OiAqYT0qS9"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2037013561935790400",
+      "url": "https://x.com/levelsio/status/2037013561935790400",
+      "screen_name": "levelsio",
+      "created_at": "Thu Mar 26 03:47:33 +0000 2026",
+      "full_text": "And after voting that out too...\n\n🇪🇺 ChatControl is back with a vengeance\n\nThe Conservatives (EPP) are attempting to force a new vote TODAY (March 26) seeking to reverse the European Parliament's NO on indiscriminate scanning of ALL your private messages, emails and photos\n\nThis https://t.co/BRoJyEC1gQ",
+      "lang": "en",
+      "favorite_count": 3347,
+      "retweet_count": 1021,
+      "reply_count": 106,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/BRoJyEC1gQ",
+          "expanded_url": "https://x.com/levelsio/status/2037013561935790400/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037013549718056960",
+          "indices": [
+            280,
+            303
+          ],
+          "media_key": "3_2037013549718056960",
+          "media_url_https": "https://pbs.twimg.com/media/HETtB-maMAAXzGj.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 639,
+                "w": 1141,
+                "x": 0,
+                "y": 756
+              },
+              {
+                "h": 1141,
+                "w": 1141,
+                "x": 0,
+                "y": 505
+              },
+              {
+                "h": 1301,
+                "w": 1141,
+                "x": 0,
+                "y": 425
+              },
+              {
+                "h": 2048,
+                "w": 1024,
+                "x": 58,
+                "y": 0
+              },
+              {
+                "h": 2048,
+                "w": 1141,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 2048,
+            "width": 1141
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1141
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/BRoJyEC1gQ"
+        }
+      ]
     },
     {
       "tweet_id": "2036900468056875332",
@@ -400,10 +565,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2036856308410773803",
+      "url": "https://x.com/kimmonismus/status/2036856308410773803",
+      "screen_name": "kimmonismus",
+      "created_at": "Wed Mar 25 17:22:41 +0000 2026",
+      "full_text": "They are developing Claude into the app that ChatGPT wanted to be.",
+      "lang": "en",
+      "favorite_count": 2853,
+      "retweet_count": 96,
+      "reply_count": 65,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2036786833854472503",
@@ -417,10 +593,7 @@
       "reply_count": 80,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2036718106568216604",
@@ -501,10 +674,85 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2036836307612119488",
+      "url": "https://x.com/Google/status/2036836307612119488",
+      "screen_name": "Google",
+      "created_at": "Wed Mar 25 16:03:12 +0000 2026",
+      "full_text": "Last month we launched Lyria 3.\n\nToday, we’re introducing Lyria 3 Pro: our most advanced music model yet, from @GoogleDeepMind. 🎶\n\nNow you can create tracks up to 3 minutes long with more creative control. We’re also bringing Lyria to more Google products starting today. https://t.co/tjYyEP6lyM",
+      "lang": "en",
+      "favorite_count": 2419,
+      "retweet_count": 314,
+      "reply_count": 148,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/tjYyEP6lyM",
+          "expanded_url": "https://x.com/Google/status/2036836307612119488/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036834736849764353",
+          "indices": [
+            272,
+            295
+          ],
+          "media_key": "13_2036834736849764353",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036834736849764353/img/iRroJEzfw-h_iwBB.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1440,
+            "width": 1440
+          },
+          "sizes": {
+            "large": {
+              "h": 1440,
+              "w": 1440
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/tjYyEP6lyM",
+          "video_info": {
+            "aspect_ratio": [
+              1,
+              1
+            ],
+            "duration_millis": 26433,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2036834736849764353/pl/pwbAR2ewfsLhwbrH.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 432000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036834736849764353/vid/avc1/320x320/Ij8mbWRLlPcP6dRD.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036834736849764353/vid/avc1/540x540/VaIfnt5ouEM0ly9I.mp4"
+              },
+              {
+                "bitrate": 1280000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036834736849764353/vid/avc1/720x720/ggyQ0EkskiYOhdUR.mp4"
+              },
+              {
+                "bitrate": 8768000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036834736849764353/vid/avc1/1080x1080/qvrSUt5a190obVbc.mp4"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2036912419272818780",
@@ -518,10 +766,7 @@
       "reply_count": 264,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2036850600701276486",
@@ -535,10 +780,7 @@
       "reply_count": 258,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2036857428273487903",
@@ -552,10 +794,21 @@
       "reply_count": 199,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
+    },
+    {
+      "tweet_id": "2036896125232283727",
+      "url": "https://x.com/paulg/status/2036896125232283727",
+      "screen_name": "paulg",
+      "created_at": "Wed Mar 25 20:00:54 +0000 2026",
+      "full_text": "Trying to make founders describe their products in simple everyday language is like trying to push together the north poles of two magnets.",
+      "lang": "en",
+      "favorite_count": 2109,
+      "retweet_count": 87,
+      "reply_count": 263,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2036944806317088921",
@@ -569,10 +822,129 @@
       "reply_count": 165,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
+    },
+    {
+      "tweet_id": "2036780068664451192",
+      "url": "https://x.com/gregisenberg/status/2036780068664451192",
+      "screen_name": "gregisenberg",
+      "created_at": "Wed Mar 25 12:19:44 +0000 2026",
+      "full_text": "do yourself a favor\n\nlearn to get good with ai\npick a niche \nbuild distribution\nbuild apps or agents as a service\nmake something so useful then expand around that behavior\n\n99% of people will read this and do nothing\n1% will read this and do their future selves a favor\n\ni don't",
+      "lang": "en",
+      "favorite_count": 2091,
+      "retweet_count": 135,
+      "reply_count": 294,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2036959638646866021",
+      "url": "https://x.com/trq212/status/2036959638646866021",
+      "screen_name": "trq212",
+      "created_at": "Thu Mar 26 00:13:17 +0000 2026",
+      "full_text": "imessage is now available as a channel!",
+      "lang": "en",
+      "favorite_count": 2051,
+      "retweet_count": 79,
+      "reply_count": 99,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2036897542101770630",
+      "url": "https://x.com/levelsio/status/2036897542101770630",
+      "screen_name": "levelsio",
+      "created_at": "Wed Mar 25 20:06:32 +0000 2026",
+      "full_text": "POV: you order an Uber Black in Brazil https://t.co/BRls7TMYcm",
+      "lang": "en",
+      "favorite_count": 2035,
+      "retweet_count": 25,
+      "reply_count": 127,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/BRls7TMYcm",
+          "expanded_url": "https://x.com/levelsio/status/2036897542101770630/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 84,
+                  "w": 84,
+                  "x": 848,
+                  "y": 1046
+                },
+                {
+                  "h": 108,
+                  "w": 108,
+                  "x": 172,
+                  "y": 718
+                }
+              ]
+            }
+          },
+          "id_str": "2036897526192762880",
+          "indices": [
+            39,
+            62
+          ],
+          "media_key": "3_2036897526192762880",
+          "media_url_https": "https://pbs.twimg.com/media/HESDghSXcAApLcR.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 860,
+                "w": 1536,
+                "x": 0,
+                "y": 645
+              },
+              {
+                "h": 1536,
+                "w": 1536,
+                "x": 0,
+                "y": 307
+              },
+              {
+                "h": 1751,
+                "w": 1536,
+                "x": 0,
+                "y": 200
+              },
+              {
+                "h": 2048,
+                "w": 1024,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2048,
+                "w": 1536,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 2048,
+            "width": 1536
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1536
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/BRls7TMYcm"
+        }
+      ]
     }
   ]
 }

@@ -1,24 +1,36 @@
 {
   "date": "2026-03-27",
   "period": "morning",
-  "fetched_at": "2026-03-26T23:22:38.440344+00:00",
+  "fetched_at": "2026-03-26T23:22:38.404093+00:00",
   "raw_count": 96,
   "candidate_count": 59,
-  "final_count": 9,
-  "review_count": 34,
-  "drop_hard_count": 16,
+  "final_count": 25,
+  "review_count": 32,
+  "drop_hard_count": 2,
   "disposition_stats": {
-    "brief_ai_mention": 6,
-    "low_info_ai_content": 25,
-    "not_ai_content": 16,
-    "info_value": 7,
-    "low_value_pattern": 1,
+    "brief_mention": 5,
+    "low_info_content": 26,
+    "monitored_popular": 17,
+    "info_value": 8,
+    "gossip_or_bait": 1,
     "weak_signal_untrusted": 1,
-    "monitored_lenient": 1,
-    "high_signal_source": 1,
     "off_topic": 1
   },
   "tweets": [
+    {
+      "tweet_id": "2037116608326598861",
+      "url": "https://x.com/aakashgupta/status/2037116608326598861",
+      "screen_name": "aakashgupta",
+      "created_at": "Thu Mar 26 10:37:01 +0000 2026",
+      "full_text": "Floyd Mayweather never wore a pair of underwear twice.\n\nHe employed someone full-time whose only job was sanitizing his car collection each morning. If a car hadn’t been wiped down, Mayweather wouldn’t touch it.\n\nThe man spent $12,000 a week at one Japanese steakhouse. Every",
+      "lang": "en",
+      "favorite_count": 16987,
+      "retweet_count": 2653,
+      "reply_count": 577,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
     {
       "tweet_id": "2037078783539212784",
       "url": "https://x.com/Pitah_Finnest/status/2037078783539212784",
@@ -95,10 +107,63 @@
           "type": "photo",
           "url": "https://t.co/JLPZjHH9td"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2037192257451802985",
+      "url": "https://x.com/MrBeast/status/2037192257451802985",
+      "screen_name": "MrBeast",
+      "created_at": "Thu Mar 26 15:37:38 +0000 2026",
+      "full_text": "Who are the OG YouTubers you grew up watching?",
+      "lang": "en",
+      "favorite_count": 12841,
+      "retweet_count": 446,
+      "reply_count": 8995,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037263537047748895",
+      "url": "https://x.com/MrBeast/status/2037263537047748895",
+      "screen_name": "MrBeast",
+      "created_at": "Thu Mar 26 20:20:52 +0000 2026",
+      "full_text": "@LacyHimself Want me to just trap you in a circle?",
+      "lang": "en",
+      "favorite_count": 11654,
+      "retweet_count": 69,
+      "reply_count": 519,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037058726855905302",
+      "url": "https://x.com/aakashgupta/status/2037058726855905302",
+      "screen_name": "aakashgupta",
+      "created_at": "Thu Mar 26 06:47:01 +0000 2026",
+      "full_text": "A $2.5 billion robot has been alone on another planet for 13 years and is still doing science. The scale of that sentence gets worse the longer you think about it.\n\nCuriosity landed in August 2012. Obama was president. Instagram had 80 million users. The iPhone 5 hadn’t shipped",
+      "lang": "en",
+      "favorite_count": 5538,
+      "retweet_count": 806,
+      "reply_count": 57,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037033065995002268",
+      "url": "https://x.com/aakashgupta/status/2037033065995002268",
+      "screen_name": "aakashgupta",
+      "created_at": "Thu Mar 26 05:05:03 +0000 2026",
+      "full_text": "DreamWorks is running a strategy no other animation studio has the discipline to copy.\n\nPuss in Boots: The Last Wish cost $90 million, opened to $12 million, and everyone declared it dead. It legged out to $484 million and $120 million in net profit. The Wild Robot cost $78",
+      "lang": "en",
+      "favorite_count": 5478,
+      "retweet_count": 331,
+      "reply_count": 27,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2037132023207518429",
@@ -112,10 +177,7 @@
       "reply_count": 68,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2037219115002405076",
@@ -193,10 +255,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2037170612532072950",
+      "url": "https://x.com/levelsio/status/2037170612532072950",
+      "screen_name": "levelsio",
+      "created_at": "Thu Mar 26 14:11:37 +0000 2026",
+      "full_text": "Can we find out who is behind Chat Control? Who keeps trying to get this passed in the EU?",
+      "lang": "en",
+      "favorite_count": 3618,
+      "retweet_count": 248,
+      "reply_count": 155,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2037254607001559305",
@@ -210,10 +283,115 @@
       "reply_count": 871,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "monitored_lenient"
+      "media": []
+    },
+    {
+      "tweet_id": "2037199842615980089",
+      "url": "https://x.com/thedankoe/status/2037199842615980089",
+      "screen_name": "thedankoe",
+      "created_at": "Thu Mar 26 16:07:46 +0000 2026",
+      "full_text": "Habits so simple you think they’re not worth doing, but have a profound impact on your life:\n\n- Not touching your phone when you wake up\n- Not thinking about work after work is done\n- Putting a book down once you find an idea worth thinking about\n- Setting aside time to do",
+      "lang": "en",
+      "favorite_count": 2909,
+      "retweet_count": 367,
+      "reply_count": 193,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2036995077164458158",
+      "url": "https://x.com/venturetwins/status/2036995077164458158",
+      "screen_name": "venturetwins",
+      "created_at": "Thu Mar 26 02:34:06 +0000 2026",
+      "full_text": "I don't want to be an asshole here, but I'm worried we're losing the concept of personal responsibility https://t.co/mDgCd8jmyt",
+      "lang": "en",
+      "favorite_count": 2856,
+      "retweet_count": 224,
+      "reply_count": 600,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/mDgCd8jmyt",
+          "expanded_url": "https://x.com/venturetwins/status/2036995077164458158/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 82,
+                  "w": 82,
+                  "x": 581,
+                  "y": 793
+                },
+                {
+                  "h": 108,
+                  "w": 108,
+                  "x": 427,
+                  "y": 1091
+                }
+              ]
+            }
+          },
+          "id_str": "2036945569797857282",
+          "indices": [
+            104,
+            127
+          ],
+          "media_key": "3_2036945569797857282",
+          "media_url_https": "https://pbs.twimg.com/media/HESvNBqbYAIqnHB.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 635,
+                "w": 1134,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1134,
+                "w": 1134,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1293,
+                "w": 1134,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1306,
+                "w": 653,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1306,
+                "w": 1134,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1306,
+            "width": 1134
+          },
+          "sizes": {
+            "large": {
+              "h": 1306,
+              "w": 1134
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/mDgCd8jmyt"
+        }
+      ]
     },
     {
       "tweet_id": "2037187750005240307",
@@ -360,10 +538,264 @@
           "type": "photo",
           "url": "https://t.co/0esYpmDy5l"
         }
-      ],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      ]
+    },
+    {
+      "tweet_id": "2037067535670190496",
+      "url": "https://x.com/aakashgupta/status/2037067535670190496",
+      "screen_name": "aakashgupta",
+      "created_at": "Thu Mar 26 07:22:02 +0000 2026",
+      "full_text": "The data on neurodivergent workers is so lopsided it looks like a typo.\n\nJPMorgan Chase ran an Autism at Work program and found participants were 90% to 140% more productive than neurotypical employees. With fewer errors. UiPath partnered with AutonomyWorks on AI data labeling",
+      "lang": "en",
+      "favorite_count": 2754,
+      "retweet_count": 372,
+      "reply_count": 116,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037200624450936940",
+      "url": "https://x.com/karpathy/status/2037200624450936940",
+      "screen_name": "karpathy",
+      "created_at": "Thu Mar 26 16:10:52 +0000 2026",
+      "full_text": "When I built menugen ~1 year ago, I observed that the hardest part by far was not the code itself, it was the plethora of services you have to assemble like IKEA furniture to make it real, the DevOps: services, payments, auth, database, security, domain names, etc...\n\nI am really",
+      "lang": "en",
+      "favorite_count": 2683,
+      "retweet_count": 200,
+      "reply_count": 296,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037100765211484548",
+      "url": "https://x.com/GithubProjects/status/2037100765211484548",
+      "screen_name": "GithubProjects",
+      "created_at": "Thu Mar 26 09:34:04 +0000 2026",
+      "full_text": "110-year-old Turkish grandma shares her secret to a long life:  \n\n\"i never once used Microsoft Windows\" https://t.co/12e9rH3mXz",
+      "lang": "en",
+      "favorite_count": 2616,
+      "retweet_count": 239,
+      "reply_count": 55,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/12e9rH3mXz",
+          "expanded_url": "https://x.com/GithubProjects/status/2037100765211484548/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037100762162176000",
+          "indices": [
+            104,
+            127
+          ],
+          "media_key": "3_2037100762162176000",
+          "media_url_https": "https://pbs.twimg.com/media/HEU8WaRaoAAw8Ap.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 320,
+                "w": 571,
+                "x": 0,
+                "y": 111
+              },
+              {
+                "h": 571,
+                "w": 571,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 571,
+                "w": 501,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 571,
+                "w": 286,
+                "x": 71,
+                "y": 0
+              },
+              {
+                "h": 571,
+                "w": 571,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 571,
+            "width": 571
+          },
+          "sizes": {
+            "large": {
+              "h": 571,
+              "w": 571
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/12e9rH3mXz"
+        },
+        {
+          "display_url": "pic.x.com/12e9rH3mXz",
+          "expanded_url": "https://x.com/GithubProjects/status/2037100765211484548/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037100762497769473",
+          "indices": [
+            104,
+            127
+          ],
+          "media_key": "3_2037100762497769473",
+          "media_url_https": "https://pbs.twimg.com/media/HEU8WbhbYAEBGzh.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 412,
+                "w": 736,
+                "x": 0,
+                "y": 2
+              },
+              {
+                "h": 414,
+                "w": 414,
+                "x": 161,
+                "y": 0
+              },
+              {
+                "h": 414,
+                "w": 363,
+                "x": 187,
+                "y": 0
+              },
+              {
+                "h": 414,
+                "w": 207,
+                "x": 265,
+                "y": 0
+              },
+              {
+                "h": 414,
+                "w": 736,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 414,
+            "width": 736
+          },
+          "sizes": {
+            "large": {
+              "h": 414,
+              "w": 736
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/12e9rH3mXz"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2036959450632749462",
+      "url": "https://x.com/levelsio/status/2036959450632749462",
+      "screen_name": "levelsio",
+      "created_at": "Thu Mar 26 00:12:32 +0000 2026",
+      "full_text": "So @nikitabier implemented @photomatt's idea to stop AI bots from destroying the reply section on here\n\nYou can set it to only allow people you follow and the people in turn they follow to reply, nobody else\n\nIf on average ppl follow 500 people that means still 500*500=250,000 https://t.co/7GhfQgLcl0",
+      "lang": "en",
+      "favorite_count": 2610,
+      "retweet_count": 47,
+      "reply_count": 192,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/7GhfQgLcl0",
+          "expanded_url": "https://x.com/levelsio/status/2036959450632749462/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 36,
+                  "w": 36,
+                  "x": 53,
+                  "y": 40
+                }
+              ]
+            }
+          },
+          "id_str": "2036959442122743809",
+          "indices": [
+            278,
+            301
+          ],
+          "media_key": "3_2036959442122743809",
+          "media_url_https": "https://pbs.twimg.com/media/HES70gGaoAENUqU.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 393,
+                "w": 702,
+                "x": 0,
+                "y": 150
+              },
+              {
+                "h": 702,
+                "w": 702,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 800,
+                "w": 702,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 926,
+                "w": 463,
+                "x": 23,
+                "y": 0
+              },
+              {
+                "h": 926,
+                "w": 702,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 926,
+            "width": 702
+          },
+          "sizes": {
+            "large": {
+              "h": 926,
+              "w": 702
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/7GhfQgLcl0"
+        }
+      ]
     },
     {
       "tweet_id": "2037254665188876355",
@@ -448,10 +880,99 @@
           "type": "photo",
           "url": "https://t.co/7OTOQmxVfr"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2037214177983357307",
+      "url": "https://x.com/levelsio/status/2037214177983357307",
+      "screen_name": "levelsio",
+      "created_at": "Thu Mar 26 17:04:44 +0000 2026",
+      "full_text": "One problem in Europe is there's no political representation for people who just want freedom\n\nThe right wing is pro-censorship and anti-privacy\n\nThe left wing wants to make everything about climate change and degrowth and import the entire third world\n\nThere's no sane",
+      "lang": "en",
+      "favorite_count": 2387,
+      "retweet_count": 155,
+      "reply_count": 262,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037113646774435996",
+      "url": "https://x.com/tom_doerr/status/2037113646774435996",
+      "screen_name": "tom_doerr",
+      "created_at": "Thu Mar 26 10:25:15 +0000 2026",
+      "full_text": "Visual guide to master Claude Code\n\nhttps://t.co/WXRyIzMWvK https://t.co/ZJ9rQmKWw9",
+      "lang": "en",
+      "favorite_count": 2345,
+      "retweet_count": 279,
+      "reply_count": 16,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/ZJ9rQmKWw9",
+          "expanded_url": "https://x.com/tom_doerr/status/2037113646774435996/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037113644924710912",
+          "indices": [
+            60,
+            83
+          ],
+          "media_key": "3_2037113644924710912",
+          "media_url_https": "https://pbs.twimg.com/media/HEVIESTWsAAiOcD.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 405,
+                "w": 723,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 723,
+                "w": 723,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 758,
+                "w": 665,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 758,
+                "w": 379,
+                "x": 57,
+                "y": 0
+              },
+              {
+                "h": 758,
+                "w": 723,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 758,
+            "width": 723
+          },
+          "sizes": {
+            "large": {
+              "h": 758,
+              "w": 723
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/ZJ9rQmKWw9"
+        }
+      ]
     },
     {
       "tweet_id": "2036904458974871944",
@@ -529,10 +1050,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2037073819790098661",
+      "url": "https://x.com/aakashgupta/status/2037073819790098661",
+      "screen_name": "aakashgupta",
+      "created_at": "Thu Mar 26 07:47:00 +0000 2026",
+      "full_text": "Your brain literally isn't finished installing the software yet at 29. The neuroscience on this is staggering.\n\nThe prefrontal cortex, the region responsible for complex decision-making, long-term planning, and judgment, doesn't complete structural development until around age",
+      "lang": "en",
+      "favorite_count": 2141,
+      "retweet_count": 236,
+      "reply_count": 21,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2036893450873016704",
@@ -605,10 +1137,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2036967528425992567",
+      "url": "https://x.com/levelsio/status/2036967528425992567",
+      "screen_name": "levelsio",
+      "created_at": "Thu Mar 26 00:44:38 +0000 2026",
+      "full_text": "Okay let's see who can reply to this",
+      "lang": "en",
+      "favorite_count": 2095,
+      "retweet_count": 17,
+      "reply_count": 2476,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2037135769996063159",
@@ -622,10 +1165,7 @@
       "reply_count": 17,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     }
   ]
 }

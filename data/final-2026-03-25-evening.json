@@ -1,23 +1,114 @@
 {
   "date": "2026-03-25",
   "period": "evening",
-  "fetched_at": "2026-03-25T11:39:52.773033+00:00",
+  "fetched_at": "2026-03-25T11:39:52.756458+00:00",
   "raw_count": 34,
   "candidate_count": 17,
-  "final_count": 2,
-  "review_count": 11,
-  "drop_hard_count": 4,
+  "final_count": 4,
+  "review_count": 10,
+  "drop_hard_count": 3,
   "disposition_stats": {
-    "low_info_ai_content": 8,
-    "off_topic": 1,
-    "low_value_pattern": 1,
-    "not_ai_content": 3,
+    "low_info_content": 8,
+    "off_topic": 2,
+    "meme_or_reaction": 1,
     "too_brief": 1,
-    "brief_ai_mention": 1,
-    "high_signal_source": 1,
+    "monitored_popular": 3,
+    "brief_mention": 1,
     "info_value": 1
   },
   "tweets": [
+    {
+      "tweet_id": "2036649887002153101",
+      "url": "https://x.com/bcherny/status/2036649887002153101",
+      "screen_name": "bcherny",
+      "created_at": "Wed Mar 25 03:42:26 +0000 2026",
+      "full_text": "Today was a good day https://t.co/iME3drw1Xf",
+      "lang": "en",
+      "favorite_count": 2138,
+      "retweet_count": 39,
+      "reply_count": 155,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/iME3drw1Xf",
+          "expanded_url": "https://x.com/bcherny/status/2036649887002153101/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2036649853925871616",
+          "indices": [
+            21,
+            44
+          ],
+          "media_key": "3_2036649853925871616",
+          "media_url_https": "https://pbs.twimg.com/media/HEOiQGMaUAAJf3e.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 170,
+                "w": 304,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 170,
+                "w": 170,
+                "x": 5,
+                "y": 0
+              },
+              {
+                "h": 170,
+                "w": 149,
+                "x": 16,
+                "y": 0
+              },
+              {
+                "h": 170,
+                "w": 85,
+                "x": 48,
+                "y": 0
+              },
+              {
+                "h": 170,
+                "w": 516,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 170,
+            "width": 516
+          },
+          "sizes": {
+            "large": {
+              "h": 170,
+              "w": 516
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/iME3drw1Xf"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2036649243096568134",
+      "url": "https://x.com/levelsio/status/2036649243096568134",
+      "screen_name": "levelsio",
+      "created_at": "Wed Mar 25 03:39:53 +0000 2026",
+      "full_text": "Terrible for me because my audience is mostly US\n\nBut I am always outside US, like now Brazil, and other times Portugal or Thailand\n\nThis isn't great for digital nomads",
+      "lang": "en",
+      "favorite_count": 2103,
+      "retweet_count": 43,
+      "reply_count": 354,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
     {
       "tweet_id": "2036483295983100314",
       "url": "https://x.com/GoogleDeepMind/status/2036483295983100314",
@@ -102,10 +193,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      ]
     },
     {
       "tweet_id": "2036442548433199530",
@@ -246,10 +334,7 @@
           "type": "photo",
           "url": "https://t.co/wN1H7lm1ce"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     }
   ]
 }

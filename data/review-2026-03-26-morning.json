@@ -1,9 +1,205 @@
 {
   "date": "2026-03-26",
   "period": "morning",
-  "fetched_at": "2026-03-25T23:25:50.653573+00:00",
-  "review_count": 21,
+  "fetched_at": "2026-03-25T23:25:50.616933+00:00",
+  "raw_count": 83,
+  "candidate_count": 58,
+  "final_count": 22,
+  "review_count": 32,
+  "drop_hard_count": 4,
+  "disposition_stats": {
+    "low_info_content": 29,
+    "brief_mention": 2,
+    "meme_or_reaction": 1,
+    "info_value": 10,
+    "monitored_popular": 12,
+    "off_topic": 2,
+    "too_brief": 2
+  },
   "tweets": [
+    {
+      "tweet_id": "2036826885523468404",
+      "url": "https://x.com/EricLDaugh/status/2036826885523468404",
+      "screen_name": "EricLDaugh",
+      "created_at": "Wed Mar 25 15:25:46 +0000 2026",
+      "full_text": "🚨 JUST IN: First Lady Melania Trump just WALKED OUT with an American-built humanoid robot at the White House, for a Fostering the Future AI education event\n\nClassiest first lady ever 🇺🇸\n\nhttps://t.co/EhgEMlu2Yv",
+      "lang": "en",
+      "favorite_count": 41102,
+      "retweet_count": 6446,
+      "reply_count": 3564,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {
+                    "label": {
+                      "badge": {
+                        "url": "https://pbs.twimg.com/profile_images/1916971216620982274/1DsLEcqW_bigger.jpg"
+                      },
+                      "description": "The White House",
+                      "url": {
+                        "url": "https://twitter.com/WhiteHouse",
+                        "urlType": "DeepLink"
+                      },
+                      "userLabelDisplayType": "Badge",
+                      "userLabelType": "BusinessLabel"
+                    }
+                  },
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": true,
+                  "legacy": {
+                    "advertiser_account_service_levels": [
+                      "analytics"
+                    ],
+                    "advertiser_account_type": "promotable_user",
+                    "analytics_type": "disabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": false,
+                    "can_media_tag": true,
+                    "created_at": "Mon Jan 20 21:18:05 +0000 2025",
+                    "description": "Official White House Rapid Response account. Supporting @POTUS's America First agenda and holding the Fake News accountable. MAGA!",
+                    "entities": {
+                      "description": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [],
+                        "user_mentions": [
+                          {
+                            "id_str": "0",
+                            "indices": [
+                              56,
+                              62
+                            ],
+                            "name": "",
+                            "screen_name": "POTUS"
+                          }
+                        ]
+                      },
+                      "url": {
+                        "urls": [
+                          {
+                            "display_url": "wh.gov",
+                            "expanded_url": "http://wh.gov",
+                            "indices": [
+                              0,
+                              23
+                            ],
+                            "url": "https://t.co/8qhSUMpp7C"
+                          }
+                        ]
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 219,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 1652565,
+                    "following": false,
+                    "friends_count": 70,
+                    "geo_enabled": true,
+                    "has_custom_timelines": false,
+                    "has_extended_profile": true,
+                    "id_str": "1881451105454002176",
+                    "is_translator": false,
+                    "location": "🇺🇸🇺🇸🇺🇸",
+                    "media_count": 15890,
+                    "muting": false,
+                    "name": "Rapid Response 47",
+                    "normal_followers_count": 1652565,
+                    "notifications": false,
+                    "pinned_tweet_ids_str": [
+                      "2029959365843689996"
+                    ],
+                    "profile_background_color": "F5F8FA",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1881451105454002176/1748989837",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1883970867215876096/HK4lwY1m_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "1DA1F2",
+                    "protected": false,
+                    "screen_name": "RapidResponse47",
+                    "statuses_count": 24644,
+                    "translator_type_enum": "None",
+                    "url": "https://t.co/8qhSUMpp7C",
+                    "verified": false,
+                    "verified_type": "Government",
+                    "want_retweets": false,
+                    "withheld_in_countries": []
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Square",
+                  "rest_id": "1881451105454002176",
+                  "super_follow_eligible": false,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": false
+          },
+          "display_url": "pic.x.com/EhgEMlu2Yv",
+          "expanded_url": "https://x.com/i/status/2036826386376138898/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036825637810528256",
+          "indices": [
+            187,
+            210
+          ],
+          "media_key": "13_2036825637810528256",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036825637810528256/img/NL2J6ziP1GaX6xVF.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "source_status_id_str": "2036826386376138898",
+          "source_user_id_str": "1881451105454002176",
+          "type": "video",
+          "url": "https://t.co/EhgEMlu2Yv",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 106277,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2036825637810528256/pl/_HCzNwbJaE8oxaOb.m3u8"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036825637810528256/vid/avc1/480x270/qoiEYgp5z7v_ihxX.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036825637810528256/vid/avc1/640x360/VH_Nm2SrPRyt2Ngq.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036825637810528256/vid/avc1/1280x720/txZHFF4by0Hw-XJe.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "tweet_id": "2036610019429638339",
       "url": "https://x.com/andyreed/status/2036610019429638339",
@@ -87,10 +283,7 @@
           "type": "photo",
           "url": "https://t.co/WscKZCD9MV"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
     },
     {
       "tweet_id": "2036646756096631224",
@@ -178,10 +371,7 @@
           "type": "photo",
           "url": "https://t.co/WdYjiVjWkr"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_value_pattern"
+      ]
     },
     {
       "tweet_id": "2036878064651579417",
@@ -281,104 +471,7 @@
           "type": "photo",
           "url": "https://t.co/czI1EqYOHD"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
-    },
-    {
-      "tweet_id": "2036898011322728546",
-      "url": "https://x.com/CartoonsOTMoon/status/2036898011322728546",
-      "screen_name": "CartoonsOTMoon",
-      "created_at": "Wed Mar 25 20:08:24 +0000 2026",
-      "full_text": "El nuevo CEO de Disney (Josh D’Amaro) lleva solo una semana y ya debe lidiar con:\n\n• La ruptura del acuerdo multimillonario con OpenAI.\n\n• Los despidos masivos de Epic Games, ya que Disney invirtió millones en Fortnite. \n\n• La falta de turismo en los parques Disney. https://t.co/HrgCrEbRye",
-      "lang": "es",
-      "favorite_count": 7435,
-      "retweet_count": 591,
-      "reply_count": 56,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/HrgCrEbRye",
-          "expanded_url": "https://x.com/CartoonsOTMoon/status/2036898011322728546/photo/1",
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "features": {
-            "large": {
-              "faces": [
-                {
-                  "h": 134,
-                  "w": 134,
-                  "x": 438,
-                  "y": 24
-                },
-                {
-                  "h": 520,
-                  "w": 520,
-                  "x": 498,
-                  "y": 216
-                }
-              ]
-            }
-          },
-          "id_str": "2036897759413108736",
-          "indices": [
-            267,
-            290
-          ],
-          "media_key": "3_2036897759413108736",
-          "media_url_https": "https://pbs.twimg.com/media/HESDuGGbgAAKNIl.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 922,
-                "w": 1646,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1646,
-                "w": 1646,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1876,
-                "w": 1646,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2048,
-                "w": 1024,
-                "x": 622,
-                "y": 0
-              },
-              {
-                "h": 2048,
-                "w": 1646,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 2048,
-            "width": 1646
-          },
-          "sizes": {
-            "large": {
-              "h": 2048,
-              "w": 1646
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/HrgCrEbRye"
-        }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "off_topic"
+      ]
     },
     {
       "tweet_id": "2036633245220282596",
@@ -392,10 +485,21 @@
       "reply_count": 7,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      "media": []
+    },
+    {
+      "tweet_id": "2036791627587432769",
+      "url": "https://x.com/KobeissiLetter/status/2036791627587432769",
+      "screen_name": "KobeissiLetter",
+      "created_at": "Wed Mar 25 13:05:40 +0000 2026",
+      "full_text": "BREAKING: President Trump is set to appoint Mark Zuckerberg, Larry Ellison, and Jensen Huang to a new \"technology council,\" per WSJ.\n\nThis council could include 24 people, will be co-chaired by David Sacks, and will be focused on AI policy.",
+      "lang": "en",
+      "favorite_count": 6848,
+      "retweet_count": 675,
+      "reply_count": 620,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2036831685703336314",
@@ -476,10 +580,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
+    },
+    {
+      "tweet_id": "2036878380860142054",
+      "url": "https://x.com/GunnelsWarren/status/2036878380860142054",
+      "screen_name": "GunnelsWarren",
+      "created_at": "Wed Mar 25 18:50:24 +0000 2026",
+      "full_text": "I don’t want my daughter’s teacher to be a humanoid robot named Plato.\n\nI want her teacher to be a human being that is paid a living wage and is not forced to work 3 jobs to survive.",
+      "lang": "en",
+      "favorite_count": 6167,
+      "retweet_count": 970,
+      "reply_count": 97,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2036723050197012771",
@@ -573,10 +688,166 @@
           "type": "photo",
           "url": "https://t.co/LZy8QKMe5H"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
+    },
+    {
+      "tweet_id": "2036849338895172083",
+      "url": "https://x.com/PopCrave/status/2036849338895172083",
+      "screen_name": "PopCrave",
+      "created_at": "Wed Mar 25 16:54:59 +0000 2026",
+      "full_text": "Melania Trump arrived to White House education summit with a humanoid robot. https://t.co/RwNWq0IUy3",
+      "lang": "en",
+      "favorite_count": 4535,
+      "retweet_count": 136,
+      "reply_count": 271,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {},
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": true,
+                  "legacy": {
+                    "advertiser_account_service_levels": [
+                      "analytics"
+                    ],
+                    "advertiser_account_type": "promotable_user",
+                    "analytics_type": "disabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": true,
+                    "can_media_tag": true,
+                    "created_at": "Fri Aug 14 16:21:06 +0000 2015",
+                    "description": "(Still) providing context.",
+                    "entities": {
+                      "description": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [],
+                        "user_mentions": []
+                      },
+                      "url": {
+                        "urls": [
+                          {
+                            "display_url": "headquarters.news",
+                            "expanded_url": "http://headquarters.news",
+                            "indices": [
+                              0,
+                              23
+                            ],
+                            "url": "https://t.co/8w7Hj8sa8Q"
+                          }
+                        ]
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 14,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 1153929,
+                    "following": false,
+                    "friends_count": 17,
+                    "geo_enabled": false,
+                    "has_custom_timelines": false,
+                    "has_extended_profile": false,
+                    "id_str": "3315264553",
+                    "is_translator": false,
+                    "location": "",
+                    "media_count": 9847,
+                    "muting": false,
+                    "name": "Headquarters",
+                    "normal_followers_count": 1153929,
+                    "notifications": false,
+                    "pinned_tweet_ids_str": [
+                      "2036858382083031099"
+                    ],
+                    "profile_background_color": "C0DEED",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/3315264553/1770298404",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2019403777715974144/WztWhdNQ_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "1DA1F2",
+                    "protected": false,
+                    "screen_name": "HQNewsNow",
+                    "statuses_count": 11127,
+                    "translator_type_enum": "None",
+                    "url": "https://t.co/8w7Hj8sa8Q",
+                    "verified": false,
+                    "want_retweets": false,
+                    "withheld_in_countries": []
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Circle",
+                  "rest_id": "3315264553",
+                  "super_follow_eligible": false,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": false
+          },
+          "display_url": "pic.x.com/RwNWq0IUy3",
+          "expanded_url": "https://x.com/HQNewsNow/status/2036828270134448281/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036828210562760705",
+          "indices": [
+            77,
+            100
+          ],
+          "media_key": "7_2036828210562760705",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/2036828210562760705/pu/img/OhGA75KpTNh2P2RV.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "source_status_id_str": "2036828270134448281",
+          "source_user_id_str": "3315264553",
+          "type": "video",
+          "url": "https://t.co/RwNWq0IUy3",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 55533,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/ext_tw_video/2036828210562760705/pu/pl/kTZzEwMUURMAURx7.m3u8?tag=12"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2036828210562760705/pu/vid/avc1/480x270/PH3rjQkSRhmfLtTG.mp4?tag=12"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2036828210562760705/pu/vid/avc1/640x360/s2CImRy3gkAJRV4I.mp4?tag=12"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2036828210562760705/pu/vid/avc1/1280x720/JKWR81wh-ZhBOdvz.mp4?tag=12"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2036740432546398693",
@@ -657,10 +928,342 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
+    },
+    {
+      "tweet_id": "2036826868591006000",
+      "url": "https://x.com/RSBNetwork/status/2036826868591006000",
+      "screen_name": "RSBNetwork",
+      "created_at": "Wed Mar 25 15:25:42 +0000 2026",
+      "full_text": "WATCH: Melania Trump Suggests Using Humanoid Robots as Teachers Moving Forward - 03/25/26 https://t.co/23lKPlD87k",
+      "lang": "en",
+      "favorite_count": 3158,
+      "retweet_count": 948,
+      "reply_count": 1495,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/23lKPlD87k",
+          "expanded_url": "https://x.com/RSBNetwork/status/2036826868591006000/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036826676978700289",
+          "indices": [
+            90,
+            113
+          ],
+          "media_key": "13_2036826676978700289",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036826676978700289/img/aiT-S2c3eb57FIYb.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/23lKPlD87k",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 113830,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2036826676978700289/pl/o4n6qp99cwvKosFZ.m3u8?v=44a"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036826676978700289/vid/avc1/480x270/ko05Ppu8_qX7ql-G.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036826676978700289/vid/avc1/640x360/okblaptOAvURc17n.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036826676978700289/vid/avc1/1280x720/VdDbze0c99zu5fGg.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036826676978700289/vid/avc1/1920x1080/bHKFqN4yF4ehc4k5.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2036860364680552751",
+      "url": "https://x.com/HustleBitch_/status/2036860364680552751",
+      "screen_name": "HustleBitch_",
+      "created_at": "Wed Mar 25 17:38:48 +0000 2026",
+      "full_text": "🚨 THIS IS THE EXACT MOMENT HUMANS LOST CONTROL — AND EVERYONE’S BLINDLY APPLAUDING\n\nWatch closely.\n\n• Melania Trump steps out… completely expressionless\n• A humanoid robot walking beside her\n• Movements almost perfectly mirrored\n• No hesitation… no reaction… like this is https://t.co/X0gReKbXKY",
+      "lang": "en",
+      "favorite_count": 3042,
+      "retweet_count": 821,
+      "reply_count": 654,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "display_url": "pic.x.com/X0gReKbXKY",
+          "expanded_url": "https://x.com/HustleBitch_/status/2036860364680552751/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036859820947415040",
+          "indices": [
+            272,
+            295
+          ],
+          "media_key": "13_2036859820947415040",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036859820947415040/img/RtjebhIguSA9NuQb.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/X0gReKbXKY",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 106000,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2036859820947415040/pl/mosBj36ey5Oy4kDv.m3u8"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036859820947415040/vid/avc1/480x270/7Ue3Iipa3PMfgtbV.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036859820947415040/vid/avc1/640x360/oRSoTsNwAzHPIGP-.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036859820947415040/vid/avc1/1280x720/_3JOyHqCtDpqjZxF.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036859820947415040/vid/avc1/1920x1080/kI7F0Z-uh3nJ03XK.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2036791775960907813",
+      "url": "https://x.com/disclosetv/status/2036791775960907813",
+      "screen_name": "disclosetv",
+      "created_at": "Wed Mar 25 13:06:15 +0000 2026",
+      "full_text": "JUST IN - Trump to appoint Mark Zuckerberg, Larry Ellison and Jensen Huang to the Science and Technology Advisory Board — WSJ https://t.co/5sHijJ0tkJ",
+      "lang": "en",
+      "favorite_count": 2939,
+      "retweet_count": 980,
+      "reply_count": 1582,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/5sHijJ0tkJ",
+          "expanded_url": "https://x.com/disclosetv/status/2036791775960907813/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 123,
+                  "w": 123,
+                  "x": 79,
+                  "y": 50
+                },
+                {
+                  "h": 134,
+                  "w": 134,
+                  "x": 60,
+                  "y": 297
+                },
+                {
+                  "h": 151,
+                  "w": 151,
+                  "x": 293,
+                  "y": 19
+                },
+                {
+                  "h": 201,
+                  "w": 201,
+                  "x": 246,
+                  "y": 248
+                }
+              ]
+            }
+          },
+          "id_str": "2036791518082584576",
+          "indices": [
+            126,
+            149
+          ],
+          "media_key": "3_2036791518082584576",
+          "media_url_https": "https://pbs.twimg.com/media/HEQjGCTXUAAZOZ6.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 278,
+                "w": 496,
+                "x": 0,
+                "y": 218
+              },
+              {
+                "h": 496,
+                "w": 496,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 496,
+                "w": 435,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 496,
+                "w": 248,
+                "x": 12,
+                "y": 0
+              },
+              {
+                "h": 496,
+                "w": 496,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 496,
+            "width": 496
+          },
+          "sizes": {
+            "large": {
+              "h": 496,
+              "w": 496
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/5sHijJ0tkJ"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2036831912417705993",
+      "url": "https://x.com/RapidResponse47/status/2036831912417705993",
+      "screen_name": "RapidResponse47",
+      "created_at": "Wed Mar 25 15:45:45 +0000 2026",
+      "full_text": ".@FLOTUS arrives at her Fostering the Future Together summit on AI education, joined by @Figure_robot 03, an American-built humanoid robot https://t.co/BS2wPjgl8v",
+      "lang": "en",
+      "favorite_count": 2922,
+      "retweet_count": 661,
+      "reply_count": 312,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "display_url": "pic.x.com/BS2wPjgl8v",
+          "expanded_url": "https://x.com/RapidResponse47/status/2036831912417705993/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036825637810528256",
+          "indices": [
+            139,
+            162
+          ],
+          "media_key": "13_2036825637810528256",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036825637810528256/img/NL2J6ziP1GaX6xVF.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/BS2wPjgl8v",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 106277,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2036825637810528256/pl/_HCzNwbJaE8oxaOb.m3u8"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036825637810528256/vid/avc1/480x270/qoiEYgp5z7v_ihxX.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036825637810528256/vid/avc1/640x360/VH_Nm2SrPRyt2Ngq.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036825637810528256/vid/avc1/1280x720/txZHFF4by0Hw-XJe.mp4"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2036790918213443603",
@@ -846,10 +1449,83 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
+    },
+    {
+      "tweet_id": "2036832878860935259",
+      "url": "https://x.com/Osint613/status/2036832878860935259",
+      "screen_name": "Osint613",
+      "created_at": "Wed Mar 25 15:49:35 +0000 2026",
+      "full_text": "WATCH \n\nWe are living in really interesting times. \n\nFLOTUS arrives at her AI summit, joined by a U.S.-built humanoid robot. https://t.co/r2Pu2U2qIY",
+      "lang": "en",
+      "favorite_count": 2849,
+      "retweet_count": 226,
+      "reply_count": 143,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/r2Pu2U2qIY",
+          "expanded_url": "https://x.com/Osint613/status/2036832878860935259/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036832811790061568",
+          "indices": [
+            125,
+            148
+          ],
+          "media_key": "13_2036832811790061568",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036832811790061568/img/OSyNxs5Yx7T669Wy.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/r2Pu2U2qIY",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 106305,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2036832811790061568/pl/0Id_Pi1pbBBIsjme.m3u8"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036832811790061568/vid/avc1/480x270/PiNupkdh97V-xinx.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036832811790061568/vid/avc1/640x360/f0aq_A1aSeKod6QZ.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036832811790061568/vid/avc1/1280x720/6CwGtIsxWRYqCL9b.mp4"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2036615580875198683",
@@ -937,10 +1613,7 @@
           "type": "photo",
           "url": "https://t.co/2uE8yeAoUh"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036778116748542220",
@@ -1026,10 +1699,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036701664254832983",
@@ -1126,10 +1796,7 @@
           "type": "photo",
           "url": "https://t.co/Y0BduBhdLy"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036697054047801741",
@@ -1302,10 +1969,7 @@
           "type": "photo",
           "url": "https://t.co/3ZODqm2vcn"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036695940732715387",
@@ -1539,10 +2203,7 @@
           "type": "photo",
           "url": "https://t.co/JsSaa5mTVX"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036807688395669980",
@@ -1709,10 +2370,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036703524961276312",
@@ -1793,10 +2451,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036839722123923915",
@@ -1968,10 +2623,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036704354699518136",
@@ -2049,10 +2701,88 @@
           "type": "photo",
           "url": "https://t.co/Xz6OXgMzFf"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "brief_ai_mention"
+      ]
+    },
+    {
+      "tweet_id": "2036557311309684926",
+      "url": "https://x.com/vidsthatgohard/status/2036557311309684926",
+      "screen_name": "vidsthatgohard",
+      "created_at": "Tue Mar 24 21:34:35 +0000 2026",
+      "full_text": "AI company’s are going bankrupt and losing all their money LETS GOOOO https://t.co/WHXTibaVMB",
+      "lang": "en",
+      "favorite_count": 2077,
+      "retweet_count": 216,
+      "reply_count": 16,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/WHXTibaVMB",
+          "expanded_url": "https://x.com/vidsthatgohard/status/2036557311309684926/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036557246167937025",
+          "indices": [
+            70,
+            93
+          ],
+          "media_key": "13_2036557246167937025",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036557246167937025/img/9pmRxnCc4YwprLYJ.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/WHXTibaVMB",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 12978,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2036557246167937025/pl/aLQ3jG8Om5gJKm26.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036557246167937025/vid/avc1/480x270/QaJRNjG_BmbOfFjX.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036557246167937025/vid/avc1/640x360/MEcWUuxCWRTgwF6m.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036557246167937025/vid/avc1/1280x720/WG0hoTKmYs5RwYgS.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036557246167937025/vid/avc1/1920x1080/vSDPi1Age94lEb5N.mp4"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2036553253689622614",
@@ -2130,10 +2860,7 @@
           "type": "photo",
           "url": "https://t.co/HjLJDiRCWY"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
     },
     {
       "tweet_id": "2036533884414804199",
@@ -2219,10 +2946,190 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
+    },
+    {
+      "tweet_id": "2036827975371354532",
+      "url": "https://x.com/Breaking911/status/2036827975371354532",
+      "screen_name": "Breaking911",
+      "created_at": "Wed Mar 25 15:30:06 +0000 2026",
+      "full_text": "First Lady Melania Trump arrives at her Fostering the Future Together roundtable on AI education, joined by Figure Robot 03, an American-built humanoid robot. \n\n https://t.co/NT5i7fHJY8",
+      "lang": "en",
+      "favorite_count": 2012,
+      "retweet_count": 269,
+      "reply_count": 279,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {
+                    "label": {
+                      "badge": {
+                        "url": "https://pbs.twimg.com/profile_images/1916971216620982274/1DsLEcqW_bigger.jpg"
+                      },
+                      "description": "The White House",
+                      "url": {
+                        "url": "https://twitter.com/WhiteHouse",
+                        "urlType": "DeepLink"
+                      },
+                      "userLabelDisplayType": "Badge",
+                      "userLabelType": "BusinessLabel"
+                    }
+                  },
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": true,
+                  "legacy": {
+                    "advertiser_account_service_levels": [
+                      "analytics"
+                    ],
+                    "advertiser_account_type": "promotable_user",
+                    "analytics_type": "disabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": false,
+                    "can_media_tag": true,
+                    "created_at": "Mon Jan 20 21:18:05 +0000 2025",
+                    "description": "Official White House Rapid Response account. Supporting @POTUS's America First agenda and holding the Fake News accountable. MAGA!",
+                    "entities": {
+                      "description": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [],
+                        "user_mentions": [
+                          {
+                            "id_str": "0",
+                            "indices": [
+                              56,
+                              62
+                            ],
+                            "name": "",
+                            "screen_name": "POTUS"
+                          }
+                        ]
+                      },
+                      "url": {
+                        "urls": [
+                          {
+                            "display_url": "wh.gov",
+                            "expanded_url": "http://wh.gov",
+                            "indices": [
+                              0,
+                              23
+                            ],
+                            "url": "https://t.co/8qhSUMpp7C"
+                          }
+                        ]
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 219,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 1652565,
+                    "following": false,
+                    "friends_count": 70,
+                    "geo_enabled": true,
+                    "has_custom_timelines": false,
+                    "has_extended_profile": true,
+                    "id_str": "1881451105454002176",
+                    "is_translator": false,
+                    "location": "🇺🇸🇺🇸🇺🇸",
+                    "media_count": 15890,
+                    "muting": false,
+                    "name": "Rapid Response 47",
+                    "normal_followers_count": 1652565,
+                    "notifications": false,
+                    "pinned_tweet_ids_str": [
+                      "2029959365843689996"
+                    ],
+                    "profile_background_color": "F5F8FA",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1881451105454002176/1748989837",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1883970867215876096/HK4lwY1m_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "1DA1F2",
+                    "protected": false,
+                    "screen_name": "RapidResponse47",
+                    "statuses_count": 24644,
+                    "translator_type_enum": "None",
+                    "url": "https://t.co/8qhSUMpp7C",
+                    "verified": false,
+                    "verified_type": "Government",
+                    "want_retweets": false,
+                    "withheld_in_countries": []
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Square",
+                  "rest_id": "1881451105454002176",
+                  "super_follow_eligible": false,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": false
+          },
+          "display_url": "pic.x.com/NT5i7fHJY8",
+          "expanded_url": "https://x.com/RapidResponse47/status/2036826386376138898/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036825637810528256",
+          "indices": [
+            162,
+            185
+          ],
+          "media_key": "13_2036825637810528256",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036825637810528256/img/NL2J6ziP1GaX6xVF.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "source_status_id_str": "2036826386376138898",
+          "source_user_id_str": "1881451105454002176",
+          "type": "video",
+          "url": "https://t.co/NT5i7fHJY8",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 106277,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2036825637810528256/pl/_HCzNwbJaE8oxaOb.m3u8"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036825637810528256/vid/avc1/480x270/qoiEYgp5z7v_ihxX.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036825637810528256/vid/avc1/640x360/VH_Nm2SrPRyt2Ngq.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036825637810528256/vid/avc1/1280x720/txZHFF4by0Hw-XJe.mp4"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "tweet_id": "2036752256595624398",
@@ -2303,10 +3210,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "review",
-      "disposition_reason": "low_info_ai_content"
+      ]
+    },
+    {
+      "tweet_id": "2036792946444439727",
+      "url": "https://x.com/MorePerfectUS/status/2036792946444439727",
+      "screen_name": "MorePerfectUS",
+      "created_at": "Wed Mar 25 13:10:54 +0000 2026",
+      "full_text": "BREAKING: Trump will appoint Mark Zuckerberg, Larry Ellison and Jensen Huang to the President’s Council of Advisors on Science and Technology. The council will weigh in on AI policy and other issues, per @WSJ.",
+      "lang": "en",
+      "favorite_count": 2000,
+      "retweet_count": 499,
+      "reply_count": 268,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     }
   ]
 }

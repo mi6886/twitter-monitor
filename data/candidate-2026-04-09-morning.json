@@ -1,15 +1,19 @@
 {
   "date": "2026-04-09",
   "period": "morning",
-  "fetched_at": "2026-04-08T23:30:53.723494+00:00",
+  "fetched_at": "2026-04-08T23:30:53.706735+00:00",
   "raw_count": 72,
   "candidate_count": 46,
-  "filter_stats": {
-    "monitored_account": 8,
-    "ai_signal": 38,
-    "too_short": 2,
-    "reject_pattern": 2,
-    "no_ai_signal": 22
+  "final_count": 13,
+  "review_count": 28,
+  "drop_hard_count": 5,
+  "disposition_stats": {
+    "monitored_popular": 8,
+    "brief_mention": 7,
+    "low_info_content": 20,
+    "off_topic": 5,
+    "meme_or_reaction": 1,
+    "info_value": 5
   },
   "tweets": [
     {
@@ -89,8 +93,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "monitored_account"
+      ]
     },
     {
       "tweet_id": "2041806698407493739",
@@ -168,8 +171,7 @@
           "type": "photo",
           "url": "https://t.co/xELOL480Uo"
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041853035962306959",
@@ -250,8 +252,7 @@
           "type": "photo",
           "url": "https://t.co/3DtdBHdfri"
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041873085293379591",
@@ -329,8 +330,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041756672851353802",
@@ -406,8 +406,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041833531866017973",
@@ -421,8 +420,7 @@
       "reply_count": 145,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account"
+      "media": []
     },
     {
       "tweet_id": "2041822475604926970",
@@ -507,8 +505,7 @@
           "type": "photo",
           "url": "https://t.co/lJ27MBHYFR"
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041825324837781749",
@@ -594,8 +591,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041838783797309629",
@@ -683,8 +679,7 @@
           "type": "photo",
           "url": "https://t.co/vPv3NDOr6k"
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041899009732673858",
@@ -698,8 +693,7 @@
       "reply_count": 27,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal"
+      "media": []
     },
     {
       "tweet_id": "2041793699223322657",
@@ -780,8 +774,7 @@
           "type": "photo",
           "url": "https://t.co/D8FpbbYAwt"
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041890903787286931",
@@ -795,8 +788,7 @@
       "reply_count": 71,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal"
+      "media": []
     },
     {
       "tweet_id": "2041756638739145143",
@@ -810,8 +802,7 @@
       "reply_count": 109,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal"
+      "media": []
     },
     {
       "tweet_id": "2041927985226220009",
@@ -887,8 +878,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041849503704141961",
@@ -902,8 +892,7 @@
       "reply_count": 240,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account"
+      "media": []
     },
     {
       "tweet_id": "2041630277584228617",
@@ -917,8 +906,7 @@
       "reply_count": 334,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal"
+      "media": []
     },
     {
       "tweet_id": "2041692377967202564",
@@ -999,8 +987,7 @@
           "type": "photo",
           "url": "https://t.co/oPCd0bubZm"
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041708747463262241",
@@ -1083,8 +1070,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041848539991650485",
@@ -1169,8 +1155,7 @@
           "type": "photo",
           "url": "https://t.co/C5jHj8MBQN"
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041729194833387694",
@@ -1246,8 +1231,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041878645162352931",
@@ -1320,8 +1304,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041935999945625745",
@@ -1402,8 +1385,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041914130861293913",
@@ -1494,8 +1476,7 @@
           "type": "photo",
           "url": "https://t.co/0liyFdw56C"
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041853308076257778",
@@ -1509,8 +1490,7 @@
       "reply_count": 285,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account"
+      "media": []
     },
     {
       "tweet_id": "2041727515828588963",
@@ -1524,8 +1504,7 @@
       "reply_count": 46,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal"
+      "media": []
     },
     {
       "tweet_id": "2041912812637966552",
@@ -1611,8 +1590,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "monitored_account"
+      ]
     },
     {
       "tweet_id": "2041929222135173466",
@@ -1690,8 +1668,7 @@
           "type": "photo",
           "url": "https://t.co/OmEqtdIpbY"
         }
-      ],
-      "candidate_reason": "monitored_account"
+      ]
     },
     {
       "tweet_id": "2041647745761735082",
@@ -1705,8 +1682,7 @@
       "reply_count": 57,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal"
+      "media": []
     },
     {
       "tweet_id": "2041776507702657078",
@@ -1720,8 +1696,7 @@
       "reply_count": 49,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal"
+      "media": []
     },
     {
       "tweet_id": "2041809485325304000",
@@ -1735,8 +1710,7 @@
       "reply_count": 38,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal"
+      "media": []
     },
     {
       "tweet_id": "2041897604708233650",
@@ -1821,8 +1795,7 @@
           "type": "photo",
           "url": "https://t.co/Aaz7oq0QSS"
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041833700552278060",
@@ -1836,8 +1809,7 @@
       "reply_count": 5,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal"
+      "media": []
     },
     {
       "tweet_id": "2041837699519107514",
@@ -1851,8 +1823,7 @@
       "reply_count": 126,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal"
+      "media": []
     },
     {
       "tweet_id": "2041842240062890421",
@@ -1933,8 +1904,7 @@
           "type": "photo",
           "url": "https://t.co/gYcrPDDOVU"
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041835999022436793",
@@ -1948,8 +1918,7 @@
       "reply_count": 143,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account"
+      "media": []
     },
     {
       "tweet_id": "2041743999552385291",
@@ -2027,8 +1996,7 @@
           "type": "photo",
           "url": "https://t.co/dfDc3r5e4t"
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041923692721009113",
@@ -2109,8 +2077,7 @@
           "type": "photo",
           "url": "https://t.co/N93mvSz4ma"
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041649291991904565",
@@ -2191,8 +2158,7 @@
           "type": "photo",
           "url": "https://t.co/bWEJW5gZLw"
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041795851534659612",
@@ -2206,8 +2172,7 @@
       "reply_count": 87,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account"
+      "media": []
     },
     {
       "tweet_id": "2041715136952463785",
@@ -2285,8 +2250,7 @@
           "type": "photo",
           "url": "https://t.co/FBILNyj1VZ"
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041627711828005187",
@@ -2300,8 +2264,7 @@
       "reply_count": 56,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal"
+      "media": []
     },
     {
       "tweet_id": "2041746059802915039",
@@ -2442,8 +2405,7 @@
           "type": "photo",
           "url": "https://t.co/NoyMAb7Dma"
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041754834651779568",
@@ -2531,8 +2493,7 @@
           "type": "photo",
           "url": "https://t.co/vFgCDJ72Gn"
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041701239365497062",
@@ -2613,8 +2574,7 @@
           "type": "photo",
           "url": "https://t.co/v5mJCed8Yk"
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     },
     {
       "tweet_id": "2041942802876252274",
@@ -2628,8 +2588,7 @@
       "reply_count": 68,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal"
+      "media": []
     },
     {
       "tweet_id": "2041764334574170433",
@@ -2810,8 +2769,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal"
+      ]
     }
   ]
 }

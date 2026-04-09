@@ -1,19 +1,18 @@
 {
   "date": "2026-04-04",
   "period": "evening",
-  "fetched_at": "2026-04-04T11:27:27.531680+00:00",
+  "fetched_at": "2026-04-04T11:27:27.499133+00:00",
   "raw_count": 75,
   "candidate_count": 40,
-  "final_count": 10,
-  "review_count": 24,
-  "drop_hard_count": 6,
+  "final_count": 13,
+  "review_count": 25,
+  "drop_hard_count": 2,
   "disposition_stats": {
-    "low_info_ai_content": 22,
-    "info_value": 9,
-    "not_ai_content": 6,
-    "off_topic": 1,
-    "low_value_pattern": 1,
-    "high_signal_source": 1
+    "low_info_content": 24,
+    "info_value": 8,
+    "monitored_popular": 5,
+    "off_topic": 2,
+    "meme_or_reaction": 1
   },
   "tweets": [
     {
@@ -183,10 +182,21 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2040200467381199050",
+      "url": "https://x.com/MrBeast/status/2040200467381199050",
+      "screen_name": "MrBeast",
+      "created_at": "Fri Apr 03 22:51:11 +0000 2026",
+      "full_text": "@mws 500M is coming up soon… @YouTube 👀",
+      "lang": "en",
+      "favorite_count": 8787,
+      "retweet_count": 119,
+      "reply_count": 325,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2040206440556826908",
@@ -200,10 +210,7 @@
       "reply_count": 1399,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2040279104885314001",
@@ -281,10 +288,7 @@
           "type": "photo",
           "url": "https://t.co/uyzMWIT2x0"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2040127063349448802",
@@ -360,10 +364,7 @@
             ]
           }
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2040259882314846226",
@@ -377,10 +378,7 @@
       "reply_count": 18,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2040159523290435680",
@@ -394,10 +392,7 @@
       "reply_count": 81,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      "media": []
     },
     {
       "tweet_id": "2040189377943392443",
@@ -478,10 +473,21 @@
           "type": "photo",
           "url": "https://t.co/Oc7GgfpJCL"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2040085540876480944",
+      "url": "https://x.com/thedankoe/status/2040085540876480944",
+      "screen_name": "thedankoe",
+      "created_at": "Fri Apr 03 15:14:30 +0000 2026",
+      "full_text": "The more \"informed\" you feel, the less capable of thinking you become.",
+      "lang": "en",
+      "favorite_count": 2623,
+      "retweet_count": 215,
+      "reply_count": 322,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     },
     {
       "tweet_id": "2040059394126205233",
@@ -559,10 +565,7 @@
           "type": "photo",
           "url": "https://t.co/EqNSzFF9eG"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
     },
     {
       "tweet_id": "2040298884787032103",
@@ -576,10 +579,7 @@
       "reply_count": 123,
       "view_count": 0,
       "quoted_tweet_text": "",
-      "media": [],
-      "candidate_reason": "monitored_account",
-      "disposition": "keep",
-      "disposition_reason": "high_signal_source"
+      "media": []
     },
     {
       "tweet_id": "2039968167745802718",
@@ -726,10 +726,21 @@
           "type": "photo",
           "url": "https://t.co/if0R4Zdl7h"
         }
-      ],
-      "candidate_reason": "ai_signal",
-      "disposition": "keep",
-      "disposition_reason": "info_value"
+      ]
+    },
+    {
+      "tweet_id": "2040215427931156595",
+      "url": "https://x.com/trq212/status/2040215427931156595",
+      "screen_name": "trq212",
+      "created_at": "Fri Apr 03 23:50:38 +0000 2026",
+      "full_text": "claim a month of free credits on us, thanks for bearing with us",
+      "lang": "en",
+      "favorite_count": 2018,
+      "retweet_count": 57,
+      "reply_count": 304,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
     }
   ]
 }
