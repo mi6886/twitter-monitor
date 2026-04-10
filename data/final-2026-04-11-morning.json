@@ -1,0 +1,951 @@
+{
+  "date": "2026-04-11",
+  "period": "morning",
+  "fetched_at": "2026-04-10T23:27:22.373771+00:00",
+  "raw_count": 101,
+  "candidate_count": 69,
+  "final_count": 13,
+  "review_count": 52,
+  "drop_hard_count": 4,
+  "disposition_stats": {
+    "low_info_content": 40,
+    "monitored_not_ai": 10,
+    "monitored_popular": 4,
+    "brief_mention": 1,
+    "weak_signal_untrusted": 1,
+    "info_value": 9,
+    "off_topic": 4
+  },
+  "tweets": [
+    {
+      "tweet_id": "2042670341915295865",
+      "url": "https://x.com/claudeai/status/2042670341915295865",
+      "screen_name": "claudeai",
+      "created_at": "Fri Apr 10 18:25:35 +0000 2026",
+      "full_text": "Claude for Word is now in beta.\n\nDraft, edit, and revise documents directly from the sidebar. Claude preserves your formatting, and edits appear as tracked changes.\n\nAvailable on Team and Enterprise plans. https://t.co/tl1mZVELNg",
+      "lang": "en",
+      "favorite_count": 15683,
+      "retweet_count": 988,
+      "reply_count": 649,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {},
+          "display_url": "pic.x.com/tl1mZVELNg",
+          "expanded_url": "https://x.com/claudeai/status/2042670341915295865/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2042648096434270208",
+          "indices": [
+            206,
+            229
+          ],
+          "media_key": "13_2042648096434270208",
+          "media_url_https": "https://pbs.twimg.com/media/HFkGCDGXcAAexOZ.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 2160,
+            "width": 3840
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/tl1mZVELNg",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 57250,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2042648096434270208/pl/RgnfWm5KnTHwBoxX.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042648096434270208/vid/avc1/480x270/KfrKfJN9y5wbPW7J.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042648096434270208/vid/avc1/640x360/GzWtBUuV0SpWV2T0.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042648096434270208/vid/avc1/1280x720/MG8FGnNeh3gnc2pp.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042648096434270208/vid/avc1/1920x1080/bKlmMghf6IWdpD8Z.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2042623377068954002",
+      "url": "https://x.com/khushiirl/status/2042623377068954002",
+      "screen_name": "khushiirl",
+      "created_at": "Fri Apr 10 15:18:57 +0000 2026",
+      "full_text": "hired a dev instead of buying Claude subscription, now he wants Claude Max subscription https://t.co/E4LfHoViDC",
+      "lang": "en",
+      "favorite_count": 6787,
+      "retweet_count": 129,
+      "reply_count": 62,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "display_url": "pic.x.com/E4LfHoViDC",
+          "expanded_url": "https://x.com/khushiirl/status/2042623377068954002/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2042623250879115264",
+          "indices": [
+            88,
+            111
+          ],
+          "media_key": "7_2042623250879115264",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/2042623250879115264/pu/img/N8N8P9mVBR0F77Sh.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 540,
+            "width": 720
+          },
+          "sizes": {
+            "large": {
+              "h": 540,
+              "w": 720
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/E4LfHoViDC",
+          "video_info": {
+            "aspect_ratio": [
+              4,
+              3
+            ],
+            "duration_millis": 18204,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/ext_tw_video/2042623250879115264/pu/pl/CetdUA06Y8EzL_gS.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2042623250879115264/pu/vid/avc1/360x270/vIaaoziHtaACKyh9.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2042623250879115264/pu/vid/avc1/480x360/8ahn2o-Pri6u5ndO.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/2042623250879115264/pu/vid/avc1/720x540/k62U_1CjOFZUG_mL.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042671370186973589",
+      "url": "https://x.com/trq212/status/2042671370186973589",
+      "screen_name": "trq212",
+      "created_at": "Fri Apr 10 18:29:40 +0000 2026",
+      "full_text": "New in Claude Code: /ultraplan\n\nClaude builds an implementation plan for you on the web. You can read it and edit it, then run the plan on the web or back in your terminal.\n\nAvailable now in preview for all users with CC on the web enabled. https://t.co/44nG7XGC1a",
+      "lang": "en",
+      "favorite_count": 5406,
+      "retweet_count": 295,
+      "reply_count": 317,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/44nG7XGC1a",
+          "expanded_url": "https://x.com/trq212/status/2042671370186973589/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2042669906899222528",
+          "indices": [
+            241,
+            264
+          ],
+          "media_key": "13_2042669906899222528",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2042669906899222528/img/9a1oFnh4RY9O4igJ.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1400,
+            "width": 1400
+          },
+          "sizes": {
+            "large": {
+              "h": 1400,
+              "w": 1400
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/44nG7XGC1a",
+          "video_info": {
+            "aspect_ratio": [
+              1,
+              1
+            ],
+            "duration_millis": 20053,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2042669906899222528/pl/H8o239JlEgRYCvN-.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 432000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042669906899222528/vid/avc1/320x320/hFUHvJlcHbSgK5bf.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042669906899222528/vid/avc1/540x540/8IfjphF6QJRXAl3u.mp4"
+              },
+              {
+                "bitrate": 1280000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042669906899222528/vid/avc1/720x720/08_6Iaulg0VwhVEW.mp4"
+              },
+              {
+                "bitrate": 8768000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042669906899222528/vid/avc1/1080x1080/SQ5geTxp4Kc3BfcW.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2042575185229025530",
+      "url": "https://x.com/HowToAI_/status/2042575185229025530",
+      "screen_name": "HowToAI_",
+      "created_at": "Fri Apr 10 12:07:28 +0000 2026",
+      "full_text": "🚨 Someone just connected Claude directly to blender.\n\nyou can now build complex 3d models and geometry just by typing a text prompt. https://t.co/4nfTNpMJbx",
+      "lang": "en",
+      "favorite_count": 4414,
+      "retweet_count": 347,
+      "reply_count": 181,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/4nfTNpMJbx",
+          "expanded_url": "https://x.com/HowToAI_/status/2042575185229025530/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2042574770643046406",
+          "indices": [
+            133,
+            156
+          ],
+          "media_key": "13_2042574770643046406",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2042574770643046406/img/x_6bfRQSeVcai2ue.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/4nfTNpMJbx",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 22784,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2042574770643046406/pl/aLumFzaQRPfPVTLb.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042574770643046406/vid/avc1/480x270/vNEJ02ygrRpH9HMY.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042574770643046406/vid/avc1/640x360/Mo3KPYG91b6LgQf_.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042574770643046406/vid/avc1/1280x720/aJGv1CDw9f1VQWt9.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042574770643046406/vid/avc1/1920x1080/boqu9DkBb8JDURLD.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042615534567457102",
+      "url": "https://x.com/steipete/status/2042615534567457102",
+      "screen_name": "steipete",
+      "created_at": "Fri Apr 10 14:47:48 +0000 2026",
+      "full_text": "Yeah folks, it's gonna be harder in the future to ensure OpenClaw still works with Anthropic models. https://t.co/U6F8GZvPcH",
+      "lang": "en",
+      "favorite_count": 3855,
+      "retweet_count": 172,
+      "reply_count": 443,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/U6F8GZvPcH",
+          "expanded_url": "https://x.com/steipete/status/2042615534567457102/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2042615292698988551",
+          "indices": [
+            101,
+            124
+          ],
+          "media_key": "3_2042615292698988551",
+          "media_url_https": "https://pbs.twimg.com/media/HFjTyVYakAcNtdv.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 653,
+                "w": 1166,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 846,
+                "w": 846,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 846,
+                "w": 742,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 846,
+                "w": 423,
+                "x": 51,
+                "y": 0
+              },
+              {
+                "h": 846,
+                "w": 1166,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 846,
+            "width": 1166
+          },
+          "sizes": {
+            "large": {
+              "h": 846,
+              "w": 1166
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/U6F8GZvPcH"
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2042453059272655308",
+      "url": "https://x.com/odysseus0z/status/2042453059272655308",
+      "screen_name": "odysseus0z",
+      "created_at": "Fri Apr 10 04:02:10 +0000 2026",
+      "full_text": "OH: some dude in Fujian (scam capital of China) uses hacked credit cards to subscribe to Claude Code Max, resell them as API at 20% cost, and then sell user traces to Chinese labs for distillation.\n\nBruh.",
+      "lang": "en",
+      "favorite_count": 3720,
+      "retweet_count": 176,
+      "reply_count": 65,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042497872114090069",
+      "url": "https://x.com/garrytan/status/2042497872114090069",
+      "screen_name": "garrytan",
+      "created_at": "Fri Apr 10 07:00:15 +0000 2026",
+      "full_text": "If you want your OpenClaw or Hermes Agent to be able to have perfect total recall of all 10,000+ markdown files, GBrain is here to help.\n\nIt's exactly my OpenClaw/Hermes Agent setup. MIT-licensed open source. Hope it helps you build your mini-AGI.\n\nhttps://t.co/yFpFU4pn5b",
+      "lang": "en",
+      "favorite_count": 3478,
+      "retweet_count": 366,
+      "reply_count": 155,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042624568880197650",
+      "url": "https://x.com/carverfomo/status/2042624568880197650",
+      "screen_name": "carverfomo",
+      "created_at": "Fri Apr 10 15:23:42 +0000 2026",
+      "full_text": "A Chinese developer recorded a 2 minute tutorial on how to set up Claude Code agents. Three monitors behind him. Messy desk. Cables everywhere. Posted it to Bilibili expecting maybe 100 views.\n\nWhile the West argues about whether AI will take jobs, China is already building AI https://t.co/Ot6x2GBOZu",
+      "lang": "en",
+      "favorite_count": 2779,
+      "retweet_count": 253,
+      "reply_count": 34,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/Ot6x2GBOZu",
+          "expanded_url": "https://x.com/carverfomo/status/2042624568880197650/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2042623617964359680",
+          "indices": [
+            278,
+            301
+          ],
+          "media_key": "13_2042623617964359680",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2042623617964359680/img/iXMnVy_NhQWx8Vpr.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 2160,
+            "width": 3840
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/Ot6x2GBOZu",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 129794,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2042623617964359680/pl/Syoqe2FfWSR2GMtN.m3u8?v=4d4"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042623617964359680/vid/avc1/480x270/es3I4MgSk2wpTTNv.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042623617964359680/vid/avc1/640x360/Ho894UZrm7yW0EFQ.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042623617964359680/vid/avc1/1280x720/M4FFNG8CpEPDYe8-.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042623617964359680/vid/avc1/1920x1080/5165e51tIv--hH4C.mp4"
+              },
+              {
+                "bitrate": 25128000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042623617964359680/vid/avc1/3840x2160/ZgBELfwp-kmpkole.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042415274511704434",
+      "url": "https://x.com/aakashgupta/status/2042415274511704434",
+      "screen_name": "aakashgupta",
+      "created_at": "Fri Apr 10 01:32:02 +0000 2026",
+      "full_text": "Shopify just mass-democratized something most people won't register for another 6 months.\n\n$378 billion in GMV. 5.6 million stores. And they just gave every AI coding agent direct write access to the entire store backend: products, orders, inventory, SEO, images.\n\nThat screenshot",
+      "lang": "en",
+      "favorite_count": 2537,
+      "retweet_count": 138,
+      "reply_count": 74,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2042407967878766937",
+      "url": "https://x.com/Pirat_Nation/status/2042407967878766937",
+      "screen_name": "Pirat_Nation",
+      "created_at": "Fri Apr 10 01:03:00 +0000 2026",
+      "full_text": "A recent survey found that 71% of gamers said they would never use NVIDIA DLSS 5. \n\nMany players still prefer playing at native resolution instead of using AI upscaling. https://t.co/HlCx6jXE3L",
+      "lang": "en",
+      "favorite_count": 2480,
+      "retweet_count": 124,
+      "reply_count": 193,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/HlCx6jXE3L",
+          "expanded_url": "https://x.com/Pirat_Nation/status/2042407967878766937/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 140,
+                  "w": 140,
+                  "x": 1106,
+                  "y": 421
+                },
+                {
+                  "h": 146,
+                  "w": 146,
+                  "x": 45,
+                  "y": 390
+                },
+                {
+                  "h": 206,
+                  "w": 206,
+                  "x": 1085,
+                  "y": 139
+                },
+                {
+                  "h": 206,
+                  "w": 206,
+                  "x": 271,
+                  "y": 146
+                }
+              ]
+            }
+          },
+          "id_str": "2042350236912197632",
+          "indices": [
+            170,
+            193
+          ],
+          "media_key": "3_2042350236912197632",
+          "media_url_https": "https://pbs.twimg.com/media/HFfiuDoWIAAYpUO.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 850,
+                "w": 1518,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 850,
+                "w": 850,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 850,
+                "w": 746,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 850,
+                "w": 425,
+                "x": 148,
+                "y": 0
+              },
+              {
+                "h": 850,
+                "w": 1600,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 850,
+            "width": 1600
+          },
+          "sizes": {
+            "large": {
+              "h": 850,
+              "w": 1600
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/HlCx6jXE3L"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042339700082610345",
+      "url": "https://x.com/mamagnus00/status/2042339700082610345",
+      "screen_name": "mamagnus00",
+      "created_at": "Thu Apr 09 20:31:43 +0000 2026",
+      "full_text": "I just realized that Perplexity is built on Browser Use open-source library.\n\nLast April, Perplexity users kept reporting that it was randomly searching for “capital of France” and answering “Paris” for unrelated prompts.\n\nThat exact prompt, “What is the capital of France?”, is https://t.co/lQvcYxT8Uk",
+      "lang": "en",
+      "favorite_count": 2249,
+      "retweet_count": 91,
+      "reply_count": 35,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/lQvcYxT8Uk",
+          "expanded_url": "https://x.com/mamagnus00/status/2042339700082610345/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2042333789985411072",
+          "indices": [
+            279,
+            302
+          ],
+          "media_key": "3_2042333789985411072",
+          "media_url_https": "https://pbs.twimg.com/media/HFfTwuDbkAARdkn.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 902,
+                "w": 1611,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 902,
+                "w": 902,
+                "x": 185,
+                "y": 0
+              },
+              {
+                "h": 902,
+                "w": 791,
+                "x": 241,
+                "y": 0
+              },
+              {
+                "h": 902,
+                "w": 451,
+                "x": 411,
+                "y": 0
+              },
+              {
+                "h": 902,
+                "w": 2832,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 902,
+            "width": 2832
+          },
+          "sizes": {
+            "large": {
+              "h": 652,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/lQvcYxT8Uk"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042670420411760819",
+      "url": "https://x.com/KobeissiLetter/status/2042670420411760819",
+      "screen_name": "KobeissiLetter",
+      "created_at": "Fri Apr 10 18:25:53 +0000 2026",
+      "full_text": "BREAKING: Cloudflare stock, $NET, extends losses to over -13% on the day after Anthropic’s launch of Claude Mythos, an AI model that finds and exploits software vulnerabilities.\n\nThe stock is now down -22% in 4 days. https://t.co/9qq2NczoRF",
+      "lang": "en",
+      "favorite_count": 2220,
+      "retweet_count": 253,
+      "reply_count": 172,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/9qq2NczoRF",
+          "expanded_url": "https://x.com/KobeissiLetter/status/2042670420411760819/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2042667853619564545",
+          "indices": [
+            217,
+            240
+          ],
+          "media_key": "3_2042667853619564545",
+          "media_url_https": "https://pbs.twimg.com/media/HFkDlyEakAEosNS.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 407,
+                "w": 726,
+                "x": 0,
+                "y": 725
+              },
+              {
+                "h": 726,
+                "w": 726,
+                "x": 0,
+                "y": 474
+              },
+              {
+                "h": 828,
+                "w": 726,
+                "x": 0,
+                "y": 372
+              },
+              {
+                "h": 1200,
+                "w": 600,
+                "x": 126,
+                "y": 0
+              },
+              {
+                "h": 1200,
+                "w": 726,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1200,
+            "width": 726
+          },
+          "sizes": {
+            "large": {
+              "h": 1200,
+              "w": 726
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/9qq2NczoRF"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042558212990292013",
+      "url": "https://x.com/rubenhassid/status/2042558212990292013",
+      "screen_name": "rubenhassid",
+      "created_at": "Fri Apr 10 11:00:01 +0000 2026",
+      "full_text": "Prompting is the worst way to use Claude.\n\nHere's what the top 1% do instead:\n\nThey set up these 8 files once.\nThen they barely prompt again.\n\nFile 1: about-me .md (Your identity)\nWho you are, your job, your priorities.\nClaude reads this before every task.\nTo download mine, go https://t.co/4jjg5bZnRH",
+      "lang": "en",
+      "favorite_count": 2037,
+      "retweet_count": 273,
+      "reply_count": 37,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/4jjg5bZnRH",
+          "expanded_url": "https://x.com/rubenhassid/status/2042558212990292013/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 42,
+                  "w": 42,
+                  "x": 478,
+                  "y": 1031
+                },
+                {
+                  "h": 64,
+                  "w": 64,
+                  "x": 256,
+                  "y": 1057
+                },
+                {
+                  "h": 70,
+                  "w": 70,
+                  "x": 80,
+                  "y": 62
+                },
+                {
+                  "h": 151,
+                  "w": 151,
+                  "x": 474,
+                  "y": 288
+                },
+                {
+                  "h": 155,
+                  "w": 155,
+                  "x": 471,
+                  "y": 880
+                }
+              ]
+            }
+          },
+          "id_str": "2042538935612772355",
+          "indices": [
+            278,
+            301
+          ],
+          "media_key": "3_2042538935612772355",
+          "media_url_https": "https://pbs.twimg.com/media/HFiOVxEakAM_8dm.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 538,
+                "w": 960,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 960,
+                "w": 960,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1094,
+                "w": 960,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1200,
+                "w": 600,
+                "x": 30,
+                "y": 0
+              },
+              {
+                "h": 1200,
+                "w": 960,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1200,
+            "width": 960
+          },
+          "sizes": {
+            "large": {
+              "h": 1200,
+              "w": 960
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/4jjg5bZnRH"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    }
+  ]
+}
