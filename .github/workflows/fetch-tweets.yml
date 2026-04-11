@@ -42,13 +42,38 @@ jobs:
             git push
           fi
 
+      - name: Send to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python send_telegram.py
+
+      - name: Persist Telegram sent log
+        run: |
+          if [ -f data/telegram_sent.json ]; then
+            git add data/telegram_sent.json
+            if git diff --staged --quiet; then
+              echo "No sent log changes"
+            else
+              git commit -m "data: update telegram sent log"
+              git push
+            fi
+          else
+            echo "No telegram_sent.json to persist"
+          fi
+
+      # NOTE: This step runs AFTER Telegram on purpose — if the sync fails
+      # (missing token, Render hiccup, etc.) Telegram is still delivered.
+      # continue-on-error keeps the job green so tomorrow's cron still fires;
+      # the next run backfills because we cp all final-*/review-* every time.
       - name: Sync tweets to ai-intel-hub (new website)
+        continue-on-error: true
         env:
           AI_INTEL_HUB_TOKEN: ${{ secrets.AI_INTEL_HUB_TOKEN }}
         run: |
           if [ -z "$AI_INTEL_HUB_TOKEN" ]; then
-            echo "::error::AI_INTEL_HUB_TOKEN secret not set — cannot push to ai-intel-hub"
-            exit 1
+            echo "::warning::AI_INTEL_HUB_TOKEN secret not set — skipping sync to new website"
+            exit 0
           fi
           set -e
           TMP="$RUNNER_TEMP/ai-intel-hub"
@@ -69,24 +94,4 @@ jobs:
           else
             git commit -m "data(twitter): sync $(date -u +%Y-%m-%dT%H:%M) from twitter-monitor"
             git push
-          fi
-
-      - name: Send to Telegram
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python send_telegram.py
-
-      - name: Persist Telegram sent log
-        run: |
-          if [ -f data/telegram_sent.json ]; then
-            git add data/telegram_sent.json
-            if git diff --staged --quiet; then
-              echo "No sent log changes"
-            else
-              git commit -m "data: update telegram sent log"
-              git push
-            fi
-          else
-            echo "No telegram_sent.json to persist"
           fi
