@@ -42,6 +42,35 @@ jobs:
             git push
           fi
 
+      - name: Sync tweets to ai-intel-hub (new website)
+        env:
+          AI_INTEL_HUB_TOKEN: ${{ secrets.AI_INTEL_HUB_TOKEN }}
+        run: |
+          if [ -z "$AI_INTEL_HUB_TOKEN" ]; then
+            echo "::error::AI_INTEL_HUB_TOKEN secret not set — cannot push to ai-intel-hub"
+            exit 1
+          fi
+          set -e
+          TMP="$RUNNER_TEMP/ai-intel-hub"
+          git clone --depth 1 \
+            "https://x-access-token:${AI_INTEL_HUB_TOKEN}@github.com/mi6886/ai-intel-hub.git" \
+            "$TMP"
+          DEST="$TMP/public/twitter-data"
+          mkdir -p "$DEST"
+          # Copy only final-* and review-* JSONs (not raw-*, candidate-*, seen_urls, telegram_sent)
+          cp -v data/final-*.json "$DEST/" 2>/dev/null || true
+          cp -v data/review-*.json "$DEST/" 2>/dev/null || true
+          cd "$TMP"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/twitter-data/
+          if git diff --staged --quiet; then
+            echo "ai-intel-hub: no new twitter data to sync"
+          else
+            git commit -m "data(twitter): sync $(date -u +%Y-%m-%dT%H:%M) from twitter-monitor"
+            git push
+          fi
+
       - name: Send to Telegram
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
