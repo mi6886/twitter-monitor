@@ -1,0 +1,627 @@
+{
+  "date": "2026-04-12",
+  "period": "morning",
+  "fetched_at": "2026-04-11T23:24:42.939480+00:00",
+  "raw_count": 71,
+  "candidate_count": 32,
+  "final_count": 8,
+  "review_count": 24,
+  "drop_hard_count": 0,
+  "disposition_stats": {
+    "info_value": 6,
+    "monitored_not_ai": 3,
+    "low_info_content": 20,
+    "monitored_popular": 2,
+    "weak_signal_untrusted": 1
+  },
+  "tweets": [
+    {
+      "tweet_id": "2042852281016561744",
+      "url": "https://x.com/eraser0110/status/2042852281016561744",
+      "screen_name": "eraser0110",
+      "created_at": "Sat Apr 11 06:28:32 +0000 2026",
+      "full_text": "You know this is a tr00ned out tech bro because what what real \"e-girl\" has a $200 Claude subscription",
+      "lang": "en",
+      "favorite_count": 10216,
+      "retweet_count": 139,
+      "reply_count": 36,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042979500103815306",
+      "url": "https://x.com/Hesamation/status/2042979500103815306",
+      "screen_name": "Hesamation",
+      "created_at": "Sat Apr 11 14:54:04 +0000 2026",
+      "full_text": "AMD Senior AI Director confirms Claude has been nerfed. She analyzed Claude's session logs from Janurary to March:\n&gt; median thinking dropped from ~2,200 to ~600 chars\n&gt; API requests went up 80x from Feb to Mar. less thinking and failed attempts meaning more retries, burning more https://t.co/jk4HwoLzsi",
+      "lang": "en",
+      "favorite_count": 5724,
+      "retweet_count": 641,
+      "reply_count": 210,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/jk4HwoLzsi",
+          "expanded_url": "https://x.com/Hesamation/status/2042979500103815306/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2042975612118155264",
+          "indices": [
+            286,
+            309
+          ],
+          "media_key": "3_2042975612118155264",
+          "media_url_https": "https://pbs.twimg.com/media/HFobfr0WwAAA2d1.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 762,
+                "w": 1361,
+                "x": 0,
+                "y": 1022
+              },
+              {
+                "h": 1361,
+                "w": 1361,
+                "x": 0,
+                "y": 423
+              },
+              {
+                "h": 1552,
+                "w": 1361,
+                "x": 0,
+                "y": 232
+              },
+              {
+                "h": 1784,
+                "w": 892,
+                "x": 312,
+                "y": 0
+              },
+              {
+                "h": 1784,
+                "w": 1361,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1784,
+            "width": 1361
+          },
+          "sizes": {
+            "large": {
+              "h": 1784,
+              "w": 1361
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/jk4HwoLzsi"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042932851952206019",
+      "url": "https://x.com/kimmonismus/status/2042932851952206019",
+      "screen_name": "kimmonismus",
+      "created_at": "Sat Apr 11 11:48:42 +0000 2026",
+      "full_text": "AI Revolution in a nutshell. Let that sink in.\n\nSource: Reddit (can’t remember where exactly) https://t.co/HrLdpd6BxI",
+      "lang": "en",
+      "favorite_count": 5163,
+      "retweet_count": 307,
+      "reply_count": 79,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/HrLdpd6BxI",
+          "expanded_url": "https://x.com/kimmonismus/status/2042932851952206019/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2042932791763931136",
+          "indices": [
+            94,
+            117
+          ],
+          "media_key": "13_2042932791763931136",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2042932791763931136/img/O5Egg_1SkZidSWzg.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1280,
+            "width": 720
+          },
+          "sizes": {
+            "large": {
+              "h": 1280,
+              "w": 720
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/HrLdpd6BxI",
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              16
+            ],
+            "duration_millis": 54640,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2042932791763931136/pl/kmTOEKBSYRYPswWW.m3u8"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042932791763931136/vid/avc1/320x568/blmK6ai7jFhXQg3r.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042932791763931136/vid/avc1/480x852/M8Mfx608IYhYHwgz.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042932791763931136/vid/avc1/720x1280/rFrpP_k_4M_5dpQm.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2042907607258579270",
+      "url": "https://x.com/shmidtqq/status/2042907607258579270",
+      "screen_name": "shmidtqq",
+      "created_at": "Sat Apr 11 10:08:23 +0000 2026",
+      "full_text": "ingredients: \n\n1 GitHub account (free) \n1 Copilot Pro trial ($0) \n1 OmniRoute setup (5 min)\n\nresult: \n\nClaude Opus 4.6, Gemini 3.1 Pro, GPT-5.4 \nunlimited switching between accounts \n$0/mo forever\n\npeople paying $200/mo watching this: https://t.co/eaknkHOJnz",
+      "lang": "en",
+      "favorite_count": 5014,
+      "retweet_count": 321,
+      "reply_count": 103,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/eaknkHOJnz",
+          "expanded_url": "https://x.com/shmidtqq/status/2042907607258579270/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2042907523553128448",
+          "indices": [
+            235,
+            258
+          ],
+          "media_key": "13_2042907523553128448",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2042907523553128448/img/hLHPQUb9031Lae2L.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/eaknkHOJnz",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 13606,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2042907523553128448/pl/aABlSRzGaBJJ3-y9.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042907523553128448/vid/avc1/480x270/yfr2XtOjBn-yqX6I.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042907523553128448/vid/avc1/640x360/hKUJAZH1JKcV1fWx.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042907523553128448/vid/avc1/1280x720/WKnFzjswaix2kvf5.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042907523553128448/vid/avc1/1920x1080/D9cBe9qvJCy1DDav.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2043064112498815375",
+      "url": "https://x.com/TouchlineX/status/2043064112498815375",
+      "screen_name": "TouchlineX",
+      "created_at": "Sat Apr 11 20:30:17 +0000 2026",
+      "full_text": "🚨 𝗡𝗘𝗪: Arsenal had a 0.052% chance of losing the Carabao Cup final to Manchester City, being knocked out of the FA Cup by Southampton, and losing to Bournemouth today, according to Perplexity...\n\nAnd all of them happened. https://t.co/Othn1dyipa",
+      "lang": "en",
+      "favorite_count": 4299,
+      "retweet_count": 169,
+      "reply_count": 90,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/Othn1dyipa",
+          "expanded_url": "https://x.com/TouchlineX/status/2043064112498815375/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 246,
+                  "w": 246,
+                  "x": 500,
+                  "y": 170
+                }
+              ]
+            }
+          },
+          "id_str": "2043064069519712256",
+          "indices": [
+            222,
+            245
+          ],
+          "media_key": "3_2043064069519712256",
+          "media_url_https": "https://pbs.twimg.com/media/HFpr8lUWIAAY8nm.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 806,
+                "w": 1440,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 810,
+                "w": 810,
+                "x": 207,
+                "y": 0
+              },
+              {
+                "h": 810,
+                "w": 711,
+                "x": 257,
+                "y": 0
+              },
+              {
+                "h": 810,
+                "w": 405,
+                "x": 410,
+                "y": 0
+              },
+              {
+                "h": 810,
+                "w": 1440,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 810,
+            "width": 1440
+          },
+          "sizes": {
+            "large": {
+              "h": 810,
+              "w": 1440
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Othn1dyipa"
+        },
+        {
+          "display_url": "pic.x.com/Othn1dyipa",
+          "expanded_url": "https://x.com/TouchlineX/status/2043064112498815375/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2043064105624371200",
+          "indices": [
+            222,
+            245
+          ],
+          "media_key": "3_2043064105624371200",
+          "media_url_https": "https://pbs.twimg.com/media/HFpr-r0XgAABUjL.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 921,
+                "w": 1645,
+                "x": 0,
+                "y": 156
+              },
+              {
+                "h": 1645,
+                "w": 1645,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1645,
+                "w": 1443,
+                "x": 101,
+                "y": 0
+              },
+              {
+                "h": 1645,
+                "w": 823,
+                "x": 411,
+                "y": 0
+              },
+              {
+                "h": 1645,
+                "w": 1645,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1645,
+            "width": 1645
+          },
+          "sizes": {
+            "large": {
+              "h": 1645,
+              "w": 1645
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Othn1dyipa"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042962775581057280",
+      "url": "https://x.com/optionscjp/status/2042962775581057280",
+      "screen_name": "optionscjp",
+      "created_at": "Sat Apr 11 13:47:36 +0000 2026",
+      "full_text": "So Claude is swallowing the entire economy alive and $AMZN owns 15-20% of it AND Claude is being trained on Amazon’s chips..\n\nGot it.\n\nThis is why 35- 40% of my portfolio is $AMZN",
+      "lang": "en",
+      "favorite_count": 3279,
+      "retweet_count": 104,
+      "reply_count": 59,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042932225629655109",
+      "url": "https://x.com/godofprompt/status/2042932225629655109",
+      "screen_name": "godofprompt",
+      "created_at": "Sat Apr 11 11:46:13 +0000 2026",
+      "full_text": "🚨 BREAKING: CLAUDE HAS A SECRET MODE CALLED \"WEALTH PROTOCOL.\"\n\nIt reads Naval Ravikant's entire wealth philosophy and applies it to YOUR specific situation.\n\nThe man built AngelList to a $4B valuation. Bet early on Uber and Twitter. All while preaching one rule: stop trading https://t.co/gMOewHLgkV",
+      "lang": "en",
+      "favorite_count": 2250,
+      "retweet_count": 284,
+      "reply_count": 19,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/gMOewHLgkV",
+          "expanded_url": "https://x.com/godofprompt/status/2042932225629655109/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 173,
+                  "w": 173,
+                  "x": 132,
+                  "y": 192
+                }
+              ]
+            }
+          },
+          "id_str": "2042932222844637189",
+          "indices": [
+            277,
+            300
+          ],
+          "media_key": "3_2042932222844637189",
+          "media_url_https": "https://pbs.twimg.com/media/HFn0CGLakAUsY4W.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 672,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 675,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 592,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 338,
+                "x": 101,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 675,
+            "width": 1200
+          },
+          "sizes": {
+            "large": {
+              "h": 675,
+              "w": 1200
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/gMOewHLgkV"
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2042891163506757741",
+      "url": "https://x.com/heyrimsha/status/2042891163506757741",
+      "screen_name": "heyrimsha",
+      "created_at": "Sat Apr 11 09:03:03 +0000 2026",
+      "full_text": "🚨 BREAKING: Claude can now build your retirement plan like a Vanguard $500/hour wealth consultant (for free).\n\nHere are 5 insane Claude prompts that replace your retirement advisor, tax consultant, and investment strategist.\n\n(Save for later.) https://t.co/vQfusyHYA3",
+      "lang": "en",
+      "favorite_count": 2190,
+      "retweet_count": 227,
+      "reply_count": 49,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/vQfusyHYA3",
+          "expanded_url": "https://x.com/heyrimsha/status/2042891163506757741/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 48,
+                  "w": 48,
+                  "x": 740,
+                  "y": 201
+                }
+              ]
+            }
+          },
+          "id_str": "2042891161581555715",
+          "indices": [
+            244,
+            267
+          ],
+          "media_key": "3_2042891161581555715",
+          "media_url_https": "https://pbs.twimg.com/media/HFnOsBDakAMp3lX.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 672,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 675,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 592,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 338,
+                "x": 101,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 675,
+            "width": 1200
+          },
+          "sizes": {
+            "large": {
+              "h": 675,
+              "w": 1200
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/vQfusyHYA3"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    }
+  ]
+}
