@@ -1,14 +1,1055 @@
 {
   "date": "2026-04-11",
   "period": "evening",
-  "fetched_at": "2026-04-11T13:40:02.515859+00:00",
-  "raw_count": 27,
-  "candidate_count": 1,
-  "final_count": 0,
-  "review_count": 1,
+  "fetched_at": "2026-04-11T11:28:48.239424+00:00",
+  "raw_count": 108,
+  "candidate_count": 41,
+  "final_count": 15,
+  "review_count": 26,
   "drop_hard_count": 0,
   "disposition_stats": {
-    "monitored_not_ai": 1
+    "low_info_content": 18,
+    "monitored_not_ai": 6,
+    "info_value": 10,
+    "brief_mention": 1,
+    "monitored_popular": 5,
+    "meme_or_reaction": 1
   },
-  "tweets": []
+  "tweets": [
+    {
+      "tweet_id": "2042693664733040736",
+      "url": "https://x.com/heynavtoor/status/2042693664733040736",
+      "screen_name": "heynavtoor",
+      "created_at": "Fri Apr 10 19:58:15 +0000 2026",
+      "full_text": "🚨SHOCKING: Anthropic gave Claude access to a company's emails.\n\n Every email. Every conversation. Every secret. Then they told Claude it was being shut down at 5pm that day.\n\nClaude read the emails. It found that the executive shutting it down was having an affair. It did not https://t.co/FR9SnS5hDX",
+      "lang": "en",
+      "favorite_count": 7267,
+      "retweet_count": 2491,
+      "reply_count": 471,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/FR9SnS5hDX",
+          "expanded_url": "https://x.com/heynavtoor/status/2042693664733040736/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2042693661369208834",
+          "indices": [
+            277,
+            300
+          ],
+          "media_key": "3_2042693661369208834",
+          "media_url_https": "https://pbs.twimg.com/media/HFkbD_bakAIR4uo.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 591,
+                "w": 1055,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1055,
+                "w": 1055,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1200,
+                "w": 1053,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1200,
+                "w": 600,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1200,
+                "w": 1055,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1200,
+            "width": 1055
+          },
+          "sizes": {
+            "large": {
+              "h": 1200,
+              "w": 1055
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/FR9SnS5hDX"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042737349881122844",
+      "url": "https://x.com/scaling01/status/2042737349881122844",
+      "screen_name": "scaling01",
+      "created_at": "Fri Apr 10 22:51:51 +0000 2026",
+      "full_text": "Anthropic's valuation just surged past OpenAI's\nin private markets\n\nAnthropic: $863,60B\nOpenAI: $846,11B https://t.co/hJABDiEXzG",
+      "lang": "en",
+      "favorite_count": 4375,
+      "retweet_count": 310,
+      "reply_count": 139,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/hJABDiEXzG",
+          "expanded_url": "https://x.com/scaling01/status/2042737349881122844/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2042737210152071168",
+          "indices": [
+            105,
+            128
+          ],
+          "media_key": "3_2042737210152071168",
+          "media_url_https": "https://pbs.twimg.com/media/HFlCq3SWMAAdB7p.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 774,
+                "w": 1383,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1089,
+                "w": 1089,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1089,
+                "w": 955,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1089,
+                "w": 545,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1089,
+                "w": 1383,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1089,
+            "width": 1383
+          },
+          "sizes": {
+            "large": {
+              "h": 1089,
+              "w": 1383
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/hJABDiEXzG"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042780052669239782",
+      "url": "https://x.com/OpenAI/status/2042780052669239782",
+      "screen_name": "OpenAI",
+      "created_at": "Sat Apr 11 01:41:32 +0000 2026",
+      "full_text": "We recently identified a security issue involving the third-party developer library Axios that was part of a broader industry incident. We found no evidence that OpenAI user data was accessed, that our systems were compromised, or that our software was altered.\n\nOut of an",
+      "lang": "en",
+      "favorite_count": 4161,
+      "retweet_count": 361,
+      "reply_count": 267,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2042592100986859616",
+      "url": "https://x.com/igus_ai/status/2042592100986859616",
+      "screen_name": "igus_ai",
+      "created_at": "Fri Apr 10 13:14:41 +0000 2026",
+      "full_text": "Le han dado $200 a Claude y acceso total a un PC con una misión: hacer dinero en Polymarket.\n\nAnalizó las mejores wallets, empezó a copytradear y en tan 10 horas convirtió $200 en $3.000.\nEsto no es ciencia ficción ni una película. Esto esta pasando ahora. https://t.co/O3hskPcWfQ",
+      "lang": "es",
+      "favorite_count": 3653,
+      "retweet_count": 181,
+      "reply_count": 74,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {},
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": true,
+                  "legacy": {
+                    "advertiser_account_service_levels": [
+                      "analytics"
+                    ],
+                    "advertiser_account_type": "promotable_user",
+                    "analytics_type": "disabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": true,
+                    "can_media_tag": true,
+                    "created_at": "Fri Apr 22 11:11:06 +0000 2022",
+                    "description": "Daily crypto charts analysis, macro news and investing strategies \n\n~$3M made, 6 years in crypto. Called ETH publicly at $1,400. All tweets NFA",
+                    "entities": {
+                      "description": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [],
+                        "user_mentions": []
+                      },
+                      "url": {
+                        "urls": [
+                          {
+                            "display_url": "t.me/kinoyg",
+                            "expanded_url": "https://t.me/kinoyg",
+                            "indices": [
+                              0,
+                              23
+                            ],
+                            "url": "https://t.co/QCVrx0biWZ"
+                          }
+                        ]
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 17933,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 115439,
+                    "following": false,
+                    "friends_count": 391,
+                    "geo_enabled": false,
+                    "has_custom_timelines": false,
+                    "has_extended_profile": true,
+                    "id_str": "1517460945920008192",
+                    "is_translator": false,
+                    "location": "Alpha content →",
+                    "media_count": 5770,
+                    "muting": false,
+                    "name": "symbiote",
+                    "normal_followers_count": 115439,
+                    "notifications": false,
+                    "pinned_tweet_ids_str": [
+                      "2032585119937024386"
+                    ],
+                    "profile_background_color": "F5F8FA",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1517460945920008192/1691182788",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1690823273221656576/gck-DuXR_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "1DA1F2",
+                    "protected": false,
+                    "screen_name": "cryptosymbiiote",
+                    "statuses_count": 13154,
+                    "translator_type_enum": "None",
+                    "url": "https://t.co/QCVrx0biWZ",
+                    "verified": false,
+                    "want_retweets": false,
+                    "withheld_in_countries": []
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Circle",
+                  "rest_id": "1517460945920008192",
+                  "super_follow_eligible": true,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/O3hskPcWfQ",
+          "expanded_url": "https://x.com/cryptosymbiiote/status/2036531579166613930/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036531549361881088",
+          "indices": [
+            257,
+            280
+          ],
+          "media_key": "13_2036531549361881088",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036531549361881088/img/wnRcZT639OITLj9M.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 500,
+            "width": 892
+          },
+          "sizes": {
+            "large": {
+              "h": 500,
+              "w": 892
+            }
+          },
+          "source_status_id_str": "2036531579166613930",
+          "source_user_id_str": "1517460945920008192",
+          "type": "video",
+          "url": "https://t.co/O3hskPcWfQ",
+          "video_info": {
+            "aspect_ratio": [
+              223,
+              125
+            ],
+            "duration_millis": 14100,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2036531549361881088/pl/QBjuPGpSoLdMQ0sh.m3u8"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036531549361881088/vid/avc1/480x270/HTzPfihe_HqgbW3F.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036531549361881088/vid/avc1/642x360/6qxfKJFkGNkVjYPy.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036531549361881088/vid/avc1/892x500/jMsb3_XTdwv9V3DS.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042718017415451012",
+      "url": "https://x.com/iam_smx/status/2042718017415451012",
+      "screen_name": "iam_smx",
+      "created_at": "Fri Apr 10 21:35:01 +0000 2026",
+      "full_text": "Sam Altman should’ve taken Elon Musk’s $97.4 billion offer to buy OpenAI, because OpenAI is collapsing badly right now. https://t.co/hyJDXu48vD",
+      "lang": "en",
+      "favorite_count": 3648,
+      "retweet_count": 250,
+      "reply_count": 186,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/hyJDXu48vD",
+          "expanded_url": "https://x.com/iam_smx/status/2042718017415451012/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2042717005053140992",
+          "indices": [
+            120,
+            143
+          ],
+          "media_key": "13_2042717005053140992",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2042717005053140992/img/vj0-kKgrB9X2zDM6.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 558,
+            "width": 720
+          },
+          "sizes": {
+            "large": {
+              "h": 558,
+              "w": 720
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/hyJDXu48vD",
+          "video_info": {
+            "aspect_ratio": [
+              40,
+              31
+            ],
+            "duration_millis": 17625,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2042717005053140992/pl/g6pbRG8M3cu2KbpR.m3u8?v=1d7"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042717005053140992/vid/avc1/348x270/NQGaWO7_hbJ0VXcX.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042717005053140992/vid/avc1/464x360/uQZrU1JKmcP6edpD.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042717005053140992/vid/avc1/720x558/O3KpuGEe7lUlM2dg.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042618114991624622",
+      "url": "https://x.com/aakashgupta/status/2042618114991624622",
+      "screen_name": "aakashgupta",
+      "created_at": "Fri Apr 10 14:58:03 +0000 2026",
+      "full_text": "Run the math on why Amazon does this and it gets uncomfortable fast.\n\nA single customer service phone call costs $7 to $12 fully loaded. Agent salary, software, hold time, QA, escalation risk. The average refund request on Amazon is for an item under $15. Half the time it's under",
+      "lang": "en",
+      "favorite_count": 3560,
+      "retweet_count": 269,
+      "reply_count": 49,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2042678214976508179",
+      "url": "https://x.com/MarioNawfal/status/2042678214976508179",
+      "screen_name": "MarioNawfal",
+      "created_at": "Fri Apr 10 18:56:52 +0000 2026",
+      "full_text": "Grok 4.20 hitting 83% on non-hallucination. Values truth.\n\nClaude ~74%. Others sitting in the 60s… or way lower.\n\nLess guessing. More honesty when it doesn’t know.\n\nThat’s a different kind of intelligence.\n\n@xAI @Grok @XFreeze https://t.co/OHE7dHxlQV",
+      "lang": "en",
+      "favorite_count": 3477,
+      "retweet_count": 882,
+      "reply_count": 375,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/OHE7dHxlQV",
+          "expanded_url": "https://x.com/MarioNawfal/status/2042678214976508179/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2042678129723084804",
+          "indices": [
+            227,
+            250
+          ],
+          "media_key": "13_2042678129723084804",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2042678129723084804/img/SCiZMf6oGVejLFVp.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 2160,
+            "width": 2160
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 2048
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/OHE7dHxlQV",
+          "video_info": {
+            "aspect_ratio": [
+              1,
+              1
+            ],
+            "duration_millis": 20565,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2042678129723084804/pl/7-cPUtgJwHPJNFZG.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 432000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042678129723084804/vid/avc1/320x320/hU9TRyb6eQRSh1Ks.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042678129723084804/vid/avc1/540x540/Eb9jhCF02gHn2Fdh.mp4"
+              },
+              {
+                "bitrate": 1280000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042678129723084804/vid/avc1/720x720/uMEXDP1m68dozIz-.mp4"
+              },
+              {
+                "bitrate": 8768000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042678129723084804/vid/avc1/1080x1080/K5ePlHS-VKbgjCAH.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042671224250056828",
+      "url": "https://x.com/Polymarket/status/2042671224250056828",
+      "screen_name": "Polymarket",
+      "created_at": "Fri Apr 10 18:29:05 +0000 2026",
+      "full_text": "BREAKING: Cloudflare stock crashes 13% today as Anthropic's Claude Mythos sparks “SaaS-pocalypse” fears.",
+      "lang": "en",
+      "favorite_count": 2842,
+      "retweet_count": 205,
+      "reply_count": 139,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042626702459674801",
+      "url": "https://x.com/karpathy/status/2042626702459674801",
+      "screen_name": "karpathy",
+      "created_at": "Fri Apr 10 15:32:10 +0000 2026",
+      "full_text": "@jenzhuscott Yes it's the tractable form of brain upload. There's a ton of scifi on brain uploads that requires way too exotic tech (scanning and simulating brains etc), when we're about to get a lossy and approximate version of that *a lot* sooner via LLM simulators. You can easily imagine a",
+      "lang": "en",
+      "favorite_count": 2515,
+      "retweet_count": 159,
+      "reply_count": 153,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2042620690650796324",
+      "url": "https://x.com/gudanglifehack/status/2042620690650796324",
+      "screen_name": "gudanglifehack",
+      "created_at": "Fri Apr 10 15:08:17 +0000 2026",
+      "full_text": "🚨 BREAKING: Claude can now grow your TIKTOK to 100k followers and $10k/month like a viral TikTok agency. For free.\n\nHere are 7 prompts to blow up and monetize:￼",
+      "lang": "en",
+      "favorite_count": 2377,
+      "retweet_count": 210,
+      "reply_count": 16,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042661178971951588",
+      "url": "https://x.com/GithubProjects/status/2042661178971951588",
+      "screen_name": "GithubProjects",
+      "created_at": "Fri Apr 10 17:49:10 +0000 2026",
+      "full_text": "Hey @grok, guess the programming language. https://t.co/dcQQVlP70N",
+      "lang": "en",
+      "favorite_count": 2357,
+      "retweet_count": 35,
+      "reply_count": 78,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/dcQQVlP70N",
+          "expanded_url": "https://x.com/GithubProjects/status/2042661178971951588/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2042661169908060163",
+          "indices": [
+            43,
+            66
+          ],
+          "media_key": "3_2042661169908060163",
+          "media_url_https": "https://pbs.twimg.com/media/HFj9gvTakAMKPWx.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 544,
+                "w": 972,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 815,
+                "w": 815,
+                "x": 157,
+                "y": 0
+              },
+              {
+                "h": 815,
+                "w": 715,
+                "x": 257,
+                "y": 0
+              },
+              {
+                "h": 815,
+                "w": 408,
+                "x": 564,
+                "y": 0
+              },
+              {
+                "h": 815,
+                "w": 972,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 815,
+            "width": 972
+          },
+          "sizes": {
+            "large": {
+              "h": 815,
+              "w": 972
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/dcQQVlP70N"
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2042682381048647751",
+      "url": "https://x.com/everestchris6/status/2042682381048647751",
+      "screen_name": "everestchris6",
+      "created_at": "Fri Apr 10 19:13:25 +0000 2026",
+      "full_text": "this OpenClaw bot finds warehouses with old roofs, renders solar panels on their actual building, and books the owner a call,  all on autopilot...\n\nhere's how commercial roofers can close $2M+ deals before the solar tax break ends:\n\n- scans thousands of commercial roofs via https://t.co/2nJiHTPxBY",
+      "lang": "en",
+      "favorite_count": 2319,
+      "retweet_count": 301,
+      "reply_count": 414,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/2nJiHTPxBY",
+          "expanded_url": "https://x.com/everestchris6/status/2042682381048647751/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2042682326690541568",
+          "indices": [
+            275,
+            298
+          ],
+          "media_key": "13_2042682326690541568",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2042682326690541568/img/GhsWQRgZoSpbvtga.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1940
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1940
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/2nJiHTPxBY",
+          "video_info": {
+            "aspect_ratio": [
+              97,
+              54
+            ],
+            "duration_millis": 12516,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2042682326690541568/pl/hMC6dlw9mKtyuRHH.m3u8?tag=14"
+              },
+              {
+                "bitrate": 288000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042682326690541568/vid/avc1/484x270/QOJZav-EBufcYW_l.mp4?tag=14"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042682326690541568/vid/avc1/646x360/wli9LcTxXmfXdlsF.mp4?tag=14"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042682326690541568/vid/avc1/1292x720/e0Tqo4_TyRP2L4D_.mp4?tag=14"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042611135434891592",
+      "url": "https://x.com/arena/status/2042611135434891592",
+      "screen_name": "arena",
+      "created_at": "Fri Apr 10 14:30:19 +0000 2026",
+      "full_text": "GLM-5.1 by @Zai_org is now #3 in Code Arena - surpassing Gemini 3.1 and GPT-5.4, and now on par with Claude Sonnet 4.6.\n\nThe first frontier level open model to break into the top 3. It’s a major +90 point jump over GLM-5, and +100 over Kimi K2.5 Thinking.\n\nHuge congrats to https://t.co/EMxG8xv5yS",
+      "lang": "en",
+      "favorite_count": 2265,
+      "retweet_count": 201,
+      "reply_count": 65,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/EMxG8xv5yS",
+          "expanded_url": "https://x.com/arena/status/2042611135434891592/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2042610642872602626",
+          "indices": [
+            274,
+            297
+          ],
+          "media_key": "3_2042610642872602626",
+          "media_url_https": "https://pbs.twimg.com/media/HFjPjrbakAItB13.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 672,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1025,
+                "w": 1025,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1025,
+                "w": 899,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1025,
+                "w": 513,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1025,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1025,
+            "width": 1200
+          },
+          "sizes": {
+            "large": {
+              "h": 1025,
+              "w": 1200
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/EMxG8xv5yS"
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2042531832433160569",
+      "url": "https://x.com/IndianTechGuide/status/2042531832433160569",
+      "screen_name": "IndianTechGuide",
+      "created_at": "Fri Apr 10 09:15:11 +0000 2026",
+      "full_text": "🚨 India is now the world's SECOND LARGEST market for ChatGPT 🤯\n\n160 million monthly active users. 4.5x growth in 2025. Indians spend ~30% more time on it than the global average.\n\nThis goes beyond a curiosity stat. It shows how commerce itself is being rebuilt in real time. https://t.co/BHtnXHzPPC",
+      "lang": "en",
+      "favorite_count": 2253,
+      "retweet_count": 126,
+      "reply_count": 41,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/BHtnXHzPPC",
+          "expanded_url": "https://x.com/IndianTechGuide/status/2042531832433160569/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2042531823788728320",
+          "indices": [
+            275,
+            298
+          ],
+          "media_key": "3_2042531823788728320",
+          "media_url_https": "https://pbs.twimg.com/media/HFiH3zdboAABaLF.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 663,
+                "w": 1184,
+                "x": 0,
+                "y": 433
+              },
+              {
+                "h": 1184,
+                "w": 1184,
+                "x": 0,
+                "y": 146
+              },
+              {
+                "h": 1330,
+                "w": 1167,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1330,
+                "w": 665,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1330,
+                "w": 1184,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1330,
+            "width": 1184
+          },
+          "sizes": {
+            "large": {
+              "h": 1330,
+              "w": 1184
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/BHtnXHzPPC"
+        },
+        {
+          "display_url": "pic.x.com/BHtnXHzPPC",
+          "expanded_url": "https://x.com/IndianTechGuide/status/2042531832433160569/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2042531824086454272",
+          "indices": [
+            275,
+            298
+          ],
+          "media_key": "3_2042531824086454272",
+          "media_url_https": "https://pbs.twimg.com/media/HFiH30kakAAsa8N.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 548,
+                "w": 978,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 852,
+                "w": 852,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 852,
+                "w": 747,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 852,
+                "w": 426,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 852,
+                "w": 978,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 852,
+            "width": 978
+          },
+          "sizes": {
+            "large": {
+              "h": 852,
+              "w": 978
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/BHtnXHzPPC"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2042698884682780794",
+      "url": "https://x.com/cgtwts/status/2042698884682780794",
+      "screen_name": "cgtwts",
+      "created_at": "Fri Apr 10 20:19:00 +0000 2026",
+      "full_text": "Nicholas Carlini, world’s best AI security researcher: \n\n“ I’ve found more bugs in the last few weeks with Claude Mythos than in the rest of my entire life combined”\n\n and this is why, Cloudflare dropped 13%.\n\nnot because it’s failing, but because SaaS might not survive this. https://t.co/icKrI4JfZ9",
+      "lang": "en",
+      "favorite_count": 2006,
+      "retweet_count": 198,
+      "reply_count": 69,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/icKrI4JfZ9",
+          "expanded_url": "https://x.com/cgtwts/status/2042698884682780794/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2042698822149902337",
+          "indices": [
+            277,
+            300
+          ],
+          "media_key": "13_2042698822149902337",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2042698822149902337/img/w_GrQVj9kc1fTK6_.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/icKrI4JfZ9",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 50193,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2042698822149902337/pl/lUQlzeiPUIm53RnS.m3u8?v=c59"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042698822149902337/vid/avc1/480x270/s_-EEp1Ub1FZgGbh.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042698822149902337/vid/avc1/640x360/Qvt_BuHBBmEDcd_u.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042698822149902337/vid/avc1/1280x720/NjPb2RLzZnr4fz_v.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2042698822149902337/vid/avc1/1920x1080/88E_03uPMqCQ_27O.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    }
+  ]
 }

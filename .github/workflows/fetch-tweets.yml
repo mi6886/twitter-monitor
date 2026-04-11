@@ -6,7 +6,16 @@ on:
     - cron: '0 23 * * *'
     # Run at 7:00 PM Beijing time (11:00 UTC)
     - cron: '0 11 * * *'
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      skip_fetch:
+        description: 'Skip Apify fetch + commit (use to resend Telegram from committed data without re-fetching)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
 
 permissions:
   contents: write
@@ -26,11 +35,13 @@ jobs:
           python-version: '3.12'
 
       - name: Fetch tweets from Apify
+        if: ${{ inputs.skip_fetch != 'true' }}
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: python fetch_tweets.py
 
       - name: Commit and push results
+        if: ${{ inputs.skip_fetch != 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
