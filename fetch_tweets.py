@@ -34,6 +34,7 @@ KEYWORD_SEARCHES = [
     '(Cursor OR Huggingface OR Perplexity OR Antigravity) min_faves:2000',
     '(vibecoding OR AIAgent OR "humanoid robot" OR "Humanoid Robots" OR "Embodied AI") min_faves:2000',
     '("DAN KOE" OR "Peter Steinberger" OR OpenClaw OR "Nano banana") min_faves:2000',
+    '("open source" (AI OR voice OR "text to speech" OR "image generation" OR "video generation")) min_faves:2000',
 ]
 
 # --- Monitored accounts (all in one list, auto-split into small batches) ---
