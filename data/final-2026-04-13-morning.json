@@ -1,0 +1,596 @@
+{
+  "date": "2026-04-13",
+  "period": "morning",
+  "fetched_at": "2026-04-12T23:25:44.745355+00:00",
+  "raw_count": 72,
+  "candidate_count": 30,
+  "final_count": 7,
+  "review_count": 20,
+  "drop_hard_count": 3,
+  "disposition_stats": {
+    "monitored_popular": 3,
+    "monitored_not_ai": 8,
+    "info_value": 4,
+    "low_info_content": 9,
+    "off_topic": 3,
+    "brief_mention": 3
+  },
+  "tweets": [
+    {
+      "tweet_id": "2043306403948106151",
+      "url": "https://x.com/kimmonismus/status/2043306403948106151",
+      "screen_name": "kimmonismus",
+      "created_at": "Sun Apr 12 12:33:04 +0000 2026",
+      "full_text": "Yeah Claude. I know that feel.\n\nWow. https://t.co/aWGuJnaBEt",
+      "lang": "en",
+      "favorite_count": 17846,
+      "retweet_count": 609,
+      "reply_count": 47,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/aWGuJnaBEt",
+          "expanded_url": "https://x.com/kimmonismus/status/2043306403948106151/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 184,
+                  "w": 184,
+                  "x": 116,
+                  "y": 855
+                }
+              ]
+            }
+          },
+          "id_str": "2043306401385340928",
+          "indices": [
+            37,
+            60
+          ],
+          "media_key": "3_2043306401385340928",
+          "media_url_https": "https://pbs.twimg.com/media/HFtIWJ3a4AAfd7b.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 739,
+                "w": 1320,
+                "x": 0,
+                "y": 192
+              },
+              {
+                "h": 1221,
+                "w": 1221,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1221,
+                "w": 1071,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1221,
+                "w": 611,
+                "x": 124,
+                "y": 0
+              },
+              {
+                "h": 1221,
+                "w": 1320,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1221,
+            "width": 1320
+          },
+          "sizes": {
+            "large": {
+              "h": 1221,
+              "w": 1320
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/aWGuJnaBEt"
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2043327023511179335",
+      "url": "https://x.com/shiri_shh/status/2043327023511179335",
+      "screen_name": "shiri_shh",
+      "created_at": "Sun Apr 12 13:55:00 +0000 2026",
+      "full_text": "someone built an OpenClaw agent that SELLS pool installations on autopilot.\n\nfinds $500k–$1.2M homes without pools\n\nrenders a pool in their backyard\nand mails a before/after postcard.\n\nhttps://t.co/bE0XgwwaXB",
+      "lang": "en",
+      "favorite_count": 8711,
+      "retweet_count": 288,
+      "reply_count": 170,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {},
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": true,
+                  "legacy": {
+                    "advertiser_account_service_levels": [
+                      "analytics"
+                    ],
+                    "advertiser_account_type": "promotable_user",
+                    "analytics_type": "disabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": true,
+                    "can_media_tag": false,
+                    "created_at": "Mon Aug 29 14:34:17 +0000 2016",
+                    "description": "",
+                    "entities": {
+                      "description": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [],
+                        "user_mentions": []
+                      },
+                      "url": {
+                        "urls": [
+                          {
+                            "display_url": "unloopa.com",
+                            "expanded_url": "https://unloopa.com",
+                            "indices": [
+                              0,
+                              23
+                            ],
+                            "url": "https://t.co/AhEbB5tZA3"
+                          }
+                        ]
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 1931,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 11554,
+                    "following": false,
+                    "friends_count": 87,
+                    "geo_enabled": false,
+                    "has_custom_timelines": true,
+                    "has_extended_profile": true,
+                    "id_str": "770268335783030784",
+                    "is_translator": false,
+                    "location": "",
+                    "media_count": 59,
+                    "muting": false,
+                    "name": "Chris",
+                    "normal_followers_count": 11554,
+                    "notifications": false,
+                    "pinned_tweet_ids_str": [
+                      "2021656913772261853"
+                    ],
+                    "profile_background_color": "F5F8FA",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/770268335783030784/1612860206",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1970372109202530305/A5Axp4ih_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "1DA1F2",
+                    "protected": false,
+                    "screen_name": "everestchris6",
+                    "statuses_count": 316,
+                    "translator_type_enum": "None",
+                    "url": "https://t.co/AhEbB5tZA3",
+                    "verified": false,
+                    "want_retweets": false,
+                    "withheld_in_countries": []
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Circle",
+                  "rest_id": "770268335783030784",
+                  "super_follow_eligible": false,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/bE0XgwwaXB",
+          "expanded_url": "https://x.com/everestchris6/status/2043061132911677924/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2043061079086080000",
+          "indices": [
+            185,
+            208
+          ],
+          "media_key": "13_2043061079086080000",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2043061079086080000/img/wadVmg0kC6Yc5gkU.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1904
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1904
+            }
+          },
+          "source_status_id_str": "2043061132911677924",
+          "source_user_id_str": "770268335783030784",
+          "type": "video",
+          "url": "https://t.co/bE0XgwwaXB",
+          "video_info": {
+            "aspect_ratio": [
+              238,
+              135
+            ],
+            "duration_millis": 11250,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2043061079086080000/pl/YGjvPyM-0Sj96yO5.m3u8?tag=14"
+              },
+              {
+                "bitrate": 288000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2043061079086080000/vid/avc1/476x270/Gg8suAwme7r_U1qF.mp4?tag=14"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2043061079086080000/vid/avc1/634x360/mDsPpfZd0OGcxS95.mp4?tag=14"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2043061079086080000/vid/avc1/1268x720/L3wwCEs6jjxPBn3O.mp4?tag=14"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2043056331264004179",
+      "url": "https://x.com/eng_khairallah1/status/2043056331264004179",
+      "screen_name": "eng_khairallah1",
+      "created_at": "Sat Apr 11 19:59:22 +0000 2026",
+      "full_text": "INSTEAD OF WATCHING NETFLIX TONIGHT.\n\nSpend 1 hour with this.\n\nClaude AI FULL COURSE that teaches you how to BUILD and AUTOMATE anything.\n\nThe people who watch this tonight will wake up tomorrow with a new skill.\n\nWatch it and Bookmark it now.\nhttps://t.co/YnsvZww4WF",
+      "lang": "en",
+      "favorite_count": 4969,
+      "retweet_count": 804,
+      "reply_count": 71,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {},
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": true,
+                  "legacy": {
+                    "advertiser_account_service_levels": [
+                      "mms"
+                    ],
+                    "advertiser_account_type": "promotable_user",
+                    "analytics_type": "enabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": true,
+                    "can_media_tag": false,
+                    "created_at": "Sun May 05 13:14:31 +0000 2013",
+                    "description": "Make money with AI 👉 https://t.co/Ppmk5h8TGv\nRank #1 with AI SEO → https://t.co/MnZN0hXp3V",
+                    "entities": {
+                      "description": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [
+                          {
+                            "display_url": "skool.com/ai-profit-lab-…",
+                            "expanded_url": "https://www.skool.com/ai-profit-lab-7462/about",
+                            "indices": [
+                              21,
+                              44
+                            ],
+                            "url": "https://t.co/Ppmk5h8TGv"
+                          },
+                          {
+                            "display_url": "go.juliangoldie.com/backlink-portal",
+                            "expanded_url": "https://go.juliangoldie.com/backlink-portal",
+                            "indices": [
+                              67,
+                              90
+                            ],
+                            "url": "https://t.co/MnZN0hXp3V"
+                          }
+                        ],
+                        "user_mentions": []
+                      },
+                      "url": {
+                        "urls": [
+                          {
+                            "display_url": "juliangoldieai.com/CFjA4j",
+                            "expanded_url": "https://juliangoldieai.com/CFjA4j",
+                            "indices": [
+                              0,
+                              23
+                            ],
+                            "url": "https://t.co/Igg23wXJU5"
+                          }
+                        ]
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 33531,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 163099,
+                    "following": false,
+                    "friends_count": 1506,
+                    "geo_enabled": false,
+                    "has_custom_timelines": false,
+                    "has_extended_profile": true,
+                    "id_str": "1405031034",
+                    "is_translator": false,
+                    "location": "Manchester, UK",
+                    "media_count": 37385,
+                    "muting": false,
+                    "name": "Julian Goldie SEO",
+                    "normal_followers_count": 163099,
+                    "notifications": false,
+                    "pinned_tweet_ids_str": [
+                      "2043418906254365068"
+                    ],
+                    "profile_background_color": "C0DEED",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1405031034/1619827624",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1322760467979268096/b3RoYhTq_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "1DA1F2",
+                    "protected": false,
+                    "screen_name": "JulianGoldieSEO",
+                    "statuses_count": 132939,
+                    "translator_type_enum": "None",
+                    "url": "https://t.co/Igg23wXJU5",
+                    "verified": false,
+                    "want_retweets": false,
+                    "withheld_in_countries": []
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Circle",
+                  "rest_id": "1405031034",
+                  "super_follow_eligible": false,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/YnsvZww4WF",
+          "expanded_url": "https://x.com/JulianGoldieSEO/status/2010180225108508760/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2010179793875283970",
+          "indices": [
+            244,
+            267
+          ],
+          "media_key": "13_2010179793875283970",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2010179793875283970/img/DMQCff0JPeYZt23R.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "source_status_id_str": "2010180225108508760",
+          "source_user_id_str": "1405031034",
+          "type": "video",
+          "url": "https://t.co/YnsvZww4WF",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 3591151,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2010179793875283970/pl/VXR-relw52glxGSw.m3u8?v=cea"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2010179793875283970/vid/avc1/480x270/RDmqS-Ad5L5nxuv2.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2010179793875283970/vid/avc1/640x360/_Uzv8ZzjfN-950N5.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2010179793875283970/vid/avc1/1280x720/H_DluiUo8znrBbJj.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2043321284113670594",
+      "url": "https://x.com/bridgemindai/status/2043321284113670594",
+      "screen_name": "bridgemindai",
+      "created_at": "Sun Apr 12 13:32:11 +0000 2026",
+      "full_text": "CLAUDE OPUS 4.6 IS NERFED.\n\nBridgeBench just proved it.\n\nLast week Claude Opus 4.6 ranked #2 on the Hallucination benchmark with an accuracy of 83.3%.\n\nToday Claude Opus 4.6 was retested and it fell to #10 on the leaderboard with an accuracy of only 68.3%.\n\nA 98% increase in https://t.co/bp1ozoeg6j",
+      "lang": "en",
+      "favorite_count": 4859,
+      "retweet_count": 450,
+      "reply_count": 310,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/bp1ozoeg6j",
+          "expanded_url": "https://x.com/bridgemindai/status/2043321284113670594/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 133,
+                  "w": 133,
+                  "x": 21,
+                  "y": 81
+                }
+              ]
+            }
+          },
+          "id_str": "2043320177505275904",
+          "indices": [
+            276,
+            299
+          ],
+          "media_key": "3_2043320177505275904",
+          "media_url_https": "https://pbs.twimg.com/media/HFtU4B6XEAABYtr.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1174,
+                "w": 2096,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1686,
+                "w": 1686,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1686,
+                "w": 1479,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1686,
+                "w": 843,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1686,
+                "w": 2096,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1686,
+            "width": 2096
+          },
+          "sizes": {
+            "large": {
+              "h": 1647,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/bp1ozoeg6j"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2043053674667077706",
+      "url": "https://x.com/tippity/status/2043053674667077706",
+      "screen_name": "tippity",
+      "created_at": "Sat Apr 11 19:48:48 +0000 2026",
+      "full_text": "@lose2em i was about to send you my whole paycheck but i saw that you have a $200 a month claude AI subscription #UnethicalFindom",
+      "lang": "en",
+      "favorite_count": 4569,
+      "retweet_count": 89,
+      "reply_count": 14,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2043138221836746762",
+      "url": "https://x.com/trq212/status/2043138221836746762",
+      "screen_name": "trq212",
+      "created_at": "Sun Apr 12 01:24:46 +0000 2026",
+      "full_text": "there's a turbotax connector in Claude Code now, so glad I procrastinated on taxes 😭",
+      "lang": "en",
+      "favorite_count": 2283,
+      "retweet_count": 81,
+      "reply_count": 112,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2043163965648515234",
+      "url": "https://x.com/bcherny/status/2043163965648515234",
+      "screen_name": "bcherny",
+      "created_at": "Sun Apr 12 03:07:04 +0000 2026",
+      "full_text": "@tengyanAI This is false. We defaulted to medium as a result of user feedback about Claude using too many tokens. When we made the change, we (1) included it in the changelog and (2) showed a dialog when you opened Claude Code so you could choose to opt out. Literally nothing sneaky about",
+      "lang": "en",
+      "favorite_count": 2230,
+      "retweet_count": 65,
+      "reply_count": 261,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    }
+  ]
+}
