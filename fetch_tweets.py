@@ -27,11 +27,11 @@ POLL_TIMEOUT = 300  # 5 minutes per actor
 
 # --- Keyword groups ---
 KEYWORD_SEARCHES = [
-    '(Claude OR "Claude Code" OR AnthropicAI) min_faves:2000',
+    '(Claude OR "Claude Code" OR "Opus 4.7" OR Anthropic OR AnthropicAI) min_faves:2000',
     '(OpenAI OR chatgpt OR sama) min_faves:2000',
     '(Gemini OR "Google AI Studio" OR Notebooklm) min_faves:2000',
     '("Jensen Huang" OR NVIDIA) min_faves:2000',
-    '(Cursor OR Huggingface OR Perplexity OR Antigravity) min_faves:2000',
+    '(Cursor OR Huggingface OR Perplexity OR Antigravity OR Codex) min_faves:2000',
     '(vibecoding OR AIAgent OR "humanoid robot" OR "Humanoid Robots" OR "Embodied AI") min_faves:2000',
     '("DAN KOE" OR "Peter Steinberger" OR OpenClaw OR "Nano banana") min_faves:2000',
     '("open source" (AI OR voice OR "text to speech" OR "image generation" OR "video generation")) min_faves:2000',
@@ -66,6 +66,8 @@ ALL_ACCOUNTS = [
     "DrJimFan", "op7418", "TechieBySA", "Kimi_Moonshot", "mckaywrigley",
     "freepik", "alex_prompter", "heyrobinai", "ciguleva", "Synthetic_Copy",
     "sama", "OpenAI",
+    # Added 2026-04-17: OpenAI Codex/Atlas team
+    "AriX", "JamesZmSun",
 ]
 ACCOUNTS_PER_BATCH = 10  # Small batches for reliable results
 
@@ -197,7 +199,7 @@ AI_SIGNAL_PATTERNS = [
     # Products & companies
     r'\b(chatgpt|openai|gpt-?\d|dall-?e|sora)\b',
     r'\bclaude\b(?!.{0,30}(le roy|makelele|van damme|chelsea|caicedo|maroc|champion))',
-    r'\b(anthropic|claude code)\b',
+    r'\b(anthropic|claude code|opus\s*\d)\b',
     r'\bgemini\b(?!.{0,20}(fourth|pond|gmmtv|performance|chanting))',
     r'\bcursor\b(?!.{0,15}(set|mouse|pointer|blink))',
     r'\b(midjourney|stable diffusion|hugging\s?face)\b',
@@ -384,7 +386,7 @@ AI_TECH_RELEVANCE_RE = re.compile(
     r'deep\s*learning|neural\s*net|training\s*data|inference|fine.?tun|'
     r'prompt|token|embedding|transformer|diffusion|'
     # AI products & companies
-    r'anthropic|sora|gpt|copilot|midjourney|grok|deepmind|codex|windsurf|replit|'
+    r'anthropic|opus|sonnet|haiku|sora|gpt|copilot|midjourney|grok|deepmind|codex|windsurf|replit|'
     r'mistral|groq|kimi|moonshot|cohere|stability\s*ai|'
     # Tech/dev terms
     r'api|sdk|framework|benchmark|open.?source|deploy|saas|'
