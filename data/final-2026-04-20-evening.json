@@ -1,0 +1,604 @@
+{
+  "date": "2026-04-20",
+  "period": "evening",
+  "fetched_at": "2026-04-20T12:02:15.233570+00:00",
+  "raw_count": 119,
+  "candidate_count": 47,
+  "final_count": 8,
+  "review_count": 37,
+  "drop_hard_count": 2,
+  "disposition_stats": {
+    "info_value": 6,
+    "low_info_content": 30,
+    "monitored_not_ai": 3,
+    "too_brief": 1,
+    "meme_or_reaction": 2,
+    "brief_mention": 2,
+    "monitored_popular": 2,
+    "off_topic": 1
+  },
+  "tweets": [
+    {
+      "tweet_id": "2045900804456923181",
+      "url": "https://x.com/sistertonin/status/2045900804456923181",
+      "screen_name": "sistertonin",
+      "created_at": "Sun Apr 19 16:22:17 +0000 2026",
+      "full_text": "chatgpt (and surely other ai companies) exploit african workers (particularly kenyans) and use them to filter the things people send to ai programs. including every bad thing you can think of. so bad that some of the workers say they need therapy. all for $1.35 - $2 an hour.",
+      "lang": "en",
+      "favorite_count": 29568,
+      "retweet_count": 8480,
+      "reply_count": 12,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2045995673330270430",
+      "url": "https://x.com/kimmonismus/status/2045995673330270430",
+      "screen_name": "kimmonismus",
+      "created_at": "Sun Apr 19 22:39:15 +0000 2026",
+      "full_text": "Claude Community in a nutshell right now https://t.co/SILk6Z8Xt0",
+      "lang": "en",
+      "favorite_count": 3598,
+      "retweet_count": 185,
+      "reply_count": 81,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/SILk6Z8Xt0",
+          "expanded_url": "https://x.com/kimmonismus/status/2045995673330270430/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 162,
+                  "w": 162,
+                  "x": 24,
+                  "y": 501
+                }
+              ]
+            }
+          },
+          "id_str": "2045995668536516608",
+          "indices": [
+            41,
+            64
+          ],
+          "media_key": "3_2045995668536516608",
+          "media_url_https": "https://pbs.twimg.com/media/HGTWOGsbYAAP7We.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 675,
+                "w": 1206,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1193,
+                "w": 1193,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1193,
+                "w": 1046,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1193,
+                "w": 597,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1193,
+                "w": 1206,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1193,
+            "width": 1206
+          },
+          "sizes": {
+            "large": {
+              "h": 1193,
+              "w": 1206
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/SILk6Z8Xt0"
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2045855808076882214",
+      "url": "https://x.com/maarcoofdezz/status/2045855808076882214",
+      "screen_name": "maarcoofdezz",
+      "created_at": "Sun Apr 19 13:23:29 +0000 2026",
+      "full_text": "Anthropic paga más de 750.000 $ al año para entender los LLMs.\n\nStanford ha publicado una conferencia de 2 horas que cubre el 80% gratis.\n\nPuede ser lo más rentable que hagas este mes.\n\n(Guárdalo, te servirá) https://t.co/7RoyRLEsZo",
+      "lang": "es",
+      "favorite_count": 3544,
+      "retweet_count": 297,
+      "reply_count": 13,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {},
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": true,
+                  "legacy": {
+                    "advertiser_account_service_levels": [
+                      "smb"
+                    ],
+                    "advertiser_account_type": "promotable_user",
+                    "analytics_type": "enabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": true,
+                    "can_media_tag": false,
+                    "created_at": "Sun Oct 24 02:42:22 +0000 2010",
+                    "customer_service_state": "",
+                    "description": "3x Forbes 30 U 30 🚀 • GP @KOLCapital💰 600+ Investments • 🤝 Adventure Capitalist 🌏 100+ countries 🏛️ Minister of IT @Liberland_org",
+                    "entities": {
+                      "description": {
+                        "user_mentions": [
+                          {
+                            "id_str": "",
+                            "indices": [
+                              25,
+                              36
+                            ],
+                            "name": "",
+                            "screen_name": "KOLCapital"
+                          },
+                          {
+                            "id_str": "",
+                            "indices": [
+                              115,
+                              129
+                            ],
+                            "name": "",
+                            "screen_name": "Liberland_org"
+                          }
+                        ]
+                      },
+                      "url": {
+                        "urls": [
+                          {
+                            "display_url": "Instagram.com/EvanLuthra",
+                            "expanded_url": "https://Instagram.com/EvanLuthra",
+                            "indices": [
+                              0,
+                              23
+                            ],
+                            "url": "https://t.co/1cEMgBGPmi"
+                          }
+                        ]
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 32268,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 393252,
+                    "following": false,
+                    "friends_count": 891,
+                    "geo_enabled": true,
+                    "has_custom_timelines": true,
+                    "has_extended_profile": true,
+                    "has_no_screen_name": false,
+                    "id_str": "206930103",
+                    "is_lifeline_institution": false,
+                    "is_translator": false,
+                    "live_following": false,
+                    "location": "Liberland",
+                    "media_count": 6989,
+                    "muting": false,
+                    "name": "Evan Luthra",
+                    "needs_phone_verification": false,
+                    "normal_followers_count": 393252,
+                    "notifications": false,
+                    "pinned_tweet_ids_str": [
+                      "2046124599453307212"
+                    ],
+                    "profile_background_color": "9AE4E8",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/206930103/1732017708",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1760869429120835584/L-RB4uQ1_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "0084B4",
+                    "protected": false,
+                    "screen_name": "EvanLuthra",
+                    "statuses_count": 22984,
+                    "suspended": false,
+                    "translator_type_enum": "None",
+                    "url": "https://t.co/1cEMgBGPmi",
+                    "verified": false,
+                    "want_retweets": false,
+                    "withheld_copyright": false,
+                    "withheld_description": "",
+                    "withheld_scope": ""
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Circle",
+                  "rest_id": "206930103",
+                  "super_follow_eligible": false,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/7RoyRLEsZo",
+          "expanded_url": "https://x.com/EvanLuthra/status/2045277786005197228/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2045276582911295488",
+          "indices": [
+            209,
+            232
+          ],
+          "media_key": "13_2045276582911295488",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2045276582911295488/img/AuyW_cQnNvB2tXWR.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "source_status_id_str": "2045277786005197228",
+          "source_user_id_str": "206930103",
+          "type": "video",
+          "url": "https://t.co/7RoyRLEsZo",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 6257533,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2045276582911295488/pl/SurOPtVjBz9l3HVW.m3u8?v=285"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2045276582911295488/vid/avc1/480x270/tks-Ulgvvt05MfsI.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2045276582911295488/vid/avc1/640x360/uSfNW76HlZ-Jvjbt.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2045276582911295488/vid/avc1/1280x720/UENImzWnU34Iu0Yq.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2045276582911295488/vid/avc1/1920x1080/y3KkhMnQo6BfpZb3.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2046106776232444392",
+      "url": "https://x.com/hanifproduktif/status/2046106776232444392",
+      "screen_name": "hanifproduktif",
+      "created_at": "Mon Apr 20 06:00:44 +0000 2026",
+      "full_text": "Teknologi deteksi makanan MBG berbasis AI \n\nBudget: 300 milyar \nCost: $20 Claude Pro subscription. 1 shot prompt \n\nCAIRRRRRRR https://t.co/DA4yG3U2rX",
+      "lang": "in",
+      "favorite_count": 2951,
+      "retweet_count": 454,
+      "reply_count": 117,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/DA4yG3U2rX",
+          "expanded_url": "https://x.com/hanifproduktif/status/2046106776232444392/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2046106770087784448",
+          "indices": [
+            126,
+            149
+          ],
+          "media_key": "3_2046106770087784448",
+          "media_url_https": "https://pbs.twimg.com/media/HGU7REOasAA8X2C.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 660,
+                "w": 1179,
+                "x": 0,
+                "y": 230
+              },
+              {
+                "h": 1179,
+                "w": 1179,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1319,
+                "w": 1157,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1319,
+                "w": 660,
+                "x": 98,
+                "y": 0
+              },
+              {
+                "h": 1319,
+                "w": 1179,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1319,
+            "width": 1179
+          },
+          "sizes": {
+            "large": {
+              "h": 1319,
+              "w": 1179
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/DA4yG3U2rX"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2045804609554235659",
+      "url": "https://x.com/rubenhassid/status/2045804609554235659",
+      "screen_name": "rubenhassid",
+      "created_at": "Sun Apr 19 10:00:02 +0000 2026",
+      "full_text": "How to set up Claude so it never forgets you:\n\nPrompts → Projects → Skills (explained in 3 mins)\n\nPrompts = telling a stranger your job every morning.\nProjects = giving a new hire a binder on day one.\nSkills = training an employee once. For forever.\n\nStep 1: Start with a Prompt https://t.co/cp3YMPNxat",
+      "lang": "en",
+      "favorite_count": 2889,
+      "retweet_count": 429,
+      "reply_count": 50,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/cp3YMPNxat",
+          "expanded_url": "https://x.com/rubenhassid/status/2045804609554235659/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2045782666616963073",
+          "indices": [
+            279,
+            302
+          ],
+          "media_key": "3_2045782666616963073",
+          "media_url_https": "https://pbs.twimg.com/media/HGQUfwtbAAE75yi.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1814,
+                "w": 3240,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 3240,
+                "w": 3240,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 3694,
+                "w": 3240,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 4050,
+                "w": 2025,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 4050,
+                "w": 3240,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 4050,
+            "width": 3240
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1638
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/cp3YMPNxat"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2046006750633938982",
+      "url": "https://x.com/Hesamation/status/2046006750633938982",
+      "screen_name": "Hesamation",
+      "created_at": "Sun Apr 19 23:23:16 +0000 2026",
+      "full_text": "the API keys you didn’t let Claude read are being sold for $2M by Vercel hackers.",
+      "lang": "en",
+      "favorite_count": 2195,
+      "retweet_count": 69,
+      "reply_count": 14,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2045807424188170589",
+      "url": "https://x.com/sarpstar/status/2045807424188170589",
+      "screen_name": "sarpstar",
+      "created_at": "Sun Apr 19 10:11:13 +0000 2026",
+      "full_text": "Viktor X'te tasarım tarafında takip ettiğim tartışmasız en iyi isimlerden biri.\n\nAdamın çıkardığı işler her seferinde estetikten yıkılıyor.\n\nVe şimdi Claude Design + Opus 4.7 üzerine 18 dakikalık tutorial çıkarmış.\n\nKendi adıma bu videoyu izledikten sonra tasarımlarınızın tamamen",
+      "lang": "tr",
+      "favorite_count": 2191,
+      "retweet_count": 100,
+      "reply_count": 20,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2045883787180118523",
+      "url": "https://x.com/EHuanglu/status/2045883787180118523",
+      "screen_name": "EHuanglu",
+      "created_at": "Sun Apr 19 15:14:40 +0000 2026",
+      "full_text": "$25 AI animation.. worth $500k just 2 months ago https://t.co/L8Wzew7mNo",
+      "lang": "en",
+      "favorite_count": 2113,
+      "retweet_count": 136,
+      "reply_count": 99,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/L8Wzew7mNo",
+          "expanded_url": "https://x.com/EHuanglu/status/2045883787180118523/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2045883694284771328",
+          "indices": [
+            49,
+            72
+          ],
+          "media_key": "13_2045883694284771328",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2045883694284771328/img/SRbgpfRebHX70g-B.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/L8Wzew7mNo",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 44933,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2045883694284771328/pl/UHw6Jlj3BEMQNYr5.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2045883694284771328/vid/avc1/480x270/eFFs9MkHXefGos4W.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2045883694284771328/vid/avc1/640x360/tc-WeZwPWZamwYnn.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2045883694284771328/vid/avc1/1280x720/4h0o4CS46skyWm4i.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2045883694284771328/vid/avc1/1920x1080/tSzXG6IyQ20eqTtt.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    }
+  ]
+}
