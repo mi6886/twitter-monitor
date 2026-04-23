@@ -28,7 +28,7 @@ POLL_TIMEOUT = 300  # 5 minutes per actor
 # --- Keyword groups ---
 KEYWORD_SEARCHES = [
     '(Claude OR "Claude Code" OR "Opus 4.7" OR Anthropic OR AnthropicAI) min_faves:2000',
-    '(OpenAI OR chatgpt OR sama) min_faves:2000',
+    '(OpenAI OR chatgpt OR sama OR "GPT-Image-2") min_faves:2000',
     '(Gemini OR "Google AI Studio" OR Notebooklm) min_faves:2000',
     '("Jensen Huang" OR NVIDIA) min_faves:2000',
     '(Cursor OR Huggingface OR Perplexity OR Antigravity OR Codex) min_faves:2000',
@@ -197,7 +197,7 @@ def extract_tweet(tweet):
 # Core AI/tech signal patterns (case-insensitive)
 AI_SIGNAL_PATTERNS = [
     # Products & companies
-    r'\b(chatgpt|openai|gpt-?\d|dall-?e|sora)\b',
+    r'\b(chatgpt|openai|gpt-?\d|gpt[-\s]?image[-\s]?\d|dall-?e|sora)\b',
     r'\bclaude\b(?!.{0,30}(le roy|makelele|van damme|chelsea|caicedo|maroc|champion))',
     r'\b(anthropic|claude code|opus\s*\d)\b',
     r'\bgemini\b(?!.{0,20}(fourth|pond|gmmtv|performance|chanting))',
