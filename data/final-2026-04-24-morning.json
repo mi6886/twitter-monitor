@@ -1,0 +1,1479 @@
+{
+  "date": "2026-04-24",
+  "period": "morning",
+  "fetched_at": "2026-04-23T23:37:04.203415+00:00",
+  "raw_count": 124,
+  "candidate_count": 82,
+  "final_count": 27,
+  "review_count": 48,
+  "drop_hard_count": 7,
+  "disposition_stats": {
+    "low_info_content": 35,
+    "monitored_popular": 15,
+    "info_value": 12,
+    "off_topic": 6,
+    "monitored_not_ai": 7,
+    "meme_or_reaction": 4,
+    "weak_signal_untrusted": 1,
+    "brief_mention": 1,
+    "offensive": 1
+  },
+  "tweets": [
+    {
+      "tweet_id": "2047376561205325845",
+      "url": "https://x.com/OpenAI/status/2047376561205325845",
+      "screen_name": "OpenAI",
+      "created_at": "Thu Apr 23 18:06:25 +0000 2026",
+      "full_text": "Introducing GPT-5.5\n\nA new class of intelligence for real work and powering agents, built to understand complex goals, use tools, check its work, and carry more tasks through to completion. It marks a new way of getting computer work done.\n\nNow available in ChatGPT and Codex. https://t.co/rPLTk99ZH5",
+      "lang": "en",
+      "favorite_count": 34712,
+      "retweet_count": 4756,
+      "reply_count": 1664,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/rPLTk99ZH5",
+          "expanded_url": "https://x.com/OpenAI/status/2047376561205325845/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2047374439407620096",
+          "indices": [
+            277,
+            300
+          ],
+          "media_key": "13_2047374439407620096",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2047374439407620096/img/hr_j95BZ5LxS1EJT.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/rPLTk99ZH5",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 55033,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2047374439407620096/pl/xXNHts8H3WCvq_s_.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047374439407620096/vid/avc1/480x270/8gBJ-ih9j1_2txSe.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047374439407620096/vid/avc1/640x360/PDPAIFBlULb7A6zQ.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047374439407620096/vid/avc1/1280x720/AG2mbi8WYebGyWf9.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047374439407620096/vid/avc1/1920x1080/KbNwuXNHSjTOBFL9.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2047371123185287223",
+      "url": "https://x.com/ClaudeDevs/status/2047371123185287223",
+      "screen_name": "ClaudeDevs",
+      "created_at": "Thu Apr 23 17:44:48 +0000 2026",
+      "full_text": "Over the past month, some of you reported Claude Code's quality had slipped. We investigated, and published a post-mortem on the three issues we found.\n\nAll are fixed in v2.1.116+ and we’ve reset usage limits for all subscribers.",
+      "lang": "en",
+      "favorite_count": 26323,
+      "retweet_count": 1718,
+      "reply_count": 1383,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2047378253313106112",
+      "url": "https://x.com/sama/status/2047378253313106112",
+      "screen_name": "sama",
+      "created_at": "Thu Apr 23 18:13:08 +0000 2026",
+      "full_text": "GPT-5.5 is here! We hope it's useful to you. I personally like it.",
+      "lang": "en",
+      "favorite_count": 13470,
+      "retweet_count": 671,
+      "reply_count": 1257,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2047379615589777666",
+      "url": "https://x.com/sama/status/2047379615589777666",
+      "screen_name": "sama",
+      "created_at": "Thu Apr 23 18:18:33 +0000 2026",
+      "full_text": "1. We believe in iterative deployment; although GPT-5.5 is already a smart model, we expect rapid improvements. Iterative deployment is a big part of our safety strategy; we believe the world will be best equipped to win at the team sport of AI resilience this way.\n\n2. We believe",
+      "lang": "en",
+      "favorite_count": 6084,
+      "retweet_count": 391,
+      "reply_count": 542,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2047343581669507200",
+      "url": "https://x.com/DarrigoMelanie/status/2047343581669507200",
+      "screen_name": "DarrigoMelanie",
+      "created_at": "Thu Apr 23 15:55:22 +0000 2026",
+      "full_text": "Trump’s billionaire allies will now control:\n\nCNN, Fox News, CBS, WaPo, WSJ and NY Post — plus 450 local TV stations, including news, in 95% of U.S. markets.\n\nX, Facebook, Instagram, Threads, WhatsApp, TikTok, Truth and Twitch.\n\nPlus Gemini, ChatGPT and Grok.\n\nThey’ll make sure",
+      "lang": "en",
+      "favorite_count": 6040,
+      "retweet_count": 3555,
+      "reply_count": 736,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2047387029915271445",
+      "url": "https://x.com/levelsio/status/2047387029915271445",
+      "screen_name": "levelsio",
+      "created_at": "Thu Apr 23 18:48:01 +0000 2026",
+      "full_text": "I can't believe we were right\n\nClaude was dumbified on March 4, just when we noticed! https://t.co/vLU30mncVt",
+      "lang": "en",
+      "favorite_count": 4886,
+      "retweet_count": 219,
+      "reply_count": 166,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/vLU30mncVt",
+          "expanded_url": "https://x.com/levelsio/status/2047387029915271445/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2047387024496181249",
+          "indices": [
+            86,
+            109
+          ],
+          "media_key": "3_2047387024496181249",
+          "media_url_https": "https://pbs.twimg.com/media/HGnHprjWwAETtZ6.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 739,
+                "w": 1320,
+                "x": 0,
+                "y": 191
+              },
+              {
+                "h": 1116,
+                "w": 1116,
+                "x": 2,
+                "y": 0
+              },
+              {
+                "h": 1116,
+                "w": 979,
+                "x": 71,
+                "y": 0
+              },
+              {
+                "h": 1116,
+                "w": 558,
+                "x": 281,
+                "y": 0
+              },
+              {
+                "h": 1116,
+                "w": 1320,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1116,
+            "width": 1320
+          },
+          "sizes": {
+            "large": {
+              "h": 1116,
+              "w": 1320
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/vLU30mncVt"
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2047395562501411058",
+      "url": "https://x.com/sama/status/2047395562501411058",
+      "screen_name": "sama",
+      "created_at": "Thu Apr 23 19:21:55 +0000 2026",
+      "full_text": "We tried a new thing with NVIDIA to roll out Codex across a whole company and it was awesome to see it work.\n\nLet us know if you'd like to do it at your company! https://t.co/Xjn6ShrRuq",
+      "lang": "en",
+      "favorite_count": 4760,
+      "retweet_count": 219,
+      "reply_count": 327,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/Xjn6ShrRuq",
+          "expanded_url": "https://x.com/sama/status/2047395562501411058/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2047395092454162433",
+          "indices": [
+            162,
+            185
+          ],
+          "media_key": "3_2047395092454162433",
+          "media_url_https": "https://pbs.twimg.com/media/HGnO_TCbwAEBSHl.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 946,
+                "w": 1690,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1482,
+                "w": 1482,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1482,
+                "w": 1300,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1482,
+                "w": 741,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1482,
+                "w": 1690,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1482,
+            "width": 1690
+          },
+          "sizes": {
+            "large": {
+              "h": 1482,
+              "w": 1690
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Xjn6ShrRuq"
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2047377079352877534",
+      "url": "https://x.com/OpenAIDevs/status/2047377079352877534",
+      "screen_name": "OpenAIDevs",
+      "created_at": "Thu Apr 23 18:08:28 +0000 2026",
+      "full_text": "GPT-5.5 is here.\n\nIt’s our smartest frontier model yet, introducing a new class of intelligence for agentic coding, computer use, knowledge work, and scientific research.\n\nRolling out in ChatGPT and Codex today. API is coming soon. https://t.co/KS3Q0hB4bG",
+      "lang": "en",
+      "favorite_count": 4345,
+      "retweet_count": 456,
+      "reply_count": 160,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {},
+          "display_url": "pic.x.com/KS3Q0hB4bG",
+          "expanded_url": "https://x.com/OpenAIDevs/status/2047377079352877534/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2047376903812870144",
+          "indices": [
+            232,
+            255
+          ],
+          "media_key": "13_2047376903812870144",
+          "media_url_https": "https://pbs.twimg.com/media/HGnNQvRagAAdU6b.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/KS3Q0hB4bG",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 87504,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2047376903812870144/pl/Qm6TkFVkKKd7xEcl.m3u8?tag=14&v=a66"
+              },
+              {
+                "bitrate": 288000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047376903812870144/vid/avc1/480x270/jAp3kIm-Wu1HShfR.mp4?tag=14"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047376903812870144/vid/avc1/640x360/tOOB4RfOqyksieZP.mp4?tag=14"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047376903812870144/vid/avc1/1280x720/pDkqALGF6kAt6rwt.mp4?tag=14"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2047081532398162282",
+      "url": "https://x.com/VisualconAI/status/2047081532398162282",
+      "screen_name": "VisualconAI",
+      "created_at": "Wed Apr 22 22:34:04 +0000 2026",
+      "full_text": "🚨 ULTIMA HORA : Alguien acaba de matar la suscripción de Claude Code.\n\nSe llama free-claude-code. Un proxy open-source que convierte las llamadas a la API de Anthropic al formato NVIDIA NIM, y te da 40 requests por minuto completamente gratis.\n\nLa config tarda 2 minutos: https://t.co/WHweI975aI",
+      "lang": "es",
+      "favorite_count": 4029,
+      "retweet_count": 333,
+      "reply_count": 38,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/WHweI975aI",
+          "expanded_url": "https://x.com/VisualconAI/status/2047081532398162282/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 82,
+                  "w": 82,
+                  "x": 145,
+                  "y": 635
+                }
+              ]
+            }
+          },
+          "id_str": "2047081527578865664",
+          "indices": [
+            272,
+            295
+          ],
+          "media_key": "3_2047081527578865664",
+          "media_url_https": "https://pbs.twimg.com/media/HGixza2aMAAQEiU.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 672,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1200,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1368,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1402,
+                "w": 701,
+                "x": 250,
+                "y": 0
+              },
+              {
+                "h": 1402,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1402,
+            "width": 1200
+          },
+          "sizes": {
+            "large": {
+              "h": 1402,
+              "w": 1200
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/WHweI975aI"
+        },
+        {
+          "display_url": "pic.x.com/WHweI975aI",
+          "expanded_url": "https://x.com/VisualconAI/status/2047081532398162282/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2047081530347102208",
+          "indices": [
+            272,
+            295
+          ],
+          "media_key": "3_2047081530347102208",
+          "media_url_https": "https://pbs.twimg.com/media/HGixzlKaIAADOGs.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 393,
+                "w": 701,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 700,
+                "w": 700,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 700,
+                "w": 614,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 700,
+                "w": 350,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 700,
+                "w": 701,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 700,
+            "width": 701
+          },
+          "sizes": {
+            "large": {
+              "h": 700,
+              "w": 701
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/WHweI975aI"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2047378431260664058",
+      "url": "https://x.com/sama/status/2047378431260664058",
+      "screen_name": "sama",
+      "created_at": "Thu Apr 23 18:13:51 +0000 2026",
+      "full_text": "Also, a ton of new Codex features coming soon! Fun little bundle w/the new model.",
+      "lang": "en",
+      "favorite_count": 3903,
+      "retweet_count": 120,
+      "reply_count": 267,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2047377969614872870",
+      "url": "https://x.com/thsottiaux/status/2047377969614872870",
+      "screen_name": "thsottiaux",
+      "created_at": "Thu Apr 23 18:12:01 +0000 2026",
+      "full_text": "Introducing GPT-5.5... together with a ton of new Codex features (more on those in the next hour).\n\nIncluded in all paid plans and coming to API soon. Update your Codex app or CLI to use it.\n\nhttps://t.co/lgvo3KErjt",
+      "lang": "en",
+      "favorite_count": 3578,
+      "retweet_count": 213,
+      "reply_count": 240,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2047421844311949513",
+      "url": "https://x.com/claudeai/status/2047421844311949513",
+      "screen_name": "claudeai",
+      "created_at": "Thu Apr 23 21:06:21 +0000 2026",
+      "full_text": "Memory on Claude Managed Agents is now in public beta.\n\nYour agents can now learn from every session, using an intelligence-optimized memory layer that balances performance with flexibility. https://t.co/P7GjOYPqCz",
+      "lang": "en",
+      "favorite_count": 3525,
+      "retweet_count": 233,
+      "reply_count": 164,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/P7GjOYPqCz",
+          "expanded_url": "https://x.com/claudeai/status/2047421844311949513/photo/1",
+          "ext_alt_text": "Memory on Claude Managed Agents is now in public beta",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 133,
+                  "w": 133,
+                  "x": 867,
+                  "y": 664
+                },
+                {
+                  "h": 241,
+                  "w": 241,
+                  "x": 997,
+                  "y": 617
+                }
+              ]
+            }
+          },
+          "id_str": "2047411612013780992",
+          "indices": [
+            191,
+            214
+          ],
+          "media_key": "3_2047411612013780992",
+          "media_url_https": "https://pbs.twimg.com/media/HGneA3MXYAAfUnH.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 2150,
+                "w": 3840,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2160,
+                "w": 2160,
+                "x": 1680,
+                "y": 0
+              },
+              {
+                "h": 2160,
+                "w": 1895,
+                "x": 1945,
+                "y": 0
+              },
+              {
+                "h": 2160,
+                "w": 1080,
+                "x": 2760,
+                "y": 0
+              },
+              {
+                "h": 2160,
+                "w": 3840,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 2160,
+            "width": 3840
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/P7GjOYPqCz"
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2047277212924047764",
+      "url": "https://x.com/PakStartup/status/2047277212924047764",
+      "screen_name": "PakStartup",
+      "created_at": "Thu Apr 23 11:31:38 +0000 2026",
+      "full_text": "Sualeh Asif, a 26-year-old Pakistani from Karachi, has become a billionaire after his AI coding startup Cursor reached a $29.3 billion valuation.\n\nA former math Olympiad participant who studied at MIT, he is now Chief Product Officer at Anysphere, the company behind Cursor. The https://t.co/J8LRfOwYGj",
+      "lang": "en",
+      "favorite_count": 3375,
+      "retweet_count": 566,
+      "reply_count": 60,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/J8LRfOwYGj",
+          "expanded_url": "https://x.com/PakStartup/status/2047277212924047764/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 265,
+                  "w": 265,
+                  "x": 400,
+                  "y": 240
+                },
+                {
+                  "h": 228,
+                  "w": 228,
+                  "x": 200,
+                  "y": 261
+                },
+                {
+                  "h": 322,
+                  "w": 322,
+                  "x": 612,
+                  "y": 237
+                }
+              ]
+            }
+          },
+          "id_str": "2047277209274974208",
+          "indices": [
+            279,
+            302
+          ],
+          "media_key": "3_2047277209274974208",
+          "media_url_https": "https://pbs.twimg.com/media/HGljxl-WgAANn7Y.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 605,
+                "w": 1081,
+                "x": 0,
+                "y": 696
+              },
+              {
+                "h": 1081,
+                "w": 1081,
+                "x": 0,
+                "y": 220
+              },
+              {
+                "h": 1232,
+                "w": 1081,
+                "x": 0,
+                "y": 69
+              },
+              {
+                "h": 1301,
+                "w": 651,
+                "x": 215,
+                "y": 0
+              },
+              {
+                "h": 1301,
+                "w": 1081,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1301,
+            "width": 1081
+          },
+          "sizes": {
+            "large": {
+              "h": 1301,
+              "w": 1081
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/J8LRfOwYGj"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2047190578493096122",
+      "url": "https://x.com/Kimi_Moonshot/status/2047190578493096122",
+      "screen_name": "Kimi_Moonshot",
+      "created_at": "Thu Apr 23 05:47:23 +0000 2026",
+      "full_text": "Meet Kimi K2.6 Agent Swarm 👋\n\nHighlights： \n🔹 Swarms, elevated - 300 parallel sub-agents × 4,000 steps per run (up from 100 / 1,500 in K2.5). \n\n🔹 Outputs are real files, not chat - one run delivers 100+ files, 100,000-word literature reviews, or 20,000-row datasets. https://t.co/IZ2KljFdez",
+      "lang": "en",
+      "favorite_count": 3050,
+      "retweet_count": 260,
+      "reply_count": 93,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/IZ2KljFdez",
+          "expanded_url": "https://x.com/Kimi_Moonshot/status/2047190578493096122/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2047186767548399616",
+          "indices": [
+            266,
+            289
+          ],
+          "media_key": "13_2047186767548399616",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2047186767548399616/img/xV75ww_Dyw4w4qeM.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/IZ2KljFdez",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 37337,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2047186767548399616/pl/VnHB8j-5fiMJ_6UK.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047186767548399616/vid/avc1/480x270/I547yyykH6EyU19s.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047186767548399616/vid/avc1/640x360/skRjma2UHAyGhiGd.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047186767548399616/vid/avc1/1280x720/D60f78FOXJztt4xl.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047186767548399616/vid/avc1/1920x1080/Sovd7SR94lqpOcg3.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2047386068194852963",
+      "url": "https://x.com/sama/status/2047386068194852963",
+      "screen_name": "sama",
+      "created_at": "Thu Apr 23 18:44:11 +0000 2026",
+      "full_text": "Really excellent work by the inference team to serve this model so efficiently!\n\nTo a significant degree, we have to become an AI inference company now.",
+      "lang": "en",
+      "favorite_count": 3036,
+      "retweet_count": 87,
+      "reply_count": 189,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2047381283358355706",
+      "url": "https://x.com/OpenAIDevs/status/2047381283358355706",
+      "screen_name": "OpenAIDevs",
+      "created_at": "Thu Apr 23 18:25:11 +0000 2026",
+      "full_text": "With GPT-5.5, Codex now gets more of the job done across the browser, files, docs, and your computer.\n\nWe've expanded browser use so Codex can interact with web apps, and test flows, click through pages, capture screenshots, and iterate on what it sees until it completes the https://t.co/rUguNHIcIB",
+      "lang": "en",
+      "favorite_count": 2873,
+      "retweet_count": 231,
+      "reply_count": 80,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/rUguNHIcIB",
+          "expanded_url": "https://x.com/OpenAIDevs/status/2047381283358355706/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2047381225476886528",
+          "indices": [
+            276,
+            299
+          ],
+          "media_key": "13_2047381225476886528",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2047381225476886528/img/2qjW6vuML5tSHclQ.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 2160,
+            "width": 3840
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/rUguNHIcIB",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 20366,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2047381225476886528/pl/YxlvQp9uC28XX7Q3.m3u8?tag=14"
+              },
+              {
+                "bitrate": 288000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047381225476886528/vid/avc1/480x270/T8NNyClHR_0fBQTc.mp4?tag=14"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047381225476886528/vid/avc1/640x360/r41P6bbHJegWG_ch.mp4?tag=14"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047381225476886528/vid/avc1/1280x720/BW-edN2IaVwko1OU.mp4?tag=14"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2047376562916581513",
+      "url": "https://x.com/OpenAI/status/2047376562916581513",
+      "screen_name": "OpenAI",
+      "created_at": "Thu Apr 23 18:06:25 +0000 2026",
+      "full_text": "GPT-5.5 excels at writing and debugging code, researching online, analyzing data, creating documents and spreadsheets, operating software, and moving across tools until a task is finished.\n\nThe gains are especially clear in agentic coding, computer use, knowledge work, and early",
+      "lang": "en",
+      "favorite_count": 2836,
+      "retweet_count": 174,
+      "reply_count": 62,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2047347101542011353",
+      "url": "https://x.com/PeterDiamandis/status/2047347101542011353",
+      "screen_name": "PeterDiamandis",
+      "created_at": "Thu Apr 23 16:09:21 +0000 2026",
+      "full_text": "A humanoid robot will cost us $30K and works 24/7 for $0.40/hour. A solar panel generates electricity for 3 cents/kWh. What exactly is the argument that we CAN'T create abundance?",
+      "lang": "en",
+      "favorite_count": 2630,
+      "retweet_count": 247,
+      "reply_count": 798,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2047097343233737167",
+      "url": "https://x.com/adiix_official/status/2047097343233737167",
+      "screen_name": "adiix_official",
+      "created_at": "Wed Apr 22 23:36:54 +0000 2026",
+      "full_text": "You could literally:\n\n&gt; Open a Polymarket account\n&gt; Deposit $4\n&gt; Point Claude Opus 4.7 \n&gt; Let it find YES + NO &lt; $1\n&gt; Sleep while it arbitrages sportsbooks\n&gt; Wake up richer every morning\n\nWhy aren’t people doing this?! https://t.co/XXJYpiQ7Ra",
+      "lang": "en",
+      "favorite_count": 2619,
+      "retweet_count": 124,
+      "reply_count": 95,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/XXJYpiQ7Ra",
+          "expanded_url": "https://x.com/adiix_official/status/2047097343233737167/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2047097277995466752",
+          "indices": [
+            240,
+            263
+          ],
+          "media_key": "13_2047097277995466752",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2047097277995466752/img/rCGg0qltAGLBBh3_.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/XXJYpiQ7Ra",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 25300,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2047097277995466752/pl/RC-wM6ZwgWZANuTn.m3u8?v=169"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047097277995466752/vid/avc1/480x270/zzPJZuQLIj5O5HV8.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047097277995466752/vid/avc1/640x360/4V0rVDQkefSy2TPh.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047097277995466752/vid/avc1/1280x720/-pyolRnAiQMdzG8A.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2047208911200305153",
+      "url": "https://x.com/kimmonismus/status/2047208911200305153",
+      "screen_name": "kimmonismus",
+      "created_at": "Thu Apr 23 07:00:14 +0000 2026",
+      "full_text": "Quick update to GPT-5.5 / Spud:\n\nAI labs are shifting back toward making models smarter during pretraining rather than leaning on reasoning (test-time compute) to boost performance. OpenAI's Spud and Anthropic's Mythos both appear to reflect this trend, getting better answers https://t.co/mS4YITqvUz",
+      "lang": "en",
+      "favorite_count": 2324,
+      "retweet_count": 113,
+      "reply_count": 80,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/mS4YITqvUz",
+          "expanded_url": "https://x.com/kimmonismus/status/2047208911200305153/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2047208907425345536",
+          "indices": [
+            277,
+            300
+          ],
+          "media_key": "3_2047208907425345536",
+          "media_url_https": "https://pbs.twimg.com/media/HGklp5wacAAOmE4.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1318,
+                "w": 2354,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1432,
+                "w": 1432,
+                "x": 461,
+                "y": 0
+              },
+              {
+                "h": 1432,
+                "w": 1256,
+                "x": 549,
+                "y": 0
+              },
+              {
+                "h": 1432,
+                "w": 716,
+                "x": 819,
+                "y": 0
+              },
+              {
+                "h": 1432,
+                "w": 2354,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1432,
+            "width": 2354
+          },
+          "sizes": {
+            "large": {
+              "h": 1246,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/mS4YITqvUz"
+        }
+      ],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2047228760412274798",
+      "url": "https://x.com/AshCrypto/status/2047228760412274798",
+      "screen_name": "AshCrypto",
+      "created_at": "Thu Apr 23 08:19:06 +0000 2026",
+      "full_text": "THIS IS INSANE\n\nThis anthropic engineer turned $200 into $14,300 in Polymarket trading bot running Claude Code that analyzes 86M trades and ranks wallets by win rate and profit.\n\nThe system uses AI to scan 14,000 wallets in minutes and filter trades. \n\nIt only makes 10 trades https://t.co/paD5KRnDjg",
+      "lang": "en",
+      "favorite_count": 2312,
+      "retweet_count": 318,
+      "reply_count": 311,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/paD5KRnDjg",
+          "expanded_url": "https://x.com/AshCrypto/status/2047228760412274798/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2047228703013265408",
+          "indices": [
+            277,
+            300
+          ],
+          "media_key": "13_2047228703013265408",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2047228703013265408/img/C02QwO8bX2FnJZQz.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1400,
+            "width": 1200
+          },
+          "sizes": {
+            "large": {
+              "h": 1400,
+              "w": 1200
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/paD5KRnDjg",
+          "video_info": {
+            "aspect_ratio": [
+              6,
+              7
+            ],
+            "duration_millis": 19383,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2047228703013265408/pl/yRRlXvzp47ZJdF7x.m3u8"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047228703013265408/vid/avc1/320x372/cG5E5UsCMTC-l8j4.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047228703013265408/vid/avc1/480x560/Si09iK8L-ma5Y67m.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047228703013265408/vid/avc1/720x840/z3I_18Twx_paqIRx.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2047228703013265408/vid/avc1/1200x1400/a1uA3zcrgmetLVqj.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2047386593410044113",
+      "url": "https://x.com/ChatGPTapp/status/2047386593410044113",
+      "screen_name": "ChatGPTapp",
+      "created_at": "Thu Apr 23 18:46:17 +0000 2026",
+      "full_text": "GPT-5.5, a new step-up in intelligence, is available in ChatGPT for all paid plans, rolling out now.",
+      "lang": "en",
+      "favorite_count": 2292,
+      "retweet_count": 141,
+      "reply_count": 95,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    },
+    {
+      "tweet_id": "2047244362220806235",
+      "url": "https://x.com/dawn_com/status/2047244362220806235",
+      "screen_name": "dawn_com",
+      "created_at": "Thu Apr 23 09:21:06 +0000 2026",
+      "full_text": "Cursor, an AI startup co-founded by Pakistani-born Sualeh Asif, has secured a $60 billion acquisition deal with Elon Musk’s SpaceX, according to multiple reports.\n\nhttps://t.co/4pGg9mj4Mz",
+      "lang": "en",
+      "favorite_count": 2192,
+      "retweet_count": 478,
+      "reply_count": 28,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2047379285107691835",
+      "url": "https://x.com/theo/status/2047379285107691835",
+      "screen_name": "theo",
+      "created_at": "Thu Apr 23 18:17:14 +0000 2026",
+      "full_text": "$5 per mil in, $30 per mil out.\n\nGPT-5.5 is smart. I've been using it for a bit. It's also weird, hard to wrangle, and too expensive IMO.\n\nDouble the price of GPT-5.4. 20% more expensive than Opus 4.7.",
+      "lang": "en",
+      "favorite_count": 2171,
+      "retweet_count": 42,
+      "reply_count": 130,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2047271090683363761",
+      "url": "https://x.com/AuroraMar1eL/status/2047271090683363761",
+      "screen_name": "AuroraMar1eL",
+      "created_at": "Thu Apr 23 11:07:19 +0000 2026",
+      "full_text": "🚨 BREAKING: Claude can now build your entire resume and LinkedIn profile like a $500/hour executive recruiter from Robert Half. For free.\n\nHere are 11 prompts that get you interview calls within 7 days:\n\n(Save this before it disappears) https://t.co/qgVGyMPGEH",
+      "lang": "en",
+      "favorite_count": 2150,
+      "retweet_count": 216,
+      "reply_count": 28,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/qgVGyMPGEH",
+          "expanded_url": "https://x.com/AuroraMar1eL/status/2047271090683363761/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2047271088737103872",
+          "indices": [
+            237,
+            260
+          ],
+          "media_key": "3_2047271088737103872",
+          "media_url_https": "https://pbs.twimg.com/media/HGleNVMaMAAN31a.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 672,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 675,
+                "x": 113,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 592,
+                "x": 154,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 338,
+                "x": 281,
+                "y": 0
+              },
+              {
+                "h": 675,
+                "w": 1200,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 675,
+            "width": 1200
+          },
+          "sizes": {
+            "large": {
+              "h": 675,
+              "w": 1200
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/qgVGyMPGEH"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2047381460437635313",
+      "url": "https://x.com/polynoamial/status/2047381460437635313",
+      "screen_name": "polynoamial",
+      "created_at": "Thu Apr 23 18:25:53 +0000 2026",
+      "full_text": "I'm a manager at @OpenAI, but with GPT-5.5 I'm a more effective IC than I've ever been. I can now write CUDA kernels like a pro. I can rely on it to run my research experiments. And we know how to make it much more powerful from here. https://t.co/6n2uAYCtTf",
+      "lang": "en",
+      "favorite_count": 2142,
+      "retweet_count": 123,
+      "reply_count": 72,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/6n2uAYCtTf",
+          "expanded_url": "https://x.com/polynoamial/status/2047381460437635313/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2047380043572350976",
+          "indices": [
+            235,
+            258
+          ],
+          "media_key": "3_2047380043572350976",
+          "media_url_https": "https://pbs.twimg.com/media/HGnBTVlakAAUS_G.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1094,
+                "w": 1954,
+                "x": 759,
+                "y": 0
+              },
+              {
+                "h": 1094,
+                "w": 1094,
+                "x": 1189,
+                "y": 0
+              },
+              {
+                "h": 1094,
+                "w": 960,
+                "x": 1256,
+                "y": 0
+              },
+              {
+                "h": 1094,
+                "w": 547,
+                "x": 1463,
+                "y": 0
+              },
+              {
+                "h": 1094,
+                "w": 2782,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1094,
+            "width": 2782
+          },
+          "sizes": {
+            "large": {
+              "h": 805,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/6n2uAYCtTf"
+        }
+      ],
+      "candidate_reason": "ai_signal",
+      "disposition": "keep",
+      "disposition_reason": "info_value"
+    },
+    {
+      "tweet_id": "2047375800945783056",
+      "url": "https://x.com/bcherny/status/2047375800945783056",
+      "screen_name": "bcherny",
+      "created_at": "Thu Apr 23 18:03:24 +0000 2026",
+      "full_text": "We’ve been looking into recent reports around Claude Code quality issues, and just published a post-mortem on what we found.",
+      "lang": "en",
+      "favorite_count": 2109,
+      "retweet_count": 81,
+      "reply_count": 240,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "keep",
+      "disposition_reason": "monitored_popular"
+    }
+  ]
+}
