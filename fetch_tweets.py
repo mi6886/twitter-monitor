@@ -16,6 +16,8 @@ from urllib.request import Request, urlopen
 from urllib.parse import urlencode
 from urllib.error import HTTPError
 
+import llm_scoring
+
 APIFY_TOKEN = os.environ["APIFY_TOKEN"]
 APIFY_BASE = "https://api.apify.com/v2"
 ACTOR_ID = "xtdata~twitter-x-scraper"
@@ -321,84 +323,77 @@ def main():
     raw_file.write_text(json.dumps(raw_result, ensure_ascii=False, indent=2))
     print(f"\nSaved {len(all_tweets)} raw tweets to {raw_file}")
 
-    # --- Generate candidate file (first-pass coarse filter on raw) ---
-    candidate_tweets = []
-    filter_stats = {"monitored_account": 0, "ai_signal": 0,
-                    "too_short": 0, "reject_pattern": 0, "no_ai_signal": 0}
-    for tweet in all_tweets:
-        passed, reason = candidate_filter(tweet)
-        filter_stats[reason] = filter_stats.get(reason, 0) + 1
-        if passed:
-            tweet_with_source = dict(tweet)
-            tweet_with_source["candidate_reason"] = reason
-            candidate_tweets.append(tweet_with_source)
+    # --- LLM scoring (replaces regex candidate + final filters) ---
+    print(f"\nLLM scoring {len(all_tweets)} tweets via OpenRouter (Haiku 4.5)...")
+    scored_tweets = llm_scoring.run_llm_scoring(all_tweets)
 
-    candidate_result = {
+    # Sort by total_score descending
+    scored_tweets.sort(key=lambda t: t.get("total_score", 0), reverse=True)
+
+    fallback_count = sum(1 for t in scored_tweets if t.get("_fallback"))
+    keep_tweets = [t for t in scored_tweets if t.get("verdict") == "keep"]
+    drop_tweets = [t for t in scored_tweets if t.get("verdict") == "drop"]
+
+    def _bucket(t):
+        s = t.get("total_score", 0)
+        if s >= 50:
+            return "must_do"
+        if s >= 35:
+            return "priority"
+        if s >= 20:
+            return "backup"
+        return "drop"
+
+    score_distribution = {">=50": 0, "35-49": 0, "20-34": 0, "<20": 0}
+    for t in scored_tweets:
+        s = t.get("total_score", 0)
+        if s >= 50:
+            score_distribution[">=50"] += 1
+        elif s >= 35:
+            score_distribution["35-49"] += 1
+        elif s >= 20:
+            score_distribution["20-34"] += 1
+        else:
+            score_distribution["<20"] += 1
+
+    # --- Save scored-*.json (ALL scored tweets with full breakdown) ---
+    scored_result = {
         "date": today,
         "period": period,
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "raw_count": len(all_tweets),
-        "candidate_count": len(candidate_tweets),
-        "filter_stats": filter_stats,
-        "tweets": candidate_tweets,
+        "scored_count": len(scored_tweets),
+        "keep_count": len(keep_tweets),
+        "drop_count": len(drop_tweets),
+        "fallback_count": fallback_count,
+        "score_distribution": score_distribution,
+        "tweets": scored_tweets,
     }
-    candidate_file = output_dir / f"candidate-{today}-{period}.json"
-    candidate_file.write_text(json.dumps(candidate_result, ensure_ascii=False, indent=2))
-    print(f"Candidate filter: {len(all_tweets)} raw → {len(candidate_tweets)} candidate")
-    print(f"  Filter stats: {filter_stats}")
-    print(f"Saved {len(candidate_tweets)} candidate tweets to {candidate_file}")
+    scored_file = output_dir / f"scored-{today}-{period}.json"
+    scored_file.write_text(json.dumps(scored_result, ensure_ascii=False, indent=2))
+    print(f"Saved {len(scored_tweets)} scored tweets to {scored_file}")
+    print(f"  Distribution: {score_distribution}")
+    if fallback_count:
+        print(f"  !! LLM fallback count: {fallback_count}")
 
-    # --- Generate final + review files (3-way disposition on candidate) ---
-    keep_tweets = []
-    review_tweets = []
-    drop_hard_tweets = []
-    disposition_stats = {}
-    for tweet in candidate_tweets:
-        disposition, reason = final_filter(tweet)
-        disposition_stats[reason] = disposition_stats.get(reason, 0) + 1
-        tw = dict(tweet)
-        tw["disposition"] = disposition
-        tw["disposition_reason"] = reason
-        if disposition == "keep":
-            keep_tweets.append(tw)
-        elif disposition == "review":
-            review_tweets.append(tw)
-        else:
-            drop_hard_tweets.append(tw)
+    # --- Save final-*.json (tier-grouped, keep only) ---
+    tiers = {"must_do": [], "priority": [], "backup": []}
+    for t in keep_tweets:
+        b = _bucket(t)
+        if b in tiers:
+            tiers[b].append(t)
 
-    # Save final file (keep only)
     final_result = {
         "date": today,
         "period": period,
         "fetched_at": datetime.now(timezone.utc).isoformat(),
-        "raw_count": len(all_tweets),
-        "candidate_count": len(candidate_tweets),
-        "final_count": len(keep_tweets),
-        "review_count": len(review_tweets),
-        "drop_hard_count": len(drop_hard_tweets),
-        "disposition_stats": disposition_stats,
-        "tweets": keep_tweets,
+        "tier_counts": {k: len(v) for k, v in tiers.items()},
+        "tiers": tiers,
     }
     final_file = output_dir / f"final-{today}-{period}.json"
     final_file.write_text(json.dumps(final_result, ensure_ascii=False, indent=2))
-
-    # Save review file (review only)
-    review_result = {
-        "date": today,
-        "period": period,
-        "fetched_at": datetime.now(timezone.utc).isoformat(),
-        "review_count": len(review_tweets),
-        "tweets": review_tweets,
-    }
-    review_file = output_dir / f"review-{today}-{period}.json"
-    review_file.write_text(json.dumps(review_result, ensure_ascii=False, indent=2))
-
-    print(f"Final filter: {len(candidate_tweets)} candidate → "
-          f"{len(keep_tweets)} keep / {len(review_tweets)} review / "
-          f"{len(drop_hard_tweets)} drop_hard")
-    print(f"  Disposition stats: {disposition_stats}")
-    print(f"Saved {len(keep_tweets)} final tweets to {final_file}")
-    print(f"Saved {len(review_tweets)} review tweets to {review_file}")
+    print(f"Saved final tiers: must_do={len(tiers['must_do'])} "
+          f"priority={len(tiers['priority'])} backup={len(tiers['backup'])}")
 
     # Update seen URLs (keep last 7 days only)
     save_seen_ids(seen_file, seen_urls, today)
