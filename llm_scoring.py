@@ -155,3 +155,35 @@ def build_user_prompt(tweets_batch: list[dict]) -> str:
         lines.append(f"likes: {tw.get('favorite_count', 0)}")
         lines.append("")
     return "\n".join(lines)
+
+
+import re as _re
+
+
+def _strip_code_fence(text: str) -> str:
+    """Strip ```json ... ``` or ``` ... ``` wrappers that Anthropic via
+    OpenRouter sometimes adds even when response_format=json_object is set."""
+    text = text.strip()
+    m = _re.match(r"^```(?:json)?\s*\n?(.*?)\n?```\s*$", text, _re.DOTALL)
+    return m.group(1).strip() if m else text
+
+
+def score_batch(tweets_batch: list[dict], max_retries: int = 2) -> list[dict]:
+    """Score up to BATCH_SIZE tweets via one LLM call. Returns list of score dicts.
+
+    NOTE: Success path only. Retry + fallback semantics added in Task 5.
+    The max_retries parameter is unused here for signature stability."""
+    client = _get_client()
+    resp = client.chat.completions.create(
+        model=MODEL,
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": build_user_prompt(tweets_batch)},
+        ],
+        response_format={"type": "json_object"},
+        temperature=0,
+        timeout=REQUEST_TIMEOUT,
+    )
+    content = resp.choices[0].message.content
+    parsed = json.loads(_strip_code_fence(content))
+    return parsed["results"]
