@@ -223,7 +223,8 @@ class TestScoreBatchSubdivide:
             self._bad_json_response(),
             # Subdivision call 1 (t0): success
             make_llm_response([make_score_result("t0")]),
-            # Subdivision call 2 (t1): bad twice (max_retries=1 -> 2 tries)
+            # Subdivision call 2 (t1): bad three times (max_retries=2 -> 3 tries)
+            self._bad_json_response(),
             self._bad_json_response(),
             self._bad_json_response(),
         ]
@@ -237,6 +238,57 @@ class TestScoreBatchSubdivide:
         by_id = {r["id"]: r for r in result}
         assert by_id["t0"].get("_fallback") is not True
         assert by_id["t1"].get("_fallback") is True
+
+    def test_empty_content_triggers_retry_then_succeeds(self):
+        """OpenRouter sometimes returns empty content under concurrent load.
+        We must treat this as a transient failure and retry, not as a final fallback."""
+        tweet = make_tweet("t1")
+
+        # First two attempts: empty content. Third: valid response.
+        empty_resp = MagicMock()
+        empty_msg = MagicMock()
+        empty_msg.content = ""
+        empty_choice = MagicMock()
+        empty_choice.message = empty_msg
+        empty_resp.choices = [empty_choice]
+
+        success_resp = make_llm_response([make_score_result("t1")])
+
+        with patch.object(llm_scoring, "_get_client") as gc, \
+             patch("llm_scoring.time.sleep"):
+            gc.return_value.chat.completions.create.side_effect = [
+                empty_resp,
+                empty_resp,
+                success_resp,
+            ]
+            result = llm_scoring.score_batch([tweet], max_retries=2)
+        assert len(result) == 1
+        assert result[0]["id"] == "t1"
+        assert result[0].get("_fallback") is not True
+
+    def test_none_content_triggers_retry(self):
+        """Defensive: content=None (vs empty string) must also retry."""
+        tweet = make_tweet("t1")
+
+        none_resp = MagicMock()
+        none_msg = MagicMock()
+        none_msg.content = None
+        none_choice = MagicMock()
+        none_choice.message = none_msg
+        none_resp.choices = [none_choice]
+
+        success_resp = make_llm_response([make_score_result("t1")])
+
+        with patch.object(llm_scoring, "_get_client") as gc, \
+             patch("llm_scoring.time.sleep"):
+            gc.return_value.chat.completions.create.side_effect = [
+                none_resp,
+                success_resp,
+            ]
+            result = llm_scoring.score_batch([tweet], max_retries=2)
+        assert len(result) == 1
+        assert result[0]["id"] == "t1"
+        assert result[0].get("_fallback") is not True
 
 
 from fetch_tweets import is_noise, NOISE_ACCOUNTS

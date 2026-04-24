@@ -19,7 +19,7 @@ from openai import OpenAI
 
 MODEL = "anthropic/claude-haiku-4.5"
 BATCH_SIZE = 10
-MAX_WORKERS = 5
+MAX_WORKERS = 3   # was 5; reduced to ease OpenRouter concurrent load
 REQUEST_TIMEOUT = 45  # seconds per LLM call
 
 SYSTEM_PROMPT = """You score tweets for their viral potential as topics for a Chinese 小红书 AI content account.
@@ -131,6 +131,12 @@ Each angle <= 50 characters, offering a distinct creative cut:
 }"""
 
 
+class EmptyLLMResponseError(RuntimeError):
+    """Raised when the LLM returns empty content (None or '') — treated as
+    a transient failure so the retry loop can give it another chance."""
+    pass
+
+
 _client: OpenAI | None = None
 
 
@@ -197,10 +203,14 @@ def score_batch(tweets_batch: list[dict], max_retries: int = 2) -> list[dict]:
 
     Failure modes (in order of preference):
     1. LLM call succeeds + JSON parses → return parsed results
-    2. LLM call fails or JSON malformed, retries available → backoff + retry
+    2. LLM call fails / empty content / JSON malformed, retries available → backoff + retry
     3. All retries exhausted, batch size > 1 → subdivide into single-tweet
-       calls (with max_retries=1 each) so one bad tweet doesn't tank the batch
+       calls (same retry budget) so one bad tweet doesn't tank the batch
     4. Single-tweet batch still failing → return fallback_score()
+
+    Empty content (None or "") is treated as a transient failure (not a
+    permanent fallback) because OpenRouter occasionally returns empty under
+    concurrent load even though direct single calls succeed.
     """
     client = _get_client()
     last_err: Exception | None = None
@@ -217,9 +227,11 @@ def score_batch(tweets_batch: list[dict], max_retries: int = 2) -> list[dict]:
                 timeout=REQUEST_TIMEOUT,
             )
             content = resp.choices[0].message.content
+            if not content:
+                raise EmptyLLMResponseError("LLM returned empty content")
             parsed = json.loads(_strip_code_fence(content))
             return parsed["results"]
-        except Exception as e:  # noqa: BLE001 — OpenAI SDK raises many types
+        except Exception as e:  # noqa: BLE001
             last_err = e
             if attempt < max_retries:
                 time.sleep(2 ** attempt)
@@ -229,7 +241,7 @@ def score_batch(tweets_batch: list[dict], max_retries: int = 2) -> list[dict]:
     if len(tweets_batch) > 1:
         results: list[dict] = []
         for tweet in tweets_batch:
-            results.extend(score_batch([tweet], max_retries=1))
+            results.extend(score_batch([tweet], max_retries=2))
         return results
 
     # Single tweet truly cannot be scored — final fallback.
