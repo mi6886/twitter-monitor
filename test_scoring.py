@@ -154,6 +154,91 @@ class TestRunLLMScoring:
         mocked.assert_not_called()
 
 
+class TestScoreBatchSubdivide:
+    """When the LLM produces malformed JSON for a whole batch, score_batch
+    subdivides into single-tweet calls so a single bad apple doesn't ruin
+    the whole batch."""
+
+    def _bad_json_response(self):
+        mock_msg = MagicMock()
+        mock_msg.content = '{"results": [malformed broken'  # invalid JSON
+        mock_choice = MagicMock()
+        mock_choice.message = mock_msg
+        mock_resp = MagicMock()
+        mock_resp.choices = [mock_choice]
+        return mock_resp
+
+    def test_subdivides_on_persistent_json_failure(self):
+        """Batch of 3 fails JSON parse 3 times. Subdivision then succeeds for
+        each tweet individually."""
+        tweets = [make_tweet(f"t{i}") for i in range(3)]
+
+        side_effects = [
+            # Initial batch attempts: bad, bad, bad (max_retries=2 → 3 tries)
+            self._bad_json_response(),
+            self._bad_json_response(),
+            self._bad_json_response(),
+            # Subdivision: each single-tweet call succeeds first try
+            make_llm_response([make_score_result("t0")]),
+            make_llm_response([make_score_result("t1")]),
+            make_llm_response([make_score_result("t2")]),
+        ]
+
+        with patch.object(llm_scoring, "_get_client") as gc, \
+             patch("llm_scoring.time.sleep"):
+            gc.return_value.chat.completions.create.side_effect = side_effects
+            result = llm_scoring.score_batch(tweets, max_retries=2)
+
+        assert len(result) == 3
+        ids = sorted(r["id"] for r in result)
+        assert ids == ["t0", "t1", "t2"]
+        # None should be fallbacks since subdivision succeeded
+        assert not any(r.get("_fallback") for r in result)
+
+    def test_single_tweet_falls_back_when_subdivision_also_fails(self):
+        """A 1-tweet batch that fails all retries truly hits fallback_score
+        (no further subdivision possible)."""
+        tweet = make_tweet("t1", text="some weird text")
+
+        with patch.object(llm_scoring, "_get_client") as gc, \
+             patch("llm_scoring.time.sleep"):
+            gc.return_value.chat.completions.create.return_value = self._bad_json_response()
+            result = llm_scoring.score_batch([tweet], max_retries=2)
+
+        assert len(result) == 1
+        assert result[0]["id"] == "t1"
+        assert result[0].get("_fallback") is True
+        # The error message in angles[0] should mention JSON or delimiter
+        assert any(kw in result[0]["angles"][0] for kw in ["JSON", "delimiter", "Expecting", "json"])
+
+    def test_subdivision_partial_success(self):
+        """Batch of 2 fails. On subdivision, t0 succeeds but t1 fails twice
+        (initial + 1 retry). Result: t0 scored, t1 fallback'd."""
+        tweets = [make_tweet("t0"), make_tweet("t1", text="problematic content")]
+
+        side_effects = [
+            # Initial batch attempts: 3 bad
+            self._bad_json_response(),
+            self._bad_json_response(),
+            self._bad_json_response(),
+            # Subdivision call 1 (t0): success
+            make_llm_response([make_score_result("t0")]),
+            # Subdivision call 2 (t1): bad twice (max_retries=1 -> 2 tries)
+            self._bad_json_response(),
+            self._bad_json_response(),
+        ]
+
+        with patch.object(llm_scoring, "_get_client") as gc, \
+             patch("llm_scoring.time.sleep"):
+            gc.return_value.chat.completions.create.side_effect = side_effects
+            result = llm_scoring.score_batch(tweets, max_retries=2)
+
+        assert len(result) == 2
+        by_id = {r["id"]: r for r in result}
+        assert by_id["t0"].get("_fallback") is not True
+        assert by_id["t1"].get("_fallback") is True
+
+
 from fetch_tweets import is_noise, NOISE_ACCOUNTS
 
 

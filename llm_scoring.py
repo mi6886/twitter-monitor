@@ -194,7 +194,14 @@ def fallback_score(tweet: dict, err: str) -> dict:
 
 def score_batch(tweets_batch: list[dict], max_retries: int = 2) -> list[dict]:
     """Score up to BATCH_SIZE tweets, with exponential backoff retries.
-    On permanent failure: return fallback_score() for each tweet."""
+
+    Failure modes (in order of preference):
+    1. LLM call succeeds + JSON parses → return parsed results
+    2. LLM call fails or JSON malformed, retries available → backoff + retry
+    3. All retries exhausted, batch size > 1 → subdivide into single-tweet
+       calls (with max_retries=1 each) so one bad tweet doesn't tank the batch
+    4. Single-tweet batch still failing → return fallback_score()
+    """
     client = _get_client()
     last_err: Exception | None = None
     for attempt in range(max_retries + 1):
@@ -216,6 +223,16 @@ def score_batch(tweets_batch: list[dict], max_retries: int = 2) -> list[dict]:
             last_err = e
             if attempt < max_retries:
                 time.sleep(2 ** attempt)
+
+    # All batch attempts exhausted. Subdivide if we have multiple tweets so
+    # a single problematic tweet doesn't poison the whole batch.
+    if len(tweets_batch) > 1:
+        results: list[dict] = []
+        for tweet in tweets_batch:
+            results.extend(score_batch([tweet], max_retries=1))
+        return results
+
+    # Single tweet truly cannot be scored — final fallback.
     err_msg = str(last_err) if last_err else "unknown error"
     return [fallback_score(t, err_msg) for t in tweets_batch]
 
