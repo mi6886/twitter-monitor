@@ -19,7 +19,7 @@ from openai import OpenAI
 
 MODEL = "anthropic/claude-haiku-4.5"
 BATCH_SIZE = 10
-MAX_WORKERS = 3   # was 5; reduced to ease OpenRouter concurrent load
+MAX_WORKERS = 2   # was 5; reduced to ease OpenRouter concurrent load
 REQUEST_TIMEOUT = 45  # seconds per LLM call
 
 SYSTEM_PROMPT = """You score tweets for their viral potential as topics for a Chinese 小红书 AI content account.
@@ -227,9 +227,10 @@ def score_batch(tweets_batch: list[dict], max_retries: int = 2) -> list[dict]:
                 timeout=REQUEST_TIMEOUT,
             )
             content = resp.choices[0].message.content
-            if not content:
-                raise EmptyLLMResponseError("LLM returned empty content")
-            parsed = json.loads(_strip_code_fence(content))
+            stripped = _strip_code_fence(content) if content else ""
+            if not stripped.strip():
+                raise EmptyLLMResponseError("LLM returned empty content (or empty fence)")
+            parsed = json.loads(stripped)
             return parsed["results"]
         except Exception as e:  # noqa: BLE001
             last_err = e

@@ -290,6 +290,33 @@ class TestScoreBatchSubdivide:
         assert result[0]["id"] == "t1"
         assert result[0].get("_fallback") is not True
 
+    def test_empty_after_strip_triggers_retry(self):
+        """OpenRouter sometimes returns literal empty code fences like
+        ```json\\n\\n```. The fence-stripper turns this into '', which
+        json.loads('') would crash on. We must catch this case AND retry."""
+        tweet = make_tweet("t1")
+
+        empty_fence_resp = MagicMock()
+        empty_fence_msg = MagicMock()
+        empty_fence_msg.content = "```json\n\n```"  # non-empty, strips to ''
+        empty_fence_choice = MagicMock()
+        empty_fence_choice.message = empty_fence_msg
+        empty_fence_resp.choices = [empty_fence_choice]
+
+        success_resp = make_llm_response([make_score_result("t1")])
+
+        with patch.object(llm_scoring, "_get_client") as gc, \
+             patch("llm_scoring.time.sleep"):
+            gc.return_value.chat.completions.create.side_effect = [
+                empty_fence_resp,
+                empty_fence_resp,
+                success_resp,
+            ]
+            result = llm_scoring.score_batch([tweet], max_retries=2)
+        assert len(result) == 1
+        assert result[0]["id"] == "t1"
+        assert result[0].get("_fallback") is not True
+
 
 from fetch_tweets import is_noise, NOISE_ACCOUNTS
 
