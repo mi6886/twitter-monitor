@@ -168,22 +168,53 @@ def _strip_code_fence(text: str) -> str:
     return m.group(1).strip() if m else text
 
 
-def score_batch(tweets_batch: list[dict], max_retries: int = 2) -> list[dict]:
-    """Score up to BATCH_SIZE tweets via one LLM call. Returns list of score dicts.
+def fallback_score(tweet: dict, err: str) -> dict:
+    """Default score dict when the LLM call fails after retries.
+    Errs toward keep (score=30) so we don't silently drop tweets on outages."""
+    return {
+        "id": tweet["tweet_id"],
+        "summary": (tweet.get("full_text") or "")[:150],
+        "category": "未评分",
+        "category_points": 0,
+        "info_gap": "未评分",
+        "info_gap_points": 0,
+        "viral_signals": [],
+        "viral_signals_points": 0,
+        "emotion": "未评分",
+        "emotion_points": 0,
+        "actionability_points": 0,
+        "account_fit": "不匹配",
+        "account_bonus": 0,
+        "total_score": 30,
+        "verdict": "keep",
+        "angles": [f"[LLM fallback: {err[:80]}]"],
+        "_fallback": True,
+    }
 
-    NOTE: Success path only. Retry + fallback semantics added in Task 5.
-    The max_retries parameter is unused here for signature stability."""
+
+def score_batch(tweets_batch: list[dict], max_retries: int = 2) -> list[dict]:
+    """Score up to BATCH_SIZE tweets, with exponential backoff retries.
+    On permanent failure: return fallback_score() for each tweet."""
     client = _get_client()
-    resp = client.chat.completions.create(
-        model=MODEL,
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": build_user_prompt(tweets_batch)},
-        ],
-        response_format={"type": "json_object"},
-        temperature=0,
-        timeout=REQUEST_TIMEOUT,
-    )
-    content = resp.choices[0].message.content
-    parsed = json.loads(_strip_code_fence(content))
-    return parsed["results"]
+    last_err: Exception | None = None
+    for attempt in range(max_retries + 1):
+        try:
+            resp = client.chat.completions.create(
+                model=MODEL,
+                messages=[
+                    {"role": "system", "content": SYSTEM_PROMPT},
+                    {"role": "user", "content": build_user_prompt(tweets_batch)},
+                ],
+                response_format={"type": "json_object"},
+                temperature=0,
+                timeout=REQUEST_TIMEOUT,
+            )
+            content = resp.choices[0].message.content
+            parsed = json.loads(_strip_code_fence(content))
+            return parsed["results"]
+        except Exception as e:  # noqa: BLE001 — OpenAI SDK raises many types
+            last_err = e
+            if attempt < max_retries:
+                time.sleep(2 ** attempt)
+    err_msg = str(last_err) if last_err else "unknown error"
+    return [fallback_score(t, err_msg) for t in tweets_batch]

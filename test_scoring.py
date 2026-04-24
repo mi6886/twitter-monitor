@@ -82,3 +82,33 @@ class TestScoreBatchSuccess:
         assert len(result) == 1
         assert result[0]["id"] == "t2"
         assert result[0]["total_score"] == 68
+
+
+class TestScoreBatchRetry:
+    def test_retries_on_transient_failure_then_succeeds(self):
+        tweet = make_tweet("t1")
+        success_resp = make_llm_response([make_score_result("t1", total_score=0, verdict="drop")])
+        with patch.object(llm_scoring, "_get_client") as gc, \
+             patch("llm_scoring.time.sleep"):
+            gc.return_value.chat.completions.create.side_effect = [
+                RuntimeError("500"),
+                RuntimeError("429"),
+                success_resp,
+            ]
+            result = llm_scoring.score_batch([tweet], max_retries=2)
+        assert len(result) == 1
+        assert result[0]["id"] == "t1"
+        assert result[0]["total_score"] == 0
+
+    def test_fallback_after_retries_exhausted(self):
+        tweet = make_tweet("t1", text="some tweet text")
+        with patch.object(llm_scoring, "_get_client") as gc, \
+             patch("llm_scoring.time.sleep"):
+            gc.return_value.chat.completions.create.side_effect = RuntimeError("boom")
+            result = llm_scoring.score_batch([tweet], max_retries=2)
+        assert len(result) == 1
+        assert result[0]["id"] == "t1"
+        assert result[0]["total_score"] == 30
+        assert result[0]["verdict"] == "keep"
+        assert result[0].get("_fallback") is True
+        assert "boom" in result[0]["angles"][0]
