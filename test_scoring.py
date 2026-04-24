@@ -152,3 +152,25 @@ class TestRunLLMScoring:
             scored = llm_scoring.run_llm_scoring([])
         assert scored == []
         mocked.assert_not_called()
+
+
+from fetch_tweets import is_noise, NOISE_ACCOUNTS
+
+
+class TestIsNoiseBlacklist:
+    def test_blacklisted_account_is_noise(self):
+        blacklisted = NOISE_ACCOUNTS[0]  # e.g. "actufoot_"
+        tweet = {"author": {"screen_name": blacklisted}, "full_text": "any text"}
+        assert is_noise(tweet) is True
+
+    def test_non_blacklisted_account_is_not_noise(self):
+        tweet = {"author": {"screen_name": "karpathy"}, "full_text": "any text"}
+        assert is_noise(tweet) is False
+
+    def test_author_as_string_is_handled(self):
+        tweet = {"author": NOISE_ACCOUNTS[0], "full_text": "anything"}
+        assert is_noise(tweet) is True
+
+    def test_missing_author_not_noise(self):
+        tweet = {"full_text": "anything"}
+        assert is_noise(tweet) is False
