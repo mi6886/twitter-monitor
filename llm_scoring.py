@@ -218,3 +218,27 @@ def score_batch(tweets_batch: list[dict], max_retries: int = 2) -> list[dict]:
                 time.sleep(2 ** attempt)
     err_msg = str(last_err) if last_err else "unknown error"
     return [fallback_score(t, err_msg) for t in tweets_batch]
+
+
+def run_llm_scoring(tweets: list[dict], max_workers: int = MAX_WORKERS) -> list[dict]:
+    """Score all tweets in batches of BATCH_SIZE, parallelized across workers.
+
+    Returns a list of dicts where each dict is the original tweet merged with
+    the LLM score fields. Order is preserved (matches input order)."""
+    if not tweets:
+        return []
+
+    batches = [tweets[i:i + BATCH_SIZE] for i in range(0, len(tweets), BATCH_SIZE)]
+    all_scores: list[dict] = []
+    with ThreadPoolExecutor(max_workers=max_workers) as pool:
+        for batch_scores in pool.map(score_batch, batches):
+            all_scores.extend(batch_scores)
+
+    score_by_id = {s["id"]: s for s in all_scores}
+    merged: list[dict] = []
+    for t in tweets:
+        s = score_by_id.get(t["tweet_id"])
+        if s is None:
+            s = fallback_score(t, "missing from LLM output")
+        merged.append({**t, **s})
+    return merged
