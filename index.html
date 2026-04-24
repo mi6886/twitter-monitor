@@ -283,6 +283,72 @@
       margin-bottom: 24px; font-size: 0.85rem;
     }
 
+    /* ── Tier sections ── */
+    .tier-section { margin-bottom: 32px; }
+    .tier-header {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 1.05rem; font-weight: 700;
+      padding: 10px 14px; border-radius: 10px;
+      margin-bottom: 14px; cursor: pointer;
+      user-select: none; border: 1px solid var(--border);
+      background: var(--surface);
+    }
+    .tier-header .tier-count {
+      font-size: 0.78rem; color: var(--text-muted);
+      font-weight: 500; margin-left: auto;
+    }
+    .tier-header .tier-caret {
+      font-size: 0.8rem; color: var(--text-dim);
+      transition: transform 0.18s ease;
+    }
+    .tier-section.collapsed .tier-caret { transform: rotate(-90deg); }
+    .tier-section.collapsed .cards-grid { display: none; }
+
+    .tier-must_do  .tier-header { border-left: 4px solid #dc2626; background: rgba(220,38,38,0.04); }
+    .tier-priority .tier-header { border-left: 4px solid #f59e0b; background: rgba(245,158,11,0.05); }
+    .tier-backup   .tier-header { border-left: 4px solid #64748b; background: rgba(100,116,139,0.04); }
+
+    .tier-must_do  .card { border-top: 3px solid #dc2626; }
+    .tier-priority .card { border-top: 3px solid #f59e0b; }
+    .tier-backup   .card { border-top: 3px solid #64748b; }
+
+    /* ── Score badge ── */
+    .score-badge {
+      position: absolute; top: 10px; right: 10px;
+      background: linear-gradient(135deg,#4f6ef7,#a78bfa);
+      color: #fff; font-weight: 700; font-size: 0.78rem;
+      padding: 3px 9px; border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(79,110,247,0.35);
+    }
+    .tier-must_do  .score-badge { background: linear-gradient(135deg,#dc2626,#f97316); }
+    .tier-priority .score-badge { background: linear-gradient(135deg,#f59e0b,#fbbf24); color: #5b3a08; }
+    .tier-backup   .score-badge { background: linear-gradient(135deg,#64748b,#94a3b8); }
+
+    /* ── Score breakdown / angles ── */
+    .card-breakdown {
+      font-size: 0.72rem; color: var(--text-muted);
+      background: var(--surface2); border-radius: 6px;
+      padding: 6px 9px; line-height: 1.5;
+      word-break: break-word;
+    }
+    .card-angles {
+      font-size: 0.78rem; color: var(--text);
+      border-left: 2px solid var(--accent);
+      padding: 4px 0 4px 10px; margin-top: 2px;
+    }
+    .card-angles-title {
+      font-weight: 600; color: var(--text-muted);
+      font-size: 0.72rem; margin-bottom: 4px;
+    }
+    .card-angles ul { margin: 0; padding-left: 16px; }
+    .card-angles li { margin-bottom: 2px; line-height: 1.45; }
+    .card-verdict {
+      font-size: 0.72rem; color: var(--text-dim); font-style: italic;
+    }
+    .card-fallback-note {
+      font-size: 0.7rem; color: #f59e0b;
+    }
+
     ::-webkit-scrollbar { width: 6px; }
     ::-webkit-scrollbar-track { background: var(--bg); }
     ::-webkit-scrollbar-thumb { background: #c5c8d4; border-radius: 3px; }
@@ -309,10 +375,6 @@
         <input type="date" id="date-picker" onchange="setDate(this.value)" style="padding:6px 10px;border-radius:8px;border:1px solid #d0d5dd;font-size:14px;cursor:pointer;" />
         <button class="period-btn active" data-period="morning" onclick="setPeriod('morning')">☀️ 早间</button>
         <button class="period-btn"        data-period="evening" onclick="setPeriod('evening')">🌙 晚间</button>
-      </div>
-      <div class="period-toggle">
-        <button class="period-btn active" data-view="final"  onclick="setView('final')">⭐ 精选</button>
-        <button class="period-btn"        data-view="review" onclick="setView('review')">📋 待审</button>
       </div>
     </div>
   </div>
@@ -365,19 +427,28 @@
   </div>
 
   <div id="error-area"></div>
-  <div class="cards-grid" id="cards-area">
-    <div class="state-box">
-      <div class="spinner"></div>
-      <p>正在加载推文数据…</p>
+  <div id="cards-area">
+    <div class="cards-grid">
+      <div class="state-box">
+        <div class="spinner"></div>
+        <p>正在加载推文数据…</p>
+      </div>
     </div>
   </div>
 </main>
 
 <script>
-  let allTweets = [];
+  let allTweets = [];          // flat list across all tiers (for filter counts)
+  let tieredTweets = { must_do: [], priority: [], backup: [] };
   let currentPeriod = 'morning';
   let currentFilter = 'all';
-  let currentView = 'final';
+
+  const TIER_META = {
+    must_do:  { icon: '🔥', label: '必做',  cls: 'tier-must_do'  },
+    priority: { icon: '⭐', label: '优先',  cls: 'tier-priority' },
+    backup:   { icon: '💡', label: '备选',  cls: 'tier-backup'   },
+  };
+  const TIER_ORDER = ['must_do', 'priority', 'backup'];
 
   // ── Category classification ──
   const KEYWORDS = {
@@ -440,58 +511,127 @@
   // Since we can't call an LLM here, we show the original text.
   // The scheduled task will generate Chinese summaries and store them in the JSON.
 
-  // ── Render ──
+  // ── HTML escape (for LLM-generated text fields) ──
+  function esc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+
+  // ── Build score-breakdown one-liner from per-tweet score fields ──
+  function buildBreakdown(t) {
+    const parts = [];
+    if (t.category)        parts.push(`${esc(t.category)}(${t.category_points ?? 0})`);
+    if (t.info_gap)        parts.push(`信息差(${t.info_gap_points ?? 0})`);
+    const vs = Array.isArray(t.viral_signals) ? t.viral_signals : [];
+    if (vs.length || t.viral_signals_points) parts.push(`传播(${t.viral_signals_points ?? 0})`);
+    if (t.emotion)         parts.push(`情绪(${t.emotion_points ?? 0})`);
+    if (t.actionability_points != null) parts.push(`可操作(${t.actionability_points})`);
+    if (t.account_bonus)   parts.push(`账号加成(${t.account_bonus})`);
+    const total = t.total_score ?? 0;
+    return `📊 ${parts.join(' + ')} = ${total}`;
+  }
+
+  function buildAngles(t) {
+    const angles = Array.isArray(t.angles) ? t.angles.filter(Boolean) : [];
+    if (!angles.length) return '';
+    const items = angles.map(a => `<li>${esc(a)}</li>`).join('');
+    return `<div class="card-angles"><div class="card-angles-title">💡 选题切入</div><ul>${items}</ul></div>`;
+  }
+
+  // ── Render one card (tier-aware) ──
+  function renderCard(tweet, idx) {
+    const cat = tweet._cat;
+    const tag = TAG_META[cat];
+    const text = cleanText(tweet.full_text);
+    const handle = tweet.screen_name || '?';
+    const summary = tweet.summary ? esc(tweet.summary) : esc(text || '（无文字内容）');
+    const score = tweet.total_score ?? 0;
+
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.style.animationDelay = Math.min(idx * 0.03, 0.5) + 's';
+
+    const fallbackNote = tweet._fallback
+      ? `<div class="card-fallback-note">⚠️ LLM打分回退（启发式）</div>` : '';
+    const verdict = tweet.verdict
+      ? `<div class="card-verdict">${esc(tweet.verdict)}</div>` : '';
+
+    card.innerHTML = `
+      <div class="score-badge">${score}分</div>
+      <div class="card-author">@${esc(handle)}</div>
+      <div class="card-time">${fmtDate(tweet.created_at)}</div>
+      <div class="card-tag-row">
+        <span class="card-tag ${tag.cls}">${tag.label}</span>
+        <span class="likes-badge">♥ ${fmtLikes(tweet.favorite_count || 0)}</span>
+      </div>
+      <p class="card-summary">📝 ${summary}</p>
+      <div class="card-breakdown">${buildBreakdown(tweet)}</div>
+      ${buildAngles(tweet)}
+      ${verdict}
+      ${fallbackNote}
+      ${tweet.url
+        ? `<a class="link-btn" href="${esc(tweet.url)}" target="_blank" rel="noopener">🔗 在 X 查看</a>`
+        : ''}
+    `;
+    return card;
+  }
+
+  // ── Render: build tier sections ──
   function render() {
     const area = document.getElementById('cards-area');
     const statsBar = document.getElementById('stats-bar');
 
-    const filtered = currentFilter === 'all'
-      ? allTweets
-      : allTweets.filter(t => t._cat === currentFilter);
+    // Apply category filter to each tier independently
+    const filterFn = t => currentFilter === 'all' || t._cat === currentFilter;
+    const filteredTiers = {};
+    let totalShowing = 0;
+    let totalLikes = 0;
+    TIER_ORDER.forEach(k => {
+      const arr = (tieredTweets[k] || []).filter(filterFn);
+      filteredTiers[k] = arr;
+      totalShowing += arr.length;
+      totalLikes += arr.reduce((s, t) => s + (t.favorite_count || 0), 0);
+    });
 
-    const totalLikes = filtered.reduce((s, t) => s + (t.favorite_count || 0), 0);
-    document.getElementById('stat-showing').textContent = filtered.length;
+    document.getElementById('stat-showing').textContent = totalShowing;
     document.getElementById('stat-total').textContent = allTweets.length;
     document.getElementById('stat-likes').textContent = fmtLikes(totalLikes);
     statsBar.style.display = 'flex';
 
-    if (filtered.length === 0) {
+    if (totalShowing === 0) {
       area.innerHTML = '<div class="state-box"><span class="state-icon">🔍</span><p>该分类下暂无推文</p></div>';
       return;
     }
 
     area.innerHTML = '';
-    filtered.forEach((tweet, idx) => {
-      const rank = allTweets.indexOf(tweet) + 1;
-      const cat = tweet._cat;
-      const tag = TAG_META[cat];
-      const text = cleanText(tweet.full_text);
-      const handle = tweet.screen_name || '?';
+    let cardIdx = 0;
+    TIER_ORDER.forEach(key => {
+      const tweets = filteredTiers[key];
+      if (!tweets.length) return;
+      const meta = TIER_META[key];
 
-      const card = document.createElement('div');
-      card.className = 'card';
-      card.style.animationDelay = Math.min(idx * 0.03, 0.5) + 's';
+      const section = document.createElement('section');
+      section.className = `tier-section ${meta.cls}`;
 
-      let rankBadge = '';
-      if (rank === 1) rankBadge = '<div class="rank-badge rank-1">🥇</div>';
-      else if (rank === 2) rankBadge = '<div class="rank-badge rank-2">🥈</div>';
-      else if (rank === 3) rankBadge = '<div class="rank-badge rank-3">🥉</div>';
-
-      card.innerHTML = `
-        ${rankBadge}
-        <div class="card-author">@${handle}</div>
-        <div class="card-time">${fmtDate(tweet.created_at)}</div>
-        <div class="card-tag-row">
-          <span class="card-tag ${tag.cls}">${tag.label}</span>
-          <span class="likes-badge">♥ ${fmtLikes(tweet.favorite_count || 0)}</span>
-        </div>
-        <p class="card-summary">${text || '（无文字内容）'}</p>
-        ${tweet.url
-          ? `<a class="link-btn" href="${tweet.url}" target="_blank" rel="noopener">🔗 原文</a>`
-          : ''}
+      const header = document.createElement('div');
+      header.className = 'tier-header';
+      header.innerHTML = `
+        <span class="tier-caret">▼</span>
+        <span>${meta.icon} ${meta.label}</span>
+        <span class="tier-count">${tweets.length} 条</span>
       `;
+      header.addEventListener('click', () => section.classList.toggle('collapsed'));
+      section.appendChild(header);
 
-      area.appendChild(card);
+      const grid = document.createElement('div');
+      grid.className = 'cards-grid';
+      tweets.forEach(tw => {
+        grid.appendChild(renderCard(tw, cardIdx++));
+      });
+      section.appendChild(grid);
+
+      area.appendChild(section);
     });
   }
 
@@ -505,74 +645,49 @@
     statsBar.style.display = 'none';
     area.innerHTML = '<div class="state-box"><div class="spinner"></div><p>正在加载…</p></div>';
 
-    const filePrefix = currentView === 'review' ? 'review' : 'final';
-    const filename = `data/${filePrefix}-${currentDate}-${period}.json`;
+    const filename = `data/final-${currentDate}-${period}.json`;
     const periodLabel = period === 'morning' ? '早间' : '晚间';
-    const viewLabel = currentView === 'review' ? ' · 待审' : '';
 
     try {
       const res = await fetch(filename);
       if (!res.ok) throw new Error('no-data');
       const data = await res.json();
 
-      const tweets = data.tweets || [];
-      const headerText = `${currentDate} · ${periodLabel}${viewLabel}`;
-      document.getElementById('date-text').textContent = headerText;
+      // New tier-grouped schema: data.tiers.{must_do,priority,backup}
+      const rawTiers = data.tiers || {};
+      tieredTweets = {};
+      const flat = [];
+      TIER_ORDER.forEach(k => {
+        const arr = (rawTiers[k] || []).map(t => ({ ...t, _cat: categorize(t), _tier: k }));
+        tieredTweets[k] = arr;
+        flat.push(...arr);
+      });
+      allTweets = flat;
 
-      if (tweets.length === 0) {
-        allTweets = [];
+      const tierCounts = data.tier_counts || {
+        must_do:  tieredTweets.must_do.length,
+        priority: tieredTweets.priority.length,
+        backup:   tieredTweets.backup.length,
+      };
+      const total = allTweets.length;
+      document.getElementById('date-text').textContent = `${data.date || currentDate} · ${periodLabel}`;
+
+      if (total === 0) {
         document.getElementById('count-text').textContent = '';
         statsBar.style.display = 'none';
-
-        // Build detailed status from metadata in the JSON file
-        const raw = data.raw_count ?? '?';
-        const cand = data.candidate_count ?? '?';
-        const fin = data.final_count ?? '?';
-        const rev = data.review_count ?? '?';
-        const updated = data.fetched_at ? new Date(data.fetched_at).toLocaleString('zh-CN') : '未知';
-
-        let statusMsg = '';
-        let statusIcon = '📭';
-        if (raw === 0 || raw === '?') {
-          statusMsg = '该时段未抓取到数据';
-          statusIcon = '⚠️';
-        } else if (cand === 0) {
-          statusMsg = `已抓取 ${raw} 条，但清洗后无可用数据（candidate=0）`;
-          statusIcon = '🔍';
-        } else if (currentView === 'final' && fin === 0) {
-          statusMsg = `已抓取 ${raw} 条 → 清洗 ${cand} 条 → 精选 0 条（全部进入待审或丢弃）`;
-          statusIcon = '📋';
-          // Check if review has data
-          try {
-            const revRes = await fetch(`data/review-${currentDate}-${period}.json`);
-            if (revRes.ok) {
-              const revData = await revRes.json();
-              const revCount = (revData.tweets || []).length;
-              if (revCount > 0) statusMsg += `\n待审有 ${revCount} 条，可切换查看`;
-            }
-          } catch(e) {}
-        } else {
-          statusMsg = '该时段暂无数据';
-        }
-
-        area.innerHTML = `<div class="state-box"><span class="state-icon">${statusIcon}</span><p>${statusMsg.replace(/\n/g,'<br>')}</p><p style="font-size:0.75rem;color:var(--text-dim);margin-top:8px">raw ${raw} → candidate ${cand} → final ${fin} · review ${rev}<br>更新于 ${updated}</p></div>`;
+        area.innerHTML = `<div class="state-box"><span class="state-icon">📭</span><p>该时段暂无精选推文</p><p style="font-size:0.75rem;color:var(--text-dim);margin-top:8px">必做 0 · 优先 0 · 备选 0</p></div>`;
         return;
       }
 
-      allTweets = tweets
-        .map(t => ({ ...t, _cat: categorize(t) }))
-        .sort((a, b) => (b.favorite_count || 0) - (a.favorite_count || 0));
-
-      const countInfo = `共 ${allTweets.length} 条推文`;
-      const extra = data.raw_count ? ` · raw ${data.raw_count} → candidate ${data.candidate_count} → final ${data.final_count} · review ${data.review_count}` : '';
+      const countInfo = `共 ${total} 条 · 🔥${tierCounts.must_do || 0} ⭐${tierCounts.priority || 0} 💡${tierCounts.backup || 0}`;
       document.getElementById('count-text').textContent = countInfo;
-      document.getElementById('date-text').textContent = `${data.date || currentDate} · ${periodLabel}${viewLabel}`;
 
       render();
     } catch (err) {
       // File does not exist — no crawl happened for this date/period
       allTweets = [];
-      document.getElementById('date-text').textContent = `${currentDate} · ${periodLabel}${viewLabel}`;
+      tieredTweets = { must_do: [], priority: [], backup: [] };
+      document.getElementById('date-text').textContent = `${currentDate} · ${periodLabel}`;
       document.getElementById('count-text').textContent = '';
       statsBar.style.display = 'none';
       area.innerHTML = '<div class="state-box"><span class="state-icon">⚠️</span><p>该时段未抓取（无数据文件）</p><p style="font-size:0.75rem;color:var(--text-dim);margin-top:8px">文件 ' + filename + ' 不存在</p></div>';
@@ -586,15 +701,6 @@
       b.classList.toggle('active', b.dataset.period === period);
     });
     loadData(period);
-  }
-
-  function setView(view) {
-    if (view === currentView) return;
-    currentView = view;
-    document.querySelectorAll('[data-view]').forEach(b => {
-      b.classList.toggle('active', b.dataset.view === view);
-    });
-    loadData(currentPeriod);
   }
 
   function setFilter(cat) {

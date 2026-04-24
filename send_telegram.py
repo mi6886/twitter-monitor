@@ -1,9 +1,9 @@
 """
-Read the latest final-{date}-{period}.json and send Top N tweets to Telegram.
-Includes dedup (won't re-send identical content) and verified receipt logging.
+Read the latest final-{date}-{period}.json and send tier-grouped tweets to
+Telegram (one message per tweet). Dedup is URL-keyed so partial re-runs don't
+double-send.
 """
 
-import hashlib
 import json
 import html
 import os
@@ -16,7 +16,6 @@ from urllib.error import HTTPError
 
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
-TOP_N = 15
 
 
 def send_telegram(text):
@@ -62,66 +61,104 @@ def clean_tweet_text(text):
     return text.strip()
 
 
-def make_summary(text, max_len=100):
-    """Create a one-line summary from cleaned tweet text."""
-    text = clean_tweet_text(text)
-    text = re.sub(r'^(RT\s+)?@\w+[:\s]*', '', text).strip()
-    text = re.sub(r'^\s*(\d+[\.\)]\s*|[•▸►\u2014\u2013-]\s*)', '', text).strip()
-    text = re.sub(r'\s+(\d+[\.\)]\s)', ' ', text)
-    for sep in ['. ', '! ', '? ', '\u3002', '\uff01', '\uff1f']:
-        idx = text.find(sep)
-        if 0 < idx <= max_len:
-            return text[:idx + len(sep)].strip()
-    if len(text) <= max_len:
-        return text
-    cut = text[:max_len].rsplit(' ', 1)[0]
-    cut = re.sub(r'\s+\d+[\.\)]?\s*$', '', cut)
-    cut = re.sub(r'\s+[•▸►\u2014\u2013-]\s*$', '', cut)
-    return cut + '...'
-
-
-# --- Dedup ---
-
-def compute_digest(date, period, tweet_urls):
-    """Stable digest for a specific date+period+content combination."""
-    key = f"{date}|{period}|{'|'.join(sorted(tweet_urls))}"
-    return hashlib.sha256(key.encode()).hexdigest()[:16]
-
+# --- Dedup (URL-keyed) ---
 
 def load_sent_log(path):
-    """Load set of previously sent digests."""
+    """Load set of previously sent tweet URLs.
+
+    Backward-compat: prior schema stored short digest hashes (<=16 chars).
+    If we detect that, treat as empty and let the new URL-keyed log
+    repopulate naturally."""
     if not path.exists():
         return set()
     try:
-        return set(json.loads(path.read_text()))
+        data = json.loads(path.read_text())
     except (json.JSONDecodeError, TypeError):
         return set()
+    if not isinstance(data, list):
+        return set()
+    # Old digest format detection: short, no scheme, no tweet path
+    if data and all(
+        isinstance(x, str) and len(x) <= 16 and "://" not in x
+        for x in data
+    ):
+        return set()
+    return {x for x in data if isinstance(x, str)}
 
 
-def save_sent_log(path, digests):
-    """Save sent digests (keep last 50 to avoid unbounded growth)."""
-    recent = sorted(digests)[-50:]
+def save_sent_log(path, urls):
+    """Save sent URLs (bounded to the most recent 500 to avoid unbounded growth)."""
+    recent = sorted(urls)[-500:]
     path.write_text(json.dumps(recent, indent=2))
+
+
+# --- Tiered message rendering ---
+
+TIER_META = [
+    ("must_do", "🔥 必做（≥50分）"),
+    ("priority", "⭐ 优先（35-49分）"),
+    ("backup", "💡 备选（20-34分）"),
+]
+
+
+def format_tweet_message(tweet):
+    """Return a MarkdownV2-escaped single-message body for one scored tweet."""
+    score = tweet.get("total_score", 0)
+    author = f"@{tweet.get('screen_name', '?')}"
+    summary = tweet.get("summary") or clean_tweet_text(tweet.get("full_text", ""))[:150]
+    angles = tweet.get("angles") or []
+
+    # Score breakdown line
+    parts = []
+    cat = tweet.get("category")
+    if cat:
+        parts.append(f"{cat}({tweet.get('category_points', 0)})")
+    gap = tweet.get("info_gap")
+    if gap and tweet.get("info_gap_points", 0):
+        parts.append(f"{gap}({tweet.get('info_gap_points', 0)})")
+    signals = tweet.get("viral_signals") or []
+    if signals and tweet.get("viral_signals_points", 0):
+        parts.append(f"{'·'.join(signals)}(+{tweet.get('viral_signals_points', 0)})")
+    emo = tweet.get("emotion")
+    if emo and tweet.get("emotion_points", 0):
+        parts.append(f"{emo}(+{tweet.get('emotion_points', 0)})")
+    if tweet.get("actionability_points", 0):
+        parts.append(f"可触达(+{tweet.get('actionability_points', 0)})")
+    fit = tweet.get("account_fit")
+    if fit and tweet.get("account_bonus", 0):
+        parts.append(f"{fit}(+{tweet.get('account_bonus', 0)})")
+    breakdown_line = " + ".join(parts) + f" = {score}" if parts else f"总分 {score}"
+
+    lines = [
+        f"*\\[{score}分\\] {escape_md2(author)}*",
+        "",
+        f"📝 {escape_md2(summary)}",
+        "",
+        f"📊 {escape_md2(breakdown_line)}",
+    ]
+    if angles:
+        lines.append("")
+        lines.append("💡 选题切入：")
+        for i, a in enumerate(angles, 1):
+            lines.append(f"  {i}\\. {escape_md2(a)}")
+    url = tweet.get("url", "")
+    if url:
+        lines.append("")
+        lines.append(f"🔗 {escape_md2(url)}")
+    return "\n".join(lines)
 
 
 # --- Main ---
 
 def main():
     observe_mode = os.environ.get("OBSERVE_MODE") == "1"
+    data_dir = Path(__file__).parent / ("data/observe" if observe_mode else "data")
 
-    if observe_mode:
-        data_dir = Path(__file__).parent / "data" / "observe"
-    else:
-        data_dir = Path(__file__).parent / "data"
-
-    # Determine current period (Beijing time)
     beijing_now = datetime.now(timezone.utc) + timedelta(hours=8)
     today = beijing_now.strftime("%Y-%m-%d")
-
-    if observe_mode:
-        period = beijing_now.strftime("%H%M")
-    else:
-        period = "morning" if beijing_now.hour < 12 else "evening"
+    period = beijing_now.strftime("%H%M") if observe_mode else (
+        "morning" if beijing_now.hour < 12 else "evening"
+    )
 
     final_file = data_dir / f"final-{today}-{period}.json"
     if not final_file.exists():
@@ -129,81 +166,43 @@ def main():
         sys.exit(0)
 
     data = json.loads(final_file.read_text())
-    tweets = data.get("tweets", [])
-
-    if not tweets:
-        print("No tweets in final file, skipping Telegram.")
+    tiers = data.get("tiers", {})
+    total_tweets = sum(len(tiers.get(k, [])) for k, _ in TIER_META)
+    if total_tweets == 0:
+        print("No tweets in any tier — skipping Telegram.")
         sys.exit(0)
 
-    # --- Dedup check (skip in observe mode — always send) ---
+    sent_log_file = data_dir / "telegram_sent.json"
+    sent_urls = load_sent_log(sent_log_file) if not observe_mode else set()
+
+    sent_this_run = 0
+    for tier_key, header_text in TIER_META:
+        tweets = tiers.get(tier_key, [])
+        if not tweets:
+            continue
+        # Header for this tier
+        header_body = f"*{escape_md2(header_text)}*  \\({len(tweets)} 条\\)"
+        send_telegram(header_body)
+
+        for tw in tweets:
+            url = tw.get("url", "")
+            if not observe_mode and url and url in sent_urls:
+                continue
+            body = format_tweet_message(tw)
+            if len(body) > 4090:
+                body = body[:4080] + "\\.\\.\\."
+            result = send_telegram(body)
+            if not result.get("ok"):
+                print(f"Telegram failed for {url}: {result}", file=sys.stderr)
+                sys.exit(1)
+            if not observe_mode and url:
+                sent_urls.add(url)
+            sent_this_run += 1
+
     if not observe_mode:
-        sent_log_file = data_dir / "telegram_sent.json"
-        tweet_urls = [t.get("url", "") for t in tweets]
-        digest = compute_digest(today, period, tweet_urls)
+        save_sent_log(sent_log_file, sent_urls)
 
-        sent_digests = load_sent_log(sent_log_file)
-        if digest in sent_digests:
-            print(f"SKIP: digest {digest} already sent for {today}-{period}. No duplicate push.")
-            sys.exit(0)
-
-    # --- Build message ---
-    top = tweets[:TOP_N]
-    final_count = data.get('final_count', len(tweets))
-    review_count = data.get('review_count', '?')
-    if observe_mode:
-        header = escape_md2(
-            f"[OBSERVE] {today} {period} | final {final_count} / review {review_count}"
-        )
-    else:
-        period_label = "Morning" if period == "morning" else "Evening"
-        header = escape_md2(f"AI News | {today} {period_label} | {final_count} tweets")
-
-    lines = [f"*{header}*\n"]
-    for i, tw in enumerate(top, 1):
-        author = escape_md2(f"@{tw.get('screen_name', '?')}")
-        likes = escape_md2(fmt_likes(tw.get('favorite_count', 0)))
-        summary = escape_md2(make_summary(tw.get("full_text", "")))
-        url = tw.get("url", "")
-
-        lines.append(f"{i}\\. {author} \\| {likes} likes")
-        lines.append(summary)
-        if url:
-            lines.append(f"[Link]({url})\n")
-        else:
-            lines.append("")
-
-    message = "\n".join(lines)
-
-    if len(message) > 4096:
-        message = message[:4090] + "\\.\\.\\."
-
-    # --- Send with verified receipt ---
-    print(f"Sending {len(top)} tweets to Telegram...")
-    result = send_telegram(message)
-
-    # Verify response
-    ok = result.get("ok")
-    msg = result.get("result", {})
-    message_id = msg.get("message_id")
-    chat_id = msg.get("chat", {}).get("id")
-    date_ts = msg.get("date")
-
-    print(f"  ok={ok}")
-    print(f"  chat_id={chat_id}")
-    print(f"  message_id={message_id}")
-    print(f"  date={date_ts}")
-
-    if not ok or not message_id:
-        print("FATAL: Telegram API did not return ok=true or message_id.", file=sys.stderr)
-        print(f"Full response: {json.dumps(result)}", file=sys.stderr)
-        sys.exit(1)
-
-    # --- Record digest to prevent re-send (skip in observe mode) ---
-    if not observe_mode:
-        sent_digests.add(digest)
-        save_sent_log(sent_log_file, sent_digests)
-
-    print(f"Verified: message delivered (message_id={message_id}).")
+    print(f"Delivered {sent_this_run} tweet messages across {len(TIER_META)} tiers.")
 
 
 if __name__ == "__main__":

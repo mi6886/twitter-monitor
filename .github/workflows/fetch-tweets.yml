@@ -34,6 +34,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
+
       - name: Configure git identity
         run: |
           git config user.name "github-actions[bot]"
@@ -43,6 +46,7 @@ jobs:
         if: ${{ inputs.skip_fetch != 'true' }}
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python fetch_tweets.py
 
       - name: Commit and push results
@@ -57,6 +61,7 @@ jobs:
           fi
 
       - name: Send to Telegram
+        if: ${{ vars.TELEGRAM_ENABLED == 'true' }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -99,9 +104,9 @@ jobs:
             "$TMP"
           DEST="$TMP/public/twitter-data"
           mkdir -p "$DEST"
-          # Copy only final-* and review-* JSONs (not raw-*, candidate-*, seen_urls, telegram_sent)
+          # Copy only final-* and scored-* JSONs (not raw-*, candidate-*, seen_urls, telegram_sent)
           cp -v data/final-*.json "$DEST/" 2>/dev/null || true
-          cp -v data/review-*.json "$DEST/" 2>/dev/null || true
+          cp -v data/scored-*.json "$DEST/" 2>/dev/null || true
           cd "$TMP"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
