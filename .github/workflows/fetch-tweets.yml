@@ -61,6 +61,7 @@ jobs:
           fi
 
       - name: Send to Telegram
+        if: ${{ vars.TELEGRAM_ENABLED == 'true' }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -103,9 +104,9 @@ jobs:
             "$TMP"
           DEST="$TMP/public/twitter-data"
           mkdir -p "$DEST"
-          # Copy only final-* and review-* JSONs (not raw-*, candidate-*, seen_urls, telegram_sent)
+          # Copy only final-* and scored-* JSONs (not raw-*, candidate-*, seen_urls, telegram_sent)
           cp -v data/final-*.json "$DEST/" 2>/dev/null || true
-          cp -v data/review-*.json "$DEST/" 2>/dev/null || true
+          cp -v data/scored-*.json "$DEST/" 2>/dev/null || true
           cd "$TMP"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
