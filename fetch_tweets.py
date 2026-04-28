@@ -14,7 +14,7 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.parse import urlencode
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 
 import llm_scoring
 
@@ -79,18 +79,45 @@ NOISE_ACCOUNTS = [
 ]
 
 
-def apify_request(method, path, data=None):
-    """Make an authenticated request to Apify API."""
+APIFY_MAX_RETRIES = 2  # initial attempt + 2 retries = 3 total
+APIFY_RETRY_HTTP_CODES = {500, 502, 503, 504}
+
+
+def apify_request(method, path, data=None, max_retries=APIFY_MAX_RETRIES):
+    """Make an authenticated request to Apify API with retry on transient errors.
+
+    Retries with exponential backoff (1s, 2s, 4s) on:
+    - HTTP 5xx (Apify upstream hiccup, observed 502 twice in 4 days)
+    - URLError / TimeoutError / OSError (network glitch)
+
+    Does NOT retry on 4xx — those are real client errors, retry won't help.
+    """
     url = f"{APIFY_BASE}{path}?token={APIFY_TOKEN}"
     headers = {"Content-Type": "application/json"}
     body = json.dumps(data).encode() if data else None
     req = Request(url, data=body, headers=headers, method=method)
-    try:
-        with urlopen(req, timeout=60) as resp:
-            return json.loads(resp.read())
-    except HTTPError as e:
-        print(f"  HTTP {e.code}: {e.read().decode()[:200]}", file=sys.stderr)
-        raise
+
+    for attempt in range(max_retries + 1):
+        try:
+            with urlopen(req, timeout=60) as resp:
+                return json.loads(resp.read())
+        except HTTPError as e:
+            if e.code in APIFY_RETRY_HTTP_CODES and attempt < max_retries:
+                wait = 2 ** attempt
+                print(f"  HTTP {e.code} on attempt {attempt+1}/{max_retries+1}, "
+                      f"retrying in {wait}s...", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            print(f"  HTTP {e.code}: {e.read().decode()[:200]}", file=sys.stderr)
+            raise
+        except (URLError, TimeoutError, OSError) as e:
+            if attempt < max_retries:
+                wait = 2 ** attempt
+                print(f"  Network error on attempt {attempt+1}/{max_retries+1}: "
+                      f"{type(e).__name__}: {e} — retrying in {wait}s...", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            raise
 
 
 def start_actor(search_input):
