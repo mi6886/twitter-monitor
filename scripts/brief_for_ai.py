@@ -13,8 +13,13 @@ Usage:
 """
 import argparse
 import json
+import os
+import re
 import sys
 from pathlib import Path
+
+# Make project root importable for llm_scoring (we reuse its OpenRouter client + fence-stripper)
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 
 STYLE_GUIDE = """\
@@ -77,6 +82,134 @@ STYLE_GUIDE = """\
 """
 
 
+CLUSTER_SYSTEM_PROMPT = """You group tweets that report the EXACT SAME news event.
+
+THE TEST (apply to every pair before clustering):
+"Could a single news headline cover BOTH tweets?" If no, they are NOT a cluster.
+
+✓ VALID clusters (same specific event):
+- 「DeepSeek V4 模型发布」— multiple accounts reporting the same release
+- 「Boris Cherny 30 分钟 Claude Code 演讲」— multiple accounts sharing the same video
+- 「Musk vs OpenAI 庭审第二天作证」— multiple accounts covering same court hearing
+- 「Cursor + Claude 9 秒删 PocketOS 数据库事故」— same specific incident
+- 「Adobe + Anthropic 战略合作公告」— same company announcement
+
+✗ INVALID clusters (these are CATEGORIES not EVENTS — never group them):
+- 「Anthropic 教程合集」(Boris 演讲 + Karpathy 课 + Stanford 讲座 are 3 different videos!)
+- 「Claude 在科研领域应用」(Claude 生物数据 + Claude 写 prompt = totally different topics)
+- 「AI 工具集成」(Meta Ads MCP + Claude Security = different products, different news)
+- 「OpenAI 产品更新」(Codex 新功能 + GPT-5.5 发布 = 2 separate announcements)
+- 「开发者基于 Claude 构建应用」(Harvey 复刻 + Claude 物理身体 = totally unrelated projects)
+- 「Musk 诉讼」(if tweets cover Day 1 vs Day 2 vs Day 3 separately, those are different news beats)
+
+KEY HEURISTIC: if you find yourself naming the cluster with abstract category words like
+"应用", "生态", "工具", "更新", "教程", "进展" — STOP. That's a category, not an event.
+Real events have concrete subjects: a specific product version, a specific incident,
+a specific announcement on a specific date.
+
+STRICT RULES:
+- A cluster needs ≥2 tweets discussing the EXACT same news.
+- When in doubt, leave as `independent`. False clusters are worse than missing clusters.
+- Same product mentioned across different news → different clusters or independent.
+- Cluster name in Chinese, ≤30 chars, naming the SPECIFIC event with concrete subject.
+- Sort clusters by tweet count desc.
+
+OUTPUT (JSON only, no markdown fences):
+{
+  "clusters": [
+    {"name": "具体事件描述", "tweet_ids": ["t1", "t2", ...]}
+  ],
+  "independent": ["t3", "t4", ...]
+}
+"""
+
+
+def cluster_tweets(tweets: list[dict]) -> dict | None:
+    """Use Haiku 4.5 to group tweets that discuss the same specific event.
+    Returns {clusters: [...], independent: [...]} or None on failure."""
+    if not os.environ.get("OPENROUTER_API_KEY"):
+        print("  [warn] OPENROUTER_API_KEY not set, skipping cluster analysis", file=sys.stderr)
+        return None
+
+    try:
+        import llm_scoring
+    except Exception as e:
+        print(f"  [warn] cluster: cannot import llm_scoring: {e}", file=sys.stderr)
+        return None
+
+    # Build compact input — just enough for the LLM to identify same-event tweets
+    lines = []
+    for t in tweets:
+        tid = t.get("tweet_id") or t.get("id") or ""
+        author = t.get("screen_name", "?")
+        summary = (t.get("summary") or t.get("full_text") or "")[:160]
+        lines.append(f"id={tid} | @{author} | {summary}")
+    user_msg = "Tweets to cluster:\n" + "\n".join(lines)
+
+    try:
+        client = llm_scoring._get_client()
+        resp = client.chat.completions.create(
+            model=llm_scoring.MODEL,
+            messages=[
+                {"role": "system", "content": CLUSTER_SYSTEM_PROMPT},
+                {"role": "user", "content": user_msg},
+            ],
+            response_format={"type": "json_object"},
+            temperature=0,
+            timeout=60,
+        )
+        content = resp.choices[0].message.content
+        stripped = llm_scoring._strip_code_fence(content) if content else ""
+        if not stripped.strip():
+            print("  [warn] cluster: empty LLM response", file=sys.stderr)
+            return None
+        parsed = json.loads(stripped)
+        # Sanitize: drop singletons from clusters into independent
+        clusters = []
+        independent = list(parsed.get("independent", []))
+        for c in parsed.get("clusters", []):
+            ids = c.get("tweet_ids", [])
+            if len(ids) >= 2:
+                clusters.append({"name": c.get("name", "?"), "tweet_ids": ids})
+            else:
+                independent.extend(ids)
+        clusters.sort(key=lambda c: -len(c["tweet_ids"]))
+        return {"clusters": clusters, "independent": independent}
+    except Exception as e:
+        print(f"  [warn] cluster failed: {type(e).__name__}: {e}", file=sys.stderr)
+        return None
+
+
+def render_cluster_section(clusters: list[dict], tweets_by_id: dict) -> str:
+    """Render the cluster overview as a markdown section."""
+    if not clusters:
+        return ""
+    lines = ["# 🔥 真集群（讲同一件事的，按规模排序）", ""]
+    for i, c in enumerate(clusters, 1):
+        n = len(c["tweet_ids"])
+        emoji = "🔥🔥🔥" if n >= 5 else ("🔥🔥" if n >= 3 else "🔥")
+        lines.append(f"## 集群 {i}：{emoji} {c['name']}（{n} 条）")
+        lines.append("")
+        lines.append("| 分 | 账号 | 角度 |")
+        lines.append("|---|---|---|")
+        ranked = []
+        for tid in c["tweet_ids"]:
+            t = tweets_by_id.get(str(tid))
+            if not t:
+                continue
+            ranked.append(t)
+        ranked.sort(key=lambda x: -x.get("total_score", 0))
+        for t in ranked:
+            score = t.get("total_score", 0)
+            author = t.get("screen_name", "?")
+            summary = (t.get("summary") or "")[:80].replace("|", "\\|").replace("\n", " ")
+            lines.append(f"| **{score}** | @{author} | {summary} |")
+        lines.append("")
+    lines.append("---")
+    lines.append("")
+    return "\n".join(lines)
+
+
 def find_input(date: str, period: str):
     """Prefer the production final-*.json (new schema), fall back to -llm suffix."""
     for suffix in ("", "-llm"):
@@ -137,6 +270,8 @@ def main():
     parser.add_argument("--top", type=int, default=10, help="Top N tweets (default 10)")
     parser.add_argument("--tier", default="must_do",
                         choices=["must_do", "priority", "backup", "all"])
+    parser.add_argument("--no-cluster", action="store_true",
+                        help="Skip LLM-based cluster analysis (faster, no API call)")
     args = parser.parse_args()
 
     src, data = find_input(args.date, args.period)
@@ -159,6 +294,26 @@ def main():
         "",
     ]
 
+    # --- Cluster analysis (LLM-based, skippable) ---
+    if not args.no_cluster:
+        print("Running cluster analysis via LLM...", file=sys.stderr)
+        cluster_result = cluster_tweets(tweets)
+        if cluster_result and cluster_result["clusters"]:
+            tweets_by_id = {str(t.get("tweet_id") or t.get("id", "")): t for t in tweets}
+            sections.append(render_cluster_section(cluster_result["clusters"], tweets_by_id))
+            indep_ids = set(str(x) for x in cluster_result["independent"])
+            indep_count = len(indep_ids)
+            cluster_count = sum(len(c["tweet_ids"]) for c in cluster_result["clusters"])
+            sections.append(
+                f"_本批 {len(tweets)} 条 = {len(cluster_result['clusters'])} 个集群（{cluster_count} 条）"
+                f" + {indep_count} 条独立选题。下方按分数排序展示每条详情。_"
+            )
+            sections.append("")
+            sections.append("---")
+            sections.append("")
+
+    sections.append("# 完整选题清单（按分数排）")
+    sections.append("")
     for i, tw in enumerate(tweets, 1):
         sections.append(render_tweet(tw, i))
 
