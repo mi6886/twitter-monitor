@@ -148,13 +148,6 @@
     /* ── Main ── */
     main { max-width: 1600px; margin: 0 auto; padding: 28px 20px 60px; }
 
-    /* ── Stats bar ── */
-    .stats-bar { display: flex; align-items: center; gap: 20px; margin-bottom: 24px; flex-wrap: wrap; }
-    .stat-item { display: flex; align-items: baseline; gap: 6px; }
-    .stat-num { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
-    .stat-label { font-size: 0.8rem; color: var(--text-muted); }
-    .stats-divider { width: 1px; height: 28px; background: var(--border); }
-
     /* ── Grid: 4 columns ── */
     .cards-grid {
       display: grid;
@@ -238,19 +231,11 @@
       display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical;
       overflow: hidden;
     }
-
-    .link-btn {
-      display: inline-flex; align-items: center; gap: 6px;
-      background: var(--surface2); border: 1px solid var(--border);
-      color: var(--text-muted); padding: 5px 12px; border-radius: 8px;
-      text-decoration: none; font-size: 0.75rem; font-weight: 500;
-      transition: all 0.15s ease; align-self: flex-start;
+    .card-summary-link {
+      text-decoration: none; color: inherit; display: block;
+      cursor: pointer; transition: color 0.15s ease;
     }
-
-    .link-btn:hover {
-      background: rgba(108,142,255,0.12); border-color: rgba(108,142,255,0.4);
-      color: #6c8eff; transform: translateY(-1px);
-    }
+    .card-summary-link:hover .card-summary { color: var(--accent); }
 
     /* ── Rank badge (top 3) ── */
     .rank-badge {
@@ -409,23 +394,6 @@
 </header>
 
 <main>
-  <div class="stats-bar" id="stats-bar" style="display:none">
-    <div class="stat-item">
-      <span class="stat-num" id="stat-showing">0</span>
-      <span class="stat-label">显示</span>
-    </div>
-    <div class="stats-divider"></div>
-    <div class="stat-item">
-      <span class="stat-num" id="stat-total">0</span>
-      <span class="stat-label">总计</span>
-    </div>
-    <div class="stats-divider"></div>
-    <div class="stat-item">
-      <span class="stat-num" id="stat-likes">0</span>
-      <span class="stat-label">总点赞</span>
-    </div>
-  </div>
-
   <div id="error-area"></div>
   <div id="cards-area">
     <div class="cards-grid">
@@ -565,14 +533,13 @@
         <span class="card-tag ${tag.cls}">${tag.label}</span>
         <span class="likes-badge">♥ ${fmtLikes(tweet.favorite_count || 0)}</span>
       </div>
-      <p class="card-summary">📝 ${summary}</p>
+      ${tweet.url
+        ? `<a class="card-summary-link" href="${esc(tweet.url)}" target="_blank" rel="noopener" title="在 X 查看原推"><p class="card-summary">📝 ${summary}</p></a>`
+        : `<p class="card-summary">📝 ${summary}</p>`}
       <div class="card-breakdown">${buildBreakdown(tweet)}</div>
       ${buildAngles(tweet)}
       ${verdict}
       ${fallbackNote}
-      ${tweet.url
-        ? `<a class="link-btn" href="${esc(tweet.url)}" target="_blank" rel="noopener">🔗 在 X 查看</a>`
-        : ''}
     `;
     return card;
   }
@@ -580,25 +547,16 @@
   // ── Render: build tier sections ──
   function render() {
     const area = document.getElementById('cards-area');
-    const statsBar = document.getElementById('stats-bar');
 
     // Apply category filter to each tier independently
     const filterFn = t => currentFilter === 'all' || t._cat === currentFilter;
     const filteredTiers = {};
-    let totalShowing = 0;
-    let totalLikes = 0;
     TIER_ORDER.forEach(k => {
       const arr = (tieredTweets[k] || []).filter(filterFn);
       filteredTiers[k] = arr;
-      totalShowing += arr.length;
-      totalLikes += arr.reduce((s, t) => s + (t.favorite_count || 0), 0);
     });
 
-    document.getElementById('stat-showing').textContent = totalShowing;
-    document.getElementById('stat-total').textContent = allTweets.length;
-    document.getElementById('stat-likes').textContent = fmtLikes(totalLikes);
-    statsBar.style.display = 'flex';
-
+    const totalShowing = Object.values(filteredTiers).reduce((n, arr) => n + arr.length, 0);
     if (totalShowing === 0) {
       area.innerHTML = '<div class="state-box"><span class="state-icon">🔍</span><p>该分类下暂无推文</p></div>';
       return;
@@ -639,10 +597,8 @@
   async function loadData(period) {
     const area = document.getElementById('cards-area');
     const errArea = document.getElementById('error-area');
-    const statsBar = document.getElementById('stats-bar');
 
     errArea.innerHTML = '';
-    statsBar.style.display = 'none';
     area.innerHTML = '<div class="state-box"><div class="spinner"></div><p>正在加载…</p></div>';
 
     const filename = `data/final-${currentDate}-${period}.json`;
@@ -674,7 +630,6 @@
 
       if (total === 0) {
         document.getElementById('count-text').textContent = '';
-        statsBar.style.display = 'none';
         area.innerHTML = `<div class="state-box"><span class="state-icon">📭</span><p>该时段暂无精选推文</p><p style="font-size:0.75rem;color:var(--text-dim);margin-top:8px">必做 0 · 优先 0 · 备选 0</p></div>`;
         return;
       }
@@ -689,7 +644,6 @@
       tieredTweets = { must_do: [], priority: [], backup: [] };
       document.getElementById('date-text').textContent = `${currentDate} · ${periodLabel}`;
       document.getElementById('count-text').textContent = '';
-      statsBar.style.display = 'none';
       area.innerHTML = '<div class="state-box"><span class="state-icon">⚠️</span><p>该时段未抓取（无数据文件）</p><p style="font-size:0.75rem;color:var(--text-dim);margin-top:8px">文件 ' + filename + ' 不存在</p></div>';
     }
   }
