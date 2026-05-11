@@ -29,10 +29,15 @@ POLL_TIMEOUT = 300  # 5 minutes per actor
 # --- Keyword groups ---
 KEYWORD_SEARCHES = [
     '(Claude OR "Claude Code" OR "Opus 4.7" OR Anthropic OR AnthropicAI) min_faves:2000',
-    '(OpenAI OR chatgpt OR sama OR "GPT-Image-2") min_faves:2000',
+    # Removed bare "sama" — it matches Indonesian/Malay word for "with/same",
+    # producing huge noise. @sama (Sam Altman) is already monitored via from:sama
+    # in ALL_ACCOUNTS, so no keyword needed.
+    '(OpenAI OR chatgpt OR "GPT-Image-2") min_faves:2000',
     '(Gemini OR "Google AI Studio" OR Notebooklm) min_faves:2000',
     '("Jensen Huang" OR NVIDIA) min_faves:2000',
-    '(Cursor OR Huggingface OR Perplexity OR Antigravity OR Codex) min_faves:2000',
+    # "Cursor" alone matched "mouse cursor" / "cursor set" etc. — tightened to
+    # phrase "Cursor AI" + cursor.com domain. @cursor_ai already in ALL_ACCOUNTS.
+    '("Cursor AI" OR cursor.com OR Huggingface OR Perplexity OR Antigravity OR Codex) min_faves:2000',
     '(vibecoding OR AIAgent OR "humanoid robot" OR "Humanoid Robots" OR "Embodied AI") min_faves:2000',
     '("DAN KOE" OR "Peter Steinberger" OR OpenClaw OR "Nano banana") min_faves:2000',
     '("open source" (AI OR voice OR "text to speech" OR "image generation" OR "video generation")) min_faves:2000',
