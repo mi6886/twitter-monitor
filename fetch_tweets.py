@@ -74,6 +74,8 @@ ALL_ACCOUNTS = [
     "sama", "OpenAI",
     # Added 2026-04-17: OpenAI Codex/Atlas team
     "AriX", "JamesZmSun",
+    # Added 2026-05-11: OpenAI Codex prompt guides + Hermes Agent maker
+    "TheRealAdamG", "NousResearch",
 ]
 ACCOUNTS_PER_BATCH = 10  # Small batches for reliable results
 
