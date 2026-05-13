@@ -41,6 +41,13 @@ KEYWORD_SEARCHES = [
     '(vibecoding OR AIAgent OR "humanoid robot" OR "Humanoid Robots" OR "Embodied AI") min_faves:2000',
     '("DAN KOE" OR "Peter Steinberger" OR OpenClaw OR "Nano banana") min_faves:2000',
     '("open source" (AI OR voice OR "text to speech" OR "image generation" OR "video generation")) min_faves:2000',
+    # Added 2026-05-13: A-type (科技叙事体) hardware sources the user explicitly
+    # wants to monitor — flying vehicles, humanoid robot brands, AR/VR wearables.
+    # These match tweets that don't mention generic "AI" but ARE prime
+    # 单产品/技术叙事 material for the user's account.
+    '("flying motorcycle" OR "flying bike" OR airbike OR "jet pack" OR jetpack OR "flying car" OR eVTOL OR hoverbike) min_faves:2000',
+    '(Unitree OR "Figure 03" OR "Boston Dynamics" OR "Atlas robot" OR "Tesla Optimus" OR "humanoid worker") min_faves:2000',
+    '("AR glasses" OR "smart glasses" OR "Vision Pro" OR "Meta Ray-Ban" OR "smart ring" OR Whoop OR "Fitbit Air") min_faves:2000',
 ]
 
 # --- Monitored accounts (all in one list, auto-split into small batches) ---
@@ -76,6 +83,10 @@ ALL_ACCOUNTS = [
     "AriX", "JamesZmSun",
     # Added 2026-05-11: OpenAI Codex prompt guides + Hermes Agent maker
     "TheRealAdamG", "NousResearch",
+    # Added 2026-05-13: Google DeepMind CEO + 2 humanoid robot company official accounts
+    "demishassabis", "UnitreeRobotics", "Figure_robot",
+    # Added 2026-05-13: AI-pop-culture tweets author (often goes viral with AI+IP mashups)
+    "Rixhabh__",
 ]
 ACCOUNTS_PER_BATCH = 10  # Small batches for reliable results
 
