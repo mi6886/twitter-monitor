@@ -360,6 +360,9 @@
         <input type="date" id="date-picker" onchange="setDate(this.value)" style="padding:6px 10px;border-radius:8px;border:1px solid #d0d5dd;font-size:14px;cursor:pointer;" />
         <button class="period-btn active" data-period="morning" onclick="setPeriod('morning')">☀️ 早间</button>
         <button class="period-btn"        data-period="evening" onclick="setPeriod('evening')">🌙 晚间</button>
+        <span style="width:1px;height:24px;background:#d0d5dd;margin:0 4px"></span>
+        <button class="period-btn active" data-view="score"  onclick="setView('score')">📊 评分视图</button>
+        <button class="period-btn"        data-view="wanzan" onclick="setView('wanzan')">🔥 万赞视图</button>
       </div>
     </div>
   </div>
@@ -410,6 +413,8 @@
   let tieredTweets = { must_do: [], priority: [], backup: [] };
   let currentPeriod = 'morning';
   let currentFilter = 'all';
+  let currentView = 'score';   // 'score' = tier view, 'wanzan' = ≥10K-likes view
+  const WANZAN_THRESHOLD = 10000;
 
   const TIER_META = {
     must_do:  { icon: '🔥', label: '必做',  cls: 'tier-must_do'  },
@@ -546,6 +551,8 @@
 
   // ── Render: build tier sections ──
   function render() {
+    if (currentView === 'wanzan') { renderWanzan(); return; }
+
     const area = document.getElementById('cards-area');
 
     // Apply category filter to each tier independently
@@ -591,6 +598,42 @@
 
       area.appendChild(section);
     });
+  }
+
+  // ── Render: 万赞视图 (flat, ≥10K likes, sorted by likes desc) ──
+  function renderWanzan() {
+    const area = document.getElementById('cards-area');
+    const filterFn = t => currentFilter === 'all' || t._cat === currentFilter;
+    const list = allTweets
+      .filter(t => (t.favorite_count || 0) >= WANZAN_THRESHOLD)
+      .filter(filterFn)
+      .sort((a, b) => (b.favorite_count || 0) - (a.favorite_count || 0));
+
+    if (!list.length) {
+      area.innerHTML = '<div class="state-box"><span class="state-icon">🔥</span>'
+        + '<p>该时段没有 ≥1万赞 的推文</p>'
+        + '<p style="font-size:0.75rem;color:var(--text-dim);margin-top:8px">'
+        + '万赞视图只显示已通过 LLM 去噪的 keep 推文</p></div>';
+      return;
+    }
+
+    area.innerHTML = '';
+    const section = document.createElement('section');
+    section.className = 'tier-section tier-must_do';
+
+    const header = document.createElement('div');
+    header.className = 'tier-header';
+    header.innerHTML = '<span class="tier-caret">▼</span>'
+      + '<span>🔥 万赞精选（≥1万赞 · 已去噪）</span>'
+      + '<span class="tier-count">' + list.length + ' 条</span>';
+    header.addEventListener('click', () => section.classList.toggle('collapsed'));
+    section.appendChild(header);
+
+    const grid = document.createElement('div');
+    grid.className = 'cards-grid';
+    list.forEach((tw, i) => grid.appendChild(renderCard(tw, i)));
+    section.appendChild(grid);
+    area.appendChild(section);
   }
 
   // ── Load data ──
@@ -651,10 +694,19 @@
   function setPeriod(period) {
     if (period === currentPeriod) return;
     currentPeriod = period;
-    document.querySelectorAll('.period-btn').forEach(b => {
+    document.querySelectorAll('.period-btn[data-period]').forEach(b => {
       b.classList.toggle('active', b.dataset.period === period);
     });
     loadData(period);
+  }
+
+  function setView(view) {
+    if (view === currentView) return;
+    currentView = view;
+    document.querySelectorAll('.period-btn[data-view]').forEach(b => {
+      b.classList.toggle('active', b.dataset.view === view);
+    });
+    render();
   }
 
   function setFilter(cat) {
