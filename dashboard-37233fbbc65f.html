@@ -362,7 +362,7 @@
         <button class="period-btn"        data-period="evening" onclick="setPeriod('evening')">🌙 晚间</button>
         <span style="width:1px;height:24px;background:#d0d5dd;margin:0 4px"></span>
         <button class="period-btn active" data-view="score"  onclick="setView('score')">📊 评分视图</button>
-        <button class="period-btn"        data-view="wanzan" onclick="setView('wanzan')">🔥 万赞视图</button>
+        <button class="period-btn"        data-view="wanzan" onclick="setView('wanzan')">🔥 高赞视图</button>
       </div>
     </div>
   </div>
@@ -413,8 +413,8 @@
   let tieredTweets = { must_do: [], priority: [], backup: [] };
   let currentPeriod = 'morning';
   let currentFilter = 'all';
-  let currentView = 'score';   // 'score' = tier view, 'wanzan' = ≥10K-likes view
-  const WANZAN_THRESHOLD = 10000;
+  let currentView = 'score';   // 'score' = tier view, 'wanzan' = high-likes view
+  const WANZAN_THRESHOLD = 5000;   // ≥5K likes (万赞自然排最上面)
 
   const TIER_META = {
     must_do:  { icon: '🔥', label: '必做',  cls: 'tier-must_do'  },
@@ -611,9 +611,9 @@
 
     if (!list.length) {
       area.innerHTML = '<div class="state-box"><span class="state-icon">🔥</span>'
-        + '<p>该时段没有 ≥1万赞 的推文</p>'
+        + '<p>该时段没有 ≥5千赞 的推文</p>'
         + '<p style="font-size:0.75rem;color:var(--text-dim);margin-top:8px">'
-        + '万赞视图只显示已通过 LLM 去噪的 keep 推文</p></div>';
+        + '高赞视图只显示已通过 LLM 去噪的 keep 推文</p></div>';
       return;
     }
 
@@ -624,7 +624,7 @@
     const header = document.createElement('div');
     header.className = 'tier-header';
     header.innerHTML = '<span class="tier-caret">▼</span>'
-      + '<span>🔥 万赞精选（≥1万赞 · 已去噪）</span>'
+      + '<span>🔥 高赞精选（≥5千赞 · 已去噪 · 按点赞降序）</span>'
       + '<span class="tier-count">' + list.length + ' 条</span>';
     header.addEventListener('click', () => section.classList.toggle('collapsed'));
     section.appendChild(header);
