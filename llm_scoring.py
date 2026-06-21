@@ -224,6 +224,7 @@ def score_batch(tweets_batch: list[dict], max_retries: int = 2) -> list[dict]:
                 ],
                 response_format={"type": "json_object"},
                 temperature=0,
+                max_tokens=4000,
                 timeout=REQUEST_TIMEOUT,
             )
             content = resp.choices[0].message.content
