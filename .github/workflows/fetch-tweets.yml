@@ -117,3 +117,34 @@ jobs:
             git commit -m "data(twitter): sync $(date -u +%Y-%m-%dT%H:%M) from twitter-monitor"
             git push
           fi
+
+      # Health check runs LAST, after data is already committed/pushed, so a
+      # failure here only fires an alert email (GitHub notifies on failed
+      # scheduled runs) without losing the run's data. Triggers when the LLM
+      # scoring collapsed to fallback (score=30/keep) for most tweets — the
+      # signature of an OpenRouter outage (402/403/credits/key-limit) that
+      # otherwise looks "successful" and went undetected for 6 days in June.
+      - name: Alert if LLM scoring failed (high fallback rate)
+        if: ${{ inputs.skip_fetch != 'true' }}
+        run: |
+          python - <<'PY'
+          import glob, json, os, sys
+          files = glob.glob("data/scored-*.json")
+          if not files:
+              print("No scored files found — skipping health check")
+              sys.exit(0)
+          latest = max(files, key=os.path.getmtime)
+          d = json.load(open(latest))
+          scored = d.get("scored_count", 0)
+          fb = d.get("fallback_count", 0)
+          rate = (fb / scored) if scored else 0.0
+          print(f"{os.path.basename(latest)}: fallback {fb}/{scored} = {rate:.0%}")
+          THRESHOLD = 0.8
+          if scored and rate >= THRESHOLD:
+              print(f"::error::LLM scoring fallback rate {rate:.0%} (>= {THRESHOLD:.0%}) "
+                    f"in {os.path.basename(latest)}. Scores defaulted to 30/keep — "
+                    f"likely OpenRouter outage (402/403/credits/key spending limit). "
+                    f"Check OpenRouter credits & key limit, then re-score from raw-*.json.")
+              sys.exit(1)
+          print("Health check passed.")
+          PY
