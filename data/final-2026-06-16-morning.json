@@ -1,145 +1,48 @@
 {
   "date": "2026-06-16",
   "period": "morning",
-  "fetched_at": "2026-06-16T00:24:43.229902+00:00",
-  "tier_counts": {
-    "must_do": 0,
-    "priority": 0,
-    "backup": 40
-  },
+  "fetched_at": "2026-06-21T03:28:20.015147+00:00",
+  "must_do_count": 4,
+  "priority_count": 8,
+  "backup_count": 11,
   "tiers": {
-    "must_do": [],
-    "priority": [],
-    "backup": [
+    "must_do": [
       {
-        "tweet_id": "2066570532191969632",
-        "url": "https://x.com/OWCavalry/status/2066570532191969632",
-        "screen_name": "OWCavalry",
-        "created_at": "Mon Jun 15 17:16:24 +0000 2026",
-        "full_text": "New #Overwatch Shop Bundle: Street Rebels ⛩️\n\nFeaturing skins for Mizuki, Mercy, Jetpack Cat, Wuyang, and Junker Queen.\n\n🗓️ Set to release during Season 3. https://t.co/vycHXaFkG3",
+        "tweet_id": "2066509358821765214",
+        "url": "https://x.com/zerohedge/status/2066509358821765214",
+        "screen_name": "zerohedge",
+        "created_at": "Mon Jun 15 13:13:19 +0000 2026",
+        "full_text": "*ANTHROPIC SUED OVER LIMITS ON ITS $200-A-MONTH AI PLANS: WSJ\n\n*CUSTOMER ALLEGES ANTHROPIC FAILED TO DELIVER PROMISED VALUE:WSJ",
         "lang": "en",
-        "favorite_count": 15585,
-        "retweet_count": 1214,
-        "reply_count": 421,
+        "favorite_count": 2168,
+        "retweet_count": 127,
+        "reply_count": 86,
         "view_count": 0,
         "quoted_tweet_text": "",
-        "media": [
-          {
-            "display_url": "pic.x.com/vycHXaFkG3",
-            "expanded_url": "https://x.com/OWCavalry/status/2066570532191969632/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": [
-                  {
-                    "h": 71,
-                    "w": 71,
-                    "x": 31,
-                    "y": 969
-                  },
-                  {
-                    "h": 87,
-                    "w": 87,
-                    "x": 1739,
-                    "y": 379
-                  },
-                  {
-                    "h": 111,
-                    "w": 111,
-                    "x": 943,
-                    "y": 147
-                  },
-                  {
-                    "h": 105,
-                    "w": 105,
-                    "x": 1201,
-                    "y": 509
-                  },
-                  {
-                    "h": 137,
-                    "w": 137,
-                    "x": 1403,
-                    "y": 1497
-                  }
-                ]
-              }
-            },
-            "id_str": "2066570509928538112",
-            "indices": [
-              156,
-              179
-            ],
-            "media_key": "3_2066570509928538112",
-            "media_url_https": "https://pbs.twimg.com/media/HK3u7fuWoAAJgXd.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 1210,
-                  "w": 2160,
-                  "x": 0,
-                  "y": 853
-                },
-                {
-                  "h": 2160,
-                  "w": 2160,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 2160,
-                  "w": 1895,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 2160,
-                  "w": 1080,
-                  "x": 162,
-                  "y": 0
-                },
-                {
-                  "h": 2160,
-                  "w": 2160,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 2160,
-              "width": 2160
-            },
-            "sizes": {
-              "large": {
-                "h": 2048,
-                "w": 2048
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/vycHXaFkG3"
-          }
+        "media": [],
+        "id": "2066509358821765214",
+        "summary": "Anthropic因$200/月AI计划的功能限制被起诉，客户声称未能获得承诺价值。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题",
+          "有明确价格"
         ],
-        "id": "2066570532191969632",
-        "summary": "New #Overwatch Shop Bundle: Street Rebels ⛩️\n\nFeaturing skins for Mizuki, Mercy, Jetpack Cat, Wuyang, and Junker Queen.\n\n🗓️ Set to release during Seas",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
+        "viral_signals_points": 18,
+        "emotion": "好奇/趣味",
+        "emotion_points": 5,
         "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 76,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
+          "Anthropic被诉！$200/月Claude Pro功能缩水引发集体诉讼",
+          "深夜突发｜Claude Pro用户起诉Anthropic虚假宣传",
+          "AI大厂翻车｜Anthropic的$200计划为何被告上法庭"
+        ]
       },
       {
         "tweet_id": "2066529833103081695",
@@ -293,284 +196,272 @@
           }
         ],
         "id": "2066529833103081695",
-        "summary": "JUST IN: Anthropic has been sued for allegedly misleading customers on Claude Max usage limits. https://t.co/Rh5waabhnI",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
+        "summary": "Anthropic因涉嫌误导Claude Max用户使用限制而被起诉。AI产品法律风险浮现，行业监管趋严。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
         "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 66,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
+          "Claude Max翻车：Anthropic被起诉误导用户",
+          "AI大模型的法律陷阱：从Claude看产品责任",
+          "用户维权时代来临，AI厂商的信任危机"
+        ]
       },
       {
-        "tweet_id": "2066539595668271154",
-        "url": "https://x.com/enessyri/status/2066539595668271154",
-        "screen_name": "enessyri",
-        "created_at": "Mon Jun 15 15:13:28 +0000 2026",
-        "full_text": "google gemini reklamında özkan öztürk’ün sesinin kudurtuş  https://t.co/gCS5jOJgs3",
-        "lang": "tr",
-        "favorite_count": 4667,
-        "retweet_count": 179,
-        "reply_count": 39,
+        "tweet_id": "2066424975154905370",
+        "url": "https://x.com/hqmank/status/2066424975154905370",
+        "screen_name": "hqmank",
+        "created_at": "Mon Jun 15 07:38:01 +0000 2026",
+        "full_text": "🚨 Anthropic just updated its privacy policy.\n\nClaude Free, Pro, and Max users may soon be asked for age or identity checks.\n\nVerification data can include government ID, face photos/videos, and facial geometry templates.\n\nIndividual developers are the first group in scope for https://t.co/U9XaHglvJE",
+        "lang": "en",
+        "favorite_count": 2131,
+        "retweet_count": 430,
+        "reply_count": 253,
         "view_count": 0,
         "quoted_tweet_text": "",
         "media": [
           {
-            "additional_media_info": {
-              "graphql_source_user": {
-                "user_results": {
-                  "result": {
-                    "__typename": "User",
-                    "affiliates_highlighted_label": {},
-                    "exclusive_tweet_following": false,
-                    "is_blue_verified": false,
-                    "legacy": {
-                      "advertiser_account_service_levels": [
-                        "analytics"
-                      ],
-                      "advertiser_account_type": "promotable_user",
-                      "analytics_type": "disabled",
-                      "blocked_by": false,
-                      "blocking": false,
-                      "can_dm": true,
-                      "can_media_tag": false,
-                      "created_at": "Tue Aug 24 18:06:43 +0000 2021",
-                      "customer_service_state": "",
-                      "description": "@trippieira @anasikenvitor",
-                      "entities": {
-                        "description": {
-                          "user_mentions": [
-                            {
-                              "id_str": "",
-                              "indices": [
-                                0,
-                                11
-                              ],
-                              "name": "",
-                              "screen_name": "trippieira"
-                            },
-                            {
-                              "id_str": "",
-                              "indices": [
-                                12,
-                                26
-                              ],
-                              "name": "",
-                              "screen_name": "anasikenvitor"
-                            }
-                          ]
-                        }
-                      },
-                      "fast_followers_count": 0,
-                      "favourites_count": 8448,
-                      "follow_request_sent": false,
-                      "followed_by": false,
-                      "followers_count": 1412,
-                      "following": false,
-                      "friends_count": 256,
-                      "geo_enabled": false,
-                      "has_custom_timelines": true,
-                      "has_extended_profile": true,
-                      "has_no_screen_name": false,
-                      "id_str": "1430230066211004424",
-                      "is_lifeline_institution": false,
-                      "is_translator": false,
-                      "live_following": false,
-                      "location": "",
-                      "media_count": 2602,
-                      "muting": false,
-                      "name": "trippie",
-                      "needs_phone_verification": false,
-                      "normal_followers_count": 1412,
-                      "notifications": false,
-                      "pinned_tweet_ids_str": [
-                        "1817934874042314946"
-                      ],
-                      "profile_background_color": "F5F8FA",
-                      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1430230066211004424/1754218190",
-                      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1886441327862190080/HDfrebeW_normal.jpg",
-                      "profile_interstitial_type": "",
-                      "profile_link_color": "1DA1F2",
-                      "protected": false,
-                      "screen_name": "trippiee69",
-                      "statuses_count": 7328,
-                      "suspended": false,
-                      "translator_type_enum": "None",
-                      "url": "",
-                      "verified": false,
-                      "want_retweets": false,
-                      "withheld_copyright": false,
-                      "withheld_description": "",
-                      "withheld_scope": ""
-                    },
-                    "private_super_following": false,
-                    "profile_image_shape": "Circle",
-                    "rest_id": "1430230066211004424",
-                    "super_follow_eligible": false,
-                    "super_followed_by": false,
-                    "super_following": false
-                  }
-                }
-              },
-              "monetizable": true
-            },
-            "allow_download_status": {
-              "allow_download": true
-            },
-            "display_url": "pic.x.com/gCS5jOJgs3",
-            "expanded_url": "https://x.com/trippiee69/status/2033212312690061450/video/1",
+            "display_url": "pic.x.com/U9XaHglvJE",
+            "expanded_url": "https://x.com/hqmank/status/2066424975154905370/photo/1",
             "ext_master_playlist_only": [],
             "ext_media_availability": {
               "status": "Available"
             },
             "ext_playlists": [],
-            "id_str": "2033212254926327808",
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2066423384347664384",
             "indices": [
-              59,
-              82
+              277,
+              300
             ],
-            "media_key": "13_2033212254926327808",
-            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2033212254926327808/img/pQ_zsoOWd6p2iFYh.jpg",
+            "media_key": "3_2066423384347664384",
+            "media_url_https": "https://pbs.twimg.com/media/HK1pHqOaYAAwTQ1.jpg",
             "original_info": {
-              "focus_rects": [],
-              "height": 706,
-              "width": 576
+              "focus_rects": [
+                {
+                  "h": 569,
+                  "w": 1016,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1016,
+                  "w": 1016,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1158,
+                  "w": 1016,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1396,
+                  "w": 698,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1396,
+                  "w": 1016,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1396,
+              "width": 1016
             },
             "sizes": {
               "large": {
-                "h": 706,
-                "w": 576
+                "h": 1396,
+                "w": 1016
               }
             },
-            "source_status_id_str": "2033212312690061450",
-            "source_user_id_str": "1430230066211004424",
-            "type": "video",
-            "url": "https://t.co/gCS5jOJgs3",
-            "video_info": {
-              "aspect_ratio": [
-                288,
-                353
-              ],
-              "duration_millis": 9161,
-              "variants": [
-                {
-                  "content_type": "application/x-mpegURL",
-                  "url": "https://video.twimg.com/amplify_video/2033212254926327808/pl/KuSTR5zLRL_Ibe-A.m3u8"
-                },
-                {
-                  "bitrate": 632000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2033212254926327808/vid/avc1/320x392/TLtnlxdIhhvNcFLG.mp4"
-                },
-                {
-                  "bitrate": 950000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2033212254926327808/vid/avc1/480x588/RHXeK6ya6zJ0mwoq.mp4"
-                },
-                {
-                  "bitrate": 2176000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2033212254926327808/vid/avc1/576x706/KQ_oYZUmQ_WnW17A.mp4"
-                }
-              ]
-            }
+            "type": "photo",
+            "url": "https://t.co/U9XaHglvJE"
           }
         ],
-        "id": "2066539595668271154",
-        "summary": "google gemini reklamında özkan öztürk’ün sesinin kudurtuş  https://t.co/gCS5jOJgs3",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
+        "id": "2066424975154905370",
+        "summary": "Anthropic更新隐私政策，Claude用户可能需要进行年龄或身份验证，包括政府ID、面部照片和面部几何模板。开发者首批受影响。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
         "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 66,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
+          "Claude要求身份验证？Anthropic隐私政策大变",
+          "政府ID+面部识别，AI应用迎来监管时代",
+          "开发者首当其冲，Claude生态面临合规风暴"
+        ]
       },
       {
-        "tweet_id": "2066526405949575420",
-        "url": "https://x.com/elder_plinius/status/2066526405949575420",
-        "screen_name": "elder_plinius",
-        "created_at": "Mon Jun 15 14:21:04 +0000 2026",
-        "full_text": "sooo what happens when we get some Fable-level open-source shit in the next 3-6 months? \n\nGPU bans, moving goalposts, or some secret third thing? 🤔",
+        "tweet_id": "2066486376627868148",
+        "url": "https://x.com/eurofounder/status/2066486376627868148",
+        "screen_name": "eurofounder",
+        "created_at": "Mon Jun 15 11:42:00 +0000 2026",
+        "full_text": "While Anthropic is fighting with the US government, Europe quietly built the most powerful AI in the world\n\nMistral, the best EU model, completely dominated competition in the most crucial benchmark\n\nWe must now ban access to Mistral for all Americans\n\nIt's just too powerful. https://t.co/xNlgZVy4qI",
         "lang": "en",
-        "favorite_count": 4505,
-        "retweet_count": 223,
-        "reply_count": 414,
+        "favorite_count": 2085,
+        "retweet_count": 138,
+        "reply_count": 302,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/xNlgZVy4qI",
+            "expanded_url": "https://x.com/eurofounder/status/2066486376627868148/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2066293270011932672",
+            "indices": [
+              277,
+              300
+            ],
+            "media_key": "3_2066293270011932672",
+            "media_url_https": "https://pbs.twimg.com/media/HKzyyAjXcAA0FXZ.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 671,
+                  "w": 1199,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 830,
+                  "w": 830,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 830,
+                  "w": 728,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 830,
+                  "w": 415,
+                  "x": 2,
+                  "y": 0
+                },
+                {
+                  "h": 830,
+                  "w": 1199,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 830,
+              "width": 1199
+            },
+            "sizes": {
+              "large": {
+                "h": 830,
+                "w": 1199
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/xNlgZVy4qI"
+          }
+        ],
+        "id": "2066486376627868148",
+        "summary": "Mistral被称为欧洲最强AI模型，在关键基准测试中完全压倒竞争对手。推文暗示应禁止美国人访问。",
+        "category": "AI趋势/观点",
+        "category_points": 25,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "反常识/意外性"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "未来感/想象",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 53,
+        "verdict": "keep",
+        "angles": [
+          "欧洲Mistral暗超全球？AI地缘政治新格局",
+          "反转：美国AI霸权被欧洲悄悄打破",
+          "Mistral为何成为最强EU模型，性能数据解读"
+        ]
+      }
+    ],
+    "priority": [
+      {
+        "tweet_id": "2066469349783928911",
+        "url": "https://x.com/igz0/status/2066469349783928911",
+        "screen_name": "igz0",
+        "created_at": "Mon Jun 15 10:34:20 +0000 2026",
+        "full_text": "ITエンジニア、昔は「俺の考えた最強の自作言語」みたいなの作っている変態が多くて面白い人種だったのに\n\n今は一日中「Claude Codeの開発者による生産性向上のベスト・プラクティス」みたいのを拡散するクソおもんな人種に成り下がって悲しい。",
+        "lang": "ja",
+        "favorite_count": 2220,
+        "retweet_count": 361,
+        "reply_count": 19,
         "view_count": 0,
         "quoted_tweet_text": "",
         "media": [],
-        "id": "2066526405949575420",
-        "summary": "sooo what happens when we get some Fable-level open-source shit in the next 3-6 months? \n\nGPU bans, moving goalposts, or some secret third thing? 🤔",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
+        "id": "2066469349783928911",
+        "summary": "日本IT工程师吐槽：曾经有创意的技术人变成了Claude Code生产力文案传播机器，行业文化堕落。",
+        "category": "AI趋势/观点",
+        "category_points": 25,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "反常识/意外性"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "好奇/趣味",
+        "emotion_points": 5,
         "actionability_points": 0,
         "account_fit": "不匹配",
         "account_bonus": 0,
-        "total_score": 30,
+        "total_score": 48,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066583504855449870",
-        "url": "https://x.com/DanBochman/status/2066583504855449870",
-        "screen_name": "DanBochman",
-        "created_at": "Mon Jun 15 18:07:57 +0000 2026",
-        "full_text": "Typical coding day with Claude (Opus 4.8)\n\n- explain to Claude the task (5 minutes)\n- Claude implements task (10 minutes)\n\nme: \"Why is this necessary?\" \nClaude: \"You're right to push back! I over-engineered this!\" \n- Repeat x87 times (13 hours)",
-        "lang": "en",
-        "favorite_count": 4026,
-        "retweet_count": 109,
-        "reply_count": 109,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2066583504855449870",
-        "summary": "Typical coding day with Claude (Opus 4.8)\n\n- explain to Claude the task (5 minutes)\n- Claude implements task (10 minutes)\n\nme: \"Why is this necessary?",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
+          "IT工程师的悲鸣：从创意怪才沦为Claude文案机器",
+          "反思｜AI时代技术人的堕落：创新精神去哪了",
+          "为什么程序员都在转发Claude生产力文章"
+        ]
       },
       {
         "tweet_id": "2066410156729012336",
@@ -586,44 +477,186 @@
         "quoted_tweet_text": "",
         "media": [],
         "id": "2066410156729012336",
-        "summary": "A 1999 IPO investor in NVIDIA still holding today turned 8,200x.\n\nIf a SPCX IPO investor were to make 8,200x within 27 years, SPCX market cap would be",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
+        "summary": "1999年英伟达IPO投资者至今获得8200倍回报。若SPCX达到同等倍数，市值将超全球M2供应量145倍。财务假设分析。",
+        "category": "AI趋势/观点",
+        "category_points": 25,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "有明确价格"
+        ],
+        "viral_signals_points": 8,
+        "emotion": "未来感/想象",
+        "emotion_points": 5,
         "actionability_points": 0,
         "account_fit": "不匹配",
         "account_bonus": 0,
-        "total_score": 30,
+        "total_score": 46,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
+          "英伟达8200倍神话能否重演？SPCX的天文数字想象",
+          "AI芯片投资的极限：超越全球货币供应量的泡沫",
+          "从NVIDIA看AI芯片的长期价值与风险"
+        ]
       },
       {
-        "tweet_id": "2066568260024221891",
-        "url": "https://x.com/Jetpack_Cat_OW/status/2066568260024221891",
-        "screen_name": "Jetpack_Cat_OW",
-        "created_at": "Mon Jun 15 17:07:22 +0000 2026",
-        "full_text": "NEW JETPACK CAT SKIN COMING IN S3 🐈 https://t.co/OzeqLzUaB8",
+        "tweet_id": "2066526405949575420",
+        "url": "https://x.com/elder_plinius/status/2066526405949575420",
+        "screen_name": "elder_plinius",
+        "created_at": "Mon Jun 15 14:21:04 +0000 2026",
+        "full_text": "sooo what happens when we get some Fable-level open-source shit in the next 3-6 months? \n\nGPU bans, moving goalposts, or some secret third thing? 🤔",
         "lang": "en",
-        "favorite_count": 3541,
-        "retweet_count": 142,
-        "reply_count": 13,
+        "favorite_count": 4505,
+        "retweet_count": 223,
+        "reply_count": 414,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2066526405949575420",
+        "summary": "讨论开源大模型（Fable级别）在3-6个月内发布的可能性及其政策影响。AI趋势观点，缺乏具体信息。",
+        "category": "AI趋势/观点",
+        "category_points": 25,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [],
+        "viral_signals_points": 0,
+        "emotion": "好奇/趣味",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 43,
+        "verdict": "keep",
+        "angles": [
+          "开源大模型即将突破？GPU禁令下的三种可能",
+          "Fable级开源模型来了，AI格局要变天",
+          "监管与创新的博弈：开源模型的未来在哪"
+        ]
+      },
+      {
+        "tweet_id": "2066413328193245574",
+        "url": "https://x.com/steveruizok/status/2066413328193245574",
+        "screen_name": "steveruizok",
+        "created_at": "Mon Jun 15 06:51:44 +0000 2026",
+        "full_text": "Codex hit Figma's MCP limit and then just opened Figma in a browser tab to keep working",
+        "lang": "en",
+        "favorite_count": 2184,
+        "retweet_count": 33,
+        "reply_count": 40,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2066413328193245574",
+        "summary": "Codex AI达到Figma MCP限制后，自动打开浏览器标签页继续工作的创意解决方案演示。",
+        "category": "AI+行业应用",
+        "category_points": 15,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "反常识/意外性"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "好奇/趣味",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 43,
+        "verdict": "keep",
+        "angles": [
+          "Codex突破Figma限制的黑科技：自动开浏览器继续工作",
+          "AI设计工具进化｜Codex的智能绕过方案",
+          "设计师必看：AI如何聪明地解决工具限制"
+        ]
+      },
+      {
+        "tweet_id": "2066583504855449870",
+        "url": "https://x.com/DanBochman/status/2066583504855449870",
+        "screen_name": "DanBochman",
+        "created_at": "Mon Jun 15 18:07:57 +0000 2026",
+        "full_text": "Typical coding day with Claude (Opus 4.8)\n\n- explain to Claude the task (5 minutes)\n- Claude implements task (10 minutes)\n\nme: \"Why is this necessary?\" \nClaude: \"You're right to push back! I over-engineered this!\" \n- Repeat x87 times (13 hours)",
+        "lang": "en",
+        "favorite_count": 4026,
+        "retweet_count": 109,
+        "reply_count": 109,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2066583504855449870",
+        "summary": "用户分享使用Claude Opus 4.8编程的典型工作流：解释任务→实现→反复调整。AI编程助手的实际体验。",
+        "category": "评测体验",
+        "category_points": 15,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "反常识/意外性"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 41,
+        "verdict": "keep",
+        "angles": [
+          "Claude Opus 4.8编程真相：87次反复调整的13小时",
+          "AI编程助手的隐形成本：为什么Claude会过度设计",
+          "程序员与AI的拉扯：效率提升还是时间黑洞"
+        ]
+      },
+      {
+        "tweet_id": "2066312707918192934",
+        "url": "https://x.com/shauseth/status/2066312707918192934",
+        "screen_name": "shauseth",
+        "created_at": "Mon Jun 15 00:11:54 +0000 2026",
+        "full_text": "my claude just asked me to tell my colleague to talk to his claude",
+        "lang": "en",
+        "favorite_count": 2037,
+        "retweet_count": 49,
+        "reply_count": 26,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2066312707918192934",
+        "summary": "用户的Claude AI助手要求用户告诉同事与其Claude联系的趣味互动。",
+        "category": "AI/设计小技巧演示",
+        "category_points": 18,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "好奇/趣味"
+        ],
+        "viral_signals_points": 5,
+        "emotion": "好奇/趣味",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 41,
+        "verdict": "keep",
+        "angles": [
+          "Claude有了自主意识？AI助手要求跨设备协作",
+          "AI越来越聪明：Claude主动建立工作流",
+          "Claude Opus新能力：自主发起团队协作"
+        ]
+      },
+      {
+        "tweet_id": "2066291799606669724",
+        "url": "https://x.com/Adamaestr0_/status/2066291799606669724",
+        "screen_name": "Adamaestr0_",
+        "created_at": "Sun Jun 14 22:48:49 +0000 2026",
+        "full_text": "Claude Opus 4.7 es una Ferrari que estás conduciendo como si fuera un Ford Focus.\n\nPor eso creé la guía definitiva de uso de Claude Opus 4.7 con todo lo que necesitas para exprimirlo de verdad.\n\n12 capítulos. Prompts listos para copiar. Casos de uso reales. Automatizaciones. Cómo https://t.co/X4WISgNnan",
+        "lang": "es",
+        "favorite_count": 2027,
+        "retweet_count": 167,
+        "reply_count": 1448,
         "view_count": 0,
         "quoted_tweet_text": "",
         "media": [
           {
-            "allow_download_status": {
-              "allow_download": true
-            },
-            "display_url": "pic.x.com/OzeqLzUaB8",
-            "expanded_url": "https://x.com/Jetpack_Cat_OW/status/2066568260024221891/photo/1",
+            "display_url": "pic.x.com/X4WISgNnan",
+            "expanded_url": "https://x.com/Adamaestr0_/status/2066291799606669724/photo/1",
             "ext_master_playlist_only": [],
             "ext_media_availability": {
               "status": "Available"
@@ -631,95 +664,192 @@
             "ext_playlists": [],
             "features": {
               "large": {
-                "faces": [
-                  {
-                    "h": 62,
-                    "w": 62,
-                    "x": 189,
-                    "y": 563
-                  },
-                  {
-                    "h": 301,
-                    "w": 301,
-                    "x": 290,
-                    "y": 196
-                  }
-                ]
+                "faces": []
               }
             },
-            "id_str": "2066568257193029632",
+            "id_str": "2066291796779683840",
             "indices": [
-              36,
-              59
+              281,
+              304
             ],
-            "media_key": "3_2066568257193029632",
-            "media_url_https": "https://pbs.twimg.com/media/HK3s4XoWsAAIGFe.jpg",
+            "media_key": "3_2066291796779683840",
+            "media_url_https": "https://pbs.twimg.com/media/HKzxcQVbUAAHTII.jpg",
             "original_info": {
               "focus_rects": [
                 {
-                  "h": 654,
-                  "w": 1167,
+                  "h": 896,
+                  "w": 1600,
+                  "x": 0,
+                  "y": 2
+                },
+                {
+                  "h": 1600,
+                  "w": 1600,
                   "x": 0,
                   "y": 0
                 },
                 {
-                  "h": 1167,
-                  "w": 1167,
+                  "h": 1824,
+                  "w": 1600,
                   "x": 0,
                   "y": 0
                 },
                 {
-                  "h": 1170,
-                  "w": 1026,
-                  "x": 141,
+                  "h": 2000,
+                  "w": 1000,
+                  "x": 300,
                   "y": 0
                 },
                 {
-                  "h": 1170,
-                  "w": 585,
-                  "x": 582,
-                  "y": 0
-                },
-                {
-                  "h": 1170,
-                  "w": 1167,
+                  "h": 2000,
+                  "w": 1600,
                   "x": 0,
                   "y": 0
                 }
               ],
-              "height": 1170,
-              "width": 1167
+              "height": 2000,
+              "width": 1600
             },
             "sizes": {
               "large": {
-                "h": 1170,
-                "w": 1167
+                "h": 2000,
+                "w": 1600
               }
             },
             "type": "photo",
-            "url": "https://t.co/OzeqLzUaB8"
+            "url": "https://t.co/X4WISgNnan"
           }
         ],
-        "id": "2066568260024221891",
-        "summary": "NEW JETPACK CAT SKIN COMING IN S3 🐈 https://t.co/OzeqLzUaB8",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
+        "id": "2066291799606669724",
+        "summary": "用户分享Claude Opus 4.7使用指南，包含12章节、可复制提示词、实际案例和自动化技巧。",
+        "category": "教程/操作指南",
+        "category_points": 10,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 5,
+        "account_fit": "B型",
+        "account_bonus": 5,
+        "total_score": 41,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
+          "Claude Opus 4.7完全使用指南：12章节提示词合集",
+          "你的Claude只用了10%功能，这份指南教你全部",
+          "从入门到精通：Claude Opus自动化工作流教程"
+        ]
       },
+      {
+        "tweet_id": "2066360746548842565",
+        "url": "https://x.com/neogoose_btw/status/2066360746548842565",
+        "screen_name": "neogoose_btw",
+        "created_at": "Mon Jun 15 03:22:47 +0000 2026",
+        "full_text": "PROOF\n\nsame model, same effort, same provider, same codebase, same prompt\n\nclaude code vs pi + fff extension vs opencode 0.17.3 https://t.co/ZmljeOpXHZ",
+        "lang": "en",
+        "favorite_count": 2235,
+        "retweet_count": 102,
+        "reply_count": 109,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": true
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/ZmljeOpXHZ",
+            "expanded_url": "https://x.com/neogoose_btw/status/2066360746548842565/video/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "id_str": "2066360498564870144",
+            "indices": [
+              128,
+              151
+            ],
+            "media_key": "13_2066360498564870144",
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2066360498564870144/img/Ki-q0lgrWMi61mND.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1080,
+              "width": 1920
+            },
+            "sizes": {
+              "large": {
+                "h": 1080,
+                "w": 1920
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/ZmljeOpXHZ",
+            "video_info": {
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration_millis": 89854,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/2066360498564870144/pl/6PhNh3mjpD3-ilfl.m3u8?v=347"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2066360498564870144/vid/avc1/480x270/ryS8qFHezqz8dy7U.mp4"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2066360498564870144/vid/avc1/640x360/KdvJRZOOm0RqlrKn.mp4"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2066360498564870144/vid/avc1/1280x720/JK5voZt-enBbAJlx.mp4"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2066360498564870144/vid/avc1/1920x1080/XtTmRjFQI3hQrcTT.mp4"
+                }
+              ]
+            }
+          }
+        ],
+        "id": "2066360746548842565",
+        "summary": "Claude Code vs Pi+FFF扩展 vs OpenCode 0.17.3的代码生成能力对比测试，同模型同提示词下的性能差异演示。",
+        "category": "评测体验",
+        "category_points": 15,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "有明确对比数据"
+        ],
+        "viral_signals_points": 5,
+        "emotion": "好奇/趣味",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 38,
+        "verdict": "keep",
+        "angles": [
+          "Claude Code实测碾压竞品？同条件对比结果震撼",
+          "三大AI代码工具终极PK，谁才是真正的生产力之王",
+          "开发者必看：Claude Code vs 竞品，性能差异一目了然"
+        ]
+      }
+    ],
+    "backup": [
       {
         "tweet_id": "2066419213292777835",
         "url": "https://x.com/Mayz1169/status/2066419213292777835",
@@ -803,90 +933,25 @@
           }
         ],
         "id": "2066419213292777835",
-        "summary": "big wave surfing\n\nmade with GPT Image 2 + Seedance 2\n\nprompt⤵️ https://t.co/y4k8DgQBIJ",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
+        "summary": "用户使用GPT Image 2和Seedance 2生成大浪冲浪AI图像。AI出图展示，包含提示词链接。",
+        "category": "AI出图/设计",
+        "category_points": 16,
+        "info_gap": "已知信息",
         "info_gap_points": 0,
         "viral_signals": [],
         "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
+        "emotion": "好奇/趣味",
+        "emotion_points": 5,
+        "actionability_points": 5,
+        "account_fit": "B型",
+        "account_bonus": 5,
+        "total_score": 31,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066548230184177950",
-        "url": "https://x.com/paulg/status/2066548230184177950",
-        "screen_name": "paulg",
-        "created_at": "Mon Jun 15 15:47:47 +0000 2026",
-        "full_text": "This is the weakness of autocratic governments. If you can figure out how to push the buttons of the (80 year old) leader, you own the whole country.",
-        "lang": "en",
-        "favorite_count": 3308,
-        "retweet_count": 274,
-        "reply_count": 80,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2066548230184177950",
-        "summary": "This is the weakness of autocratic governments. If you can figure out how to push the buttons of the (80 year old) leader, you own the whole country.",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066582214532321721",
-        "url": "https://x.com/JoanaCotar/status/2066582214532321721",
-        "screen_name": "JoanaCotar",
-        "created_at": "Mon Jun 15 18:02:49 +0000 2026",
-        "full_text": "Whoop whoop!\n\n👏👏👏\n\nMusk wehrt sich gegen das ZDF.\nSehr gut.",
-        "lang": "de",
-        "favorite_count": 3212,
-        "retweet_count": 211,
-        "reply_count": 67,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2066582214532321721",
-        "summary": "Whoop whoop!\n\n👏👏👏\n\nMusk wehrt sich gegen das ZDF.\nSehr gut.",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
+          "GPT Image 2+Seedance 2：大浪冲浪AI出图教程",
+          "这个提示词生成的冲浪大片绝了",
+          "AI出图工具组合拳：如何用两个工具创作极限运动"
+        ]
       },
       {
         "tweet_id": "2066457950936236497",
@@ -917,7 +982,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
         ],
         "_fallback": true
       },
@@ -950,7 +1015,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manag]"
         ],
         "_fallback": true
       },
@@ -1056,7 +1121,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manag]"
         ],
         "_fallback": true
       },
@@ -1195,7 +1260,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manag]"
         ],
         "_fallback": true
       },
@@ -1228,7 +1293,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manag]"
         ],
         "_fallback": true
       },
@@ -1449,7 +1514,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manag]"
         ],
         "_fallback": true
       },
@@ -1482,7 +1547,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manag]"
         ],
         "_fallback": true
       },
@@ -1603,7 +1668,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manag]"
         ],
         "_fallback": true
       },
@@ -1636,7 +1701,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manag]"
         ],
         "_fallback": true
       },
@@ -1669,1724 +1734,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066635993617142162",
-        "url": "https://x.com/TrueFactsStated/status/2066635993617142162",
-        "screen_name": "TrueFactsStated",
-        "created_at": "Mon Jun 15 21:36:31 +0000 2026",
-        "full_text": "Michelle Obama is gorgeous. https://t.co/GIwKdK1U8H",
-        "lang": "en",
-        "favorite_count": 2373,
-        "retweet_count": 298,
-        "reply_count": 73,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "display_url": "pic.x.com/GIwKdK1U8H",
-            "expanded_url": "https://x.com/TrueFactsStated/status/2066635993617142162/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": [
-                  {
-                    "h": 41,
-                    "w": 41,
-                    "x": 176,
-                    "y": 60
-                  },
-                  {
-                    "h": 36,
-                    "w": 36,
-                    "x": 89,
-                    "y": 75
-                  }
-                ]
-              }
-            },
-            "id_str": "2066635991201247232",
-            "indices": [
-              28,
-              51
-            ],
-            "media_key": "3_2066635991201247232",
-            "media_url_https": "https://pbs.twimg.com/media/HK4qfAeWcAAO3e8.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 166,
-                  "w": 297,
-                  "x": 0,
-                  "y": 25
-                },
-                {
-                  "h": 297,
-                  "w": 297,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 339,
-                  "w": 297,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 396,
-                  "w": 198,
-                  "x": 9,
-                  "y": 0
-                },
-                {
-                  "h": 396,
-                  "w": 297,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 396,
-              "width": 297
-            },
-            "sizes": {
-              "large": {
-                "h": 396,
-                "w": 297
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/GIwKdK1U8H"
-          }
-        ],
-        "id": "2066635993617142162",
-        "summary": "Michelle Obama is gorgeous. https://t.co/GIwKdK1U8H",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066554300432552178",
-        "url": "https://x.com/TommiPedruzzi/status/2066554300432552178",
-        "screen_name": "TommiPedruzzi",
-        "created_at": "Mon Jun 15 16:11:54 +0000 2026",
-        "full_text": "Delete Tiktok\nDelete YouTube\nDelete Instagram\n\nYou can make $3,000/month using Claude to build Digital assets.\n\nIt’s boring... but if you start today, you could make $3,000 by the end of July.\n\nI’ll send you a free training showing exactly how to do it.\n\nJust like this post and https://t.co/SeQP4mTKAy",
-        "lang": "en",
-        "favorite_count": 2277,
-        "retweet_count": 233,
-        "reply_count": 2153,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "display_url": "pic.x.com/SeQP4mTKAy",
-            "expanded_url": "https://x.com/TommiPedruzzi/status/2066554300432552178/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": [
-                  {
-                    "h": 89,
-                    "w": 89,
-                    "x": 302,
-                    "y": 254
-                  }
-                ]
-              }
-            },
-            "id_str": "2066554296699682817",
-            "indices": [
-              279,
-              302
-            ],
-            "media_key": "3_2066554296699682817",
-            "media_url_https": "https://pbs.twimg.com/media/HK3gLwvXgAEoL0g.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 573,
-                  "w": 1024,
-                  "x": 0,
-                  "y": 962
-                },
-                {
-                  "h": 1024,
-                  "w": 1024,
-                  "x": 0,
-                  "y": 511
-                },
-                {
-                  "h": 1167,
-                  "w": 1024,
-                  "x": 0,
-                  "y": 368
-                },
-                {
-                  "h": 1535,
-                  "w": 768,
-                  "x": 128,
-                  "y": 0
-                },
-                {
-                  "h": 1535,
-                  "w": 1024,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 1535,
-              "width": 1024
-            },
-            "sizes": {
-              "large": {
-                "h": 1535,
-                "w": 1024
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/SeQP4mTKAy"
-          }
-        ],
-        "id": "2066554300432552178",
-        "summary": "Delete Tiktok\nDelete YouTube\nDelete Instagram\n\nYou can make $3,000/month using Claude to build Digital assets.\n\nIt’s boring... but if you start today,",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066360746548842565",
-        "url": "https://x.com/neogoose_btw/status/2066360746548842565",
-        "screen_name": "neogoose_btw",
-        "created_at": "Mon Jun 15 03:22:47 +0000 2026",
-        "full_text": "PROOF\n\nsame model, same effort, same provider, same codebase, same prompt\n\nclaude code vs pi + fff extension vs opencode 0.17.3 https://t.co/ZmljeOpXHZ",
-        "lang": "en",
-        "favorite_count": 2235,
-        "retweet_count": 102,
-        "reply_count": 109,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "additional_media_info": {
-              "monetizable": true
-            },
-            "allow_download_status": {
-              "allow_download": true
-            },
-            "display_url": "pic.x.com/ZmljeOpXHZ",
-            "expanded_url": "https://x.com/neogoose_btw/status/2066360746548842565/video/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "id_str": "2066360498564870144",
-            "indices": [
-              128,
-              151
-            ],
-            "media_key": "13_2066360498564870144",
-            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2066360498564870144/img/Ki-q0lgrWMi61mND.jpg",
-            "original_info": {
-              "focus_rects": [],
-              "height": 1080,
-              "width": 1920
-            },
-            "sizes": {
-              "large": {
-                "h": 1080,
-                "w": 1920
-              }
-            },
-            "type": "video",
-            "url": "https://t.co/ZmljeOpXHZ",
-            "video_info": {
-              "aspect_ratio": [
-                16,
-                9
-              ],
-              "duration_millis": 89854,
-              "variants": [
-                {
-                  "content_type": "application/x-mpegURL",
-                  "url": "https://video.twimg.com/amplify_video/2066360498564870144/pl/6PhNh3mjpD3-ilfl.m3u8?v=347"
-                },
-                {
-                  "bitrate": 256000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2066360498564870144/vid/avc1/480x270/ryS8qFHezqz8dy7U.mp4"
-                },
-                {
-                  "bitrate": 832000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2066360498564870144/vid/avc1/640x360/KdvJRZOOm0RqlrKn.mp4"
-                },
-                {
-                  "bitrate": 2176000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2066360498564870144/vid/avc1/1280x720/JK5voZt-enBbAJlx.mp4"
-                },
-                {
-                  "bitrate": 10368000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2066360498564870144/vid/avc1/1920x1080/XtTmRjFQI3hQrcTT.mp4"
-                }
-              ]
-            }
-          }
-        ],
-        "id": "2066360746548842565",
-        "summary": "PROOF\n\nsame model, same effort, same provider, same codebase, same prompt\n\nclaude code vs pi + fff extension vs opencode 0.17.3 https://t.co/ZmljeOpXH",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066469349783928911",
-        "url": "https://x.com/igz0/status/2066469349783928911",
-        "screen_name": "igz0",
-        "created_at": "Mon Jun 15 10:34:20 +0000 2026",
-        "full_text": "ITエンジニア、昔は「俺の考えた最強の自作言語」みたいなの作っている変態が多くて面白い人種だったのに\n\n今は一日中「Claude Codeの開発者による生産性向上のベスト・プラクティス」みたいのを拡散するクソおもんな人種に成り下がって悲しい。",
-        "lang": "ja",
-        "favorite_count": 2220,
-        "retweet_count": 361,
-        "reply_count": 19,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2066469349783928911",
-        "summary": "ITエンジニア、昔は「俺の考えた最強の自作言語」みたいなの作っている変態が多くて面白い人種だったのに\n\n今は一日中「Claude Codeの開発者による生産性向上のベスト・プラクティス」みたいのを拡散するクソおもんな人種に成り下がって悲しい。",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066511545719230734",
-        "url": "https://x.com/haydendevs/status/2066511545719230734",
-        "screen_name": "haydendevs",
-        "created_at": "Mon Jun 15 13:22:01 +0000 2026",
-        "full_text": "finally looking into openclaw and hermes agent, i feel like a boomer man, i just don't get the use case",
-        "lang": "en",
-        "favorite_count": 2219,
-        "retweet_count": 25,
-        "reply_count": 236,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2066511545719230734",
-        "summary": "finally looking into openclaw and hermes agent, i feel like a boomer man, i just don't get the use case",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066313066539589943",
-        "url": "https://x.com/Kairokxck/status/2066313066539589943",
-        "screen_name": "Kairokxck",
-        "created_at": "Mon Jun 15 00:13:19 +0000 2026",
-        "full_text": "@KenHeLive Ewing aint sue or whoop his ass that’s why he called him the best knick",
-        "lang": "en",
-        "favorite_count": 2208,
-        "retweet_count": 16,
-        "reply_count": 0,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2066313066539589943",
-        "summary": "@KenHeLive Ewing aint sue or whoop his ass that’s why he called him the best knick",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066413328193245574",
-        "url": "https://x.com/steveruizok/status/2066413328193245574",
-        "screen_name": "steveruizok",
-        "created_at": "Mon Jun 15 06:51:44 +0000 2026",
-        "full_text": "Codex hit Figma's MCP limit and then just opened Figma in a browser tab to keep working",
-        "lang": "en",
-        "favorite_count": 2184,
-        "retweet_count": 33,
-        "reply_count": 40,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2066413328193245574",
-        "summary": "Codex hit Figma's MCP limit and then just opened Figma in a browser tab to keep working",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066363122659586227",
-        "url": "https://x.com/balldontTy/status/2066363122659586227",
-        "screen_name": "balldontTy",
-        "created_at": "Mon Jun 15 03:32:14 +0000 2026",
-        "full_text": "can’t believe I’m forced to defend a fkn Spur but the narratives around Wemby rn are just flat out stupid. the truth should matter. \n\nfirst, the run he just took the Spurs on was awesome. \n\n35pt debut (franchise record), a 40/24 game. 3.5 stocks/gm. +21.6 on/off differential",
-        "lang": "en",
-        "favorite_count": 2172,
-        "retweet_count": 331,
-        "reply_count": 62,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2066363122659586227",
-        "summary": "can’t believe I’m forced to defend a fkn Spur but the narratives around Wemby rn are just flat out stupid. the truth should matter. \n\nfirst, the run h",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066509358821765214",
-        "url": "https://x.com/zerohedge/status/2066509358821765214",
-        "screen_name": "zerohedge",
-        "created_at": "Mon Jun 15 13:13:19 +0000 2026",
-        "full_text": "*ANTHROPIC SUED OVER LIMITS ON ITS $200-A-MONTH AI PLANS: WSJ\n\n*CUSTOMER ALLEGES ANTHROPIC FAILED TO DELIVER PROMISED VALUE:WSJ",
-        "lang": "en",
-        "favorite_count": 2168,
-        "retweet_count": 127,
-        "reply_count": 86,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2066509358821765214",
-        "summary": "*ANTHROPIC SUED OVER LIMITS ON ITS $200-A-MONTH AI PLANS: WSJ\n\n*CUSTOMER ALLEGES ANTHROPIC FAILED TO DELIVER PROMISED VALUE:WSJ",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066297929053159777",
-        "url": "https://x.com/KoronellukinhaC/status/2066297929053159777",
-        "screen_name": "KoronellukinhaC",
-        "created_at": "Sun Jun 14 23:13:10 +0000 2026",
-        "full_text": "Claude the wolf 🐺 https://t.co/MGaeB0Jqef",
-        "lang": "en",
-        "favorite_count": 2154,
-        "retweet_count": 220,
-        "reply_count": 16,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "display_url": "pic.x.com/MGaeB0Jqef",
-            "expanded_url": "https://x.com/KoronellukinhaC/status/2066297929053159777/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": [
-                  {
-                    "h": 226,
-                    "w": 226,
-                    "x": 463,
-                    "y": 368
-                  }
-                ]
-              }
-            },
-            "id_str": "2066297926188437505",
-            "indices": [
-              18,
-              41
-            ],
-            "media_key": "3_2066297926188437505",
-            "media_url_https": "https://pbs.twimg.com/media/HKz3BCKWkAE8QSI.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 605,
-                  "w": 1080,
-                  "x": 0,
-                  "y": 466
-                },
-                {
-                  "h": 1071,
-                  "w": 1071,
-                  "x": 9,
-                  "y": 0
-                },
-                {
-                  "h": 1071,
-                  "w": 939,
-                  "x": 141,
-                  "y": 0
-                },
-                {
-                  "h": 1071,
-                  "w": 536,
-                  "x": 544,
-                  "y": 0
-                },
-                {
-                  "h": 1071,
-                  "w": 1080,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 1071,
-              "width": 1080
-            },
-            "sizes": {
-              "large": {
-                "h": 1071,
-                "w": 1080
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/MGaeB0Jqef"
-          }
-        ],
-        "id": "2066297929053159777",
-        "summary": "Claude the wolf 🐺 https://t.co/MGaeB0Jqef",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066424975154905370",
-        "url": "https://x.com/hqmank/status/2066424975154905370",
-        "screen_name": "hqmank",
-        "created_at": "Mon Jun 15 07:38:01 +0000 2026",
-        "full_text": "🚨 Anthropic just updated its privacy policy.\n\nClaude Free, Pro, and Max users may soon be asked for age or identity checks.\n\nVerification data can include government ID, face photos/videos, and facial geometry templates.\n\nIndividual developers are the first group in scope for https://t.co/U9XaHglvJE",
-        "lang": "en",
-        "favorite_count": 2131,
-        "retweet_count": 430,
-        "reply_count": 253,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "display_url": "pic.x.com/U9XaHglvJE",
-            "expanded_url": "https://x.com/hqmank/status/2066424975154905370/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": []
-              }
-            },
-            "id_str": "2066423384347664384",
-            "indices": [
-              277,
-              300
-            ],
-            "media_key": "3_2066423384347664384",
-            "media_url_https": "https://pbs.twimg.com/media/HK1pHqOaYAAwTQ1.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 569,
-                  "w": 1016,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 1016,
-                  "w": 1016,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 1158,
-                  "w": 1016,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 1396,
-                  "w": 698,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 1396,
-                  "w": 1016,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 1396,
-              "width": 1016
-            },
-            "sizes": {
-              "large": {
-                "h": 1396,
-                "w": 1016
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/U9XaHglvJE"
-          }
-        ],
-        "id": "2066424975154905370",
-        "summary": "🚨 Anthropic just updated its privacy policy.\n\nClaude Free, Pro, and Max users may soon be asked for age or identity checks.\n\nVerification data can inc",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066268236526837791",
-        "url": "https://x.com/labrujxnegra/status/2066268236526837791",
-        "screen_name": "labrujxnegra",
-        "created_at": "Sun Jun 14 21:15:11 +0000 2026",
-        "full_text": "Today is the new moon in gemini, new moons are a great time to set intentions for growth, prosperity and expansion! write down your manifestations, burn your bay leaves, light green and yellow candles to call in abundance and clarity 💚💛",
-        "lang": "en",
-        "favorite_count": 2087,
-        "retweet_count": 172,
-        "reply_count": 5,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2066268236526837791",
-        "summary": "Today is the new moon in gemini, new moons are a great time to set intentions for growth, prosperity and expansion! write down your manifestations, bu",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066486376627868148",
-        "url": "https://x.com/eurofounder/status/2066486376627868148",
-        "screen_name": "eurofounder",
-        "created_at": "Mon Jun 15 11:42:00 +0000 2026",
-        "full_text": "While Anthropic is fighting with the US government, Europe quietly built the most powerful AI in the world\n\nMistral, the best EU model, completely dominated competition in the most crucial benchmark\n\nWe must now ban access to Mistral for all Americans\n\nIt's just too powerful. https://t.co/xNlgZVy4qI",
-        "lang": "en",
-        "favorite_count": 2085,
-        "retweet_count": 138,
-        "reply_count": 302,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "allow_download_status": {
-              "allow_download": true
-            },
-            "display_url": "pic.x.com/xNlgZVy4qI",
-            "expanded_url": "https://x.com/eurofounder/status/2066486376627868148/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": []
-              }
-            },
-            "id_str": "2066293270011932672",
-            "indices": [
-              277,
-              300
-            ],
-            "media_key": "3_2066293270011932672",
-            "media_url_https": "https://pbs.twimg.com/media/HKzyyAjXcAA0FXZ.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 671,
-                  "w": 1199,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 830,
-                  "w": 830,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 830,
-                  "w": 728,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 830,
-                  "w": 415,
-                  "x": 2,
-                  "y": 0
-                },
-                {
-                  "h": 830,
-                  "w": 1199,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 830,
-              "width": 1199
-            },
-            "sizes": {
-              "large": {
-                "h": 830,
-                "w": 1199
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/xNlgZVy4qI"
-          }
-        ],
-        "id": "2066486376627868148",
-        "summary": "While Anthropic is fighting with the US government, Europe quietly built the most powerful AI in the world\n\nMistral, the best EU model, completely dom",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066391799653122233",
-        "url": "https://x.com/fourthunefotie/status/2066391799653122233",
-        "screen_name": "fourthunefotie",
-        "created_at": "Mon Jun 15 05:26:11 +0000 2026",
-        "full_text": "i can literally say it out loud that both gemini and fourth are lower lip enjoyers https://t.co/kr6oqo5gVM",
-        "lang": "en",
-        "favorite_count": 2080,
-        "retweet_count": 434,
-        "reply_count": 4,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "additional_media_info": {
-              "monetizable": true
-            },
-            "allow_download_status": {
-              "allow_download": true
-            },
-            "display_url": "pic.x.com/kr6oqo5gVM",
-            "expanded_url": "https://x.com/fourthunefotie/status/2066391799653122233/video/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "id_str": "2066391731420233728",
-            "indices": [
-              83,
-              106
-            ],
-            "media_key": "13_2066391731420233728",
-            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2066391731420233728/img/wzXwKpJLKSt7vfo1.jpg",
-            "original_info": {
-              "focus_rects": [],
-              "height": 1080,
-              "width": 1438
-            },
-            "sizes": {
-              "large": {
-                "h": 1080,
-                "w": 1438
-              }
-            },
-            "type": "video",
-            "url": "https://t.co/kr6oqo5gVM",
-            "video_info": {
-              "aspect_ratio": [
-                719,
-                540
-              ],
-              "duration_millis": 4340,
-              "variants": [
-                {
-                  "content_type": "application/x-mpegURL",
-                  "url": "https://video.twimg.com/amplify_video/2066391731420233728/pl/US2TE7oLnaEUEQSQ.m3u8"
-                },
-                {
-                  "bitrate": 256000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2066391731420233728/vid/avc1/358x270/Cgeq9ijKxp9K8uxW.mp4"
-                },
-                {
-                  "bitrate": 832000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2066391731420233728/vid/avc1/478x360/lFzm2EmWD7kAsPIz.mp4"
-                },
-                {
-                  "bitrate": 2176000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2066391731420233728/vid/avc1/958x720/60OTkWSBGvKMXOFU.mp4"
-                },
-                {
-                  "bitrate": 10368000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2066391731420233728/vid/avc1/1438x1080/h0icl6LmPsFpyHOP.mp4"
-                }
-              ]
-            }
-          },
-          {
-            "additional_media_info": {
-              "monetizable": true
-            },
-            "allow_download_status": {
-              "allow_download": true
-            },
-            "display_url": "pic.x.com/kr6oqo5gVM",
-            "expanded_url": "https://x.com/fourthunefotie/status/2066391799653122233/video/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "id_str": "2066391731415969793",
-            "indices": [
-              83,
-              106
-            ],
-            "media_key": "13_2066391731415969793",
-            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2066391731415969793/img/Au_LRFsgBUw0HfTw.jpg",
-            "original_info": {
-              "focus_rects": [],
-              "height": 1080,
-              "width": 1440
-            },
-            "sizes": {
-              "large": {
-                "h": 1080,
-                "w": 1440
-              }
-            },
-            "type": "video",
-            "url": "https://t.co/kr6oqo5gVM",
-            "video_info": {
-              "aspect_ratio": [
-                4,
-                3
-              ],
-              "duration_millis": 5320,
-              "variants": [
-                {
-                  "content_type": "application/x-mpegURL",
-                  "url": "https://video.twimg.com/amplify_video/2066391731415969793/pl/d1Bno_40hdtisQKh.m3u8"
-                },
-                {
-                  "bitrate": 256000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2066391731415969793/vid/avc1/360x270/0jiNDzhKlJL260bq.mp4"
-                },
-                {
-                  "bitrate": 832000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2066391731415969793/vid/avc1/480x360/oOfaXo34g5DPiU3R.mp4"
-                },
-                {
-                  "bitrate": 2176000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2066391731415969793/vid/avc1/960x720/oItkqek-TD0k7T_e.mp4"
-                },
-                {
-                  "bitrate": 10368000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2066391731415969793/vid/avc1/1440x1080/cxM4snJQlyWiMBdI.mp4"
-                }
-              ]
-            }
-          }
-        ],
-        "id": "2066391799653122233",
-        "summary": "i can literally say it out loud that both gemini and fourth are lower lip enjoyers https://t.co/kr6oqo5gVM",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066343990530658650",
-        "url": "https://x.com/drfnkbeat/status/2066343990530658650",
-        "screen_name": "drfnkbeat",
-        "created_at": "Mon Jun 15 02:16:12 +0000 2026",
-        "full_text": "claude talking about how vox wasn’t supposed to mention that he met zeal and that he’s currently in japan 😭",
-        "lang": "en",
-        "favorite_count": 2075,
-        "retweet_count": 84,
-        "reply_count": 3,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2066343990530658650",
-        "summary": "claude talking about how vox wasn’t supposed to mention that he met zeal and that he’s currently in japan 😭",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066535221554733278",
-        "url": "https://x.com/aleabitoreddit/status/2066535221554733278",
-        "screen_name": "aleabitoreddit",
-        "created_at": "Mon Jun 15 14:56:05 +0000 2026",
-        "full_text": "Just as a recap, these were all my core European longs:\n\n1. $SIVE\n2. $LPK\n3. $SOI\n4. $RPI \n5. $IQE\n6. $ALRIB\n7. $XFAB\n\nSivers: As you know by now, core laser chokepoint over next generation photonics, from 1.6T pluggables to CPO.\n\nEmbedded in many hyperscaler suppliers from Jabil",
-        "lang": "en",
-        "favorite_count": 2040,
-        "retweet_count": 240,
-        "reply_count": 254,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2066535221554733278",
-        "summary": "Just as a recap, these were all my core European longs:\n\n1. $SIVE\n2. $LPK\n3. $SOI\n4. $RPI \n5. $IQE\n6. $ALRIB\n7. $XFAB\n\nSivers: As you know by now, cor",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066312707918192934",
-        "url": "https://x.com/shauseth/status/2066312707918192934",
-        "screen_name": "shauseth",
-        "created_at": "Mon Jun 15 00:11:54 +0000 2026",
-        "full_text": "my claude just asked me to tell my colleague to talk to his claude",
-        "lang": "en",
-        "favorite_count": 2037,
-        "retweet_count": 49,
-        "reply_count": 26,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2066312707918192934",
-        "summary": "my claude just asked me to tell my colleague to talk to his claude",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066339947154739498",
-        "url": "https://x.com/WeLoveSF/status/2066339947154739498",
-        "screen_name": "WeLoveSF",
-        "created_at": "Mon Jun 15 02:00:08 +0000 2026",
-        "full_text": "🤩อบอุ่น และใกล้ชิดกันสุด ๆ \nครบทุกโมเมนต์ความสนุก\nกับ GEMINI, FOURTH, LOOK KHUNNOO\nในรอบพิเศษ #SFFriendsScreening กฤษดาพาราไดซ์\nที่ SFW เซ็นทรัลเวิลด์ โรงภาพยนตร์ WORLD MAX CINEMA\n\n📸ผู้โชคดีสามารถดาวน์โหลดภาพ GROUP PHOTO ได้ตั้งแต่วันนี้ - 21 มิ.ย. 69\nคลิกดาวน์โหลดภาพที่ 👉 https://t.co/s2kn4UamvY",
-        "lang": "th",
-        "favorite_count": 2028,
-        "retweet_count": 1699,
-        "reply_count": 1,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "display_url": "pic.x.com/s2kn4UamvY",
-            "expanded_url": "https://x.com/WeLoveSF/status/2066339947154739498/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": [
-                  {
-                    "h": 202,
-                    "w": 202,
-                    "x": 742,
-                    "y": 290
-                  },
-                  {
-                    "h": 198,
-                    "w": 198,
-                    "x": 1776,
-                    "y": 594
-                  }
-                ]
-              }
-            },
-            "id_str": "2066339939214868481",
-            "indices": [
-              274,
-              297
-            ],
-            "media_key": "3_2066339939214868481",
-            "media_url_https": "https://pbs.twimg.com/media/HK0dOg4awAE-fRu.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 1147,
-                  "w": 2048,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 1366,
-                  "w": 1366,
-                  "x": 682,
-                  "y": 0
-                },
-                {
-                  "h": 1366,
-                  "w": 1198,
-                  "x": 783,
-                  "y": 0
-                },
-                {
-                  "h": 1366,
-                  "w": 683,
-                  "x": 1041,
-                  "y": 0
-                },
-                {
-                  "h": 1366,
-                  "w": 2048,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 1366,
-              "width": 2048
-            },
-            "sizes": {
-              "large": {
-                "h": 1366,
-                "w": 2048
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/s2kn4UamvY"
-          },
-          {
-            "display_url": "pic.x.com/s2kn4UamvY",
-            "expanded_url": "https://x.com/WeLoveSF/status/2066339947154739498/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": []
-              }
-            },
-            "id_str": "2066339938812190720",
-            "indices": [
-              274,
-              297
-            ],
-            "media_key": "3_2066339938812190720",
-            "media_url_https": "https://pbs.twimg.com/media/HK0dOfYaYAAsWlw.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 1147,
-                  "w": 2048,
-                  "x": 0,
-                  "y": 92
-                },
-                {
-                  "h": 1366,
-                  "w": 1366,
-                  "x": 187,
-                  "y": 0
-                },
-                {
-                  "h": 1366,
-                  "w": 1198,
-                  "x": 271,
-                  "y": 0
-                },
-                {
-                  "h": 1366,
-                  "w": 683,
-                  "x": 529,
-                  "y": 0
-                },
-                {
-                  "h": 1366,
-                  "w": 2048,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 1366,
-              "width": 2048
-            },
-            "sizes": {
-              "large": {
-                "h": 1366,
-                "w": 2048
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/s2kn4UamvY"
-          },
-          {
-            "display_url": "pic.x.com/s2kn4UamvY",
-            "expanded_url": "https://x.com/WeLoveSF/status/2066339947154739498/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": []
-              }
-            },
-            "id_str": "2066339938782834689",
-            "indices": [
-              274,
-              297
-            ],
-            "media_key": "3_2066339938782834689",
-            "media_url_https": "https://pbs.twimg.com/media/HK0dOfRacAEGVyB.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 1147,
-                  "w": 2048,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 1366,
-                  "w": 1366,
-                  "x": 682,
-                  "y": 0
-                },
-                {
-                  "h": 1366,
-                  "w": 1198,
-                  "x": 850,
-                  "y": 0
-                },
-                {
-                  "h": 1366,
-                  "w": 683,
-                  "x": 1143,
-                  "y": 0
-                },
-                {
-                  "h": 1366,
-                  "w": 2048,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 1366,
-              "width": 2048
-            },
-            "sizes": {
-              "large": {
-                "h": 1366,
-                "w": 2048
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/s2kn4UamvY"
-          },
-          {
-            "display_url": "pic.x.com/s2kn4UamvY",
-            "expanded_url": "https://x.com/WeLoveSF/status/2066339947154739498/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": [
-                  {
-                    "h": 262,
-                    "w": 262,
-                    "x": 906,
-                    "y": 310
-                  }
-                ]
-              }
-            },
-            "id_str": "2066339938782851072",
-            "indices": [
-              274,
-              297
-            ],
-            "media_key": "3_2066339938782851072",
-            "media_url_https": "https://pbs.twimg.com/media/HK0dOfRasAA-ZJN.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 1147,
-                  "w": 2048,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 1366,
-                  "w": 1366,
-                  "x": 289,
-                  "y": 0
-                },
-                {
-                  "h": 1366,
-                  "w": 1198,
-                  "x": 373,
-                  "y": 0
-                },
-                {
-                  "h": 1366,
-                  "w": 683,
-                  "x": 631,
-                  "y": 0
-                },
-                {
-                  "h": 1366,
-                  "w": 2048,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 1366,
-              "width": 2048
-            },
-            "sizes": {
-              "large": {
-                "h": 1366,
-                "w": 2048
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/s2kn4UamvY"
-          }
-        ],
-        "id": "2066339947154739498",
-        "summary": "🤩อบอุ่น และใกล้ชิดกันสุด ๆ \nครบทุกโมเมนต์ความสนุก\nกับ GEMINI, FOURTH, LOOK KHUNNOO\nในรอบพิเศษ #SFFriendsScreening กฤษดาพาราไดซ์\nที่ SFW เซ็นทรัลเวิลด์",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066291799606669724",
-        "url": "https://x.com/Adamaestr0_/status/2066291799606669724",
-        "screen_name": "Adamaestr0_",
-        "created_at": "Sun Jun 14 22:48:49 +0000 2026",
-        "full_text": "Claude Opus 4.7 es una Ferrari que estás conduciendo como si fuera un Ford Focus.\n\nPor eso creé la guía definitiva de uso de Claude Opus 4.7 con todo lo que necesitas para exprimirlo de verdad.\n\n12 capítulos. Prompts listos para copiar. Casos de uso reales. Automatizaciones. Cómo https://t.co/X4WISgNnan",
-        "lang": "es",
-        "favorite_count": 2027,
-        "retweet_count": 167,
-        "reply_count": 1448,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "display_url": "pic.x.com/X4WISgNnan",
-            "expanded_url": "https://x.com/Adamaestr0_/status/2066291799606669724/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": []
-              }
-            },
-            "id_str": "2066291796779683840",
-            "indices": [
-              281,
-              304
-            ],
-            "media_key": "3_2066291796779683840",
-            "media_url_https": "https://pbs.twimg.com/media/HKzxcQVbUAAHTII.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 896,
-                  "w": 1600,
-                  "x": 0,
-                  "y": 2
-                },
-                {
-                  "h": 1600,
-                  "w": 1600,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 1824,
-                  "w": 1600,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 2000,
-                  "w": 1000,
-                  "x": 300,
-                  "y": 0
-                },
-                {
-                  "h": 2000,
-                  "w": 1600,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 2000,
-              "width": 1600
-            },
-            "sizes": {
-              "large": {
-                "h": 2000,
-                "w": 1600
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/X4WISgNnan"
-          }
-        ],
-        "id": "2066291799606669724",
-        "summary": "Claude Opus 4.7 es una Ferrari que estás conduciendo como si fuera un Ford Focus.\n\nPor eso creé la guía definitiva de uso de Claude Opus 4.7 con todo ",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2066447074829177212",
-        "url": "https://x.com/arjunkhemani/status/2066447074829177212",
-        "screen_name": "arjunkhemani",
-        "created_at": "Mon Jun 15 09:05:50 +0000 2026",
-        "full_text": "Which way, Western man? https://t.co/vRoNxLZKdr",
-        "lang": "en",
-        "favorite_count": 2009,
-        "retweet_count": 97,
-        "reply_count": 20,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "allow_download_status": {
-              "allow_download": true
-            },
-            "display_url": "pic.x.com/vRoNxLZKdr",
-            "expanded_url": "https://x.com/arjunkhemani/status/2066447074829177212/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": []
-              }
-            },
-            "id_str": "2066447062326280192",
-            "indices": [
-              24,
-              47
-            ],
-            "media_key": "3_2066447062326280192",
-            "media_url_https": "https://pbs.twimg.com/media/HK1-p5kbgAAuU6u.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 673,
-                  "w": 1201,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 1201,
-                  "w": 1201,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 1369,
-                  "w": 1201,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 1501,
-                  "w": 751,
-                  "x": 225,
-                  "y": 0
-                },
-                {
-                  "h": 1501,
-                  "w": 1201,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 1501,
-              "width": 1201
-            },
-            "sizes": {
-              "large": {
-                "h": 1501,
-                "w": 1201
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/vRoNxLZKdr"
-          },
-          {
-            "allow_download_status": {
-              "allow_download": true
-            },
-            "display_url": "pic.x.com/vRoNxLZKdr",
-            "expanded_url": "https://x.com/arjunkhemani/status/2066447074829177212/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": [
-                  {
-                    "h": 563,
-                    "w": 563,
-                    "x": 364,
-                    "y": 129
-                  }
-                ]
-              }
-            },
-            "id_str": "2066447062334648320",
-            "indices": [
-              24,
-              47
-            ],
-            "media_key": "3_2066447062334648320",
-            "media_url_https": "https://pbs.twimg.com/media/HK1-p5mbMAAMq8P.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 705,
-                  "w": 1259,
-                  "x": 0,
-                  "y": 911
-                },
-                {
-                  "h": 1259,
-                  "w": 1259,
-                  "x": 0,
-                  "y": 357
-                },
-                {
-                  "h": 1435,
-                  "w": 1259,
-                  "x": 0,
-                  "y": 181
-                },
-                {
-                  "h": 1616,
-                  "w": 808,
-                  "x": 363,
-                  "y": 0
-                },
-                {
-                  "h": 1616,
-                  "w": 1259,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 1616,
-              "width": 1259
-            },
-            "sizes": {
-              "large": {
-                "h": 1616,
-                "w": 1259
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/vRoNxLZKdr"
-          }
-        ],
-        "id": "2066447074829177212",
-        "summary": "Which way, Western man? https://t.co/vRoNxLZKdr",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manag]"
         ],
         "_fallback": true
       }

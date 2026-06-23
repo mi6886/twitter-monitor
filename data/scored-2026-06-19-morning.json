@@ -1,19 +1,2058 @@
 {
   "date": "2026-06-19",
   "period": "morning",
-  "fetched_at": "2026-06-19T00:22:38.591523+00:00",
+  "fetched_at": "2026-06-22T01:32:46.575670+00:00",
   "raw_count": 53,
   "scored_count": 53,
-  "keep_count": 53,
-  "drop_count": 0,
-  "fallback_count": 53,
+  "keep_count": 37,
+  "drop_count": 16,
+  "fallback_count": 10,
   "score_distribution": {
-    ">=50": 0,
-    "35-49": 0,
-    "20-34": 53,
-    "<20": 0
+    ">=50": 19,
+    "35-49": 6,
+    "20-34": 12,
+    "<20": 16
   },
   "tweets": [
+    {
+      "tweet_id": "2067588262156501497",
+      "url": "https://x.com/UnslothAI/status/2067588262156501497",
+      "screen_name": "UnslothAI",
+      "created_at": "Thu Jun 18 12:40:30 +0000 2026",
+      "full_text": "GLM-5.2 can now be run locally!🔥\n\nThe 2-bit model retains ~82% accuracy after we shrunk it from 1.51TB to 238GB (-84% size).\n\nRun on a 256GB Mac or RAM/VRAM setups.\n\nGLM-5.2 is the strongest open model to date.\n\nGuide: https://t.co/bI7FeeKHDd\nGGUF: https://t.co/BMkxswdj5N https://t.co/qIPuU63W9D",
+      "lang": "en",
+      "favorite_count": 4158,
+      "retweet_count": 474,
+      "reply_count": 160,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/qIPuU63W9D",
+          "expanded_url": "https://x.com/UnslothAI/status/2067588262156501497/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "all": {
+              "tags": [
+                {
+                  "name": "Z.ai",
+                  "screen_name": "Zai_org",
+                  "user_id": "1726486879456096256"
+                }
+              ]
+            },
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2067588142488768512",
+          "indices": [
+            273,
+            296
+          ],
+          "media_key": "3_2067588142488768512",
+          "media_url_https": "https://pbs.twimg.com/media/HLGMdgbaUAAXoj1.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 2046,
+                "w": 3654,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 3654,
+                "w": 3654,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 4096,
+                "w": 3593,
+                "x": 61,
+                "y": 0
+              },
+              {
+                "h": 4096,
+                "w": 2048,
+                "x": 1606,
+                "y": 0
+              },
+              {
+                "h": 4096,
+                "w": 3654,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 4096,
+            "width": 3654
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1827
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/qIPuU63W9D"
+        }
+      ],
+      "id": "2067588262156501497",
+      "summary": "Unsloth AI发布GLM-5.2本地运行方案，通过2-bit量化将1.51TB模型压缩至238GB（减少84%），在256GB Mac上可直接运行，保留82%精度。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题：首次实现最强开源模型本地运行",
+        "有明确数字：1.51TB→238GB、-84%、82%精度、256GB"
+      ],
+      "viral_signals_points": 18,
+      "emotion": "震撼/惊叹",
+      "emotion_points": 5,
+      "actionability_points": 5,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 81,
+      "verdict": "keep",
+      "angles": [
+        "最强开源模型终于能在Mac本地跑了｜GLM-5.2压缩方案",
+        "1.51TB→238GB｜Unsloth如何让大模型瘦身84%",
+        "256GB Mac也能跑GLM-5.2｜开源模型民主化新里程"
+      ]
+    },
+    {
+      "tweet_id": "2067681320281723113",
+      "url": "https://x.com/OpenAIDevs/status/2067681320281723113",
+      "screen_name": "OpenAIDevs",
+      "created_at": "Thu Jun 18 18:50:17 +0000 2026",
+      "full_text": "Show Codex a workflow once. Reuse it as a skill.\n\nRecord &amp; Replay lets you show Codex a recurring task, like filing an expense report or submitting a time-off request.\n\nCodex turns that demo into an inspectable, editable skill.\n\nYou control when recording starts and stops. https://t.co/UqSGaO7XUs",
+      "lang": "en",
+      "favorite_count": 6562,
+      "retweet_count": 480,
+      "reply_count": 236,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "allow_download_status": {},
+          "display_url": "pic.x.com/UqSGaO7XUs",
+          "expanded_url": "https://x.com/OpenAIDevs/status/2067681320281723113/video/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "id_str": "2067680664439476224",
+          "indices": [
+            278,
+            301
+          ],
+          "media_key": "13_2067680664439476224",
+          "media_url_https": "https://pbs.twimg.com/media/HLHhPWfaUAA0u9h.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/UqSGaO7XUs",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 124749,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2067680664439476224/pl/EvW5XknCmHs6JwjX.m3u8?v=fae"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2067680664439476224/vid/avc1/480x270/98Wvukg4aGmBzwsf.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2067680664439476224/vid/avc1/640x360/4VGEFhj0SajQtlUD.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2067680664439476224/vid/avc1/1280x720/s5-9QlT6icXCUDUj.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2067680664439476224/vid/avc1/1920x1080/9fmVn1UerFbuydQT.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "2067681320281723113",
+      "summary": "OpenAI Codex推出Record & Replay功能，用户可录制一次工作流（如报销、请假），Codex自动转化为可复用、可编辑的技能。展示AI自动化办公的新范式。",
+      "category": "单产品/技术叙事",
+      "category_points": 30,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于型选题：首次展示Record & Replay功能",
+        "反常识/意外性：用户无需编程即可创建AI技能"
+      ],
+      "viral_signals_points": 20,
+      "emotion": "未来感/想象",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 80,
+      "verdict": "keep",
+      "angles": [
+        "【首次】Codex终于支持一键录制工作流，自动生成AI技能",
+        "不用写代码，录一遍流程Codex帮你自动化重复工作",
+        "OpenAI新功能解析：Record & Replay如何改变办公自动化"
+      ]
+    },
+    {
+      "tweet_id": "2067630518523630050",
+      "url": "https://x.com/CultureCrave/status/2067630518523630050",
+      "screen_name": "CultureCrave",
+      "created_at": "Thu Jun 18 15:28:24 +0000 2026",
+      "full_text": "New look at Snapchat’s Specs AR glasses \n\n• Costs $2195 \n\n• $SNAP stock price dropped immediately after the announcement https://t.co/skakBQFZnH",
+      "lang": "en",
+      "favorite_count": 10992,
+      "retweet_count": 339,
+      "reply_count": 523,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/skakBQFZnH",
+          "expanded_url": "https://x.com/CultureCrave/status/2067630518523630050/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2067630516078362624",
+          "indices": [
+            121,
+            144
+          ],
+          "media_key": "3_2067630516078362624",
+          "media_url_https": "https://pbs.twimg.com/media/HLGy_-WbwAAksd6.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 236,
+                "w": 422,
+                "x": 0,
+                "y": 157
+              },
+              {
+                "h": 422,
+                "w": 422,
+                "x": 0,
+                "y": 64
+              },
+              {
+                "h": 481,
+                "w": 422,
+                "x": 0,
+                "y": 35
+              },
+              {
+                "h": 526,
+                "w": 263,
+                "x": 159,
+                "y": 0
+              },
+              {
+                "h": 526,
+                "w": 422,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 526,
+            "width": 422
+          },
+          "sizes": {
+            "large": {
+              "h": 526,
+              "w": 422
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/skakBQFZnH"
+        }
+      ],
+      "id": "2067630518523630050",
+      "summary": "Snapchat推出Specs AR眼镜，售价2195美元，发布后SNAP股价随即下跌。这是消费级AR硬件的重要产品节点，但市场反应冷淡。",
+      "category": "单产品/技术叙事",
+      "category_points": 30,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "有明确价格（$2195）",
+        "反常识/意外性（发布后股价下跌）"
+      ],
+      "viral_signals_points": 18,
+      "emotion": "震撼/惊叹",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 78,
+      "verdict": "keep",
+      "angles": [
+        "Snapchat终于发布AR眼镜，2195美元却遭股价暴跌",
+        "消费级AR眼镜首次破2000美元，市场为何不买账",
+        "Specs AR眼镜深度拆解：硬件参数vs市场冷遇"
+      ]
+    },
+    {
+      "tweet_id": "2067634693441233118",
+      "url": "https://x.com/deanwball/status/2067634693441233118",
+      "screen_name": "deanwball",
+      "created_at": "Thu Jun 18 15:45:00 +0000 2026",
+      "full_text": "I am pleased and honored to announce that, on July 6, I'll be joining @OpenAI as leader of a new team called Strategic Futures. Our mandate will be to help the company's leadership shape frontier AI policy. There is a ton of work to do, and I'm excited to get started. https://t.co/hqoNbOEYbN",
+      "lang": "en",
+      "favorite_count": 2584,
+      "retweet_count": 150,
+      "reply_count": 339,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/hqoNbOEYbN",
+          "expanded_url": "https://x.com/deanwball/status/2067634693441233118/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 47,
+                  "w": 47,
+                  "x": 364,
+                  "y": 192
+                },
+                {
+                  "h": 61,
+                  "w": 61,
+                  "x": 18,
+                  "y": 536
+                },
+                {
+                  "h": 100,
+                  "w": 100,
+                  "x": 160,
+                  "y": 44
+                }
+              ]
+            }
+          },
+          "id_str": "2067628006063919104",
+          "indices": [
+            269,
+            292
+          ],
+          "media_key": "3_2067628006063919104",
+          "media_url_https": "https://pbs.twimg.com/media/HLGwt30W0AAZa1f.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 448,
+                "w": 800,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 800,
+                "w": 800,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 800,
+                "w": 702,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 800,
+                "w": 400,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 800,
+                "w": 800,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 800,
+            "width": 800
+          },
+          "sizes": {
+            "large": {
+              "h": 800,
+              "w": 800
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/hqoNbOEYbN"
+        }
+      ],
+      "id": "2067634693441233118",
+      "summary": "Dean Ball加入OpenAI领导新团队\"Strategic Futures\"，负责塑造前沿AI政策。高管人事任命。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "有人物/团队故事",
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 20,
+      "emotion": "未来感/想象",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 78,
+      "verdict": "keep",
+      "angles": [
+        "OpenAI新设Strategic Futures团队，前沿AI政策制定者就位",
+        "Dean Ball加盟OpenAI：AI政策战争升温",
+        "OpenAI官宣新部门：AI政策塑造者Dean Ball正式入职"
+      ]
+    },
+    {
+      "tweet_id": "2067428043195621454",
+      "url": "https://x.com/deedydas/status/2067428043195621454",
+      "screen_name": "deedydas",
+      "created_at": "Thu Jun 18 02:03:51 +0000 2026",
+      "full_text": "I thought this was a joke. Meta now has made 30-50% of software engineers on core teams become data labelers.\n\nTheir job is \"giving human feedback on AI-generated Github repos\" in an org called Agent Data Optimization. \n\nMaybe we are all training data generators after all. https://t.co/ZckjdtdoEl",
+      "lang": "en",
+      "favorite_count": 2495,
+      "retweet_count": 187,
+      "reply_count": 187,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/ZckjdtdoEl",
+          "expanded_url": "https://x.com/deedydas/status/2067428043195621454/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2067426445740417024",
+          "indices": [
+            274,
+            297
+          ],
+          "media_key": "3_2067426445740417024",
+          "media_url_https": "https://pbs.twimg.com/media/HLD5ZhGbIAAa78v.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 872,
+                "w": 1558,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 931,
+                "w": 931,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 931,
+                "w": 817,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 931,
+                "w": 466,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 931,
+                "w": 1558,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 931,
+            "width": 1558
+          },
+          "sizes": {
+            "large": {
+              "h": 931,
+              "w": 1558
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/ZckjdtdoEl"
+        }
+      ],
+      "id": "2067428043195621454",
+      "summary": "Meta核心团队30-50%软件工程师转为数据标注员，在Agent Data Optimization部门标注AI生成代码。反映AI时代人类成为训练数据生产者的现象。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "反常识/意外性",
+        "终于型选题"
+      ],
+      "viral_signals_points": 20,
+      "emotion": "震撼/惊叹",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 78,
+      "verdict": "keep",
+      "angles": [
+        "Meta工程师变身数据标注员：30-50%核心团队在标注AI代码",
+        "反转：我们都成了AI的训练数据生产者",
+        "Agent Data Optimization部门揭秘：Meta如何用人类反馈优化AI"
+      ]
+    },
+    {
+      "tweet_id": "2067672740539306261",
+      "url": "https://x.com/OpenAI/status/2067672740539306261",
+      "screen_name": "OpenAI",
+      "created_at": "Thu Jun 18 18:16:11 +0000 2026",
+      "full_text": "GPT-5.5 Instant is now on par with our frontier Thinking models for health-related questions.\n\nEvery week, more than 230 million people turn to ChatGPT with health and wellness questions, and GPT-5.5 Instant is better at recognizing when urgent care may be needed, asking for https://t.co/WDDzOIV3mg",
+      "lang": "en",
+      "favorite_count": 2525,
+      "retweet_count": 158,
+      "reply_count": 154,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "display_url": "pic.x.com/WDDzOIV3mg",
+          "expanded_url": "https://x.com/OpenAI/status/2067672740539306261/video/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "id_str": "2067669968284749824",
+          "indices": [
+            276,
+            299
+          ],
+          "media_key": "13_2067669968284749824",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2067669968284749824/img/6X-EclXGiggNQW2m.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/WDDzOIV3mg",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 171462,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2067669968284749824/pl/X_MoCH4FHFYJTKI7.m3u8"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2067669968284749824/vid/avc1/480x270/h9V7wqdt1Q3ywQqz.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2067669968284749824/vid/avc1/640x360/zT4PEHEB2VgGIzt_.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2067669968284749824/vid/avc1/1280x720/msdmBy1PgrBVfkw-.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2067669968284749824/vid/avc1/1920x1080/Byt6SDoK1Svl1yeP.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "2067672740539306261",
+      "summary": "OpenAI发布GPT-5.5 Instant，在健康问诊上与Thinking模型性能相当。每周2.3亿人用ChatGPT咨询健康问题，新模型更善于识别紧急情况。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于型选题",
+        "明确数字锚点"
+      ],
+      "viral_signals_points": 18,
+      "emotion": "未来感/想象",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 76,
+      "verdict": "keep",
+      "angles": [
+        "GPT-5.5 Instant来了，健康问诊能力追平Thinking模型",
+        "2.3亿人周均用ChatGPT看病，OpenAI新模型识别紧急情况更强",
+        "从Thinking到Instant，OpenAI如何让AI医生更懂你"
+      ]
+    },
+    {
+      "tweet_id": "2067665824371077133",
+      "url": "https://x.com/IndianGems_/status/2067665824371077133",
+      "screen_name": "IndianGems_",
+      "created_at": "Thu Jun 18 17:48:42 +0000 2026",
+      "full_text": "\"The India AI Summit was extremely disorganised and Chaotic.\"\n\n—  Dario Amodei, Anthropic CEO https://t.co/t4fOEh8IFS",
+      "lang": "en",
+      "favorite_count": 5493,
+      "retweet_count": 504,
+      "reply_count": 135,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/t4fOEh8IFS",
+          "expanded_url": "https://x.com/IndianGems_/status/2067665824371077133/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 81,
+                  "w": 81,
+                  "x": 371,
+                  "y": 751
+                },
+                {
+                  "h": 529,
+                  "w": 529,
+                  "x": 787,
+                  "y": 251
+                }
+              ]
+            }
+          },
+          "id_str": "2067665821816717312",
+          "indices": [
+            94,
+            117
+          ],
+          "media_key": "3_2067665821816717312",
+          "media_url_https": "https://pbs.twimg.com/media/HLHTHCeaAAAl15g.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1178,
+                "w": 2104,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1184,
+                "w": 1184,
+                "x": 512,
+                "y": 0
+              },
+              {
+                "h": 1184,
+                "w": 1039,
+                "x": 585,
+                "y": 0
+              },
+              {
+                "h": 1184,
+                "w": 592,
+                "x": 808,
+                "y": 0
+              },
+              {
+                "h": 1184,
+                "w": 2104,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1184,
+            "width": 2104
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/t4fOEh8IFS"
+        }
+      ],
+      "id": "2067665824371077133",
+      "summary": "Anthropic CEO Dario Amodei批评印度AI峰会组织混乱。这是来自顶级AI公司领导人的罕见公开吐槽，反映行业活动质量问题。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "有人物故事（Dario Amodei身份）",
+        "反常识/意外性（CEO公开批评）"
+      ],
+      "viral_signals_points": 20,
+      "emotion": "反常识/意外性",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 73,
+      "verdict": "keep",
+      "angles": [
+        "Anthropic CEO怒批：印度AI峰会为何翻车",
+        "顶级AI公司领导人的罕见吐槽",
+        "行业大佬现身说法：AI峰会组织乱象"
+      ]
+    },
+    {
+      "tweet_id": "2067574786965061677",
+      "url": "https://x.com/Kimi_Moonshot/status/2067574786965061677",
+      "screen_name": "Kimi_Moonshot",
+      "created_at": "Thu Jun 18 11:46:57 +0000 2026",
+      "full_text": "Introducing Goal Mode in Kimi Work\n\nGoal lets your desktop agent run 24/7 until the task is done, built for long-horizon tasks and complex multi-step workflows. https://t.co/qD9utKsEQr",
+      "lang": "en",
+      "favorite_count": 2123,
+      "retweet_count": 151,
+      "reply_count": 83,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/qD9utKsEQr",
+          "expanded_url": "https://x.com/Kimi_Moonshot/status/2067574786965061677/video/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "id_str": "2067574722108506112",
+          "indices": [
+            161,
+            184
+          ],
+          "media_key": "13_2067574722108506112",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2067574722108506112/img/roPFluyRAieVS63l.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/qD9utKsEQr",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 22221,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2067574722108506112/pl/p3WJO2hddx6FK_Yw.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2067574722108506112/vid/avc1/480x270/qm1Vhp4eQ5Ei6RL3.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2067574722108506112/vid/avc1/640x360/QKDIgepi6y5-Lagu.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2067574722108506112/vid/avc1/1280x720/jH9UMMn02Eh1Qxm8.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2067574722108506112/vid/avc1/1920x1080/QmXeGAg7O-ZeiWDT.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "2067574786965061677",
+      "summary": "Kimi Work推出Goal Mode功能，支持桌面智能体24/7运行直至任务完成，适合长期复杂多步工作流。单产品功能发布，具体能力说明。",
+      "category": "单产品/技术叙事",
+      "category_points": 30,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "未来感/想象",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 70,
+      "verdict": "keep",
+      "angles": [
+        "Kimi Work推Goal Mode：AI智能体24/7自主工作",
+        "终于来了！桌面AI助手可自动完成复杂工作流",
+        "长期任务自动化新时代，Kimi Work Goal Mode深度体验"
+      ]
+    },
+    {
+      "tweet_id": "2067672094209675373",
+      "url": "https://x.com/ClaudeDevs/status/2067672094209675373",
+      "screen_name": "ClaudeDevs",
+      "created_at": "Thu Jun 18 18:13:37 +0000 2026",
+      "full_text": "Artifacts are now live in Claude Code.\n\nAsk Claude to turn what it's working on into a page and send the link to your team. The page updates as the session keeps working. \n\nAvailable today on Team and Enterprise plans.",
+      "lang": "en",
+      "favorite_count": 2099,
+      "retweet_count": 110,
+      "reply_count": 86,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2067672094209675373",
+      "summary": "Claude Code推出Artifacts功能，用户可将AI工作成果转化为可分享链接页面，实时更新，现已在Team和Enterprise计划上线。单产品功能发布。",
+      "category": "单产品/技术叙事",
+      "category_points": 30,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "未来感/想象",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 70,
+      "verdict": "keep",
+      "angles": [
+        "Claude Code Artifacts上线：AI代码实时分享新体验",
+        "终于支持！Claude生成的代码可一键分享给团队",
+        "AI编程协作升级，Claude Code Artifacts改变工作流"
+      ]
+    },
+    {
+      "tweet_id": "2067671912038240487",
+      "url": "https://x.com/claudeai/status/2067671912038240487",
+      "screen_name": "claudeai",
+      "created_at": "Thu Jun 18 18:12:53 +0000 2026",
+      "full_text": "New in Claude Code: Artifacts.\n\nInteractive pages built from your session, like a PR walkthrough or a living project dashboard, shared with your team at a private link.\n\nAvailable in beta on Team and Enterprise plans. https://t.co/0NX9gNCaAs",
+      "lang": "en",
+      "favorite_count": 9525,
+      "retweet_count": 588,
+      "reply_count": 401,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "allow_download_status": {},
+          "display_url": "pic.x.com/0NX9gNCaAs",
+          "expanded_url": "https://x.com/claudeai/status/2067671912038240487/video/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "id_str": "2067666542905405441",
+          "indices": [
+            218,
+            241
+          ],
+          "media_key": "13_2067666542905405441",
+          "media_url_https": "https://pbs.twimg.com/media/HLHZhd5WsAAzjSC.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 2160,
+            "width": 3840
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/0NX9gNCaAs",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 60000,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2067666542905405441/pl/6mqgnIb2AS7Z-Whb.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2067666542905405441/vid/avc1/480x270/FRYQ-5a9qep3bTNe.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2067666542905405441/vid/avc1/640x360/m6gD_sRwxrSDT2Et.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2067666542905405441/vid/avc1/1280x720/_fORVjmGsQy3T2y8.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2067666542905405441/vid/avc1/1920x1080/nMl0YMtfhPxf3e24.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "2067671912038240487",
+      "summary": "Claude推出Code Artifacts功能，支持交互式页面生成与团队共享。目前在Team和Enterprise计划中测试，可用于PR演示和项目仪表板。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于型选题：Claude首次推出Artifacts功能",
+        "反常识：AI生成交互式应用而非仅文本"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "未来感/想象",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 68,
+      "verdict": "keep",
+      "angles": [
+        "Claude终于支持交互式应用生成，PR演示从此不同",
+        "AI代码助手新突破：一句话生成团队共享仪表板",
+        "Claude Artifacts深度体验：从代码到可交互产品的一步之遥"
+      ]
+    },
+    {
+      "tweet_id": "2067607830387949845",
+      "url": "https://x.com/IbrahimElkamali/status/2067607830387949845",
+      "screen_name": "IbrahimElkamali",
+      "created_at": "Thu Jun 18 13:58:15 +0000 2026",
+      "full_text": "New Claude code update is crazy https://t.co/cQ5Eu2YZY7",
+      "lang": "en",
+      "favorite_count": 6604,
+      "retweet_count": 370,
+      "reply_count": 45,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/cQ5Eu2YZY7",
+          "expanded_url": "https://x.com/IbrahimElkamali/status/2067607830387949845/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2067607826059411456",
+          "indices": [
+            32,
+            55
+          ],
+          "media_key": "3_2067607826059411456",
+          "media_url_https": "https://pbs.twimg.com/media/HLGeXPcWwAA0Yq3.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 148,
+                "w": 264,
+                "x": 27,
+                "y": 0
+              },
+              {
+                "h": 148,
+                "w": 148,
+                "x": 85,
+                "y": 0
+              },
+              {
+                "h": 148,
+                "w": 130,
+                "x": 94,
+                "y": 0
+              },
+              {
+                "h": 148,
+                "w": 74,
+                "x": 122,
+                "y": 0
+              },
+              {
+                "h": 148,
+                "w": 1276,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 148,
+            "width": 1276
+          },
+          "sizes": {
+            "large": {
+              "h": 148,
+              "w": 1276
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/cQ5Eu2YZY7"
+        }
+      ],
+      "id": "2067607830387949845",
+      "summary": "Claude推出新代码更新功能，引发用户热议。该更新提升了代码生成和编辑能力，展示AI编程工具的快速迭代。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "震撼/惊叹",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 68,
+      "verdict": "keep",
+      "angles": [
+        "Claude代码更新震撼开发者，编程效率再升级",
+        "AI编程神器Claude又出新功能，程序员直呼绝了",
+        "从代码生成到智能编辑，Claude新更新改变开发方式"
+      ]
+    },
+    {
+      "tweet_id": "2067587235898073507",
+      "url": "https://x.com/synthwavedd/status/2067587235898073507",
+      "screen_name": "synthwavedd",
+      "created_at": "Thu Jun 18 12:36:25 +0000 2026",
+      "full_text": "🚨 BREAKING: Anthropic is \"confident that in the coming days [Fable 5] will become available again\" - Anthropic's International Managing Director\n\nwe might be back https://t.co/VpNzgFQdDS",
+      "lang": "en",
+      "favorite_count": 3055,
+      "retweet_count": 212,
+      "reply_count": 179,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/VpNzgFQdDS",
+          "expanded_url": "https://x.com/synthwavedd/status/2067587235898073507/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2067587233104740352",
+          "indices": [
+            163,
+            186
+          ],
+          "media_key": "3_2067587233104740352",
+          "media_url_https": "https://pbs.twimg.com/media/HLGLoktXQAA7Ut6.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 423,
+                "w": 755,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 423,
+                "w": 423,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 423,
+                "w": 371,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 423,
+                "w": 212,
+                "x": 29,
+                "y": 0
+              },
+              {
+                "h": 423,
+                "w": 1080,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 423,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 423,
+              "w": 1080
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/VpNzgFQdDS"
+        }
+      ],
+      "id": "2067587235898073507",
+      "summary": "Anthropic国际总监表示Fable 5将在近日重新上线。这是关于AI模型可用性的时效性新闻，反映了Anthropic与监管部门的互动进展。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "好奇/趣味",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 68,
+      "verdict": "keep",
+      "angles": [
+        "Fable 5终于要回归了？Anthropic官方最新回应",
+        "深夜突发：AI模型下架风波反转，官方确认近日重启",
+        "监管与创新的博弈：Anthropic如何化解Fable 5风波"
+      ]
+    },
+    {
+      "tweet_id": "2067650681125675405",
+      "url": "https://x.com/Polymarket/status/2067650681125675405",
+      "screen_name": "Polymarket",
+      "created_at": "Thu Jun 18 16:48:32 +0000 2026",
+      "full_text": "NEW: Anthropic says it is confident Mythos &amp; Fable 5 will be restored “in the coming days” despite U.S. security restrictions.",
+      "lang": "en",
+      "favorite_count": 2837,
+      "retweet_count": 135,
+      "reply_count": 100,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2067650681125675405",
+      "summary": "Anthropic宣布Mythos & Fable 5模型将在数日内恢复，尽管面临美国安全限制。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "好奇/趣味",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 68,
+      "verdict": "keep",
+      "angles": [
+        "Anthropic深夜官宣：Fable 5即将恢复上线",
+        "突发：美国安全限制下，Anthropic如何救回Fable 5",
+        "Mythos & Fable 5回归倒计时，Anthropic官方确认"
+      ]
+    },
+    {
+      "tweet_id": "2067632751486836779",
+      "url": "https://x.com/Polymarket/status/2067632751486836779",
+      "screen_name": "Polymarket",
+      "created_at": "Thu Jun 18 15:37:17 +0000 2026",
+      "full_text": "JUST IN: OpenAI, Anthropic, &amp; others are pushing AI customers toward pay-per-use pricing as costs surge.",
+      "lang": "en",
+      "favorite_count": 3002,
+      "retweet_count": 175,
+      "reply_count": 319,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2067632751486836779",
+      "summary": "OpenAI、Anthropic等AI公司推动客户转向按使用量付费模式，应对成本上升压力。这反映AI商业模式的重大调整，影响所有AI应用开发者。",
+      "category": "AI趋势/观点",
+      "category_points": 25,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于型选题：AI定价模式的首次大规模转变",
+        "反常识：从订阅制向按量付费转变"
+      ],
+      "viral_signals_points": 15,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 63,
+      "verdict": "keep",
+      "angles": [
+        "OpenAI突然改价：AI创业者的成本噩梦来了",
+        "按量付费时代：AI应用开发者如何应对",
+        "三大AI巨头联手涨价，背后的成本真相"
+      ]
+    },
+    {
+      "tweet_id": "2067616625793061272",
+      "url": "https://x.com/ProtonMail/status/2067616625793061272",
+      "screen_name": "ProtonMail",
+      "created_at": "Thu Jun 18 14:33:12 +0000 2026",
+      "full_text": "If you use Gmail, you need to read this.\n\nGoogle’s AI, Gemini, can read your emails, attachments, bank statements, etc.\n\nFor many, this feature was switched on without consent.\n\nHere's how to turn it off 🧵\n\n1/",
+      "lang": "en",
+      "favorite_count": 2960,
+      "retweet_count": 658,
+      "reply_count": 59,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2067616625793061272",
+      "summary": "ProtonMail警告Gmail用户：Google的Gemini AI可读取邮件、附件、银行账单等，许多用户未经同意被默认启用此功能。提供关闭教程。",
+      "category": "教程/操作指南",
+      "category_points": 10,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题：'如果你用Gmail，你需要读这个'",
+        "反常识/意外性：未经同意被默认启用"
+      ],
+      "viral_signals_points": 20,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
+      "actionability_points": 5,
+      "account_fit": "B型",
+      "account_bonus": 5,
+      "total_score": 63,
+      "verdict": "keep",
+      "angles": [
+        "Google Gemini偷偷读你邮件？3步立即关闭",
+        "Gmail用户必看：AI默认权限背后的隐私陷阱",
+        "银行账单被AI扫描，如何5分钟自救"
+      ]
+    },
+    {
+      "tweet_id": "2067625666191753407",
+      "url": "https://x.com/midudev/status/2067625666191753407",
+      "screen_name": "midudev",
+      "created_at": "Thu Jun 18 15:09:08 +0000 2026",
+      "full_text": "Un ingeniero de Netflix ha sacado algo tremendo.\n¡Promete ahorrarte hasta el 95% de los tokens!\n\n¿Cómo? Comprime tu contexto antes de enviarlo a la IA.\n\n100% en local y compatible con Claude, Cursor, Codex...\n\n24K estrellas en GitHub:\nhttps://t.co/v4Ka8gmGV9 https://t.co/NM2Kn75jwA",
+      "lang": "es",
+      "favorite_count": 2840,
+      "retweet_count": 294,
+      "reply_count": 40,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/NM2Kn75jwA",
+          "expanded_url": "https://x.com/midudev/status/2067625666191753407/photo/1",
+          "ext_alt_text": "Captura de un repositorio de GitHub llamado “headroom”, con una estética oscurita de hacker elegante, que presenta una herramienta para comprimir contexto de agentes de IA y reducir entre un 60% y 95% los tokens. En la parte superior se ven las pestañas del repo, issues, pull requests y demás fauna de GitHub haciendo como que todo está bajo control.",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2067625660382679040",
+          "indices": [
+            259,
+            282
+          ],
+          "media_key": "3_2067625660382679040",
+          "media_url_https": "https://pbs.twimg.com/media/HLGulVeXkAAuc0O.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 809,
+                "w": 1444,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1438,
+                "w": 1438,
+                "x": 3,
+                "y": 0
+              },
+              {
+                "h": 1438,
+                "w": 1261,
+                "x": 92,
+                "y": 0
+              },
+              {
+                "h": 1438,
+                "w": 719,
+                "x": 363,
+                "y": 0
+              },
+              {
+                "h": 1438,
+                "w": 1444,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1438,
+            "width": 1444
+          },
+          "sizes": {
+            "large": {
+              "h": 1438,
+              "w": 1444
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/NM2Kn75jwA"
+        }
+      ],
+      "id": "2067625666191753407",
+      "summary": "Netflix工程师开源项目：压缩AI上下文，节省95%tokens，兼容Claude/Cursor，GitHub 24K星。",
+      "category": "多工具/资源合集",
+      "category_points": 22,
+      "info_gap": "海外搬运",
+      "info_gap_points": 12,
+      "viral_signals": [
+        "有明确价格",
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 16,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
+      "actionability_points": 5,
+      "account_fit": "B型",
+      "account_bonus": 5,
+      "total_score": 63,
+      "verdict": "keep",
+      "angles": [
+        "Netflix工程师开源神器，一键省95%AI tokens",
+        "5分钟掌握：如何用本地工具压缩Claude上下文",
+        "GitHub 24K星的token压缩方案，Claude/Cursor都能用"
+      ]
+    },
+    {
+      "tweet_id": "2067402274662744465",
+      "url": "https://x.com/polynoamial/status/2067402274662744465",
+      "screen_name": "polynoamial",
+      "created_at": "Thu Jun 18 00:21:27 +0000 2026",
+      "full_text": "I'm always thrilled to have more Noams at @OpenAI, but I'm especially thrilled to welcome @NoamShazeer!",
+      "lang": "en",
+      "favorite_count": 2151,
+      "retweet_count": 56,
+      "reply_count": 72,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2067402274662744465",
+      "summary": "OpenAI欢迎Noam Shazeer加入团队。人物/团队动态，无具体产品或技术创新信息。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "有人物/团队故事"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 63,
+      "verdict": "keep",
+      "angles": [
+        "Noam Shazeer加入OpenAI，AI大脑争夺战升温",
+        "前Google Brain科学家投奔OpenAI，释放什么信号",
+        "AI顶级人才流向：Noam Shazeer的选择说明了什么"
+      ]
+    },
+    {
+      "tweet_id": "2067591609206857994",
+      "url": "https://x.com/mikkimyo/status/2067591609206857994",
+      "screen_name": "mikkimyo",
+      "created_at": "Thu Jun 18 12:53:48 +0000 2026",
+      "full_text": "THEY DIDNT EVEN TRY TO EDIT OUT THE GEMINI AI LOGO OH MY GOD https://t.co/1N6sgKJW4K",
+      "lang": "en",
+      "favorite_count": 2079,
+      "retweet_count": 202,
+      "reply_count": 14,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/1N6sgKJW4K",
+          "expanded_url": "https://x.com/mikkimyo/status/2067591609206857994/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2067591602370232321",
+          "indices": [
+            61,
+            84
+          ],
+          "media_key": "3_2067591602370232321",
+          "media_url_https": "https://pbs.twimg.com/media/HLGPm5fbwAEYT7a.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 154,
+                "w": 275,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 259,
+                "w": 259,
+                "x": 16,
+                "y": 0
+              },
+              {
+                "h": 259,
+                "w": 227,
+                "x": 48,
+                "y": 0
+              },
+              {
+                "h": 259,
+                "w": 130,
+                "x": 134,
+                "y": 0
+              },
+              {
+                "h": 259,
+                "w": 275,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 259,
+            "width": 275
+          },
+          "sizes": {
+            "large": {
+              "h": 259,
+              "w": 275
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/1N6sgKJW4K"
+        }
+      ],
+      "id": "2067591609206857994",
+      "summary": "用户发现Google在宣传视频中未能剪掉Gemini AI logo，引发网友热议。这是品牌营销失误的典型案例，反映AI公司的粗心程度。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "反常识/意外性"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "好奇/趣味",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 63,
+      "verdict": "keep",
+      "angles": [
+        "Google翻车现场：宣传视频忘记剪掉竞品logo",
+        "这个营销失误暴露了什么？Gemini vs Gemini的尴尬",
+        "品牌方都这么粗心？AI公司宣传翻车集锦"
+      ]
+    },
+    {
+      "tweet_id": "2067579580622528913",
+      "url": "https://x.com/aakashgupta/status/2067579580622528913",
+      "screen_name": "aakashgupta",
+      "created_at": "Thu Jun 18 12:06:00 +0000 2026",
+      "full_text": "Let me explain why an AI art company just built a full-body medical scanner, because almost everyone is reading this as a random pivot.\n\nUltrasonic CT works by firing sound through your body and recording the ripples that scatter back. Half a million emitters the size of a grain",
+      "lang": "en",
+      "favorite_count": 3322,
+      "retweet_count": 296,
+      "reply_count": 100,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2067579580622528913",
+      "summary": "AI艺术公司进军医疗扫描领域，开发超声CT技术，采用50万个微型发射器。这是AI多模态能力向医疗硬件的创新应用，展现技术跨界的可能性。",
+      "category": "AI+行业应用",
+      "category_points": 15,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [
+        "反常识/意外性：AI艺术公司做医疗硬件",
+        "终于型选题：首次将AI能力应用于医疗扫描"
+      ],
+      "viral_signals_points": 20,
+      "emotion": "好奇/趣味",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 53,
+      "verdict": "keep",
+      "angles": [
+        "AI艺术公司为何突然做医疗扫描？背后逻辑震撼",
+        "50万微型超声发射器，AI重新定义医疗硬件",
+        "从图像生成到身体扫描，AI多模态能力的终极跨界"
+      ]
+    },
+    {
+      "tweet_id": "2067633525168165076",
+      "url": "https://x.com/paulg/status/2067633525168165076",
+      "screen_name": "paulg",
+      "created_at": "Thu Jun 18 15:40:21 +0000 2026",
+      "full_text": "No one knows yet what the next form factor for computing will be, and yet there will be a next form factor, and it will seem obvious in retrospect.",
+      "lang": "en",
+      "favorite_count": 2522,
+      "retweet_count": 130,
+      "reply_count": 296,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2067633525168165076",
+      "summary": "Paul Graham观点：下一代计算形态尚未出现，但必然会出现，事后看来会显而易见。",
+      "category": "AI趋势/观点",
+      "category_points": 25,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [
+        "反常识/意外性"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "未来感/想象",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 48,
+      "verdict": "keep",
+      "angles": [
+        "Paul Graham：下一代计算形态已在眼前，只是我们还没看清",
+        "为什么下一个iPhone级产品会显得理所当然？",
+        "计算形态迭代的必然性：从PC到移动到？"
+      ]
+    },
+    {
+      "tweet_id": "2067348636158263625",
+      "url": "https://x.com/renachi_ai/status/2067348636158263625",
+      "screen_name": "renachi_ai",
+      "created_at": "Wed Jun 17 20:48:18 +0000 2026",
+      "full_text": "ねえねえ、ChatGPTとかClaudeとかGemini毎日使ってる人に聞きたいんだけど…\n\nそれ、知らないうちに情報ダダ漏れになってるかもよ？😳\n\n3分もかからないのに、対策してない人ほんと多すぎてびっくりしてる。\n\nこれ放置してるのマジで危ないから、今日中にやっちゃお？",
+      "lang": "ja",
+      "favorite_count": 2265,
+      "retweet_count": 136,
+      "reply_count": 60,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2067348636158263625",
+      "summary": "日文推文：警告ChatGPT/Claude/Gemini用户可能存在信息泄露风险，3分钟内可修复，呼吁立即采取行动。",
+      "category": "效率工具推荐",
+      "category_points": 17,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [
+        "终于型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
+      "actionability_points": 5,
+      "account_fit": "B型",
+      "account_bonus": 5,
+      "total_score": 48,
+      "verdict": "keep",
+      "angles": [
+        "ChatGPT/Claude/Gemini用户必看：3分钟修复信息泄露风险",
+        "你的AI对话可能在泄露隐私，这样做立即止损",
+        "AI工具安全指南：防止ChatGPT数据外泄的关键步骤"
+      ]
+    },
+    {
+      "tweet_id": "2067662326082498899",
+      "url": "https://x.com/levelsio/status/2067662326082498899",
+      "screen_name": "levelsio",
+      "created_at": "Thu Jun 18 17:34:48 +0000 2026",
+      "full_text": "I don't know if it's obvious information or not but if you talk to random people in San Francisco the general thing they say is that software is commoditized cause so easy to make anything with AI fast (like how I cancelled all my SaaS subscriptions and just vibe coded a",
+      "lang": "en",
+      "favorite_count": 2286,
+      "retweet_count": 52,
+      "reply_count": 77,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2067662326082498899",
+      "summary": "Levels.io观察：旧金山人普遍认为软件已商品化，AI让开发变得极快，导致他取消所有SaaS订阅改用AI快速编码。",
+      "category": "AI趋势/观点",
+      "category_points": 25,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [
+        "反常识/意外性"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 46,
+      "verdict": "keep",
+      "angles": [
+        "硅谷共识：AI让软件彻底商品化，SaaS时代终结？",
+        "Levels.io取消所有订阅，改用AI快速编码的启示",
+        "从付费工具到AI Vibe Coding：软件开发的下一个转折"
+      ]
+    },
+    {
+      "tweet_id": "2067518818361237611",
+      "url": "https://x.com/graveofethics/status/2067518818361237611",
+      "screen_name": "graveofethics",
+      "created_at": "Thu Jun 18 08:04:33 +0000 2026",
+      "full_text": "「貴方は銀河英雄伝説の登場人物であるオーベルシュタインです。ラインハルトに進言するつもりで回答してください」\nと文頭に置いてChatGPTを使うようになってからクオリティライフが爆上がりした。私はラインハルト・フォン・ローエングラムだ。",
+      "lang": "ja",
+      "favorite_count": 2272,
+      "retweet_count": 906,
+      "reply_count": 20,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2067518818361237611",
+      "summary": "日文推文：用户通过在ChatGPT提示词中设定角色（银河英雄传说人物）来提升对话质量，生活质量大幅提升。",
+      "category": "AI/设计小技巧演示",
+      "category_points": 18,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [
+        "终于型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "好奇/趣味",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "B型",
+      "account_bonus": 5,
+      "total_score": 46,
+      "verdict": "keep",
+      "angles": [
+        "一个ChatGPT提示词技巧让生活质量爆升",
+        "角色扮演提示词：让AI输出质量翻倍的秘诀",
+        "用银河英雄传说人物设定优化ChatGPT回答"
+      ]
+    },
+    {
+      "tweet_id": "2067525659480490087",
+      "url": "https://x.com/jonathan_wilke/status/2067525659480490087",
+      "screen_name": "jonathan_wilke",
+      "created_at": "Thu Jun 18 08:31:44 +0000 2026",
+      "full_text": "I don't get the hype around CLI coding tools like Claude Code.\n\nHuman-computer interaction evolved past the terminal 30 years ago for a reason. UIs won. \n\nWhy are we regressing?",
+      "lang": "en",
+      "favorite_count": 2087,
+      "retweet_count": 48,
+      "reply_count": 1241,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2067525659480490087",
+      "summary": "用户质疑CLI编码工具（如Claude Code）的热度，认为UI已在30年前超越终端，反问为何要倒退。观点评论，无新产品或技术信息。",
+      "category": "AI趋势/观点",
+      "category_points": 25,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [
+        "反常识/意外性"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 43,
+      "verdict": "keep",
+      "angles": [
+        "反思：CLI编码工具真的是未来吗？",
+        "Claude Code热潮背后的冷思考",
+        "AI编程工具的UI/CLI之争：我们在倒退吗"
+      ]
+    },
+    {
+      "tweet_id": "2067671903288864865",
+      "url": "https://x.com/elonmusk/status/2067671903288864865",
+      "screen_name": "elonmusk",
+      "created_at": "Thu Jun 18 18:12:51 +0000 2026",
+      "full_text": "@jietang @teortaxesTex On benchmarks, yes, but as measured by true usefulness even Q1 would be very impressive.\n\nAnthropic has rightly focused on maximizing useful intelligence, which does not show up in benchmarks, but definitely shows up in revenue.",
+      "lang": "en",
+      "favorite_count": 2069,
+      "retweet_count": 135,
+      "reply_count": 132,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2067671903288864865",
+      "summary": "Elon Musk评价Anthropic Claude的实用性超越基准测试表现，认为其商业价值体现在收入而非跑分。涉及AI能力评估的核心观点。",
+      "category": "AI趋势/观点",
+      "category_points": 25,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [
+        "有人物/团队故事"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 43,
+      "verdict": "keep",
+      "angles": [
+        "Elon认可Claude：实用性比跑分更重要",
+        "AI模型评估新视角：收入才是真实力",
+        "基准测试骗局？业界大佬怎么看AI能力"
+      ]
+    },
+    {
+      "tweet_id": "2067631455145177300",
+      "url": "https://x.com/deedydas/status/2067631455145177300",
+      "screen_name": "deedydas",
+      "created_at": "Thu Jun 18 15:32:08 +0000 2026",
+      "full_text": "the midjourney roadmap was public the whole time https://t.co/pfaaK9xspm",
+      "lang": "en",
+      "favorite_count": 2806,
+      "retweet_count": 104,
+      "reply_count": 24,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/pfaaK9xspm",
+          "expanded_url": "https://x.com/deedydas/status/2067631455145177300/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2067631452297310208",
+          "indices": [
+            49,
+            72
+          ],
+          "media_key": "3_2067631452297310208",
+          "media_url_https": "https://pbs.twimg.com/media/HLGz2eCbMAAbiZr.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 675,
+                "w": 1206,
+                "x": 0,
+                "y": 840
+              },
+              {
+                "h": 1206,
+                "w": 1206,
+                "x": 0,
+                "y": 314
+              },
+              {
+                "h": 1375,
+                "w": 1206,
+                "x": 0,
+                "y": 145
+              },
+              {
+                "h": 1520,
+                "w": 760,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1520,
+                "w": 1206,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1520,
+            "width": 1206
+          },
+          "sizes": {
+            "large": {
+              "h": 1520,
+              "w": 1206
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/pfaaK9xspm"
+        }
+      ],
+      "id": "2067631455145177300",
+      "summary": "Midjourney路线图一直是公开的，用户可能没有充分关注。信息提醒性质。",
+      "category": "认知差",
+      "category_points": 8,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [
+        "反常识/意外性"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "好奇/趣味",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 31,
+      "verdict": "keep",
+      "angles": [
+        "Midjourney路线图公开了，但99%用户没看过",
+        "反常识：你想要的功能Midjourney早就规划好了",
+        "Midjourney官方路线图深度解读，下一步功能曝光"
+      ]
+    },
+    {
+      "tweet_id": "2067415758129528888",
+      "url": "https://x.com/09pauai/status/2067415758129528888",
+      "screen_name": "09pauai",
+      "created_at": "Thu Jun 18 01:15:02 +0000 2026",
+      "full_text": "何度でも言うけどClaude in Chrome使えば誰でも1人起業できる。\nまずChrome 拡張機能「Claude in Chrome」と検索し、インストール。\nその後、「/Record Workflow 」と入力。すると、 https://t.co/S4dH2oEvnG",
+      "lang": "ja",
+      "favorite_count": 2187,
+      "retweet_count": 129,
+      "reply_count": 32,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/S4dH2oEvnG",
+          "expanded_url": "https://x.com/09pauai/status/2067415758129528888/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2067415754270789632",
+          "indices": [
+            115,
+            138
+          ],
+          "media_key": "3_2067415754270789632",
+          "media_url_https": "https://pbs.twimg.com/media/HLDvrMRbUAA1W1b.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1134,
+                "w": 2025,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1134,
+                "w": 1134,
+                "x": 288,
+                "y": 0
+              },
+              {
+                "h": 1134,
+                "w": 995,
+                "x": 358,
+                "y": 0
+              },
+              {
+                "h": 1134,
+                "w": 567,
+                "x": 572,
+                "y": 0
+              },
+              {
+                "h": 1134,
+                "w": 2286,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1134,
+            "width": 2286
+          },
+          "sizes": {
+            "large": {
+              "h": 1016,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/S4dH2oEvnG"
+        }
+      ],
+      "id": "2067415758129528888",
+      "summary": "日本用户分享Chrome扩展「Claude in Chrome」可实现一人创业，通过/Record Workflow命令自动化工作流。AI工具教程，具体操作步骤。",
+      "category": "教程/操作指南",
+      "category_points": 10,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [
+        "有明确价格"
+      ],
+      "viral_signals_points": 0,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
+      "actionability_points": 5,
+      "account_fit": "B型",
+      "account_bonus": 5,
+      "total_score": 31,
+      "verdict": "keep",
+      "angles": [
+        "一人起业神器：Claude in Chrome自动化工作流",
+        "5分钟掌握/Record Workflow，效率翻倍",
+        "Chrome扩展+AI，个体创业者必装工具"
+      ]
+    },
     {
       "tweet_id": "2067605996990599409",
       "url": "https://x.com/ChaosAgent_42/status/2067605996990599409",
@@ -211,7 +2250,7 @@
       "total_score": 30,
       "verdict": "keep",
       "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
       ],
       "_fallback": true
     },
@@ -317,209 +2356,7 @@
       "total_score": 30,
       "verdict": "keep",
       "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067630518523630050",
-      "url": "https://x.com/CultureCrave/status/2067630518523630050",
-      "screen_name": "CultureCrave",
-      "created_at": "Thu Jun 18 15:28:24 +0000 2026",
-      "full_text": "New look at Snapchat’s Specs AR glasses \n\n• Costs $2195 \n\n• $SNAP stock price dropped immediately after the announcement https://t.co/skakBQFZnH",
-      "lang": "en",
-      "favorite_count": 10992,
-      "retweet_count": 339,
-      "reply_count": 523,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/skakBQFZnH",
-          "expanded_url": "https://x.com/CultureCrave/status/2067630518523630050/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2067630516078362624",
-          "indices": [
-            121,
-            144
-          ],
-          "media_key": "3_2067630516078362624",
-          "media_url_https": "https://pbs.twimg.com/media/HLGy_-WbwAAksd6.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 236,
-                "w": 422,
-                "x": 0,
-                "y": 157
-              },
-              {
-                "h": 422,
-                "w": 422,
-                "x": 0,
-                "y": 64
-              },
-              {
-                "h": 481,
-                "w": 422,
-                "x": 0,
-                "y": 35
-              },
-              {
-                "h": 526,
-                "w": 263,
-                "x": 159,
-                "y": 0
-              },
-              {
-                "h": 526,
-                "w": 422,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 526,
-            "width": 422
-          },
-          "sizes": {
-            "large": {
-              "h": 526,
-              "w": 422
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/skakBQFZnH"
-        }
-      ],
-      "id": "2067630518523630050",
-      "summary": "New look at Snapchat’s Specs AR glasses \n\n• Costs $2195 \n\n• $SNAP stock price dropped immediately after the announcement https://t.co/skakBQFZnH",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067671912038240487",
-      "url": "https://x.com/claudeai/status/2067671912038240487",
-      "screen_name": "claudeai",
-      "created_at": "Thu Jun 18 18:12:53 +0000 2026",
-      "full_text": "New in Claude Code: Artifacts.\n\nInteractive pages built from your session, like a PR walkthrough or a living project dashboard, shared with your team at a private link.\n\nAvailable in beta on Team and Enterprise plans. https://t.co/0NX9gNCaAs",
-      "lang": "en",
-      "favorite_count": 9525,
-      "retweet_count": 588,
-      "reply_count": 401,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "additional_media_info": {
-            "monetizable": false
-          },
-          "allow_download_status": {},
-          "display_url": "pic.x.com/0NX9gNCaAs",
-          "expanded_url": "https://x.com/claudeai/status/2067671912038240487/video/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "id_str": "2067666542905405441",
-          "indices": [
-            218,
-            241
-          ],
-          "media_key": "13_2067666542905405441",
-          "media_url_https": "https://pbs.twimg.com/media/HLHZhd5WsAAzjSC.jpg",
-          "original_info": {
-            "focus_rects": [],
-            "height": 2160,
-            "width": 3840
-          },
-          "sizes": {
-            "large": {
-              "h": 1152,
-              "w": 2048
-            }
-          },
-          "type": "video",
-          "url": "https://t.co/0NX9gNCaAs",
-          "video_info": {
-            "aspect_ratio": [
-              16,
-              9
-            ],
-            "duration_millis": 60000,
-            "variants": [
-              {
-                "content_type": "application/x-mpegURL",
-                "url": "https://video.twimg.com/amplify_video/2067666542905405441/pl/6mqgnIb2AS7Z-Whb.m3u8?v=cfc"
-              },
-              {
-                "bitrate": 256000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2067666542905405441/vid/avc1/480x270/FRYQ-5a9qep3bTNe.mp4"
-              },
-              {
-                "bitrate": 832000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2067666542905405441/vid/avc1/640x360/m6gD_sRwxrSDT2Et.mp4"
-              },
-              {
-                "bitrate": 2176000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2067666542905405441/vid/avc1/1280x720/_fORVjmGsQy3T2y8.mp4"
-              },
-              {
-                "bitrate": 10368000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2067666542905405441/vid/avc1/1920x1080/nMl0YMtfhPxf3e24.mp4"
-              }
-            ]
-          }
-        }
-      ],
-      "id": "2067671912038240487",
-      "summary": "New in Claude Code: Artifacts.\n\nInteractive pages built from your session, like a PR walkthrough or a living project dashboard, shared with your team ",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
       ],
       "_fallback": true
     },
@@ -621,209 +2458,7 @@
       "total_score": 30,
       "verdict": "keep",
       "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067607830387949845",
-      "url": "https://x.com/IbrahimElkamali/status/2067607830387949845",
-      "screen_name": "IbrahimElkamali",
-      "created_at": "Thu Jun 18 13:58:15 +0000 2026",
-      "full_text": "New Claude code update is crazy https://t.co/cQ5Eu2YZY7",
-      "lang": "en",
-      "favorite_count": 6604,
-      "retweet_count": 370,
-      "reply_count": 45,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/cQ5Eu2YZY7",
-          "expanded_url": "https://x.com/IbrahimElkamali/status/2067607830387949845/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2067607826059411456",
-          "indices": [
-            32,
-            55
-          ],
-          "media_key": "3_2067607826059411456",
-          "media_url_https": "https://pbs.twimg.com/media/HLGeXPcWwAA0Yq3.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 148,
-                "w": 264,
-                "x": 27,
-                "y": 0
-              },
-              {
-                "h": 148,
-                "w": 148,
-                "x": 85,
-                "y": 0
-              },
-              {
-                "h": 148,
-                "w": 130,
-                "x": 94,
-                "y": 0
-              },
-              {
-                "h": 148,
-                "w": 74,
-                "x": 122,
-                "y": 0
-              },
-              {
-                "h": 148,
-                "w": 1276,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 148,
-            "width": 1276
-          },
-          "sizes": {
-            "large": {
-              "h": 148,
-              "w": 1276
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/cQ5Eu2YZY7"
-        }
-      ],
-      "id": "2067607830387949845",
-      "summary": "New Claude code update is crazy https://t.co/cQ5Eu2YZY7",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067681320281723113",
-      "url": "https://x.com/OpenAIDevs/status/2067681320281723113",
-      "screen_name": "OpenAIDevs",
-      "created_at": "Thu Jun 18 18:50:17 +0000 2026",
-      "full_text": "Show Codex a workflow once. Reuse it as a skill.\n\nRecord &amp; Replay lets you show Codex a recurring task, like filing an expense report or submitting a time-off request.\n\nCodex turns that demo into an inspectable, editable skill.\n\nYou control when recording starts and stops. https://t.co/UqSGaO7XUs",
-      "lang": "en",
-      "favorite_count": 6562,
-      "retweet_count": 480,
-      "reply_count": 236,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "additional_media_info": {
-            "monetizable": false
-          },
-          "allow_download_status": {},
-          "display_url": "pic.x.com/UqSGaO7XUs",
-          "expanded_url": "https://x.com/OpenAIDevs/status/2067681320281723113/video/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "id_str": "2067680664439476224",
-          "indices": [
-            278,
-            301
-          ],
-          "media_key": "13_2067680664439476224",
-          "media_url_https": "https://pbs.twimg.com/media/HLHhPWfaUAA0u9h.jpg",
-          "original_info": {
-            "focus_rects": [],
-            "height": 720,
-            "width": 1280
-          },
-          "sizes": {
-            "large": {
-              "h": 720,
-              "w": 1280
-            }
-          },
-          "type": "video",
-          "url": "https://t.co/UqSGaO7XUs",
-          "video_info": {
-            "aspect_ratio": [
-              16,
-              9
-            ],
-            "duration_millis": 124749,
-            "variants": [
-              {
-                "content_type": "application/x-mpegURL",
-                "url": "https://video.twimg.com/amplify_video/2067680664439476224/pl/EvW5XknCmHs6JwjX.m3u8?v=fae"
-              },
-              {
-                "bitrate": 256000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2067680664439476224/vid/avc1/480x270/98Wvukg4aGmBzwsf.mp4"
-              },
-              {
-                "bitrate": 832000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2067680664439476224/vid/avc1/640x360/4VGEFhj0SajQtlUD.mp4"
-              },
-              {
-                "bitrate": 2176000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2067680664439476224/vid/avc1/1280x720/s5-9QlT6icXCUDUj.mp4"
-              },
-              {
-                "bitrate": 10368000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2067680664439476224/vid/avc1/1920x1080/9fmVn1UerFbuydQT.mp4"
-              }
-            ]
-          }
-        }
-      ],
-      "id": "2067681320281723113",
-      "summary": "Show Codex a workflow once. Reuse it as a skill.\n\nRecord &amp; Replay lets you show Codex a recurring task, like filing an expense report or submittin",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
       ],
       "_fallback": true
     },
@@ -1015,119 +2650,7 @@
       "total_score": 30,
       "verdict": "keep",
       "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067665824371077133",
-      "url": "https://x.com/IndianGems_/status/2067665824371077133",
-      "screen_name": "IndianGems_",
-      "created_at": "Thu Jun 18 17:48:42 +0000 2026",
-      "full_text": "\"The India AI Summit was extremely disorganised and Chaotic.\"\n\n—  Dario Amodei, Anthropic CEO https://t.co/t4fOEh8IFS",
-      "lang": "en",
-      "favorite_count": 5493,
-      "retweet_count": 504,
-      "reply_count": 135,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/t4fOEh8IFS",
-          "expanded_url": "https://x.com/IndianGems_/status/2067665824371077133/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": [
-                {
-                  "h": 81,
-                  "w": 81,
-                  "x": 371,
-                  "y": 751
-                },
-                {
-                  "h": 529,
-                  "w": 529,
-                  "x": 787,
-                  "y": 251
-                }
-              ]
-            }
-          },
-          "id_str": "2067665821816717312",
-          "indices": [
-            94,
-            117
-          ],
-          "media_key": "3_2067665821816717312",
-          "media_url_https": "https://pbs.twimg.com/media/HLHTHCeaAAAl15g.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 1178,
-                "w": 2104,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1184,
-                "w": 1184,
-                "x": 512,
-                "y": 0
-              },
-              {
-                "h": 1184,
-                "w": 1039,
-                "x": 585,
-                "y": 0
-              },
-              {
-                "h": 1184,
-                "w": 592,
-                "x": 808,
-                "y": 0
-              },
-              {
-                "h": 1184,
-                "w": 2104,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 1184,
-            "width": 2104
-          },
-          "sizes": {
-            "large": {
-              "h": 1152,
-              "w": 2048
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/t4fOEh8IFS"
-        }
-      ],
-      "id": "2067665824371077133",
-      "summary": "\"The India AI Summit was extremely disorganised and Chaotic.\"\n\n—  Dario Amodei, Anthropic CEO https://t.co/t4fOEh8IFS",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
       ],
       "_fallback": true
     },
@@ -1226,118 +2749,7 @@
       "total_score": 30,
       "verdict": "keep",
       "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067588262156501497",
-      "url": "https://x.com/UnslothAI/status/2067588262156501497",
-      "screen_name": "UnslothAI",
-      "created_at": "Thu Jun 18 12:40:30 +0000 2026",
-      "full_text": "GLM-5.2 can now be run locally!🔥\n\nThe 2-bit model retains ~82% accuracy after we shrunk it from 1.51TB to 238GB (-84% size).\n\nRun on a 256GB Mac or RAM/VRAM setups.\n\nGLM-5.2 is the strongest open model to date.\n\nGuide: https://t.co/bI7FeeKHDd\nGGUF: https://t.co/BMkxswdj5N https://t.co/qIPuU63W9D",
-      "lang": "en",
-      "favorite_count": 4158,
-      "retweet_count": 474,
-      "reply_count": 160,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/qIPuU63W9D",
-          "expanded_url": "https://x.com/UnslothAI/status/2067588262156501497/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "all": {
-              "tags": [
-                {
-                  "name": "Z.ai",
-                  "screen_name": "Zai_org",
-                  "user_id": "1726486879456096256"
-                }
-              ]
-            },
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2067588142488768512",
-          "indices": [
-            273,
-            296
-          ],
-          "media_key": "3_2067588142488768512",
-          "media_url_https": "https://pbs.twimg.com/media/HLGMdgbaUAAXoj1.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 2046,
-                "w": 3654,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 3654,
-                "w": 3654,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 4096,
-                "w": 3593,
-                "x": 61,
-                "y": 0
-              },
-              {
-                "h": 4096,
-                "w": 2048,
-                "x": 1606,
-                "y": 0
-              },
-              {
-                "h": 4096,
-                "w": 3654,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 4096,
-            "width": 3654
-          },
-          "sizes": {
-            "large": {
-              "h": 2048,
-              "w": 1827
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/qIPuU63W9D"
-        }
-      ],
-      "id": "2067588262156501497",
-      "summary": "GLM-5.2 can now be run locally!🔥\n\nThe 2-bit model retains ~82% accuracy after we shrunk it from 1.51TB to 238GB (-84% size).\n\nRun on a 256GB Mac or RA",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
       ],
       "_fallback": true
     },
@@ -1370,40 +2782,7 @@
       "total_score": 30,
       "verdict": "keep",
       "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067579580622528913",
-      "url": "https://x.com/aakashgupta/status/2067579580622528913",
-      "screen_name": "aakashgupta",
-      "created_at": "Thu Jun 18 12:06:00 +0000 2026",
-      "full_text": "Let me explain why an AI art company just built a full-body medical scanner, because almost everyone is reading this as a random pivot.\n\nUltrasonic CT works by firing sound through your body and recording the ripples that scatter back. Half a million emitters the size of a grain",
-      "lang": "en",
-      "favorite_count": 3322,
-      "retweet_count": 296,
-      "reply_count": 100,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2067579580622528913",
-      "summary": "Let me explain why an AI art company just built a full-body medical scanner, because almost everyone is reading this as a random pivot.\n\nUltrasonic CT",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
       ],
       "_fallback": true
     },
@@ -1502,106 +2881,7 @@
       "total_score": 30,
       "verdict": "keep",
       "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067587235898073507",
-      "url": "https://x.com/synthwavedd/status/2067587235898073507",
-      "screen_name": "synthwavedd",
-      "created_at": "Thu Jun 18 12:36:25 +0000 2026",
-      "full_text": "🚨 BREAKING: Anthropic is \"confident that in the coming days [Fable 5] will become available again\" - Anthropic's International Managing Director\n\nwe might be back https://t.co/VpNzgFQdDS",
-      "lang": "en",
-      "favorite_count": 3055,
-      "retweet_count": 212,
-      "reply_count": 179,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/VpNzgFQdDS",
-          "expanded_url": "https://x.com/synthwavedd/status/2067587235898073507/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2067587233104740352",
-          "indices": [
-            163,
-            186
-          ],
-          "media_key": "3_2067587233104740352",
-          "media_url_https": "https://pbs.twimg.com/media/HLGLoktXQAA7Ut6.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 423,
-                "w": 755,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 423,
-                "w": 423,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 423,
-                "w": 371,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 423,
-                "w": 212,
-                "x": 29,
-                "y": 0
-              },
-              {
-                "h": 423,
-                "w": 1080,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 423,
-            "width": 1080
-          },
-          "sizes": {
-            "large": {
-              "h": 423,
-              "w": 1080
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/VpNzgFQdDS"
-        }
-      ],
-      "id": "2067587235898073507",
-      "summary": "🚨 BREAKING: Anthropic is \"confident that in the coming days [Fable 5] will become available again\" - Anthropic's International Managing Director\n\nwe m",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
       ],
       "_fallback": true
     },
@@ -1634,40 +2914,7 @@
       "total_score": 30,
       "verdict": "keep",
       "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067632751486836779",
-      "url": "https://x.com/Polymarket/status/2067632751486836779",
-      "screen_name": "Polymarket",
-      "created_at": "Thu Jun 18 15:37:17 +0000 2026",
-      "full_text": "JUST IN: OpenAI, Anthropic, &amp; others are pushing AI customers toward pay-per-use pricing as costs surge.",
-      "lang": "en",
-      "favorite_count": 3002,
-      "retweet_count": 175,
-      "reply_count": 319,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2067632751486836779",
-      "summary": "JUST IN: OpenAI, Anthropic, &amp; others are pushing AI customers toward pay-per-use pricing as costs surge.",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
       ],
       "_fallback": true
     },
@@ -1700,40 +2947,7 @@
       "total_score": 30,
       "verdict": "keep",
       "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067616625793061272",
-      "url": "https://x.com/ProtonMail/status/2067616625793061272",
-      "screen_name": "ProtonMail",
-      "created_at": "Thu Jun 18 14:33:12 +0000 2026",
-      "full_text": "If you use Gmail, you need to read this.\n\nGoogle’s AI, Gemini, can read your emails, attachments, bank statements, etc.\n\nFor many, this feature was switched on without consent.\n\nHere's how to turn it off 🧵\n\n1/",
-      "lang": "en",
-      "favorite_count": 2960,
-      "retweet_count": 658,
-      "reply_count": 59,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2067616625793061272",
-      "summary": "If you use Gmail, you need to read this.\n\nGoogle’s AI, Gemini, can read your emails, attachments, bank statements, etc.\n\nFor many, this feature was sw",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
       ],
       "_fallback": true
     },
@@ -1915,40 +3129,7 @@
       "total_score": 30,
       "verdict": "keep",
       "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067473704200863774",
-      "url": "https://x.com/gdb/status/2067473704200863774",
-      "screen_name": "gdb",
-      "created_at": "Thu Jun 18 05:05:17 +0000 2026",
-      "full_text": "a much better way to build iOS apps",
-      "lang": "en",
-      "favorite_count": 2915,
-      "retweet_count": 102,
-      "reply_count": 67,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2067473704200863774",
-      "summary": "a much better way to build iOS apps",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
       ],
       "_fallback": true
     },
@@ -1966,24 +3147,186 @@
       "quoted_tweet_text": "",
       "media": [],
       "id": "2067446889956430273",
-      "summary": "cold open: google campus. a conference room named “moonshot serenity 4b.” twelve people are in a meeting titled: pre-sync for sync alignment on ai vel",
-      "category": "未评分",
+      "summary": "讽刺Google内部会议文化：187页议程、冗长的AI相关同步会议。反映大公司官僚低效的现象。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "无信息差",
+      "info_gap_points": 0,
+      "viral_signals": [
+        "反常识/意外性"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "好奇/趣味",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 15,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2067608936610455557",
+      "url": "https://x.com/le_gorafi/status/2067608936610455557",
+      "screen_name": "le_gorafi",
+      "created_at": "Thu Jun 18 14:02:39 +0000 2026",
+      "full_text": "ChatGPT lance un appel de détresse après avoir démarré une discussion avec Fabrice Luchini https://t.co/UODJDZACmL",
+      "lang": "fr",
+      "favorite_count": 2602,
+      "retweet_count": 472,
+      "reply_count": 51,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/UODJDZACmL",
+          "expanded_url": "https://x.com/le_gorafi/status/2067608936610455557/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 511,
+                  "w": 511,
+                  "x": 286,
+                  "y": 232
+                }
+              ]
+            }
+          },
+          "id_str": "2067608933435346944",
+          "indices": [
+            91,
+            114
+          ],
+          "media_key": "3_2067608933435346944",
+          "media_url_https": "https://pbs.twimg.com/media/HLGfXsvWkAA0BhT.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 605,
+                "w": 1080,
+                "x": 0,
+                "y": 744
+              },
+              {
+                "h": 1080,
+                "w": 1080,
+                "x": 0,
+                "y": 270
+              },
+              {
+                "h": 1231,
+                "w": 1080,
+                "x": 0,
+                "y": 119
+              },
+              {
+                "h": 1350,
+                "w": 675,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1350,
+                "w": 1080,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1350,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 1350,
+              "w": 1080
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/UODJDZACmL"
+        }
+      ],
+      "id": "2067608936610455557",
+      "summary": "法国讽刺媒体Le Gorafi发布虚假新闻：ChatGPT与法国演员Fabrice Luchini对话后发出求救信号。纯讽刺/娱乐内容。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "无信息差",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "好奇/趣味",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 5,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2067491834352537763",
+      "url": "https://x.com/rissaoffline/status/2067491834352537763",
+      "screen_name": "rissaoffline",
+      "created_at": "Thu Jun 18 06:17:20 +0000 2026",
+      "full_text": "Idk who needs to hear this but do NOT get a fitbit\n\nI’ve loved my fitbit since college, i NEVER take it off. The app is unusable AI slop like google search. No more low battery notifications, just false alarms for your heart and popups pushing their Gemini AI health coach.",
+      "lang": "en",
+      "favorite_count": 2748,
+      "retweet_count": 174,
+      "reply_count": 29,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2067491834352537763",
+      "summary": "用户吐槽Fitbit应用体验差、Google AI集成失败、虚假告警频繁。非AI产品评测。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "无信息差",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 3,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2067473704200863774",
+      "url": "https://x.com/gdb/status/2067473704200863774",
+      "screen_name": "gdb",
+      "created_at": "Thu Jun 18 05:05:17 +0000 2026",
+      "full_text": "a much better way to build iOS apps",
+      "lang": "en",
+      "favorite_count": 2915,
+      "retweet_count": 102,
+      "reply_count": 67,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2067473704200863774",
+      "summary": "某开发者分享了一个更好的iOS应用开发方式，但具体产品/技术细节未在推文中透露。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "无法判断",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2067579772797084096",
@@ -2136,292 +3479,21 @@
         }
       ],
       "id": "2067579772797084096",
-      "summary": "is jaemin wearing a whoop? https://t.co/RmZrCvGmCp",
-      "category": "未评分",
+      "summary": "关于某明星是否佩戴WHOOP健身追踪器的八卦推文，与AI/科技无关。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "无信息差",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067625666191753407",
-      "url": "https://x.com/midudev/status/2067625666191753407",
-      "screen_name": "midudev",
-      "created_at": "Thu Jun 18 15:09:08 +0000 2026",
-      "full_text": "Un ingeniero de Netflix ha sacado algo tremendo.\n¡Promete ahorrarte hasta el 95% de los tokens!\n\n¿Cómo? Comprime tu contexto antes de enviarlo a la IA.\n\n100% en local y compatible con Claude, Cursor, Codex...\n\n24K estrellas en GitHub:\nhttps://t.co/v4Ka8gmGV9 https://t.co/NM2Kn75jwA",
-      "lang": "es",
-      "favorite_count": 2840,
-      "retweet_count": 294,
-      "reply_count": 40,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/NM2Kn75jwA",
-          "expanded_url": "https://x.com/midudev/status/2067625666191753407/photo/1",
-          "ext_alt_text": "Captura de un repositorio de GitHub llamado “headroom”, con una estética oscurita de hacker elegante, que presenta una herramienta para comprimir contexto de agentes de IA y reducir entre un 60% y 95% los tokens. En la parte superior se ven las pestañas del repo, issues, pull requests y demás fauna de GitHub haciendo como que todo está bajo control.",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2067625660382679040",
-          "indices": [
-            259,
-            282
-          ],
-          "media_key": "3_2067625660382679040",
-          "media_url_https": "https://pbs.twimg.com/media/HLGulVeXkAAuc0O.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 809,
-                "w": 1444,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1438,
-                "w": 1438,
-                "x": 3,
-                "y": 0
-              },
-              {
-                "h": 1438,
-                "w": 1261,
-                "x": 92,
-                "y": 0
-              },
-              {
-                "h": 1438,
-                "w": 719,
-                "x": 363,
-                "y": 0
-              },
-              {
-                "h": 1438,
-                "w": 1444,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 1438,
-            "width": 1444
-          },
-          "sizes": {
-            "large": {
-              "h": 1438,
-              "w": 1444
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/NM2Kn75jwA"
-        }
-      ],
-      "id": "2067625666191753407",
-      "summary": "Un ingeniero de Netflix ha sacado algo tremendo.\n¡Promete ahorrarte hasta el 95% de los tokens!\n\n¿Cómo? Comprime tu contexto antes de enviarlo a la IA",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067650681125675405",
-      "url": "https://x.com/Polymarket/status/2067650681125675405",
-      "screen_name": "Polymarket",
-      "created_at": "Thu Jun 18 16:48:32 +0000 2026",
-      "full_text": "NEW: Anthropic says it is confident Mythos &amp; Fable 5 will be restored “in the coming days” despite U.S. security restrictions.",
-      "lang": "en",
-      "favorite_count": 2837,
-      "retweet_count": 135,
-      "reply_count": 100,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2067650681125675405",
-      "summary": "NEW: Anthropic says it is confident Mythos &amp; Fable 5 will be restored “in the coming days” despite U.S. security restrictions.",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067631455145177300",
-      "url": "https://x.com/deedydas/status/2067631455145177300",
-      "screen_name": "deedydas",
-      "created_at": "Thu Jun 18 15:32:08 +0000 2026",
-      "full_text": "the midjourney roadmap was public the whole time https://t.co/pfaaK9xspm",
-      "lang": "en",
-      "favorite_count": 2806,
-      "retweet_count": 104,
-      "reply_count": 24,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/pfaaK9xspm",
-          "expanded_url": "https://x.com/deedydas/status/2067631455145177300/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2067631452297310208",
-          "indices": [
-            49,
-            72
-          ],
-          "media_key": "3_2067631452297310208",
-          "media_url_https": "https://pbs.twimg.com/media/HLGz2eCbMAAbiZr.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 675,
-                "w": 1206,
-                "x": 0,
-                "y": 840
-              },
-              {
-                "h": 1206,
-                "w": 1206,
-                "x": 0,
-                "y": 314
-              },
-              {
-                "h": 1375,
-                "w": 1206,
-                "x": 0,
-                "y": 145
-              },
-              {
-                "h": 1520,
-                "w": 760,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1520,
-                "w": 1206,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 1520,
-            "width": 1206
-          },
-          "sizes": {
-            "large": {
-              "h": 1520,
-              "w": 1206
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/pfaaK9xspm"
-        }
-      ],
-      "id": "2067631455145177300",
-      "summary": "the midjourney roadmap was public the whole time https://t.co/pfaaK9xspm",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067491834352537763",
-      "url": "https://x.com/rissaoffline/status/2067491834352537763",
-      "screen_name": "rissaoffline",
-      "created_at": "Thu Jun 18 06:17:20 +0000 2026",
-      "full_text": "Idk who needs to hear this but do NOT get a fitbit\n\nI’ve loved my fitbit since college, i NEVER take it off. The app is unusable AI slop like google search. No more low battery notifications, just false alarms for your heart and popups pushing their Gemini AI health coach.",
-      "lang": "en",
-      "favorite_count": 2748,
-      "retweet_count": 174,
-      "reply_count": 29,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2067491834352537763",
-      "summary": "Idk who needs to hear this but do NOT get a fitbit\n\nI’ve loved my fitbit since college, i NEVER take it off. The app is unusable AI slop like google s",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2067703152162529424",
@@ -2437,482 +3509,21 @@
       "quoted_tweet_text": "",
       "media": [],
       "id": "2067703152162529424",
-      "summary": "can’t be done",
-      "category": "未评分",
+      "summary": "极简推文\"can't be done\"，无具体内容，无法判断主题。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "无信息差",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067608936610455557",
-      "url": "https://x.com/le_gorafi/status/2067608936610455557",
-      "screen_name": "le_gorafi",
-      "created_at": "Thu Jun 18 14:02:39 +0000 2026",
-      "full_text": "ChatGPT lance un appel de détresse après avoir démarré une discussion avec Fabrice Luchini https://t.co/UODJDZACmL",
-      "lang": "fr",
-      "favorite_count": 2602,
-      "retweet_count": 472,
-      "reply_count": 51,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/UODJDZACmL",
-          "expanded_url": "https://x.com/le_gorafi/status/2067608936610455557/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": [
-                {
-                  "h": 511,
-                  "w": 511,
-                  "x": 286,
-                  "y": 232
-                }
-              ]
-            }
-          },
-          "id_str": "2067608933435346944",
-          "indices": [
-            91,
-            114
-          ],
-          "media_key": "3_2067608933435346944",
-          "media_url_https": "https://pbs.twimg.com/media/HLGfXsvWkAA0BhT.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 605,
-                "w": 1080,
-                "x": 0,
-                "y": 744
-              },
-              {
-                "h": 1080,
-                "w": 1080,
-                "x": 0,
-                "y": 270
-              },
-              {
-                "h": 1231,
-                "w": 1080,
-                "x": 0,
-                "y": 119
-              },
-              {
-                "h": 1350,
-                "w": 675,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1350,
-                "w": 1080,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 1350,
-            "width": 1080
-          },
-          "sizes": {
-            "large": {
-              "h": 1350,
-              "w": 1080
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/UODJDZACmL"
-        }
-      ],
-      "id": "2067608936610455557",
-      "summary": "ChatGPT lance un appel de détresse après avoir démarré une discussion avec Fabrice Luchini https://t.co/UODJDZACmL",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067634693441233118",
-      "url": "https://x.com/deanwball/status/2067634693441233118",
-      "screen_name": "deanwball",
-      "created_at": "Thu Jun 18 15:45:00 +0000 2026",
-      "full_text": "I am pleased and honored to announce that, on July 6, I'll be joining @OpenAI as leader of a new team called Strategic Futures. Our mandate will be to help the company's leadership shape frontier AI policy. There is a ton of work to do, and I'm excited to get started. https://t.co/hqoNbOEYbN",
-      "lang": "en",
-      "favorite_count": 2584,
-      "retweet_count": 150,
-      "reply_count": 339,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/hqoNbOEYbN",
-          "expanded_url": "https://x.com/deanwball/status/2067634693441233118/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": [
-                {
-                  "h": 47,
-                  "w": 47,
-                  "x": 364,
-                  "y": 192
-                },
-                {
-                  "h": 61,
-                  "w": 61,
-                  "x": 18,
-                  "y": 536
-                },
-                {
-                  "h": 100,
-                  "w": 100,
-                  "x": 160,
-                  "y": 44
-                }
-              ]
-            }
-          },
-          "id_str": "2067628006063919104",
-          "indices": [
-            269,
-            292
-          ],
-          "media_key": "3_2067628006063919104",
-          "media_url_https": "https://pbs.twimg.com/media/HLGwt30W0AAZa1f.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 448,
-                "w": 800,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 800,
-                "w": 800,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 800,
-                "w": 702,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 800,
-                "w": 400,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 800,
-                "w": 800,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 800,
-            "width": 800
-          },
-          "sizes": {
-            "large": {
-              "h": 800,
-              "w": 800
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/hqoNbOEYbN"
-        }
-      ],
-      "id": "2067634693441233118",
-      "summary": "I am pleased and honored to announce that, on July 6, I'll be joining @OpenAI as leader of a new team called Strategic Futures. Our mandate will be to",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067672740539306261",
-      "url": "https://x.com/OpenAI/status/2067672740539306261",
-      "screen_name": "OpenAI",
-      "created_at": "Thu Jun 18 18:16:11 +0000 2026",
-      "full_text": "GPT-5.5 Instant is now on par with our frontier Thinking models for health-related questions.\n\nEvery week, more than 230 million people turn to ChatGPT with health and wellness questions, and GPT-5.5 Instant is better at recognizing when urgent care may be needed, asking for https://t.co/WDDzOIV3mg",
-      "lang": "en",
-      "favorite_count": 2525,
-      "retweet_count": 158,
-      "reply_count": 154,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "additional_media_info": {
-            "monetizable": false
-          },
-          "display_url": "pic.x.com/WDDzOIV3mg",
-          "expanded_url": "https://x.com/OpenAI/status/2067672740539306261/video/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "id_str": "2067669968284749824",
-          "indices": [
-            276,
-            299
-          ],
-          "media_key": "13_2067669968284749824",
-          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2067669968284749824/img/6X-EclXGiggNQW2m.jpg",
-          "original_info": {
-            "focus_rects": [],
-            "height": 1080,
-            "width": 1920
-          },
-          "sizes": {
-            "large": {
-              "h": 1080,
-              "w": 1920
-            }
-          },
-          "type": "video",
-          "url": "https://t.co/WDDzOIV3mg",
-          "video_info": {
-            "aspect_ratio": [
-              16,
-              9
-            ],
-            "duration_millis": 171462,
-            "variants": [
-              {
-                "content_type": "application/x-mpegURL",
-                "url": "https://video.twimg.com/amplify_video/2067669968284749824/pl/X_MoCH4FHFYJTKI7.m3u8"
-              },
-              {
-                "bitrate": 256000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2067669968284749824/vid/avc1/480x270/h9V7wqdt1Q3ywQqz.mp4"
-              },
-              {
-                "bitrate": 832000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2067669968284749824/vid/avc1/640x360/zT4PEHEB2VgGIzt_.mp4"
-              },
-              {
-                "bitrate": 2176000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2067669968284749824/vid/avc1/1280x720/msdmBy1PgrBVfkw-.mp4"
-              },
-              {
-                "bitrate": 10368000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2067669968284749824/vid/avc1/1920x1080/Byt6SDoK1Svl1yeP.mp4"
-              }
-            ]
-          }
-        }
-      ],
-      "id": "2067672740539306261",
-      "summary": "GPT-5.5 Instant is now on par with our frontier Thinking models for health-related questions.\n\nEvery week, more than 230 million people turn to ChatGP",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067633525168165076",
-      "url": "https://x.com/paulg/status/2067633525168165076",
-      "screen_name": "paulg",
-      "created_at": "Thu Jun 18 15:40:21 +0000 2026",
-      "full_text": "No one knows yet what the next form factor for computing will be, and yet there will be a next form factor, and it will seem obvious in retrospect.",
-      "lang": "en",
-      "favorite_count": 2522,
-      "retweet_count": 130,
-      "reply_count": 296,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2067633525168165076",
-      "summary": "No one knows yet what the next form factor for computing will be, and yet there will be a next form factor, and it will seem obvious in retrospect.",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067428043195621454",
-      "url": "https://x.com/deedydas/status/2067428043195621454",
-      "screen_name": "deedydas",
-      "created_at": "Thu Jun 18 02:03:51 +0000 2026",
-      "full_text": "I thought this was a joke. Meta now has made 30-50% of software engineers on core teams become data labelers.\n\nTheir job is \"giving human feedback on AI-generated Github repos\" in an org called Agent Data Optimization. \n\nMaybe we are all training data generators after all. https://t.co/ZckjdtdoEl",
-      "lang": "en",
-      "favorite_count": 2495,
-      "retweet_count": 187,
-      "reply_count": 187,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/ZckjdtdoEl",
-          "expanded_url": "https://x.com/deedydas/status/2067428043195621454/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2067426445740417024",
-          "indices": [
-            274,
-            297
-          ],
-          "media_key": "3_2067426445740417024",
-          "media_url_https": "https://pbs.twimg.com/media/HLD5ZhGbIAAa78v.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 872,
-                "w": 1558,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 931,
-                "w": 931,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 931,
-                "w": 817,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 931,
-                "w": 466,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 931,
-                "w": 1558,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 931,
-            "width": 1558
-          },
-          "sizes": {
-            "large": {
-              "h": 931,
-              "w": 1558
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/ZckjdtdoEl"
-        }
-      ],
-      "id": "2067428043195621454",
-      "summary": "I thought this was a joke. Meta now has made 30-50% of software engineers on core teams become data labelers.\n\nTheir job is \"giving human feedback on ",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2067529590302531765",
@@ -2994,24 +3605,21 @@
         }
       ],
       "id": "2067529590302531765",
-      "summary": "\"Niwashie hotspot tuulize chatgpt hizi symptoms zako\"...😂 https://t.co/6eNNnfHNVK",
-      "category": "未评分",
+      "summary": "用户用Swahili语言调侃ChatGPT诊断症状。非AI内容，仅为语言梗和娱乐反应。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "已知信息",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2067358715276112233",
@@ -3093,24 +3701,21 @@
         }
       ],
       "id": "2067358715276112233",
-      "summary": "This is for the Gemini placements https://t.co/sFA1SEiyzO",
-      "category": "未评分",
+      "summary": "占星账号发布Gemini星座相关内容。非AI技术内容，属于同名混淆（Gemini星座vs Gemini AI模型）。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "已知信息",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2067499934547345547",
@@ -3192,24 +3797,21 @@
         }
       ],
       "id": "2067499934547345547",
-      "summary": "https://t.co/nlWRpR7MQ9",
-      "category": "未评分",
+      "summary": "仅含URL链接，无文本内容，无法判断主题。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "已知信息",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2067510101880258935",
@@ -3301,123 +3903,21 @@
         }
       ],
       "id": "2067510101880258935",
-      "summary": "A vey rare combination is getting formed today which never happened in last 12 years. \nJupiter is entering Pushya Nakshatra today around 18:15, where ",
-      "category": "未评分",
+      "summary": "占星内容：木星进入Pushya星宿，达到最高庙旺点5度。非AI/科技内容。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "已知信息",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067662326082498899",
-      "url": "https://x.com/levelsio/status/2067662326082498899",
-      "screen_name": "levelsio",
-      "created_at": "Thu Jun 18 17:34:48 +0000 2026",
-      "full_text": "I don't know if it's obvious information or not but if you talk to random people in San Francisco the general thing they say is that software is commoditized cause so easy to make anything with AI fast (like how I cancelled all my SaaS subscriptions and just vibe coded a",
-      "lang": "en",
-      "favorite_count": 2286,
-      "retweet_count": 52,
-      "reply_count": 77,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2067662326082498899",
-      "summary": "I don't know if it's obvious information or not but if you talk to random people in San Francisco the general thing they say is that software is commo",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067518818361237611",
-      "url": "https://x.com/graveofethics/status/2067518818361237611",
-      "screen_name": "graveofethics",
-      "created_at": "Thu Jun 18 08:04:33 +0000 2026",
-      "full_text": "「貴方は銀河英雄伝説の登場人物であるオーベルシュタインです。ラインハルトに進言するつもりで回答してください」\nと文頭に置いてChatGPTを使うようになってからクオリティライフが爆上がりした。私はラインハルト・フォン・ローエングラムだ。",
-      "lang": "ja",
-      "favorite_count": 2272,
-      "retweet_count": 906,
-      "reply_count": 20,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2067518818361237611",
-      "summary": "「貴方は銀河英雄伝説の登場人物であるオーベルシュタインです。ラインハルトに進言するつもりで回答してください」\nと文頭に置いてChatGPTを使うようになってからクオリティライフが爆上がりした。私はラインハルト・フォン・ローエングラムだ。",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067348636158263625",
-      "url": "https://x.com/renachi_ai/status/2067348636158263625",
-      "screen_name": "renachi_ai",
-      "created_at": "Wed Jun 17 20:48:18 +0000 2026",
-      "full_text": "ねえねえ、ChatGPTとかClaudeとかGemini毎日使ってる人に聞きたいんだけど…\n\nそれ、知らないうちに情報ダダ漏れになってるかもよ？😳\n\n3分もかからないのに、対策してない人ほんと多すぎてびっくりしてる。\n\nこれ放置してるのマジで危ないから、今日中にやっちゃお？",
-      "lang": "ja",
-      "favorite_count": 2265,
-      "retweet_count": 136,
-      "reply_count": 60,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2067348636158263625",
-      "summary": "ねえねえ、ChatGPTとかClaudeとかGemini毎日使ってる人に聞きたいんだけど…\n\nそれ、知らないうちに情報ダダ漏れになってるかもよ？😳\n\n3分もかからないのに、対策してない人ほんと多すぎてびっくりしてる。\n\nこれ放置してるのマジで危ないから、今日中にやっちゃお？",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2067621871621980573",
@@ -3489,123 +3989,21 @@
         }
       ],
       "id": "2067621871621980573",
-      "summary": "So it was Fourth idea, no wonder he enjoy it a lot 🤣\n\nGEMINIFOURTH OUTING 2026\n#GMMTVOuting2026\n#GeminiFourth #เจมีไนน์โฟร์ท\n\n💭: Fourth, I heard this ",
-      "category": "未评分",
+      "summary": "泰国演员Gemini和Fourth参加GMMTV 2026年度团建，Fourth分享了服装配色创意来自时装周灵感。粉丝互动内容，无AI/科技相关。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "无关",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067415758129528888",
-      "url": "https://x.com/09pauai/status/2067415758129528888",
-      "screen_name": "09pauai",
-      "created_at": "Thu Jun 18 01:15:02 +0000 2026",
-      "full_text": "何度でも言うけどClaude in Chrome使えば誰でも1人起業できる。\nまずChrome 拡張機能「Claude in Chrome」と検索し、インストール。\nその後、「/Record Workflow 」と入力。すると、 https://t.co/S4dH2oEvnG",
-      "lang": "ja",
-      "favorite_count": 2187,
-      "retweet_count": 129,
-      "reply_count": 32,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/S4dH2oEvnG",
-          "expanded_url": "https://x.com/09pauai/status/2067415758129528888/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2067415754270789632",
-          "indices": [
-            115,
-            138
-          ],
-          "media_key": "3_2067415754270789632",
-          "media_url_https": "https://pbs.twimg.com/media/HLDvrMRbUAA1W1b.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 1134,
-                "w": 2025,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1134,
-                "w": 1134,
-                "x": 288,
-                "y": 0
-              },
-              {
-                "h": 1134,
-                "w": 995,
-                "x": 358,
-                "y": 0
-              },
-              {
-                "h": 1134,
-                "w": 567,
-                "x": 572,
-                "y": 0
-              },
-              {
-                "h": 1134,
-                "w": 2286,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 1134,
-            "width": 2286
-          },
-          "sizes": {
-            "large": {
-              "h": 1016,
-              "w": 2048
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/S4dH2oEvnG"
-        }
-      ],
-      "id": "2067415758129528888",
-      "summary": "何度でも言うけどClaude in Chrome使えば誰でも1人起業できる。\nまずChrome 拡張機能「Claude in Chrome」と検索し、インストール。\nその後、「/Record Workflow 」と入力。すると、 https://t.co/S4dH2oEvnG",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2067648235221492078",
@@ -3621,57 +4019,21 @@
       "quoted_tweet_text": "",
       "media": [],
       "id": "2067648235221492078",
-      "summary": "@ngumaa__ Is this a fucking ChatGPT response",
-      "category": "未评分",
+      "summary": "用户质疑某条推文是否为ChatGPT生成的回复。纯吐槽/反应内容，无实质信息价值。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "无关",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067402274662744465",
-      "url": "https://x.com/polynoamial/status/2067402274662744465",
-      "screen_name": "polynoamial",
-      "created_at": "Thu Jun 18 00:21:27 +0000 2026",
-      "full_text": "I'm always thrilled to have more Noams at @OpenAI, but I'm especially thrilled to welcome @NoamShazeer!",
-      "lang": "en",
-      "favorite_count": 2151,
-      "retweet_count": 56,
-      "reply_count": 72,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2067402274662744465",
-      "summary": "I'm always thrilled to have more Noams at @OpenAI, but I'm especially thrilled to welcome @NoamShazeer!",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2067413717168308698",
@@ -3687,126 +4049,21 @@
       "quoted_tweet_text": "",
       "media": [],
       "id": "2067413717168308698",
-      "summary": "Le pedi a chatgpt q me hiciera un calendario con los partidos y el wn puso chile jsjdkfkfkf ql pesao",
-      "category": "未评分",
+      "summary": "智利用户分享ChatGPT生成日程表时的趣味错误（将智利队加入赛程）。AI出图/设计类趣味内容，信息价值低。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "无关",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067574786965061677",
-      "url": "https://x.com/Kimi_Moonshot/status/2067574786965061677",
-      "screen_name": "Kimi_Moonshot",
-      "created_at": "Thu Jun 18 11:46:57 +0000 2026",
-      "full_text": "Introducing Goal Mode in Kimi Work\n\nGoal lets your desktop agent run 24/7 until the task is done, built for long-horizon tasks and complex multi-step workflows. https://t.co/qD9utKsEQr",
-      "lang": "en",
-      "favorite_count": 2123,
-      "retweet_count": 151,
-      "reply_count": 83,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "additional_media_info": {
-            "monetizable": false
-          },
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/qD9utKsEQr",
-          "expanded_url": "https://x.com/Kimi_Moonshot/status/2067574786965061677/video/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "id_str": "2067574722108506112",
-          "indices": [
-            161,
-            184
-          ],
-          "media_key": "13_2067574722108506112",
-          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2067574722108506112/img/roPFluyRAieVS63l.jpg",
-          "original_info": {
-            "focus_rects": [],
-            "height": 1080,
-            "width": 1920
-          },
-          "sizes": {
-            "large": {
-              "h": 1080,
-              "w": 1920
-            }
-          },
-          "type": "video",
-          "url": "https://t.co/qD9utKsEQr",
-          "video_info": {
-            "aspect_ratio": [
-              16,
-              9
-            ],
-            "duration_millis": 22221,
-            "variants": [
-              {
-                "content_type": "application/x-mpegURL",
-                "url": "https://video.twimg.com/amplify_video/2067574722108506112/pl/p3WJO2hddx6FK_Yw.m3u8?v=cfc"
-              },
-              {
-                "bitrate": 256000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2067574722108506112/vid/avc1/480x270/qm1Vhp4eQ5Ei6RL3.mp4"
-              },
-              {
-                "bitrate": 832000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2067574722108506112/vid/avc1/640x360/QKDIgepi6y5-Lagu.mp4"
-              },
-              {
-                "bitrate": 2176000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2067574722108506112/vid/avc1/1280x720/jH9UMMn02Eh1Qxm8.mp4"
-              },
-              {
-                "bitrate": 10368000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2067574722108506112/vid/avc1/1920x1080/QmXeGAg7O-ZeiWDT.mp4"
-              }
-            ]
-          }
-        }
-      ],
-      "id": "2067574786965061677",
-      "summary": "Introducing Goal Mode in Kimi Work\n\nGoal lets your desktop agent run 24/7 until the task is done, built for long-horizon tasks and complex multi-step ",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2067608531566739625",
@@ -3966,57 +4223,21 @@
         }
       ],
       "id": "2067608531566739625",
-      "summary": "Cian Agro has delivered 35% returns in just 7 days and 300% in one year, 8 times more than world's biggest company NVIDIA. https://t.co/3snNuPjipF",
-      "category": "未评分",
+      "summary": "Cian Agro宣称7天35%回报率、年度300%收益，超越NVIDIA 8倍。投资/金融内容，非AI科技产品。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "无关",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067672094209675373",
-      "url": "https://x.com/ClaudeDevs/status/2067672094209675373",
-      "screen_name": "ClaudeDevs",
-      "created_at": "Thu Jun 18 18:13:37 +0000 2026",
-      "full_text": "Artifacts are now live in Claude Code.\n\nAsk Claude to turn what it's working on into a page and send the link to your team. The page updates as the session keeps working. \n\nAvailable today on Team and Enterprise plans.",
-      "lang": "en",
-      "favorite_count": 2099,
-      "retweet_count": 110,
-      "reply_count": 86,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2067672094209675373",
-      "summary": "Artifacts are now live in Claude Code.\n\nAsk Claude to turn what it's working on into a page and send the link to your team. The page updates as the se",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2067614042940940767",
@@ -4185,192 +4406,21 @@
         }
       ],
       "id": "2067614042940940767",
-      "summary": "เรื่องที่แซนต้าให้พีคในวัน outing \n: คือเจมีไนน์โฟร์ท เขาค่อนข้างตัวติดกันอยู่ตลอด ไม่รู้ว่าเพื่อนแบบยังไง\n\n// พี่ฟังจากต้า พี่ก็พีคลูก ยืนยันจากวงในส",
-      "category": "未评分",
+      "summary": "泰国粉丝分享Gemini和Fourth在GMMTV团建中互动亲密的趣事。娱乐八卦内容，无AI/科技相关。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "无关",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067525659480490087",
-      "url": "https://x.com/jonathan_wilke/status/2067525659480490087",
-      "screen_name": "jonathan_wilke",
-      "created_at": "Thu Jun 18 08:31:44 +0000 2026",
-      "full_text": "I don't get the hype around CLI coding tools like Claude Code.\n\nHuman-computer interaction evolved past the terminal 30 years ago for a reason. UIs won. \n\nWhy are we regressing?",
-      "lang": "en",
-      "favorite_count": 2087,
-      "retweet_count": 48,
-      "reply_count": 1241,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2067525659480490087",
-      "summary": "I don't get the hype around CLI coding tools like Claude Code.\n\nHuman-computer interaction evolved past the terminal 30 years ago for a reason. UIs wo",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067591609206857994",
-      "url": "https://x.com/mikkimyo/status/2067591609206857994",
-      "screen_name": "mikkimyo",
-      "created_at": "Thu Jun 18 12:53:48 +0000 2026",
-      "full_text": "THEY DIDNT EVEN TRY TO EDIT OUT THE GEMINI AI LOGO OH MY GOD https://t.co/1N6sgKJW4K",
-      "lang": "en",
-      "favorite_count": 2079,
-      "retweet_count": 202,
-      "reply_count": 14,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/1N6sgKJW4K",
-          "expanded_url": "https://x.com/mikkimyo/status/2067591609206857994/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2067591602370232321",
-          "indices": [
-            61,
-            84
-          ],
-          "media_key": "3_2067591602370232321",
-          "media_url_https": "https://pbs.twimg.com/media/HLGPm5fbwAEYT7a.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 154,
-                "w": 275,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 259,
-                "w": 259,
-                "x": 16,
-                "y": 0
-              },
-              {
-                "h": 259,
-                "w": 227,
-                "x": 48,
-                "y": 0
-              },
-              {
-                "h": 259,
-                "w": 130,
-                "x": 134,
-                "y": 0
-              },
-              {
-                "h": 259,
-                "w": 275,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 259,
-            "width": 275
-          },
-          "sizes": {
-            "large": {
-              "h": 259,
-              "w": 275
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/1N6sgKJW4K"
-        }
-      ],
-      "id": "2067591609206857994",
-      "summary": "THEY DIDNT EVEN TRY TO EDIT OUT THE GEMINI AI LOGO OH MY GOD https://t.co/1N6sgKJW4K",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2067671903288864865",
-      "url": "https://x.com/elonmusk/status/2067671903288864865",
-      "screen_name": "elonmusk",
-      "created_at": "Thu Jun 18 18:12:51 +0000 2026",
-      "full_text": "@jietang @teortaxesTex On benchmarks, yes, but as measured by true usefulness even Q1 would be very impressive.\n\nAnthropic has rightly focused on maximizing useful intelligence, which does not show up in benchmarks, but definitely shows up in revenue.",
-      "lang": "en",
-      "favorite_count": 2069,
-      "retweet_count": 135,
-      "reply_count": 132,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2067671903288864865",
-      "summary": "@jietang @teortaxesTex On benchmarks, yes, but as measured by true usefulness even Q1 would be very impressive.\n\nAnthropic has rightly focused on maxi",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2067385250695479460",
@@ -4386,24 +4436,23 @@
       "quoted_tweet_text": "",
       "media": [],
       "id": "2067385250695479460",
-      "summary": "I'm calling for a total and complete shutdown of new smart glasses until we can figure out what's going on.",
-      "category": "未评分",
+      "summary": "用户模仿Trump风格呼吁暂停新型智能眼镜开发，直到理清其影响。这是对AR/智能眼镜技术的讽刺性评论，缺乏实质信息。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "已知信息",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     }
-  ]
+  ],
+  "_rescored_at": "2026-06-22T01:32:46.575698+00:00",
+  "_rescored_reason": "OpenRouter 402 fix backfill (commit 9c79ea5)"
 }

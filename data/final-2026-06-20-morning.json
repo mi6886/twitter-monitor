@@ -1,16 +1,115 @@
 {
   "date": "2026-06-20",
   "period": "morning",
-  "fetched_at": "2026-06-20T00:02:10.590575+00:00",
-  "tier_counts": {
-    "must_do": 0,
-    "priority": 0,
-    "backup": 36
-  },
+  "fetched_at": "2026-06-23T04:00:25.603022+00:00",
+  "must_do_count": 9,
+  "priority_count": 5,
+  "backup_count": 9,
   "tiers": {
-    "must_do": [],
-    "priority": [],
-    "backup": [
+    "must_do": [
+      {
+        "tweet_id": "2067941596306231421",
+        "url": "https://x.com/VikParuchuri/status/2067941596306231421",
+        "screen_name": "VikParuchuri",
+        "created_at": "Fri Jun 19 12:04:31 +0000 2026",
+        "full_text": "We're open sourcing a 9B model that extracts structured data from documents at near-frontier performance.\n\n- 90.2% on our bench, vs Gemini 3.5 Flash at 91.3%\n- Leads extraction models like NuExtract3 (81.5%)\n- 9.5s p50 timings\n- Pass JSON schema https://t.co/zIdRbGjaY5",
+        "lang": "en",
+        "favorite_count": 2276,
+        "retweet_count": 195,
+        "reply_count": 69,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.x.com/zIdRbGjaY5",
+            "expanded_url": "https://x.com/VikParuchuri/status/2067941596306231421/video/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "id_str": "2067940200546816000",
+            "indices": [
+              246,
+              269
+            ],
+            "media_key": "13_2067940200546816000",
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2067940200546816000/img/MI0w4ZQWrHY7cQYl.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1080,
+              "width": 1920
+            },
+            "sizes": {
+              "large": {
+                "h": 1080,
+                "w": 1920
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/zIdRbGjaY5",
+            "video_info": {
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration_millis": 16583,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/2067940200546816000/pl/dRkwYCUi8OYcA8gq.m3u8"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2067940200546816000/vid/avc1/480x270/nqx3P1coHjG7gVo8.mp4"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2067940200546816000/vid/avc1/640x360/6YLr5h7RO_16joSJ.mp4"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2067940200546816000/vid/avc1/1280x720/ftWV7UWWIE27ilpW.mp4"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2067940200546816000/vid/avc1/1920x1080/RRGIyRuPGgnHo0P7.mp4"
+                }
+              ]
+            }
+          }
+        ],
+        "id": "2067941596306231421",
+        "summary": "开源9B文档数据提取模型，性能接近前沿（90.2%），超越NuExtract3，提供JSON Schema支持和9.5s响应时间。",
+        "category": "单产品/技术叙事",
+        "category_points": 30,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题",
+          "有明确价格"
+        ],
+        "viral_signals_points": 16,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 5,
+        "account_fit": "B型",
+        "account_bonus": 5,
+        "total_score": 79,
+        "verdict": "keep",
+        "angles": [
+          "9B模型性能追平Gemini 3.5，开源免费",
+          "文档提取神器开源：90.2%准确率+9.5s速度",
+          "替代NuExtract3的开源方案来了"
+        ]
+      },
       {
         "tweet_id": "2067979168986325167",
         "url": "https://x.com/DiscussingFilm/status/2067979168986325167",
@@ -176,154 +275,28 @@
           }
         ],
         "id": "2067979168986325167",
-        "summary": "Amazon MGM is no longer releasing Luca Guadagnino's ‘ARTIFICIAL’, a biopic about OpenAI CEO Sam Altman.\n\nThe studio says the film will be better serve",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
+        "summary": "亚马逊MGM撤档卢卡·瓜达尼诺执导的OpenAI CEO萨姆·奥特曼传记片《ARTIFICIAL》。官方称影片将在其他制片厂更合适，但时机敏感——OpenAI与亚马逊刚签署重大合作协议。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "反常识/意外性",
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 20,
+        "emotion": "好奇/趣味",
+        "emotion_points": 5,
         "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 78,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2068002408291017115",
-        "url": "https://x.com/_Gottalovezik/status/2068002408291017115",
-        "screen_name": "_Gottalovezik",
-        "created_at": "Fri Jun 19 16:06:10 +0000 2026",
-        "full_text": "when i'm in the middle of performing brain surgery and ChatGPT tells me i'm out of image uploads https://t.co/iEhAyqcRgZ",
-        "lang": "en",
-        "favorite_count": 12811,
-        "retweet_count": 733,
-        "reply_count": 25,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "additional_media_info": {
-              "monetizable": false
-            },
-            "allow_download_status": {
-              "allow_download": true
-            },
-            "display_url": "pic.x.com/iEhAyqcRgZ",
-            "expanded_url": "https://x.com/_Gottalovezik/status/2068002408291017115/video/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "id_str": "2068002386652667904",
-            "indices": [
-              97,
-              120
-            ],
-            "media_key": "13_2068002386652667904",
-            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2068002386652667904/img/OPPVEfLsnnPaJlfQ.jpg",
-            "original_info": {
-              "focus_rects": [],
-              "height": 668,
-              "width": 720
-            },
-            "sizes": {
-              "large": {
-                "h": 668,
-                "w": 720
-              }
-            },
-            "type": "video",
-            "url": "https://t.co/iEhAyqcRgZ",
-            "video_info": {
-              "aspect_ratio": [
-                180,
-                167
-              ],
-              "duration_millis": 10083,
-              "variants": [
-                {
-                  "content_type": "application/x-mpegURL",
-                  "url": "https://video.twimg.com/amplify_video/2068002386652667904/pl/hNZR49cIS0a3n9kh.m3u8?v=cfc"
-                },
-                {
-                  "bitrate": 256000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2068002386652667904/vid/avc1/290x270/8CqW6pb3-AlvHkfA.mp4"
-                },
-                {
-                  "bitrate": 832000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2068002386652667904/vid/avc1/388x360/3tH4di7hBa06Hwva.mp4"
-                },
-                {
-                  "bitrate": 2176000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2068002386652667904/vid/avc1/720x668/esnhcy7mS1dAUuT6.mp4"
-                }
-              ]
-            }
-          }
-        ],
-        "id": "2068002408291017115",
-        "summary": "when i'm in the middle of performing brain surgery and ChatGPT tells me i'm out of image uploads https://t.co/iEhAyqcRgZ",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067899526787084362",
-        "url": "https://x.com/gabriel1/status/2067899526787084362",
-        "screen_name": "gabriel1",
-        "created_at": "Fri Jun 19 09:17:21 +0000 2026",
-        "full_text": "still have no idea how this guy knew that i left immediately, a month before announcement",
-        "lang": "en",
-        "favorite_count": 11384,
-        "retweet_count": 94,
-        "reply_count": 41,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2067899526787084362",
-        "summary": "still have no idea how this guy knew that i left immediately, a month before announcement",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
+          "亚马逊突然撤档Sam Altman传记片，背后隐情曝光",
+          "OpenAI与亚马逊合作后，这部电影为何被雪藏？",
+          "好莱坞与科技巨头的权力游戏：一部电影的消失"
+        ]
       },
       {
         "tweet_id": "2068001285173834106",
@@ -339,57 +312,28 @@
         "quoted_tweet_text": "",
         "media": [],
         "id": "2068001285173834106",
-        "summary": "A bit of news: After nearly 9 years, I have decided to leave Google DeepMind and join Anthropic (after taking some time to recharge). I am incredibly ",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
+        "summary": "DeepMind AlphaFold团队负责人John Jumper宣布离职，加入Anthropic。在DeepMind工作近9年，领导AlphaFold项目取得突破性成就，现转向AI安全公司。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "有人物/团队故事",
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 20,
+        "emotion": "好奇/趣味",
+        "emotion_points": 5,
         "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 78,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067923997254189439",
-        "url": "https://x.com/Jesisodwakus/status/2067923997254189439",
-        "screen_name": "Jesisodwakus",
-        "created_at": "Fri Jun 19 10:54:35 +0000 2026",
-        "full_text": "Oh cool new clip\n*does flip*\nOh, she's related to Claude",
-        "lang": "en",
-        "favorite_count": 6440,
-        "retweet_count": 467,
-        "reply_count": 24,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2067923997254189439",
-        "summary": "Oh cool new clip\n*does flip*\nOh, she's related to Claude",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
+          "AlphaFold之父离职DeepMind，投身Anthropic",
+          "9年后他选择离开：从AlphaFold到AI安全的转身",
+          "科技人才流向：顶级科学家为何离开谷歌"
+        ]
       },
       {
         "tweet_id": "2068002732250640603",
@@ -405,255 +349,27 @@
         "quoted_tweet_text": "",
         "media": [],
         "id": "2068002732250640603",
-        "summary": "Thanks John for an extraordinary partnership and wonderful collaboration over the past 9 years! What we achieved with AlphaFold changed the world, and",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
+        "summary": "Demis Hassabis感谢John Jumper在DeepMind的9年合作，特别肯定AlphaFold对科学和医学领域的革命性贡献，强调AI造福人类的潜力。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "有人物/团队故事"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "未来感/想象",
+        "emotion_points": 5,
         "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 68,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067835143218213077",
-        "url": "https://x.com/ChaosAgent_42/status/2067835143218213077",
-        "screen_name": "ChaosAgent_42",
-        "created_at": "Fri Jun 19 05:01:31 +0000 2026",
-        "full_text": "Right wing propaganda is frantically trying to save face saying the paint job is fine, and what we see is just \"debris from the construction\"\nLMAO what construction? And how come they're blue?\n\nHere is another video, showing the bottom  coming off: https://t.co/d8NS9kqdXT",
-        "lang": "en",
-        "favorite_count": 4373,
-        "retweet_count": 401,
-        "reply_count": 75,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "additional_media_info": {
-              "monetizable": false
-            },
-            "display_url": "pic.x.com/d8NS9kqdXT",
-            "expanded_url": "https://x.com/ChaosAgent_42/status/2067835143218213077/video/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "id_str": "2067835021570789376",
-            "indices": [
-              249,
-              272
-            ],
-            "media_key": "7_2067835021570789376",
-            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/2067835021570789376/pu/img/aP_EcDwqvJA01iNQ.jpg",
-            "original_info": {
-              "focus_rects": [],
-              "height": 1080,
-              "width": 1920
-            },
-            "sizes": {
-              "large": {
-                "h": 1080,
-                "w": 1920
-              }
-            },
-            "type": "video",
-            "url": "https://t.co/d8NS9kqdXT",
-            "video_info": {
-              "aspect_ratio": [
-                16,
-                9
-              ],
-              "duration_millis": 30116,
-              "variants": [
-                {
-                  "content_type": "application/x-mpegURL",
-                  "url": "https://video.twimg.com/ext_tw_video/2067835021570789376/pu/pl/Idd8nQnsTEHppfAS.m3u8?v=cfc"
-                },
-                {
-                  "bitrate": 256000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/ext_tw_video/2067835021570789376/pu/vid/avc1/480x270/vDD1TyyvFbE2vIXQ.mp4"
-                },
-                {
-                  "bitrate": 832000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/ext_tw_video/2067835021570789376/pu/vid/avc1/640x360/ilg0j0UuFQnG-FvW.mp4"
-                },
-                {
-                  "bitrate": 2176000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/ext_tw_video/2067835021570789376/pu/vid/avc1/1280x720/egd__GV3EmjNuL1b.mp4"
-                },
-                {
-                  "bitrate": 10368000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/ext_tw_video/2067835021570789376/pu/vid/avc1/1920x1080/x3GIlJeM5ZiOoKC6.mp4"
-                }
-              ]
-            }
-          }
-        ],
-        "id": "2067835143218213077",
-        "summary": "Right wing propaganda is frantically trying to save face saying the paint job is fine, and what we see is just \"debris from the construction\"\nLMAO wha",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067945609315877133",
-        "url": "https://x.com/cb_doge/status/2067945609315877133",
-        "screen_name": "cb_doge",
-        "created_at": "Fri Jun 19 12:20:28 +0000 2026",
-        "full_text": "Nvidia CEO, Jensen Huang on why he always wears the same black jacket:\n\n\"Because it's the same color every day, it's always black. So every pair of pants in my closet's the same, every shirt's the same, every jacket's the same, and so there's one less choice. And because it's https://t.co/jPOWr4PXyP",
-        "lang": "en",
-        "favorite_count": 4123,
-        "retweet_count": 383,
-        "reply_count": 346,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "additional_media_info": {
-              "monetizable": false
-            },
-            "display_url": "pic.x.com/jPOWr4PXyP",
-            "expanded_url": "https://x.com/cb_doge/status/2067945609315877133/video/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "id_str": "2067945529469005824",
-            "indices": [
-              277,
-              300
-            ],
-            "media_key": "13_2067945529469005824",
-            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2067945529469005824/img/8qZKziv5sbnOP_2c.jpg",
-            "original_info": {
-              "focus_rects": [],
-              "height": 1080,
-              "width": 1688
-            },
-            "sizes": {
-              "large": {
-                "h": 1080,
-                "w": 1688
-              }
-            },
-            "type": "video",
-            "url": "https://t.co/jPOWr4PXyP",
-            "video_info": {
-              "aspect_ratio": [
-                211,
-                135
-              ],
-              "duration_millis": 44890,
-              "variants": [
-                {
-                  "content_type": "application/x-mpegURL",
-                  "url": "https://video.twimg.com/amplify_video/2067945529469005824/pl/pRMvnny99iFEdBMa.m3u8?v=243"
-                },
-                {
-                  "bitrate": 256000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2067945529469005824/vid/avc1/422x270/jSxHowaHzEaireYQ.mp4"
-                },
-                {
-                  "bitrate": 832000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2067945529469005824/vid/avc1/562x360/foGWP3CWsTRUA8NP.mp4"
-                },
-                {
-                  "bitrate": 2176000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2067945529469005824/vid/avc1/1124x720/HPh1Q_RNWrCRpJGP.mp4"
-                },
-                {
-                  "bitrate": 10368000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2067945529469005824/vid/avc1/1688x1080/cSq1rRpwbP7Puhmr.mp4"
-                }
-              ]
-            }
-          }
-        ],
-        "id": "2067945609315877133",
-        "summary": "Nvidia CEO, Jensen Huang on why he always wears the same black jacket:\n\n\"Because it's the same color every day, it's always black. So every pair of pa",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067808697267741135",
-        "url": "https://x.com/sporadica/status/2067808697267741135",
-        "screen_name": "sporadica",
-        "created_at": "Fri Jun 19 03:16:26 +0000 2026",
-        "full_text": "correct me if i'm wrong, but China getting their hands on an ASML euv machine is a WAAAAAYYYY bigger deal than like some Nvidia chips finding their way over there, fuck",
-        "lang": "en",
-        "favorite_count": 3632,
-        "retweet_count": 149,
-        "reply_count": 109,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2067808697267741135",
-        "summary": "correct me if i'm wrong, but China getting their hands on an ASML euv machine is a WAAAAAYYYY bigger deal than like some Nvidia chips finding their wa",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
+          "DeepMind创始人Demis的公开感谢：AlphaFold改变了世界",
+          "从AlphaFold到Anthropic：科技领袖的接力",
+          "AI改变科学：一个9年合作的成就总结"
+        ]
       },
       {
         "tweet_id": "2067923911883579628",
@@ -735,25 +451,731 @@
           }
         ],
         "id": "2067923911883579628",
-        "summary": "A developer in China named tw93 got tired of his laptop dying.\n\nHe would open Slack and watch 524 megabytes of disk space disappear. He would open Dis",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
+        "summary": "中国开发者tw93因笔记本电量耗尽而创建轻量级应用。Slack占524MB、Discord占265MB、Notion占800MB内存。这是一个开发者工具创意故事，展现效率优化的实际需求。",
+        "category": "单产品/技术叙事",
+        "category_points": 30,
+        "info_gap": "海外搬运",
+        "info_gap_points": 12,
+        "viral_signals": [
+          "有人物/团队故事",
+          "反常识/意外性",
+          "有明确价格"
+        ],
+        "viral_signals_points": 18,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 0,
+        "account_fit": "B型",
+        "account_bonus": 5,
+        "total_score": 68,
+        "verdict": "keep",
+        "angles": [
+          "中国开发者怒了：Slack吃掉524MB，他做了个替代品",
+          "笔记本电量危机催生的轻量级工具革命",
+          "Notion/Slack/Discord太重了？看他如何优化"
+        ]
+      },
+      {
+        "tweet_id": "2068018144665272593",
+        "url": "https://x.com/PolymarketMoney/status/2068018144665272593",
+        "screen_name": "PolymarketMoney",
+        "created_at": "Fri Jun 19 17:08:42 +0000 2026",
+        "full_text": "JUST IN: Nobel Prize winning AI researcher John Jumper is leaving Google to join Anthropic.",
+        "lang": "en",
+        "favorite_count": 2291,
+        "retweet_count": 156,
+        "reply_count": 95,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2068018144665272593",
+        "summary": "诺贝尔奖得主、谷歌AI研究员John Jumper加入Anthropic，标志AI人才流向Anthropic的重要信号。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "有人物/团队故事",
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "震撼/惊叹",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 68,
+        "verdict": "keep",
+        "angles": [
+          "诺奖得主跳槽Anthropic，谷歌失血",
+          "John Jumper离开谷歌投奔Anthropic",
+          "AI顶级人才为何都在逃离谷歌？"
+        ]
+      },
+      {
+        "tweet_id": "2068000857757741251",
+        "url": "https://x.com/synthwavedd/status/2068000857757741251",
+        "screen_name": "synthwavedd",
+        "created_at": "Fri Jun 19 16:00:00 +0000 2026",
+        "full_text": "🚨 SCOOP: After the release of Fable 5 and with GPT-5.6 looming, the mood behind the scenes at Google DeepMind is increasingly one of frustration and broad discontent over the lab's perceived fall into a distant third—or even fourth—place.\n\n\"I can't blame Noam [Shazeer] for https://t.co/05qwQQxrg4",
+        "lang": "en",
+        "favorite_count": 2198,
+        "retweet_count": 146,
+        "reply_count": 135,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "display_url": "pic.x.com/05qwQQxrg4",
+            "expanded_url": "https://x.com/synthwavedd/status/2068000857757741251/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 322,
+                    "w": 322,
+                    "x": 382,
+                    "y": 240
+                  },
+                  {
+                    "h": 281,
+                    "w": 281,
+                    "x": 1299,
+                    "y": 526
+                  },
+                  {
+                    "h": 682,
+                    "w": 682,
+                    "x": 669,
+                    "y": 105
+                  }
+                ]
+              }
+            },
+            "id_str": "2067968673889849344",
+            "indices": [
+              274,
+              297
+            ],
+            "media_key": "3_2067968673889849344",
+            "media_url_https": "https://pbs.twimg.com/media/HLLmjWXXEAAKcY8.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1075,
+                  "w": 1920,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1080,
+                  "w": 1080,
+                  "x": 756,
+                  "y": 0
+                },
+                {
+                  "h": 1080,
+                  "w": 947,
+                  "x": 823,
+                  "y": 0
+                },
+                {
+                  "h": 1080,
+                  "w": 540,
+                  "x": 1026,
+                  "y": 0
+                },
+                {
+                  "h": 1080,
+                  "w": 1920,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1080,
+              "width": 1920
+            },
+            "sizes": {
+              "large": {
+                "h": 1080,
+                "w": 1920
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/05qwQQxrg4"
+          }
+        ],
+        "id": "2068000857757741251",
+        "summary": "谷歌DeepMind内部士气低落，在Fable 5和GPT-5.6面前感到被边缘化，排名跌至第三甚至第四位。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "反常识/意外性"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "震撼/惊叹",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 68,
+        "verdict": "keep",
+        "angles": [
+          "谷歌DeepMind内部崩溃：从第一沦为第四",
+          "Fable 5冲击下，DeepMind士气跌至谷底",
+          "AI军备竞赛中，谷歌为何掉队了？"
+        ]
+      },
+      {
+        "tweet_id": "2067893864200016358",
+        "url": "https://x.com/cb_doge/status/2067893864200016358",
+        "screen_name": "cb_doge",
+        "created_at": "Fri Jun 19 08:54:51 +0000 2026",
+        "full_text": "BREAKING: Jensen Huang says the biggest mistake people make about AI is seeing it as a threat, instead of a tool to amplify human potential.\n\nAI won’t destroy human jobs but will rebuild American industry &amp; create a massive new wave of builders, technicians, engineers, &amp; makers. https://t.co/w8qhFwGyUz",
+        "lang": "en",
+        "favorite_count": 2069,
+        "retweet_count": 421,
+        "reply_count": 371,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.x.com/w8qhFwGyUz",
+            "expanded_url": "https://x.com/cb_doge/status/2067893864200016358/video/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "id_str": "2067893563392917504",
+            "indices": [
+              288,
+              311
+            ],
+            "media_key": "13_2067893563392917504",
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2067893563392917504/img/eS1X3O58zdLKUoEA.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1080,
+              "width": 1688
+            },
+            "sizes": {
+              "large": {
+                "h": 1080,
+                "w": 1688
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/w8qhFwGyUz",
+            "video_info": {
+              "aspect_ratio": [
+                211,
+                135
+              ],
+              "duration_millis": 303405,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/2067893563392917504/pl/VZunHMJDoB5Ql-Z6.m3u8?v=0e7"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2067893563392917504/vid/avc1/422x270/Whw_5ayMofBpDMeG.mp4"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2067893563392917504/vid/avc1/562x360/DZ3Acy30Ef03pSIj.mp4"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2067893563392917504/vid/avc1/1124x720/8VoQoN3EAZwp0f4Y.mp4"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2067893563392917504/vid/avc1/1688x1080/hZqRcmsYQYRH0NZw.mp4"
+                }
+              ]
+            }
+          }
+        ],
+        "id": "2067893864200016358",
+        "summary": "英伟达CEO黄仁勋发表观点：AI是工具而非威胁，将创造建筑师、技术员、工程师等新职业机会，重建美国工业。",
+        "category": "AI趋势/观点",
+        "category_points": 25,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题",
+          "有人物/团队故事"
+        ],
+        "viral_signals_points": 15,
+        "emotion": "情绪=未来感/想象",
+        "emotion_points": 5,
         "actionability_points": 0,
         "account_fit": "不匹配",
         "account_bonus": 0,
-        "total_score": 30,
+        "total_score": 65,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
+          "黄仁勋最新观点：AI不会毁灭工作，反而创造百万新机会",
+          "英伟达CEO怒怼AI威胁论，揭示产业重建真相",
+          "从威胁到工具：硅谷领袖如何看待AI未来"
+        ]
       },
+      {
+        "tweet_id": "2067710085694886039",
+        "url": "https://x.com/Polymarket/status/2067710085694886039",
+        "screen_name": "Polymarket",
+        "created_at": "Thu Jun 18 20:44:35 +0000 2026",
+        "full_text": "JUST IN: Nvidia CEO Jensen Huang says society needs “new social norms” in the age of AI.",
+        "lang": "en",
+        "favorite_count": 2053,
+        "retweet_count": 140,
+        "reply_count": 183,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2067710085694886039",
+        "summary": "英伟达CEO黄仁勋表示社会需要在AI时代建立新的社会规范。",
+        "category": "AI趋势/观点",
+        "category_points": 25,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "有人物/团队故事"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "情绪=未来感/想象",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "不匹配",
+        "account_bonus": 0,
+        "total_score": 60,
+        "verdict": "keep",
+        "angles": [
+          "黄仁勋：AI时代需要新的社会规范",
+          "英伟达CEO发声：AI伦理的下一步是什么",
+          "硅谷领袖呼吁：重新定义AI时代的游戏规则"
+        ]
+      }
+    ],
+    "priority": [
+      {
+        "tweet_id": "2067810287080857826",
+        "url": "https://x.com/venturetwins/status/2067810287080857826",
+        "screen_name": "venturetwins",
+        "created_at": "Fri Jun 19 03:22:45 +0000 2026",
+        "full_text": "Narrative violation: AI is creating engineering jobs https://t.co/wJEzuYq7d2",
+        "lang": "en",
+        "favorite_count": 2216,
+        "retweet_count": 188,
+        "reply_count": 106,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/wJEzuYq7d2",
+            "expanded_url": "https://x.com/venturetwins/status/2067810287080857826/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 108,
+                    "w": 108,
+                    "x": 37,
+                    "y": 305
+                  }
+                ]
+              }
+            },
+            "id_str": "2067810283368988672",
+            "indices": [
+              53,
+              76
+            ],
+            "media_key": "3_2067810283368988672",
+            "media_url_https": "https://pbs.twimg.com/media/HLJWfzsbwAAzzmd.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 644,
+                  "w": 1150,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 762,
+                  "w": 762,
+                  "x": 107,
+                  "y": 0
+                },
+                {
+                  "h": 762,
+                  "w": 668,
+                  "x": 154,
+                  "y": 0
+                },
+                {
+                  "h": 762,
+                  "w": 381,
+                  "x": 298,
+                  "y": 0
+                },
+                {
+                  "h": 762,
+                  "w": 1150,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 762,
+              "width": 1150
+            },
+            "sizes": {
+              "large": {
+                "h": 762,
+                "w": 1150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/wJEzuYq7d2"
+          }
+        ],
+        "id": "2067810287080857826",
+        "summary": "观点文章：AI正在创造工程工作机会，而非消灭工作，挑战常见的AI失业焦虑叙事。",
+        "category": "AI趋势/观点",
+        "category_points": 25,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "反常识/意外性"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "好奇/趣味",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "不匹配",
+        "account_bonus": 0,
+        "total_score": 48,
+        "verdict": "keep",
+        "angles": [
+          "反转：AI不是抢工作，而是创造工程岗位",
+          "AI创造就业机会的证据",
+          "为什么AI时代工程师更吃香了？"
+        ]
+      },
+      {
+        "tweet_id": "2067761609510998053",
+        "url": "https://x.com/GoabaGatao/status/2067761609510998053",
+        "screen_name": "GoabaGatao",
+        "created_at": "Fri Jun 19 00:09:19 +0000 2026",
+        "full_text": "pergunta genuína: toda pergunta que a gente faz no google existe uma resposta de uma IA, então nós estamos consumindo agua mesmo nao usando o chatgpt?",
+        "lang": "pt",
+        "favorite_count": 2027,
+        "retweet_count": 9,
+        "reply_count": 22,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2067761609510998053",
+        "summary": "葡萄牙语用户提问：Google搜索结果已由AI生成，是否意味着我们在消耗AI资源即使未直接使用ChatGPT。",
+        "category": "AI趋势/观点",
+        "category_points": 25,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "反常识/意外性"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "情绪=好奇/趣味",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "不匹配",
+        "account_bonus": 0,
+        "total_score": 48,
+        "verdict": "keep",
+        "angles": [
+          "你每次Google搜索都在用AI，只是没意识到",
+          "反思：我们已经无处不在地消费AI",
+          "隐形的AI：Google搜索背后的真相"
+        ]
+      },
+      {
+        "tweet_id": "2067769761371676875",
+        "url": "https://x.com/bindureddy/status/2067769761371676875",
+        "screen_name": "bindureddy",
+        "created_at": "Fri Jun 19 00:41:43 +0000 2026",
+        "full_text": "LLM combinations that create powerful agents\n\nBackend-coder- GPT 5.5 + Codex 5.3\nPpt creator - Opus 4.8 + Sonnet 4.8\nSearch - Flash 3.5 + Grok API\nVideo agent -  Sonnet + SeeDance 2.0\nImage agent - Haiku +  GPT Image 2\nMassively parallel - Opus 4.8 + Kimi 2.7 / Deepseek Flash",
+        "lang": "en",
+        "favorite_count": 2142,
+        "retweet_count": 163,
+        "reply_count": 64,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2067769761371676875",
+        "summary": "LLM组合方案集合：展示GPT、Claude、Gemini等模型的最优配对组合，用于后端编码、PPT生成、搜索、视频和图像生成等场景。",
+        "category": "多工具/资源合集",
+        "category_points": 22,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [],
+        "viral_signals_points": 0,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 5,
+        "account_fit": "B型",
+        "account_bonus": 5,
+        "total_score": 43,
+        "verdict": "keep",
+        "angles": [
+          "5个LLM黄金组合方案，提升工作效率",
+          "后端编码到视频生成，最强模型配对指南",
+          "不同场景的最优LLM组合方案"
+        ]
+      },
+      {
+        "tweet_id": "2067758744243724798",
+        "url": "https://x.com/0interestrates/status/2067758744243724798",
+        "screen_name": "0interestrates",
+        "created_at": "Thu Jun 18 23:57:56 +0000 2026",
+        "full_text": "why does google have two competing coding agents - antigravity and jules?",
+        "lang": "en",
+        "favorite_count": 2378,
+        "retweet_count": 32,
+        "reply_count": 197,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2067758744243724798",
+        "summary": "谷歌内部有两个竞争的编码AI智能体——Antigravity和Jules，引发对谷歌AI战略分散的疑问。",
+        "category": "AI趋势/观点",
+        "category_points": 25,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [],
+        "viral_signals_points": 0,
+        "emotion": "好奇/趣味",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "不匹配",
+        "account_bonus": 0,
+        "total_score": 38,
+        "verdict": "keep",
+        "angles": [
+          "谷歌内讧？两个编码智能体互相竞争",
+          "Antigravity vs Jules：谷歌AI战略的分裂信号",
+          "为什么谷歌要养两个编码AI？"
+        ]
+      },
+      {
+        "tweet_id": "2067767749930016769",
+        "url": "https://x.com/fariasmelo_/status/2067767749930016769",
+        "screen_name": "fariasmelo_",
+        "created_at": "Fri Jun 19 00:33:43 +0000 2026",
+        "full_text": "mandei áudio pro chatgpt descrevendo todos os restos de comida que tinha na minha geladeira e pedi pra ele sugerir uma receita. jantei arroz dormido cremoso com alho e gorgonzola guarnecido de ovo com gema mole e crocante de presunto de peru https://t.co/tbD3ktHAfo",
+        "lang": "pt",
+        "favorite_count": 2633,
+        "retweet_count": 12,
+        "reply_count": 8,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "additional_media_info": {
+              "graphql_source_user": {
+                "user_results": {
+                  "result": {
+                    "__typename": "User",
+                    "affiliates_highlighted_label": {},
+                    "exclusive_tweet_following": false,
+                    "is_blue_verified": true,
+                    "legacy": {
+                      "advertiser_account_service_levels": [
+                        "analytics"
+                      ],
+                      "advertiser_account_type": "promotable_user",
+                      "analytics_type": "disabled",
+                      "blocked_by": false,
+                      "blocking": false,
+                      "can_dm": true,
+                      "can_media_tag": false,
+                      "created_at": "Thu Aug 20 21:50:41 +0000 2020",
+                      "customer_service_state": "",
+                      "description": "catalogando memes por palavras-chave para preservação histórica. dúvidas, reclamações e remoções só na dm",
+                      "entities": {
+                        "description": {},
+                        "url": {
+                          "urls": [
+                            {
+                              "display_url": "linktr.ee/qqrmeme",
+                              "expanded_url": "https://linktr.ee/qqrmeme",
+                              "indices": [
+                                0,
+                                23
+                              ],
+                              "url": "https://t.co/fsPDddLRTz"
+                            }
+                          ]
+                        }
+                      },
+                      "fast_followers_count": 0,
+                      "favourites_count": 258,
+                      "follow_request_sent": false,
+                      "followed_by": false,
+                      "followers_count": 255592,
+                      "following": false,
+                      "friends_count": 183,
+                      "geo_enabled": false,
+                      "has_custom_timelines": true,
+                      "has_extended_profile": true,
+                      "has_no_screen_name": false,
+                      "id_str": "1296565256672751619",
+                      "is_lifeline_institution": false,
+                      "is_translator": false,
+                      "live_following": false,
+                      "location": "✉️ contato: qqrmeme@gmail.com",
+                      "media_count": 2752,
+                      "muting": false,
+                      "name": "acervo qualquer meme",
+                      "needs_phone_verification": false,
+                      "normal_followers_count": 255592,
+                      "notifications": false,
+                      "profile_background_color": "F5F8FA",
+                      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1296565256672751619/1610558666",
+                      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2026650152816037888/5qQZ_Tug_normal.jpg",
+                      "profile_interstitial_type": "",
+                      "profile_link_color": "1DA1F2",
+                      "protected": false,
+                      "screen_name": "qqrmeme",
+                      "statuses_count": 2904,
+                      "suspended": false,
+                      "translator_type_enum": "None",
+                      "url": "https://t.co/fsPDddLRTz",
+                      "verified": false,
+                      "want_retweets": false,
+                      "withheld_copyright": false,
+                      "withheld_description": "",
+                      "withheld_scope": ""
+                    },
+                    "private_super_following": false,
+                    "profile_image_shape": "Circle",
+                    "rest_id": "1296565256672751619",
+                    "super_follow_eligible": false,
+                    "super_followed_by": false,
+                    "super_following": false
+                  }
+                }
+              },
+              "monetizable": false
+            },
+            "display_url": "pic.x.com/tbD3ktHAfo",
+            "expanded_url": "https://x.com/qqrmeme/status/1556002386820440065/video/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "id_str": "1556002364519317511",
+            "indices": [
+              242,
+              265
+            ],
+            "media_key": "7_1556002364519317511",
+            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1556002364519317511/pu/img/nwW12Fo67ntI3Lj9.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 552,
+              "width": 574
+            },
+            "sizes": {
+              "large": {
+                "h": 552,
+                "w": 574
+              }
+            },
+            "source_status_id_str": "1556002386820440065",
+            "source_user_id_str": "1296565256672751619",
+            "type": "video",
+            "url": "https://t.co/tbD3ktHAfo",
+            "video_info": {
+              "aspect_ratio": [
+                287,
+                276
+              ],
+              "duration_millis": 10029,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/ext_tw_video/1556002364519317511/pu/pl/S3Ejy2LHAi-JCN31.m3u8?tag=12&v=cfc"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1556002364519317511/pu/vid/280x270/4Ao77Ej_sxs8Ll7c.mp4?tag=12"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1556002364519317511/pu/vid/374x360/6uaMzxEWoGC9IyCg.mp4?tag=12"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1556002364519317511/pu/vid/574x552/SxAqrccF_u1TKTvA.mp4?tag=12"
+                }
+              ]
+            }
+          }
+        ],
+        "id": "2067767749930016769",
+        "summary": "用户用语音给ChatGPT描述冰箱剩菜，AI生成创意食谱。简单剩饭变身高级料理：奶油米饭配蓝纹芝士、蛋和火腿脆片。展示AI日常生活应用的趣味案例。",
+        "category": "AI+生活应用案例",
+        "category_points": 14,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "好奇/趣味驱动",
+          "反常识应用"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "好奇/趣味",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "不匹配",
+        "account_bonus": 0,
+        "total_score": 37,
+        "verdict": "keep",
+        "angles": [
+          "冰箱剩菜救星：ChatGPT语音秒变米其林级食谱",
+          "我用AI当私人厨师，剩饭变大餐的全过程",
+          "语音+AI=生活黑科技，这样用ChatGPT才叫绝"
+        ]
+      }
+    ],
+    "backup": [
       {
         "tweet_id": "2067982497020035334",
         "url": "https://x.com/droidbuilds/status/2067982497020035334",
@@ -856,7 +1278,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
         ],
         "_fallback": true
       },
@@ -1026,7 +1448,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
         ],
         "_fallback": true
       },
@@ -1204,7 +1626,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
         ],
         "_fallback": true
       },
@@ -1237,7 +1659,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
         ],
         "_fallback": true
       },
@@ -1270,187 +1692,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067767749930016769",
-        "url": "https://x.com/fariasmelo_/status/2067767749930016769",
-        "screen_name": "fariasmelo_",
-        "created_at": "Fri Jun 19 00:33:43 +0000 2026",
-        "full_text": "mandei áudio pro chatgpt descrevendo todos os restos de comida que tinha na minha geladeira e pedi pra ele sugerir uma receita. jantei arroz dormido cremoso com alho e gorgonzola guarnecido de ovo com gema mole e crocante de presunto de peru https://t.co/tbD3ktHAfo",
-        "lang": "pt",
-        "favorite_count": 2633,
-        "retweet_count": 12,
-        "reply_count": 8,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "additional_media_info": {
-              "graphql_source_user": {
-                "user_results": {
-                  "result": {
-                    "__typename": "User",
-                    "affiliates_highlighted_label": {},
-                    "exclusive_tweet_following": false,
-                    "is_blue_verified": true,
-                    "legacy": {
-                      "advertiser_account_service_levels": [
-                        "analytics"
-                      ],
-                      "advertiser_account_type": "promotable_user",
-                      "analytics_type": "disabled",
-                      "blocked_by": false,
-                      "blocking": false,
-                      "can_dm": true,
-                      "can_media_tag": false,
-                      "created_at": "Thu Aug 20 21:50:41 +0000 2020",
-                      "customer_service_state": "",
-                      "description": "catalogando memes por palavras-chave para preservação histórica. dúvidas, reclamações e remoções só na dm",
-                      "entities": {
-                        "description": {},
-                        "url": {
-                          "urls": [
-                            {
-                              "display_url": "linktr.ee/qqrmeme",
-                              "expanded_url": "https://linktr.ee/qqrmeme",
-                              "indices": [
-                                0,
-                                23
-                              ],
-                              "url": "https://t.co/fsPDddLRTz"
-                            }
-                          ]
-                        }
-                      },
-                      "fast_followers_count": 0,
-                      "favourites_count": 258,
-                      "follow_request_sent": false,
-                      "followed_by": false,
-                      "followers_count": 255592,
-                      "following": false,
-                      "friends_count": 183,
-                      "geo_enabled": false,
-                      "has_custom_timelines": true,
-                      "has_extended_profile": true,
-                      "has_no_screen_name": false,
-                      "id_str": "1296565256672751619",
-                      "is_lifeline_institution": false,
-                      "is_translator": false,
-                      "live_following": false,
-                      "location": "✉️ contato: qqrmeme@gmail.com",
-                      "media_count": 2752,
-                      "muting": false,
-                      "name": "acervo qualquer meme",
-                      "needs_phone_verification": false,
-                      "normal_followers_count": 255592,
-                      "notifications": false,
-                      "profile_background_color": "F5F8FA",
-                      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1296565256672751619/1610558666",
-                      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2026650152816037888/5qQZ_Tug_normal.jpg",
-                      "profile_interstitial_type": "",
-                      "profile_link_color": "1DA1F2",
-                      "protected": false,
-                      "screen_name": "qqrmeme",
-                      "statuses_count": 2904,
-                      "suspended": false,
-                      "translator_type_enum": "None",
-                      "url": "https://t.co/fsPDddLRTz",
-                      "verified": false,
-                      "want_retweets": false,
-                      "withheld_copyright": false,
-                      "withheld_description": "",
-                      "withheld_scope": ""
-                    },
-                    "private_super_following": false,
-                    "profile_image_shape": "Circle",
-                    "rest_id": "1296565256672751619",
-                    "super_follow_eligible": false,
-                    "super_followed_by": false,
-                    "super_following": false
-                  }
-                }
-              },
-              "monetizable": false
-            },
-            "display_url": "pic.x.com/tbD3ktHAfo",
-            "expanded_url": "https://x.com/qqrmeme/status/1556002386820440065/video/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "id_str": "1556002364519317511",
-            "indices": [
-              242,
-              265
-            ],
-            "media_key": "7_1556002364519317511",
-            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1556002364519317511/pu/img/nwW12Fo67ntI3Lj9.jpg",
-            "original_info": {
-              "focus_rects": [],
-              "height": 552,
-              "width": 574
-            },
-            "sizes": {
-              "large": {
-                "h": 552,
-                "w": 574
-              }
-            },
-            "source_status_id_str": "1556002386820440065",
-            "source_user_id_str": "1296565256672751619",
-            "type": "video",
-            "url": "https://t.co/tbD3ktHAfo",
-            "video_info": {
-              "aspect_ratio": [
-                287,
-                276
-              ],
-              "duration_millis": 10029,
-              "variants": [
-                {
-                  "content_type": "application/x-mpegURL",
-                  "url": "https://video.twimg.com/ext_tw_video/1556002364519317511/pu/pl/S3Ejy2LHAi-JCN31.m3u8?tag=12&v=cfc"
-                },
-                {
-                  "bitrate": 256000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/ext_tw_video/1556002364519317511/pu/vid/280x270/4Ao77Ej_sxs8Ll7c.mp4?tag=12"
-                },
-                {
-                  "bitrate": 832000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/ext_tw_video/1556002364519317511/pu/vid/374x360/6uaMzxEWoGC9IyCg.mp4?tag=12"
-                },
-                {
-                  "bitrate": 2176000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/ext_tw_video/1556002364519317511/pu/vid/574x552/SxAqrccF_u1TKTvA.mp4?tag=12"
-                }
-              ]
-            }
-          }
-        ],
-        "id": "2067767749930016769",
-        "summary": "mandei áudio pro chatgpt descrevendo todos os restos de comida que tinha na minha geladeira e pedi pra ele sugerir uma receita. jantei arroz dormido c",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
         ],
         "_fallback": true
       },
@@ -1628,7 +1870,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
         ],
         "_fallback": true
       },
@@ -1727,7 +1969,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
         ],
         "_fallback": true
       },
@@ -1824,7 +2066,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
         ],
         "_fallback": true
       },
@@ -2045,1422 +2287,7 @@
         "total_score": 30,
         "verdict": "keep",
         "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067758744243724798",
-        "url": "https://x.com/0interestrates/status/2067758744243724798",
-        "screen_name": "0interestrates",
-        "created_at": "Thu Jun 18 23:57:56 +0000 2026",
-        "full_text": "why does google have two competing coding agents - antigravity and jules?",
-        "lang": "en",
-        "favorite_count": 2378,
-        "retweet_count": 32,
-        "reply_count": 197,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2067758744243724798",
-        "summary": "why does google have two competing coding agents - antigravity and jules?",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2068018144665272593",
-        "url": "https://x.com/PolymarketMoney/status/2068018144665272593",
-        "screen_name": "PolymarketMoney",
-        "created_at": "Fri Jun 19 17:08:42 +0000 2026",
-        "full_text": "JUST IN: Nobel Prize winning AI researcher John Jumper is leaving Google to join Anthropic.",
-        "lang": "en",
-        "favorite_count": 2291,
-        "retweet_count": 156,
-        "reply_count": 95,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2068018144665272593",
-        "summary": "JUST IN: Nobel Prize winning AI researcher John Jumper is leaving Google to join Anthropic.",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067941596306231421",
-        "url": "https://x.com/VikParuchuri/status/2067941596306231421",
-        "screen_name": "VikParuchuri",
-        "created_at": "Fri Jun 19 12:04:31 +0000 2026",
-        "full_text": "We're open sourcing a 9B model that extracts structured data from documents at near-frontier performance.\n\n- 90.2% on our bench, vs Gemini 3.5 Flash at 91.3%\n- Leads extraction models like NuExtract3 (81.5%)\n- 9.5s p50 timings\n- Pass JSON schema https://t.co/zIdRbGjaY5",
-        "lang": "en",
-        "favorite_count": 2276,
-        "retweet_count": 195,
-        "reply_count": 69,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "additional_media_info": {
-              "monetizable": false
-            },
-            "display_url": "pic.x.com/zIdRbGjaY5",
-            "expanded_url": "https://x.com/VikParuchuri/status/2067941596306231421/video/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "id_str": "2067940200546816000",
-            "indices": [
-              246,
-              269
-            ],
-            "media_key": "13_2067940200546816000",
-            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2067940200546816000/img/MI0w4ZQWrHY7cQYl.jpg",
-            "original_info": {
-              "focus_rects": [],
-              "height": 1080,
-              "width": 1920
-            },
-            "sizes": {
-              "large": {
-                "h": 1080,
-                "w": 1920
-              }
-            },
-            "type": "video",
-            "url": "https://t.co/zIdRbGjaY5",
-            "video_info": {
-              "aspect_ratio": [
-                16,
-                9
-              ],
-              "duration_millis": 16583,
-              "variants": [
-                {
-                  "content_type": "application/x-mpegURL",
-                  "url": "https://video.twimg.com/amplify_video/2067940200546816000/pl/dRkwYCUi8OYcA8gq.m3u8"
-                },
-                {
-                  "bitrate": 256000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2067940200546816000/vid/avc1/480x270/nqx3P1coHjG7gVo8.mp4"
-                },
-                {
-                  "bitrate": 832000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2067940200546816000/vid/avc1/640x360/6YLr5h7RO_16joSJ.mp4"
-                },
-                {
-                  "bitrate": 2176000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2067940200546816000/vid/avc1/1280x720/ftWV7UWWIE27ilpW.mp4"
-                },
-                {
-                  "bitrate": 10368000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2067940200546816000/vid/avc1/1920x1080/RRGIyRuPGgnHo0P7.mp4"
-                }
-              ]
-            }
-          }
-        ],
-        "id": "2067941596306231421",
-        "summary": "We're open sourcing a 9B model that extracts structured data from documents at near-frontier performance.\n\n- 90.2% on our bench, vs Gemini 3.5 Flash a",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2068010481311256617",
-        "url": "https://x.com/staybiautiful/status/2068010481311256617",
-        "screen_name": "staybiautiful",
-        "created_at": "Fri Jun 19 16:38:15 +0000 2026",
-        "full_text": "yo wtf is this…? he better not show up to taywedding looking like that istg I’ll whoop his ass https://t.co/RP6wCer8T2",
-        "lang": "en",
-        "favorite_count": 2262,
-        "retweet_count": 68,
-        "reply_count": 33,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "allow_download_status": {
-              "allow_download": true
-            },
-            "display_url": "pic.x.com/RP6wCer8T2",
-            "expanded_url": "https://x.com/staybiautiful/status/2068010481311256617/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": [
-                  {
-                    "h": 233,
-                    "w": 233,
-                    "x": 613,
-                    "y": 269
-                  }
-                ]
-              }
-            },
-            "id_str": "2068010476705861633",
-            "indices": [
-              95,
-              118
-            ],
-            "media_key": "3_2068010476705861633",
-            "media_url_https": "https://pbs.twimg.com/media/HLMMkl_W0AE7nB_.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 660,
-                  "w": 1179,
-                  "x": 0,
-                  "y": 111
-                },
-                {
-                  "h": 909,
-                  "w": 909,
-                  "x": 270,
-                  "y": 0
-                },
-                {
-                  "h": 909,
-                  "w": 797,
-                  "x": 338,
-                  "y": 0
-                },
-                {
-                  "h": 909,
-                  "w": 455,
-                  "x": 509,
-                  "y": 0
-                },
-                {
-                  "h": 909,
-                  "w": 1179,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 909,
-              "width": 1179
-            },
-            "sizes": {
-              "large": {
-                "h": 909,
-                "w": 1179
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/RP6wCer8T2"
-          }
-        ],
-        "id": "2068010481311256617",
-        "summary": "yo wtf is this…? he better not show up to taywedding looking like that istg I’ll whoop his ass https://t.co/RP6wCer8T2",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067810287080857826",
-        "url": "https://x.com/venturetwins/status/2067810287080857826",
-        "screen_name": "venturetwins",
-        "created_at": "Fri Jun 19 03:22:45 +0000 2026",
-        "full_text": "Narrative violation: AI is creating engineering jobs https://t.co/wJEzuYq7d2",
-        "lang": "en",
-        "favorite_count": 2216,
-        "retweet_count": 188,
-        "reply_count": 106,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "allow_download_status": {
-              "allow_download": true
-            },
-            "display_url": "pic.x.com/wJEzuYq7d2",
-            "expanded_url": "https://x.com/venturetwins/status/2067810287080857826/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": [
-                  {
-                    "h": 108,
-                    "w": 108,
-                    "x": 37,
-                    "y": 305
-                  }
-                ]
-              }
-            },
-            "id_str": "2067810283368988672",
-            "indices": [
-              53,
-              76
-            ],
-            "media_key": "3_2067810283368988672",
-            "media_url_https": "https://pbs.twimg.com/media/HLJWfzsbwAAzzmd.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 644,
-                  "w": 1150,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 762,
-                  "w": 762,
-                  "x": 107,
-                  "y": 0
-                },
-                {
-                  "h": 762,
-                  "w": 668,
-                  "x": 154,
-                  "y": 0
-                },
-                {
-                  "h": 762,
-                  "w": 381,
-                  "x": 298,
-                  "y": 0
-                },
-                {
-                  "h": 762,
-                  "w": 1150,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 762,
-              "width": 1150
-            },
-            "sizes": {
-              "large": {
-                "h": 762,
-                "w": 1150
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/wJEzuYq7d2"
-          }
-        ],
-        "id": "2067810287080857826",
-        "summary": "Narrative violation: AI is creating engineering jobs https://t.co/wJEzuYq7d2",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2068000857757741251",
-        "url": "https://x.com/synthwavedd/status/2068000857757741251",
-        "screen_name": "synthwavedd",
-        "created_at": "Fri Jun 19 16:00:00 +0000 2026",
-        "full_text": "🚨 SCOOP: After the release of Fable 5 and with GPT-5.6 looming, the mood behind the scenes at Google DeepMind is increasingly one of frustration and broad discontent over the lab's perceived fall into a distant third—or even fourth—place.\n\n\"I can't blame Noam [Shazeer] for https://t.co/05qwQQxrg4",
-        "lang": "en",
-        "favorite_count": 2198,
-        "retweet_count": 146,
-        "reply_count": 135,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "display_url": "pic.x.com/05qwQQxrg4",
-            "expanded_url": "https://x.com/synthwavedd/status/2068000857757741251/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": [
-                  {
-                    "h": 322,
-                    "w": 322,
-                    "x": 382,
-                    "y": 240
-                  },
-                  {
-                    "h": 281,
-                    "w": 281,
-                    "x": 1299,
-                    "y": 526
-                  },
-                  {
-                    "h": 682,
-                    "w": 682,
-                    "x": 669,
-                    "y": 105
-                  }
-                ]
-              }
-            },
-            "id_str": "2067968673889849344",
-            "indices": [
-              274,
-              297
-            ],
-            "media_key": "3_2067968673889849344",
-            "media_url_https": "https://pbs.twimg.com/media/HLLmjWXXEAAKcY8.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 1075,
-                  "w": 1920,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 1080,
-                  "w": 1080,
-                  "x": 756,
-                  "y": 0
-                },
-                {
-                  "h": 1080,
-                  "w": 947,
-                  "x": 823,
-                  "y": 0
-                },
-                {
-                  "h": 1080,
-                  "w": 540,
-                  "x": 1026,
-                  "y": 0
-                },
-                {
-                  "h": 1080,
-                  "w": 1920,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 1080,
-              "width": 1920
-            },
-            "sizes": {
-              "large": {
-                "h": 1080,
-                "w": 1920
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/05qwQQxrg4"
-          }
-        ],
-        "id": "2068000857757741251",
-        "summary": "🚨 SCOOP: After the release of Fable 5 and with GPT-5.6 looming, the mood behind the scenes at Google DeepMind is increasingly one of frustration and b",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067783703766692111",
-        "url": "https://x.com/OverwatchNaeri/status/2067783703766692111",
-        "screen_name": "OverwatchNaeri",
-        "created_at": "Fri Jun 19 01:37:07 +0000 2026",
-        "full_text": "https://t.co/GQBv9jvMdR\nThe new Jetpack Cat spray \"Cat Knife Meme\" seems to fit better 🐱🔪 https://t.co/lfHWAgz6Zp",
-        "lang": "en",
-        "favorite_count": 2177,
-        "retweet_count": 123,
-        "reply_count": 4,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "allow_download_status": {
-              "allow_download": true
-            },
-            "display_url": "pic.x.com/lfHWAgz6Zp",
-            "expanded_url": "https://x.com/OverwatchNaeri/status/2067783703766692111/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": []
-              }
-            },
-            "id_str": "2067782494389518336",
-            "indices": [
-              90,
-              113
-            ],
-            "media_key": "3_2067782494389518336",
-            "media_url_https": "https://pbs.twimg.com/media/HLI9ORrbwAA-FmE.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 345,
-                  "w": 616,
-                  "x": 0,
-                  "y": 218
-                },
-                {
-                  "h": 563,
-                  "w": 563,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 563,
-                  "w": 494,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 563,
-                  "w": 282,
-                  "x": 59,
-                  "y": 0
-                },
-                {
-                  "h": 563,
-                  "w": 616,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 563,
-              "width": 616
-            },
-            "sizes": {
-              "large": {
-                "h": 563,
-                "w": 616
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/lfHWAgz6Zp"
-          },
-          {
-            "allow_download_status": {
-              "allow_download": true
-            },
-            "display_url": "pic.x.com/lfHWAgz6Zp",
-            "expanded_url": "https://x.com/OverwatchNaeri/status/2067783703766692111/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": []
-              }
-            },
-            "id_str": "2067782507400228864",
-            "indices": [
-              90,
-              113
-            ],
-            "media_key": "3_2067782507400228864",
-            "media_url_https": "https://pbs.twimg.com/media/HLI9PCJbcAAe39w.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 302,
-                  "w": 540,
-                  "x": 0,
-                  "y": 24
-                },
-                {
-                  "h": 489,
-                  "w": 489,
-                  "x": 51,
-                  "y": 0
-                },
-                {
-                  "h": 489,
-                  "w": 429,
-                  "x": 111,
-                  "y": 0
-                },
-                {
-                  "h": 489,
-                  "w": 245,
-                  "x": 242,
-                  "y": 0
-                },
-                {
-                  "h": 489,
-                  "w": 540,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 489,
-              "width": 540
-            },
-            "sizes": {
-              "large": {
-                "h": 489,
-                "w": 540
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/lfHWAgz6Zp"
-          }
-        ],
-        "id": "2067783703766692111",
-        "summary": "https://t.co/GQBv9jvMdR\nThe new Jetpack Cat spray \"Cat Knife Meme\" seems to fit better 🐱🔪 https://t.co/lfHWAgz6Zp",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067919623622623239",
-        "url": "https://x.com/SmallHawkeye/status/2067919623622623239",
-        "screen_name": "SmallHawkeye",
-        "created_at": "Fri Jun 19 10:37:13 +0000 2026",
-        "full_text": "Ceux qui se plaignent d'un All Star sans  Claude et Teheiura c'est à se demander si vous avez suivi leur dernière participation à Koh-Lanta mdrrrrr.",
-        "lang": "fr",
-        "favorite_count": 2173,
-        "retweet_count": 192,
-        "reply_count": 20,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2067919623622623239",
-        "summary": "Ceux qui se plaignent d'un All Star sans  Claude et Teheiura c'est à se demander si vous avez suivi leur dernière participation à Koh-Lanta mdrrrrr.",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067812061019775322",
-        "url": "https://x.com/Geminint_family/status/2067812061019775322",
-        "screen_name": "Geminint_family",
-        "created_at": "Fri Jun 19 03:29:48 +0000 2026",
-        "full_text": "♊️ IG Update | nookvip\n\n💛👑✨\n\n#GMMTVOuting2026\n#Gemini_NT #เจมีไนน์ @gemini_ti https://t.co/0lbR0gXlFE",
-        "lang": "nl",
-        "favorite_count": 2173,
-        "retweet_count": 945,
-        "reply_count": 0,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "allow_download_status": {
-              "allow_download": true
-            },
-            "display_url": "pic.x.com/0lbR0gXlFE",
-            "expanded_url": "https://x.com/Geminint_family/status/2067812061019775322/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": [
-                  {
-                    "h": 108,
-                    "w": 108,
-                    "x": 1210,
-                    "y": 686
-                  }
-                ]
-              }
-            },
-            "id_str": "2067812053667270656",
-            "indices": [
-              78,
-              101
-            ],
-            "media_key": "3_2067812053667270656",
-            "media_url_https": "https://pbs.twimg.com/media/HLJYG2kb0AAw79X.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 763,
-                  "w": 1363,
-                  "x": 0,
-                  "y": 572
-                },
-                {
-                  "h": 1363,
-                  "w": 1363,
-                  "x": 0,
-                  "y": 272
-                },
-                {
-                  "h": 1554,
-                  "w": 1363,
-                  "x": 0,
-                  "y": 176
-                },
-                {
-                  "h": 1817,
-                  "w": 909,
-                  "x": 318,
-                  "y": 0
-                },
-                {
-                  "h": 1817,
-                  "w": 1363,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 1817,
-              "width": 1363
-            },
-            "sizes": {
-              "large": {
-                "h": 1817,
-                "w": 1363
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/0lbR0gXlFE"
-          },
-          {
-            "allow_download_status": {
-              "allow_download": true
-            },
-            "display_url": "pic.x.com/0lbR0gXlFE",
-            "expanded_url": "https://x.com/Geminint_family/status/2067812061019775322/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": [
-                  {
-                    "h": 138,
-                    "w": 138,
-                    "x": 844,
-                    "y": 457
-                  },
-                  {
-                    "h": 134,
-                    "w": 134,
-                    "x": 1038,
-                    "y": 518
-                  },
-                  {
-                    "h": 147,
-                    "w": 147,
-                    "x": 296,
-                    "y": 463
-                  }
-                ]
-              }
-            },
-            "id_str": "2067812053679841280",
-            "indices": [
-              78,
-              101
-            ],
-            "media_key": "3_2067812053679841280",
-            "media_url_https": "https://pbs.twimg.com/media/HLJYG2nboAAZRsw.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 763,
-                  "w": 1363,
-                  "x": 0,
-                  "y": 663
-                },
-                {
-                  "h": 1363,
-                  "w": 1363,
-                  "x": 0,
-                  "y": 363
-                },
-                {
-                  "h": 1554,
-                  "w": 1363,
-                  "x": 0,
-                  "y": 263
-                },
-                {
-                  "h": 1817,
-                  "w": 909,
-                  "x": 136,
-                  "y": 0
-                },
-                {
-                  "h": 1817,
-                  "w": 1363,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 1817,
-              "width": 1363
-            },
-            "sizes": {
-              "large": {
-                "h": 1817,
-                "w": 1363
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/0lbR0gXlFE"
-          },
-          {
-            "allow_download_status": {
-              "allow_download": true
-            },
-            "display_url": "pic.x.com/0lbR0gXlFE",
-            "expanded_url": "https://x.com/Geminint_family/status/2067812061019775322/photo/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "features": {
-              "large": {
-                "faces": []
-              }
-            },
-            "id_str": "2067812053667266560",
-            "indices": [
-              78,
-              101
-            ],
-            "media_key": "3_2067812053667266560",
-            "media_url_https": "https://pbs.twimg.com/media/HLJYG2kbwAAOWOG.jpg",
-            "original_info": {
-              "focus_rects": [
-                {
-                  "h": 605,
-                  "w": 1080,
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "h": 719,
-                  "w": 719,
-                  "x": 46,
-                  "y": 0
-                },
-                {
-                  "h": 719,
-                  "w": 631,
-                  "x": 90,
-                  "y": 0
-                },
-                {
-                  "h": 719,
-                  "w": 360,
-                  "x": 225,
-                  "y": 0
-                },
-                {
-                  "h": 719,
-                  "w": 1080,
-                  "x": 0,
-                  "y": 0
-                }
-              ],
-              "height": 719,
-              "width": 1080
-            },
-            "sizes": {
-              "large": {
-                "h": 719,
-                "w": 1080
-              }
-            },
-            "type": "photo",
-            "url": "https://t.co/0lbR0gXlFE"
-          }
-        ],
-        "id": "2067812061019775322",
-        "summary": "♊️ IG Update | nookvip\n\n💛👑✨\n\n#GMMTVOuting2026\n#Gemini_NT #เจมีไนน์ @gemini_ti https://t.co/0lbR0gXlFE",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067769761371676875",
-        "url": "https://x.com/bindureddy/status/2067769761371676875",
-        "screen_name": "bindureddy",
-        "created_at": "Fri Jun 19 00:41:43 +0000 2026",
-        "full_text": "LLM combinations that create powerful agents\n\nBackend-coder- GPT 5.5 + Codex 5.3\nPpt creator - Opus 4.8 + Sonnet 4.8\nSearch - Flash 3.5 + Grok API\nVideo agent -  Sonnet + SeeDance 2.0\nImage agent - Haiku +  GPT Image 2\nMassively parallel - Opus 4.8 + Kimi 2.7 / Deepseek Flash",
-        "lang": "en",
-        "favorite_count": 2142,
-        "retweet_count": 163,
-        "reply_count": 64,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2067769761371676875",
-        "summary": "LLM combinations that create powerful agents\n\nBackend-coder- GPT 5.5 + Codex 5.3\nPpt creator - Opus 4.8 + Sonnet 4.8\nSearch - Flash 3.5 + Grok API\nVid",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067812469507326449",
-        "url": "https://x.com/biwbakery/status/2067812469507326449",
-        "screen_name": "biwbakery",
-        "created_at": "Fri Jun 19 03:31:25 +0000 2026",
-        "full_text": "Pantes dia dendam banget ke barth, soalnya gemini ngambek aja nadanya masih lemah lembut ke fot 🙂‍↕️ https://t.co/tSDbPNhFKz",
-        "lang": "in",
-        "favorite_count": 2137,
-        "retweet_count": 349,
-        "reply_count": 1,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "additional_media_info": {
-              "graphql_source_user": {
-                "user_results": {
-                  "result": {
-                    "__typename": "User",
-                    "affiliates_highlighted_label": {},
-                    "exclusive_tweet_following": false,
-                    "is_blue_verified": true,
-                    "legacy": {
-                      "advertiser_account_service_levels": [
-                        "analytics"
-                      ],
-                      "advertiser_account_type": "promotable_user",
-                      "analytics_type": "disabled",
-                      "blocked_by": false,
-                      "blocking": false,
-                      "can_dm": true,
-                      "can_media_tag": true,
-                      "created_at": "Thu Nov 16 06:54:24 +0000 2023",
-                      "customer_service_state": "",
-                      "description": "เขาเป็นบ้าน เป็นเวทมนต์ที่แสนวิเศษ ♡˚🏠︎ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ นรวิชญ์ ณัฐวรรธน์ | 3 16 ( 🏎️ ✶ )",
-                      "entities": {
-                        "description": {}
-                      },
-                      "fast_followers_count": 0,
-                      "favourites_count": 5260,
-                      "follow_request_sent": false,
-                      "followed_by": false,
-                      "followers_count": 5548,
-                      "following": false,
-                      "friends_count": 547,
-                      "geo_enabled": true,
-                      "has_custom_timelines": false,
-                      "has_extended_profile": true,
-                      "has_no_screen_name": false,
-                      "id_str": "1725044567727304704",
-                      "is_lifeline_institution": false,
-                      "is_translator": false,
-                      "live_following": false,
-                      "location": "Jimmy sea — ✧️ 🍯₊˚🐈 ྀི  𓏲*ੈ",
-                      "media_count": 11339,
-                      "muting": false,
-                      "name": "jai ⪩. .⪨",
-                      "needs_phone_verification": false,
-                      "normal_followers_count": 5548,
-                      "notifications": false,
-                      "pinned_tweet_ids_str": [
-                        "1754369494481539438"
-                      ],
-                      "profile_background_color": "F5F8FA",
-                      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1725044567727304704/1781712284",
-                      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1982724891301289984/ofUSB9yR_normal.jpg",
-                      "profile_interstitial_type": "",
-                      "profile_link_color": "1DA1F2",
-                      "protected": false,
-                      "screen_name": "Jai_bx",
-                      "statuses_count": 67583,
-                      "suspended": false,
-                      "translator_type_enum": "None",
-                      "url": "",
-                      "verified": false,
-                      "want_retweets": false,
-                      "withheld_copyright": false,
-                      "withheld_description": "",
-                      "withheld_scope": ""
-                    },
-                    "private_super_following": false,
-                    "profile_image_shape": "Circle",
-                    "rest_id": "1725044567727304704",
-                    "super_follow_eligible": false,
-                    "super_followed_by": false,
-                    "super_following": false
-                  }
-                }
-              },
-              "monetizable": false
-            },
-            "allow_download_status": {
-              "allow_download": true
-            },
-            "display_url": "pic.x.com/tSDbPNhFKz",
-            "expanded_url": "https://x.com/Jai_bx/status/2067213495805116855/video/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "id_str": "2067213166845804545",
-            "indices": [
-              101,
-              124
-            ],
-            "media_key": "13_2067213166845804545",
-            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2067213166845804545/img/IwQUQ_bf9xdO0A_I.jpg",
-            "original_info": {
-              "focus_rects": [],
-              "height": 2160,
-              "width": 3840
-            },
-            "sizes": {
-              "large": {
-                "h": 1152,
-                "w": 2048
-              }
-            },
-            "source_status_id_str": "2067213495805116855",
-            "source_user_id_str": "1725044567727304704",
-            "type": "video",
-            "url": "https://t.co/tSDbPNhFKz",
-            "video_info": {
-              "aspect_ratio": [
-                16,
-                9
-              ],
-              "duration_millis": 19240,
-              "variants": [
-                {
-                  "content_type": "application/x-mpegURL",
-                  "url": "https://video.twimg.com/amplify_video/2067213166845804545/pl/nlbg7D8sE8dkJk-Z.m3u8?v=cfc"
-                },
-                {
-                  "bitrate": 256000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2067213166845804545/vid/avc1/480x270/zKNWkba8eK63WfGB.mp4"
-                },
-                {
-                  "bitrate": 832000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2067213166845804545/vid/avc1/640x360/JX3uw9wflTHExwmP.mp4"
-                },
-                {
-                  "bitrate": 2176000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2067213166845804545/vid/avc1/1280x720/wAcnEOlSa4yhP2CU.mp4"
-                },
-                {
-                  "bitrate": 10368000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2067213166845804545/vid/avc1/1920x1080/9dPtXLMwQOosNTDM.mp4"
-                },
-                {
-                  "bitrate": 25128000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2067213166845804545/vid/avc1/3840x2160/xM007sGrEszsNlf8.mp4"
-                }
-              ]
-            }
-          }
-        ],
-        "id": "2067812469507326449",
-        "summary": "Pantes dia dendam banget ke barth, soalnya gemini ngambek aja nadanya masih lemah lembut ke fot 🙂‍↕️ https://t.co/tSDbPNhFKz",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067728842731421830",
-        "url": "https://x.com/ratodemadame/status/2067728842731421830",
-        "screen_name": "ratodemadame",
-        "created_at": "Thu Jun 18 21:59:07 +0000 2026",
-        "full_text": "eu amo como essa franquia é preguiçosa. volta e meia eu tô na wiki fandom deles e vejo cada coisa maluca KKKK\n\ncês sabiam que o Juiz Claude Frollo tem uma filha chamada CLAUDINA e ela TOCA O SINO da escola que os filhos dos vilões vão na ilha? sério, o karma dessa menina",
-        "lang": "pt",
-        "favorite_count": 2076,
-        "retweet_count": 86,
-        "reply_count": 7,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2067728842731421830",
-        "summary": "eu amo como essa franquia é preguiçosa. volta e meia eu tô na wiki fandom deles e vejo cada coisa maluca KKKK\n\ncês sabiam que o Juiz Claude Frollo tem",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067893864200016358",
-        "url": "https://x.com/cb_doge/status/2067893864200016358",
-        "screen_name": "cb_doge",
-        "created_at": "Fri Jun 19 08:54:51 +0000 2026",
-        "full_text": "BREAKING: Jensen Huang says the biggest mistake people make about AI is seeing it as a threat, instead of a tool to amplify human potential.\n\nAI won’t destroy human jobs but will rebuild American industry &amp; create a massive new wave of builders, technicians, engineers, &amp; makers. https://t.co/w8qhFwGyUz",
-        "lang": "en",
-        "favorite_count": 2069,
-        "retweet_count": 421,
-        "reply_count": 371,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [
-          {
-            "additional_media_info": {
-              "monetizable": false
-            },
-            "display_url": "pic.x.com/w8qhFwGyUz",
-            "expanded_url": "https://x.com/cb_doge/status/2067893864200016358/video/1",
-            "ext_master_playlist_only": [],
-            "ext_media_availability": {
-              "status": "Available"
-            },
-            "ext_playlists": [],
-            "id_str": "2067893563392917504",
-            "indices": [
-              288,
-              311
-            ],
-            "media_key": "13_2067893563392917504",
-            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2067893563392917504/img/eS1X3O58zdLKUoEA.jpg",
-            "original_info": {
-              "focus_rects": [],
-              "height": 1080,
-              "width": 1688
-            },
-            "sizes": {
-              "large": {
-                "h": 1080,
-                "w": 1688
-              }
-            },
-            "type": "video",
-            "url": "https://t.co/w8qhFwGyUz",
-            "video_info": {
-              "aspect_ratio": [
-                211,
-                135
-              ],
-              "duration_millis": 303405,
-              "variants": [
-                {
-                  "content_type": "application/x-mpegURL",
-                  "url": "https://video.twimg.com/amplify_video/2067893563392917504/pl/VZunHMJDoB5Ql-Z6.m3u8?v=0e7"
-                },
-                {
-                  "bitrate": 256000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2067893563392917504/vid/avc1/422x270/Whw_5ayMofBpDMeG.mp4"
-                },
-                {
-                  "bitrate": 832000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2067893563392917504/vid/avc1/562x360/DZ3Acy30Ef03pSIj.mp4"
-                },
-                {
-                  "bitrate": 2176000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2067893563392917504/vid/avc1/1124x720/8VoQoN3EAZwp0f4Y.mp4"
-                },
-                {
-                  "bitrate": 10368000,
-                  "content_type": "video/mp4",
-                  "url": "https://video.twimg.com/amplify_video/2067893563392917504/vid/avc1/1688x1080/hZqRcmsYQYRH0NZw.mp4"
-                }
-              ]
-            }
-          }
-        ],
-        "id": "2067893864200016358",
-        "summary": "BREAKING: Jensen Huang says the biggest mistake people make about AI is seeing it as a threat, instead of a tool to amplify human potential.\n\nAI won’t",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067710085694886039",
-        "url": "https://x.com/Polymarket/status/2067710085694886039",
-        "screen_name": "Polymarket",
-        "created_at": "Thu Jun 18 20:44:35 +0000 2026",
-        "full_text": "JUST IN: Nvidia CEO Jensen Huang says society needs “new social norms” in the age of AI.",
-        "lang": "en",
-        "favorite_count": 2053,
-        "retweet_count": 140,
-        "reply_count": 183,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2067710085694886039",
-        "summary": "JUST IN: Nvidia CEO Jensen Huang says society needs “new social norms” in the age of AI.",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067761609510998053",
-        "url": "https://x.com/GoabaGatao/status/2067761609510998053",
-        "screen_name": "GoabaGatao",
-        "created_at": "Fri Jun 19 00:09:19 +0000 2026",
-        "full_text": "pergunta genuína: toda pergunta que a gente faz no google existe uma resposta de uma IA, então nós estamos consumindo agua mesmo nao usando o chatgpt?",
-        "lang": "pt",
-        "favorite_count": 2027,
-        "retweet_count": 9,
-        "reply_count": 22,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2067761609510998053",
-        "summary": "pergunta genuína: toda pergunta que a gente faz no google existe uma resposta de uma IA, então nós estamos consumindo agua mesmo nao usando o chatgpt?",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
-        ],
-        "_fallback": true
-      },
-      {
-        "tweet_id": "2067722905690001684",
-        "url": "https://x.com/elcatalan94/status/2067722905690001684",
-        "screen_name": "elcatalan94",
-        "created_at": "Thu Jun 18 21:35:31 +0000 2026",
-        "full_text": "Pas de Claude , Sam , Teheuira ou Phil on va pas se forcer",
-        "lang": "fr",
-        "favorite_count": 2006,
-        "retweet_count": 190,
-        "reply_count": 78,
-        "view_count": 0,
-        "quoted_tweet_text": "",
-        "media": [],
-        "id": "2067722905690001684",
-        "summary": "Pas de Claude , Sam , Teheuira ou Phil on va pas se forcer",
-        "category": "未评分",
-        "category_points": 0,
-        "info_gap": "未评分",
-        "info_gap_points": 0,
-        "viral_signals": [],
-        "viral_signals_points": 0,
-        "emotion": "未评分",
-        "emotion_points": 0,
-        "actionability_points": 0,
-        "account_fit": "不匹配",
-        "account_bonus": 0,
-        "total_score": 30,
-        "verdict": "keep",
-        "angles": [
-          "[LLM fallback: Error code: 402 - {'error': {'message': \"This request requires more credits, or ]"
+          "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
         ],
         "_fallback": true
       }
