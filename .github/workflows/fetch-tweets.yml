@@ -49,6 +49,13 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python fetch_tweets.py
 
+      # Official RSS sources (blogs/news/changelogs). Free HTTP, no API keys,
+      # not LLM-scored — feeds the dashboard's 官方源 tab. Resilient per-feed,
+      # so a single broken feed won't fail the run.
+      - name: Fetch official RSS sources
+        if: ${{ inputs.skip_fetch != 'true' }}
+        run: python fetch_rss.py
+
       - name: Commit and push results
         if: ${{ inputs.skip_fetch != 'true' }}
         run: |

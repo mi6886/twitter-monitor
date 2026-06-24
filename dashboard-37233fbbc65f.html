@@ -363,6 +363,7 @@
         <span style="width:1px;height:24px;background:#d0d5dd;margin:0 4px"></span>
         <button class="period-btn active" data-view="score"  onclick="setView('score')">📊 评分视图</button>
         <button class="period-btn"        data-view="wanzan" onclick="setView('wanzan')">🔥 高赞视图</button>
+        <button class="period-btn"        data-view="rss"    onclick="setView('rss')">📰 官方源</button>
       </div>
     </div>
   </div>
@@ -551,6 +552,7 @@
 
   // ── Render: build tier sections ──
   function render() {
+    if (currentView === 'rss')    { renderRSS(); return; }
     if (currentView === 'wanzan') { renderWanzan(); return; }
 
     const area = document.getElementById('cards-area');
@@ -632,6 +634,86 @@
     const grid = document.createElement('div');
     grid.className = 'cards-grid';
     list.forEach((tw, i) => grid.appendChild(renderCard(tw, i)));
+    section.appendChild(grid);
+    area.appendChild(section);
+  }
+
+  // ── 官方源 (RSS) view ──
+  let rssItems = null;   // cached after first fetch
+
+  // Map a feed source label to one of the existing category filters so the
+  // top filter row keeps working in 官方源 view too.
+  function rssCategory(source) {
+    const s = (source || '').toLowerCase();
+    if (s.includes('openai')) return 'openai';
+    if (s.includes('anthropic') || s.includes('claude')) return 'claude';
+    if (s.includes('google') || s.includes('deepmind')) return 'google';
+    if (s.includes('nvidia')) return 'nvidia';
+    if (s.includes('cursor')) return 'cursor';
+    return 'other';
+  }
+
+  function renderRssCard(it, idx) {
+    const tag = TAG_META[it._cat] || TAG_META.other;
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.style.animationDelay = Math.min(idx * 0.03, 0.5) + 's';
+    const when = it.published_at ? fmtDate(it.published_at) : '';
+    card.innerHTML = `
+      <div class="card-time">${when}</div>
+      <div class="card-tag-row">
+        <span class="card-tag ${tag.cls}">${esc(it.source)}</span>
+      </div>
+      <a class="card-summary-link" href="${esc(it.url)}" target="_blank" rel="noopener" title="打开原文">
+        <p class="card-summary" style="font-weight:600">${esc(it.title)}</p>
+      </a>
+      ${it.summary ? `<p class="card-summary" style="color:var(--text-dim)">${esc(it.summary)}</p>` : ''}
+    `;
+    return card;
+  }
+
+  async function renderRSS() {
+    const area = document.getElementById('cards-area');
+    document.getElementById('date-text').textContent = '官方源 · 实时';
+
+    if (rssItems === null) {
+      area.innerHTML = '<div class="state-box"><div class="spinner"></div><p>正在加载官方源…</p></div>';
+      try {
+        const res = await fetch('data/rss-latest.json');
+        if (!res.ok) throw new Error('no-data');
+        const data = await res.json();
+        rssItems = (data.items || []).map(it => ({ ...it, _cat: rssCategory(it.source) }));
+      } catch (err) {
+        rssItems = [];
+        document.getElementById('count-text').textContent = '';
+        area.innerHTML = '<div class="state-box"><span class="state-icon">⚠️</span><p>官方源数据未生成</p>'
+          + '<p style="font-size:0.75rem;color:var(--text-dim);margin-top:8px">文件 data/rss-latest.json 不存在</p></div>';
+        return;
+      }
+    }
+
+    const filterFn = it => currentFilter === 'all' || it._cat === currentFilter;
+    const list = rssItems.filter(filterFn);
+    document.getElementById('count-text').textContent = `官方源 共 ${list.length} 条`;
+
+    if (!list.length) {
+      area.innerHTML = '<div class="state-box"><span class="state-icon">📭</span><p>该分类下暂无官方源内容</p></div>';
+      return;
+    }
+
+    area.innerHTML = '';
+    const section = document.createElement('section');
+    section.className = 'tier-section tier-priority';
+    const header = document.createElement('div');
+    header.className = 'tier-header';
+    header.innerHTML = '<span class="tier-caret">▼</span>'
+      + '<span>📰 官方源（博客 / 新闻 / Changelog · 按发布时间降序 · 未打分）</span>'
+      + '<span class="tier-count">' + list.length + ' 条</span>';
+    header.addEventListener('click', () => section.classList.toggle('collapsed'));
+    section.appendChild(header);
+    const grid = document.createElement('div');
+    grid.className = 'cards-grid';
+    list.forEach((it, i) => grid.appendChild(renderRssCard(it, i)));
     section.appendChild(grid);
     area.appendChild(section);
   }
