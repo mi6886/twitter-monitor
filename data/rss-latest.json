@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-24T13:06:03.979501+00:00",
+  "updated_at": "2026-06-25T00:01:41.637840+00:00",
   "count": 400,
-  "new_count": 2426,
+  "new_count": 2032,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -17,6 +17,30 @@
     "Product Hunt"
   ],
   "items": [
+    {
+      "source": "Google Research Blog",
+      "title": "Thinking to recall: How reasoning unlocks parametric knowledge in LLMs",
+      "url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms/",
+      "summary": "Generative AI",
+      "published_at": "2026-06-24T16:51:52+00:00",
+      "first_seen_at": "2026-06-25T00:01:41.637840+00:00"
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "summary": "",
+      "published_at": "2026-06-24T16:30:01+00:00",
+      "first_seen_at": "2026-06-25T00:01:41.637840+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "summary": "",
+      "published_at": "2026-06-24T16:00:13+00:00",
+      "first_seen_at": "2026-06-25T00:01:41.637840+00:00"
+    },
     {
       "source": "OpenAI News",
       "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
@@ -56,6 +80,14 @@
       "summary": "Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity. NVIDIA’s latest work with Amazon Web Services (AWS) addresses each of those co",
       "published_at": "2026-06-24T00:05:37+00:00",
       "first_seen_at": "2026-06-24T13:06:03.979501+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "summary": "",
+      "published_at": "2026-06-24T00:00:00+00:00",
+      "first_seen_at": "2026-06-25T00:01:41.637840+00:00"
     },
     {
       "source": "OpenAI News",
@@ -386,6 +418,14 @@
       "first_seen_at": "2026-06-24T13:06:03.979501+00:00"
     },
     {
+      "source": "Product Hunt",
+      "title": "MD+HTML Reader",
+      "url": "https://www.producthunt.com/products/md-html-reader",
+      "summary": "Review AI-generated Markdown and HTML in a focused workspace Discussion | Link",
+      "published_at": "2026-06-22T06:24:17+00:00",
+      "first_seen_at": "2026-06-25T00:01:41.637840+00:00"
+    },
+    {
       "source": "NVIDIA Blog",
       "title": "Hotter Than a Hot Tub: The 45°C Breakthrough to Cool AI’s Biggest Machines",
       "url": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
@@ -520,6 +560,22 @@
       "summary": "Qubot, our internal Copilot-powered analytics agent, allows any GitHub employee to ask questions about our data in plain language. Here's what we learned as we built it. The post How we built an internal data analytics agent appeared first on The GitHub Blog.",
       "published_at": "2026-06-19T16:00:00+00:00",
       "first_seen_at": "2026-06-24T13:06:03.979501+00:00"
+    },
+    {
+      "source": "Product Hunt",
+      "title": "Photoroom API",
+      "url": "https://www.producthunt.com/products/bg-app",
+      "summary": "Transform product images at scale with one image editing API Discussion | Link",
+      "published_at": "2026-06-19T14:28:01+00:00",
+      "first_seen_at": "2026-06-25T00:01:41.637840+00:00"
+    },
+    {
+      "source": "Product Hunt",
+      "title": "Prospector by Synter",
+      "url": "https://www.producthunt.com/products/synter-media-ai",
+      "summary": "Your outbound agent, right inside Slack Discussion | Link",
+      "published_at": "2026-06-19T07:05:24+00:00",
+      "first_seen_at": "2026-06-25T00:01:41.637840+00:00"
     },
     {
       "source": "NVIDIA Blog",
@@ -680,6 +736,14 @@
       "summary": "Automatic customer context for product teams and agents Discussion | Link",
       "published_at": "2026-06-17T13:43:29+00:00",
       "first_seen_at": "2026-06-24T13:06:03.979501+00:00"
+    },
+    {
+      "source": "Product Hunt",
+      "title": "Clawd",
+      "url": "https://www.producthunt.com/products/clawd-the-context-aware-browser-pet",
+      "summary": "A context-aware browser mascot with 100% local offline AI Discussion | Link",
+      "published_at": "2026-06-17T10:20:11+00:00",
+      "first_seen_at": "2026-06-25T00:01:41.637840+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -3150,70 +3214,6 @@
       "title": "Applications of AI at OpenAI",
       "url": "https://openai.com/academy/applications-of-ai",
       "summary": "Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.",
-      "published_at": "2026-04-10T00:00:00+00:00",
-      "first_seen_at": "2026-06-24T13:06:03.979501+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Using custom GPTs",
-      "url": "https://openai.com/academy/custom-gpts",
-      "summary": "Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants.",
-      "published_at": "2026-04-10T00:00:00+00:00",
-      "first_seen_at": "2026-06-24T13:06:03.979501+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "ChatGPT for finance teams",
-      "url": "https://openai.com/academy/finance",
-      "summary": "Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.",
-      "published_at": "2026-04-10T00:00:00+00:00",
-      "first_seen_at": "2026-06-24T13:06:03.979501+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Financial services",
-      "url": "https://openai.com/academy/financial-services",
-      "summary": "Explore AI resources for financial services, including prompt packs, GPTs, guides, and tools to help institutions deploy and scale AI securely.",
-      "published_at": "2026-04-10T00:00:00+00:00",
-      "first_seen_at": "2026-06-24T13:06:03.979501+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Working with files in ChatGPT",
-      "url": "https://openai.com/academy/working-with-files",
-      "summary": "Learn how to upload and work with files in ChatGPT to analyze data, summarize documents, and generate content from PDFs, spreadsheets, and more.",
-      "published_at": "2026-04-10T00:00:00+00:00",
-      "first_seen_at": "2026-06-24T13:06:03.979501+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Responsible and safe use of AI",
-      "url": "https://openai.com/academy/responsible-and-safe-use",
-      "summary": "Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.",
-      "published_at": "2026-04-10T00:00:00+00:00",
-      "first_seen_at": "2026-06-24T13:06:03.979501+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "ChatGPT for customer success teams",
-      "url": "https://openai.com/academy/customer-success",
-      "summary": "Learn how customer success teams use ChatGPT to manage accounts, improve communication, reduce churn, and drive adoption and renewals.",
-      "published_at": "2026-04-10T00:00:00+00:00",
-      "first_seen_at": "2026-06-24T13:06:03.979501+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "ChatGPT for operations teams",
-      "url": "https://openai.com/academy/operations",
-      "summary": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
-      "published_at": "2026-04-10T00:00:00+00:00",
-      "first_seen_at": "2026-06-24T13:06:03.979501+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Brainstorming with ChatGPT",
-      "url": "https://openai.com/academy/brainstorming",
-      "summary": "Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans.",
       "published_at": "2026-04-10T00:00:00+00:00",
       "first_seen_at": "2026-06-24T13:06:03.979501+00:00"
     }
