@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-25T13:18:15.802042+00:00",
+  "updated_at": "2026-06-26T00:11:08.400692+00:00",
   "count": 500,
-  "new_count": 2170,
+  "new_count": 2174,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -23,12 +23,60 @@
   ],
   "items": [
     {
+      "source": "Hugging Face Blog",
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "url": "https://huggingface.co/blog/vllm-jobs",
+      "summary": "",
+      "published_at": "2026-06-26T00:00:00+00:00",
+      "first_seen_at": "2026-06-26T00:11:08.400692+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "title": "Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks",
+      "url": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
+      "summary": "Explore how the GitHub Copilot agentic harness delivers strong results across multiple benchmarks and leading token efficiency, while maintaining flexibility to choose among more than 20 models. The post Evaluating performance and efficiency of the GitHub Copilot agentic harness ",
+      "published_at": "2026-06-25T22:59:45+00:00",
+      "first_seen_at": "2026-06-26T00:11:08.400692+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "Which tokens does a hybrid model predict better?",
+      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "summary": "",
+      "published_at": "2026-06-25T16:11:42+00:00",
+      "first_seen_at": "2026-06-26T00:11:08.400692+00:00"
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Our latest Google Finance upgrades, including a new app",
+      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+      "summary": "The Google Finance logo, surrounded by elements of the user interface",
+      "published_at": "2026-06-25T16:00:00+00:00",
+      "first_seen_at": "2026-06-26T00:11:08.400692+00:00"
+    },
+    {
       "source": "NVIDIA Blog",
       "title": "The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026/",
       "summary": "Summer savings are heating up. From the Steam Summer Sale to GeForce NOW membership discounts, this week’s GFN Thursday delivers double the deals and more ways to get the most value from cloud gaming. Plus, Dark Scrolls joins the growing Devolver lineup, alongside Square Enix’s T",
       "published_at": "2026-06-25T13:00:34+00:00",
       "first_seen_at": "2026-06-25T13:18:15.802042+00:00"
+    },
+    {
+      "source": "Google Research Blog",
+      "title": "Optimizing cloud economics with linear elastic caching",
+      "url": "https://research.google/blog/optimizing-cloud-economics-with-linear-elastic-caching/",
+      "summary": "Algorithms & Theory",
+      "published_at": "2026-06-25T10:03:00+00:00",
+      "first_seen_at": "2026-06-26T00:11:08.400692+00:00"
+    },
+    {
+      "source": "Runway",
+      "title": "Introducing Agent 2.0",
+      "url": "https://runwayml.com/news/introducing-agent-2",
+      "summary": "Agent 2.0 helps marketers make more of what works — ads, videos and full campaigns that drive revenue.",
+      "published_at": "2026-06-25T10:00:00+00:00",
+      "first_seen_at": "2026-06-26T00:11:08.400692+00:00"
     },
     {
       "source": "Product Hunt",
@@ -306,7 +354,7 @@
       "source": "NVIDIA Blog",
       "title": "How Businesses Are Building Specialized AI They Can Trust",
       "url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
-      "summary": "Companies are asking how to build specialized AI that fits with the way their workflows actually run. The first wave of enterprise AI was about access. Companies experimented with new frontier and open models, ran pilots and explored how AI can help. Now, specialized agents — sys",
+      "summary": "Editor’s note: This post is part of the Nemotron Labs blog series, which explores how the latest open models, datasets and training techniques help businesses build specialized AI systems and applications on NVIDIA platforms. Each post highlights practical ways to use an open sta",
       "published_at": "2026-06-23T13:00:07+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
@@ -3972,54 +4020,6 @@
       "url": "https://research.google/blog/towards-developing-future-ready-skills-with-generative-ai/",
       "summary": "Education Innovation",
       "published_at": "2026-04-13T18:15:59+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Anthropic Engineering",
-      "title": "Building Effective AI Agents",
-      "url": "https://www.anthropic.com/engineering/building-effective-agents",
-      "summary": "Discover how Anthropic approaches the development of reliable AI agents. Learn about our research on agent capabilities, safety considerations, and technical framework for building trustworthy AI.",
-      "published_at": "2026-04-13T17:46:47+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
-      "summary": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.",
-      "published_at": "2026-04-13T15:52:13+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
-      "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
-      "summary": "Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.",
-      "published_at": "2026-04-13T06:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "title": "Tiled Layout and Upgraded Voice Input in the Agents Window",
-      "url": "https://cursor.com/changelog/3-1",
-      "summary": "This release introduces improvements to our Agents Window interface as part of Cursor 3.",
-      "published_at": "2026-04-13T00:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Blog",
-      "title": "National Robotics Week — Latest Physical AI Research, Breakthroughs and Resources",
-      "url": "https://blogs.nvidia.com/blog/national-robotics-week-2026/",
-      "summary": "This National Robotics Week, NVIDIA is highlighting the breakthroughs that are bringing AI into the physical world — as well as the growing wave of robots transforming industries, from agricultural and manufacturing to energy and beyond. Advancements in robot learning, simulation",
-      "published_at": "2026-04-10T19:40:59+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "ChatGPT for customer success teams",
-      "url": "https://openai.com/academy/customer-success",
-      "summary": "Learn how customer success teams use ChatGPT to manage accounts, improve communication, reduce churn, and drive adoption and renewals.",
-      "published_at": "2026-04-10T00:00:00+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     }
   ]
