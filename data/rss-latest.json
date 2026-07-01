@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-30T13:09:19.919492+00:00",
+  "updated_at": "2026-07-01T00:03:17.344376+00:00",
   "count": 500,
-  "new_count": 2245,
+  "new_count": 2255,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -23,12 +23,108 @@
   ],
   "items": [
     {
+      "source": "Anthropic News",
+      "title": "Introducing Claude Sonnet 5",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "published_at": "2026-06-30T21:20:30+00:00",
+      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Claude Science, an AI workbench for scientists",
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "summary": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
+      "published_at": "2026-06-30T18:43:57+00:00",
+      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "summary": "",
+      "published_at": "2026-06-30T18:32:50+00:00",
+      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "title": "How GitHub maintains compliance for open source dependencies",
+      "url": "https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies/",
+      "summary": "Explore how the Open Source Program Office uses GitHub’s new license compliance product to manage open source dependencies at scale. The post How GitHub maintains compliance for open source dependencies appeared first on The GitHub Blog.",
+      "published_at": "2026-06-30T17:28:16+00:00",
+      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
+    },
+    {
+      "source": "Google Research Blog",
+      "title": "Expanding our Heat Resilience data to 50+ global cities",
+      "url": "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/",
+      "summary": "Climate & Sustainability",
+      "published_at": "2026-06-30T17:03:10+00:00",
+      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
+    },
+    {
       "source": "NVIDIA Blog",
+      "title": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science",
+      "url": "https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/",
+      "summary": "Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-specific tools — to help researchers run more sophisticated ",
+      "published_at": "2026-06-30T17:00:38+00:00",
+      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+      "summary": "",
+      "published_at": "2026-06-30T16:02:40+00:00",
+      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost",
+      "url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
+      "summary": "As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token: how many useful tokens they can deliver per dollar, per watt and within required latency targets. Codesigned with NVIDIA GPUs, C",
+      "published_at": "2026-06-30T15:00:57+00:00",
+      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics Blog",
+      "title": "How Jaiveer Singh Is Helping Robots — and Developers — Move Faster",
+      "url": "https://blogs.nvidia.com/blog/nvidia-life-jaiveer-singh/",
+      "summary": "When Jaiveer Singh talks about robots, he doesn’t begin with spectacle. He begins with infrastructure: the boards inside machines, the software that lets developers see through a robot’s cameras and the engineering required before a robot can leave a demo floor to do something us",
+      "published_at": "2026-06-30T15:00:49+00:00",
+      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "Why Specialization Is Inevitable",
+      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "summary": "",
+      "published_at": "2026-06-30T14:39:11+00:00",
+      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics Blog",
       "title": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning",
       "url": "https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/",
       "summary": "Editor’s note: This post is part of Into the Omniverse, a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse. Vision AI agents are becoming a practical way to automatically tu",
       "published_at": "2026-06-30T13:00:27+00:00",
       "first_seen_at": "2026-06-30T13:09:19.919492+00:00"
+    },
+    {
+      "source": "Google Research Blog",
+      "title": "Introducing TabFM: A zero-shot foundation model for tabular data",
+      "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/",
+      "summary": "Data Management",
+      "published_at": "2026-06-30T10:26:00+00:00",
+      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How ChatGPT adoption has expanded",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+      "published_at": "2026-06-30T09:00:00+00:00",
+      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
     },
     {
       "source": "Google AI Blog",
@@ -61,6 +157,30 @@
       "summary": "",
       "published_at": "2026-06-30T00:00:00+00:00",
       "first_seen_at": "2026-06-30T13:09:19.919492+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Introducing GeneBench-Pro",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "published_at": "2026-06-30T00:00:00+00:00",
+      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "published_at": "2026-06-30T00:00:00+00:00",
+      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Inside Genebench-Pro",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "summary": "",
+      "published_at": "2026-06-30T00:00:00+00:00",
+      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
     },
     {
       "source": "Product Hunt",
@@ -610,7 +730,7 @@
       "source": "Product Hunt",
       "title": "Outpaint - Ad Reframe",
       "url": "https://www.producthunt.com/products/outpaint-com-ad-reframe",
-      "summary": "AI to turn vertical UGC into widescreen ads Discussion | Link",
+      "summary": "AI to turn vertical UGC into widescreen ads for Youtube & TV Discussion | Link",
       "published_at": "2026-06-24T14:14:23+00:00",
       "first_seen_at": "2026-06-29T14:52:47.590139+00:00"
     },
@@ -3900,126 +4020,6 @@
       "url": "https://cursor.com/changelog/05-04-26",
       "summary": "This release introduces updates for Enterprise admins: a new system for model controls, updated spend management, and more detail for usage analytics.",
       "published_at": "2026-05-04T00:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Runway",
-      "title": "Building Real-Time Video Agent from a Single Image with Runway Characters",
-      "url": "https://runwayml.com/news/building-runway-characters",
-      "summary": "How we built a real-time video agent from any single image — photorealistic human, cartoon mascot or fantasy creature — into a fully expressive conversational character at 24fps, with fast end-to-end latency. Zero fine-tuning required.",
-      "published_at": "2026-05-04T00:00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Runway",
-      "title": "60x Faster Cold Starts: Treating Peer GPUs as Weight Servers",
-      "url": "https://runwayml.com/news/60x-faster-cold-starts-treating-peer-gpus-as-weight-servers",
-      "summary": "",
-      "published_at": "2026-05-04T00:00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "title": "Catalyzing scientific impact through global partnerships and open resources",
-      "url": "https://research.google/blog/catalyzing-scientific-impact-through-global-partnerships-and-open-resources/",
-      "summary": "Data Mining & Modeling",
-      "published_at": "2026-05-01T16:37:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "title": "Team Marketplace Updates",
-      "url": "https://cursor.com/changelog/05-01-26",
-      "summary": "Admins can now create a team marketplace without connecting a repository first. Add, remove, and configure install behavior for first-party plugins directly in team marketplace settings.",
-      "published_at": "2026-05-01T00:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Anthropic Engineering",
-      "title": "An update on recent Claude Code quality reports",
-      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
-      "summary": "",
-      "published_at": "2026-04-30T21:34:23+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Product Hunt",
-      "title": "Milestones",
-      "url": "https://www.producthunt.com/products/milestones-2",
-      "summary": "Native project planning app, now on Mac & with an MCP server Discussion | Link",
-      "published_at": "2026-04-30T15:40:14+00:00",
-      "first_seen_at": "2026-06-25T13:18:15.802042+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Enabling a new model for healthcare with AI co-clinician",
-      "url": "https://deepmind.google/blog/ai-co-clinician/",
-      "summary": "Researching the path to AI-augmented care and development of an AI co-clinician.",
-      "published_at": "2026-04-30T12:14:15+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Cursor Blog",
-      "title": "Continually improving our agent harness",
-      "url": "https://cursor.com/blog/continually-improving-agent-harness",
-      "summary": "Models need a harness to become fully useful, and improving that harness means continuously iterating on context, evaluation, and model-specific tuning.",
-      "published_at": "2026-04-30T12:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing Advanced Account Security",
-      "url": "https://openai.com/index/advanced-account-security",
-      "summary": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
-      "published_at": "2026-04-30T00:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "OpenAI Developer Blog",
-      "title": "OpenAI Developers plugin",
-      "url": "https://developers.openai.com/learn/developers-codex-plugin/",
-      "summary": "Install and use the OpenAI Developers plugin in Codex, Claude Code, or Cursor to set up API access, use current OpenAI docs, and troubleshoot OpenAI API issues.",
-      "published_at": "2026-04-30T00:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "title": "Cursor Security Review",
-      "url": "https://cursor.com/changelog/04-30-26",
-      "summary": "Cursor Security Review is now in beta on Teams and Enterprise plans. You can run two types of always-on security agents: Security Reviewer and Vulnerability Scanner.",
-      "published_at": "2026-04-30T00:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "title": "Four ways Google Research scientists have been using Empirical Research Assistance",
-      "url": "https://research.google/blog/four-ways-google-research-scientists-have-been-using-empirical-research-assistance/",
-      "summary": "Data Mining & Modeling",
-      "published_at": "2026-04-29T21:07:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Where the goblins came from",
-      "url": "https://openai.com/index/where-the-goblins-came-from",
-      "summary": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
-      "published_at": "2026-04-29T20:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Granite 4.1 LLMs: How They’re Built",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
-      "summary": "",
-      "published_at": "2026-04-29T15:01:48+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Building the compute infrastructure for the Intelligence Age",
-      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
-      "summary": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
-      "published_at": "2026-04-29T15:00:00+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     }
   ]
