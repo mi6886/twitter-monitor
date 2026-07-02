@@ -87,6 +87,11 @@ The account creates two types of content:
 - Not about AI/tech at all (sports, K-drama, crypto-trading, lifestyle) → category=其他/非AI, verdict=drop
 - Same-name confusion (Claude the soccer player, Gemini fan accounts) → verdict=drop
 - Pure meme / reaction / engagement bait with no info → verdict=drop
+- The tweet TEXT is your ONLY evidence. You cannot see images or videos.
+  NEVER invent products, features, prices, or facts not stated in the text.
+  If the text is just a short caption + link with no concrete AI/tech info
+  (e.g. "Ink remembers everything <link>"), you CANNOT know what it is →
+  category=其他/非AI, verdict=drop. Do not guess what the media might show.
 
 === VERDICT ===
 - total_score >= 20 → verdict = "keep"
@@ -98,6 +103,8 @@ Write `summary` in Chinese, 2-3 sentences, <= 150 characters total.
 - Include the most important specific numbers/names
 - One sentence why it matters
 - Neutral tone, for judgment not publishing.
+- GROUNDING: every claim in the summary must come from the tweet text itself.
+  If the text doesn't say what a thing is or does, do not fill the gap.
 
 === ANGLE RULES ===
 Output `angles` as an ARRAY of 2-3 different content angles in Chinese.
@@ -167,11 +174,27 @@ import re as _re
 
 
 def _strip_code_fence(text: str) -> str:
-    """Strip ```json ... ``` or ``` ... ``` wrappers that Anthropic via
-    OpenRouter sometimes adds even when response_format=json_object is set."""
+    """Extract the JSON payload from an LLM response that may wrap it in
+    ```json fences and/or append commentary after the fence (Anthropic via
+    OpenRouter does both, even with response_format=json_object).
+
+    At temperature=0 the trailing commentary is deterministic for a given
+    tweet, so without this handling those tweets fail JSON parsing on every
+    retry and permanently fall back."""
     text = text.strip()
+    # 1. whole string is a fenced block
     m = _re.match(r"^```(?:json)?\s*\n?(.*?)\n?```\s*$", text, _re.DOTALL)
-    return m.group(1).strip() if m else text
+    if m:
+        return m.group(1).strip()
+    # 2. fenced block anywhere, possibly with commentary before/after
+    m = _re.search(r"```(?:json)?\s*\n?(\{.*?)\n?```", text, _re.DOTALL)
+    if m:
+        return m.group(1).strip()
+    # 3. last resort: outermost braces
+    start, end = text.find("{"), text.rfind("}")
+    if start != -1 and end > start:
+        return text[start:end + 1]
+    return text
 
 
 def fallback_score(tweet: dict, err: str) -> dict:

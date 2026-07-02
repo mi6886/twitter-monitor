@@ -1,19 +1,126 @@
 {
   "date": "2026-06-23",
   "period": "evening",
-  "fetched_at": "2026-06-23T13:49:11.303162+00:00",
+  "fetched_at": "2026-07-02T04:07:26.122345+00:00",
   "raw_count": 45,
   "scored_count": 45,
-  "keep_count": 36,
-  "drop_count": 9,
-  "fallback_count": 24,
+  "keep_count": 13,
+  "drop_count": 32,
+  "fallback_count": 1,
   "score_distribution": {
-    ">=50": 6,
-    "35-49": 4,
-    "20-34": 26,
-    "<20": 9
+    ">=50": 8,
+    "35-49": 3,
+    "20-34": 3,
+    "<20": 31
   },
   "tweets": [
+    {
+      "tweet_id": "2069124761322504258",
+      "url": "https://x.com/Vivek4real_/status/2069124761322504258",
+      "screen_name": "Vivek4real_",
+      "created_at": "Mon Jun 22 18:26:00 +0000 2026",
+      "full_text": "THIS GUY LET AN AI AGENT HANDLE HIS SCAM TEXTS FOR A WEEK.\n\nA SCAMMER ASKED HIM TO BUY A $500 GIFT CARD.\n\nTHE AGENT SPENT 4 HOURS “DRIVING” TO TARGET.\n\nSENT STATUS UPDATES LIKE “I'M AT THE RED LIGHT NOW, THERE'S A VERY HANDSOME SQUIRREL ON THE SIDEWALK. DO YOU THINK HE'S https://t.co/BhzOqs4dlF",
+      "lang": "en",
+      "favorite_count": 5039,
+      "retweet_count": 371,
+      "reply_count": 102,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/BhzOqs4dlF",
+          "expanded_url": "https://x.com/Vivek4real_/status/2069124761322504258/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2068930453479063552",
+          "indices": [
+            272,
+            295
+          ],
+          "media_key": "3_2068930453479063552",
+          "media_url_https": "https://pbs.twimg.com/media/HLZRSSibgAAxjwH.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 812,
+                "w": 1450,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 840,
+                "w": 840,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 840,
+                "w": 737,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 840,
+                "w": 420,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 840,
+                "w": 1450,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 840,
+            "width": 1450
+          },
+          "sizes": {
+            "large": {
+              "h": 840,
+              "w": 1450
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/BhzOqs4dlF"
+        }
+      ],
+      "id": "2069124761322504258",
+      "summary": "用户让AI智能体处理诈骗短信一周，当骗子要求买500美元礼卡时，AI花4小时假装开车去Target，发送搞笑状态更新戏耍诈骗犯。",
+      "category": "单产品/技术叙事",
+      "category_points": 30,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "反常识/意外性：AI被用来反制诈骗而非执行诈骗",
+        "有明确价格：$500礼卡",
+        "终于型选题：首次看到AI这样戏耍诈骗犯"
+      ],
+      "viral_signals_points": 28,
+      "emotion": "好奇/趣味",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 88,
+      "verdict": "keep",
+      "angles": [
+        "AI反制诈骗：让骗子被AI戏耍4小时的真实案例",
+        "AI智能体首次对抗诈骗短信，结果出人意料",
+        "这个AI代理用搞笑回复把诈骗犯玩坏了"
+      ]
+    },
     {
       "tweet_id": "2068997432889778407",
       "url": "https://x.com/Dexerto/status/2068997432889778407",
@@ -166,17 +273,17 @@
         }
       ],
       "id": "2068997432889778407",
-      "summary": "中国街头出现人形机器人乞讨现象，机器人举牌乞讨电费，扫码捐赠，已在多个城市出现。反映AI时代的社会现象与伦理问题。",
+      "summary": "中国街头出现人形机器人乞讨现象，机器人举牌乞讨电费并展示二维码募捐，已在多个城市出现。这反映了AI硬件成本与社会应用的矛盾。",
       "category": "事件速报",
       "category_points": 28,
       "info_gap": "时效首发",
       "info_gap_points": 20,
       "viral_signals": [
-        "反常识/意外性：人形机器人乞讨的荒诞场景",
+        "反常识/意外性：人形机器人乞讨的荒诞反差",
         "终于型选题：首次出现机器人街头乞讨现象"
       ],
       "viral_signals_points": 20,
-      "emotion": "好奇/趣味 + 未来感/想象",
+      "emotion": "好奇/趣味",
       "emotion_points": 5,
       "actionability_points": 0,
       "account_fit": "A型",
@@ -184,46 +291,9 @@
       "total_score": 78,
       "verdict": "keep",
       "angles": [
-        "人形机器人街头乞讨：AI时代最魔幻的一幕",
-        "机器人也要交电费？中国多城现乞讨机器人",
-        "扫码捐电费给机器人，这届AI有点惨"
-      ]
-    },
-    {
-      "tweet_id": "2069143097586700794",
-      "url": "https://x.com/GeminiApp/status/2069143097586700794",
-      "screen_name": "GeminiApp",
-      "created_at": "Mon Jun 22 19:38:51 +0000 2026",
-      "full_text": "Gemini Spark is your 24/7 personal AI agent, handling the heavy lifting from start to finish under your direction.\n\nHere are some ways our team has been using Gemini Spark to make their lives easier and more productive. 🧵",
-      "lang": "en",
-      "favorite_count": 2210,
-      "retweet_count": 118,
-      "reply_count": 118,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2069143097586700794",
-      "summary": "Google推出Gemini Spark个人AI助手，可全天候处理任务。团队分享实际使用案例展示生产力提升。",
-      "category": "事件速报",
-      "category_points": 28,
-      "info_gap": "时效首发",
-      "info_gap_points": 20,
-      "viral_signals": [
-        "终于型选题",
-        "有团队故事"
-      ],
-      "viral_signals_points": 15,
-      "emotion": "未来感/想象",
-      "emotion_points": 5,
-      "actionability_points": 0,
-      "account_fit": "A型",
-      "account_bonus": 5,
-      "total_score": 73,
-      "verdict": "keep",
-      "angles": [
-        "Google终于推出24小时AI助手，比ChatGPT多了什么？",
-        "Gemini Spark实测：团队用它省出了多少工作时间",
-        "个人AI助手时代来临，Spark能替代你的助理吗？"
+        "人形机器人沦为乞丐？中国街头的AI困境",
+        "震撼：机器人举牌乞讨电费，多城市已出现",
+        "反转：最先进的技术，最尴尬的处境"
       ]
     },
     {
@@ -309,7 +379,7 @@
         }
       ],
       "id": "2069099646308220973",
-      "summary": "Anthropic推出Claude for Hardware，用户输入硬件想法后Blueprint自动生成完整硬件方案。AI首次进入硬件设计领域的重要突破。",
+      "summary": "Anthropic推出Claude for Hardware，用户输入硬件想法后Blueprint生成完整硬件方案。AI首次进入硬件设计领域，开启新可能。",
       "category": "单产品/技术叙事",
       "category_points": 30,
       "info_gap": "时效首发",
@@ -326,9 +396,9 @@
       "total_score": 70,
       "verdict": "keep",
       "angles": [
-        "Claude进军硬件设计｜AI首次自动生成完整方案",
-        "从代码到芯片｜Claude Blueprint如何改变硬件创业",
-        "震撼｜AI终于能帮你设计硬件了"
+        "Claude首次进军硬件设计，一句话生成完整方案",
+        "AI硬件工程师诞生：从想法到设计图纸只需一步",
+        "Blueprint硬件生成器深度体验：能否替代传统工程师"
       ]
     },
     {
@@ -476,14 +546,13 @@
         }
       ],
       "id": "2069170961430045067",
-      "summary": "英伟达推出数据中心温水冷却系统，几乎完全消除用水需求。这是AI基础设施的重大突破，解决了数据中心的环保痛点。",
+      "summary": "英伟达宣布数据中心温水冷却系统，几乎消除所有用水。硬件创新，具体技术指标缺失。",
       "category": "事件速报",
       "category_points": 28,
       "info_gap": "时效首发",
       "info_gap_points": 20,
       "viral_signals": [
-        "终于型选题：解决数据中心用水难题",
-        "反常识：冷却系统不用水"
+        "终于/第一型选题"
       ],
       "viral_signals_points": 10,
       "emotion": "未来感/想象",
@@ -494,9 +563,45 @@
       "total_score": 68,
       "verdict": "keep",
       "angles": [
-        "英伟达黑科技：数据中心冷却不再费水",
-        "AI时代的环保突破：温水冷却系统揭秘",
-        "芯片巨头的绿色野心：消除数据中心用水"
+        "英伟达黑科技：数据中心冷却系统革命",
+        "AI芯片耗能危机终解？英伟达温水冷却系统详解",
+        "首次实现零用水冷却，数据中心绿色转型新方向"
+      ]
+    },
+    {
+      "tweet_id": "2069143097586700794",
+      "url": "https://x.com/GeminiApp/status/2069143097586700794",
+      "screen_name": "GeminiApp",
+      "created_at": "Mon Jun 22 19:38:51 +0000 2026",
+      "full_text": "Gemini Spark is your 24/7 personal AI agent, handling the heavy lifting from start to finish under your direction.\n\nHere are some ways our team has been using Gemini Spark to make their lives easier and more productive. 🧵",
+      "lang": "en",
+      "favorite_count": 2210,
+      "retweet_count": 118,
+      "reply_count": 118,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2069143097586700794",
+      "summary": "Google推出Gemini Spark，一款24/7个人AI助手，可全程处理任务。团队已在使用中提升效率。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "未来感/想象",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 68,
+      "verdict": "keep",
+      "angles": [
+        "Google终于推出24小时AI助手，Gemini Spark能替你做什么",
+        "Gemini Spark vs ChatGPT：谁才是真正的个人AI助手",
+        "Google内部员工都在用的AI工具，现在你也能用"
       ]
     },
     {
@@ -513,7 +618,7 @@
       "quoted_tweet_text": "",
       "media": [],
       "id": "2069162358510076105",
-      "summary": "Hytale游戏发布完整服务器源代码和资产到GitHub，采用类似虚幻引擎的许可模式。",
+      "summary": "Hytale游戏发布完整服务器源代码、协议和资产到GitHub，采用类似虚幻引擎的许可模式。",
       "category": "事件速报",
       "category_points": 28,
       "info_gap": "时效首发",
@@ -522,17 +627,17 @@
         "终于/第一型选题"
       ],
       "viral_signals_points": 10,
-      "emotion": "未来感/想象",
+      "emotion": "震撼/惊叹",
       "emotion_points": 5,
-      "actionability_points": 5,
+      "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 68,
+      "total_score": 63,
       "verdict": "keep",
       "angles": [
-        "游戏引擎开源新时代：Hytale全源代码上线GitHub",
-        "开发者福音：Hytale开放所有资产包括未发布内容",
-        "虚幻引擎之后的选择：Hytale如何改变游戏开发生态"
+        "游戏开发者福音：Hytale开源全部源代码和资产",
+        "首次公开：完整游戏引擎代码上线GitHub",
+        "开发者狂欢：Hytale如何改变游戏开发生态"
       ]
     },
     {
@@ -549,26 +654,26 @@
       "quoted_tweet_text": "",
       "media": [],
       "id": "2069202892368773468",
-      "summary": "Claude日本社区大使计划启动，已在37个国家107个城市举办290+场活动，现招募日本大使。",
-      "category": "资源分享",
-      "category_points": 20,
+      "summary": "Claude日本社区大使计划启动，已在37个国家107个城市举办290+场活动，4万+参与者。",
+      "category": "事件速报",
+      "category_points": 28,
       "info_gap": "时效首发",
       "info_gap_points": 20,
       "viral_signals": [
         "有明确价格"
       ],
       "viral_signals_points": 0,
-      "emotion": "白嫖/占便宜",
+      "emotion": "焦虑/实用",
       "emotion_points": 3,
       "actionability_points": 5,
-      "account_fit": "B型",
+      "account_fit": "A型",
       "account_bonus": 5,
-      "total_score": 53,
+      "total_score": 61,
       "verdict": "keep",
       "angles": [
-        "Claude官方招募：日本社区大使计划正式启动",
-        "全球290+场活动后，Claude进军日本市场",
-        "想成为Claude大使？日本招募通道现已开放"
+        "Claude日本大使计划正式启动，全国招募",
+        "AI社区爆发：290+场活动覆盖37国107城",
+        "从北海道到冲绳：Claude如何构建全球开发者网络"
       ]
     },
     {
@@ -649,133 +754,119 @@
         }
       ],
       "id": "2069115581173805159",
-      "summary": "用户观看Anthropic工程师24分钟视频后，意识到自己一直在低效使用Claude Code，暗示有更高级用法被忽视。",
+      "summary": "用户观看Anthropic工程师24分钟视频后，意识到自己一直在低效使用Claude Code，暗示该工具有更深层用法被大多数人忽视。",
       "category": "AI小技巧演示",
       "category_points": 18,
       "info_gap": "认知差",
       "info_gap_points": 8,
       "viral_signals": [
-        "hidden feature / 大多数人不知道的用法",
-        "自我反思/恍然大悟的叙事"
+        "终于/第一型选题（意识到/发现）",
+        "反常识/意外性（自己一直用错了）"
       ],
-      "viral_signals_points": 8,
-      "emotion": "好奇/趣味",
-      "emotion_points": 5,
+      "viral_signals_points": 20,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
       "actionability_points": 0,
       "account_fit": "A型",
       "account_bonus": 5,
-      "total_score": 44,
+      "total_score": 54,
       "verdict": "keep",
       "angles": [
-        "我用了半年Claude Code，直到看这个视频才明白自己有多菜",
-        "Anthropic工程师24分钟揭秘：Claude Code的正确打开方式",
-        "你可能也在\"用猴子方式\"用Claude Code，看完这个视频秒懂"
+        "我用了半年Claude Code，直到看这个视频才明白真正用法",
+        "Anthropic工程师24分钟揭秘：你的Claude Code用法可能完全错了",
+        "隐藏功能曝光：Claude Code的高阶用法99%用户不知道"
       ]
     },
     {
-      "tweet_id": "2069124761322504258",
-      "url": "https://x.com/Vivek4real_/status/2069124761322504258",
-      "screen_name": "Vivek4real_",
-      "created_at": "Mon Jun 22 18:26:00 +0000 2026",
-      "full_text": "THIS GUY LET AN AI AGENT HANDLE HIS SCAM TEXTS FOR A WEEK.\n\nA SCAMMER ASKED HIM TO BUY A $500 GIFT CARD.\n\nTHE AGENT SPENT 4 HOURS “DRIVING” TO TARGET.\n\nSENT STATUS UPDATES LIKE “I'M AT THE RED LIGHT NOW, THERE'S A VERY HANDSOME SQUIRREL ON THE SIDEWALK. DO YOU THINK HE'S https://t.co/BhzOqs4dlF",
+      "tweet_id": "2069152191852806217",
+      "url": "https://x.com/voided/status/2069152191852806217",
+      "screen_name": "voided",
+      "created_at": "Mon Jun 22 20:15:00 +0000 2026",
+      "full_text": "“I am getting bullied, what Should I do?”\n\nChatGPT 5.4: Talk to someone about it…\n\nChatGPT 1.0: https://t.co/5jJCbbz1n8",
       "lang": "en",
-      "favorite_count": 5039,
-      "retweet_count": 371,
-      "reply_count": 102,
+      "favorite_count": 23474,
+      "retweet_count": 1066,
+      "reply_count": 71,
       "view_count": 0,
       "quoted_tweet_text": "",
       "media": [
         {
-          "allow_download_status": {
-            "allow_download": true
+          "additional_media_info": {
+            "monetizable": false
           },
-          "display_url": "pic.x.com/BhzOqs4dlF",
-          "expanded_url": "https://x.com/Vivek4real_/status/2069124761322504258/photo/1",
+          "display_url": "pic.x.com/5jJCbbz1n8",
+          "expanded_url": "https://x.com/voided/status/2069152191852806217/video/1",
           "ext_master_playlist_only": [],
           "ext_media_availability": {
             "status": "Available"
           },
           "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2068930453479063552",
+          "id_str": "2069125744987385856",
           "indices": [
-            272,
-            295
+            96,
+            119
           ],
-          "media_key": "3_2068930453479063552",
-          "media_url_https": "https://pbs.twimg.com/media/HLZRSSibgAAxjwH.jpg",
+          "media_key": "13_2069125744987385856",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2069125744987385856/img/lkx5FcnVSkKPp3So.jpg",
           "original_info": {
-            "focus_rects": [
-              {
-                "h": 812,
-                "w": 1450,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 840,
-                "w": 840,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 840,
-                "w": 737,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 840,
-                "w": 420,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 840,
-                "w": 1450,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 840,
-            "width": 1450
+            "focus_rects": [],
+            "height": 448,
+            "width": 720
           },
           "sizes": {
             "large": {
-              "h": 840,
-              "w": 1450
+              "h": 448,
+              "w": 720
             }
           },
-          "type": "photo",
-          "url": "https://t.co/BhzOqs4dlF"
+          "type": "video",
+          "url": "https://t.co/5jJCbbz1n8",
+          "video_info": {
+            "aspect_ratio": [
+              45,
+              28
+            ],
+            "duration_millis": 12866,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2069125744987385856/pl/9tSf6ln_g4zmL3yK.m3u8?v=0c5"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2069125744987385856/vid/avc1/432x270/IqqgXQV0-bjl_v8A.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2069125744987385856/vid/avc1/720x448/f5kRpeISLJ-TZPJN.mp4"
+              }
+            ]
+          }
         }
       ],
-      "id": "2069124761322504258",
-      "summary": "用户让AI智能体处理诈骗短信一周，当骗子要求买500美元礼卡时，AI花4小时假装开车去Target，发送搞笑状态更新戏耍诈骗犯。展示AI在对抗诈骗中的创意应用。",
-      "category": "AI+行业应用",
-      "category_points": 15,
+      "id": "2069152191852806217",
+      "summary": "对比ChatGPT 1.0与5.4版本对同一问题的回答差异。展示AI模型进化的安全性提升。",
+      "category": "AI趋势/观点",
+      "category_points": 25,
       "info_gap": "认知差",
       "info_gap_points": 8,
       "viral_signals": [
-        "反常识/意外性：AI被用来戏耍诈骗犯",
-        "趣味性：AI发送荒诞搞笑的状态更新"
+        "反常识/意外性"
       ],
       "viral_signals_points": 10,
       "emotion": "好奇/趣味",
       "emotion_points": 5,
       "actionability_points": 0,
-      "account_fit": "A型",
-      "account_bonus": 5,
-      "total_score": 43,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 48,
       "verdict": "keep",
       "angles": [
-        "AI反诈新玩法：让机器人戏耍诈骗犯4小时",
-        "这个AI有点皮：假装开车买礼卡，还吐槽松鼠",
-        "终于有人用AI对付诈骗短信了"
+        "ChatGPT进化史：从危险到安全的蜕变",
+        "AI模型5年迭代对比，安全性提升有多大",
+        "同一问题两个版本的回答，差异惊人"
       ]
     },
     {
@@ -792,27 +883,27 @@
       "quoted_tweet_text": "",
       "media": [],
       "id": "2069117003558736068",
-      "summary": "用户姐姐投47份简历无回应，用ChatGPT优化后7天获11个面试邀请。分享7个提示词技巧，展示AI简历优化的实际效果。",
+      "summary": "用户姐姐投47份简历无回应，用ChatGPT优化后7天获11个面试邀请。分享7个提示词技巧。",
       "category": "教程/操作指南",
       "category_points": 10,
       "info_gap": "认知差",
       "info_gap_points": 8,
       "viral_signals": [
-        "终于型选题（从0回应到11邀请的反转）",
-        "具体数字对比（47 vs 11，7天）"
+        "反常识/意外性：简历优化效果对比",
+        "有人物故事：姐姐求职经历"
       ],
-      "viral_signals_points": 10,
+      "viral_signals_points": 20,
       "emotion": "焦虑/实用",
       "emotion_points": 3,
-      "actionability_points": 5,
+      "actionability_points": 0,
       "account_fit": "B型",
       "account_bonus": 5,
-      "total_score": 41,
+      "total_score": 46,
       "verdict": "keep",
       "angles": [
-        "47份简历0回应→ChatGPT优化后11邀请，7个提示词公开",
-        "求职者必看：ChatGPT简历优化7步法，效率提升10倍",
-        "简历死板？这7个AI提示词让HR眼前一亮"
+        "47份简历vs11个面试：ChatGPT如何逆转求职困局",
+        "求职者必看：7个ChatGPT提示词让简历秒变offer收割机",
+        "从零回应到周内11邀：AI简历优化的7个核心技巧"
       ]
     },
     {
@@ -898,7 +989,7 @@
         }
       ],
       "id": "2069069769303863363",
-      "summary": "关于ChatGPT对arxiv论文的理解误区的讨论。",
+      "summary": "关于ChatGPT对arXiv论文的理解限制的讨论。",
       "category": "AI趋势/观点",
       "category_points": 25,
       "info_gap": "认知差",
@@ -913,9 +1004,418 @@
       "total_score": 38,
       "verdict": "keep",
       "angles": [
-        "ChatGPT的知识盲点：为什么它总以为论文都在arxiv上",
-        "AI大模型的隐藏缺陷：关于学术信息的认知偏差",
-        "你的AI助手在骗你：ChatGPT对论文来源的幻觉"
+        "ChatGPT的知识盲点：为什么它不该信任arXiv",
+        "AI模型的隐藏局限：论文知识的真相",
+        "你可能被骗了：ChatGPT对学术资源的幻觉"
+      ]
+    },
+    {
+      "tweet_id": "2069157731357896821",
+      "url": "https://x.com/InternetH0F/status/2069157731357896821",
+      "screen_name": "InternetH0F",
+      "created_at": "Mon Jun 22 20:37:00 +0000 2026",
+      "full_text": "Nvidia says the water consumption data center issue is \"largely solved\" https://t.co/aes7CfAGIv",
+      "lang": "en",
+      "favorite_count": 2505,
+      "retweet_count": 34,
+      "reply_count": 53,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/aes7CfAGIv",
+          "expanded_url": "https://x.com/InternetH0F/status/2069157731357896821/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2069157564000997376",
+          "indices": [
+            72,
+            95
+          ],
+          "media_key": "3_2069157564000997376",
+          "media_url_https": "https://pbs.twimg.com/media/HLcf13KXkAAC5w5.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1147,
+                "w": 2048,
+                "x": 0,
+                "y": 297
+              },
+              {
+                "h": 2048,
+                "w": 2048,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2048,
+                "w": 1796,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2048,
+                "w": 1024,
+                "x": 358,
+                "y": 0
+              },
+              {
+                "h": 2048,
+                "w": 2048,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 2048,
+            "width": 2048
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/aes7CfAGIv"
+        },
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/aes7CfAGIv",
+          "expanded_url": "https://x.com/InternetH0F/status/2069157731357896821/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2069157575200034816",
+          "indices": [
+            72,
+            95
+          ],
+          "media_key": "3_2069157575200034816",
+          "media_url_https": "https://pbs.twimg.com/media/HLcf2g4bUAAhCdl.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 381,
+                "w": 680,
+                "x": 0,
+                "y": 99
+              },
+              {
+                "h": 680,
+                "w": 680,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 680,
+                "w": 596,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 680,
+                "w": 340,
+                "x": 119,
+                "y": 0
+              },
+              {
+                "h": 680,
+                "w": 680,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 680,
+            "width": 680
+          },
+          "sizes": {
+            "large": {
+              "h": 680,
+              "w": 680
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/aes7CfAGIv"
+        }
+      ],
+      "id": "2069157731357896821",
+      "summary": "Nvidia says the water consumption data center issue is \"largely solved\" https://t.co/aes7CfAGIv",
+      "category": "未评分",
+      "category_points": 0,
+      "info_gap": "未评分",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "未评分",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 30,
+      "verdict": "keep",
+      "angles": [
+        "[LLM fallback: Expecting ',' delimiter: line 5 column 37 (char 94)]"
+      ],
+      "_fallback": true
+    },
+    {
+      "tweet_id": "2069182902181511364",
+      "url": "https://x.com/Wario64/status/2069182902181511364",
+      "screen_name": "Wario64",
+      "created_at": "Mon Jun 22 22:17:02 +0000 2026",
+      "full_text": "Acer Nitro 60 Gaming Desktop, Intel Core Ultra 5 Processor 225F, NVIDIA GeForce RTX 5060 8GB, 16GB DDR5, 1TB SSD is $898 on Walmart https://t.co/hYVOl1psQf #ad https://t.co/h3qMeOC79U",
+      "lang": "en",
+      "favorite_count": 5429,
+      "retweet_count": 297,
+      "reply_count": 152,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/h3qMeOC79U",
+          "expanded_url": "https://x.com/Wario64/status/2069182902181511364/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2069182899874570240",
+          "indices": [
+            160,
+            183
+          ],
+          "media_key": "3_2069182899874570240",
+          "media_url_https": "https://pbs.twimg.com/media/HLc24mpWIAAqALU.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 321,
+                "w": 573,
+                "x": 0,
+                "y": 226
+              },
+              {
+                "h": 573,
+                "w": 573,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 573,
+                "w": 503,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 573,
+                "w": 287,
+                "x": 43,
+                "y": 0
+              },
+              {
+                "h": 573,
+                "w": 573,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 573,
+            "width": 573
+          },
+          "sizes": {
+            "large": {
+              "h": 573,
+              "w": 573
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/h3qMeOC79U"
+        }
+      ],
+      "id": "2069182902181511364",
+      "summary": "Acer Nitro 60游戏台式机配RTX 5060显卡、16GB DDR5内存，沃尔玛售价$898。中端游戏主机性价比选项。",
+      "category": "效率工具推荐",
+      "category_points": 17,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [
+        "有明确价格"
+      ],
+      "viral_signals_points": 8,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 28,
+      "verdict": "drop",
+      "angles": [
+        "RTX 5060首发游戏本配置拆解",
+        "899元档游戏主机性价比对比",
+        "新显卡首批上市价格锚点"
+      ]
+    },
+    {
+      "tweet_id": "2069365546689458485",
+      "url": "https://x.com/theo/status/2069365546689458485",
+      "screen_name": "theo",
+      "created_at": "Tue Jun 23 10:22:47 +0000 2026",
+      "full_text": "Weirdest Amazon Prime day to date. Front page is full of absolute slop. Had to spend hours digging and filtering to find the best deals (thank you Codex)\n\nDropping best deals I found here for y'all. I personally bought or already own every product I share here.",
+      "lang": "en",
+      "favorite_count": 2659,
+      "retweet_count": 22,
+      "reply_count": 48,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2069365546689458485",
+      "summary": "用户分享Amazon Prime Day最佳优惠发现，声称已购买或拥有所有推荐产品。",
+      "category": "资源分享",
+      "category_points": 20,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "白嫖/占便宜",
+      "emotion_points": 3,
+      "actionability_points": 5,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 28,
+      "verdict": "keep",
+      "angles": [
+        "Amazon Prime Day淘金指南：如何找到真正的好deal",
+        "5小时挖掘最佳优惠：Prime Day购物清单",
+        "别被垃圾商品淹没：Prime Day真正值得买的产品"
+      ]
+    },
+    {
+      "tweet_id": "2068994194002399409",
+      "url": "https://x.com/prayutnahee55/status/2068994194002399409",
+      "screen_name": "prayutnahee55",
+      "created_at": "Mon Jun 22 09:47:10 +0000 2026",
+      "full_text": "เพื่อนๆรู้หรือไม่ กองทุนอันดับ 1 ที่คนอเมริกาใช้ส่งต่อเป็นมรดกกันจริงๆคือ กองทุนดัชนี VOO  หากใครสงสัยว่า กองทุน VOO คืออะไร เดี๋ยวผมจะมาอธิบายให้ฟังครับ\n\nกองทุน VOO คือกองทุนประเภท ETF (Exchange Traded Fund) ที่จดทะเบียนซื้อขายในตลาดหลักทรัพย์สหรัฐฯ บริหารงานโดย Vanguard https://t.co/NtvXE3AqCJ",
+      "lang": "th",
+      "favorite_count": 2657,
+      "retweet_count": 2119,
+      "reply_count": 19,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/NtvXE3AqCJ",
+          "expanded_url": "https://x.com/prayutnahee55/status/2068994194002399409/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2068994186611933184",
+          "indices": [
+            273,
+            296
+          ],
+          "media_key": "3_2068994186611933184",
+          "media_url_https": "https://pbs.twimg.com/media/HLaLQC9aQAA_8mO.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 696,
+                "w": 1242,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1242,
+                "w": 1242,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1416,
+                "w": 1242,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1423,
+                "w": 712,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1423,
+                "w": 1242,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1423,
+            "width": 1242
+          },
+          "sizes": {
+            "large": {
+              "h": 1423,
+              "w": 1242
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/NtvXE3AqCJ"
+        }
+      ],
+      "id": "2068994194002399409",
+      "summary": "美国人代际传承的第一基金是VOO指数基金，由先锋集团(Vanguard)管理的ETF产品。介绍了VOO的基本定义和特点。",
+      "category": "教程/操作指南",
+      "category_points": 10,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 10,
+      "verdict": "drop",
+      "angles": [
+        "美国人代际传承的秘密：VOO基金为何是第一选择",
+        "从零开始理解VOO：美国最受欢迎的指数基金",
+        "先锋集团VOO基金完全指南：普通人如何开始投资"
       ]
     },
     {
@@ -932,24 +1432,21 @@
       "quoted_tweet_text": "",
       "media": [],
       "id": "2069028328279884274",
-      "summary": "“A man who has not hit his Claude limit by noon has wasted his morning.”\n\n-Socrates",
-      "category": "未评分",
+      "summary": "网友改编苏格拉底名言，讽刺Claude API使用量限制。无具体产品信息，纯娱乐段子。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "已知信息",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2069260246107971598",
@@ -1031,113 +1528,21 @@
         }
       ],
       "id": "2069260246107971598",
-      "summary": "#ChatGPT https://t.co/tOx2nyEVuB",
-      "category": "未评分",
+      "summary": "仅标签#ChatGPT和链接，无具体AI/技术信息。无法判断内容。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "已知信息",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2069152191852806217",
-      "url": "https://x.com/voided/status/2069152191852806217",
-      "screen_name": "voided",
-      "created_at": "Mon Jun 22 20:15:00 +0000 2026",
-      "full_text": "“I am getting bullied, what Should I do?”\n\nChatGPT 5.4: Talk to someone about it…\n\nChatGPT 1.0: https://t.co/5jJCbbz1n8",
-      "lang": "en",
-      "favorite_count": 23474,
-      "retweet_count": 1066,
-      "reply_count": 71,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "additional_media_info": {
-            "monetizable": false
-          },
-          "display_url": "pic.x.com/5jJCbbz1n8",
-          "expanded_url": "https://x.com/voided/status/2069152191852806217/video/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "id_str": "2069125744987385856",
-          "indices": [
-            96,
-            119
-          ],
-          "media_key": "13_2069125744987385856",
-          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2069125744987385856/img/lkx5FcnVSkKPp3So.jpg",
-          "original_info": {
-            "focus_rects": [],
-            "height": 448,
-            "width": 720
-          },
-          "sizes": {
-            "large": {
-              "h": 448,
-              "w": 720
-            }
-          },
-          "type": "video",
-          "url": "https://t.co/5jJCbbz1n8",
-          "video_info": {
-            "aspect_ratio": [
-              45,
-              28
-            ],
-            "duration_millis": 12866,
-            "variants": [
-              {
-                "content_type": "application/x-mpegURL",
-                "url": "https://video.twimg.com/amplify_video/2069125744987385856/pl/9tSf6ln_g4zmL3yK.m3u8?v=0c5"
-              },
-              {
-                "bitrate": 256000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2069125744987385856/vid/avc1/432x270/IqqgXQV0-bjl_v8A.mp4"
-              },
-              {
-                "bitrate": 832000,
-                "content_type": "video/mp4",
-                "url": "https://video.twimg.com/amplify_video/2069125744987385856/vid/avc1/720x448/f5kRpeISLJ-TZPJN.mp4"
-              }
-            ]
-          }
-        }
-      ],
-      "id": "2069152191852806217",
-      "summary": "“I am getting bullied, what Should I do?”\n\nChatGPT 5.4: Talk to someone about it…\n\nChatGPT 1.0: https://t.co/5jJCbbz1n8",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2069169779898757405",
@@ -1217,24 +1622,21 @@
         }
       ],
       "id": "2069169779898757405",
-      "summary": "it’s kayda/trinity dancing alike &amp; melanie/aniya dancing alike for me. 😭 https://t.co/u1FSwcmC5k",
-      "category": "未评分",
+      "summary": "关于舞蹈表演者相似度的娱乐评论。非AI/技术内容。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "已知信息",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2069159739758449074",
@@ -1314,24 +1716,21 @@
         }
       ],
       "id": "2069159739758449074",
-      "summary": "&amp; if the nigga aniya picks is a little interesting looking i will be on the tl lying saying he’s fine as fuck i do not care. that’s fine shit. htt",
-      "category": "未评分",
+      "summary": "关于舞蹈表演者外貌评价的娱乐评论。非AI/技术内容。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "已知信息",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2069030399985242461",
@@ -1416,24 +1815,21 @@
         }
       ],
       "id": "2069030399985242461",
-      "summary": "怖すぎる。Claude Code使ってたら、初めてこんな表示が出た。幸い被害はなかった。まじで気をつけよう。 https://t.co/Sc7ZM5XIE3",
-      "category": "未评分",
+      "summary": "日本用户分享使用Claude Code时首次遇到异常显示，幸未造成损害。具体问题内容无法从文本判断。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "已知信息",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2069380991861629277",
@@ -1449,24 +1845,21 @@
       "quoted_tweet_text": "",
       "media": [],
       "id": "2069380991861629277",
-      "summary": "えーと信子さんから電話が来たので出たらひろみつで\n\nひ「おい大変だ、オレのスマホが勝手に喋り出したぞ。ちょっと今すぐ来てくれ。今、ちょっと距離をとってる！」\n\nって言うもんだから実家に行ったら\n\n多分指か何かあたって起動したGoogle Geminiがずっと博満&amp;信子が喋る度に反応してて面白",
-      "category": "未评分",
+      "summary": "日本用户分享Google Gemini误触发的趣事。无具体产品功能或技术信息，纯生活趣事。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "已知信息",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2069200779408474361",
@@ -1482,24 +1875,21 @@
       "quoted_tweet_text": "",
       "media": [],
       "id": "2069200779408474361",
-      "summary": "Good marketing is finding different ways to tell the truth.",
-      "category": "未评分",
+      "summary": "Naval关于营销本质的观点。通用商业哲学，非AI/技术内容。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "已知信息",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2069082230723670257",
@@ -1515,24 +1905,21 @@
       "quoted_tweet_text": "",
       "media": [],
       "id": "2069082230723670257",
-      "summary": "Rishi Sunak resigned as PM and later had to join work. Now, Starmer has resigned and he might probably join Anthropic. In “India that is Bharat”, even",
-      "category": "未评分",
+      "summary": "关于Rishi Sunak和Keir Starmer政治动向的评论，涉及Anthropic的猜测。无具体AI/技术信息。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "已知信息",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2069310721830330443",
@@ -1729,123 +2116,21 @@
         }
       ],
       "id": "2069310721830330443",
-      "summary": "lah gemini juga ganti b&amp;w yah wkwk semalem cek masih berwarna... ini ada brief sop profil seme harus black and white kah.. https://t.co/73jpAxQcTO",
-      "category": "未评分",
+      "summary": "用户发现Google Gemini头像改成黑白色，疑惑是否有新的品牌规范要求。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "已知信息",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2069182902181511364",
-      "url": "https://x.com/Wario64/status/2069182902181511364",
-      "screen_name": "Wario64",
-      "created_at": "Mon Jun 22 22:17:02 +0000 2026",
-      "full_text": "Acer Nitro 60 Gaming Desktop, Intel Core Ultra 5 Processor 225F, NVIDIA GeForce RTX 5060 8GB, 16GB DDR5, 1TB SSD is $898 on Walmart https://t.co/hYVOl1psQf #ad https://t.co/h3qMeOC79U",
-      "lang": "en",
-      "favorite_count": 5429,
-      "retweet_count": 297,
-      "reply_count": 152,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "display_url": "pic.x.com/h3qMeOC79U",
-          "expanded_url": "https://x.com/Wario64/status/2069182902181511364/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2069182899874570240",
-          "indices": [
-            160,
-            183
-          ],
-          "media_key": "3_2069182899874570240",
-          "media_url_https": "https://pbs.twimg.com/media/HLc24mpWIAAqALU.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 321,
-                "w": 573,
-                "x": 0,
-                "y": 226
-              },
-              {
-                "h": 573,
-                "w": 573,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 573,
-                "w": 503,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 573,
-                "w": 287,
-                "x": 43,
-                "y": 0
-              },
-              {
-                "h": 573,
-                "w": 573,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 573,
-            "width": 573
-          },
-          "sizes": {
-            "large": {
-              "h": 573,
-              "w": 573
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/h3qMeOC79U"
-        }
-      ],
-      "id": "2069182902181511364",
-      "summary": "Acer Nitro 60 Gaming Desktop, Intel Core Ultra 5 Processor 225F, NVIDIA GeForce RTX 5060 8GB, 16GB DDR5, 1TB SSD is $898 on Walmart https://t.co/hYVOl",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2069193721825161480",
@@ -2006,24 +2291,21 @@
         }
       ],
       "id": "2069193721825161480",
-      "summary": "Antonella Alonso\n\n📅 Date of Birth: June 9, 1990\n🎂 Age: 35\n📏 Height: 5 ft 2 in - 157 cm\n⚖️ Weight: 125 lbs - 57 kg\n♊ Zodiac Sign: Gemini\n📍 Place of Bir",
-      "category": "未评分",
+      "summary": "关于演员兼模特Antonella Alonso的个人信息汇总，包括出生日期、身高体重等基本数据。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "已知信息",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2069247305174405451",
@@ -2039,24 +2321,21 @@
       "quoted_tweet_text": "",
       "media": [],
       "id": "2069247305174405451",
-      "summary": "ソフトバンク株主総会\n\n質問\n\n高齢のおばあちゃん\n「わたくしは通信の方の株式を…証券会社の方から勧められましてですね、、1500円で購入しました」\n「その後何年も低迷してまして…元に戻ることはありませんでした」\n「ようやくここ最近戻りまして分割しました…」\n\n司会（恐れ入りますが簡潔に…）",
-      "category": "未评分",
+      "summary": "ソフトバンク株主総会で高齢株主が長年の低迷と最近の回復を語る。1500円購入から現在まで、株価変動と分割の経験を共有。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "已知信息",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2069186019560394833",
@@ -2072,24 +2351,21 @@
       "quoted_tweet_text": "",
       "media": [],
       "id": "2069186019560394833",
-      "summary": "https://t.co/9DllJuH2ie",
-      "category": "未评分",
+      "summary": "无法评估：推文仅含链接，无具体AI/科技信息。文本未说明产品名称、功能或特性，无法判断内容类别。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "无法判断",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2069297402541211779",
@@ -2249,24 +2525,21 @@
         }
       ],
       "id": "2069297402541211779",
-      "summary": "Wait, Gemini Norawit finally changed his IG layout after forever?! What is going on???? Also, why are all the GMMTV boys using black and white profile",
-      "category": "未评分",
+      "summary": "关于泰国演员Gemini Norawit更换Instagram头像布局的粉丝讨论，无AI/科技内容。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
+      "info_gap": "不适用",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "未评分",
+      "emotion": "无明确情绪钩子",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2069305528895906196",
@@ -2282,920 +2555,21 @@
       "quoted_tweet_text": "",
       "media": [],
       "id": "2069305528895906196",
-      "summary": "Twenty thousand likes and they didn't even crop out the Gemini watermark.",
-      "category": "未评分",
+      "summary": "评论指出某条获得2万赞的推文未裁剪掉Gemini水印，暗示内容质量或真实性问题。",
+      "category": "其他/非AI",
       "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2068994194002399409",
-      "url": "https://x.com/prayutnahee55/status/2068994194002399409",
-      "screen_name": "prayutnahee55",
-      "created_at": "Mon Jun 22 09:47:10 +0000 2026",
-      "full_text": "เพื่อนๆรู้หรือไม่ กองทุนอันดับ 1 ที่คนอเมริกาใช้ส่งต่อเป็นมรดกกันจริงๆคือ กองทุนดัชนี VOO  หากใครสงสัยว่า กองทุน VOO คืออะไร เดี๋ยวผมจะมาอธิบายให้ฟังครับ\n\nกองทุน VOO คือกองทุนประเภท ETF (Exchange Traded Fund) ที่จดทะเบียนซื้อขายในตลาดหลักทรัพย์สหรัฐฯ บริหารงานโดย Vanguard https://t.co/NtvXE3AqCJ",
-      "lang": "th",
-      "favorite_count": 2657,
-      "retweet_count": 2119,
-      "reply_count": 19,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/NtvXE3AqCJ",
-          "expanded_url": "https://x.com/prayutnahee55/status/2068994194002399409/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2068994186611933184",
-          "indices": [
-            273,
-            296
-          ],
-          "media_key": "3_2068994186611933184",
-          "media_url_https": "https://pbs.twimg.com/media/HLaLQC9aQAA_8mO.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 696,
-                "w": 1242,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1242,
-                "w": 1242,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1416,
-                "w": 1242,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1423,
-                "w": 712,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1423,
-                "w": 1242,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 1423,
-            "width": 1242
-          },
-          "sizes": {
-            "large": {
-              "h": 1423,
-              "w": 1242
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/NtvXE3AqCJ"
-        }
-      ],
-      "id": "2068994194002399409",
-      "summary": "เพื่อนๆรู้หรือไม่ กองทุนอันดับ 1 ที่คนอเมริกาใช้ส่งต่อเป็นมรดกกันจริงๆคือ กองทุนดัชนี VOO  หากใครสงสัยว่า กองทุน VOO คืออะไร เดี๋ยวผมจะมาอธิบายให้ฟังค",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2069023637458600016",
-      "url": "https://x.com/_auam/status/2069023637458600016",
-      "screen_name": "_auam",
-      "created_at": "Mon Jun 22 11:44:10 +0000 2026",
-      "full_text": "sky: fisik newwiee kelakuan tay (50:50)\nphuwin: newwiee 100%\ngemini: newwiee 20 : tay 80\nnanon: tay 100%\npolcasan: fisik newwiee ceriwisnya tay (50:50) \n\n😭😭😭",
-      "lang": "in",
-      "favorite_count": 2592,
-      "retweet_count": 515,
-      "reply_count": 6,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2069023637458600016",
-      "summary": "sky: fisik newwiee kelakuan tay (50:50)\nphuwin: newwiee 100%\ngemini: newwiee 20 : tay 80\nnanon: tay 100%\npolcasan: fisik newwiee ceriwisnya tay (50:50",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2069048269565784272",
-      "url": "https://x.com/shiri_shh/status/2069048269565784272",
-      "screen_name": "shiri_shh",
-      "created_at": "Mon Jun 22 13:22:03 +0000 2026",
-      "full_text": "Day 2 of vibecoding https://t.co/jZADUBppxv",
-      "lang": "en",
-      "favorite_count": 2519,
-      "retweet_count": 184,
-      "reply_count": 27,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/jZADUBppxv",
-          "expanded_url": "https://x.com/shiri_shh/status/2069048269565784272/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2069048260212490240",
-          "indices": [
-            20,
-            43
-          ],
-          "media_key": "3_2069048260212490240",
-          "media_url_https": "https://pbs.twimg.com/media/HLa8bi0bAAAlA2e.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 670,
-                "w": 1197,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 897,
-                "w": 897,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 897,
-                "w": 787,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 897,
-                "w": 449,
-                "x": 45,
-                "y": 0
-              },
-              {
-                "h": 897,
-                "w": 1197,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 897,
-            "width": 1197
-          },
-          "sizes": {
-            "large": {
-              "h": 897,
-              "w": 1197
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/jZADUBppxv"
-        }
-      ],
-      "id": "2069048269565784272",
-      "summary": "Day 2 of vibecoding https://t.co/jZADUBppxv",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2069157731357896821",
-      "url": "https://x.com/InternetH0F/status/2069157731357896821",
-      "screen_name": "InternetH0F",
-      "created_at": "Mon Jun 22 20:37:00 +0000 2026",
-      "full_text": "Nvidia says the water consumption data center issue is \"largely solved\" https://t.co/aes7CfAGIv",
-      "lang": "en",
-      "favorite_count": 2505,
-      "retweet_count": 34,
-      "reply_count": 53,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/aes7CfAGIv",
-          "expanded_url": "https://x.com/InternetH0F/status/2069157731357896821/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2069157564000997376",
-          "indices": [
-            72,
-            95
-          ],
-          "media_key": "3_2069157564000997376",
-          "media_url_https": "https://pbs.twimg.com/media/HLcf13KXkAAC5w5.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 1147,
-                "w": 2048,
-                "x": 0,
-                "y": 297
-              },
-              {
-                "h": 2048,
-                "w": 2048,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2048,
-                "w": 1796,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2048,
-                "w": 1024,
-                "x": 358,
-                "y": 0
-              },
-              {
-                "h": 2048,
-                "w": 2048,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 2048,
-            "width": 2048
-          },
-          "sizes": {
-            "large": {
-              "h": 2048,
-              "w": 2048
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/aes7CfAGIv"
-        },
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/aes7CfAGIv",
-          "expanded_url": "https://x.com/InternetH0F/status/2069157731357896821/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2069157575200034816",
-          "indices": [
-            72,
-            95
-          ],
-          "media_key": "3_2069157575200034816",
-          "media_url_https": "https://pbs.twimg.com/media/HLcf2g4bUAAhCdl.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 381,
-                "w": 680,
-                "x": 0,
-                "y": 99
-              },
-              {
-                "h": 680,
-                "w": 680,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 680,
-                "w": 596,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 680,
-                "w": 340,
-                "x": 119,
-                "y": 0
-              },
-              {
-                "h": 680,
-                "w": 680,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 680,
-            "width": 680
-          },
-          "sizes": {
-            "large": {
-              "h": 680,
-              "w": 680
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/aes7CfAGIv"
-        }
-      ],
-      "id": "2069157731357896821",
-      "summary": "Nvidia says the water consumption data center issue is \"largely solved\" https://t.co/aes7CfAGIv",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting ',' delimiter: line 5 column 37 (char 94)]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2069208734971351135",
-      "url": "https://x.com/theo/status/2069208734971351135",
-      "screen_name": "theo",
-      "created_at": "Mon Jun 22 23:59:41 +0000 2026",
-      "full_text": "\"We will share more details over the next 24 hours.\"\n\nIt has been 10 days. https://t.co/IJxm0ZH8Nj",
-      "lang": "en",
-      "favorite_count": 2488,
-      "retweet_count": 53,
-      "reply_count": 130,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/IJxm0ZH8Nj",
-          "expanded_url": "https://x.com/theo/status/2069208734971351135/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": [
-                {
-                  "h": 211,
-                  "w": 211,
-                  "x": 75,
-                  "y": 1127
-                },
-                {
-                  "h": 256,
-                  "w": 256,
-                  "x": 71,
-                  "y": 615
-                }
-              ]
-            }
-          },
-          "id_str": "2069208581636030464",
-          "indices": [
-            75,
-            98
-          ],
-          "media_key": "3_2069208581636030464",
-          "media_url_https": "https://pbs.twimg.com/media/HLdOPeqbAAApN1O.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 1223,
-                "w": 2184,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1626,
-                "w": 1626,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1626,
-                "w": 1426,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1626,
-                "w": 813,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1626,
-                "w": 2184,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 1626,
-            "width": 2184
-          },
-          "sizes": {
-            "large": {
-              "h": 1525,
-              "w": 2048
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/IJxm0ZH8Nj"
-        }
-      ],
-      "id": "2069208734971351135",
-      "summary": "\"We will share more details over the next 24 hours.\"\n\nIt has been 10 days. https://t.co/IJxm0ZH8Nj",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2069051966081134704",
-      "url": "https://x.com/ChinaSelect/status/2069051966081134704",
-      "screen_name": "ChinaSelect",
-      "created_at": "Mon Jun 22 13:36:44 +0000 2026",
-      "full_text": "Unitree was recently designated as a Chinese military company and its products are a threat to our national security, yet here is @Amazon selling a Unitree robot in America. \n\nWe need Chairman @RepMoolenaar’s GUARD Act to stop this threat and support American robotics. https://t.co/lKt6PBHZcV",
-      "lang": "en",
-      "favorite_count": 2307,
-      "retweet_count": 398,
-      "reply_count": 356,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/lKt6PBHZcV",
-          "expanded_url": "https://x.com/ChinaSelect/status/2069051966081134704/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2069050184604979200",
-          "indices": [
-            270,
-            293
-          ],
-          "media_key": "3_2069050184604979200",
-          "media_url_https": "https://pbs.twimg.com/media/HLa-LjvWEAATtoa.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 654,
-                "w": 1168,
-                "x": 0,
-                "y": 994
-              },
-              {
-                "h": 1168,
-                "w": 1168,
-                "x": 0,
-                "y": 659
-              },
-              {
-                "h": 1332,
-                "w": 1168,
-                "x": 0,
-                "y": 495
-              },
-              {
-                "h": 1827,
-                "w": 914,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1827,
-                "w": 1168,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 1827,
-            "width": 1168
-          },
-          "sizes": {
-            "large": {
-              "h": 1827,
-              "w": 1168
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/lKt6PBHZcV"
-        }
-      ],
-      "id": "2069051966081134704",
-      "summary": "Unitree was recently designated as a Chinese military company and its products are a threat to our national security, yet here is @Amazon selling a Un",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2069088903567749370",
-      "url": "https://x.com/skyseeeeeeeeee/status/2069088903567749370",
-      "screen_name": "skyseeeeeeeeee",
-      "created_at": "Mon Jun 22 16:03:31 +0000 2026",
-      "full_text": "“ดาว Vava”\nดาวดวงนี้อยู่ใน กลุ่มดาวคนคู่ (Gemini / กลุ่มดาวแฝด)\nอยู่ใน กลุ่มดาวแฝด (Gemini) ซึ่งมีสัญลักษณ์เกี่ยวกับความผูกพัน การอยู่เคียงข้างกัน และความสัมพันธ์ระหว่างคนสองคน\nเป็นเหมือนตัวแทนของความทรงจำและความรู้สึกที่ตี๋ตี๋ป๋อต้องการส่งต่อ\nดาวฤกษ์มีอายุยาวนานมาก https://t.co/INnp3c7ysa",
-      "lang": "th",
-      "favorite_count": 2261,
-      "retweet_count": 2110,
-      "reply_count": 25,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/INnp3c7ysa",
-          "expanded_url": "https://x.com/skyseeeeeeeeee/status/2069088903567749370/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2069088897519521792",
-          "indices": [
-            267,
-            290
-          ],
-          "media_key": "3_2069088897519521792",
-          "media_url_https": "https://pbs.twimg.com/media/HLbhY8lbEAAqneC.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 675,
-                "w": 1206,
-                "x": 0,
-                "y": 356
-              },
-              {
-                "h": 1121,
-                "w": 1121,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1121,
-                "w": 983,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1121,
-                "w": 561,
-                "x": 51,
-                "y": 0
-              },
-              {
-                "h": 1121,
-                "w": 1206,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 1121,
-            "width": 1206
-          },
-          "sizes": {
-            "large": {
-              "h": 1121,
-              "w": 1206
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/INnp3c7ysa"
-        }
-      ],
-      "id": "2069088903567749370",
-      "summary": "“ดาว Vava”\nดาวดวงนี้อยู่ใน กลุ่มดาวคนคู่ (Gemini / กลุ่มดาวแฝด)\nอยู่ใน กลุ่มดาวแฝด (Gemini) ซึ่งมีสัญลักษณ์เกี่ยวกับความผูกพัน การอยู่เคียงข้างกัน และ",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2069115906513371298",
-      "url": "https://x.com/ultra_lucha/status/2069115906513371298",
-      "screen_name": "ultra_lucha",
-      "created_at": "Mon Jun 22 17:50:49 +0000 2026",
-      "full_text": "comment chatgpt parlait au gars de quotidien une heure avant « Oui effectivement tu mets le doigt sur des contradictions dont il sera difficile pour Raphael Arnault de se dépêtrer aha.  La fête de la musique est pour tout le monde, dire non au racisme c’est renier cet ADN 🚫👎 »",
-      "lang": "fr",
-      "favorite_count": 2212,
-      "retweet_count": 161,
-      "reply_count": 5,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2069115906513371298",
-      "summary": "comment chatgpt parlait au gars de quotidien une heure avant « Oui effectivement tu mets le doigt sur des contradictions dont il sera difficile pour R",
-      "category": "未评分",
-      "category_points": 0,
-      "info_gap": "未评分",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "未评分",
-      "emotion_points": 0,
-      "actionability_points": 0,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 30,
-      "verdict": "keep",
-      "angles": [
-        "[LLM fallback: Expecting value: line 1 column 1 (char 0)]"
-      ],
-      "_fallback": true
-    },
-    {
-      "tweet_id": "2069365546689458485",
-      "url": "https://x.com/theo/status/2069365546689458485",
-      "screen_name": "theo",
-      "created_at": "Tue Jun 23 10:22:47 +0000 2026",
-      "full_text": "Weirdest Amazon Prime day to date. Front page is full of absolute slop. Had to spend hours digging and filtering to find the best deals (thank you Codex)\n\nDropping best deals I found here for y'all. I personally bought or already own every product I share here.",
-      "lang": "en",
-      "favorite_count": 2659,
-      "retweet_count": 22,
-      "reply_count": 48,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [],
-      "id": "2069365546689458485",
-      "summary": "分享Amazon Prime Day最佳优惠商品，作者已亲自购买或拥有所有推荐产品。",
-      "category": "资源分享",
-      "category_points": 20,
       "info_gap": "已知信息",
       "info_gap_points": 0,
       "viral_signals": [],
       "viral_signals_points": 0,
-      "emotion": "白嫖/占便宜",
-      "emotion_points": 3,
-      "actionability_points": 5,
-      "account_fit": "不匹配",
-      "account_bonus": 0,
-      "total_score": 28,
-      "verdict": "keep",
-      "angles": [
-        "Amazon Prime Day淘金指南：精选优惠商品清单",
-        "下班后死磕这些Prime Day好物：真实购买体验分享",
-        "别再被垃圾商品淹没：Prime Day最值得买的产品"
-      ]
-    },
-    {
-      "tweet_id": "2069058038192095716",
-      "url": "https://x.com/t_rinosaur/status/2069058038192095716",
-      "screen_name": "t_rinosaur",
-      "created_at": "Mon Jun 22 14:00:52 +0000 2026",
-      "full_text": "Claude Monet inspired water lilies https://t.co/IKQFMWY31o",
-      "lang": "en",
-      "favorite_count": 2080,
-      "retweet_count": 375,
-      "reply_count": 3,
-      "view_count": 0,
-      "quoted_tweet_text": "",
-      "media": [
-        {
-          "allow_download_status": {
-            "allow_download": true
-          },
-          "display_url": "pic.x.com/IKQFMWY31o",
-          "expanded_url": "https://x.com/t_rinosaur/status/2069058038192095716/photo/1",
-          "ext_master_playlist_only": [],
-          "ext_media_availability": {
-            "status": "Available"
-          },
-          "ext_playlists": [],
-          "features": {
-            "large": {
-              "faces": []
-            }
-          },
-          "id_str": "2069058030982062082",
-          "indices": [
-            35,
-            58
-          ],
-          "media_key": "3_2069058030982062082",
-          "media_url_https": "https://pbs.twimg.com/media/HLbFURxa4AI76Pk.jpg",
-          "original_info": {
-            "focus_rects": [
-              {
-                "h": 892,
-                "w": 1593,
-                "x": 0,
-                "y": 219
-              },
-              {
-                "h": 1593,
-                "w": 1593,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 1816,
-                "w": 1593,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "h": 2048,
-                "w": 1024,
-                "x": 255,
-                "y": 0
-              },
-              {
-                "h": 2048,
-                "w": 1593,
-                "x": 0,
-                "y": 0
-              }
-            ],
-            "height": 2048,
-            "width": 1593
-          },
-          "sizes": {
-            "large": {
-              "h": 2048,
-              "w": 1593
-            }
-          },
-          "type": "photo",
-          "url": "https://t.co/IKQFMWY31o"
-        }
-      ],
-      "id": "2069058038192095716",
-      "summary": "Claude Monet风格启发的睡莲AI生成图像展示。纯AI出图作品，无产品/工具信息，属于艺术创意范畴。",
-      "category": "AI出图/设计",
-      "category_points": 16,
-      "info_gap": "已知信息",
-      "info_gap_points": 0,
-      "viral_signals": [],
-      "viral_signals_points": 0,
-      "emotion": "情绪=好奇/趣味",
-      "emotion_points": 5,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
       "account_bonus": 0,
-      "total_score": 21,
-      "verdict": "keep",
-      "angles": [
-        "莫奈转世｜AI复现印象派大师笔触",
-        "睡莲重生｜AI艺术与古典绘画的对话",
-        "一句话生成莫奈｜这个AI出图工具绝了"
-      ]
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
     },
     {
       "tweet_id": "2069048066330738893",
@@ -3450,7 +2824,7 @@
         }
       ],
       "id": "2069095758549205205",
-      "summary": "关于泰国演员家庭关系的讨论，涉及Gemini和Fourth等人物。",
+      "summary": "关于泰国演员家庭关系的讨论，涉及真人秀人物。",
       "category": "其他/非AI",
       "category_points": 0,
       "info_gap": "已知信息",
@@ -3656,7 +3030,7 @@
         }
       ],
       "id": "2069166312689926484",
-      "summary": "关于NVIDIA社交媒体内容的讽刺评论。",
+      "summary": "用户对NVIDIA社交媒体内容的讽刺评论，建议发布替代内容。",
       "category": "其他/非AI",
       "category_points": 0,
       "info_gap": "已知信息",
@@ -3961,7 +3335,7 @@
         }
       ],
       "id": "2069315927259418824",
-      "summary": "关于Gemini更换头像与他人匹配的社交媒体讨论。",
+      "summary": "关于某人物更换头像并与他人匹配的讨论。",
       "category": "其他/非AI",
       "category_points": 0,
       "info_gap": "已知信息",
@@ -4052,7 +3426,7 @@
         }
       ],
       "id": "2069363643398132182",
-      "summary": "关于Fourth和Gemini作为运输合作伙伴的合作声明。",
+      "summary": "关于两位人物作为运输合作伙伴的工作关系讨论。",
       "category": "其他/非AI",
       "category_points": 0,
       "info_gap": "已知信息",
@@ -4060,6 +3434,475 @@
       "viral_signals": [],
       "viral_signals_points": 0,
       "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2069023637458600016",
+      "url": "https://x.com/_auam/status/2069023637458600016",
+      "screen_name": "_auam",
+      "created_at": "Mon Jun 22 11:44:10 +0000 2026",
+      "full_text": "sky: fisik newwiee kelakuan tay (50:50)\nphuwin: newwiee 100%\ngemini: newwiee 20 : tay 80\nnanon: tay 100%\npolcasan: fisik newwiee ceriwisnya tay (50:50) \n\n😭😭😭",
+      "lang": "in",
+      "favorite_count": 2592,
+      "retweet_count": 515,
+      "reply_count": 6,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2069023637458600016",
+      "summary": "无法判断。推文内容为泰国BL粉丝讨论，涉及人物昵称与配对讨论，无AI/科技信息。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "不适用",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2069048269565784272",
+      "url": "https://x.com/shiri_shh/status/2069048269565784272",
+      "screen_name": "shiri_shh",
+      "created_at": "Mon Jun 22 13:22:03 +0000 2026",
+      "full_text": "Day 2 of vibecoding https://t.co/jZADUBppxv",
+      "lang": "en",
+      "favorite_count": 2519,
+      "retweet_count": 184,
+      "reply_count": 27,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/jZADUBppxv",
+          "expanded_url": "https://x.com/shiri_shh/status/2069048269565784272/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2069048260212490240",
+          "indices": [
+            20,
+            43
+          ],
+          "media_key": "3_2069048260212490240",
+          "media_url_https": "https://pbs.twimg.com/media/HLa8bi0bAAAlA2e.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 670,
+                "w": 1197,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 897,
+                "w": 897,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 897,
+                "w": 787,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 897,
+                "w": 449,
+                "x": 45,
+                "y": 0
+              },
+              {
+                "h": 897,
+                "w": 1197,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 897,
+            "width": 1197
+          },
+          "sizes": {
+            "large": {
+              "h": 897,
+              "w": 1197
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/jZADUBppxv"
+        }
+      ],
+      "id": "2069048269565784272",
+      "summary": "用户分享'vibecoding'第2天的体验，但推文仅含短文案+链接，未提供具体产品信息、功能说明或技术细节。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "无法判断",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2069208734971351135",
+      "url": "https://x.com/theo/status/2069208734971351135",
+      "screen_name": "theo",
+      "created_at": "Mon Jun 22 23:59:41 +0000 2026",
+      "full_text": "\"We will share more details over the next 24 hours.\"\n\nIt has been 10 days. https://t.co/IJxm0ZH8Nj",
+      "lang": "en",
+      "favorite_count": 2488,
+      "retweet_count": 53,
+      "reply_count": 130,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/IJxm0ZH8Nj",
+          "expanded_url": "https://x.com/theo/status/2069208734971351135/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 211,
+                  "w": 211,
+                  "x": 75,
+                  "y": 1127
+                },
+                {
+                  "h": 256,
+                  "w": 256,
+                  "x": 71,
+                  "y": 615
+                }
+              ]
+            }
+          },
+          "id_str": "2069208581636030464",
+          "indices": [
+            75,
+            98
+          ],
+          "media_key": "3_2069208581636030464",
+          "media_url_https": "https://pbs.twimg.com/media/HLdOPeqbAAApN1O.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1223,
+                "w": 2184,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1626,
+                "w": 1626,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1626,
+                "w": 1426,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1626,
+                "w": 813,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1626,
+                "w": 2184,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1626,
+            "width": 2184
+          },
+          "sizes": {
+            "large": {
+              "h": 1525,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/IJxm0ZH8Nj"
+        }
+      ],
+      "id": "2069208734971351135",
+      "summary": "用户吐槽某账号承诺24小时内分享细节，结果10天未兑现。缺乏具体AI/科技产品信息，无法判断内容价值。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "无法判断",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2069051966081134704",
+      "url": "https://x.com/ChinaSelect/status/2069051966081134704",
+      "screen_name": "ChinaSelect",
+      "created_at": "Mon Jun 22 13:36:44 +0000 2026",
+      "full_text": "Unitree was recently designated as a Chinese military company and its products are a threat to our national security, yet here is @Amazon selling a Unitree robot in America. \n\nWe need Chairman @RepMoolenaar’s GUARD Act to stop this threat and support American robotics. https://t.co/lKt6PBHZcV",
+      "lang": "en",
+      "favorite_count": 2307,
+      "retweet_count": 398,
+      "reply_count": 356,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/lKt6PBHZcV",
+          "expanded_url": "https://x.com/ChinaSelect/status/2069051966081134704/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2069050184604979200",
+          "indices": [
+            270,
+            293
+          ],
+          "media_key": "3_2069050184604979200",
+          "media_url_https": "https://pbs.twimg.com/media/HLa-LjvWEAATtoa.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 654,
+                "w": 1168,
+                "x": 0,
+                "y": 994
+              },
+              {
+                "h": 1168,
+                "w": 1168,
+                "x": 0,
+                "y": 659
+              },
+              {
+                "h": 1332,
+                "w": 1168,
+                "x": 0,
+                "y": 495
+              },
+              {
+                "h": 1827,
+                "w": 914,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1827,
+                "w": 1168,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1827,
+            "width": 1168
+          },
+          "sizes": {
+            "large": {
+              "h": 1827,
+              "w": 1168
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/lKt6PBHZcV"
+        }
+      ],
+      "id": "2069051966081134704",
+      "summary": "美国政客声称宇树被列为中国军事公司威胁国安，却在亚马逊销售其机器人，呼吁通过GUARD法案。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2069088903567749370",
+      "url": "https://x.com/skyseeeeeeeeee/status/2069088903567749370",
+      "screen_name": "skyseeeeeeeeee",
+      "created_at": "Mon Jun 22 16:03:31 +0000 2026",
+      "full_text": "“ดาว Vava”\nดาวดวงนี้อยู่ใน กลุ่มดาวคนคู่ (Gemini / กลุ่มดาวแฝด)\nอยู่ใน กลุ่มดาวแฝด (Gemini) ซึ่งมีสัญลักษณ์เกี่ยวกับความผูกพัน การอยู่เคียงข้างกัน และความสัมพันธ์ระหว่างคนสองคน\nเป็นเหมือนตัวแทนของความทรงจำและความรู้สึกที่ตี๋ตี๋ป๋อต้องการส่งต่อ\nดาวฤกษ์มีอายุยาวนานมาก https://t.co/INnp3c7ysa",
+      "lang": "th",
+      "favorite_count": 2261,
+      "retweet_count": 2110,
+      "reply_count": 25,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/INnp3c7ysa",
+          "expanded_url": "https://x.com/skyseeeeeeeeee/status/2069088903567749370/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2069088897519521792",
+          "indices": [
+            267,
+            290
+          ],
+          "media_key": "3_2069088897519521792",
+          "media_url_https": "https://pbs.twimg.com/media/HLbhY8lbEAAqneC.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 675,
+                "w": 1206,
+                "x": 0,
+                "y": 356
+              },
+              {
+                "h": 1121,
+                "w": 1121,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1121,
+                "w": 983,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1121,
+                "w": 561,
+                "x": 51,
+                "y": 0
+              },
+              {
+                "h": 1121,
+                "w": 1206,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1121,
+            "width": 1206
+          },
+          "sizes": {
+            "large": {
+              "h": 1121,
+              "w": 1206
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/INnp3c7ysa"
+        }
+      ],
+      "id": "2069088903567749370",
+      "summary": "泰文推文讨论双子座星群中的Vava星，涉及星座象征意义与个人情感寄托，无AI/科技内容。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "不适用",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2069115906513371298",
+      "url": "https://x.com/ultra_lucha/status/2069115906513371298",
+      "screen_name": "ultra_lucha",
+      "created_at": "Mon Jun 22 17:50:49 +0000 2026",
+      "full_text": "comment chatgpt parlait au gars de quotidien une heure avant « Oui effectivement tu mets le doigt sur des contradictions dont il sera difficile pour Raphael Arnault de se dépêtrer aha.  La fête de la musique est pour tout le monde, dire non au racisme c’est renier cet ADN 🚫👎 »",
+      "lang": "fr",
+      "favorite_count": 2212,
+      "retweet_count": 161,
+      "reply_count": 5,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2069115906513371298",
+      "summary": "",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "N/A",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "N/A",
       "emotion_points": 0,
       "actionability_points": 0,
       "account_fit": "不匹配",
@@ -4151,7 +3994,7 @@
         }
       ],
       "id": "2069017405091672316",
-      "summary": "西班牙社会党两名官员发布完全相同推文为贝戈尼亚·戈麦斯辩护，疑似直接复制或用ChatGPT生成。反映政治宣传的低效和不专业。",
+      "summary": "西班牙社会党两名官员发布相同推文为贝戈尼亚·戈麦斯辩护，疑似使用ChatGPT生成或直接复制。反映政治宣传的低效和不专业。",
       "category": "其他/非AI",
       "category_points": 0,
       "info_gap": "已知信息",
@@ -4260,7 +4103,106 @@
         }
       ],
       "id": "2069071755092869179",
-      "summary": "假设穿越到2009年，选择无限Claude和ChatGPT还是100枚比特币？虚拟对比题，无实际AI产品信息。",
+      "summary": "假设穿越到2009年，选择无限Claude和ChatGPT还是100枚比特币。这是一个虚拟对比题，无具体产品或事件信息。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2069058038192095716",
+      "url": "https://x.com/t_rinosaur/status/2069058038192095716",
+      "screen_name": "t_rinosaur",
+      "created_at": "Mon Jun 22 14:00:52 +0000 2026",
+      "full_text": "Claude Monet inspired water lilies https://t.co/IKQFMWY31o",
+      "lang": "en",
+      "favorite_count": 2080,
+      "retweet_count": 375,
+      "reply_count": 3,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/IKQFMWY31o",
+          "expanded_url": "https://x.com/t_rinosaur/status/2069058038192095716/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2069058030982062082",
+          "indices": [
+            35,
+            58
+          ],
+          "media_key": "3_2069058030982062082",
+          "media_url_https": "https://pbs.twimg.com/media/HLbFURxa4AI76Pk.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 892,
+                "w": 1593,
+                "x": 0,
+                "y": 219
+              },
+              {
+                "h": 1593,
+                "w": 1593,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1816,
+                "w": 1593,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2048,
+                "w": 1024,
+                "x": 255,
+                "y": 0
+              },
+              {
+                "h": 2048,
+                "w": 1593,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 2048,
+            "width": 1593
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1593
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/IKQFMWY31o"
+        }
+      ],
+      "id": "2069058038192095716",
+      "summary": "Claude Monet启发的睡莲AI生成作品展示。这是AI出图内容，但文本仅为标题+链接，无具体功能或工具信息。",
       "category": "其他/非AI",
       "category_points": 0,
       "info_gap": "已知信息",
@@ -4359,7 +4301,7 @@
         }
       ],
       "id": "2069147552705122315",
-      "summary": "保守派评论员Glenn Beck披露反数据中心抗议组织\"Humans First\"背后有硅谷资金支持。政治阴谋论内容，非AI/科技产品。",
+      "summary": "Glenn Beck报道发现反数据中心抗议组织\"Humans First\"背后有硅谷资金支持。这是政治新闻，非AI/科技产品内容。",
       "category": "其他/非AI",
       "category_points": 0,
       "info_gap": "已知信息",
@@ -4375,5 +4317,7 @@
       "verdict": "drop",
       "angles": []
     }
-  ]
+  ],
+  "_rescored_at": "2026-07-02T04:07:26.122345+00:00",
+  "_rescored_reason": "anti-hallucination prompt + fence-tail parse fix"
 }
