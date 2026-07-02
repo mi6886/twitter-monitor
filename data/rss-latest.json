@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-02T12:57:41.910270+00:00",
+  "updated_at": "2026-07-02T23:57:13.910468+00:00",
   "count": 500,
-  "new_count": 2302,
+  "new_count": 2304,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -23,6 +23,22 @@
   ],
   "items": [
     {
+      "source": "GitHub Blog",
+      "title": "How GitHub used secret scanning to reach inbox zero",
+      "url": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
+      "summary": "GitHub had 20,000+ secret scanning alerts across 15,000 repositories. Here's how we separated signal from noise, built remediation workflows, and reached inbox zero in nine months. The post How GitHub used secret scanning to reach inbox zero appeared first on The GitHub Blog.",
+      "published_at": "2026-07-02T16:00:00+00:00",
+      "first_seen_at": "2026-07-02T23:57:13.910468+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Joyride Through July With 12 Games Coming to GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-july-2026-games-list/",
+      "summary": "Summer is heating up — and GeForce NOW is taking players along for the ride. Start the month with Monopoly: Star Wars Heroes vs. Villains, bringing a galaxy far, far away to the iconic board-game franchise, alongside 12 new games joining the cloud this month. Plus, don’t let the ",
+      "published_at": "2026-07-02T13:00:23+00:00",
+      "first_seen_at": "2026-07-02T23:57:13.910468+00:00"
+    },
+    {
       "source": "Product Hunt",
       "title": "Sidedoor",
       "url": "https://www.producthunt.com/products/sidedoor-2",
@@ -42,7 +58,7 @@
       "source": "Product Hunt",
       "title": "Basedash Actions",
       "url": "https://www.producthunt.com/products/basedash",
-      "summary": "The BI tool that does, not just reports. Discussion | Link",
+      "summary": "A BI tool that can take action for you Discussion | Link",
       "published_at": "2026-07-02T04:14:53+00:00",
       "first_seen_at": "2026-06-26T13:15:04.116660+00:00"
     },
@@ -69,6 +85,14 @@
       "summary": "Shared, searchable memory for every AI coding agent Discussion | Link",
       "published_at": "2026-07-02T00:21:44+00:00",
       "first_seen_at": "2026-07-02T12:57:41.910270+00:00"
+    },
+    {
+      "source": "Runway",
+      "title": "Borrowing the Night: Reclaiming Idle Inference GPUs for Research",
+      "url": "https://runwayml.com/news/borrowing-the-night-reclaiming-idle-inference-gpus-for-research",
+      "summary": "",
+      "published_at": "2026-07-02T00:00:00",
+      "first_seen_at": "2026-07-02T23:57:13.910468+00:00"
     },
     {
       "source": "Product Hunt",
@@ -1370,7 +1394,7 @@
       "source": "Product Hunt",
       "title": "Fuser Apps",
       "url": "https://www.producthunt.com/products/fuser",
-      "summary": "Vibecode apps, sites, & games on everyone's favorite canvas Discussion | Link",
+      "summary": "Vibecode apps, sites & games on everyone's favorite canvas Discussion | Link",
       "published_at": "2026-06-23T06:44:07+00:00",
       "first_seen_at": "2026-07-01T13:35:44.875847+00:00"
     },
@@ -3996,30 +4020,6 @@
       "url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
       "summary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
       "published_at": "2026-05-14T00:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Unlocking asynchronicity in continuous batching",
-      "url": "https://huggingface.co/blog/continuous_async",
-      "summary": "",
-      "published_at": "2026-05-14T00:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Cursor Blog",
-      "title": "Development environments for your cloud agents",
-      "url": "https://cursor.com/blog/cloud-agent-development-environments",
-      "summary": "Cloud agents are easier to parallelize than local agents, continue working when your laptop is closed, and can run autonomously in response to programmatic triggers.",
-      "published_at": "2026-05-13T12:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Building a safe, effective sandbox to enable Codex on Windows",
-      "url": "https://openai.com/index/building-codex-windows-sandbox",
-      "summary": "Learn how OpenAI built a safe, effective sandbox to enable Codex on Windows with controlled file access and network limits.",
-      "published_at": "2026-05-13T11:00:00+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     }
   ]
