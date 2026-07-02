@@ -56,6 +56,15 @@ jobs:
         if: ${{ inputs.skip_fetch != 'true' }}
         run: python fetch_rss.py
 
+      # Self-heal: re-score any recent run left >=50% LLM-fallback by a transient
+      # OpenRouter outage, using the now-healthy API + preserved raw-*.json.
+      # Heals past runs on this healthy run; guarded so it never thrashes credits.
+      - name: Self-heal high-fallback scores
+        if: ${{ inputs.skip_fetch != 'true' }}
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python heal_scores.py
+
       - name: Commit and push results
         if: ${{ inputs.skip_fetch != 'true' }}
         run: |
