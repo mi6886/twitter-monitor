@@ -1,0 +1,4850 @@
+{
+  "date": "2026-07-08",
+  "period": "evening",
+  "fetched_at": "2026-07-08T12:21:16.751519+00:00",
+  "raw_count": 55,
+  "scored_count": 55,
+  "keep_count": 21,
+  "drop_count": 34,
+  "fallback_count": 2,
+  "score_distribution": {
+    ">=50": 13,
+    "35-49": 5,
+    "20-34": 4,
+    "<20": 33
+  },
+  "tweets": [
+    {
+      "tweet_id": "2074709023807664454",
+      "url": "https://x.com/sama/status/2074709023807664454",
+      "screen_name": "sama",
+      "created_at": "Wed Jul 08 04:15:52 +0000 2026",
+      "full_text": "GPT-5.6 sol launches thursday!\n\nhappy building",
+      "lang": "en",
+      "favorite_count": 20435,
+      "retweet_count": 1406,
+      "reply_count": 1447,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074709023807664454",
+      "summary": "Sam Altman宣布GPT-5.6 sol将于周四发布。OpenAI最新模型即将上线，引发业界关注。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题（新模型发布）",
+        "有人物故事（Sam Altman官宣）"
+      ],
+      "viral_signals_points": 20,
+      "emotion": "未来感/想象",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 78,
+      "verdict": "keep",
+      "angles": [
+        "GPT-5.6 sol周四发布｜OpenAI最新力作来了",
+        "Sam Altman深夜官宣｜GPT-5.6 sol即将上线",
+        "终于等到了｜GPT-5.6 sol性能升级解读"
+      ]
+    },
+    {
+      "tweet_id": "2074619820986028353",
+      "url": "https://x.com/comma_ai/status/2074619820986028353",
+      "screen_name": "comma_ai",
+      "created_at": "Tue Jul 07 22:21:24 +0000 2026",
+      "full_text": "Goodbye @AnthropicAI.\n\nAll comma dollars go towards the mission and our values. Our dollars come from customers buying hardware they own. And we spend them on GPUs and engineers to write MIT-licensed software.",
+      "lang": "en",
+      "favorite_count": 2201,
+      "retweet_count": 100,
+      "reply_count": 65,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074619820986028353",
+      "summary": "comma_ai宣布停止使用Anthropic服务，转向自主开发。强调资金用于GPU和工程师，开发MIT许可软件，体现独立自主的技术路线。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于型选题：明确的决裂宣言",
+        "反常识：AI公司主动弃用头部大模型"
+      ],
+      "viral_signals_points": 20,
+      "emotion": "反常识/意外性",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 78,
+      "verdict": "keep",
+      "angles": [
+        "AI公司决裂大模型：comma_ai为何弃用Anthropic",
+        "自主还是对抗？揭秘开源硬件公司的独立之路",
+        "MIT许可+自研GPU：comma_ai的技术独立宣言"
+      ]
+    },
+    {
+      "tweet_id": "2074494130126811473",
+      "url": "https://x.com/liquidai/status/2074494130126811473",
+      "screen_name": "liquidai",
+      "created_at": "Tue Jul 07 14:01:57 +0000 2026",
+      "full_text": "Today we release Antidoom, an open-source method that removes a common failure mode in reasoning models: the doom loop.\n\nDoom-loop rates before and after, with eval scores up across the board:\n\n&gt; Early LFM2.5-2.6B checkpoint: 10.2% → 1.4%\n\n&gt; Qwen3.5-4B: 22.9% → 1% (greedy https://t.co/axO6l7LIu7",
+      "lang": "en",
+      "favorite_count": 2099,
+      "retweet_count": 257,
+      "reply_count": 78,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/axO6l7LIu7",
+          "expanded_url": "https://x.com/liquidai/status/2074494130126811473/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "id_str": "2074494108148670464",
+          "indices": [
+            279,
+            302
+          ],
+          "media_key": "16_2074494108148670464",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/HMoVZnTXoAA2P5h.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 674,
+            "width": 1200
+          },
+          "sizes": {
+            "large": {
+              "h": 674,
+              "w": 1200
+            }
+          },
+          "type": "animated_gif",
+          "url": "https://t.co/axO6l7LIu7",
+          "video_info": {
+            "aspect_ratio": [
+              600,
+              337
+            ],
+            "variants": [
+              {
+                "bitrate": 0,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/tweet_video/HMoVZnTXoAA2P5h.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "2074494130126811473",
+      "summary": "开源项目Antidoom发布，解决推理模型的「死亡循环」失败模式。在多个模型上显著降低失败率：LFM2.5从10.2%降至1.4%，Qwen3.5从22.9%降至1%。",
+      "category": "单产品/技术叙事",
+      "category_points": 30,
+      "info_gap": "全球/全网首发",
+      "info_gap_points": 25,
+      "viral_signals": [
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "未来感/想象",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 75,
+      "verdict": "keep",
+      "angles": [
+        "Antidoom开源：推理模型死亡循环终被破解",
+        "失败率暴跌90%：AI推理的关键突破",
+        "开源方案拯救推理模型：从22.9%到1%的逆转"
+      ]
+    },
+    {
+      "tweet_id": "2074704958419792299",
+      "url": "https://x.com/OpenAI/status/2074704958419792299",
+      "screen_name": "OpenAI",
+      "created_at": "Wed Jul 08 03:59:42 +0000 2026",
+      "full_text": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday.\n\nWe’re expanding preview access globally now. https://t.co/Uk5HcfSc2e",
+      "lang": "en",
+      "favorite_count": 36081,
+      "retweet_count": 5554,
+      "reply_count": 1894,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/Uk5HcfSc2e",
+          "expanded_url": "https://x.com/OpenAI/status/2074704958419792299/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2074704694052896769",
+          "indices": [
+            122,
+            145
+          ],
+          "media_key": "3_2074704694052896769",
+          "media_url_https": "https://pbs.twimg.com/media/HMrU7U7bwAEO8yf.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 403,
+                "w": 720,
+                "x": 0,
+                "y": 2
+              },
+              {
+                "h": 405,
+                "w": 405,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 405,
+                "w": 355,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 405,
+                "w": 203,
+                "x": 25,
+                "y": 0
+              },
+              {
+                "h": 405,
+                "w": 720,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 405,
+            "width": 720
+          },
+          "sizes": {
+            "large": {
+              "h": 405,
+              "w": 720
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Uk5HcfSc2e"
+        }
+      ],
+      "id": "2074704958419792299",
+      "summary": "OpenAI宣布GPT-5.6 Sol及Terra、Luna三款新模型将于本周四公开发布，全球扩大预览版访问权限。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题：新模型首次发布",
+        "明确发布时间：本周四"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "震撼/惊叹",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 68,
+      "verdict": "keep",
+      "angles": [
+        "OpenAI三款新模型周四上线，GPT-5.6 Sol震撼登场",
+        "终于来了！GPT-5.6 Sol、Terra、Luna全球预览开放",
+        "OpenAI新品周四发布，三大模型同步上线意味着什么"
+      ]
+    },
+    {
+      "tweet_id": "2074618926458175559",
+      "url": "https://x.com/WatcherGuru/status/2074618926458175559",
+      "screen_name": "WatcherGuru",
+      "created_at": "Tue Jul 07 22:17:51 +0000 2026",
+      "full_text": "JUST IN: 🇨🇳 China expected to produce over 100,000 humanoid robots this year. https://t.co/ED7cq8BfM4",
+      "lang": "en",
+      "favorite_count": 4330,
+      "retweet_count": 504,
+      "reply_count": 497,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/ED7cq8BfM4",
+          "expanded_url": "https://x.com/WatcherGuru/status/2074618926458175559/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 519,
+                  "w": 519,
+                  "x": 462,
+                  "y": 118
+                }
+              ]
+            }
+          },
+          "id_str": "2074618921785675776",
+          "indices": [
+            78,
+            101
+          ],
+          "media_key": "3_2074618921785675776",
+          "media_url_https": "https://pbs.twimg.com/media/HMqG6uVW0AARAPS.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 860,
+                "w": 1536,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1024,
+                "w": 1024,
+                "x": 217,
+                "y": 0
+              },
+              {
+                "h": 1024,
+                "w": 898,
+                "x": 280,
+                "y": 0
+              },
+              {
+                "h": 1024,
+                "w": 512,
+                "x": 473,
+                "y": 0
+              },
+              {
+                "h": 1024,
+                "w": 1536,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1024,
+            "width": 1536
+          },
+          "sizes": {
+            "large": {
+              "h": 1024,
+              "w": 1536
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/ED7cq8BfM4"
+        },
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/ED7cq8BfM4",
+          "expanded_url": "https://x.com/WatcherGuru/status/2074618926458175559/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 51,
+                  "w": 51,
+                  "x": 1190,
+                  "y": 125
+                },
+                {
+                  "h": 67,
+                  "w": 67,
+                  "x": 146,
+                  "y": 151
+                },
+                {
+                  "h": 66,
+                  "w": 66,
+                  "x": 1041,
+                  "y": 152
+                },
+                {
+                  "h": 78,
+                  "w": 78,
+                  "x": 1135,
+                  "y": 182
+                },
+                {
+                  "h": 76,
+                  "w": 76,
+                  "x": 853,
+                  "y": 192
+                },
+                {
+                  "h": 78,
+                  "w": 78,
+                  "x": 327,
+                  "y": 192
+                },
+                {
+                  "h": 107,
+                  "w": 107,
+                  "x": 953,
+                  "y": 267
+                },
+                {
+                  "h": 116,
+                  "w": 116,
+                  "x": 197,
+                  "y": 263
+                },
+                {
+                  "h": 145,
+                  "w": 145,
+                  "x": 558,
+                  "y": 267
+                }
+              ]
+            }
+          },
+          "id_str": "2074618921789890560",
+          "indices": [
+            78,
+            101
+          ],
+          "media_key": "3_2074618921789890560",
+          "media_url_https": "https://pbs.twimg.com/media/HMqG6uWXIAA0rB3.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 717,
+                "w": 1280,
+                "x": 0,
+                "y": 57
+              },
+              {
+                "h": 854,
+                "w": 854,
+                "x": 213,
+                "y": 0
+              },
+              {
+                "h": 854,
+                "w": 749,
+                "x": 266,
+                "y": 0
+              },
+              {
+                "h": 854,
+                "w": 427,
+                "x": 427,
+                "y": 0
+              },
+              {
+                "h": 854,
+                "w": 1280,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 854,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 854,
+              "w": 1280
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/ED7cq8BfM4"
+        }
+      ],
+      "id": "2074618926458175559",
+      "summary": "中国今年预计生产超10万台人形机器人。具体产品、厂商、技术细节均未提及。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "未来感/想象",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 68,
+      "verdict": "keep",
+      "angles": [
+        "中国人形机器人产量突破10万台，未来已来",
+        "2024年中国机器人产业爆发：10万台人形机器人上线",
+        "人形机器人规模化时代启动，中国领跑全球"
+      ]
+    },
+    {
+      "tweet_id": "2074803889824518414",
+      "url": "https://x.com/InternetH0F/status/2074803889824518414",
+      "screen_name": "InternetH0F",
+      "created_at": "Wed Jul 08 10:32:49 +0000 2026",
+      "full_text": "Meta updates its Ray-Ban smart glasses to stop recording if the LED light is tampered with\n\nThis comes after users were caught removing the light to secretly record people without detection https://t.co/6nTpq5IyCJ",
+      "lang": "en",
+      "favorite_count": 3872,
+      "retweet_count": 50,
+      "reply_count": 77,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/6nTpq5IyCJ",
+          "expanded_url": "https://x.com/InternetH0F/status/2074803889824518414/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2074803884766142464",
+          "indices": [
+            190,
+            213
+          ],
+          "media_key": "3_2074803884766142464",
+          "media_url_https": "https://pbs.twimg.com/media/HMsvI_IWIAAc-p2.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 560,
+                "w": 1000,
+                "x": 0,
+                "y": 145
+              },
+              {
+                "h": 1000,
+                "w": 1000,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1000,
+                "w": 877,
+                "x": 62,
+                "y": 0
+              },
+              {
+                "h": 1000,
+                "w": 500,
+                "x": 250,
+                "y": 0
+              },
+              {
+                "h": 1000,
+                "w": 1000,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1000,
+            "width": 1000
+          },
+          "sizes": {
+            "large": {
+              "h": 1000,
+              "w": 1000
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/6nTpq5IyCJ"
+        },
+        {
+          "display_url": "pic.x.com/6nTpq5IyCJ",
+          "expanded_url": "https://x.com/InternetH0F/status/2074803889824518414/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2074803884757807104",
+          "indices": [
+            190,
+            213
+          ],
+          "media_key": "3_2074803884757807104",
+          "media_url_https": "https://pbs.twimg.com/media/HMsvI_GW8AAQjdA.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 560,
+                "w": 1000,
+                "x": 0,
+                "y": 95
+              },
+              {
+                "h": 1000,
+                "w": 1000,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1000,
+                "w": 877,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1000,
+                "w": 500,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1000,
+                "w": 1000,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1000,
+            "width": 1000
+          },
+          "sizes": {
+            "large": {
+              "h": 1000,
+              "w": 1000
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/6nTpq5IyCJ"
+        }
+      ],
+      "id": "2074803889824518414",
+      "summary": "Meta更新Ray-Ban智能眼镜，增加防篡改LED灯功能以防止秘密录像。具体技术细节有限。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "反常识/意外性"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "未来感/想象",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 68,
+      "verdict": "keep",
+      "angles": [
+        "Meta紧急修复Ray-Ban漏洞，防止秘密录像",
+        "智能眼镜隐私战争升级：LED防篡改功能上线",
+        "用户移除LED灯秘密录像，Meta被迫出招"
+      ]
+    },
+    {
+      "tweet_id": "2074696048707023333",
+      "url": "https://x.com/WatcherGuru/status/2074696048707023333",
+      "screen_name": "WatcherGuru",
+      "created_at": "Wed Jul 08 03:24:18 +0000 2026",
+      "full_text": "JUST IN: 🇺🇸 US government grants OpenAI approval to fully release its new GPT 5.6 AI model.",
+      "lang": "en",
+      "favorite_count": 3756,
+      "retweet_count": 318,
+      "reply_count": 250,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074696048707023333",
+      "summary": "美国政府批准OpenAI发布GPT 5.6模型。这是frontier AI模型的重要里程碑，标志着监管突破。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "震撼/惊叹",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 68,
+      "verdict": "keep",
+      "angles": [
+        "政府首次批准GPT 5.6发布，AI监管迎来转折",
+        "OpenAI突破政策壁垒，GPT 5.6正式解禁",
+        "从禁令到批准：美国AI政策的180度转变"
+      ]
+    },
+    {
+      "tweet_id": "2074697521809535257",
+      "url": "https://x.com/Polymarket/status/2074697521809535257",
+      "screen_name": "Polymarket",
+      "created_at": "Wed Jul 08 03:30:09 +0000 2026",
+      "full_text": "BREAKING: OpenAI has reportedly been granted U.S. approval for a broad GPT-5.6 rollout.",
+      "lang": "en",
+      "favorite_count": 2058,
+      "retweet_count": 108,
+      "reply_count": 88,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074697521809535257",
+      "summary": "OpenAI获得美国批准推出GPT-5.6。但该信息未在官方渠道确认，真实性存疑。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "震撼/惊叹",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 68,
+      "verdict": "keep",
+      "angles": [
+        "GPT-5.6终于来了！OpenAI获批美国推出",
+        "OpenAI深夜突发：GPT-5.6美国版本获批",
+        "从GPT-4到5.6，OpenAI的下一步棋"
+      ]
+    },
+    {
+      "tweet_id": "2074596271441285124",
+      "url": "https://x.com/Conor_D_Dart/status/2074596271441285124",
+      "screen_name": "Conor_D_Dart",
+      "created_at": "Tue Jul 07 20:47:49 +0000 2026",
+      "full_text": "I think this is BS.\n\nAnthropic officially announced that Fable was being taken away, so naturally people used as much of their remaining Fable access as they could.\n\nNow many of those same users have hit their usage limits and can't use Fable anymore.\n\nIf you're going to make an",
+      "lang": "en",
+      "favorite_count": 2180,
+      "retweet_count": 80,
+      "reply_count": 252,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074596271441285124",
+      "summary": "用户质疑Anthropic关于Fable功能的公告，认为用户在功能下线前大量使用导致触发使用限制。涉及Claude产品政策争议。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "反常识/意外性"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 66,
+      "verdict": "keep",
+      "angles": [
+        "Claude Fable功能争议：官方下线vs用户反弹",
+        "AI产品政策翻车：Anthropic的信任危机",
+        "订阅制AI工具的隐形成本"
+      ]
+    },
+    {
+      "tweet_id": "2074468521384579376",
+      "url": "https://x.com/f_aswadi/status/2074468521384579376",
+      "screen_name": "f_aswadi",
+      "created_at": "Tue Jul 07 12:20:11 +0000 2026",
+      "full_text": "شهادة الاعتماد الرسمية من Claude متاحة مجانًا حتى 31 أغسطس!\n\nستكون هذه الشهادة من أكثر الشهادات قيمة في المستقبل.\nالفئة المستهدفة الاسم الرسمي:\n«Claude Certified Architect Foundations»ليست مجرد دورة تدريبية حول استخدام Claude، بل شهادة تقنية رسمية صادرة عن شركة Anthropic.تستهدف https://t.co/M9qbusEOuY",
+      "lang": "ar",
+      "favorite_count": 2122,
+      "retweet_count": 160,
+      "reply_count": 18,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/M9qbusEOuY",
+          "expanded_url": "https://x.com/f_aswadi/status/2074468521384579376/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2074468514711388160",
+          "indices": [
+            279,
+            302
+          ],
+          "media_key": "3_2074468514711388160",
+          "media_url_https": "https://pbs.twimg.com/media/HMn-H4UawAAfeMq.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 655,
+                "w": 1170,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1170,
+                "w": 1170,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1277,
+                "w": 1120,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1277,
+                "w": 639,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1277,
+                "w": 1170,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1277,
+            "width": 1170
+          },
+          "sizes": {
+            "large": {
+              "h": 1277,
+              "w": 1170
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/M9qbusEOuY"
+        }
+      ],
+      "id": "2074468521384579376",
+      "summary": "Anthropic官方推出免费Claude认证课程「Claude Certified Architect Foundations」，截止8月31日。这是一项官方认证资源，面向所有用户。",
+      "category": "资源分享",
+      "category_points": 20,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "白嫖/占便宜",
+      "emotion_points": 3,
+      "actionability_points": 5,
+      "account_fit": "B型",
+      "account_bonus": 5,
+      "total_score": 63,
+      "verdict": "keep",
+      "angles": [
+        "Claude官方认证免费领：8月31日截止",
+        "5分钟速领：Anthropic技术认证证书",
+        "未来最值钱的证书：Claude架构师认证"
+      ]
+    },
+    {
+      "tweet_id": "2074495252447089004",
+      "url": "https://x.com/midudev/status/2074495252447089004",
+      "screen_name": "midudev",
+      "created_at": "Tue Jul 07 14:06:25 +0000 2026",
+      "full_text": "Un repo para buscar trabajo con Claude Code.\n\nLo clonas, rellenas tu perfil y la IA evalúa ofertas, adapta tu CV, escribe cartas y te prepara entrevistas.\n\nAutomatiza tu búsqueda de trabajo:\n→ https://t.co/LkOuGYXbYd https://t.co/t9VT8fzfqT",
+      "lang": "es",
+      "favorite_count": 2408,
+      "retweet_count": 237,
+      "reply_count": 15,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/t9VT8fzfqT",
+          "expanded_url": "https://x.com/midudev/status/2074495252447089004/photo/1",
+          "ext_alt_text": "Captura del README de GitHub del proyecto “ai-job-search”, con el título “AI Job Search” y una descripción de un framework que usa Claude Code para evaluar ofertas, adaptar el CV, escribir cartas de presentación y preparar entrevistas. Arriba aparece un pequeño icono pixelado naranja con maletín, listo para buscar trabajo sin actualizar LinkedIn a mano.",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2074495247111913472",
+          "indices": [
+            217,
+            240
+          ],
+          "media_key": "3_2074495247111913472",
+          "media_url_https": "https://pbs.twimg.com/media/HMoWb6RXgAAmUi9.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 655,
+                "w": 1170,
+                "x": 0,
+                "y": 527
+              },
+              {
+                "h": 1170,
+                "w": 1170,
+                "x": 0,
+                "y": 12
+              },
+              {
+                "h": 1182,
+                "w": 1037,
+                "x": 67,
+                "y": 0
+              },
+              {
+                "h": 1182,
+                "w": 591,
+                "x": 290,
+                "y": 0
+              },
+              {
+                "h": 1182,
+                "w": 1170,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1182,
+            "width": 1170
+          },
+          "sizes": {
+            "large": {
+              "h": 1182,
+              "w": 1170
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/t9VT8fzfqT"
+        }
+      ],
+      "id": "2074495252447089004",
+      "summary": "开源repo利用Claude Code自动化求职流程：克隆项目、填充个人信息，AI自动评估职位、优化简历、撰写求职信、模拟面试。",
+      "category": "多工具/资源合集",
+      "category_points": 22,
+      "info_gap": "海外搬运",
+      "info_gap_points": 12,
+      "viral_signals": [
+        "终于型选题：自动化求职解决方案",
+        "反常识：AI不仅写代码，还能全流程求职"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
+      "actionability_points": 5,
+      "account_fit": "B型",
+      "account_bonus": 5,
+      "total_score": 57,
+      "verdict": "keep",
+      "angles": [
+        "求职神器｜Claude Code一键自动化找工作",
+        "5步AI求职流程：从简历到面试全自动",
+        "开源repo｜让AI帮你写求职信和模拟面试"
+      ]
+    },
+    {
+      "tweet_id": "2074712804725035371",
+      "url": "https://x.com/skirano/status/2074712804725035371",
+      "screen_name": "skirano",
+      "created_at": "Wed Jul 08 04:30:53 +0000 2026",
+      "full_text": "I can finally talk about 5.6.\n\nI’ve been testing it for months and, without exaggeration, it’s the best model I’ve ever used.\nFast, smart, genuinely creative, and you guessed it, they finally fixed front-end design.\n\nI haven’t needed to check the code I’ve written in two months.",
+      "lang": "en",
+      "favorite_count": 4882,
+      "retweet_count": 208,
+      "reply_count": 289,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074712804725035371",
+      "summary": "开发者分享对某AI模型5.6版本的评测，称其速度快、创意强、前端设计改进，两月无需检查代码。具体产品名称未明确。",
+      "category": "评测体验",
+      "category_points": 15,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "震撼/惊叹",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 55,
+      "verdict": "keep",
+      "angles": [
+        "终于修复前端设计，开发者用5.6版本两月无需检查代码",
+        "AI模型5.6深度评测：速度、创意、设计全面升级",
+        "开发者实测：这个AI模型让我停止检查代码"
+      ]
+    },
+    {
+      "tweet_id": "2074604410727288974",
+      "url": "https://x.com/bridgemindai/status/2074604410727288974",
+      "screen_name": "bridgemindai",
+      "created_at": "Tue Jul 07 21:20:10 +0000 2026",
+      "full_text": "Fable 5 is not going to be removed from subscriptions.\n\nAnthropic cannot afford to remove it.\n\nGPT 5.6 is dropping on Thursday and if Fable 5 was removed from subscriptions everyone would cancel their Claude Code subscription and move to Codex.\n\nThis is starting to look like a",
+      "lang": "en",
+      "favorite_count": 2145,
+      "retweet_count": 82,
+      "reply_count": 145,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074604410727288974",
+      "summary": "用户推测Anthropic不会从订阅中移除Fable 5，因为GPT 5.6即将发布，移除会导致用户流失。这是对AI产品竞争格局的分析。",
+      "category": "AI趋势/观点",
+      "category_points": 25,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [
+        "反常识/意外性"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 51,
+      "verdict": "keep",
+      "angles": [
+        "GPT 5.6来袭：Claude订阅制的生死时刻",
+        "AI大模型竞争白热化：功能保留的商业博弈",
+        "Anthropic的困境：Fable去留之谜"
+      ]
+    },
+    {
+      "tweet_id": "2074725941675245795",
+      "url": "https://x.com/DrLuetke/status/2074725941675245795",
+      "screen_name": "DrLuetke",
+      "created_at": "Wed Jul 08 05:23:05 +0000 2026",
+      "full_text": "Die USA 🇺🇸 haben:\n✅️ChatGPT\n✅️Grok\n✅️Claude\n✅️Gemini\n✅️Llama\n✅️Copilot\n\nChina 🇨🇳 hat:\n✅️DeepSeek\n✅️Qwen\n✅️Ernie\n✅️GLM\n✅️Kimi\n✅️MiniMax\n\nEUropa 🇪🇺 hat:\n❌️Uschi und die Chatkontrolle...",
+      "lang": "de",
+      "favorite_count": 2471,
+      "retweet_count": 367,
+      "reply_count": 51,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074725941675245795",
+      "summary": "对比美国、中国、欧洲的AI大模型生态。美国拥有ChatGPT、Claude等6款主流模型，中国有DeepSeek、Qwen等6款，欧洲则缺乏竞争力产品。",
+      "category": "AI趋势/观点",
+      "category_points": 25,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [
+        "反常识/意外性：欧洲AI生态落后的讽刺对比"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 46,
+      "verdict": "keep",
+      "angles": [
+        "全球AI大模型版图：美中欧三足鼎立还是两强争霸？",
+        "为什么欧洲AI落后？监管vs创新的代价",
+        "6vs6vs0：中美AI生态对标深度解读"
+      ]
+    },
+    {
+      "tweet_id": "2074561342539956403",
+      "url": "https://x.com/___Harald___/status/2074561342539956403",
+      "screen_name": "___Harald___",
+      "created_at": "Tue Jul 07 18:29:02 +0000 2026",
+      "full_text": "Anthropic is now a banned vendor at @comma_ai . I recommend other companies do the same.\n\nPeople should consider how reliant they are on cloud token vendors. If you can't brainstorm, code or be productive without them, you should be scared. Regain your sovereignty or you're ngmi. https://t.co/KjO017gbNl",
+      "lang": "en",
+      "favorite_count": 2455,
+      "retweet_count": 109,
+      "reply_count": 78,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/KjO017gbNl",
+          "expanded_url": "https://x.com/___Harald___/status/2074561342539956403/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2074560896572207104",
+          "indices": [
+            281,
+            304
+          ],
+          "media_key": "3_2074560896572207104",
+          "media_url_https": "https://pbs.twimg.com/media/HMpSJNkaMAAsLMC.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 199,
+                "w": 355,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 199,
+                "w": 199,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 199,
+                "w": 175,
+                "x": 11,
+                "y": 0
+              },
+              {
+                "h": 199,
+                "w": 100,
+                "x": 48,
+                "y": 0
+              },
+              {
+                "h": 199,
+                "w": 790,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 199,
+            "width": 790
+          },
+          "sizes": {
+            "large": {
+              "h": 199,
+              "w": 790
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/KjO017gbNl"
+        }
+      ],
+      "id": "2074561342539956403",
+      "summary": "Comma AI禁用Anthropic，呼吁开发者警惕云端token厂商依赖，强调技术自主权重要性。",
+      "category": "AI趋势/观点",
+      "category_points": 25,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [
+        "反常识/意外性：大公司禁用知名AI厂商"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 46,
+      "verdict": "drop",
+      "angles": [
+        "Comma AI为何禁用Anthropic？AI厂商争夺战升温",
+        "开发者警告：过度依赖云端token的危险",
+        "技术自主权觉醒：从禁用Anthropic说起"
+      ]
+    },
+    {
+      "tweet_id": "2074776242696708262",
+      "url": "https://x.com/kiryuintw/status/2074776242696708262",
+      "screen_name": "kiryuintw",
+      "created_at": "Wed Jul 08 08:42:58 +0000 2026",
+      "full_text": "#JapanExpo2026 出演の為パリに前乗りで着いて、スーパマーケットをハシゴして調味料の棚の写真をひたすらChatGPTに送り\n「この中で日本で手に入りづらくてヨーロッパらしい味が出せるオススメの調味料を教えて」\nと聞いて上位の調味料を買う旅をしております👛🍳\nパリ、いつまでも明るい☀️日が長い☀️ https://t.co/IctFFITHAr",
+      "lang": "ja",
+      "favorite_count": 2019,
+      "retweet_count": 195,
+      "reply_count": 116,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/IctFFITHAr",
+          "expanded_url": "https://x.com/kiryuintw/status/2074776242696708262/photo/1",
+          "ext_alt_text": "スーパーマーケットの調味料の棚",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 74,
+                  "w": 74,
+                  "x": 736,
+                  "y": 688
+                },
+                {
+                  "h": 80,
+                  "w": 80,
+                  "x": 1472,
+                  "y": 486
+                },
+                {
+                  "h": 78,
+                  "w": 78,
+                  "x": 748,
+                  "y": 496
+                },
+                {
+                  "h": 92,
+                  "w": 92,
+                  "x": 364,
+                  "y": 1148
+                },
+                {
+                  "h": 82,
+                  "w": 82,
+                  "x": 1152,
+                  "y": 1372
+                },
+                {
+                  "h": 92,
+                  "w": 92,
+                  "x": 874,
+                  "y": 1110
+                },
+                {
+                  "h": 90,
+                  "w": 90,
+                  "x": 132,
+                  "y": 1158
+                },
+                {
+                  "h": 108,
+                  "w": 108,
+                  "x": 868,
+                  "y": 1322
+                },
+                {
+                  "h": 90,
+                  "w": 90,
+                  "x": 1148,
+                  "y": 1340
+                },
+                {
+                  "h": 102,
+                  "w": 102,
+                  "x": 1540,
+                  "y": 1372
+                },
+                {
+                  "h": 108,
+                  "w": 108,
+                  "x": 678,
+                  "y": 1370
+                },
+                {
+                  "h": 116,
+                  "w": 116,
+                  "x": 350,
+                  "y": 294
+                }
+              ]
+            }
+          },
+          "id_str": "2074776225961361408",
+          "indices": [
+            155,
+            178
+          ],
+          "media_key": "3_2074776225961361408",
+          "media_url_https": "https://pbs.twimg.com/media/HMsV_CDaQAAp10K.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1147,
+                "w": 2048,
+                "x": 0,
+                "y": 389
+              },
+              {
+                "h": 1536,
+                "w": 1536,
+                "x": 512,
+                "y": 0
+              },
+              {
+                "h": 1536,
+                "w": 1347,
+                "x": 701,
+                "y": 0
+              },
+              {
+                "h": 1536,
+                "w": 768,
+                "x": 1203,
+                "y": 0
+              },
+              {
+                "h": 1536,
+                "w": 2048,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1536,
+            "width": 2048
+          },
+          "sizes": {
+            "large": {
+              "h": 1536,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/IctFFITHAr"
+        },
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/IctFFITHAr",
+          "expanded_url": "https://x.com/kiryuintw/status/2074776242696708262/photo/1",
+          "ext_alt_text": "スーパーマーケットの調味料の棚",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 66,
+                  "w": 66,
+                  "x": 840,
+                  "y": 508
+                },
+                {
+                  "h": 90,
+                  "w": 90,
+                  "x": 240,
+                  "y": 1304
+                },
+                {
+                  "h": 82,
+                  "w": 82,
+                  "x": 404,
+                  "y": 1542
+                },
+                {
+                  "h": 70,
+                  "w": 70,
+                  "x": 656,
+                  "y": 1822
+                },
+                {
+                  "h": 74,
+                  "w": 74,
+                  "x": 660,
+                  "y": 1842
+                },
+                {
+                  "h": 78,
+                  "w": 78,
+                  "x": 314,
+                  "y": 684
+                },
+                {
+                  "h": 82,
+                  "w": 82,
+                  "x": 244,
+                  "y": 688
+                },
+                {
+                  "h": 74,
+                  "w": 74,
+                  "x": 316,
+                  "y": 908
+                },
+                {
+                  "h": 84,
+                  "w": 84,
+                  "x": 526,
+                  "y": 1302
+                },
+                {
+                  "h": 90,
+                  "w": 90,
+                  "x": 532,
+                  "y": 1534
+                },
+                {
+                  "h": 96,
+                  "w": 96,
+                  "x": 656,
+                  "y": 864
+                },
+                {
+                  "h": 90,
+                  "w": 90,
+                  "x": 520,
+                  "y": 1084
+                },
+                {
+                  "h": 96,
+                  "w": 96,
+                  "x": 56,
+                  "y": 1826
+                }
+              ]
+            }
+          },
+          "id_str": "2074776225978220544",
+          "indices": [
+            155,
+            178
+          ],
+          "media_key": "3_2074776225978220544",
+          "media_url_https": "https://pbs.twimg.com/media/HMsV_CHbgAABO2y.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 520,
+                "w": 928,
+                "x": 0,
+                "y": 508
+              },
+              {
+                "h": 928,
+                "w": 928,
+                "x": 0,
+                "y": 304
+              },
+              {
+                "h": 1058,
+                "w": 928,
+                "x": 0,
+                "y": 239
+              },
+              {
+                "h": 1856,
+                "w": 928,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2048,
+                "w": 928,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 2048,
+            "width": 928
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 928
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/IctFFITHAr"
+        },
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/IctFFITHAr",
+          "expanded_url": "https://x.com/kiryuintw/status/2074776242696708262/photo/1",
+          "ext_alt_text": "パリの街並み",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 78,
+                  "w": 78,
+                  "x": 252,
+                  "y": 856
+                }
+              ]
+            }
+          },
+          "id_str": "2074776225961426944",
+          "indices": [
+            155,
+            178
+          ],
+          "media_key": "3_2074776225961426944",
+          "media_url_https": "https://pbs.twimg.com/media/HMsV_CDbQAANSnQ.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1147,
+                "w": 2048,
+                "x": 0,
+                "y": 297
+              },
+              {
+                "h": 1536,
+                "w": 1536,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1536,
+                "w": 1347,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1536,
+                "w": 768,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1536,
+                "w": 2048,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1536,
+            "width": 2048
+          },
+          "sizes": {
+            "large": {
+              "h": 1536,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/IctFFITHAr"
+        },
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/IctFFITHAr",
+          "expanded_url": "https://x.com/kiryuintw/status/2074776242696708262/photo/1",
+          "ext_alt_text": "パリの街並み",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2074776225969737728",
+          "indices": [
+            155,
+            178
+          ],
+          "media_key": "3_2074776225969737728",
+          "media_url_https": "https://pbs.twimg.com/media/HMsV_CFaEAAuFdK.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 860,
+                "w": 1536,
+                "x": 0,
+                "y": 1054
+              },
+              {
+                "h": 1536,
+                "w": 1536,
+                "x": 0,
+                "y": 512
+              },
+              {
+                "h": 1751,
+                "w": 1536,
+                "x": 0,
+                "y": 297
+              },
+              {
+                "h": 2048,
+                "w": 1024,
+                "x": 358,
+                "y": 0
+              },
+              {
+                "h": 2048,
+                "w": 1536,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 2048,
+            "width": 1536
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1536
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/IctFFITHAr"
+        }
+      ],
+      "id": "2074776242696708262",
+      "summary": "用户在巴黎参加Japan Expo前期，用ChatGPT分析超市调味料货架照片，获取欧洲特色调味料推荐。展示AI在旅行决策中的实际应用。",
+      "category": "AI+行业应用",
+      "category_points": 15,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [
+        "有人物/团队故事"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "好奇/趣味",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 38,
+      "verdict": "keep",
+      "angles": [
+        "ChatGPT变身旅行美食顾问，巴黎超市逛出新花样",
+        "AI+旅行：用ChatGPT发现欧洲调味料的秘密",
+        "出国前必学：ChatGPT帮你淘遍当地超市"
+      ]
+    },
+    {
+      "tweet_id": "2074492124045742324",
+      "url": "https://x.com/7athaus/status/2074492124045742324",
+      "screen_name": "7athaus",
+      "created_at": "Tue Jul 07 13:53:59 +0000 2026",
+      "full_text": "required to buy chatgpt plus for my summer class or we fail https://t.co/LUA68JiveI",
+      "lang": "en",
+      "favorite_count": 9725,
+      "retweet_count": 97,
+      "reply_count": 24,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/LUA68JiveI",
+          "expanded_url": "https://x.com/7athaus/status/2074492124045742324/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 190,
+                  "w": 190,
+                  "x": 872,
+                  "y": 833
+                },
+                {
+                  "h": 383,
+                  "w": 383,
+                  "x": 132,
+                  "y": 753
+                }
+              ]
+            }
+          },
+          "id_str": "2074492120979648512",
+          "indices": [
+            60,
+            83
+          ],
+          "media_key": "3_2074492120979648512",
+          "media_url_https": "https://pbs.twimg.com/media/HMoTl8hWsAAYhbS.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 719,
+                "w": 1284,
+                "x": 0,
+                "y": 538
+              },
+              {
+                "h": 1257,
+                "w": 1257,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1257,
+                "w": 1103,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1257,
+                "w": 629,
+                "x": 39,
+                "y": 0
+              },
+              {
+                "h": 1257,
+                "w": 1284,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1257,
+            "width": 1284
+          },
+          "sizes": {
+            "large": {
+              "h": 1257,
+              "w": 1284
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/LUA68JiveI"
+        }
+      ],
+      "id": "2074492124045742324",
+      "summary": "大学教授强制学生购买ChatGPT Plus才能通过暑期课程，引发教育公平性争议。学生质疑这一政策的合理性。",
+      "category": "AI+行业应用",
+      "category_points": 15,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [
+        "反常识/意外性"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 36,
+      "verdict": "keep",
+      "angles": [
+        "大学强制学生付费用AI，教育公平性危机",
+        "ChatGPT Plus成教学必需品？高校收费模式反思",
+        "学生吐槽：不买Plus就挂科的时代来了"
+      ]
+    },
+    {
+      "tweet_id": "2074773187037134892",
+      "url": "https://x.com/deedydas/status/2074773187037134892",
+      "screen_name": "deedydas",
+      "created_at": "Wed Jul 08 08:30:49 +0000 2026",
+      "full_text": "The Argentina come back against Egypt is one of the best matches in football history.\n\nI analyzed ~50,000 games with Fable to show just how crazy it was.\n\nOf the 10,138 times that a team has been up 2-0 at 79', only SIXTEEN times (0.16%) did they ever make a come back at the end https://t.co/ccd6UC1Qv9",
+      "lang": "en",
+      "favorite_count": 2996,
+      "retweet_count": 437,
+      "reply_count": 125,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/ccd6UC1Qv9",
+          "expanded_url": "https://x.com/deedydas/status/2074773187037134892/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 110,
+                  "w": 110,
+                  "x": 57,
+                  "y": 173
+                }
+              ]
+            }
+          },
+          "id_str": "2074773183866241024",
+          "indices": [
+            280,
+            303
+          ],
+          "media_key": "3_2074773183866241024",
+          "media_url_https": "https://pbs.twimg.com/media/HMsTN9XagAAfEMm.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1128,
+                "w": 2014,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1380,
+                "w": 1380,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1380,
+                "w": 1211,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1380,
+                "w": 690,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1380,
+                "w": 2014,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1380,
+            "width": 2014
+          },
+          "sizes": {
+            "large": {
+              "h": 1380,
+              "w": 2014
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/ccd6UC1Qv9"
+        }
+      ],
+      "id": "2074773187037134892",
+      "summary": "用户用Fable分析5万场足球比赛，发现阿根廷2:0领先79分钟后逆转埃及的概率仅0.16%。展示AI数据分析在体育领域的应用。",
+      "category": "AI+行业应用",
+      "category_points": 15,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [
+        "有明确数据/统计"
+      ],
+      "viral_signals_points": 8,
+      "emotion": "好奇/趣味",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 36,
+      "verdict": "keep",
+      "angles": [
+        "AI分析体育数据：0.16%的奇迹逆转",
+        "Fable深度分析5万场比赛，揭秘足球概率",
+        "AI如何量化足球比赛的不可能时刻"
+      ]
+    },
+    {
+      "tweet_id": "2074677924549349868",
+      "url": "https://x.com/Mathrk623/status/2074677924549349868",
+      "screen_name": "Mathrk623",
+      "created_at": "Wed Jul 08 02:12:17 +0000 2026",
+      "full_text": "飛行機の取り方分からなくてChatGPTに聞いたらこれで神 https://t.co/0Tvw0JP5XE",
+      "lang": "ja",
+      "favorite_count": 2613,
+      "retweet_count": 103,
+      "reply_count": 12,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/0Tvw0JP5XE",
+          "expanded_url": "https://x.com/Mathrk623/status/2074677924549349868/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 35,
+                  "w": 35,
+                  "x": 136,
+                  "y": 36
+                },
+                {
+                  "h": 34,
+                  "w": 34,
+                  "x": 326,
+                  "y": 318
+                }
+              ]
+            }
+          },
+          "id_str": "2074677921940447232",
+          "indices": [
+            30,
+            53
+          ],
+          "media_key": "3_2074677921940447232",
+          "media_url_https": "https://pbs.twimg.com/media/HMq8k_CbIAAgv8b.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 484,
+                "w": 864,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 756,
+                "w": 756,
+                "x": 108,
+                "y": 0
+              },
+              {
+                "h": 756,
+                "w": 663,
+                "x": 201,
+                "y": 0
+              },
+              {
+                "h": 756,
+                "w": 378,
+                "x": 394,
+                "y": 0
+              },
+              {
+                "h": 756,
+                "w": 864,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 756,
+            "width": 864
+          },
+          "sizes": {
+            "large": {
+              "h": 756,
+              "w": 864
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/0Tvw0JP5XE"
+        }
+      ],
+      "id": "2074677924549349868",
+      "summary": "用户分享用ChatGPT查询飞机购票方法的经验。展示AI助手在日常生活中的实用价值，属于效率工具推荐。",
+      "category": "效率工具推荐",
+      "category_points": 17,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
+      "actionability_points": 0,
+      "account_fit": "B型",
+      "account_bonus": 5,
+      "total_score": 33,
+      "verdict": "keep",
+      "angles": [
+        "ChatGPT秒解飞机购票难题，效率提升神器",
+        "不懂买机票？让AI来教你",
+        "日常生活AI应用：ChatGPT的隐藏用法"
+      ]
+    },
+    {
+      "tweet_id": "2074705681920520526",
+      "url": "https://x.com/thsottiaux/status/2074705681920520526",
+      "screen_name": "thsottiaux",
+      "created_at": "Wed Jul 08 04:02:35 +0000 2026",
+      "full_text": "Prepare your sunglasses. Sol is coming. 😎",
+      "lang": "en",
+      "favorite_count": 6015,
+      "retweet_count": 297,
+      "reply_count": 501,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074705681920520526",
+      "summary": "Prepare your sunglasses. Sol is coming. 😎",
+      "category": "未评分",
+      "category_points": 0,
+      "info_gap": "未评分",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "未评分",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 30,
+      "verdict": "keep",
+      "angles": [
+        "[LLM fallback: Expecting ',' delimiter: line 5 column 24 (char 81)]"
+      ],
+      "_fallback": true
+    },
+    {
+      "tweet_id": "2074497419535073306",
+      "url": "https://x.com/AndrewBolis/status/2074497419535073306",
+      "screen_name": "AndrewBolis",
+      "created_at": "Tue Jul 07 14:15:01 +0000 2026",
+      "full_text": "ChatGPT + laptop + internet connection + 60 minutes a day = $349 per day.\n\nUsually, I charge $81 for this guide, but today you get it 100% for free.\n\nLike + comment 'AI' and I'll send you my step-by-step guide for FREE.\n\nMust follow me to get guide in DM.\n\nFREE for 48 hours. https://t.co/5CjTm6Pt69",
+      "lang": "en",
+      "favorite_count": 2213,
+      "retweet_count": 184,
+      "reply_count": 2446,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/5CjTm6Pt69",
+          "expanded_url": "https://x.com/AndrewBolis/status/2074497419535073306/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2074497416687226880",
+          "indices": [
+            276,
+            299
+          ],
+          "media_key": "3_2074497416687226880",
+          "media_url_https": "https://pbs.twimg.com/media/HMoYaMkbkAAJRp7.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 280,
+                "w": 500,
+                "x": 0,
+                "y": 72
+              },
+              {
+                "h": 498,
+                "w": 498,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 498,
+                "w": 437,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 498,
+                "w": 249,
+                "x": 88,
+                "y": 0
+              },
+              {
+                "h": 498,
+                "w": 500,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 498,
+            "width": 500
+          },
+          "sizes": {
+            "large": {
+              "h": 498,
+              "w": 500
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/5CjTm6Pt69"
+        }
+      ],
+      "id": "2074497419535073306",
+      "summary": "ChatGPT + laptop + internet connection + 60 minutes a day = $349 per day.\n\nUsually, I charge $81 for this guide, but today you get it 100% for free.\n\n",
+      "category": "未评分",
+      "category_points": 0,
+      "info_gap": "未评分",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "未评分",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 30,
+      "verdict": "keep",
+      "angles": [
+        "[LLM fallback: Expecting ',' delimiter: line 12 column 11 (char 317)]"
+      ],
+      "_fallback": true
+    },
+    {
+      "tweet_id": "2074582554141692089",
+      "url": "https://x.com/skooookum/status/2074582554141692089",
+      "screen_name": "skooookum",
+      "created_at": "Tue Jul 07 19:53:19 +0000 2026",
+      "full_text": "You haven’t lived until you’ve ssh’d into 3 million American dollars worth of godboxes",
+      "lang": "en",
+      "favorite_count": 2172,
+      "retweet_count": 64,
+      "reply_count": 21,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074582554141692089",
+      "summary": "用户分享通过SSH访问价值300万美元的高端服务器的体验。这是一条开发者社区的技术趣味分享。",
+      "category": "开发者工具",
+      "category_points": 8,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "好奇/趣味",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 21,
+      "verdict": "keep",
+      "angles": [
+        "300万美元的服务器长什么样",
+        "开发者的终极体验：顶级硬件SSH之旅",
+        "godbox传说：云计算的奢侈品"
+      ]
+    },
+    {
+      "tweet_id": "2074582188708814988",
+      "url": "https://x.com/mymeloseul/status/2074582188708814988",
+      "screen_name": "mymeloseul",
+      "created_at": "Tue Jul 07 19:51:52 +0000 2026",
+      "full_text": "yikes the middle mermaid tile has a gemini logo 💀",
+      "lang": "en",
+      "favorite_count": 24719,
+      "retweet_count": 1729,
+      "reply_count": 99,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074582188708814988",
+      "summary": "用户发现某个美人鱼瓷砖图案中出现了Gemini标志，引发吐槽。内容为纯反应/吐槽，无具体AI产品或技术信息。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "无法判断",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074602429417500999",
+      "url": "https://x.com/aedison/status/2074602429417500999",
+      "screen_name": "aedison",
+      "created_at": "Tue Jul 07 21:12:18 +0000 2026",
+      "full_text": "honoring several near-identical cartoon lesbian relationships feels unbearably cringe until those last three lines of ChatGPT tripe remind you that there’s a real value to the earnestness of an embarrassing paragraph written by an actual human who is just excited about something",
+      "lang": "en",
+      "favorite_count": 12751,
+      "retweet_count": 353,
+      "reply_count": 32,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074602429417500999",
+      "summary": "用户评论ChatGPT生成内容与人类创意的对比，认为真人的热情表达比AI文案更有价值。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074704567766528101",
+      "url": "https://x.com/miunatshaa/status/2074704567766528101",
+      "screen_name": "miunatshaa",
+      "created_at": "Wed Jul 08 03:58:09 +0000 2026",
+      "full_text": "เรื่องเศร้าของวัน……WHOOP หายยยยยยยยยยยยยยจะบ้าตายยย🫠😶‍🌫️",
+      "lang": "th",
+      "favorite_count": 7380,
+      "retweet_count": 1429,
+      "reply_count": 232,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074704567766528101",
+      "summary": "泰文推文，表达对WHOOP产品消失的失望情绪，具体产品信息不明确。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "无法判断",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074685475022074266",
+      "url": "https://x.com/newsinigami184/status/2074685475022074266",
+      "screen_name": "newsinigami184",
+      "created_at": "Wed Jul 08 02:42:17 +0000 2026",
+      "full_text": "めっちゃ恥ずい https://t.co/YiJVko9wsr",
+      "lang": "ja",
+      "favorite_count": 6456,
+      "retweet_count": 220,
+      "reply_count": 94,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/YiJVko9wsr",
+          "expanded_url": "https://x.com/newsinigami184/status/2074685475022074266/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2074685471431835648",
+          "indices": [
+            8,
+            31
+          ],
+          "media_key": "3_2074685471431835648",
+          "media_url_https": "https://pbs.twimg.com/media/HMrDcbFbwAAM2dH.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 601,
+                "w": 1073,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 601,
+                "w": 601,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 601,
+                "w": 527,
+                "x": 2,
+                "y": 0
+              },
+              {
+                "h": 601,
+                "w": 301,
+                "x": 115,
+                "y": 0
+              },
+              {
+                "h": 601,
+                "w": 1179,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 601,
+            "width": 1179
+          },
+          "sizes": {
+            "large": {
+              "h": 601,
+              "w": 1179
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/YiJVko9wsr"
+        }
+      ],
+      "id": "2074685475022074266",
+      "summary": "日文推文仅含「めっちゃ恥ずい」(超尴尬)和链接，无具体AI/科技信息可判断。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "无法判断",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074708892341481755",
+      "url": "https://x.com/theo/status/2074708892341481755",
+      "screen_name": "theo",
+      "created_at": "Wed Jul 08 04:15:20 +0000 2026",
+      "full_text": "Apparently I'm allowed to talk about GPT-5.6 now?\n\nIt's a damn good model. Not quite as \"smart\" as Fable, but it is incredibly capable. Fixed all the problems I had with GPT-5.5.\n\nIt is incredibly determined. Will run for a day without even using a /goal. It understands subagents",
+      "lang": "en",
+      "favorite_count": 6396,
+      "retweet_count": 197,
+      "reply_count": 411,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074708892341481755",
+      "summary": "用户声称可以讨论GPT-5.6，称其能力强劲、修复了5.5的问题，具有高度自主性和子代理理解能力。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074546761083859258",
+      "url": "https://x.com/nazzobetweeting/status/2074546761083859258",
+      "screen_name": "nazzobetweeting",
+      "created_at": "Tue Jul 07 17:31:05 +0000 2026",
+      "full_text": "i understand the sentiment but you guys do know data centers are also the thing that stores all your photos and backups and cloud storage in general, right? like you guys are aware that a data center isn’t inherently a chatgpt powerplant, right?",
+      "lang": "en",
+      "favorite_count": 6386,
+      "retweet_count": 308,
+      "reply_count": 126,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074546761083859258",
+      "summary": "用户澄清数据中心的多重用途，指出其不仅用于AI模型训练，也存储照片、备份等日常云服务。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074649950483341793",
+      "url": "https://x.com/Roger07134/status/2074649950483341793",
+      "screen_name": "Roger07134",
+      "created_at": "Wed Jul 08 00:21:07 +0000 2026",
+      "full_text": "ウルフギャングをアメリカの美味しいステーキだと思ってる人は本当に申し訳ないですけど、それは大きな勘違いです。\n\nそもそもウルフギャングはかの有名なピーター・ルーガーで40年以上働いたヘッドウェイターが、2004年にマンハッタンでビジネスをはじめたのがルーツ。",
+      "lang": "ja",
+      "favorite_count": 5722,
+      "retweet_count": 331,
+      "reply_count": 220,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074649950483341793",
+      "summary": "日本推特用户纠正对Wolfgangs牛排馆的误解，介绍其创始人是Peter Luger资深侍应长，2004年在曼哈顿创业。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074521029146558485",
+      "url": "https://x.com/c_aom_91/status/2074521029146558485",
+      "screen_name": "c_aom_91",
+      "created_at": "Tue Jul 07 15:48:50 +0000 2026",
+      "full_text": "ฟค :ไม่เจอมา 3 เดือน\n♊️ :เธอไปอยู่ไหนมาน่ะ\nฟค : เธอไม่มีงาน\n♊️ : อ๋อ ฉันไม่มีงาน 😂\n\nGEMINI CONCERT PRESS TOUR\n#Flex1045xGEMINIConcert\n#GeminiConcertLive https://t.co/p6ZMJt6wpP",
+      "lang": "th",
+      "favorite_count": 5684,
+      "retweet_count": 3453,
+      "reply_count": 1,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "display_url": "pic.x.com/p6ZMJt6wpP",
+          "expanded_url": "https://x.com/c_aom_91/status/2074521029146558485/video/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "id_str": "2074520833633243137",
+          "indices": [
+            153,
+            176
+          ],
+          "media_key": "13_2074520833633243137",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2074520833633243137/img/RarwG04mMQZVZfRX.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 3840,
+            "width": 2160
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1152
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/p6ZMJt6wpP",
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              16
+            ],
+            "duration_millis": 11818,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2074520833633243137/pl/H1lcaMSApJJBapjP.m3u8"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074520833633243137/vid/avc1/320x568/swA58YSZ9E1U-YdP.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074520833633243137/vid/avc1/480x852/AbAmMpXgvmlr8olo.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074520833633243137/vid/avc1/720x1280/LZ58TfMNTaAHvEXK.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074520833633243137/vid/avc1/1080x1920/8KQfdpwOOTpdvwL-.mp4"
+              },
+              {
+                "bitrate": 25128000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074520833633243137/vid/avc1/2160x3840/Q_zdm27tF4lDTPh4.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "2074521029146558485",
+      "summary": "泰文推特混合日常对话段子与Gemini演唱会宣传，无AI/科技内容。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074448605943939314",
+      "url": "https://x.com/_Tamazeal/status/2074448605943939314",
+      "screen_name": "_Tamazeal",
+      "created_at": "Tue Jul 07 11:01:03 +0000 2026",
+      "full_text": "ChatGPT: \"sowwy, I can't give you an answer. Your request is heckin problematic\"\n\nGrok: https://t.co/eeGvoD9kMS",
+      "lang": "en",
+      "favorite_count": 5040,
+      "retweet_count": 167,
+      "reply_count": 9,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/eeGvoD9kMS",
+          "expanded_url": "https://x.com/_Tamazeal/status/2074448605943939314/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 185,
+                  "w": 185,
+                  "x": 177,
+                  "y": 132
+                }
+              ]
+            }
+          },
+          "id_str": "2074448065562333184",
+          "indices": [
+            88,
+            111
+          ],
+          "media_key": "3_2074448065562333184",
+          "media_url_https": "https://pbs.twimg.com/media/HMnrhlTW0AAj9O4.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 256,
+                "w": 457,
+                "x": 0,
+                "y": 111
+              },
+              {
+                "h": 449,
+                "w": 449,
+                "x": 8,
+                "y": 0
+              },
+              {
+                "h": 449,
+                "w": 394,
+                "x": 42,
+                "y": 0
+              },
+              {
+                "h": 449,
+                "w": 225,
+                "x": 127,
+                "y": 0
+              },
+              {
+                "h": 449,
+                "w": 457,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 449,
+            "width": 457
+          },
+          "sizes": {
+            "large": {
+              "h": 449,
+              "w": 457
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/eeGvoD9kMS"
+        }
+      ],
+      "id": "2074448605943939314",
+      "summary": "对比ChatGPT与Grok的内容审核差异，暗示Grok更宽松。无具体产品信息或演示。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074467718200201289",
+      "url": "https://x.com/RrichPRMR/status/2074467718200201289",
+      "screen_name": "RrichPRMR",
+      "created_at": "Tue Jul 07 12:17:00 +0000 2026",
+      "full_text": "She earns $7,300 a month from a link in her bio she hasn't touched since March.\n\nNo product of her own. \nNo coaching. \nNo brand chasing her. \n\nJust one link, quietly paying her while she trains.\n\nHere's what nobody tells you about fitness content: the supplement companies already https://t.co/f4jBuTYlcg",
+      "lang": "en",
+      "favorite_count": 4921,
+      "retweet_count": 40,
+      "reply_count": 15,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/f4jBuTYlcg",
+          "expanded_url": "https://x.com/RrichPRMR/status/2074467718200201289/video/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "id_str": "2074446529012649984",
+          "indices": [
+            281,
+            304
+          ],
+          "media_key": "13_2074446529012649984",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2074446529012649984/img/SnIt_ge10hcYwt_P.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1920,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 1920,
+              "w": 1080
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/f4jBuTYlcg",
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              16
+            ],
+            "duration_millis": 9496,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2074446529012649984/pl/3kK2JW-ddW5OYgU3.m3u8"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074446529012649984/vid/avc1/320x568/IkokUBw24E39Jo3w.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074446529012649984/vid/avc1/480x852/4OqBTiW26X9aizn0.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074446529012649984/vid/avc1/720x1280/Ovs-DxYN6f7CtJme.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074446529012649984/vid/avc1/1080x1920/KWYMEl1-zLCRtXmY.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "2074467718200201289",
+      "summary": "分享健身内容创作者通过生物链接月入7300美元的案例，讨论补充剂公司的联盟营销模式。非AI内容。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074519226937708998",
+      "url": "https://x.com/luckiiigirl/status/2074519226937708998",
+      "screen_name": "luckiiigirl",
+      "created_at": "Tue Jul 07 15:41:41 +0000 2026",
+      "full_text": "i hate seeing ai being used in k-pop but i’m also not gonna attack idols over the decisions made by their creative/editing team like those red velvet teaser tiles are so obviously ai generated but do i think yeri was sitting at her computer typing the prompt into chatgpt? no",
+      "lang": "en",
+      "favorite_count": 4719,
+      "retweet_count": 583,
+      "reply_count": 13,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074519226937708998",
+      "summary": "K-pop粉丝讨论Red Velvet预告片中明显的AI生成图像，反思AI在音乐行业的应用与伦理问题。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074638582418231495",
+      "url": "https://x.com/steipete/status/2074638582418231495",
+      "screen_name": "steipete",
+      "created_at": "Tue Jul 07 23:35:57 +0000 2026",
+      "full_text": "If you run this workflow, ask Fable to make codex the workhorse. https://t.co/o20OwqaoAt",
+      "lang": "en",
+      "favorite_count": 4374,
+      "retweet_count": 237,
+      "reply_count": 172,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074638582418231495",
+      "summary": "开发者分享工作流建议，提及Fable工具与codex配置。信息过于简洁，无具体产品说明。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074703703035215919",
+      "url": "https://x.com/LittleBirbMame/status/2074703703035215919",
+      "screen_name": "LittleBirbMame",
+      "created_at": "Wed Jul 08 03:54:43 +0000 2026",
+      "full_text": "ห้ะ บอใหญ่อย่าง SM Gen AI ให้คอนเซปต์อัลบั้มของศิลปินระดับน้องเค้กเหรอ ช็อค ทำทำไมอ่ะ แถมลบโลโก้ Gemini ไม่หมด😭 https://t.co/SOkk5AtbDT",
+      "lang": "th",
+      "favorite_count": 3782,
+      "retweet_count": 8675,
+      "reply_count": 20,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/SOkk5AtbDT",
+          "expanded_url": "https://x.com/LittleBirbMame/status/2074703703035215919/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 54,
+                  "w": 54,
+                  "x": 748,
+                  "y": 96
+                }
+              ]
+            }
+          },
+          "id_str": "2074703690100076544",
+          "indices": [
+            112,
+            135
+          ],
+          "media_key": "3_2074703690100076544",
+          "media_url_https": "https://pbs.twimg.com/media/HMrUA46bcAAMEkc.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 675,
+                "w": 1206,
+                "x": 0,
+                "y": 554
+              },
+              {
+                "h": 1206,
+                "w": 1206,
+                "x": 0,
+                "y": 23
+              },
+              {
+                "h": 1229,
+                "w": 1078,
+                "x": 64,
+                "y": 0
+              },
+              {
+                "h": 1229,
+                "w": 615,
+                "x": 296,
+                "y": 0
+              },
+              {
+                "h": 1229,
+                "w": 1206,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1229,
+            "width": 1206
+          },
+          "sizes": {
+            "large": {
+              "h": 1229,
+              "w": 1206
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/SOkk5AtbDT"
+        }
+      ],
+      "id": "2074703703035215919",
+      "summary": "泰文推特用户吐槽SM娱乐使用Gemini AI生成专辑概念，批评其质量与logo处理不当。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074636019081830724",
+      "url": "https://x.com/mollimonchhi/status/2074636019081830724",
+      "screen_name": "mollimonchhi",
+      "created_at": "Tue Jul 07 23:25:46 +0000 2026",
+      "full_text": "https://t.co/TCbIoFjR8y\n\n👩🏻: udah 3 bulan ga ketemu kamu\n♊️: 3 bulan? kamu ke mana aja??\n👩🏻: kamu yang gaada pekerjaan (event)\n♊️: aku yang gaada pekerjaan? oh, aku memang tidak ada pekerjaan 😂 \n\nGEMINI CONCERT PRESS TOUR\n#Flex1045xGEMINIConcert\n#GeminiConcertLive #GeminiConcert",
+      "lang": "in",
+      "favorite_count": 3695,
+      "retweet_count": 769,
+      "reply_count": 2,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {},
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": false,
+                  "legacy": {
+                    "advertiser_account_service_levels": [
+                      "analytics"
+                    ],
+                    "advertiser_account_type": "promotable_user",
+                    "analytics_type": "enabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": true,
+                    "can_media_tag": false,
+                    "created_at": "Mon Jan 11 12:00:14 +0000 2010",
+                    "customer_service_state": "",
+                    "description": "💎E.L.F.ㅣ🍑FlowDㅣ💚 #คนของแปลน ㅣคุณหนูของ #GeminiFourth 🪥🌻ㅣฮิปโปของพี่คชาㅣหมอเน๋งㅣยัยซัง🐋🐻‍❄️ㅣJunniorrs\n\n💖 #SorrySorryteam2 💕 박지훈",
+                    "entities": {
+                      "description": {
+                        "hashtags": [
+                          {
+                            "indices": [
+                              17,
+                              27
+                            ],
+                            "text": "คนของแปลน"
+                          },
+                          {
+                            "indices": [
+                              39,
+                              52
+                            ],
+                            "text": "GeminiFourth"
+                          },
+                          {
+                            "indices": [
+                              104,
+                              120
+                            ],
+                            "text": "SorrySorryteam2"
+                          }
+                        ]
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 3304,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 1660,
+                    "following": false,
+                    "friends_count": 924,
+                    "geo_enabled": true,
+                    "has_custom_timelines": true,
+                    "has_extended_profile": true,
+                    "has_no_screen_name": false,
+                    "id_str": "103834673",
+                    "is_lifeline_institution": false,
+                    "is_translator": false,
+                    "live_following": false,
+                    "location": "Thailand",
+                    "media_count": 8193,
+                    "muting": false,
+                    "name": "🪄✨️C_Aom✨️",
+                    "needs_phone_verification": false,
+                    "normal_followers_count": 1660,
+                    "notifications": false,
+                    "profile_background_color": "FFFFFF",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/103834673/1781594973",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1945326286089465856/KK-CQe5w_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "F58EA8",
+                    "protected": false,
+                    "screen_name": "c_aom_91",
+                    "statuses_count": 236496,
+                    "suspended": false,
+                    "translator_type_enum": "None",
+                    "url": "",
+                    "verified": false,
+                    "want_retweets": false,
+                    "withheld_copyright": false,
+                    "withheld_description": "",
+                    "withheld_scope": ""
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Circle",
+                  "rest_id": "103834673",
+                  "super_follow_eligible": false,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": false
+          },
+          "display_url": "pic.x.com/TCbIoFjR8y",
+          "expanded_url": "https://x.com/c_aom_91/status/2074521029146558485/video/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "id_str": "2074520833633243137",
+          "indices": [
+            0,
+            23
+          ],
+          "media_key": "13_2074520833633243137",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2074520833633243137/img/RarwG04mMQZVZfRX.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 3840,
+            "width": 2160
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1152
+            }
+          },
+          "source_status_id_str": "2074521029146558485",
+          "source_user_id_str": "103834673",
+          "type": "video",
+          "url": "https://t.co/TCbIoFjR8y",
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              16
+            ],
+            "duration_millis": 11818,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2074520833633243137/pl/H1lcaMSApJJBapjP.m3u8"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074520833633243137/vid/avc1/320x568/swA58YSZ9E1U-YdP.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074520833633243137/vid/avc1/480x852/AbAmMpXgvmlr8olo.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074520833633243137/vid/avc1/720x1280/LZ58TfMNTaAHvEXK.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074520833633243137/vid/avc1/1080x1920/8KQfdpwOOTpdvwL-.mp4"
+              },
+              {
+                "bitrate": 25128000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074520833633243137/vid/avc1/2160x3840/Q_zdm27tF4lDTPh4.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "2074636019081830724",
+      "summary": "Gemini演唱会宣传内容，涉及品牌活动。非AI技术内容，属于娱乐营销范畴。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074516188583903594",
+      "url": "https://x.com/wariocolosseum/status/2074516188583903594",
+      "screen_name": "wariocolosseum",
+      "created_at": "Tue Jul 07 15:29:36 +0000 2026",
+      "full_text": "seriously fuck nvidia",
+      "lang": "en",
+      "favorite_count": 3653,
+      "retweet_count": 307,
+      "reply_count": 7,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074516188583903594",
+      "summary": "用户发表对Nvidia的负面评论。缺乏具体信息，属于情绪发泄型内容，无实质AI/技术信息。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074555759904579838",
+      "url": "https://x.com/petergyang/status/2074555759904579838",
+      "screen_name": "petergyang",
+      "created_at": "Tue Jul 07 18:06:51 +0000 2026",
+      "full_text": "Every Argentina match is a banger",
+      "lang": "en",
+      "favorite_count": 3488,
+      "retweet_count": 136,
+      "reply_count": 46,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074555759904579838",
+      "summary": "关于阿根廷足球比赛的评论。与AI/科技无关，属于体育内容。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074803233818837115",
+      "url": "https://x.com/GMMTV/status/2074803233818837115",
+      "screen_name": "GMMTV",
+      "created_at": "Wed Jul 08 10:30:13 +0000 2026",
+      "full_text": "อีก 3️⃣ วัน เตรียมตัวกดบัตร แล้วมาสร้างสรรค์ชิ้นงานครั้งนี้ไปด้วยกันกับ 'เจมีไนน์' ✨🖌️🖼️ #GeminiConcert\n\nGEMINI ART-VENTURE CONCERT 🎨\n🗓️ 5-6 SEPTEMBER 2026\n📍 BITEC LIVE\nAnd worldwide live streaming via TTM LIVE\n\n📌 TICKETS FOR ALL SEATS WILL BE AVAILABLE ONLINE ONLY AT https://t.co/dbK5QGZOyF",
+      "lang": "vi",
+      "favorite_count": 3404,
+      "retweet_count": 2809,
+      "reply_count": 55,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/dbK5QGZOyF",
+          "expanded_url": "https://x.com/GMMTV/status/2074803233818837115/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "all": {
+              "tags": [
+                {
+                  "name": "gemini_nt",
+                  "screen_name": "gemini_ti",
+                  "user_id": "1198872710501130240"
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "h": 84,
+                  "w": 84,
+                  "x": 260,
+                  "y": 398
+                }
+              ]
+            }
+          },
+          "id_str": "2074769848031440896",
+          "indices": [
+            269,
+            292
+          ],
+          "media_key": "3_2074769848031440896",
+          "media_url_https": "https://pbs.twimg.com/media/HMsQLyaa8AAXnlL.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1840,
+                "w": 3286,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 3286,
+                "w": 3286,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 3746,
+                "w": 3286,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 4096,
+                "w": 2048,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 4096,
+                "w": 3286,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 4096,
+            "width": 3286
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1643
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/dbK5QGZOyF"
+        }
+      ],
+      "id": "2074803233818837115",
+      "summary": "Gemini艺术创意演唱会活动宣传，2026年9月在泰国举办。非AI技术内容，属于品牌活动营销。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074707927844446527",
+      "url": "https://x.com/gdb/status/2074707927844446527",
+      "screen_name": "gdb",
+      "created_at": "Wed Jul 08 04:11:30 +0000 2026",
+      "full_text": "Sol is rising. It’s a good model.",
+      "lang": "en",
+      "favorite_count": 3252,
+      "retweet_count": 102,
+      "reply_count": 160,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074707927844446527",
+      "summary": "用户评价Sol是一个好模型。信息过于简洁，缺乏具体产品信息、功能说明或背景，无法判断Sol的具体属性。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074463117703365119",
+      "url": "https://x.com/gemiieyy/status/2074463117703365119",
+      "screen_name": "gemiieyy",
+      "created_at": "Tue Jul 07 11:58:43 +0000 2026",
+      "full_text": "mata is gemini new manager 😄😄??? https://t.co/gTWvi94z0v",
+      "lang": "in",
+      "favorite_count": 2927,
+      "retweet_count": 153,
+      "reply_count": 12,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {},
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": false,
+                  "legacy": {
+                    "advertiser_account_type": "none",
+                    "analytics_type": "disabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": true,
+                    "can_media_tag": true,
+                    "created_at": "Thu Jul 30 08:47:49 +0000 2020",
+                    "customer_service_state": "",
+                    "description": "• buffbee • supports @bbrightvc @winmetawin @tawattannn @gemini_ti @satangktp @winny_thanawin 💗",
+                    "entities": {
+                      "description": {
+                        "user_mentions": [
+                          {
+                            "id_str": "",
+                            "indices": [
+                              21,
+                              31
+                            ],
+                            "name": "",
+                            "screen_name": "bbrightvc"
+                          },
+                          {
+                            "id_str": "",
+                            "indices": [
+                              32,
+                              43
+                            ],
+                            "name": "",
+                            "screen_name": "winmetawin"
+                          },
+                          {
+                            "id_str": "",
+                            "indices": [
+                              44,
+                              55
+                            ],
+                            "name": "",
+                            "screen_name": "tawattannn"
+                          },
+                          {
+                            "id_str": "",
+                            "indices": [
+                              56,
+                              66
+                            ],
+                            "name": "",
+                            "screen_name": "gemini_ti"
+                          },
+                          {
+                            "id_str": "",
+                            "indices": [
+                              67,
+                              77
+                            ],
+                            "name": "",
+                            "screen_name": "satangktp"
+                          },
+                          {
+                            "id_str": "",
+                            "indices": [
+                              78,
+                              93
+                            ],
+                            "name": "",
+                            "screen_name": "winny_thanawin"
+                          }
+                        ]
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 16191,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 577,
+                    "following": false,
+                    "friends_count": 1015,
+                    "geo_enabled": false,
+                    "has_custom_timelines": true,
+                    "has_extended_profile": true,
+                    "has_no_screen_name": false,
+                    "id_str": "1288758130210295808",
+                    "is_lifeline_institution": false,
+                    "is_translator": false,
+                    "live_following": false,
+                    "location": "อ.เมืองปทุมธานี, จ.ปทุมธานี",
+                    "media_count": 1700,
+                    "muting": false,
+                    "name": "บัฟบี🧸",
+                    "needs_phone_verification": false,
+                    "normal_followers_count": 577,
+                    "notifications": false,
+                    "pinned_tweet_ids_str": [
+                      "1971111381668946370"
+                    ],
+                    "profile_background_color": "F5F8FA",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1288758130210295808/1741253345",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2005646423493406720/EGdguLYl_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "1DA1F2",
+                    "protected": false,
+                    "screen_name": "buffbeee",
+                    "statuses_count": 22390,
+                    "suspended": false,
+                    "translator_type_enum": "None",
+                    "url": "",
+                    "verified": false,
+                    "want_retweets": false,
+                    "withheld_copyright": false,
+                    "withheld_description": "",
+                    "withheld_scope": ""
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Circle",
+                  "rest_id": "1288758130210295808",
+                  "super_follow_eligible": false,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": false
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/gTWvi94z0v",
+          "expanded_url": "https://x.com/buffbeee/status/2074453722403627058/video/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "id_str": "2074453625552900096",
+          "indices": [
+            33,
+            56
+          ],
+          "media_key": "13_2074453625552900096",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2074453625552900096/img/AnrcY6jg_F8QInwC.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1280,
+            "width": 720
+          },
+          "sizes": {
+            "large": {
+              "h": 1280,
+              "w": 720
+            }
+          },
+          "source_status_id_str": "2074453722403627058",
+          "source_user_id_str": "1288758130210295808",
+          "type": "video",
+          "url": "https://t.co/gTWvi94z0v",
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              16
+            ],
+            "duration_millis": 14016,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2074453625552900096/pl/nV5lHVEKhrHYKjWz.m3u8"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074453625552900096/vid/avc1/320x568/R7jnN-XoKyg5fiMa.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074453625552900096/vid/avc1/480x852/HDZgsLrkIOAZX66c.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074453625552900096/vid/avc1/720x1280/uHhSPEq4BT3GWcpD.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "2074463117703365119",
+      "summary": "用户评论Mata是Gemini的新经理。缺乏具体信息，Gemini指代不明（品牌/产品/人物），无法判断是否AI相关内容。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074611919495795165",
+      "url": "https://x.com/catisful/status/2074611919495795165",
+      "screen_name": "catisful",
+      "created_at": "Tue Jul 07 21:50:00 +0000 2026",
+      "full_text": "a equipe da sm tipo: \n\n- gemini gere uma imagem oceânica pra mim\n\n- chat gpt tire a logo do gemini",
+      "lang": "pt",
+      "favorite_count": 2569,
+      "retweet_count": 121,
+      "reply_count": 5,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074611919495795165",
+      "summary": "用户评论SM公司团队让Gemini生成海洋图像，ChatGPT移除Gemini标志。涉及品牌竞争，缺乏具体AI产品信息。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074577252512088210",
+      "url": "https://x.com/alexinexxx/status/2074577252512088210",
+      "screen_name": "alexinexxx",
+      "created_at": "Tue Jul 07 19:32:15 +0000 2026",
+      "full_text": "Your Anthropic subscription now includes :\n&gt;fake deadlines\n&gt;fear-based marketing\n&gt;spyware like fingerprinting\n&gt;anti-open source incentives\n\nSubscribe to Claude Fable until July 12!! (or maybe 17th)",
+      "lang": "en",
+      "favorite_count": 2567,
+      "retweet_count": 101,
+      "reply_count": 77,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074577252512088210",
+      "summary": "用户讽刺Anthropic的Claude订阅包含虚假截止日期、恐惧营销和指纹识别等问题，呼吁订阅Claude Fable。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074472242470101455",
+      "url": "https://x.com/WAVArchive/status/2074472242470101455",
+      "screen_name": "WAVArchive",
+      "created_at": "Tue Jul 07 12:34:59 +0000 2026",
+      "full_text": "Jetpack Joyride (Main Theme) — Cedar Jones (2011) https://t.co/gS4Iht1yGQ",
+      "lang": "en",
+      "favorite_count": 2480,
+      "retweet_count": 470,
+      "reply_count": 23,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/gS4Iht1yGQ",
+          "expanded_url": "https://x.com/WAVArchive/status/2074472242470101455/video/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "id_str": "2074472116171190272",
+          "indices": [
+            50,
+            73
+          ],
+          "media_key": "13_2074472116171190272",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2074472116171190272/img/hSZ2zgOJqIYXlv84.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/gS4Iht1yGQ",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 137237,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2074472116171190272/pl/D2FouLITjjTQZXkF.m3u8?v=708"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074472116171190272/vid/avc1/480x270/8Wg4SH2mJxzfWk53.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074472116171190272/vid/avc1/640x360/L3skLWYs9oKDE-_Y.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074472116171190272/vid/avc1/1280x720/9nHGw4RwrwDbPC_H.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074472116171190272/vid/avc1/1920x1080/I8wlvmLgsopgFP1Y.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "2074472242470101455",
+      "summary": "分享2011年游戏《Jetpack Joyride》主题音乐，作曲者Cedar Jones。无AI/科技内容。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074646123642315184",
+      "url": "https://x.com/thdxr/status/2074646123642315184",
+      "screen_name": "thdxr",
+      "created_at": "Wed Jul 08 00:05:55 +0000 2026",
+      "full_text": "hey @OpenAI and @AnthropicAI i have a proposal\n\nyour models\nbut free\n\nhow about it?",
+      "lang": "en",
+      "favorite_count": 2458,
+      "retweet_count": 47,
+      "reply_count": 167,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074646123642315184",
+      "summary": "用户向OpenAI和Anthropic提议：免费提供他们的模型。这是一条玩笑/讽刺推文，无具体产品或技术信息。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074550559546233168",
+      "url": "https://x.com/levelsio/status/2074550559546233168",
+      "screen_name": "levelsio",
+      "created_at": "Tue Jul 07 17:46:11 +0000 2026",
+      "full_text": "A more European reply does not exist",
+      "lang": "en",
+      "favorite_count": 2356,
+      "retweet_count": 38,
+      "reply_count": 36,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074550559546233168",
+      "summary": "推文内容不明确，仅为一句评论性文字，无具体AI/科技产品、事件或信息。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "无法判断",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074528172318883953",
+      "url": "https://x.com/4thGemini_/status/2074528172318883953",
+      "screen_name": "4thGemini_",
+      "created_at": "Tue Jul 07 16:17:13 +0000 2026",
+      "full_text": "[4k] ยังยิ้มได้ - Gemini @gemini_ti \n\nเป็นเพลงจากเจมีไนน์ถึงเจมีไนน์ ขอบคุณมากๆเลยที่อดทนกับความเหนื่อยทั้งหมดที่ผ่านมา ทิ้งความฝันที่จะได้จับมีดหมอมาจับไมค์บนเวทีแทน เหนื่อยมากเลยใช่มั้ยนะ แต่ขอบคุณมากจริงๆสำหรับรอยยิ้มและความสุขที่มอบให้กับแฟนคลับทุกคนตลอดมา รักนะคนเก่ง 🥹❤️ https://t.co/XokduSXF18",
+      "lang": "th",
+      "favorite_count": 2311,
+      "retweet_count": 1783,
+      "reply_count": 2,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/XokduSXF18",
+          "expanded_url": "https://x.com/4thGemini_/status/2074528172318883953/video/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "id_str": "2074527726120435712",
+          "indices": [
+            277,
+            300
+          ],
+          "media_key": "13_2074527726120435712",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2074527726120435712/img/vV2rSLXcb0lATjVe.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 3840,
+            "width": 2160
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1152
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/XokduSXF18",
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              16
+            ],
+            "duration_millis": 61533,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2074527726120435712/pl/e40Jejp6zOm5yrLT.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074527726120435712/vid/avc1/320x568/KwiVuGgN24ZjOi29.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074527726120435712/vid/avc1/480x852/xy6fvq4lFKahiCjH.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074527726120435712/vid/avc1/720x1280/GDhPpa6L5S2twAS8.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074527726120435712/vid/avc1/1080x1920/ebDvzSuDAte5endZ.mp4"
+              },
+              {
+                "bitrate": 25128000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074527726120435712/vid/avc1/2160x3840/Q6W-EyPlKe6zEKU4.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "2074528172318883953",
+      "summary": "泰国歌手Gemini发布歌曲《ยังยิ้มได้》，感谢粉丝支持。内容为粉丝致谢信，非AI/科技相关。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "不适用",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074455822281637893",
+      "url": "https://x.com/AdeaClaude/status/2074455822281637893",
+      "screen_name": "AdeaClaude",
+      "created_at": "Tue Jul 07 11:29:44 +0000 2026",
+      "full_text": "Le photographe Manuel Litran a fait déposer 140 chiens euthanasiés par la SPA en 2 jours, sur le circuit de Magny-Cours. \nC’est une photo choc sans montage, pour dénoncer les abandons d’animaux chaque été quand les gens partent en vacances.\nL’abandon, est INACCEPTABLE 😡😡 https://t.co/r2yrd1BVNB",
+      "lang": "fr",
+      "favorite_count": 2200,
+      "retweet_count": 1316,
+      "reply_count": 102,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/r2yrd1BVNB",
+          "expanded_url": "https://x.com/AdeaClaude/status/2074455822281637893/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2074455819777667072",
+          "indices": [
+            272,
+            295
+          ],
+          "media_key": "3_2074455819777667072",
+          "media_url_https": "https://pbs.twimg.com/media/HMnyk8AW8AAJwHw.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 295,
+                "w": 526,
+                "x": 0,
+                "y": 119
+              },
+              {
+                "h": 414,
+                "w": 414,
+                "x": 112,
+                "y": 0
+              },
+              {
+                "h": 414,
+                "w": 363,
+                "x": 163,
+                "y": 0
+              },
+              {
+                "h": 414,
+                "w": 207,
+                "x": 319,
+                "y": 0
+              },
+              {
+                "h": 414,
+                "w": 526,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 414,
+            "width": 526
+          },
+          "sizes": {
+            "large": {
+              "h": 414,
+              "w": 526
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/r2yrd1BVNB"
+        }
+      ],
+      "id": "2074455822281637893",
+      "summary": "摄影师Manuel Litran在赛道上展示140只被安乐死的狗，抗议夏季宠物遗弃现象。这是一张未经处理的冲击性照片，旨在唤起社会关注。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "不适用",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074508292861116754",
+      "url": "https://x.com/levelsio/status/2074508292861116754",
+      "screen_name": "levelsio",
+      "created_at": "Tue Jul 07 14:58:14 +0000 2026",
+      "full_text": "Shared bed with partner is great for women (+9% sleep) but terrible for men (-19%) https://t.co/HFVA2qLqFR",
+      "lang": "en",
+      "favorite_count": 2196,
+      "retweet_count": 47,
+      "reply_count": 112,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/HFVA2qLqFR",
+          "expanded_url": "https://x.com/levelsio/status/2074508292861116754/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 188,
+                  "w": 188,
+                  "x": 295,
+                  "y": 94
+                }
+              ]
+            }
+          },
+          "id_str": "2074508152054132736",
+          "indices": [
+            83,
+            106
+          ],
+          "media_key": "3_2074508152054132736",
+          "media_url_https": "https://pbs.twimg.com/media/HMoiLE7WsAA5T5N.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 358,
+                "w": 640,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 640,
+                "w": 640,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 729,
+                "w": 639,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 729,
+                "w": 365,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 729,
+                "w": 640,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 729,
+            "width": 640
+          },
+          "sizes": {
+            "large": {
+              "h": 729,
+              "w": 640
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/HFVA2qLqFR"
+        }
+      ],
+      "id": "2074508292861116754",
+      "summary": "研究发现共床睡眠对女性睡眠质量提升9%，但对男性下降19%。这是一项有趣的性别差异研究发现。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "不适用",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074420826577965485",
+      "url": "https://x.com/gemfor4thh/status/2074420826577965485",
+      "screen_name": "gemfor4thh",
+      "created_at": "Tue Jul 07 09:10:40 +0000 2026",
+      "full_text": "Bro slipped and thought that they can cut it 55554555 😭\n\nGEMINI CONCERT PRESS TOUR\n\n#GeminiConcertLive\n#GeminiConcert https://t.co/sLqvwq6rfG",
+      "lang": "en",
+      "favorite_count": 2163,
+      "retweet_count": 329,
+      "reply_count": 0,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "display_url": "pic.x.com/sLqvwq6rfG",
+          "expanded_url": "https://x.com/gemfor4thh/status/2074420826577965485/video/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "id_str": "2074420766138109952",
+          "indices": [
+            118,
+            141
+          ],
+          "media_key": "13_2074420766138109952",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2074420766138109952/img/Ydhr1C1zp4x9bmW1.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 576,
+            "width": 576
+          },
+          "sizes": {
+            "large": {
+              "h": 576,
+              "w": 576
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/sLqvwq6rfG",
+          "video_info": {
+            "aspect_ratio": [
+              1,
+              1
+            ],
+            "duration_millis": 23833,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2074420766138109952/pl/JvHIAJmTr85AcQmU.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 432000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074420766138109952/vid/avc1/320x320/Ur7gdK99GzFB2pAh.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074420766138109952/vid/avc1/576x576/-GPpPvmsJnO4FFQJ.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "2074420826577965485",
+      "summary": "用户评论Gemini演唱会宣传中的笔误。这是一条粉丝社区的娱乐内容，与AI/科技无关。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "不适用",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074494377800684000",
+      "url": "https://x.com/nox2perrr/status/2074494377800684000",
+      "screen_name": "nox2perrr",
+      "created_at": "Tue Jul 07 14:02:56 +0000 2026",
+      "full_text": "รองเท้าใครคะ?                                    ของชั้นจ้า https://t.co/hkNjqzCnMe",
+      "lang": "th",
+      "favorite_count": 2158,
+      "retweet_count": 1844,
+      "reply_count": 0,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/hkNjqzCnMe",
+          "expanded_url": "https://x.com/nox2perrr/status/2074494377800684000/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2074494369806340096",
+          "indices": [
+            60,
+            83
+          ],
+          "media_key": "3_2074494369806340096",
+          "media_url_https": "https://pbs.twimg.com/media/HMoVo2Da0AA-9kX.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1940,
+                "w": 3464,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 3464,
+                "w": 3464,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 3464,
+                "w": 3039,
+                "x": 425,
+                "y": 0
+              },
+              {
+                "h": 3464,
+                "w": 1732,
+                "x": 1732,
+                "y": 0
+              },
+              {
+                "h": 3464,
+                "w": 3464,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 3464,
+            "width": 3464
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/hkNjqzCnMe"
+        }
+      ],
+      "id": "2074494377800684000",
+      "summary": "泰文推文询问鞋子的归属。内容不涉及AI/科技，无法判断具体信息。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "不适用",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074487207734517992",
+      "url": "https://x.com/twentynine35/status/2074487207734517992",
+      "screen_name": "twentynine35",
+      "created_at": "Tue Jul 07 13:34:27 +0000 2026",
+      "full_text": "เป็น “ใจเหลือๆ” ที่เพราะมากกกกกก😭😭\n\nGEMINI CONCERT PRESS TOUR #Flex1045xGEMINIConcert #GeminiConcertLive #GeminiConcert https://t.co/wXgPWcSKTo",
+      "lang": "und",
+      "favorite_count": 2096,
+      "retweet_count": 1850,
+      "reply_count": 0,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/wXgPWcSKTo",
+          "expanded_url": "https://x.com/twentynine35/status/2074487207734517992/video/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "id_str": "2074487065216258049",
+          "indices": [
+            120,
+            143
+          ],
+          "media_key": "13_2074487065216258049",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2074487065216258049/img/HOWg4Nfez_2ysZBb.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1920,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 1920,
+              "w": 1080
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/wXgPWcSKTo",
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              16
+            ],
+            "duration_millis": 29246,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2074487065216258049/pl/9PA-J1Z_jAt2jonO.m3u8"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074487065216258049/vid/avc1/320x568/j-VDFacG4vUlk4zP.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074487065216258049/vid/avc1/480x852/lz9uhivltFn5nSE5.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074487065216258049/vid/avc1/720x1280/vFPHHBy-bUvBNcGE.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074487065216258049/vid/avc1/1080x1920/gHCr7Yt3g9XMMuZf.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "2074487207734517992",
+      "summary": "泰文推文关于Gemini演唱会宣传。内容为粉丝社区娱乐内容，与AI/科技无关。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "不适用",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074513358687244477",
+      "url": "https://x.com/s_saipann/status/2074513358687244477",
+      "screen_name": "s_saipann",
+      "created_at": "Tue Jul 07 15:18:21 +0000 2026",
+      "full_text": "จัดอันดับดาราที่สนิทกับแฟนคลับมากที่สุด10อันดับ\n\n1.เจมีไนน์\n\n//ไอ้เชี่ยกุให้ซีนนี้เลยกุขำเกือบเดรส555555555555555555555\n\nGEMINI CONCERT PRESS TOUR\n#Flex1045xGEMINIConcert\n#GeminiConcert \n#Gemini_NT @gemini_ti  https://t.co/0fReI5QqXG",
+      "lang": "th",
+      "favorite_count": 2077,
+      "retweet_count": 1622,
+      "reply_count": 0,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {},
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": true,
+                  "legacy": {
+                    "advertiser_account_service_levels": [
+                      "analytics"
+                    ],
+                    "advertiser_account_type": "promotable_user",
+                    "analytics_type": "disabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": true,
+                    "can_media_tag": true,
+                    "created_at": "Wed Feb 09 02:56:59 +0000 2022",
+                    "customer_service_state": "",
+                    "description": "GEMINI OFFICIAL FANBASE THAILAND | @gemini_ti ♊ #Gemini_NT #เจมีไนน์ #GeminiSchedule2026",
+                    "entities": {
+                      "description": {
+                        "hashtags": [
+                          {
+                            "indices": [
+                              48,
+                              58
+                            ],
+                            "text": "Gemini_NT"
+                          },
+                          {
+                            "indices": [
+                              59,
+                              68
+                            ],
+                            "text": "เจมีไนน์"
+                          },
+                          {
+                            "indices": [
+                              69,
+                              88
+                            ],
+                            "text": "GeminiSchedule2026"
+                          }
+                        ],
+                        "user_mentions": [
+                          {
+                            "id_str": "",
+                            "indices": [
+                              35,
+                              45
+                            ],
+                            "name": "",
+                            "screen_name": "gemini_ti"
+                          }
+                        ]
+                      },
+                      "url": {
+                        "urls": [
+                          {
+                            "display_url": "instagram.com/geminintfamily…",
+                            "expanded_url": "https://instagram.com/geminintfamily?igshid=YmMyMTA2M2Y=",
+                            "indices": [
+                              0,
+                              23
+                            ],
+                            "url": "https://t.co/BdBRjBijaS"
+                          }
+                        ]
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 4374,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 151555,
+                    "following": false,
+                    "friends_count": 78,
+                    "geo_enabled": true,
+                    "has_custom_timelines": true,
+                    "has_extended_profile": true,
+                    "has_no_screen_name": false,
+                    "id_str": "1491244543672741890",
+                    "is_lifeline_institution": false,
+                    "is_translator": false,
+                    "live_following": false,
+                    "location": "Gemini Norawit",
+                    "media_count": 40295,
+                    "muting": false,
+                    "name": "Geminint_Family",
+                    "needs_phone_verification": false,
+                    "normal_followers_count": 151555,
+                    "notifications": false,
+                    "pinned_tweet_ids_str": [
+                      "2074339541633347965"
+                    ],
+                    "profile_background_color": "F5F8FA",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1491244543672741890/1783396274",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2074340391630073856/LwVRtPWZ_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "1DA1F2",
+                    "protected": false,
+                    "screen_name": "Geminint_family",
+                    "statuses_count": 149956,
+                    "suspended": false,
+                    "translator_type_enum": "None",
+                    "url": "https://t.co/BdBRjBijaS",
+                    "verified": false,
+                    "want_retweets": false,
+                    "withheld_copyright": false,
+                    "withheld_description": "",
+                    "withheld_scope": ""
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Circle",
+                  "rest_id": "1491244543672741890",
+                  "super_follow_eligible": false,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": false
+          },
+          "display_url": "pic.x.com/0fReI5QqXG",
+          "expanded_url": "https://x.com/Geminint_family/status/2074511080513298893/video/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "id_str": "2074511001769447424",
+          "indices": [
+            210,
+            233
+          ],
+          "media_key": "13_2074511001769447424",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2074511001769447424/img/CKjtwuTvupf8mnAm.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1920,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 1920,
+              "w": 1080
+            }
+          },
+          "source_status_id_str": "2074511080513298893",
+          "source_user_id_str": "1491244543672741890",
+          "type": "video",
+          "url": "https://t.co/0fReI5QqXG",
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              16
+            ],
+            "duration_millis": 11500,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2074511001769447424/pl/Yw7r_-pmAdjnrLcD.m3u8"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074511001769447424/vid/avc1/320x568/AziMaL_3AC-nAVvd.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074511001769447424/vid/avc1/480x852/ubwxcjIxJ3rTbz9e.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074511001769447424/vid/avc1/720x1280/LsJtwg07N6Qvx0rA.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2074511001769447424/vid/avc1/1080x1920/GIwjfe5NhXE-ZIr6.mp4"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "2074513358687244477",
+      "summary": "泰国演员排行榜内容，与AI无关。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "不适用",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074412215713644952",
+      "url": "https://x.com/KojoForex/status/2074412215713644952",
+      "screen_name": "KojoForex",
+      "created_at": "Tue Jul 07 08:36:27 +0000 2026",
+      "full_text": "CLAUDE DESIGN just rendered my Graphic designer 👨🏾‍💻 unemployed 🤣😭",
+      "lang": "en",
+      "favorite_count": 2029,
+      "retweet_count": 84,
+      "reply_count": 116,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2074412215713644952",
+      "summary": "用户声称CLAUDE DESIGN工具让平面设计师失业。但文本未提供产品具体信息、功能或来源。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2074714765306552413",
+      "url": "https://x.com/RohanKarMooN/status/2074714765306552413",
+      "screen_name": "RohanKarMooN",
+      "created_at": "Wed Jul 08 04:38:41 +0000 2026",
+      "full_text": "Anyways, Emulating Silent Hill 1 is really easy and all you need to download is a ROM file and PS1 BIOS which can be easily acquired by just downloading from the link i've provided in replies and setting up duckstation is just as easy as opening a bag of chips. I made a guide for https://t.co/ePnF4nvU0m",
+      "lang": "en",
+      "favorite_count": 2006,
+      "retweet_count": 195,
+      "reply_count": 34,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/ePnF4nvU0m",
+          "expanded_url": "https://x.com/RohanKarMooN/status/2074714765306552413/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2074710193162911744",
+          "indices": [
+            281,
+            304
+          ],
+          "media_key": "3_2074710193162911744",
+          "media_url_https": "https://pbs.twimg.com/media/HMrZ7atbgAA1Jgx.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 933,
+                "w": 1666,
+                "x": 192,
+                "y": 0
+              },
+              {
+                "h": 933,
+                "w": 933,
+                "x": 600,
+                "y": 0
+              },
+              {
+                "h": 933,
+                "w": 818,
+                "x": 657,
+                "y": 0
+              },
+              {
+                "h": 933,
+                "w": 467,
+                "x": 833,
+                "y": 0
+              },
+              {
+                "h": 933,
+                "w": 1858,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 933,
+            "width": 1858
+          },
+          "sizes": {
+            "large": {
+              "h": 933,
+              "w": 1858
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/ePnF4nvU0m"
+        },
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/ePnF4nvU0m",
+          "expanded_url": "https://x.com/RohanKarMooN/status/2074714765306552413/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2074712375249571840",
+          "indices": [
+            281,
+            304
+          ],
+          "media_key": "3_2074712375249571840",
+          "media_url_https": "https://pbs.twimg.com/media/HMrb6bnbkAAx8ag.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 746,
+                "w": 1332,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 746,
+                "w": 746,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 746,
+                "w": 654,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 746,
+                "w": 373,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 746,
+                "w": 1423,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 746,
+            "width": 1423
+          },
+          "sizes": {
+            "large": {
+              "h": 746,
+              "w": 1423
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/ePnF4nvU0m"
+        },
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/ePnF4nvU0m",
+          "expanded_url": "https://x.com/RohanKarMooN/status/2074714765306552413/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2074714434107535360",
+          "indices": [
+            281,
+            304
+          ],
+          "media_key": "3_2074714434107535360",
+          "media_url_https": "https://pbs.twimg.com/media/HMrdyRda8AAl08F.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 706,
+                "w": 1261,
+                "x": 0,
+                "y": 56
+              },
+              {
+                "h": 788,
+                "w": 788,
+                "x": 236,
+                "y": 0
+              },
+              {
+                "h": 788,
+                "w": 691,
+                "x": 285,
+                "y": 0
+              },
+              {
+                "h": 788,
+                "w": 394,
+                "x": 433,
+                "y": 0
+              },
+              {
+                "h": 788,
+                "w": 1261,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 788,
+            "width": 1261
+          },
+          "sizes": {
+            "large": {
+              "h": 788,
+              "w": 1261
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/ePnF4nvU0m"
+        }
+      ],
+      "id": "2074714765306552413",
+      "summary": "用户分享PS1模拟器Duckstation的安装教程，涉及ROM和BIOS下载。与AI无关。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "不适用",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    }
+  ]
+}

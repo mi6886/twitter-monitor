@@ -1,0 +1,2076 @@
+{
+  "date": "2026-07-08",
+  "period": "evening",
+  "fetched_at": "2026-07-08T12:21:16.757331+00:00",
+  "tier_counts": {
+    "must_do": 13,
+    "priority": 4,
+    "backup": 4
+  },
+  "tiers": {
+    "must_do": [
+      {
+        "tweet_id": "2074709023807664454",
+        "url": "https://x.com/sama/status/2074709023807664454",
+        "screen_name": "sama",
+        "created_at": "Wed Jul 08 04:15:52 +0000 2026",
+        "full_text": "GPT-5.6 sol launches thursday!\n\nhappy building",
+        "lang": "en",
+        "favorite_count": 20435,
+        "retweet_count": 1406,
+        "reply_count": 1447,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2074709023807664454",
+        "summary": "Sam Altman宣布GPT-5.6 sol将于周四发布。OpenAI最新模型即将上线，引发业界关注。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题（新模型发布）",
+          "有人物故事（Sam Altman官宣）"
+        ],
+        "viral_signals_points": 20,
+        "emotion": "未来感/想象",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 78,
+        "verdict": "keep",
+        "angles": [
+          "GPT-5.6 sol周四发布｜OpenAI最新力作来了",
+          "Sam Altman深夜官宣｜GPT-5.6 sol即将上线",
+          "终于等到了｜GPT-5.6 sol性能升级解读"
+        ]
+      },
+      {
+        "tweet_id": "2074619820986028353",
+        "url": "https://x.com/comma_ai/status/2074619820986028353",
+        "screen_name": "comma_ai",
+        "created_at": "Tue Jul 07 22:21:24 +0000 2026",
+        "full_text": "Goodbye @AnthropicAI.\n\nAll comma dollars go towards the mission and our values. Our dollars come from customers buying hardware they own. And we spend them on GPUs and engineers to write MIT-licensed software.",
+        "lang": "en",
+        "favorite_count": 2201,
+        "retweet_count": 100,
+        "reply_count": 65,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2074619820986028353",
+        "summary": "comma_ai宣布停止使用Anthropic服务，转向自主开发。强调资金用于GPU和工程师，开发MIT许可软件，体现独立自主的技术路线。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于型选题：明确的决裂宣言",
+          "反常识：AI公司主动弃用头部大模型"
+        ],
+        "viral_signals_points": 20,
+        "emotion": "反常识/意外性",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 78,
+        "verdict": "keep",
+        "angles": [
+          "AI公司决裂大模型：comma_ai为何弃用Anthropic",
+          "自主还是对抗？揭秘开源硬件公司的独立之路",
+          "MIT许可+自研GPU：comma_ai的技术独立宣言"
+        ]
+      },
+      {
+        "tweet_id": "2074494130126811473",
+        "url": "https://x.com/liquidai/status/2074494130126811473",
+        "screen_name": "liquidai",
+        "created_at": "Tue Jul 07 14:01:57 +0000 2026",
+        "full_text": "Today we release Antidoom, an open-source method that removes a common failure mode in reasoning models: the doom loop.\n\nDoom-loop rates before and after, with eval scores up across the board:\n\n&gt; Early LFM2.5-2.6B checkpoint: 10.2% → 1.4%\n\n&gt; Qwen3.5-4B: 22.9% → 1% (greedy https://t.co/axO6l7LIu7",
+        "lang": "en",
+        "favorite_count": 2099,
+        "retweet_count": 257,
+        "reply_count": 78,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "display_url": "pic.x.com/axO6l7LIu7",
+            "expanded_url": "https://x.com/liquidai/status/2074494130126811473/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "id_str": "2074494108148670464",
+            "indices": [
+              279,
+              302
+            ],
+            "media_key": "16_2074494108148670464",
+            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/HMoVZnTXoAA2P5h.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 674,
+              "width": 1200
+            },
+            "sizes": {
+              "large": {
+                "h": 674,
+                "w": 1200
+              }
+            },
+            "type": "animated_gif",
+            "url": "https://t.co/axO6l7LIu7",
+            "video_info": {
+              "aspect_ratio": [
+                600,
+                337
+              ],
+              "variants": [
+                {
+                  "bitrate": 0,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/tweet_video/HMoVZnTXoAA2P5h.mp4"
+                }
+              ]
+            }
+          }
+        ],
+        "id": "2074494130126811473",
+        "summary": "开源项目Antidoom发布，解决推理模型的「死亡循环」失败模式。在多个模型上显著降低失败率：LFM2.5从10.2%降至1.4%，Qwen3.5从22.9%降至1%。",
+        "category": "单产品/技术叙事",
+        "category_points": 30,
+        "info_gap": "全球/全网首发",
+        "info_gap_points": 25,
+        "viral_signals": [
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "未来感/想象",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 75,
+        "verdict": "keep",
+        "angles": [
+          "Antidoom开源：推理模型死亡循环终被破解",
+          "失败率暴跌90%：AI推理的关键突破",
+          "开源方案拯救推理模型：从22.9%到1%的逆转"
+        ]
+      },
+      {
+        "tweet_id": "2074704958419792299",
+        "url": "https://x.com/OpenAI/status/2074704958419792299",
+        "screen_name": "OpenAI",
+        "created_at": "Wed Jul 08 03:59:42 +0000 2026",
+        "full_text": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday.\n\nWe’re expanding preview access globally now. https://t.co/Uk5HcfSc2e",
+        "lang": "en",
+        "favorite_count": 36081,
+        "retweet_count": 5554,
+        "reply_count": 1894,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "display_url": "pic.x.com/Uk5HcfSc2e",
+            "expanded_url": "https://x.com/OpenAI/status/2074704958419792299/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2074704694052896769",
+            "indices": [
+              122,
+              145
+            ],
+            "media_key": "3_2074704694052896769",
+            "media_url_https": "https://pbs.twimg.com/media/HMrU7U7bwAEO8yf.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 403,
+                  "w": 720,
+                  "x": 0,
+                  "y": 2
+                },
+                {
+                  "h": 405,
+                  "w": 405,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 405,
+                  "w": 355,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 405,
+                  "w": 203,
+                  "x": 25,
+                  "y": 0
+                },
+                {
+                  "h": 405,
+                  "w": 720,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 405,
+              "width": 720
+            },
+            "sizes": {
+              "large": {
+                "h": 405,
+                "w": 720
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/Uk5HcfSc2e"
+          }
+        ],
+        "id": "2074704958419792299",
+        "summary": "OpenAI宣布GPT-5.6 Sol及Terra、Luna三款新模型将于本周四公开发布，全球扩大预览版访问权限。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题：新模型首次发布",
+          "明确发布时间：本周四"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "震撼/惊叹",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 68,
+        "verdict": "keep",
+        "angles": [
+          "OpenAI三款新模型周四上线，GPT-5.6 Sol震撼登场",
+          "终于来了！GPT-5.6 Sol、Terra、Luna全球预览开放",
+          "OpenAI新品周四发布，三大模型同步上线意味着什么"
+        ]
+      },
+      {
+        "tweet_id": "2074618926458175559",
+        "url": "https://x.com/WatcherGuru/status/2074618926458175559",
+        "screen_name": "WatcherGuru",
+        "created_at": "Tue Jul 07 22:17:51 +0000 2026",
+        "full_text": "JUST IN: 🇨🇳 China expected to produce over 100,000 humanoid robots this year. https://t.co/ED7cq8BfM4",
+        "lang": "en",
+        "favorite_count": 4330,
+        "retweet_count": 504,
+        "reply_count": 497,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/ED7cq8BfM4",
+            "expanded_url": "https://x.com/WatcherGuru/status/2074618926458175559/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 519,
+                    "w": 519,
+                    "x": 462,
+                    "y": 118
+                  }
+                ]
+              }
+            },
+            "id_str": "2074618921785675776",
+            "indices": [
+              78,
+              101
+            ],
+            "media_key": "3_2074618921785675776",
+            "media_url_https": "https://pbs.twimg.com/media/HMqG6uVW0AARAPS.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 860,
+                  "w": 1536,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1024,
+                  "w": 1024,
+                  "x": 217,
+                  "y": 0
+                },
+                {
+                  "h": 1024,
+                  "w": 898,
+                  "x": 280,
+                  "y": 0
+                },
+                {
+                  "h": 1024,
+                  "w": 512,
+                  "x": 473,
+                  "y": 0
+                },
+                {
+                  "h": 1024,
+                  "w": 1536,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1024,
+              "width": 1536
+            },
+            "sizes": {
+              "large": {
+                "h": 1024,
+                "w": 1536
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/ED7cq8BfM4"
+          },
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/ED7cq8BfM4",
+            "expanded_url": "https://x.com/WatcherGuru/status/2074618926458175559/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 51,
+                    "w": 51,
+                    "x": 1190,
+                    "y": 125
+                  },
+                  {
+                    "h": 67,
+                    "w": 67,
+                    "x": 146,
+                    "y": 151
+                  },
+                  {
+                    "h": 66,
+                    "w": 66,
+                    "x": 1041,
+                    "y": 152
+                  },
+                  {
+                    "h": 78,
+                    "w": 78,
+                    "x": 1135,
+                    "y": 182
+                  },
+                  {
+                    "h": 76,
+                    "w": 76,
+                    "x": 853,
+                    "y": 192
+                  },
+                  {
+                    "h": 78,
+                    "w": 78,
+                    "x": 327,
+                    "y": 192
+                  },
+                  {
+                    "h": 107,
+                    "w": 107,
+                    "x": 953,
+                    "y": 267
+                  },
+                  {
+                    "h": 116,
+                    "w": 116,
+                    "x": 197,
+                    "y": 263
+                  },
+                  {
+                    "h": 145,
+                    "w": 145,
+                    "x": 558,
+                    "y": 267
+                  }
+                ]
+              }
+            },
+            "id_str": "2074618921789890560",
+            "indices": [
+              78,
+              101
+            ],
+            "media_key": "3_2074618921789890560",
+            "media_url_https": "https://pbs.twimg.com/media/HMqG6uWXIAA0rB3.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 717,
+                  "w": 1280,
+                  "x": 0,
+                  "y": 57
+                },
+                {
+                  "h": 854,
+                  "w": 854,
+                  "x": 213,
+                  "y": 0
+                },
+                {
+                  "h": 854,
+                  "w": 749,
+                  "x": 266,
+                  "y": 0
+                },
+                {
+                  "h": 854,
+                  "w": 427,
+                  "x": 427,
+                  "y": 0
+                },
+                {
+                  "h": 854,
+                  "w": 1280,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 854,
+              "width": 1280
+            },
+            "sizes": {
+              "large": {
+                "h": 854,
+                "w": 1280
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/ED7cq8BfM4"
+          }
+        ],
+        "id": "2074618926458175559",
+        "summary": "中国今年预计生产超10万台人形机器人。具体产品、厂商、技术细节均未提及。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "未来感/想象",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 68,
+        "verdict": "keep",
+        "angles": [
+          "中国人形机器人产量突破10万台，未来已来",
+          "2024年中国机器人产业爆发：10万台人形机器人上线",
+          "人形机器人规模化时代启动，中国领跑全球"
+        ]
+      },
+      {
+        "tweet_id": "2074803889824518414",
+        "url": "https://x.com/InternetH0F/status/2074803889824518414",
+        "screen_name": "InternetH0F",
+        "created_at": "Wed Jul 08 10:32:49 +0000 2026",
+        "full_text": "Meta updates its Ray-Ban smart glasses to stop recording if the LED light is tampered with\n\nThis comes after users were caught removing the light to secretly record people without detection https://t.co/6nTpq5IyCJ",
+        "lang": "en",
+        "favorite_count": 3872,
+        "retweet_count": 50,
+        "reply_count": 77,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "display_url": "pic.x.com/6nTpq5IyCJ",
+            "expanded_url": "https://x.com/InternetH0F/status/2074803889824518414/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2074803884766142464",
+            "indices": [
+              190,
+              213
+            ],
+            "media_key": "3_2074803884766142464",
+            "media_url_https": "https://pbs.twimg.com/media/HMsvI_IWIAAc-p2.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 560,
+                  "w": 1000,
+                  "x": 0,
+                  "y": 145
+                },
+                {
+                  "h": 1000,
+                  "w": 1000,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1000,
+                  "w": 877,
+                  "x": 62,
+                  "y": 0
+                },
+                {
+                  "h": 1000,
+                  "w": 500,
+                  "x": 250,
+                  "y": 0
+                },
+                {
+                  "h": 1000,
+                  "w": 1000,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1000,
+              "width": 1000
+            },
+            "sizes": {
+              "large": {
+                "h": 1000,
+                "w": 1000
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/6nTpq5IyCJ"
+          },
+          {
+            "display_url": "pic.x.com/6nTpq5IyCJ",
+            "expanded_url": "https://x.com/InternetH0F/status/2074803889824518414/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2074803884757807104",
+            "indices": [
+              190,
+              213
+            ],
+            "media_key": "3_2074803884757807104",
+            "media_url_https": "https://pbs.twimg.com/media/HMsvI_GW8AAQjdA.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 560,
+                  "w": 1000,
+                  "x": 0,
+                  "y": 95
+                },
+                {
+                  "h": 1000,
+                  "w": 1000,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1000,
+                  "w": 877,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1000,
+                  "w": 500,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1000,
+                  "w": 1000,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1000,
+              "width": 1000
+            },
+            "sizes": {
+              "large": {
+                "h": 1000,
+                "w": 1000
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/6nTpq5IyCJ"
+          }
+        ],
+        "id": "2074803889824518414",
+        "summary": "Meta更新Ray-Ban智能眼镜，增加防篡改LED灯功能以防止秘密录像。具体技术细节有限。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "反常识/意外性"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "未来感/想象",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 68,
+        "verdict": "keep",
+        "angles": [
+          "Meta紧急修复Ray-Ban漏洞，防止秘密录像",
+          "智能眼镜隐私战争升级：LED防篡改功能上线",
+          "用户移除LED灯秘密录像，Meta被迫出招"
+        ]
+      },
+      {
+        "tweet_id": "2074696048707023333",
+        "url": "https://x.com/WatcherGuru/status/2074696048707023333",
+        "screen_name": "WatcherGuru",
+        "created_at": "Wed Jul 08 03:24:18 +0000 2026",
+        "full_text": "JUST IN: 🇺🇸 US government grants OpenAI approval to fully release its new GPT 5.6 AI model.",
+        "lang": "en",
+        "favorite_count": 3756,
+        "retweet_count": 318,
+        "reply_count": 250,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2074696048707023333",
+        "summary": "美国政府批准OpenAI发布GPT 5.6模型。这是frontier AI模型的重要里程碑，标志着监管突破。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "震撼/惊叹",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 68,
+        "verdict": "keep",
+        "angles": [
+          "政府首次批准GPT 5.6发布，AI监管迎来转折",
+          "OpenAI突破政策壁垒，GPT 5.6正式解禁",
+          "从禁令到批准：美国AI政策的180度转变"
+        ]
+      },
+      {
+        "tweet_id": "2074697521809535257",
+        "url": "https://x.com/Polymarket/status/2074697521809535257",
+        "screen_name": "Polymarket",
+        "created_at": "Wed Jul 08 03:30:09 +0000 2026",
+        "full_text": "BREAKING: OpenAI has reportedly been granted U.S. approval for a broad GPT-5.6 rollout.",
+        "lang": "en",
+        "favorite_count": 2058,
+        "retweet_count": 108,
+        "reply_count": 88,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2074697521809535257",
+        "summary": "OpenAI获得美国批准推出GPT-5.6。但该信息未在官方渠道确认，真实性存疑。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "震撼/惊叹",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 68,
+        "verdict": "keep",
+        "angles": [
+          "GPT-5.6终于来了！OpenAI获批美国推出",
+          "OpenAI深夜突发：GPT-5.6美国版本获批",
+          "从GPT-4到5.6，OpenAI的下一步棋"
+        ]
+      },
+      {
+        "tweet_id": "2074596271441285124",
+        "url": "https://x.com/Conor_D_Dart/status/2074596271441285124",
+        "screen_name": "Conor_D_Dart",
+        "created_at": "Tue Jul 07 20:47:49 +0000 2026",
+        "full_text": "I think this is BS.\n\nAnthropic officially announced that Fable was being taken away, so naturally people used as much of their remaining Fable access as they could.\n\nNow many of those same users have hit their usage limits and can't use Fable anymore.\n\nIf you're going to make an",
+        "lang": "en",
+        "favorite_count": 2180,
+        "retweet_count": 80,
+        "reply_count": 252,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2074596271441285124",
+        "summary": "用户质疑Anthropic关于Fable功能的公告，认为用户在功能下线前大量使用导致触发使用限制。涉及Claude产品政策争议。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "反常识/意外性"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 66,
+        "verdict": "keep",
+        "angles": [
+          "Claude Fable功能争议：官方下线vs用户反弹",
+          "AI产品政策翻车：Anthropic的信任危机",
+          "订阅制AI工具的隐形成本"
+        ]
+      },
+      {
+        "tweet_id": "2074468521384579376",
+        "url": "https://x.com/f_aswadi/status/2074468521384579376",
+        "screen_name": "f_aswadi",
+        "created_at": "Tue Jul 07 12:20:11 +0000 2026",
+        "full_text": "شهادة الاعتماد الرسمية من Claude متاحة مجانًا حتى 31 أغسطس!\n\nستكون هذه الشهادة من أكثر الشهادات قيمة في المستقبل.\nالفئة المستهدفة الاسم الرسمي:\n«Claude Certified Architect Foundations»ليست مجرد دورة تدريبية حول استخدام Claude، بل شهادة تقنية رسمية صادرة عن شركة Anthropic.تستهدف https://t.co/M9qbusEOuY",
+        "lang": "ar",
+        "favorite_count": 2122,
+        "retweet_count": 160,
+        "reply_count": 18,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "display_url": "pic.x.com/M9qbusEOuY",
+            "expanded_url": "https://x.com/f_aswadi/status/2074468521384579376/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2074468514711388160",
+            "indices": [
+              279,
+              302
+            ],
+            "media_key": "3_2074468514711388160",
+            "media_url_https": "https://pbs.twimg.com/media/HMn-H4UawAAfeMq.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 655,
+                  "w": 1170,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1170,
+                  "w": 1170,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1277,
+                  "w": 1120,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1277,
+                  "w": 639,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1277,
+                  "w": 1170,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1277,
+              "width": 1170
+            },
+            "sizes": {
+              "large": {
+                "h": 1277,
+                "w": 1170
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/M9qbusEOuY"
+          }
+        ],
+        "id": "2074468521384579376",
+        "summary": "Anthropic官方推出免费Claude认证课程「Claude Certified Architect Foundations」，截止8月31日。这是一项官方认证资源，面向所有用户。",
+        "category": "资源分享",
+        "category_points": 20,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "白嫖/占便宜",
+        "emotion_points": 3,
+        "actionability_points": 5,
+        "account_fit": "B型",
+        "account_bonus": 5,
+        "total_score": 63,
+        "verdict": "keep",
+        "angles": [
+          "Claude官方认证免费领：8月31日截止",
+          "5分钟速领：Anthropic技术认证证书",
+          "未来最值钱的证书：Claude架构师认证"
+        ]
+      },
+      {
+        "tweet_id": "2074495252447089004",
+        "url": "https://x.com/midudev/status/2074495252447089004",
+        "screen_name": "midudev",
+        "created_at": "Tue Jul 07 14:06:25 +0000 2026",
+        "full_text": "Un repo para buscar trabajo con Claude Code.\n\nLo clonas, rellenas tu perfil y la IA evalúa ofertas, adapta tu CV, escribe cartas y te prepara entrevistas.\n\nAutomatiza tu búsqueda de trabajo:\n→ https://t.co/LkOuGYXbYd https://t.co/t9VT8fzfqT",
+        "lang": "es",
+        "favorite_count": 2408,
+        "retweet_count": 237,
+        "reply_count": 15,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "display_url": "pic.x.com/t9VT8fzfqT",
+            "expanded_url": "https://x.com/midudev/status/2074495252447089004/photo/1",
+            "ext_alt_text": "Captura del README de GitHub del proyecto “ai-job-search”, con el título “AI Job Search” y una descripción de un framework que usa Claude Code para evaluar ofertas, adaptar el CV, escribir cartas de presentación y preparar entrevistas. Arriba aparece un pequeño icono pixelado naranja con maletín, listo para buscar trabajo sin actualizar LinkedIn a mano.",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2074495247111913472",
+            "indices": [
+              217,
+              240
+            ],
+            "media_key": "3_2074495247111913472",
+            "media_url_https": "https://pbs.twimg.com/media/HMoWb6RXgAAmUi9.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 655,
+                  "w": 1170,
+                  "x": 0,
+                  "y": 527
+                },
+                {
+                  "h": 1170,
+                  "w": 1170,
+                  "x": 0,
+                  "y": 12
+                },
+                {
+                  "h": 1182,
+                  "w": 1037,
+                  "x": 67,
+                  "y": 0
+                },
+                {
+                  "h": 1182,
+                  "w": 591,
+                  "x": 290,
+                  "y": 0
+                },
+                {
+                  "h": 1182,
+                  "w": 1170,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1182,
+              "width": 1170
+            },
+            "sizes": {
+              "large": {
+                "h": 1182,
+                "w": 1170
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/t9VT8fzfqT"
+          }
+        ],
+        "id": "2074495252447089004",
+        "summary": "开源repo利用Claude Code自动化求职流程：克隆项目、填充个人信息，AI自动评估职位、优化简历、撰写求职信、模拟面试。",
+        "category": "多工具/资源合集",
+        "category_points": 22,
+        "info_gap": "海外搬运",
+        "info_gap_points": 12,
+        "viral_signals": [
+          "终于型选题：自动化求职解决方案",
+          "反常识：AI不仅写代码，还能全流程求职"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 5,
+        "account_fit": "B型",
+        "account_bonus": 5,
+        "total_score": 57,
+        "verdict": "keep",
+        "angles": [
+          "求职神器｜Claude Code一键自动化找工作",
+          "5步AI求职流程：从简历到面试全自动",
+          "开源repo｜让AI帮你写求职信和模拟面试"
+        ]
+      },
+      {
+        "tweet_id": "2074712804725035371",
+        "url": "https://x.com/skirano/status/2074712804725035371",
+        "screen_name": "skirano",
+        "created_at": "Wed Jul 08 04:30:53 +0000 2026",
+        "full_text": "I can finally talk about 5.6.\n\nI’ve been testing it for months and, without exaggeration, it’s the best model I’ve ever used.\nFast, smart, genuinely creative, and you guessed it, they finally fixed front-end design.\n\nI haven’t needed to check the code I’ve written in two months.",
+        "lang": "en",
+        "favorite_count": 4882,
+        "retweet_count": 208,
+        "reply_count": 289,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2074712804725035371",
+        "summary": "开发者分享对某AI模型5.6版本的评测，称其速度快、创意强、前端设计改进，两月无需检查代码。具体产品名称未明确。",
+        "category": "评测体验",
+        "category_points": 15,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "震撼/惊叹",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 55,
+        "verdict": "keep",
+        "angles": [
+          "终于修复前端设计，开发者用5.6版本两月无需检查代码",
+          "AI模型5.6深度评测：速度、创意、设计全面升级",
+          "开发者实测：这个AI模型让我停止检查代码"
+        ]
+      },
+      {
+        "tweet_id": "2074604410727288974",
+        "url": "https://x.com/bridgemindai/status/2074604410727288974",
+        "screen_name": "bridgemindai",
+        "created_at": "Tue Jul 07 21:20:10 +0000 2026",
+        "full_text": "Fable 5 is not going to be removed from subscriptions.\n\nAnthropic cannot afford to remove it.\n\nGPT 5.6 is dropping on Thursday and if Fable 5 was removed from subscriptions everyone would cancel their Claude Code subscription and move to Codex.\n\nThis is starting to look like a",
+        "lang": "en",
+        "favorite_count": 2145,
+        "retweet_count": 82,
+        "reply_count": 145,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2074604410727288974",
+        "summary": "用户推测Anthropic不会从订阅中移除Fable 5，因为GPT 5.6即将发布，移除会导致用户流失。这是对AI产品竞争格局的分析。",
+        "category": "AI趋势/观点",
+        "category_points": 25,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "反常识/意外性"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 51,
+        "verdict": "keep",
+        "angles": [
+          "GPT 5.6来袭：Claude订阅制的生死时刻",
+          "AI大模型竞争白热化：功能保留的商业博弈",
+          "Anthropic的困境：Fable去留之谜"
+        ]
+      }
+    ],
+    "priority": [
+      {
+        "tweet_id": "2074725941675245795",
+        "url": "https://x.com/DrLuetke/status/2074725941675245795",
+        "screen_name": "DrLuetke",
+        "created_at": "Wed Jul 08 05:23:05 +0000 2026",
+        "full_text": "Die USA 🇺🇸 haben:\n✅️ChatGPT\n✅️Grok\n✅️Claude\n✅️Gemini\n✅️Llama\n✅️Copilot\n\nChina 🇨🇳 hat:\n✅️DeepSeek\n✅️Qwen\n✅️Ernie\n✅️GLM\n✅️Kimi\n✅️MiniMax\n\nEUropa 🇪🇺 hat:\n❌️Uschi und die Chatkontrolle...",
+        "lang": "de",
+        "favorite_count": 2471,
+        "retweet_count": 367,
+        "reply_count": 51,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2074725941675245795",
+        "summary": "对比美国、中国、欧洲的AI大模型生态。美国拥有ChatGPT、Claude等6款主流模型，中国有DeepSeek、Qwen等6款，欧洲则缺乏竞争力产品。",
+        "category": "AI趋势/观点",
+        "category_points": 25,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "反常识/意外性：欧洲AI生态落后的讽刺对比"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 0,
+        "account_fit": "不匹配",
+        "account_bonus": 0,
+        "total_score": 46,
+        "verdict": "keep",
+        "angles": [
+          "全球AI大模型版图：美中欧三足鼎立还是两强争霸？",
+          "为什么欧洲AI落后？监管vs创新的代价",
+          "6vs6vs0：中美AI生态对标深度解读"
+        ]
+      },
+      {
+        "tweet_id": "2074776242696708262",
+        "url": "https://x.com/kiryuintw/status/2074776242696708262",
+        "screen_name": "kiryuintw",
+        "created_at": "Wed Jul 08 08:42:58 +0000 2026",
+        "full_text": "#JapanExpo2026 出演の為パリに前乗りで着いて、スーパマーケットをハシゴして調味料の棚の写真をひたすらChatGPTに送り\n「この中で日本で手に入りづらくてヨーロッパらしい味が出せるオススメの調味料を教えて」\nと聞いて上位の調味料を買う旅をしております👛🍳\nパリ、いつまでも明るい☀️日が長い☀️ https://t.co/IctFFITHAr",
+        "lang": "ja",
+        "favorite_count": 2019,
+        "retweet_count": 195,
+        "reply_count": 116,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/IctFFITHAr",
+            "expanded_url": "https://x.com/kiryuintw/status/2074776242696708262/photo/1",
+            "ext_alt_text": "スーパーマーケットの調味料の棚",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 74,
+                    "w": 74,
+                    "x": 736,
+                    "y": 688
+                  },
+                  {
+                    "h": 80,
+                    "w": 80,
+                    "x": 1472,
+                    "y": 486
+                  },
+                  {
+                    "h": 78,
+                    "w": 78,
+                    "x": 748,
+                    "y": 496
+                  },
+                  {
+                    "h": 92,
+                    "w": 92,
+                    "x": 364,
+                    "y": 1148
+                  },
+                  {
+                    "h": 82,
+                    "w": 82,
+                    "x": 1152,
+                    "y": 1372
+                  },
+                  {
+                    "h": 92,
+                    "w": 92,
+                    "x": 874,
+                    "y": 1110
+                  },
+                  {
+                    "h": 90,
+                    "w": 90,
+                    "x": 132,
+                    "y": 1158
+                  },
+                  {
+                    "h": 108,
+                    "w": 108,
+                    "x": 868,
+                    "y": 1322
+                  },
+                  {
+                    "h": 90,
+                    "w": 90,
+                    "x": 1148,
+                    "y": 1340
+                  },
+                  {
+                    "h": 102,
+                    "w": 102,
+                    "x": 1540,
+                    "y": 1372
+                  },
+                  {
+                    "h": 108,
+                    "w": 108,
+                    "x": 678,
+                    "y": 1370
+                  },
+                  {
+                    "h": 116,
+                    "w": 116,
+                    "x": 350,
+                    "y": 294
+                  }
+                ]
+              }
+            },
+            "id_str": "2074776225961361408",
+            "indices": [
+              155,
+              178
+            ],
+            "media_key": "3_2074776225961361408",
+            "media_url_https": "https://pbs.twimg.com/media/HMsV_CDaQAAp10K.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1147,
+                  "w": 2048,
+                  "x": 0,
+                  "y": 389
+                },
+                {
+                  "h": 1536,
+                  "w": 1536,
+                  "x": 512,
+                  "y": 0
+                },
+                {
+                  "h": 1536,
+                  "w": 1347,
+                  "x": 701,
+                  "y": 0
+                },
+                {
+                  "h": 1536,
+                  "w": 768,
+                  "x": 1203,
+                  "y": 0
+                },
+                {
+                  "h": 1536,
+                  "w": 2048,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1536,
+              "width": 2048
+            },
+            "sizes": {
+              "large": {
+                "h": 1536,
+                "w": 2048
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/IctFFITHAr"
+          },
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/IctFFITHAr",
+            "expanded_url": "https://x.com/kiryuintw/status/2074776242696708262/photo/1",
+            "ext_alt_text": "スーパーマーケットの調味料の棚",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 66,
+                    "w": 66,
+                    "x": 840,
+                    "y": 508
+                  },
+                  {
+                    "h": 90,
+                    "w": 90,
+                    "x": 240,
+                    "y": 1304
+                  },
+                  {
+                    "h": 82,
+                    "w": 82,
+                    "x": 404,
+                    "y": 1542
+                  },
+                  {
+                    "h": 70,
+                    "w": 70,
+                    "x": 656,
+                    "y": 1822
+                  },
+                  {
+                    "h": 74,
+                    "w": 74,
+                    "x": 660,
+                    "y": 1842
+                  },
+                  {
+                    "h": 78,
+                    "w": 78,
+                    "x": 314,
+                    "y": 684
+                  },
+                  {
+                    "h": 82,
+                    "w": 82,
+                    "x": 244,
+                    "y": 688
+                  },
+                  {
+                    "h": 74,
+                    "w": 74,
+                    "x": 316,
+                    "y": 908
+                  },
+                  {
+                    "h": 84,
+                    "w": 84,
+                    "x": 526,
+                    "y": 1302
+                  },
+                  {
+                    "h": 90,
+                    "w": 90,
+                    "x": 532,
+                    "y": 1534
+                  },
+                  {
+                    "h": 96,
+                    "w": 96,
+                    "x": 656,
+                    "y": 864
+                  },
+                  {
+                    "h": 90,
+                    "w": 90,
+                    "x": 520,
+                    "y": 1084
+                  },
+                  {
+                    "h": 96,
+                    "w": 96,
+                    "x": 56,
+                    "y": 1826
+                  }
+                ]
+              }
+            },
+            "id_str": "2074776225978220544",
+            "indices": [
+              155,
+              178
+            ],
+            "media_key": "3_2074776225978220544",
+            "media_url_https": "https://pbs.twimg.com/media/HMsV_CHbgAABO2y.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 520,
+                  "w": 928,
+                  "x": 0,
+                  "y": 508
+                },
+                {
+                  "h": 928,
+                  "w": 928,
+                  "x": 0,
+                  "y": 304
+                },
+                {
+                  "h": 1058,
+                  "w": 928,
+                  "x": 0,
+                  "y": 239
+                },
+                {
+                  "h": 1856,
+                  "w": 928,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 2048,
+                  "w": 928,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 2048,
+              "width": 928
+            },
+            "sizes": {
+              "large": {
+                "h": 2048,
+                "w": 928
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/IctFFITHAr"
+          },
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/IctFFITHAr",
+            "expanded_url": "https://x.com/kiryuintw/status/2074776242696708262/photo/1",
+            "ext_alt_text": "パリの街並み",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 78,
+                    "w": 78,
+                    "x": 252,
+                    "y": 856
+                  }
+                ]
+              }
+            },
+            "id_str": "2074776225961426944",
+            "indices": [
+              155,
+              178
+            ],
+            "media_key": "3_2074776225961426944",
+            "media_url_https": "https://pbs.twimg.com/media/HMsV_CDbQAANSnQ.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1147,
+                  "w": 2048,
+                  "x": 0,
+                  "y": 297
+                },
+                {
+                  "h": 1536,
+                  "w": 1536,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1536,
+                  "w": 1347,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1536,
+                  "w": 768,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1536,
+                  "w": 2048,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1536,
+              "width": 2048
+            },
+            "sizes": {
+              "large": {
+                "h": 1536,
+                "w": 2048
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/IctFFITHAr"
+          },
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/IctFFITHAr",
+            "expanded_url": "https://x.com/kiryuintw/status/2074776242696708262/photo/1",
+            "ext_alt_text": "パリの街並み",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2074776225969737728",
+            "indices": [
+              155,
+              178
+            ],
+            "media_key": "3_2074776225969737728",
+            "media_url_https": "https://pbs.twimg.com/media/HMsV_CFaEAAuFdK.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 860,
+                  "w": 1536,
+                  "x": 0,
+                  "y": 1054
+                },
+                {
+                  "h": 1536,
+                  "w": 1536,
+                  "x": 0,
+                  "y": 512
+                },
+                {
+                  "h": 1751,
+                  "w": 1536,
+                  "x": 0,
+                  "y": 297
+                },
+                {
+                  "h": 2048,
+                  "w": 1024,
+                  "x": 358,
+                  "y": 0
+                },
+                {
+                  "h": 2048,
+                  "w": 1536,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 2048,
+              "width": 1536
+            },
+            "sizes": {
+              "large": {
+                "h": 2048,
+                "w": 1536
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/IctFFITHAr"
+          }
+        ],
+        "id": "2074776242696708262",
+        "summary": "用户在巴黎参加Japan Expo前期，用ChatGPT分析超市调味料货架照片，获取欧洲特色调味料推荐。展示AI在旅行决策中的实际应用。",
+        "category": "AI+行业应用",
+        "category_points": 15,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "有人物/团队故事"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "好奇/趣味",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "不匹配",
+        "account_bonus": 0,
+        "total_score": 38,
+        "verdict": "keep",
+        "angles": [
+          "ChatGPT变身旅行美食顾问，巴黎超市逛出新花样",
+          "AI+旅行：用ChatGPT发现欧洲调味料的秘密",
+          "出国前必学：ChatGPT帮你淘遍当地超市"
+        ]
+      },
+      {
+        "tweet_id": "2074492124045742324",
+        "url": "https://x.com/7athaus/status/2074492124045742324",
+        "screen_name": "7athaus",
+        "created_at": "Tue Jul 07 13:53:59 +0000 2026",
+        "full_text": "required to buy chatgpt plus for my summer class or we fail https://t.co/LUA68JiveI",
+        "lang": "en",
+        "favorite_count": 9725,
+        "retweet_count": 97,
+        "reply_count": 24,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/LUA68JiveI",
+            "expanded_url": "https://x.com/7athaus/status/2074492124045742324/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 190,
+                    "w": 190,
+                    "x": 872,
+                    "y": 833
+                  },
+                  {
+                    "h": 383,
+                    "w": 383,
+                    "x": 132,
+                    "y": 753
+                  }
+                ]
+              }
+            },
+            "id_str": "2074492120979648512",
+            "indices": [
+              60,
+              83
+            ],
+            "media_key": "3_2074492120979648512",
+            "media_url_https": "https://pbs.twimg.com/media/HMoTl8hWsAAYhbS.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 719,
+                  "w": 1284,
+                  "x": 0,
+                  "y": 538
+                },
+                {
+                  "h": 1257,
+                  "w": 1257,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1257,
+                  "w": 1103,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1257,
+                  "w": 629,
+                  "x": 39,
+                  "y": 0
+                },
+                {
+                  "h": 1257,
+                  "w": 1284,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1257,
+              "width": 1284
+            },
+            "sizes": {
+              "large": {
+                "h": 1257,
+                "w": 1284
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/LUA68JiveI"
+          }
+        ],
+        "id": "2074492124045742324",
+        "summary": "大学教授强制学生购买ChatGPT Plus才能通过暑期课程，引发教育公平性争议。学生质疑这一政策的合理性。",
+        "category": "AI+行业应用",
+        "category_points": 15,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "反常识/意外性"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 0,
+        "account_fit": "不匹配",
+        "account_bonus": 0,
+        "total_score": 36,
+        "verdict": "keep",
+        "angles": [
+          "大学强制学生付费用AI，教育公平性危机",
+          "ChatGPT Plus成教学必需品？高校收费模式反思",
+          "学生吐槽：不买Plus就挂科的时代来了"
+        ]
+      },
+      {
+        "tweet_id": "2074773187037134892",
+        "url": "https://x.com/deedydas/status/2074773187037134892",
+        "screen_name": "deedydas",
+        "created_at": "Wed Jul 08 08:30:49 +0000 2026",
+        "full_text": "The Argentina come back against Egypt is one of the best matches in football history.\n\nI analyzed ~50,000 games with Fable to show just how crazy it was.\n\nOf the 10,138 times that a team has been up 2-0 at 79', only SIXTEEN times (0.16%) did they ever make a come back at the end https://t.co/ccd6UC1Qv9",
+        "lang": "en",
+        "favorite_count": 2996,
+        "retweet_count": 437,
+        "reply_count": 125,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "display_url": "pic.x.com/ccd6UC1Qv9",
+            "expanded_url": "https://x.com/deedydas/status/2074773187037134892/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 110,
+                    "w": 110,
+                    "x": 57,
+                    "y": 173
+                  }
+                ]
+              }
+            },
+            "id_str": "2074773183866241024",
+            "indices": [
+              280,
+              303
+            ],
+            "media_key": "3_2074773183866241024",
+            "media_url_https": "https://pbs.twimg.com/media/HMsTN9XagAAfEMm.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1128,
+                  "w": 2014,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1380,
+                  "w": 1380,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1380,
+                  "w": 1211,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1380,
+                  "w": 690,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1380,
+                  "w": 2014,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1380,
+              "width": 2014
+            },
+            "sizes": {
+              "large": {
+                "h": 1380,
+                "w": 2014
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/ccd6UC1Qv9"
+          }
+        ],
+        "id": "2074773187037134892",
+        "summary": "用户用Fable分析5万场足球比赛，发现阿根廷2:0领先79分钟后逆转埃及的概率仅0.16%。展示AI数据分析在体育领域的应用。",
+        "category": "AI+行业应用",
+        "category_points": 15,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "有明确数据/统计"
+        ],
+        "viral_signals_points": 8,
+        "emotion": "好奇/趣味",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "不匹配",
+        "account_bonus": 0,
+        "total_score": 36,
+        "verdict": "keep",
+        "angles": [
+          "AI分析体育数据：0.16%的奇迹逆转",
+          "Fable深度分析5万场比赛，揭秘足球概率",
+          "AI如何量化足球比赛的不可能时刻"
+        ]
+      }
+    ],
+    "backup": [
+      {
+        "tweet_id": "2074677924549349868",
+        "url": "https://x.com/Mathrk623/status/2074677924549349868",
+        "screen_name": "Mathrk623",
+        "created_at": "Wed Jul 08 02:12:17 +0000 2026",
+        "full_text": "飛行機の取り方分からなくてChatGPTに聞いたらこれで神 https://t.co/0Tvw0JP5XE",
+        "lang": "ja",
+        "favorite_count": 2613,
+        "retweet_count": 103,
+        "reply_count": 12,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "display_url": "pic.x.com/0Tvw0JP5XE",
+            "expanded_url": "https://x.com/Mathrk623/status/2074677924549349868/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 35,
+                    "w": 35,
+                    "x": 136,
+                    "y": 36
+                  },
+                  {
+                    "h": 34,
+                    "w": 34,
+                    "x": 326,
+                    "y": 318
+                  }
+                ]
+              }
+            },
+            "id_str": "2074677921940447232",
+            "indices": [
+              30,
+              53
+            ],
+            "media_key": "3_2074677921940447232",
+            "media_url_https": "https://pbs.twimg.com/media/HMq8k_CbIAAgv8b.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 484,
+                  "w": 864,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 756,
+                  "w": 756,
+                  "x": 108,
+                  "y": 0
+                },
+                {
+                  "h": 756,
+                  "w": 663,
+                  "x": 201,
+                  "y": 0
+                },
+                {
+                  "h": 756,
+                  "w": 378,
+                  "x": 394,
+                  "y": 0
+                },
+                {
+                  "h": 756,
+                  "w": 864,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 756,
+              "width": 864
+            },
+            "sizes": {
+              "large": {
+                "h": 756,
+                "w": 864
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/0Tvw0JP5XE"
+          }
+        ],
+        "id": "2074677924549349868",
+        "summary": "用户分享用ChatGPT查询飞机购票方法的经验。展示AI助手在日常生活中的实用价值，属于效率工具推荐。",
+        "category": "效率工具推荐",
+        "category_points": 17,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [],
+        "viral_signals_points": 0,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 0,
+        "account_fit": "B型",
+        "account_bonus": 5,
+        "total_score": 33,
+        "verdict": "keep",
+        "angles": [
+          "ChatGPT秒解飞机购票难题，效率提升神器",
+          "不懂买机票？让AI来教你",
+          "日常生活AI应用：ChatGPT的隐藏用法"
+        ]
+      },
+      {
+        "tweet_id": "2074705681920520526",
+        "url": "https://x.com/thsottiaux/status/2074705681920520526",
+        "screen_name": "thsottiaux",
+        "created_at": "Wed Jul 08 04:02:35 +0000 2026",
+        "full_text": "Prepare your sunglasses. Sol is coming. 😎",
+        "lang": "en",
+        "favorite_count": 6015,
+        "retweet_count": 297,
+        "reply_count": 501,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2074705681920520526",
+        "summary": "Prepare your sunglasses. Sol is coming. 😎",
+        "category": "未评分",
+        "category_points": 0,
+        "info_gap": "未评分",
+        "info_gap_points": 0,
+        "viral_signals": [],
+        "viral_signals_points": 0,
+        "emotion": "未评分",
+        "emotion_points": 0,
+        "actionability_points": 0,
+        "account_fit": "不匹配",
+        "account_bonus": 0,
+        "total_score": 30,
+        "verdict": "keep",
+        "angles": [
+          "[LLM fallback: Expecting ',' delimiter: line 5 column 24 (char 81)]"
+        ],
+        "_fallback": true
+      },
+      {
+        "tweet_id": "2074497419535073306",
+        "url": "https://x.com/AndrewBolis/status/2074497419535073306",
+        "screen_name": "AndrewBolis",
+        "created_at": "Tue Jul 07 14:15:01 +0000 2026",
+        "full_text": "ChatGPT + laptop + internet connection + 60 minutes a day = $349 per day.\n\nUsually, I charge $81 for this guide, but today you get it 100% for free.\n\nLike + comment 'AI' and I'll send you my step-by-step guide for FREE.\n\nMust follow me to get guide in DM.\n\nFREE for 48 hours. https://t.co/5CjTm6Pt69",
+        "lang": "en",
+        "favorite_count": 2213,
+        "retweet_count": 184,
+        "reply_count": 2446,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "display_url": "pic.x.com/5CjTm6Pt69",
+            "expanded_url": "https://x.com/AndrewBolis/status/2074497419535073306/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2074497416687226880",
+            "indices": [
+              276,
+              299
+            ],
+            "media_key": "3_2074497416687226880",
+            "media_url_https": "https://pbs.twimg.com/media/HMoYaMkbkAAJRp7.png",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 280,
+                  "w": 500,
+                  "x": 0,
+                  "y": 72
+                },
+                {
+                  "h": 498,
+                  "w": 498,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 498,
+                  "w": 437,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 498,
+                  "w": 249,
+                  "x": 88,
+                  "y": 0
+                },
+                {
+                  "h": 498,
+                  "w": 500,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 498,
+              "width": 500
+            },
+            "sizes": {
+              "large": {
+                "h": 498,
+                "w": 500
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/5CjTm6Pt69"
+          }
+        ],
+        "id": "2074497419535073306",
+        "summary": "ChatGPT + laptop + internet connection + 60 minutes a day = $349 per day.\n\nUsually, I charge $81 for this guide, but today you get it 100% for free.\n\n",
+        "category": "未评分",
+        "category_points": 0,
+        "info_gap": "未评分",
+        "info_gap_points": 0,
+        "viral_signals": [],
+        "viral_signals_points": 0,
+        "emotion": "未评分",
+        "emotion_points": 0,
+        "actionability_points": 0,
+        "account_fit": "不匹配",
+        "account_bonus": 0,
+        "total_score": 30,
+        "verdict": "keep",
+        "angles": [
+          "[LLM fallback: Expecting ',' delimiter: line 12 column 11 (char 317)]"
+        ],
+        "_fallback": true
+      },
+      {
+        "tweet_id": "2074582554141692089",
+        "url": "https://x.com/skooookum/status/2074582554141692089",
+        "screen_name": "skooookum",
+        "created_at": "Tue Jul 07 19:53:19 +0000 2026",
+        "full_text": "You haven’t lived until you’ve ssh’d into 3 million American dollars worth of godboxes",
+        "lang": "en",
+        "favorite_count": 2172,
+        "retweet_count": 64,
+        "reply_count": 21,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2074582554141692089",
+        "summary": "用户分享通过SSH访问价值300万美元的高端服务器的体验。这是一条开发者社区的技术趣味分享。",
+        "category": "开发者工具",
+        "category_points": 8,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [],
+        "viral_signals_points": 0,
+        "emotion": "好奇/趣味",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "不匹配",
+        "account_bonus": 0,
+        "total_score": 21,
+        "verdict": "keep",
+        "angles": [
+          "300万美元的服务器长什么样",
+          "开发者的终极体验：顶级硬件SSH之旅",
+          "godbox传说：云计算的奢侈品"
+        ]
+      }
+    ]
+  }
+}
