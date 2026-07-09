@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-09T13:48:59.585069+00:00",
+  "updated_at": "2026-07-09T23:10:21.869075+00:00",
   "count": 500,
-  "new_count": 2223,
+  "new_count": 2230,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -23,12 +23,60 @@
   ],
   "items": [
     {
+      "source": "GitHub Blog",
+      "title": "How GitHub gave every repository a durable owner",
+      "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
+      "summary": "GitHub had over 14,000 repositories. Fewer than half had clear ownership. Here's how we gave every active repository a validated owner in under 45 days, archived the rest, and made ownership the foundation for everything that followed. The post How GitHub gave every repository a ",
+      "published_at": "2026-07-09T16:29:37+00:00",
+      "first_seen_at": "2026-07-09T23:10:21.869075+00:00"
+    },
+    {
       "source": "NVIDIA Blog",
       "title": "GeForce NOW Turns Up the Heat With New GeForce RTX 5080-Powered Toronto Server",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-toronto-expansion/",
       "summary": "This GFN Thursday brings more games, more power and more ways to play on GeForce NOW. The cloud gaming service is expanding with a new GeForce RTX 5080-powered server in Toronto, bringing dedicated high performance in the cloud closer to members across the region. NTE: Neverness ",
       "published_at": "2026-07-09T13:00:55+00:00",
       "first_seen_at": "2026-07-09T13:48:59.585069+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "published_at": "2026-07-09T13:00:00+00:00",
+      "first_seen_at": "2026-07-09T23:10:21.869075+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+      "published_at": "2026-07-09T10:00:00+00:00",
+      "first_seen_at": "2026-07-09T23:10:21.869075+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "summary": "Details about the OpenAI Bio Bounty program",
+      "published_at": "2026-07-09T10:00:00+00:00",
+      "first_seen_at": "2026-07-09T23:10:21.869075+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "url": "https://openai.com/index/gpt-5-6",
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "published_at": "2026-07-09T10:00:00+00:00",
+      "first_seen_at": "2026-07-09T23:10:21.869075+00:00"
+    },
+    {
+      "source": "Google Research Blog",
+      "title": "SensorFM: Towards a general intelligence and interface for wearable health data",
+      "url": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/",
+      "summary": "Generative AI",
+      "published_at": "2026-07-09T09:56:00+00:00",
+      "first_seen_at": "2026-07-09T23:10:21.869075+00:00"
     },
     {
       "source": "Product Hunt",
@@ -45,6 +93,22 @@
       "summary": "Introducing a new way to reflect on and refine how you use Claude. It lets you easily track and visualize how you use Claude, and decide whether that time aligns with your goals.",
       "published_at": "2026-07-09T00:00:00+00:00",
       "first_seen_at": "2026-07-09T13:48:59.585069+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
+      "url": "https://www.anthropic.com/news/ben-bernanke",
+      "summary": "",
+      "published_at": "2026-07-09T00:00:00+00:00",
+      "first_seen_at": "2026-07-09T23:10:21.869075+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Inviting hard questions",
+      "url": "https://www.anthropic.com/news/hard-questions",
+      "summary": "We're asking the public for their hardest questions about AI, and committing to show our work as we address them.",
+      "published_at": "2026-07-09T00:00:00+00:00",
+      "first_seen_at": "2026-07-09T23:10:21.869075+00:00"
     },
     {
       "source": "GitHub Blog",
@@ -3888,6 +3952,14 @@
     },
     {
       "source": "OpenAI News",
+      "title": "ChatGPT Sites",
+      "url": "https://openai.com/academy/chatgpt-sites",
+      "summary": "Create that kind of lightweight website or app with Codex.",
+      "published_at": "2026-06-02T10:00:00+00:00",
+      "first_seen_at": "2026-07-09T23:10:21.869075+00:00"
+    },
+    {
+      "source": "OpenAI News",
       "title": "Codex for every role, tool, and workflow",
       "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
       "summary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
@@ -3949,78 +4021,6 @@
       "summary": "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.",
       "published_at": "2026-06-01T16:00:00+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
-      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-      "summary": "",
-      "published_at": "2026-06-01T15:45:17+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-      "summary": "",
-      "published_at": "2026-06-01T13:51:18+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Building the infrastructure for the Intelligence Age in Michigan",
-      "url": "https://openai.com/index/stargate-michigan-data-center",
-      "summary": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
-      "published_at": "2026-06-01T12:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Runway",
-      "title": "Runway Opens London HQ, Bringing World Model Research Hub to the UK and Europe",
-      "url": "https://runwayml.com/news/runway-opens-london-hq",
-      "summary": "Announcing London as Runway's new European headquarters and world model research hub, with a planned $100M investment in the UK AI ecosystem and a new Head of Europe.",
-      "published_at": "2026-06-01T10:10:10.110000+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI frontier models and Codex are now available on AWS",
-      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation",
-      "published_at": "2026-06-01T10:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Cursor Blog",
-      "title": "Improvements to Teams Pricing",
-      "url": "https://cursor.com/blog/teams-pricing-june-2026",
-      "summary": "Increasing usage limits, lowering total costs for heavy-usage customers, and making Teams spend easier to forecast and control.",
-      "published_at": "2026-06-01T07:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Runway",
-      "title": "Introducing the Cosmos Coalition",
-      "url": "https://runwayml.com/news/introducing-cosmos-coalition",
-      "summary": "Runway is a founding member of the Cosmos Coalition, a new global initiative with NVIDIA and leading AI labs to build and open-source frontier world models for physical AI.",
-      "published_at": "2026-06-01T05:30:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Blog",
-      "title": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
-      "url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
-      "summary": "As factories move from isolated automation to plant-wide intelligence, manufacturers need AI systems that can connect live machine signals, quality systems, work instructions and operational alerts into a unified decision layer. Today at GTC Taipei at COMPUTEX, NVIDIA announced t",
-      "published_at": "2026-06-01T05:00:47+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Tech Blog",
-      "title": "How to Post-Train Autonomous Vehicle Models in Closed-Loop with NVIDIA Alpamayo",
-      "url": "https://developer.nvidia.com/blog/how-to-post-train-autonomous-vehicle-models-in-closed-loop-with-nvidia-alpamayo/",
-      "summary": "Developing autonomous vehicle (AV) policies requires bridging an important gap between training and deployment. Vision-language-action (VLA) models that can...",
-      "published_at": "2026-06-01T04:49:15+00:00",
-      "first_seen_at": "2026-07-09T01:45:53.574090+00:00"
     }
   ]
 }
