@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-09T00:01:49.538791+00:00",
+  "updated_at": "2026-07-09T01:45:53.574090+00:00",
   "count": 500,
-  "new_count": 2380,
+  "new_count": 2222,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -23,43 +23,11 @@
   ],
   "items": [
     {
-      "source": "Anthropic News",
-      "title": "Progress from our Frontier Red Team",
-      "url": "https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
-      "summary": "In this post, we are sharing what we have learned about the trajectory of potential national security risks from frontier AI models, along with some of our thoughts about challenges and best practices in evaluating these risks.",
-      "published_at": "2026-07-08T22:43:38+00:00",
-      "first_seen_at": "2026-07-09T00:01:49.538791+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Frontier threats red teaming for AI safety",
-      "url": "https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety",
-      "summary": "",
-      "published_at": "2026-07-08T22:42:17+00:00",
-      "first_seen_at": "2026-07-09T00:01:49.538791+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Charting a path to AI accountability",
-      "url": "https://www.anthropic.com/news/charting-a-path-to-ai-accountability",
-      "summary": "",
-      "published_at": "2026-07-08T22:41:45+00:00",
-      "first_seen_at": "2026-07-09T00:01:49.538791+00:00"
-    },
-    {
       "source": "GitHub Blog",
       "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
       "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
       "summary": "Explore how the Aspire team turns merged product changes into SME-reviewed docs pull requests, closing the gap between release and documentation. The post Automating cross-repo documentation with GitHub Agentic Workflows appeared first on The GitHub Blog.",
       "published_at": "2026-07-08T21:11:56+00:00",
-      "first_seen_at": "2026-07-09T00:01:49.538791+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Golden Gate Claude",
-      "url": "https://www.anthropic.com/news/golden-gate-claude",
-      "summary": "When we turn up the strength of the “Golden Gate Bridge” feature, Claude’s responses begin to focus on the Golden Gate Bridge. For a short time, we’re making this model available for everyone to interact with.",
-      "published_at": "2026-07-08T20:08:28+00:00",
       "first_seen_at": "2026-07-09T00:01:49.538791+00:00"
     },
     {
@@ -327,22 +295,6 @@
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
-      "source": "Google DeepMind Research",
-      "title": "The Case for Globally Beneficial Technology",
-      "url": "https://deepmind.google/research/publications/260960/",
-      "summary": "",
-      "published_at": "2026-07-07T00:00:00",
-      "first_seen_at": "2026-07-07T13:18:48.316478+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Building safeguards for Claude",
-      "url": "https://www.anthropic.com/news/building-safeguards-for-claude",
-      "summary": "",
-      "published_at": "2026-07-06T23:32:01+00:00",
-      "first_seen_at": "2026-07-06T23:58:36.810609+00:00"
-    },
-    {
       "source": "Product Hunt",
       "title": "Kadoink AI",
       "url": "https://www.producthunt.com/products/say-who-say-why-kadoink-gathers-everyone",
@@ -357,14 +309,6 @@
       "summary": "Free API to get Open Graph data, title & images for any URL Discussion | Link",
       "published_at": "2026-07-06T22:23:14+00:00",
       "first_seen_at": "2026-07-08T12:21:17.049817+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities",
-      "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
-      "summary": "The Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them.",
-      "published_at": "2026-07-06T19:00:35+00:00",
-      "first_seen_at": "2026-07-06T23:58:36.810609+00:00"
     },
     {
       "source": "Product Hunt",
@@ -445,6 +389,22 @@
       "summary": "The AI video editor you hire that edits like a human Discussion | Link",
       "published_at": "2026-07-06T03:37:29+00:00",
       "first_seen_at": "2026-07-06T14:23:01.394675+00:00"
+    },
+    {
+      "source": "Google DeepMind Research",
+      "title": "The Case for Globally Beneficial Technology",
+      "url": "https://deepmind.google/research/publications/260960/",
+      "summary": "",
+      "published_at": "2026-07-06T00:00:00+00:00",
+      "first_seen_at": "2026-07-07T13:18:48.316478+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities",
+      "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+      "summary": "The Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them.",
+      "published_at": "2026-07-06T00:00:00+00:00",
+      "first_seen_at": "2026-07-06T23:58:36.810609+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -557,30 +517,6 @@
       "summary": "Record once, send confidently Discussion | Link",
       "published_at": "2026-07-03T13:20:27+00:00",
       "first_seen_at": "2026-07-06T14:23:01.394675+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Claude's extended thinking",
-      "url": "https://www.anthropic.com/news/visible-extended-thinking",
-      "summary": "Discussing Claude's new thought process",
-      "published_at": "2026-07-03T10:15:42+00:00",
-      "first_seen_at": "2026-07-03T12:57:02.712231+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Announcing Anthropic's Responsible Scaling Policy",
-      "url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy",
-      "summary": "We’re publishing our Responsible Scaling Policy—a series of technical and organizational protocols that we’re adopting to help us manage the risks of developing increasingly capable AI systems.",
-      "published_at": "2026-07-03T10:15:38+00:00",
-      "first_seen_at": "2026-07-03T12:57:02.712231+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
-      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
-      "summary": "What is and isn't blocked by our cyber classifiers, and a first draft of our jailbreak severity framework",
-      "published_at": "2026-07-03T10:14:45+00:00",
-      "first_seen_at": "2026-07-03T12:57:02.712231+00:00"
     },
     {
       "source": "Product Hunt",
@@ -711,6 +647,14 @@
       "first_seen_at": "2026-07-02T12:57:41.910270+00:00"
     },
     {
+      "source": "Anthropic News",
+      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
+      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+      "summary": "What is and isn't blocked by our cyber classifiers, and a first draft of our jailbreak severity framework",
+      "published_at": "2026-07-02T00:00:00+00:00",
+      "first_seen_at": "2026-07-03T12:57:02.712231+00:00"
+    },
+    {
       "source": "Runway",
       "title": "Borrowing the Night: Reclaiming Idle Inference GPUs for Research",
       "url": "https://runwayml.com/news/borrowing-the-night-reclaiming-idle-inference-gpus-for-research",
@@ -839,14 +783,6 @@
       "first_seen_at": "2026-07-02T12:57:41.910270+00:00"
     },
     {
-      "source": "Anthropic News",
-      "title": "Redeploying Claude Fable 5",
-      "url": "https://www.anthropic.com/news/redeploying-fable-5",
-      "summary": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
-      "published_at": "2026-07-01T08:59:07+00:00",
-      "first_seen_at": "2026-07-01T13:35:44.875847+00:00"
-    },
-    {
       "source": "Product Hunt",
       "title": "AnySearch",
       "url": "https://www.producthunt.com/products/anysearch",
@@ -879,14 +815,6 @@
       "first_seen_at": "2026-07-02T00:08:41.955431+00:00"
     },
     {
-      "source": "Anthropic News",
-      "title": "Introducing Claude Sonnet 5",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
-      "published_at": "2026-06-30T21:20:30+00:00",
-      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
-    },
-    {
       "source": "Product Hunt",
       "title": "Solaris",
       "url": "https://www.producthunt.com/products/build-club",
@@ -909,14 +837,6 @@
       "summary": "AI CAD inside Onshape and Fusion Discussion | Link",
       "published_at": "2026-06-30T19:59:32+00:00",
       "first_seen_at": "2026-07-01T13:35:44.875847+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Claude Science, an AI workbench for scientists",
-      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
-      "summary": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
-      "published_at": "2026-06-30T18:43:57+00:00",
-      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -1143,6 +1063,30 @@
       "first_seen_at": "2026-07-02T12:57:41.910270+00:00"
     },
     {
+      "source": "Anthropic News",
+      "title": "Redeploying Claude Fable 5",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "summary": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
+      "published_at": "2026-06-30T00:00:00+00:00",
+      "first_seen_at": "2026-07-01T13:35:44.875847+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Introducing Claude Sonnet 5",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "published_at": "2026-06-30T00:00:00+00:00",
+      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Claude Science, an AI workbench for scientists",
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "summary": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
+      "published_at": "2026-06-30T00:00:00+00:00",
+      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
+    },
+    {
       "source": "Hugging Face Blog",
       "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
       "url": "https://huggingface.co/blog/eee-community-evals",
@@ -1359,14 +1303,6 @@
       "first_seen_at": "2026-06-29T23:54:26.734254+00:00"
     },
     {
-      "source": "Google DeepMind Research",
-      "title": "Real-Time Group Dynamics with LLM Facilitation: Evidence from a Charity Allocation Task",
-      "url": "https://deepmind.google/research/publications/224297/",
-      "summary": "",
-      "published_at": "2026-06-29T00:00:00",
-      "first_seen_at": "2026-06-29T23:54:26.734254+00:00"
-    },
-    {
       "source": "Product Hunt",
       "title": "Crest",
       "url": "https://www.producthunt.com/products/crest-3",
@@ -1549,6 +1485,14 @@
       "summary": "Sell subscriptions to teams, companies, and organizations. Discussion | Link",
       "published_at": "2026-06-26T01:59:59+00:00",
       "first_seen_at": "2026-06-26T13:15:04.116660+00:00"
+    },
+    {
+      "source": "Google DeepMind Research",
+      "title": "Real-Time Group Dynamics with LLM Facilitation: Evidence from a Charity Allocation Task",
+      "url": "https://deepmind.google/research/publications/224297/",
+      "summary": "",
+      "published_at": "2026-06-26T00:00:00+00:00",
+      "first_seen_at": "2026-06-29T23:54:26.734254+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -2015,14 +1959,6 @@
       "first_seen_at": "2026-06-25T13:18:15.802042+00:00"
     },
     {
-      "source": "Anthropic News",
-      "title": "Introducing Claude Tag",
-      "url": "https://www.anthropic.com/news/introducing-claude-tag",
-      "summary": "",
-      "published_at": "2026-06-23T19:22:44+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
       "source": "Product Hunt",
       "title": "N71",
       "url": "https://www.producthunt.com/products/n71",
@@ -2180,6 +2116,14 @@
       "url": "https://www.producthunt.com/products/sipcode",
       "summary": "Keep Claude Code's context clean for sharper answers Discussion | Link",
       "published_at": "2026-06-23T00:11:52+00:00",
+      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Introducing Claude Tag",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "summary": "",
+      "published_at": "2026-06-23T00:00:00+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
@@ -2396,14 +2340,6 @@
       "url": "https://developer.nvidia.com/blog/inside-nvidia-halos-for-robotics-a-full-stack-functional-safety-system-for-physical-ai/",
       "summary": "Physical AI—robots working autonomously alongside people in factories, warehouses, hospitals, and homes—is arriving faster than most expected. Traditional...",
       "published_at": "2026-06-22T13:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Anthropic forms $200 million partnership with the Gates Foundation",
-      "url": "https://www.anthropic.com/news/gates-foundation-partnership",
-      "summary": "We’re partnering with the Gates Foundation to commit $200 million in grant funding, Claude usage credits, and technical support for programs in global health, life sciences, education, and economic mobility over the next four years.",
-      "published_at": "2026-06-22T12:56:39+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
@@ -2759,14 +2695,6 @@
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
-      "source": "Anthropic News",
-      "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
-      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
-      "summary": "Anthropic opens Seoul and announces new partnerships across the Korean AI ecosystem—with the enterprises, startups, and researchers behind some of the most ambitious deployments of Claude.",
-      "published_at": "2026-06-18T03:57:50+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
       "source": "Hugging Face Blog",
       "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
       "url": "https://huggingface.co/blog/peft-beyond-lora",
@@ -2812,14 +2740,6 @@
       "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
       "summary": "How GitHub Copilot is making more of each session go toward useful work, so your credits go further. The post Getting more from each token: How Copilot improves context handling and model routing appeared first on The GitHub Blog.",
       "published_at": "2026-06-17T19:41:46+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Developing nuclear safeguards for AI through public-private partnership",
-      "url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
-      "summary": "Together with the NNSA and DOE national laboratories, we have co-developed a classifier—an AI system that automatically categorizes content—that distinguishes between concerning and benign nuclear-related conversations with 96% accuracy in preliminary testing.",
-      "published_at": "2026-06-17T16:48:41+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
@@ -2876,6 +2796,14 @@
       "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
       "summary": "",
       "published_at": "2026-06-17T09:01:25+00:00",
+      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+      "summary": "Anthropic opens Seoul and announces new partnerships across the Korean AI ecosystem—with the enterprises, startups, and researchers behind some of the most ambitious deployments of Claude.",
+      "published_at": "2026-06-17T00:00:00+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
@@ -2983,14 +2911,6 @@
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
-      "source": "Anthropic News",
-      "title": "TCS and Anthropic partner to bring Claude to regulated industries",
-      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
-      "summary": "We’re announcing a partnership with Tata Consultancy Services (TCS). TCS will provide Claude to 50,000 of its own employees across 56 countries; build Claude-powered products for clients in financial services, healthcare, the public sector, and other regulated industries; and joi",
-      "published_at": "2026-06-16T14:35:47+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
       "source": "Product Hunt",
       "title": "SquidHub",
       "url": "https://www.producthunt.com/products/squidhub",
@@ -3021,14 +2941,6 @@
       "summary": "Web browser automation for AI agents Discussion | Link",
       "published_at": "2026-06-16T10:15:38+00:00",
       "first_seen_at": "2026-06-25T13:18:15.802042+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Core views on AI safety: When, why, what, and how",
-      "url": "https://www.anthropic.com/news/core-views-on-ai-safety",
-      "summary": "AI progress may lead to transformative AI systems in the next decade, but we do not yet understand how to make such systems safe and aligned with human values. In response, we are pursuing a variety of research directions aimed at better understanding, evaluating, and aligning AI",
-      "published_at": "2026-06-16T09:51:16+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
       "source": "Product Hunt",
@@ -3068,14 +2980,6 @@
       "url": "https://openai.com/index/deployment-simulation",
       "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
       "published_at": "2026-06-16T00:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Google DeepMind Research",
-      "title": "Artificial Minds, Human Disagreement: The Politics of AI Consciousness",
-      "url": "https://deepmind.google/research/publications/248131/",
-      "summary": "",
-      "published_at": "2026-06-16T00:00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
@@ -3152,10 +3056,10 @@
     },
     {
       "source": "Google DeepMind Research",
-      "title": "Did US Worker Retraining Reduce Participant Automation Exposure?",
-      "url": "https://deepmind.google/research/publications/239849/",
+      "title": "Artificial Minds, Human Disagreement: The Politics of AI Consciousness",
+      "url": "https://deepmind.google/research/publications/248131/",
       "summary": "",
-      "published_at": "2026-06-15T00:00:00",
+      "published_at": "2026-06-15T00:00:00+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
@@ -3183,22 +3087,6 @@
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
-      "source": "Anthropic News",
-      "title": "Claude Fable 5 and Claude Mythos 5",
-      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-      "summary": "Today we’re launching Claude Fable 5: a Mythos-class model that we’ve made safe for general use.",
-      "published_at": "2026-06-13T02:30:15+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
-      "url": "https://www.anthropic.com/news/fable-mythos-access",
-      "summary": "The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States.",
-      "published_at": "2026-06-13T01:13:41+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
       "source": "GitHub Blog",
       "title": "How we made GitHub Copilot CLI more selective about delegation",
       "url": "https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/",
@@ -3223,14 +3111,6 @@
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
-      "source": "Anthropic News",
-      "title": "Results from first Anthropic Public Record",
-      "url": "https://www.anthropic.com/news/anthropic-public-record",
-      "summary": "Anthropic Public Record is a national survey of attitudes and opinions towards AI.",
-      "published_at": "2026-06-12T16:24:44+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
       "source": "OpenAI News",
       "title": "New OpenAI Academy courses for the next era of work",
       "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
@@ -3247,6 +3127,30 @@
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
+      "source": "Anthropic News",
+      "title": "TCS and Anthropic partner to bring Claude to regulated industries",
+      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
+      "summary": "We’re announcing a partnership with Tata Consultancy Services (TCS). TCS will provide Claude to 50,000 of its own employees across 56 countries; build Claude-powered products for clients in financial services, healthcare, the public sector, and other regulated industries; and joi",
+      "published_at": "2026-06-12T00:00:00+00:00",
+      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "summary": "The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States.",
+      "published_at": "2026-06-12T00:00:00+00:00",
+      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Results from first Anthropic Public Record",
+      "url": "https://www.anthropic.com/news/anthropic-public-record",
+      "summary": "Anthropic Public Record is a national survey of attitudes and opinions towards AI.",
+      "published_at": "2026-06-12T00:00:00+00:00",
+      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
       "source": "OpenAI News",
       "title": "How Preply combines AI and human tutors to personalize learning",
       "url": "https://openai.com/index/preply",
@@ -3259,7 +3163,7 @@
       "title": "From AGI to ASI",
       "url": "https://deepmind.google/research/publications/239142/",
       "summary": "",
-      "published_at": "2026-06-12T00:00:00",
+      "published_at": "2026-06-12T00:00:00+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
@@ -3287,28 +3191,12 @@
       "first_seen_at": "2026-07-01T13:35:44.875847+00:00"
     },
     {
-      "source": "Anthropic News",
-      "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
-      "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
-      "summary": "We’re announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies.",
-      "published_at": "2026-06-11T18:00:23+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
       "source": "Product Hunt",
       "title": "Oxlo.ai",
       "url": "https://www.producthunt.com/products/oxlo-ai",
       "summary": "Scale across AI models without scaling your bill Discussion | Link",
       "published_at": "2026-06-11T14:37:08+00:00",
       "first_seen_at": "2026-06-25T13:18:15.802042+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Introducing Claude Corps",
-      "url": "https://www.anthropic.com/news/claude-corps",
-      "summary": "We’re launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.",
-      "published_at": "2026-06-11T13:36:07+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
       "source": "Runway",
@@ -3333,6 +3221,22 @@
       "summary": "Voice-to-text for macOS with a fully on-device option Discussion | Link",
       "published_at": "2026-06-11T03:45:53+00:00",
       "first_seen_at": "2026-06-25T13:18:15.802042+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+      "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+      "summary": "We’re announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies.",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Introducing Claude Corps",
+      "url": "https://www.anthropic.com/news/claude-corps",
+      "summary": "We’re launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
       "source": "OpenAI News",
@@ -3511,6 +3415,14 @@
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
+      "source": "Anthropic News",
+      "title": "Claude Fable 5 and Claude Mythos 5",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "summary": "Today we’re launching Claude Fable 5: a Mythos-class model that we’ve made safe for general use.",
+      "published_at": "2026-06-09T00:00:00+00:00",
+      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
       "source": "OpenAI News",
       "title": "Industrial policy for the Intelligence Age",
       "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
@@ -3575,14 +3487,6 @@
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
-      "source": "Google DeepMind Research",
-      "title": "Strategic Tradeoffs Between Humans and AI in Multi-Agent Bargaining",
-      "url": "https://deepmind.google/research/publications/146950/",
-      "summary": "",
-      "published_at": "2026-06-08T00:00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
       "source": "NVIDIA Robotics Blog",
       "title": "NVIDIA and Doosan Group Collaborate to Advance Physical AI and AI Factory Infrastructure",
       "url": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/",
@@ -3591,35 +3495,11 @@
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
-      "source": "Anthropic Engineering",
-      "title": "How we contain Claude across products",
-      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-      "summary": "",
-      "published_at": "2026-06-06T00:28:16+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
-      "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
-      "summary": "The full text of Chris Olah's remarks on the Pope's encyclical on AI.",
-      "published_at": "2026-06-05T14:58:47+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
       "source": "Google AI Blog",
       "title": "The latest AI news we announced in May 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
       "summary": "May AI recap",
       "published_at": "2026-06-05T14:45:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Widening the conversation on frontier AI",
-      "url": "https://www.anthropic.com/news/widening-conversation-ai",
-      "summary": "Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI.",
-      "published_at": "2026-06-05T14:40:24+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
@@ -3715,7 +3595,7 @@
       "title": "Solipsistic superintelligence is unlikely to be cooperative",
       "url": "https://deepmind.google/research/publications/231466/",
       "summary": "",
-      "published_at": "2026-06-04T00:00:00",
+      "published_at": "2026-06-04T00:00:00+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
@@ -3724,22 +3604,6 @@
       "url": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework/",
       "summary": "Climate & Sustainability",
       "published_at": "2026-06-03T18:37:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "What we learned mapping a year’s worth of AI-enabled cyber threats",
-      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
-      "summary": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question.",
-      "published_at": "2026-06-03T16:18:23+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
-      "url": "https://www.anthropic.com/news/services-track-partner-hub",
-      "summary": "In March, we launched the Claude Partner Network, a program for the firms that help enterprises put Claude into production.. Today, we’re announcing two new components that make this ecosystem easier for customers to navigate.",
-      "published_at": "2026-06-03T15:30:11+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
@@ -3831,6 +3695,22 @@
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
+      "source": "Anthropic News",
+      "title": "What we learned mapping a year’s worth of AI-enabled cyber threats",
+      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+      "summary": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question.",
+      "published_at": "2026-06-03T00:00:00+00:00",
+      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
+      "url": "https://www.anthropic.com/news/services-track-partner-hub",
+      "summary": "In March, we launched the Claude Partner Network, a program for the firms that help enterprises put Claude into production.. Today, we’re announcing two new components that make this ecosystem easier for customers to navigate.",
+      "published_at": "2026-06-03T00:00:00+00:00",
+      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
       "source": "Hugging Face Blog",
       "title": "Adding MCP Tools to Reachy Mini",
       "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
@@ -3852,14 +3732,6 @@
       "url": "https://huggingface.co/blog/Hcompany/holo31",
       "summary": "",
       "published_at": "2026-06-02T14:13:23+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Expanding Project Glasswing",
-      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
-      "summary": "We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries",
-      "published_at": "2026-06-02T14:03:15+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
@@ -3919,6 +3791,14 @@
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
+      "source": "Anthropic News",
+      "title": "Expanding Project Glasswing",
+      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "summary": "We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries",
+      "published_at": "2026-06-02T00:00:00+00:00",
+      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
       "source": "OpenAI News",
       "title": "Our views on AI policy and political advocacy",
       "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
@@ -3935,27 +3815,11 @@
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
-      "source": "Anthropic News",
-      "title": "Anthropic confidentially submits draft S-1 to the SEC",
-      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
-      "summary": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission",
-      "published_at": "2026-06-01T15:59:13+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
       "source": "Hugging Face Blog",
       "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
       "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
       "summary": "",
       "published_at": "2026-06-01T15:45:17+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
-      "url": "https://www.anthropic.com/news/series-h",
-      "summary": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.",
-      "published_at": "2026-06-01T15:29:46+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
@@ -3972,14 +3836,6 @@
       "url": "https://openai.com/index/stargate-michigan-data-center",
       "summary": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
       "published_at": "2026-06-01T12:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Introducing Claude Opus 4.8",
-      "url": "https://www.anthropic.com/news/claude-opus-4-8",
-      "summary": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
-      "published_at": "2026-06-01T10:18:23+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
@@ -4020,6 +3876,150 @@
       "url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
       "summary": "As factories move from isolated automation to plant-wide intelligence, manufacturers need AI systems that can connect live machine signals, quality systems, work instructions and operational alerts into a unified decision layer. Today at GTC Taipei at COMPUTEX, NVIDIA announced t",
       "published_at": "2026-06-01T05:00:47+00:00",
+      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics Tech Blog",
+      "title": "How to Post-Train Autonomous Vehicle Models in Closed-Loop with NVIDIA Alpamayo",
+      "url": "https://developer.nvidia.com/blog/how-to-post-train-autonomous-vehicle-models-in-closed-loop-with-nvidia-alpamayo/",
+      "summary": "Developing autonomous vehicle (AV) policies requires bridging an important gap between training and deployment. Vision-language-action (VLA) models that can...",
+      "published_at": "2026-06-01T04:49:15+00:00",
+      "first_seen_at": "2026-07-09T01:45:53.574090+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics Blog",
+      "title": "How Cosmos 3 Helps Physical AI Think Before It Acts",
+      "url": "https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/",
+      "summary": "",
+      "published_at": "2026-06-01T04:45:07+00:00",
+      "first_seen_at": "2026-07-09T01:45:53.574090+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics Tech Blog",
+      "title": "Develop Physical AI Reasoning, World, and Action Models with NVIDIA Cosmos 3",
+      "url": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3/",
+      "summary": "Physical AI systems must understand the real world before they can act within it. Robots, autonomous vehicles, and smart spaces need to understand what's...",
+      "published_at": "2026-06-01T04:43:58+00:00",
+      "first_seen_at": "2026-07-09T01:45:53.574090+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Anthropic confidentially submits draft S-1 to the SEC",
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "summary": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission",
+      "published_at": "2026-06-01T00:00:00+00:00",
+      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "summary": "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+      "published_at": "2026-05-29T19:00:00+00:00",
+      "first_seen_at": "2026-07-09T01:45:53.574090+00:00"
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "summary": "Gemini Omni & Gemini 3.5 hero",
+      "published_at": "2026-05-29T17:30:00+00:00",
+      "first_seen_at": "2026-07-09T01:45:53.574090+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Boston Children’s uses AI to unlock new diagnoses",
+      "url": "https://openai.com/index/boston-childrens-hospital",
+      "summary": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+      "published_at": "2026-05-29T12:00:00+00:00",
+      "first_seen_at": "2026-07-09T01:45:53.574090+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Braintrust turns customer requests into code with Codex",
+      "url": "https://openai.com/index/braintrust",
+      "summary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
+      "published_at": "2026-05-29T12:00:00+00:00",
+      "first_seen_at": "2026-07-09T01:45:53.574090+00:00"
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "summary": "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+      "published_at": "2026-05-29T12:00:00+00:00",
+      "first_seen_at": "2026-07-09T01:45:53.574090+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "summary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+      "published_at": "2026-05-29T03:00:00+00:00",
+      "first_seen_at": "2026-07-09T01:45:53.574090+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "A shared playbook for trustworthy third party evaluations",
+      "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+      "summary": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
+      "published_at": "2026-05-29T00:00:00+00:00",
+      "first_seen_at": "2026-07-09T01:45:53.574090+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
+      "url": "https://huggingface.co/blog/torch-profiler",
+      "summary": "",
+      "published_at": "2026-05-29T00:00:00+00:00",
+      "first_seen_at": "2026-07-09T01:45:53.574090+00:00"
+    },
+    {
+      "source": "Cursor Changelog",
+      "title": "Auto-review Run Mode",
+      "url": "https://cursor.com/changelog/auto-review",
+      "summary": "Auto-review is a new run mode that allows Cursor to work for longer with fewer approval prompts and safer execution.",
+      "published_at": "2026-05-29T00:00:00+00:00",
+      "first_seen_at": "2026-07-09T01:45:53.574090+00:00"
+    },
+    {
+      "source": "Google Research Blog",
+      "title": "A New Era of Discovery: Google Research at I/O 2026",
+      "url": "https://research.google/blog/a-new-era-of-innovation-google-research-at-io-2026/",
+      "summary": "General Science",
+      "published_at": "2026-05-28T20:58:00+00:00",
+      "first_seen_at": "2026-07-09T01:45:53.574090+00:00"
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Catch up on 12 major I/O 2026 moments",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+      "summary": "The colorful I/O logo against a black background, surrounded by stills from the I/O keynote",
+      "published_at": "2026-05-28T15:00:00+00:00",
+      "first_seen_at": "2026-07-09T01:45:53.574090+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics Blog",
+      "title": "NVIDIA Research Advances Robotics From Simulation to the Real World",
+      "url": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
+      "summary": "Robotics is entering a new phase: moving from controlled demos and scripted automation toward generalizable, reliable embodied autonomy in the real world. At the International Conference on Robotics and Automation (ICRA), eight of NVIDIA Research’s 28 accepted papers show how sim",
+      "published_at": "2026-05-28T13:00:51+00:00",
+      "first_seen_at": "2026-07-09T01:45:53.574090+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How Endava builds an agentic organization with Codex",
+      "url": "https://openai.com/index/endava",
+      "summary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
+      "published_at": "2026-05-28T12:00:00+00:00",
+      "first_seen_at": "2026-07-09T01:45:53.574090+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "url": "https://www.anthropic.com/news/series-h",
+      "summary": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.",
+      "published_at": "2026-05-28T00:00:00+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     }
   ]

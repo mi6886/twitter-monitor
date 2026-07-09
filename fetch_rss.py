@@ -45,17 +45,23 @@ FEEDS = [
     ("Product Hunt",             "https://www.producthunt.com/feed"),
 ]
 
-# Sources with NO native RSS — monitored via sitemap diff. For each, filter the
-# sitemap to article URLs by path prefix, take the most-recent N, and fetch each
-# NEW page once for its real title/description (slug fallback). Verified
-# 2026-06-24. (Luma excluded: its sitemap has no article stream, only product
-# pages — its updates only live on X/YouTube, which we don't ingest here.)
+# Sources with NO native RSS — monitored via sitemap diff.
+#
+# "New article" is decided by URL-FIRST-APPEARANCE against a per-source
+# baseline (data/rss-seen.json), NEVER by <lastmod> recency: sites bulk-touch
+# old pages (Anthropic refreshed 3 articles from 2023 on 2026-07-08, and has
+# done 17-page bulk refreshes before), so a fresh lastmod on an already-known
+# URL means nothing. On the first run for a source, ALL its sitemap URLs are
+# recorded as seen (baseline) and nothing is ingested — from then on only
+# genuinely new URLs come in.
+#
 # Each: (label, sitemap_url, prefix, exclude, trust_lastmod, limit)
 #   exclude       — path substrings to drop (section/listing pages)
-#   trust_lastmod — True: use sitemap <lastmod> as the date (pages lack
-#                   article:published_time). False: require the page's
-#                   article:published_time — this both dates the item AND
-#                   auto-skips section pages (which have no published_time).
+#   trust_lastmod — True: sitemap <lastmod> is an acceptable date fallback
+#                   when the page itself yields no date. False: require a
+#                   page-extracted date — also auto-skips section pages.
+#   (Page-extracted dates — article:published_time, JSON-LD, or a visible
+#   "Jul 26, 2023"-style byline — always take priority over lastmod.)
 SITEMAP_SOURCES = [
     ("Anthropic News",          "https://www.anthropic.com/sitemap.xml", "/news/",        [], True, 30),
     ("Anthropic Engineering",   "https://www.anthropic.com/sitemap.xml", "/engineering/", [], True, 30),
@@ -63,6 +69,7 @@ SITEMAP_SOURCES = [
     ("Runway",                  "https://runwayml.com/sitemap.xml",      "/news/",        [], False, 40),
     ("Cursor Blog",             "https://cursor.com/sitemap.xml",        "/blog/",        ["/blog/topic/"], False, 100),
 ]
+SEEN_FILE = DATA_DIR / "rss-seen.json"
 
 
 def strip_html(text: str) -> str:
@@ -206,17 +213,60 @@ def extract_page(html_text: str) -> tuple[str, str, str | None]:
             pub_iso = datetime.fromisoformat(pub.replace("Z", "+00:00")).isoformat()
         except Exception:
             pub_iso = None
+    if not pub_iso:
+        pub_iso = _visible_date(html_text)
     return title, desc, pub_iso
 
 
+_MONTHS = {m: i + 1 for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun",
+     "jul", "aug", "sep", "oct", "nov", "dec"])}
+_VISIBLE_DATE = re.compile(
+    r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+"
+    r"(\d{1,2}),\s+(20\d\d)\b")
+
+
+def _visible_date(html_text: str) -> str | None:
+    """First visible byline-style date ("Jul 26, 2023") in the page.
+    Anthropic (and similar Next.js sites) show the publish date as text but
+    expose no article:published_time meta — this is the only page-level date
+    available there. First match = the article's own byline in practice."""
+    m = _VISIBLE_DATE.search(html_text)
+    if not m:
+        return None
+    try:
+        month = _MONTHS[m.group(1).lower()[:3]]
+        return datetime(int(m.group(3)), month, int(m.group(2)),
+                        tzinfo=timezone.utc).isoformat()
+    except (KeyError, ValueError):
+        return None
+
+
 def fetch_sitemap_source(label, sitemap_url, prefix, exclude, trust_lastmod,
-                         limit, known_urls) -> list[dict]:
-    """Return item dicts for NEW article URLs from one sitemap source."""
-    entries = [
+                         limit, seen_urls: set[str]) -> tuple[list[dict], set[str]]:
+    """Return (new item dicts, ALL article urls seen in this sitemap).
+
+    New = URL appearing in the sitemap for the first time ever (not in the
+    seen baseline). lastmod recency is deliberately ignored for newness —
+    sites bulk-refresh lastmod on old pages. First run for a source (empty
+    baseline) ingests nothing and just records the baseline.
+    """
+    all_entries = [
         (u, m) for u, m in sitemap_entries(sitemap_url, prefix)
         if not any(x in u for x in exclude)
-    ][:limit]
-    new_entries = [(u, m) for u, m in entries if u not in known_urls]
+    ]
+    all_urls = {u for u, _ in all_entries}
+    if not all_urls:
+        # sitemap fetch failed or empty — don't touch the baseline
+        print(f"  {label}: sitemap empty/unreachable, skipping")
+        return [], set()
+
+    first_run = not (seen_urls & all_urls)
+    if first_run:
+        print(f"  {label}: baseline created ({len(all_urls)} urls), 0 ingested")
+        return [], all_urls
+
+    new_entries = [(u, m) for u, m in all_entries if u not in seen_urls][:limit]
 
     def grab(pair):
         url, lastmod = pair
@@ -226,25 +276,24 @@ def fetch_sitemap_source(label, sitemap_url, prefix, exclude, trust_lastmod,
             title, desc, page_pub = extract_page(http_get(url, timeout=12))
         except Exception:
             pass
-        published = lastmod if trust_lastmod else page_pub
-        # When we don't trust lastmod, a missing page date means this is a
-        # section/listing page (not an article) — drop it.
-        if not trust_lastmod and not published:
+        published = page_pub or (lastmod if trust_lastmod else None)
+        # Without trust_lastmod, no page date means a section/listing page.
+        if not published:
             return None
         return {
             "source": label,
             "title": (title or slug_title(url))[:200],
             "url": url,
             "summary": desc[:SUMMARY_MAX],
-            "published_at": published or lastmod,
+            "published_at": published,
         }
 
     items = []
     if new_entries:
         with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
             items = [it for it in pool.map(grab, new_entries) if it]
-    print(f"  {label}: {len(entries)} candidates, {len(new_entries)} new, {len(items)} kept")
-    return items
+    print(f"  {label}: {len(all_urls)} in sitemap, {len(new_entries)} new urls, {len(items)} ingested")
+    return items, all_urls
 
 
 def load_existing() -> dict:
@@ -267,7 +316,6 @@ def main() -> int:
 
     existing = load_existing().get("items", [])
     by_url = {it["url"]: it for it in existing}
-    known_urls = set(by_url)
     new_count = 0
 
     print(f"Fetching {len(FEEDS)} RSS feeds...")
@@ -286,13 +334,22 @@ def main() -> int:
             by_url[it["url"]] = it
 
     print(f"\nChecking {len(SITEMAP_SOURCES)} sitemap sources...")
+    try:
+        seen_map = json.loads(SEEN_FILE.read_text())
+    except (FileNotFoundError, json.JSONDecodeError):
+        seen_map = {}
     for label, sm, prefix, exclude, trust_lastmod, limit in SITEMAP_SOURCES:
-        for it in fetch_sitemap_source(label, sm, prefix, exclude,
-                                       trust_lastmod, limit, known_urls):
-            if it["url"] not in by_url:   # new pages only; never re-fetch known
+        seen = set(seen_map.get(label, []))
+        items, all_urls = fetch_sitemap_source(label, sm, prefix, exclude,
+                                               trust_lastmod, limit, seen)
+        for it in items:
+            if it["url"] not in by_url:
                 it["first_seen_at"] = now
                 by_url[it["url"]] = it
                 new_count += 1
+        if all_urls:
+            seen_map[label] = sorted(seen | all_urls)
+    SEEN_FILE.write_text(json.dumps(seen_map, ensure_ascii=False, indent=1))
 
     merged = sorted(by_url.values(), key=sort_key, reverse=True)[:MAX_ITEMS]
 
