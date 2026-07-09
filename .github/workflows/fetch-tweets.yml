@@ -2,8 +2,11 @@ name: Fetch AI/Tech Tweets
 
 on:
   schedule:
-    # Run at 7:00 AM Beijing time (23:00 UTC previous day)
-    - cron: '0 23 * * *'
+    # Morning run, targeting ~6:00 AM Beijing. Nominal 21:17 UTC = 5:17 AM
+    # Beijing; GitHub cron typically fires 30-60 min late (worst near 00:00
+    # UTC — the old 23:00 slot consistently ran ~1h late, landing ~8 AM), so
+    # an earlier off-peak minute lands the actual run around 6 AM.
+    - cron: '17 21 * * *'
     # Run at 7:00 PM Beijing time (11:00 UTC)
     - cron: '0 11 * * *'
   workflow_dispatch:
