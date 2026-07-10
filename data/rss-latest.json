@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-10T13:13:05.075242+00:00",
+  "updated_at": "2026-07-10T22:23:14.195924+00:00",
   "count": 500,
-  "new_count": 2241,
+  "new_count": 2239,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -22,6 +22,14 @@
     "Cursor Blog"
   ],
   "items": [
+    {
+      "source": "GitHub Blog",
+      "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
+      "summary": "How migrating Copilot code review to shared Unix-style code exploration tools reduced review cost by reshaping agent workflows around pull request evidence. The post Better tools made Copilot code review worse. Here’s how we actually improved it. appeared first on The GitHub Blog",
+      "published_at": "2026-07-10T15:57:47+00:00",
+      "first_seen_at": "2026-07-10T22:23:14.195924+00:00"
+    },
     {
       "source": "OpenAI News",
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
@@ -45,6 +53,22 @@
       "summary": "",
       "published_at": "2026-07-10T00:00:00+00:00",
       "first_seen_at": "2026-07-10T13:13:05.075242+00:00"
+    },
+    {
+      "source": "Cursor Changelog",
+      "title": "Side Chats and Conversation Search",
+      "url": "https://cursor.com/changelog/side-chat",
+      "summary": "This release makes it easier to stay in flow with side chats that run alongside your main chat, the ability to search agent transcripts, and simplified project and repo pickers.",
+      "published_at": "2026-07-10T00:00:00+00:00",
+      "first_seen_at": "2026-07-10T22:23:14.195924+00:00"
+    },
+    {
+      "source": "Runway",
+      "title": "AVTensor: A High-Performance Rust Media Decoder for Training Pipelines",
+      "url": "https://runwayml.com/news/avtensor-a-high-performance-rust-media-decoder-for-training-pipelines",
+      "summary": "",
+      "published_at": "2026-07-10T00:00:00",
+      "first_seen_at": "2026-07-10T22:23:14.195924+00:00"
     },
     {
       "source": "Product Hunt",
@@ -626,7 +650,7 @@
       "source": "Product Hunt",
       "title": "PlugThis",
       "url": "https://www.producthunt.com/products/plugthis-chrome-extension-generator",
-      "summary": "Like Lovable, but for Chrome extensions Discussion | Link",
+      "summary": "Create your own Chrome Extensions by chatting with AI Discussion | Link",
       "published_at": "2026-07-06T12:06:48+00:00",
       "first_seen_at": "2026-07-10T13:13:05.075242+00:00"
     },
@@ -3997,30 +4021,6 @@
       "summary": "Turn your iPhone into a free Mac controller Discussion | Link",
       "published_at": "2026-06-03T10:23:56+00:00",
       "first_seen_at": "2026-07-04T12:06:59.574354+00:00"
-    },
-    {
-      "source": "Product Hunt",
-      "title": "Skybridge",
-      "url": "https://www.producthunt.com/products/skybridge",
-      "summary": "The full-stack open source React framework for MCP Apps Discussion | Link",
-      "published_at": "2026-06-03T10:19:34+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "A blueprint for democratic governance of frontier AI",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
-      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
-      "published_at": "2026-06-03T10:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI public policy agenda",
-      "url": "https://openai.com/index/public-policy-agenda",
-      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-      "published_at": "2026-06-03T10:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     }
   ]
 }
