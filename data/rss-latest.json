@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-11T22:12:43.578432+00:00",
+  "updated_at": "2026-07-12T11:58:32.936354+00:00",
   "count": 500,
-  "new_count": 2243,
+  "new_count": 2248,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -22,6 +22,14 @@
     "Cursor Blog"
   ],
   "items": [
+    {
+      "source": "NVIDIA Robotics Tech Blog",
+      "title": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
+      "url": "https://developer.nvidia.com/blog/how-to-evaluate-general-purpose-robot-policies-for-real-world-deployment/",
+      "summary": "Robotics foundation models have made remarkable progress. Today's best systems can follow natural language instructions to pick, place, sort, and manipulate a...",
+      "published_at": "2026-07-12T01:08:17+00:00",
+      "first_seen_at": "2026-07-12T11:58:32.936354+00:00"
+    },
     {
       "source": "Product Hunt",
       "title": "Basedash SCIM",
@@ -504,6 +512,14 @@
     },
     {
       "source": "Product Hunt",
+      "title": "Miora",
+      "url": "https://www.producthunt.com/products/miora-2",
+      "summary": "Scale your creativity on editable canvas with agent memory Discussion | Link",
+      "published_at": "2026-07-07T15:48:10+00:00",
+      "first_seen_at": "2026-07-12T11:58:32.936354+00:00"
+    },
+    {
+      "source": "Product Hunt",
       "title": "Juicy - Mac Battery App",
       "url": "https://www.producthunt.com/products/juicy-battery-app",
       "summary": "Beautiful Mac battery alerts, health insights & charge limit Discussion | Link",
@@ -637,6 +653,14 @@
       "summary": "Control your budget with voice Discussion | Link",
       "published_at": "2026-07-06T18:17:21+00:00",
       "first_seen_at": "2026-07-09T13:48:59.585069+00:00"
+    },
+    {
+      "source": "Product Hunt",
+      "title": "JustVibe",
+      "url": "https://www.producthunt.com/products/justvibe",
+      "summary": "The search engine for doing, with apps built for you Discussion | Link",
+      "published_at": "2026-07-06T17:33:19+00:00",
+      "first_seen_at": "2026-07-12T11:58:32.936354+00:00"
     },
     {
       "source": "Product Hunt",
@@ -781,6 +805,14 @@
       "summary": "Trading desk for LLM calls Discussion | Link",
       "published_at": "2026-07-05T23:00:28+00:00",
       "first_seen_at": "2026-07-09T13:48:59.585069+00:00"
+    },
+    {
+      "source": "Product Hunt",
+      "title": "ServiceBeard",
+      "url": "https://www.producthunt.com/products/servicebeard",
+      "summary": "Sync your mailbox with your issue tracker Discussion | Link",
+      "published_at": "2026-07-05T21:47:41+00:00",
+      "first_seen_at": "2026-07-12T11:58:32.936354+00:00"
     },
     {
       "source": "Product Hunt",
@@ -2007,6 +2039,14 @@
       "first_seen_at": "2026-06-25T13:18:15.802042+00:00"
     },
     {
+      "source": "Product Hunt",
+      "title": "Second Brain for AI v2",
+      "url": "https://www.producthunt.com/products/second-brain-cloudflare",
+      "summary": "AI memory that connects the dots across every tool Discussion | Link",
+      "published_at": "2026-06-25T03:43:33+00:00",
+      "first_seen_at": "2026-07-12T11:58:32.936354+00:00"
+    },
+    {
       "source": "OpenAI News",
       "title": "How agents are transforming work",
       "url": "https://openai.com/index/how-agents-are-transforming-work",
@@ -2965,6 +3005,14 @@
       "summary": "Your outbound agent, right inside Slack Discussion | Link",
       "published_at": "2026-06-19T07:05:24+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
+      "source": "Product Hunt",
+      "title": "FetchSandbox",
+      "url": "https://www.producthunt.com/products/fetchsandbox",
+      "summary": "API integration testing that remembers what breaks Discussion | Link",
+      "published_at": "2026-06-19T04:12:56+00:00",
+      "first_seen_at": "2026-07-12T11:58:32.936354+00:00"
     },
     {
       "source": "NVIDIA Blog",
@@ -3972,54 +4020,6 @@
       "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
       "summary": "An action plan for AI-powered biological resilience",
       "published_at": "2026-06-04T00:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-      "url": "https://huggingface.co/blog/hf-cli-for-agents",
-      "summary": "",
-      "published_at": "2026-06-04T00:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "title": "Custom stores, custom tools, and auto-review for the Cursor SDK",
-      "url": "https://cursor.com/changelog/sdk-updates-jun-2026",
-      "summary": "New stores, custom tools, auto-review, and nested subagents for the TypeScript and Python SDKs, plus run correlation IDs, lighter imports, and reliability fixes.",
-      "published_at": "2026-06-04T00:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "title": "Canvas Design Mode and Context Usage Report",
-      "url": "https://cursor.com/changelog/canvas-improvements",
-      "summary": "With canvases , agents can create interactive artifacts like dashboards, reports, and internal tools that you can share with your team .",
-      "published_at": "2026-06-04T00:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Google DeepMind Research",
-      "title": "Solipsistic superintelligence is unlikely to be cooperative",
-      "url": "https://deepmind.google/research/publications/231466/",
-      "summary": "",
-      "published_at": "2026-06-04T00:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "title": "The next chapter in flood resilience: Open sourcing Google’s hydrology framework",
-      "url": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework/",
-      "summary": "Climate & Sustainability",
-      "published_at": "2026-06-03T18:37:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Blog",
-      "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
-      "url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
-      "summary": "What makes a robot gripper useful isn’t that it can pick up one object — it’s that it can pick up the next one, and the one after that, with a tool it’s never held before. What makes an autonomous vehicle system safe isn’t just that it can reason through a situation — it’s that [",
-      "published_at": "2026-06-03T15:00:57+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     }
   ]
