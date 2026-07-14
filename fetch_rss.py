@@ -42,7 +42,7 @@ FEEDS = [
     ("Hugging Face Blog",        "https://huggingface.co/blog/feed.xml"),
     ("GitHub Blog",              "https://github.blog/feed"),
     ("Cursor Changelog",         "https://cursor.com/changelog/rss.xml"),
-    ("Product Hunt",             "https://www.producthunt.com/feed"),
+    # Product Hunt removed 2026-07-10 per user request (too noisy for 官方源).
 ]
 
 # Sources with NO native RSS — monitored via sitemap diff.
