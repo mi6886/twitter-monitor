@@ -68,6 +68,8 @@ SITEMAP_SOURCES = [
     ("Anthropic Research",      "https://www.anthropic.com/sitemap.xml", "/research/",    [], True, 30),
     ("Google DeepMind Research","https://deepmind.google/sitemap.xml",   "/research/",    [], True, 30),
     ("Runway",                  "https://runwayml.com/sitemap.xml",      "/news/",        [], False, 40),
+    ("Runway Research",         "https://runwayml.com/sitemap.xml",      "/research/",
+     ["/research/publications", "/research/rna-sessions"], False, 30),
     ("Cursor Blog",             "https://cursor.com/sitemap.xml",        "/blog/",        ["/blog/topic/"], False, 100),
 ]
 SEEN_FILE = DATA_DIR / "rss-seen.json"
@@ -171,7 +173,7 @@ def slug_title(url: str) -> str:
 
 # Site-name affixes to trim from <title>/og:title — sites put them at the end
 # (" — Google DeepMind") or the start ("Runway News | ...").
-_SITE_NAMES = r"(google deepmind|anthropic|cursor|runway( news)?|openai)"
+_SITE_NAMES = r"(google deepmind|anthropic|cursor|runway( news| research)?|openai)"
 _TITLE_SUFFIX = re.compile(r"\s*[|\\—–·-]\s*" + _SITE_NAMES + r"\s*$", re.IGNORECASE)
 _TITLE_PREFIX = re.compile(r"^\s*" + _SITE_NAMES + r"\s*[|\\—–·-]\s*", re.IGNORECASE)
 # Anthropic reuses one boilerplate og:description on every page — not useful.
