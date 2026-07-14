@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-14T02:24:41.875266+00:00",
+  "updated_at": "2026-07-14T03:44:06.092071+00:00",
   "count": 500,
-  "new_count": 2260,
+  "new_count": 1837,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -16,11 +16,20 @@
     "Cursor Changelog",
     "Anthropic News",
     "Anthropic Engineering",
+    "Anthropic Research",
     "Google DeepMind Research",
     "Runway",
     "Cursor Blog"
   ],
   "items": [
+    {
+      "source": "Anthropic Research",
+      "title": "How Claude's values vary by model and language",
+      "url": "https://www.anthropic.com/research/claude-values-models-languages",
+      "summary": "We analyzed 300,000 real conversations to measure the values Claude expresses across models and languages, compressed into four interpretable axes.",
+      "published_at": "2026-07-13T00:00:00+00:00",
+      "first_seen_at": "2026-07-14T03:45:43.347493+00:00"
+    },
     {
       "source": "NVIDIA Robotics Tech Blog",
       "title": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
@@ -174,6 +183,14 @@
       "first_seen_at": "2026-07-10T13:13:05.075242+00:00"
     },
     {
+      "source": "Anthropic Research",
+      "title": "How Claude Performs on Robotics Tasks",
+      "url": "https://www.anthropic.com/research/claude-plays-robotics",
+      "summary": "Do language models’ strengths transfer to robotics? Can a model perceive a scene, understand a particular robot’s state, and issue actions that reliably effect change in the physical world? We ran tests to find out.",
+      "published_at": "2026-07-09T00:00:00+00:00",
+      "first_seen_at": "2026-07-14T03:45:43.347493+00:00"
+    },
+    {
       "source": "GitHub Blog",
       "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
       "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
@@ -260,6 +277,14 @@
       "summary": "",
       "published_at": "2026-07-08T00:00:00+00:00",
       "first_seen_at": "2026-07-09T00:01:49.538791+00:00"
+    },
+    {
+      "source": "Anthropic Research",
+      "title": "An off switch for dual use knowledge in AI models",
+      "url": "https://www.anthropic.com/research/off-switch-dual-use",
+      "summary": "New results on a method of controlling access to potentially dangerous AI capabilities",
+      "published_at": "2026-07-08T00:00:00+00:00",
+      "first_seen_at": "2026-07-14T03:45:43.347493+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -3995,30 +4020,6 @@
       "url": "https://huggingface.co/blog/gemma4",
       "summary": "",
       "published_at": "2026-04-02T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "title": "New Cursor Interface",
-      "url": "https://cursor.com/changelog/3-0",
-      "summary": "Cursor 3 is now available.",
-      "published_at": "2026-04-02T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Falcon Perception",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-perception",
-      "summary": "",
-      "published_at": "2026-04-01T07:13:20+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Gradient Labs gives every bank customer an AI account manager",
-      "url": "https://openai.com/index/gradient-labs",
-      "summary": "Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
-      "published_at": "2026-04-01T02:00:00+00:00",
       "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
     }
   ]

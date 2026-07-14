@@ -65,6 +65,7 @@ FEEDS = [
 SITEMAP_SOURCES = [
     ("Anthropic News",          "https://www.anthropic.com/sitemap.xml", "/news/",        [], True, 30),
     ("Anthropic Engineering",   "https://www.anthropic.com/sitemap.xml", "/engineering/", [], True, 30),
+    ("Anthropic Research",      "https://www.anthropic.com/sitemap.xml", "/research/",    [], True, 30),
     ("Google DeepMind Research","https://deepmind.google/sitemap.xml",   "/research/",    [], True, 30),
     ("Runway",                  "https://runwayml.com/sitemap.xml",      "/news/",        [], False, 40),
     ("Cursor Blog",             "https://cursor.com/sitemap.xml",        "/blog/",        ["/blog/topic/"], False, 100),
