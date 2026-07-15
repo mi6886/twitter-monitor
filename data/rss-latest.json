@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-15T12:16:15.286819+00:00",
+  "updated_at": "2026-07-15T22:18:28.049341+00:00",
   "count": 500,
-  "new_count": 1994,
+  "new_count": 2001,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -24,12 +24,84 @@
   ],
   "items": [
     {
+      "source": "NVIDIA Robotics Tech Blog",
+      "title": "Develop Lightweight USD Runtimes Faster with AI Agents",
+      "url": "https://developer.nvidia.com/blog/develop-lightweight-usd-runtimes-faster-with-ai-agents/",
+      "summary": "OpenUSD is an open, extensible framework that provides a common scene description language for physical AI. It enables teams to bring CAD data, simulation...",
+      "published_at": "2026-07-15T21:57:23+00:00",
+      "first_seen_at": "2026-07-15T22:18:28.049341+00:00"
+    },
+    {
+      "source": "Google Research Blog",
+      "title": "Towards demystifying the creativity of diffusion models",
+      "url": "https://research.google/blog/towards-demystifying-the-creativity-of-diffusion-models/",
+      "summary": "Algorithms & Theory",
+      "published_at": "2026-07-15T18:06:27+00:00",
+      "first_seen_at": "2026-07-15T22:18:28.049341+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "What building Shippy taught us about building agents",
+      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "summary": "",
+      "published_at": "2026-07-15T17:29:41+00:00",
+      "first_seen_at": "2026-07-15T22:18:28.049341+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "title": "GitHub for Beginners: Your roadmap to mastering the GitHub essentials",
+      "url": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
+      "summary": "New to GitHub? This beginner's guide explains version control, repositories, and pull requests—plus everything else you need to start working confidently on GitHub. The post GitHub for Beginners: Your roadmap to mastering the GitHub essentials appeared first on The GitHub Blog.",
+      "published_at": "2026-07-15T17:29:31+00:00",
+      "first_seen_at": "2026-07-15T22:18:28.049341+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "Model Routing Is Simple. Until It Isn’t.",
+      "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+      "summary": "",
+      "published_at": "2026-07-15T17:27:01+00:00",
+      "first_seen_at": "2026-07-15T22:18:28.049341+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "The US is advancing AI safety through state and federal action",
+      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+      "published_at": "2026-07-15T12:00:00+00:00",
+      "first_seen_at": "2026-07-15T22:18:28.049341+00:00"
+    },
+    {
       "source": "NVIDIA Blog",
       "title": "NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry",
       "url": "https://blogs.nvidia.com/blog/japan-ecosystem-2026/",
-      "summary": "Home to leading manufacturers, robotics pioneers and infrastructure builders, Japan is one of the world’s centers of AI — building across the full stack with NVIDIA technologies. NVIDIA and its partners in Japan are this week showcasing the AI ecosystem’s latest advancements. Che",
+      "summary": "Home to leading manufacturers, robotics pioneers, infrastructure builders and iconic gaming companies, of course, Japan is one of the world’s centers of AI — building across the full stack with NVIDIA technologies. This week NVIDIA and its partners in Japan are showcasing the AI ",
       "published_at": "2026-07-15T10:51:37+00:00",
       "first_seen_at": "2026-07-15T12:16:15.286819+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+      "published_at": "2026-07-15T10:00:00+00:00",
+      "first_seen_at": "2026-07-15T22:18:28.049341+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "Welcome Inkling by Thinking Machines",
+      "url": "https://huggingface.co/blog/thinkingmachines-inkling",
+      "summary": "",
+      "published_at": "2026-07-15T00:00:00+00:00",
+      "first_seen_at": "2026-07-15T22:18:28.049341+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+      "url": "https://huggingface.co/blog/real-world-voiceeq",
+      "summary": "",
+      "published_at": "2026-07-15T00:00:00+00:00",
+      "first_seen_at": "2026-07-15T22:18:28.049341+00:00"
     },
     {
       "source": "NVIDIA Blog",
@@ -3949,78 +4021,6 @@
       "url": "https://openai.com/academy/what-is-ai",
       "summary": "Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence.",
       "published_at": "2026-04-10T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "ChatGPT for operations teams",
-      "url": "https://openai.com/academy/operations",
-      "summary": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
-      "published_at": "2026-04-10T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Analyzing data with ChatGPT",
-      "url": "https://openai.com/academy/data-analysis",
-      "summary": "Learn how to analyze data with ChatGPT by exploring datasets, generating insights, creating visualizations, and turning findings into actionable decisions.",
-      "published_at": "2026-04-10T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "title": "ConvApparel: Measuring and bridging the realism gap in user simulators",
-      "url": "https://research.google/blog/convapparel-measuring-and-bridging-the-realism-gap-in-user-simulators/",
-      "summary": "Generative AI",
-      "published_at": "2026-04-09T11:22:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
-      "url": "https://openai.com/index/cyberagent",
-      "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.",
-      "published_at": "2026-04-09T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs",
-      "url": "https://huggingface.co/blog/waypoint-1-5",
-      "summary": "",
-      "published_at": "2026-04-09T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Multimodal Embedding & Reranker Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/multimodal-sentence-transformers",
-      "summary": "",
-      "published_at": "2026-04-09T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "title": "Improving the academic workflow: Introducing two AI agents for better figures and peer review",
-      "url": "https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/",
-      "summary": "Generative AI",
-      "published_at": "2026-04-08T20:01:33+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Tech Blog",
-      "title": "Integrate Physical AI Capabilities into Existing Apps with NVIDIA Omniverse Libraries",
-      "url": "https://developer.nvidia.com/blog/integrate-physical-ai-capabilities-into-existing-apps-with-nvidia-omniverse-libraries/",
-      "summary": "Physical AI—AI systems that perceive, reason, and act in physically grounded simulated environments—is changing how teams design and validate robots and...",
-      "published_at": "2026-04-08T16:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "The next phase of enterprise AI",
-      "url": "https://openai.com/index/next-phase-of-enterprise-ai",
-      "summary": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
-      "published_at": "2026-04-08T14:00:00+00:00",
       "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
     }
   ]
