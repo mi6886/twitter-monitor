@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-20T13:05:35.821176+00:00",
+  "updated_at": "2026-07-20T22:18:43.513154+00:00",
   "count": 500,
-  "new_count": 2027,
+  "new_count": 2033,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -24,12 +24,60 @@
   ],
   "items": [
     {
+      "source": "Runway",
+      "title": "The AI Media Report",
+      "url": "https://runwayml.com/news/company-news/ai-media-report",
+      "summary": "Our findings from hundreds of enterprises using Runway for media production: cost and speed gains and the creative shifts ahead.",
+      "published_at": "2026-07-20T17:40:49.930000+00:00",
+      "first_seen_at": "2026-07-20T22:18:43.513154+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "title": "$100 million for open source: A milestone built by the community",
+      "url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
+      "summary": "Celebrating $100 million contributed by the community to the people who build and sustain open source every day. The post $100 million for open source: A milestone built by the community appeared first on The GitHub Blog.",
+      "published_at": "2026-07-20T16:00:00+00:00",
+      "first_seen_at": "2026-07-20T22:18:43.513154+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "Introducing Cosmos 3 Edge",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
+      "summary": "",
+      "published_at": "2026-07-20T15:58:51+00:00",
+      "first_seen_at": "2026-07-20T22:18:43.513154+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
+      "url": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
+      "summary": "From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics.",
+      "published_at": "2026-07-20T15:00:53+00:00",
+      "first_seen_at": "2026-07-20T22:18:43.513154+00:00"
+    },
+    {
       "source": "NVIDIA Blog",
       "title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
       "url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
       "summary": "Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it. And they’re doubling down. BMS announced today it is deployin",
       "published_at": "2026-07-20T10:59:23+00:00",
       "first_seen_at": "2026-07-20T13:05:35.821176+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "published_at": "2026-07-20T10:00:00+00:00",
+      "first_seen_at": "2026-07-20T22:18:43.513154+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Apply for Anthropic’s AI for Science rare disease research grants",
+      "url": "https://www.anthropic.com/news/rare-disease-research-grants",
+      "summary": "Anthropic is sharing a focused call for AI for Science applications centered specifically on rare genetic diseases. Accepted applicants will receive up to $50,000 in Claude credits over six months, with the goal of building a community of researchers looking into how AI can resha",
+      "published_at": "2026-07-20T00:00:00+00:00",
+      "first_seen_at": "2026-07-20T22:18:43.513154+00:00"
     },
     {
       "source": "Runway",
@@ -3973,54 +4021,6 @@
       "url": "https://huggingface.co/blog/ecom-rlve",
       "summary": "",
       "published_at": "2026-04-16T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "The PR you would have opened yourself",
-      "url": "https://huggingface.co/blog/transformers-to-mlx",
-      "summary": "",
-      "published_at": "2026-04-16T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
-      "summary": "",
-      "published_at": "2026-04-16T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
-      "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
-      "summary": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.",
-      "published_at": "2026-04-15T16:03:19+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
-      "url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
-      "summary": "",
-      "published_at": "2026-04-15T12:07:25+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "The next evolution of the Agents SDK",
-      "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
-      "summary": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
-      "published_at": "2026-04-15T10:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Meet HoloTab by HCompany. Your AI browser companion.",
-      "url": "https://huggingface.co/blog/Hcompany/holotab",
-      "summary": "",
-      "published_at": "2026-04-15T09:25:20+00:00",
       "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
     }
   ]
