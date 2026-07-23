@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-23T12:24:49.514001+00:00",
+  "updated_at": "2026-07-23T22:19:52.436045+00:00",
   "count": 500,
-  "new_count": 2055,
+  "new_count": 2056,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -24,6 +24,22 @@
   ],
   "items": [
     {
+      "source": "GitHub Blog",
+      "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
+      "url": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
+      "summary": "A new default three-day cooldown delays version update pull requests so maintainers and security researchers can address findings in a release before it gets into your code. The post The case for a cooldown: Why Dependabot now waits before issuing version updates appeared first o",
+      "published_at": "2026-07-23T16:00:00+00:00",
+      "first_seen_at": "2026-07-23T22:19:52.436045+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "GeForce NOW Sets Sail With ‘Path of Exile: Curse of the Allflame’ Joining the Cloud",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-path-of-exile-allflame/",
+      "summary": "Lock in and load up the cloud. GFN Thursday brings fresh updates and new adventures, all ready to play without waiting for downloads. Set sail in Path of Exile: Curse of the Allflame and charge in Battlefield 6 Season 4 both launching major content for members this week. Then rev",
+      "published_at": "2026-07-23T13:00:16+00:00",
+      "first_seen_at": "2026-07-23T22:19:52.436045+00:00"
+    },
+    {
       "source": "NVIDIA Blog",
       "title": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
       "url": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/",
@@ -38,6 +54,14 @@
       "summary": "",
       "published_at": "2026-07-23T00:00:00+00:00",
       "first_seen_at": "2026-07-23T12:24:49.514001+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Launching Health in ChatGPT",
+      "url": "https://openai.com/index/health-in-chatgpt",
+      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+      "published_at": "2026-07-23T00:00:00+00:00",
+      "first_seen_at": "2026-07-23T22:19:52.436045+00:00"
     },
     {
       "source": "Google Research Blog",
@@ -3896,6 +3920,14 @@
       "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
     },
     {
+      "source": "Anthropic News",
+      "title": "[dev] Claude for Creative Work",
+      "url": "https://www.anthropic.com/news/claude-for-creative-work-dev",
+      "summary": "",
+      "published_at": "2026-04-28T00:00:00+00:00",
+      "first_seen_at": "2026-07-23T22:19:52.436045+00:00"
+    },
+    {
       "source": "OpenAI News",
       "title": "OpenAI available at FedRAMP Moderate",
       "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
@@ -3989,38 +4021,6 @@
       "url": "https://openai.com/index/gpt-5-5-system-card",
       "summary": "",
       "published_at": "2026-04-23T11:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing GPT-5.5",
-      "url": "https://openai.com/index/introducing-gpt-5-5",
-      "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
-      "published_at": "2026-04-23T11:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How to get started with ChatGPT Codex",
-      "url": "https://openai.com/academy/codex-how-to-start",
-      "summary": "Learn how to get started with ChatGPT Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
-      "published_at": "2026-04-23T10:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Working with ChatGPT Codex",
-      "url": "https://openai.com/academy/working-with-codex",
-      "summary": "Learn how to set up your ChatGPT Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
-      "published_at": "2026-04-23T10:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Plugins and skills",
-      "url": "https://openai.com/academy/codex-plugins-and-skills",
-      "summary": "Learn how to use ChatGPT Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
-      "published_at": "2026-04-23T10:00:00+00:00",
       "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
     }
   ]
