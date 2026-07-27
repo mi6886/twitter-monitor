@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-26T22:16:50.539048+00:00",
+  "updated_at": "2026-07-27T13:41:02.613623+00:00",
   "count": 500,
-  "new_count": 2057,
+  "new_count": 2062,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -23,6 +23,38 @@
     "Cursor Blog"
   ],
   "items": [
+    {
+      "source": "Hugging Face Blog",
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "summary": "",
+      "published_at": "2026-07-27T09:32:20+00:00",
+      "first_seen_at": "2026-07-27T13:41:02.613623+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
+      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
+      "summary": "Open source software is a critical pillar of the global economy. It underpins cloud computing, financial services, manufacturing, telecommunications, government and internet services by making technology accessible and observable to communities of experts. Cybersecurity is among ",
+      "published_at": "2026-07-27T09:00:07+00:00",
+      "first_seen_at": "2026-07-27T13:41:02.613623+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How AI is expanding what people do at work",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "published_at": "2026-07-27T03:30:00+00:00",
+      "first_seen_at": "2026-07-27T13:41:02.613623+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-eda/",
+      "summary": "The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems. To help meet that challenge, NVIDIA is collaborating with industry leaders Cadence and Synopsys to optimize critical electronic design",
+      "published_at": "2026-07-27T00:45:42+00:00",
+      "first_seen_at": "2026-07-27T13:41:02.613623+00:00"
+    },
     {
       "source": "NVIDIA Blog",
       "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
@@ -254,6 +286,14 @@
       "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
       "published_at": "2026-07-21T15:16:30+00:00",
       "first_seen_at": "2026-07-21T22:16:30.800077+00:00"
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
+      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+      "published_at": "2026-07-21T15:16:30+00:00",
+      "first_seen_at": "2026-07-27T13:41:02.613623+00:00"
     },
     {
       "source": "NVIDIA Blog",
@@ -3981,46 +4021,6 @@
       "url": "https://openai.com/index/next-phase-of-microsoft-partnership",
       "summary": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.",
       "published_at": "2026-04-27T06:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "An open-source spec for orchestration: Symphony",
-      "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
-      "summary": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
-      "published_at": "2026-04-27T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Choco automates food distribution with AI agents",
-      "url": "https://openai.com/index/choco",
-      "summary": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
-      "published_at": "2026-04-27T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "How to build scalable web apps with OpenAI's Privacy Filter",
-      "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
-      "summary": "",
-      "published_at": "2026-04-27T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Runway",
-      "title": "No Idle GPUs: Managing Research Compute at Runway",
-      "url": "https://runwayml.com/news/engineering/no-idle-gpus-managing-research-compute-at-runway",
-      "summary": "",
-      "published_at": "2026-04-27T00:00:00",
-      "first_seen_at": "2026-07-17T22:09:48.333674+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Our principles",
-      "url": "https://openai.com/index/our-principles",
-      "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
-      "published_at": "2026-04-26T16:00:00+00:00",
       "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
     }
   ]
