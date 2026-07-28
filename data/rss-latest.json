@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-28T12:54:32.971293+00:00",
+  "updated_at": "2026-07-28T22:21:08.336550+00:00",
   "count": 500,
-  "new_count": 2064,
+  "new_count": 2073,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -24,12 +24,92 @@
   ],
   "items": [
     {
+      "source": "NVIDIA Robotics Tech Blog",
+      "title": "Developing Healthcare Robotics with GPU-Native Medical Physics Simulation",
+      "url": "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation/",
+      "summary": "Unlike autonomous driving or industrial robotics, healthcare robotics can’t rely on internet-scale data collection or unlimited real-world experimentation....",
+      "published_at": "2026-07-28T20:49:21+00:00",
+      "first_seen_at": "2026-07-28T22:21:08.336550+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Scientific computing in the age of agentic AI",
+      "url": "https://openai.com/index/scientific-computing-agentic-ai",
+      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+      "published_at": "2026-07-28T17:00:00+00:00",
+      "first_seen_at": "2026-07-28T22:21:08.336550+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "summary": "",
+      "published_at": "2026-07-28T16:27:42+00:00",
+      "first_seen_at": "2026-07-28T22:21:08.336550+00:00"
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "summary": "Managed Agents Gemini 3.6 Flash, Hooks and Triggers",
+      "published_at": "2026-07-28T16:00:00+00:00",
+      "first_seen_at": "2026-07-28T22:21:08.336550+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "title": "Disrupting supply chain attacks on npm and GitHub Actions",
+      "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+      "summary": "Explore the changes we've shipped across npm and GitHub Actions over the past few months to disrupt supply chain attack techniques and limit their impact. The post Disrupting supply chain attacks on npm and GitHub Actions appeared first on The GitHub Blog.",
+      "published_at": "2026-07-28T16:00:00+00:00",
+      "first_seen_at": "2026-07-28T22:21:08.336550+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+      "summary": "",
+      "published_at": "2026-07-28T15:01:45+00:00",
+      "first_seen_at": "2026-07-28T22:21:08.336550+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics Blog",
+      "title": "Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
+      "url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
+      "summary": "As a discerning AI investor who values style and substance, Sarah Guo knows this season’s standout accessory isn’t the latest designer purse — but what’s inside it. In a recent video, Guo, founder of AI-native venture capital firm Conviction and co-host of the AI podcast No Prior",
+      "published_at": "2026-07-28T15:00:19+00:00",
+      "first_seen_at": "2026-07-28T22:21:08.336550+00:00"
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+      "summary": "Illustration of a black magnifying glass in a white circle on green grass surrounded by items related to fun activities like tennis and games",
+      "published_at": "2026-07-28T13:00:00+00:00",
+      "first_seen_at": "2026-07-28T22:21:08.336550+00:00"
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "5 ways to host the ultimate dinner party with Google Search",
+      "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
+      "summary": "An illustrated black magnifying glass with a sparkle in a white circle surrounded by a dinner party tablescape",
+      "published_at": "2026-07-28T13:00:00+00:00",
+      "first_seen_at": "2026-07-28T22:21:08.336550+00:00"
+    },
+    {
       "source": "Cursor Changelog",
       "title": "Cursor Start",
       "url": "https://cursor.com/changelog/cursor-start",
       "summary": "We're introducing Cursor Start , a new ₹649 monthly plan for developers in India, making daily agentic development accessible and payment easy with local pricing and UPI.",
       "published_at": "2026-07-28T12:00:00+00:00",
       "first_seen_at": "2026-07-28T12:54:32.971293+00:00"
+    },
+    {
+      "source": "Anthropic Research",
+      "title": "Discovering cryptographic weaknesses with Claude",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "summary": "Anthropic researchers find weaknesses in cryptographic algorithms with Claude Mythos Preview",
+      "published_at": "2026-07-28T00:00:00+00:00",
+      "first_seen_at": "2026-07-28T22:21:08.336550+00:00"
     },
     {
       "source": "GitHub Blog",
@@ -94,6 +174,14 @@
       "summary": "Cognizant embeds Claude across its platforms, with 30,000+ associates trained, and becomes a Global Premier Partner in the Claude Partner Network.",
       "published_at": "2026-07-27T00:00:00+00:00",
       "first_seen_at": "2026-07-27T22:31:57.936748+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "summary": "",
+      "published_at": "2026-07-27T00:00:00+00:00",
+      "first_seen_at": "2026-07-28T22:21:08.336550+00:00"
     },
     {
       "source": "NVIDIA Blog",
@@ -3933,94 +4021,6 @@
       "url": "https://developers.openai.com/learn/developers-codex-plugin/",
       "summary": "Install and use the OpenAI Developers plugin in Codex, Claude Code, or Cursor to set up API access, use current OpenAI docs, and troubleshoot OpenAI API issues.",
       "published_at": "2026-04-30T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "title": "Cursor Security Review",
-      "url": "https://cursor.com/changelog/04-30-26",
-      "summary": "Cursor Security Review is now in beta on Teams and Enterprise plans. You can run two types of always-on security agents: Security Reviewer and Vulnerability Scanner.",
-      "published_at": "2026-04-30T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "title": "Four ways Google Research scientists have been using Empirical Research Assistance",
-      "url": "https://research.google/blog/four-ways-google-research-scientists-have-been-using-empirical-research-assistance/",
-      "summary": "Data Mining & Modeling",
-      "published_at": "2026-04-29T21:07:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Where the goblins came from",
-      "url": "https://openai.com/index/where-the-goblins-came-from",
-      "summary": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
-      "published_at": "2026-04-29T20:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Granite 4.1 LLMs: How They’re Built",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
-      "summary": "",
-      "published_at": "2026-04-29T15:01:48+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Building the compute infrastructure for the Intelligence Age",
-      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
-      "summary": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
-      "published_at": "2026-04-29T15:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Cybersecurity in the Intelligence Age",
-      "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
-      "summary": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.",
-      "published_at": "2026-04-29T04:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "DeepInfra on Hugging Face Inference Providers 🔥",
-      "url": "https://huggingface.co/blog/inference-providers-deepinfra",
-      "summary": "",
-      "published_at": "2026-04-29T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "title": "Build programmatic agents with the Cursor SDK",
-      "url": "https://cursor.com/changelog/sdk-release",
-      "summary": "We're introducing the Cursor SDK so you can build agents with the same runtime, harness, and models that power Cursor.",
-      "published_at": "2026-04-29T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
-      "summary": "",
-      "published_at": "2026-04-28T15:58:57+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Blog",
-      "title": "Into the Omniverse: Manufacturing’s Simulation-First Era Has Arrived",
-      "url": "https://blogs.nvidia.com/blog/manufacturing-simulation-first/",
-      "summary": "Manufacturing’s traditional design-build-test cycle rested on a single assumption: Real-world testing was the only reliable test environment.",
-      "published_at": "2026-04-28T13:00:33+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
-      "url": "https://openai.com/index/openai-on-aws",
-      "summary": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
-      "published_at": "2026-04-28T00:00:00+00:00",
       "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
     }
   ]
