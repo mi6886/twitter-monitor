@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-03T13:40:22.147523+00:00",
+  "updated_at": "2026-08-03T22:29:35.248940+00:00",
   "count": 500,
-  "new_count": 2133,
+  "new_count": 2139,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -23,6 +23,62 @@
     "Cursor Blog"
   ],
   "items": [
+    {
+      "source": "Runway",
+      "title": "How EA Is Bringing Generative AI Into Living, Playable Worlds",
+      "url": "https://runway.com/news/company-news/electronic-arts-ai-summit-2026",
+      "summary": "EA's Chief Strategy Officer on how generative models earn a place inside worlds that respond to millions of players.",
+      "published_at": "2026-08-03T19:08:28.341000+00:00",
+      "first_seen_at": "2026-08-03T22:29:35.248940+00:00"
+    },
+    {
+      "source": "Runway",
+      "title": "How Legal Leaders at Block and Spotify Get to Yes on AI",
+      "url": "https://runway.com/news/company-news/spotify-block-ai-summit-2026",
+      "summary": "How in-house legal teams should approach AI, from the executives running it at Block and Spotify: adaptable frameworks, self-built tools and moving before regulators.",
+      "published_at": "2026-08-03T17:05:03.676000+00:00",
+      "first_seen_at": "2026-08-03T22:29:35.248940+00:00"
+    },
+    {
+      "source": "Runway",
+      "title": "Netflix & FutureCel on AI, Craft and What Gets Made",
+      "url": "https://runway.com/news/company-news/netflix-aif-2026",
+      "summary": "Netflix's Girish Balakrishnan and animation veteran Joel Kuwahara on what actually matters when AI enters the process.",
+      "published_at": "2026-08-03T15:36:30.382000+00:00",
+      "first_seen_at": "2026-08-03T22:29:35.248940+00:00"
+    },
+    {
+      "source": "Runway",
+      "title": "Paramount's CTO on AI, Aha Moments & Media's Future",
+      "url": "https://runway.com/news/customers/paramount-nyc-summit-2026",
+      "summary": "Phil Wiser has watched every tech wave since the MP3. Paramount's CTO on AI's iPhone moment, engineering aha moments, and moving before the window closes.",
+      "published_at": "2026-08-03T15:26:18.923000+00:00",
+      "first_seen_at": "2026-08-03T22:29:35.248940+00:00"
+    },
+    {
+      "source": "Runway",
+      "title": "Nvidia on AI as a New Compute Model for Media & Entertainment",
+      "url": "https://runway.com/news/customers/nvidia-nyc-summit-2026",
+      "summary": "Richard Kerris on real-time generation, agents that take direction, and why he tells media leaders AI is a new compute model.",
+      "published_at": "2026-08-03T15:23:56.117000+00:00",
+      "first_seen_at": "2026-08-03T22:29:35.248940+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "published_at": "2026-08-03T07:00:00+00:00",
+      "first_seen_at": "2026-08-03T22:29:35.248940+00:00"
+    },
+    {
+      "source": "Cursor Changelog",
+      "title": "Google Workspace Plugins",
+      "url": "https://cursor.com/changelog/google-workspace-plugins",
+      "summary": "Cursor can now read, write, and act across your Google Workspace.",
+      "published_at": "2026-08-03T00:00:00+00:00",
+      "first_seen_at": "2026-08-03T22:29:35.248940+00:00"
+    },
     {
       "source": "OpenAI News",
       "title": "Ten advances in mathematics and theoretical computer science",
@@ -3965,62 +4021,6 @@
       "url": "https://openai.com/index/running-codex-safely",
       "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
       "published_at": "2026-05-08T12:30:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Runway",
-      "title": "Our Approach to Child Safety",
-      "url": "https://runwayml.com/news/safety/our-approach-to-child-safety",
-      "summary": "",
-      "published_at": "2026-05-08T10:00:00+00:00",
-      "first_seen_at": "2026-07-17T22:09:48.333674+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
-      "published_at": "2026-05-07T13:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Parloa builds service agents customers want to talk to",
-      "url": "https://openai.com/index/parloa",
-      "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
-      "published_at": "2026-05-07T11:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Advancing voice intelligence with new models in the API",
-      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
-      "summary": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
-      "published_at": "2026-05-07T10:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing Trusted Contact in ChatGPT",
-      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
-      "summary": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
-      "published_at": "2026-05-07T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Testing ads in ChatGPT",
-      "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-      "published_at": "2026-05-07T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Simplex rethinks software development with Codex",
-      "url": "https://openai.com/index/simplex",
-      "summary": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
-      "published_at": "2026-05-07T00:00:00+00:00",
       "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
     }
   ]
