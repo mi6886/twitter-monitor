@@ -140,7 +140,7 @@ def entry_published(entry) -> str | None:
     return None
 
 
-def fetch_feed(label: str, url: str) -> list[dict]:
+def fetch_feed(label: str, url: str, source_type: str = "rss") -> list[dict]:
     items = []
     try:
         # Fetch through our retrying HTTP client. Some podcast hosts return an
@@ -173,6 +173,7 @@ def fetch_feed(label: str, url: str) -> list[dict]:
         summary = strip_html(e.get("summary") or e.get("description") or "")
         items.append({
             "source": label,
+            "source_type": source_type,
             "title": strip_html(e.get("title") or "(无标题)"),
             "url": link,
             "summary": summary[:SUMMARY_MAX],
@@ -372,6 +373,7 @@ def fetch_sitemap_source(label, sitemap_url, prefix, exclude, trust_lastmod,
             return None
         return {
             "source": label,
+            "source_type": "rss",
             "title": (title or slug_title(url))[:200],
             "url": url,
             "summary": desc[:SUMMARY_MAX],
@@ -415,7 +417,7 @@ def main() -> int:
 
     print(f"\nFetching {len(YOUTUBE_FEEDS)} YouTube feeds...")
     for label, channel_id, include_pattern in YOUTUBE_FEEDS:
-        items = fetch_feed(label, f"{YOUTUBE_FEED_BASE}{channel_id}")
+        items = fetch_feed(label, f"{YOUTUBE_FEED_BASE}{channel_id}", "youtube")
         kept = filter_youtube_items(items, include_pattern)
         if include_pattern:
             print(f"  {label}: kept {len(kept)}/{len(items)} relevant videos")
@@ -449,6 +451,13 @@ def main() -> int:
         if all_urls:
             seen_map[label] = sorted(seen | all_urls)
     SEEN_FILE.write_text(json.dumps(seen_map, ensure_ascii=False, indent=1))
+
+    # Backfill older retained items created before source_type was introduced.
+    for item in by_url.values():
+        if "source_type" not in item:
+            item["source_type"] = (
+                "youtube" if item.get("source", "").endswith("YouTube") else "rss"
+            )
 
     merged = sorted(by_url.values(), key=sort_key, reverse=True)[:MAX_ITEMS]
 

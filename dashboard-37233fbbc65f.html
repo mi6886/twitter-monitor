@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>X AI热点情报</title>
+  <title>AI热点情报</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -346,7 +346,7 @@
   <div class="header-top">
     <div class="logo">
       <div class="logo-icon">⚡</div>
-      <h1>X AI热点情报</h1>
+      <h1>AI热点情报</h1>
     </div>
     <div class="meta">
       <div class="meta-badge">
@@ -357,13 +357,14 @@
         <span id="count-text">0 条推文</span>
       </div>
       <div class="period-toggle">
-        <input type="date" id="date-picker" onchange="setDate(this.value)" style="padding:6px 10px;border-radius:8px;border:1px solid #d0d5dd;font-size:14px;cursor:pointer;" />
-        <button class="period-btn active" data-period="morning" onclick="setPeriod('morning')">☀️ 早间</button>
-        <button class="period-btn"        data-period="evening" onclick="setPeriod('evening')">🌙 晚间</button>
-        <span style="width:1px;height:24px;background:#d0d5dd;margin:0 4px"></span>
-        <button class="period-btn active" data-view="score"  onclick="setView('score')">📊 评分视图</button>
-        <button class="period-btn"        data-view="wanzan" onclick="setView('wanzan')">🔥 高赞视图</button>
-        <button class="period-btn"        data-view="rss"    onclick="setView('rss')">📰 官方源</button>
+        <input data-twitter-control type="date" id="date-picker" onchange="setDate(this.value)" style="padding:6px 10px;border-radius:8px;border:1px solid #d0d5dd;font-size:14px;cursor:pointer;" />
+        <button data-twitter-control class="period-btn active" data-period="morning" onclick="setPeriod('morning')">☀️ 早间</button>
+        <button data-twitter-control class="period-btn" data-period="evening" onclick="setPeriod('evening')">🌙 晚间</button>
+        <span data-twitter-control style="width:1px;height:24px;background:#d0d5dd;margin:0 4px"></span>
+        <button class="period-btn active" data-view="score"   onclick="setView('score')">𝕏 Twitter 精选</button>
+        <button class="period-btn"        data-view="wanzan" onclick="setView('wanzan')">🔥 Twitter 高赞</button>
+        <button class="period-btn"        data-view="rss"     onclick="setView('rss')">📰 RSS / 官网</button>
+        <button class="period-btn"        data-view="youtube" onclick="setView('youtube')">▶ YouTube</button>
       </div>
     </div>
   </div>
@@ -403,7 +404,7 @@
     <div class="cards-grid">
       <div class="state-box">
         <div class="spinner"></div>
-        <p>正在加载推文数据…</p>
+        <p>正在加载 Twitter 数据…</p>
       </div>
     </div>
   </div>
@@ -414,7 +415,7 @@
   let tieredTweets = { must_do: [], priority: [], backup: [] };
   let currentPeriod = 'morning';
   let currentFilter = 'all';
-  let currentView = 'score';   // 'score' = tier view, 'wanzan' = high-likes view
+  let currentView = 'score';   // Twitter score/high-likes, RSS, or YouTube
   const WANZAN_THRESHOLD = 5000;   // ≥5K likes (万赞自然排最上面)
 
   const TIER_META = {
@@ -552,7 +553,10 @@
 
   // ── Render: build tier sections ──
   function render() {
-    if (currentView === 'rss')    { renderRSS(); return; }
+    if (currentView === 'rss' || currentView === 'youtube') {
+      renderSourceView(currentView);
+      return;
+    }
     if (currentView === 'wanzan') { renderWanzan(); return; }
 
     const area = document.getElementById('cards-area');
@@ -638,7 +642,7 @@
     area.appendChild(section);
   }
 
-  // ── 官方源 (RSS) view ──
+  // ── RSS / website / YouTube source views ──
   let rssItems = null;   // cached after first fetch
 
   // Map a feed source label to one of the existing category filters so the
@@ -673,32 +677,46 @@
     return card;
   }
 
-  async function renderRSS() {
+  function sourceType(it) {
+    if (it.source_type) return it.source_type;
+    return (it.source || '').endsWith('YouTube') ? 'youtube' : 'rss';
+  }
+
+  async function renderSourceView(view) {
     const area = document.getElementById('cards-area');
-    document.getElementById('date-text').textContent = '官方源 · 实时';
+    const isYouTube = view === 'youtube';
+    const viewLabel = isYouTube ? 'YouTube' : 'RSS / 官网';
+    document.getElementById('date-text').textContent = `${viewLabel} · 实时`;
 
     if (rssItems === null) {
-      area.innerHTML = '<div class="state-box"><div class="spinner"></div><p>正在加载官方源…</p></div>';
+      area.innerHTML = `<div class="state-box"><div class="spinner"></div><p>正在加载 ${viewLabel}…</p></div>`;
       try {
         const res = await fetch('data/rss-latest.json');
         if (!res.ok) throw new Error('no-data');
         const data = await res.json();
-        rssItems = (data.items || []).map(it => ({ ...it, _cat: rssCategory(it.source) }));
+        rssItems = (data.items || []).map(it => ({
+          ...it,
+          _cat: rssCategory(it.source),
+          _sourceType: sourceType(it),
+        }));
       } catch (err) {
         rssItems = [];
         document.getElementById('count-text').textContent = '';
-        area.innerHTML = '<div class="state-box"><span class="state-icon">⚠️</span><p>官方源数据未生成</p>'
+        area.innerHTML = '<div class="state-box"><span class="state-icon">⚠️</span><p>信源数据未生成</p>'
           + '<p style="font-size:0.75rem;color:var(--text-dim);margin-top:8px">文件 data/rss-latest.json 不存在</p></div>';
         return;
       }
     }
 
-    const filterFn = it => currentFilter === 'all' || it._cat === currentFilter;
-    const list = rssItems.filter(filterFn);
-    document.getElementById('count-text').textContent = `官方源 共 ${list.length} 条`;
+    // The user may switch views while the shared data request is in flight.
+    if (view !== currentView) return;
+    const list = rssItems
+      .filter(it => it._sourceType === view)
+      .filter(it => currentFilter === 'all' || it._cat === currentFilter);
+    document.getElementById('count-text').textContent = `${viewLabel} 共 ${list.length} 条`;
 
     if (!list.length) {
-      area.innerHTML = '<div class="state-box"><span class="state-icon">📭</span><p>该分类下暂无官方源内容</p></div>';
+      area.innerHTML = `<div class="state-box"><span class="state-icon">📭</span><p>该分类下暂无 ${viewLabel} 内容</p></div>`;
       return;
     }
 
@@ -708,7 +726,9 @@
     const header = document.createElement('div');
     header.className = 'tier-header';
     header.innerHTML = '<span class="tier-caret">▼</span>'
-      + '<span>📰 官方源（博客 / 新闻 / Changelog · 按发布时间降序 · 未打分）</span>'
+      + (isYouTube
+        ? '<span>▶ YouTube（官方频道最新视频 · 按发布时间降序）</span>'
+        : '<span>📰 RSS / 官网（博客 / 新闻 / Changelog · 按发布时间降序）</span>')
       + '<span class="tier-count">' + list.length + ' 条</span>';
     header.addEventListener('click', () => section.classList.toggle('collapsed'));
     section.appendChild(header);
@@ -786,6 +806,10 @@
   function setView(view) {
     if (view === currentView) return;
     currentView = view;
+    const isTwitter = view === 'score' || view === 'wanzan';
+    document.querySelectorAll('[data-twitter-control]').forEach(el => {
+      el.hidden = !isTwitter;
+    });
     document.querySelectorAll('.period-btn[data-view]').forEach(b => {
       b.classList.toggle('active', b.dataset.view === view);
     });

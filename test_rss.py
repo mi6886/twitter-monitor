@@ -65,6 +65,18 @@ class HttpGetTests(unittest.TestCase):
         self.assertEqual(len(items), 1)
         self.assertEqual(items[0]["url"], "https://cdn.example.com/episode.mp3")
 
+    def test_feed_records_source_type(self):
+        feed = (
+            "<rss><channel><title>Video</title><item><title>Episode</title>"
+            "<link>https://youtube.com/watch?v=test</link></item></channel></rss>"
+        )
+        with patch("fetch_rss.http_get", return_value=feed):
+            items = fetch_rss.fetch_feed(
+                "Test YouTube", "https://example.com/feed", "youtube"
+            )
+
+        self.assertEqual(items[0]["source_type"], "youtube")
+
 
 class SourceConfigurationTests(unittest.TestCase):
     def test_per_feed_limit_is_bounded(self):
