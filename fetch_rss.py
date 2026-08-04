@@ -26,9 +26,10 @@ UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 DATA_DIR = Path(__file__).parent / "data"
 OUT_FILE = DATA_DIR / "rss-latest.json"
 MAX_ITEMS = 500          # rolling cap (across RSS + sitemap sources)
+MAX_ITEMS_PER_FEED = 50  # prevent deep podcast archives from crowding the pool
 SUMMARY_MAX = 280        # chars
 
-# (label, feed_url) — native-RSS official sources only (verified 2026-06-24).
+# (label, feed_url) — native-RSS official sources only (verified 2026-08-04).
 # X & YouTube excluded on purpose (X already covered by the tweet pipeline).
 FEEDS = [
     ("OpenAI News",              "https://openai.com/news/rss.xml"),
@@ -42,6 +43,17 @@ FEEDS = [
     ("Hugging Face Blog",        "https://huggingface.co/blog/feed.xml"),
     ("GitHub Blog",              "https://github.blog/feed"),
     ("Cursor Changelog",         "https://cursor.com/changelog/rss.xml"),
+    # S-tier robotics media from the source-selection review. Video Friday is
+    # published in the IEEE Robotics feed, so it does not need a duplicate feed.
+    ("IEEE Spectrum Robotics",    "https://spectrum.ieee.org/feeds/topic/robotics.rss"),
+    ("The Robot Report",          "https://www.therobotreport.com/feed/"),
+    # S-tier interview/podcast sources. These feeds include episode metadata,
+    # transcripts or summaries that the dashboard can display as normal items.
+    ("Lex Fridman Podcast",       "https://lexfridman.com/feed/podcast/"),
+    ("No Priors Podcast",         "https://feeds.megaphone.fm/nopriors"),
+    ("AI + a16z",                 "https://feeds.simplecast.com/Hb_IuXOo"),
+    ("Dwarkesh Podcast",          "https://www.dwarkesh.com/feed"),
+    ("Latent Space",              "https://www.latent.space/feed"),
     # Product Hunt removed 2026-07-10 per user request (too noisy for 官方源).
 ]
 
@@ -71,6 +83,13 @@ SITEMAP_SOURCES = [
     ("Runway Research",         "https://runwayml.com/sitemap.xml",      "/research/",
      ["/research/publications", "/research/rna-sessions"], False, 30),
     ("Cursor Blog",             "https://cursor.com/sitemap.xml",        "/blog/",        ["/blog/topic/"], False, 100),
+    # S-tier product/robotics sites without a useful native RSS feed.
+    ("Luma Changelog",          "https://lumalabs.ai/changelog/sitemap.xml", "/changelog/", [], True, 40),
+    ("Figure AI News",          "https://www.figure.ai/sitemap.xml",     "/news/",        [], True, 50),
+    ("Boston Dynamics Blog",    "https://bostondynamics.com/blog-sitemap.xml", "/blog/",    [], True, 50),
+    ("Unitree News",            "https://www.unitree.com/sitemap.xml",   "/cn/news/",     [], False, 50),
+    ("Agility Robotics",        "https://www.agilityrobotics.com/sitemap.xml", "/content/", [], False, 100),
+    ("AgiBot News",             "https://www.agibot.com/sitemap.xml",    "/article/",     [], False, 100),
 ]
 SEEN_FILE = DATA_DIR / "rss-seen.json"
 
@@ -97,15 +116,31 @@ def entry_published(entry) -> str | None:
 def fetch_feed(label: str, url: str) -> list[dict]:
     items = []
     try:
-        parsed = feedparser.parse(url)
+        # Fetch through our retrying HTTP client. Some podcast hosts return an
+        # empty response to feedparser's default user agent.
+        parsed = None
+        for attempt in range(3):
+            parsed = feedparser.parse(http_get(url, timeout=20))
+            if parsed.entries:
+                break
+            if attempt < 2:
+                time.sleep(1.5 * (attempt + 1))
     except Exception as e:  # noqa: BLE001
         print(f"  !! {label}: parse error {type(e).__name__}: {e}")
         return items
-    if parsed.bozo and not parsed.entries:
+    if not parsed.entries:
         print(f"  !! {label}: feed error {parsed.get('bozo_exception')}")
         return items
-    for e in parsed.entries:
+    for e in parsed.entries[:MAX_ITEMS_PER_FEED]:
         link = e.get("link") or ""
+        if not link:
+            # Podcast feeds may expose only an enclosure URL. It is still a
+            # unique, playable destination and prevents valid episodes from
+            # being silently dropped.
+            link = next((
+                item.get("href", "") for item in e.get("links", [])
+                if item.get("rel") == "enclosure" and item.get("href")
+            ), "")
         if not link:
             continue
         summary = strip_html(e.get("summary") or e.get("description") or "")
@@ -128,7 +163,10 @@ def http_get(url: str, timeout: int = 15, retries: int = 2) -> str:
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=timeout) as r:
-                return r.read().decode("utf-8", "ignore")
+                body = r.read()
+                if not body.strip():
+                    raise ValueError("empty response body")
+                return body.decode("utf-8", "ignore")
         except Exception as e:  # noqa: BLE001
             last = e
             if attempt < retries:
@@ -227,22 +265,30 @@ _MONTHS = {m: i + 1 for i, m in enumerate(
 _VISIBLE_DATE = re.compile(
     r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+"
     r"(\d{1,2}),\s+(20\d\d)\b")
+_NUMERIC_VISIBLE_DATE = re.compile(
+    r"(?<!\d)(20\d{2})\s*(?:[-/.]|年)\s*(\d{1,2})\s*"
+    r"(?:[-/.]|月)\s*(\d{1,2})\s*日?(?!\d)")
 
 
 def _visible_date(html_text: str) -> str | None:
-    """First visible byline-style date ("Jul 26, 2023") in the page.
-    Anthropic (and similar Next.js sites) show the publish date as text but
-    expose no article:published_time meta — this is the only page-level date
-    available there. First match = the article's own byline in practice."""
+    """Return the first English, numeric, or Chinese byline-style date."""
     m = _VISIBLE_DATE.search(html_text)
-    if not m:
-        return None
-    try:
-        month = _MONTHS[m.group(1).lower()[:3]]
-        return datetime(int(m.group(3)), month, int(m.group(2)),
-                        tzinfo=timezone.utc).isoformat()
-    except (KeyError, ValueError):
-        return None
+    if m:
+        try:
+            month = _MONTHS[m.group(1).lower()[:3]]
+            return datetime(int(m.group(3)), month, int(m.group(2)),
+                            tzinfo=timezone.utc).isoformat()
+        except (KeyError, ValueError):
+            return None
+
+    m = _NUMERIC_VISIBLE_DATE.search(html_text)
+    if m:
+        try:
+            return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)),
+                            tzinfo=timezone.utc).isoformat()
+        except ValueError:
+            return None
+    return None
 
 
 def fetch_sitemap_source(label, sitemap_url, prefix, exclude, trust_lastmod,

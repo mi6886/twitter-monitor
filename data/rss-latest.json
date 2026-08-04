@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-03T22:29:35.248940+00:00",
+  "updated_at": "2026-08-04T09:31:17.915428+00:00",
   "count": 500,
-  "new_count": 2139,
+  "new_count": 346,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -14,15 +14,60 @@
     "Hugging Face Blog",
     "GitHub Blog",
     "Cursor Changelog",
+    "IEEE Spectrum Robotics",
+    "The Robot Report",
+    "Lex Fridman Podcast",
+    "No Priors Podcast",
+    "AI + a16z",
+    "Dwarkesh Podcast",
+    "Latent Space",
     "Anthropic News",
     "Anthropic Engineering",
     "Anthropic Research",
     "Google DeepMind Research",
     "Runway",
     "Runway Research",
-    "Cursor Blog"
+    "Cursor Blog",
+    "Luma Changelog",
+    "Figure AI News",
+    "Boston Dynamics Blog",
+    "Unitree News",
+    "Agility Robotics",
+    "AgiBot News"
   ],
   "items": [
+    {
+      "source": "Latent Space",
+      "title": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
+      "url": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
+      "summary": "Qwen is so back!",
+      "published_at": "2026-08-04T03:49:14+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "title": "Apple is getting this wrong",
+      "url": "https://openai.com/index/apple-is-getting-this-wrong",
+      "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+      "published_at": "2026-08-03T22:00:00+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+      "url": "https://www.latent.space/p/inference-eng",
+      "summary": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
+      "published_at": "2026-08-03T21:44:03+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "title": "igus launches energy chain with 600-degree rotation for industrial robots",
+      "url": "https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/",
+      "summary": "igus says its new twisterchain energy chain provides cable management for challenging industrial robotics applications such as palletizing. The post igus launches energy chain with 600-degree rotation for industrial robots appeared first on The Robot Report.",
+      "published_at": "2026-08-03T21:06:07+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
     {
       "source": "Runway",
       "title": "How EA Is Bringing Generative AI Into Living, Playable Worlds",
@@ -32,12 +77,36 @@
       "first_seen_at": "2026-08-03T22:29:35.248940+00:00"
     },
     {
+      "source": "Dwarkesh Podcast",
+      "title": "Why smarter AI models could drive up compute prices 10x",
+      "url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video",
+      "summary": "The end of cheap compute?",
+      "published_at": "2026-08-03T17:32:13+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "title": "HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators",
+      "url": "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/",
+      "summary": "This Phase I award is only part of HEBI Robotics' roadmap. The company also plans to continue developing its existing actuation hardware. The post HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators appeared first on The Robot Report.",
+      "published_at": "2026-08-03T17:17:46+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "Runway",
       "title": "How Legal Leaders at Block and Spotify Get to Yes on AI",
       "url": "https://runway.com/news/company-news/spotify-block-ai-summit-2026",
       "summary": "How in-house legal teams should approach AI, from the executives running it at Block and Spotify: adaptable frameworks, self-built tools and moving before regulators.",
       "published_at": "2026-08-03T17:05:03.676000+00:00",
       "first_seen_at": "2026-08-03T22:29:35.248940+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Walden Robotics Partners With Toyota on Practical Humanoids",
+      "url": "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota",
+      "summary": "For a while there, it seemed as though robotics as a whole was stuck in a mad rush towards building humanoid robots mostly because it was very possible (and very lucrative) to do so, even without near-term goals that were necessarily realistic. Some of the magic of those first co",
+      "published_at": "2026-08-03T16:05:39+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "Runway",
@@ -64,6 +133,14 @@
       "first_seen_at": "2026-08-03T22:29:35.248940+00:00"
     },
     {
+      "source": "The Robot Report",
+      "title": "Reimagine Robotics emerges from stealth with robots that ‘learn on the job’",
+      "url": "https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/",
+      "summary": "Reimagine Robotics, founded by former Google DeepMind Applied Robotics leaders, is developing systems that do not require specialized programmers. The post Reimagine Robotics emerges from stealth with robots that ‘learn on the job’ appeared first on The Robot Report.",
+      "published_at": "2026-08-03T07:00:51+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "OpenAI News",
       "title": "How we built a realtime system for responsive voice AI in six months",
       "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
@@ -81,11 +158,59 @@
     },
     {
       "source": "OpenAI News",
+      "title": "Circles powers telco personalization with OpenAI technology",
+      "url": "https://openai.com/index/circles",
+      "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+      "published_at": "2026-08-03T00:00:00+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "title": "Google DeepMind says Gemini Robotics 2 enables full body control",
+      "url": "https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/",
+      "summary": "Gemini Robotics 2 enables robots to reason through every movement, unlocking a broad range of tasks, DeepMind said. The post Google DeepMind says Gemini Robotics 2 enables full body control appeared first on The Robot Report.",
+      "published_at": "2026-08-02T12:31:32+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "title": "Top 10 robotics stories of July 2026",
+      "url": "https://www.therobotreport.com/top-10-robotics-stories-july-2026/",
+      "summary": "In July, large funding rounds, new approaches to robot training, and new robot models drew our readers attention. The post Top 10 robotics stories of July 2026 appeared first on The Robot Report.",
+      "published_at": "2026-08-01T12:00:30+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-038",
+      "summary": "apart from DeepSeek V4-Flash 0731, a quiet day.",
+      "published_at": "2026-08-01T01:38:09+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "OpenAI News",
       "title": "Ten advances in mathematics and theoretical computer science",
       "url": "https://openai.com/index/ten-advances-in-mathematics",
       "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
       "published_at": "2026-08-01T00:00:00+00:00",
       "first_seen_at": "2026-08-01T12:04:58.972995+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "title": "FCC robot ruling shines a spotlight on U.S. policy; how next-gen AI can help warehousing",
+      "url": "https://www.therobotreport.com/fcc-robot-ruling-shines-spotlight-on-u-s-policy-how-next-gen-ai-can-help-warehousing/",
+      "summary": "OSARO’s Derek Pridmore says warehouse robots are advancing, but real-world safety and reliability still depend on specialized, layered AI systems. The post FCC robot ruling shines a spotlight on U.S. policy; how next-gen AI can help warehousing appeared first on The Robot Report.",
+      "published_at": "2026-07-31T22:41:44+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "title": "KUKA deploys Automation Management Platform for North American automakers",
+      "url": "https://www.therobotreport.com/kuka-deploys-automation-management-platform-north-american-automakers/",
+      "summary": "KUKA has deployed its Automation Management Platform at KTPO, a major manufacturing facility in Ohio. The post KUKA deploys Automation Management Platform for North American automakers appeared first on The Robot Report.",
+      "published_at": "2026-07-31T20:38:15+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "Runway",
@@ -94,6 +219,14 @@
       "summary": "The team behind Runway Characters on demoing a real-time generative character at SIGGRAPH's Real-Time Live!, what surprised researchers and what comes next.",
       "published_at": "2026-07-31T20:25:07.805000+00:00",
       "first_seen_at": "2026-08-01T12:04:58.972995+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Video Friday: Meet Google DeepMind’s Gemini Robotics 2",
+      "url": "https://spectrum.ieee.org/video-robot-gemini2-ai-robot",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.Actuate 2026: 18–19 August 2026, SAN",
+      "published_at": "2026-07-31T16:00:03+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "GitHub Blog",
@@ -120,12 +253,36 @@
       "first_seen_at": "2026-07-31T22:19:57.302179+00:00"
     },
     {
+      "source": "The Robot Report",
+      "title": "Procore Technologies acquires DroneDeploy for $845M",
+      "url": "https://www.therobotreport.com/procore-technologies-acquires-dronedeploy-845m/",
+      "summary": "Procore will integrate DroneDeploy's visual intelligence technology to link the digital world with physical construction sites. The post Procore Technologies acquires DroneDeploy for $845M appeared first on The Robot Report.",
+      "published_at": "2026-07-31T12:49:07+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "No Priors Podcast",
+      "title": "Building an Autonomous Enterprise for Real-World Services with Netic Founder Melisa Tokmak",
+      "url": "https://traffic.megaphone.fm/PDP6533459307.mp3",
+      "summary": "When your AC fails in a heatwave, you don’t want a busy signal; you need a solution. Netic founder and CEO Melisa Tokmak joins host Elad Gil to explain how Netic’s autonomous AI platform acts as an intermediary between companies and customers, deploying agents to instantly handle",
+      "published_at": "2026-07-31T10:00:00+00:00",
+      "first_seen_at": "2026-08-04T09:31:17.915428+00:00"
+    },
+    {
       "source": "OpenAI News",
       "title": "Univé builds an AI-ready workforce",
       "url": "https://openai.com/index/unive",
       "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
       "published_at": "2026-07-31T07:00:00+00:00",
       "first_seen_at": "2026-07-31T12:56:21.427287+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "title": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
+      "url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
+      "summary": "Distillation is all you need!",
+      "published_at": "2026-07-31T04:40:54+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "OpenAI News",
@@ -142,6 +299,22 @@
       "summary": "General Science",
       "published_at": "2026-07-30T20:36:36+00:00",
       "first_seen_at": "2026-07-30T22:30:21.644207+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "title": "DoorDash gains FAA certification to operate its own drone delivery program",
+      "url": "https://www.therobotreport.com/doordash-gains-faa-certification-to-operate-its-own-drone-delivery-program/",
+      "summary": "The FAA approval came nearly a year after DoorDash unveiled its delivery robot and reflects its increasing interest in building automation in-house. The post DoorDash gains FAA certification to operate its own drone delivery program appeared first on The Robot Report.",
+      "published_at": "2026-07-30T18:06:18+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "title": "Teradyne Robotics revenue rises 33% year over year in Q2",
+      "url": "https://www.therobotreport.com/teradyne-robotics-revenue-rises-33-year-over-year-in-q2/",
+      "summary": "Teradyne Robotics said growth in the U.S. and in AI were big drivers for its revenue increase in the second quarter of 2026. The post Teradyne Robotics revenue rises 33% year over year in Q2 appeared first on The Robot Report.",
+      "published_at": "2026-07-30T17:38:52+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "GitHub Blog",
@@ -184,6 +357,14 @@
       "first_seen_at": "2026-07-30T22:30:21.644207+00:00"
     },
     {
+      "source": "Latent Space",
+      "title": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
+      "url": "https://www.latent.space/p/ontologies-agentic-systems",
+      "summary": "AI engineers are rediscovering ontologies as a way to keep probabilistic agents inside deterministic boundaries.",
+      "published_at": "2026-07-30T11:17:55+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "OpenAI News",
       "title": "Advancing the price-performance frontier with GPT-5.6",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
@@ -208,6 +389,14 @@
       "first_seen_at": "2026-07-31T12:56:21.427287+00:00"
     },
     {
+      "source": "Latent Space",
+      "title": "[AINews] AI is eating Finance; AIE NYC now open",
+      "url": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc",
+      "summary": "a quiet day lets us cover how AI is permeating financial services as the next big vertical after coding.",
+      "published_at": "2026-07-29T23:32:12+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "Google DeepMind Blog",
       "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
       "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
@@ -224,6 +413,14 @@
       "first_seen_at": "2026-07-29T22:16:33.648168+00:00"
     },
     {
+      "source": "Dwarkesh Podcast",
+      "title": "Why compute might get 10x+ more expensive in coming years",
+      "url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive",
+      "summary": "If a human-level software engineer that could run on an H100 equivalent, at current market rates for software engineers, that H100 should rent for over $250k a year. That’s 15x today’s spot price.",
+      "published_at": "2026-07-29T15:01:35+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "OpenAI News",
       "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
       "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
@@ -232,12 +429,36 @@
       "first_seen_at": "2026-07-30T12:29:26.539858+00:00"
     },
     {
+      "source": "The Robot Report",
+      "title": "GMEX Robotics to acquire MediaMeta.ai for social intelligence",
+      "url": "https://www.therobotreport.com/gmex-robotics-to-acquire-mediameta-ai-social-intelligence/",
+      "summary": "GMEX Robotics has acquired shares in MediaMeta to incorporate social intelligence capabilities into its service robots. The post GMEX Robotics to acquire MediaMeta.ai for social intelligence appeared first on The Robot Report.",
+      "published_at": "2026-07-29T14:53:15+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "title": "Experts react to FCC limits on U.S. imports of new humanoid and mobile robots",
+      "url": "https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/",
+      "summary": "The FCC has banned some foreign humanoids, which industry experts say could help U.S. industry but hinder innovation. The post Experts react to FCC limits on U.S. imports of new humanoid and mobile robots appeared first on The Robot Report.",
+      "published_at": "2026-07-29T14:11:19+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "OpenAI News",
       "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
       "url": "https://openai.com/index/chatgpt-for-academic-researchers",
       "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
       "published_at": "2026-07-29T10:00:00+00:00",
       "first_seen_at": "2026-07-29T22:16:33.648168+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
+      "url": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
+      "summary": "The Big Pause is coming.",
+      "published_at": "2026-07-29T00:46:52+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "OpenAI News",
@@ -256,12 +477,36 @@
       "first_seen_at": "2026-07-29T22:16:33.648168+00:00"
     },
     {
+      "source": "The Robot Report",
+      "title": "Registration is open for RoboBusiness 2026",
+      "url": "https://www.therobotreport.com/registration-is-open-for-robobusiness-2026/",
+      "summary": "This year, join us in October in Santa Clara to celebrate 20 years of robotics excellence at RoboBusiness 2026. The post Registration is open for RoboBusiness 2026 appeared first on The Robot Report.",
+      "published_at": "2026-07-28T20:54:46+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "NVIDIA Robotics Tech Blog",
       "title": "Developing Healthcare Robotics with GPU-Native Medical Physics Simulation",
       "url": "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation/",
       "summary": "Unlike autonomous driving or industrial robotics, healthcare robotics can’t rely on internet-scale data collection or unlimited real-world experimentation....",
       "published_at": "2026-07-28T20:49:21+00:00",
       "first_seen_at": "2026-07-28T22:21:08.336550+00:00"
+    },
+    {
+      "source": "Lex Fridman Podcast",
+      "title": "#499 – Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee",
+      "url": "https://lexfridman.com/gary-gallagher/?utm_source=rss&utm_medium=rss&utm_campaign=gary-gallagher",
+      "summary": "Gary Gallagher is a historian of the American Civil War. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep499-sc See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc. Transcript: https://lexfridman.com/g",
+      "published_at": "2026-07-28T20:06:06+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "title": "ENvue Medical develops robotic feeding tube placement system",
+      "url": "https://www.therobotreport.com/envue-medical-develops-robotic-feeding-tube-placement-system/",
+      "summary": "ENvue Drive is designed to assist, not replace, the clinician, who retains full control of the procedure at all times. The post ENvue Medical develops robotic feeding tube placement system appeared first on The Robot Report.",
+      "published_at": "2026-07-28T19:00:55+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "OpenAI News",
@@ -296,6 +541,14 @@
       "first_seen_at": "2026-07-28T22:21:08.336550+00:00"
     },
     {
+      "source": "Latent Space",
+      "title": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
+      "url": "https://www.latent.space/p/chatgpt-work",
+      "summary": "OpenAI's core product engineering lead on how they are building ChatGPT Work to make AGI accessible to all of humanity: Sites, OpenClaw, Memory, Subagents, Finance, No-Code and advice.",
+      "published_at": "2026-07-28T15:26:30+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "Hugging Face Blog",
       "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
@@ -310,6 +563,22 @@
       "summary": "As a discerning AI investor who values style and substance, Sarah Guo knows this season’s standout accessory isn’t the latest designer purse — but what’s inside it. In a recent video, Guo, founder of AI-native venture capital firm Conviction and co-host of the AI podcast No Prior",
       "published_at": "2026-07-28T15:00:19+00:00",
       "first_seen_at": "2026-07-28T22:21:08.336550+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Robot Finger Feels in Color",
+      "url": "https://spectrum.ieee.org/robot-finger",
+      "summary": "Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and, if it’s tails, the fluted columns of the Lincoln Memorial. Getting a robot to sense the same things is an imposin",
+      "published_at": "2026-07-28T15:00:03+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "title": "Agency Tool Company wants to make OTA software updates easier",
+      "url": "https://www.therobotreport.com/agency-tool-company-wants-to-make-ota-software-updates-easier/",
+      "summary": "Two Scythe co-founders are using their experience building commercial robots to create tools for robotics developers at Agency Tool Co. The post Agency Tool Company wants to make OTA software updates easier appeared first on The Robot Report.",
+      "published_at": "2026-07-28T14:59:58+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "Google DeepMind Blog",
@@ -342,6 +611,14 @@
       "summary": "We're introducing Cursor Start , a new ₹649 monthly plan for developers in India, making daily agentic development accessible and payment easy with local pricing and UPI.",
       "published_at": "2026-07-28T12:00:00+00:00",
       "first_seen_at": "2026-07-28T12:54:32.971293+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "title": "[AINews] Much ado about Open Weights",
+      "url": "https://www.latent.space/p/ainews-much-ado-about-open-weights",
+      "summary": "Everyone is writing a lot, but only Kimi K3 shipped today",
+      "published_at": "2026-07-28T06:20:13+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "Anthropic Research",
@@ -432,12 +709,44 @@
       "first_seen_at": "2026-07-28T22:21:08.336550+00:00"
     },
     {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Optical Tech Would Update a Robot’s AI on the Fly",
+      "url": "https://spectrum.ieee.org/ai-in-robotics",
+      "summary": "Atop a lab bench, Cornell Tech postdoctoral researcher Yifan He positions the lens of an optical receiver almost a meter away from an LED emitting a beam of red light. The computer monitor attached to the receiver takes a beat to refresh, then displays an array of squares that re",
+      "published_at": "2026-07-26T13:00:01+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "title": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
+      "url": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
+      "summary": "ain't nobody beats Anthropic at distilling Fable!",
+      "published_at": "2026-07-25T07:25:38+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Video Friday: An Italian Humanoid Comes to Life",
+      "url": "https://spectrum.ieee.org/video-friday-physical-ai-robotics",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.Summer School on Multi-Robot Systems",
+      "published_at": "2026-07-24T15:30:01+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "NVIDIA Blog",
       "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
       "url": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
       "summary": "At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart Korea’s AI progress. Building on NVIDIA founder and CEO Jensen Huang’s visit to K",
       "published_at": "2026-07-24T04:34:27+00:00",
       "first_seen_at": "2026-07-24T12:17:35.590257+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "title": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
+      "url": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
+      "summary": "A HUGE win for BFL!",
+      "published_at": "2026-07-24T04:30:12+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "Anthropic News",
@@ -470,6 +779,30 @@
       "summary": "Lock in and load up the cloud. GFN Thursday brings fresh updates and new adventures, all ready to play without waiting for downloads. Set sail in Path of Exile: Curse of the Allflame and charge in Battlefield 6 Season 4 both launching major content for members this week. Then rev",
       "published_at": "2026-07-23T13:00:16+00:00",
       "first_seen_at": "2026-07-23T22:19:52.436045+00:00"
+    },
+    {
+      "source": "No Priors Podcast",
+      "title": "Building an Autonomous Delivery Experience with DoorDash Co-Founders Andy Fang and Stanley Tang",
+      "url": "https://traffic.megaphone.fm/PDP3380514610.mp3",
+      "summary": "DoorDash is not just a delivery company. From its inception, co-founders Andy Fang and Stanley Tang operated it as a robotics and autonomy company. Andy and Stanley join Sarah Guo to explain how autonomous tech and AI are reshaping consumer habits, commerce, and delivery. Andy an",
+      "published_at": "2026-07-23T10:00:00+00:00",
+      "first_seen_at": "2026-08-04T09:31:17.915428+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "title": "[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\"",
+      "url": "https://www.latent.space/p/ainews-laguna-s-21-released-cheaper",
+      "summary": "a quiet day lets us highlight a new neolab win.",
+      "published_at": "2026-07-23T05:18:47+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "title": "Inside the Model Factory — Eiso Kant, Poolside AI",
+      "url": "https://www.latent.space/p/poolside",
+      "summary": "Poolside's co-CEO on how his small team of top researchers built a model factory capable of training Laguna S - a 118B MOE beating Thinky's ~1T open weights model... and this is just the beginning.",
+      "published_at": "2026-07-23T05:09:14+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "NVIDIA Blog",
@@ -584,6 +917,14 @@
       "first_seen_at": "2026-07-22T22:22:03.075296+00:00"
     },
     {
+      "source": "Latent Space",
+      "title": "[AINews] AI Cybersecurity becomes top of mind",
+      "url": "https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top",
+      "summary": "Several new Cyber headlines make us observe a trend",
+      "published_at": "2026-07-22T03:27:29+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "Cursor Changelog",
       "title": "Cursor Router",
       "url": "https://cursor.com/changelog/router",
@@ -630,6 +971,14 @@
       "summary": "",
       "published_at": "2026-07-21T20:00:27+00:00",
       "first_seen_at": "2026-07-21T22:16:30.800077+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "title": "🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
+      "url": "https://www.latent.space/p/xaira",
+      "summary": "Xaira Therapeutics is all in on data generation for model building! We talk with Bo Wang and Ci Chu about how and why.",
+      "published_at": "2026-07-21T19:34:06+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "OpenAI News",
@@ -694,6 +1043,14 @@
       "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
       "published_at": "2026-07-21T07:00:00+00:00",
       "first_seen_at": "2026-07-21T22:16:30.800077+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-173",
+      "summary": "a quiet day.",
+      "published_at": "2026-07-21T03:58:00+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -776,6 +1133,14 @@
       "first_seen_at": "2026-07-20T22:18:43.513154+00:00"
     },
     {
+      "source": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-830",
+      "summary": "a quiet day",
+      "published_at": "2026-07-18T04:30:21+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "Runway",
       "title": "How R/GA Built a Living Legacy with Runway Characters",
       "url": "https://runwayml.com/news/customers/rga",
@@ -784,12 +1149,28 @@
       "first_seen_at": "2026-07-17T22:09:48.333674+00:00"
     },
     {
+      "source": "IEEE Spectrum Robotics",
+      "title": "This Graduate Student Equips NASA’s Robots With Assembly Skills",
+      "url": "https://spectrum.ieee.org/graduate-student-nasas-robots-assembly",
+      "summary": "Like many engineers, Sarah Downs says she knew she wanted to pursue a STEM career from a young age. As a teenager, she discovered robotics through her Tulsa, Okla., middle school’s First Lego League team, and she fell in love with the field, she says. Downs participated in the in",
+      "published_at": "2026-07-17T18:00:01+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "GitHub Blog",
       "title": "The cost of saying yes has changed",
       "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
       "summary": "The cost of writing code dropped; the cost of owning it didn't. A framework for deciding which changes are actually cheap in the AI era. The post The cost of saying yes has changed appeared first on The GitHub Blog.",
       "published_at": "2026-07-17T16:46:47+00:00",
       "first_seen_at": "2026-07-17T22:09:48.333674+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Video Friday: Your Robot Surgeon Will See You Now",
+      "url": "https://spectrum.ieee.org/video-friday-robotic-surgery",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.Summer School on Multi-Robot Systems",
+      "published_at": "2026-07-17T16:00:01+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -832,12 +1213,28 @@
       "first_seen_at": "2026-07-17T22:09:48.333674+00:00"
     },
     {
+      "source": "Latent Space",
+      "title": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+      "url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+      "summary": "a great week for open models continues.",
+      "published_at": "2026-07-17T01:46:36+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "Cursor Changelog",
       "title": "Improvements to Cursor in Slack",
       "url": "https://cursor.com/changelog/slack-improvements",
       "summary": "Cursor in Slack now shares a plan before it starts, runs in multi-repo environments, and can work across channels and threads.",
       "published_at": "2026-07-17T00:00:00+00:00",
       "first_seen_at": "2026-07-17T22:09:48.333674+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "title": "How to Make an Invisible Drone",
+      "url": "https://spectrum.ieee.org/invisible-spinning-drone",
+      "summary": "There are many words that I would never, ever use to describe a drone. Stealthy. Subtle. Whatever the opposite of obnoxious is. Much of this is because of the giant angry bee sound that drones tend to make, but it’s also the way that they look in flight: With uncannily linear mov",
+      "published_at": "2026-07-16T16:09:21+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -872,6 +1269,14 @@
       "first_seen_at": "2026-07-16T22:20:16.898081+00:00"
     },
     {
+      "source": "Latent Space",
+      "title": "🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences",
+      "url": "https://www.latent.space/p/the-lab-of-the-future-should-feel",
+      "summary": "Lila is betting that science, not the internet, is the last untapped source of training data. We went to find out what that actually looks like in a room full of robots.",
+      "published_at": "2026-07-16T13:30:44+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "NVIDIA Blog",
       "title": "Sharpen the Sword, Skip the Downloads — ‘Onimusha: Way of the Sword’ Is Coming to GeForce NOW",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-onimusha-coming/",
@@ -902,6 +1307,14 @@
       "summary": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
       "published_at": "2026-07-16T07:00:00+00:00",
       "first_seen_at": "2026-07-24T12:17:35.590257+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "title": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
+      "url": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
+      "summary": "Thinky's first full LLM release is a banger and bonus: it's open weights!",
+      "published_at": "2026-07-16T06:18:05+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -1088,6 +1501,14 @@
       "first_seen_at": "2026-07-14T12:10:11.749856+00:00"
     },
     {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Building a Foundation Stack for General-Purpose Robots",
+      "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
+      "summary": "This article is brought to you by X Square Robot.Large language models gave artificial intelligence a working recipe. Pretrain a large model on broad data, and general capability follows. Robotics has no such recipe. Robotics systems have long been assembled from separate percept",
+      "published_at": "2026-07-13T10:19:51+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "Anthropic Research",
       "title": "How Claude's values vary by model and language",
       "url": "https://www.anthropic.com/research/claude-values-models-languages",
@@ -1104,12 +1525,36 @@
       "first_seen_at": "2026-07-12T11:58:32.936354+00:00"
     },
     {
+      "source": "Dwarkesh Podcast",
+      "title": "Adam Brown – A deep but accessible introduction to general relativity",
+      "url": "https://www.dwarkesh.com/p/adam-brown-gr",
+      "summary": "And why black holes are the ultimate power plants.",
+      "published_at": "2026-07-10T16:23:56+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Video Friday: A World Cup for Robots",
+      "url": "https://spectrum.ieee.org/video-friday-robot-world-cup",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.RSS 2026: 13–17 July 2026, SYDNEYSum",
+      "published_at": "2026-07-10T16:00:01+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "GitHub Blog",
       "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
       "url": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
       "summary": "How migrating Copilot code review to shared Unix-style code exploration tools reduced review cost by reshaping agent workflows around pull request evidence. The post Better tools made Copilot code review worse. Here’s how we actually improved it. appeared first on The GitHub Blog",
       "published_at": "2026-07-10T15:57:47+00:00",
       "first_seen_at": "2026-07-10T22:23:14.195924+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Ground Robots Inherit the Kill Zone",
+      "url": "https://spectrum.ieee.org/ukraine-ground-drones",
+      "summary": "Borys Drozhak has a vision: a front line almost free of humans, patrolled by flying drones and ground robots, and continuously monitored by AI-controlled sensor networks. And it’s not a pipe dream. Ukrainian roboticists have made major strides in that direction over the past four",
+      "published_at": "2026-07-10T11:00:01+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "OpenAI News",
@@ -1214,6 +1659,14 @@
       "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
       "published_at": "2026-07-09T10:00:00+00:00",
       "first_seen_at": "2026-07-09T23:10:21.869075+00:00"
+    },
+    {
+      "source": "No Priors Podcast",
+      "title": "Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel",
+      "url": "https://traffic.megaphone.fm/PDP8517369630.mp3",
+      "summary": "When Glenn Fogel joined Priceline in 2000, the business was worth a few hundred million dollars. One week later, the Nasdaq peaked, eventually sending its stock down to a dollar a share. But over 25 years later, Booking Holdings has scaled over 1000x into an over $100 billion dol",
+      "published_at": "2026-07-09T10:00:00+00:00",
+      "first_seen_at": "2026-08-04T09:31:17.915428+00:00"
     },
     {
       "source": "Google Research Blog",
@@ -1376,6 +1829,14 @@
       "first_seen_at": "2026-07-07T23:47:44.423833+00:00"
     },
     {
+      "source": "IEEE Spectrum Robotics",
+      "title": "IEEE Honors Robotics Pioneer Toshio Fukuda",
+      "url": "https://spectrum.ieee.org/ieee-honors-toshio-fukuda",
+      "summary": "Toshio Fukuda has been blazing trails for most of his career. He is considered to be one of the most prolific scholars in robotics, writing more than 2,000 research papers and authoring several books on the field. He’s an influential figure thanks to his pioneering work developin",
+      "published_at": "2026-07-07T19:02:42+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "NVIDIA Robotics Tech Blog",
       "title": "Develop Humanoid Robot Policies End-to-End with NVIDIA Isaac GR00T",
       "url": "https://developer.nvidia.com/blog/develop-humanoid-robot-policies-end-to-end-with-nvidia-isaac-gr00t/",
@@ -1520,6 +1981,22 @@
       "first_seen_at": "2026-07-06T14:23:01.394675+00:00"
     },
     {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Japan Pioneered Humanoid Robots—Can It Now Catch China?",
+      "url": "https://spectrum.ieee.org/humanoid-robots-japan",
+      "summary": "“In the future, the relationship between humans and robots will deepen, and the distinction between them will probably disappear.” This prediction, from one of the attendees at the recent Humanoids Summit in Tokyo, might have been unremarkable had it not come directly from an and",
+      "published_at": "2026-07-04T11:00:01+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Video Friday: An Earthbound Mars Rover for the Moon",
+      "url": "https://spectrum.ieee.org/video-friday-nasa-lunar-rover",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.RSS 2026: 13–17 July 2026, SYDNEYSum",
+      "published_at": "2026-07-03T15:00:01+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "Google DeepMind Blog",
       "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
       "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
@@ -1534,6 +2011,14 @@
       "summary": "GitHub had 20,000+ secret scanning alerts across 15,000 repositories. Here's how we separated signal from noise, built remediation workflows, and reached inbox zero in nine months. The post How GitHub used secret scanning to reach inbox zero appeared first on The GitHub Blog.",
       "published_at": "2026-07-02T16:00:00+00:00",
       "first_seen_at": "2026-07-02T23:57:13.910468+00:00"
+    },
+    {
+      "source": "No Priors Podcast",
+      "title": "How Nuclear Will Unlock Energy Abundance with Valar Atomics Founder Isaiah Taylor",
+      "url": "https://traffic.megaphone.fm/PDP1493614959.mp3",
+      "summary": "While the rest of the nuclear industry still relies on simulations and paper designs, Valar Atomics is busy splitting atoms. In fact, they just powered an NVIDIA Blackwell chip directly with a live nuclear reactor in order to power the world’s first nuclear powered website. Sarah",
+      "published_at": "2026-07-02T15:00:00+00:00",
+      "first_seen_at": "2026-08-04T09:31:17.915428+00:00"
     },
     {
       "source": "NVIDIA Blog",
@@ -1584,6 +2069,14 @@
       "first_seen_at": "2026-07-17T22:09:48.333674+00:00"
     },
     {
+      "source": "Dwarkesh Podcast",
+      "title": "The Winning Essays for the Big Questions About AI",
+      "url": "https://www.dwarkesh.com/p/blog-prize-winners",
+      "summary": "Abolishing pandemics/ Getting out of the way of AI automation/ Learning from Honk Kong MTR's business model",
+      "published_at": "2026-07-01T22:13:17+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "Google AI Blog",
       "title": "The latest AI news we announced in June 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
@@ -1624,6 +2117,14 @@
       "first_seen_at": "2026-07-02T00:08:41.955431+00:00"
     },
     {
+      "source": "Lex Fridman Podcast",
+      "title": "#498 – Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise & Fall of Empires",
+      "url": "https://lexfridman.com/anthony-kaldellis/?utm_source=rss&utm_medium=rss&utm_campaign=anthony-kaldellis",
+      "summary": "Anthony Kaldellis is a historian of the Roman Empire and author of “The New Roman Empire”, a comprehensive history of the Byzantine Empire (Eastern Roman Empire). Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep498-sc See below for timestamps, ",
+      "published_at": "2026-06-30T21:33:40+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "Hugging Face Blog",
       "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
       "url": "https://huggingface.co/blog/ibm-research/scarfbench",
@@ -1662,6 +2163,14 @@
       "summary": "",
       "published_at": "2026-06-30T16:02:40+00:00",
       "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "title": "Grant Sanderson – AI and the future of math",
+      "url": "https://www.dwarkesh.com/p/grant-sanderson-2",
+      "summary": "Watch now (94 mins) | Math is where we’ll see superintelligence first. What will it look like?",
+      "published_at": "2026-06-30T15:53:19+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "NVIDIA Blog",
@@ -1888,12 +2397,36 @@
       "first_seen_at": "2026-06-26T23:56:07.071252+00:00"
     },
     {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Video Friday: Give Robots a Hand",
+      "url": "https://spectrum.ieee.org/video-friday-robot-grippers",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.RSS 2026: 13–17 July 2026, SYDNEYSum",
+      "published_at": "2026-06-26T16:30:01+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "title": "The next big breakthrough will be AIs learning on the job",
+      "url": "https://www.dwarkesh.com/p/the-next-paradigm",
+      "summary": "Labs are throwing away the most valuable data.",
+      "published_at": "2026-06-26T15:51:34+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "GitHub Blog",
       "title": "Transitioning as a Hubber",
       "url": "https://github.blog/developer-skills/career-growth/transitioning-as-a-hubber/",
       "summary": "How GitHub's culture and benefits helped me be the best version of myself. The post Transitioning as a Hubber appeared first on The GitHub Blog.",
       "published_at": "2026-06-26T12:00:00+00:00",
       "first_seen_at": "2026-06-26T13:15:04.116660+00:00"
+    },
+    {
+      "source": "No Priors Podcast",
+      "title": "Really Big Test-Time Compute in AI Changes Benchmarks, Safety and Research with OpenAI Research Scientist Noam Brown",
+      "url": "https://traffic.megaphone.fm/PDP3897457969.mp3",
+      "summary": "When a new AI model drops, it’s judged based on a static benchmark grid that doesn’t account for how long the model is allowed to think. How then should we measure a model’s true capability? OpenAI research scientist Noam Brown returns to talk with Sarah Guo about his latest essa",
+      "published_at": "2026-06-26T10:13:00+00:00",
+      "first_seen_at": "2026-08-04T09:31:17.915428+00:00"
     },
     {
       "source": "OpenAI News",
@@ -2046,6 +2579,14 @@
       "summary": "",
       "published_at": "2026-06-25T00:00:00",
       "first_seen_at": "2026-07-06T23:58:36.810609+00:00"
+    },
+    {
+      "source": "AI + a16z",
+      "title": "Building Self-Accelerating AI with Mirendil",
+      "url": "https://ai-a16z.simplecast.com/episodes/building-self-accelerating-ai-with-mirendil-rt3KPYBk",
+      "summary": "Matt Bornstein speaks with Mirendil cofounders Behnam Neyshabur and Harsh Mehta about their vision for building self-accelerating AI. After leading research efforts at Google and Anthropic, the founders started Mirendil around a simple question: what happens when AI systems can m",
+      "published_at": "2026-06-24T19:12:55+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "Google Research Blog",
@@ -2328,12 +2869,36 @@
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
+      "source": "Dwarkesh Podcast",
+      "title": "The data black hole at the center of AI",
+      "url": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole",
+      "summary": "\"We see these AIs as a galaxy glittering with capabilities, but at their center, invisible to the naked eye, holding all the constellations together, is an unimaginably massive black hole of data.\"",
+      "published_at": "2026-06-19T16:45:03+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "GitHub Blog",
       "title": "How we built an internal data analytics agent",
       "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
       "summary": "Qubot, our internal Copilot-powered analytics agent, allows any GitHub employee to ask questions about our data in plain language. Here's what we learned as we built it. The post How we built an internal data analytics agent appeared first on The GitHub Blog.",
       "published_at": "2026-06-19T16:00:00+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Video Friday: Do Robots Even Need Legs?",
+      "url": "https://spectrum.ieee.org/video-friday-agentic-ai-robot",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.RSS 2026: 13–17 July 2026, SYDNEYSum",
+      "published_at": "2026-06-19T15:00:02+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "title": "What Amazon’s Astro Taught Me About Giving Robots a Soul",
+      "url": "https://spectrum.ieee.org/amazon-astro-robot-sound",
+      "summary": "In 2018, Amazon brought me in as the lead UX Sound Designer for Astro, its first consumer home robot. Astro used cameras and other sensors to map and navigate your home and workplace, and could proactively patrol, check up on loved ones, and transport small items using its built-",
+      "published_at": "2026-06-19T10:00:00+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "NVIDIA Blog",
@@ -2390,6 +2955,14 @@
       "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
       "published_at": "2026-06-18T11:00:00+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
+      "source": "No Priors Podcast",
+      "title": "Re-engineering the Semiconductor Supply Chain with Intel CEO Lip-Bu Tan",
+      "url": "https://traffic.megaphone.fm/PDP2617151899.mp3",
+      "summary": "At 66 years old, instead of heading towards retirement, former Cadence CEO and legendary investor Lip-Bu Tan decided to take on the hardest job in tech: turning Intel around. Elad Gil and Sarah Guo sit down with Intel CEO Lip-Bu Tan to talk about why he took the job and what “sav",
+      "published_at": "2026-06-18T10:00:00+00:00",
+      "first_seen_at": "2026-08-04T09:31:17.915428+00:00"
     },
     {
       "source": "OpenAI News",
@@ -2454,6 +3027,14 @@
       "summary": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
       "published_at": "2026-06-17T15:00:00+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "title": "The Secret to Marathon-Winning Humanoid Robots",
+      "url": "https://spectrum.ieee.org/china-humanoid-robot-marathon",
+      "summary": "On 19 April 2026, the Honor Lightning humanoid robot ran a half-marathon in 50 minutes and 26 seconds, beating the human world record by 7 minutes and the best robot time from 2025 by almost 2 hours.How did Honor do it? Is there some magical technology or technique that unlocked ",
+      "published_at": "2026-06-17T12:19:27+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -2552,6 +3133,14 @@
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
+      "source": "Dwarkesh Podcast",
+      "title": "Ada Palmer – Machiavelli is the most misunderstood thinker of all time",
+      "url": "https://www.dwarkesh.com/p/ada-palmer-2",
+      "summary": "\"He begged to work for the regime that tortured him.\"",
+      "published_at": "2026-06-16T17:27:51+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "NVIDIA Blog",
       "title": "HPE AI Factory With NVIDIA Expands for the Era of Agents",
       "url": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
@@ -2600,6 +3189,14 @@
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
+      "source": "AI + a16z",
+      "title": "Ideogram’s Open-Weights Image Model and the Future of AI Design",
+      "url": "https://ai-a16z.simplecast.com/episodes/ideograms-open-weights-image-model-and-the-future-of-ai-design-qXdoKLhL",
+      "summary": "Yoko Li and Justine Moore speak with Ideogram founder and CEO Mohammad Norouzi about image generation models, design workflows, and the evolving relationship between AI and creative work. The conversation covers Ideogram's decision to release an open-weight model, the challenges ",
+      "published_at": "2026-06-15T15:40:03+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "Google AI Blog",
       "title": "We’re strengthening our presence in Alabama through new investments and community support.",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
@@ -2632,12 +3229,28 @@
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Visual Language Models Train Robots to Read Human Emotions",
+      "url": "https://spectrum.ieee.org/robot-emotions-visual-language-models",
+      "summary": "This article is part of our exclusive IEEE Journal Watch series in partnership with IEEE Xplore. As robots advance in terms of dexterity and other physical capabilities, it becomes more likely that humans may find themselves working alongside them. If that happens, how will robot",
+      "published_at": "2026-06-13T13:00:01+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "GitHub Blog",
       "title": "How we made GitHub Copilot CLI more selective about delegation",
       "url": "https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/",
       "summary": "Better orchestration, fewer handoffs, faster progress, without a single new knob. The post How we made GitHub Copilot CLI more selective about delegation appeared first on The GitHub Blog.",
       "published_at": "2026-06-12T22:26:23+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Award-Winning Researcher Trains Robots to Make Educated Guesses",
+      "url": "https://spectrum.ieee.org/researcher-trains-robots-to-guess",
+      "summary": "Yen-Ling Kuo always wanted to understand how things worked. When she was growing up in Taiwan, reading the story of Michael Faraday in elementary school piqued her curiosity about the natural world. During that time, she was introduced to Logo, a computer program with a turtle cu",
+      "published_at": "2026-06-12T18:00:01+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "Google Research Blog",
@@ -2654,6 +3267,14 @@
       "summary": "Climate & Sustainability",
       "published_at": "2026-06-12T17:37:00+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Video Friday: Robotic Motion Discovery Reveals Unusual Behaviors",
+      "url": "https://spectrum.ieee.org/video-friday-humanoid-loco-manipulation",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.RSS 2026: 13–17 July 2026, SYDNEYSum",
+      "published_at": "2026-06-12T17:00:02+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "OpenAI News",
@@ -2726,6 +3347,14 @@
       "summary": "Companies Will Launch a Joint Development Program to Create New IP; Lionsgate Has Taken an Equity Interest in Runway",
       "published_at": "2026-06-11T10:10:10.110000+00:00",
       "first_seen_at": "2026-07-17T22:09:48.333674+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Defining Autonomy for Wellness Robots in Senior Care",
+      "url": "https://content.knowledgehub.wiley.com/wellness-robots-and-the-path-to-full-autonomy-a-new-paradigm-in-ai-powered-senior-care/",
+      "summary": "An examination of how socially assistive wellness robots could support the seven dimensions of senior wellness, and how a framework can measure their autonomy.What Attendees will LearnWhy the senior care crisis exceeds incremental automation. Demographic pressure, workforce short",
+      "published_at": "2026-06-11T10:00:01+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "Anthropic News",
@@ -2816,6 +3445,14 @@
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
     },
     {
+      "source": "No Priors Podcast",
+      "title": "Biohub: The Future of Biology is Open-Source with Co-Founders Mark Zuckerberg, Priscilla Chan, and Head of Science Alex Rives",
+      "url": "https://traffic.megaphone.fm/PDP2294664679.mp3",
+      "summary": "Biohub started with an ambitious goal of curing, preventing, and managing all disease by the end of the century. A decade later, thanks to the convergence of frontier AI and biological data, that goal may have been too conservative. In this episode, Elad Gil and Sarah Guo sit dow",
+      "published_at": "2026-06-10T13:00:00+00:00",
+      "first_seen_at": "2026-08-04T09:31:17.915428+00:00"
+    },
+    {
       "source": "OpenAI News",
       "title": "PRC-linked influence operations are targeting AI debates in the US",
       "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
@@ -2870,6 +3507,22 @@
       "summary": "",
       "published_at": "2026-06-09T14:02:33+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Beyond Dexterity: Why Contact May Define the Next Era of Robotics",
+      "url": "https://spectrum.ieee.org/agilink-contact-intelligence-robot-manipulation",
+      "summary": "This article is brought to you by AGILINK.Throughout the exhibition hall at the 2026 IEEE International Conference on Robotics (ICRA), in Vienna, one demonstration seemed to attract a disproportionate amount of attention.Two robotic hands were making a balloon dog. Slowly and del",
+      "published_at": "2026-06-09T12:51:03+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "title": "How JPL Keeps the 13-Year-Old Curiosity Rover Doing Science",
+      "url": "https://spectrum.ieee.org/curiosity-rover-jpl-mars-science",
+      "summary": "Thirteen years ago last August, I was camped out in NASA’s Jet Propulsion Laboratory press room in Pasadena, Calif., waiting to see whether the Curiosity rover would survive its descent and skycrane-assisted landing on the surface of Mars. It did, and it was awesome.Since then, C",
+      "published_at": "2026-06-09T12:00:02+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "OpenAI News",
@@ -2968,6 +3621,14 @@
       "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
     },
     {
+      "source": "IEEE Spectrum Robotics",
+      "title": "Video Friday: Watch This Running Robot Not Fall Down Stairs",
+      "url": "https://spectrum.ieee.org/video-friday-humanoid-robot-running",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.RSS 2026: 13–17 July 2026, SYDNEYSum",
+      "published_at": "2026-06-05T15:30:01+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "Google AI Blog",
       "title": "The latest AI news we announced in May 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
@@ -3008,6 +3669,22 @@
       "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
     },
     {
+      "source": "Dwarkesh Podcast",
+      "title": "Alex Imas and Phil Trammell – What remains scarce after AGI?",
+      "url": "https://www.dwarkesh.com/p/alex-imas-phil-trammell",
+      "summary": "“One robot now turns into many robots next year, but the number of ballerinas is the same.”",
+      "published_at": "2026-06-04T16:14:49+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "AI + a16z",
+      "title": "Building Search for AI Agents with Exa CEO Will Bryk",
+      "url": "https://ai-a16z.simplecast.com/episodes/building-search-for-ai-agents-with-exa-ceo-will-bryk-O7xRJK9R",
+      "summary": "Sarah Wang speaks with Exa cofounder and CEO Will Bryk about building search infrastructure for the AI era. The conversation covers Exa’s origins, why traditional search engines were not designed for AI agents, and how search changes when the user is no longer a human but an auto",
+      "published_at": "2026-06-04T14:53:51+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "OpenAI News",
       "title": "How Endava is redesigning software delivery around AI agents",
       "url": "https://openai.com/index/endava-frontiers",
@@ -3022,6 +3699,14 @@
       "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
       "published_at": "2026-06-04T09:00:00+00:00",
       "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
+    },
+    {
+      "source": "No Priors Podcast",
+      "title": "We Need An Ecosystem in AI, And Every Company Can Win A Place In It",
+      "url": "https://traffic.megaphone.fm/PDP8130248763.mp3",
+      "summary": "What does it mean for a business to truly operate at the AI frontier? In a special crossover episode at Microsoft Build, Sarah Guo and Elad Gil team up with Latent Space host “swyx” to talk with Microsoft Chairman and CEO Satya Nadella about the future of AI platforms, software d",
+      "published_at": "2026-06-04T07:00:00+00:00",
+      "first_seen_at": "2026-08-04T09:31:17.915428+00:00"
     },
     {
       "source": "OpenAI News",
@@ -3142,6 +3827,14 @@
       "summary": "Enterprise customers can now manage multiple Cursor teams from one place, with different security, governance, budget, and feature controls for each. These capabilities are now generally available to all Enterprise customers.",
       "published_at": "2026-06-03T00:00:00+00:00",
       "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
+    },
+    {
+      "source": "AI + a16z",
+      "title": "AI Agents and the Fight for Customer Data",
+      "url": "https://ai-a16z.simplecast.com/episodes/ai-agents-and-the-fight-for-customer-data-oTfoFpTX",
+      "summary": "Martin Casado speaks with George Fraser, cofounder and CEO of Fivetran, about the future of data infrastructure in the age of AI. The conversation covers Fivetran’s merger with dbt, the changing role of data platforms, and why Fraser believes many companies are overestimating the",
+      "published_at": "2026-06-02T16:50:49+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -3304,6 +3997,14 @@
       "first_seen_at": "2026-07-31T22:19:57.302179+00:00"
     },
     {
+      "source": "IEEE Spectrum Robotics",
+      "title": "This DIY Bipedal Robot Used Pneumatic “Air-Muscles” Instead of Motors",
+      "url": "https://spectrum.ieee.org/shadow-walker-biped-humanoid-robot",
+      "summary": "In 1987, Richard Greenhill, a British photographer who was fascinated by (but had no actual training in) robotics, decided he wanted to build a life-size humanoid that could do useful things, like carrying luggage. He was working at a startup called Intergalactic Robots, but he c",
+      "published_at": "2026-05-31T13:00:01+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
       "source": "Google AI Blog",
       "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
       "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
@@ -3320,708 +4021,20 @@
       "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
     },
     {
-      "source": "OpenAI News",
-      "title": "Boston Children’s uses AI to unlock new diagnoses",
-      "url": "https://openai.com/index/boston-childrens-hospital",
-      "summary": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
-      "published_at": "2026-05-29T12:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Braintrust turns customer requests into code with Codex",
-      "url": "https://openai.com/index/braintrust",
-      "summary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
-      "published_at": "2026-05-29T12:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Check out real-life AI prototypes from the Futures Lab.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
-      "summary": "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
-      "published_at": "2026-05-29T12:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Strengthening societal resilience with Rosalind Biodefense",
-      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
-      "summary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
-      "published_at": "2026-05-29T03:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "A shared playbook for trustworthy third party evaluations",
-      "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
-      "summary": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
-      "published_at": "2026-05-29T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
-      "url": "https://huggingface.co/blog/torch-profiler",
-      "summary": "",
-      "published_at": "2026-05-29T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "title": "Auto-review Run Mode",
-      "url": "https://cursor.com/changelog/auto-review",
-      "summary": "Auto-review is a new run mode that allows Cursor to work for longer with fewer approval prompts and safer execution.",
-      "published_at": "2026-05-29T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "title": "A New Era of Discovery: Google Research at I/O 2026",
-      "url": "https://research.google/blog/a-new-era-of-innovation-google-research-at-io-2026/",
-      "summary": "General Science",
-      "published_at": "2026-05-28T20:58:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Catch up on 12 major I/O 2026 moments",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
-      "summary": "The colorful I/O logo against a black background, surrounded by stills from the I/O keynote",
-      "published_at": "2026-05-28T15:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Blog",
-      "title": "NVIDIA Research Advances Robotics From Simulation to the Real World",
-      "url": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
-      "summary": "Robotics is entering a new phase: moving from controlled demos and scripted automation toward generalizable, reliable embodied autonomy in the real world. At the International Conference on Robotics and Automation (ICRA), eight of NVIDIA Research’s 28 accepted papers show how sim",
-      "published_at": "2026-05-28T13:00:51+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Endava builds an agentic organization with Codex",
-      "url": "https://openai.com/index/endava",
-      "summary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
-      "published_at": "2026-05-28T12:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI’s Frontier Governance Framework",
-      "url": "https://openai.com/index/openai-frontier-governance-framework",
-      "summary": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
-      "published_at": "2026-05-28T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "title": "Private analytics via zero-trust aggregation",
-      "url": "https://research.google/blog/private-analytics-via-zero-trust-aggregation/",
-      "summary": "Security, Privacy and Abuse Prevention",
-      "published_at": "2026-05-27T16:56:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
-      "url": "https://openai.com/index/cisco",
-      "summary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
-      "published_at": "2026-05-27T11:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Runway",
-      "title": "Introducing Runway MCP",
-      "url": "https://runwayml.com/news/company-news/mcp",
-      "summary": "You can now generate images and videos in any MCP-compatible agent without ever leaving your workflow.",
-      "published_at": "2026-05-27T10:00:00+00:00",
-      "first_seen_at": "2026-07-17T22:09:48.333674+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Building self-improving tax agents with Codex",
-      "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
-      "summary": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
-      "published_at": "2026-05-27T07:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Election information and safeguards in 2026",
-      "url": "https://openai.com/index/election-safeguards-2026",
-      "summary": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency",
-      "published_at": "2026-05-27T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Warp’s big bet on building open source with GPT-5.5",
-      "url": "https://openai.com/index/warp",
-      "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
-      "published_at": "2026-05-27T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Reachy Mini goes fully local",
-      "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
-      "summary": "",
-      "published_at": "2026-05-27T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
-      "url": "https://huggingface.co/blog/delta-weight-sync",
-      "summary": "",
-      "published_at": "2026-05-27T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Runway",
-      "title": "Project Luxo: Crossing the Uncanny Valley of AI Media",
-      "url": "https://runwayml.com/news/company-news/project-luxo",
-      "summary": "Today we're sharing early evidence of a shift we believe will reshape how media is made: AI-generated video is beginning to cross the uncanny valley.",
-      "published_at": "2026-05-26T00:00:00",
-      "first_seen_at": "2026-07-17T22:09:48.333674+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "AI is becoming a first hire for small businesses",
-      "url": "https://openai.com/index/ai-first-hire-small-business",
-      "summary": "New research shows how 4 million Americans use ChatGPT to start, run, and grow small businesses, lowering the cost of entrepreneurship with AI.",
-      "published_at": "2026-05-25T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
-      "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
-      "summary": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
-      "published_at": "2026-05-25T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
-      "url": "https://huggingface.co/blog/agent-glossary",
-      "summary": "",
-      "published_at": "2026-05-25T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "Catch up on the Dialogues stage at Google I/O 2026.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
-      "summary": "Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage",
-      "published_at": "2026-05-22T18:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
-      "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
-      "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
-      "published_at": "2026-05-22T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Virgin Atlantic ships faster with Codex",
-      "url": "https://openai.com/index/virgin-atlantic",
-      "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
-      "published_at": "2026-05-22T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
-      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
-      "summary": "",
-      "published_at": "2026-05-21T19:46:42+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "AdventHealth advances whole-person care with OpenAI",
-      "url": "https://openai.com/index/adventhealth",
-      "summary": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
-      "published_at": "2026-05-21T12:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "We’re announcing new community investments in Missouri.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
-      "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
-      "published_at": "2026-05-20T20:40:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "100 things we announced at I/O 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
-      "summary": "Image with the words \"Ready, Set, I/O\" and a colorful Gemini logo",
-      "published_at": "2026-05-20T19:30:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "A new experiment brings better group meetings to Google Beam",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
-      "summary": "A small group meeting featuring two in-room participants and three participants on-screen.",
-      "published_at": "2026-05-20T16:45:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How Ramp engineers accelerate code review with Codex",
-      "url": "https://openai.com/index/ramp",
-      "summary": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
-      "published_at": "2026-05-20T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
-      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "published_at": "2026-05-20T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
-      "summary": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
-      "published_at": "2026-05-20T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "title": "Shared Canvases and /loop Skill",
-      "url": "https://cursor.com/changelog/shared-canvases",
-      "summary": "You can now share canvases from Cursor with your team.",
-      "published_at": "2026-05-20T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "title": "Improvements to Cursor Automations",
-      "url": "https://cursor.com/changelog/05-20-26",
-      "summary": "This release brings Cursor Automations to the Agents Window and introduces the ability to configure automations with multiple attached repos or no repos at all.",
-      "published_at": "2026-05-20T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Introducing OpenAI for Singapore",
-      "url": "https://openai.com/index/introducing-openai-for-singapore",
-      "summary": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
-      "published_at": "2026-05-19T20:30:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
-      "summary": "",
-      "published_at": "2026-05-19T18:38:09+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "title": "Empirical Research Assistance (ERA): From Nature publication to catalyzing Computational Discovery",
-      "url": "https://research.google/blog/empirical-research-assistance-era-from-nature-publication-to-catalyzing-computational-discovery/",
-      "summary": "General Science",
-      "published_at": "2026-05-19T17:52:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
-      "url": "https://openai.com/index/advancing-content-provenance",
-      "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
-      "published_at": "2026-05-19T10:45:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Introducing the Ettin Reranker Family",
-      "url": "https://huggingface.co/blog/ettin-reranker",
-      "summary": "",
-      "published_at": "2026-05-19T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "title": "Cursor in Jira",
-      "url": "https://cursor.com/changelog/05-19-26",
-      "summary": "Cursor is now available in Jira.",
-      "published_at": "2026-05-19T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Fast-tracking genetic leads to reverse cellular aging",
-      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
-      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
-      "published_at": "2026-05-18T18:21:39+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
-      "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
-      "summary": "",
-      "published_at": "2026-05-18T15:12:46+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
-      "url": "https://openai.com/index/dell-codex-enterprise-partnership",
-      "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
-      "published_at": "2026-05-18T10:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "title": "Composer 2.5",
-      "url": "https://cursor.com/changelog/composer-2-5",
-      "summary": "Composer 2.5 is now available in Cursor.",
-      "published_at": "2026-05-18T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Runway",
-      "title": "Why Distributed Training Is Hard: DTensor, Correctness and the Costs of Abstraction",
-      "url": "https://runwayml.com/news/engineering/dtensor-distributed-training",
-      "summary": "",
-      "published_at": "2026-05-18T00:00:00",
-      "first_seen_at": "2026-07-17T22:09:48.333674+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Simulate real-world places with Project Genie and Street View",
-      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
-      "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
-      "published_at": "2026-05-17T19:53:18+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Introducing Gemini Omni",
-      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
-      "summary": "",
-      "published_at": "2026-05-17T19:50:57+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Introducing Google Antigravity 2.0",
-      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
-      "summary": "",
-      "published_at": "2026-05-17T19:43:45+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
-      "url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/",
-      "summary": "A collection of science tools and experiments to expand the scale and precision of scientific exploration.",
-      "published_at": "2026-05-17T13:50:34+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Making it easier to understand how content was created and edited",
-      "url": "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/",
-      "summary": "We're expanding our tools to help you understand how content was created and edited across the web.",
-      "published_at": "2026-05-17T13:43:50+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Strengthening Singapore’s AI Future: A New National Partnership",
-      "url": "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/",
-      "summary": "Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more.",
-      "published_at": "2026-05-16T09:13:34+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Finding the molecular switches behind new infectious diseases",
-      "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
-      "summary": "Clare Bryant uses Co-Scientist to identify genetic triggers in emerging infectious diseases.",
-      "published_at": "2026-05-16T08:16:06+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Opening new paths in aging research",
-      "url": "https://deepmind.google/blog/opening-new-paths-in-aging-research/",
-      "summary": "Calico Life Sciences uses Co-Scientist to connect scattered findings and generate new leads in aging research.",
-      "published_at": "2026-05-16T08:08:44+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Accelerating discovery of liver disease mechanisms",
-      "url": "https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/",
-      "summary": "Filippo Menolascina uses Co-Scientist to identify new liver disease treatments and explain why existing drugs only help certain patients.",
-      "published_at": "2026-05-16T08:00:15+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Uniting biological toolkits for a new approach to ALS",
-      "url": "https://deepmind.google/blog/uniting-biological-toolkits-for-a-new-approach-to-als/",
-      "summary": "Co-Scientist unites Boston Children’s Hospital and MIT’s labs to explore new RNA-based treatments for ALS.",
-      "published_at": "2026-05-16T07:53:11+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Uncovering repurposed medicines to fight liver fibrosis",
-      "url": "https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/",
-      "summary": "Stanford geneticist uses Co-Scientist to help find new treatments for chronic liver disease and liver fibrosis.",
-      "published_at": "2026-05-16T07:40:27+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "How WeatherNext helped the National Hurricane Center better predict Hurricane Melissa’s historic landfall in Jamaica",
-      "url": "https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/",
-      "summary": "Learn how our WeatherNext AI model help forecasters give communities unprecedented time to prepare ahead of the historic Hurricane Melissa.",
-      "published_at": "2026-05-16T03:14:17+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
-      "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
-      "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
-      "published_at": "2026-05-16T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Gemini 3.5: frontier intelligence with action",
-      "url": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/",
-      "summary": "Gemini 3.5 is built to help you execute complex, agentic workflows.",
-      "published_at": "2026-05-15T22:50:12+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
-      "url": "https://openai.com/index/databricks",
-      "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
-      "published_at": "2026-05-15T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "A new personal finance experience in ChatGPT",
-      "url": "https://openai.com/index/personal-finance-chatgpt",
-      "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
-      "published_at": "2026-05-15T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How business operations teams use ChatGPT Work",
-      "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
-      "summary": "See how business operations teams can use ChatGPT Work to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs",
-      "published_at": "2026-05-15T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Sea's View on the Future of Agentic Software Development with Codex",
-      "url": "https://openai.com/index/sea-david-chen",
-      "summary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
-      "published_at": "2026-05-14T20:30:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
-      "summary": "",
-      "published_at": "2026-05-14T18:55:01+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Work with Codex from anywhere",
-      "url": "https://openai.com/index/work-with-codex-from-anywhere",
-      "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
-      "published_at": "2026-05-14T13:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Helping ChatGPT better recognize context in sensitive conversations",
-      "url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
-      "summary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
-      "published_at": "2026-05-14T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Unlocking asynchronicity in continuous batching",
-      "url": "https://huggingface.co/blog/continuous_async",
-      "summary": "",
-      "published_at": "2026-05-14T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Building a safe, effective sandbox to enable Codex on Windows",
-      "url": "https://openai.com/index/building-codex-windows-sandbox",
-      "summary": "Learn how OpenAI built a safe, effective sandbox to enable Codex on Windows with controlled file access and network limits.",
-      "published_at": "2026-05-13T11:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Our response to the TanStack npm supply chain attack",
-      "url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
-      "summary": "OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenAI apps by June 12, 2026. Learn what happened, what was affected, and how OpenAI ",
-      "published_at": "2026-05-13T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "title": "Full-screen Tabs and Compact Chats",
-      "url": "https://cursor.com/changelog/3-4",
-      "summary": "This release introduces quality-of-life improvements to the Agents Window .",
-      "published_at": "2026-05-13T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "title": "Development environments for cloud agents",
-      "url": "https://cursor.com/changelog/05-13-26",
-      "summary": "To take engineering tasks from start to finish, agents need a development environment similar to the setup on your laptop: cloned repositories, installed dependencies, credentials for internal toolchains, and access to build systems.",
-      "published_at": "2026-05-13T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How finance teams use ChatGPT Work",
-      "url": "https://openai.com/academy/how-finance-teams-use-codex",
-      "summary": "See how finance teams can use ChatGPT Work to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
-      "published_at": "2026-05-12T15:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Co-Scientist: A multi-agent AI partner to accelerate research",
-      "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
-      "summary": "Introducing Co-Scientist, a collaborative AI partner built with Gemini to help researchers accelerate scientific breakthroughs.",
-      "published_at": "2026-05-12T14:40:07+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "AutoScout24 scales engineering with AI-powered workflows",
-      "url": "https://openai.com/index/autoscout24",
-      "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
-      "published_at": "2026-05-12T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "url": "https://openai.com/index/nvidia",
-      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
-      "published_at": "2026-05-12T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "What Parameter Golf taught us about AI-assisted research",
-      "url": "https://openai.com/index/what-parameter-golf-taught-us",
-      "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
-      "published_at": "2026-05-12T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "title": "Cursor in Microsoft Teams",
-      "url": "https://cursor.com/changelog/microsoft-teams",
-      "summary": "Cursor is now available in Microsoft Teams.",
-      "published_at": "2026-05-11T23:59:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
-      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
-      "summary": "",
-      "published_at": "2026-05-11T23:18:26+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How ChatGPT adoption broadened in early 2026",
-      "url": "https://openai.com/signals/research/2026q1-update",
-      "summary": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
-      "published_at": "2026-05-11T15:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI Campus Network: Student club interest form",
-      "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-      "summary": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
-      "published_at": "2026-05-11T10:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "How enterprises are scaling AI",
-      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
-      "summary": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
-      "published_at": "2026-05-11T10:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
-      "url": "https://openai.com/index/openai-launches-the-deployment-company",
-      "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
-      "published_at": "2026-05-11T06:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "title": "Bugbot Effort Levels",
-      "url": "https://cursor.com/changelog/05-11-26",
-      "summary": "Teams admins and Individual plan users can now customize the effort level Bugbot uses for its PR reviews, with three different configurations:",
-      "published_at": "2026-05-11T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Runway",
-      "title": "Stop Writing YAML: Configuring ML Systems with confingy",
-      "url": "https://runwayml.com/news/engineering/stop-writing-yaml-configuring-ml-systems-with-confingy",
-      "summary": "",
-      "published_at": "2026-05-11T00:00:00",
-      "first_seen_at": "2026-07-17T22:09:48.333674+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Running Codex safely at OpenAI",
-      "url": "https://openai.com/index/running-codex-safely",
-      "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
-      "published_at": "2026-05-08T12:30:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
+      "source": "IEEE Spectrum Robotics",
+      "title": "Video Friday: Extreme Omnidirectional Robot",
+      "url": "https://spectrum.ieee.org/video-friday-rabona-soccer",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.ICRA 2026: 1–5 June 2026, VIENNARSS ",
+      "published_at": "2026-05-29T17:00:01+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
+    },
+    {
+      "source": "Lex Fridman Podcast",
+      "title": "#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE – Don Lincoln",
+      "url": "https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln",
+      "summary": "Don Lincoln is a particle physicist at Fermilab who has spent decades working at the frontiers of high energy physics. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep497-sc See below for timestamps, and to give feedback, submit questions, cont",
+      "published_at": "2026-05-29T16:22:02+00:00",
+      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     }
   ]
 }
