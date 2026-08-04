@@ -1,4 +1,5 @@
 """Offline tests for RSS source configuration and page date extraction."""
+import re
 import unittest
 from unittest.mock import MagicMock, patch
 
@@ -92,6 +93,45 @@ class SourceConfigurationTests(unittest.TestCase):
             "Agility Robotics",
             "AgiBot News",
         }.issubset(labels))
+
+    def test_required_youtube_sources_are_configured(self):
+        labels = {source[0] for source in fetch_rss.YOUTUBE_FEEDS}
+        self.assertEqual(labels, {
+            "IEEE Spectrum Robotics YouTube",
+            "The Robot Report YouTube",
+            "Figure AI YouTube",
+            "Boston Dynamics YouTube",
+            "Unitree YouTube",
+            "Agility Robotics YouTube",
+            "1X Technologies YouTube",
+            "Tesla AI / Optimus YouTube",
+            "AgiBot YouTube",
+            "NVIDIA Robotics YouTube",
+            "Lex Fridman YouTube",
+            "No Priors YouTube",
+            "a16z AI YouTube",
+            "Dwarkesh Podcast YouTube",
+            "Latent Space YouTube",
+        })
+
+    def test_youtube_channel_ids_and_labels_are_unique(self):
+        labels = [source[0] for source in fetch_rss.YOUTUBE_FEEDS]
+        channel_ids = [source[1] for source in fetch_rss.YOUTUBE_FEEDS]
+        self.assertEqual(len(labels), len(set(labels)))
+        self.assertEqual(len(channel_ids), len(set(channel_ids)))
+        self.assertTrue(all(
+            re.fullmatch(r"UC[A-Za-z0-9_-]{22}", channel_id)
+            for channel_id in channel_ids
+        ))
+
+    def test_broad_youtube_channel_filter(self):
+        items = [
+            {"title": "Atlas humanoid robot update", "summary": ""},
+            {"title": "A new electric car paint color", "summary": ""},
+        ]
+        kept = fetch_rss.filter_youtube_items(items, r"\brobot\b|\bhumanoid\b")
+        self.assertEqual(kept, [items[0]])
+        self.assertIs(fetch_rss.filter_youtube_items(items, None), items)
 
     def test_source_labels_and_urls_are_unique(self):
         labels = [label for label, _ in fetch_rss.FEEDS]

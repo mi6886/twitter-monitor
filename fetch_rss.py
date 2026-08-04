@@ -25,12 +25,12 @@ UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 
 DATA_DIR = Path(__file__).parent / "data"
 OUT_FILE = DATA_DIR / "rss-latest.json"
-MAX_ITEMS = 500          # rolling cap (across RSS + sitemap sources)
+MAX_ITEMS = 500          # rolling cap (across RSS + YouTube + sitemap sources)
 MAX_ITEMS_PER_FEED = 50  # prevent deep podcast archives from crowding the pool
 SUMMARY_MAX = 280        # chars
 
 # (label, feed_url) — native-RSS official sources only (verified 2026-08-04).
-# X & YouTube excluded on purpose (X already covered by the tweet pipeline).
+# X is covered by the tweet pipeline; YouTube feeds are configured separately.
 FEEDS = [
     ("OpenAI News",              "https://openai.com/news/rss.xml"),
     ("OpenAI Developer Blog",    "https://developers.openai.com/rss.xml"),
@@ -55,6 +55,33 @@ FEEDS = [
     ("Dwarkesh Podcast",          "https://www.dwarkesh.com/feed"),
     ("Latent Space",              "https://www.latent.space/feed"),
     # Product Hunt removed 2026-07-10 per user request (too noisy for 官方源).
+]
+
+YOUTUBE_FEED_BASE = "https://www.youtube.com/feeds/videos.xml?channel_id="
+
+# (label, official channel ID, optional relevance filter). Dedicated AI and
+# robotics channels are kept whole; broad publisher channels are filtered so
+# unrelated corporate/product videos do not crowd the dashboard.
+YOUTUBE_FEEDS = [
+    ("IEEE Spectrum Robotics YouTube", "UCFQDtftsHGzSh1-TReNT4lA",
+     r"\brobot(?:ics?|s)?\b|\bhumanoid\b|\bautomation\b|\bdrone\b|video friday"),
+    ("The Robot Report YouTube",       "UCFvPK74I5Hd5eVzZ_5t6FbQ", None),
+    ("Figure AI YouTube",              "UCYlq-KmwPjc1DtsGmthFqSQ", None),
+    ("Boston Dynamics YouTube",        "UC7vVhkEfw4nOGp8TyDk7RcQ", None),
+    ("Unitree YouTube",                "UCsMbp4V8oxzHCMdOUP-3oWw", None),
+    ("Agility Robotics YouTube",       "UCN-StetwWuVYf-MU2_NVj4A", None),
+    ("1X Technologies YouTube",        "UCoHslVexR2q57wUoCRfdUsg", None),
+    ("Tesla AI / Optimus YouTube",     "UC5WjFrtBdufl6CZojX3D8dQ",
+     r"\bai\b|\brobot(?:ics?|s)?\b|\boptimus\b|\bautonom(?:y|ous)\b|\bfsd\b|self-driving"),
+    ("AgiBot YouTube",                 "UCuKcqTxz_fe1PbrsIAQXr5A", None),
+    ("NVIDIA Robotics YouTube",        "UCHuiy8bXnmK5nisYHUd1J5g",
+     r"\brobot(?:ics?|s)?\b|\bphysical ai\b|\bisaac\b|\bgr00t\b|\bhumanoid\b|\bjetson\b"),
+    ("Lex Fridman YouTube",            "UCSHZKyawb77ixDdsGog4iWA", None),
+    ("No Priors YouTube",              "UCSI7h9hydQ40K5MJHnCrQvw", None),
+    ("a16z AI YouTube",                "UC9cn0TuPq4dnbTY-CBsm8XA",
+     r"\bai\b|\bagent(?:ic|s)?\b|\bllm\b|\bmodels?\b|\binference\b|\bmachine learning\b|\brobot(?:ics?|s)?\b"),
+    ("Dwarkesh Podcast YouTube",       "UCXl4i9dYBrFOabk0xGmbkRA", None),
+    ("Latent Space YouTube",           "UCxBcwypKK-W3GHd_RZ9FZrQ", None),
 ]
 
 # Sources with NO native RSS — monitored via sitemap diff.
@@ -153,6 +180,20 @@ def fetch_feed(label: str, url: str) -> list[dict]:
         })
     print(f"  {label}: {len(items)} items")
     return items
+
+
+def filter_youtube_items(items: list[dict], include_pattern: str | None) -> list[dict]:
+    """Keep topic-relevant entries from broad YouTube publisher channels."""
+    if not include_pattern:
+        return items
+    return [
+        item for item in items
+        if re.search(
+            include_pattern,
+            f"{item.get('title', '')} {item.get('summary', '')}",
+            re.IGNORECASE,
+        )
+    ]
 
 
 def http_get(url: str, timeout: int = 15, retries: int = 2) -> str:
@@ -371,6 +412,15 @@ def main() -> int:
     fresh = []
     for label, url in FEEDS:
         fresh.extend(fetch_feed(label, url))
+
+    print(f"\nFetching {len(YOUTUBE_FEEDS)} YouTube feeds...")
+    for label, channel_id, include_pattern in YOUTUBE_FEEDS:
+        items = fetch_feed(label, f"{YOUTUBE_FEED_BASE}{channel_id}")
+        kept = filter_youtube_items(items, include_pattern)
+        if include_pattern:
+            print(f"  {label}: kept {len(kept)}/{len(items)} relevant videos")
+        fresh.extend(kept)
+
     for it in fresh:
         if it["url"] not in by_url:
             it["first_seen_at"] = now
@@ -407,6 +457,7 @@ def main() -> int:
         "count": len(merged),
         "new_count": new_count,
         "sources": [label for label, _ in FEEDS]
+                   + [source[0] for source in YOUTUBE_FEEDS]
                    + [s[0] for s in SITEMAP_SOURCES],
         "items": merged,
     }
