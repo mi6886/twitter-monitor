@@ -22,6 +22,7 @@
       --tag-google: #2563eb;
       --tag-nvidia: #65a30d;
       --tag-cursor: #ea580c;
+      --tag-china: #0891b2;
       --tag-robot: #dc2626;
       --tag-other: #475569;
     }
@@ -142,6 +143,7 @@
     .filter-btn[data-cat="google"].active { background: var(--tag-google); }
     .filter-btn[data-cat="nvidia"].active { background: #65a30d; }
     .filter-btn[data-cat="cursor"].active { background: var(--tag-cursor); }
+    .filter-btn[data-cat="china"].active  { background: var(--tag-china); }
     .filter-btn[data-cat="robot"].active  { background: var(--tag-robot); }
     .filter-btn[data-cat="other"].active  { background: var(--tag-other); }
 
@@ -217,6 +219,7 @@
     .tag-google  { background: rgba(37,99,235,0.1);  color: #2563eb; border: 1px solid rgba(37,99,235,0.25); }
     .tag-nvidia  { background: rgba(101,163,13,0.1); color: #65a30d; border: 1px solid rgba(101,163,13,0.25); }
     .tag-cursor  { background: rgba(234,88,12,0.1);  color: #ea580c; border: 1px solid rgba(234,88,12,0.25); }
+    .tag-china   { background: rgba(8,145,178,0.1);  color: #0e7490; border: 1px solid rgba(8,145,178,0.25); }
     .tag-robot   { background: rgba(220,38,38,0.1);  color: #dc2626; border: 1px solid rgba(220,38,38,0.25); }
     .tag-other   { background: rgba(71,85,105,0.1);  color: #475569; border: 1px solid rgba(71,85,105,0.25); }
 
@@ -389,6 +392,9 @@
     <button class="filter-btn" data-cat="cursor"  onclick="setFilter('cursor')">
       <span class="dot" style="background:#ea580c"></span> Cursor
     </button>
+    <button class="filter-btn" data-cat="china"   onclick="setFilter('china')">
+      <span class="dot" style="background:#0891b2"></span> 中国 AI
+    </button>
     <button class="filter-btn" data-cat="robot"   onclick="setFilter('robot')">
       <span class="dot" style="background:#dc2626"></span> 人形机器人
     </button>
@@ -433,6 +439,7 @@
     nvidia:  /nvidia|jensen\s*huang|dlss|rtx|cuda|blackwell|hopper/i,
     cursor:  /\bcursor\b/i,
     robot:   /humanoid|robot|figure\s*0[12]|optimus|atlas|boston\s*dynamics/i,
+    china:   /qwen|alibaba_qwen|通义千问|bytedance\s*seed|seedance|doubao|豆包|deepseek|kimi|moonshot|z\.ai|chatglm|glm-?\d|minimax|hailuo|海螺|kling|可灵|vidu|pixverse|trae|qoder|coze|扣子|manus/i,
   };
 
   function categorize(tweet) {
@@ -449,6 +456,7 @@
     google: { label: 'Google / Gemini',     cls: 'tag-google' },
     nvidia: { label: 'NVIDIA / Jensen',     cls: 'tag-nvidia' },
     cursor: { label: 'Cursor',             cls: 'tag-cursor' },
+    china:  { label: '中国 AI',             cls: 'tag-china'  },
     robot:  { label: '人形机器人',           cls: 'tag-robot'  },
     other:  { label: '其他 AI/Tech',        cls: 'tag-other'  },
   };
@@ -655,6 +663,7 @@
     if (s.includes('nvidia')) return 'nvidia';
     if (s.includes('cursor')) return 'cursor';
     if (/robot|figure|unitree|agibot|boston dynamics|ieee spectrum|1x technologies|tesla/.test(s)) return 'robot';
+    if (/qwen|bytedance seed|deepseek|kimi|z\.ai|glm|minimax|kling|vidu|pixverse|trae|qoder|coze|manus/.test(s)) return 'china';
     return 'other';
   }
 

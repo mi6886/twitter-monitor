@@ -87,6 +87,11 @@ ALL_ACCOUNTS = [
     "demishassabis", "UnitreeRobotics", "Figure_robot",
     # Added 2026-05-13: AI-pop-culture tweets author (often goes viral with AI+IP mashups)
     "Rixhabh__",
+    # Added 2026-08-05: official China AI product accounts from the source review.
+    # Kimi_Moonshot was already present above; handles here were verified from
+    # each product's official site or official X profile.
+    "Alibaba_Qwen", "deepseek_ai", "MiniMax__AI", "Kling_ai",
+    "ViduAI_official", "PixVerse_", "qoder_ai_ide", "manusai",
 ]
 ACCOUNTS_PER_BATCH = 10  # Small batches for reliable results
 

@@ -77,6 +77,16 @@ class HttpGetTests(unittest.TestCase):
 
         self.assertEqual(items[0]["source_type"], "youtube")
 
+    def test_curl_fallback_after_urllib_failures(self):
+        completed = MagicMock(stdout=b"<rss />")
+        with patch("fetch_rss.urllib.request.urlopen", side_effect=OSError("down")), \
+             patch("fetch_rss.time.sleep"), \
+             patch("fetch_rss.subprocess.run", return_value=completed) as run:
+            body = fetch_rss.http_get("https://example.com/feed", retries=0)
+
+        self.assertEqual(body, "<rss />")
+        run.assert_called_once()
+
 
 class SourceConfigurationTests(unittest.TestCase):
     def test_per_feed_limit_is_bounded(self):
@@ -105,6 +115,29 @@ class SourceConfigurationTests(unittest.TestCase):
             "Agility Robotics",
             "AgiBot News",
         }.issubset(labels))
+
+    def test_china_ai_first_batch_is_fully_configured(self):
+        expected = {
+            "Qwen Blog",
+            "ByteDance Seed Blog",
+            "DeepSeek News",
+            "Kimi Blog",
+            "Z.ai Release Notes",
+            "MiniMax Blog",
+            "Kling AI Updates",
+            "Vidu Product Updates",
+            "PixVerse Product Updates",
+            "TRAE Blog",
+            "Qoder Blog",
+            "Coze Changelog",
+            "Manus Blog",
+        }
+        configured = (
+            {source[0] for source in fetch_rss.SITEMAP_SOURCES}
+            | {source[0] for source in fetch_rss.LINK_SOURCES}
+            | {source[0] for source in fetch_rss.PAGE_SOURCES}
+        )
+        self.assertTrue(expected.issubset(configured))
 
     def test_required_youtube_sources_are_configured(self):
         labels = {source[0] for source in fetch_rss.YOUTUBE_FEEDS}
@@ -150,6 +183,76 @@ class SourceConfigurationTests(unittest.TestCase):
         urls = [url for _, url in fetch_rss.FEEDS]
         self.assertEqual(len(labels), len(set(labels)))
         self.assertEqual(len(urls), len(set(urls)))
+
+
+class WebsiteDiscoveryTests(unittest.TestCase):
+    def test_nested_sitemap_index_is_followed(self):
+        root = (
+            "<sitemapindex><sitemap><loc>https://example.com/articles.xml</loc>"
+            "</sitemap></sitemapindex>"
+        )
+        child = (
+            "<urlset><url><loc>https://example.com/blog/new-model</loc>"
+            "<lastmod>2026-08-01</lastmod></url></urlset>"
+        )
+
+        def fake_get(url, timeout=20):
+            return root if url.endswith("sitemap.xml") else child
+
+        with patch("fetch_rss.http_get", side_effect=fake_get):
+            entries = fetch_rss.sitemap_entries(
+                "https://example.com/sitemap.xml", "/blog/"
+            )
+
+        self.assertEqual(entries, [
+            ("https://example.com/blog/new-model", "2026-08-01T00:00:00"),
+        ])
+
+    def test_listing_extractor_handles_spa_routes_and_query_policy(self):
+        page = """
+        <a href='/blog/product-launch?tab=all'>Launch</a>
+        <a href='/blog/how-to-write-prompts'>Guide</a>
+        <script>button.href = '/blog?id=qwen3.8';</script>
+        """
+        with patch("fetch_rss.http_get", return_value=page):
+            product_urls = fetch_rss.listing_entries(
+                "https://example.com/blog",
+                r"^/blog/product-[A-Za-z0-9_-]+(?:\?[^#]+)?$",
+                keep_query=False,
+            )
+            qwen_urls = fetch_rss.listing_entries(
+                "https://example.com/blog",
+                r"^/blog\?id=[A-Za-z0-9._-]+$",
+                keep_query=True,
+            )
+
+        self.assertEqual(product_urls, ["https://example.com/blog/product-launch"])
+        self.assertEqual(qwen_urls, ["https://example.com/blog?id=qwen3.8"])
+
+    def test_page_signature_ignores_nonce_and_comments(self):
+        first = '<html nonce="random-a"><!-- built now --><h1>Update</h1></html>'
+        second = '<html nonce="random-b"><!-- built later --><h1>Update</h1></html>'
+        self.assertEqual(
+            fetch_rss.page_signature(first),
+            fetch_rss.page_signature(second),
+        )
+
+    def test_trim_items_keeps_each_represented_source(self):
+        items = [
+            {"source": "Busy", "url": f"https://busy/{i}",
+             "published_at": f"2026-08-{10 - i:02d}T00:00:00+00:00"}
+            for i in range(4)
+        ]
+        items.append({
+            "source": "Quiet",
+            "url": "https://quiet/important",
+            "published_at": "2025-01-01T00:00:00+00:00",
+        })
+
+        trimmed = fetch_rss.trim_items(items, 3)
+
+        self.assertEqual(len(trimmed), 3)
+        self.assertEqual({item["source"] for item in trimmed}, {"Busy", "Quiet"})
 
 
 if __name__ == "__main__":
