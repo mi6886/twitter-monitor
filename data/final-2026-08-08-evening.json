@@ -1,0 +1,1178 @@
+{
+  "date": "2026-08-08",
+  "period": "evening",
+  "fetched_at": "2026-08-08T11:25:47.030066+00:00",
+  "tier_counts": {
+    "must_do": 9,
+    "priority": 1,
+    "backup": 2
+  },
+  "tiers": {
+    "must_do": [
+      {
+        "tweet_id": "2085862292311396515",
+        "url": "https://x.com/sama/status/2085862292311396515",
+        "screen_name": "sama",
+        "created_at": "Fri Aug 07 22:54:58 +0000 2026",
+        "full_text": "astra is a powerful model and we are working to make it generally available.\n\nwe do not think it is a good strategy to keep powerful models to a chosen few.\n\ngiven its cyber capabilities, we need a little big longer to do do this safely. but hopefully not too long!",
+        "lang": "en",
+        "favorite_count": 20585,
+        "retweet_count": 921,
+        "reply_count": 1354,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2085862292311396515",
+        "summary": "OpenAI CEO Sam Altman宣布Astra模型强大，正推进通用可用，因网络安全需谨慎推出。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "有人物/团队故事",
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 15,
+        "emotion": "未来感/想象",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 73,
+        "verdict": "keep",
+        "angles": [
+          "Astra模型终于要开放了，Sam Altman最新声明",
+          "OpenAI强大模型Astra的安全考量与发布时间表",
+          "不再垄断强大AI，OpenAI的开放策略转变"
+        ]
+      },
+      {
+        "tweet_id": "2085632663902412985",
+        "url": "https://x.com/_avichawla/status/2085632663902412985",
+        "screen_name": "_avichawla",
+        "created_at": "Fri Aug 07 07:42:30 +0000 2026",
+        "full_text": "NVIDIA researchers did it again!\n\nThey found a way to make KV cache transferable between models.\n\nThe target model skips prefill entirely, and the conversion runs 2.7 to 25x faster than processing the context again.\n\nLet's understand why this is so important today.\n\nLLM APIs are https://t.co/r3lwhaMEqQ",
+        "lang": "en",
+        "favorite_count": 2016,
+        "retweet_count": 261,
+        "reply_count": 40,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.x.com/r3lwhaMEqQ",
+            "expanded_url": "https://x.com/_avichawla/status/2085632663902412985/video/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "id_str": "2085632654884708353",
+            "indices": [
+              280,
+              303
+            ],
+            "media_key": "13_2085632654884708353",
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2085632654884708353/img/xTVQtLm4YOB1cEoM.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1080,
+              "width": 1208
+            },
+            "sizes": {
+              "large": {
+                "h": 1080,
+                "w": 1208
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/r3lwhaMEqQ",
+            "video_info": {
+              "aspect_ratio": [
+                151,
+                135
+              ],
+              "duration_millis": 6000,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/2085632654884708353/pl/-sBy2b_xNwgRV2ge.m3u8?tag=14"
+                },
+                {
+                  "bitrate": 288000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2085632654884708353/vid/avc1/302x270/l5_OsvD95MeA7j_y.mp4?tag=14"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2085632654884708353/vid/avc1/402x360/0AGP8NhH6B179AMe.mp4?tag=14"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2085632654884708353/vid/avc1/804x720/SccFgKfm2qpJPymc.mp4?tag=14"
+                }
+              ]
+            }
+          }
+        ],
+        "id": "2085632663902412985",
+        "summary": "NVIDIA研究团队发现KV缓存可在模型间转移，使推理速度提升2.7-25倍，跳过预填充阶段。这是LLM推理优化的重大突破。",
+        "category": "单产品/技术叙事",
+        "category_points": 30,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "情绪=震撼/惊叹",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 70,
+        "verdict": "keep",
+        "angles": [
+          "NVIDIA突破：KV缓存跨模型转移，推理快25倍",
+          "LLM推理革命：跳过预填充，性能暴增的黑科技",
+          "为什么这项技术会改变AI API的未来成本"
+        ]
+      },
+      {
+        "tweet_id": "2085816921971150963",
+        "url": "https://x.com/Polymarket/status/2085816921971150963",
+        "screen_name": "Polymarket",
+        "created_at": "Fri Aug 07 19:54:41 +0000 2026",
+        "full_text": "JUST IN: Sergey Brin to reportedly take direct oversight of Gemini as Google restructures its AI leadership.",
+        "lang": "en",
+        "favorite_count": 3656,
+        "retweet_count": 203,
+        "reply_count": 158,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2085816921971150963",
+        "summary": "Google重组AI领导层，Sergey Brin接管Gemini项目，组织变动新闻",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "有人物/团队故事"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "未来感/想象",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 68,
+        "verdict": "keep",
+        "angles": [
+          "Sergey Brin亲自操刀，Google Gemini迎来大变局",
+          "Google AI权力重组：Brin接管Gemini意味着什么",
+          "硅谷教父回归，Google Gemini的新时代"
+        ]
+      },
+      {
+        "tweet_id": "2085805983440499060",
+        "url": "https://x.com/gdb/status/2085805983440499060",
+        "screen_name": "gdb",
+        "created_at": "Fri Aug 07 19:11:13 +0000 2026",
+        "full_text": "Evaluations of our next major model, Astra, indicate significant capability advancements in agentic coding and cybersecurity.\n\nTeam is doing the safety and security work to make Astra broadly available, and get its advanced cyber capabilities into the hands of defenders:",
+        "lang": "en",
+        "favorite_count": 3286,
+        "retweet_count": 129,
+        "reply_count": 217,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2085805983440499060",
+        "summary": "Anthropic宣布下一代模型Astra在代码编写和网络安全能力上有重大进展，正进行安全工作以广泛推出。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "震撼/惊叹",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 68,
+        "verdict": "keep",
+        "angles": [
+          "Anthropic新模型Astra首次亮相，代码能力突破",
+          "AI网络安全防御者工具，Astra能力解析",
+          "Claude之后的下一代：Astra如何改变编程"
+        ]
+      },
+      {
+        "tweet_id": "2085770109889737213",
+        "url": "https://x.com/higgsfield/status/2085770109889737213",
+        "screen_name": "higgsfield",
+        "created_at": "Fri Aug 07 16:48:40 +0000 2026",
+        "full_text": "33 Days of Unlimited Seedance 2.5\n\nSeedance 2.5 is LIVE on Higgsfield today.\n\nThe most capable video model yet, with 30-second scenes in a single pass, 50 references and production-ready editing.\n\nZero credit cost for 33 days. Limited-time offer. https://t.co/ldITD8TCHX",
+        "lang": "en",
+        "favorite_count": 2633,
+        "retweet_count": 366,
+        "reply_count": 189,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.x.com/ldITD8TCHX",
+            "expanded_url": "https://x.com/higgsfield/status/2085770109889737213/video/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "id_str": "2085769904922488834",
+            "indices": [
+              247,
+              270
+            ],
+            "media_key": "13_2085769904922488834",
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2085769904922488834/img/rSdw3S9FWQrq4Hi_.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1440,
+              "width": 2560
+            },
+            "sizes": {
+              "large": {
+                "h": 1152,
+                "w": 2048
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/ldITD8TCHX",
+            "video_info": {
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration_millis": 67484,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/2085769904922488834/pl/M2d2sstRdctVKAUA.m3u8"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2085769904922488834/vid/avc1/480x270/5y3LN2bcybknjxQb.mp4"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2085769904922488834/vid/avc1/640x360/M2owfdcZiymbG0Gf.mp4"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2085769904922488834/vid/avc1/1280x720/QJMXcH4lEqArXlrC.mp4"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2085769904922488834/vid/avc1/2560x1440/SKzZwXUAyXg-_o3L.mp4"
+                }
+              ]
+            }
+          }
+        ],
+        "id": "2085770109889737213",
+        "summary": "Seedance 2.5视频模型上线，支持30秒单次生成、50个参考、生产级编辑，限时33天免费。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "震撼/惊叹",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 68,
+        "verdict": "keep",
+        "angles": [
+          "Seedance 2.5发布：30秒一键生成视频，生产级质量",
+          "AI视频模型新天花板：50个参考、单次30秒无缝生成",
+          "限时33天免费试用Seedance 2.5，视频创作者必看"
+        ]
+      },
+      {
+        "tweet_id": "2085763555899404739",
+        "url": "https://x.com/NicHulscher/status/2085763555899404739",
+        "screen_name": "NicHulscher",
+        "created_at": "Fri Aug 07 16:22:37 +0000 2026",
+        "full_text": "BREAKING: Gates Foundation Funds First-Ever Creation of 16 Synthetic Viruses Using AI\n\nFor the first time ever, mad scientists used AI models to design entire viral genomes, physically manufacture them, and turn them into 16 new functional viruses capable of replicating.\n\nProject https://t.co/4ZZR4hk8ts",
+        "lang": "en",
+        "favorite_count": 2116,
+        "retweet_count": 1412,
+        "reply_count": 156,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.x.com/4ZZR4hk8ts",
+            "expanded_url": "https://x.com/NicHulscher/status/2085763555899404739/video/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "id_str": "2085763389079392256",
+            "indices": [
+              281,
+              304
+            ],
+            "media_key": "13_2085763389079392256",
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2085763389079392256/img/kRrfXPLou308u-J4.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 3840,
+              "width": 2160
+            },
+            "sizes": {
+              "large": {
+                "h": 2048,
+                "w": 1152
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/4ZZR4hk8ts",
+            "video_info": {
+              "aspect_ratio": [
+                9,
+                16
+              ],
+              "duration_millis": 96366,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/2085763389079392256/pl/h9FZNOK64c6hNL4M.m3u8?v=987"
+                },
+                {
+                  "bitrate": 632000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2085763389079392256/vid/avc1/320x568/GpslEyLrxIW4ZZdz.mp4"
+                },
+                {
+                  "bitrate": 950000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2085763389079392256/vid/avc1/480x852/9MFifXjZ_EQz0w2d.mp4"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2085763389079392256/vid/avc1/720x1280/iWA7MWD0kcpOJp3l.mp4"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2085763389079392256/vid/avc1/1080x1920/vUoHYXBiahosQHp2.mp4"
+                },
+                {
+                  "bitrate": 25128000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2085763389079392256/vid/avc1/2160x3840/0L_m2gsPNx8EHxpj.mp4"
+                }
+              ]
+            }
+          }
+        ],
+        "id": "2085763555899404739",
+        "summary": "盖茨基金会资助AI设计合成病毒项目，首次用AI模型设计完整病毒基因组并制造16种功能性病毒。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "震撼/惊叹",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 68,
+        "verdict": "keep",
+        "angles": [
+          "AI首次设计合成16种功能性病毒，盖茨基金会支持",
+          "震撼：AI已能从零设计完整病毒基因组",
+          "AI生物合成突破，16种新病毒诞生的背后"
+        ]
+      },
+      {
+        "tweet_id": "2085853169930957158",
+        "url": "https://x.com/ClaudeDevs/status/2085853169930957158",
+        "screen_name": "ClaudeDevs",
+        "created_at": "Fri Aug 07 22:18:43 +0000 2026",
+        "full_text": "We shipped four updates to Claude Managed Agents this week.\n\nFirst, you can now set a budget for sessions to keep spend predictable. Sessions that hit the limit pause with a budget_reached event, you can raise the budget to resume. https://t.co/0DUdGgFHzY",
+        "lang": "en",
+        "favorite_count": 3212,
+        "retweet_count": 178,
+        "reply_count": 131,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/0DUdGgFHzY",
+            "expanded_url": "https://x.com/ClaudeDevs/status/2085853169930957158/video/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "id_str": "2085852545315115008",
+            "indices": [
+              232,
+              255
+            ],
+            "media_key": "13_2085852545315115008",
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2085852545315115008/img/JyFip_QGk6-gcGL9.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1080,
+              "width": 1920
+            },
+            "sizes": {
+              "large": {
+                "h": 1080,
+                "w": 1920
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/0DUdGgFHzY",
+            "video_info": {
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration_millis": 36053,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/2085852545315115008/pl/7SVRk7o_Yfy7GkBf.m3u8?v=cfc"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2085852545315115008/vid/avc1/480x270/za-C9ho5hlW-Rcdy.mp4"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2085852545315115008/vid/avc1/640x360/m3uEaxwFBW2AbPb4.mp4"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2085852545315115008/vid/avc1/1280x720/b3dGNHtUN-5NEMGU.mp4"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2085852545315115008/vid/avc1/1920x1080/FdPbhHztW5_LxKMp.mp4"
+                }
+              ]
+            }
+          }
+        ],
+        "id": "2085853169930957158",
+        "summary": "Anthropic发布Claude Managed Agents四项更新，包括会话预算控制功能，可设置支出上限。",
+        "category": "效率工具推荐",
+        "category_points": 17,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 5,
+        "account_fit": "B型",
+        "account_bonus": 5,
+        "total_score": 60,
+        "verdict": "keep",
+        "angles": [
+          "Claude Agents新功能：预算控制让AI成本可控",
+          "4个Claude Managed Agents更新详解",
+          "AI代理成本焦虑解决方案"
+        ]
+      },
+      {
+        "tweet_id": "2085737107486642385",
+        "url": "https://x.com/rasbt/status/2085737107486642385",
+        "screen_name": "rasbt",
+        "created_at": "Fri Aug 07 14:37:32 +0000 2026",
+        "full_text": "Just saw that the LLMs-from-scratch repository passed 100,000 stars on GitHub!\nThis is super cool and motivating. I am really happy to see that this open-source repo has helped so many people. \nThanks also to everyone who shared ideas and opened PRs with improvements!\n\nOf course, https://t.co/LfkPna2rj7",
+        "lang": "en",
+        "favorite_count": 2488,
+        "retweet_count": 336,
+        "reply_count": 53,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/LfkPna2rj7",
+            "expanded_url": "https://x.com/rasbt/status/2085737107486642385/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2085736820487172096",
+            "indices": [
+              281,
+              304
+            ],
+            "media_key": "3_2085736820487172096",
+            "media_url_https": "https://pbs.twimg.com/media/HPIGlmgXMAAalo0.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1720,
+                  "w": 3072,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 3072,
+                  "w": 3072,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 3502,
+                  "w": 3072,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 4096,
+                  "w": 2048,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 4096,
+                  "w": 3072,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 4096,
+              "width": 3072
+            },
+            "sizes": {
+              "large": {
+                "h": 2048,
+                "w": 1536
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/LfkPna2rj7"
+          }
+        ],
+        "id": "2085737107486642385",
+        "summary": "Sebastian Raschka的LLMs-from-scratch开源项目突破10万GitHub星标，帮助众多学习者掌握大模型原理。",
+        "category": "资源分享",
+        "category_points": 20,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [],
+        "viral_signals_points": 0,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 5,
+        "account_fit": "B型",
+        "account_bonus": 5,
+        "total_score": 53,
+        "verdict": "keep",
+        "angles": [
+          "10万星标开源项目，LLM学习者必收藏",
+          "从零开始理解大模型，这个repo帮了多少人",
+          "开源项目破10万星，背后的社区力量"
+        ]
+      },
+      {
+        "tweet_id": "2085691343226224718",
+        "url": "https://x.com/_FORAB/status/2085691343226224718",
+        "screen_name": "_FORAB",
+        "created_at": "Fri Aug 07 11:35:41 +0000 2026",
+        "full_text": "太抽象了。日本 AV 女优花吹诗音，一直有想引退的想法，于是她之前在拍片的同时，偷偷学网页设计和编程。\n\n现在终于从行业引退了，但因账号是公司运营的，所以她那 2 万粉丝的大号被工作室收走，现在想从头发展新的事业，用 AI 大模型 Claude 给人做网页。。 https://t.co/eWGSgCJuKe",
+        "lang": "zh",
+        "favorite_count": 2047,
+        "retweet_count": 109,
+        "reply_count": 556,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "display_url": "pic.x.com/eWGSgCJuKe",
+            "expanded_url": "https://x.com/_FORAB/status/2085691343226224718/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2085689347718975488",
+            "indices": [
+              131,
+              154
+            ],
+            "media_key": "3_2085689347718975488",
+            "media_url_https": "https://pbs.twimg.com/media/HPHbaUqbEAAMxPU.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 515,
+                  "w": 920,
+                  "x": 0,
+                  "y": 715
+                },
+                {
+                  "h": 920,
+                  "w": 920,
+                  "x": 0,
+                  "y": 310
+                },
+                {
+                  "h": 1049,
+                  "w": 920,
+                  "x": 0,
+                  "y": 181
+                },
+                {
+                  "h": 1230,
+                  "w": 615,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1230,
+                  "w": 920,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1230,
+              "width": 920
+            },
+            "sizes": {
+              "large": {
+                "h": 1230,
+                "w": 920
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/eWGSgCJuKe"
+          },
+          {
+            "display_url": "pic.x.com/eWGSgCJuKe",
+            "expanded_url": "https://x.com/_FORAB/status/2085691343226224718/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2085691240839086080",
+            "indices": [
+              131,
+              154
+            ],
+            "media_key": "3_2085691240839086080",
+            "media_url_https": "https://pbs.twimg.com/media/HPHdIhFbgAAlamn.png",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 392,
+                  "w": 700,
+                  "x": 0,
+                  "y": 161
+                },
+                {
+                  "h": 700,
+                  "w": 700,
+                  "x": 0,
+                  "y": 7
+                },
+                {
+                  "h": 752,
+                  "w": 660,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 752,
+                  "w": 376,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 752,
+                  "w": 700,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 752,
+              "width": 700
+            },
+            "sizes": {
+              "large": {
+                "h": 752,
+                "w": 700
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/eWGSgCJuKe"
+          }
+        ],
+        "id": "2085691343226224718",
+        "summary": "日本AV女优花吹诗音通过学习编程和AI工具Claude实现职业转型，从行业引退后用AI大模型为客户做网页设计。展现AI赋能个人创业的故事。",
+        "category": "AI+行业应用",
+        "category_points": 15,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "有人物/团队故事",
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 20,
+        "emotion": "情绪=未来感/想象",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 53,
+        "verdict": "keep",
+        "angles": [
+          "从AV女优到AI创业者：Claude如何改变人生轨迹",
+          "她用AI大模型做网页设计，月入过万的新副业",
+          "职业转型启示录：编程+AI工具如何打开新世界"
+        ]
+      }
+    ],
+    "priority": [
+      {
+        "tweet_id": "2085801889866662326",
+        "url": "https://x.com/moisesgallo/status/2085801889866662326",
+        "screen_name": "moisesgallo",
+        "created_at": "Fri Aug 07 18:54:57 +0000 2026",
+        "full_text": "Los logos nuevos de los Ministerios están hechos con IA. \n\nNo se molestaron ni siquiera en esconder la estrella de 4 puntas de Gemini.\n\nPónganle un poco de amor poh. https://t.co/iPsJjh08yU",
+        "lang": "es",
+        "favorite_count": 2586,
+        "retweet_count": 312,
+        "reply_count": 45,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "display_url": "pic.x.com/iPsJjh08yU",
+            "expanded_url": "https://x.com/moisesgallo/status/2085801889866662326/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2085801869163532288",
+            "indices": [
+              166,
+              189
+            ],
+            "media_key": "3_2085801869163532288",
+            "media_url_https": "https://pbs.twimg.com/media/HPJBv7tWkAAnKgj.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 224,
+                  "w": 400,
+                  "x": 0,
+                  "y": 98
+                },
+                {
+                  "h": 400,
+                  "w": 400,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 400,
+                  "w": 351,
+                  "x": 49,
+                  "y": 0
+                },
+                {
+                  "h": 400,
+                  "w": 200,
+                  "x": 170,
+                  "y": 0
+                },
+                {
+                  "h": 400,
+                  "w": 400,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 400,
+              "width": 400
+            },
+            "sizes": {
+              "large": {
+                "h": 400,
+                "w": 400
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/iPsJjh08yU"
+          },
+          {
+            "display_url": "pic.x.com/iPsJjh08yU",
+            "expanded_url": "https://x.com/moisesgallo/status/2085801889866662326/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2085801874649722880",
+            "indices": [
+              166,
+              189
+            ],
+            "media_key": "3_2085801874649722880",
+            "media_url_https": "https://pbs.twimg.com/media/HPJBwQJXMAAVvlg.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1147,
+                  "w": 2048,
+                  "x": 0,
+                  "y": 399
+                },
+                {
+                  "h": 2048,
+                  "w": 2048,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 2048,
+                  "w": 1796,
+                  "x": 126,
+                  "y": 0
+                },
+                {
+                  "h": 2048,
+                  "w": 1024,
+                  "x": 512,
+                  "y": 0
+                },
+                {
+                  "h": 2048,
+                  "w": 2048,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 2048,
+              "width": 2048
+            },
+            "sizes": {
+              "large": {
+                "h": 2048,
+                "w": 2048
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/iPsJjh08yU"
+          },
+          {
+            "display_url": "pic.x.com/iPsJjh08yU",
+            "expanded_url": "https://x.com/moisesgallo/status/2085801889866662326/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2085801881884844032",
+            "indices": [
+              166,
+              189
+            ],
+            "media_key": "3_2085801881884844032",
+            "media_url_https": "https://pbs.twimg.com/media/HPJBwrGWYAAgJiI.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 2136,
+                  "w": 3815,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 3815,
+                  "w": 3815,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 4096,
+                  "w": 3593,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 4096,
+                  "w": 2048,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 4096,
+                  "w": 3815,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 4096,
+              "width": 3815
+            },
+            "sizes": {
+              "large": {
+                "h": 2048,
+                "w": 1908
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/iPsJjh08yU"
+          }
+        ],
+        "id": "2085801889866662326",
+        "summary": "智利政府新部委标志由AI生成，且未隐藏Gemini的4点星标志，引发质疑。",
+        "category": "AI+行业应用",
+        "category_points": 15,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "反常识/意外性"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "好奇/趣味",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 43,
+        "verdict": "keep",
+        "angles": [
+          "政府AI翻车：智利部委标志暴露Gemini水印",
+          "反常识：官方设计竟然懒到不隐藏AI工具痕迹",
+          "AI生成设计的尴尬时刻：政府部门的Gemini标志事件"
+        ]
+      }
+    ],
+    "backup": [
+      {
+        "tweet_id": "2085631366692037029",
+        "url": "https://x.com/softboywin/status/2085631366692037029",
+        "screen_name": "softboywin",
+        "created_at": "Fri Aug 07 07:37:21 +0000 2026",
+        "full_text": "stop using chatgpt. you guys need to just ask reddit, i promise you someone has had the exact same thought back in 2012",
+        "lang": "en",
+        "favorite_count": 4349,
+        "retweet_count": 694,
+        "reply_count": 30,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2085631366692037029",
+        "summary": "建议用Reddit替代ChatGPT，无具体AI产品或工具信息，纯观点",
+        "category": "AI趋势/观点",
+        "category_points": 25,
+        "info_gap": "已知信息",
+        "info_gap_points": 0,
+        "viral_signals": [],
+        "viral_signals_points": 0,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 0,
+        "account_fit": "不匹配",
+        "account_bonus": 0,
+        "total_score": 28,
+        "verdict": "keep",
+        "angles": [
+          "ChatGPT不如Reddit？网友的冷思考",
+          "为什么Reddit比AI工具更靠谱",
+          "停止过度依赖ChatGPT的3个理由"
+        ]
+      },
+      {
+        "tweet_id": "2085652934432542784",
+        "url": "https://x.com/kaneki_ai888/status/2085652934432542784",
+        "screen_name": "kaneki_ai888",
+        "created_at": "Fri Aug 07 09:03:03 +0000 2026",
+        "full_text": "ChatGPTって日本語打つだけじゃないの？\n\n「#」「###」「*」「””」「[]」「—」「|」\nってそういう意味だったんだ…\n\nそりゃAIの回答も微妙になるわ\n\n初心者向けに全部まとめました↓ https://t.co/b937UkdTJ2",
+        "lang": "ja",
+        "favorite_count": 2475,
+        "retweet_count": 174,
+        "reply_count": 15,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/b937UkdTJ2",
+            "expanded_url": "https://x.com/kaneki_ai888/status/2085652934432542784/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2085652927407091713",
+            "indices": [
+              99,
+              122
+            ],
+            "media_key": "3_2085652927407091713",
+            "media_url_https": "https://pbs.twimg.com/media/HPG6SYbacAEI1xx.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 366,
+                  "w": 654,
+                  "x": 0,
+                  "y": 37
+                },
+                {
+                  "h": 654,
+                  "w": 654,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 680,
+                  "w": 596,
+                  "x": 24,
+                  "y": 0
+                },
+                {
+                  "h": 680,
+                  "w": 340,
+                  "x": 152,
+                  "y": 0
+                },
+                {
+                  "h": 680,
+                  "w": 654,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 680,
+              "width": 654
+            },
+            "sizes": {
+              "large": {
+                "h": 680,
+                "w": 654
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/b937UkdTJ2"
+          }
+        ],
+        "id": "2085652934432542784",
+        "summary": "日本AI博主分享ChatGPT提示词格式技巧（#、*、[]等符号用法），帮助初学者优化AI回答质量。",
+        "category": "教程/操作指南",
+        "category_points": 10,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [],
+        "viral_signals_points": 0,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 0,
+        "account_fit": "B型",
+        "account_bonus": 5,
+        "total_score": 26,
+        "verdict": "keep",
+        "angles": [
+          "ChatGPT提示词秘诀，这些符号用法改变一切",
+          "为什么AI回答总是差强人意？提示词格式很关键",
+          "初学者必学：ChatGPT提示词完全指南"
+        ]
+      }
+    ]
+  }
+}
