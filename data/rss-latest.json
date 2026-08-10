@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-10T11:45:27.130286+00:00",
+  "updated_at": "2026-08-10T22:05:27.642987+00:00",
   "count": 700,
-  "new_count": 385,
+  "new_count": 400,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,6 +65,105 @@
   ],
   "items": [
     {
+      "source": "NVIDIA Robotics YouTube",
+      "source_type": "youtube",
+      "title": "GTC SJ 2026: Physical AI for Healthcare Robotics - Simulation-First Design & Accelerated Development",
+      "url": "https://www.youtube.com/watch?v=rRkucx0KwcI",
+      "summary": "Discover how simulation-first design is radically changing how medical and healthcare robots are prototyped, tested, and built. As global healthcare systems navigate severe supply-and-demand crises, physical AI and robotics stand out as critical solutions to boost efficiency and ",
+      "published_at": "2026-08-10T21:00:15+00:00",
+      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "Using the GitHub Copilot SDK for Java",
+      "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+      "summary": "Enterprise Java developers have a new superpower—drive GitHub Copilot from idiomatic Java code with annotations, virtual threads, and more. The post Using the GitHub Copilot SDK for Java appeared first on The GitHub Blog.",
+      "published_at": "2026-08-10T19:30:00+00:00",
+      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Tate deploys 58 Hirebotics cobot welders across multiple facilities",
+      "url": "https://www.therobotreport.com/tate-deploys-58-hirebotics-cobot-welders-across-multiple-facilities/",
+      "summary": "Tate decided to move from traditional hand welding to an agile, cloud-connected automation network powered by Hirebotics. The post Tate deploys 58 Hirebotics cobot welders across multiple facilities appeared first on The Robot Report.",
+      "published_at": "2026-08-10T18:46:22+00:00",
+      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "VicOne releases free NVIDIA Isaac Sim cybersecurity extension based on DEF CON 34 research",
+      "url": "https://www.therobotreport.com/vicone-releases-free-nviida-isaac-sim-cybersecurity-extension-based-def-con-34-research/",
+      "summary": "VicOne says its free Radeis Extension for NVIDIA Isaac Sim enables developers to test robot cyber safety before deployment. The post VicOne releases free NVIDIA Isaac Sim cybersecurity extension based on DEF CON 34 research appeared first on The Robot Report.",
+      "published_at": "2026-08-10T17:07:10+00:00",
+      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "What building an AI-native finance function taught me",
+      "url": "https://openai.com/index/building-an-ai-native-finance-function",
+      "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+      "published_at": "2026-08-10T17:00:00+00:00",
+      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "summary": "",
+      "published_at": "2026-08-10T16:25:36+00:00",
+      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "Intel CEO: They All Walked Out on Me",
+      "url": "https://www.youtube.com/shorts/GTd0NoqXR_o",
+      "summary": "18 years ago, Intel CEO Lip-Bu Tan would walk into a room of VC partners to pitch semiconductors, and half of them would walk out before he finished. Today, Jensen Huang runs a $5.3 trillion company. Lisa Su runs one near $800 billion. Tan's is close to $600 billion. Nobody seems",
+      "published_at": "2026-08-10T14:57:03+00:00",
+      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
+    },
+    {
+      "source": "a16z AI YouTube",
+      "source_type": "youtube",
+      "title": "Kavak's Playbook for Rebuilding a Company Around AI",
+      "url": "https://www.youtube.com/watch?v=n34CIw3gk1k",
+      "summary": "Angela Strange and Gabriel Vasquez are joined by Alejandro Maza Ayala, Chief Product & AI Officer at Kavak, to unpack how the Latin American used-car marketplace rebuilt itself around AI agents, with 96% of customer interactions and 95% of transactions now handled by agents. Alej",
+      "published_at": "2026-08-10T14:30:04+00:00",
+      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
+    },
+    {
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "title": "Evolve your marketing with new AI tools",
+      "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "summary": "Advisor UI in Google Ads and Google Analytics",
+      "published_at": "2026-08-10T14:30:00+00:00",
+      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "published_at": "2026-08-10T14:00:00+00:00",
+      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "url": "https://openai.com/index/model-ml",
+      "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+      "published_at": "2026-08-10T12:00:00+00:00",
+      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
+    },
+    {
       "source": "Hugging Face Blog",
       "source_type": "rss",
       "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
@@ -74,6 +173,33 @@
       "first_seen_at": "2026-08-10T11:45:27.130286+00:00"
     },
     {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "summary": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
+      "published_at": "2026-08-10T10:00:00+00:00",
+      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Putting frontier cyber models in more trusted hands",
+      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+      "published_at": "2026-08-10T10:00:00+00:00",
+      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
+    },
+    {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "Learning more about Claude's mathematical capabilities",
+      "url": "https://www.anthropic.com/research/riemann-zeta",
+      "summary": "An unreleased version of Claude has made strides on a problem related to the Riemann hypothesis. It improved the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%.",
+      "published_at": "2026-08-10T00:00:00+00:00",
+      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
+    },
+    {
       "source": "Hugging Face Blog",
       "source_type": "rss",
       "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
@@ -81,6 +207,15 @@
       "summary": "",
       "published_at": "2026-08-10T00:00:00+00:00",
       "first_seen_at": "2026-08-10T11:45:27.130286+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Premium seats are coming to ChatGPT Business",
+      "url": "https://openai.com/index/premium-seats-chatgpt-business",
+      "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+      "published_at": "2026-08-10T00:00:00+00:00",
+      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -6194,141 +6329,6 @@
       "url": "https://huggingface.co/blog/torch-profiler",
       "summary": "",
       "published_at": "2026-05-29T00:00:00+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "source_type": "rss",
-      "title": "Auto-review Run Mode",
-      "url": "https://cursor.com/changelog/auto-review",
-      "summary": "Auto-review is a new run mode that allows Cursor to work for longer with fewer approval prompts and safer execution.",
-      "published_at": "2026-05-29T00:00:00+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "A New Era of Discovery: Google Research at I/O 2026",
-      "url": "https://research.google/blog/a-new-era-of-innovation-google-research-at-io-2026/",
-      "summary": "General Science",
-      "published_at": "2026-05-28T20:58:00+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Blog",
-      "source_type": "rss",
-      "title": "NVIDIA Research Advances Robotics From Simulation to the Real World",
-      "url": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
-      "summary": "Robotics is entering a new phase: moving from controlled demos and scripted automation toward generalizable, reliable embodied autonomy in the real world. At the International Conference on Robotics and Automation (ICRA), eight of NVIDIA Research’s 28 accepted papers show how sim",
-      "published_at": "2026-05-28T13:00:51+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Boston Dynamics YouTube",
-      "source_type": "youtube",
-      "title": "School of Football | The Rabona | Boston Dynamics x Hyundai",
-      "url": "https://www.youtube.com/watch?v=mCcv90sUNbY",
-      "summary": "Atlas takes on the Rabona. No shortcuts. Only practice and repetition lead to mastery. Next Starts Now #Hyundai #NextStartsNow #Atlas #BostonDynamics #SchoolofFootball #Robotics",
-      "published_at": "2026-05-28T13:00:23+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "No Priors Podcast",
-      "source_type": "rss",
-      "title": "Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan",
-      "url": "https://traffic.megaphone.fm/PDP6949464408.mp3",
-      "summary": "We are now closer than ever before to living in a world where AI agents are smart enough to run our power grids and manage water supplies. How do we keep them from going rogue? Sarah Guo sits down with Maxim Bar Kogan, founder and CEO of Onyx Securities, to explore the complexiti",
-      "published_at": "2026-05-28T10:00:00+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "AGILE Foundation Model Redefines Integrated Perception & Locomotion",
-      "url": "https://www.youtube.com/watch?v=mrL4tvLprK8",
-      "summary": "AGIBOT introduces AGILE — the AGIBOT Generative Intelligent Locomotion Engine — its latest integrated perception-locomotion foundation model. Empowered by visual awareness, AGIBOT X2 achieves seamless integration of perception and locomotion. When robots truly perceive the world,",
-      "published_at": "2026-05-28T06:54:03+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Agility Robotics YouTube",
-      "source_type": "youtube",
-      "title": "Innovation at Agility: Fine Manipulation",
-      "url": "https://www.youtube.com/shorts/lbF0CdEGaJ4",
-      "summary": "Digit was wondering if coffee tastes better when you can stick a pinky out, so it swapped out end effectors for just a second. Different tasks require different tools. --------------------------------------- At Agility, we make robots that are made for work. Our robot Digit works",
-      "published_at": "2026-05-27T18:28:59+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Agility Robotics YouTube",
-      "source_type": "youtube",
-      "title": "Innovation at Agility: Five Fingered Hands",
-      "url": "https://www.youtube.com/watch?v=w5iW60Q526k",
-      "summary": "Digit was wondering if coffee tastes better when you can stick a pinky out, so it swapped out end effectors for just a second. Different tasks require different tools. --------------------------------------- At Agility, we make robots that are made for work. Our robot Digit works",
-      "published_at": "2026-05-27T18:18:02+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "Private analytics via zero-trust aggregation",
-      "url": "https://research.google/blog/private-analytics-via-zero-trust-aggregation/",
-      "summary": "Security, Privacy and Abuse Prevention",
-      "published_at": "2026-05-27T16:56:00+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Boston Dynamics YouTube",
-      "source_type": "youtube",
-      "title": "Whirlybird | Atlas | Boston Dynamics",
-      "url": "https://www.youtube.com/shorts/RgXhCw7Qzac",
-      "summary": "Atlas goes for a spin and tries some new moves",
-      "published_at": "2026-05-27T14:51:56+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Boston Dynamics YouTube",
-      "source_type": "youtube",
-      "title": "School of Football | The Kicks | Boston Dynamics x Hyundai",
-      "url": "https://www.youtube.com/watch?v=kc-9GQB8EXQ",
-      "summary": "Atlas learns to kick the ball. And even a simple kick involves coordination, balance, precision, and power. Next Starts Now #Hyundai #NextStartsNow #Atlas #BostonDynamics #SchoolofFootball #Robotics",
-      "published_at": "2026-05-27T13:00:20+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "MiniMax Blog",
-      "source_type": "rss",
-      "title": "MiniMax Agent Team: Built for Long-Running Tasks and Continuous Evolution - MiniMax",
-      "url": "https://www.minimax.io/blog/minimax-agent-team-long-running-1779893953",
-      "summary": "Today we are introducing the overall upgrade of MiniMax Agent. We have given the upgraded Agent a new name: Mavis — MiniMax as a Jarvis, your AI butler.",
-      "published_at": "2026-05-27T00:00:00+00:00",
-      "first_seen_at": "2026-08-05T08:53:54.819943+00:00"
-    },
-    {
-      "source": "Boston Dynamics YouTube",
-      "source_type": "youtube",
-      "title": "School of Football | The Basics | Boston Dynamics x Hyundai",
-      "url": "https://www.youtube.com/watch?v=ITCklufC25Y",
-      "summary": "Atlas takes its first steps into the world of football From basic drills to celebrations - every step is a beginning Next Starts Now #Hyundai #NextStartsNow #Atlas #BostonDynamics #SchoolofFootball #Robotics",
-      "published_at": "2026-05-26T13:00:11+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Unitree YouTube",
-      "source_type": "youtube",
-      "title": "Conference Room Mess Cleanup Test: Unitree WVLA 2.0 Model🎉",
-      "url": "https://www.youtube.com/watch?v=zqqIpVsMYkE",
-      "summary": "Conference Room Mess Cleanup Test: Unitree WVLA 2.0 Model🎉 This video was recorded in a single take. Multi-task, fully autonomous operation. Strong external interference present. #unitree #humanoidrobotics #TaskExecution #worldmodel #agi",
-      "published_at": "2026-05-25T07:18:25+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Figure AI YouTube",
-      "source_type": "youtube",
-      "title": "F.03 Livestream: Day 9 (Hour 192-200)",
-      "url": "https://www.youtube.com/watch?v=JeeJJ42TKQU",
-      "summary": "Replay of the F.03 Livestream that started May 13, 2026 at 10AM PT.",
-      "published_at": "2026-05-23T14:57:07+00:00",
       "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
     },
     {
