@@ -33,6 +33,25 @@ def _success_response(payload: bytes = b'{"data": {"id": "t1"}}'):
 
 
 class TestApifyRetry:
+    def test_keyword_searches_can_be_paused_without_disabling_accounts(self):
+        with patch.dict(os.environ, {"FETCH_KEYWORDS": "false"}):
+            searches = fetch_tweets.build_search_inputs("2026-08-12")
+
+        expected_account_batches = (
+            len(fetch_tweets.ALL_ACCOUNTS) + fetch_tweets.ACCOUNTS_PER_BATCH - 1
+        ) // fetch_tweets.ACCOUNTS_PER_BATCH
+        assert len(searches) == expected_account_batches
+        assert all("from:" in search["searchTerms"][0] for search in searches)
+
+    def test_keyword_searches_remain_available_for_manual_resume(self):
+        with patch.dict(os.environ, {"FETCH_KEYWORDS": "true"}):
+            searches = fetch_tweets.build_search_inputs("2026-08-12")
+
+        expected_account_batches = (
+            len(fetch_tweets.ALL_ACCOUNTS) + fetch_tweets.ACCOUNTS_PER_BATCH - 1
+        ) // fetch_tweets.ACCOUNTS_PER_BATCH
+        assert len(searches) == len(fetch_tweets.KEYWORD_SEARCHES) + expected_account_batches
+
     def test_succeeds_first_try(self):
         with patch("fetch_tweets.urlopen") as mock_open, \
              patch("fetch_tweets.time.sleep") as mock_sleep:

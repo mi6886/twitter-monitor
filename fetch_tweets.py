@@ -232,6 +232,38 @@ def build_account_search(accounts):
     return f"({froms}) min_faves:2000"
 
 
+def keyword_searches_enabled() -> bool:
+    """Allow scheduled jobs to pause keyword discovery without deleting it."""
+    return os.environ.get("FETCH_KEYWORDS", "true").strip().lower() not in {
+        "0", "false", "no", "off",
+    }
+
+
+def build_search_inputs(since_date: str) -> list[dict]:
+    """Build enabled keyword searches plus the always-on account searches."""
+    searches = []
+
+    if keyword_searches_enabled():
+        for query in KEYWORD_SEARCHES:
+            searches.append({
+                "searchTerms": [f"{query} since:{since_date}"],
+                "maxItems": MAX_ITEMS_PER_SEARCH,
+                "sort": "Top",
+            })
+    else:
+        print("Keyword searches paused (FETCH_KEYWORDS=false); account monitoring remains active.")
+
+    for i in range(0, len(ALL_ACCOUNTS), ACCOUNTS_PER_BATCH):
+        batch = ALL_ACCOUNTS[i:i + ACCOUNTS_PER_BATCH]
+        searches.append({
+            "searchTerms": [build_account_search(batch) + f" since:{since_date}"],
+            "maxItems": MAX_ITEMS_PER_SEARCH,
+            "sort": "Top",
+        })
+
+    return searches
+
+
 SEEN_URLS_RETENTION_DAYS = 7
 
 
@@ -285,27 +317,7 @@ def main():
     # Date range: use Twitter's since: operator directly in search query
     since_date = (datetime.now(timezone.utc) - timedelta(hours=28)).strftime("%Y-%m-%d")
 
-    # Build all search inputs
-    searches = []
-
-    # Keyword searches - append since: to each query
-    for query in KEYWORD_SEARCHES:
-        query_with_date = f"{query} since:{since_date}"
-        searches.append({
-            "searchTerms": [query_with_date],
-            "maxItems": MAX_ITEMS_PER_SEARCH,
-            "sort": "Top",
-        })
-
-    # Account searches (auto-split into small batches of ACCOUNTS_PER_BATCH)
-    for i in range(0, len(ALL_ACCOUNTS), ACCOUNTS_PER_BATCH):
-        batch = ALL_ACCOUNTS[i:i + ACCOUNTS_PER_BATCH]
-        query = build_account_search(batch) + f" since:{since_date}"
-        searches.append({
-            "searchTerms": [query],
-            "maxItems": MAX_ITEMS_PER_SEARCH,
-            "sort": "Top",
-        })
+    searches = build_search_inputs(since_date)
 
     # Launch all actors in parallel
     print(f"Launching {len(searches)} actor runs...")

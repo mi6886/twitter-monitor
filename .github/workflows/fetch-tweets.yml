@@ -50,6 +50,9 @@ jobs:
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          # Temporarily pause broad keyword discovery. Official/account
+          # monitoring remains active; change to true to resume keywords.
+          FETCH_KEYWORDS: 'false'
         run: python fetch_tweets.py
 
       # Official RSS sources (blogs/news/changelogs). Free HTTP, no API keys,
