@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-12T22:07:20.985042+00:00",
+  "updated_at": "2026-08-13T11:42:43.776101+00:00",
   "count": 700,
-  "new_count": 432,
+  "new_count": 436,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,6 +65,60 @@
   ],
   "items": [
     {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "Building a $200M Bootstrapped Chess Empire with Chess.com CEO Erik Allebest",
+      "url": "https://www.youtube.com/watch?v=hplb9IHWuw0",
+      "summary": "In a world of infinite gaming and entertainment possibilities, how does a centuries-old game stay so popular? Chess.com co-founder and CEO Erik Allebest joins Sarah Guo to explain how the evolution of technology has kept people coming back to chess, even when machines can beat us",
+      "published_at": "2026-08-13T10:00:31+00:00",
+      "first_seen_at": "2026-08-13T11:42:43.776101+00:00"
+    },
+    {
+      "source": "No Priors Podcast",
+      "source_type": "rss",
+      "title": "Building a $200M Bootstrapped Chess Empire with Chess.com CEO Erik Allebest",
+      "url": "https://traffic.megaphone.fm/PDP3695187109.mp3",
+      "summary": "In a world of infinite gaming and entertainment possibilities, how does a centuries-old game stay so popular? Chess.com co-founder and CEO Erik Allebest joins Sarah Guo to explain how the evolution of technology has kept people coming back to chess, even when machines can beat us",
+      "published_at": "2026-08-13T10:00:00+00:00",
+      "first_seen_at": "2026-08-13T11:42:43.776101+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
+      "url": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
+      "summary": "AI teammate category just had its most significant new entrant yet",
+      "published_at": "2026-08-13T01:53:47+00:00",
+      "first_seen_at": "2026-08-13T11:42:43.776101+00:00"
+    },
+    {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "Patterns and problems in multiagent systems",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "summary": "We ran experiments on swarms of Claude agents and found coordination failures, collusion, and sabotage. Here, we share what they mean for AI safety.",
+      "published_at": "2026-08-13T00:00:00+00:00",
+      "first_seen_at": "2026-08-13T11:42:43.776101+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "The \"Niche Market\" Trap in AI",
+      "url": "https://www.youtube.com/shorts/two1jB-E2eI",
+      "summary": "Are founders scared of the big labs? Elad Gil says some of the most talented builders are now going after niche markets, not because the opportunity is small, but because they're scared of competing head-on with the labs.",
+      "published_at": "2026-08-12T23:12:37+00:00",
+      "first_seen_at": "2026-08-13T11:42:43.776101+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "GitHub availability report: July 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
+      "summary": "In July, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: July 2026 appeared first on The GitHub Blog.",
+      "published_at": "2026-08-12T22:17:32+00:00",
+      "first_seen_at": "2026-08-13T11:42:43.776101+00:00"
+    },
+    {
       "source": "Dwarkesh Podcast YouTube",
       "source_type": "youtube",
       "title": "Every AI Model Has an Inherited Personality - Ryan Greenblatt",
@@ -76,7 +130,7 @@
     {
       "source": "a16z AI YouTube",
       "source_type": "youtube",
-      "title": "Y Combinator CEO on Founder Psychology in the Age of AI",
+      "title": "The New Rules for Founders | Garry Tan on a16z",
       "url": "https://www.youtube.com/watch?v=fsTtKywmWlU",
       "summary": "Anish Acharya is joined by Garry Tan, President and CEO of Y Combinator, for a conversation about how AI is rewriting the startup playbook, why founders should be more ambitious than ever, and what two decades of Silicon Valley booms, busts, and missed opportunities have taught G",
       "published_at": "2026-08-12T19:15:41+00:00",
@@ -4739,6 +4793,15 @@
       "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
     },
     {
+      "source": "Qoder Blog",
+      "source_type": "rss",
+      "title": "我们是怎么用 Qoder 自主迭代 Agent 的：以 Computer Use 为例",
+      "url": "https://qoder.com/zh/blog/auto-iterate",
+      "summary": "Goal 模式 + 自验证 + 回归守卫，上百小时无人值守迭代",
+      "published_at": "2026-06-30T13:55:09+00:00",
+      "first_seen_at": "2026-08-13T11:42:43.776101+00:00"
+    },
+    {
       "source": "NVIDIA Robotics Blog",
       "source_type": "rss",
       "title": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning",
@@ -6266,69 +6329,6 @@
       "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
       "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
       "published_at": "2026-06-09T15:16:25+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "source_type": "rss",
-      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
-      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
-      "summary": "",
-      "published_at": "2026-06-09T14:10:19+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "source_type": "rss",
-      "title": "Powering the future of robotics in Europe",
-      "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
-      "summary": "",
-      "published_at": "2026-06-09T14:02:33+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "MiniMax Blog",
-      "source_type": "rss",
-      "title": "MaxProof: Scaling Mathematical Proof with Generative-Verifier RL and Evolutionary Search - MiniMax Research",
-      "url": "https://www.minimax.io/blog/minimax-maxproof-math-proof-evolution",
-      "summary": "In the M3 release post, we reported the performance of the M3 model on two international mathematical olympiad benchmarks: IMO 2025 and USAMO 2026. With the MaxProof framework, M3 exceeded the human gold-medal threshold on both. This article further elaborates on our technical pa",
-      "published_at": "2026-06-09T13:43:00+00:00",
-      "first_seen_at": "2026-08-05T08:53:54.819943+00:00"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "Beyond Dexterity: Why Contact May Define the Next Era of Robotics",
-      "url": "https://spectrum.ieee.org/agilink-contact-intelligence-robot-manipulation",
-      "summary": "This article is brought to you by AGILINK.Throughout the exhibition hall at the 2026 IEEE International Conference on Robotics (ICRA), in Vienna, one demonstration seemed to attract a disproportionate amount of attention.Two robotic hands were making a balloon dog. Slowly and del",
-      "published_at": "2026-06-09T12:51:03+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "How JPL Keeps the 13-Year-Old Curiosity Rover Doing Science",
-      "url": "https://spectrum.ieee.org/curiosity-rover-jpl-mars-science",
-      "summary": "Thirteen years ago last August, I was camped out in NASA’s Jet Propulsion Laboratory press room in Pasadena, Calif., waiting to see whether the Curiosity rover would survive its descent and skycrane-assisted landing on the surface of Mars. It did, and it was awesome.Since then, C",
-      "published_at": "2026-06-09T12:00:02+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "summary": "",
-      "published_at": "2026-06-09T10:46:19+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Migrating Your GitHub CI to Hugging Face Jobs",
-      "url": "https://huggingface.co/blog/github-ci-hf-jobs",
-      "summary": "",
-      "published_at": "2026-06-09T00:00:00+00:00",
       "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
     },
     {
