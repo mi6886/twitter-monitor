@@ -65,6 +65,40 @@ class HttpGetTests(unittest.TestCase):
         self.assertEqual(len(items), 1)
         self.assertEqual(items[0]["url"], "https://cdn.example.com/episode.mp3")
 
+    def test_known_podcast_uses_homepage_and_keeps_show_notes(self):
+        podcast_feed = (
+            '<rss xmlns:content="http://purl.org/rss/1.0/modules/content/">'
+            "<channel><title>No Priors</title><item><title>Episode</title>"
+            "<description>Short description</description>"
+            "<content:encoded><![CDATA[<p>Full show notes and chapters.</p>]]>"
+            "</content:encoded>"
+            "<enclosure url=\"https://cdn.example.com/episode.mp3\" "
+            "type=\"audio/mpeg\" /></item></channel></rss>"
+        )
+        with patch("fetch_rss.http_get", return_value=podcast_feed):
+            items = fetch_rss.fetch_feed(
+                "No Priors Podcast", "https://example.com/feed"
+            )
+
+        self.assertEqual(items[0]["url"], "https://no-priors.com/")
+        self.assertEqual(items[0]["audio_url"], "https://cdn.example.com/episode.mp3")
+        self.assertIn("Full show notes and chapters", items[0]["details"])
+        self.assertTrue(items[0]["dedupe_key"].startswith("podcast:"))
+
+    def test_normalize_old_podcast_mp3_card(self):
+        item = {
+            "source": "No Priors Podcast",
+            "title": "Old episode",
+            "published_at": "2026-08-01T00:00:00+00:00",
+            "url": "https://cdn.example.com/old.mp3",
+        }
+
+        normalized = fetch_rss.normalize_podcast_item(item)
+
+        self.assertEqual(normalized["url"], "https://no-priors.com/")
+        self.assertEqual(normalized["audio_url"], "https://cdn.example.com/old.mp3")
+        self.assertTrue(normalized["dedupe_key"].startswith("podcast:"))
+
     def test_feed_records_source_type(self):
         feed = (
             "<rss><channel><title>Video</title><item><title>Episode</title>"

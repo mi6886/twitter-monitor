@@ -30,6 +30,18 @@ OUT_FILE = DATA_DIR / "rss-latest.json"
 MAX_ITEMS = 700          # rolling cap (across RSS + YouTube + website sources)
 MAX_ITEMS_PER_FEED = 50  # prevent deep podcast archives from crowding the pool
 SUMMARY_MAX = 280        # chars
+DETAILS_MAX = 5000       # chars; enough for podcast show notes and chapters
+
+# Some podcast RSS feeds publish an enclosure but no episode webpage link.
+# Keep the audio playable, but use the official show page as the card target.
+PODCAST_HOMEPAGES = {
+    "Lex Fridman Podcast": "https://lexfridman.com/podcast/",
+    "No Priors Podcast": "https://no-priors.com/",
+    "AI + a16z": "https://a16z.com/podcasts/",
+    "Dwarkesh Podcast": "https://www.dwarkesh.com/podcast",
+    "Latent Space": "https://www.latent.space/podcast",
+}
+AUDIO_URL_RE = re.compile(r"\.(?:mp3|m4a|wav|ogg|aac)(?:$|[?#])", re.IGNORECASE)
 
 # (label, feed_url) — native-RSS official sources only (verified 2026-08-04).
 # X is covered by the tweet pipeline; YouTube feeds are configured separately.
@@ -183,6 +195,53 @@ def entry_published(entry) -> str | None:
     return None
 
 
+def is_audio_url(url: str) -> bool:
+    return bool(AUDIO_URL_RE.search(url or ""))
+
+
+def podcast_item_key(item: dict) -> str:
+    """Stable key for podcast episodes whose display URL is a shared homepage."""
+    raw = "\n".join(
+        str(item.get(field) or "")
+        for field in ("source", "title", "published_at", "audio_url", "url")
+    )
+    return "podcast:" + hashlib.sha1(raw.encode("utf-8")).hexdigest()
+
+
+def normalize_podcast_item(item: dict) -> dict:
+    """Migrate older retained podcast cards away from direct MP3 URLs."""
+    homepage = PODCAST_HOMEPAGES.get(item.get("source"))
+    if not homepage:
+        return item
+
+    url = item.get("url") or ""
+    if is_audio_url(url):
+        item["audio_url"] = item.get("audio_url") or url
+        item["url"] = homepage
+    if item.get("audio_url") and not item.get("dedupe_key"):
+        item["dedupe_key"] = podcast_item_key(item)
+    if item.get("audio_url") and not item.get("details") and item.get("summary"):
+        item["details"] = item["summary"]
+    return item
+
+
+def entry_details(entry) -> str:
+    """Prefer full content:encoded, falling back to the normal RSS summary."""
+    candidates = []
+    for content in entry.get("content", []) or []:
+        if isinstance(content, dict):
+            candidates.append(content.get("value") or "")
+    candidates.extend([
+        entry.get("description") or "",
+        entry.get("summary") or "",
+    ])
+    for candidate in candidates:
+        text = strip_html(candidate)
+        if text:
+            return text
+    return ""
+
+
 def fetch_feed(label: str, url: str, source_type: str = "rss") -> list[dict]:
     items = []
     try:
@@ -203,25 +262,35 @@ def fetch_feed(label: str, url: str, source_type: str = "rss") -> list[dict]:
         return items
     for e in parsed.entries[:MAX_ITEMS_PER_FEED]:
         link = e.get("link") or ""
+        enclosure_url = next((
+            item.get("href", "") for item in e.get("links", [])
+            if item.get("rel") == "enclosure" and item.get("href")
+        ), "")
         if not link:
-            # Podcast feeds may expose only an enclosure URL. It is still a
-            # unique, playable destination and prevents valid episodes from
-            # being silently dropped.
-            link = next((
-                item.get("href", "") for item in e.get("links", [])
-                if item.get("rel") == "enclosure" and item.get("href")
-            ), "")
+            link = enclosure_url
+        audio_url = enclosure_url if is_audio_url(enclosure_url) else ""
+        if is_audio_url(link):
+            audio_url = audio_url or link
+            link = PODCAST_HOMEPAGES.get(label) or link
         if not link:
             continue
-        summary = strip_html(e.get("summary") or e.get("description") or "")
-        items.append({
+        details = entry_details(e)
+        item = {
             "source": label,
             "source_type": source_type,
             "title": strip_html(e.get("title") or "(无标题)"),
             "url": link,
-            "summary": summary[:SUMMARY_MAX],
+            "summary": details[:SUMMARY_MAX],
             "published_at": entry_published(e),
-        })
+        }
+        if audio_url:
+            item["audio_url"] = audio_url
+        if details and (audio_url or label in PODCAST_HOMEPAGES):
+            item["details"] = details[:DETAILS_MAX]
+        if audio_url and label in PODCAST_HOMEPAGES:
+            item["url"] = PODCAST_HOMEPAGES[label]
+            item["dedupe_key"] = podcast_item_key(item)
+        items.append(item)
     print(f"  {label}: {len(items)} items")
     return items
 
@@ -637,7 +706,10 @@ def main() -> int:
     DATA_DIR.mkdir(exist_ok=True)
     now = datetime.now(timezone.utc).isoformat()
 
-    existing = load_existing().get("items", [])
+    existing = [
+        normalize_podcast_item(item)
+        for item in load_existing().get("items", [])
+    ]
     existing_sources = {item.get("source") for item in existing}
     by_key = {item_key(it): it for it in existing}
     new_count = 0

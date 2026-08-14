@@ -240,6 +240,20 @@
     }
     .card-summary-link:hover .card-summary { color: var(--accent); }
 
+    .rss-audio-link {
+      display: inline-block; margin-top: 8px;
+      color: var(--accent); font-size: 0.75rem; font-weight: 600;
+      text-decoration: none;
+    }
+    .rss-audio-link:hover { text-decoration: underline; }
+    .rss-details {
+      margin-top: 10px; padding-top: 9px;
+      border-top: 1px solid var(--border);
+      color: var(--text-dim); font-size: 0.78rem; line-height: 1.6;
+    }
+    .rss-details summary { cursor: pointer; color: var(--text-muted); font-weight: 600; }
+    .rss-details p { margin-top: 7px; max-height: 240px; overflow: auto; white-space: pre-wrap; }
+
     /* ── Rank badge (top 3) ── */
     .rank-badge {
       position: absolute; top: 10px; right: 10px;
@@ -682,6 +696,8 @@
         <p class="card-summary" style="font-weight:600">${esc(it.title)}</p>
       </a>
       ${it.summary ? `<p class="card-summary" style="color:var(--text-dim)">${esc(it.summary)}</p>` : ''}
+      ${it.audio_url ? `<a class="rss-audio-link" href="${esc(it.audio_url)}" target="_blank" rel="noopener">🎧 播放音频</a>` : ''}
+      ${it.details ? `<details class="rss-details"><summary>查看节目简介 / Show notes</summary><p>${esc(it.details)}</p></details>` : ''}
     `;
     return card;
   }
