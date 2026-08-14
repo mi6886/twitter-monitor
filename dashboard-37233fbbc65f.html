@@ -480,9 +480,17 @@
   function setDate(dateStr) {
     currentDate = dateStr;
     loadData(currentPeriod);
+    resetScrollPosition();
   }
 
   // ── Helpers ──
+  function resetScrollPosition() {
+    // Every tab/filter change starts as a fresh reading state from the first row.
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+    });
+  }
+
   function fmtLikes(n) {
     if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + 'M';
     if (n >= 1_000) return (n / 1_000).toFixed(1) + 'K';
@@ -820,16 +828,23 @@
   }
 
   function setPeriod(period) {
-    if (period === currentPeriod) return;
+    if (period === currentPeriod) {
+      resetScrollPosition();
+      return;
+    }
     currentPeriod = period;
     document.querySelectorAll('.period-btn[data-period]').forEach(b => {
       b.classList.toggle('active', b.dataset.period === period);
     });
     loadData(period);
+    resetScrollPosition();
   }
 
   function setView(view) {
-    if (view === currentView) return;
+    if (view === currentView) {
+      resetScrollPosition();
+      return;
+    }
     currentView = view;
     const isTwitter = view === 'score' || view === 'wanzan';
     document.querySelectorAll('[data-twitter-control]').forEach(el => {
@@ -839,15 +854,20 @@
       b.classList.toggle('active', b.dataset.view === view);
     });
     render();
+    resetScrollPosition();
   }
 
   function setFilter(cat) {
-    if (cat === currentFilter) return;
+    if (cat === currentFilter) {
+      resetScrollPosition();
+      return;
+    }
     currentFilter = cat;
     document.querySelectorAll('.filter-btn').forEach(b => {
       b.classList.toggle('active', b.dataset.cat === cat);
     });
     render();
+    resetScrollPosition();
   }
 
   // Set date picker to today
