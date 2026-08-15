@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T11:17:15.279274+00:00",
+  "updated_at": "2026-08-15T21:38:58.215147+00:00",
   "count": 700,
-  "new_count": 462,
+  "new_count": 465,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -72,6 +72,34 @@
       "summary": "We’re launching DeepSeek-V4-Pro today! 🚀",
       "published_at": "2026-08-16T00:00:00+00:00",
       "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+      "url": "https://www.latent.space/p/flue-2",
+      "summary": "Agent frameworks for developers are still at an early stage, with the likes of Vercel’s eve and Fred Schott’s Flue — both launched this year — setting the early template.Schott is the creator of the web framework Astro, which led to his company being acquired by Cloudflare in Jan",
+      "published_at": "2026-08-15T15:46:22+00:00",
+      "details": "Agent frameworks for developers are still at an early stage, with the likes of Vercel’s eve and Fred Schott’s Flue — both launched this year — setting the early template.Schott is the creator of the web framework Astro, which led to his company being acquired by Cloudflare in January. He’s just released version 2 of Flue, its first stable release, which has as its foundation React-style “Agent Hooks.”In Flue, an agent is represented by a JavaScript function. This function “re-renders on every turn,” meaning before every model call.The addition of hooks came after Schott realized that React’s composability would be a great fit for agent development.“I originally tweeted that we were building the Astro for agents or the Next.js for agents,” he told us. “But then I realized: maybe no one has even built the React for agents.”Editor’s Note: we last talked about the React for Agents with Bret Taylor, CEO of Sierra and Chairman of OpenAI:“We’re still trying to figure out who the reactive agents are and the jury is still out… We’re sort of in the jQuery era of agents, not the react era.” Hooks are authored in TypeScript. According to the Flue 2 launch post, they “let you build dynamic agents that can manage their own state, listen to agent lifecycle events, and even attach different resources and capabilities dynamically to enhance themselves at runtime.”There are 16 built-in hooks in Flue 2, including useSkill(), useTool(), useSubagent(). You can also add custom hooks.How Flue evolved via React-style hooks; diagram by Richard MacManusWhat hooks open up for developers is that they make an agent much more dynamic, by allowing its configuration to change as a conversation or workflow progresses. Schott said this is needed to build “real support bots, real triage bots,” because they can’t be fully configured in advance. The agent can’t just be static — it has to adapt in real-time to what the user wants or the situation demands.Agent hooks bring those capabilities to Flue. For example, a support agent might bring in an account management tool after first verifying a user.File based magic is an antipatternSchott’s thinking about how to build an agent framework has evolved rapidly since he publicly launched Flue 1 in early May. Initially, he wanted to take existing web framework concepts and apply them to his new agent framework. He uses file-based routing as an example.“So we kind of naively ported that over to Flue, thinking — great, well, I’ll put your five agents in these five files, and that’ll be the five routes that they expose. But for a lot of people building with Flue, especially the bigger customers, their whole company is one agent. They don’t care about routing. There’s one agent.”So after the first Flue users showed these early patterns, composability became front of mind for Schott. That led him back to React.“As you can see from the Flue 2 API, we’re taking it more from React [...] than we are from Astro or Next.js — where it’s less about routing and these website concepts and more about, at its base level, how do you compose an agent on many different things?”Flue’s central proposition: agents need a harnessA key concept in Flue is that an agent must have a harness — meaning that it’s in an environment where it has access to the context and capabilities needed to accomplish various tasks.“Instead of you and your code driving the LLM and telling it what to do with scripts, you’re putting the agent into this harness, and it is able to drive itself and work through problems,” explained Schott.Flue is built on top of Pi, an open source minimal harness. Essentially, Flue is an opinionated take on Pi — adding features that Schott thinks are helpful to developers building agents. For example: hosted agents in Flue 2 are now built with Vite, an open source build tool.Indeed, Schott likens Pi’s role to the foundational role that Vite now plays beneath Astro.“I think Pi can serve that role, where it’s the right abstraction — it doesn’t do too much, but it gives the right APIs that then we can go and say, well, let’s have an opinionated take on this that does more.”Building on Pi meant committing to having a built-in agent harness.“Our early bet was that the harness is actually not a feature, but it’s fundamental to what you think an agent is,” Schott said. “There is no agent without a harness.”Building Flue agents with coding agentsThe Flue project began earlier this year within the Astro repository, as an issue-triage system. At first, it was an LLM-driven script or workflow reviewing issues. But then, explained Schott, it gained the ability to take actions in the repo.“It started to transition from just automation in a repo to wanting to take the Claude Code experience, make it headless, make it hostable and run it in the cloud.”So that’s when the idea of a harness as anchor emerged. Indeed, in his v1 launch post in early May, Schott described Flue as “like Claude Code, but 100% headless and programmable.”I mys",
+      "first_seen_at": "2026-08-15T21:38:58.215147+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "Exo: Harnesses should see their own code and logs — Alex Krentsel",
+      "url": "https://www.youtube.com/watch?v=5lFD-34dhqE",
+      "summary": "Exo is a systems approach to recursive self improvement. In short, it's a complete AI agent harness (supporting tools, tasks, integrations, etc. similar to OpenClaw, Pi or Hermes), with the crucial difference that it has full visibility into both its code and runtime logs. This a",
+      "published_at": "2026-08-15T15:45:32+00:00",
+      "first_seen_at": "2026-08-15T21:38:58.215147+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Why robots that can’t communicate naturally won’t be adopted",
+      "url": "https://www.therobotreport.com/why-robots-that-cant-communicate-naturally-wont-be-adopted-says-treble/",
+      "summary": "For humanoid robots to operate in the real world, they’ll need more than a sense of sight. | Source: Adobe Stock At recent major tech events, humanoid robots were everywhere. Some of them walked, navigated, and manipulated objects with a level of dexterity that would have seemed ",
+      "published_at": "2026-08-15T12:20:18+00:00",
+      "first_seen_at": "2026-08-15T21:38:58.215147+00:00"
     },
     {
       "source": "No Priors YouTube",
@@ -664,7 +692,7 @@
     {
       "source": "Latent Space YouTube",
       "source_type": "youtube",
-      "title": "🔬They Thought the Model Was Broken — Matt McPartlon & Neil Patil, Chai Discovery",
+      "title": "They Thought the Model Was Broken — Matt McPartlon & Neil Patil, Chai Discovery",
       "url": "https://www.youtube.com/watch?v=Qp5xklyJySI",
       "summary": "Chai Discovery co-founder Matt McPartlon and product lead Neil Patil explain why pharma abruptly started buying AI design tools this year instead of forcing every AI-bio company to go build its own pipeline — and what specifically changed in the models to make drug design teams t",
       "published_at": "2026-08-11T20:48:23+00:00",
@@ -6407,33 +6435,6 @@
       "details": "At 66 years old, instead of heading towards retirement, former Cadence CEO and legendary investor Lip-Bu Tan decided to take on the hardest job in tech: turning Intel around. Elad Gil and Sarah Guo sit down with Intel CEO Lip-Bu Tan to talk about why he took the job and what “saving” Intel actually looks like. Tan explains how his experience in startup culture informed his decisions to drive Intel’s culture towards faster decisions, focus on customer satisfaction, and engineer accountability. He also discusses his strategy to strengthen Intel’s balance sheet by welcoming investments from Jensen Huang’s Nvidia, Softbank, and the US government. Tan also shares his product roadmap that centers the CPU for agentic AI and inference, the collaboration with Elon Musk on Terafab, his investing framework for semiconductors, and his views on how AI is reshaping design and operations at, as he puts it, a ‘legacy spreadsheet’ tech company. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @LipBuTan1 | @intel Chapters: 00:00 – Cold Open 01:01 – Lip-Bu Tan Introduction 01:24 – Why Lip-Bu Took the Reins at Intel 03:00 – Fixing Culture 04:08 – Intel’s 10-Year Vision 07:57 – Working with Elon Musk on Terafab 09:59 – Shifting Supply Chain for Semiconductors 15:34 – Limits to Scaling and Packaging 18:30 – Physical Limits to Engineering and Design 20:33 – Challenges in Semiconductor Investing 26:29 – Lessons from Cadence 28:02 – Scaling and Investment Decisions 32:03 – Rethinking Teams in AI Era 34:31 – Industrial Policy and Funding 37:25 – What Investors Misunderstand About Intel 41:10 – Where Compute Will Live 44:59 – Conclusion",
       "dedupe_key": "podcast:4531868a52a0e48638057f42195087a77200080a",
       "first_seen_at": "2026-08-04T09:31:17.915428+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-      "published_at": "2026-06-18T08:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "France Advances Europe’s AI Future With NVIDIA Technologies",
-      "url": "https://blogs.nvidia.com/blog/france-advances-europes-ai-future/",
-      "summary": "A year ago at NVIDIA GTC Paris at VivaTech, France laid out plans to advance local AI — from new AI factories and national compute capacity to open frontier models and industrial platforms. Now, that AI infrastructure is coming online. AI agents are running in production, startup",
-      "published_at": "2026-06-18T06:00:59+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "Humanoid Robots on a Real Production Line: AGIBOT Livestream",
-      "url": "https://www.youtube.com/watch?v=4xcDP90ec5U",
-      "summary": "From June 23–28, AGIBOT will host a livestream from a tablet mass-production line, showcasing humanoid robots operating across a full quality-inspection section in a real factory environment alongside human operators. Over six days, viewers will get a live look at real production",
-      "published_at": "2026-06-18T03:06:21+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
     },
     {
       "source": "Kling AI Updates",
