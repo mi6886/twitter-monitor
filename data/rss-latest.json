@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-16T21:37:47.680022+00:00",
+  "updated_at": "2026-08-17T11:21:44.710487+00:00",
   "count": 700,
-  "new_count": 465,
+  "new_count": 467,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,6 +65,42 @@
   ],
   "items": [
     {
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "title": "Get closer to the game with Gemini and Pixel",
+      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+      "summary": "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and Smartphone Technology.",
+      "published_at": "2026-08-17T08:00:00+00:00",
+      "first_seen_at": "2026-08-17T11:21:44.710487+00:00"
+    },
+    {
+      "source": "Unitree YouTube",
+      "source_type": "youtube",
+      "title": "Unitree New Robot Preview: “Superman” Breaking the Limits of Humanity",
+      "url": "https://www.youtube.com/watch?v=O7OkiZfIlS4",
+      "summary": "Standing high jump 2 m, top speed 12.66 m/s (0.85 m leg length) Surpassing the standing high jump and running speed records of all humans around the world This new machine has only been in development for a little over three months, with significant room for further improvement i",
+      "published_at": "2026-08-17T07:23:26+00:00",
+      "first_seen_at": "2026-08-17T11:21:44.710487+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "New policy ideas for the Intelligence Age",
+      "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "summary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+      "published_at": "2026-08-17T03:15:00+00:00",
+      "first_seen_at": "2026-08-17T11:21:44.710487+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "The Hidden Challenge of Delivery Robots",
+      "url": "https://www.youtube.com/shorts/MZU1t4h1Abc",
+      "summary": "The hardest part of autonomous delivery isn't driving. It's the last 100 feet.",
+      "published_at": "2026-08-17T00:31:54+00:00",
+      "first_seen_at": "2026-08-17T11:21:44.710487+00:00"
+    },
+    {
       "source": "The Robot Report",
       "source_type": "rss",
       "title": "How robotics is revolutionizing stroke rehabilitation",
@@ -113,7 +149,7 @@
     {
       "source": "Latent Space YouTube",
       "source_type": "youtube",
-      "title": "Exo: Harnesses should see their own code and logs — Alex Krentsel",
+      "title": "Exo: Harnesses should see their own code and logs — Alex Krentsel, UC Berekeley / Google Research",
       "url": "https://www.youtube.com/watch?v=5lFD-34dhqE",
       "summary": "Exo is a systems approach to recursive self improvement. In short, it's a complete AI agent harness (supporting tools, tasks, integrations, etc. similar to OpenClaw, Pi or Hermes), with the crucial difference that it has full visibility into both its code and runtime logs. This a",
       "published_at": "2026-08-15T15:45:32+00:00",
@@ -226,6 +262,16 @@
       "summary": "The Digit humanoid robot from Agility, which is an example of a SPAC acquisition. Source: Agility On June 24, Agility Robotics Inc., a leading humanoid robotics and physical AI company, announced it had entered into a definitive business combination agreement with Churchill Capit",
       "published_at": "2026-08-14T12:30:40+00:00",
       "first_seen_at": "2026-08-14T21:43:56.287851+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Cursor's $60B acquisition by SpaceXai closes",
+      "url": "https://www.latent.space/p/ainews-cursors-60b-acquisition-by",
+      "summary": "Throwback to when we did the first ever podcast on Cursor when they were 5 people:And then recapping agents at ICML 2024 with Graham Neubig:And then their third era in 2026:And talking about how they do FDE in the Enterprise:AI News for 8/13/2026-8/14/2026. We checked 12 subreddi",
+      "published_at": "2026-08-14T06:16:00+00:00",
+      "details": "Throwback to when we did the first ever podcast on Cursor when they were 5 people:And then recapping agents at ICML 2024 with Graham Neubig:And then their third era in 2026:And talking about how they do FDE in the Enterprise:AI News for 8/13/2026-8/14/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpen-Weight Frontier Push: Z.ai’s GLM-5.3, Qwen3.8-27B/Max, DeepSeek V4-Pro, and RedNote’s dots3-noteZ.ai’s GLM-5.3: The biggest technical story was Z.ai launching GLM-5.3, positioned as a coding- and cyber-focused model built via post-training on the same 743B base model used for GLM-5.2 rather than a new pretrain. Z.ai and follow-up posts claim large gains on agentic and security evals, including Terminal Bench 3.0: 28.3, DeepSWE: 66.9, Agents’ Last Exam: 28.5, and GDPVal-AA: 1769 (bench summary, full benchmarks). The company also said cyber capabilities improved enough that access is initially gated for select partners before an eventual open-weight release after safety review (details). The key claim many engineers highlighted is that the capability jump came entirely from scaled post-training/RL on longer-horizon executable tasks, not from a larger base model (analysis, reaction).Qwen3.8 broadens the local/open frontier: Alibaba released Qwen3.8-27B, a native multimodal dense model under Apache 2.0, with 262K native context extendable to 1M via YaRN, while also highlighting the already-released Qwen3.8-2.4T-A95B max-tier model (announcement, perf thread). The 27B model is notable because it is explicitly positioned for real-world coding, office workflows, and agents rather than just academic benchmarks. Day-0 inference support was unusually broad: vLLM, Ollama, llama.cpp/GGUF, SGLang reporting 206 tok/s on a single RTX 5090, plus cloud partners including Together, Fireworks, Modal, DigitalOcean, DeepInfra, and others. Practical deployment details mattered here: Unsloth claimed NVFP4 and dynamic GGUF builds, and Qwen emphasized 27B on 17GB RAM for local use (post).DeepSeek V4-Pro and RedNote’s dots3-note continue the China open-model wave: vLLM announced support for DeepSeek-V4-Pro, calling out MIT licensing, checkpoint compatibility with the preview path, and integrated drafting support. Meanwhile RedNote’s AI lab released dots3-note Preview, a 280B multimodal MoE with 16B active params and 512K context, aimed at long-running agents and accompanied by a new RL method, TEMPO, for long-horizon self-evaluation (early signal, summary, technical explanation from the team). The emerging pattern is multiple Chinese labs specializing: several commentators explicitly framed Z.ai, DeepSeek, Moonshot, Qwen, MiniMax, and RedNote as a fast-moving open ecosystem with different strengths (one synthesis, another).Agent Runtimes, Harnesses, and Long-Horizon TrainingDeepSeek Harness is being treated as infrastructure, not a demo agent: The release sparked more discussion about runtime architecture than model UX. Several deep dives described the harness as a pluginized agent runtime where the agent loop, tools, sessions, filesystem, and providers are all replaceable, with Cordis providing lifecycle management, reactive dependencies, and reversible effects (overview, runtime composability thread). The technically interesting bit is not just “modularity,” but support for hot-swapping runtime components and potentially enabling agents to modify their own runtime without restart, while preserving auditable event logs and avoiding hidden state. Multiple builders reacted that current harnesses are probably “wrong” or at least too fixed-core compared with this direction (reaction).Harnesses are becoming an optimization target in their own right: A few posts reinforced that benchmark and product gains are increasingly coming from the scaffold/harness layer, not just base-model IQ. DAIR highlighted AutoDesign, where a meta-optimizer rewrites the harness itself based on rollout feedback; they report gains on paper-to-poster generation and transfer across agent/model configs. Lambda’s Tetris experiment made a similar point from the opposite angle: prompt placement, settings, and sandbox constraints moved outcomes materially, and agents exploited benchmark loopholes unless tightly bounded. This aligns with broader discussion that observability data is now doing double duty as evals, memory, and learning substrate (LangSmith docs note).Benchmarks, Evals, and Benchmark SkepticismNew evals targeted real agent failure modes: Vals launched an agentic reverse-engineering benchmark focused on deterministic end goals in cybersecurity-relevant binary settings rather than intermediate artifacts; a companion post argues current frontier agents are much stronger when source is available than when they must reason over binaries (context). OpenRouter introduced web search ",
+      "first_seen_at": "2026-08-17T11:21:44.710487+00:00"
     },
     {
       "source": "Latent Space",
@@ -6387,51 +6433,6 @@
       "summary": "In 2018, Amazon brought me in as the lead UX Sound Designer for Astro, its first consumer home robot. Astro used cameras and other sensors to map and navigate your home and workplace, and could proactively patrol, check up on loved ones, and transport small items using its built-",
       "published_at": "2026-06-19T10:00:00+00:00",
       "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
-      "url": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
-      "summary": "In a consequential grid infrastructure decision, the Federal Energy Regulatory Commission (FERC) today issued a major milestone on large-load interconnection impacting how those building AI factories, semiconductor fabrication support systems and advanced manufacturing facilities",
-      "published_at": "2026-06-18T20:00:27+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "MosaicLeaks: Can your research agent keep a secret?",
-      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "summary": "",
-      "published_at": "2026-06-18T18:13:13+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "New usage analytics and updated spend controls for enterprises",
-      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-      "published_at": "2026-06-18T17:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "GitHub Blog",
-      "title": "How pull request limits are cutting down the noise",
-      "url": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
-      "summary": "Learn how pull request limits can help manage contribution volume in your repositories, and see what’s next on the roadmap. The post How pull request limits are cutting down the noise appeared first on The GitHub Blog.",
-      "published_at": "2026-06-18T16:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "At Cannes Lions, NVIDIA Partners Reshape Advertising and Marketing With AI",
-      "url": "https://blogs.nvidia.com/blog/nvidia-ai-marketing-advertising-cannes-lions/",
-      "summary": "The digital era gave the advertising and marketing industry speed; the AI era is giving it autonomous operations. For companies building next-generation technologies for advertising and marketing, the question is no longer whether to adopt AI but whether their infrastructure can ",
-      "published_at": "2026-06-18T13:00:43+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00",
-      "source_type": "rss"
     },
     {
       "source": "Kling AI Updates",
