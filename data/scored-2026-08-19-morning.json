@@ -1,0 +1,512 @@
+{
+  "date": "2026-08-19",
+  "period": "morning",
+  "fetched_at": "2026-08-18T21:42:12.737228+00:00",
+  "raw_count": 11,
+  "scored_count": 11,
+  "keep_count": 6,
+  "drop_count": 5,
+  "fallback_count": 0,
+  "score_distribution": {
+    ">=50": 6,
+    "35-49": 0,
+    "20-34": 0,
+    "<20": 5
+  },
+  "tweets": [
+    {
+      "tweet_id": "2089806039088517356",
+      "url": "https://x.com/claudeai/status/2089806039088517356",
+      "screen_name": "claudeai",
+      "created_at": "Tue Aug 18 20:06:01 +0000 2026",
+      "full_text": "Claude can now send emails in Gmail and manage files in Google Drive.\n\nAsk Claude to reply to a thread, and it drafts and sends the response. You control when it needs your approval.\n\nConnect Gmail or Google Drive from the connectors menu to try. Available on all paid plans. https://t.co/cFZEjh3MgB",
+      "lang": "en",
+      "favorite_count": 2901,
+      "retweet_count": 164,
+      "reply_count": 195,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/cFZEjh3MgB",
+          "expanded_url": "https://x.com/claudeai/status/2089806039088517356/photo/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2089794979149316096",
+          "indices": [
+            276,
+            299
+          ],
+          "media_key": "3_2089794979149316096",
+          "media_url_https": "https://pbs.twimg.com/media/HQBxdhmXAAAEjuD.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 2150,
+                "w": 3840,
+                "x": 0,
+                "y": 10
+              },
+              {
+                "h": 2160,
+                "w": 2160,
+                "x": 1128,
+                "y": 0
+              },
+              {
+                "h": 2160,
+                "w": 1895,
+                "x": 1261,
+                "y": 0
+              },
+              {
+                "h": 2160,
+                "w": 1080,
+                "x": 1668,
+                "y": 0
+              },
+              {
+                "h": 2160,
+                "w": 3840,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 2160,
+            "width": 3840
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/cFZEjh3MgB"
+        }
+      ],
+      "id": "2089806039088517356",
+      "summary": "Claude现可在Gmail中发送邮件、在Google Drive中管理文件。AI助手集成深化，支持所有付费计划。",
+      "category": "单产品/技术叙事",
+      "category_points": 30,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
+      "actionability_points": 5,
+      "account_fit": "B型",
+      "account_bonus": 5,
+      "total_score": 73,
+      "verdict": "keep",
+      "angles": [
+        "Claude邮件自动化：AI秘书终于来了",
+        "Gmail+Drive+Claude，工作流彻底改造",
+        "AI助手深度集成Google生态的新玩法"
+      ]
+    },
+    {
+      "tweet_id": "2089566892117860844",
+      "url": "https://x.com/Alibaba_Qwen/status/2089566892117860844",
+      "screen_name": "Alibaba_Qwen",
+      "created_at": "Tue Aug 18 04:15:44 +0000 2026",
+      "full_text": "A local 27B model scoring frontier performance! Huge thanks to @cline for the shoutout.🥳 This is just the beginning — Qwen3.8-27B will keep finding its way into more fields.🌱",
+      "lang": "en",
+      "favorite_count": 2637,
+      "retweet_count": 144,
+      "reply_count": 106,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2089566892117860844",
+      "summary": "阿里Qwen 3.8-27B本地模型达到前沿性能。27B参数量实现frontier级别表现，开源模型竞争力提升。",
+      "category": "单产品/技术叙事",
+      "category_points": 30,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "未来感/想象",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 70,
+      "verdict": "keep",
+      "angles": [
+        "27B参数破局：开源模型追平闭源",
+        "Qwen 3.8-27B的frontier性能意味着什么",
+        "本地模型时代来临，成本与性能的新平衡"
+      ]
+    },
+    {
+      "tweet_id": "2089787807611195475",
+      "url": "https://x.com/sama/status/2089787807611195475",
+      "screen_name": "sama",
+      "created_at": "Tue Aug 18 18:53:34 +0000 2026",
+      "full_text": "We have paused some frontier RL training to ensure that we can meet the appropriate alignment, security and monitoring standards for the new level of capabilities in front of us. Model progress is now extremely rapid, and we always said we would take action if we felt that model",
+      "lang": "en",
+      "favorite_count": 4660,
+      "retweet_count": 337,
+      "reply_count": 811,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2089787807611195475",
+      "summary": "OpenAI暂停前沿强化学习训练以确保对齐、安全和监控标准。模型进度极快，采取主动行动应对新能力水平。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "未来感/想象",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 68,
+      "verdict": "keep",
+      "angles": [
+        "OpenAI主动暂停训练，AI安全新里程碑",
+        "模型能力爆炸式增长，对齐成瓶颈",
+        "前沿RL训练为何突然叫停"
+      ]
+    },
+    {
+      "tweet_id": "2089777845187031262",
+      "url": "https://x.com/OpenAI/status/2089777845187031262",
+      "screen_name": "OpenAI",
+      "created_at": "Tue Aug 18 18:13:59 +0000 2026",
+      "full_text": "As models become more capable, the risks associated with developing and testing them internally also grow.\n\nWe temporarily paused reinforcement learning (RL) training on our latest models intended for deployment for two weeks while we hardened and red-teamed our research",
+      "lang": "en",
+      "favorite_count": 3572,
+      "retweet_count": 280,
+      "reply_count": 426,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2089777845187031262",
+      "summary": "OpenAI暂停强化学习训练两周进行安全加固和红队测试。模型能力增长带来风险管理挑战。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [
+        "终于/第一型选题"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "未来感/想象",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "A型",
+      "account_bonus": 5,
+      "total_score": 68,
+      "verdict": "keep",
+      "angles": [
+        "OpenAI两周暂停训练背后的安全考量",
+        "模型能力越强，风险管理越复杂",
+        "AI安全红线：从内部测试到部署前把关"
+      ]
+    },
+    {
+      "tweet_id": "2089756371570900999",
+      "url": "https://x.com/claudeai/status/2089756371570900999",
+      "screen_name": "claudeai",
+      "created_at": "Tue Aug 18 16:48:39 +0000 2026",
+      "full_text": "Claude Cowork is now available on mobile and web for all paid plans.",
+      "lang": "en",
+      "favorite_count": 4156,
+      "retweet_count": 276,
+      "reply_count": 378,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2089756371570900999",
+      "summary": "Claude Cowork现已在移动端和网页端对所有付费计划开放。AI协作工具功能扩展。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "时效首发",
+      "info_gap_points": 20,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "焦虑/实用",
+      "emotion_points": 3,
+      "actionability_points": 5,
+      "account_fit": "B型",
+      "account_bonus": 5,
+      "total_score": 61,
+      "verdict": "keep",
+      "angles": [
+        "Claude Cowork全平台上线，协作新体验",
+        "AI工具进化：从桌面到移动的完整覆盖",
+        "付费用户福利：Cowork功能全解"
+      ]
+    },
+    {
+      "tweet_id": "2089691785132208492",
+      "url": "https://x.com/aakashgupta/status/2089691785132208492",
+      "screen_name": "aakashgupta",
+      "created_at": "Tue Aug 18 12:32:00 +0000 2026",
+      "full_text": "Elon built a power plant in Mississippi to run computers in Tennessee. They're a few hundred feet apart. The state line between them is doing all the work.\n\nHere's the trick. Air permits come from state regulators. Memphis fought his turbines for a year. So he put the new ones",
+      "lang": "en",
+      "favorite_count": 4521,
+      "retweet_count": 509,
+      "reply_count": 122,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2089691785132208492",
+      "summary": "Elon在密西西比州建电厂为田纳西州计算机供电，利用州界线规避空气许可证。展现监管套利的创意。",
+      "category": "事件速报",
+      "category_points": 28,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [
+        "反常识/意外性"
+      ],
+      "viral_signals_points": 10,
+      "emotion": "好奇/趣味",
+      "emotion_points": 5,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 51,
+      "verdict": "keep",
+      "angles": [
+        "Elon的监管套利：跨州电厂奇招",
+        "几百英尺的州界线如何改变能源格局",
+        "反常识：为何要把电厂建在另一个州"
+      ]
+    },
+    {
+      "tweet_id": "2089758713183613266",
+      "url": "https://x.com/cursor_ai/status/2089758713183613266",
+      "screen_name": "cursor_ai",
+      "created_at": "Tue Aug 18 16:57:57 +0000 2026",
+      "full_text": "We're making Git hosting more reliable, performant, and scalable.\n\nThis post traces 20 years of Git infrastructure and explains how that history led us to design and operate our Git storage, Origin, as if it were a database.\n\nhttps://t.co/UW7jHuItSX",
+      "lang": "en",
+      "favorite_count": 2353,
+      "retweet_count": 173,
+      "reply_count": 111,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2089758713183613266",
+      "summary": "Cursor改进Git托管基础设施，追溯20年Git演进历史并解释Origin数据库设计。开发者工具优化。",
+      "category": "开发者工具",
+      "category_points": 8,
+      "info_gap": "认知差",
+      "info_gap_points": 8,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 16,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2089644724047229079",
+      "url": "https://x.com/aakashgupta/status/2089644724047229079",
+      "screen_name": "aakashgupta",
+      "created_at": "Tue Aug 18 09:25:00 +0000 2026",
+      "full_text": "The chunky wood butcher block in 1980s kitchens disappeared because of a government recommendation that had zero science behind it.\n\nIn the early 90s, food microbiologist Dean Cliver asked the USDA for the evidence behind their advice to ditch wood for plastic. They admitted they",
+      "lang": "en",
+      "favorite_count": 8616,
+      "retweet_count": 1499,
+      "reply_count": 160,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2089644724047229079",
+      "summary": "1980年代木砧板消失源于USDA无科学依据的建议，微生物学家Dean Cliver后来要求USDA提供证据却被拒。揭示政策决策的荒谬性。",
+      "category": "AI趋势/观点",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2089758522678657212",
+      "url": "https://x.com/sama/status/2089758522678657212",
+      "screen_name": "sama",
+      "created_at": "Tue Aug 18 16:57:12 +0000 2026",
+      "full_text": "excited to work together on this. thank you jensen!",
+      "lang": "en",
+      "favorite_count": 2723,
+      "retweet_count": 137,
+      "reply_count": 232,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2089758522678657212",
+      "summary": "Sam Altman表示期待与Jensen合作。信息不足，无法判断具体内容。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2089518337382572522",
+      "url": "https://x.com/naval/status/2089518337382572522",
+      "screen_name": "naval",
+      "created_at": "Tue Aug 18 01:02:47 +0000 2026",
+      "full_text": "https://t.co/vDgIxDD1sO",
+      "lang": "zxx",
+      "favorite_count": 2532,
+      "retweet_count": 50,
+      "reply_count": 101,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "id": "2089518337382572522",
+      "summary": "Naval分享链接，无具体内容信息。无法判断主题。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    },
+    {
+      "tweet_id": "2089741335074861280",
+      "url": "https://x.com/NVIDIAGeForce/status/2089741335074861280",
+      "screen_name": "NVIDIAGeForce",
+      "created_at": "Tue Aug 18 15:48:54 +0000 2026",
+      "full_text": "RTX PC Week — FREE PC DROP 🔔\n\nWIN this custom @FalconNW FragBox, powered by a GeForce RTX 5080 Founders Edition.\n\nWhich PC game has earned the most hours in your Steam library?\n\nShare your answer with #RTXPowersPlay to enter! https://t.co/BFzJppS1Hv",
+      "lang": "en",
+      "favorite_count": 2172,
+      "retweet_count": 389,
+      "reply_count": 5169,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "display_url": "pic.x.com/BFzJppS1Hv",
+          "expanded_url": "https://x.com/NVIDIAGeForce/status/2089741335074861280/video/1",
+          "ext_master_playlist_only": [],
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "ext_playlists": [],
+          "id_str": "2089741229265178624",
+          "indices": [
+            226,
+            249
+          ],
+          "media_key": "13_2089741229265178624",
+          "media_url_https": "https://pbs.twimg.com/media/HQBAqxVW4AIipFE.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1080
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/BFzJppS1Hv",
+          "video_info": {
+            "aspect_ratio": [
+              1,
+              1
+            ],
+            "duration_millis": 24066,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2089741229265178624/pl/wMNVBnlze_ixZSuv.m3u8?tag=14&v=cfc"
+              },
+              {
+                "bitrate": 432000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2089741229265178624/vid/avc1/320x320/a6BzkOizi04zdXDD.mp4?tag=14"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2089741229265178624/vid/avc1/540x540/-6_zMrx8wE6yNnQg.mp4?tag=14"
+              },
+              {
+                "bitrate": 1280000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2089741229265178624/vid/avc1/720x720/Xm4V10JkKIVnWhAM.mp4?tag=14"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "2089741335074861280",
+      "summary": "NVIDIA GeForce RTX周年庆抽奖活动，赠送搭载RTX 5080创始人版的定制Falcon NW FragBox高端游戏PC，参与方式为分享Steam游戏库最高时长游戏。",
+      "category": "其他/非AI",
+      "category_points": 0,
+      "info_gap": "已知信息",
+      "info_gap_points": 0,
+      "viral_signals": [],
+      "viral_signals_points": 0,
+      "emotion": "无明确情绪钩子",
+      "emotion_points": 0,
+      "actionability_points": 0,
+      "account_fit": "不匹配",
+      "account_bonus": 0,
+      "total_score": 0,
+      "verdict": "drop",
+      "angles": []
+    }
+  ]
+}
