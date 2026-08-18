@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T21:44:23.269199+00:00",
+  "updated_at": "2026-08-18T11:21:50.744168+00:00",
   "count": 700,
-  "new_count": 495,
+  "new_count": 473,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,43 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Partnering with CodeAI to prepare the first AI generation",
+      "url": "https://openai.com/index/partnering-with-codeai",
+      "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+      "published_at": "2026-08-18T11:00:00+00:00",
+      "first_seen_at": "2026-08-18T11:21:50.744168+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "url": "https://openai.com/index/chatgpt-for-teens",
+      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+      "published_at": "2026-08-18T11:00:00+00:00",
+      "first_seen_at": "2026-08-18T11:21:50.744168+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Stripe buys OpenRouter for $7B",
+      "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+      "summary": "TheInformation had the scoop last month, but OpenRouter’s acquisition by Stripe for $7B was seems all but closed this weekend, 90 days after their $1.3B Series B. Their last revenue number out there was $140m annualized, so this represents a “standard” 50x multiple for a top tier",
+      "published_at": "2026-08-17T23:13:41+00:00",
+      "details": "TheInformation had the scoop last month, but OpenRouter’s acquisition by Stripe for $7B was seems all but closed this weekend, 90 days after their $1.3B Series B. Their last revenue number out there was $140m annualized, so this represents a “standard” 50x multiple for a top tier AI company. What’s incredible is the profitability: Although much smaller than Cursor, OpenRouter likely has better economics. Its costs to serve its model-routing product were recently about $40 million on an annualized basis, or 28.5% of its revenue, meaning it was generating $100 million in annualized gross profit. With a roughly 70% gross profit margin, OpenRouter was near the level of high-performing, publicly traded software firms in that regard…. … Overall, OpenRouter is facilitating AI model usage at a rate of 250 trillion tokens per month, up from 50 trillion tokens per month in February.A 70x P/E ratio is possibly cheap for a high growth (5x in 6 months) startup with a broad (8 million developers) base. Certainly a good outcome for new billionaire Alex Atallah, and good for fellow router startups, but certainly there are a lot of implications on Stripe’s AI strategy and where value accrues in AI infra (much less GPU infra, much less Agent Labs, much less Frontier Model Labs).You can catch Alex’s last public appearance on the AIE State of Model Routing panel.AI News for 8/15/2026-8/17/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapAI Infrastructure, Compute, and the Platform StackOpenAI’s power-and-compute strategy is getting very literal: Two related posts suggest OpenAI is moving beyond “GPU supply” narratives into long-horizon control of the full infrastructure stack. @markchen90 described a 4+ GW NVIDIA capacity commitment; @kimmonismus added detail on an 8 GW Ohio campus, with SB Energy building and operating the site, NVIDIA backing the initial 4.25 GW, and a multi-year buildout through 2032. For infra engineers, the notable point is not just scale, but vertical coupling across power, data centers, chips, and long-dated access.The model access/routing layer is being repriced in real time: The reported Stripe–OpenRouter deal crystallizes how valuable the aggregation/routing API layer has become, but reaction from @kimmonismus also underscored how fragile that position could be if markup compresses to zero. In parallel, OpenRouter cut GPT-5.6 Sol pricing while Vercel did the same on AI Gateway, reinforcing that model brokerage is becoming a pricing battlefield rather than a stable tollbooth.Developer Platforms, Coding Agents, and Agentic ToolingCursor’s Origin points toward the AI-native IDE becoming the system of record: Origin’s launch is more than a GitHub competitor headline. It suggests Cursor wants first-party control over the full loop: repository, agent, review surface, and deployment hooks. @kimmonismus notes GitHub remains syncable and source-of-truth-compatible, but the strategic direction is clear: agentic coding products are trying to absorb the surrounding platform, not just autocomplete against it.Multi-agent orchestration is shifting from demoware toward operating patterns: Several posts converged on the same motif. @tonbistudio showed Hermes Desktop bots self-assigning game-dev work based on inferred specialties; @Teknium formally reintroduced Bot Mode, where agents maintain distinct memory, skills, tools, and inter-bot communication; and @omarsar0 recommended material on orchestrating multiple agents in Codex. The common thread is specialization plus persistent context, not generic “agents talking to agents.”Evaluation and harness work remains the real leverage point: Hamel Husain’s updated eval-skills plugin adds an error-discovery workflow that turns model outputs/traces into annotated failure modes and clustered review surfaces. That pairs well with Agent Arena’s new cost-per-task and category filters, which are based on 1.7M+ real-world sessions. The field is slowly moving from model-level evals to harness-level measurement: routing, decomposition, memory, verifier loops, and total completion cost.Computer-use and sandboxing are getting productized: Vanta’s new computer-use capability for its TrustVanta agent addresses a real enterprise workflow gap: screenshot evidence capture when there is no API surface. Likewise, LangChain’s monday.com case study highlights isolated workspaces via LangSmith Sandboxes for agents doing iterative work like CSV analysis or map generation. “Agent” product quality is increasingly about permissioning and execution isolation, not just reasoning quality.Model Efficiency, Post-Training, and Small/Open Model ProgressOpen models continue to compress the capability frontier: The strongest signal here was @cline’s note that Qwen3.8-27B now scores at DeepSeek V4-Pro / GPT-5.6 Luna territory on ",
+      "first_seen_at": "2026-08-18T11:21:50.744168+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "Why Raising AI Isn't Like Raising Kids - Ryan Greenblatt",
+      "url": "https://www.youtube.com/shorts/2EfINfM0wLs",
+      "summary": "",
+      "published_at": "2026-08-17T21:58:24+00:00",
+      "first_seen_at": "2026-08-18T11:21:50.744168+00:00"
+    },
     {
       "source": "The Robot Report",
       "source_type": "rss",
@@ -704,7 +741,7 @@
     {
       "source": "GitHub Blog",
       "source_type": "rss",
-      "title": "Write your first prompt with the GitHub Copilot app",
+      "title": "GitHub Copilot app for Beginners: Write your first prompt",
       "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
       "summary": "Opening a new AI tool can feel a little like staring at a blank page. You know you want help with something, but figuring out exactly what to ask can be its own task. The good news is that you don’t need to write the perfect prompt to get started. A prompt is simply a description",
       "published_at": "2026-08-12T19:00:00+00:00",
@@ -6394,42 +6431,6 @@
       "published_at": "2026-06-23T13:00:07+00:00",
       "first_seen_at": "2026-06-25T01:23:59.981852+00:00",
       "source_type": "rss"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Helping build shared standards for advanced AI",
-      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
-      "published_at": "2026-06-23T13:00:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
-      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
-      "summary": "",
-      "published_at": "2026-06-23T12:51:55+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "The Robot Report YouTube",
-      "source_type": "youtube",
-      "title": "AdobeStock 1905182375",
-      "url": "https://www.youtube.com/watch?v=EzftChNq-vA",
-      "summary": "Physical AI enables robots to be aware of their environment and be able to navigate and interact with it.",
-      "published_at": "2026-06-23T12:28:34+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "AGIBOT Livestream Day 1: Multiple AGIBOT G2 Humanoid Robots Working on a Real Tablet Production Line",
-      "url": "https://www.youtube.com/watch?v=WKkfB-1YyGk",
-      "summary": "Watch multiple AGIBOT G2 humanoid robots working on a real tablet production line. This is autonomous robot operation inside an active factory workflow — not a simulation or staged demo.",
-      "published_at": "2026-06-23T12:20:41+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
     },
     {
       "source": "Kling AI Updates",
