@@ -1,0 +1,533 @@
+{
+  "date": "2026-08-19",
+  "period": "evening",
+  "fetched_at": "2026-08-19T11:21:42.301006+00:00",
+  "tier_counts": {
+    "must_do": 2,
+    "priority": 2,
+    "backup": 2
+  },
+  "tiers": {
+    "must_do": [
+      {
+        "tweet_id": "2089763435865088508",
+        "url": "https://x.com/kimmonismus/status/2089763435865088508",
+        "screen_name": "kimmonismus",
+        "created_at": "Tue Aug 18 17:16:43 +0000 2026",
+        "full_text": "A \"refusal-removed\" version of Qwen3.8-27B can now run locally on Apple Silicon.\n\nEven its creators warn that it can provide malware, fraud and weapons instructions on demand.\n\nIt was released as an MLX build in 2, 4, 6 and 8-bit versions. The uploader claims its 4/6/8-bit tests https://t.co/BHOOhKIBln",
+        "lang": "en",
+        "favorite_count": 3098,
+        "retweet_count": 139,
+        "reply_count": 119,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/BHOOhKIBln",
+            "expanded_url": "https://x.com/kimmonismus/status/2089763435865088508/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2089763339953991680",
+            "indices": [
+              280,
+              303
+            ],
+            "media_key": "3_2089763339953991680",
+            "media_url_https": "https://pbs.twimg.com/media/HQBUr4aXcAAimSo.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 650,
+                  "w": 1160,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 662,
+                  "w": 662,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 662,
+                  "w": 581,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 662,
+                  "w": 331,
+                  "x": 37,
+                  "y": 0
+                },
+                {
+                  "h": 662,
+                  "w": 1160,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 662,
+              "width": 1160
+            },
+            "sizes": {
+              "large": {
+                "h": 662,
+                "w": 1160
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/BHOOhKIBln"
+          }
+        ],
+        "id": "2089763435865088508",
+        "summary": "Qwen 3.8-27B移除限制版本可在Apple Silicon本地运行，支持4/6/8位量化。开源模型民主化但伴随安全风险。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "反常识/意外性",
+          "终于/第一型选题"
+        ],
+        "viral_signals_points": 20,
+        "emotion": "好奇/趣味",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 78,
+        "verdict": "keep",
+        "angles": [
+          "Qwen无限制版本可在Mac本地跑了",
+          "27B大模型在Apple Silicon上的突破",
+          "开源模型的双刃剑：能力与风险"
+        ]
+      },
+      {
+        "tweet_id": "2089783608630284758",
+        "url": "https://x.com/gdb/status/2089783608630284758",
+        "screen_name": "gdb",
+        "created_at": "Tue Aug 18 18:36:53 +0000 2026",
+        "full_text": "we temporarily slowed scaling of our frontier training, including our largest planned frontier RL, to strengthen security and monitoring. we believe confidence in safety will increasingly set the pace of AI development:",
+        "lang": "en",
+        "favorite_count": 2501,
+        "retweet_count": 93,
+        "reply_count": 316,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2089783608630284758",
+        "summary": "Anthropic宣布暂时放缓前沿模型训练规模，加强安全监测。AI安全成为发展速度的制约因素。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "反常识/意外性"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "未来感/想象",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 68,
+        "verdict": "keep",
+        "angles": [
+          "Anthropic主动踩刹车：安全优先于速度",
+          "AI巨头的反常之举：放缓训练规模",
+          "安全成为AI发展的新瓶颈"
+        ]
+      }
+    ],
+    "priority": [
+      {
+        "tweet_id": "2089844723691479333",
+        "url": "https://x.com/trq212/status/2089844723691479333",
+        "screen_name": "trq212",
+        "created_at": "Tue Aug 18 22:39:44 +0000 2026",
+        "full_text": "weird that there's a \"make a lot of money\" button and nobody's pressing it\n\n(take your SaaS, make it headless, let agents use it, charge per interaction esp for enterprises)",
+        "lang": "en",
+        "favorite_count": 4664,
+        "retweet_count": 153,
+        "reply_count": 234,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2089844723691479333",
+        "summary": "观点：SaaS产品可通过Agent接口按交互次数收费，特别是企业端，这是被忽视的商业模式。",
+        "category": "AI趋势/观点",
+        "category_points": 25,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [
+          "反常识/意外性"
+        ],
+        "viral_signals_points": 10,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 0,
+        "account_fit": "不匹配",
+        "account_bonus": 0,
+        "total_score": 46,
+        "verdict": "keep",
+        "angles": [
+          "SaaS创业者都错过的赚钱按钮",
+          "Agent时代的新商业模式：按交互收费",
+          "为什么没人把SaaS改成Headless+Agent"
+        ]
+      },
+      {
+        "tweet_id": "2089842387845804246",
+        "url": "https://x.com/AnthropicAI/status/2089842387845804246",
+        "screen_name": "AnthropicAI",
+        "created_at": "Tue Aug 18 22:30:27 +0000 2026",
+        "full_text": "Many drugs work by binding to a specific target in the body and blocking or changing what it does. An important first step in the drug development process is designing a molecule that can bind tightly to its target. Traditionally, that's meant weeks or months of expert work per https://t.co/CGCNTNaKBq",
+        "lang": "en",
+        "favorite_count": 8287,
+        "retweet_count": 907,
+        "reply_count": 380,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/CGCNTNaKBq",
+            "expanded_url": "https://x.com/AnthropicAI/status/2089842387845804246/video/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "id_str": "2089839233309773824",
+            "indices": [
+              279,
+              302
+            ],
+            "media_key": "13_2089839233309773824",
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2089839233309773824/img/4ZiaAp-kMK30-vJU.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 720,
+              "width": 1280
+            },
+            "sizes": {
+              "large": {
+                "h": 720,
+                "w": 1280
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/CGCNTNaKBq",
+            "video_info": {
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration_millis": 11000,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/2089839233309773824/pl/V1dUkkT31AqSM8gd.m3u8"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2089839233309773824/vid/avc1/480x270/d4dZen0fv8dEdoCG.mp4"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2089839233309773824/vid/avc1/640x360/4RMMzM3jX4muCZfc.mp4"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2089839233309773824/vid/avc1/1280x720/nHWgl750hpZfMNMd.mp4"
+                }
+              ]
+            }
+          }
+        ],
+        "id": "2089842387845804246",
+        "summary": "Anthropic展示AI在药物分子设计中的应用，传统需数周数月的专家工作现可加速。AI赋能新药研发流程的重要突破。",
+        "category": "AI+行业应用",
+        "category_points": 15,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "有明确应用场景"
+        ],
+        "viral_signals_points": 0,
+        "emotion": "未来感/想象",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 45,
+        "verdict": "keep",
+        "angles": [
+          "AI终于攻克新药研发最难环节",
+          "从数月到数天：AI如何革新药物分子设计",
+          "Anthropic的生物科技野心"
+        ]
+      }
+    ],
+    "backup": [
+      {
+        "tweet_id": "2089854759935066613",
+        "url": "https://x.com/NousResearch/status/2089854759935066613",
+        "screen_name": "NousResearch",
+        "created_at": "Tue Aug 18 23:19:37 +0000 2026",
+        "full_text": "Hermes Desktop now has a beautiful, adjustable matte transparency mode https://t.co/FBDXrFzyTO",
+        "lang": "en",
+        "favorite_count": 2127,
+        "retweet_count": 89,
+        "reply_count": 145,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/FBDXrFzyTO",
+            "expanded_url": "https://x.com/NousResearch/status/2089854759935066613/video/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "id_str": "2089854389485817856",
+            "indices": [
+              71,
+              94
+            ],
+            "media_key": "13_2089854389485817856",
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2089854389485817856/img/DenhEQKCswVnviv4.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1440,
+              "width": 2390
+            },
+            "sizes": {
+              "large": {
+                "h": 1234,
+                "w": 2048
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/FBDXrFzyTO",
+            "video_info": {
+              "aspect_ratio": [
+                239,
+                144
+              ],
+              "duration_millis": 98665,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/2089854389485817856/pl/hsNqDT0uWqtnyhoG.m3u8?v=cfc"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2089854389485817856/vid/avc1/448x270/CySrSSMaaZKJDjim.mp4"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2089854389485817856/vid/avc1/596x360/-btgX2oOOtzPpBfw.mp4"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2089854389485817856/vid/avc1/1194x720/M-Zqv45Ycl8qZG_a.mp4"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2089854389485817856/vid/avc1/2390x1440/STrcKb8cx-3nXxX4.mp4"
+                }
+              ]
+            }
+          }
+        ],
+        "id": "2089854759935066613",
+        "summary": "Hermes Desktop增加磨砂透明度模式。产品功能更新，缺乏重大创新或市场影响信息。",
+        "category": "效率工具推荐",
+        "category_points": 17,
+        "info_gap": "已知信息",
+        "info_gap_points": 0,
+        "viral_signals": [],
+        "viral_signals_points": 0,
+        "emotion": "无明确情绪钩子",
+        "emotion_points": 0,
+        "actionability_points": 0,
+        "account_fit": "B型",
+        "account_bonus": 5,
+        "total_score": 22,
+        "verdict": "keep",
+        "angles": [
+          "Hermes Desktop新增磨砂透明模式",
+          "AI桌面应用的UI升级",
+          "细节优化提升用户体验"
+        ]
+      },
+      {
+        "tweet_id": "2089877190422974974",
+        "url": "https://x.com/steipete/status/2089877190422974974",
+        "screen_name": "steipete",
+        "created_at": "Wed Aug 19 00:48:44 +0000 2026",
+        "full_text": "512GB RAM Studios. Apple was good to us. 🦞 https://t.co/NyvtNH6lRa",
+        "lang": "en",
+        "favorite_count": 4280,
+        "retweet_count": 48,
+        "reply_count": 239,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/NyvtNH6lRa",
+            "expanded_url": "https://x.com/steipete/status/2089877190422974974/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 90,
+                    "w": 90,
+                    "x": 1024,
+                    "y": 634
+                  },
+                  {
+                    "h": 82,
+                    "w": 82,
+                    "x": 742,
+                    "y": 698
+                  },
+                  {
+                    "h": 94,
+                    "w": 94,
+                    "x": 542,
+                    "y": 664
+                  },
+                  {
+                    "h": 130,
+                    "w": 130,
+                    "x": 330,
+                    "y": 626
+                  },
+                  {
+                    "h": 150,
+                    "w": 150,
+                    "x": 1176,
+                    "y": 598
+                  }
+                ]
+              }
+            },
+            "id_str": "2089877183728963584",
+            "indices": [
+              43,
+              66
+            ],
+            "media_key": "3_2089877183728963584",
+            "media_url_https": "https://pbs.twimg.com/media/HQC8Odhb0AAssGz.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 860,
+                  "w": 1536,
+                  "x": 0,
+                  "y": 338
+                },
+                {
+                  "h": 1536,
+                  "w": 1536,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1751,
+                  "w": 1536,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 2048,
+                  "w": 1024,
+                  "x": 512,
+                  "y": 0
+                },
+                {
+                  "h": 2048,
+                  "w": 1536,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 2048,
+              "width": 1536
+            },
+            "sizes": {
+              "large": {
+                "h": 2048,
+                "w": 1536
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/NyvtNH6lRa"
+          }
+        ],
+        "id": "2089877190422974974",
+        "summary": "开发者分享Apple提供512GB RAM工作室配置。硬件升级支撑高端开发需求。",
+        "category": "资源分享",
+        "category_points": 20,
+        "info_gap": "已知信息",
+        "info_gap_points": 0,
+        "viral_signals": [],
+        "viral_signals_points": 0,
+        "emotion": "无明确情绪钩子",
+        "emotion_points": 0,
+        "actionability_points": 0,
+        "account_fit": "不匹配",
+        "account_bonus": 0,
+        "total_score": 20,
+        "verdict": "keep",
+        "angles": [
+          "Apple 512GB RAM工作室配置曝光",
+          "顶级开发者的硬件标配",
+          "为什么专业开发需要512GB内存"
+        ]
+      }
+    ]
+  }
+}

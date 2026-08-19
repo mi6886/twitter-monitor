@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-18T21:42:13.116645+00:00",
+  "updated_at": "2026-08-19T11:21:42.612605+00:00",
   "count": 700,
-  "new_count": 480,
+  "new_count": 479,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,6 +65,34 @@
   ],
   "items": [
     {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Memory prices up 500% in 12 months",
+      "url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
+      "summary": "Even as Sama follows through on the Great Pacing, and Etched becomes a double unicorn and Cerebras announced CS4 running 10T models at 1000 tok/s, the memory shortage has continued unabated since we did our SemiAnalysis pod in Feb.Per Tom’s Hardware:We’re officially in dire strai",
+      "published_at": "2026-08-19T08:44:52+00:00",
+      "details": "Even as Sama follows through on the Great Pacing, and Etched becomes a double unicorn and Cerebras announced CS4 running 10T models at 1000 tok/s, the memory shortage has continued unabated since we did our SemiAnalysis pod in Feb.Per Tom’s Hardware:We’re officially in dire straits. There’s almost no way, if you’re reading this site, that you aren’t aware that memory prices have become entirely divorced from reality. Some are calling it the RAMpocalypse; I prefer “RAMageddon.” That’s right: 128GB DDR5 kits are fully ten times more expensive than the lowest price we’ve ever seen.In fact, the situation is so severe that hyperscale buyers have reportedly already locked in almost all of the global DRAM production capacity for 2027, handing over advance deposits to guarantee their supply of precious DRAM, which is now among the highest-value commodities in the world by weight; mainstream DRAM chips are worth over half as much per kilogram as solid gold. Put another way, the famous Moore’s Law driving all hardware unit prices down has been reversed for memory:AI News for 8/17/2026-8/18/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpenAI’s Frontier RL Pause, Expanded Monitoring, and the Shift Toward “Pacing the Frontier”OpenAI slowed frontier training to harden security and alignment controls: The day’s biggest systems/safety development was OpenAI saying it paused some frontier RL training for two weeks and is still holding its largest planned frontier RL run while it strengthens monitoring, isolation, and red-teaming. Sam Altman framed this as a case where capabilities were outpacing safety/alignment readiness, while Greg Brockman emphasized that confidence in safety will increasingly set the pace of frontier scaling. OpenAI also clarified the slowdown mainly affects farther-out releases, not models already near ship.Concrete controls matter more than broad messaging: OpenAI shared more implementation detail than usual, including stronger workload/network isolation, continuous security testing, and multistage monitoring. Secondary commentary highlighted interesting operational details: monitoring may add roughly 20% overhead, sampled-token monitoring can page safety/security/research teams within ~30 minutes, and tool-using inference for higher-risk systems may ship with active monitors attached, per @eliebakouch. Whatever one thinks of the policy framing, this is notable as a public admission that training/eval infra and inference-time monitors are now bottlenecks on frontier progress, not just raw compute.Open Models: Qwen3.8-27B Momentum, GLM-5.3’s Post-Training Gains, and the Small-Model DebateQwen3.8-27B became the focal point of the local/open model conversation: Several posts cast Qwen3.8-27B as a new “locally runnable frontier-ish” moment, with @kimmonismus calling it a “DeepSeek moment” and Alibaba Qwen celebrating it reaching #1 local model in Cline in four days. Benchmarks cited in the thread include #7 on Artificial Analysis’ Agentic Index at 27B, #6 among open-weight models on Vals Index v2 and #1 on Harvey’s legal benchmark among open weights, and Cline’s own ranking as its new top local model. The pushback was equally strong: @scaling01 argued benchmark wins are overstated versus Opus 4.5 in real coding use, underscoring the growing divide between bench success, cost efficiency, and qualitative reliability on long tasks.Safety implications of capable local models are getting harder to dismiss: A high-engagement post from @kimmonismus noted a “refusal-removed” MLX build of Qwen3.8-27B running locally on Apple Silicon in 2/4/6/8-bit variants, claiming preserved vision, reasoning, tool use, and 262K context with near-zero refusals. Independent of the rhetoric, this is the clearest thread in the set pointing to a real shift: useful, locally deployable, partially uncensored models are no longer hypothetical.GLM-5.3 looks like a post-training/infrastructure story, not a base-model story: Z.ai launched GLM-5.3 via API for coding, defensive cyber, and long-horizon agents, at the same price as GLM-5.2. Artificial Analysis reported it ties Kimi K3 at 60 on its Intelligence Index, with a 246-point jump on GDPval-AA v2 to 1770 Elo, while keeping the same 753B total / 40B active MoE footprint, 1M context, and MIT license once weights land. The most technically interesting interpretation came from a long Zhihu summary relayed by @ZhihuFrontier: GLM-5.3’s gains appear driven by stronger post-training, especially asynchronous RL (SAO), executable sandbox training, and on-policy distillation to prevent catastrophic forgetting. If true, this is a meaningful data point for the idea that agentic capability scaling is shifting from parameter count toward RL systems + environment quality.Inference and Systems Infra: Mojo Open Source, Te",
+      "first_seen_at": "2026-08-19T11:21:42.612605+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "ChatGPT Ads expands across Europe",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+      "published_at": "2026-08-18T22:00:00+00:00",
+      "first_seen_at": "2026-08-19T11:21:42.612605+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "Chess.com CEO: Why I Broke Every Startup Rule",
+      "url": "https://www.youtube.com/shorts/RY65oiqqXcA",
+      "summary": "The startup playbook says: hire a technical co-founder, raise a bunch of money, get an office, go after a big market, spend on customer acquisition. Chess.com's CEO did the opposite of every single one of those. Hired a friend from a state school. Worked remotely. Never raised a ",
+      "published_at": "2026-08-18T21:55:29+00:00",
+      "first_seen_at": "2026-08-19T11:21:42.612605+00:00"
+    },
+    {
       "source": "Z.ai Release Notes",
       "source_type": "rss",
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
@@ -73,6 +101,16 @@
       "published_at": "2026-08-18T21:42:36.031132+00:00",
       "dedupe_key": "page:Z.ai Release Notes:70e94870a5e13c1217ec7773dc0ba61ed75e06f3985b70238fb0af3572ac66c5",
       "first_seen_at": "2026-08-18T21:42:13.116645+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Frontier Model Cost and Open-Weights Popularity is Driving Demand for Model Routing",
+      "url": "https://www.latent.space/p/glean-model-routing",
+      "summary": "With the intense competition among frontier model companies, together with ever-increasing power of open-weight models like Kimi K3 and Qwen3.8-Max, model routing has become a key part of AI deployment. We’ve just seen Stripe buy OpenRouter for over $7B, but the trend is equally ",
+      "published_at": "2026-08-18T21:41:10+00:00",
+      "details": "With the intense competition among frontier model companies, together with ever-increasing power of open-weight models like Kimi K3 and Qwen3.8-Max, model routing has become a key part of AI deployment. We’ve just seen Stripe buy OpenRouter for over $7B, but the trend is equally hot in enterprises.Glean, co-founded and led by ex-Google Distinguished Engineer Arvind Jain, specializes in bringing AI to large organizations. It was last valued at $7.2B after a $150M Series F fund raise last June. This year, it reached $300 million in annual recurring revenue (ARR) — a three-fold increase over 15 months.Part of Glean’s mission is to select which model to use for each task — or indeed if an LLM is even required.“A big goal of Glean is to avoid using LLMs for tasks where we don’t need them,” Jain told Latent Space. “Sometimes you’ll see queries in Glean where people are adding two numbers or multiplying two numbers. They could have used a calculator to do that.”But what Glean is mostly trying to do is bring what Jain calls “one really powerful personal co-worker” to enterprise employees. And that means being a kind of meta-harness for leading LLMs.Glean announced its third-generation Glean Assistant last September; these days, agents are a big part of Glean’s system.“You can think of Glean today as a superset of ChatGPT, Claude, Gemini, Grok,” Jain said. “All these different AI products that we’ve been using day to day, Glean combines the power of all of them into one experience.”With enterprises, bringing AI technology into an organization is just half the challenge. The other half is bringing organizational knowledge into the AI systems.“Ultimately our business is to deeply understand your data, knowledge, and information, but also how work happens inside your company,” Jain said.How model routing is done in GleanSo what does model routing mean in practice? Basically, Glean offers three levels of model selection:Employees can explicitly choose a model.Administrators can restrict models or impose usage limits.Glean’s automatic mode selects a model dynamically for each task.Configuring models for certain tasks.It turns out automatic mode is mostly chosen by Glean’s customers for economic reasons.“Why are people talking about model routing? Why are they excited about it? It’s mostly because of cost,” Jain told us.Another co-founder of Glean, engineering lead Tony Gentilcore, recently claimed that Glean “is 4x more cost-effective” than Claude Code, “averaging $0.45 per task versus $1.84 for Claude Cowork.” He put that down to Glean’s “harness and routing capabilities.”Individually, many of us are getting great value out of our $20, $100 or $200 monthly subscription to an LLM provider. But for an enterprise, the per-user costs can easily spiral out of control.“AI models have been getting expensive,” Jain said. “Like, if you look at Opus or the latest models of GPT, the most advanced models. Not only are they very powerful, they can run much more complex tasks than the previous models. But on a per token basis, they’re more expensive — sometimes double or quadruple the rates of the previous models. And then users actually use them to run much longer tasks. So you’re spending, like, 10 times, 20 times, more, on a per user basis, than what you were doing last year. So the costs have gone up a lot.”The human feedback loopAnother key factor in Glean’s rise is that it gets to see how ordinary business users are using AI. The product is potentially deployed to every employee as a “coworker,” and it’s also used to build and deploy agents across all departments and functions.Among its customers, Zillow reports 80% adoption across 7,000 employees, while at Booking.com, “Glean became the first AI platform adopted company-wide.” That kind of penetration gives Glean an enviable view into how AI is being used in enterprises.“So we are getting to observe what people are actually doing with AI on a very broad basis,” said Jain. “We are getting to see when they’re on different types of tasks with AI, what models do they select first, and when they are not satisfied, when they actually upgrade to some other model [that] actually gives them the right results.”This human feedback loop, at scale, helps improve the model routing system.Here’s Waldo, gathering raw materialsAnother part of Glean’s architecture is a model called Waldo, which Jain described as sitting on top of the large language models. Waldo was introduced in April as “Glean’s first agentic search model.”Glean claims that Waldo, its agentic search model, “reduces latency by 50% and tokens by 25%, reserving advanced models for work that needs them.”In a technical blog post, Waldo was portrayed as a kind of filtering process for user queries: it “decides how to break down the question, which tools to use, what to read next, and when it has enough evidence to hand off to a frontier model for a high-quality answer.”This means the model routing is happening after Glean has deter",
+      "first_seen_at": "2026-08-19T11:21:42.612605+00:00"
     },
     {
       "source": "The Robot Report",
@@ -183,6 +221,15 @@
       "first_seen_at": "2026-08-18T21:42:13.116645+00:00"
     },
     {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "How Claude is accelerating protein design and analytical chemistry",
+      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "summary": "In this post, we share two results that show how Claude can help life scientists increase the pace of their research. In the first, we tested Claude’s ability to design protein binders from scratch, a key step in creating protein-based drugs that has historically taken a speciali",
+      "published_at": "2026-08-18T00:00:00+00:00",
+      "first_seen_at": "2026-08-19T11:21:42.612605+00:00"
+    },
+    {
       "source": "Hugging Face Blog",
       "source_type": "rss",
       "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
@@ -190,6 +237,15 @@
       "summary": "",
       "published_at": "2026-08-18T00:00:00+00:00",
       "first_seen_at": "2026-08-18T21:42:13.116645+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "How NVIDIA scales expertise with ChatGPT Work",
+      "url": "https://openai.com/index/nvidia/chatgpt-work",
+      "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+      "published_at": "2026-08-18T00:00:00+00:00",
+      "first_seen_at": "2026-08-19T11:21:42.612605+00:00"
     },
     {
       "source": "Latent Space",
@@ -1073,7 +1129,7 @@
     {
       "source": "Latent Space YouTube",
       "source_type": "youtube",
-      "title": "They Thought the Model Was Broken — Matt McPartlon & Neil Patil, Chai Discovery",
+      "title": "🔬They Thought the Model Was Broken — Matt McPartlon & Neil Patil, Chai Discovery",
       "url": "https://www.youtube.com/watch?v=Qp5xklyJySI",
       "summary": "Chai Discovery co-founder Matt McPartlon and product lead Neil Patil explain why pharma abruptly started buying AI design tools this year instead of forcing every AI-bio company to go build its own pipeline — and what specifically changed in the models to make drug design teams t",
       "published_at": "2026-08-11T20:48:23+00:00",
@@ -6365,63 +6421,6 @@
       "summary": "Matt Bornstein speaks with Mirendil cofounders Behnam Neyshabur and Harsh Mehta about their vision for building self-accelerating AI. After leading research efforts at Google and Anthropic, the founders started Mirendil around a simple question: what happens when AI systems can m",
       "published_at": "2026-06-24T19:12:55+00:00",
       "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "AI + a16z",
-      "source_type": "rss",
-      "title": "Building Self-Accelerating AI with Mirendil",
-      "url": "https://a16z.com/podcasts/",
-      "summary": "Matt Bornstein speaks with Mirendil cofounders Behnam Neyshabur and Harsh Mehta about their vision for building self-accelerating AI. After leading research efforts at Google and Anthropic, the founders started Mirendil around a simple question: what happens when AI systems can m",
-      "published_at": "2026-06-24T19:12:55+00:00",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/112866f3-1a50-4a8d-b12e-850b73e71b33/episodes/0e476d5b-0145-4529-ba37-159a9e705e69/audio/128/default.mp3?aid=rss_feed&awCollectionId=112866f3-1a50-4a8d-b12e-850b73e71b33&awEpisodeId=0e476d5b-0145-4529-ba37-159a9e705e69&feed=Hb_IuXOo",
-      "details": "Matt Bornstein speaks with Mirendil cofounders Behnam Neyshabur and Harsh Mehta about their vision for building self-accelerating AI. After leading research efforts at Google and Anthropic, the founders started Mirendil around a simple question: what happens when AI systems can meaningfully contribute to their own development? Rather than focusing solely on AI as a tool for productivity, they argue that the most important application may be accelerating scientific and technological progress itself. The conversation explores AI research, scaling laws, automated engineering, scientific discovery, and the challenges of building systems that can improve over time. They discuss the future of AI-assisted research, why they believe scientific progress remains bottlenecked by intelligence, and how more capable AI systems could help unlock advances across medicine, engineering, and the natural sciences. Resources: Follow Behnam Neyshabur on X: https://x.com/bneyshabur?lang=en Follow Harsh Mehta on X: https://x.com/HarshMeh1a Follow Matt Bornstein on X: https://x.com/BornsteinMatt Check out everything a16z is doing with artificial intelligence here, including articles, projects, and more podcasts. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
-      "dedupe_key": "podcast:f928035e1c3f0411f8cc8de477d9380c9b4a3882",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "Latent Space YouTube",
-      "source_type": "youtube",
-      "title": "The Agent Cloud: Databricks’ Bet on the Future of AI — Matei Zaharia and Reynold Xin",
-      "url": "https://www.youtube.com/watch?v=Yp_u1NpbkJg",
-      "summary": "From open-sourcing the layer above coding agents to rethinking databases for the agent era, Databricks cofounders Matei Zaharia and Reynold Xin are pushing the company beyond the lakehouse into a full data-and-AI operating system. In this episode, Matei and Reynold join swyx afte",
-      "published_at": "2026-06-24T18:40:29+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "Thinking to recall: How reasoning unlocks parametric knowledge in LLMs",
-      "url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms/",
-      "summary": "Generative AI",
-      "published_at": "2026-06-24T16:51:00+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "source_type": "rss",
-      "title": "Introducing computer use in Gemini 3.5 Flash",
-      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-      "summary": "",
-      "published_at": "2026-06-24T16:30:01+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-      "summary": "",
-      "published_at": "2026-06-24T16:00:13+00:00",
-      "first_seen_at": "2026-06-25T01:23:59.981852+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "AGIBOT Livestream Day 2: AGIBOT G2 Humanoid Robots Work on a Real Production Line",
-      "url": "https://www.youtube.com/watch?v=Zd14YWoCDCo",
-      "summary": "Day 2 is live: Do you know how humanoid robots work on a real production line? Check out our livestream today, AGIBOT G2 robots are working right now ⬇️",
-      "published_at": "2026-06-24T13:00:22+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
     },
     {
       "source": "Tesla AI / Optimus YouTube",
