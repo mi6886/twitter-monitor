@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-20T11:23:57.561682+00:00",
+  "updated_at": "2026-08-20T21:48:00.832246+00:00",
   "count": 700,
-  "new_count": 478,
+  "new_count": 487,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,11 +65,93 @@
   ],
   "items": [
     {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Amazon plans to expand Prime Air to nearly 500 cities by the end of 2026",
+      "url": "https://www.therobotreport.com/amazon-plans-expand-prime-air-nearly-500-cities-by-end-2026/",
+      "summary": "Prime Air uses drones to deliver groceries, electronics, cosmetics, medications, and household products. | Source: Amazon Amazon.com Inc. this week said it plans to expand its Prime Air service to nearly 500 cities and towns in the U.S. by the end of 2026. The company said this i",
+      "published_at": "2026-08-20T21:32:27+00:00",
+      "first_seen_at": "2026-08-20T21:48:00.832246+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
+      "url": "https://www.latent.space/p/wayfinder-skill",
+      "summary": "We’re currently developing a new series about skills, with the aim of giving you a regular supply of new skills to use in your projects. We’re kicking things off with an interview — and a super-useful skill — featuring Matt Pocock, whose “AI Skills for Real Engineers” project has",
+      "published_at": "2026-08-20T20:59:09+00:00",
+      "details": "We’re currently developing a new series about skills, with the aim of giving you a regular supply of new skills to use in your projects. We’re kicking things off with an interview — and a super-useful skill — featuring Matt Pocock, whose “AI Skills for Real Engineers” project has over 220,000 stars on GitHub. He also talks about these skills to 347,000 subscribers on his YouTube channel.Pocock recently released a new skill called /wayfinder. Its purpose is to help you and your agent figure out a project where the end state isn’t entirely clear. Or as Pocock put it in our interview, /wayfinder helps you navigate “the fog of war,” where you have a project but “you can’t quite decide everything right at the start.”The following interview has been slightly condensed for readability, so you can read it, absorb Matt’s insights, and then test out /wayfinder for yourself!Latent Space: What were the goals of wayfinder?Pocock: What I noticed is I was doing a lot of work with AFK agents [Away From Keyboard] and trying to schedule in a ton of work so that my agents could run virtually overnight. I would just plan a bunch of stuff, and then I would create a spec and then turn that spec into tickets. And I had a really well-developed set of skills for how to turn work into scheduled stuff that agents could just crack on.But [...] I was finding the planning stage really onerous, because I would have to be constantly thinking about my session management. Like, how many tokens am I into my context window? How deep am I going here?Matt Pocock’s wayfinder skill, as documented in GitHubI didn’t want to feel constrained in the planning stage anymore. I wanted an orchestrator layer that would basically say, okay, whatever you want to plan, I’m going to handle the planning sessions for you. I’m going to split this out into multiple different threads, do prototyping, do research and pull it all back together, so that you don’t feel constrained in the planning anymore.And then your specs can be even more detailed, and you can just whack off an AFK agent to go and do tons more work.Latent Space: What was the design process of coming up with this skill?Pocock: I had this kernel of an idea of, what if I didn’t have to manage the handoffs? What would that look like? And then, what would it look like to have some kind of centralized document to have all of those pieces together?Whenever you’re thinking about context management — because that’s really what a skill is, you’re managing the context of the agent you’re working in — you need to think about the information flow. So what I wanted to think about is, what if a grilling session could manage other grilling sessions? What would that look like?Well, the first step to that is, what does the grilling session that’s being managed need? What does the child need in that situation? So the child probably needs to understand a vague overview of what else is happening, and they need their specific task.So there, you’ve got two documents. You’ve got a map — which is all of the rest of the stuff, all the decisions that have already been made. And then you’ve got the specific ticket that goes into the actual session. And what you notice there is that those words are very precise.From wayfinder documentationYou’ve got the map, and you’ve got the ticket, and you’ve got the session. And once you’ve got the kernel of an idea, you then need to come up with the words for that idea. Because once you’ve figured out the words, then those entities can be really clearly mapped out by the agent.Because if you just call everything a ticket, or if you just refer to it in different ways in different places, then it’s going to be really confused and you’re going to get strange behavior. Whereas if you use these very specific, what I call leading words, to lead the agent to understand exactly what each part is, and you’ve understood what the information flow is, then you’ve got your skill.Latent Space: What kind of use cases do you think wayfinder would be useful for?Pocock: Well, I’ve been using it for all sorts of stuff. I’ve been using it to actually plan courses as well. In wayfinder, there are different types of tickets.So you’ve got grilling tickets, which are just a grilling session. Then you’ve got prototype tickets for creating prototypes, research tickets for creating [and doing] research, and then task tickets — which are really broad…basically, just anything the human needs to do that the agent can’t do. And so once you think about that, you realize, OK, I can apply that to anything.One really key idea in wayfinder is the ‘fog of war’. So this is the concept of, you can’t quite decide everything right at the start.I decided to test /wayfinder on a project to rearchitect my personal website. Here’s the initial project set-up, in this case using Claude Code.You can make certain decisions, and those certain decisions sort of lead you there and push further out into the fog of war — kind of like Warcraft",
+      "first_seen_at": "2026-08-20T21:48:00.832246+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "This Tiny Chip Can Cure Blindness",
+      "url": "https://www.youtube.com/shorts/DFJadiJhZhc",
+      "summary": "How do you restore vision to the blind? Max Hodak breaks down PRIMA, the chip implanted under the retina that restores vision to patients who've gone blind. \"You can think of it like a cochlear implant for the eye.\" New episode of No Priors, out now.",
+      "published_at": "2026-08-20T18:40:49+00:00",
+      "first_seen_at": "2026-08-20T21:48:00.832246+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "The August 17 outage, and the work ahead",
+      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "summary": "On August 17, GitHub experienced an outage that lasted 7 hours and 47 minutes. It disrupted github.com, authentication, GitHub Actions, APIs, pull requests, issues, and Copilot, affecting developers and organizations around the world. If you were trying to ship software that day,",
+      "published_at": "2026-08-20T18:36:11+00:00",
+      "first_seen_at": "2026-08-20T21:48:00.832246+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "ATDev gives update on its journey building autonomous wheelchairs",
+      "url": "https://www.therobotreport.com/atdev-gives-update-journey-building-autonomous-wheelchairs/",
+      "summary": "The Robotic Assistive Mobility and Manipulation Platform pairs a modern power wheelchair with a coordinated robotic arm on an open software platform. | Source: ATDev There are millions of powered wheelchair users in the U.S. today. Assistive Technology Development Inc., or ATDev,",
+      "published_at": "2026-08-20T17:39:25+00:00",
+      "first_seen_at": "2026-08-20T21:48:00.832246+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "summary": "",
+      "published_at": "2026-08-20T16:52:57+00:00",
+      "first_seen_at": "2026-08-20T21:48:00.832246+00:00"
+    },
+    {
+      "source": "AgiBot YouTube",
+      "source_type": "youtube",
+      "title": "The mask is off. Meet AGIBOT A3 — AGIBOT’s new-generation full-size humanoid robot. 🤖",
+      "url": "https://www.youtube.com/watch?v=VDej0ddfQd4",
+      "summary": "Powerful moves. Lightning-fast reactions. Uncompromising precision. And behind the challenger? A master who knows exactly how to push him further. 🥋 This is more than a challenge. It’s A3 in motion. #AGIBOT #AGIBOTA3 #PeerlessMaster #KungFu #HumanoidRobot #EmbodiedAI",
+      "published_at": "2026-08-20T14:00:25+00:00",
+      "first_seen_at": "2026-08-20T21:48:00.832246+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Bring the Fire: Play Games on GeForce NOW With New Firefox Browser Support",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-firefox/",
+      "summary": "It’s a new way into the cloud. GeForce NOW welcomes Firefox support to the cloud, opening up another way to jump into high-performance PC gaming straight from the browser, starting today. Whether on a school laptop or everyday PC, it’s now even easier to play supported PC games w",
+      "published_at": "2026-08-20T13:00:24+00:00",
+      "first_seen_at": "2026-08-20T21:48:00.832246+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Agtonomy releases new autonomous multi-point turning features",
+      "url": "https://www.therobotreport.com/agtonomy-releases-new-autonomous-multi-point-turning-features/",
+      "summary": "Fully autonomous multi-point turning capability enables units to execute complex maneuvers in field applications. | Credit: Agtonomy Off-road physical AI company Agtonomy has expanded its commercial platform with fully autonomous multi-point turning and enhanced passive data coll",
+      "published_at": "2026-08-20T12:30:55+00:00",
+      "first_seen_at": "2026-08-20T21:48:00.832246+00:00"
+    },
+    {
       "source": "No Priors YouTube",
       "source_type": "youtube",
       "title": "From Restoring Sight to Reimagining the Brain, with Max Hodak",
       "url": "https://www.youtube.com/watch?v=7HXqMepjvy8",
-      "summary": "Max Hodak, co-founder and CEO of Science.xyz, joins Sarah Guo to discuss the future of vision, brain-computer interfaces, and the human experience. Max explains how Science’s PRIMA retinal implant could restore functional vision for people who have lost their sight, and why treat",
+      "summary": "Max Hodak, co-founder and CEO of Science Corporation, joins Sarah Guo to discuss the future of vision, brain-computer interfaces, and the human experience. Max explains how Science’s PRIMA retinal implant could restore functional vision for people who have lost their sight, and w",
       "published_at": "2026-08-20T10:00:30+00:00",
       "first_seen_at": "2026-08-20T11:23:57.561682+00:00"
     },
@@ -78,12 +160,21 @@
       "source_type": "rss",
       "title": "From Restoring Sight to Reimagining the Brain, with Max Hodak",
       "url": "https://no-priors.com/",
-      "summary": "Max Hodak, co-founder and CEO of Science.xyz, joins Sarah Guo to discuss the future of vision, brain-computer interfaces, and the human experience. Max explains how Science’s PRIMA retinal implant could restore functional vision for people who have lost their sight, and why treat",
+      "summary": "Max Hodak, co-founder and CEO of Science Corporation, joins Sarah Guo to discuss the future of vision, brain-computer interfaces, and the human experience. Max explains how Science’s PRIMA retinal implant could restore functional vision for people who have lost their sight, and w",
       "published_at": "2026-08-20T10:00:00+00:00",
       "audio_url": "https://traffic.megaphone.fm/PDP1497116966.mp3",
-      "details": "Max Hodak, co-founder and CEO of Science.xyz, joins Sarah Guo to discuss the future of vision, brain-computer interfaces, and the human experience. Max explains how Science’s PRIMA retinal implant could restore functional vision for people who have lost their sight, and why treating the brain as a computational system could unlock new approaches to medicine. They explore the broader potential of neural devices, from restoring lost capabilities to expanding human potential, as well as deeper questions around identity, consciousness, and whether the human experience can persist as our biological hardware changes. Max also shares Science’s long-term vision for reducing the fragility of the human condition by repairing, replacing, and ultimately upgrading parts of ourselves. Finally, he discusses the surprising parallels between AI models and biological brains, and why AI may offer a powerful new lens for understanding intelligence. Chapters: 00:00 – Cold Open Trailer 00:45 – Max Hodak Introduction 01:03 – Science Company Overview and Origin 01:57 – A Revolutionary Solve for Blindness 05:38 – Scope of Timeline and Engineer Cost 08:20 – Clinic Trial Process 09:01 - The Response from Clinicians 11:31 – Broader Biotech Landscape 14:59 – Max’s Interests in Biotech Discovery 16:45 – The Study of Consciousness 19:04 – Investments in Brain Computer Interface 21:21 – Fertile Ways to Study Neuroscience 23:54 – Biotech Expansion for Science Corporation 26:59 – What Success Looks Like in Neuroscience and Tech 28:14 - Goals Within Human Preservation vs. Adaptation 29:22 – Conclusion",
+      "details": "Max Hodak, co-founder and CEO of Science Corporation, joins Sarah Guo to discuss the future of vision, brain-computer interfaces, and the human experience. Max explains how Science’s PRIMA retinal implant could restore functional vision for people who have lost their sight, and why treating the brain as a computational system could unlock new approaches to medicine. They explore the broader potential of neural devices, from restoring lost capabilities to expanding human potential, as well as deeper questions around identity, consciousness, and whether the human experience can persist as our biological hardware changes. Max also shares Science’s long-term vision for reducing the fragility of the human condition by repairing, replacing, and ultimately upgrading parts of ourselves. Finally, he discusses the surprising parallels between AI models and biological brains, and why AI may offer a powerful new lens for understanding intelligence. Chapters: 00:00 – Cold Open Trailer 01:40 – Max Hodak Introduction 02:00 – Science Corporation Overview and Origin 02:53 – A Revolutionary Solve for Blindness 06:32 – Scope of Timeline and Engineer Cost 09:10 – Clinic Trial Process 09:45 - The Response from Clinicians 12:21 – Broader Biotech Landscape 14:59 – Brain’s Relationship to Senses 17:35 – The Study of Consciousness 19:50 – Investments in Brain Computer Interface 22:10 – Fertile Ways to Study Neuroscience 24:46 – Biotech Expansion for Science Corporation 27:50 – What Success Looks Like in Neuroscience and Tech 29:06 - Goals Within Human Preservation vs. Adaptation 30:25 – Conclusion",
       "dedupe_key": "podcast:411db0e48042f0f29e9387838d589d7f62b27d04",
       "first_seen_at": "2026-08-20T11:23:57.561682+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Introducing AI Futures",
+      "url": "https://openai.com/index/introducing-ai-futures",
+      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "published_at": "2026-08-20T07:00:00+00:00",
+      "first_seen_at": "2026-08-20T21:48:00.832246+00:00"
     },
     {
       "source": "Latent Space",
@@ -94,6 +185,24 @@
       "published_at": "2026-08-20T05:17:12+00:00",
       "details": "We’ve covered GLM 5.2 very excitedly before, and Prof Jie Tang’s belief that there will be an open weights Fable-class model by end of the year (spot check - with 134 days left, there are now two 2-3T models (Qwen 3.8 Max and Kimi K3) with estimates that Fable is 3-7T, and only 2 points higher on the AA index.)Prof Jie Tang is back on X to tell us that our shorthand for model sizes is no longer enough: “Parameter count is only meaningful alongside three others — how much data you have, where you intend to spend your compute, and who will run the model, under what conditions.”We have covered Chinchilla (and post-Chinchilla) scaling laws in past LS years, but, so we will skip the history lesson, but it is good to level-set on why Chinchilla’s assumptions were wrong in the Inference Inflection world (no fixed number, between 200-900 toks/param, citing Roberts et al on task dependence). In short: Memorization prefers more parameters. Reasoning prefers more post-training data and effective depth. GLM-5.3’s big jumps come solely from RL on long horizon environments:The environments now cover a much broader range of production workflows, with tasks designed around how engineering and research work is actually carried out in practice. Some represent several days of work for an experienced engineer. In an ML infrastructure task, for example, the model may be given the same working environment as an engineer, with access to compute clusters, storage systems, internal documentation, codebases, and experiment results. It must diagnose bottlenecks across the training stack, implement optimizations, run experiments, and deliver a measurable end-to-end speedup while preserving correctness. Training on environments at this level pushes the model toward taking ownership of substantial work end to end, rather than relying on users to decompose the problem and supervise each step.For those following the recursive self improvement story, their entire environment and judging and verifier process is synthetic all the way down:As agent capability improves, much of the difficulty in scaling post-training moves from the model to the environment. A useful task environment has to be executable, verifiable, and close to real professional work — and we need many of them, not a handful of hand-built ones. To scale this process, we built pipelines that synthesize environments end to end, and for a subset of tasks, the RL reward signal as well. Research agents collect task patterns from real work and turn them into runnable long-horizon environments with multi-step dependencies and hidden state; a judge agent then attempts each task to verify that it is actually solvable. Verifiers are synthesized without access to the reference solution, while solver trajectories are used to discover and close reward shortcuts. A verifier that passes oracle, no-op, and unsolved-state checks produces a binary reward reliable enough to train on directly.To put an end to parameter count obsesssion, Prof Jie identifies 5 knobs of scaling, including MoE sparsity with the new XA-YB notation. He notes that advanced skills (e.g., finding software vulnerabilities) are not retrieval/memorization problems. They require carrying long causal chains (20+ inference steps) without losing the thread. This ability does not live in total parameter count once a certain knowledge-holding threshold is reached.And it looks like there is much more to go.AI News for 8/18/2026-8/19/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpen-Weight Models, Compression, and Benchmark MovementOrnith-1.5 lands as a serious new open family: @ornith_ released Ornith-1.5 in 9B dense, 35B MoE, and 397B MoE variants under MIT, with quantized formats including FP8, GGUF, MLX, and NVFP4. The headline claim is end-to-end self-improvement: the model proposes tasks, generates scaffolds, and produces RL rollouts to create new training experiences. Reported evals are strong across agentic/coding workloads, including Terminal-Bench 2.1: 86.1, SWE-Bench Verified: 86, DeepSWE: 56, HLE: 44.6, and Tool Decathlon: 71.2. The release was quickly wired into serving stacks by vLLM and Ollama.Compression continues to get more aggressive without fully collapsing utility: @UnslothAI and @danielhanchen shipped new Qwen3.8-27B GGUFs using Dynamic V3, claiming roughly 10% higher accuracy at the same size and releasing 1-bit quants that still retain about 77% of BF16 accuracy while running on 8GB RAM. Their new Divergence-300 metric extends top-1% greedy accuracy across longer generations using unseen examples from Terminal Bench, DeepSWE, and related tasks.Agent and legal eval boards continue to reshuffle: @arena published a Pareto view of Agent Arena, where Claude Opus 5 (High) leads quality, but lower-cost models like Kimi K3, GLM 5.2, ",
       "first_seen_at": "2026-08-20T11:23:57.561682+00:00"
+    },
+    {
+      "source": "AgiBot News",
+      "source_type": "rss",
+      "title": "AGIBOT Ranks No.1 in Global Humanoid Robot Shipments in H1 2026, According to Counterpoint Research-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "url": "https://www.agibot.com/article/231/detail/89.html",
+      "summary": "",
+      "published_at": "2026-08-20T00:00:00+00:00",
+      "first_seen_at": "2026-08-20T21:48:00.832246+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+      "url": "https://openai.com/index/stampli",
+      "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+      "published_at": "2026-08-20T00:00:00+00:00",
+      "first_seen_at": "2026-08-20T21:48:00.832246+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -114,20 +223,20 @@
       "first_seen_at": "2026-08-19T21:43:58.248064+00:00"
     },
     {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Offering Zero Data Retention for frontier models",
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-      "published_at": "2026-08-19T19:00:00+00:00",
-      "first_seen_at": "2026-08-19T21:43:58.248064+00:00"
-    },
-    {
       "source": "Google AI Blog",
       "source_type": "rss",
       "title": "5 new ways to level up your learning with Search",
       "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
       "summary": "Here’s how you can use Google Search tools to study for classes and standardized tests.",
+      "published_at": "2026-08-19T19:00:00+00:00",
+      "first_seen_at": "2026-08-19T21:43:58.248064+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Offering Zero Data Retention for frontier models",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
       "published_at": "2026-08-19T19:00:00+00:00",
       "first_seen_at": "2026-08-19T21:43:58.248064+00:00"
     },
@@ -6311,120 +6420,6 @@
       "summary": "Machine Intelligence",
       "published_at": "2026-06-26T18:30:00+00:00",
       "first_seen_at": "2026-06-26T23:56:07.071252+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "title": "GitHub and UNDP team up to advance development priorities in Ghana with open source",
-      "url": "https://github.blog/open-source/social-impact/github-and-undp-team-up-to-advance-development-priorities-in-ghana-with-open-source/",
-      "summary": "GitHub joined the United Nations Development Programme in Ghana to explore how open source governance can support one of West Africa's most ambitious digital reform efforts. The post GitHub and UNDP team up to advance development priorities in Ghana with open source appeared firs",
-      "published_at": "2026-06-26T16:53:57+00:00",
-      "first_seen_at": "2026-06-26T23:56:07.071252+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "Video Friday: Give Robots a Hand",
-      "url": "https://spectrum.ieee.org/video-friday-robot-grippers",
-      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.RSS 2026: 13–17 July 2026, SYDNEYSum",
-      "published_at": "2026-06-26T16:30:01+00:00",
-      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast",
-      "source_type": "rss",
-      "title": "The next big breakthrough will be AIs learning on the job",
-      "url": "https://www.dwarkesh.com/p/the-next-paradigm",
-      "summary": "Labs are throwing away the most valuable data.",
-      "published_at": "2026-06-26T15:51:34+00:00",
-      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast",
-      "source_type": "rss",
-      "title": "The next big breakthrough will be AIs learning on the job",
-      "url": "https://www.dwarkesh.com/podcast",
-      "summary": "Here’s the big research bet the labs are making currently: if we train AIs to accomplish millions of verifiable tasks across thousands of diverse RL environments, then we’ll basically have built AGI. Because such training will create these general problem solving skills (like how",
-      "published_at": "2026-06-26T15:51:34+00:00",
-      "audio_url": "https://api.substack.com/feed/podcast/203704568/53d7d1bee7d0a5057222b2a37ebf9e67.mp3",
-      "details": "Here’s the big research bet the labs are making currently: if we train AIs to accomplish millions of verifiable tasks across thousands of diverse RL environments, then we’ll basically have built AGI. Because such training will create these general problem solving skills (like how to make progress on an open ended task for weeks on end in the face of errors, mistakes, and ambiguity).The people optimistic about this vision would say that anything we might consider a fundamental deficits with the current learning paradigm—for example, data inefficiency and lack of continual learning—can be steamrolled by just scaling training more, just as all the supposed “fundamental” research problems in natural language processing collapsed against the flood of compute thrown into LLMs.Yes, these models are 1/1-millionth as sample efficient as humans during training. But training a one-time cost amortized across billions of user sessions. What matters is how smart, general, and sample efficient the model is within a session, and that’s clearly been improving as we do more RL training. AIs are able to solve more and more ambitious problems across longer and longer time spans - anybody who’s been using these models for coding knows that.Similarly, continual learning—as defined as the model’s weights getting updated from deployment—may simply not be necessary. Again, because if in-context learning gets so good across longer and longer horizons, then we don’t need to distill back to weights to get on-the-job learning. People often say that their employees are not net productive until six months or more on the job, so clearly online learning is necessary for competence. But what if you could just fit those six months into the context window? There’s been tons of architectural innovations on the transformer which dramatically increase the length of context you can store. With a couple more years of progress, why couldn’t we have arbitrarily large context windows?Grindability is just as important as verifiabilityTo address whether this will work, I want to first take a detour and ask a question about the current nature of AI progress that I find confusing and interesting. Why has progress on computer use been so slow?Computer use is so clearly verifiable (did the desired Etsy item get ordered, is everything I need corporate for my event booked, have my taxes been submitted). So isn’t it weird that computer use has been making much slower progress than coding and math and other verifiable domains? There’s many reasons for this, I’m sure, among them the fact that the models are exposed to far less high quality multimodal data during pretraining, and that video consumes the context window far faster.[1]But one reason that I think it quite underrated, and also which reveals the canyon walls against which the river of AI progress will only slowly chip away at, is that it is not enough for a domain to be verifiable. It also has to be very grindable—in the sense that you can run lots of parallel rollouts against a deterministic and replayable simulator. If you’re trying to make a model better at coding, you can create an environment that has a software repo with some missing feature that you’ve tasked the AIs with creating, and then you have a thousand parallel agents just go at the problem, each with their identical copy of the container.[2]But this doesn’t work with computer use—at least not trivially. You can’t have a thousand agents go try the same checkout flow on Amazon.com. Because Andy Jassy will find and detect your bots and shut your ass down.You can solve this by making clones of Slack, Gmail, and all the other common applications and websites. But at least currently, this is a very labor-intensive and unscalable way to build environments. Of course, once AIs get good enough at coding to themselves build these clones with extremely high fidelity, then I’m sure computer use will make a ton of progress. And you’re also killing two birds with one stone with this kind of procedure, because getting AIs to rebuild whole complex applications from scratch is a great RL objective for coding as well.But while computer use itself may soon be solved, its current lethargy tells us the following: that unless you can build a very replayable training target for a domain, the models will struggle to make much progress. The reason this is true is, of course, that the models are incredibly sample inefficient during training. This is the point I was making in my last monologue.In computer use, we might be able to make up for this sample efficiency deficit by building these farmable deterministic simulators. But for so many different other kinds of skills an AGI would need to learn, we simply can’t do this.How would we train an AI to build a business? How would you make an AI that’s really good at winning court cases? Or having a profitable day trading in the markets? Or helping a candidate win an election? The rollout requires interacting with t",
-      "dedupe_key": "podcast:a4ce6450f035629fdd958a1ed58f2d206d56de44",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "AGIBOT Livestream Day 4: 8 AGIBOT G2 Robots Working Together in Real Factory",
-      "url": "https://www.youtube.com/watch?v=77tlgvqx1Ys",
-      "summary": "Watch our 8 AGIBOT G2 robots working together in real factory.",
-      "published_at": "2026-06-26T12:58:49+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "title": "Transitioning as a Hubber",
-      "url": "https://github.blog/developer-skills/career-growth/transitioning-as-a-hubber/",
-      "summary": "How GitHub's culture and benefits helped me be the best version of myself. The post Transitioning as a Hubber appeared first on The GitHub Blog.",
-      "published_at": "2026-06-26T12:00:00+00:00",
-      "first_seen_at": "2026-06-26T13:15:04.116660+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "No Priors Podcast",
-      "source_type": "rss",
-      "title": "Really Big Test-Time Compute in AI Changes Benchmarks, Safety and Research with OpenAI Research Scientist Noam Brown",
-      "url": "https://no-priors.com/",
-      "summary": "When a new AI model drops, it’s judged based on a static benchmark grid that doesn’t account for how long the model is allowed to think. How then should we measure a model’s true capability? OpenAI research scientist Noam Brown returns to talk with Sarah Guo about his latest essa",
-      "published_at": "2026-06-26T10:13:00+00:00",
-      "audio_url": "https://traffic.megaphone.fm/PDP3897457969.mp3",
-      "details": "When a new AI model drops, it’s judged based on a static benchmark grid that doesn’t account for how long the model is allowed to think. How then should we measure a model’s true capability? OpenAI research scientist Noam Brown returns to talk with Sarah Guo about his latest essay on why the AI industry’s traditional benchmark grids are broken, and how large-scale test-time compute is fundamentally changing how models are evaluated. Noam explains how, if properly scaffolded, today’s models can reason for weeks or even months on complex tasks. He also discusses real-world implications of test-time compute, from building poker solver bots to disproving legendary math conjectures. Together, they also unpack the large gaps in current AI safety frameworks, explore the bottlenecks for recursive self-improvement, and look ahead at the future of multi-agent collaboration and global knowledge sharing. Read more: Implications of Large-Scale Test-Time Compute Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @polynoamial | @OpenAI Chapters: 00:00 – Cold Open 00:43 – Noam Brown Introduction 01:23 – Why Benchmarks Are Broken 04:19 – Compute Budgets and Projections 05:34 – How Long Should Models Think? 06:47 – Benchmark-Maxxing 08:34 – Using Poker Bots as Evals 11:26 – Safety Evals When Model Capability Scales With Budget 14:41 – Release Cycle vs. Agent Runtime 17:06 – Latent Model Capability 20:59 – Limits on Recursive Self-Improvement 27:09 – Large-Scale Multi-Agent Coordination 29:11 – Competition at the Frontier 31:51 – Breaking the Benchmark Grid Equilibrium 33:29 – Why Benchmarks Should be Evaluated by Cost 36:18 – Conclusion",
-      "dedupe_key": "podcast:a04a4f08e88cdb799b7e3d995041b3591528d30b",
-      "first_seen_at": "2026-08-04T09:31:17.915428+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "title": "Previewing GPT-5.6 Sol: a next-generation model",
-      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
-      "published_at": "2026-06-26T10:00:00+00:00",
-      "first_seen_at": "2026-06-26T23:56:07.071252+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Google DeepMind Research",
-      "title": "Real-Time Group Dynamics with LLM Facilitation: Evidence from a Charity Allocation Task",
-      "url": "https://deepmind.google/research/publications/224297/",
-      "summary": "",
-      "published_at": "2026-06-26T00:00:00+00:00",
-      "first_seen_at": "2026-06-29T23:54:26.734254+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Run a vLLM Server on HF Jobs in One Command",
-      "url": "https://huggingface.co/blog/vllm-jobs",
-      "summary": "",
-      "published_at": "2026-06-26T00:00:00+00:00",
-      "first_seen_at": "2026-06-26T00:11:08.400692+00:00"
-    },
-    {
-      "source": "Google DeepMind Research",
-      "title": "Bridging the Scale Gap: Augmenting Human Red-Teaming to Uncover Latent Risks in T2I Models",
-      "url": "https://deepmind.google/research/publications/149262/",
-      "summary": "",
-      "published_at": "2026-06-26T00:00:00+00:00",
-      "first_seen_at": "2026-07-13T22:16:04.056493+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "GitHub Blog",
-      "title": "Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks",
-      "url": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
-      "summary": "Explore how the GitHub Copilot agentic harness delivers strong results across multiple benchmarks and leading token efficiency, while maintaining flexibility to choose among more than 20 models. The post Evaluating performance and efficiency of the GitHub Copilot agentic harness ",
-      "published_at": "2026-06-25T22:59:45+00:00",
-      "first_seen_at": "2026-06-26T00:11:08.400692+00:00",
-      "source_type": "rss"
     },
     {
       "source": "Tesla AI / Optimus YouTube",

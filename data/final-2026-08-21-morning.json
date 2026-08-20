@@ -1,0 +1,335 @@
+{
+  "date": "2026-08-21",
+  "period": "morning",
+  "fetched_at": "2026-08-20T21:48:00.460802+00:00",
+  "tier_counts": {
+    "must_do": 4,
+    "priority": 1,
+    "backup": 0
+  },
+  "tiers": {
+    "must_do": [
+      {
+        "tweet_id": "2090432358969196548",
+        "url": "https://x.com/NousResearch/status/2090432358969196548",
+        "screen_name": "NousResearch",
+        "created_at": "Thu Aug 20 13:34:47 +0000 2026",
+        "full_text": "Hermes Agent has its own remote computer too, you just aren’t locked in to using it and it costs a few dollars per month instead of $200.\n\nhttps://t.co/O04Z66K1fa",
+        "lang": "en",
+        "favorite_count": 3405,
+        "retweet_count": 158,
+        "reply_count": 210,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2090432358969196548",
+        "summary": "Nous Research推出Hermes Agent，提供远程计算机访问，月费仅需数美元而非$200，打破高成本锁定。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "有明确价格对比（$200 vs 数美元）",
+          "反常识/意外性（打破高成本垄断）"
+        ],
+        "viral_signals_points": 18,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 74,
+        "verdict": "keep",
+        "angles": [
+          "终于有平替了：Hermes Agent月费$几 vs 竞品$200",
+          "Nous Research推翻AI Agent定价垄断，远程计算机成本暴跌",
+          "不被锁定+便宜：Hermes Agent如何重新定义Agent基础设施"
+        ]
+      },
+      {
+        "tweet_id": "2090166128509096187",
+        "url": "https://x.com/NousResearch/status/2090166128509096187",
+        "screen_name": "NousResearch",
+        "created_at": "Wed Aug 19 19:56:53 +0000 2026",
+        "full_text": "Hermes now leverages NVIDIA's SkillEvaluator on skill installs, checking for PII, leaked secrets, Unicode smuggling, licensing and security issues before you confirm.\n\nWe pointed it at our own bundled skills first, and used what it found to improve 11 of them. https://t.co/7l1cSz9UlM",
+        "lang": "en",
+        "favorite_count": 2000,
+        "retweet_count": 132,
+        "reply_count": 48,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/7l1cSz9UlM",
+            "expanded_url": "https://x.com/NousResearch/status/2090166128509096187/photo/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "features": {
+              "large": {
+                "faces": []
+              }
+            },
+            "id_str": "2090166125719965696",
+            "indices": [
+              261,
+              284
+            ],
+            "media_key": "3_2090166125719965696",
+            "media_url_https": "https://pbs.twimg.com/media/HQHDBGUX0AAdV-k.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 548,
+                  "w": 979,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 548,
+                  "w": 548,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 548,
+                  "w": 481,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 548,
+                  "w": 274,
+                  "x": 13,
+                  "y": 0
+                },
+                {
+                  "h": 548,
+                  "w": 1200,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 548,
+              "width": 1200
+            },
+            "sizes": {
+              "large": {
+                "h": 548,
+                "w": 1200
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/7l1cSz9UlM"
+          }
+        ],
+        "id": "2090166128509096187",
+        "summary": "Hermes集成NVIDIA SkillEvaluator，在技能安装前检测PII、泄露密钥、Unicode攻击、许可证和安全问题，已改进11个内置技能。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "终于/第一型选题：首次集成安全检测",
+          "反常识/意外性：自我审计改进11个技能"
+        ],
+        "viral_signals_points": 15,
+        "emotion": "焦虑/实用",
+        "emotion_points": 3,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 71,
+        "verdict": "keep",
+        "angles": [
+          "Hermes首次集成NVIDIA安全检测，11个技能被改进",
+          "AI技能市场的安全拐点：自动检测PII和泄露密钥",
+          "从自我审计到产品迭代：Hermes如何用SkillEvaluator提升信任度"
+        ]
+      },
+      {
+        "tweet_id": "2090480484107141493",
+        "url": "https://x.com/OpenAIDevs/status/2090480484107141493",
+        "screen_name": "OpenAIDevs",
+        "created_at": "Thu Aug 20 16:46:01 +0000 2026",
+        "full_text": "Give ChatGPT Work and Codex access to 100B+ websites, papers, docs, and more with the new @ExaAILabs plugin",
+        "lang": "en",
+        "favorite_count": 2251,
+        "retweet_count": 120,
+        "reply_count": 71,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2090480484107141493",
+        "summary": "OpenAI推出Exa AI Labs插件，为ChatGPT和Codex提供100B+网站、论文、文档访问能力，大幅扩展AI模型的知识库和工作能力。",
+        "category": "事件速报",
+        "category_points": 28,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "新功能发布",
+          "数字量级震撼（100B+）"
+        ],
+        "viral_signals_points": 8,
+        "emotion": "震撼/惊叹",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "A型",
+        "account_bonus": 5,
+        "total_score": 66,
+        "verdict": "keep",
+        "angles": [
+          "ChatGPT终于能访问100亿+网站了，知识库爆炸升级",
+          "OpenAI×Exa：AI工作效率新天花板，一键调用全网信息",
+          "从封闭到开放，ChatGPT插件生态的里程碑时刻"
+        ]
+      },
+      {
+        "tweet_id": "2090518650251804742",
+        "url": "https://x.com/claudeai/status/2090518650251804742",
+        "screen_name": "claudeai",
+        "created_at": "Thu Aug 20 19:17:40 +0000 2026",
+        "full_text": "Claude Academy is now live.\n\nWhether you're figuring out what AI is or already using Claude every day, there's a path that meets you where you are. The courses and tutorials are free and open to anyone at https://t.co/WRiSRAvK6l https://t.co/llx2W0VIIy",
+        "lang": "en",
+        "favorite_count": 7723,
+        "retweet_count": 736,
+        "reply_count": 223,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {},
+            "display_url": "pic.x.com/llx2W0VIIy",
+            "expanded_url": "https://x.com/claudeai/status/2090518650251804742/video/1",
+            "ext_master_playlist_only": [],
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "ext_playlists": [],
+            "id_str": "2090517847659167745",
+            "indices": [
+              229,
+              252
+            ],
+            "media_key": "13_2090517847659167745",
+            "media_url_https": "https://pbs.twimg.com/media/HQMDs9VbUAA9vdk.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1080,
+              "width": 1920
+            },
+            "sizes": {
+              "large": {
+                "h": 1080,
+                "w": 1920
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/llx2W0VIIy",
+            "video_info": {
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration_millis": 34041,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/2090517847659167745/pl/_K0dnZkyFj0kdhxz.m3u8?v=cfc"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2090517847659167745/vid/avc1/480x270/tyXLqXhe_gVOteLM.mp4"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2090517847659167745/vid/avc1/640x360/0vd3SwmS97KHZ4w2.mp4"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2090517847659167745/vid/avc1/1280x720/XbpUDlpOJ_9K3CeF.mp4"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2090517847659167745/vid/avc1/1920x1080/FwW9ptzVvoBMXvby.mp4"
+                }
+              ]
+            }
+          }
+        ],
+        "id": "2090518650251804742",
+        "summary": "Claude官方推出Claude Academy免费教育平台，提供从入门到进阶的AI课程和教程，面向所有用户开放。",
+        "category": "资源分享",
+        "category_points": 20,
+        "info_gap": "时效首发",
+        "info_gap_points": 20,
+        "viral_signals": [
+          "官方账号发布",
+          "免费资源"
+        ],
+        "viral_signals_points": 6,
+        "emotion": "白嫖/占便宜",
+        "emotion_points": 3,
+        "actionability_points": 5,
+        "account_fit": "B型",
+        "account_bonus": 5,
+        "total_score": 59,
+        "verdict": "keep",
+        "angles": [
+          "Claude官方免费教学平台上线，从零基础到高阶全覆盖",
+          "5分钟了解Claude Academy：AI学习者必收藏的免费资源",
+          "Claude推出官方学院，免费课程教你从入门到精通"
+        ]
+      }
+    ],
+    "priority": [
+      {
+        "tweet_id": "2090497355649008059",
+        "url": "https://x.com/naval/status/2090497355649008059",
+        "screen_name": "naval",
+        "created_at": "Thu Aug 20 17:53:03 +0000 2026",
+        "full_text": "Grok Bot is just cool. 😎\n\nOf course an agent should be persistent.\n\nOf course it should have its own computer.\n\nAll that remains is for it to be embodied…",
+        "lang": "en",
+        "favorite_count": 3086,
+        "retweet_count": 112,
+        "reply_count": 195,
+        "view_count": 0,
+        "quoted_tweet_text": "",
+        "media": [],
+        "id": "2090497355649008059",
+        "summary": "Naval Ravikant评价Grok Bot很酷，认为AI智能体应该持久化、拥有自己的计算机，最后一步是具身化。",
+        "category": "AI趋势/观点",
+        "category_points": 25,
+        "info_gap": "认知差",
+        "info_gap_points": 8,
+        "viral_signals": [],
+        "viral_signals_points": 0,
+        "emotion": "未来感/想象",
+        "emotion_points": 5,
+        "actionability_points": 0,
+        "account_fit": "不匹配",
+        "account_bonus": 0,
+        "total_score": 38,
+        "verdict": "keep",
+        "angles": [
+          "AI智能体三步进化论：持久化→独立计算→具身化",
+          "Naval Ravikant眼中的Grok Bot：下一代AI的雏形",
+          "从软件到硬件：AI智能体的终极形态是什么"
+        ]
+      }
+    ],
+    "backup": []
+  }
+}
