@@ -23,6 +23,10 @@ on:
 permissions:
   contents: write
 
+env:
+  # Master switch for the whole Twitter pipeline. RSS/YouTube stay active.
+  TWITTER_FETCH_ENABLED: 'false'
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -45,8 +49,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+      - name: Twitter pipeline paused
+        if: ${{ env.TWITTER_FETCH_ENABLED != 'true' }}
+        run: echo "Twitter fetch, scoring, Telegram delivery, and sync are paused."
+
       - name: Fetch tweets from Apify
-        if: ${{ inputs.skip_fetch != 'true' }}
+        if: ${{ inputs.skip_fetch != 'true' && env.TWITTER_FETCH_ENABLED == 'true' }}
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
@@ -66,7 +74,7 @@ jobs:
       # OpenRouter outage, using the now-healthy API + preserved raw-*.json.
       # Heals past runs on this healthy run; guarded so it never thrashes credits.
       - name: Self-heal high-fallback scores
-        if: ${{ inputs.skip_fetch != 'true' }}
+        if: ${{ inputs.skip_fetch != 'true' && env.TWITTER_FETCH_ENABLED == 'true' }}
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python heal_scores.py
@@ -78,18 +86,19 @@ jobs:
           if git diff --staged --quiet; then
             echo "No new data to commit"
           else
-            git commit -m "data: fetch tweets $(date -u +%Y-%m-%dT%H:%M)"
+            git commit -m "data: refresh official sources $(date -u +%Y-%m-%dT%H:%M)"
             git push
           fi
 
       - name: Send to Telegram
-        if: ${{ vars.TELEGRAM_ENABLED == 'true' }}
+        if: ${{ env.TWITTER_FETCH_ENABLED == 'true' && vars.TELEGRAM_ENABLED == 'true' }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python send_telegram.py
 
       - name: Persist Telegram sent log
+        if: ${{ env.TWITTER_FETCH_ENABLED == 'true' }}
         run: |
           if [ -f data/telegram_sent.json ]; then
             git add data/telegram_sent.json
@@ -111,6 +120,7 @@ jobs:
       # continue-on-error keeps the job green so tomorrow's cron still fires;
       # the next run backfills because we cp all final-*/review-* every time.
       - name: Sync tweets to ai-intel-hub (new website)
+        if: ${{ env.TWITTER_FETCH_ENABLED == 'true' }}
         continue-on-error: true
         env:
           AI_INTEL_HUB_TOKEN: ${{ secrets.AI_INTEL_HUB_TOKEN }}
@@ -147,7 +157,7 @@ jobs:
       # signature of an OpenRouter outage (402/403/credits/key-limit) that
       # otherwise looks "successful" and went undetected for 6 days in June.
       - name: Alert if LLM scoring failed (high fallback rate)
-        if: ${{ inputs.skip_fetch != 'true' }}
+        if: ${{ inputs.skip_fetch != 'true' && env.TWITTER_FETCH_ENABLED == 'true' }}
         run: |
           python - <<'PY'
           import glob, json, os, sys
