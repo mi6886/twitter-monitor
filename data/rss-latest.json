@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T11:23:46.769668+00:00",
+  "updated_at": "2026-08-24T21:46:32.794806+00:00",
   "count": 700,
-  "new_count": 485,
+  "new_count": 491,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,60 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
+      "url": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
+      "summary": "More than one in four images on the web’s most popular home pages have alt text that’s missing, vague, or copied from adjacent images. That’s from WebAIM’s 2026 WebAIM Million report, which found that alt text,an HTML attribute containing text describing the content of an image, ",
+      "published_at": "2026-08-24T20:56:32+00:00",
+      "first_seen_at": "2026-08-24T21:46:32.794806+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "XPeng Motors humanoid robot unit Dogotix raises $900M",
+      "url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
+      "summary": "XPeng’s Dogotix unit is developing the IRON humanoid robot. Source: XPeng Like other global automakers, XPeng Motors is branching into humanoid robots. The electric vehicle manufacturer today said that its Dogotix robotics unit has raised more than $900 million in its initial fun",
+      "published_at": "2026-08-24T20:07:09+00:00",
+      "first_seen_at": "2026-08-24T21:46:32.794806+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "How XPUs Meet a World-Class AI Factory",
+      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
+      "summary": "To generate intelligence at scale, AI factories run continuously, and their economics are defined by delivered output: tokens per second, tokens per watt, cost per token, utilization and uptime. That requires AI infrastructure designed and built as a full factory, not a collectio",
+      "published_at": "2026-08-24T15:00:54+00:00",
+      "first_seen_at": "2026-08-24T21:46:32.794806+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
+      "summary": "The next era of AI inference won’t be defined by a single breakthrough chip, network or system. It’ll be defined by how every layer of the AI factory works together. That’s why NVIDIA is extending Vera Rubin NVL72 with fast token generation for agentic systems. Announced today, t",
+      "published_at": "2026-08-24T15:00:41+00:00",
+      "first_seen_at": "2026-08-24T21:46:32.794806+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+      "summary": "According to OpenRouter data, agentic AI workloads consume 15x more tokens than a simple chat request. Why? Consider what happens when an AI agent researches a company for an investment decision. The agent queries financial databases, searches news and filings, invokes a sub-agen",
+      "published_at": "2026-08-24T15:00:19+00:00",
+      "first_seen_at": "2026-08-24T21:46:32.794806+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "url": "https://openai.com/index/gpt-5-6-in-kiro",
+      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+      "published_at": "2026-08-24T12:00:00+00:00",
+      "first_seen_at": "2026-08-24T21:46:32.794806+00:00"
+    },
     {
       "source": "Dwarkesh Podcast YouTube",
       "source_type": "youtube",
@@ -209,7 +263,7 @@
       "source_type": "youtube",
       "title": "Simulating Humanity: from Generative Agents to 8 Billion Digital Twins — Joon Sung Park, Simile AI",
       "url": "https://www.youtube.com/watch?v=KpOW9Pk4BUs",
-      "summary": "From creating Smallville, the landmark Generative Agents experiment that showed AI characters could remember, plan, socialize, and develop emergent behaviors, to now building foundation models of human behavior, Joon Sung Park is trying to answer a much bigger question: what if w",
+      "summary": "Next episode → Language Agents: From Reasoning to Acting, with Shunyu Yao and Harrison Chase: https://youtu.be/8t65bss7U74 From creating Smallville, the landmark Generative Agents experiment that showed AI characters could remember, plan, socialize, and develop emergent behaviors",
       "published_at": "2026-08-21T19:50:24+00:00",
       "first_seen_at": "2026-08-21T21:42:31.901902+00:00"
     },
@@ -230,6 +284,15 @@
       "summary": "Generative AI",
       "published_at": "2026-08-21T17:02:24+00:00",
       "first_seen_at": "2026-08-21T21:42:31.901902+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "source_type": "rss",
+      "title": "Video Friday: Do We Need Superhuman Humanoid Robots?",
+      "url": "https://spectrum.ieee.org/video-friday-unitree-superhuman",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.Humanoids Summit Seoul: 22–23 Septem",
+      "published_at": "2026-08-21T16:00:01+00:00",
+      "first_seen_at": "2026-08-24T21:46:32.794806+00:00"
     },
     {
       "source": "Google DeepMind Blog",
@@ -6363,69 +6426,6 @@
       "summary": "",
       "published_at": "2026-06-30T14:39:11+00:00",
       "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
-    },
-    {
-      "source": "Qoder Blog",
-      "source_type": "rss",
-      "title": "我们是怎么用 Qoder 自主迭代 Agent 的：以 Computer Use 为例",
-      "url": "https://qoder.com/zh/blog/auto-iterate",
-      "summary": "Goal 模式 + 自验证 + 回归守卫，上百小时无人值守迭代",
-      "published_at": "2026-06-30T13:55:09+00:00",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Blog",
-      "source_type": "rss",
-      "title": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning",
-      "url": "https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/",
-      "summary": "Editor’s note: This post is part of Into the Omniverse, a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse. Vision AI agents are becoming a practical way to automatically tu",
-      "published_at": "2026-06-30T13:00:27+00:00",
-      "first_seen_at": "2026-06-30T13:09:19.919492+00:00"
-    },
-    {
-      "source": "The Robot Report YouTube",
-      "source_type": "youtube",
-      "title": "Ambi Robotics and Pickle Robot automate inbound operations",
-      "url": "https://www.youtube.com/watch?v=inq33XnvYZs",
-      "summary": "The companies have integrated the AmbiStack system with Pickle's truck-unloading robots.",
-      "published_at": "2026-06-30T11:00:07+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "Introducing TabFM: A zero-shot foundation model for tabular data",
-      "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/",
-      "summary": "Data Management",
-      "published_at": "2026-06-30T10:26:00+00:00",
-      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "How ChatGPT adoption has expanded",
-      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
-      "published_at": "2026-06-30T09:00:00+00:00",
-      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
-      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
-      "summary": "Google UK shares its latest Economic Impact Report and how to enable more people to unlock the benefits of AI-powered technologies.",
-      "published_at": "2026-06-30T06:00:00+00:00",
-      "first_seen_at": "2026-06-30T13:09:19.919492+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Redeploying Claude Fable 5",
-      "url": "https://www.anthropic.com/news/redeploying-fable-5",
-      "summary": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
-      "published_at": "2026-06-30T00:00:00+00:00",
-      "first_seen_at": "2026-07-01T13:35:44.875847+00:00",
-      "source_type": "rss"
     },
     {
       "source": "Tesla AI / Optimus YouTube",
