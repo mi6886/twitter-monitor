@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T11:23:14.282414+00:00",
+  "updated_at": "2026-08-25T21:46:16.846930+00:00",
   "count": 700,
-  "new_count": 492,
+  "new_count": 504,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,6 +65,153 @@
   ],
   "items": [
     {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "How to evaluate LLMs before production",
+      "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
+      "summary": "A language model can perform well on a clean benchmark and still struggle with the cases that matter in production. Benchmarks and curated datasets are useful when prototyping an LLM-based system. They help teams compare models, test an initial prompt, and determine whether an id",
+      "published_at": "2026-08-25T21:35:11+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "Why AI labs are shelving their best models - Dylan Patel",
+      "url": "https://www.youtube.com/shorts/LooFKIOAVqY",
+      "summary": "",
+      "published_at": "2026-08-25T21:24:15+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "Google Research Blog",
+      "source_type": "rss",
+      "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
+      "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
+      "summary": "Human-Computer Interaction and Visualization",
+      "published_at": "2026-08-25T19:10:59+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "⏭️ Forward Deployed: Voice AI on what works in 2026",
+      "url": "https://www.youtube.com/watch?v=MwNvowwcZOo",
+      "summary": "Voice agents are one of the hottest use cases in enterprise right now, but also one of the hardest to actually take live. Getting latency low enough to feel human without dumbing down the responses, making reliable tool calls to a CRM without dropping the customer mid-call, build",
+      "published_at": "2026-08-25T18:45:32+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Early bird pricing for RoboBusiness 2026 ends August 31",
+      "url": "https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/",
+      "summary": "Your chance to get discounted passes to RoboBusiness 2026, the leading event for commercial robotics developers, will come to an end next week. Early bird pricing for the show, which saves attendees $200 on full conference passes, will end Aug. 31, 2026. For expo-only passes, ear",
+      "published_at": "2026-08-25T17:41:56+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "Can We Build New Senses?",
+      "url": "https://www.youtube.com/shorts/DWOekbnWISA",
+      "summary": "Most BCI companies want to help you talk to AI faster. Max Hodak explains why Science Corporation is focused instead on restoring vision, hearing, and eventually achieving substrate independence.",
+      "published_at": "2026-08-25T16:17:37+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "title": "5 ways to upgrade your home decor with Google Search",
+      "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
+      "summary": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
+      "published_at": "2026-08-25T16:00:00+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "Dylan Patel – Two labs will soon control most of the world's workforce",
+      "url": "https://www.youtube.com/watch?v=aV26V1UvkJw",
+      "summary": "Had a lot of fun chatting again with my twin brother Dylan Patel. We went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world’s usable FLOPs within the next ",
+      "published_at": "2026-08-25T15:57:53+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "source_type": "rss",
+      "title": "Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028",
+      "url": "https://www.dwarkesh.com/podcast",
+      "summary": "Had a lot of fun chatting again with my twin brother Dylan Patel.We went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world’s usable FLOPs within the next f",
+      "published_at": "2026-08-25T15:32:57+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/212689635/b1d0ec442f2c0207d04925da65c321a2.mp3",
+      "details": "Had a lot of fun chatting again with my twin brother Dylan Patel.We went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world’s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).And then we discuss whether the >$10T of total AI capex we’ll see by the end of the decade will cause a sovereign debt crisis, where hyperscaler debt raises interest rates, drives non-AI exposed countries into bankruptcy, and crashes non-AI equities.One question we weren’t able to resolve is whether there’s anything that can counter all the forces barrelling towards centralization in this industry - the economies of scale in training, the scarcity of compute, and eventually continual learning and RSI.Watch on YouTube; listen on Apple Podcasts or Spotify.SponsorsGrok Bot has been quite helpful with my search for a new editor. I created a recruiter bot and described the type of editor I was looking for. That bot then spun up a handful of subagents that combed through my emails and X DMs, read the end credits of various documentaries I like, and figured out who edits for some of my favorite YouTubers. It took all of those results, and then delivered me a shortlist of candidates that matched my criteria. Try Grok Bot for yourself at x.ai/botAntithesis lets you add time travel to your software testing toolkit. Since the Antithesis platform is fully deterministic, everything that happens inside of it is perfectly reproducible. So if your software crashes, you can rewind to the exact right moment, freeze time, and investigate. Or you can test different hypotheses by perturbing the system: kill a node or disable a feature, see what happens, then reset the trajectory and try something else. Learn more at antithesis.com/dwarkeshJane Street is hiring for two separate ML internships right now, one focused primarily on research and one focused on engineering. In both cases, interns are expected to contribute to real work, not contrived exercises: one common project is adapting a frontier LLM paper to financial markets, which tend to come with a ton of different gnarly challenges. Importantly, you don’t need any finance background to apply. 2027 applications are open now at janestreet.com/dwarkeshTimestamps(00:00:00) – Two labs will soon control most of the world’s compute(00:07:01) – $6 billion in fab capex enables $1t+ of end revenue(00:13:08) – Compute prices will rise if the labs outbid everyone(00:18:22) – Which layer will capture most of the surplus?(00:25:40) – What could slow down progress?(00:29:43) – Labs are shifting compute from inference to R&D(00:33:27) – China gets less than 10% of new compute, but its labs need less(00:48:48) – Will AI cause a sovereign debt crisis?(01:07:52) – Will the world’s future workforce belong to a few companies?Transcript00:00:00 – Two labs will soon control most of the world’s computeDwarkesh PatelOkay, I’m back with Dylan Patel, founder of SemiAnalysis. Our version of a family Thanksgiving dinner is a regular yearly podcast. But we’re not actually related.Dylan PatelDon’t tell the people this.Dwarkesh PatelIt will destroy the myth. Basically where the world economy is headed is more and more becoming a function of where lab economics are headed, where the compute market is headed, et cetera. I want to understand where the crazy future ends up within a few years. But let’s start with where we are today. Walk me through lab compute and lab revenue right now, and maybe project out a year or two.Dylan PatelWhen we go back to last year, even at the end of the year, most of GDP growth in America was just AI infrastructure. As we look towards this year, about a third of the compute coming online is for the labs, for OpenAI and Anthropic. It may be built by others and then rented to them, but at the end customer, it’s them.As we go forward into the future, the numbers for compute are ballooning. We’re at a little bit over a trillion dollars of CapEx this year. As we go out into ’28, it’s going to be more than $2 trillion. The labs are also taking an increasing percentage of this. So ultimately, you’ve got a very interesting situation where the labs are going from companies that spend tens of billions of dollars a year to hundreds of billions of dollars a year, to forecasting to spend trillions of dollars a year even towards the end of the decade. This is at least some of the contracts they’ve begun signing with their partners.This requires a big reshaping of what happens with their economics. Up until now, they have been companies that mostly lost money. Anthropic started turning a profit in Q2. It’s believed at some point in Q3, OpenAI could start turning a profit even, with the bigger rise of Codex and 5.6 and all this. But if we go back a year ago, all the money they had was venture-funded losses. If we go back to even the beginning",
+      "dedupe_key": "podcast:ede3e87f14092e9f9c17f20711556423c212ad61",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Leading Publishers Bring Blockbuster PC Games and Technology to NVIDIA RTX Spark",
+      "url": "https://blogs.nvidia.com/blog/gamescom-rtx-spark-pc-games-technology/",
+      "summary": "NVIDIA is bringing the next wave of RTX gaming to the Gamescom conference running this week in Cologne, Germany, with support for new games, anti-cheat technologies and increased visual quality. Electronic Arts, Embark and Ubisoft are among the latest game publishers and develope",
+      "published_at": "2026-08-25T15:30:48+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Granite 4.2 LLMs: How They're Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "summary": "",
+      "published_at": "2026-08-25T15:14:14+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Humans in the loop are still needed for robotaxi fleet safety, says Guident",
+      "url": "https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/",
+      "summary": "Guident launched autonomous shuttle service in Boca Raton, Fla., in November 2025. Source: Guident Robotaxi fleets are growing as self-driving vehicle companies start to roll out commercial services while still collecting data for further development and safety. For instance, Zoo",
+      "published_at": "2026-08-25T15:11:13+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Jetson Orin Nano 2 doubles inference performance for robotics on the edge, says NVIDIA",
+      "url": "https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/",
+      "summary": "Jetson Orin Nano 2 consumes less power at the same performance level of its predecessor. Source: NVIDIA As AI models become more efficient, more devices can become autonomous, but developers need compact, energy-efficient computers built for edge AI, asserted NVIDIA Corp. The com",
+      "published_at": "2026-08-25T15:00:22+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "a16z AI YouTube",
+      "source_type": "youtube",
+      "title": "How AI Changes the Economics of Innovation",
+      "url": "https://www.youtube.com/watch?v=GHPB1MwlKU0",
+      "summary": "a16z General Partners Martin Casado and Erik Torenberg are joined by Board Partner Steven Sinofsky to explore what recent breakthroughs in AI and mathematics tell us about where the technology is headed, and whether some of the basic assumptions that have governed computing for d",
+      "published_at": "2026-08-25T14:30:33+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "summary": "",
+      "published_at": "2026-08-25T11:39:24+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "source_type": "rss",
+      "title": "AI Companion Robots Are Closing the Human Connection in Modern Homes",
+      "url": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
+      "summary": "This article is brought to you by Ollobot.From about 2017, individuals began to truly connect with the initial wave of companion robots. These devices had personality, moved around, joked, and answered when you spoke to them. Most early companion robots, however, were still limit",
+      "published_at": "2026-08-25T10:00:03+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
       "source": "AgiBot YouTube",
       "source_type": "youtube",
       "title": "AGIBOT x Chimelong Group: Build the World’s First Embodied‑AI Theme Park",
@@ -72,6 +219,33 @@
       "summary": "AGIBOT and Chimelong Group have entered into a strategic partnership to create the world’s first embodied intelligence theme park, bringing robots into new real-world applications across entertainment, hospitality, and immersive experiences. This partnership marks another step in",
       "published_at": "2026-08-25T07:05:05+00:00",
       "first_seen_at": "2026-08-25T11:23:14.282414+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "The full stack behind abundant intelligence",
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "published_at": "2026-08-25T07:05:00+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "published_at": "2026-08-25T07:00:00+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "Qoder Blog",
+      "source_type": "rss",
+      "title": "让每一次 AI 投入沉淀为组织能力：厦门地铁科技公司 × Qoder 的研发实践",
+      "url": "https://qoder.com/zh/blog/qoder-case-amtr",
+      "summary": "厦门地铁科技公司用 Qoder 把研发过程固化为标准工作流，单功能模块编码交付周期平均缩短约 30%。",
+      "published_at": "2026-08-25T03:39:56+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
     },
     {
       "source": "Latent Space",
@@ -82,6 +256,24 @@
       "published_at": "2026-08-25T02:50:57+00:00",
       "details": "We’ve lost count of how many adoption milestones have been passed since the original Rise of the AI Engineer post, but surely Andrew Ng, cofounder of Google Brain and Coursera among many other things, relaunching DeepLearning.ai with a focus on AI Engineering is a big one:This was done via “an analysis of over 10,000 job postings; carrying out dozens of structured interviews with AI experts, hiring managers, and recruiters; gathering data through surveys; and synthesizing other online data” .Here are the four most important AI engineering skills according to Andrew:You can read his full post for more from the horses’ mouth, but we agree that “AI Engineering Skills” are broadly applicable to more than just those with the job title of “AI Engineer” and that is an insightful focus.Commentary on the 4 skills:Building and deploying AI applications: “People who are skilled at building and deploying AI applications understand the building blocks of AI (such as LLMs, context engineering, RAG, agentic workflows, machine learning and deep learning) and, importantly, how to use statistical techniques to measure, steer, and govern AI systems so that they behave more predictably. A core skill in doing so is knowing how to drive disciplined evals and error analysis loops.”yup. this part is closest to the traditional MLE/MLOps workflow, from “zero gradient” aka prompt engineering techniques, to harness engineering, to finetuning and beyond, all the way up to building your own agent lab as folks like Harvey are now doingSoftware engineering fundamentals. “Understanding software fundamentals allows you to recognize what tradeoffs even exist. This leads to better decisions in choosing your software stack, designing system architecture, designing your data store, testing, and so on. It also leads to much better outcomes than those for an inexperienced developer who vibe codes a solution without knowing the tradeoffs their coding agent is making — which will often be poor ones, because they don’t know what context to give their coding agent.”yup. this part is closest to the traditional SWE workflow. LLMs reward expertise — they raise the ceiling (high skill devs) much more than they raise the floor (low skill vibecoders), though both are improved.Using coding agents. “Using agentic coding effectively is now a key skill for every developer. When you have this skill, you have a good mental model for how agents work. You understand their limitations and how to work around them, and are able to quickly steer them — knowing how much to intervene and how much to leave them alone — to build robust software without wasting excessive time or tokens. You also need to know how to work with a clear spec (and when not to bother doing so), orchestrate multiple agents that work together, and avoid pitfalls like risk an agent messing up your production database. Because agentic coding is evolving quickly, using coding agents skillfully means not only knowing cutting-edge practices, but also having routines to keep trying new tools and evolve your workflows as best practices change.”When we first spoke about the 1000x AI Engineer in 2023, when Copilot was the only game in town, this was the part that was the least evident, but clearly on the horizon. Coding exploded in 2024-2026 culminating in the epic 0-$60B run of Cursor and the rise of Claude Code, Codex, Cognition, Cline and other coding powerhouses not starting with C. Being nimble here is a plus, just as much as being wary of tokenmaxxers with LLM psychosis.Shaping the build. “Effective AI engineering requires having product sense and understanding business context and customer goals, so you can participate in shaping and driving the build… Taking advantage of this opportunity requires knowing how to drive projects forward. For example, knowing when to quickly build an MVP to take to users for testing, and when to slow down and take longer in order to build more carefully.”This is perhaps the only part of AI Engineering that wasn’t foreseen in the original essay; we added the AI PM track in World’s Fair 2024 and soon Design Engineering and other AIE adjacencies because the lines started to blur very quickly in both directions.Overall, a great update to the DeepLearning.AI focus. Welcome Andrew and team!AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapAgent Harnesses, Persistent Agents, and Enterprise MCPHarness design is becoming a primary optimization surface: Several posts converged on the idea that agent quality is increasingly shaped by the harness rather than just the base model. NVIDIA’s new evaluation work argues that structural checks on agent “skills” barely predict usefulness—scan scores correlate with judged quality at just Spearman ρ = 0.14—and proposes measuring “Skill ",
       "first_seen_at": "2026-08-25T11:23:14.282414+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "source_type": "rss",
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "summary": "Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.",
+      "published_at": "2026-08-25T00:00:00+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
+    },
+    {
+      "source": "Figure AI News",
+      "source_type": "rss",
+      "title": "Introducing Index: Building The World’s Largest and Most Diverse Physical Dataset",
+      "url": "https://www.figure.ai/news/introducing-index",
+      "summary": "Today we're coming out of stealth with the largest robot training dataset ever built. The data needed to scale general robotics doesn't exist on the internet - it has to come from the real world: a global sampling of physics captured across every environment on earth.",
+      "published_at": "2026-08-25T00:00:00+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
     },
     {
       "source": "OpenAI News",
@@ -100,6 +292,15 @@
       "summary": "",
       "published_at": "2026-08-25T00:00:00+00:00",
       "first_seen_at": "2026-08-25T11:23:14.282414+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "url": "https://openai.com/index/introducing-admin-plugin",
+      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+      "published_at": "2026-08-25T00:00:00+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
     },
     {
       "source": "The Robot Report",
@@ -403,6 +604,15 @@
       "summary": "",
       "published_at": "2026-08-21T00:00:00+00:00",
       "first_seen_at": "2026-08-21T21:42:31.901902+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+      "url": "https://huggingface.co/blog/pwc-search",
+      "summary": "",
+      "published_at": "2026-08-21T00:00:00+00:00",
+      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
     },
     {
       "source": "Runway",
@@ -2137,7 +2347,7 @@
       "source_type": "rss",
       "title": "Premium seats are coming to ChatGPT Business",
       "url": "https://openai.com/index/premium-seats-chatgpt-business",
-      "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+      "summary": "Premium seats are now available on ChatGPT Business, with 5x more usage, no five-hour usage limit, and flexible seat options for every teammate.",
       "published_at": "2026-08-10T00:00:00+00:00",
       "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
     },
@@ -6207,223 +6417,6 @@
       "summary": "On this holiday, Digit is on grill duty. It turns out precise force control is good for more than payload handling. Happy 4th of July from all of us at Agility. --------------------------------------- At Agility, we make robots that are made for work. Our robot Digit works alongs",
       "published_at": "2026-07-03T13:00:25+00:00",
       "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "title": "How GitHub used secret scanning to reach inbox zero",
-      "url": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
-      "summary": "GitHub had 20,000+ secret scanning alerts across 15,000 repositories. Here's how we separated signal from noise, built remediation workflows, and reached inbox zero in nine months. The post How GitHub used secret scanning to reach inbox zero appeared first on The GitHub Blog.",
-      "published_at": "2026-07-02T16:00:00+00:00",
-      "first_seen_at": "2026-07-02T23:57:13.910468+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "No Priors Podcast",
-      "source_type": "rss",
-      "title": "How Nuclear Will Unlock Energy Abundance with Valar Atomics Founder Isaiah Taylor",
-      "url": "https://no-priors.com/",
-      "summary": "While the rest of the nuclear industry still relies on simulations and paper designs, Valar Atomics is busy splitting atoms. In fact, they just powered an NVIDIA Blackwell chip directly with a live nuclear reactor in order to power the world’s first nuclear powered website. Sarah",
-      "published_at": "2026-07-02T15:00:00+00:00",
-      "first_seen_at": "2026-08-04T09:31:17.915428+00:00",
-      "audio_url": "https://traffic.megaphone.fm/PDP1493614959.mp3",
-      "dedupe_key": "podcast:a56df302596820e328727496a8b220a0b60da420",
-      "details": "While the rest of the nuclear industry still relies on simulations and paper designs, Valar Atomics is busy splitting atoms. In fact, they just powered an NVIDIA Blackwell chip directly with a live nuclear reactor in order to power the world’s first nuclear powered website. Sarah"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Joyride Through July With 12 Games Coming to GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-july-2026-games-list/",
-      "summary": "Summer is heating up — and GeForce NOW is taking players along for the ride. Start the month with Monopoly: Star Wars Heroes vs. Villains, bringing a galaxy far, far away to the iconic board-game franchise, alongside 12 new games joining the cloud this month. Plus, don’t let the ",
-      "published_at": "2026-07-02T13:00:23+00:00",
-      "first_seen_at": "2026-07-02T23:57:13.910468+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "No Priors Podcast",
-      "source_type": "rss",
-      "title": "How Nuclear Will Unlock Energy Abundance with Valar Atomics Founder Isaiah Taylor",
-      "url": "https://no-priors.com/",
-      "summary": "While the rest of the nuclear industry still relies on simulations and paper designs, Valar Atomics is busy splitting atoms. In fact, they just powered an NVIDIA Blackwell chip directly with a live nuclear reactor in order to power the world’s first nuclear powered website. Sarah",
-      "published_at": "2026-07-02T10:00:00+00:00",
-      "audio_url": "https://traffic.megaphone.fm/PDP1493614959.mp3",
-      "details": "While the rest of the nuclear industry still relies on simulations and paper designs, Valar Atomics is busy splitting atoms. In fact, they just powered an NVIDIA Blackwell chip directly with a live nuclear reactor in order to power the world’s first nuclear powered website. Sarah Guo joins Valar Atomics founder and CEO Isaiah Taylor on-site at their reactor site in Utah to talk about how Valar is shifting nuclear energy from the theoretical to the practical by building and perfecting reactors via hardware iteration. Isaiah discusses why the US stopped building nuclear reactors in the 1970s, and how Valar utilized a little-known pathway via the Department of Energy, revived by a Trump administration executive order, to successfully develop and run their advanced reactor. He also shares Valar’s strategy for vertical integration, their venture-backed approach to financing, their giga-site plans, and why he believes cheap, abundant atomic energy has the power to vastly improve the quality of human life. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @isaiah_p_taylor | @valaratomics Chapters: 00:00 – Cold Open 00:57 – Isaiah Taylor Introduction 01:30 - Valar’s Mission and Origin 04:24 - Why Nuclear Development Stalled 07:18 - Reviving Nuclear through DoE and Executive Order 10:59 - Control Room Tour 16:17 - Misunderstandings About Nuclear 20:07 - Issues with Reliability 22:14 - Nuclear is a Hardware Execution Problem 24:32 - Timeline to Scale Production 26:32 - Introducing Ward 250 30:42 - Speed Through Simplicity 33:33 - AI Drives Nuclear Demand 35:02 - Running a Reactor with NVIDIA Blackwell 36:27 - Valar’s Nuclear Conviction 40:16 - Verticalization as Path to Scale 43:58 - Valar’s Control Skid 48:00 - Venture-Backed Nuclear 50:51 - Gigasite Strategy 53:11 - CEO Tick Rate 55:37 - Abundant Energy and Hyper-Techno Industrialism 1:01:27 – Conclusion",
-      "dedupe_key": "podcast:51b507f987a5c4c7ade5fdfc471733ca0df8c813",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout",
-      "url": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/",
-      "summary": "As AI moves from model development to production inference, compute demand is accelerating and shifting toward continuously operating AI factories that generate tokens at scale. This shift requires access to large‑scale, multi‑tenant accelerated computing that can come online qui",
-      "published_at": "2026-07-02T03:34:48+00:00",
-      "first_seen_at": "2026-07-02T12:57:41.910270+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
-      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
-      "summary": "What is and isn't blocked by our cyber classifiers, and a first draft of our jailbreak severity framework",
-      "published_at": "2026-07-02T00:00:00+00:00",
-      "first_seen_at": "2026-07-03T12:57:02.712231+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Google DeepMind Research",
-      "title": "Towards Structural Understanding of LLM Overthinking",
-      "url": "https://deepmind.google/research/publications/203490/",
-      "summary": "",
-      "published_at": "2026-07-02T00:00:00+00:00",
-      "first_seen_at": "2026-07-13T13:23:29.774683+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Runway",
-      "title": "Borrowing the Night: Reclaiming Idle Inference GPUs for Research",
-      "url": "https://runwayml.com/news/borrowing-the-night-reclaiming-idle-inference-gpus-for-research",
-      "summary": "",
-      "published_at": "2026-07-02T00:00:00",
-      "first_seen_at": "2026-07-02T23:57:13.910468+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Runway",
-      "title": "Borrowing the Night: Reclaiming Idle Inference GPUs for Research",
-      "url": "https://runwayml.com/news/engineering/borrowing-the-night-reclaiming-idle-inference-gpus-for-research",
-      "summary": "",
-      "published_at": "2026-07-02T00:00:00",
-      "first_seen_at": "2026-07-17T22:09:48.333674+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Dwarkesh Podcast",
-      "source_type": "rss",
-      "title": "The Winning Essays for the Big Questions About AI",
-      "url": "https://www.dwarkesh.com/p/blog-prize-winners",
-      "summary": "Two months ago, I posted some big questions about AI. We ended up getting over 600 essays submitted for this contest. Below is a bit of information of the 3 winners, followed by all 3 full essays. Thanks to everyone who participated! First Place - Jassi Pannu Jassi Pannu is an As",
-      "published_at": "2026-07-01T22:13:17+00:00",
-      "details": "Two months ago, I posted some big questions about AI. We ended up getting over 600 essays submitted for this contest. Below is a bit of information of the 3 winners, followed by all 3 full essays. Thanks to everyone who participated! First Place - Jassi Pannu Jassi Pannu is an Assistant Professor at Johns Hopkins University, where she focuses on biosecurity and pandemic preparedness. She serves on the board of Blueprint Biosecurity.Jassi answered the question about what the OpenAI Foundation should do. She persuasively argues that we can live in a post-disease world, and gave very concrete and well thought out ideas about how to dedicate 10s of billions of dollars to that project.Second Place - Ege ErdilEge Erdil is a co-founder of Mechanize, a startup building environments and evals for frontier coding agents. He was previously a researcher at Epoch AI.Ege answered the question about what countries outside the AI supply chain should do to avoid increase their odds of not being totally sidestepped by transformative growth.He argues that these countries should concentrate on enacting the kinds of policies that already work well in increasing growth and improving productivity. These strategies (strong property rights, low capital taxes, and an open regulatory regime) will be even more important in a world where enacting them can drive a much higher growth differential than is possible today. What I love about Ege’s essay is that, in one sense, he’s giving very common-sense advice (as opposed to much more galaxy-brain schemes some other applicants proposed - one application suggested middle countries blackmail China and American by threatening to nuke their fabs and datacenters). But it’s actually this much more grounded and timeless advice that felt the most contrarian. And it’s also more likely to work.Third Place - Michael LiMichael Li is a Master of Public Policy candidate at Harvard Kennedy School. He writes Ceteris Paribus — a blog at the intersection of emerging tech, econ and policy. Michael wrote about how the labs will actually make money. His was selected for the unique analogy he drew between AI labs and Hong Kong’s Mass Transit Railway business model - even if your main product consumes crazy CapEx and doesn’t directly earn it back, maybe you can make up for it by buying out all the complementary assets. In the case of Hong Kong MTR, that would be the adjacent properties - I don’t know what it looks like for the AI labs, but it was a interesting analogy to think about. Essay #1 - Jassi Pannu on how she would run the OpenAI FoundationI’d run the Foundation as a state-scale operation to end airborne transmission.AI’s largest welfare upsides (curing diseases) and deadliest tail risks (engineered pandemics) both run through biology. By radically suppressing airborne pathogen transmission, we’d unlock >$1T in annual global GDP (through ending seasonal flu and the like, chronic diseases increasingly linked to viral infections, productivity losses, healthcare costs, etc.) and would take the possibility of catastrophic pandemics entirely off the table.The dual-payoff principle: Most “make AI go well” interventions are insurance against bad outcomes, especially tail risks. My meta-level argument is that the best way of converting money into impact is to identify interventions that have the property of paying off big in both worlds: by producing step-changes in welfare in the everyday world as well as significantly reducing tail-risks in the emergency world. The bio resilience interventions I describe below are the best example of this.AI for biology is on the critical path to cures, but destabilizing capabilities will arise earlyUsing AI to automate and scale every step in the biological research process, including managing the process itself (something I’ll call autonomous biological discovery), will bring humanity closer to a post-disease world. Over 4 billion years, life has been doing a random walk on an astronomically tiny subset of viable, connected, fitness-positive paths. Multi-component AI feedback loops (that include bio foundation models and systematic wet-lab experimentation at scale) for autonomous discovery will enable us to explore much more of possible biological design space. While we’re most interested in predicting and designing multicellular systems, it’s likely that the destabilizing capability of manipulating simpler pathogens will emerge first. The challenge this poses is that AI-enabled offense (seeding an outbreak) will be much easier than defense, which will remain constrained by physical-world deployment; I argue this advantages pre-positioned defensive technologies already embedded in our infrastructure.There’s a clear path to ending airborne transmission, using physical infrastructure.Regardless of what you think about the above, though, ending airborne transmission can be more than justified based on everyday benefits. Respiratory infections cause acute illness and productivit",
-      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "The latest AI news we announced in June 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
-      "summary": "Here are Google’s latest AI updates from June 2026.",
-      "published_at": "2026-07-01T18:15:00+00:00",
-      "first_seen_at": "2026-07-02T00:08:41.955431+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
-      "url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
-      "summary": "Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders.",
-      "published_at": "2026-07-01T16:00:00+00:00",
-      "first_seen_at": "2026-07-02T00:08:41.955431+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "title": "6 security settings every GitHub maintainer should enable this week",
-      "url": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
-      "summary": "These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder to attack than it was before. The post 6 security settings every GitHub maintainer should enable thi",
-      "published_at": "2026-07-01T15:59:29+00:00",
-      "first_seen_at": "2026-07-02T00:08:41.955431+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Runway",
-      "title": "Runway Announces Creative Partnership with Bertelsmann",
-      "url": "https://runwayml.com/news/runway-announces-creative-partnership-with-bertelsmann",
-      "summary": "",
-      "published_at": "2026-07-01T10:00:00+00:00",
-      "first_seen_at": "2026-07-02T00:08:41.955431+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-      "summary": "",
-      "published_at": "2026-07-01T00:00:00+00:00",
-      "first_seen_at": "2026-07-02T00:08:41.955431+00:00"
-    },
-    {
-      "source": "Latent Space YouTube",
-      "source_type": "youtube",
-      "title": "🔬 \"The Most Innovative Diffusion Research Is Happening in Drug Discovery, Not Image Generation\"",
-      "url": "https://www.youtube.com/watch?v=YQWXxnkK4dw",
-      "summary": "Evan Feinberg and Genesis CTO Sergey Edunov join us to talk about solving drug discovery with AI. Sergey, fresh off leading Llama 2 and Llama 3 pretraining at Meta, makes the case that the most interesting architecture work in AI right now isn't happening in language models — it'",
-      "published_at": "2026-06-30T21:41:29+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "Lex Fridman Podcast",
-      "source_type": "rss",
-      "title": "#498 – Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise & Fall of Empires",
-      "url": "https://lexfridman.com/anthony-kaldellis/?utm_source=rss&utm_medium=rss&utm_campaign=anthony-kaldellis",
-      "summary": "Anthony Kaldellis is a historian of the Roman Empire and author of “The New Roman Empire”, a comprehensive history of the Byzantine Empire (Eastern Roman Empire). Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep498-sc See below for timestamps, ",
-      "published_at": "2026-06-30T21:33:40+00:00",
-      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "Lex Fridman Podcast",
-      "source_type": "rss",
-      "title": "#498 – Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise & Fall of Empires",
-      "url": "https://lexfridman.com/podcast/",
-      "summary": "Anthony Kaldellis is a historian of the Roman Empire and author of “The New Roman Empire”, a comprehensive history of the Byzantine Empire (Eastern Roman Empire). Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep498-sc See below for timestamps, ",
-      "published_at": "2026-06-30T21:33:40+00:00",
-      "audio_url": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_anthony_kaldellis.mp3",
-      "details": "Anthony Kaldellis is a historian of the Roman Empire and author of “The New Roman Empire”, a comprehensive history of the Byzantine Empire (Eastern Roman Empire). Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep498-sc See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc. Transcript: https://lexfridman.com/anthony-kaldellis-transcript CONTACT LEX: Feedback – give feedback to Lex: https://lexfridman.com/survey AMA – submit questions, videos or call-in: https://lexfridman.com/ama Hiring – join our team: https://lexfridman.com/hiring Other – other ways to get in touch: https://lexfridman.com/contact EPISODE LINKS: Anthony’s Books: https://amzn.to/49AX7Q1 Anthony’s Publications: https://kaldellispublications.weebly.com Anthony’s University of Chicago page: https://classics.uchicago.edu/people/anthony-kaldellis The New Roman Empire (book): https://amzn.to/3PTFTqk Streams of Gold (book): https://amzn.to/4fgRMRq Byzantium & Friends Podcast: https://byzantiumandfriends.podbean.com/ The History of Byzantium Podcast: https://thehistoryofbyzantium.com/ SPONSORS: To support this podcast, check out our sponsors & get discounts: Upwork: Platform for hiring freelancers. Go to https://upwork.com/lex Fin: AI agent for customer service. Go to https://fin.ai/lex BetterHelp: Online therapy and counseling. Go to https://betterhelp.com/lex LMNT: Zero-sugar electrolyte drink mix. Go to https://drinkLMNT.com/lex Shopify: Sell stuff online. Go to https://shopify.com/lex Perplexity: AI-powered answer engine. Go to https://perplexity.ai/ OUTLINE: (00:00) – Introduction (00:11) – Sponsors, Comments, and Reflections (08:45) – The Roman Empire and the Byzantine Empire (12:42) – 2,200 Years of Roman History (33:06) – Power, violence, and civil war (54:20) – Edict of Caracalla (1:07:17) – Crisis of the Third Century (1:21:45) – Constantine and the new Roman Empire (1:33:46) – Christianity in the Roman Empire (1:59:14) – Fall of the Western Roman Empire (2:12:11) – Eunuchs, Taxes, and Power (2:37:17) – Emperor Justinian and wars of conquest (2:54:19) – The Arab conquests (3:13:55) – Why the Roman empire survived so long (3:40:01) – Lessons from history PODCAST LINKS: – Podcast Website: https://lexfridman.com/podcast – Apple Podcasts: https://apple.co/2lwqZIr – Spotify: https://spoti.fi/2nEwCF8 – RSS: https://lexfridman.com/feed/podcast/ – Podcast Playlist: https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4 – Clips Channel: https://www.youtube.com/lexclips",
-      "dedupe_key": "podcast:a8f010ee4ea31c3172bab8348ce605a1590769a1",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "Lex Fridman YouTube",
-      "source_type": "youtube",
-      "title": "The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498",
-      "url": "https://www.youtube.com/watch?v=pv1TUJSEM2k",
-      "summary": "Anthony Kaldellis is a historian of the Roman Empire and author of \"The New Roman Empire\", a comprehensive history of the Byzantine Empire (Eastern Roman Empire). Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep498-sb See below for timestamps, ",
-      "published_at": "2026-06-30T21:16:13+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "summary": "",
-      "published_at": "2026-06-30T18:32:50+00:00",
-      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "title": "How GitHub maintains compliance for open source dependencies",
-      "url": "https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies/",
-      "summary": "Explore how the Open Source Program Office uses GitHub’s new license compliance product to manage open source dependencies at scale. The post How GitHub maintains compliance for open source dependencies appeared first on The GitHub Blog.",
-      "published_at": "2026-06-30T17:28:16+00:00",
-      "first_seen_at": "2026-07-01T00:03:17.344376+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "Expanding our Heat Resilience data to 50+ global cities",
-      "url": "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/",
-      "summary": "Climate & Sustainability",
-      "published_at": "2026-06-30T17:03:00+00:00",
-      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science",
-      "url": "https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/",
-      "summary": "Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-specific tools — to help researchers run more sophisticated ",
-      "published_at": "2026-06-30T17:00:38+00:00",
-      "first_seen_at": "2026-07-01T00:03:17.344376+00:00",
-      "source_type": "rss"
     },
     {
       "source": "Tesla AI / Optimus YouTube",
