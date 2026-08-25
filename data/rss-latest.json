@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T21:46:32.794806+00:00",
+  "updated_at": "2026-08-25T11:23:14.282414+00:00",
   "count": 700,
-  "new_count": 491,
+  "new_count": 492,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,61 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "AgiBot YouTube",
+      "source_type": "youtube",
+      "title": "AGIBOT x Chimelong Group: Build the World’s First Embodied‑AI Theme Park",
+      "url": "https://www.youtube.com/watch?v=8_WABDATeDg",
+      "summary": "AGIBOT and Chimelong Group have entered into a strategic partnership to create the world’s first embodied intelligence theme park, bringing robots into new real-world applications across entertainment, hospitality, and immersive experiences. This partnership marks another step in",
+      "published_at": "2026-08-25T07:05:05+00:00",
+      "first_seen_at": "2026-08-25T11:23:14.282414+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Andrew Ng gets into AI Engineering",
+      "url": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
+      "summary": "We’ve lost count of how many adoption milestones have been passed since the original Rise of the AI Engineer post, but surely Andrew Ng, cofounder of Google Brain and Coursera among many other things, relaunching DeepLearning.ai with a focus on AI Engineering is a big one:This wa",
+      "published_at": "2026-08-25T02:50:57+00:00",
+      "details": "We’ve lost count of how many adoption milestones have been passed since the original Rise of the AI Engineer post, but surely Andrew Ng, cofounder of Google Brain and Coursera among many other things, relaunching DeepLearning.ai with a focus on AI Engineering is a big one:This was done via “an analysis of over 10,000 job postings; carrying out dozens of structured interviews with AI experts, hiring managers, and recruiters; gathering data through surveys; and synthesizing other online data” .Here are the four most important AI engineering skills according to Andrew:You can read his full post for more from the horses’ mouth, but we agree that “AI Engineering Skills” are broadly applicable to more than just those with the job title of “AI Engineer” and that is an insightful focus.Commentary on the 4 skills:Building and deploying AI applications: “People who are skilled at building and deploying AI applications understand the building blocks of AI (such as LLMs, context engineering, RAG, agentic workflows, machine learning and deep learning) and, importantly, how to use statistical techniques to measure, steer, and govern AI systems so that they behave more predictably. A core skill in doing so is knowing how to drive disciplined evals and error analysis loops.”yup. this part is closest to the traditional MLE/MLOps workflow, from “zero gradient” aka prompt engineering techniques, to harness engineering, to finetuning and beyond, all the way up to building your own agent lab as folks like Harvey are now doingSoftware engineering fundamentals. “Understanding software fundamentals allows you to recognize what tradeoffs even exist. This leads to better decisions in choosing your software stack, designing system architecture, designing your data store, testing, and so on. It also leads to much better outcomes than those for an inexperienced developer who vibe codes a solution without knowing the tradeoffs their coding agent is making — which will often be poor ones, because they don’t know what context to give their coding agent.”yup. this part is closest to the traditional SWE workflow. LLMs reward expertise — they raise the ceiling (high skill devs) much more than they raise the floor (low skill vibecoders), though both are improved.Using coding agents. “Using agentic coding effectively is now a key skill for every developer. When you have this skill, you have a good mental model for how agents work. You understand their limitations and how to work around them, and are able to quickly steer them — knowing how much to intervene and how much to leave them alone — to build robust software without wasting excessive time or tokens. You also need to know how to work with a clear spec (and when not to bother doing so), orchestrate multiple agents that work together, and avoid pitfalls like risk an agent messing up your production database. Because agentic coding is evolving quickly, using coding agents skillfully means not only knowing cutting-edge practices, but also having routines to keep trying new tools and evolve your workflows as best practices change.”When we first spoke about the 1000x AI Engineer in 2023, when Copilot was the only game in town, this was the part that was the least evident, but clearly on the horizon. Coding exploded in 2024-2026 culminating in the epic 0-$60B run of Cursor and the rise of Claude Code, Codex, Cognition, Cline and other coding powerhouses not starting with C. Being nimble here is a plus, just as much as being wary of tokenmaxxers with LLM psychosis.Shaping the build. “Effective AI engineering requires having product sense and understanding business context and customer goals, so you can participate in shaping and driving the build… Taking advantage of this opportunity requires knowing how to drive projects forward. For example, knowing when to quickly build an MVP to take to users for testing, and when to slow down and take longer in order to build more carefully.”This is perhaps the only part of AI Engineering that wasn’t foreseen in the original essay; we added the AI PM track in World’s Fair 2024 and soon Design Engineering and other AIE adjacencies because the lines started to blur very quickly in both directions.Overall, a great update to the DeepLearning.AI focus. Welcome Andrew and team!AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapAgent Harnesses, Persistent Agents, and Enterprise MCPHarness design is becoming a primary optimization surface: Several posts converged on the idea that agent quality is increasingly shaped by the harness rather than just the base model. NVIDIA’s new evaluation work argues that structural checks on agent “skills” barely predict usefulness—scan scores correlate with judged quality at just Spearman ρ = 0.14—and proposes measuring “Skill ",
+      "first_seen_at": "2026-08-25T11:23:14.282414+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "published_at": "2026-08-25T00:00:00+00:00",
+      "first_seen_at": "2026-08-25T11:23:14.282414+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+      "url": "https://huggingface.co/blog/gradio-workflow-guide",
+      "summary": "",
+      "published_at": "2026-08-25T00:00:00+00:00",
+      "first_seen_at": "2026-08-25T11:23:14.282414+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "The next big AI play isn’t apps or humanoids; it’s machines with brains and brawn",
+      "url": "https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/",
+      "summary": "Kubota unveiled the integrated, autonomous M5 Narrow diesel specialty tractor at CES 2026. | Credit: Kubota Humanoid robots and AI are chasing a powerful promise: replacing repetitive manufacturing tasks for lower cost, easing caregiver shortages, taking people out of dangerous w",
+      "published_at": "2026-08-24T22:53:33+00:00",
+      "first_seen_at": "2026-08-25T11:23:14.282414+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "Why Humans Can Still Beat AI at Coding - Ryan Greenblatt",
+      "url": "https://www.youtube.com/shorts/tbPuJ1AP_vs",
+      "summary": "",
+      "published_at": "2026-08-24T21:47:52+00:00",
+      "first_seen_at": "2026-08-25T11:23:14.282414+00:00"
+    },
     {
       "source": "GitHub Blog",
       "source_type": "rss",
@@ -153,6 +208,15 @@
       "summary": "",
       "published_at": "2026-08-23T00:00:00+00:00",
       "first_seen_at": "2026-08-24T11:23:46.769668+00:00"
+    },
+    {
+      "source": "AgiBot News",
+      "source_type": "rss",
+      "title": "AGIBOT Partners with Chimelong to Develop the World’s First Embodied Intelligence Theme Park-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "url": "https://agibot.com/article/231/detail/90.html",
+      "summary": "",
+      "published_at": "2026-08-23T00:00:00+00:00",
+      "first_seen_at": "2026-08-25T11:23:14.282414+00:00"
     },
     {
       "source": "No Priors YouTube",
@@ -6360,72 +6424,6 @@
       "published_at": "2026-06-30T17:00:38+00:00",
       "first_seen_at": "2026-07-01T00:03:17.344376+00:00",
       "source_type": "rss"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "source_type": "rss",
-      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-      "summary": "",
-      "published_at": "2026-06-30T16:02:40+00:00",
-      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast",
-      "source_type": "rss",
-      "title": "Grant Sanderson – AI and the future of math",
-      "url": "https://www.dwarkesh.com/p/grant-sanderson-2",
-      "summary": "Watch now (94 mins) | Math is where we’ll see superintelligence first. What will it look like?",
-      "published_at": "2026-06-30T15:53:19+00:00",
-      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast",
-      "source_type": "rss",
-      "title": "Grant Sanderson – AI and the future of math",
-      "url": "https://www.dwarkesh.com/podcast",
-      "summary": "Always so much fun to chat with Grant.AI has been making much faster progress in math than in other fields. As a result, mathematics is showing us, very concretely, what AI progress in other fields will look like. Even within mathematics, there’s a jagged landscape. What does it ",
-      "published_at": "2026-06-30T15:53:19+00:00",
-      "audio_url": "https://api.substack.com/feed/podcast/204275916/96bb07d6147c4ef4193fd586a2c304af.mp3",
-      "details": "Always so much fun to chat with Grant.AI has been making much faster progress in math than in other fields. As a result, mathematics is showing us, very concretely, what AI progress in other fields will look like. Even within mathematics, there’s a jagged landscape. What does it look like?What is the nature of the most important conceptual breakthroughs in the history of mathematics, and how different are they from what AIs are currently able to do?Does AI (on net) increase or decrease human understanding of the field?How big is the overhang from having AIs systematically try to connect ideas already in the literature?And what advice does Grant have for aspiring mathematicians, coders, and other students who are passionate about fields that are being most transformed upon by AI?Watch on YouTube; listen on Apple Podcasts or Spotify.SponsorsGemini 3.5 Live Translate is what I wished I’d had on my last trip to China. It detects more than 70 languages and translates them in near real-time… and it preserves your original pacing and intonation. If you’re building an app that needs live translation, you should check out Gemini 3.5 Live Translate. Get started at ai.studio/liveCursor’s harness lets me use models for a huge range of tasks at the podcast. For example, Cursor cuts out the ads from each episode I produce so I can post them on Bilibili. It also helps me prep for interviews — I have a repo full of books and papers that Cursor sorts through to find the exact right file for any given question. Try Cursor yourself at cursor.com/dwarkeshJane Street sponsors 3Blue1Brown, so Grant has gotten to spend a lot of time with various Jane Streeters. He actually just recorded an interview with a few of them, so when we sat down for this episode, he told me about some of the things he learned, like how Jane Street keeps their role definitions fuzzy to make sure their people keep learning and growing. Go check out Grant’s full interview at 3b1b.co/janestreetTimestamps(00:00:00) – AI is discovering new proofs. Is that AGI?(00:11:32) – The verification loop on conceptual breakthroughs can be a century long(00:26:12) – Will we understand an AI proof of the Riemann hypothesis?(00:38:08) – Can AI find the hidden bridges between fields?(00:53:48) – Why real-world tasks don’t fit into RL environments(01:07:07) – Good writing requires theory of mind that AI still lacks(01:16:02) – Why learning will still depend on human curationTranscript00:00:00 – AI is discovering new proofs. Is that AGI?Dwarkesh PatelToday, I’m chatting with Grant Sanderson, who runs 3Blue1Brown and is now working on a new project documenting the progress AI is making in math. I wanted to talk to you about this because AI has been making the fastest progress in mathematics out of any other field. Whatever is happening here, and whatever way we’re seeing AI progress happen or not happen, will tell us about what will happen to the rest of the world as AI gets better and better.I wanted to start with this question I asked you when I first interviewed you three years ago. I asked you, once we have AIs that can get gold in the International Math Olympiad, wouldn’t that just be AGI? Wouldn’t this just be able to do anything any human can do, given how hard these problems are?You had an answer, which in retrospect turned out to be very wise and correct. You said it’ll be another benchmark, like all these other benchmarks that AI are passing. Obviously, AI has gotten better in a general way since then, but there won’t be some “aha” moment when this happens.First, I’d be curious to get your heuristics on why that turned out to be true. Second, I’m curious how long you think this narrowness can continue to be true. By the point that AI has solved a Millennium Prize problem, do you think it’s still possible that there are lots of tasks humans are doing that AI still can’t automate in the economy?Grant SandersonIt’s an interesting question because it’s hard to answer without knowing what the solution looks like ahead of time. If we take the IMO, the spirit of your question three years ago was in looking at how some of the solutions to these problems really seem to require creativity. The designers of these problems try to come up with things that you can’t train for as easily.The dirty secret with the IMO is that you really can train for a lot of them. With the whole AI and math project underway, as you point out, one of the reasons it’s interesting at all is that there’s a spiky frontier to AI, and math is just right there in one of the spikes.But there’s a fractal nature to that spikiness, because when you zoom into the specific progress within math, you have some things that are a lot easier than others. If we just think about IMO, which is old news at this point. It’s been two years since they’re really doing quite well. They would have gotten a gold in 2024 if not for the following reason. They’re very good. They just cold-solved geometry basically. The IMO has thes",
-      "dedupe_key": "podcast:a923d6f12838270b269b9f25f10417fed8f142fa",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost",
-      "url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
-      "summary": "As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token: how many useful tokens they can deliver per dollar, per watt and within required latency targets. Codesigned with NVIDIA GPUs, C",
-      "published_at": "2026-06-30T15:00:57+00:00",
-      "first_seen_at": "2026-07-01T00:03:17.344376+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "NVIDIA Robotics Blog",
-      "source_type": "rss",
-      "title": "How Jaiveer Singh Is Helping Robots — and Developers — Move Faster",
-      "url": "https://blogs.nvidia.com/blog/nvidia-life-jaiveer-singh/",
-      "summary": "When Jaiveer Singh talks about robots, he doesn’t begin with spectacle. He begins with infrastructure: the boards inside machines, the software that lets developers see through a robot’s cameras and the engineering required before a robot can leave a demo floor to do something us",
-      "published_at": "2026-06-30T15:00:49+00:00",
-      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
-    },
-    {
-      "source": "Figure AI YouTube",
-      "source_type": "youtube",
-      "title": "F.03 at BMW",
-      "url": "https://www.youtube.com/watch?v=tv90GFM9RAo",
-      "summary": "",
-      "published_at": "2026-06-30T15:00:30+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Why Specialization Is Inevitable",
-      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-      "summary": "",
-      "published_at": "2026-06-30T14:39:11+00:00",
-      "first_seen_at": "2026-07-01T00:03:17.344376+00:00"
     },
     {
       "source": "Tesla AI / Optimus YouTube",
