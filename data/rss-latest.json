@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-29T03:11:29.280369+00:00",
+  "updated_at": "2026-08-29T15:27:19.426631+00:00",
   "count": 700,
-  "new_count": 430,
+  "new_count": 497,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,25 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "The differences between decentralized and centralized power in swarm robotics",
+      "url": "https://www.therobotreport.com/differences-between-decentralized-centralized-power-swarm-robotics/",
+      "summary": "A small sample of Amazon’s vast deployed warehouse fulfillment fleet. Source: Amazon Swarm robotics systems rely on power architecture because energy distribution influences coordination efficiency and fault tolerance in multi-agent environments. Centralized models depend on unif",
+      "published_at": "2026-08-29T12:25:31+00:00",
+      "first_seen_at": "2026-08-29T15:27:19.426631+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] OpenAI shuts off Cursor",
+      "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
+      "summary": "A late entrant in the news cycle of an eventful week: Following the closing of Cursor’s acquisition by SpaceX last week, it was time for OpenAI to do what Anthropic did to Windsurf when it was being considered for acquisition by OpenAI:There are many angles to this, but the leadi",
+      "published_at": "2026-08-29T05:11:52+00:00",
+      "details": "A late entrant in the news cycle of an eventful week: Following the closing of Cursor’s acquisition by SpaceX last week, it was time for OpenAI to do what Anthropic did to Windsurf when it was being considered for acquisition by OpenAI:There are many angles to this, but the leading reason given should be taken at face value — OpenAI’s blogpost on this decision cites “our experience with Elon Musk’s companies violating contracts”. This follows on from years of public acrimony between respective company leaders (Elon was famously a key backer/funder of OpenAI at birth) and a failed lawsuit this year.To some extent this was very forseeable, but also points to the success of both companies involved; a year ago Cursor was up there on the GPT-5 launch video, and OpenAI cutting them off was a nonstarter with Claude models being so far ahead in coding. Today, GPT 5.6 is a serious coding alternative to the Claude 5 series, AND CursorSpaceXai is now promoting Grok 4.6, itself finally a successful coding model for Xai, and Grok Bot is a viable competitor to Codex/ChatGPT. Both companies worked very very hard to be in a place where they are taken seriously as competitors, and now they are.Cursor’s only response so far is diplomatic, on one hand noting that OpenAI is only 5% of Cursor traffic, and on the other not accepting that their decision seems final:AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpen-Weight Frontier Releases: GLM-5.3, Hy4 Preview, and Qwen3.8 FlashZ.ai’s GLM-5.3 family moved from strong API model to broadly deployable open weights: @Zai_org open-weighted GLM-5.3, positioned for agentic coding and cyber defense. Follow-on infra posts filled in the deployment picture: @vllm_project confirmed day-0 support with 744B total / 40B active, 1M context, 128K max output, reusing the GLM-5.2 serving path; @kimmonismus summarized practical local requirements, from 10–12× H100 FP8 down to aggressive low-bit Mac Studio paths; @UnslothAI claimed a 239GB 2-bit variant retaining about 81% accuracy after shrinking from 1.51TB. The cheaper sibling remains notable too: @Yuchenj_UW reported GLM-5.3-Flash at 270 tok/s, 10% higher quality than GLM-5.2 on OfficeQA Pro v2 at 1/10 the cost, while @ZixuanLi_ said a config update addressed underperformance vs the earlier anonymous “Ox Alpha” deployment.Tencent’s Hy4-preview looks like a real top-tier open MoE, not just another checkpoint drop: @TencentHunyuan released Hy4-preview with 770B total / 49B active and 1M context, explicitly framing it as “open source frontier.” External signals suggest this is materially stronger than Hy3 rather than an incremental refresh: @arena placed it around #5 on Code Arena: WebDev via AutoEval, a +115 pt jump over Hy3; @cline said it leads on SWE-bench Pro; @kimmonismus highlighted Tencent’s claim that Hy4 can coordinate multiple Codex sessions in parallel for research workflows. On the systems side, @vllm_project noted a particularly interesting serving design: 256 routed experts + 1 shared, only 21/78 layers computing their own sparse index while others reuse it, plus an embedded 10B MTP layer with draft depth 3.Qwen3.8-Flash expands the “cheap, long-context MoE” design point, though early field reports are mixed: @Alibaba_Qwen pushed Qwen3.8-Flash into OpenCode Go with 125B total / 6B active, 1M context, and multimodality. Independent summaries from @skalskip92 describe it as roughly 20× cheaper and ~2× faster than Qwen3.8 Max, with pricing around $0.15 / 1M input and $0.47 / 1M output. But real-world reports weren’t uniformly positive: @QuixiAI complained about broken multi-turn tracking at FP8, then later said switching KV cache from turboquant to BF16 fixed issues and led to a broader recommendation to prefer BF16 KV plus optional CPU offload for stability (1).Inference and Systems: Speculative Decoding, Search, and Cloud Runtime DesignvLLM’s speculative decoding writeup is the most concrete infra deep dive in the set: @vllm_project published a benchmark-driven comparison of MTP, EAGLE-3, DFlash, DSpark and a fifth method across Gemma, Qwen, Kimi, and MiniMax on AMD MI300X/MI355X. The core takeaway is operational rather than algorithmic: there is no universal winner; the best method depends on model family, workload, and speculation depth, so teams should treat speculative decoding as a tuning surface rather than a one-time feature toggle.Search is becoming an evaluated subsystem, not just a hidden dependency inside agents: @ArtificialAnlys debuted a Search Index and put Perplexity Search on top, with all three context variants taking leading positions. The most interesting details are economic: Perplexity medium scored 80, ahead of prior leaders at 75, while also delivering the lowest model inference cost per task among teste",
+      "first_seen_at": "2026-08-29T15:27:19.426631+00:00"
+    },
     {
       "source": "The Robot Report",
       "source_type": "rss",
@@ -6390,24 +6409,6 @@
       "url": "https://spectrum.ieee.org/video-friday-robot-world-cup",
       "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.RSS 2026: 13–17 July 2026, SYDNEYSum",
       "published_at": "2026-07-10T16:00:01+00:00",
-      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
-      "url": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
-      "summary": "How migrating Copilot code review to shared Unix-style code exploration tools reduced review cost by reshaping agent workflows around pull request evidence. The post Better tools made Copilot code review worse. Here’s how we actually improved it. appeared first on The GitHub Blog",
-      "published_at": "2026-07-10T15:57:47+00:00",
-      "first_seen_at": "2026-07-10T22:23:14.195924+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "Ground Robots Inherit the Kill Zone",
-      "url": "https://spectrum.ieee.org/ukraine-ground-drones",
-      "summary": "Borys Drozhak has a vision: a front line almost free of humans, patrolled by flying drones and ground robots, and continuously monitored by AI-controlled sensor networks. And it’s not a pipe dream. Ukrainian roboticists have made major strides in that direction over the past four",
-      "published_at": "2026-07-10T11:00:01+00:00",
       "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
