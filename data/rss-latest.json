@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-28T21:18:23.877586+00:00",
+  "updated_at": "2026-08-29T03:11:29.280369+00:00",
   "count": 700,
-  "new_count": 505,
+  "new_count": 430,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,6 +65,24 @@
   ],
   "items": [
     {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "From teach and repeat to SelfPath AI: The next robotics leap",
+      "url": "https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/",
+      "summary": "﻿ The Robot Report Podcast · From Teach-and-Repeat to SelfPath AI: The next robotics leap John Black, CTO, Brain Corp. In Episode 259 of The Robot Report Podcast, the topic is scaling robot fleets and building trust while operating in public spaces. Our guest is John Black, chief",
+      "published_at": "2026-08-28T23:25:06+00:00",
+      "first_seen_at": "2026-08-29T03:11:29.280369+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "Why Jane Street Makes More From Claude Than Anthropic Does - Dylan Patel",
+      "url": "https://www.youtube.com/shorts/4NMBwT1qYew",
+      "summary": "",
+      "published_at": "2026-08-28T21:31:38+00:00",
+      "first_seen_at": "2026-08-29T03:11:29.280369+00:00"
+    },
+    {
       "source": "Z.ai Release Notes",
       "source_type": "rss",
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
@@ -73,6 +91,15 @@
       "published_at": "2026-08-28T21:18:54.852178+00:00",
       "dedupe_key": "page:Z.ai Release Notes:d254da7b84f56a869a6b60e7e28ea92f17e3bb50ef54e7189cbae523c2166780",
       "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Deere faces headwinds in Q3 update and announces Reservoir R&D partnership",
+      "url": "https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/",
+      "summary": "Danny Bernstein (l) from Reservoir and Sean Sundberg (r) from John Deere announced a partnership at the Ruggedize event. | Credit: Reservoir Deere & Co. last week posted Q3 2026 net income of $1.379 billion, or $5.10 per share, outperforming market expectations despite headwinds ",
+      "published_at": "2026-08-28T21:06:40+00:00",
+      "first_seen_at": "2026-08-29T03:11:29.280369+00:00"
     },
     {
       "source": "The Robot Report",
@@ -146,6 +173,15 @@
       "published_at": "2026-08-28T07:12:10+00:00",
       "details": "Normally we eschew AGI timeline talk on Latent Space, because it is so ill defined and unaccountable, but, well, missing it would probably be the worse sin at this point. We last checked in on OpenAI AGI timelines 9 months ago, and, right on target, Chief Scientist Jakub Pachocki is now saying the unreleased Astra model is the “Automated AI Research Intern” he had aimed for by September 2026. Sama goes further in their TIME interview and estimates they’ll declare AGI achieved internally by December 2026.Start the clock.AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpen-Source Robotics Breakout: Hugging Face and Pollen’s $399 MicroduckMicroduck launch: The standout hardware release was Microduck, a 25 cm open-source biped from Pollen Robotics and Hugging Face priced at $399 and slated to ship before Christmas. It can be trained in simulation and deployed on the real robot, with 15 actuators and a notably rich sensor stack including camera, speaker, LiDAR, NFC, Bluetooth, and Wi‑Fi. Launch posts from @pollenrobotics, @Thom_Wolf, and @ClementDelangue emphasize reinforcement-learning-based customization plus several pre-trained policies out of the box.Why it matters technically: The interesting part isn’t just “cheap cute robot,” but the package design: an open simulator, transfer from sim to hardware, and a form factor cheap enough to invite community policy training rather than just demo consumption. The simulator is already public via a Hugging Face Space, highlighted by @HuggingApps, and this open-loop from community training to real deployment is what got multiple researchers immediately buying units, e.g. @yacineMTB and @gneubig.Early traction and community experimentation: The release resonated unusually broadly for robotics. Thom Wolf shared experiments such as a quick image-detector integration to let the robot follow a laser pointer in real time @Thom_Wolf, then reported sales velocity of one Microduck every 5 seconds and later $1M in sales @Thom_Wolf, @Thom_Wolf. The combination of low price, open sim, and embodied RL makes this one of the more credible “consumer-scale physical AI” launches in recent memory.GLM-5.3-Flash/Ox Alpha Reveal and Local Open-Model MomentumOx Alpha unmasked as GLM-5.3-Flash: One of the biggest model stories was the confirmation that the mystery model Ox Alpha was actually Z.ai / Zhipu’s GLM-5.3-Flash, as noted by @theo, @UnslothAI, and @togethercompute. The disclosed spec repeatedly cited across tweets: 320B total params, 18B active, 1M context, and hybrid attention, with strong results on coding/agentic benchmarks.Open weights + quantization + local serving: The release caught attention because people quickly pushed it into local workflows. Unsloth said the model can run 3-bit GGUF on 128GB RAM @UnslothAI, while @danielhanchen claimed 4-bit retains 93% accuracy and makes the model practical on a 256GB Mac or two DGX Sparks. This is exactly the kind of post-release ecosystem response open-model engineers care about: quantization, serving recipes, and real deployment constraints moving almost immediately.Price/performance narrative: Several tweets framed GLM-5.3-Flash as a new efficiency frontier. @togethercompute said it nearly matches Luna on DeepSWE while doing more than twice as much work for the same budget; @theo called it good enough to reorder his model rankings; @zainhas suggested using high rather than max reasoning effort because accuracy stayed roughly flat while token usage doubled. Baseten also highlighted 122+ TPS serving throughput on day 0 @baseten, while Databricks cited 270 tok/s and 10% higher quality than GLM-5.2 at 1/10 the cost on OfficeQA Pro v2 @Yuchenj_UW.Video Generation Race: Gemini Omni 1.1 Flash and H3 MaxGemini Omni 1.1 Flash: Google released Gemini Omni 1.1 Flash, a multimodal video generation/editing model with several developer-facing controls: scene extension to 40s, first/last frame control, 3-second video references, 360p draft mode, and 4K upscaling. The rollout was announced by @Google, @GoogleAIStudio, and summarized with prompting guidance by @_philschmid. The most notable product detail is that Google is exposing increasingly explicit temporal and reference conditioning rather than just “prompt harder.”Early leaderboard results: @arena reported Omni 1.1 Flash landing #1 in Text-to-Video Arena and #2 in Image-to-Video Arena, with a +20 pt lead over the #3 text-to-video model and a +25 pt improvement over prior Gemini Omni Flash on image-to-video. That does not settle all qualitative questions, but it indicates Google’s latest post-training and control stack is translating into preference data.fal + MiniMax H3 Max: In parallel, fal launched H3 Max with MiniMax, advertising 15s of high-quality video in 5s and “50x faster” generat",
       "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "published_at": "2026-08-28T06:00:00+00:00",
+      "first_seen_at": "2026-08-29T03:11:29.280369+00:00"
     },
     {
       "source": "OpenAI News",
@@ -6373,42 +6409,6 @@
       "summary": "Borys Drozhak has a vision: a front line almost free of humans, patrolled by flying drones and ground robots, and continuously monitored by AI-controlled sensor networks. And it’s not a pipe dream. Ukrainian roboticists have made major strides in that direction over the past four",
       "published_at": "2026-07-10T11:00:01+00:00",
       "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "url": "https://openai.com/index/deutsche-telekom",
-      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
-      "published_at": "2026-07-10T07:00:00+00:00",
-      "first_seen_at": "2026-07-10T13:13:05.075242+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
-      "url": "https://huggingface.co/blog/torch-attention-profile",
-      "summary": "",
-      "published_at": "2026-07-10T00:00:00+00:00",
-      "first_seen_at": "2026-07-10T13:13:05.075242+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "source_type": "rss",
-      "title": "Side Chats and Conversation Search",
-      "url": "https://cursor.com/changelog/side-chat",
-      "summary": "This release makes it easier to stay in flow with side chats that run alongside your main chat, the ability to search agent transcripts, and simplified project and repo pickers. Side chats Open a side chat to ask questions, explore ideas, and investigate tangents without interrup",
-      "published_at": "2026-07-10T00:00:00+00:00",
-      "first_seen_at": "2026-07-10T22:23:14.195924+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Getting started with ChatGPT",
-      "url": "https://openai.com/academy/getting-started",
-      "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-      "published_at": "2026-07-10T00:00:00+00:00",
-      "first_seen_at": "2026-07-13T13:23:29.774683+00:00"
     },
     {
       "source": "1X Technologies YouTube",
