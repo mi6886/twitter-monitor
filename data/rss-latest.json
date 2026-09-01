@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-01T00:39:26.622058+00:00",
+  "updated_at": "2026-09-01T15:22:05.556542+00:00",
   "count": 700,
-  "new_count": 505,
+  "new_count": 507,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,61 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "a16z AI YouTube",
+      "source_type": "youtube",
+      "title": "Can AI Learn Mathematical Intuition?",
+      "url": "https://www.youtube.com/watch?v=tQI35CSNB08",
+      "summary": "a16z’s Lisha Li sits down with Daniel Litt, Assistant Professor of Mathematics at the University of Toronto, to unpack AI's rapid progress in mathematics, what today's frontier models can actually do, and what they're still missing about the way mathematicians think. Daniel expla",
+      "published_at": "2026-09-01T14:30:24+00:00",
+      "first_seen_at": "2026-09-01T15:22:05.556542+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "The Missing Layer in Robot Safety Assurance",
+      "url": "https://www.therobotreport.com/the-missing-layer-in-robot-safety-assurance/",
+      "summary": "Why robot safety assurance must account for attacks that can change how a machine sees, decides, and acts. Robot safety has traditionally asked: Can a machine remain safe when something goes wrong? Physical AI raises a harder question: Can it remain safe when an attacker changes ",
+      "published_at": "2026-09-01T13:56:53+00:00",
+      "first_seen_at": "2026-09-01T15:22:05.556542+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "HowToRobot and Robotics Australia Group partner on platform to encourage robot adoption",
+      "url": "https://www.therobotreport.com/howtorobot-robotics-australia-group-partner-platform-encourage-robot-adoption/",
+      "summary": "Robotics Australia Group and HowToRobot are offering AI to help businesses get automation. Source: HowToRobot Australia lags behind most other industrialized countries in terms of robot adoption, with a robot density of 134 robots per 10,000 manufacturing employees, according to ",
+      "published_at": "2026-09-01T13:45:36+00:00",
+      "first_seen_at": "2026-09-01T15:22:05.556542+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "From spreadsheets to AI: Deere gives farmers new features in Operations Center, JD",
+      "url": "https://www.therobotreport.com/from-spreadsheets-ai-john-deeres-new-jd-operations-center-features/",
+      "summary": "For generations, farmers tracked their fields on paper ledgers and spreadsheets; now, John Deere is letting them talk directly to their operational data with JD, a new conversational AI tool it said is designed to turn years of private field metrics into instant, profit-boosting ",
+      "published_at": "2026-09-01T11:00:41+00:00",
+      "first_seen_at": "2026-09-01T15:22:05.556542+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
+      "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+      "summary": "For the entirety of the history of Generative Media, you basically had to design around the inconvenient fact that generating images and video takes time — even if you used consistency models to get a 30 second generation down to 1 second, you still only have a 1 FPS video at bes",
+      "published_at": "2026-09-01T04:36:54+00:00",
+      "details": "For the entirety of the history of Generative Media, you basically had to design around the inconvenient fact that generating images and video takes time — even if you used consistency models to get a 30 second generation down to 1 second, you still only have a 1 FPS video at best… well below anything acceptable for consumer-grade human attention.Fal took Minimax’s H3 release from last month and first posttrained it for both cost and quality improvement, then optimized it for their in-house inference engine for 35x speed of the official endpoint… resulting in crossing the infinite video singularity:This was first noticed by Ethan Mollick:Then productized by fal employees into an infinite twitch stream:and then the floodgates opened:with Twitch/Youtube kicking Fal off the platform immediately, so Fal made their own “twitch plays pokemon” live video service:If you watch the stream for even a few seconds, you can tell this is pure slop - nobody will actually watch this fever dream mishmash of content with no plot and low quality RL tuned imagery. And yet… this is the worst that this is ever gong to be. If you have not learned the lesson that the best engineers and entrepreneurs build for the future that is coming, and the existence proof of faster-than-realtime good-enough video is defeinitely possible, then you aren’t reading the room very well in the metagame of how to stay ahead in AI.AI News for 8/29/2026-8/31/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapModel Releases, Agent Benchmarks, and Open-Weight CompetitionMeta’s Muse Code exits beta with an SDK and subscriptions: Meta pushed Muse Code into general availability, positioning it as a bigger-task coding agent with a developer-preview SDK for embedding custom agents, connecting tools, streaming progress, and resuming sessions. Launch details came from @finkd, with follow-ups on the SDK and monthly plans; @alexandr_wang amplified the release. Separately, Ollama said it already supports the Muse Code harness.DeepSeek V4 Flash Vision weights are now open: Several posts pointed to the release of DeepSeek-V4-Flash-Vision-Exp weights, with @teortaxesTex noting the model adds vision parity with Moonshot and GLM, and @zizhpan linking the weights directly. The follow-up from @teortaxesTex suggested DeepSeek may be committing to releasing all checkpoints.GLM-5.3 Flash looks especially strong on agentic cost/performance: On Agent Arena, @arena reported GLM-5.3-Flash at #19 overall, #4 among open models, with +4.6% net improvement over 9K+ real-world sessions and a $0.12 median cost/task. Signal breakdown included +15.3% Confirmed Success and no tool hallucination issues in the thread. Vals also highlighted the broader GLM-5.3 family, including 95.4% on SWE-bench, 78.1% on Vibe Code Bench, 1M context, and 128k max output tokens in benchmark notes.Qwen3.8-Flash-Next enters the same arena, but below GLM-5.3 Flash: @arena placed Qwen3.8-Flash-Next at #24 overall, #7 among open models, with +2.4% net improvement across 8.7K+ sessions. It stood out more on Confirmed Success (+12.3%) than on steerability or praise-vs-complaint, according to the signal breakdown.Tencent Hunyuan’s Hy4 Preview appears to be moving into China’s top agent tier: A long-form roundup from @ZhihuFrontier described Hy4 Preview as an open-source 770B MoE model with 49B active params and >1M context, emphasizing gains in coding, agent stability, and practical office/research use. The notable engineering claim is not just capability but organizational acceleration: seven weeks after Hy3, Tencent allegedly closed much of the gap through post-training, agent-policy tuning, and better stability.Agent Infrastructure, Harnesses, and Context EngineeringHermes Agent shipped a large feature release aimed at persistent, multi-agent workflows: @Teknium announced Hermes Agent v0.21.0 with Bots Mode, agent-to-agent comms, persistent multi-gateway connections, subagent steering, and broader connector access. A follow-up noted the release also cut default context usage by ~50%, a concrete sign that context-efficiency is becoming a first-class systems concern.DeepSeek Harness is evolving fast, but with breaking plugin-contract changes: The best summary came via @ZhihuFrontier: v0.1.2-alpha removes the legacy APIProxy, rewrites the web client, tightens session-event semantics, and expands subagent/model configuration. The key engineering takeaway is that plugin-heavy agent platforms are still defining their public boundaries; DOM injection, internal symbols, and custom session event types are proving especially brittle under rapid iteration.Context management is emerging as a distinct research frontier: Two papers got attention. First, WikiSkill / SKILL.state from Google and collaborators, summarized by @dair_ai and @omarsar0, repla",
+      "first_seen_at": "2026-09-01T15:22:05.556542+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "url": "https://huggingface.co/blog/webgpu-kernels",
+      "summary": "",
+      "published_at": "2026-09-01T00:00:00+00:00",
+      "first_seen_at": "2026-09-01T15:22:05.556542+00:00"
+    },
     {
       "source": "Runway",
       "source_type": "rss",
@@ -196,6 +251,15 @@
     {
       "source": "OpenAI News",
       "source_type": "rss",
+      "title": "OpenAI supports California’s bill to advance youth AI safety",
+      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+      "published_at": "2026-08-31T07:00:00+00:00",
+      "first_seen_at": "2026-09-01T15:22:05.556542+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
       "title": "A milestone in expanding access to AI",
       "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
       "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
@@ -219,6 +283,15 @@
       "summary": "",
       "published_at": "2026-08-31T00:00:00+00:00",
       "first_seen_at": "2026-09-01T00:39:26.622058+00:00"
+    },
+    {
+      "source": "Manus Blog",
+      "source_type": "rss",
+      "title": "Manus Resumes Independent Operations",
+      "url": "https://manus.im/blog/manus-resumes-independent-operations",
+      "summary": "We are entering this next chapter with the same drive to innovate that has shaped Manus from the beginning. As an independent agent lab, we will continue to push the boundaries of what general AI agents can do, turning new capabilities into products that help you take on complex ",
+      "published_at": "2026-08-31T00:00:00+00:00",
+      "first_seen_at": "2026-09-01T15:22:05.556542+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -405,20 +478,20 @@
       "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
     },
     {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "summary": "",
-      "published_at": "2026-08-28T00:00:00+00:00",
-      "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
-    },
-    {
       "source": "Anthropic Research",
       "source_type": "rss",
       "title": "Automated researchers can reliably mitigate alignment failures",
       "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
       "summary": "We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.",
+      "published_at": "2026-08-28T00:00:00+00:00",
+      "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "summary": "",
       "published_at": "2026-08-28T00:00:00+00:00",
       "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
     },
@@ -6339,78 +6412,6 @@
       "summary": "Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content.",
       "published_at": "2026-07-14T16:00:00+00:00",
       "first_seen_at": "2026-07-14T22:18:22.425256+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
-      "url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
-      "summary": "Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that can’t be gamed, only earned through real-world results — is ",
-      "published_at": "2026-07-14T15:00:20+00:00",
-      "first_seen_at": "2026-07-14T22:18:22.425256+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Boston Dynamics YouTube",
-      "source_type": "youtube",
-      "title": "Going the Extra Mile with Spot | Boston Dynamics",
-      "url": "https://www.youtube.com/watch?v=EI1zFxLVkrs",
-      "summary": "Boston Dynamics is testing a last-mile delivery solution. Spot will help get packages from van to doorstep with less strain and greater efficiency. Learn more about how and why we're taking on one of the biggest supply chain challenges: https://bostondynamics.com/blog/bridging-th",
-      "published_at": "2026-07-14T14:14:48+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "Qoder Blog",
-      "source_type": "rss",
-      "title": "1段话喊来13个“程序员”，阿里 Qoder 新模式让我躺着当 CTO",
-      "url": "https://qoder.com/zh/blog/qoder-case-ctoteam",
-      "summary": "Qoder 专家团模式自动拆解需求、调配多个专家 Agent 并行开发，一段话即可完成个人博客的开发与重构",
-      "published_at": "2026-07-14T10:42:36+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "How to manage AI investments in the agentic era",
-      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-      "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
-      "published_at": "2026-07-14T10:00:00+00:00",
-      "first_seen_at": "2026-07-14T22:18:22.425256+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "How sales teams use ChatGPT Work",
-      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-      "published_at": "2026-07-14T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "How data science teams use ChatGPT Work",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "published_at": "2026-07-14T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T02:24:41.875266+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Introducing Claude for Teachers",
-      "url": "https://www.anthropic.com/news/claude-for-teachers",
-      "summary": "",
-      "published_at": "2026-07-14T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T22:18:22.425256+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Anthropic commits $10 million to Canadian AI research",
-      "url": "https://www.anthropic.com/news/canadian-ai-research",
-      "summary": "Anthropic is committing $10M to Canadian research institutions to fund the next generation of AI research.",
-      "published_at": "2026-07-14T00:00:00+00:00",
-      "first_seen_at": "2026-07-14T22:18:22.425256+00:00",
-      "source_type": "rss"
     },
     {
       "source": "1X Technologies YouTube",
