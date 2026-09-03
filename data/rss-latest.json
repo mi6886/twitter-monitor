@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-03T14:50:55.548559+00:00",
+  "updated_at": "2026-09-03T23:18:59.316228+00:00",
   "count": 700,
-  "new_count": 515,
+  "new_count": 511,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,6 +65,97 @@
   ],
   "items": [
     {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+      "url": "https://www.latent.space/p/astra",
+      "summary": "GPT-6 Astra, the first Stargate and lightly looped supermodel from OpenAI, launched today, cleanly beating Fable 5.1 on many metrics including completely saturating the hardest versions of FrontierMath (97.6%) and ARC-AGI-3 (99.9%). Lots of demos will focus on typical talk tracks",
+      "published_at": "2026-09-03T21:09:41+00:00",
+      "details": "GPT-6 Astra, the first Stargate and lightly looped supermodel from OpenAI, launched today, cleanly beating Fable 5.1 on many metrics including completely saturating the hardest versions of FrontierMath (97.6%) and ARC-AGI-3 (99.9%). Lots of demos will focus on typical talk tracks like the computer use to the Pokemon playing to Blender to the scientific and cybersafety benchmarks (system card). Greg says AGI is here, and Jakub says it is finally the Automated AI Research Intern he wanted. We aren’t qualified to talk about those, but we got early access and threw it at every practical, real-life task we could think of. After burning over 20B tokens of Astra, we can confirm the most surprising finding: GPT-6 Astra is one of a new class of models1 that are fully capable AI Engineers in their own right. They now help you choose and train models, label data (both helping you label and then using your labels for active learning, like SAM), keep pipelines saturated, instrument and read logs, deploy and debug entire systems in one shot, fan out and command and eval subagents (including agents running other models), and keep coherence over billions of tokens of a single agent thread.Raising Your AmbitionsWe’ve written before about the high-return activity of raising your aspirations for LLMs. Our experience has made us exponentially more ambitious than we have ever been. Over the past month, we went from prompting humans for a fun “Kill My SaaS” competition2, to building a dozen internal/personal tools, including 4 previously paid SaaS tools, fully redesigned my personal site, made an incomplete but functional replacement of GitHub + Vercel, trained game AI for a strategy board game with 10,000x more legal moves than Go, saved tens of thousands of dollars in personal finance cleanups, republished my old book with synced audiobook audio and printed physical editions, and even more ambitious projects we will launch soon.The $6 an hour number might sound surprising, but that’s exactly what we saw in our testing - 33 tokens per second at a max $50 per million token rate. Given that Astra is more token efficient than Sol and Fable (independently confirmed by Artificial Analysis), it often means that Astra is simultaneously also the best fast-and-smart model you can buy (assuming our preview latency holds for GA), outside of Spark 1.3.our logsManaging fleets of subagents (individually tweaked, bounded concurrency)Now of course, if you just throw on Astra at Ultra you’re gonna burn through a lot more than $6 per hour…. because it is so dang good at parallelizing.Monitoring its own runs, starting and stopping wavesThis is basically what i’d pay a junior AI Engineer to do. and I spent about $100 over 2 days to do this.Making model benchmarks, handling money, making estimates, scaling up runs, getting human ratingsWild.example hereWe are out of time for this writeup, will complete this later, so if you are reading this on email, check back at the end of the day.However the overall conclusion you should have is that OpenAI have clearly trained a model that is capable of automating much of their own AI Engineering, and it is finally time that you learn to exploit Astra- and Fable-class models and be far, far more unreasonable.1We are running similar work on Grok, Fable and other similar frontier models but OpenAI was most generous with trial limits so this gets the writeup - but the agentic coding patterns discussed here will likely apply to all such late 2026 frontier models.2Many of you are waiting to hear results… sorry for the radio silence! we got… busy! We will announce winners and reimbursements and best attempts.",
+      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "AI Could Be Far More Cooperative Than Humans Ever Could - Ajeya Cotra",
+      "url": "https://www.youtube.com/shorts/XWdMujl4QLs",
+      "summary": "AI Could Be Far More Cooperative Than Humans Ever Could - Ajeya Cotra",
+      "published_at": "2026-09-03T19:19:12+00:00",
+      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Medtronic invests $700M in surgical partner Cornerstone Robotics",
+      "url": "https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/",
+      "summary": "Sentire combines clinical workflows with integrated engineering, software, and imaging technologies. | Source: Cornerstone Robotics Medtronic PLC today announced a new partnership with Cornerstone Robotics Ltd. that includes a $700 million investment. Medtronic has also gained th",
+      "published_at": "2026-09-03T18:53:54+00:00",
+      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
+    },
+    {
+      "source": "Google Research Blog",
+      "source_type": "rss",
+      "title": "Transfer learning for genomic prediction in underrepresented populations",
+      "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
+      "summary": "General Science",
+      "published_at": "2026-09-03T18:20:31+00:00",
+      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "JAKA hits Teradyne Robotics back over patent dispute",
+      "url": "https://www.therobotreport.com/jaka-hits-teradyne-robotics-back-over-patent-dispute/",
+      "summary": "Collaborative robot arms from JAKA Robotics (left) and Universal Robots. Get the popcorn ready. The patent fight between Teradyne Robotics and JAKA Robotics has turned into a full-blown public brawl. Teradyne, parent company of Universal Robots, last week sued JAKA’s German subsi",
+      "published_at": "2026-09-03T17:44:20+00:00",
+      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+      "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+      "summary": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its partners are teaming up to provide faster inference and new tools that make agents easier to set up and run locally on NVIDIA hardware. New compact NVIDIA RTX Spark Windows PCs are also coming in October",
+      "published_at": "2026-09-03T16:00:59+00:00",
+      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
+    },
+    {
+      "source": "Google Research Blog",
+      "source_type": "rss",
+      "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
+      "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+      "summary": "General Science",
+      "published_at": "2026-09-03T16:00:03+00:00",
+      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "GitHub Copilot app for Beginners: Run several agents at once",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
+      "summary": "Running multiple AI agents on the same project seems like pure chaos, with too many cooks in your development kitchen. But with the GitHub Copilot app, these agents work separately and don’t interfere with each other, allowing you to get more done in less time. Think of parallel ",
+      "published_at": "2026-09-03T16:00:00+00:00",
+      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "NVIDIA plans to acquire Hugging Face and keep AI development platform open",
+      "url": "https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/",
+      "summary": "NVIDIA and Hugging Face have collaborated on AI and robotics development. Source: NVIDIA After a few weeks of anticipation, NVIDIA Corp. today said it is acquiring Hugging Face Inc., an open platform for AI developers, for $12.9 billion. Founded in 2016, Hugging Face provides an ",
+      "published_at": "2026-09-03T15:28:02+00:00",
+      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "source_type": "rss",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "summary": "",
+      "published_at": "2026-09-03T15:02:08+00:00",
+      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
+    },
+    {
       "source": "a16z AI YouTube",
       "source_type": "youtube",
       "title": "Why AI Agents Could Finally Reinvent the Credit Card",
@@ -72,6 +163,15 @@
       "summary": "Erik Torenberg is joined by a16z General Partner Alex Rampell and Affirm Co-Founder and CEO Max Levchin for a conversation on 25 years of fintech, from the early days of digital payments to the origins of Affirm and the next generation of agentic commerce. Max and Alex revisit wh",
       "published_at": "2026-09-03T14:30:27+00:00",
       "first_seen_at": "2026-09-03T14:50:55.548559+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+      "published_at": "2026-09-03T13:15:00+00:00",
+      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -128,6 +228,24 @@
       "first_seen_at": "2026-09-03T14:50:55.548559+00:00"
     },
     {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "published_at": "2026-09-03T12:00:00+00:00",
+      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "published_at": "2026-09-03T12:00:00+00:00",
+      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
+    },
+    {
       "source": "NVIDIA Blog",
       "source_type": "rss",
       "title": "NVIDIA to Acquire Hugging Face",
@@ -165,6 +283,15 @@
       "details": "From data center orchestrators to AGI and robotics, CPUs remain the heart of modern computing. Arm CEO Rene Haas joins Elad Gil and Sarah Guo to explore how Arm is positioned at the epicenter of AI-driven demands for compute. Rene explains Arm’s position in the chip supply chain, and how Arm transitioned from an IP licensing model to producing physical chips like the Arm AGI CPU for Meta. He also discusses bottlenecks in hardware supply chains, SoftBank’s ecosystem and capital strategy, why US semiconductor manufacturing independence is critical, the future of robotics, and why CPUs remain crucial for executing AI workloads. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @renehaas237 | @Arm Chapters: 00:00 – Cold Open Trailer 00:49 – Rene Haas Introduction 01:14 – Arm and Chip Supply Chain 02:37 – Shift from IP to Manufacturing CPUs 04:23 – CPU IP and Customers 06:55 – AI Adoption at Arm 10:15 – Changes in Chip Time to Market 13:27 – Data Center Buildout Bottleneck 15:13 – Softbank Leverage and Capital Strategy 17:43 – Softbank Portfolio Overview 20:13 – Robotics Opportunities for Arm 24:49 – US Manufacturing Protectionism 28:59 – Data Center Backlash 32:30 – Arm Outlook 33:31 – CPU Opportunity 37:06 – Conclusion",
       "dedupe_key": "podcast:9e8b622d2340daf77abbf11b4f3bb8172cc0b111",
       "first_seen_at": "2026-09-03T14:50:55.548559+00:00"
+    },
+    {
+      "source": "Runway Research",
+      "source_type": "rss",
+      "title": "Introducing GWM Worlds 2",
+      "url": "https://runway.com/research/introducing-gwm-worlds-2",
+      "summary": "GWM Worlds 2 generates interactive worlds in real time — continuous 720p video at 24 fps and audio at 48,000 Hz, responding to your inputs as you explore.",
+      "published_at": "2026-09-03T10:00:00+00:00",
+      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
     },
     {
       "source": "AgiBot YouTube",
@@ -229,6 +356,15 @@
       "summary": "",
       "published_at": "2026-09-03T00:00:00+00:00",
       "first_seen_at": "2026-09-03T14:50:55.548559+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Safety overview: GPT-6 Astra",
+      "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+      "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -6295,141 +6431,6 @@
       "published_at": "2026-07-21T15:16:30+00:00",
       "first_seen_at": "2026-07-21T22:16:30.800077+00:00",
       "source_type": "rss"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "source_type": "rss",
-      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
-      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
-      "published_at": "2026-07-21T15:16:30+00:00",
-      "first_seen_at": "2026-07-27T13:41:02.613623+00:00"
-    },
-    {
-      "source": "a16z AI YouTube",
-      "source_type": "youtube",
-      "title": "Why Physical AI Is the Next Frontier | Applied Intuition with a16z",
-      "url": "https://www.youtube.com/watch?v=56XgWH9ch0U",
-      "summary": "In this conversation, Marc Andreessen and Erik Torenberg sit down with Applied Intuition cofounders Qasar Younis and Peter Ludwig to discuss the emergence of physical AI and the company's latest launch, Dana, a new platform designed to accelerate the development of autonomous sys",
-      "published_at": "2026-07-21T15:00:32+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories",
-      "url": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
-      "summary": "AI has entered the gigascale era. The world’s most advanced AI factories are bringing together hundreds of thousands of GPUs and CPUs to train frontier models, power agentic AI and generate intelligence at unprecedented scale. At this level, networking becomes a critical computin",
-      "published_at": "2026-07-21T15:00:20+00:00",
-      "first_seen_at": "2026-07-21T22:16:30.800077+00:00"
-    },
-    {
-      "source": "Qoder Blog",
-      "source_type": "rss",
-      "title": "AI-Native 软件工程领域自迭代知识引擎",
-      "url": "https://qoder.com/zh/blog/qoder-knowledge-engine",
-      "summary": "Qoder 知识引擎将工程知识转化为可复用上下文，提升 AI 智能体的任务完整质量、稳定性与效率。",
-      "published_at": "2026-07-21T10:15:10+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
-      "published_at": "2026-07-21T07:00:00+00:00",
-      "first_seen_at": "2026-07-21T22:16:30.800077+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-173",
-      "summary": "a quiet day.",
-      "published_at": "2026-07-21T03:58:00+00:00",
-      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Grabette: an open system to record robot-manipulation data",
-      "url": "https://huggingface.co/blog/grabette",
-      "summary": "",
-      "published_at": "2026-07-21T00:00:00+00:00",
-      "first_seen_at": "2026-07-21T12:24:36.568508+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-      "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
-      "summary": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
-      "published_at": "2026-07-21T00:00:00+00:00",
-      "first_seen_at": "2026-07-21T22:16:30.800077+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Donating another $20 million to Public First Action",
-      "url": "https://www.anthropic.com/news/donation-public-first-action",
-      "summary": "Anthropic is contributing an additional $20 million to Public First Action, bringing our total support to $40 million.",
-      "published_at": "2026-07-21T00:00:00+00:00",
-      "first_seen_at": "2026-07-22T12:25:54.309435+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "How a Solar Eclipse Confirmed General Relativity - Adam Brown",
-      "url": "https://www.youtube.com/shorts/srET3ahp0ns",
-      "summary": "",
-      "published_at": "2026-07-20T22:42:51+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "Runway",
-      "title": "The AI Media Report",
-      "url": "https://runwayml.com/news/company-news/ai-media-report",
-      "summary": "Our findings from hundreds of enterprises using Runway for media production: cost and speed gains and the creative shifts ahead.",
-      "published_at": "2026-07-20T17:40:49.930000+00:00",
-      "first_seen_at": "2026-07-20T22:18:43.513154+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "GitHub Blog",
-      "title": "$100 million for open source: A milestone built by the community",
-      "url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
-      "summary": "Celebrating $100 million contributed by the community to the people who build and sustain open source every day. The post $100 million for open source: A milestone built by the community appeared first on The GitHub Blog.",
-      "published_at": "2026-07-20T16:00:00+00:00",
-      "first_seen_at": "2026-07-20T22:18:43.513154+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "Introducing Cosmos 3 Edge",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
-      "summary": "",
-      "published_at": "2026-07-20T15:58:51+00:00",
-      "first_seen_at": "2026-07-20T22:18:43.513154+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "NVIDIA Robotics YouTube",
-      "source_type": "youtube",
-      "title": "Turning Compute Into Data for Physical AI With NVIDIA Cosmos",
-      "url": "https://www.youtube.com/watch?v=1QPh70Es_oU",
-      "summary": "The real world is infinite and unpredictable. Physical AI needs data—but real-world data is impossible to scale. Meet NVIDIA Cosmos—the frontier of physical AI. Built on a new mixture-of-transformers architecture, this open omnimodel brings together pixels, actions, sound, and la",
-      "published_at": "2026-07-20T15:01:49+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics YouTube",
-      "source_type": "youtube",
-      "title": "Bringing Agent-Ready Simulation Into Blender",
-      "url": "https://www.youtube.com/watch?v=XdtQbMXHDjQ",
-      "summary": "Robotics, factories, and autonomous systems are creating new demand for simulation-ready 3D worlds — opening new opportunities for the artists and developers who build them. Now part of NVIDIA Agent Toolkit, NVIDIA Omniverse™ libraries bring agent-ready simulation capabilities in",
-      "published_at": "2026-07-20T15:01:18+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
     },
     {
       "source": "1X Technologies YouTube",
