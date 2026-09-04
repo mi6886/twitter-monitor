@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-03T23:18:59.316228+00:00",
+  "updated_at": "2026-09-04T14:45:07.582571+00:00",
   "count": 700,
-  "new_count": 511,
+  "new_count": 504,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,13 +65,59 @@
   ],
   "items": [
     {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Lyte raises $165M to help robots better sense their surroundings",
+      "url": "https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/",
+      "summary": "Lyte said its vision systems create a direct path from physical capture to simulation, training, and real-time inference. | Source: Lyte Lyte AI Inc. this week said it has raised $165 million in Series C funding. The round valued the physical AI company at $1.6 billion post-money",
+      "published_at": "2026-09-04T14:32:52+00:00",
+      "first_seen_at": "2026-09-04T14:45:07.582571+00:00"
+    },
+    {
+      "source": "a16z AI YouTube",
+      "source_type": "youtube",
+      "title": "Why World Models Could Change Robotics, 3D, and Creativity",
+      "url": "https://www.youtube.com/watch?v=qn1QDDBnTA0",
+      "summary": "World Labs co-founders Fei-Fei Li, Justin Johnson, and Ben Mildenhall join a16z General Partner Martin Casado to discuss Atlas, their latest world model, and what it reveals about the pursuit of spatial intelligence. At the center of Atlas is what the team calls “new view predict",
+      "published_at": "2026-09-04T14:30:28+00:00",
+      "first_seen_at": "2026-09-04T14:45:07.582571+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Robot.com partners with Sodexo to roll out more sidewalk delivery robots",
+      "url": "https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/",
+      "summary": "Robot.com’s sidewalk delivery robot R-Kiwi has completed 2.4 million tasks across campuses and city sidewalks. | Source: Robot.com Robot.com recently announced a seven-year commercial agreement with Sodexo Group. This new agreement builds on a partnership that began in 2021 and t",
+      "published_at": "2026-09-04T14:15:23+00:00",
+      "first_seen_at": "2026-09-04T14:45:07.582571+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
+      "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
+      "summary": "The launch is barely 9 hours old, and with 36M views and 164K likes, already is OpenAI’s most successful launch since Sora and certainly GPT-4 or GPT-5.You’ll recall we’ve previously observed that Anthropic tends to far outclass OpenAI in launch popularity. For the first time in ",
+      "published_at": "2026-09-04T05:18:11+00:00",
+      "details": "The launch is barely 9 hours old, and with 36M views and 164K likes, already is OpenAI’s most successful launch since Sora and certainly GPT-4 or GPT-5.You’ll recall we’ve previously observed that Anthropic tends to far outclass OpenAI in launch popularity. For the first time in their mutual history, OpenAI has turned the tables.You can read our initial impressions here and we will update with more coverage soon, just stay subscribed.Overall a very welcome answer to Anthropic’s Fable and Opus progress. Your move, SpaceXAI and Google DeepMind.AI News for 9/2/2026-9/3/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpenAI launched GPT-6 Astra as its new flagship model, but the rollout and the surrounding debate were almost as consequential as the model itself.OpenAI officially announced Astra as “our most intelligent and aligned model yet,” positioning it around computer use, software engineering, math/science, polished office work, and cybersecurity via @OpenAI, @OpenAI, and @samaThe company said Astra was rolling out first to a limited set of organizations, then over days to ChatGPT Plus/Pro/Business/Enterprise, the API, and AWS, as noted by @OpenAI, @OpenAIDevs, and @thsottiauxThe launch itself was bumpy: users saw delays, a broken/late blog post, unclear access timing, and frustration that many influencers had early access while paying users did not, as reflected by @iScienceLuvr, @kimmonismus, @sama, @sama, @sama, @theo, and @t3dotcodesOpenAI tried to compensate for delays by granting “banked resets” for each day paid ChatGPT users lacked Astra access, per @thsottiaux and @reach_vbOpenAI simultaneously released a system card / deployment safety material that drew unusually intense attention because it described both improved alignment and decreased chain-of-thought monitorability, highlighted by @scaling01, @tomekkorbak, @MicahCarroll, and @kaicathycAstra’s benchmark profile immediately triggered dispute: OpenAI and sympathetic testers described a step-change or “AGI-like” leap; independent aggregators and some researchers argued the gains were large but uneven, especially once cost and non-cherry-picked evals were considered, e.g. @ArtificialAnlys, @arcprize, @fchollet, @EpochAIResearch, @theo, and @abacajThe strongest positive reactions centered on computer use, 3D generation/reconstruction, game-building, long-horizon knowledge work, and formal/scientific reasoning, from a mix of OpenAI staff, benchmark authors, partners, and early testers such as @markchen90, @mckbrando, @Dimillian, @theo, @MattShumer_, @skirano, @tomkrcha, @realYunfanYe, @nasqret, and @rileybrownThe strongest negative reactions centered on monitorability, evaluation-awareness, release governance, benchmark saturation, and the possibility that visible alignment gains are partly “papering over” specific failure modes rather than solving underlying goal misalignment, especially from @NeelNanda5, @RyanGreenblatt, @RyanGreenblatt, @RyanGreenblatt, @scaling01, and @teortaxesTexOfficial claims and concrete specsOpenAI’s public positioning combined capability claims, benchmark claims, deployment claims, and product claims.Core announcement language: Astra is the “most intelligent and aligned model yet” and “Anything you can do on a computer, Astra can do for you. Fast.” via @OpenAIModel capabilities emphasized by OpenAI:state-of-the-art computer use and software engineering“new breakthroughs” in math and sciencepolished documents/spreadsheets/presentations following templates/stylestronger cybersecurity capabilities with monitoring/safeguardsvia @reach_vb, @OpenAIDevs, @OpenAIDevsAvailability:limited org rollout firstthen Plus, Pro, Business, EnterpriseAPI and AWS over coming daysvia @OpenAI, @OpenAIDevsPricing:standard: $10 / 1M input tokens, $50 / 1M output tokensfast: $20 / 1M input, $100 / 1M output, for up to 2.5x speedvia @reach_vbProduct/runtime features announced alongside Astra:Codex can ask questions while continuing independent workexperimental context feature that lets Astra keep notes and search earlier context windows during long tasksResponses API additions: async function calling, mid-turn steering, and changing reasoning effort without breaking cachevia @reach_vb, @nikunjhandaClaimed benchmark figures from OpenAI comms:99.9% on ARC-AGI-398% on FrontierMath Tier 4100% on ExploitBench1.9x faster than GPT-5.6 Sol on Mind2Web with Codex harness improvementsvia @reach_vb, @samaOpenAI also claimed Astra had “already helped solve long-standing open problems in mathematics,” amplified by @OpenAI, @polynoamial, and more concretely by prime-gap posts from @mehtaab_sawhney, @weijie444OpenAI framed Astra as the result of “years of work on pretraining, reinforcement learning, and post-training,” per @markchen90Independent and third-party benchmark readsThe ",
+      "first_seen_at": "2026-09-04T14:45:07.582571+00:00"
+    },
+    {
+      "source": "Tesla AI / Optimus YouTube",
+      "source_type": "youtube",
+      "title": "The Future Has Arrived | Cybercab",
+      "url": "https://www.youtube.com/watch?v=grdt05okn3Q",
+      "summary": "Our Robotaxi vehicle lineup now includes Cybercab, our first purpose-built autonomous vehicle without a steering wheel or pedals — Now launching in Austin, Texas. Designed for safety, accessibility and comfort, Cybercab is bringing autonomy to everyone and every ride. Schedule yo",
+      "published_at": "2026-09-04T00:35:04+00:00",
+      "first_seen_at": "2026-09-04T14:45:07.582571+00:00"
+    },
+    {
       "source": "Latent Space",
       "source_type": "rss",
       "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
       "url": "https://www.latent.space/p/astra",
       "summary": "GPT-6 Astra, the first Stargate and lightly looped supermodel from OpenAI, launched today, cleanly beating Fable 5.1 on many metrics including completely saturating the hardest versions of FrontierMath (97.6%) and ARC-AGI-3 (99.9%). Lots of demos will focus on typical talk tracks",
       "published_at": "2026-09-03T21:09:41+00:00",
-      "details": "GPT-6 Astra, the first Stargate and lightly looped supermodel from OpenAI, launched today, cleanly beating Fable 5.1 on many metrics including completely saturating the hardest versions of FrontierMath (97.6%) and ARC-AGI-3 (99.9%). Lots of demos will focus on typical talk tracks like the computer use to the Pokemon playing to Blender to the scientific and cybersafety benchmarks (system card). Greg says AGI is here, and Jakub says it is finally the Automated AI Research Intern he wanted. We aren’t qualified to talk about those, but we got early access and threw it at every practical, real-life task we could think of. After burning over 20B tokens of Astra, we can confirm the most surprising finding: GPT-6 Astra is one of a new class of models1 that are fully capable AI Engineers in their own right. They now help you choose and train models, label data (both helping you label and then using your labels for active learning, like SAM), keep pipelines saturated, instrument and read logs, deploy and debug entire systems in one shot, fan out and command and eval subagents (including agents running other models), and keep coherence over billions of tokens of a single agent thread.Raising Your AmbitionsWe’ve written before about the high-return activity of raising your aspirations for LLMs. Our experience has made us exponentially more ambitious than we have ever been. Over the past month, we went from prompting humans for a fun “Kill My SaaS” competition2, to building a dozen internal/personal tools, including 4 previously paid SaaS tools, fully redesigned my personal site, made an incomplete but functional replacement of GitHub + Vercel, trained game AI for a strategy board game with 10,000x more legal moves than Go, saved tens of thousands of dollars in personal finance cleanups, republished my old book with synced audiobook audio and printed physical editions, and even more ambitious projects we will launch soon.The $6 an hour number might sound surprising, but that’s exactly what we saw in our testing - 33 tokens per second at a max $50 per million token rate. Given that Astra is more token efficient than Sol and Fable (independently confirmed by Artificial Analysis), it often means that Astra is simultaneously also the best fast-and-smart model you can buy (assuming our preview latency holds for GA), outside of Spark 1.3.our logsManaging fleets of subagents (individually tweaked, bounded concurrency)Now of course, if you just throw on Astra at Ultra you’re gonna burn through a lot more than $6 per hour…. because it is so dang good at parallelizing.Monitoring its own runs, starting and stopping wavesThis is basically what i’d pay a junior AI Engineer to do. and I spent about $100 over 2 days to do this.Making model benchmarks, handling money, making estimates, scaling up runs, getting human ratingsWild.example hereWe are out of time for this writeup, will complete this later, so if you are reading this on email, check back at the end of the day.However the overall conclusion you should have is that OpenAI have clearly trained a model that is capable of automating much of their own AI Engineering, and it is finally time that you learn to exploit Astra- and Fable-class models and be far, far more unreasonable.1We are running similar work on Grok, Fable and other similar frontier models but OpenAI was most generous with trial limits so this gets the writeup - but the agentic coding patterns discussed here will likely apply to all such late 2026 frontier models.2Many of you are waiting to hear results… sorry for the radio silence! we got… busy! We will announce winners and reimbursements and best attempts.",
+      "details": "GPT-6 Astra, the first Stargate and lightly looped supermodel from OpenAI, launched today, cleanly beating Fable 5.1 on many metrics including completely saturating the hardest versions of FrontierMath (97.6%) and ARC-AGI-3 (99.9%). Lots of demos will focus on typical talk tracks like the computer use to the Pokemon playing to Blender to the scientific and cybersafety benchmarks (system card). Greg says AGI is here, and Jakub says it is finally the Automated AI Research Intern he wanted. We aren’t qualified to talk about those, but we got early access and threw it at every practical, real-life task we could think of. After burning over 20B tokens of Astra, we can confirm the most surprising finding: GPT-6 Astra is one of a new class of models1 that are fully capable AI Engineers in their own right. They now help you choose and train models, label data (both helping you label and then using your labels for active learning, like SAM), keep pipelines saturated, instrument and read logs, deploy and debug entire systems in one shot, fan out and command and eval subagents (including agents running other models), and keep coherence over billions of tokens of a single agent thread.Raising Your AmbitionsWe’ve written before about the high-return activity of raising your aspirations for LLMs. Our experience has made us exponentially more ambitious than we have ever been. Over the past month, we went from prompting humans for a fun “Kill My SaaS” competition2, to building a dozen internal/personal tools, including 4 previously paid SaaS tools, fully redesigned my personal site, made an incomplete but functional replacement of GitHub + Vercel, trained game AI for a strategy board game with 10,000x more legal moves than Go, saved tens of thousands of dollars in personal finance cleanups, republished my old book with synced audiobook audio and printed physical editions, and even more ambitious projects we will launch soon.The $6 an hour number might sound surprising, but that’s exactly what we saw in our testing - 33 tokens per second at a max $50 per million token rate. Given that Astra is more token efficient than Sol and Fable (independently confirmed by Artificial Analysis), it often means that Astra is simultaneously also the best fast-and-smart model you can buy (assuming our preview latency holds for GA), outside of Spark 1.3.see logsManaging fleets of subagents (individually tweaked, bounded concurrency)Now of course, if you just throw on Astra at Ultra you’re gonna burn through a lot more than $6 per hour…. because it is so dang good at parallelizing. Depending on the task in practice we were often ramping up between 20-50 agents in parallel, of course all managed by one main Astra agent.Monitoring its own runs, starting and stopping wavesThis is basically what you would pay a junior AI Engineer to do — babysitting runs, staring at data, finding issues, fixing, rerunning, ad infinitum. You could hire someone at $200-$1000 a day, or you can hire GPT-6 for $100 over 2 days to do this.Making model benchmarks, handling budgets, making estimates, scaling up runs, getting human ratingsBecause of course you need all these capabilities to run your own AI engineering program, because of course OpenAI already uses GPT-6 to do this internally…example hereOr you can get Astra to trivially whip up your own personal Arena.ai clone for tuning your prompts, picking models for your task, or aligning yrou own preference model!The overall conclusion you should have is that OpenAI have clearly trained a model that is capable of automating much of their own AI Engineering, and it is finally time that you learn to exploit Astra- and Fable-class models and be far, far more unreasonable with your own expectations of what you can do with agents now.1We are running similar work on Grok, Fable and other similar frontier models but OpenAI was most generous with trial limits so this gets the writeup - but the agentic coding patterns discussed here will likely apply to all such late 2026 frontier models.2Many of you are waiting to hear results… sorry for the radio silence! we got… busy! We will announce winners and reimbursements and best attempts.",
       "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
     },
     {
@@ -689,7 +735,7 @@
     {
       "source": "a16z AI YouTube",
       "source_type": "youtube",
-      "title": "Can AI Learn Mathematical Intuition?",
+      "title": "What Today’s Best Models Still Can’t Do in Math",
       "url": "https://www.youtube.com/watch?v=tQI35CSNB08",
       "summary": "a16z’s Lisha Li sits down with Daniel Litt, Assistant Professor of Mathematics at the University of Toronto, to unpack AI's rapid progress in mathematics, what today's frontier models can actually do, and what they're still missing about the way mathematicians think. Daniel expla",
       "published_at": "2026-09-01T14:30:24+00:00",
@@ -767,6 +813,15 @@
       "summary": "",
       "published_at": "2026-09-01T00:00:00+00:00",
       "first_seen_at": "2026-09-01T23:21:10.167326+00:00"
+    },
+    {
+      "source": "Google DeepMind Research",
+      "source_type": "rss",
+      "title": "Designing Proactive Thought Partners for Writing",
+      "url": "https://deepmind.google/research/publications/265605/",
+      "summary": "",
+      "published_at": "2026-09-01T00:00:00+00:00",
+      "first_seen_at": "2026-09-04T14:45:07.582571+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -6388,66 +6443,12 @@
       "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
-      "source": "Latent Space YouTube",
-      "source_type": "youtube",
-      "title": "🔬Causal Models Need Causal Data - Xaira’s X-Cell model (Bo Wang & Ci Chu)",
-      "url": "https://www.youtube.com/watch?v=2AdS-2uuH80",
-      "summary": "Can a model predict how a cell responds to a genetic perturbation it has never seen? Xaira Therapeutics' new virtual-cell model, X-Cell, is a 4.9-billion-parameter diffusion language model trained on X-Atlas/Pisces — the largest genome-wide CRISPRi Perturb-seq dataset ever built,",
-      "published_at": "2026-07-21T19:25:41+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Introducing the ChatGPT for small business program",
-      "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-      "published_at": "2026-07-21T17:00:00+00:00",
-      "first_seen_at": "2026-07-21T22:16:30.800077+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "How to build interactive experiences with canvases",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-      "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on The GitHub Blog.",
-      "published_at": "2026-07-21T16:00:00+00:00",
-      "first_seen_at": "2026-07-21T22:16:30.800077+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin/",
-      "summary": "NVIDIA Vera Rubin is here, and it’s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure, Oracle Cloud Infrastructure and Nebius. Spanning 350+ factory sites in 30 countries, Vera Rubin has the largest,",
-      "published_at": "2026-07-21T15:36:43+00:00",
-      "first_seen_at": "2026-07-21T22:16:30.800077+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
-      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
-      "published_at": "2026-07-21T15:16:30+00:00",
-      "first_seen_at": "2026-07-21T22:16:30.800077+00:00",
-      "source_type": "rss"
-    },
-    {
       "source": "1X Technologies YouTube",
       "source_type": "youtube",
       "title": "NEO’s Hands",
       "url": "https://www.youtube.com/watch?v=QRyXV3csReA",
       "summary": "The new 25-DoF robotic hands for the NEO platform mark a fundamental leap in physical AI. 1X has developed hands that achieve human-level dexterity, strength, safety, and reliability. With 25 fully actuated degrees of freedom in the fingers, palm, and thumb including a 3-DoF wris",
       "published_at": "2026-07-09T16:15:06+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "Tesla AI / Optimus YouTube",
-      "source_type": "youtube",
-      "title": "Tesla Home: Home Energy Management, Powered by AI",
-      "url": "https://www.youtube.com/watch?v=8aGMLbS3NAo",
-      "summary": "Tesla Home comes standard with every Powerwall to automatically optimize your energy usage and help lower your electricity bills. Powered by Opticaster, our proven AI optimization software, it predicts your energy needs and adjusts usage across your home with no additional equipm",
-      "published_at": "2026-06-23T17:40:05+00:00",
       "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
     },
     {
