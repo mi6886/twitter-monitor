@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-05T13:39:28.959031+00:00",
+  "updated_at": "2026-09-05T22:57:26.412042+00:00",
   "count": 700,
-  "new_count": 503,
+  "new_count": 502,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -67,12 +67,40 @@
     {
       "source": "TRAE Blog",
       "source_type": "rss",
-      "title": "TRAE Blog 页面更新",
+      "title": "Blog | TRAE - Collaborate with Intelligence",
       "url": "https://www.trae.ai/blog",
-      "summary": "官网更新页发生变化，请打开原页面查看最新内容。",
-      "published_at": "2026-09-05T13:40:02.063428+00:00",
-      "dedupe_key": "page:TRAE Blog:7ff9e61fe371955691e5f6b78f5d1b820872d361da3e7ee98ad85ae0894a5499",
-      "first_seen_at": "2026-09-05T13:39:28.959031+00:00"
+      "summary": "Ideas, insights, and everything we're building at TRAE.",
+      "published_at": "2026-09-05T22:57:55.119349+00:00",
+      "dedupe_key": "page:TRAE Blog:2650331128ac47226ea1899e966eecb6d71959520c1b4d48e4c38fac14cdf55e",
+      "first_seen_at": "2026-09-05T22:57:26.412042+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "The CPU Will Never Die",
+      "url": "https://www.youtube.com/shorts/0zYHeBLhCcM",
+      "summary": "“There’s no computing problem ever invented that doesn't utilize the microprocessor.” Arm CEO Rene Haas on why CPUs aren't going anywhere, even in the age of AI accelerators. Full episode linked in the replies.",
+      "published_at": "2026-09-05T15:40:22+00:00",
+      "first_seen_at": "2026-09-05T22:57:26.412042+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
+      "url": "https://www.latent.space/p/grok-bot",
+      "summary": "You open the plugin catalog in Grok Bot for the first time. You search for X, find the plugin, and click it. A login screen opens in your local browser. You sign in, and you’re connected.You don’t need to get into the code of the system. You don’t need to install an MCP server JS",
+      "published_at": "2026-09-05T15:01:02+00:00",
+      "details": "You open the plugin catalog in Grok Bot for the first time. You search for X, find the plugin, and click it. A login screen opens in your local browser. You sign in, and you’re connected.You don’t need to get into the code of the system. You don’t need to install an MCP server JSON or paste API credentials. You log in the way you do to any website or app, and Grok Bot is ready. I asked it to review my X posts and the things I’m interested in, then give me a daily brief of news and stories that are relevant to me.I also connected it to Freshdesk through my work account and set up a support bot that checks every fifteen minutes for newly opened support tickets. All it needed to replicate a real workflow, one that I spent my time and attention on, was for me to log in through the browser.That ease of setup is what’s really new here. Grok Bot turns agent configuration into a couple of clicks and a sign-in.Grok Bot feels like unboxing a new MacBook. You open it, turn it on, and have everything you need to get to work. Systems like OpenClaw feel like Linux: they give you more optionality and more freedom to customize the system around what you want to do, but that flexibility comes with more complexity and more setup overhead.OpenClaw 2.0, released this week, narrows that gap substantially. Its Quick Start can reuse an existing Claude Code or Codex login, and its browser app moves much of setup, plugin management and automation into a graphical or conversational interface. But the underlying distinction remains: OpenClaw gives you a user-owned Gateway that you choose how and where to run, while Grok Bot supplies and operates the computer as part of the product. Put another way, Grok Bot is a managed agent computer and OpenClaw is a user-owned agent platform.The Bot is the atomic unitBut the Mac vs. Linux analogy only takes you so far.Grok Bot isn’t less programmable than OpenClaw, but it is programmable at a different level of abstraction. With OpenClaw, customization means getting closer to the code, configuration, tools, skills, plugins and infrastructure. In Grok Bot, the Bot itself becomes the atomic unit of the program. You give Bots specialized roles, connect them to different tools, and compose them into a larger system that Grok Bot calls a “group chat.”Programming has moved towards higher levels of abstraction since its advent. We moved from machine code and punch cards, to assembly, to what we consider today to be lower-level languages like C, and then to higher-level languages like Python. At each step in the evolution, programmers could express more of their intent while delegating more of the details. Grok Bot extends the trajectory of that evolution another step: the interface is English and the thing being programmed is no longer a function or service, but a “Bot”.The value of moving up to a higher level of abstraction is that it makes the power of programming computers accessible to people who may never write code, but who can clearly articulate what they want in relatively precise English. The required skill shifts away from syntax and implementation and toward specifying intent precisely.Yesterday I created a Claude Bot that installed and signed into the Claude Code CLI inside Grok Bot’s virtual computer. That made me wonder how far this model could go. I could connect Codex and other agent CLIs, then assemble them into a council of agentic engineers inside Grok Bot. OpenClaw can support similar configurations, and OpenClaw 2 now ships a native Codex runtime and supported routes for other coding-agent harnesses, so this is no longer something you have to wire by hand. The difference is in how the pieces are presented. Grok Bot presents agents as first-class, human-readable building blocks, while OpenClaw leaves more of the machinery exposed.This is my initial impression of the key differences of Grok Bot compared to other agent platforms. I used it with a Cursor Pro+ account for about the last five days.The Grok Bot harbor tourPersonification is, for me, one of the key differentiators of Grok Bot and one of the things that make it such a delight to use. Each Bot can have its own name, role, identity and description. It’s a nice human garnish on the whole dish that is Grok Bot, but it’s also more than just garnish. It helps create cognitive distinctions within the system that make it easier to organize your work.My Agentic Engineer Bot is what this looks like in practice. Rather than tying it to a single model or tool, I gave it access to several agentic engineering systems and defined guidelines for routing to the right one for a given task. My routing rules point visual, design, and frontend work toward Claude Code, debugging and careful code reading toward Codex, and simpler tasks to the Grok Build CLI.When something related to coding comes up anywhere in my Grok Bot ecosystem, I don’t have to stop and decide which CLI to send it to. I delegate it to the Agentic Engineer, which selects a tool ",
+      "first_seen_at": "2026-09-05T22:57:26.412042+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "ARM Institute gets $90M for 10 projects to modernize military manufacturing",
+      "url": "https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/",
+      "summary": "The ARM Institute has over 500 member organizations and partners across industry, academia, and government. | Source: ARM Institute This week, the Advanced Robotics for Manufacturing, or ARM, Institute received nearly $90 million in funding for 10 projects led by the consortium a",
+      "published_at": "2026-09-05T14:22:41+00:00",
+      "first_seen_at": "2026-09-05T22:57:26.412042+00:00"
     },
     {
       "source": "IEEE Spectrum Robotics",
@@ -149,7 +177,7 @@
     {
       "source": "Latent Space YouTube",
       "source_type": "youtube",
-      "title": "Faster Chips That Don't Melt — Anima Anandkumar & Benedikt Jenik, Accelerated Understanding",
+      "title": "Trillion Token Context. No, Really — Anima Anandkumar & Benedikt Jenik, Accelerated Understanding",
       "url": "https://www.youtube.com/watch?v=KS_IpnX7n9I",
       "summary": "What would a GPT-style foundation model for the **physical world** look like? Note: this is a followup to https://www.youtube.com/watch?v=79mIutht1f4&t=968s Just days after emerging from stealth, Accelerated Understanding co-founders Anima Anandkumar and Benedikt Jenik, join us t",
       "published_at": "2026-09-04T16:00:32+00:00",
@@ -6413,33 +6441,6 @@
       "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
       "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
       "published_at": "2026-07-22T13:00:00+00:00",
-      "first_seen_at": "2026-07-22T22:22:03.075296+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "How news organizations are using AI to advance their vital missions",
-      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
-      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
-      "published_at": "2026-07-22T13:00:00+00:00",
-      "first_seen_at": "2026-07-22T22:22:03.075296+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "3 Google updates from Galaxy Unpacked 2026",
-      "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-      "summary": "We shared how Samsung users can boost productivity and get time back on new foldables, watches, and glasses coming soon.",
-      "published_at": "2026-07-22T13:00:00+00:00",
-      "first_seen_at": "2026-07-22T22:22:03.075296+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Advancing the next era of national science",
-      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
-      "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
-      "published_at": "2026-07-22T12:00:00+00:00",
       "first_seen_at": "2026-07-22T22:22:03.075296+00:00"
     },
     {
