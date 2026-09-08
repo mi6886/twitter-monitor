@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-08T14:51:53.503735+00:00",
+  "updated_at": "2026-09-08T23:25:43.374695+00:00",
   "count": 700,
-  "new_count": 508,
+  "new_count": 514,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,6 +65,79 @@
   ],
   "items": [
     {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "Hacking Is About to Get Out of Control - Ajeya Cotra",
+      "url": "https://www.youtube.com/shorts/DQMbneMBFjw",
+      "summary": "Hacking Is About to Get Out of Control - Ajeya Cotra",
+      "published_at": "2026-09-08T22:26:07+00:00",
+      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
+    },
+    {
+      "source": "Runway",
+      "source_type": "rss",
+      "title": "Introducing Runway for Premiere Pro & After Effects",
+      "url": "https://runway.com/news/company-news/runway-for-adobe",
+      "summary": "With Runway plugins, our panel runs inside Premiere Pro and After Effects apps. Generate images and video, restyle the footage on your timeline and place every result directly into your comp or sequence.",
+      "published_at": "2026-09-08T21:11:29.030000+00:00",
+      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Boston Dynamics veterans launch Dynamic Creatures to bring characters to life with robotics",
+      "url": "https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/",
+      "summary": "Dynamic Creatures co-founder and CEO Marc Theermann (left) and co-founder and CTO Farbod Farshidian. | Source: Dynamic Creatures | Source: Dynamic Creatures Boston Dynamics is focused on commercializing robots for industrial work, but it’s always had time for some fun, too. We’ve",
+      "published_at": "2026-09-08T20:39:51+00:00",
+      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
+    },
+    {
+      "source": "Runway",
+      "source_type": "rss",
+      "title": "The Kinetix Team is Joining Runway",
+      "url": "https://runway.com/news/company-news/kinetix-joins-runway",
+      "summary": "The team from Kinetix, a Paris research lab known for 3D human motion and physically-grounded video generation, is joining Runway to advance world models for robotics and grow Runway's research presence in Europe.",
+      "published_at": "2026-09-08T19:37:00+00:00",
+      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "AI can’t outrun a humanoid’s hardware",
+      "url": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/",
+      "summary": "Editor’s Note: Andreas Friedrich, Managing Director Technology & Strategy, Allegro MicroSystems, will be speaking at RoboBusiness (Oct. 20-21 in Santa Clara). His talk will dissect the critical technological advancements that are making next-generation robotic actuation possible.",
+      "published_at": "2026-09-08T19:03:09+00:00",
+      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+      "published_at": "2026-09-08T17:00:00+00:00",
+      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "source_type": "rss",
+      "title": "Pretraining progress is mostly coming from data",
+      "url": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data",
+      "summary": "How much of the rapid progress in AI that we’ve seen over the last few years1 has come from data versus model improvements? The answer has big implications for the economics of frontier labs and the pace of future progress.We investigate this question at a relatively small scale,",
+      "published_at": "2026-09-08T16:10:16+00:00",
+      "details": "How much of the rapid progress in AI that we’ve seen over the last few years1 has come from data versus model improvements? The answer has big implications for the economics of frontier labs and the pace of future progress.We investigate this question at a relatively small scale, and for pretraining specifically, from 2019 to 2025. During each of those years, a new open model recipe was published which codified that year’s publicly known algorithmic tweaks (for example, improvements in architecture, optimizer, initializations, learning rate schedule, hyperparams, etc). And during each of those years, there was also a new public data corpus (produced by broader scrapes and new curation/extraction/filtering techniques). We train combinations of these year-representative model recipes and data corpuses across different scales of training compute (up to 1e19 FLOPs)2.Obviously, we can’t compare these different models by their cross-entropy loss against a fixed dataset, since we’re varying the datasets they’re trained on. So instead we evaluate these models on end capabilities as measured by the OLMES eval (which aggregates 10 different relatively easy benchmarks, mostly multiple choice QA). Unfortunately, evaluating end capability rather than pretraining loss adds some noise to our results, as you’ll see in the graphs below, though we try to get cleaner bounds by running multiple seeds.We find that from 2019 to 2025, 3.24x more compute efficiency gains have come from data improvements rather than model improvements (12.0x for data and 3.7x for models), at the 1e19 FLOPs compute budget3.Here is a grid which shows how much better a model we train does on the end capability we're testing it on, relative to the 2019 data + architecture baseline, at 3.16e18 FLOPs4.We find that the gains from data and model improvements are mostly independent and don’t interact (i.e. realizing the gains from some model improvement doesn’t require a specific training datapile, or vice versa). 88% of the variance in the OLMES score can be explained by additive effects of the model and data improvements (using a linear model).DiscussionFor context, let’s briefly summarize what changed on both the data and the model side from 2019 to 2025.On the model side, we went from GPT-2 to OLMo-2, including key innovations in optimizers, positional encodings, normalization, activation functions, initializations, and more5.On the data side, we started with OpenWebText in 2019, which contained just web pages linked from Reddit with enough upvotes and then deduplicated and filtered, and thus amounted to only ~9B tokens (this was mostly what GPT-2 was trained on). By 2025, open source data corpuses like UltraFineWeb not only are far larger (by using scrapes of the whole Internet), but also use much more sophisticated filtering (for example, by training a classifier to predict what data will empirically improve model performance).A naive interpretation of our result is that most of the AI progress from 2019-2024 (the era of pretraining) was just better data engineering (extraction, curation, etc.), and that all the model work during that period was much less important.But this is probably the wrong way to think about the value of model improvements. Their main contribution was not necessarily compute efficiency - that is, achieving the same performance with fewer FLOPs. Rather, it was making larger amounts of compute usable in the first place. As the number of parameters, context lengths, run duration, and clusters scale up, all kinds of things are prone to breaking (gradients explode or vanish, memory and bandwidth run out, training becomes infeasibly slow). Much of model research has consisted of removing or pushing back these constraints to scaling. Many of the most important innovations such as MoEs, sparse attention variants, stability innovations (norm placements, initializations, etc.) and system / kernel-level optimizations like FlashAttention fall into this category.The data improvements we investigated here might matter less for larger models. Small models (like the ones we trained) see significant gains from data quality improvements, because they don’t have that much capacity, and so you have to be really careful about what you stuff into them. Whereas big models have so much excess capacity that maybe you just want to throw in as much stuff as you can, even if it’s mostly garbage, and the magic of stochastic gradient descent will separate out the signal from the noise. If you choose to filter aggressively, you’ll have to do dozens of epochs, which empirically gives worse performance than just having a lower average quality but larger dataset. In fact, aggressive data curation is even more harmful once you take into account that frontier models are up to 100x overtrained relative to Chinchilla optimal, in order to minimize the inference compute used for RL and for deployment.An analogy might be the difference between a sailboat and a containe",
+      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Why vision AI is the safety backbone of the automated job site",
+      "url": "https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/",
+      "summary": "ViAct offers viBOT, an autonomous robotic monitor for construction. | Source: viAct Construction is entering a new era of automation. Autonomous earthmoving equipment is beginning to reshape excavation. Robotic layout systems are improving precision. Drones are inspecting hard-to",
+      "published_at": "2026-09-08T16:05:04+00:00",
+      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
+    },
+    {
       "source": "a16z AI YouTube",
       "source_type": "youtube",
       "title": "Inside OpenAI’s Breakthroughs in Mathematical Reasoning",
@@ -101,6 +174,33 @@
       "first_seen_at": "2026-09-08T14:51:53.503735+00:00"
     },
     {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Introducing ChatGPT Images 2.5",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+      "published_at": "2026-09-08T11:30:00+00:00",
+      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "url": "https://openai.com/index/navier-stokes-solution",
+      "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+      "published_at": "2026-09-08T10:00:00+00:00",
+      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Funding grants for new research into AI and teen development",
+      "url": "https://openai.com/index/teen-development-research-grants",
+      "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+      "published_at": "2026-09-08T09:00:00+00:00",
+      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
+    },
+    {
       "source": "AgiBot News",
       "source_type": "rss",
       "title": "AGIBOT Robots Earn IFA Innovation Award Honors and Global Media Recognition at IFA 2026-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
@@ -117,6 +217,33 @@
       "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
       "published_at": "2026-09-08T00:00:00+00:00",
       "first_seen_at": "2026-09-08T14:51:53.503735+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "1Password increases engineering productivity 21% with Codex",
+      "url": "https://openai.com/index/1password",
+      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+      "published_at": "2026-09-08T00:00:00+00:00",
+      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
+    },
+    {
+      "source": "AgiBot News",
+      "source_type": "rss",
+      "title": "AGIBOT Robots Earn IFA Innovation Award Honors and Global Media Recognition at IFA 2026-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "url": "https://agibot.com/article/231/detail/97.html",
+      "summary": "",
+      "published_at": "2026-09-08T00:00:00+00:00",
+      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
+    },
+    {
+      "source": "AgiBot News",
+      "source_type": "rss",
+      "title": "AGIBOT Humanoid Robots Recognized by IFA Innovation Awards and Global Tech Media at IFA 2026-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "url": "https://agibot.com/article/231/detail/98.html",
+      "summary": "",
+      "published_at": "2026-09-08T00:00:00+00:00",
+      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
     },
     {
       "source": "Latent Space",
@@ -178,7 +305,7 @@
       "source_type": "rss",
       "title": "This Robot Will Draw Your Blood Now",
       "url": "https://spectrum.ieee.org/blood-draw-robot-vitestro-aletta",
-      "summary": "You sit down and put your arm in the cradle. You press a button. The machine takes it from there.A near-infrared light sweeps your inner elbow, hunting for a vein. A puff of alcohol hits your skin. An ultrasound probe glides across the arm, mapping how deep the vessel runs and wh",
+      "summary": "You sit down and put your arm in the cradle. You press a button. The machine takes it from there.A near-infrared light sweeps your inner elbow, hunting for a vein. A puff of alcohol hits your skin. An ultrasound probe glides across your arm, mapping how deep the vessel runs and w",
       "published_at": "2026-09-07T13:00:01+00:00",
       "first_seen_at": "2026-09-07T16:15:44.428680+00:00"
     },
@@ -6312,134 +6439,6 @@
       "published_at": "2026-07-27T00:00:00+00:00",
       "first_seen_at": "2026-07-27T22:31:57.936748+00:00",
       "source_type": "rss"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Expanding our partnership with Cognizant",
-      "url": "https://www.anthropic.com/news/cognizant-anthropic",
-      "summary": "Cognizant embeds Claude across its platforms, with 30,000+ associates trained, and becomes a Global Premier Partner in the Claude Partner Network.",
-      "published_at": "2026-07-27T00:00:00+00:00",
-      "first_seen_at": "2026-07-27T22:31:57.936748+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "summary": "",
-      "published_at": "2026-07-27T00:00:00+00:00",
-      "first_seen_at": "2026-07-28T22:21:08.336550+00:00"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "Optical Tech Would Update a Robot’s AI on the Fly",
-      "url": "https://spectrum.ieee.org/ai-in-robotics",
-      "summary": "Atop a lab bench, Cornell Tech postdoctoral researcher Yifan He positions the lens of an optical receiver almost a meter away from an LED emitting a beam of red light. The computer monitor attached to the receiver takes a beat to refresh, then displays an array of squares that re",
-      "published_at": "2026-07-26T13:00:01+00:00",
-      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "How Close Can You Orbit a Black Hole? - Adam Brown",
-      "url": "https://www.youtube.com/shorts/Gpf4WvQ9uxQ",
-      "summary": "",
-      "published_at": "2026-07-25T23:17:41+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
-      "url": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
-      "summary": "In a rare Friday release, Opus 5 took the headlines today. Athrough most of its official benchmarks have it technically beating Fable, the official messaging still says it “comes close”. This mostly reflects the difficulty of Evals - today’s AIE track drop - not reflecting “big m",
-      "published_at": "2026-07-25T07:25:38+00:00",
-      "details": "In a rare Friday release, Opus 5 took the headlines today. Athrough most of its official benchmarks have it technically beating Fable, the official messaging still says it “comes close”. This mostly reflects the difficulty of Evals - today’s AIE track drop - not reflecting “big model smell” that Anthropic obviously knows Fable retains but can’t measure.Fortunately, independent evaluations of Opus confirm the outperformance:And the improved efficiency story, beyond just pricing, is also important… although it only just matches GPT 5.6 Sol:AI News for 7/23/2026-7/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapTop Story: Claude Opus 5 model launchWhat happenedAnthropic’s Claude Opus 5 launch triggered a mix of benchmark scrutiny, strong anecdotal coding-agent praise, and renewed debate about frontier model evaluation.Multiple tweets explicitly discuss Claude Opus 5 as a newly launched model and compare it to other frontier systems on coding and general capability metrics, including Epoch’s ECI assessment, a FrontierCode anomaly discussion, and early user reactions from tool-use workflows like browser automation @abacaj, @abacaj.Epoch reported that Claude Opus 5 achieves an ECI of 159, “slightly below Fable 5’s value of 161,” while matching Fable 5 on SWE-ECI at 161 on software engineering benchmarks @EpochAIResearch.The ECI result immediately drew criticism from users who felt the score understated Opus 5’s practical improvements; one response called it “incredibly underrated,” noting it appears only 1 point better than Opus 4.8 despite seeming “much better at everything” in practice @scaling01. The same user argued for harder public benchmarks @scaling01.A separate thread highlighted an apparent benchmark irregularity: Opus 5 scored better on FrontierCode at medium effort than at higher effort, even though more effort improved performance on other evals @jerhadf. That suggests either task-specific search/effort tradeoffs or evaluation instability rather than monotonic gains from extra inference-time compute.Several technically literate users praised Opus 5’s coding performance. Mikhail Parakhin @MParakhin—said “Best-of-n rules” and reported a clear head-to-head win against Fable “for math and everything, really,” while wishing it were available in Codex.Arena promoted first impressions of Opus 5 and said leaderboard scores based on real-world use were coming soon @arena, indicating community evals were still catching up at posting time.Nous Research’s portal added access to the model, with a tweet saying users could directly use Opus 5 through Nous Portal and that a 20% discount applied to all models including Opus 5 @witcheer. This is distribution/availability rather than a capability claim.User anecdotes emphasized browser control / agentic tool use. One post said Opus 5 opened the browser and canceled a ChatGPT Pro subscription @abacaj, followed by “This thing can really drive a browser wow” @abacaj. These are isolated demos, not systematic evals, but they align with broader market interest in computer-use agents.Other early reactions were more memetic than technical, including “Opus 5 subway FPS result” @bijanbowen, “On Claude bro” @andrew_n_carr, and “They’re terrified of Anthropic” @teortaxesTex. These reflect sentiment but not evidence.Technical detailsEpoch Capabilities Index (ECI):Claude Opus 5 ECI = 159Fable 5 ECI = 161Claude Opus 5 SWE-ECI = 161, matching Fable 5 on software engineering @EpochAIResearchCommunity response noted the model appears only +1 ECI point vs Opus 4.8, which some readers considered too small relative to qualitative gains @scaling01, @scaling01.FrontierCode behavior: one evaluator noted medium-effort > high-effort on FrontierCode for Opus 5 despite the usual pattern of improvement with more effort elsewhere @jerhadf. The tweet does not provide raw numbers in this excerpt, but the central technical point is that increased effort was not uniformly beneficial.Anecdotal comparative claims:A clear head-to-head win vs Fable in one user’s testing, especially with best-of-n sampling @MParakhinMatching “mythos” in one ecosystem summary post, though without attached numbers @eliebakouchFacts vs opinionsMore factual / measurement-oriented claimsEpoch’s benchmark statement that Opus 5 scored 159 ECI and 161 SWE-ECI is the clearest empirical claim in the set @EpochAIResearch.Arena’s statement that first impressions are available and real-world leaderboard scores are forthcoming is factual but incomplete @arena.Nous Portal offering access to Opus 5 with a 20% discount is a product-availability fact @witcheer.Interpretations / opinions“ECI is underrated” and “we need harder public benchmarks” are opinions about benchmark validity and sensitivity @scaling01, @scaling01.“How to shake faith in any benchmark: sh",
-      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "When football meets humanoid robots. 🤖⚽",
-      "url": "https://www.youtube.com/watch?v=cAb4j4EJjeQ",
-      "summary": "We teamed up with Nazon for a one-of-a-kind football experience — putting our robot’s skills to the test and exploring what happens when sports meet embodied AI. An unforgettable summer of football. 👀 #AGIBOT #Robotics #EmbodiedAI #HumanoidRobots #Football #SportsTech",
-      "published_at": "2026-07-25T02:21:28+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics YouTube",
-      "source_type": "youtube",
-      "title": "That’s a wrap on #SIGGRAPH2026 🎬",
-      "url": "https://www.youtube.com/shorts/NsOlCHYn99k",
-      "summary": "That’s a wrap on #SIGGRAPH2026 🎬 From neural rendering and world models to simulation and physical AI, we spent five days in Los Angeles learning, building and exploring alongside the community shaping what’s next for graphics. Thanks to everyone who joined us. 💚",
-      "published_at": "2026-07-24T22:30:34+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "The Advantage AI Has Over Human Mathematicians - Adam Brown",
-      "url": "https://www.youtube.com/shorts/qEXHbJzGrY8",
-      "summary": "",
-      "published_at": "2026-07-24T22:24:19+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "IEEE Spectrum Robotics YouTube",
-      "source_type": "youtube",
-      "title": "Stretch 4.0 Home Robot",
-      "url": "https://www.youtube.com/shorts/AlC1Aon3A4I",
-      "summary": "Meet Stretch 4.0 - The one-armed, three-wheeled robot that can navigate your home safely. Would you rather a humanoid robot or Stretch? ICRA is the flagship conference of @ieee-ras. To learn more about this and other upcoming RAS conferences, visit: https://www.ieee-ras.org/confe",
-      "published_at": "2026-07-24T21:15:21+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics YouTube",
-      "source_type": "youtube",
-      "title": "GTC SJ 2026: Next Generation Intelligent Surgical Robots",
-      "url": "https://www.youtube.com/watch?v=z1b8DRFwWgo",
-      "summary": "Explore how NVIDIA technologies are transforming the design and scalability of intelligent surgical robots, enabling software-defined, AI-powered systems that improve outcomes across the healthcare ecosystem. Learn how NVIDIA Holoscan and agentic frameworks are shaping the future",
-      "published_at": "2026-07-24T17:41:04+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "Video Friday: An Italian Humanoid Comes to Life",
-      "url": "https://spectrum.ieee.org/video-friday-physical-ai-robotics",
-      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.Summer School on Multi-Robot Systems",
-      "published_at": "2026-07-24T15:30:01+00:00",
-      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "Unitree YouTube",
-      "source_type": "youtube",
-      "title": "Unitree Super Athlete AS2-W",
-      "url": "https://www.youtube.com/watch?v=Xha2TJ_1C6Q",
-      "summary": "Fluid movement, compact yet exceptional. Supports a continuous 16kg payload, with 30+ km unloaded driving range",
-      "published_at": "2026-07-24T07:19:09+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
-      "url": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
-      "summary": "At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart Korea’s AI progress. Building on NVIDIA founder and CEO Jensen Huang’s visit to K",
-      "published_at": "2026-07-24T04:34:27+00:00",
-      "first_seen_at": "2026-07-24T12:17:35.590257+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
-      "url": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
-      "summary": "Thursdays are the heaviest days for AI releases, and even though OpenAI scored a victory over Anthropic in launching the new ChatGPT Voice (consumer) and OpenAI Presence (enterprise) and getting more impressions than Claude Voice today (a completely accidental coincidence in timi",
-      "published_at": "2026-07-24T04:30:12+00:00",
-      "details": "Thursdays are the heaviest days for AI releases, and even though OpenAI scored a victory over Anthropic in launching the new ChatGPT Voice (consumer) and OpenAI Presence (enterprise) and getting more impressions than Claude Voice today (a completely accidental coincidence in timing, we are sure), neither seem as monumental as BFL’s launch of FLUX 3 Video today:We last covered BFL in our very well received Anjney Midha podcast:Most GenMedia people will remember the BFL homepage when they initially launched Flux 1 in 2024, hinting at video models next, with their logo in a forest. Well, 2 years later, it’s finally real:The blogpost outlines Self Flow, covering ALL their modalities together with strong preference claims: “Its core capabilities include the following (all outputs come with native audio generation):Text-to-video generation.Image-to-video generation, either continuing from a starting frame (“animation”) or using images as visual references.Video-to-video generation from a reference clip, carrying central elements of a source video - for instance the same character - into a new scene or context.Generative video-audio continuation from input video and audio.Keyframe-to-video generation for controlled transitions between defined moments.Multilingual dialogue.A broad range of visual styles and aspect ratios, extending far beyond conventional cinematic output.Agentic chaining of individual clips into longer, multi-shot sequences.High style diversity -- FLUX 3 Video easily handles ranges of styles from candid camcorder footage to animation and cinematics.Strong typography generation and animated designs.”Some of the above are SOTA features from other frontier lab models, like we discussed in our Grok Imagine pod, so the community has very much been put on notice that there has now been independent, perhaps SOTA, reproduction of these capabilities, with an open weights Dev version on the way.As if this release wasn’t enough, the team also announced FLUX3-mimic, which proves that the FLUX 3 model is learning a sufficient world model capable of driving robots…… and predicting their impact in real factory settings…AI News for 7/22/2026-7/23/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpen Code, Open Models, and the Policy Fault Line Around DistillationThe Stack v3 is the day’s most consequential open-data release: @anton_lozhkov announced The Stack v3, now the largest open code dataset publicly released: 114 TB raw, 224M repositories, 44B files, 770 languages, and roughly 5T deduplicated/filtered tokens. Relative to v2, the filtered corpus jumps from ~550B to ~5T tokens, with especially large gains in C++ (x15), TypeScript (x7.5), Rust (x7), and Python (x4.8). The notable operational changes are that v3 ships contents inline rather than Software Heritage IDs, includes a fresh GitHub recrawl through Aug 2025, excludes restrictively licensed code, and offers both a ready-to-train split and a full bucket for custom dedup/filtering. Hugging Face researchers framed it explicitly as infrastructure for the next generation of open code models and cyber-defense tooling: see @LoubnaBenAllal1, @lvwerra, and commentary from @eliebakouch noting prior Stack versions were used in many disclosed code-model training mixtures.Distillation remains the live ideological fault line: several high-signal posts pushed back on attempts to sharply separate “internet-scale pretraining” from output-level distillation. @GergelyOrosz compared model inspection via prompting to reverse-engineering a competitor’s product, while @SchmidhuberAI emphasized distillation’s long lineage. @Suhail argued the practical response is not prohibition but stronger investment in open-weight domestic models, and @garrytan put it more simply: open weights are strategically important. The subtext across these posts is that open datasets like The Stack v3 materially raise the floor for every lab that wants to build competitive code models without relying on closed ecosystems.Multimodal Frontier: FLUX 3, Robotics Transfer, and New Audio/TTS SystemsBlack Forest Labs’ FLUX 3 expands the multimodal frontier beyond image/video: @bfl_ai launched FLUX 3, a unified multimodal model spanning image, video, audio, and action prediction, with early access for FLUX 3 Video and an explicit claim that the same architecture can be extended toward robotics. Team members connected it back to the earlier Self-Flow research, including @hila_chefer and @robrombach. What matters technically is the unified training story: not a loose family of specialized generators, but one architecture intended to bridge media generation and control.mimic’s FLUX-mimic is a concrete robotics instantiation of that thesis: @mimicrobotics described FLUX-mimic as a Video-Action Model built on top of FLUX 3, trained on",
-      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "1X Technologies YouTube",
