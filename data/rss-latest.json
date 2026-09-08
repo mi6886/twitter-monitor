@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-07T23:32:51.815260+00:00",
+  "updated_at": "2026-09-08T14:51:53.503735+00:00",
   "count": 700,
-  "new_count": 506,
+  "new_count": 508,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,60 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "a16z AI YouTube",
+      "source_type": "youtube",
+      "title": "Inside OpenAI’s Breakthroughs in Mathematical Reasoning",
+      "url": "https://www.youtube.com/watch?v=1JvyLGd2Sfs",
+      "summary": "a16z Infra Partner Lisha Li sits down with OpenAI mathematicians Mehtaab Sawhney and Mark Sellke to discuss how quickly AI’s mathematical capabilities are advancing, what recent results reveal about model reasoning, and what happens when AI begins making progress on problems math",
+      "published_at": "2026-09-08T14:30:11+00:00",
+      "first_seen_at": "2026-09-08T14:51:53.503735+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "summary": "",
+      "published_at": "2026-09-08T14:23:07+00:00",
+      "first_seen_at": "2026-09-08T14:51:53.503735+00:00"
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "source_type": "rss",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "published_at": "2026-09-08T14:00:15+00:00",
+      "first_seen_at": "2026-09-08T14:51:53.503735+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "The Work Now Within Reach",
+      "url": "https://openai.com/index/the-work-now-within-reach",
+      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+      "published_at": "2026-09-08T13:00:00+00:00",
+      "first_seen_at": "2026-09-08T14:51:53.503735+00:00"
+    },
+    {
+      "source": "AgiBot News",
+      "source_type": "rss",
+      "title": "AGIBOT Robots Earn IFA Innovation Award Honors and Global Media Recognition at IFA 2026-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "url": "https://www.agibot.com/article/231/detail/97.html",
+      "summary": "",
+      "published_at": "2026-09-08T00:00:00+00:00",
+      "first_seen_at": "2026-09-08T14:51:53.503735+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+      "published_at": "2026-09-08T00:00:00+00:00",
+      "first_seen_at": "2026-09-08T14:51:53.503735+00:00"
+    },
     {
       "source": "Latent Space",
       "source_type": "rss",
@@ -6386,60 +6440,6 @@
       "published_at": "2026-07-24T04:30:12+00:00",
       "details": "Thursdays are the heaviest days for AI releases, and even though OpenAI scored a victory over Anthropic in launching the new ChatGPT Voice (consumer) and OpenAI Presence (enterprise) and getting more impressions than Claude Voice today (a completely accidental coincidence in timing, we are sure), neither seem as monumental as BFL’s launch of FLUX 3 Video today:We last covered BFL in our very well received Anjney Midha podcast:Most GenMedia people will remember the BFL homepage when they initially launched Flux 1 in 2024, hinting at video models next, with their logo in a forest. Well, 2 years later, it’s finally real:The blogpost outlines Self Flow, covering ALL their modalities together with strong preference claims: “Its core capabilities include the following (all outputs come with native audio generation):Text-to-video generation.Image-to-video generation, either continuing from a starting frame (“animation”) or using images as visual references.Video-to-video generation from a reference clip, carrying central elements of a source video - for instance the same character - into a new scene or context.Generative video-audio continuation from input video and audio.Keyframe-to-video generation for controlled transitions between defined moments.Multilingual dialogue.A broad range of visual styles and aspect ratios, extending far beyond conventional cinematic output.Agentic chaining of individual clips into longer, multi-shot sequences.High style diversity -- FLUX 3 Video easily handles ranges of styles from candid camcorder footage to animation and cinematics.Strong typography generation and animated designs.”Some of the above are SOTA features from other frontier lab models, like we discussed in our Grok Imagine pod, so the community has very much been put on notice that there has now been independent, perhaps SOTA, reproduction of these capabilities, with an open weights Dev version on the way.As if this release wasn’t enough, the team also announced FLUX3-mimic, which proves that the FLUX 3 model is learning a sufficient world model capable of driving robots…… and predicting their impact in real factory settings…AI News for 7/22/2026-7/23/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpen Code, Open Models, and the Policy Fault Line Around DistillationThe Stack v3 is the day’s most consequential open-data release: @anton_lozhkov announced The Stack v3, now the largest open code dataset publicly released: 114 TB raw, 224M repositories, 44B files, 770 languages, and roughly 5T deduplicated/filtered tokens. Relative to v2, the filtered corpus jumps from ~550B to ~5T tokens, with especially large gains in C++ (x15), TypeScript (x7.5), Rust (x7), and Python (x4.8). The notable operational changes are that v3 ships contents inline rather than Software Heritage IDs, includes a fresh GitHub recrawl through Aug 2025, excludes restrictively licensed code, and offers both a ready-to-train split and a full bucket for custom dedup/filtering. Hugging Face researchers framed it explicitly as infrastructure for the next generation of open code models and cyber-defense tooling: see @LoubnaBenAllal1, @lvwerra, and commentary from @eliebakouch noting prior Stack versions were used in many disclosed code-model training mixtures.Distillation remains the live ideological fault line: several high-signal posts pushed back on attempts to sharply separate “internet-scale pretraining” from output-level distillation. @GergelyOrosz compared model inspection via prompting to reverse-engineering a competitor’s product, while @SchmidhuberAI emphasized distillation’s long lineage. @Suhail argued the practical response is not prohibition but stronger investment in open-weight domestic models, and @garrytan put it more simply: open weights are strategically important. The subtext across these posts is that open datasets like The Stack v3 materially raise the floor for every lab that wants to build competitive code models without relying on closed ecosystems.Multimodal Frontier: FLUX 3, Robotics Transfer, and New Audio/TTS SystemsBlack Forest Labs’ FLUX 3 expands the multimodal frontier beyond image/video: @bfl_ai launched FLUX 3, a unified multimodal model spanning image, video, audio, and action prediction, with early access for FLUX 3 Video and an explicit claim that the same architecture can be extended toward robotics. Team members connected it back to the earlier Self-Flow research, including @hila_chefer and @robrombach. What matters technically is the unified training story: not a loose family of specialized generators, but one architecture intended to bridge media generation and control.mimic’s FLUX-mimic is a concrete robotics instantiation of that thesis: @mimicrobotics described FLUX-mimic as a Video-Action Model built on top of FLUX 3, trained on",
       "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "title": "Introducing Claude Opus 5",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "summary": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
-      "published_at": "2026-07-24T00:00:00+00:00",
-      "first_seen_at": "2026-07-24T22:31:08.715656+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Anthropic Research",
-      "title": "Project Pilot: Can AI models fly drones?",
-      "url": "https://www.anthropic.com/research/project-pilot",
-      "summary": "We worked with Andon Labs on Drone-Bench, a new benchmark testing whether AI models can autonomously fly a drone to locate and follow a person.",
-      "published_at": "2026-07-24T00:00:00+00:00",
-      "first_seen_at": "2026-07-24T22:31:08.715656+00:00",
-      "source_type": "rss"
-    },
-    {
-      "source": "Manus Blog",
-      "source_type": "rss",
-      "title": "Build, Migrate, and Operate Your Supabase Database with Manus",
-      "url": "https://manus.im/blog/manus-supabase-connector",
-      "summary": "Build, migrate, and operate your Supabase database through natural language.",
-      "published_at": "2026-07-24T00:00:00+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Why You'll Never See Anything Enter a Black Hole - Adam Brown",
-      "url": "https://www.youtube.com/shorts/WLEW4i9u8bk",
-      "summary": "",
-      "published_at": "2026-07-23T22:51:00+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "AI Will Create More Delivery Jobs",
-      "url": "https://www.youtube.com/shorts/mj339oyeXx4",
-      "summary": "DoorDash is betting on robotics, drones, and AI. That doesn't mean fewer Dashers. It means a much bigger delivery network.",
-      "published_at": "2026-07-23T20:39:29+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
-      "url": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
-      "summary": "A new default three-day cooldown delays version update pull requests so maintainers and security researchers can address findings in a release before it gets into your code. The post The case for a cooldown: Why Dependabot now waits before issuing version updates appeared first o",
-      "published_at": "2026-07-23T16:00:00+00:00",
-      "first_seen_at": "2026-07-23T22:19:52.436045+00:00"
     },
     {
       "source": "1X Technologies YouTube",
