@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-11T23:18:44.531785+00:00",
+  "updated_at": "2026-09-12T13:50:25.118457+00:00",
   "count": 700,
-  "new_count": 518,
+  "new_count": 515,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -74,6 +74,34 @@
       "first_seen_at": "2026-09-10T14:46:59.803808+00:00"
     },
     {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "published_at": "2026-09-14T00:00:00+00:00",
+      "first_seen_at": "2026-09-12T13:50:25.118457+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Ultrasound offers a scalable path to tactile intelligence for physical AI",
+      "url": "https://www.therobotreport.com/ultrasound-offers-scalable-path-tactile-intelligence-physical-ai/",
+      "summary": "UltraSense claims that ultrasound can mitigate the wear and tear at the point of tactile sensing. Source: UltraSense Physical AI is moving from digital reasoning into real-world interaction. Robots can see, plan, navigate, and move with sophistication. Yet manipulation depends on",
+      "published_at": "2026-09-12T12:35:38+00:00",
+      "first_seen_at": "2026-09-12T13:50:25.118457+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
+      "url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
+      "summary": "We are late to this but better than never. Have been busy finalizing the second AIE NYC, which is happening in one month. Get your tix before prices go up - we will announce speakers from Bridgewater, Ramp, Coatue, Mastercard, Vanguard, Coinbase, Blackrock, Fidelity, Point72, Cap",
+      "published_at": "2026-09-12T05:56:05+00:00",
+      "details": "We are late to this but better than never. Have been busy finalizing the second AIE NYC, which is happening in one month. Get your tix before prices go up - we will announce speakers from Bridgewater, Ramp, Coatue, Mastercard, Vanguard, Coinbase, Blackrock, Fidelity, Point72, Capital One, JPMC, Wells Fargo, Bloomberg, A24 (yes the movie studio) Labs, Two Sigma, Apollo Global, and more next week!The way DeepSeek pursues their research agenda is nothing short of fascinating. In between major DeepSeek versions, from v2 to v3 to v4, they have released intermediate papers with a hyperfocused architectural improvement and basically a 100% hit rate, from Math (esp GRPO), Coder, and R1, not to mention more recent work on Manifold Constrained Hyperconnections and Compressed Sparse Attention. After the enormous attention in 1H2025 from the R1 paper, DeepSeek started laying low, and for about the past year, was happy to let peers like GLM and Kimi take the lead on Open Models. It looked dicey for a little bit, but true whalebros never wavered, and now DeepSeek are sending a weirdly mixed message by doing a completely new architecture, retiring V4 Pro and going all in on this new model, and yet only titling it v4.1 Flash, it seems to be a test of whether or not you know how to read through the basic headlines to understand true advances.Yes, v4.1 Flash is technically behind other open models in some benchmarks. But that’s because we don’t yet have benchmarks that concisely capture what v4.1, and the broader research agenda of DeepSeek, is aiming for - the most creative and efficient use of context we have ever seen openly explained.If you are the sort to only read model versions and benchmark headlines, you are exactly the type of superficial person that DeepSeek is looking to fool. The best way to understand DeepSeek’s enormous advance here is to look at Sebastian’s meme:Same model name, but hardly a 0.1 bump by anyone’s standards, and they even threw in vision without making you wait for a separate model. For a better visualization you can look at all the model innovations stacked up over time from the OG encoder-decoder architecture from Attention is All You Need:If you read our V4 Pro writeup and Engram you should be up to date on the basic architectural reading for DeepSeek as of April 2026, but what we are HUGE fans of is the prefill/decode separation introduced here, 8B in prefill (input tokens), 16B in decode (output tokens), causing our alphabet soup of “DeepSeek v4.1-Flash: 763B-P8B-D16B” if you extend the established notation for MoEs. That’s a sparsity of 1-2%, and if you read the DeepSeek v4.1 Flash tech report, combined with new tweaks like Sliding-Window Attention Bounded Replay, makes for a KV cache footprint up to 1/8 that of V4 Flash… which make it much better/faster/cheaper for long running agents:We are so glad that DeepSeek is back publishing SOTA research. Our last highlight is their comments on post-training, where they largely seem to agree with Prof Jie Tang:AI News for 9/9/2026-9/10/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapDeepSeek launched V4.1-Flash as a new open-weight flagship focused on extreme inference efficiency and low cost.Independent benchmark account Artificial Analysis reported that DeepSeek V4.1 Flash surpasses DeepSeek V4 Pro 0813 despite being much cheaper, scoring 40 on the Artificial Analysis Intelligence Index, just below GLM-5.3-Flash and above the latest V4 Pro, while being priced at $0.30 / 1M input tokens and $1.20 / 1M output tokens with cached input at $0.006 / 1M and an additional 50% off-peak discount; they also describe it as a 763B total-parameter model with 8B active input and 16B active output parameters, 1M-token context, text+image input, MIT license, and US/API availability via DeepSeek first party @ArtificialAnlys, @ArtificialAnlys, @ArtificialAnlysVals called it the new #1 open-weight model on the Vals Index, ahead of Kimi K3, at just $0.30 per test, the cheapest model in the open-weight top 10; they also note the eval ran with 1M context, 384 max output tokens, temperature 1, default top-p/top-k, and high reasoning effort @ValsAI, @ValsAI, @ValsAIBaseten shipped day-0 support and summarized the product positioning as smarter, faster, and more efficient than DeepSeek v4 Pro 0813, with text and vision, US-only, ZDR, and 1M context @basetenOllama began rolling it out to Max and Team accounts, later expanding to Pro plan subscribers @ollama, @ollama, @ollamaArchitecture and paper-level technical detailsThe most discussed technical novelty is a causal encoder-decoder design aimed at lowering active compute and KV/cache costs.Artificial Analysis says the model uses a new causal Encoder–Decoder architecture, with 8B active parameters for input/prefill and 16B active parameters ",
+      "first_seen_at": "2026-09-12T13:50:25.118457+00:00"
+    },
+    {
       "source": "The Robot Report",
       "source_type": "rss",
       "title": "One brick at a time: How Monumental uses robotics to build walls",
@@ -129,6 +157,15 @@
       "details": "New episode with John Schulman, Beren Millidge and Charlie O’Neill.I got together with some of the most insightful AI researchers I know who are at the openish companies, because I wanted to hear the details of what's actually happening at the frontier and what comes next.Watch on YouTube; listen on Apple Podcasts or Spotify.SponsorsAntithesis helps you trust your code. As agents generate more and more of your software, the bottleneck shifts from your engineers actually writing code to verifying it. Antithesis does that testing for you. Ron Minsky, who co-leads Jane Street’s tech group, told me that Antithesis was able to help his team shake out bugs in software that had already undergone heavy review. If you want to see how it fits into your development process, go to antithesis.com/dwarkeshGrok Bot has been a great way to hand off tasks. My team uses it as a producer: whenever my editor posts a rough cut of an interview in Slack, Grok Bot opens the transcript on its own computer, matches my notes to the exact moments they refer to, and uses a file of my preferences to suggest edits. Then it sends me its top clip candidates so I can review everything from my phone, which saves my editors from sorting through hours of footage. Try Grok Bot for yourself at x.ai/botJane Street just launched its most ambitious competition yet: design a protocol-emulator ASIC. Basically, if you have a chip you want to test outside of a live system, you should be able to connect it to your design and have it simulate realistic traffic. Jane Street wants general-purpose, reprogrammable designs that can work across multiple protocols and remain useful as new ones emerge. The most novel submissions will actually get taped out, and the winners will receive a physical copy! The competition is open until January 18, 2027, and teams are encouraged. To get started download the template code at janestreet.com/dwarkeshTimestamps(00:00:00) – Steelmanning the case against RSI(00:18:39) – What’s driving the Chinese labs’ progress(00:28:06) – How will automated AI researchers be trained(00:33:51) – Will long-horizon RL elicit AGI?(00:45:24) – The sim-to-real gap(01:00:33) – How much progress is explained by data?(01:18:03) – Why is RL working so well?(01:24:54) – Move 37 and entropy collapse(01:28:32) – Rapid-fire timelinesTranscript00:00:00 – Steelmanning the case against RSIDwarkesh PatelToday, I’m chatting with three of my AI researcher friends from whom I learn a lot every time we talk. They also happen to be at somewhat open-ish labs and companies, so you guys can actually say things on the record. I’m joined by Beren Millidge, who is the CTO of Zyphra, which is developing open source models. John Schulman is the chief scientist at Thinking Machines, previously a co-founder of OpenAI, and led the RLHF work that led to ChatGPT. And Charlie O’Neill is head of model training at Baseten.The first question I have: If we’re in 2036 and we don’t have billions of crazy superintelligences running around that have radically transformed the world, what is the most likely reason that doesn’t end up being the case? Other than exogenous political shocks, or there’s a war, or they ban AI or something. What is the most likely technical reason that 2036 isn’t a crazy alien superintelligence world?Beren MillidgeThere’s been a classic thing, almost like Moravec’s paradox, where we think of the AI as, “If it can do this, it’s going to be amazing.” If it can solve these hard maths problems, if it can win at chess, blah, blah, blah… Then it solves these things, and it’s not that impactful. Obviously, it’s somewhat impactful, but not everything.If somehow that continues, and there’s never the true spark of generalization that occurs, I think that could lead to the AI just being extremely good at everything that people put into a benchmark or put into an environment. But there’s still some persistent sim-to-real gap which is somehow blocking everything. I think this is unlikely. We do actually see this kind of generalization even from RL in practice already. But if it is just ridiculously hard to generalize meta-learning, plus we don’t solve continual learning and it’s just super hard and impossible… This would be my default scenario in that case.John SchulmanI agree with that. Humans have a lot of advantages over models now. Each time a new model comes out, it’ll catch up in some of these areas. But you end up getting bottlenecked by the places where the model is weaker and where it has worse judgment, or the models can’t check themselves well enough.There’s this cycle that keeps repeating where a new model comes out and people are blown away and they’re like, “This is it. This is AGI.” But then they use it a bit, and it starts to feel dumb after a month or so. That cycle just might keep going. It’s hard to predict how many times it’s going to repeat.Right now, you don’t get explosive growth in capabilities because you still get bottlenecked enough when you’re",
       "dedupe_key": "podcast:b1e42e76a55e5c9420a9dd13c3fb796604511f88",
       "first_seen_at": "2026-09-11T23:18:44.531785+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+      "published_at": "2026-09-11T16:00:00+00:00",
+      "first_seen_at": "2026-09-12T13:50:25.118457+00:00"
     },
     {
       "source": "IEEE Spectrum Robotics",
@@ -6391,42 +6428,6 @@
       "url": "https://www.youtube.com/shorts/zB2xgBtXMsE",
       "summary": "",
       "published_at": "2026-07-30T20:31:13+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "DoorDash gains FAA certification to operate its own drone delivery program",
-      "url": "https://www.therobotreport.com/doordash-gains-faa-certification-to-operate-its-own-drone-delivery-program/",
-      "summary": "The FAA approval came nearly a year after DoorDash unveiled its delivery robot and reflects its increasing interest in building automation in-house. The post DoorDash gains FAA certification to operate its own drone delivery program appeared first on The Robot Report.",
-      "published_at": "2026-07-30T18:06:18+00:00",
-      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Teradyne Robotics revenue rises 33% year over year in Q2",
-      "url": "https://www.therobotreport.com/teradyne-robotics-revenue-rises-33-year-over-year-in-q2/",
-      "summary": "Teradyne Robotics said growth in the U.S. and in AI were big drivers for its revenue increase in the second quarter of 2026. The post Teradyne Robotics revenue rises 33% year over year in Q2 appeared first on The Robot Report.",
-      "published_at": "2026-07-30T17:38:52+00:00",
-      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "Stacked sessions and pull requests in the GitHub Copilot app",
-      "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
-      "summary": "Learn how I modernized an old codebase of mine using stacked sessions and pull requests in the GitHub Copilot app. The post Stacked sessions and pull requests in the GitHub Copilot app appeared first on The GitHub Blog.",
-      "published_at": "2026-07-30T17:30:24+00:00",
-      "first_seen_at": "2026-07-30T22:30:21.644207+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "The U.S. Claimed 4,000 Acres in the Philippines for AI",
-      "url": "https://www.youtube.com/shorts/zhdGwWZSdiE",
-      "summary": "Under Secretary of State Jacob Helberg just revealed the US claimed 4,000 acres in the Philippines for AI. That's a third of Manhattan, handed over for one purpose: building a private sector industrial base to secure America's AI supply chain. This is what competing with China ac",
-      "published_at": "2026-07-30T17:03:00+00:00",
       "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
     },
     {
