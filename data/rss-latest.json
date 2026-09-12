@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T13:50:25.118457+00:00",
+  "updated_at": "2026-09-12T23:04:39.457893+00:00",
   "count": 700,
   "new_count": 515,
   "sources": [
@@ -81,6 +81,34 @@
       "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
       "published_at": "2026-09-14T00:00:00+00:00",
       "first_seen_at": "2026-09-12T13:50:25.118457+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "Why Every AI Model Is Starting to Sound the Same",
+      "url": "https://www.youtube.com/shorts/BZTz4HLtOro",
+      "summary": "",
+      "published_at": "2026-09-12T19:59:48+00:00",
+      "first_seen_at": "2026-09-12T23:04:39.457893+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "Will We Still Need Money in the Future?",
+      "url": "https://www.youtube.com/shorts/U6fI1P8VuSs",
+      "summary": "Elon says there won't be any money in the future; people will measure things in energy and mass. Coinbase CEO Brian Armstrong disagrees: \"There's always still gonna be scarcity of certain things, land, especially usable land, energy. So I think we're still gonna need a medium of ",
+      "published_at": "2026-09-12T15:49:21+00:00",
+      "first_seen_at": "2026-09-12T23:04:39.457893+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
+      "url": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
+      "summary": "The difference between FDE and consulting; diagram by Vinoo GaneshFDEs have the hottest job in AI. Labs, startups and PE firms are all hiring engineers to sit inside their customers’ operations and solve their problems. Almost none of them agree on what those engineers are suppos",
+      "published_at": "2026-09-12T15:01:19+00:00",
+      "details": "The difference between FDE and consulting; diagram by Vinoo GaneshFDEs have the hottest job in AI. Labs, startups and PE firms are all hiring engineers to sit inside their customers’ operations and solve their problems. Almost none of them agree on what those engineers are supposed to accomplish, or what the strategy underneath the hiring actually is.I’m Vinoo, CEO of Kepler, the deterministic infrastructure for AI. I’ve built pieces of the forward deployed function three times, at three different institutions, over the course of over a decade. Here’s what I’ve seen work, what I’ve seen fail, and where I think this goes.The first was Palantir. I started there on product development, building storage and retrieval systems, and was later deployed as an FDE across commercial, DoD and NatSec, healthcare, and oil and gas. I also led Project Frontline, the rotation that took our software engineers and turned them into forward deployed engineers. Around 250 people went through this program, and a lot of them run forward deployed teams now at companies like OpenAI, Anthropic, xAI and Anduril.The second was Citadel, where I ran business engineering. Our customers were portfolio managers, and the only question that mattered was whether the data and software products we built helped them generate alpha.The third is Kepler, where the forward deployed function sits inside product rather than sales, in a domain where a plausible wrong answer is worse than no answer at all.FDE misunderstandingsA few months ago, a16z launched the Forward Deployed Engineer Fellowship and I was nominated as one of the fellows, alongside a handful of people I used to work with. It’s a great program and I’ve enjoyed so many of the conversations. Last week I went to my first fellow dinner in SF.Around the table were FDEs from Snowflake, Anthropic, and a number of startups I’d been reading about, and over the course of the evening it became clear that we were all using the same two words (forward deployed) to describe jobs that had almost nothing in common. In one part of the conversation an FDE was a sales engineer who joined ‘the second call,’ somewhere else it was a quota-carrying rep who could write Python, and a few seats down it was closer to a consultant with a laptop and a statement of work, brought in to deliver something the product couldn’t.A few days later, someone earnestly asked our WhatsApp group how their FDE team should split scope with the consulting firm already sitting in the account. That’s a reasonable question to ask, but a strange one to have to answer, at least based on my own belief about what constitutes an FDE.To be clear, I’m not interested in gatekeeping a term; and meanings shift, this one faster than most. But what’s interesting is that folks in this group, the current experts at FDE, are describing fundamentally different jobs, with different reporting lines and different incentives. It’s no wonder half the comments on any YouTube video about FDEs are some version of “isn’t this just reinventing consulting?”So in the rest of this article, I will tell you the story of Project Frontline, through the narrow lens of a mistake I helped make, how that mistake turned me into an FDE, and how it eventually informed the rotation that turned our software engineers into FDEs.The history of Project FrontlineFirst, some context. From nearly the beginning, Palantir was split into two separate functions. The first, Product Development (PD), built the platform. The second was Business Development (BD), which despite the name contained both the technical BD folks (already called FDEs) and non-engineering customer-oriented folks (we called them Embedded Analysts, or Deployment Strategists).PD, in the vast majority of situations, wasn’t directly engaging with customers; and BD, in the vast majority of situations, wasn’t directly contributing to building the core, generalized platform. PD tended to do customer discovery secondhand, by chatting with BD or by consuming the successful build-in-the-field features into the core product. None of that was a process, though. It ran on relationships — such as which FDE happened to know which PD engineer well enough to grab them. So a good insight from the field made it into the platform (or was dropped) depending on who was in the room.Me forward deployed in Bagram Airfield, Afghanistan.In 2013, in my early days at Palantir, I got to work on a transaction store called Phoenix. The store was designed by some of the best engineers I’ve ever worked with, and it had an abundantly clean design scoped to a clear set of customer use cases. The use cases, though, had been relayed to us second-hand. We knew and understood the design requirements, which had a focus on the commercial requirements of retention periods, and had clever solutions to bucket data in a way that enabled storing a rolling window of data. It behaved exactly as specified in every environment we controlled.Then we deployed it at a ",
+      "first_seen_at": "2026-09-12T23:04:39.457893+00:00"
     },
     {
       "source": "The Robot Report",
@@ -503,6 +531,15 @@
       "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
       "published_at": "2026-09-10T00:00:00+00:00",
       "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
+    },
+    {
+      "source": "AgiBot News",
+      "source_type": "rss",
+      "title": "AGIBOT Releases GE-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "url": "https://www.agibot.com/article/231/detail/120.html",
+      "summary": "",
+      "published_at": "2026-09-10T00:00:00+00:00",
+      "first_seen_at": "2026-09-12T23:04:39.457893+00:00"
     },
     {
       "source": "The Robot Report",
@@ -6393,42 +6430,6 @@
       "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
       "published_at": "2026-07-31T00:00:00+00:00",
       "first_seen_at": "2026-07-31T22:19:57.302179+00:00"
-    },
-    {
-      "source": "MiniMax Blog",
-      "source_type": "rss",
-      "title": "MiniMax H3: An Open Model Breaking the Boundaries Between Tasks and Modalities - MiniMax Research",
-      "url": "https://www.minimax.io/blog/minimax-h3",
-      "summary": "Today, we're officially launching MiniMax H3, a general-purpose omni-modal generation model. H3 can jointly understand multimodal contexts spanning text, images, video, and audio. It generates video with native stereo audio at up to 2K resolution and 15 seconds in length.",
-      "published_at": "2026-07-31T00:00:00+00:00",
-      "first_seen_at": "2026-08-05T08:53:54.819943+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics YouTube",
-      "source_type": "youtube",
-      "title": "Physical AI is here—the next wave of AI and the foundation of the next industrial revolution.",
-      "url": "https://www.youtube.com/shorts/TrYsSM_d3TE",
-      "summary": "Physical AI is here—the next wave of AI and the foundation of the next industrial revolution. NVIDIA founder and CEO Jensen Huang outlines the full stack making it possible: Cosmos and Omniverse to develop physical AI in virtual worlds, Isaac and Newton where robots learn skills ",
-      "published_at": "2026-07-30T21:02:00+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
-      "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
-      "summary": "General Science",
-      "published_at": "2026-07-30T20:36:36+00:00",
-      "first_seen_at": "2026-07-30T22:30:21.644207+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Why General Relativity Is the Most Beautiful Idea in Physics - Adam Brown",
-      "url": "https://www.youtube.com/shorts/zB2xgBtXMsE",
-      "summary": "",
-      "published_at": "2026-07-30T20:31:13+00:00",
-      "first_seen_at": "2026-08-04T09:42:11.685338+00:00"
     },
     {
       "source": "Kimi Blog",
