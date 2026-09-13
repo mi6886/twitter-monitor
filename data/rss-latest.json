@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-13T14:47:04.699934+00:00",
+  "updated_at": "2026-09-13T23:12:29.220661+00:00",
   "count": 700,
-  "new_count": 513,
+  "new_count": 514,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -81,6 +81,24 @@
       "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
       "published_at": "2026-09-14T00:00:00+00:00",
       "first_seen_at": "2026-09-12T13:50:25.118457+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "Why China's Compute Is Worth Less Than America's - Dylan Patel",
+      "url": "https://www.youtube.com/shorts/3U3Tj-j_FwQ",
+      "summary": "",
+      "published_at": "2026-09-13T17:00:28+00:00",
+      "first_seen_at": "2026-09-13T23:12:29.220661+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "Why Most AI Chip Startups Will Fail",
+      "url": "https://www.youtube.com/shorts/Rnv7GLfU9Uc",
+      "summary": "As long as the transformer remains the core unit of AI, compute and memory will stay constrained. Rene Haas breaks down why young AI chipmakers face a brutal supply chain reality:",
+      "published_at": "2026-09-13T15:12:18+00:00",
+      "first_seen_at": "2026-09-13T23:12:29.220661+00:00"
     },
     {
       "source": "The Robot Report",
@@ -6411,25 +6429,6 @@
       "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
       "published_at": "2026-07-31T07:00:00+00:00",
       "first_seen_at": "2026-07-31T12:56:21.427287+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
-      "url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
-      "summary": "One of our big “hero charts” a year ago (eventually adopted by Demis) made the stunning observation that, holding LMSys Elo constant, GPT4 level intelligence fell by 1000x over 18 months:Back then, it was unclear if these were “noob gains” - going from unoptimized to optimized, g",
-      "published_at": "2026-07-31T04:40:54+00:00",
-      "details": "One of our big “hero charts” a year ago (eventually adopted by Demis) made the stunning observation that, holding LMSys Elo constant, GPT4 level intelligence fell by 1000x over 18 months:Back then, it was unclear if these were “noob gains” - going from unoptimized to optimized, going from completions to reasoning, going from dense to MoE, with all the low hanging fruit gone. Another 18 months later, it seems the answer is no; constant-level intelligence is continuing to get precipitously cheaper.Yesterday, OpenAI published findings on how GPT 5.6 had optimized its own serving:1. Inference AccelerationTo serve more tokens on the same hardware without sacrificing quality, OpenAI focused on several systemic upgrades:Self-Optimization: GPT-5.6 Sol was actively used to analyze production traffic, tune load balancing, and autonomously rewrite production kernels in OpenAI’s own Triton and Gluon languages. This autonomous kernel optimization reduced end-to-end serving costs by 20%.Speculative Decoding: Improved its own draft model (by designing and running hundreds of experiments on its architecture, testing changes in size, structure, and features, while monitoring the speculator training process, autonomously intervening when issues arose, including hardware failures and training instability) increasing token-generation efficiency by over 15%.KV Caching: Optimized batching, sharding, and cache management specific to different workloads (primarily Sol in Codex) to extract more inference from existing hardware.2. Agentic Harness ImprovementsTo streamline the complex, multi-step tasks in tools like Codex and ChatGPT Work, OpenAI optimized their Rust orchestration layer to reduce repetitive compute costs:Avoiding Context Bloat: Tools, skills, and plugins are only surfaced when needed (deferred discovery), and tool outputs are capped at 10,000 tokens by default to prevent the context window from expanding unnecessarily.Prompt Caching: To avoid reprocessing the same instructions and history repeatedly, the harness treats all model-visible history as append-only. This preserves the prompt prefix, allowing the system to reuse previously computed data and maintain a high cache hit rate.Today, they proved it wasn’t just theory, announcing large price cuts for the smaller models and a new 2.5x Faster mode in Sol (though not the hinted 10x faster Cerebras-driven mode promised in July):That is a beautiful Pareto curve — if AA’s Cost per Task is reflective of real world tasks, then OpenAI has beat even open models like DeepSeek, GLM, and MiniMax, and dedicated cheap-but-good models like Gemini Flash-Lite.Good, but what is truly jaw dropping is Nicdunz’s observation:GPT-5.4 full at xhigh scored 51, exactly where Luna max sits today. GPT-5.4 costs $2.50/$15; Luna now costs $0.20/$1.20. In other words, roughly four months later, OpenAI is selling March’s full flagship intelligence at about one-thirteenth the token price.That’s an annualized rate of ~2000x a year, a huge acceleration since our last observation - which you SHOULD discount because all public benchmarks like AA’s get trained to some extent whereas Elos are less directly trainable. While leading Chinese and American open models like Poolside’s Laguna and Thinky’s Inkling offer full control and sovereignty, if your only goal is cost-effective non-finetuned intelligence, you will find it -very- hard to beat OpenAI right now.AI News for 7/29/2026-7/30/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpenAI Pricing Cuts, Harness Semantics, and the ARC-AGI-3 Memory DebateOpenAI cut GPT-5.6 prices aggressively and added a faster Sol tier: OpenAI reduced GPT-5.6 Luna by 80% and Terra by 20%, while introducing Sol Fast at up to 2.5× lower latency for 2× the standard price with “no change in intelligence,” per @OpenAIDevs. The downstream effect is notable for agent workflows: Auto-review in ChatGPT app and Codex CLI is moving from GPT-5.4 to Luna, with OpenAI expecting roughly 10× lower cost. Multiple observers framed this as a meaningful shift in the price/performance frontier, including @sama, @nicdunz, and @kimmonismus. OpenAI also tied the cuts to systems-level efficiency improvements spanning “model, inference stack, and agentic harness” per @OpenAIDevs.ARC-AGI-3 re-emphasized that “the model” is not the whole system: The most technical eval discussion centered on harness design, memory retention, and context compaction. François Chollet clarified ARC’s rules: bespoke benchmark-specific harnesses are disallowed, but general-purpose API features available to all users are acceptable if settings and cost are reported. A detailed summary from @kimmonismus contrasted Opus 5 at 30.2% on the official semi-private ARC setup with GPT-5.6 Sol at 7.8% under the standard harness, while noting OpenAI’s in",
-      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "ByteDance Seed Blog",
-      "source_type": "rss",
-      "title": "Seed News - ByteDance Seed Team",
-      "url": "https://seed.bytedance.com/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-      "summary": "One-take Creation, Flexible Referencing: Introducing Seedance 2.5",
-      "published_at": "2026-07-31T00:00:00+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
     },
     {
       "source": "Kimi Blog",
