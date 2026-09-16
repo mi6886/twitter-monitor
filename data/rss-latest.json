@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-16T15:18:54.013545+00:00",
+  "updated_at": "2026-09-16T23:39:51.944928+00:00",
   "count": 700,
-  "new_count": 511,
+  "new_count": 510,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,72 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "OLogic to share how robots can learn from human demonstrations at RoboBusiness",
+      "url": "https://www.therobotreport.com/ologic-to-share-how-robots-can-learn-from-human-demonstrations-at-robobusiness/",
+      "summary": "Some of the robots OLogic has helped to build, Bear Robotics’ AMR, Locus Robotics’ AMR, Zoetic’s KiKi social robot, Simbe Robotics’ Tally, and Misty Robotics’ personal robot. | Source: OLogic Egocentric robot learning is emerging as a powerful approach for developing more capable",
+      "published_at": "2026-09-16T20:31:29+00:00",
+      "first_seen_at": "2026-09-16T23:39:51.944928+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
+      "url": "https://www.latent.space/podcast",
+      "summary": "AIUC first got our attention with the NFDG backing, and have just announced a $40M series A today, with the most impressive industry advisor list we may have ever seen for an early startup behind AIUC-1, their agent standard backed by real insurance:From being Anthropic’s first p",
+      "published_at": "2026-09-16T18:07:45+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/215893904/498e50787a4f6e12e12b40465b0792de.mp3",
+      "details": "AIUC first got our attention with the NFDG backing, and have just announced a $40M series A today, with the most impressive industry advisor list we may have ever seen for an early startup behind AIUC-1, their agent standard backed by real insurance:From being Anthropic’s first product hire to building the standards, testing, and insurance infrastructure meant to make frontier AI deployable, Rune Kvist is betting that the biggest constraint on AI adoption won’t be capability it will be trust. In this episode, the AIUC cofounder joins swyx and Vibhu to announce a new $40M round and explain why companies like Cursor, Harvey, Lovable, and ElevenLabs are increasingly confronting a problem that gets harder as AI gets better: who is responsible when autonomous systems fail?We go deep on AIUC-1, the emerging standard for agent security, safety, and reliability; how AI agents are stress-tested for jailbreaks, hallucinations, and data leaks; and why Rune thinks standards and insurance could become critical infrastructure for AI. We also discuss the growing trust gap between governments and frontier labs, AI-enabled cyber and biological risks, why every model can ultimately be jailbroken, what happens when a $20 coding agent causes $200M of damage, whether AI engineers should be certified, and why even after AGI there may be one job the labs can never do themselves: be their own watchdog.We discuss:Why risk, liability, and trust may become the binding constraint on AI adoptionRune’s path from reading the Scaling Laws paper to joining Anthropic in its earliest daysWhat Anthropic understood about scaling, compute, and the future years before it became obviousWhy Waymo illustrates the gap between AI capability and real-world deploymentAIUC’s $40M round and work with Cursor, Harvey, Lovable, ElevenLabs, and other frontier AI companiesAIUC-1: a standard for AI agent security, safety, and reliabilityHow agents are tested for jailbreaks, hallucinations, and data leakageWhy most AI companies optimize the happy path without seriously stress-testing adversarial casesWhy AI standards may need to update every quarter instead of every decadeThe emerging trust gap between frontier AI labs and governmentsCybersecurity, child safety, biological weapons, and the expanding frontier-model risk surfaceWhy standards and insurance may need to evolve togetherHow Lloyd’s of London can insure AI systems and bring trust to enterprise deploymentWhat happens if a $20 Cursor subscription contributes to a $200M plane crashThe Air Canada chatbot case and how AI failures are beginning to clarify legal liabilityWhy copyright may be one of the hardest AI risks to insureEvals, mechanistic interpretability, monitoring, and models becoming aware they’re being testedThe impossible CISO mandate: adopt AI fast, but don’t let anything go wrongWhy robotics will make AI liability dramatically more consequentialWhether AI engineers should have Level 1, 2, and 3 certificationsAIUC’s roadmap across agents, frontier models, robotics, and universal red teamingWhy AGI could become a question of national sovereigntyWhy the labs can never fully serve as their own watchdogsThe Big Short problem: how do you stop competing watchdogs from racing standards to the bottom?Rune KvistLinkedIn: https://www.linkedin.com/in/runekvist/X: https://x.com/RuneKvistAIUChttps://aiuc.comTimestamps00:00:00 AIUC’s $40M Round and the Risk Bottleneck for AI00:01:07 From Scaling Laws to Early Anthropic00:07:58 Why Trust, Not Capability, Could Limit AI Adoption00:12:19 Founding AIUC and Building AIUC-100:18:52 How AI Agents Are Audited and Stress-Tested00:25:26 Frontier Models, Government, and the AI Trust Gap00:33:32 Cyber, Child Safety, and AI-Enabled Biological Risk00:38:14 Why Standards and Insurance Belong Together00:41:45 What Does an AI Insurance Policy Actually Cover?00:50:44 The $20 Cursor Subscription and the $200M Plane Crash00:53:53 AI Liability, Monitoring, and Earning Enterprise Trust00:56:21 From AI Agents to Models to Robotics00:58:29 Copyright, Adverse Selection, and AI Insurance01:03:28 Evals, Mechanistic Interpretability, and Eval Awareness01:08:36 The Impossible Enterprise AI Mandate01:11:52 Prediction Markets vs. AI Audits01:14:43 Should AI Engineers Be Certified?01:19:10 AIUC’s Roadmap, AGI, and Who Watches the Watchdogs?TranscriptIntroduction: AIUC, the $40M Series A, and Risk as the Adoption BottleneckSwyx [00:00:00]: Okay, we’re in the studio with Rune from AIUC, the Artificial Intelligence Underwriting Company, with our trusty co-host, Vibhu. Welcome.Rune Kvist [00:00:10]: Thank you. Thanks for having me. Thank you.Swyx [00:00:11]: What are you announcing today?Rune Kvist [00:00:12]: We have raised $40 million, led by Ribbit Capital and First Harmonic.Swyx [00:00:17]: You first came to my attention when Nat and Daniel invested in you guys. Is the story, like, pretty much the same? Like, what are you today versus what you thought you were back then?Rune Kvist [00:00:2",
+      "dedupe_key": "podcast:9e07196cdc547259accad4524254ab8129ea0fcc",
+      "first_seen_at": "2026-09-16T23:39:51.944928+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "The Watchdogs of AGI — Rune Kvist of AI Underwriting Company",
+      "url": "https://www.youtube.com/watch?v=Sc2_LfWgHb4",
+      "summary": "From their seed led by Nat Friedman and Dan Gross, AIUC has now announced a monster $40M Series A! From being Anthropic’s first product hire to building the standards, testing, and insurance infrastructure meant to make frontier AI deployable, Rune Kvist is betting that the bigge",
+      "published_at": "2026-09-16T18:01:13+00:00",
+      "first_seen_at": "2026-09-16T23:39:51.944928+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "The evolution of Digit: Agility Robotics’ journey from Cassie to Digit 5",
+      "url": "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/",
+      "summary": "From left to right: Cassie and Digit through the years. | Source: Agility Robotics Agility Robotics has been operating for over 10 years, and in that time it’s created five different versions of its Digit humanoid. The company has grown from its roots in the Dynamic Robotics Lab ",
+      "published_at": "2026-09-16T17:45:50+00:00",
+      "first_seen_at": "2026-09-16T23:39:51.944928+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "published_at": "2026-09-16T17:00:00+00:00",
+      "first_seen_at": "2026-09-16T23:39:51.944928+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "source_type": "rss",
+      "title": "Rethinking Robot Safety in the Age of AI",
+      "url": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
+      "summary": "This article is brought to you by VicOne.Robot safety has traditionally asked: Can a machine remain safe when something goes wrong? Physical AI raises a harder question: Can a machine remain safe when an attacker changes what it sees, decides, or does even when nothing appears to",
+      "published_at": "2026-09-16T16:51:02+00:00",
+      "first_seen_at": "2026-09-16T23:39:51.944928+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Helping older adults use AI in everyday life",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "published_at": "2026-09-16T16:00:00+00:00",
+      "first_seen_at": "2026-09-16T23:39:51.944928+00:00"
+    },
     {
       "source": "NVIDIA Blog",
       "source_type": "rss",
@@ -128,6 +194,15 @@
       "first_seen_at": "2026-09-16T15:18:54.013545+00:00"
     },
     {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "How to connect AI usage to business value",
+      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+      "published_at": "2026-09-16T12:00:00+00:00",
+      "first_seen_at": "2026-09-16T23:39:51.944928+00:00"
+    },
+    {
       "source": "Latent Space",
       "source_type": "rss",
       "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
@@ -136,6 +211,15 @@
       "published_at": "2026-09-16T11:09:53+00:00",
       "details": "AIEi Paris (Sep 23-24) and AIE NYC (Oct 12-14) is >50% sold out, AIE CODE (Nov 10-12 in SF) and AIEi Shanghai (Nov 5-6) are next on deck before AIEi Sydney (Dec 7-8 alongside NeurIPS) closes the year!It’s very rare that a new startup launch will make title story, especially on a day when Gemini 3.8 Live and Periodic Labs had strong announcements, however, TypeSafe’s launch has sat comfortably atop Hacker News all day. We were fortunate to preview them last month at AIE pre launch:and now their announcement (blog, evals, docs) has gotten millions of views:For those used to traditional autoregressive LLMs, a fast model that cannot code and doesn’t reason might feel counterintuitive in its usefulness. That’s exactly what the team is aiming for in complementing “System Two” slower LLMs: you let go of strings and chat, and you get 1) parallel sampling, 2) “no hallucination”, 3) calibration.The system was trained through “RLCD” - calibrated decisions: a topic that Clementine from HuggingFace had highlighted as one of the important research frontiers in our pod:AI News for 9/14/2026-9/15/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapPeriodic Labs’ Neon: Lab-Grounded RL for Materials ScienceNeon’s core result: The biggest technical story in the set is Periodic Labs’ Neon announcement via Liam Fedus: a model trained in a tight loop between high-throughput physical labs and ML, focused first on materials science problems like superconductors, magnets, and semiconductors. Periodic says it used 1,300 H200s, months of proprietary experimental data, mid-training plus RL, and an open-source base model to surpass GPT-6 Astra on its analysis benchmark. Follow-on posts add useful detail: @periodiclabs describes continuously running experiments feeding model improvement; @DBahdanau says the team trained a 1T-parameter XRD analysis expert; @khoomeik frames it as a trillion-parameter model for experimental data analysis beating Astra and Fable on the task.Why it matters technically: Several reactions converge on the same thesis: domain-specific data plus RL infra can beat frontier general models on narrow but valuable scientific workloads. @zephyr_z9 highlights that Periodic pushed a Kimi 2.5/K2.x base past Astra; @_jasonwei notes this as evidence that specialized private data becomes increasingly decisive near the frontier of science; @vwxyzjn emphasizes the unusual part: RL on real experimental data from physical labs, plus bespoke infra and a sandbox system; @zijie_y adds that long scientific traces stressed memory and parallelism enough that training Neon required frontier work in long-context training efficiency. A more complete community summary from @brianzhan1 claims Neon starts from Kimi K2.6, lifts success on an internal FrontierXRD eval from 2.7% to 55.3%, and beats Astra and Claude Fable 5.1 at lower inference cost.Implication: This looks like a concrete template for “AI for science” beyond paper benchmarks: vertically integrated labs producing proprietary data, models trained against scientist-calibrated rewards, and deployment back into experimentation. The strongest meta-observation came from @richardczl: every company with a meaningful data moat will likely try this play, shifting bottlenecks toward RL rollout throughput, verifier compute, and weight sync.Gemini 3.8 Live and the Push Toward Real-Time Voice AgentsGoogle’s new live audio models: Google launched Gemini 3.8 Live and 3.8 Live Extended Thinking, positioned as conversational models that can talk, think, and handle tasks in the background without breaking flow. The developer-facing rollout from @GoogleAIStudio and summary from @_philschmid add the key product details: 97-language support, async tool calls while speaking, availability via Gemini API / AI Studio, and partner support through LiveKit, Pipecat, LangChain, and Vercel.Benchmarks and economics: Artificial Analysis provides the most technical external read. Gemini 3.8 Live Extended Thinking (High) debuts #1 on its speech-to-speech index at 82.6, ahead of GPT-Live-1 Astra (81.5), and #1 on Tau Voice at 68.6%. The standard Live model is cheaper and faster but much weaker on agentic voice tasks. On pricing, standard 3.8 Live is reported at $0.84/hour input audio, while Extended Thinking High is $3.50/hour, still below several competing live models. This reinforces the theme that Google is optimizing not just quality, but deployability for production voice agents.TypeSafe’s Jev and RLCD: Decision Models Instead of Text GeneratorsNew model category, or at least a new packaging of one: One of the highest-engagement technical launches was Diogo Almeida/TypeSafe’s Jev announcement, claiming a new frontier model trained with RLCD and optimized for decisions, not text generation: 20–200x faster, 40–400x cheaper, with output",
       "first_seen_at": "2026-09-16T15:18:54.013545+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "How workers are unlocking new ways of working",
+      "url": "https://openai.com/index/unlocking-new-ways-of-working",
+      "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+      "published_at": "2026-09-16T09:00:00+00:00",
+      "first_seen_at": "2026-09-16T23:39:51.944928+00:00"
     },
     {
       "source": "NVIDIA Blog",
@@ -6342,87 +6426,6 @@
       "url": "https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation/",
       "summary": "A central challenge in robotics is building policies that generalize beyond the demonstrations they’re trained on. A policy that succeeds in a training scene often fails when object shapes, positions, or lighting change. Generalizing to these new conditions requires the policy to",
       "published_at": "2026-08-04T16:00:00+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Humanoids won’t scale on factory floors until costs drop",
-      "url": "https://www.therobotreport.com/humanoids-wont-scale-on-factory-floors-until-costs-drop/",
-      "summary": "The race to commercialize humanoids is on. What’s left to prove is that humanoid robots can beat the economics of the automation manufacturers are already running. The post Humanoids won’t scale on factory floors until costs drop appeared first on The Robot Report.",
-      "published_at": "2026-08-04T15:15:10+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
-      "url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
-      "summary": "For robotaxis and other autonomous vehicles (AVs), the hardest problems aren’t the everyday scenarios. They’re the rare, complex situations that are difficult to anticipate and train for. Handling these long‑tail events takes more than just object detection and motion prediction.",
-      "published_at": "2026-08-04T15:00:49+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "As AI Increases Demands on Memory, Storage Steps Up",
-      "url": "https://blogs.nvidia.com/blog/ai-storage-fms/",
-      "summary": "Surging AI demands are driving the need for massive datasets and context windows that burst past the confines of system memory. But rising needs aren’t met by simply adding more storage capacity. What’s needed is useful, grounded insights from AI factories and efficient, secure s",
-      "published_at": "2026-08-04T15:00:47+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Tech Blog",
-      "source_type": "rss",
-      "title": "Generate Trajectories, Reasoning Traces, and Auto-Labels with NVIDIA Alpamayo 2 Super",
-      "url": "https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super/",
-      "summary": "Autonomous vehicle (AV) development often relies on separate models for trajectory generation, high-level intent prediction, scene understanding, and data labeling. This separation makes it hard to compare related outputs, investigate model behavior, and reuse the same representa",
-      "published_at": "2026-08-04T15:00:00+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
-      "summary": "",
-      "published_at": "2026-08-04T13:58:29+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Boston Dynamics YouTube",
-      "source_type": "youtube",
-      "title": "Why Does Atlas Have A Head? #askaroboticist #bostondynamics",
-      "url": "https://www.youtube.com/shorts/VmBS2N1FzmE",
-      "summary": "Taylor Frey-Baker, a mechanical engineer at Boston Dynamics, answers questions about why the current iteration of Atlas has a head, how the brain of the robot works, and how Atlas understands the world around it.",
-      "published_at": "2026-08-04T13:55:11+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Boston Dynamics Blog",
-      "source_type": "rss",
-      "title": "Ask a Roboticist: Meet Taylor | Boston Dynamics",
-      "url": "https://bostondynamics.com/blog/ask-a-roboticist-meet-taylor/",
-      "summary": "Taylor Frey-Baker, a mechanical engineer, answers questions robot heads, robot brains, and her own path to becoming a roboticist.",
-      "published_at": "2026-08-04T13:22:13+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
-      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
-      "summary": "Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today. The Linux Foundation today shared a Request for Comments on Shared ",
-      "published_at": "2026-08-04T13:00:47+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "The latest AI news we announced in July 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
-      "summary": "Here are Google’s latest AI updates from July 2026",
-      "published_at": "2026-08-04T13:00:00+00:00",
       "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
     },
     {
