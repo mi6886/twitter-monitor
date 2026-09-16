@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-15T23:32:30.699729+00:00",
+  "updated_at": "2026-09-16T15:18:54.013545+00:00",
   "count": 700,
-  "new_count": 510,
+  "new_count": 511,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,88 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+      "summary": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportiona",
+      "published_at": "2026-09-16T15:00:48+00:00",
+      "first_seen_at": "2026-09-16T15:18:54.013545+00:00"
+    },
+    {
+      "source": "Boston Dynamics Blog",
+      "source_type": "rss",
+      "title": "Boston Dynamics Joins DoW SkillBridge Program | Boston Dynamics",
+      "url": "https://bostondynamics.com/blog/boston-dynamics-joins-dow-skillbridge-program/",
+      "summary": "Boston Dynamics is proud to announce that we are now an official DoW SkillBridge Industry Partner. The SkillBridge program helps service members transition into civilian careers with on-the-job training, apprenticeships, or internships. Each year approximately 200,000 members of ",
+      "published_at": "2026-09-16T14:56:20+00:00",
+      "first_seen_at": "2026-09-16T15:18:54.013545+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "What AI Will Actually Do for Math in the Next 5 Years - Grant Sanderson",
+      "url": "https://www.youtube.com/shorts/FxwiNX6l5qA",
+      "summary": "",
+      "published_at": "2026-09-16T14:49:48+00:00",
+      "first_seen_at": "2026-09-16T15:18:54.013545+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "The Agentic Economy Will Be Bigger Than Ours",
+      "url": "https://www.youtube.com/shorts/3STlBy9igV8",
+      "summary": "\"There'll be more agents than humans in the not too distant future. The agentic economy will be bigger than the human economy.\" Coinbase CEO Brian Armstrong on the future of AI agents, on No Priors.",
+      "published_at": "2026-09-16T14:39:53+00:00",
+      "first_seen_at": "2026-09-16T15:18:54.013545+00:00"
+    },
+    {
+      "source": "a16z AI YouTube",
+      "source_type": "youtube",
+      "title": "Why the Next Generation of Enterprise Software Looks Nothing Like Salesforce",
+      "url": "https://www.youtube.com/watch?v=K5yGLO8c6T0",
+      "summary": "a16z’s Alex Rampell and Joe Schmidt sit down with Lightfield co-founder and CEO Keith Peiris to discuss what it takes to rethink the CRM for an AI-native world, and the unusual pivot that got him there. Keith previously built Tome to 25 million users, but eventually walked away f",
+      "published_at": "2026-09-16T14:30:12+00:00",
+      "first_seen_at": "2026-09-16T15:18:54.013545+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+      "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+      "summary": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its",
+      "published_at": "2026-09-16T13:00:33+00:00",
+      "first_seen_at": "2026-09-16T15:18:54.013545+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Reimagining advertising with AI",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "published_at": "2026-09-16T13:00:00+00:00",
+      "first_seen_at": "2026-09-16T15:18:54.013545+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
+      "url": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
+      "summary": "AIEi Paris (Sep 23-24) and AIE NYC (Oct 12-14) is >50% sold out, AIE CODE (Nov 10-12 in SF) and AIEi Shanghai (Nov 5-6) are next on deck before AIEi Sydney (Dec 7-8 alongside NeurIPS) closes the year!It’s very rare that a new startup launch will make title story, especially on a ",
+      "published_at": "2026-09-16T11:09:53+00:00",
+      "details": "AIEi Paris (Sep 23-24) and AIE NYC (Oct 12-14) is >50% sold out, AIE CODE (Nov 10-12 in SF) and AIEi Shanghai (Nov 5-6) are next on deck before AIEi Sydney (Dec 7-8 alongside NeurIPS) closes the year!It’s very rare that a new startup launch will make title story, especially on a day when Gemini 3.8 Live and Periodic Labs had strong announcements, however, TypeSafe’s launch has sat comfortably atop Hacker News all day. We were fortunate to preview them last month at AIE pre launch:and now their announcement (blog, evals, docs) has gotten millions of views:For those used to traditional autoregressive LLMs, a fast model that cannot code and doesn’t reason might feel counterintuitive in its usefulness. That’s exactly what the team is aiming for in complementing “System Two” slower LLMs: you let go of strings and chat, and you get 1) parallel sampling, 2) “no hallucination”, 3) calibration.The system was trained through “RLCD” - calibrated decisions: a topic that Clementine from HuggingFace had highlighted as one of the important research frontiers in our pod:AI News for 9/14/2026-9/15/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapPeriodic Labs’ Neon: Lab-Grounded RL for Materials ScienceNeon’s core result: The biggest technical story in the set is Periodic Labs’ Neon announcement via Liam Fedus: a model trained in a tight loop between high-throughput physical labs and ML, focused first on materials science problems like superconductors, magnets, and semiconductors. Periodic says it used 1,300 H200s, months of proprietary experimental data, mid-training plus RL, and an open-source base model to surpass GPT-6 Astra on its analysis benchmark. Follow-on posts add useful detail: @periodiclabs describes continuously running experiments feeding model improvement; @DBahdanau says the team trained a 1T-parameter XRD analysis expert; @khoomeik frames it as a trillion-parameter model for experimental data analysis beating Astra and Fable on the task.Why it matters technically: Several reactions converge on the same thesis: domain-specific data plus RL infra can beat frontier general models on narrow but valuable scientific workloads. @zephyr_z9 highlights that Periodic pushed a Kimi 2.5/K2.x base past Astra; @_jasonwei notes this as evidence that specialized private data becomes increasingly decisive near the frontier of science; @vwxyzjn emphasizes the unusual part: RL on real experimental data from physical labs, plus bespoke infra and a sandbox system; @zijie_y adds that long scientific traces stressed memory and parallelism enough that training Neon required frontier work in long-context training efficiency. A more complete community summary from @brianzhan1 claims Neon starts from Kimi K2.6, lifts success on an internal FrontierXRD eval from 2.7% to 55.3%, and beats Astra and Claude Fable 5.1 at lower inference cost.Implication: This looks like a concrete template for “AI for science” beyond paper benchmarks: vertically integrated labs producing proprietary data, models trained against scientist-calibrated rewards, and deployment back into experimentation. The strongest meta-observation came from @richardczl: every company with a meaningful data moat will likely try this play, shifting bottlenecks toward RL rollout throughput, verifier compute, and weight sync.Gemini 3.8 Live and the Push Toward Real-Time Voice AgentsGoogle’s new live audio models: Google launched Gemini 3.8 Live and 3.8 Live Extended Thinking, positioned as conversational models that can talk, think, and handle tasks in the background without breaking flow. The developer-facing rollout from @GoogleAIStudio and summary from @_philschmid add the key product details: 97-language support, async tool calls while speaking, availability via Gemini API / AI Studio, and partner support through LiveKit, Pipecat, LangChain, and Vercel.Benchmarks and economics: Artificial Analysis provides the most technical external read. Gemini 3.8 Live Extended Thinking (High) debuts #1 on its speech-to-speech index at 82.6, ahead of GPT-Live-1 Astra (81.5), and #1 on Tau Voice at 68.6%. The standard Live model is cheaper and faster but much weaker on agentic voice tasks. On pricing, standard 3.8 Live is reported at $0.84/hour input audio, while Extended Thinking High is $3.50/hour, still below several competing live models. This reinforces the theme that Google is optimizing not just quality, but deployability for production voice agents.TypeSafe’s Jev and RLCD: Decision Models Instead of Text GeneratorsNew model category, or at least a new packaging of one: One of the highest-engagement technical launches was Diogo Almeida/TypeSafe’s Jev announcement, claiming a new frontier model trained with RLCD and optimized for decisions, not text generation: 20–200x faster, 40–400x cheaper, with output",
+      "first_seen_at": "2026-09-16T15:18:54.013545+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+      "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+      "summary": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how reg",
+      "published_at": "2026-09-16T05:00:42+00:00",
+      "first_seen_at": "2026-09-16T15:18:54.013545+00:00"
+    },
     {
       "source": "NVIDIA Blog",
       "source_type": "rss",
@@ -203,9 +285,9 @@
     {
       "source": "The Robot Report",
       "source_type": "rss",
-      "title": "Agility’s Digit 5 humanoid has new legs, batteries and safety upgrades",
+      "title": "Agility’s Digit 5 humanoid has new legs, batteries, and safety upgrades",
       "url": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/",
-      "summary": "Agility said it engineered Digit 5 for cooperatively safe work at scale. | Source: Agility Robotics Agility Robotics today unveiled Digit 5, the latest version of its humanoid robot. The news comes as Agility prepares to go public through a proposed SPAC merger with Churchill Cap",
+      "summary": "Agility said it engineered Digit 5 for cooperatively safe work at scale. | Source: Agility Robotics Agility Robotics today unveiled Digit 5, the latest version of its humanoid robot. The news comes as the company prepares to go public through a proposed SPAC merger with Churchill",
       "published_at": "2026-09-15T10:55:15+00:00",
       "first_seen_at": "2026-09-15T15:25:45.447519+00:00"
     },
@@ -6342,88 +6424,6 @@
       "summary": "Here are Google’s latest AI updates from July 2026",
       "published_at": "2026-08-04T13:00:00+00:00",
       "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Cursor Blog",
-      "source_type": "rss",
-      "title": "Mixture-of-Kittens: our open-source MoE megakernel for NVL72s",
-      "url": "https://cursor.com/blog/mixture-of-kittens",
-      "summary": "We're open-sourcing Mixture-of-Kittens, a deterministic MoE training megakernel for NVL72s that fuses communication and computation into a single kernel.",
-      "published_at": "2026-08-04T12:00:00+00:00",
-      "first_seen_at": "2026-08-17T21:44:23.269199+00:00"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "What Robotics Companies Think About the U.S. Foreign Robot Ban",
-      "url": "https://spectrum.ieee.org/fcc-covered-list-mobile-robots",
-      "summary": "The U.S. Federal Communications Commission (FCC) “Covered List,” originally published in 2021, identifies communications equipment and services that it says pose a threat to national security. On 28 July, the FCC added mobile, communicating robots weighing more than 2 kilograms a",
-      "published_at": "2026-08-04T11:00:01+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Qoder Blog",
-      "source_type": "rss",
-      "title": "Q 仔群聊智能问答助手操作手册",
-      "url": "https://qoder.com/zh/blog/qoder-case-q",
-      "summary": "Q仔是接入群聊的智能问答助手，只依据知识库有据才答，遇到不确定的问题自动私聊同事确认，并把确认过的答案沉淀为新知识。",
-      "published_at": "2026-08-04T10:30:11+00:00",
-      "first_seen_at": "2026-08-05T12:52:03.892706+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
-      "url": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
-      "summary": "After the Qwen Exodus last year and new management took over launching more closed model APIs, there was some real doubt as to whether or not this leading open models lab would continue to release relevant models.That doubt is now gone. Qwen 3.8 Max is a MONSTER 2.4T model that w",
-      "published_at": "2026-08-04T03:49:14+00:00",
-      "details": "After the Qwen Exodus last year and new management took over launching more closed model APIs, there was some real doubt as to whether or not this leading open models lab would continue to release relevant models.That doubt is now gone. Qwen 3.8 Max is a MONSTER 2.4T model that would have been the top open model in the world but for the Kimi K3 release we already covered.Qwen offers them on API for $2 input/$6 output per million tokens, but they have promised to open-weight both models.Key Capabilities & Breakthrough HighlightsAutonomous Long-Horizon Coding:10+ Days Unattended Coding: Built a self-evolving coding harness from scratch over a multi-week autonomous run.Autonomous AI Research: Rebuilt a complete paper’s pipeline (Unified Data Selection for LLM Reasoning) from scratch, then autonomously ran an iterative research loop over 125 hours to invent a new data selection method beating the original paper’s benchmark by +2.71 points.Competitive Data Science: Competed against 526 human teams in the WWW2025 Multimodal Dialogue Intent Recognition Challenge, placing in the top 13% (outperforming 87% of human teams) within 24 hours.Autonomous Hardware & Chip Design:Executed a complete silicon design flow (GCD/RSA cryptographic accelerator) from RTL editing to simulation, synthesis, and physical layout.Reduced gate count from 8,298 to 678 gates while achieving an 81% die area reduction and meeting physical timing closure at 500 MHz.Deep Real-World Work & Operations:Demonstrated production-grade outputs across hundreds of professional workflows (e.g., corporate legal reviews, UI/UX design, structural engineering models, and automated ETF quant research).Outperformed competing models in the E-Commerce Bench (a 365-day store operation simulation), generating a 4.16x return (¥416,252 balance) through continuous game-theoretic negotiation and inventory planning.Multimodal Agents & Visual Feedback:Integrates native visual feedback across planning, coding, and GUI interaction, enabling direct application recreation across platforms (desktop, mobile, web).Released Qwen-MM-Plugins to extend multimodal capabilities to existing agent frameworks.A very nice win for open weights! On today’s pod with Baseten we talked about what it’s like to support these massive model drops on release.AI News for 7/25/2026-7/27/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapTop Story: Qwen 3.8 Max open model launchWhat happenedAlibaba Qwen announced Qwen3.8-Max as its new flagship and said open weights are coming next week.Alibaba introduced Qwen3.8-Max as its “most capable model to date,” describing it as a 2.4T-parameter model focused on coding, long-horizon agentic work, and multimodal reasoning, with the explicit claim that open weights will be released next week, alongside Qwen3.8-27B also going open-weight @Alibaba_QwenThe launch tweet also included API pricing: $2.00 / M input tokens, $6.00 / M output tokens, and $0.25 / M cached tokens @Alibaba_QwenAlibaba framed the model around several headline capabilities: 10+ days of autonomous coding, 500+ turns of chip design optimization, 365 days of e-commerce strategy, and native multimodal intelligence where vision is part of the execution loop rather than just an input channel @Alibaba_QwenThe company simultaneously pushed availability across its own surfaces and partners: Qwen Studio, API, Command Code, and later Venice; infra and app builders quickly confirmed support plans or integrations including Baseten, Hermes Agent, and Command Code @Alibaba_Qwen @Alibaba_Qwen @baseten @TekniumThe announcement landed as part of a broader pattern: multiple observers described it as evidence that the Chinese open-weight frontier is now competing directly with top Western closed models, especially in coding, agentic workflows, and multimodal tasks @kimmonismus @matvellosoOfficial claims and reported specsVendor-reported model details and performance claims were unusually aggressive for an open-weight release.Alibaba’s own framing:2.4T total parameters @Alibaba_QwenLong-horizon agentic/cowork focus @Alibaba_QwenAutonomous coding over 10+ days with a public GitHub trace @Alibaba_Qwen500+ turns for chip design optimization @Alibaba_Qwen365 days of e-commerce strategy execution @Alibaba_QwenNative multimodal planning loop rather than vision-only input @Alibaba_QwenThird-party summary tweet from ZhihuFrontier added more claimed or reported technical details:95B active parameters per token, implying an MoE activation ratio of roughly 4%1M-token context windowAPI exposes low / medium / xhigh reasoning-effort modesCompatibility with OpenAI and Anthropic protocolsBenchmark claims: PaperBench 93.0, CoWorkBench 74.8, WideSearch 81.9 @ZhihuFrontierVals AI independently posted concrete eval/runtime settings:1M token context128k max",
-      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "Agility Robotics",
-      "source_type": "rss",
-      "title": "Agility’s Humanoid Deployment Process | Agility",
-      "url": "https://www.agilityrobotics.com/content/agilitys-humanoid-deployment-process",
-      "summary": "",
-      "published_at": "2026-08-04T00:00:00+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "source_type": "rss",
-      "title": "Tino Cuellar joins Anthropic as Chief Global Affairs Officer",
-      "url": "https://www.anthropic.com/news/tino-cuellar",
-      "summary": "",
-      "published_at": "2026-08-04T00:00:00+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "New ways to learn and teach with ChatGPT Work and Codex",
-      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
-      "published_at": "2026-08-04T00:00:00+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Apple is getting this wrong",
-      "url": "https://openai.com/index/apple-is-getting-this-wrong",
-      "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
-      "published_at": "2026-08-03T22:00:00+00:00",
-      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
-      "url": "https://www.latent.space/p/inference-eng",
-      "summary": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
-      "published_at": "2026-08-03T21:44:03+00:00",
-      "first_seen_at": "2026-08-04T09:24:56.623857+00:00"
     },
     {
       "source": "Kimi Blog",
