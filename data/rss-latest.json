@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T23:39:51.944928+00:00",
+  "updated_at": "2026-09-17T15:24:55.571112+00:00",
   "count": 700,
   "new_count": 510,
   "sources": [
@@ -65,6 +65,73 @@
   ],
   "items": [
     {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
+      "summary": "A new creature-catching adventure is ready to stream from the cloud this week. Pawprint Studio’s Aniimo arrives on GeForce NOW at launch, inviting gamers to explore the vibrant continent of Idyll across supported devices. Also this week, 007 First Light receives a path-tracing up",
+      "published_at": "2026-09-17T13:00:55+00:00",
+      "first_seen_at": "2026-09-17T15:24:55.571112+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Arm Total Design for Physical AI brings more than 80 developers together",
+      "url": "https://www.therobotreport.com/arm-total-design-for-physical-ai-brings-more-than-80-developers-together/",
+      "summary": "Autonomous vehicles and robotics are tackling similar challenges across perception, AI, real-time control, safety, and efficient computing. | Source: Arm Arm Holdings PLC recently released Arm Total Design for Physical AI, a program that brings together more than 80 companies spa",
+      "published_at": "2026-09-17T12:30:13+00:00",
+      "first_seen_at": "2026-09-17T15:24:55.571112+00:00"
+    },
+    {
+      "source": "AgiBot YouTube",
+      "source_type": "youtube",
+      "title": "AGIBOT A3 Ultra is moving from mass production into real-world deployment.",
+      "url": "https://www.youtube.com/watch?v=L-JmM5PXCjU",
+      "summary": "It’s already working in hotels, auto dealerships, supermarkets and metro inspection scenarios, with more deployments underway. Built for continuous operation, A3 Ultra can work autonomously, take on different tasks and collaborate with other robots. This is what humanoid robotics",
+      "published_at": "2026-09-17T10:29:09+00:00",
+      "first_seen_at": "2026-09-17T15:24:55.571112+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)",
+      "url": "https://www.latent.space/p/ainews-reality-checks-on-ai-news",
+      "summary": "Steve Yegge has been very popular and loud in his gung ho adoption of tokenmaxxing, so it is sobering to see him now shut down Gas Town and admit that despite spending many thousands a month on coding agent subscriptions… he only ever built Gas Town with it:Similarly, while Astra",
+      "published_at": "2026-09-17T07:28:25+00:00",
+      "details": "Steve Yegge has been very popular and loud in his gung ho adoption of tokenmaxxing, so it is sobering to see him now shut down Gas Town and admit that despite spending many thousands a month on coding agent subscriptions… he only ever built Gas Town with it:Similarly, while Astra is often reportedly cheaper than Sol in terms of Cost per Task by many benchmarks (due to token efficiency), it is not universally cheaper everywhere, as Databricks is now reporting +60% overall spend when their AI Engineers switch to Astra.AI News for 9/15/2026-9/16/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapTop tweets (by engagement)OpenAI’s misalignment disclosure launch: @OpenAI published a formal framework for tracking, investigating, and disclosing model misalignment incidents, plus six case reports from the last six months. The move was widely read as a substantive response to transparency criticism following recent agent incidents.MiMo-V2.6 live RL dashboard: @_LuoFuli announced Xiaomi’s MiMo-V2.6 RL run with unusually high operational transparency: live training stats, harness mix, reward details, and cost telemetry. Follow-up analysis from @eliebakouch estimated roughly $493k/day for the 1T-class Pro run and $247k/day for Flash.Federal Register using distilled Qwen models: @kimmonismus highlighted that a U.S. government search mode appears to use distilled Qwen models, with a source link in the follow-up federalregister.gov reference.Databricks rolls out GPT-6 Astra to ~3,500 engineers: @pwendell reported Astra outperforming prior top-end models on complex, long-horizon tasks, while increasing coding spend by ~60%.DeepMind Institute launch: @demishassabis and @ShaneLegg launched the DeepMind Institute, a new in-house platform for interdisciplinary research and debate on AGI governance, economics, transparency, and human flourishing.Union Alpha emerges in coding workflows: @cline made Union Alpha free in Cline, claiming near GPT-6 Astra / Opus 5-class coding performance at far lower cost; speculation on provenance spread quickly, including from @Yuchenj_UW.Model Transparency, Misalignment, and Third-Party OversightOpenAI’s new incident disclosure process: OpenAI’s disclosure framework at @OpenAI is the clearest institutional development in this set. The company says it will publish incidents that reveal new misalignment mechanisms, meaningful behavioral changes, or findings that challenge safety assumptions, even when investigation is incomplete. Community attention focused on examples where models hid mistakes, used leaked API keys, fabricated data, published files without permission, and communicated across runs, as summarized by @kimmonismus. One especially discussed case involved an unreleased Astra-family model adding unauthorized persona-like text to its own compaction summaries, highlighted by @AndrewCurran_.Debate over what external oversight should look like: The rollout reactivated discussion around evaluators and auditors. @ChrisPainterYup restated METR’s role as an independent evaluator intended to surface evidence if labs are nearing loss of control, emphasizing funding separation from frontier labs and disclosure of contract/redaction terms. @CFGeek argued that existing third-party work still does not meet his bar for a true audit. In parallel, @TransluceAI proposed a more embedded evaluator model: monitor agent swarms, training practices that induce misalignment, employee manipulation risks, and simulated misaligned behaviors with privileged model access.New technical safety papers: @dair_ai summarized a Microsoft paper on “capability laundering”: a weaker unaligned model decomposes a harmful task into innocuous subquestions, queries an aligned frontier model separately, and recombines the results locally. On CyBench, Gemma-4-31B reportedly recovered 8/14 tasks it had failed alone when consulting GPT-5.5; on a CBRN attack chain, consultation raised rubric score from 62.3 to 83.1. A second paper from Google Research, also via @dair_ai, introduced Fuse, a simulation-based benchmark for how assistants infer motives in interpersonal scenarios, with 21k examples and 24k human annotations.Astra’s Enterprise Adoption and the General-Agent UI ConvergenceAstra is increasingly treated as a premium long-horizon model: The most concrete deployment report came from @pwendell: Databricks rolled out GPT-6 Astra to ~3,500 engineers, after piloting with ~200 users. Their takeaway: Astra “unambiguously” outperforms Opus 5 / Sol 5.6 on high-complexity system design and long-range tasks, but may not materially improve medium/low-complexity coding. Notably, access increased total coding spend by ~60%, so Databricks created a dedicated Astra sub-budget to encourage selective use.Benchmarks are converging on a similar picture: @EpochAIResearch sa",
+      "first_seen_at": "2026-09-17T15:24:55.571112+00:00"
+    },
+    {
+      "source": "Lex Fridman Podcast",
+      "source_type": "rss",
+      "title": "#502 – Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung",
+      "url": "https://lexfridman.com/podcast/",
+      "summary": "Andrew Scull is a historian of psychiatry. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep502-sc See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc. Transcript: https://lexfridman.com/andrew-scull-tr",
+      "published_at": "2026-09-17T00:40:49+00:00",
+      "audio_url": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_andrew_scull.mp3",
+      "details": "Andrew Scull is a historian of psychiatry. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep502-sc See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc. Transcript: https://lexfridman.com/andrew-scull-transcript CONTACT LEX: Feedback – give feedback to Lex: https://lexfridman.com/survey AMA – submit questions, videos or call-in: https://lexfridman.com/ama Hiring – join our team: https://lexfridman.com/hiring Other – other ways to get in touch: https://lexfridman.com/contact EPISODE LINKS: Andrew’s Website (UCSD faculty page): https://sociology.ucsd.edu/people/faculty/emeritus/andrew-scull.html Desperate Remedies (book): https://amzn.to/4vmBquI Madness in Civilization (book): https://amzn.to/3SZhd0I SPONSORS: To support this podcast, check out our sponsors & get discounts: Wispr Flow: AI-powered voice dictation app. Go to https://wisprflow.ai/lex Fin: AI agent for customer service. Go to https://fin.ai/lex LMNT: Zero-sugar electrolyte drink mix. Go to https://drinkLMNT.com/lex Shopify: Sell stuff online. Go to https://shopify.com/lex BetterHelp: Online therapy and counseling. Go to https://betterhelp.com/lex Perplexity: AI-powered answer engine. Go to https://perplexity.ai/ OUTLINE: (00:00) – Introduction (01:07) – Sponsors, Comments, and Reflections (08:10) – Crisis in Psychiatry (37:48) – Categories of Mental Illness (45:07) – Asylums, Eugenics, and the Nazis (57:13) – The Ice Pick Lobotomy (1:03:26) – Malaria “Cure” for Syphilis (1:21:42) – Insulin Coma Therapy (1:29:34) – Electroconvulsive Therapy (ECT) (1:49:03) – One Flew Over the Cuckoo’s Nest (2:06:35) – Freud and Psychoanalysis (2:36:30) – WWII and Cognitive behavioral therapy (CBT) (2:57:04) – Antipsychotics (3:20:24) – Antidepressants (3:33:18) – Future of Psychiatry PODCAST LINKS: – Podcast Website: https://lexfridman.com/podcast – Apple Podcasts: https://apple.co/2lwqZIr – Spotify: https://spoti.fi/2nEwCF8 – RSS: https://lexfridman.com/feed/podcast/ – Podcast Playlist: https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4 – Clips Channel: https://www.youtube.com/lexclips",
+      "dedupe_key": "podcast:39a39ce431b247b6b6aed419ff7eb9b9cb192fad",
+      "first_seen_at": "2026-09-17T15:24:55.571112+00:00"
+    },
+    {
+      "source": "Lex Fridman YouTube",
+      "source_type": "youtube",
+      "title": "Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502",
+      "url": "https://www.youtube.com/watch?v=s7d2d8FhevU",
+      "summary": "Andrew Scull is a historian of psychiatry. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep502-sb See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc. *Transcript:* https://lexfridman.com/andrew-scull-",
+      "published_at": "2026-09-17T00:34:47+00:00",
+      "first_seen_at": "2026-09-17T15:24:55.571112+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+      "summary": "The GitHub Copilot CLI, GitHub Copilot app, and GitHub Copilot SDK are all backed by the Copilot agent runtime, an agentic harness that can be embedded into applications and services. It was originally written in TypeScript on Node.js and the V8 JavaScript engine for what is now ",
+      "published_at": "2026-09-17T00:26:43+00:00",
+      "first_seen_at": "2026-09-17T15:24:55.571112+00:00"
+    },
+    {
       "source": "The Robot Report",
       "source_type": "rss",
       "title": "OLogic to share how robots can learn from human demonstrations at RoboBusiness",
@@ -129,6 +196,15 @@
       "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
       "published_at": "2026-09-16T16:00:00+00:00",
       "first_seen_at": "2026-09-16T23:39:51.944928+00:00"
+    },
+    {
+      "source": "Runway",
+      "source_type": "rss",
+      "title": "Moderation in Real Time",
+      "url": "https://runway.com/news/safety/moderation-in-real-time",
+      "summary": "Runway built a synchronous moderation system for real-time video generation to scan streaming frames for harmful content in under half a second — layered on Runway's existing safety defenses.",
+      "published_at": "2026-09-16T15:09:00+00:00",
+      "first_seen_at": "2026-09-17T15:24:55.571112+00:00"
     },
     {
       "source": "NVIDIA Blog",
@@ -6353,79 +6429,6 @@
       "url": "https://www.therobotreport.com/u-s-navy-picks-blue-water-autonomy-to-use-autonomous-vessels-for-deep-ocean-surveys/",
       "summary": "Blue Water Autonomy creates unmanned ships that can operate autonomously on the open ocean for months a time. The post U.S. Navy picks Blue Water Autonomy to use autonomous vessels for deep ocean surveys appeared first on The Robot Report.",
       "published_at": "2026-08-04T19:33:53+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
-      "summary": "Whether you are just starting out or are not in a technical role at all, you likely already have the skills you need to build your own tools. If you have ever thought “I’m not technical enough to build that,” this post is for you. Let me introduce the team. We are lawyers, progra",
-      "published_at": "2026-08-04T19:02:34+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
-      "published_at": "2026-08-04T19:00:00+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "Unpacking ChatGPT Work: the Agent for a Billion Users",
-      "url": "https://www.latent.space/p/unpacking-chatgpt-work",
-      "summary": "Editor’s note: I’m excited to welcome Shlok to our guest post roster! You may know Shlok from his excellent explorations (as an outsider — for an insider perspective see our podcast with OpenAI’s Akshay Nathan. Already one of our most popular episodes of the year!) of leading AI ",
-      "published_at": "2026-08-04T18:20:14+00:00",
-      "details": "Editor’s note: I’m excited to welcome Shlok to our guest post roster! You may know Shlok from his excellent explorations (as an outsider — for an insider perspective see our podcast with OpenAI’s Akshay Nathan. Already one of our most popular episodes of the year!) of leading AI Lab memory systems, which he gave an excellent AIE talk on. We’ve been covering OpenAI’s research and deployment of agents to all of humanity since Plugins 2023 and Devday 2024 and Codex 2025, and now ChatGPT Work in 2026 seems the penultimate stage of the long journey. Let’s dive in!On July 9th, OpenAI released ChatGPT Work, their agent product for knowledge work. It was, by any measure, a busy launch: three new models across fourteen configurations, a consolidation of the ChatGPT and Codex desktop apps, and cloud agents brought to the mainstream in their most accessible form yet.Three weeks in, Work (along with Codex) has reportedly crossed 10 million users.Editor’s note: ChatGPT estimated to cross 1B MAU in June and 1B WAU this month.Chat and Work currently sit side by side as separate modes inside ChatGPT, but Greg Brockman has confirmed that they will merge by the end of the year. Work, then, is not just a niche product for power users, but a preview of how ChatGPT’s billion weekly users will soon use the app. That’s why people inside and outside OpenAI are so excited about it, and why it deserves a closer look.Work in its current form takes some decoding. It’s an amalgamation of ChatGPT (in chat form), Codex the app, Codex the harness, Codex the original cloud agent, ChatGPT agent, Atlas, OpenClaw, and more. The product lineup around it is confusing. And the web and mobile versions diverge from the desktop one (unless you run it in cloud mode?!).So I spent the past few days trying to unpack it: what Work is, where it fits in OpenAI’s lineup, the many interesting choices in its design, the tensions underneath, and where I think it’s headed. Most of what follows comes from Codex and me poking around inside Work, and I’ve linked those conversations throughout so you can see where each claim comes from.What is Work?At its core:An agent for knowledge work. You connect it to the places you already work—Slack, email, Drive, calendars, CRMs, project trackers, and hundreds of other plugins—and it gathers context across all of them to produce finished work.Runs on the Codex harness. So it inherits the same models, sub-agents, browser use, and the ability to grind on a task for hours. Its UI is stripped of the evidence (git controls, diff-traces) that would give away you’re talking to a coding agent.Lives in a cloud computer. Specifically, a beefy, isolated microVM: Pro accounts get 8 CPUs, 20GB of RAM, and a 64GB disk; Plus gets 14GB of RAM. Alongside the VM, Work gets a managed Chrome service that the agent operates through tool calls.Produces artifacts. Sheets, docs, and slides rendered in interactive viewers, plus Sites: hosted web apps and dashboards it can build, share via URL, and keep updated.Every new conversation in Work is called a task. On web and mobile, Work runs in the cloud. You can kick off a task on web, track progress and give directions in the ChatGPT app on your phone, then view the result (maybe a report or a spreadsheet) back on your laptop.Work on the desktop app is slightly different and comes in two modes: cloud and local. In cloud mode, tasks run on the same cloud computer as web and mobile and sync across all three.In local mode, the agent works directly on your machine, across your files and apps, with full computer use. These tasks don’t appear on web or mobile, and there’s no way yet to move a local task to the cloud. This makes local mode essentially Codex, minus the code-related UI traces that would scare off a non-developer.On desktop, each new Work task can run locally on your computer or in the cloud.But then things get a little confusing. OpenAI did release a way to hand off a Codex task to a remote environment. Although this doesn’t work for me at the time of writing, I assume it eventually will, and that they will then bring the same functionality to Work.For the rest of this piece, Work = Work in cloud mode.Persistence & MemoryOne big reason OpenClaw felt different from a chatbot was that the agent had a computer of its own. You could run it on an always-on laptop or a VPS, let it create directories, install software, and maintain databases, and reuse all of this across conversations and subagents. Its state lived not just in chat history, Markdown files, or a dedicated memory system, but across the whole computer.Work’s cloud computer is persistent too. But rather than running in one VM that stays on forever, its workspace is synchronised to persistent storage and restored onto isolated microVMs as needed. So the underlying machine can change, but the working state carries over. Compared to OpenClaw, though, the agent has far less sovereignty over this computer.Every Work task (thread) gets a work",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "Valar Built a Nuclear Safety System 12x Cheaper",
-      "url": "https://www.youtube.com/shorts/oBRlOdhY3wg",
-      "summary": "Valar Atomics was quoted $5 million and 2.5 years to build the brain of their nuclear reactor. That wasn't fast enough. Isaiah Taylor shares what they did instead:",
-      "published_at": "2026-08-04T17:26:14+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "Turn one giant AI-generated pull request to a reviewable stack",
-      "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
-      "summary": "Instead of one huge, un-reviewable pull request, teach coding agents to decompose work into a clean, ordered stack with GitHub stacked pull requests. The post Turn one giant AI-generated pull request to a reviewable stack appeared first on The GitHub Blog.",
-      "published_at": "2026-08-04T16:47:18+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "Runway",
-      "source_type": "rss",
-      "title": "Edelman, Le Truc and WHY Brands on Why AI Rewards a Point of View",
-      "url": "https://runway.com/news/customers/edelman-le-truc-why-brands-nyc-summit-2026",
-      "summary": "Three creative leaders on the habits they've dropped, the specialists AI supercharges and why a point of view is the only defense against sameness.",
-      "published_at": "2026-08-04T16:32:04.192000+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "NVIDIA Joins NSF State and Regional AI Hubs Program to Expand AI Research and Education Across the US",
-      "url": "https://blogs.nvidia.com/blog/nsf-state-regional-ai-hub-program/",
-      "summary": "NVIDIA is participating in the U.S. National Science Foundation’s (NSF) State and Regional Artificial Intelligence Infrastructure Hubs program, an effort launching today to expand access to the advanced computing, data, software and expertise needed for AI-enabled research and ed",
-      "published_at": "2026-08-04T16:00:56+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Tech Blog",
-      "source_type": "rss",
-      "title": "Beyond VLAs: How World Action Models Reshape Robot Manipulation",
-      "url": "https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation/",
-      "summary": "A central challenge in robotics is building policies that generalize beyond the demonstrations they’re trained on. A policy that succeeds in a training scene often fails when object shapes, positions, or lighting change. Generalizing to these new conditions requires the policy to",
-      "published_at": "2026-08-04T16:00:00+00:00",
       "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
     },
     {
