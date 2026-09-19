@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-18T23:20:47.650319+00:00",
+  "updated_at": "2026-09-19T14:08:50.257943+00:00",
   "count": 700,
-  "new_count": 484,
+  "new_count": 503,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -72,6 +72,34 @@
       "summary": "",
       "published_at": "2026-10-06T00:00:00+00:00",
       "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Hirebotics adds line tracking and linear rail capabilities to its cobots",
+      "url": "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/",
+      "summary": "With a new linear rail, Hirebotics cobots, like ones used for welding above, can extend beyond a 68.9-in. reach. | Source: Hirebotics Hirebotics LLC has added extensions to its collaborative robots that enable manufacturers to paint moving parts and reach large, difficult-to-hand",
+      "published_at": "2026-09-19T12:40:50+00:00",
+      "first_seen_at": "2026-09-19T14:08:50.257943+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Here are 6 Clones of Jev in 2 days",
+      "url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
+      "summary": "We covered Jev’s launch on Wednesday, and they have completely taken over the timeline, with 36M views of their launch video (by comparison, OpenAI’s Navier Stokes result got 74M views, and Anthropic’s Fable 5 got 57M views) in just two days. It wasn’t open source1, so it invited",
+      "published_at": "2026-09-19T05:48:28+00:00",
+      "details": "We covered Jev’s launch on Wednesday, and they have completely taken over the timeline, with 36M views of their launch video (by comparison, OpenAI’s Navier Stokes result got 74M views, and Anthropic’s Fable 5 got 57M views) in just two days. It wasn’t open source1, so it invited tons of speculation and great demos and examples and salty schmidhubers and bad takes, which of course only fed the hype.Here’s a list. The best guesses are ModernBert and Diffusion:Laya: 421M params, ModernBERT-large encoder with two added transformer layers that score user-supplied options, PPO over sequence embeddings to output turn-by-turn conversion trajectories (probabilities from 0.0 to 1.0).salty that he did not get recognition; claims RLCD without justificationconfidence is entropy-based, not calibratedDiffusionGemmaJev: tackling this from a Diffusion model basis. Pretty close on benchmarksBespoke Nimble: LoRA finetune of Qwen3.5-9B, using contrastive data curation. (close but sllightly lower on benchmarks)SemIf (fka OpenJev) (HF): 4B and 35B causal Qwen3.5 backbone with a tiny three-class NLI classifier on the last token. comparison vs LayaJevlike: 40K byte embedding lightweight option-attention model. Each candidate becomes a query that reads from a shared context representation, then receives a score.Kev-0.5B: LoRA adapter + a small readout head on top of Qwen2.5-0.5B. Of course, not enough people are talking about the data side, which is acknowledged to be 100% synthetic.AI News for 9/17/2026-9/18/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapDecision Models, Routing, and the “Jev” WaveDiscriminative models broke out as a new systems primitive: The biggest technical conversation was around Jev, a non-generative decision model being positioned as a fast “System 1” complement to LLMs. @ankrgyl said it is now available as an eval model in Braintrust with ~400x lower scoring cost versus prior setups, while @gabepereyra highlighted calibrated-probability use cases like routing, citation selection, escalation, and legal ops decisions. The more architectural take came from @hxiao, who argued Jev could pull tool calling, routing, and MCP-style decisions back from small generative LMs toward discriminative models; @signulll pushed the same idea further, framing this class as a near-zero-marginal-cost, on-device judgment layer for notifications, UI adaptation, and sensor-driven decisions.Open reproductions and ecosystem clones appeared immediately: @madiator released Bespoke Nimble, an “open Jev” recipe built from a LoRA fine-tune of Qwen3.5-9B using synthetic contrastive data curation and constrained decoding. On its curated eval, the base Qwen improved from 66% to 90%, versus 93% for Jev, with a reported 100ms on H100 and local usability. At the smaller end, @jaredpalmer released Kev-0.5B, a tiny Jev-like model based on Qwen2.5-0.5B that can run on a MacBook Pro. The reaction split roughly along prior experience: @MParakhin noted post-ChatGPT users treated it like a revelation, while pre-GPT ML people were more puzzled by the hype. The substantive question raised by @abacaj is the right one: a lot of demos emphasized speed more than quality, and there is still no standard benchmark for this category.The first compelling integrations were in browser/computer-use workflows: @levie demoed Jev classifying Box incident reports into escalation paths; @ndrezn showed browser use with LangChain + Jev and found it strong on tasks like the Wikipedia game and structured “folding laundry” workflows; @cline shipped a plugin giving Jev a browser in Cline. @hwchase17 explicitly called browser use the best Jev application he had seen so far. Net: this looks less like a chatbot story than a workflow control-plane story.Agent Tooling, Coding Harnesses, and Claude Code StandardsAGENTS.md gained real momentum as a cross-tool convention: The highest-signal product update here was @trq212 announcing that Claude Code v2.1.277 now checks for AGENTS.md when no CLAUDE.md is present, with config-level toggle support. That effectively acknowledges AGENTS.md as an emerging standard rather than a one-tool convention, and @simonw immediately noted the practical payoff: fewer shim files that just point one format to the other.Harness design is becoming a first-class variable in coding-agent performance and cost: @pidotdev highlighted the Harness Tax analysis showing that a simple tool set—read, write, edit, bash—can reach the Pareto frontier on benchmark performance while reducing unnecessary spending. Relatedly, @_akhaliq pointed to the paper An Empirical Study of Harness Design for Coding Agents, underscoring that benchmark outcomes are increasingly shaped by harness structure, context setup, turn budgets, and tool affordances rather than just the base model. This is consiste",
+      "first_seen_at": "2026-09-19T14:08:50.257943+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics YouTube",
+      "source_type": "youtube",
+      "title": "The first ever robot that could walk: The Honda P2",
+      "url": "https://www.youtube.com/shorts/lfkOI0MvwOs",
+      "summary": "Walking robots are everywhere now… But 30 years ago, they were brand new. The first ever robot that could walk by itself was the Honda P2. The P2 featured motors and hydraulics in the hips, knees, and ankles to walk around, and weighed over 300 pounds. Where do you think robots w",
+      "published_at": "2026-09-18T21:30:09+00:00",
+      "first_seen_at": "2026-09-19T14:08:50.257943+00:00"
     },
     {
       "source": "Latent Space YouTube",
@@ -226,6 +254,15 @@
       "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
       "published_at": "2026-09-18T13:00:00+00:00",
       "first_seen_at": "2026-09-18T14:45:23.312736+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "published_at": "2026-09-18T12:00:00+00:00",
+      "first_seen_at": "2026-09-19T14:08:50.257943+00:00"
     },
     {
       "source": "No Priors YouTube",
@@ -6365,42 +6402,6 @@
       "summary": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces fallbacks.",
       "published_at": "2026-08-07T00:00:00+00:00",
       "first_seen_at": "2026-08-07T11:45:33.403455+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "The Skill Great Teachers Have That LLMs Completely Lack - Grant Sanderson",
-      "url": "https://www.youtube.com/shorts/1vAGYbbtahU",
-      "summary": "",
-      "published_at": "2026-08-06T22:13:29+00:00",
-      "first_seen_at": "2026-08-07T01:05:11.281514+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics",
-      "url": "https://www.therobotreport.com/hii-signs-up-to-900m-agreement-with-path-robotics-graymatter-robotics/",
-      "summary": "The latest agreement expands HII's HYPER Program, which Path Robotics and GrayMatter Robotics joined earlier this year. The post HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics appeared first on The Robot Report.",
-      "published_at": "2026-08-06T20:19:29+00:00",
-      "first_seen_at": "2026-08-07T01:05:11.281514+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "A guide to slash commands in the GitHub Copilot app",
-      "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
-      "summary": "If you’ve used slash commands in the GitHub Copilot CLI, you already know how powerful a quick / can be. In the GitHub Copilot app, slash commands take that idea further, giving you shortcuts for managing sessions, navigating projects, and customizing your Copilot workflow. What ",
-      "published_at": "2026-08-06T19:49:34+00:00",
-      "first_seen_at": "2026-08-07T01:05:11.281514+00:00"
-    },
-    {
-      "source": "The Robot Report YouTube",
-      "source_type": "youtube",
-      "title": "Toyota Material Handling North America facility opening",
-      "url": "https://www.youtube.com/watch?v=iojKe4fPmzg",
-      "summary": "An avatar of Sakichi Toyoda, founder of what became Toyota Industries, greets visitors at Toyota Material Handling North America.",
-      "published_at": "2026-08-06T19:06:27+00:00",
-      "first_seen_at": "2026-08-07T01:05:11.281514+00:00"
     },
     {
       "source": "Coze Changelog",
