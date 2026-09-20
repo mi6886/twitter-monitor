@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19T23:11:18.654175+00:00",
+  "updated_at": "2026-09-20T14:27:49.415227+00:00",
   "count": 700,
-  "new_count": 501,
+  "new_count": 502,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -72,6 +72,24 @@
       "summary": "",
       "published_at": "2026-10-06T00:00:00+00:00",
       "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "Betting on Diffusion",
+      "url": "https://www.youtube.com/shorts/s2Fi0_qzaJ0",
+      "summary": "Today's LLMs can't generate token 10 until token 9 exists. Inception Labs CEO Stefano Ermon thinks he's found the winner: diffusion LLMs that generate tokens in parallel. New episode of No Priors, out now.",
+      "published_at": "2026-09-20T14:11:58+00:00",
+      "first_seen_at": "2026-09-20T14:27:49.415227+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "What do you do with a humanoid robot when it breaks down?",
+      "url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
+      "summary": "Like other complex machines such as cars and computers, humanoids will need to be recycled. Source: Re-Teck The race to mass-produce humanoid robots is in full swing. Industry leaders regularly debate how to source, assemble, and deploy these machines, which contain anywhere from",
+      "published_at": "2026-09-20T12:45:45+00:00",
+      "first_seen_at": "2026-09-20T14:27:49.415227+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -6373,25 +6391,6 @@
       "url": "https://openai.com/index/hsp-gruppe",
       "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
       "published_at": "2026-08-07T09:00:00+00:00",
-      "first_seen_at": "2026-08-07T11:45:33.403455+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] AMD buys Taalas",
-      "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
-      "summary": "In The Custom ASIC Thesis we said Taalas was worth paying attention to, and in the Inference Inflection we said everything would go vertical. Our Baseten episode had some skeptical counterpoints against etched LLMs, not just custom ASICs, but clearly Lisa Su disagrees for now.Con",
-      "published_at": "2026-08-07T05:13:46+00:00",
-      "details": "In The Custom ASIC Thesis we said Taalas was worth paying attention to, and in the Inference Inflection we said everything would go vertical. Our Baseten episode had some skeptical counterpoints against etched LLMs, not just custom ASICs, but clearly Lisa Su disagrees for now.Congrats!AI News for 8/5/2026-8/6/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapMeta’s Muse Spark 1.2 breakout: Olympiad golds, benchmark gains, and aggressive price-performanceMuse Spark 1.2 moved from “not on the board” to frontier-tier quickly. On Vals Index, Muse Spark 1.2 entered the top 5 at $0.69/test, reportedly 3x cheaper than Kimi and 10x+ cheaper than Fable, Opus, and 5.6 Sol. Vals later said it also became the first model above 60% on Finance Agent v2 at $0.77/test, versus the prior #1 Opus 5 at $5.12/test and at 2x the speed (ValsAI). Artificial Analysis’ v4.1.1 patch also noted one of the largest score increases for Muse Spark 1.2 after grading updates (Artificial Analysis).Meta also claimed unusually strong “pure reasoning” results. Meta said its internally trained Muse Spark-family models achieved gold-medal-level performance in five STEM Olympiads, including perfect theory scores at APhO and IPhO, plus gold-level performance on IMO, IChO, and RMM; three were submitted under live competition conditions and officially graded (AI at Meta, Trapit Bansal). Meta emphasized no tools—no search, code, or calculator—and attributed some of the gains to multi-agent orchestration with parallel reasoning. That claim immediately fed into the ongoing “LLMs vs harnesses vs neurosymbolic” argument, with critics and supporters interpreting the setup differently (fchollet, giffmana).The broader takeaway: engineers are increasingly treating agentic orchestration, TTC, and evaluation protocol as first-class product features. The Muse story is less “one model won” than “model quality + orchestration + pricing + serving capacity” now decides adoption. That framing showed up in reactions comparing Meta’s current velocity favorably to Google and highlighting that bigger “Watermelon” models are still expected (Rihard Jarc, alexandr_wang).OpenAI’s ChatGPT model unification, free-tier expansion, and plugin/security pushOpenAI collapsed “instant” and “thinking” into one paid-chat model. The company announced that GPT-5.6 Sol now powers both Instant and deep reasoning for Plus/Pro users in ChatGPT, with a new reasoning-effort slider to choose speed vs comprehensiveness (OpenAI, OpenAI). OpenAI said the updated Sol yields 68% fewer factual-error responses than GPT-5.5 Instant on a high-stakes eval spanning finance, medicine, and law (OpenAI). Multiple OpenAI staff framed the change as a usability milestone: one model, one chat surface, adjustable effort (gdb, michpokrass).Free-tier economics got much more aggressive. OpenAI said Free and Go users get unlimited text chats with GPT-5.6 Luna starting tomorrow, plus a Think button for harder questions (OpenAI). This was widely read as a major consumer-distribution move (sama, kimmonismus). ARC Prize also re-ran GPT-5.6 Luna after its 80% price cut and reported unchanged capability at much lower cost: 59.6% on ARC-AGI-2 for $0.18/task and 90.7% on ARC-AGI-1 for $0.07/task (arcprize).Developer surface area also expanded. OpenAI introduced Agent Plugins, an open standard built with AWS, Cursor, GitHub, Vercel, and others for bundling Agent Skills and MCP server configs in a shared format, with launch support across Codex, ChatGPT, Cursor, GitHub Copilot, Kiro, and Code (OpenAIDevs, OpenAIDevs). OpenAI also launched Codex Security Review in research preview, aimed at doing repo-context-aware security review directly on GitHub PRs (OpenAIDevs, gdb).Rumor watch: an unverified but highly amplified leak claimed “Astra”—described as OpenAI’s largest new pretrain since GPT-4.5 and internally called mewfour—could arrive next week (synthwavedd). The rumor spread widely, but there is no confirmation in the source set.Agents, harnesses, and MCP infrastructure are becoming the real systems battlegroundCloudflare made one of the more substantive infra pushes of the day. During Agents Week, the company highlighted Kitesurf, a stateless browser running entirely on Workers, designed for agent use cases where full Chromium is overkill. The technical pitch: split script/DOM from rendering, lazily instantiate renderer workers only when needed, and dramatically cut CPU/memory overhead relative to standard browser automation (ashleypeacock, imluisduarte). Cloudflare also pushed WebMCP, AI Search upgrades, dashboard-level AI Readiness/AEO tooling, and a blog on MCP’s rewritten stateless core that better fits commodity web infra like Workers (mattzcarey).MCP is moving from novelty to table stakes. Beyond Cloudflare, Weaviate added a built-in /v1/mc",
-      "first_seen_at": "2026-08-07T11:45:33.403455+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "Is Coding Solved?",
-      "url": "https://www.youtube.com/shorts/4B4xVnuOi9U",
-      "summary": "On the latest No Priors episode, Sarah Guo and Elad Gil discuss the intense pace of AI development, and why timelines toward AGI remain so difficult to predict.",
-      "published_at": "2026-08-07T01:46:22+00:00",
       "first_seen_at": "2026-08-07T11:45:33.403455+00:00"
     },
     {
