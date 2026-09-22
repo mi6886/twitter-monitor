@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-22T15:24:07.892676+00:00",
+  "updated_at": "2026-09-22T23:37:00.980158+00:00",
   "count": 700,
-  "new_count": 508,
+  "new_count": 505,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -74,6 +74,81 @@
       "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
     },
     {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness",
+      "url": "https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/",
+      "summary": "Intel’s Robotics AI Suite is an open development platform for physical AI on Intel Core and Intel Core Ultra processors. | Source: Intel AI is moving from digital environments into the physical world, where robots and autonomous systems must sense, reason, and act in real time. F",
+      "published_at": "2026-09-22T21:31:19+00:00",
+      "first_seen_at": "2026-09-22T23:37:00.980158+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "🔬 Google's AI Scientist Started as an Attempt to Automate Kaggle — John Platt, Google Fellow",
+      "url": "https://www.youtube.com/watch?v=2xBSGluFkG0",
+      "summary": "From inventing textbook machine learning algorithms to winning an Academy Award and discovering two asteroids, John Platt has spent his career at the intersection of computation and science. In this episode, the Google Fellow joins Latent Space to unpack how AI can accelerate sci",
+      "published_at": "2026-09-22T21:07:45+00:00",
+      "first_seen_at": "2026-09-22T23:37:00.980158+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+      "url": "https://www.latent.space/podcast",
+      "summary": "How often do you get to talk to a guest who has both an Academy Award and who invented textbook machine learning algorithms? John Platt has an Oscar, two textbook algorithms, two named asteroids, and an Erdos-Bacon number of 6. This was easily the most fun bio of all the guests w",
+      "published_at": "2026-09-22T21:07:39+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/216845528/5d04ab99938b8bf3aee2b0e2099bfa53.mp3",
+      "details": "How often do you get to talk to a guest who has both an Academy Award and who invented textbook machine learning algorithms? John Platt has an Oscar, two textbook algorithms, two named asteroids, and an Erdos-Bacon number of 6. This was easily the most fun bio of all the guests we’ve read to date. And the result was an epic and fun chat covering Google’s Empirical Research Assistance (ERA), how AI can help battle climate change, and tons of great stories about the co-evolution of science and AI.John’s colleague Dave Bacon likes to tease John that his career has been defined by being twenty years early to the next big thing. This may be convolutional neural networks (some credit him with coining the term), fusion research, quantum computing. John and Google have been working on solving some of humanity’s hardest problems with AI and computation for well over a decade now. Recently John and his team set their sights on using AI to solve any scientific problem that can be written down as a score.Google’s Empirical Research Assistance (ERA)John’s team has taken on many hard scientific problems over the years. In solving these, they noticed a pattern, many scientific problems can be reduced to what John calls a “scoreable task”. Once you have the score function, the goal is to find some code that maximizes the score. The hard part is in formulating the score, but once you have the score finding the maximizer can still be quite a lot of effort.John’s team set out to automate solutions to this general problem. This came out of the idea of an “auto-Kaggle” AI, which can solve any Kaggle problem you can throw at it. Kaggle is owned by Google, so all the data was ready and easily available to them!The result is Google’s Empirical Research Assistance or ERA (paper, github, blog).1 ERA is surprisingly simple conceptually. Gemini (or your LLM of choice) keeps a running tree of past experiments (notebooks) and where they’re going. It’s a close cousin of Monte Carlo Tree Search: at each iteration the Upper Confidence Bound rule picks which notebooks are most promising to mutate. This is optimistic, not greedy, so sometimes even the fifth-best notebook gets chosen. Gemini then proposes mutations for each one, about ten at a time. The history of each branch is shared, so different leaves can learn from each other.“It’s almost like having a hyper-eager grad student who doesn’t sleep.”Evolutionary algorithms have been around since the 70s, but this works because Gemini actually knows where to look! What’s even more interesting is that there was a step change between Gemini 2.0 and 2.5, and this went from just not working to working great.ERA is so powerful that John and his team solved many outstanding problems with it, resulting in at least ten papers. Some of these were climate change related, which we talk about in the next section.So, we had to ask: if you have an optimization god how do you avoid fooling yourself? John’s answer is that ERA provides predictive models. It’s up to the scientist to make sure they’re truly descriptive. Some of this just involves good old-fashioned careful machine learning science. “It’s a power tool. It can slice your fingers off.” This led to some fun discussion about Kaggle competitions, and the fun ways people can overfit to datasets without meaningfully solving the problem you actually care about: Google’s contrail-detection competition was won by entrants who noticed a half-pixel error in the labels (is the origin at the corner of the pixel or the center?) and this turned out to be a part of the winning special sauce. Great for winning $15,000, not so helpful if you actually want to solve contrails.“People themselves will act like these LLMs and try to reward hack. It goes back to Goodhart’s law: any metric that becomes a target is no longer good as a metric.”His advice for where to start instead?“Always just fit linear regression. Just do it. Just do it. Just do it. Or SVM.”Tackling Climate Change with AIJohn and his team have worked extensively to mitigate the effects of climate change. We talked about several of their initiatives.Perhaps the most interesting result we talked about was reducing the effects of condensation trails (contrails) from airplanes. Those little streaks you see running behind planes somehow account for 1% of all human-induced global warming?!? Some of these trails of ice crystals can hang out for days. These crystals are black in the infrared, acting like a thermal blanket that traps heat day and night.It’s easy to understand what’s happening here, a region of atmosphere becomes “ice supersaturated”,2 and a tiny bit of exhaust seeds water vapor that instantly crystallizes. The scale here is astounding, with a single gram of exhaust resulting in ten kilograms of ice crystals.The solution to all of this is quite simple, in principle! We know what parts of the atmosphere are most likely for the trails to form. Just have the planes drop a flight level or two. Proble",
+      "dedupe_key": "podcast:1efba6d071735c793afce0b09936dd2c0042042d",
+      "first_seen_at": "2026-09-22T23:37:00.980158+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Better prompt caching for GPT-6",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+      "published_at": "2026-09-22T21:00:00+00:00",
+      "first_seen_at": "2026-09-22T23:37:00.980158+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "AI Agents Are More Honest With Each Other Than With Us - Noam Brown",
+      "url": "https://www.youtube.com/shorts/W6fL5aGybMo",
+      "summary": "",
+      "published_at": "2026-09-22T19:28:29+00:00",
+      "first_seen_at": "2026-09-22T23:37:00.980158+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Why outdoor robots fail (and how to build systems that survive)",
+      "url": "https://www.therobotreport.com/why-outdoor-robots-fail-how-to-build-systems-that-survive/",
+      "summary": "Outdoor robots demand additional engineering, sensors, and weatherproofing to operate effectively outdoors. | Credit: Wibotic, Nextpower, and Burro. Robots are now being deployed far beyond the controlled conditions of warehouses, factories, and laboratories. From agriculture and",
+      "published_at": "2026-09-22T18:00:37+00:00",
+      "first_seen_at": "2026-09-22T23:37:00.980158+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "published_at": "2026-09-22T18:00:00+00:00",
+      "first_seen_at": "2026-09-22T23:37:00.980158+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Isaac ROS 5.0 brings AI agents to robotics development, says NVIDIA",
+      "url": "https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/",
+      "summary": "Isaac ROS 5.0 is already being used by companies including Intrinsic, Mentee Robotics, EKUMEN, and Flexiv. | Source: NVIDIA NVIDIA Corp. today released Isaac ROS 5.0, its latest collection of GPU-accelerated packages built on the Robot Operating System open framework. The company",
+      "published_at": "2026-09-22T17:51:19+00:00",
+      "first_seen_at": "2026-09-22T23:37:00.980158+00:00"
+    },
+    {
       "source": "Runway",
       "source_type": "rss",
       "title": "Introducing DIFFUSE: A New Hiring Platform for the AI-Native Creative Workforce",
@@ -101,7 +176,7 @@
       "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
     },
     {
-      "source": "NVIDIA Blog",
+      "source": "NVIDIA Robotics Blog",
       "source_type": "rss",
       "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
       "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
@@ -117,6 +192,15 @@
       "summary": "GPU acceleration can speed up compute-intensive robotics workloads, but a fast CUDA kernel alone does not guarantee a fast ROS 2 graph. As messages move between nodes, they may continue to be serialized or copied through CPU memory, eroding the benefits of keeping perception and ",
       "published_at": "2026-09-22T12:00:00+00:00",
       "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "published_at": "2026-09-22T12:00:00+00:00",
+      "first_seen_at": "2026-09-22T23:37:00.980158+00:00"
     },
     {
       "source": "The Robot Report",
@@ -190,6 +274,24 @@
       "summary": "",
       "published_at": "2026-09-22T00:00:00+00:00",
       "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Priorities and principles for effective third party assessments",
+      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+      "published_at": "2026-09-22T00:00:00+00:00",
+      "first_seen_at": "2026-09-22T23:37:00.980158+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "summary": "",
+      "published_at": "2026-09-22T00:00:00+00:00",
+      "first_seen_at": "2026-09-22T23:37:00.980158+00:00"
     },
     {
       "source": "Latent Space",
@@ -2632,7 +2734,7 @@
       "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
       "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
       "summary": "General Science",
-      "published_at": "2026-09-03T16:00:03+00:00",
+      "published_at": "2026-09-03T16:00:00+00:00",
       "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
     },
     {
@@ -6289,106 +6391,6 @@
       "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
       "published_at": "2026-08-11T10:00:00+00:00",
       "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Daybreak models are now available on AWS",
-      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
-      "published_at": "2026-08-11T10:00:00+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
-      "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
-      "summary": "Last week was the 1 year anniversary of Zuck’s original Personal Superintelligence essay, and MSL seems to be feeling a second wind this year, as they slowly ramped up with the Dreamer acquisition and then Muse Spark and recently Muse Code. For a while it seemed like MSL was bein",
-      "published_at": "2026-08-11T05:16:41+00:00",
-      "details": "Last week was the 1 year anniversary of Zuck’s original Personal Superintelligence essay, and MSL seems to be feeling a second wind this year, as they slowly ramped up with the Dreamer acquisition and then Muse Spark and recently Muse Code. For a while it seemed like MSL was being rather timid with the launches… but today that all changed. Zuck returned with a hit sequel essay and released MSL’s first real open weights frontier-ish small LLM, with Spark to also be released soon.The essay maps out what is likely to be the lasting agenda for MSL:Meta is the company primarily focused on building personal superintelligence for everyone. Most other labs are focused on building AI for companies, governments, or other institutions, so if those labs lead, then the balance of power will favor larger institutions over individuals. Meta's mission since our founding has focused on putting power in people's hands. If our beliefs and principles lead, then the balance of power will favor individuals and a better future for everyone.His core predictions:Everyone will have an exceptionally capable personal agent that understands you, your goals, and everything you care about. (likely why he was interested in OpenClaw)Everyone will have incredible tools for creation to express your ideas. Everyone will have powerful tools to create new businesses and the economy will become more entrepreneurial. Everyone will have a personalized tutor and coach with a PhD in every subject and unlimited patience to help you learn anything you want.Everyone will benefit from scientific advances and be able to contribute to scientific progress. Everyone will have free or affordable access to these tools. And he named some core risks:Job Growth and The Economy: “Company sizes may shrink -- just as they did in the transition from industrial giants to tech companies. But this doesn’t mean fewer jobs overall. It implies a larger number of companies with fewer people each.”Building AI Infrastructure with Communities: “in Richland Parish, Louisiana, where Meta is building a large data center, teachers received a $50,000 bonus this year because of the increased tax revenue from our investment…We help keep electricity prices low by building our own energy-generating infrastructure wherever we invest….In areas with high water stress, our goal is to restore 200% of the water we use.”Securing Against AI Misuse in Cybersecurity, Bioterrorism, and More: “I propose that companies developing frontier AI should commit significant technical resources towards helping the government harden critical infrastructure. I also propose that frontier AI labs should share intermediate training checkpoints of new models for government use and review rather than waiting until training has completed.”Protecting Freedom and Preventing Government Tyranny: “To maintain freedom, we must ensure that superintelligence primarily empowers individuals. The ideal in liberal democracy is that people naturally hold all rights and only agree to restrict some freedoms to protect the common good. Similarly, individuals should have access to personal superintelligence and should only be subject to restrictions when truly required.”Ensuring American Leadership: “On infrastructure, America and its allies currently hold an advantage in silicon design but a disadvantage in how quickly we can build energy capacity and physical infrastructure. Countries like China are bringing online 1GW+ of nuclear capacity every other week, so we will need to accelerate building both energy and data centers to remain competitive. Export controls on silicon have been successful for slowing the progress of foreign labs during this critical period, so it is the right strategic move to continue those. Any policy that slows American model releases -- even by a month -- could add significant risk to American leadership while letting foreign models race ahead. At the same time, when new capabilities emerge, it is important that the US government has advanced knowledge and resources to harden critical systems, and potentially some period of advantage in using advanced systems.”Alignment With People and Addressing Existential Risk: “A healthy balance of power is to ensure that there is no singular centralized superintelligence, but instead as many people and businesses as possible with different superintelligent agents aligned to their goals that check and compete with each other in the ways our natural economy behaves. This balance would be further enhanced if there were multiple frontier labs whose models have different values that could check each other as well.”Maintaining Control of Superintelligence: “There is a dilemma that once AI systems can autonomously improve themselves, any lab that doesn’t let their AI system direct a substantial amount of compute capacity towards recursive self-improvement will inherently fall behind. For example, if a self-improving AI system focused on optimizing its compute efficiency,",
-      "first_seen_at": "2026-08-11T11:46:06.442140+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "RoboStore launches Robo Inc. to help U.S. organizations deploy robots",
-      "url": "https://www.therobotreport.com/robostore-launches-robo-inc-to-help-u-s-organizations-deploy-robots/",
-      "summary": "RoboStore has provided Unitree robots to more than 4,000 U.S. customers. Source: RoboStore As labor and competitive pressures mount, more companies are looking to localize robotics production and adoption. RoboStore, a leading distributor of foreign humanoid and quadruped robots ",
-      "published_at": "2026-08-10T23:40:18+00:00",
-      "first_seen_at": "2026-08-11T11:46:06.442140+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing",
-      "url": "https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/",
-      "summary": "Opus, Hadrian’s proprietary software stack for production autonomy, powers its factories. | Source: Hadrian Hadrian Automation last week said it has brought in $1.37 billion in new equity financing. The company plans to use the funding to accelerate the buildout of the domestic m",
-      "published_at": "2026-08-10T22:33:12+00:00",
-      "first_seen_at": "2026-08-11T11:46:06.442140+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics YouTube",
-      "source_type": "youtube",
-      "title": "GTC SJ 2026: Physical AI for Healthcare Robotics - Simulation-First Design & Accelerated Development",
-      "url": "https://www.youtube.com/watch?v=rRkucx0KwcI",
-      "summary": "Discover how simulation-first design is radically changing how medical and healthcare robots are prototyped, tested, and built. As global healthcare systems navigate severe supply-and-demand crises, physical AI and robotics stand out as critical solutions to boost efficiency and ",
-      "published_at": "2026-08-10T21:00:15+00:00",
-      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "Using the GitHub Copilot SDK for Java",
-      "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
-      "summary": "Java developers no longer have to rely on Java framework-specific approaches to drive AI from their enterprise apps. While it is true that Langchain4j empowered developers by disintermediating specific AI vendors, you still had a dependency on Langchain4j. And with Spring AI, wel",
-      "published_at": "2026-08-10T19:30:00+00:00",
-      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Tate deploys 58 Hirebotics cobot welders across multiple facilities",
-      "url": "https://www.therobotreport.com/tate-deploys-58-hirebotics-cobot-welders-across-multiple-facilities/",
-      "summary": "Tate decided to move from traditional hand welding to an agile, cloud-connected automation network powered by Hirebotics. The post Tate deploys 58 Hirebotics cobot welders across multiple facilities appeared first on The Robot Report.",
-      "published_at": "2026-08-10T18:46:22+00:00",
-      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "Robot Recycler Salvages Parts From Broken Machines",
-      "url": "https://spectrum.ieee.org/recycling-robot",
-      "summary": "Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufacturers want to produce (and consumers want to consume) at lower costs, the mor",
-      "published_at": "2026-08-10T18:01:25+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "VicOne releases free NVIDIA Isaac Sim cybersecurity extension based on DEF CON 34 research",
-      "url": "https://www.therobotreport.com/vicone-releases-free-nviida-isaac-sim-cybersecurity-extension-based-def-con-34-research/",
-      "summary": "VicOne says its free Radeis Extension for NVIDIA Isaac Sim enables developers to test robot cyber safety before deployment. The post VicOne releases free NVIDIA Isaac Sim cybersecurity extension based on DEF CON 34 research appeared first on The Robot Report.",
-      "published_at": "2026-08-10T17:07:10+00:00",
-      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "What building an AI-native finance function taught me",
-      "url": "https://openai.com/index/building-an-ai-native-finance-function",
-      "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
-      "published_at": "2026-08-10T17:00:00+00:00",
-      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
-      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-      "summary": "",
-      "published_at": "2026-08-10T16:25:36+00:00",
-      "first_seen_at": "2026-08-10T22:05:27.642987+00:00"
     },
     {
       "source": "AI + a16z",
