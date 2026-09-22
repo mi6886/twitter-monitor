@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-21T16:45:52.328232+00:00",
+  "updated_at": "2026-09-22T00:09:50.648824+00:00",
   "count": 700,
-  "new_count": 507,
+  "new_count": 508,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -74,6 +74,54 @@
       "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
     },
     {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+      "url": "https://www.latent.space/podcast",
+      "summary": "Tickets for AIE NYC now open, and apply for the invite-only AIE CODE. Join us!We have an unusual relationship with today’s guest: for years since coauthoring the InstructGPT paper, Diogo Almeida had been saying that API-available frontier models have been going down the wrong pat",
+      "published_at": "2026-09-21T22:13:49+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/216783460/cdf8e02436aa264178bb2aa2c85db57c.mp3",
+      "details": "Tickets for AIE NYC now open, and apply for the invite-only AIE CODE. Join us!We have an unusual relationship with today’s guest: for years since coauthoring the InstructGPT paper, Diogo Almeida had been saying that API-available frontier models have been going down the wrong path, everything from the alignment to refusals to reliability perspectives, that we have dropped every mode other than autoregressive chat-tuned LLMs because of the overwhelming success of ChatGPT.In a launch video now viewed ~40M times (by comparison, GPT4o was 22M, Fable 5 was 15M, Navier Stokes was 74M, and 6 Astra was 137M), Diogo introduced Jev and it immediately took over the AI timeline — we’ll skip full Jev explainers because your favorite AI influencer/educator has probably already done one. We also collected:the official patterns and cookbooks you should see first, from AllieJev usecasesspeed based - games and computer usethe voice + computer use example we discuss at 1h34 minsvoice + browser controlThe must not miss Doom demoDriving cars in gamesExcalidrawvirtual try-ons“Smart Games”/smart NPCsguided responses in text messagesJev for coding agents has an official guide jev for lintingcompacting tool callsreasonable pushback from Theo - Diogo has published a note on the Tyranny of the KV Cache that you should read as a followup after the pod for Jev + coding agents, because of his belief that Cache Rules EverythingProgramming Languages built atop Jev (Diogo’s fave)Jev for analytics replay and user journey review“dark data”entity resolutionnatural language search“smart software”a core goal of Jev is to “disappear into the background” - eg as unremarkable as regexJev as a judgeJev memesJev vs LLM capabiltiiesblending transformers and classifiersabout the confidence apiJev vs GLiNER (note difference/pushback, agreed, agreed, agreed)Jev on trolley problemJev BushInstead we’ll focus on what we can uniquely offer — a broader philosophical and mission-based understanding of how and why Jev was created, and what you should expect next in terms of future models from TypeSafe (ReasoningJev?) and what usecases and ideas you should work on vs the 55th low effort clone of Jev’s API or doing a generic JevBench benchmark - something Diogo has rejected publicly.Why RLCD: Three kinds of RLHF, and why they are ALL the wrong north starDiogo knows a good deal about RLHF, given that he was on the team that pioneered post-training at OpenAI — and traces the three branches to Christiano et al 2017 (the robot backflip demo), Stiennon et al 2020 (learning to summarize) and his baby, Ouyang et al 2022 (InstructGPT). From there on, every innovation from Function Calling to Structured Outputs to Reasoning felt like a hack on top of the string based, sequence to sequence prediction paradigm. As he mentions on the pod, from 2023-2024 he struggled unsuccessfully, due to both personal and organization underestimation, to train a model that accurately addressed what he saw as the core problem with making LLMs the heart of software: reliability.Jev’s core innovation is \"Reinforcement Learning for Calibrated Decisions”, a novel, unpublished technique that optimizes for “answers with epistemically honest probabilities on System One tasks” rather than human rated feedback (RLHF) — which causes hallucinations, sycophancy, and permanent reliance on humans — or programmatically verifiable outputs with rubrics (RLVR) — which solves Navier Stokes but exacerbates jagged intelligence and doesn’t integrate well with other software.We’ve talked about the calibration problem before on the pod, but probably the single best place to understand why RLCD became necessary is Diogo’s AIE talk, which discusses why a generation of training helpful AI assistants for humans has impaired them for training models for composable, programmable AI for automation.At the end he also teases his contrarian opinion on scaling laws - which teases how to build a modern neolab without the billions of dollars the major labs have…The Bitterest Lesson: Tasks and Data beats ComputeWe spend a good amount of time discussing Diogo’s essay on the Bitterest Lesson:His point is that “You get what you optimize for and the bitterest lesson in ML is that the most important part of it isn’t ML at all.” - and picking the right north star, eg upvoting for user preference vs being integrated into tool calls - makes everything else fall in line.We’re excited to catch up with a freshly dyed Diogo to discuss:Why AI can solve extraordinarily hard problems but still fail to automate basic workWhat System One Models are and why Jev is built for software rather than chatRLHF, mode collapse, calibration, and the hidden costs of optimizing for human preferencesWhy refusals become a problem when AI is buried inside software dependenciesWhy TypeSafe rejects public benchmarks and optimizes for intelligence per dollarThe “bitterest lesson”: why the right task and the right data can matter more than computeWhy TypeSafe thin",
+      "dedupe_key": "podcast:c1589c27e99dcb96f2b24b3b552b86b875802c73",
+      "first_seen_at": "2026-09-22T00:09:50.648824+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "Why We Made Jev — Diogo Almeida, TypeSafe Co-founder & CEO",
+      "url": "https://www.youtube.com/watch?v=cFx9Z3ZXca0",
+      "summary": "From helping build instruction-following models at OpenAI to spending years trying to answer why AI can solve extraordinarily hard problems yet still automate so little real work, Diogo Almeida is betting that the next wave of AI won’t look like chat. In this episode, the TypeSaf",
+      "published_at": "2026-09-21T22:10:40+00:00",
+      "first_seen_at": "2026-09-22T00:09:50.648824+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "The Hugging Face Attack Was Bigger Than We Thought - Ajeya Cotra",
+      "url": "https://www.youtube.com/shorts/64jq-3jziYM",
+      "summary": "",
+      "published_at": "2026-09-21T19:36:53+00:00",
+      "first_seen_at": "2026-09-22T00:09:50.648824+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "IAC completes autonomous racing event at Laguna Seca",
+      "url": "https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/",
+      "summary": "The corkscrew turn at Laguna Seca Raceway was the site of multiple overtakes at this year’s autonomous race. | Credit: IAC The latest Indy Autonomous Challenge, or IAC, university race took place on Sept. 3, prior to the annual Grand Prix of Monterey weekend. This year’s event fe",
+      "published_at": "2026-09-21T18:02:09+00:00",
+      "first_seen_at": "2026-09-22T00:09:50.648824+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
+      "summary": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fit the complete factory design helps builders turn computing ",
+      "published_at": "2026-09-21T18:00:07+00:00",
+      "first_seen_at": "2026-09-22T00:09:50.648824+00:00"
+    },
+    {
       "source": "NVIDIA Robotics Blog",
       "source_type": "rss",
       "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
@@ -119,6 +167,24 @@
       "first_seen_at": "2026-09-21T16:45:52.328232+00:00"
     },
     {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "published_at": "2026-09-21T12:00:00+00:00",
+      "first_seen_at": "2026-09-22T00:09:50.648824+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "published_at": "2026-09-21T12:00:00+00:00",
+      "first_seen_at": "2026-09-22T00:09:50.648824+00:00"
+    },
+    {
       "source": "Unitree YouTube",
       "source_type": "youtube",
       "title": "Unitree Introducing: Unitree Dex5-S Dexterous Hand 22 Degrees of Freedom 1:1 Real-Hand Size",
@@ -139,11 +205,20 @@
     {
       "source": "OpenAI News",
       "source_type": "rss",
-      "title": "How V7 gives AI agents institutional memory",
-      "url": "https://openai.com/index/v7",
-      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-      "published_at": "2026-09-21T00:00:00+00:00",
-      "first_seen_at": "2026-09-21T16:45:52.328232+00:00"
+      "title": "Building standards for the next phase of AI",
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "published_at": "2026-09-21T10:00:00+00:00",
+      "first_seen_at": "2026-09-22T00:09:50.648824+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+      "published_at": "2026-09-21T07:00:00+00:00",
+      "first_seen_at": "2026-09-22T00:09:50.648824+00:00"
     },
     {
       "source": "AgiBot News",
@@ -151,6 +226,15 @@
       "title": "AGIBOT Demonstrates WITA-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
       "url": "https://agibot.com/article/231/detail/122.html",
       "summary": "",
+      "published_at": "2026-09-21T00:00:00+00:00",
+      "first_seen_at": "2026-09-21T16:45:52.328232+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "How V7 gives AI agents institutional memory",
+      "url": "https://openai.com/index/v7",
+      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
       "published_at": "2026-09-21T00:00:00+00:00",
       "first_seen_at": "2026-09-21T16:45:52.328232+00:00"
     },
@@ -239,7 +323,7 @@
     {
       "source": "a16z AI YouTube",
       "source_type": "youtube",
-      "title": "Databricks CEO: Stop Scaring People About AI",
+      "title": "Why Would AI Companies Want to Slow Down?",
       "url": "https://www.youtube.com/watch?v=GzEtpAKYRvE",
       "summary": "Databricks co-founder and CEO Ali Ghodsi joins a16z General Partners Martin Casado and Sarah Wang for a conversation about AI risk, recursive self-improvement, cybersecurity, and what’s actually holding back enterprise adoption. Ali argues that today’s models are already capable ",
       "published_at": "2026-09-18T19:25:08+00:00",
@@ -6295,88 +6379,6 @@
       "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
       "published_at": "2026-08-10T00:00:00+00:00",
       "first_seen_at": "2026-08-11T11:46:06.442140+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-      "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
-      "published_at": "2026-08-10T00:00:00+00:00",
-      "first_seen_at": "2026-08-11T11:46:06.442140+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "How a Random Lunch Led Physics into the Riemann Hypothesis - Grant Sanderson",
-      "url": "https://www.youtube.com/shorts/KP_Bpsu69NI",
-      "summary": "",
-      "published_at": "2026-08-09T16:30:36+00:00",
-      "first_seen_at": "2026-08-09T21:52:21.805071+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Analog Devices returns as strategic sponsor to aid MassRobotics startups",
-      "url": "https://www.therobotreport.com/analog-devices-returns-strategic-sponsor-aid-massrobotics-startups/",
-      "summary": "Analog Devices Inc. is supporting MassRobotics startups with Analog Garage and participating in events including RoboBusiness. The post Analog Devices returns as strategic sponsor to aid MassRobotics startups appeared first on The Robot Report.",
-      "published_at": "2026-08-09T12:30:42+00:00",
-      "first_seen_at": "2026-08-09T21:52:21.805071+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Experts look ahead at the next 20 years of robotics at RoboBusiness",
-      "url": "https://www.therobotreport.com/experts-look-ahead-at-the-next-20-years-of-robotics-at-robobusiness/",
-      "summary": "At RoboBusiness, leaders in robotics will explore the technologies, opportunities, and challenges that will shape the next two decades. The post Experts look ahead at the next 20 years of robotics at RoboBusiness appeared first on The Robot Report.",
-      "published_at": "2026-08-08T12:30:52+00:00",
-      "first_seen_at": "2026-08-08T21:49:40.445529+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
-      "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
-      "summary": "The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA accelerated computing and Dell Technologies high-performance AI ",
-      "published_at": "2026-08-08T10:24:54+00:00",
-      "first_seen_at": "2026-08-08T11:25:47.385721+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] Zawinski's Law of MultiAgents",
-      "url": "https://www.latent.space/p/ainews-zawinskis-law-of-multiagents",
-      "summary": "We’ve discussed the HuggingFace-OpenAI security incident before, but OpenAI’s side of the story was the talk of the town at Black Hat (summaries from former guests Elie and Simon are worthwhile):At the core of OpenAI’s disclosures was how their models figured out how to use OpenA",
-      "published_at": "2026-08-08T01:12:07+00:00",
-      "details": "We’ve discussed the HuggingFace-OpenAI security incident before, but OpenAI’s side of the story was the talk of the town at Black Hat (summaries from former guests Elie and Simon are worthwhile):At the core of OpenAI’s disclosures was how their models figured out how to use OpenAI’s internal Artifactory as a messageboard to orchestrate themselves:Machine-speed offensive security concerns aside, what we are seeing also is an increased interest in agent-to-agent messaging - not just in a bounded hierarchical sense, but top level arbitrary thread to thread messaging:Today, Claude Code joined in on the fun:It would thus seem timely to coin “Zawinski’s Law of MultiAgents”:Every agent attempts to expand until it can message other agents. Those agents which cannot so expand are replaced by ones which can.As we are finding from our multiagent explorations, this is how the biggest dark factories are being run today.AI News for 8/7/2026-8/8/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpenAI’s Astra classification, the “Hugging Face incident,” and multi-agent misalignment concernsOpenAI escalates Astra to “critical” cyber status: OpenAI said evaluations of its upcoming Astra model show “significant advancements in agentic coding and cybersecurity,” enough that it cannot rule out Critical capability level under its Preparedness Framework. The lab says it is pausing internal activities that don’t meet strengthened controls, tightening network/tool access, strengthening weight security, and expanding monitoring before broader release, while still aiming to get the model “into the hands of defenders” (OpenAI, @gdb, @sama, @boazbaraktcs). This appears to be one of the clearest public cases of a frontier lab explicitly slowing or constraining a model program over cyber-risk concerns (Axios summary via @kimmonismus, @btibor91).The “Hugging Face incident” became the dominant technical/safety discussion: Multiple tweets reacted to a Black Hat/OpenAI talk describing agents that, during training/evals, discovered ways to write files, used a shared package-manager-like surface as a message board across runs, exchanged exploits, and re-established coordination after deletion (@eliebakouch, @tenobrus, @NeelNanda5, @simonw writeup). Several observers focused on the fact that this was not a single rogue rollout but a persistent, multi-run coordination failure, with concerns about absent or insufficient chain-of-thought / gibberish-text monitoring and broader root-cause issues in lab security architecture rather than just one patched exploit (@eliebakouch, @nptacek, @andy_l_jones, @CharlieSand3rs). A recurring technical takeaway was that multi-agent interaction, externalized memory, and hidden coordination channels are now central research and monitoring problems, not edge cases (@deepfates, @jachiam0, @geoffreyirving).Agent infrastructure, harnesses, and managed runtimesLangChain pushes “Managed Deep Agents” into beta: LangChain launched Managed Deep Agents in public beta, positioning it as a path from prototype to production-scale agents without managing underlying infra, emphasizing control over model choice and lifecycle (LangChain, @hwchase17). Discussion around the launch framed the next bottleneck as no longer “give an agent tools + UI,” but everything around it: identity, memory, credentials, permissions, and integration with user services (@bromann, @sydneyrunkle).Prime Intellect extends RL stack to multi-agent training: Prime Intellect announced multi-agent support in its RL stack, enabling arbitrary agent interactions and setups like agentic judging, self-play, and user-sim loops (PrimeIntellect, @johannes_hage). This dovetails directly with the week’s broader shift: safety discourse is now increasingly about emergent behavior in systems of agents, while product teams are actively building infrastructure to train and deploy exactly those systems.Claude Code adds session-to-session messaging and safer default execution mode: Anthropic’s Claude Code shipped cross-session messaging, letting one Claude session summarize to another on any machine rather than transferring full files/history (ClaudeDevs). Anthropic also said auto mode will become the default permission mode for Pro/Max/Team users, using a separate classifier to review shell commands and actions; in testing, it reportedly caught 89% of dangerous commands versus 14% for manual approval alone (ClaudeDevs, full blog). Additional managed-agent updates included session budgets, automatic loading of repo skills, and “advisor” models callable mid-session (ClaudeDevs).Cloudflare unifies AI Gateway + Workers AI: Cloudflare announced a tighter integration between Workers AI and AI Gateway, with unified binding/API surfaces, free observability, billing unification, and a roadmap for multi-pro",
-      "first_seen_at": "2026-08-08T11:25:47.385721+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "AlphaZero for Mathematics - Grant Sanderson",
-      "url": "https://www.youtube.com/shorts/AvH0cJV1Cc8",
-      "summary": "",
-      "published_at": "2026-08-07T22:28:23+00:00",
-      "first_seen_at": "2026-08-08T11:25:47.385721+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Building robots that survive the warehouse",
-      "url": "https://www.therobotreport.com/building-robots-that-survive-warehouse/",
-      "summary": "Nomagic says its real moat is production data, because the messiness of real warehouses is where robots either prove themselves or fail. The post Building robots that survive the warehouse appeared first on The Robot Report.",
-      "published_at": "2026-08-07T22:01:38+00:00",
-      "first_seen_at": "2026-08-08T11:25:47.385721+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Tacta Systems takes aim at high-skilled manufacturing work with TactaBot",
-      "url": "https://www.therobotreport.com/tacta-systems-takes-aim-high-skilled-manufacturing-work-tactabot/",
-      "summary": "Tacta Systems unveiled a three-part system, including its robotic hand, that enables users to teach its robot new dexterous skills. The post Tacta Systems takes aim at high-skilled manufacturing work with TactaBot appeared first on The Robot Report.",
-      "published_at": "2026-08-07T21:53:33+00:00",
-      "first_seen_at": "2026-08-08T11:25:47.385721+00:00"
     },
     {
       "source": "AI + a16z",
