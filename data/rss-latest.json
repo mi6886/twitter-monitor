@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-22T23:37:00.980158+00:00",
+  "updated_at": "2026-09-23T15:16:12.944868+00:00",
   "count": 700,
-  "new_count": 505,
+  "new_count": 510,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -72,6 +72,163 @@
       "summary": "",
       "published_at": "2026-10-06T00:00:00+00:00",
       "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "published_at": "2026-09-23T16:00:00+00:00",
+      "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
+      "url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
+      "summary": "When Sakeena Fiza describes her work as a validation engineer at NVIDIA, she does so in terms more befitting a detective story than a world-class engineering lab. “Validation engineers look in the shadows and shine a light into every corner,” Fiza said. “Every time we get a syste",
+      "published_at": "2026-09-23T15:00:32+00:00",
+      "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
+    },
+    {
+      "source": "a16z AI YouTube",
+      "source_type": "youtube",
+      "title": "Replit CEO Amjad Masad on What Young People Should Learn in the AI Era",
+      "url": "https://www.youtube.com/watch?v=Q8yFrGwIftE",
+      "summary": "Erik Torenberg sits down with Replit founder and CEO Amjad Masad and Horowitz and Andreessen Academy co-founder and CEO Gagan Biyani to ask what education should look like for a generation growing up with AI. Amjad argues that one of the most valuable things young people bring to",
+      "published_at": "2026-09-23T14:30:06+00:00",
+      "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
+    },
+    {
+      "source": "Boston Dynamics YouTube",
+      "source_type": "youtube",
+      "title": "Ask A Roboticist | Meet Diane | Boston Dynamics #robot #bostondynamics #robotics",
+      "url": "https://www.youtube.com/shorts/eTzDOGql56c",
+      "summary": "Diane Heinle, a mechanical engineer, answers questions about endurance testing for Stretch, how her team simulates years of wear on robot parts over a brief time in the lab, and why there are bird heads on the",
+      "published_at": "2026-09-23T14:09:41+00:00",
+      "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
+    },
+    {
+      "source": "Boston Dynamics Blog",
+      "source_type": "rss",
+      "title": "Ask a Roboticist: Meet Diane | Boston Dynamics",
+      "url": "https://bostondynamics.com/blog/ask-a-roboticist-meet-diane/",
+      "summary": "A mechanical engineer answers questions about endurance testing at Boston Dynamics and how we simulate years of robot use in just weeks.",
+      "published_at": "2026-09-23T13:59:17+00:00",
+      "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+      "url": "https://www.youtube.com/watch?v=B7DdNj_VjcU",
+      "summary": "What happens when AI stops merely *reading* DNA and starts learning how to *write* it? Eric Nguyen, CEO and co-founder of Radical Numerics and a key figure behind Evo, joins us to explain the leap from early genome language models to Omni—a system that can outperform specialized ",
+      "published_at": "2026-09-23T13:35:08+00:00",
+      "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+      "url": "https://www.latent.space/podcast",
+      "summary": "The OpenAI → Hugging Face attack has people asking “what else do we need to worry about?” and Anthropic’s filters flag two things: cyber-security and biology. The natural question is: what about bio-security, then? Clem Delangue argues that cyber-warfare defensive capabilities ne",
+      "published_at": "2026-09-23T13:27:18+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/216723291/8511fc2825689ad610a1ca70864be49f.mp3",
+      "details": "The OpenAI → Hugging Face attack has people asking “what else do we need to worry about?” and Anthropic’s filters flag two things: cyber-security and biology. The natural question is: what about bio-security, then? Clem Delangue argues that cyber-warfare defensive capabilities need to be open and to keep pace with frontier models’ attack capabilitiesRadical Numerics co-founder Eric Nguyen sat down with us and explained why the same models that increase biological capability can also keep defense from falling behind.Building a virus from scratchWhile he was at Stanford, Eric couldn’t get traction on Genomic Language Models (GLMs) for a long time. Biologists didn’t believe it would work, didn’t think they could verify the output, and didn’t see important applications beyond what they could already do. He kept pushing, eventually helping lead the development of Evo and contributing to Evo 2 at Arc Institute. Those models were later used by a separate Arc/Stanford team to generate entire bacteriophage genomes that were synthesized into functional viruses!Long context unlocks biological intelligenceEarly ChatGPT spit out poems and email, and early DNA language models like Evo and Evo-2 could build a genome from scratch. DNA is different, however, from natural language in that it has a very small alphabet (4 characters ACTG) and that its sequences are very long:60K for an average human genelong being up to 2.3Mthe whole human genome around 3B.Innovation in long-context models made this possible about 3 years ago (footnote: striped hyena), long before the frontier labs were building 1M+ context models.Adapted from Wikipedia: Genome SizeNow Eric and other AI x Bio luminaries1 have founded Radical Numerics to build and scale GLMs to tack a wide range of biological problems, extending well beyond generating DNA.Thinking in DNATheir GLMs already do pretty well with RNA and protein because there are clear markers in the DNA sequence for genes (RNA sequences the perform many functions) and specific genes that encode proteins. This means that the models already generalize to multiple “languages,” before even attempting to train in other modalities, such as 3d protein structure, epigenetics and natural language.If a model thinks in the DNA language, maybe it understands the imprint that environment left on different genomes as well? Perhaps the model has learned the functional relationship between different sequences, and could extrapolate to new sequences based on that?And so what we wanted to showcase was that if we show the model progressively better RNAs in a series of steps with its score, right? So you have like low scores first and then you gradually move up the chain. Can the model continue that trajectory on its own? And then in the final step, does it self optimize to a point where it's like the best score it can get? That was the experiment. Can we do that? And so we took a data set, a large data set of aptamers. We held out a portion of the best performing ones and we showed it only the lower ones, but then we ranked it, right? So we showcase lower scores with the RNA aptamers and then progressively got higher, and then ask the model to just like continue with that pattern. And it turns out it was able to recapitulate some of those higher scores that we had not shown it yet.So, voila: chain-of-thought, thinking in DNA!The arms raceBut much as long-context inference, chain-of-though and multi-modal perception unlocked sophisticated reasoning in natural language LLMs, these capabilities in GLMs are enabling increasingly sophisticated “biological intelligence,” and along with it, greater danger.According to Eric, defense is currently losing this battle, but Radical Numerics argues to push the frontier harder!I won’t spoil the details for you. In the episode we talk in detail about:Biosecurity as an arms race — and how defense can keep upThe genome as the imprint of the environment on DNAGoing truly multi-modalHow chain-of-though works when you “think” in the language of DNA1Eric Nguyen: Co-founder and CEO, holding a PhD in Bioengineering & AI from Stanford University. He previously helped develop large-scale genome language models like Evo and Evo 2Michael Poli: Chief AI Scientist, holding a Stanford PhD and a former founding scientist at Liquid AI.Stefano Massaroli: President, a former postdoc with Yoshua Bengio and a founding team member at Liquid AI.Armin W. Thomas: CTO, a former Stanford postdoc who worked with Chris Ré and was previously at Liquid AI.",
+      "dedupe_key": "podcast:7f5fad26ae4ab49b557154d38f4a8b33f1117507",
+      "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+      "summary": "",
+      "published_at": "2026-09-23T13:17:01+00:00",
+      "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "Developers want more efficient software. Here’s what over 1000 GitHub users told us they need.",
+      "url": "https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need/",
+      "summary": "Developers know efficient software matters, but many lack a clear way to find waste, measure an improvement, and make the case for fixing it. That is the central finding from a new survey of 1,039 GitHub users conducted by GitHub and the Yale Program on Climate Change Communicati",
+      "published_at": "2026-09-23T13:00:00+00:00",
+      "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "published_at": "2026-09-23T13:00:00+00:00",
+      "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Helicon brings automation to high-volume composites manufacturing",
+      "url": "https://www.therobotreport.com/helicon-brings-automation-high-volume-composites-manufacturing/",
+      "summary": "Helicon is using robots for carbon fiber parts production. Source: Helicon Advanced composites offer strength and stiffness at low weight, but manufacturing them at scale remains slow, labor-intensive, and difficult to automate. Helicon Industries is building automated manufactur",
+      "published_at": "2026-09-23T12:30:48+00:00",
+      "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "State of Humanoids keynote brings industry leaders to RoboBusiness",
+      "url": "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/",
+      "summary": "Humanoid robots are moving from headline-grabbing demos toward real-world deployments. At RoboBusiness 2026, the “State of Humanoids” keynote will bring together leaders from Agility, Apptronik, Persona AI, and PSYONIC for a practical look at where the technology stands today—and",
+      "published_at": "2026-09-23T12:25:11+00:00",
+      "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Qualcomm to acquire PickNik Robotics and keep MoveIt open-source",
+      "url": "https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/",
+      "summary": "Qualcomm will integrate its Dragonwing platform with PickNik’s MoveIt framework. Source: Qualcomm Qualcomm Technologies Inc. today said it has agreed to acquire PickNik Inc., which has developed robotics software including the MoveIt open-source manipulation framework. The compan",
+      "published_at": "2026-09-23T11:29:32+00:00",
+      "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+      "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+      "summary": "OpenAI made a valiant effort with GPT-6 Sol and Luna launching 50% lower than GPT-5.6, but with 17M views on the launch and counting, today was always going to belong to Claude Opus 5.5, “the first model in our new Claude 5.5 family” performing like “Claude Fable 5.1 for most tas",
+      "published_at": "2026-09-23T06:41:41+00:00",
+      "details": "OpenAI made a valiant effort with GPT-6 Sol and Luna launching 50% lower than GPT-5.6, but with 17M views on the launch and counting, today was always going to belong to Claude Opus 5.5, “the first model in our new Claude 5.5 family” performing like “Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5.”Opus 5.5 beats Fable or challenges Astra at most benchmarks, and both labs credited efficiency work for the API price cuts, but there are HUGE double digit gains everywhere from prefill to decode to overall compute…… with offsetting inefficiency in token usage on some frontier tasks.HOWEVER something that is a rare emphasis in the Claude launch was the writing improvements: “It puts the most important information up front and follows the writing rules you give it, which makes long sessions easier to follow.”We can confirm - here is today’s AINews section run on Opus 5.5 and Sol 6. The difference is night and day - we are migrating to Opus 5.5 immediately for AINews going forward until we reach the next model/version of AINews.They have also published initial work on large multiagent swarms (and efficiency):AI News for 9/21/2026-9/22/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapTop Story: Claude Opus 5.5 launch, numbers, and reactionsWhat happenedAnthropic shipped Claude Opus 5.5, the first model in a new Claude 5.5 family. Its pitch is Fable 5.1‑level capability at Opus pricing, with more speed and better writing. OpenAI released GPT‑6 Sol and Luna about an hour later.Launch claims. Opus 5.5 “performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5” (@claudeai; @AnthropicAI).Where it leads. Anthropic says it leads on agentic coding, computer use, and knowledge work (@claudeai).Speed and cost. It is about 30% faster and about 40% cheaper per task than Opus 5 (@ClaudeDevs, @lydiahallie).Communication fixes. The model puts the most important information up front and follows user writing rules. This targets the most common feedback on Opus 5 (@claudeai).Subscription changes:5‑hour session limits are up 20%.Lower pricing means limits go 25% further.Pro, Max, and Team users get a banked rate‑limit reset they can use whenever they choose (@claudeai, @ClaudeDevs, @trq212).New defaults. Opus 5.5 is now the default in Claude Code and the Claude app, including Cowork. Default effort is medium, described as “comparable to Fable 5.1 on intelligence but faster” (@_catwu).Availability. It is live in Claude Code and the Claude Platform API (@ClaudeDevs), and in Claude Tag for Slack (@_catwu).Roadmap. Sonnet 5.5 and Haiku 5.5 follow “in the coming weeks” (@mikeyk, @AiBattle_). This contradicts rumors that Haiku was discontinued (@kimmonismus).Safeguards. Opus 5.5 is the first Opus with Fable 5.1‑class safeguards on cyber, bio, and frontier LLM development. Flagged requests fall back to another model, and Anthropic says it is “working to reduce incorrect flags” (@ClaudeDevs).Pre-release signals. The model was spotted in Claude Code shortly before the announcement (@kimmonismus).System card. It was published at launch (@scaling01).Pricing and token economics (facts)List price. Token pricing was cut 20%, from $5/$25 to $4/$20 per 1M input/output tokens (@ValsAI).Offset by higher token use. Vals notes Opus 5.5 often uses more tokens, especially on coding, where it posts its largest gains. The lower sticker price is partly offset by usage.Artificial Analysis cost breakdown. At max effort, Opus 5.5 costs $5.98 per Intelligence Index task versus $5.86 for Opus 5 (max). Their decomposition (@ArtificialAnlys):Higher token usage alone would raise cost per task about 80%, to $10.51.The 20% base-price cut brings that to $8.41.Cheaper cache reads ($0.20) bring it to $5.98.What that means. At max effort, the per‑task saving over Opus 5 disappears. The “40% cheaper” claim applies to default (medium) settings.Relative to Fable 5.1. Cline reports Opus 5.5 beats Fable 5.1 on the Artificial Analysis Intelligence Index at about 2.5x lower cost (@cline).Prompt caching. Switching effort mid‑session does not break the prompt cache on Claude Code v2.1.280+ (@lydiahallie).Model size (speculation). @theo claimed Opus 5.5 is smaller than Opus 5 and credited post‑training. This was not confirmed in official posts.Benchmarks and independent evalsAnthropic’s own table. Opus 5.5 beats Fable 5.1 on every row of Anthropic’s headline comparison and beats GPT‑6 Astra on most (@kimmonismus, @synthwavedd, @scaling01).@ShayneRedford (Anthropic) summarized the claimed gains:Stronger than Astra on CursorBench, KWBench, and OSWorld.Much better style and instruction following.Stronger science and health capabilities.More robust against cyber and bio misuse.Third‑party and partner evals:EvalResultSourceVals Index#1, up 2 spots /",
+      "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
+      "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
+      "summary": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced tools to accelerate their work in AI and high-performance computing. At the event, ",
+      "published_at": "2026-09-23T02:30:22+00:00",
+      "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+      "published_at": "2026-09-23T00:00:00+00:00",
+      "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "AI Is Forcing Us to Evolve",
+      "url": "https://www.youtube.com/shorts/q69HLw2ZTM8",
+      "summary": "\"At some point it'll be abnormal to have children without genetic screening and editing.\" \"It's like driving without a seatbelt.\" AI is forcing us to take control of human evolution. Brian Armstrong explains:",
+      "published_at": "2026-09-22T23:38:37+00:00",
+      "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
     },
     {
       "source": "The Robot Report",
@@ -240,20 +397,20 @@
       "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
     },
     {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Transformers now runs llama.cpp quants",
-      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "summary": "",
-      "published_at": "2026-09-22T00:00:00+00:00",
-      "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
-    },
-    {
       "source": "PixVerse Product Updates",
       "source_type": "rss",
       "title": "PixVerse Introduces R2, Advancing Its Real-Time World Model Toward Persistent, Playable Worlds | PixVerse",
       "url": "https://pixverse.ai/en/blog/pixverse-introduces-r2-real-time-world-model",
       "summary": "R2 is the upgrade to PixVerse",
+      "published_at": "2026-09-22T00:00:00+00:00",
+      "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Transformers now runs llama.cpp quants",
+      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "summary": "",
       "published_at": "2026-09-22T00:00:00+00:00",
       "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
     },
@@ -6228,168 +6385,12 @@
       "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
     },
     {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Defense drone developer Cambridge Aerospace raises $300M",
-      "url": "https://www.therobotreport.com/defense-drone-developer-cambridge-aerospace-raises-300m/",
-      "summary": "Cambridge Aerospace plans to bring its next product, Starhammer, to market in 2027. | Source: Cambridge Aerospace Cambridge Aerospace Ltd. this week raised $300 million in Series C funding, bringing its valuation to $3.4 billion. The defense drone developer said it plans to expan",
-      "published_at": "2026-08-11T20:34:25+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Tech Blog",
-      "source_type": "rss",
-      "title": "NVIDIA JetPack 7.2.1 Adds Agentic Video Skills and T3000 Emulation",
-      "url": "https://developer.nvidia.com/blog/nvidia-jetpack-7-2-1-adds-agentic-video-skills-and-t3000-emulation/",
-      "summary": "Video is a core data path across NVIDIA Jetson applications, from robotics and intelligent video analytics to industrial automation, healthcare, media processing, and remote operations. A system may capture several cameras, decode network streams, run AI inference or conventional",
-      "published_at": "2026-08-11T19:00:00+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "From coder to orchestrator: How agents shift the role of a developer",
-      "url": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
-      "summary": "Stop me if you’ve heard this one before: I’ve created an exciting new demo with just a single prompt. Everyone claps! One-prompt demos are quick and easy to create. But setting up a system that lets you generate code reliably and safely… that’s a completely different story. With ",
-      "published_at": "2026-08-11T18:38:17+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "PlusAI reaches key milestones ahead of launching its autonomous trucks",
-      "url": "https://www.therobotreport.com/plusai-reaches-key-milestones-ahead-launch-autonomous-trucks/",
-      "summary": "Over the past six months, PlusAI has continued safety validation of SuperDrive with global OEM partners on factory-built trucks. | Source: PlusAI PlusAI Inc. yesterday said it has updated its commercial readiness metrics for the first half of 2026. These metrics highlight the com",
-      "published_at": "2026-08-11T17:13:33+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "Advancing AMIE towards expert-level audio-visual clinical consultations",
-      "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/",
-      "summary": "Health & Bioscience",
-      "published_at": "2026-08-11T17:04:00+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
-      "summary": "Google introduces AMIE for real-time clinical video consultations in simulated settings.",
-      "published_at": "2026-08-11T17:00:00+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Ryan Greenblatt – What happens once AI can automate AI research?",
-      "url": "https://www.youtube.com/watch?v=-RXD4bTuFTo",
-      "summary": "Ryan Greenblatt is the Chief Scientist at Redwood Research, where he works on technical AI safety research. He's also lead author on the \"Alignment faking in Large Language Models\", and is currently working on a third party investigation into the OpenAI/HuggingFace incident. In m",
-      "published_at": "2026-08-11T16:45:37+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast",
-      "source_type": "rss",
-      "title": "Ryan Greenblatt – What happens once AI can automate AI research?",
-      "url": "https://www.dwarkesh.com/p/ryan-greenblatt",
-      "summary": "A debate about recursive self-improvement.",
-      "published_at": "2026-08-11T16:31:23+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast",
-      "source_type": "rss",
-      "title": "Ryan Greenblatt – What happens once AI can automate AI research?",
-      "url": "https://www.dwarkesh.com/podcast",
-      "summary": "Had Ryan Greenblatt on to discuss/debate recursive self-improvement.This might be the most important question in the world right now – whether within a year or so of achieving human-level intelligence, you slingshot towards having 10s of billions of superintelligences, each of wh",
-      "published_at": "2026-08-11T16:31:23+00:00",
-      "audio_url": "https://api.substack.com/feed/podcast/210737923/7ebb4a9c27fa436baca3863c225f556e.mp3",
-      "details": "Had Ryan Greenblatt on to discuss/debate recursive self-improvement.This might be the most important question in the world right now – whether within a year or so of achieving human-level intelligence, you slingshot towards having 10s of billions of superintelligences, each of which is dramatically more competent than human experts across all fields.I’ve historically been skeptical of this possibility. My intuition has been that we will end up significantly bottlenecked by not only compute scaling but human expert data, which I think underlies most of the AI progress today.If, because of RSI, we got a jump as big as GPT-3 to a Mythos (i.e. 6 years of AI progress) within a single year of achieving AGI, then the thing we get there at the end of that year is definitively and wildly superhuman.We hashed it out, and I think Ryan made a pretty good case that this kind of speedup is plausible. FWIW, Ryan’s median for when we automate AI R&D is 2031.We then discussed the alignment implications of this scenario. Who should these superintelligences be aligned to? In the future, our capacity to steward our votes and our capital, and to make sense of what’s happening in the world, will all be titrated by superintelligences. And I worry that specs like the Claude Constitution are not shaping these ASIs to truly be my personal advocates and guardian angels.And can we get them aligned to anything in the first place? Ryan and I had a long debate about whether the kind of reward hacking we saw with the OAI/Hugging Face hack extrapolates to superintelligences that would team up to literally take over the world.The first piece of advice you get when you’re learning to drive is that it will go much smoother if you look at the horizon instead of directly in front of your tires. And so it is with the trajectory of AI. Hope you enjoy!Watch on YouTube; listen on Apple Podcasts or Spotify.SponsorsAntithesis is a software testing platform that finds the failures no human or AI could ever anticipate. It runs thousands of copies of your code inside a fully deterministic computer, injecting faults and steering each trajectory toward the most insidious bugs. This lets you find critical issues in minutes rather than waiting months for your users to uncover them. Learn more at antithesis.com/dwarkeshJane Street’s back with a new puzzle. They designed an ASIC and sent me the final masks… but they didn’t tell me what the chip actually does. So that’s the challenge: reverse engineer the circuit and figure out the chip’s purpose. Jane Street has a bunch of swag ready to send to the most creative solutions, and they’re also planning to feature the top write-ups in a blog post. Download the files and get started at janestreet.com/dwarkeshCursor and SpaceX recently released Grok 4.5, and I’ve been surprised by just how good the model is. For example, when I tested it against Fable and Sol on a bunch of AI governance questions, all three models gave substantially the same answers, but Grok was faster, more concise, and cheaper. Grok 4.6 is coming soon, but in the meantime, you can try 4.5 at cursor.com/dwarkeshTimestamps(00:00:00) – Is AI R&D verifiable enough to unlock recursive self-improvement?(00:16:52) – Is AI progress bottlenecked by human expert data?(00:34:02) – Flat token prices suggest scaling has been slow(00:39:47) – Skills AI can’t train on: does it even need them?(00:48:07) – Aligned to whom?(01:09:18) – Recent incidents of AIs colluding and deceiving humans(01:19:38) – What could possibly go wrong? A concrete scenario(01:48:02) – From reward hacking to takeoverTranscript00:00:00 – Is AI R&D verifiable enough to unlock recursive self-improvement?Dwarkesh PatelToday I’m chatting with Ryan Greenblatt, who is the chief scientist at Redwood Research, where he focuses on technical AI safety and security work.I want to talk to you about recursive self-improvement. This is the idea that once we build human-level intelligences, they quickly slingshot towards tens of billions of superintelligences, which are each individually more competent than the top human experts across every field. Whether or not this turns out to be the case is probably the most important question in the world right now. And historically, I’ve been quite skeptical that this kind of thing happens, but, you seem to think that it might be plausible, and so I wanted to hear the case for it.Ryan GreenblattLet’s talk about this. First, I think it’s worth noting that AI R&D is a type of task at which the AIs are especially good, because the companies are trying really hard to make their AIs good at AI R&D. It’s also the kind of domain that has a lot of nice properties from the perspective of how AI development works right now. It’s pretty verifiable. You can do a bunch of stuff iteratively, and it’ll hill climb on various metrics.I think once you have AIs which are roughly matching the top human experts in AI R&D, that could kick off a feedback loop where the AIs are doing AI",
-      "dedupe_key": "podcast:239726debadcfa45513a7f878f451755192a73f9",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "The Danger of Over-Regulating AI",
-      "url": "https://www.youtube.com/shorts/nDfHlolXkx8",
-      "summary": "70% of France's grid is powered by nuclear energy with zero major accidents. The U.S. stalled at 18% and hasn't built a reactor in 40 years. Elad Gil and Sarah Guo on how the anti-nuclear safety lobby of the 1970s killed abundant clean energy in America, and why AI is facing the ",
-      "published_at": "2026-08-11T16:27:17+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "Why Scaling AI Compute Performance Requires a New Power Architecture",
-      "url": "https://blogs.nvidia.com/blog/800-vdc-power-architecture-ai-factory/",
-      "summary": "Every new generation of accelerated computing demands more from the infrastructure underneath it — more compute performance, higher rack density and more efficient, scalable power distribution. The bottleneck isn’t just wattage. It’s how power gets from the grid to the GPU. In tr",
-      "published_at": "2026-08-11T15:00:06+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Webinar to discuss safety and scaling robot fleets in the warehouse",
-      "url": "https://www.therobotreport.com/webinar-to-discuss-safety-scaling-robot-fleets-warehouse/",
-      "summary": "Safety systems for mobile robots can be deployed with minimal disruption. Source: Geek+ Safety considerations can be a barrier to adoption and scaling of robot fleets in warehouses and other facilities, but they don’t have to be. Safety measures can lead to production stoppages a",
-      "published_at": "2026-08-11T14:34:31+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market",
-      "url": "https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/",
-      "summary": "Imagine a manufacturing floor where robots don’t just repeat the same motion thousands of times but adapt to new tasks. They’re able to navigate cluttered spaces, manipulate unfamiliar objects and switch between tasks as fluidly as human workers. They can climb stairs, squeeze in",
-      "published_at": "2026-08-11T14:17:22+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-      "summary": "",
-      "published_at": "2026-08-11T13:37:10+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
       "source": "NVIDIA Robotics YouTube",
       "source_type": "youtube",
       "title": "GTC SJ 2026: Healthcare Reimagined - Bridging Digital Intelligence and Physical Autonomy",
       "url": "https://www.youtube.com/watch?v=pmiN5Nj1-K8",
       "summary": "Robotics and AI are redefining healthcare, transforming diagnostics, surgery, patient care, and operational efficiency. Explore how NVIDIA hardware, AI factories, simulation, and robotics platforms power physical AI systems and digital agents that unify sensing, perception, plann",
       "published_at": "2026-08-11T13:00:34+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
-      "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
-      "summary": "The open source ecosystem is making it easier for AI enthusiasts and developers to build, customize and run increasingly capable agents locally. Throughout August, NVIDIA is celebrating the partners and open source communities moving local AI forward, along with the models, appli",
-      "published_at": "2026-08-11T13:00:25+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
-      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-      "summary": "As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over where AI runs and how it’s deployed and evolves. Today, NVIDIA is expanding its Nemotron 3 model family with Nemotron 3.5 Lightning, the highest-efficiency model in its c",
-      "published_at": "2026-08-11T13:00:05+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Testing ads in ChatGPT",
-      "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-      "published_at": "2026-08-11T10:00:00+00:00",
       "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
     },
     {
