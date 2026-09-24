@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-23T23:45:24.619791+00:00",
+  "updated_at": "2026-09-24T15:41:14.118783+00:00",
   "count": 700,
-  "new_count": 510,
+  "new_count": 509,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -72,6 +72,128 @@
       "summary": "",
       "published_at": "2026-10-06T00:00:00+00:00",
       "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Foundries vs Navigators: Lowering the Cost of Science",
+      "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
+      "summary": "What does the future of science look like in the world of AI? Anthropic has some lofty goals for science and is even opening a wet lab. Meanwhile a quiet transformation1 is happening all across AI x Science.In this guest post, Adrian Sanborn talks about the less flashy but more i",
+      "published_at": "2026-09-24T15:03:16+00:00",
+      "details": "What does the future of science look like in the world of AI? Anthropic has some lofty goals for science and is even opening a wet lab. Meanwhile a quiet transformation1 is happening all across AI x Science.In this guest post, Adrian Sanborn talks about the less flashy but more immediate ways he sees AI transforming front-line scientific research in his own company, Endura Therapeutics.Adrian did a CS PhD at Stanford and spent much of it running experiments at the bench, which makes him one of the rare people who can tell you what an LLM is doing to a codebase and to a wet lab. Enjoy!Language models have transformed how software gets built. Writing code, wrangling data, and architecting systems now move at a speed unthinkable three years ago.When the product is software and the result is verifiable, cheaper coding turns directly into more software and more builders.2 But in science, everything is ultimately gated by physical experiments that take days or weeks to verify anything. Knowledge work around the experiment has become dramatically faster while AI has done little for the throughput of the experiment itself. Thinking got cheap and doing did not.We think the biotech industry has adapted in two ways:Foundries shrink the cost of doing. They industrialize the measurement, using new technology to generate data an order of magnitude faster than before. Xaira, NewLimit, Octant, Tahoe, and Endura accomplish this with next-generation sequencing and multiplexing; Insitro, Eikon, and Noetik with high-throughput microscopy; Lila and Periodic Labs with physical automation, just to name a few. AI makes that data legible and predictive, but the differentiating asset is the experimental data itself.Navigators spend the surplus of thinking. The AI models sit in the ordinary machinery of the company, driving better decisions and faster processes. They increasingly govern how the work is conducted, what tools get built, and which questions are worth an experiment. A proprietary model or a massive dataset are not required, only a willingness to evolve how the company works.Building a foundry is a genuine strategic commitment that takes capital, years, and a bet on a particular technology. Foundries are easy to see: the technology captures the imagination, the connection to AI is immediate, and there is always some new model or dataset to announce. Navigators are invisible by comparison because the gains are operational and nobody issues a press release about a path they decided against. But navigation is available to every company. The prominent change is happening at a few dozen companies, while the inconspicuous one is happening at all of them.Navigation runs fastest at early-stage startups, which have no legacy to shed: no history of software contracts, standardized processes, calcified org structure, or compliance regime. They are also under pressure to move fast with very little. When a better way to work appears, it simply becomes the new normal.The impact shows up everywhere. Experiments iterate faster when analysis takes an hour instead of a week. A category of software that would have been licensed for six figures becomes a one-day build. Disease programs get chosen from 500 candidates where a team could ordinarily evaluate five. Here’s what it looks like from the inside.Code now keeps pace with the scienceThere is a structural tension in experimental science that software engineering has no real equivalent for. In engineering, requirements that change every few weeks are a symptom of poor planning. In research, they are the objective. The purpose of an experiment is to learn something, and that learning changes what the next experiment should be.3 If an approach has not evolved in six months, it means nothing is being discovered.A new experiment’s protocol will evolve a dozen times in the first year, and every one of those changes propagates into the analysis. Each measurement has to be processed, normalized, and interpreted with code that tracks the experiment closely. Historically this analysis was done by a second person, creating a seam between the person who understands what the experiment is measuring and the person who understands what the code is doing. From this friction arises the tendency to propose fewer experimental changes to avoid analysis rework, which compounds into options left unexplored.Now that writing code is fast, adapting the analysis to a modified protocol is an afternoon’s work rather than a project. The experiment is no longer constrained by the burden of changing the analysis pipeline. Experiments can be agile when flexibility is cheap and problems can be easily fixed; in other words, science gets to “move fast and break things.”The same shift also applies one layer up, to interpretation. An interactive visualization dashboard can now be built in minutes, down from days.An internal dashboard at Endura Therapeutics, built in a few hours.The most visible consequence is access. Previou",
+      "first_seen_at": "2026-09-24T15:41:14.118783+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Epson introduces AX6 cobot with compact design, no-code programming",
+      "url": "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/",
+      "summary": "The AX6 force- and power-limited robot arm is designed to be lightweight and easy to use. Source: Epson Epson Robots this week expanded its six-axis robot line with the AX6 collaborative robot. It said the new cobot is is designed with power- and force-limiting features that, wit",
+      "published_at": "2026-09-24T14:51:07+00:00",
+      "first_seen_at": "2026-09-24T15:41:14.118783+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "summary": "",
+      "published_at": "2026-09-24T14:08:57+00:00",
+      "first_seen_at": "2026-09-24T15:41:14.118783+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
+      "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
+      "summary": "When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not offer the same head start. To help improve the odds, NVIDIA",
+      "published_at": "2026-09-24T14:00:50+00:00",
+      "first_seen_at": "2026-09-24T15:41:14.118783+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "ANYbotics opens the door for inspections with ANYmal robots",
+      "url": "https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/",
+      "summary": "ANYmal can now inspect more of facilities in processing industries. Source: ANYbotics Closed doors have been a barrier for mobile inspection robots in processing industries such as energy, metals, mining, and chemicals. ANYbotics today said it has partnered with dormakaba and LEG",
+      "published_at": "2026-09-24T13:27:58+00:00",
+      "first_seen_at": "2026-09-24T15:41:14.118783+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
+      "summary": "A warped Manhattan is waiting in the cloud this week. Remedy Entertainment’s CONTROL Resonant brings Dylan Faden’s extraordinary abilities and a paranatural crisis to GeForce NOW at launch. With the release comes the final days of the CONTROL Resonant Ultimate Membership Bundle. ",
+      "published_at": "2026-09-24T13:00:36+00:00",
+      "first_seen_at": "2026-09-24T15:41:14.118783+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee",
+      "url": "https://www.youtube.com/watch?v=TCpRwJBQvW0",
+      "summary": "Can AI transform legacy incumbents rather than replacing them? Sequence Holdings co-founder and CEO Michael Lee joins Sarah Guo to discuss how holding company structures and engineering integrations are reshaping market leaders from the inside out. Michael details Sequence’s $7.7",
+      "published_at": "2026-09-24T10:00:05+00:00",
+      "first_seen_at": "2026-09-24T15:41:14.118783+00:00"
+    },
+    {
+      "source": "No Priors Podcast",
+      "source_type": "rss",
+      "title": "Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee",
+      "url": "https://no-priors.com/",
+      "summary": "Can AI transform legacy incumbents rather than replacing them? Sequence Holdings co-founder and CEO Michael Lee joins Sarah Guo to discuss how holding company structures and engineering integrations are reshaping market leaders from the inside out. Michael details Sequence’s $7.7",
+      "published_at": "2026-09-24T10:00:00+00:00",
+      "audio_url": "https://traffic.megaphone.fm/PDP3274846886.mp3",
+      "details": "Can AI transform legacy incumbents rather than replacing them? Sequence Holdings co-founder and CEO Michael Lee joins Sarah Guo to discuss how holding company structures and engineering integrations are reshaping market leaders from the inside out. Michael details Sequence’s $7.7 billion take-private transaction of Baldwin alongside Dell Family Office (DFO), and shares his thesis on why traditional consulting models and software sales fall short for real enterprise AI transformations. They also talk about why permanent holding company structures are good for long-term compounding, real-world results from applying frontier engineering to BankSouth, and Michael’s lessons from his time in public investing, private equity, and operating at the intersection of market incumbents and AI. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @mjlee_2014 | @seqholdings Chapters: 00:34 – Michael Lee Introduction 01:03 – Sequence Holdings and Baldwin 01:54 – Idea for Sequence 04:36 – Incumbents in the AI Era 06:32 – Why a Holding Company 11:21 – Recruiting Top Engineers 13:08 – Investing in BankSouth 17:46 – Why an Insurance Brokerage 20:17 – Atlas Platform Explained 23:53 – Traditional Private Equity Limitations 27:23 – What Sequence Looks For in Management Teams 31:04 – Accomplishments at BankSouth 34:45 – Founder Lessons 36:08 – Story of Dell Partnership 37:10 – Career and Investment Approach 40:00 – Value of Exceptional People 42:23 – Conclusion",
+      "dedupe_key": "podcast:6497207d6ab309dc391b1dab3c919d9aa56c7b1f",
+      "first_seen_at": "2026-09-24T15:41:14.118783+00:00"
+    },
+    {
+      "source": "Qoder Blog",
+      "source_type": "rss",
+      "title": "项目与讨论：人类与智能体的协同工作空间",
+      "url": "https://qoder.com/zh/blog/project-and-discussion",
+      "summary": "让讨论发生在工作的地方，人不再做智能体的搬运工。",
+      "published_at": "2026-09-24T08:59:49+00:00",
+      "first_seen_at": "2026-09-24T15:41:14.118783+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
+      "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
+      "summary": "Team Zuck is absolutely on fire. Here’s a good supercut of Meta Connect:and the effusive praise on Stratechery shows the mood on the ground. Unfortunately, no MSL updates beyond a tease, since Muse Spark was launched 3 weeks ago. However, Muse itself counts as a success, since it",
+      "published_at": "2026-09-24T08:12:59+00:00",
+      "details": "Team Zuck is absolutely on fire. Here’s a good supercut of Meta Connect:and the effusive praise on Stratechery shows the mood on the ground. Unfortunately, no MSL updates beyond a tease, since Muse Spark was launched 3 weeks ago. However, Muse itself counts as a success, since it has overtaken ChatGPT in the App Store, and more developments (email!) and integrations take away the sting of being blocked by Amazon.Lastly, it was nice to see Limitless, the last “stealth” MSL acquisition, re-emerge as Charm:AI News for 9/22/2026-9/23/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapTop Story: Meta Connect 2026: Muse personal agent, glasses hardware, and Muse Realtime AvatarWhat happenedMeta used Connect to present Muse, its personal agent, as the center of a hardware-plus-agent strategy. It shipped agent features and new glasses, and teased, but did not release, a new frontier model.Keynote framing. @finkd set the keynote for 4pm PT and later posted a recap thread. Live-blogger @kimmonismus summarized the thesis as “personal Superintelligence coming soon,” which means people need hardware to interact with it, so Meta is going all-in on AI glasses.Muse voice and real-time video. Muse now supports voice and real-time video. It can hold long conversations while working on tasks in the background (@finkd). Video chat with a prompt-customizable voice is marked “coming soon” (@alexandr_wang). The official account’s teaser: “you gave your Muse a look. now give it a voice” (@Muse).Muse on glasses. Muse is coming to all Meta glasses, activated by saying its name (a wake word), “coming soon” (@alexandr_wang).Muse Mail. Each Muse gets its own email address. You can CC it on a thread or forward it items to handle (@alexandr_wang).Computer use on Mac. Muse for Mac now does computer use: “queue up your jobs, walk away, and it keeps going” (@alexandr_wang).Connectors and commerce. @alexandr_wang showed the connector catalog. Partner graphics were posted for Spotify, Box and an apparent Temu integration.Business model and partner list. @clairejyz compiled the numbers from the keynote:Muse is free for users, but Meta may eventually take a cut of transactions.Retail and commerce integrations: Walmart, Best Buy, Gap, Sephora, Instacart, and others.Productivity integrations: Box, GitHub, Granola, Notion.The connector platform has 1,500+ applications, including Lovable and ElevenLabs.Muse Realtime Avatar (research release). A new model animates your Muse in sync with Muse Realtime Voice. It answers in under a second and supports unbounded session length (@alexandr_wang; @AIatMeta). All output is watermarked as AI “without adding latency” (@alexandr_wang). Meta calls it “the foundation for realtime, embodied AI across our products.”Hardware.Ray-Ban Meta Gen 3: longer battery, upgraded microphones, new styles including Aviators (@finkd).Meta VR Glasses: Meta’s first VR delivered in glasses rather than a headset, pitched as private cinema, multi-monitor workstation and game console (@finkd). Price is $1,299 (@kimmonismus).Hearing aid: glasses have been turned into an FDA-cleared hearing aid (@iScienceLuvr).Muse Charm: a keychain device for talking to Muse, shipping in December (@finkd; @alexandr_wang).Acquisition. WaveForms AI, the speech/audio startup led by Alexis Conneau, was acquired by Meta, and its work surfaced at Connect (@alex_conneau). This lines up with the real-time voice and avatar stack.Frontier model teased, not shipped. Wang said “pretty soon we are dropping the most capable model we have ever trained” (@scaling01). Pre-event expectations of “big chungus muse models” (@scaling01) were not met.Facts vs. opinionsVerifiable or official claims:Feature and device announcements from @finkd, @alexandr_wang, @AIatMeta and @Muse.The $1,299 VR Glasses price.December ship date for Muse Charm.FDA-cleared hearing-aid functionality.The partner and connector counts compiled by @clairejyz.Vendor-run evaluation, to treat with caution:Meta compared Muse Realtime Avatar against Runway Characters and HeyGen LiveAvatar using each product’s own live-call experience.Raters held 2–3 minute conversations with matched avatar identities. They judged visual quality, audio-visual sync, character consistency and mannerisms (@AIatMeta).Meta reports Muse “came out ahead on overall preference” but posted no margins or rater counts in the tweets. Wang himself added “［unsurprisingly］” (@alexandr_wang).Details are in the research blog.Promotional volume, not substance:Wang posted a large stream of memes and shitposts through the night. Examples: “muse-inhood” and the “1 billion users” meme.He conceded this in “your x feed this week sorry not sorry” and “i am once again asking for you to download muse”.The one substantive thread in this stream is his claim that users are savin",
+      "first_seen_at": "2026-09-24T15:41:14.118783+00:00"
+    },
+    {
+      "source": "Unitree YouTube",
+      "source_type": "youtube",
+      "title": "The World's Largest-Scale Full-Size Humanoid Robot Real-Time Livestream Performance",
+      "url": "https://www.youtube.com/watch?v=bYkyz9QwqCw",
+      "summary": "At the Opening Ceremony of WorldSkills Shanghai 2026 on September 22, 19 Unitree humanoid robots performed alongside 120 dancers, presenting the world's largest-scale performance featuring full-size general-purpose humanoid robots before an audience of more than 10,000 people, wi",
+      "published_at": "2026-09-24T07:37:09+00:00",
+      "first_seen_at": "2026-09-24T15:41:14.118783+00:00"
+    },
+    {
+      "source": "AgiBot News",
+      "source_type": "rss",
+      "title": "AGIBOT and Chimelong Launch Large-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "url": "https://agibot.com/article/231/detail/123.html",
+      "summary": "",
+      "published_at": "2026-09-24T00:00:00+00:00",
+      "first_seen_at": "2026-09-24T15:41:14.118783+00:00"
+    },
+    {
+      "source": "Runway",
+      "source_type": "rss",
+      "title": "Runway is Now in DaVinci Resolve",
+      "url": "https://runway.com/news/company-news/runway-davinci-resolve",
+      "summary": "Bring Runway's AI video and image generation into DaVinci Resolve Studio. Generate, restyle and import clips onto your timeline without leaving the edit.",
+      "published_at": "2026-09-23T23:29:00+00:00",
+      "first_seen_at": "2026-09-24T15:41:14.118783+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -328,6 +450,15 @@
       "summary": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced tools to accelerate their work in AI and high-performance computing. At the event, ",
       "published_at": "2026-09-23T02:30:22+00:00",
       "first_seen_at": "2026-09-23T15:16:12.944868+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+      "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+      "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+      "published_at": "2026-09-23T02:00:00+00:00",
+      "first_seen_at": "2026-09-24T15:41:14.118783+00:00"
     },
     {
       "source": "OpenAI News",
@@ -837,7 +968,7 @@
       "source_type": "youtube",
       "title": "A Worm With 302 Neurons Inspired Their Architecture — Ramin Hasani, Liquid AI",
       "url": "https://www.youtube.com/watch?v=V_9TCu_21SE",
-      "summary": "Sponsorship and business inquiries: business@latent.space",
+      "summary": "Tiem for a deep dive into the evolution of AI architectures at Liquid AI, led by CEO Ramin Hasani. The conversation covers the origins of their technology and their approach to building efficient foundation models. Key takeaways include: Inspiration from Biology: The company was ",
       "published_at": "2026-09-18T20:17:04+00:00",
       "first_seen_at": "2026-09-18T23:20:47.650319+00:00"
     },
@@ -6250,132 +6381,6 @@
       "summary": "Agents do their best work when they start in a ready environment: repos cloned, dependencies installed, and your install script already run. This release introduces **builds**: ready-to-use copies of your development environment that Cursor prepares in the background. Agents boot",
       "published_at": "2026-08-13T00:00:00+00:00",
       "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "What We Learned by Reproducing 2,200 papers from ICML",
-      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
-      "summary": "",
-      "published_at": "2026-08-13T00:00:00+00:00",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "The \"Niche Market\" Trap in AI",
-      "url": "https://www.youtube.com/shorts/two1jB-E2eI",
-      "summary": "Are founders scared of the big labs? Elad Gil says some of the most talented builders are now going after niche markets, not because the opportunity is small, but because they're scared of competing head-on with the labs.",
-      "published_at": "2026-08-12T23:12:37+00:00",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "GitHub availability report: July 2026",
-      "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
-      "summary": "The GitHub Actions incident on Thursday, August 6, was unacceptable in both its impact and particularity of its duration. Availability continues to be our top priority across all of GitHub. However, with this incident, we have fallen short of our commitments to you. We know how h",
-      "published_at": "2026-08-12T22:17:32+00:00",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Every AI Model Has an Inherited Personality - Ryan Greenblatt",
-      "url": "https://www.youtube.com/shorts/yAq4PDB6n3s",
-      "summary": "",
-      "published_at": "2026-08-12T21:19:21+00:00",
-      "first_seen_at": "2026-08-12T22:07:20.985042+00:00"
-    },
-    {
-      "source": "a16z AI YouTube",
-      "source_type": "youtube",
-      "title": "Garry Tan: New Rules for Founders",
-      "url": "https://www.youtube.com/watch?v=fsTtKywmWlU",
-      "summary": "Anish Acharya is joined by Garry Tan, President and CEO of Y Combinator, for a conversation about how AI is rewriting the startup playbook, why founders should be more ambitious than ever, and what two decades of Silicon Valley booms, busts, and missed opportunities have taught G",
-      "published_at": "2026-08-12T19:15:41+00:00",
-      "first_seen_at": "2026-08-12T22:07:20.985042+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "GitHub Copilot app for Beginners: Write your first prompt",
-      "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
-      "summary": "Opening a new AI tool can feel a little like staring at a blank page. You know you want help with something, but figuring out exactly what to ask can be its own task. The good news is that you don’t need to write the perfect prompt to get started. A prompt is simply a description",
-      "published_at": "2026-08-12T19:00:00+00:00",
-      "first_seen_at": "2026-08-12T22:07:20.985042+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "Your contributors are AI-first now. Is your project?",
-      "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
-      "summary": "The same question keeps coming up in maintainer conversations: what do you do when the pull request queue fills with work written by agents? It’s something Nicholas Tindle, founding AI engineer at AutoGPT, also deals with every day. I spoke with him in May for Maintainer Month. A",
-      "published_at": "2026-08-12T18:00:08+00:00",
-      "first_seen_at": "2026-08-12T22:07:20.985042+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "SEW-EURODRIVE adds economy series to its planetary servo gear unit portfolio",
-      "url": "https://www.therobotreport.com/sew-eurodrive-adds-economy-series-planetary-servo-gear-unit-portfolio/",
-      "summary": "SEW-EURODRIVE’s PxG economy series of planetary servo gear units. | Source: SEW-EURODRIVE SEW-EURODRIVE has introduced the PxG economy series, expanding its PxG planetary servo gear unit portfolio. The component provider added three performance classes for machine builders and OE",
-      "published_at": "2026-08-12T16:40:31+00:00",
-      "first_seen_at": "2026-08-12T22:07:20.985042+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-      "summary": "",
-      "published_at": "2026-08-12T16:14:36+00:00",
-      "first_seen_at": "2026-08-12T22:07:20.985042+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Q2 2026 robotics demand increased across industries, reports A3",
-      "url": "https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/",
-      "summary": "Automotive component makers increased robot orders, while OEMs did not in Q2. Source: A3 While progress in artificial intelligence and humanoid robots continues to capture public and investor interest, industrial automation is still the leading segment in robotics. The Associatio",
-      "published_at": "2026-08-12T14:18:56+00:00",
-      "first_seen_at": "2026-08-12T22:07:20.985042+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "source_type": "rss",
-      "title": "Putting sign language AI into users’ hands",
-      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
-      "published_at": "2026-08-12T14:01:59+00:00",
-      "first_seen_at": "2026-08-12T22:07:20.985042+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-      "summary": "",
-      "published_at": "2026-08-12T14:00:51+00:00",
-      "first_seen_at": "2026-08-12T22:07:20.985042+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
-      "url": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/",
-      "summary": "NVIDIA founder and CEO Jensen Huang is ranked No. 1 on Glassdoor’s Best CEOs list for 2026. In the just-released ranking, recognition is earned directly from the people who know their leadership the best — employees. Huang topped the list, with 99% of employees approving of the j",
-      "published_at": "2026-08-12T14:00:00+00:00",
-      "first_seen_at": "2026-08-12T22:07:20.985042+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Strengthening U.S. Army sustainment: TALUS to deliver autonomous distribution",
-      "url": "https://www.therobotreport.com/strengthening-u-s-army-sustainment-talus-to-deliver-autonomous-distribution/",
-      "summary": "The Armored Cab is designed to meet the evolving needs of troops in theater, providing crew protection on a MILCOTS platform. | Credit: ND Defense The U.S. Army has awarded an industry team led by Stratom Inc. a Project Sustainment contract to develop the Tactical Autonomous Logi",
-      "published_at": "2026-08-12T13:36:55+00:00",
-      "first_seen_at": "2026-08-12T22:07:20.985042+00:00"
     },
     {
       "source": "NVIDIA Robotics YouTube",
