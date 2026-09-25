@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-24T23:53:43.771756+00:00",
+  "updated_at": "2026-09-25T15:42:53.764762+00:00",
   "count": 700,
-  "new_count": 504,
+  "new_count": 503,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -72,6 +72,73 @@
       "summary": "",
       "published_at": "2026-10-06T00:00:00+00:00",
       "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "What is Jev",
+      "url": "https://www.youtube.com/shorts/BGZlKevE_x4",
+      "summary": "Sponsorship and business inquiries: business@latent.space",
+      "published_at": "2026-09-25T15:30:13+00:00",
+      "first_seen_at": "2026-09-25T15:42:53.764762+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "Improving site performance by shipping more CSS",
+      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "summary": "The Primer Design System powers many of the experiences you see on GitHub today. From buttons to banners to breadcrumbs, these foundational components are required to be accessible, flexible, and performant across a wide variety of scenarios. Back in 2023, the number of component",
+      "published_at": "2026-09-25T15:00:00+00:00",
+      "first_seen_at": "2026-09-25T15:42:53.764762+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Agility Robotics, maker of Digit humanoid, exploring wheeled robots",
+      "url": "https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/",
+      "summary": "This wheeled robot rendering appeared in Agility Robotics’ recent Digit 5 launch video. | Credit: Agility Robotics When Agility Robotics unveiled Digit 5 last week, one detail near the end of the launch video caught our attention: a humanoid robot on wheels. Why would a company t",
+      "published_at": "2026-09-25T14:08:27+00:00",
+      "first_seen_at": "2026-09-25T15:42:53.764762+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Farmers are facing more pressure; CNH says robotics can help",
+      "url": "https://www.therobotreport.com/farmers-are-facing-more-pressure-cnh-says-robotics-can-help/",
+      "summary": "The R4 robot is designed to help vineyard, orchard and specialty crop growers overcome sector challenges. | Source: CNH Industrial 2026 has been a tumultuous year for farmers in America. Global trade wars mean farmers’ supplies are growing more expensive, while many crop prices h",
+      "published_at": "2026-09-25T12:18:36+00:00",
+      "first_seen_at": "2026-09-25T15:42:53.764762+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] The Future of Latent Space",
+      "url": "https://www.latent.space/p/ainews-the-future-of-latent-space",
+      "summary": "It’s been an absolutely MONSTER week already, from new Chinese Open Weight Frontier Lab claiming the throne for the first time, to new SOTA LLM and price cuts from Anthropic and OpenAI, to Meta Connect, to TypeSafe AI’s $10B fundraise after our exclusive podcast this weekend (alr",
+      "published_at": "2026-09-25T05:37:00+00:00",
+      "details": "It’s been an absolutely MONSTER week already, from new Chinese Open Weight Frontier Lab claiming the throne for the first time, to new SOTA LLM and price cuts from Anthropic and OpenAI, to Meta Connect, to TypeSafe AI’s $10B fundraise after our exclusive podcast this weekend (already one of our top of all time, with two pods on genomic language models and AI scientists sending us above heavyweights like TBPN and MKBHD in Apple Podcasts, and helping cross 200K on YouTube). Today is the calm before the DevDay storm, so we’re taking some time to share some long overdue changes we are making to Latent Space in the coming week:Plans for AINews v3: This op-ed you are reading has always been human-authored by swyx (hi!!) every weekday for the last 3 years, and what started as a simple way to solve Discord fatigue eventually became LS’s newspaper: an awkward hybrid of Money Stuff mixed with engineer-tuned TechMeme mixed with AI writing evals that somehow grew to over 200k subscribers. Meanwhile, the Latent Space Discord is now tens of thousands of members and yet quieter than ever with increasing amounts of self promotional spammers. The solution is obvious: merge the “job to be done” of the LS Discord and AINews.Plans for a new home: with the success of our AI for Science pod and writing, and new podcasts from food to FDE rising, we’re slowly becoming a multi-show, multi-newsletter network of the best technical news, analysis and edutainment in AI. We’ll be exploring a migration to Beehiiv and a new homepage.Open for business: with a new Business/Ops Manager and Head of Editorial, we are once again reopening for sponsorships (business@latent.space) and PR/tips! That said, join us next week at Supabase Select in SF!!! Supabase is the universally preferred integrated backend by every frontier model and we’re excited to interview their founders on their incredible journey building a fully remote open source database company from 0 to $10B, and see what’s next.Sponsored by SupabaseEverything Supabase has been building will be unveiled on October 2 — live for one day in San Francisco!See what Supabase is launching →AI News for 9/23/2026-9/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapFrontier Model Wave: Claude Opus 5.5, GPT-6 Astra/Sol/Luna, Gemini 3.8 Flash, and Xiaomi MiMo-V2.6-ProClaude Opus 5.5: Opus 5.5 now leads SimpleBench at 88.4%. On vision evals, @skalskip92 ranks it Anthropic’s best vision model to date: better than Fable 5 and GPT-6 Sol, worse than GPT-6 Astra, at about 60% lower cost than Fable 5.1.Reasoning effort: On Terminal-Bench-Science, Opus 5.5 climbs from 24% at low effort to 62% at xhigh, then drops to 59% at max. @theo recommends avoiding “max” because it imposes a minimum reasoning budget.Terminal-Bench-Science leaders: GPT-6 Astra and Opus 5.5 lead Fable 5.1 by about 20 points. The best model from outside those two labs is Qwen3.8 Max at 12%.Community sentiment: Many say the $200 Claude Code plan now beats Codex. Astra remains the preferred review/audit model.GPT-6 family:Astra reportedly beat NetHack on its 3rd try.Luna [Max] entered Code Arena WebDev at #24 (1593), +74 over GPT-5.6 Luna, at about $0.40/Mtok blended.DOOM agent matches show Astra at 82.5% win rate, Sol fastest, Luna best wins/$.Gemini 3.8 Flash: Scores 41 on the AA Intelligence Index at 291 tok/s with 1M context, and is free in Cline. On ARC-AGI it posts 89.2% on v2 at $0.40/task and 98.5% on v1. On v3 it scores 10.4% with the standard harness and 35% with the provider harness.Xiaomi MiMo-V2.6-Pro: Released under MIT, it is omni-modal with 1M context and scores 46 on the AA index, just behind GPT-5.6 Sol at 47. Cost is $0.13 vs $1.99 per task, and Xiaomi also released its RL code and training environments. @teortaxesTex notes its RL gains don’t generalize to harder math evals.Other releases:Grok 4.7 debuted at #16 in Agent Arena at $1.14 per task.Meta’s Muse Spark 1.3 is available on GCP and Oracle, and Spark 1.4 has appeared on OpenCode.Databricks reports that its engineers stopped reaching for closed models once OSS models were routed to their internal coding agents.“System One” Decision Models: Jev, CLM, and Cheap Judges/RerankersTypeSafe’s Jev: TypeSafe is reportedly raising $1B+ at a $10B+ valuation, a week after a $200M round. Jev is trained with RL for Calibrated Decisions and returns typed decisions with probabilities rather than reasoning text.Jev-as-a-Judge paper: The paper reports Jev costs $0.044 per 1K judgments at 152ms median latency, about 277× cheaper than GPT-6. It stays within 3 points on RewardBench and HaluEval, but trails by 14.5 points on JudgeBench. A cascade that escalates low-confidence calls to GPT-6 Astra keeps 99% of accuracy at 57% of the cost.Production and ecosystem signals:Ramp matched GPT-5.6 Luna reranking a",
+      "first_seen_at": "2026-09-25T15:42:53.764762+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "Runway’s Bet Beyond Video: World Models, Robotics, and the Neural OS — Anastasis Germanidis",
+      "url": "https://www.youtube.com/watch?v=fGRd5gYhztg",
+      "summary": "From making one of the earliest bets on generative video to building world models that simulate physics, power robots, and render software interfaces directly as pixels, Runway is pushing far beyond AI video generation. In this episode, Runway co-founder Anastasis Germanidis join",
+      "published_at": "2026-09-25T01:40:15+00:00",
+      "first_seen_at": "2026-09-25T15:42:53.764762+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+      "url": "https://www.latent.space/podcast",
+      "summary": "Earlier this month, world model company Runway introduced GWM Worlds 2, a research preview that “turns high-fidelity video and audio generation into real-time interactive simulation.” Runway calls this an “autoregressive diffusion” model; with autoregressive describing how it gen",
+      "published_at": "2026-09-25T01:30:57+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/217289983/80ecbf8ba268d83a6cde12d5f719e123.mp3",
+      "details": "Earlier this month, world model company Runway introduced GWM Worlds 2, a research preview that “turns high-fidelity video and audio generation into real-time interactive simulation.” Runway calls this an “autoregressive diffusion” model; with autoregressive describing how it generates over time.One new feature in particular caught our eye: WorldPrompt, a proposed input format for specifying a generated world and the actions within it. It allows you to fix some aspects of a simulated environment — including the first frame — and then create a series of timestamped events. The events, or actions, can even be prompted in real-time.To understand the implications of WorldPrompt, we spoke to Kamil Sindi, Runway’s CTO, and Robin Kahlow, its Principal Research Scientist for generative video and multimodal AI. We also have exclusive comments from Anastasis Germanidis, co-founder & co-CEO of Runway, courtesy of a podcast swyx and Vibhu did with him.Who’s building real-time interactive world models?First, some context about world models that can generate interactive video and audio in real-time.Runway is reportedly valued at $5.3 billion, based on its most recent fund raise of $315 million in February. Its first release, GWM Worlds, was launched last December.Alongside Runway, there are several other notable projects in this domain: Google DeepMind’s Genie 3 (which also generates at 720p and 24 fps), Odyssey-2 Pro, and World Labs’ RTFM (Real-Time Frame Model). We’ve summarized their differences in the following table:Given the complexity and massive latency demands of real-time video and audio generation (which we’ll get into below), all of the projects listed above have limitations. For instance, Google notes that Genie 3 “can currently support a few minutes of continuous interaction, rather than extended hours.”But as our interviews with Runway show, real progress is being made.The central idea of WorldPromptWorldPrompt, a new feature in GWM Worlds 2, helps differentiate Runway from its competition. You can think of it as a control layer for characters, cameras and the environment. As Kahlow put it, it’s a way to “control all the different subjects in the world” — similar to a computer game.“Like, if there’s an NPC [Non-Player Character] somewhere, the NPC might walk up to you and say something. So you could achieve the same thing with this kind of model, where you can have very detailed control over everything in the scene.”As the name suggests, WorldPrompt is a prompting mechanism — not a programming language. So, unlike virtual world games like Minecraft or Roblox, GWM Worlds 2 doesn’t offer scripting capabilities or the ability to control state. But there’s a power to that, as Sindi pointed out.“You can create promptable worlds on-demand with video and audio in sync, across all these different domains and environments. That’s not a distant-future hypothetical thing,” he said.But there are also limitations to prompting a world model. We asked how reliably the model would follow an instruction to create, for example, a law of gravity or a certain ability in a character?“Yeah, so it’s a research preview,” Kahlow replied. “So it’s not perfect, of course, and there are still flaws. It really depends on how difficult the action is. I would say movement works quite reliably.”Sindi added that more training plus scaling the data and models is resulting in “better following.”How a video model becomes a real-time runtimeDespite the current limitations of GWM Worlds 2 — especially if you compare it to pre-designed and scriptable worlds like Minecraft or Roblox — the true promise of world models like Runway is that they’ll eventually lead to fully self-generated, real-time games and experiences. Which is an extremely hard engineering problem, as Kahlow reminded us.“There are two challenges. One is making the model not generate a whole clip at once. So instead, you want it to generate frame by frame while you’re looking at it. And the other challenge is actually making the generation fast, so you can play it in real time.”High-level view of GWM Worlds 2 processGWM Worlds 2 offers real-time interactive worlds streamed in continuous 720p video at 24 frames per second (fps) and audio at 48,000 Hz.Runway achieved this firstly by taking its foundational audio-video generation model and fine-tuning it to the new WorldPrompt format, so the model can follow that. It then post-trains the model to generate autoregressively.“And after that, we work on making it real-time through distillation methods,” Kahlow added.Co-CEO Anastasis Germanidis offered more technical details in our podcast with him. He told us that the process starts from “bidirectional diffusion that basically generates an entire video at once and [makes] it autoregressive.” This allows the model to “generate one frame or a few frames at a time.”Autoregressive causal diffusion vs traditional video models; image via RunwayGermanidis described two possible forms of distill",
+      "dedupe_key": "podcast:b63ec451f73ed0e8c3a08882f0477c5d8219e3f0",
+      "first_seen_at": "2026-09-25T15:42:53.764762+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -983,7 +1050,7 @@
     {
       "source": "OpenAI News",
       "source_type": "rss",
-      "title": "How V7 gives AI agents institutional memory",
+      "title": "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
       "url": "https://openai.com/index/v7",
       "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
       "published_at": "2026-09-21T00:00:00+00:00",
@@ -6319,75 +6386,12 @@
       "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
     },
     {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "What 50 open source projects taught us about security in the AI era",
-      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
-      "summary": "AI is changing the pace of open source development and the security challenges that come with it. Maintainers are reviewing unfamiliar contributions, managing new attack surfaces, and responding to vulnerabilities with limited time and resources. Session 4 of the GitHub Secure Op",
-      "published_at": "2026-08-13T16:00:00+00:00",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Mobile manipulators and humanoids: The future of robotics",
-      "url": "https://www.therobotreport.com/mobile-manipulators-and-humanoids/",
-      "summary": "Humanoid robotics and software startups have emerged weekly for the past year, capturing media attention and billions of dollars in investment. While some humanoids are in commercial trials, semi-humanoid and nonhumanoid mobile manipulators are already arriving in factories and w",
-      "published_at": "2026-08-13T15:06:47+00:00",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "a16z AI YouTube",
-      "source_type": "youtube",
-      "title": "Lighthouse or Landgrab? How to Pick Your AI Sales Strategy",
-      "url": "https://www.youtube.com/watch?v=aakZLqxRQfo",
-      "summary": "Elena Burger is joined by a16z's Andy McCall and Joe Schmidt to break down two very different ways AI startups can go to market: the lighthouse and the landgrab. Should founders win a handful of marquee customers whose credibility unlocks an entire industry, or move quickly acros",
-      "published_at": "2026-08-13T14:30:36+00:00",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "Chess.com CEO: AGI Will Be a Cultural Problem",
-      "url": "https://www.youtube.com/shorts/nHQDTiDQjJM",
-      "summary": "\"A superhuman intelligence can be used for good or for evil. It's going to depend on the people in charge.\" On No Priors, Chess.com CEO Erik Allebest shares why AGI isn't just a technology problem; it's a cultural one:",
-      "published_at": "2026-08-13T14:08:20+00:00",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
       "source": "MiniMax Blog",
       "source_type": "rss",
       "title": "MiniMax Music 3.0: Next-Generation Open-Weights, Production-Ready & Versatile Music Model - MiniMax Research",
       "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model",
       "summary": "Today, we are introducing MiniMax Music 3.0, our next-generation music generation model. Given a creative concept and optional lyrics, the model composes, arranges, performs, and produces a complete s",
       "published_at": "2026-08-13T13:33:59+00:00",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "Class Is in Session: GeForce NOW Levels Up Linux, Chromebooks and More",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-linux-native-app/",
-      "summary": "GeForce NOW is giving cloud gaming an extra-credit upgrade just in time for back-to-school season. The native Linux app for GeForce NOW is officially out of beta. GeForce NOW is also delivering new cloud optimizations that make Frame Generation feel even more responsive while str",
-      "published_at": "2026-08-13T13:00:33+00:00",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "ARM Institute calls for defense manufacturing technology projects",
-      "url": "https://www.therobotreport.com/arm-institute-calls-for-defense-manufacturing-technology-project/",
-      "summary": "Project Call 27-01 seeks for technologies to facilitate U.S. defense manufacturing. Source: ARM Institute Robotics is widely seen as key to both economic competitiveness and U.S. geopolitical security. The Advanced Robotics for Manufacturing, or ARM, Institute yesterday issued a ",
-      "published_at": "2026-08-13T12:35:42+00:00",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Experts to discuss the state of humanoid robots at RoboBusiness",
-      "url": "https://www.therobotreport.com/experts-discuss-state-humanoid-robots-robobusiness-2026/",
-      "summary": "Clockwise from top left: Agility’s Digit robot, Apptronik’s Apollo, PSYONIC’s robotic hand, and Persona AI’s humanoid. | Sources: Agility, Apptronik, PSYONIC, and Persona AI Humanoid robots have captured the world’s attention, attracting billions in investment and generating exci",
-      "published_at": "2026-08-13T12:30:25+00:00",
       "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
     },
     {
