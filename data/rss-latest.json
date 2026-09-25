@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-25T15:42:53.764762+00:00",
+  "updated_at": "2026-09-25T23:57:34.495472+00:00",
   "count": 700,
-  "new_count": 503,
+  "new_count": 504,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -74,6 +74,90 @@
       "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
     },
     {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+      "url": "https://www.latent.space/podcast",
+      "summary": "From the earliest days of open-weight models to becoming the neutral routing layer for more than 10 million developers, OpenRouter is one of the clearest bets that the future of AI will be multi-model. In this episode, OpenRouter co-founder & CEO Alex Atallah, with AMP’s Anjney M",
+      "published_at": "2026-09-25T23:14:41+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/217456046/69e6d188059a812b68e47c97b6495374.mp3",
+      "details": "From the earliest days of open-weight models to becoming the neutral routing layer for more than 10 million developers, OpenRouter is one of the clearest bets that the future of AI will be multi-model. In this episode, OpenRouter co-founder & CEO Alex Atallah, with AMP’s Anjney Midha returning with swyx to unpack how OpenRouter emerged from the first wave of Llama, Alpaca, Mistral, and Midjourney, why model diversity mattered before it was consensus, and how a company dismissed as “just a wrapper” became critical infrastructure for the AI ecosystem.We go deep on the product and distribution lessons behind OpenRouter: why model labs can spend billions training a checkpoint and still struggle to get it into developers’ hands, how Mistral helped prove the value of a competitive inference marketplace, why OpenRouter chose focus over expanding into fine-tuning, memory, and other adjacent products, and how its rankings became a real-time map of how AI usage was changing. Alex also explains OpenRouter’s early experiments with model fusion, why they deleted the first version and brought it back years later, and how the platform grew to more than 10 trillion tokens per day.Finally, Anjney explains why Stripe and OpenRouter fit together, why token fraud may become one of the defining security problems of the AI economy, and why the next wave of fraud won’t just come from humans but from autonomous agents attacking increasingly valuable token flows.We discuss:Why OpenRouter bet early that no single AI model would win everythingAlpaca, Llama, and open models becoming impossible to ignoreWhy Discord’s early AI deployments exposed the limitations of closed modelsWhy model labs can spend billions on training and still fail at distributionHow OpenRouter became a neutral distribution layer for model developersWhy VCs dismissed OpenRouter as “just a marketplace” or “just a wrapper”The Mistral price war and the first real proof of an inference marketplaceHow Midjourney scaled through Discord and what it taught the AI ecosystemWhy crypto infrastructure became a dress rehearsal for generative AIOpenRouter vs. LM Arena and why their missions are fundamentally differentWhy focus became one of OpenRouter’s biggest strategic advantagesAnthropic’s early focus on AI pair programming and codingThe OpenRouter products that were prototyped but never launchedMOM, OpenRouter’s early Mixture of Models experimentWhy model fusion failed in 2024 — and why it works much better nowHow OpenRouter’s leaderboard became a live map of the AI industryOpenClaw, auto-routing, and agents reshaping AI usageHow OpenRouter reached 10+ trillion tokens per dayWhy inference gateways are increasingly becoming targets for fraudWhy Stripe’s fraud infrastructure is strategically important to OpenRouterThe coming rise of agentic fraud and attacks on the token economyWhat changes and what stays the same as OpenRouter joins StripeAlex AtallahLinkedIn: https://www.linkedin.com/in/alexatallah/X: https://x.com/alexatallahWebsite: https://alexatallah.comAnjney MidhaLinkedIn: https://www.linkedin.com/in/anjney/X: https://x.com/AnjneyMidhaAMP: https://www.amppublic.com/Timestamps00:00:00 Introduction00:02:12 Alpaca, Llama, and the Multi-Model Bet00:06:04 Discord, Open Models, and OpenRouter’s Origins00:14:28 Why “One Model Wins” Was the Wrong Bet00:17:27 Why Model Labs Struggle With Distribution00:23:04 “Just a Wrapper”: Why VCs Misunderstood OpenRouter00:27:58 Bootstrapping OpenRouter Through Community00:36:16 Crypto, Midjourney, and the Early Generative AI Ecosystem00:43:38 Mistral and the Birth of the Inference Marketplace00:47:10 OpenRouter vs. LM Arena00:52:08 Focus, Anthropic, and Roads Not Taken00:59:34 Mixture of Models and Model Fusion01:02:44 Sonnet, OpenClaw, and OpenRouter’s Explosive Growth01:09:03 Why Stripe Acquired OpenRouter01:12:45 Fraud and the Emerging Token Economy01:17:47 The Coming Wave of Agentic Fraud01:19:07 What’s Next for OpenRouter at StripeTranscriptIntroduction: OpenRouter, Marketplaces, and Pub-Sub as a Product PrincipleSwyx [00:00:00]: Okay, we are here in Anja’s house, which is where all big startups in San Francisco start.Anjney Midha [00:00:08]: Howdy.Swyx [00:00:08]: And, congrats on Cursor, Mistral. I don’- God knows what else. You got so much stuff going on.Anjney Midha [00:00:17]: There’s, there’s a lot going on. Well, OpenRouter is probably the - has been the most, I would say, like, one I’m excited about recently.Swyx [00:00:24]: Yeah. And we have Alex, first time on the pod, but,Anjney Midha [00:00:27]: Thanks for having me.Swyx [00:00:27]: You’ve been in the IE a few times. I appreciate every time you’ve shown up, for the community. Congrats. I just, like, what a journey. When I was looking back at your past posts, one of the earliest principles that I saw you write as a product person is sub as a product principle. And I wanted - you to maybe explain how you think about what should exist in the world.Anjney Midha [00:00:49]: Ye",
+      "dedupe_key": "podcast:05f9eed411f3e0f66c2eb09f9ce0d2e90191da02",
+      "first_seen_at": "2026-09-25T23:57:34.495472+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "The $10 Trillion Token Economy — Alex Atallah, OpenRouter & Anjney Midha, AMP",
+      "url": "https://www.youtube.com/watch?v=dCX4PE2HxMs",
+      "summary": "From the earliest days of open-weight models to becoming the neutral routing layer for more than 10 million developers, OpenRouter is one of the clearest bets that the future of AI will be multi-model. In this episode, OpenRouter co-founder & CEO Alex Atallah and a16z’s Anjney Mi",
+      "published_at": "2026-09-25T23:01:42+00:00",
+      "first_seen_at": "2026-09-25T23:57:34.495472+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "You can win every battle and still lose the war - Sarah Paine",
+      "url": "https://www.youtube.com/shorts/nHkYf3iGlRE",
+      "summary": "",
+      "published_at": "2026-09-25T20:37:30+00:00",
+      "first_seen_at": "2026-09-25T23:57:34.495472+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "published_at": "2026-09-25T19:00:00+00:00",
+      "first_seen_at": "2026-09-25T23:57:34.495472+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Amazon to invest $100M in new Indiana manufacturing facility",
+      "url": "https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/",
+      "summary": "A Proteus mobile robot on an Amazon manufacturing line. | Source: Amazon Amazon this week announced plans to invest more than $100 million in a new 585,000-square-foot advanced manufacturing facility located in Greenwood, Indiana. The company claimed the facility will result in 3",
+      "published_at": "2026-09-25T18:59:01+00:00",
+      "first_seen_at": "2026-09-25T23:57:34.495472+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "General Robotics is betting on modular intelligence, not one robot brain",
+      "url": "https://www.therobotreport.com/general-robotics-is-betting-on-modular-intelligence-not-one-robot-brain/",
+      "summary": "The Robot Report Podcast · General Robotics Is Betting on Modular Intelligence, Not One Robot Brain Sai Vemprala, CTO of General Robotics. In Episode 263 of The Robot Report Podcast, we interview Sai Vemprala, CTO of General Robotics. Sai Vemprala is the co-founder and CTO of Gen",
+      "published_at": "2026-09-25T18:43:22+00:00",
+      "first_seen_at": "2026-09-25T23:57:34.495472+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "Sarah Paine — Why wars are so difficult to end",
+      "url": "https://www.youtube.com/watch?v=f6cjAEr08qk",
+      "summary": "This is the final lecture in our series with Sarah Paine, and it's a fitting place to end. Sarah tackles war termination: why wars are easy to start, hard to end, and even harder to end on the terms you wanted. Using the Russo-Japanese War as a model, she explains what goes wrong",
+      "published_at": "2026-09-25T18:04:31+00:00",
+      "first_seen_at": "2026-09-25T23:57:34.495472+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+      "summary": "Most tools give you a fixed set of screens and ask you to fit your work into them. But what if you could start with the workflow you want instead and have the interface take shape around it? That’s the idea behind canvases in the GitHub Copilot app. A canvas, also called a canvas",
+      "published_at": "2026-09-25T18:00:00+00:00",
+      "first_seen_at": "2026-09-25T23:57:34.495472+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "source_type": "rss",
+      "title": "Video Friday: Life’s Better With a Little Robot Goose",
+      "url": "https://spectrum.ieee.org/video-friday-goose-household-robots",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.IROS 2026: 27 September–1 October 20",
+      "published_at": "2026-09-25T16:00:04+00:00",
+      "first_seen_at": "2026-09-25T23:57:34.495472+00:00"
+    },
+    {
       "source": "Latent Space YouTube",
       "source_type": "youtube",
       "title": "What is Jev",
@@ -139,6 +223,15 @@
       "details": "Earlier this month, world model company Runway introduced GWM Worlds 2, a research preview that “turns high-fidelity video and audio generation into real-time interactive simulation.” Runway calls this an “autoregressive diffusion” model; with autoregressive describing how it generates over time.One new feature in particular caught our eye: WorldPrompt, a proposed input format for specifying a generated world and the actions within it. It allows you to fix some aspects of a simulated environment — including the first frame — and then create a series of timestamped events. The events, or actions, can even be prompted in real-time.To understand the implications of WorldPrompt, we spoke to Kamil Sindi, Runway’s CTO, and Robin Kahlow, its Principal Research Scientist for generative video and multimodal AI. We also have exclusive comments from Anastasis Germanidis, co-founder & co-CEO of Runway, courtesy of a podcast swyx and Vibhu did with him.Who’s building real-time interactive world models?First, some context about world models that can generate interactive video and audio in real-time.Runway is reportedly valued at $5.3 billion, based on its most recent fund raise of $315 million in February. Its first release, GWM Worlds, was launched last December.Alongside Runway, there are several other notable projects in this domain: Google DeepMind’s Genie 3 (which also generates at 720p and 24 fps), Odyssey-2 Pro, and World Labs’ RTFM (Real-Time Frame Model). We’ve summarized their differences in the following table:Given the complexity and massive latency demands of real-time video and audio generation (which we’ll get into below), all of the projects listed above have limitations. For instance, Google notes that Genie 3 “can currently support a few minutes of continuous interaction, rather than extended hours.”But as our interviews with Runway show, real progress is being made.The central idea of WorldPromptWorldPrompt, a new feature in GWM Worlds 2, helps differentiate Runway from its competition. You can think of it as a control layer for characters, cameras and the environment. As Kahlow put it, it’s a way to “control all the different subjects in the world” — similar to a computer game.“Like, if there’s an NPC [Non-Player Character] somewhere, the NPC might walk up to you and say something. So you could achieve the same thing with this kind of model, where you can have very detailed control over everything in the scene.”As the name suggests, WorldPrompt is a prompting mechanism — not a programming language. So, unlike virtual world games like Minecraft or Roblox, GWM Worlds 2 doesn’t offer scripting capabilities or the ability to control state. But there’s a power to that, as Sindi pointed out.“You can create promptable worlds on-demand with video and audio in sync, across all these different domains and environments. That’s not a distant-future hypothetical thing,” he said.But there are also limitations to prompting a world model. We asked how reliably the model would follow an instruction to create, for example, a law of gravity or a certain ability in a character?“Yeah, so it’s a research preview,” Kahlow replied. “So it’s not perfect, of course, and there are still flaws. It really depends on how difficult the action is. I would say movement works quite reliably.”Sindi added that more training plus scaling the data and models is resulting in “better following.”How a video model becomes a real-time runtimeDespite the current limitations of GWM Worlds 2 — especially if you compare it to pre-designed and scriptable worlds like Minecraft or Roblox — the true promise of world models like Runway is that they’ll eventually lead to fully self-generated, real-time games and experiences. Which is an extremely hard engineering problem, as Kahlow reminded us.“There are two challenges. One is making the model not generate a whole clip at once. So instead, you want it to generate frame by frame while you’re looking at it. And the other challenge is actually making the generation fast, so you can play it in real time.”High-level view of GWM Worlds 2 processGWM Worlds 2 offers real-time interactive worlds streamed in continuous 720p video at 24 frames per second (fps) and audio at 48,000 Hz.Runway achieved this firstly by taking its foundational audio-video generation model and fine-tuning it to the new WorldPrompt format, so the model can follow that. It then post-trains the model to generate autoregressively.“And after that, we work on making it real-time through distillation methods,” Kahlow added.Co-CEO Anastasis Germanidis offered more technical details in our podcast with him. He told us that the process starts from “bidirectional diffusion that basically generates an entire video at once and [makes] it autoregressive.” This allows the model to “generate one frame or a few frames at a time.”Autoregressive causal diffusion vs traditional video models; image via RunwayGermanidis described two possible forms of distill",
       "dedupe_key": "podcast:b63ec451f73ed0e8c3a08882f0477c5d8219e3f0",
       "first_seen_at": "2026-09-25T15:42:53.764762+00:00"
+    },
+    {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
+      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "summary": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
+      "published_at": "2026-09-25T00:00:00+00:00",
+      "first_seen_at": "2026-09-25T23:57:34.495472+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -6290,100 +6383,6 @@
       "published_at": "2026-08-14T06:16:00+00:00",
       "details": "Throwback to when we did the first ever podcast on Cursor when they were 5 people:And then recapping agents at ICML 2024 with Graham Neubig:And then their third era in 2026:And talking about how they do FDE in the Enterprise:AI News for 8/13/2026-8/14/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpen-Weight Frontier Push: Z.ai’s GLM-5.3, Qwen3.8-27B/Max, DeepSeek V4-Pro, and RedNote’s dots3-noteZ.ai’s GLM-5.3: The biggest technical story was Z.ai launching GLM-5.3, positioned as a coding- and cyber-focused model built via post-training on the same 743B base model used for GLM-5.2 rather than a new pretrain. Z.ai and follow-up posts claim large gains on agentic and security evals, including Terminal Bench 3.0: 28.3, DeepSWE: 66.9, Agents’ Last Exam: 28.5, and GDPVal-AA: 1769 (bench summary, full benchmarks). The company also said cyber capabilities improved enough that access is initially gated for select partners before an eventual open-weight release after safety review (details). The key claim many engineers highlighted is that the capability jump came entirely from scaled post-training/RL on longer-horizon executable tasks, not from a larger base model (analysis, reaction).Qwen3.8 broadens the local/open frontier: Alibaba released Qwen3.8-27B, a native multimodal dense model under Apache 2.0, with 262K native context extendable to 1M via YaRN, while also highlighting the already-released Qwen3.8-2.4T-A95B max-tier model (announcement, perf thread). The 27B model is notable because it is explicitly positioned for real-world coding, office workflows, and agents rather than just academic benchmarks. Day-0 inference support was unusually broad: vLLM, Ollama, llama.cpp/GGUF, SGLang reporting 206 tok/s on a single RTX 5090, plus cloud partners including Together, Fireworks, Modal, DigitalOcean, DeepInfra, and others. Practical deployment details mattered here: Unsloth claimed NVFP4 and dynamic GGUF builds, and Qwen emphasized 27B on 17GB RAM for local use (post).DeepSeek V4-Pro and RedNote’s dots3-note continue the China open-model wave: vLLM announced support for DeepSeek-V4-Pro, calling out MIT licensing, checkpoint compatibility with the preview path, and integrated drafting support. Meanwhile RedNote’s AI lab released dots3-note Preview, a 280B multimodal MoE with 16B active params and 512K context, aimed at long-running agents and accompanied by a new RL method, TEMPO, for long-horizon self-evaluation (early signal, summary, technical explanation from the team). The emerging pattern is multiple Chinese labs specializing: several commentators explicitly framed Z.ai, DeepSeek, Moonshot, Qwen, MiniMax, and RedNote as a fast-moving open ecosystem with different strengths (one synthesis, another).Agent Runtimes, Harnesses, and Long-Horizon TrainingDeepSeek Harness is being treated as infrastructure, not a demo agent: The release sparked more discussion about runtime architecture than model UX. Several deep dives described the harness as a pluginized agent runtime where the agent loop, tools, sessions, filesystem, and providers are all replaceable, with Cordis providing lifecycle management, reactive dependencies, and reversible effects (overview, runtime composability thread). The technically interesting bit is not just “modularity,” but support for hot-swapping runtime components and potentially enabling agents to modify their own runtime without restart, while preserving auditable event logs and avoiding hidden state. Multiple builders reacted that current harnesses are probably “wrong” or at least too fixed-core compared with this direction (reaction).Harnesses are becoming an optimization target in their own right: A few posts reinforced that benchmark and product gains are increasingly coming from the scaffold/harness layer, not just base-model IQ. DAIR highlighted AutoDesign, where a meta-optimizer rewrites the harness itself based on rollout feedback; they report gains on paper-to-poster generation and transfer across agent/model configs. Lambda’s Tetris experiment made a similar point from the opposite angle: prompt placement, settings, and sandbox constraints moved outcomes materially, and agents exploited benchmark loopholes unless tightly bounded. This aligns with broader discussion that observability data is now doing double duty as evals, memory, and learning substrate (LangSmith docs note).Benchmarks, Evals, and Benchmark SkepticismNew evals targeted real agent failure modes: Vals launched an agentic reverse-engineering benchmark focused on deterministic end goals in cybersecurity-relevant binary settings rather than intermediate artifacts; a companion post argues current frontier agents are much stronger when source is available than when they must reason over binaries (context). OpenRouter introduced web search ",
       "first_seen_at": "2026-08-17T11:21:44.710487+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
-      "url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
-      "summary": "The most compelling chart on today’s Gemini 3.7 Flash update was this one:Where you can see the degree to which 3.5 and 3.6 Flash had fallen behind the more recent Claude 4.8+ and GPT 5.5+ series mod… Read more",
-      "published_at": "2026-08-14T05:30:39+00:00",
-      "details": "The most compelling chart on today’s Gemini 3.7 Flash update was this one:Where you can see the degree to which 3.5 and 3.6 Flash had fallen behind the more recent Claude 4.8+ and GPT 5.5+ series mod… Read more",
-      "first_seen_at": "2026-08-14T11:41:51.783966+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "source_type": "rss",
-      "title": "How Claude's text watermarking works",
-      "url": "https://www.anthropic.com/news/claude-text-watermark",
-      "summary": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act. In this art",
-      "published_at": "2026-08-14T00:00:00+00:00",
-      "first_seen_at": "2026-08-14T21:43:56.287851+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "State of Open Models: Summer 2026 Observations",
-      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "summary": "",
-      "published_at": "2026-08-14T00:00:00+00:00",
-      "first_seen_at": "2026-08-14T21:43:56.287851+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Why AI would rather lie than say 'I don't know' - Ryan Greenblatt",
-      "url": "https://www.youtube.com/shorts/BcsP0RFqu-o",
-      "summary": "",
-      "published_at": "2026-08-13T20:40:54+00:00",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "Your guide to GitHub Universe 2026 is here: The schedule just launched!",
-      "url": "https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/",
-      "summary": "The GitHub Universe 2026 schedule just dropped, and it’s full of exciting sessions, demos, and panels covering the potential of AI-powered development. If you haven’t registered yet, here’s what you need to know. This two-day event brings together some of the greatest minds in te",
-      "published_at": "2026-08-13T19:00:00+00:00",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "Cursor Blog",
-      "source_type": "rss",
-      "title": "Firetiger joins Cursor",
-      "url": "https://cursor.com/blog/firetiger",
-      "summary": "Firetiger builds agents that work on software once it reaches production. They're joining Cursor to close the loop from writing code to running it.",
-      "published_at": "2026-08-13T19:00:00+00:00",
-      "first_seen_at": "2026-08-17T21:44:23.269199+00:00"
-    },
-    {
-      "source": "No Priors Podcast",
-      "source_type": "rss",
-      "title": "What Chess.com Teaches US About Superhuman Capabilities, with CEO Erik Allebest",
-      "url": "https://no-priors.com/",
-      "summary": "In a world of infinite gaming and entertainment possibilities, how does a centuries-old game stay so popular? Chess.com co-founder and CEO Erik Allebest joins Sarah Guo to explain how the evolution of technology has kept people coming back to chess, even when machines can beat us",
-      "published_at": "2026-08-13T17:29:00+00:00",
-      "audio_url": "https://traffic.megaphone.fm/PDP3695187109.mp3",
-      "details": "In a world of infinite gaming and entertainment possibilities, how does a centuries-old game stay so popular? Chess.com co-founder and CEO Erik Allebest joins Sarah Guo to explain how the evolution of technology has kept people coming back to chess, even when machines can beat us at the game. Erik talks about how the desire to build a MySpace-like community for chess led to the purchase of a domain name from a bankruptcy sale back in 2005, and scaled into a community with 10 million daily active users and 250 million total registered members. He also discusses the growth of the cultural relevance of chess, how investments from private equity firms General Atlantic and CVC helped grow and strengthen their platform, and how Chess.com is leveraging AI both within the business itself and to make a better product for its community. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @chesscom | @erikallebest Chapters: 00:00 – Cold Open Trailer 01:05 – Erik Allebest Introduction 01:48 – Chess.com Today 02:57 – Buying and Scaling Chess.com 06:29 – Competition and Growth 11:52 – Chess and Cultural Relevance 14:32 – Private Equity Investment 19:31 – Playing Games Amid Evolving Tech 25:09 – Tech, Skill Distribution, and Expertise 28:40 – Chess and Cheating 31:20 – What Makes Chess Special 33:17 – Chess.com Future Vision 34:54 – Founder Advice 36:48 – AGI/ASI Predictions 40:02 – AI Investments at Chess.com 42:13 – How AI May Change Product at Chess.com 43:27 – Poker Rating Algorithms 46:07 – Conclusion",
-      "dedupe_key": "podcast:a150571b37fc5ef329f46899a1cb15eb2f9c1871",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "summary": "",
-      "published_at": "2026-08-13T17:16:04+00:00",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "source_type": "rss",
-      "title": "Introducing Gemini 3.7 Flash",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "summary": "",
-      "published_at": "2026-08-13T17:04:18+00:00",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "Bring your spreadsheet data to life with Sheets canvas",
-      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-      "summary": "Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt.",
-      "published_at": "2026-08-13T16:45:00+00:00",
-      "first_seen_at": "2026-08-14T02:24:04.760559+00:00"
     },
     {
       "source": "MiniMax Blog",
