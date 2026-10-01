@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-30T16:38:21.773089+00:00",
+  "updated_at": "2026-10-01T00:35:23.560071+00:00",
   "count": 700,
-  "new_count": 515,
+  "new_count": 511,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -72,6 +72,72 @@
       "summary": "",
       "published_at": "2026-10-06T00:00:00+00:00",
       "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "Russia Couldn't Afford to Keep Fighting - Sarah Paine",
+      "url": "https://www.youtube.com/shorts/jSkAV5f9Ptw",
+      "summary": "",
+      "published_at": "2026-09-30T23:45:05+00:00",
+      "first_seen_at": "2026-10-01T00:35:23.560071+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+      "url": "https://www.latent.space/podcast",
+      "summary": "Three months ago Dwarkesh, who has been posting incredible blogs and episodes about RL, posted a framing question for his video essay on RLVR which upset a lot of Computer Use folks:We are no strangers to learning in public and are no strangers to the stress of getting things wro",
+      "published_at": "2026-09-30T22:23:40+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/218243619/4623bf38297ddb16dba4460b8b439140.mp3",
+      "details": "Three months ago Dwarkesh, who has been posting incredible blogs and episodes about RL, posted a framing question for his video essay on RLVR which upset a lot of Computer Use folks:We are no strangers to learning in public and are no strangers to the stress of getting things wrong when you have a big platform. However, we were at Anthropic for the Computer Use launch, there for Claude Cowork with the first big podcast on it, organized the first Computer Use track at AIE presenting the state of the art, and were close to the OpenAI-Sky Software acquisition that now powers the complete domination of computer use that Codex enjoys today. This is why we’re excited to bring you today’s first guest, Ari Weinstein, cofounder of Sky and now leading all the amazing CUA progress that casuals might miss:Ari explains why Computer Use is now “180 degrees different” from where it was months ago, how agents are learning to debug and recover from failures, why combining screenshots with accessibility data, the DOM, Playwright, and generated code changes the speed equation, and why the next frontier is making agents literally superhuman at using software.OpenAI clones JevIn the second half, Nikunj Handa from OpenAI’s API team breaks down the new developer stack: async tool calling, mid-turn steering, WebSockets, UltraFast inference, the Decisions API, prompt caching, pre-warming, compaction, and the Agents API. Given that we were the first Jev podcast, we particularly focus on the unusually fast sprint on the Decisions API:And why it is just a Luna wrapper for now but the team is motivated and egoless enough to clone what they consider to be good patterns.We discuss:Why OpenAI thinks Computer Use has changed dramatically in just the last few monthsDots and what changes when every agent gets its own Linux computerWhy Computer Use can now complete some tasks faster than the average humanThe path from human-level to “literally superhuman” computer useWhy modern agents are much better at debugging and recovering from failureHow screenshots, accessibility trees, the DOM, Playwright, and generated JavaScript work togetherApp Shots and why they give models much richer context than ordinary screenshotsWhy Computer Use can close the loop between writing software and testing itTrust, permissions, and safety when agents can make payments and operate websitesAsync function calling and why models no longer need to stop reasoning while tools runMid-turn steering, WebSockets, and the architecture behind more responsive agentsUltraFast inference and how OpenAI is pushing frontier models toward much lower latencyThe rapid internal story behind the Decisions APIWhy Decisions API is more than structured outputs at low latencyGPT Live, fast tool calling, and real-time computer controlHow OpenAI is already using Decisions API for support classification and internal workflowsLonger prompt caching, cache pre-warming, and cache-aware applicationsServer-side compaction vs manual compaction for long-running agent threadsWhat should live inside an Agents API versus a developer’s own harnessOpenAI as an “AI cloud” and the search for higher-level primitives beyond raw model APIsAri WeinsteinProduct & Engineering, Computer Use at OpenAIX: https://x.com/AriXLinkedIn: https://www.linkedin.com/in/weinsteinari/Nikunj HandaProduct, API at OpenAIX: https://x.com/nikunjhandaLinkedIn: https://www.linkedin.com/in/nikunjhanda/Timestamps00:00:00 OpenAI DevDay: Dots, GPT-6.1, Agents API, and Decisions API00:02:52 Dots and Personal Cloud Computers00:04:59 Why Computer Use Is “180 Degrees Different”00:06:04 From Sky to Self-Debugging Computer Use Agents00:09:24 How Computer Use Sees and Operates Software00:12:09 From Faster Than Humans to Superhuman Computer Use00:16:03 Agents API: Trust, Permissions, and Safety00:17:31 Computer Use for Coding, Testing, and QA00:19:14 GPT-6 APIs, Async Tool Calling, and UltraFast Inference00:23:21 The Rapid Story Behind Decisions API00:25:32 What Decisions API Is and How It Works00:30:24 What OpenAI Is Building With the New APIs00:32:23 Prompt Caching, Pre-Warming, and API Performance00:35:20 Context Compaction for Long-Running Agents00:37:13 Memory, Higher-Level APIs, and the AI CloudTranscriptIntroduction: OpenAI DevDay and the New Agent StackVibhu [00:00:00]: Okay. We’re very excited to be here. Today is OpenAI DevDay. Special podcastSwyx [00:00:08]: We’re the first podcast after your livestream.Vibhu [00:00:10]: First podcast. We have Ari here, who leads the product and engineering team for Computer Use agents. Before we kick in and dive deep on Computer Use, you wanna give a quick recap? What was announced? What’s the quick slew of announcements you guys had today?Ari Weinstein [00:00:24]: Yeah. yeah, it was a super exciting day. we just got out of the keynote. It was really sick. there were a bunch of Computer Use announcements that I think are worth thinking about. We have, Dots, which is the new, sort of personal assistant p",
+      "dedupe_key": "podcast:b1123c84d6588c48ffa5ee6c53cbc9cedc8e3c64",
+      "first_seen_at": "2026-10-01T00:35:23.560071+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "Inside OpenAI DevDay: Superhuman Computer Use, Decisions API, and the AI Cloud — Ari & Nikunj",
+      "url": "https://www.youtube.com/watch?v=z9OkBD2-MDU",
+      "summary": "From giving AI agents their own cloud computers to making Computer Use faster than humans at real-world tasks, OpenAI is pushing agents much closer to actually operating software end-to-end. In this episode, recorded immediately after OpenAI DevDay, Ari Weinstein, who leads produ",
+      "published_at": "2026-09-30T21:00:31+00:00",
+      "first_seen_at": "2026-10-01T00:35:23.560071+00:00"
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "source_type": "rss",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "summary": "",
+      "published_at": "2026-09-30T20:01:45+00:00",
+      "first_seen_at": "2026-10-01T00:35:23.560071+00:00"
+    },
+    {
+      "source": "Runway",
+      "source_type": "rss",
+      "title": "Introducing Runway Ads",
+      "url": "https://runway.com/news/company-news/introducing-runway-ads",
+      "summary": "Runway Ads is an autonomous engine for performance marketing that generates, localizes, publishes and iterates on ad creative with human approval built in.",
+      "published_at": "2026-09-30T18:32:00+00:00",
+      "first_seen_at": "2026-10-01T00:35:23.560071+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+      "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
+      "summary": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides grants, mentors and tec",
+      "published_at": "2026-09-30T17:00:21+00:00",
+      "first_seen_at": "2026-10-01T00:35:23.560071+00:00"
+    },
+    {
+      "source": "Runway Research",
+      "source_type": "rss",
+      "title": "Introducing Praxis-1",
+      "url": "https://runway.com/research/introducing-praxis-1",
+      "summary": "An open-weight world action model that turns Runway's video pretraining into control for real robots.",
+      "published_at": "2026-09-30T17:00:00+00:00",
+      "first_seen_at": "2026-10-01T00:35:23.560071+00:00"
     },
     {
       "source": "Anthropic Research",
@@ -153,6 +219,15 @@
       "summary": "Autonomous Solutions Inc., or ASI, and SoftBank Group Corp. last week announced a joint venture to commercialize brand-agnostic autonomous heavy equipment to address severe labor shortages and accelerate infrastructure projects worldwide. “Large infrastructure projects, from road",
       "published_at": "2026-09-30T12:30:17+00:00",
       "first_seen_at": "2026-09-30T16:38:21.773089+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "published_at": "2026-09-30T10:30:00+00:00",
+      "first_seen_at": "2026-10-01T00:35:23.560071+00:00"
     },
     {
       "source": "OpenAI News",
@@ -2424,6 +2499,15 @@
       "first_seen_at": "2026-09-16T15:18:54.013545+00:00"
     },
     {
+      "source": "Google DeepMind Research",
+      "source_type": "rss",
+      "title": "Economic Policy for AGI",
+      "url": "https://deepmind.google/research/publications/260459/",
+      "summary": "",
+      "published_at": "2026-09-16T00:00:00+00:00",
+      "first_seen_at": "2026-10-01T00:35:23.560071+00:00"
+    },
+    {
       "source": "NVIDIA Blog",
       "source_type": "rss",
       "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
@@ -2582,7 +2666,7 @@
       "source_type": "youtube",
       "title": "Agility Foundations: Functional Safety",
       "url": "https://www.youtube.com/watch?v=2dbyg67EtUA",
-      "summary": "--------------------------------------- At Agility, we make robots that are made for work. Our robot Digit works alongside us in spaces designed for people. Digit handles the tedious and repetitive tasks meant for a machine, allowing companies and their people to focus on the wor",
+      "summary": "--------------------------------------- At Agility, our robots are made for work. Digit takes on tedious, repetitive, and physically demanding tasks in industrial facilities, so companies and their people can focus on the work that requires the human element. Subscribe (hit the b",
       "published_at": "2026-09-15T10:39:18+00:00",
       "first_seen_at": "2026-09-15T15:25:45.447519+00:00"
     },
@@ -2591,7 +2675,7 @@
       "source_type": "youtube",
       "title": "Agility Foundations: AI Stack",
       "url": "https://www.youtube.com/watch?v=HYlrzihyL1k",
-      "summary": "--------------------------------------- At Agility, we make robots that are made for work. Our robot Digit works alongside us in spaces designed for people. Digit handles the tedious and repetitive tasks meant for a machine, allowing companies and their people to focus on the wor",
+      "summary": "--------------------------------------- At Agility, our robots are made for work. Digit takes on tedious, repetitive, and physically demanding tasks in industrial facilities, so companies and their people can focus on the work that requires the human element. Subscribe (hit the b",
       "published_at": "2026-09-15T10:39:12+00:00",
       "first_seen_at": "2026-09-15T15:25:45.447519+00:00"
     },
@@ -2600,7 +2684,7 @@
       "source_type": "youtube",
       "title": "Agility Foundations: Data Security",
       "url": "https://www.youtube.com/watch?v=WpGs7DKe8QY",
-      "summary": "--------------------------------------- At Agility, we make robots that are made for work. Our robot Digit works alongside us in spaces designed for people. Digit handles the tedious and repetitive tasks meant for a machine, allowing companies and their people to focus on the wor",
+      "summary": "--------------------------------------- At Agility, our robots are made for work. Digit takes on tedious, repetitive, and physically demanding tasks in industrial facilities, so companies and their people can focus on the work that requires the human element. Subscribe (hit the b",
       "published_at": "2026-09-15T10:39:04+00:00",
       "first_seen_at": "2026-09-15T15:25:45.447519+00:00"
     },
@@ -6294,87 +6378,6 @@
       "published_at": "2026-08-20T05:17:12+00:00",
       "details": "We’ve covered GLM 5.2 very excitedly before, and Prof Jie Tang’s belief that there will be an open weights Fable-class model by end of the year (spot check - with 134 days left, there are now two 2-3T models (Qwen 3.8 Max and Kimi K3) with estimates that Fable is 3-7T, and only 2 points higher on the AA index.)Prof Jie Tang is back on X to tell us that our shorthand for model sizes is no longer enough: “Parameter count is only meaningful alongside three others — how much data you have, where you intend to spend your compute, and who will run the model, under what conditions.”We have covered Chinchilla (and post-Chinchilla) scaling laws in past LS years, but, so we will skip the history lesson, but it is good to level-set on why Chinchilla’s assumptions were wrong in the Inference Inflection world (no fixed number, between 200-900 toks/param, citing Roberts et al on task dependence). In short: Memorization prefers more parameters. Reasoning prefers more post-training data and effective depth. GLM-5.3’s big jumps come solely from RL on long horizon environments:The environments now cover a much broader range of production workflows, with tasks designed around how engineering and research work is actually carried out in practice. Some represent several days of work for an experienced engineer. In an ML infrastructure task, for example, the model may be given the same working environment as an engineer, with access to compute clusters, storage systems, internal documentation, codebases, and experiment results. It must diagnose bottlenecks across the training stack, implement optimizations, run experiments, and deliver a measurable end-to-end speedup while preserving correctness. Training on environments at this level pushes the model toward taking ownership of substantial work end to end, rather than relying on users to decompose the problem and supervise each step.For those following the recursive self improvement story, their entire environment and judging and verifier process is synthetic all the way down:As agent capability improves, much of the difficulty in scaling post-training moves from the model to the environment. A useful task environment has to be executable, verifiable, and close to real professional work — and we need many of them, not a handful of hand-built ones. To scale this process, we built pipelines that synthesize environments end to end, and for a subset of tasks, the RL reward signal as well. Research agents collect task patterns from real work and turn them into runnable long-horizon environments with multi-step dependencies and hidden state; a judge agent then attempts each task to verify that it is actually solvable. Verifiers are synthesized without access to the reference solution, while solver trajectories are used to discover and close reward shortcuts. A verifier that passes oracle, no-op, and unsolved-state checks produces a binary reward reliable enough to train on directly.To put an end to parameter count obsesssion, Prof Jie identifies 5 knobs of scaling, including MoE sparsity with the new XA-YB notation. He notes that advanced skills (e.g., finding software vulnerabilities) are not retrieval/memorization problems. They require carrying long causal chains (20+ inference steps) without losing the thread. This ability does not live in total parameter count once a certain knowledge-holding threshold is reached.And it looks like there is much more to go.AI News for 8/18/2026-8/19/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpen-Weight Models, Compression, and Benchmark MovementOrnith-1.5 lands as a serious new open family: @ornith_ released Ornith-1.5 in 9B dense, 35B MoE, and 397B MoE variants under MIT, with quantized formats including FP8, GGUF, MLX, and NVFP4. The headline claim is end-to-end self-improvement: the model proposes tasks, generates scaffolds, and produces RL rollouts to create new training experiences. Reported evals are strong across agentic/coding workloads, including Terminal-Bench 2.1: 86.1, SWE-Bench Verified: 86, DeepSWE: 56, HLE: 44.6, and Tool Decathlon: 71.2. The release was quickly wired into serving stacks by vLLM and Ollama.Compression continues to get more aggressive without fully collapsing utility: @UnslothAI and @danielhanchen shipped new Qwen3.8-27B GGUFs using Dynamic V3, claiming roughly 10% higher accuracy at the same size and releasing 1-bit quants that still retain about 77% of BF16 accuracy while running on 8GB RAM. Their new Divergence-300 metric extends top-1% greedy accuracy across longer generations using unseen examples from Terminal Bench, DeepSWE, and related tasks.Agent and legal eval boards continue to reshuffle: @arena published a Pareto view of Agent Arena, where Claude Opus 5 (High) leads quality, but lower-cost models like Kimi K3, GLM 5.2, ",
       "first_seen_at": "2026-08-20T11:23:57.561682+00:00"
-    },
-    {
-      "source": "AgiBot News",
-      "source_type": "rss",
-      "title": "AGIBOT Ranks No.1 in Global Humanoid Robot Shipments in H1 2026, According to Counterpoint Research-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
-      "url": "https://www.agibot.com/article/231/detail/89.html",
-      "summary": "",
-      "published_at": "2026-08-20T00:00:00+00:00",
-      "first_seen_at": "2026-08-20T21:48:00.832246+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
-      "url": "https://openai.com/index/stampli",
-      "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-      "published_at": "2026-08-20T00:00:00+00:00",
-      "first_seen_at": "2026-08-20T21:48:00.832246+00:00"
-    },
-    {
-      "source": "AgiBot News",
-      "source_type": "rss",
-      "title": "AGIBOT Ranks No.1 in Global Humanoid Robot Shipments in H1 2026, According to Counterpoint Research-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
-      "url": "https://agibot.com/article/231/detail/89.html",
-      "summary": "",
-      "published_at": "2026-08-20T00:00:00+00:00",
-      "first_seen_at": "2026-08-21T11:21:08.091055+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "AI doesn't need to be good at everything. Just R&D - Ryan Greenblatt",
-      "url": "https://www.youtube.com/shorts/9oqFUheU104",
-      "summary": "",
-      "published_at": "2026-08-19T20:36:01+00:00",
-      "first_seen_at": "2026-08-19T21:43:58.248064+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Kollmorgen to give a joint-by-joint guide to humanoid motion at RoboBusiness",
-      "url": "https://www.therobotreport.com/kollmorgen-give-joint-by-joint-guide-humanoid-motion-robobusiness/",
-      "summary": "From left to right: Apollo, G2, Digit, Atlas, and Figure 03. | Source: Apptronik, Unitree Robotics, Agility Robotics, Figure AI, respectively Today, humanoid robot OEMs are facing one central challenge: How do they bridge the gap between a working prototype and a manufacturable, ",
-      "published_at": "2026-08-19T20:15:47+00:00",
-      "first_seen_at": "2026-08-19T21:43:58.248064+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "5 new ways to level up your learning with Search",
-      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
-      "summary": "Here’s how you can use Google Search tools to study for classes and standardized tests.",
-      "published_at": "2026-08-19T19:00:00+00:00",
-      "first_seen_at": "2026-08-19T21:43:58.248064+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Offering Zero Data Retention for frontier models",
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-      "published_at": "2026-08-19T19:00:00+00:00",
-      "first_seen_at": "2026-08-19T21:43:58.248064+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "What does Unitree Robotics’ IPO mean for the humanoid industry?",
-      "url": "https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/",
-      "summary": "Unitree offers its G1 humanoid robot for $13.5K. | Source: Unitree This week, Unitree Robotics made its debut on Shanghai’s STAR Market, closing its first day 460% higher. The company raised 6.1 billion yuan, around $905 million U.S., with its initial public offering. Unitree sai",
-      "published_at": "2026-08-19T18:01:43+00:00",
-      "first_seen_at": "2026-08-19T21:43:58.248064+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "GitHub Copilot app for Beginners: Managing your work",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
-      "summary": "This is the third post in our GitHub Copilot app for Beginners series. If you’re just joining us, check out, GitHub Copilot app for beginners: Getting started, where we introduced the app and how it helps you work across multiple agent sessions. Our second post goes deeper on wor",
-      "published_at": "2026-08-19T17:50:23+00:00",
-      "first_seen_at": "2026-08-19T21:43:58.248064+00:00"
     },
     {
       "source": "Cursor Blog",
