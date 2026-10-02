@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-02T00:50:55.492577+00:00",
+  "updated_at": "2026-10-02T16:28:07.043751+00:00",
   "count": 700,
-  "new_count": 513,
+  "new_count": 521,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -72,6 +72,146 @@
       "summary": "",
       "published_at": "2026-10-06T00:00:00+00:00",
       "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "published_at": "2026-10-02T16:15:00+00:00",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "summary": "",
+      "published_at": "2026-10-02T15:19:50+00:00",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "Which GPU Clouds Are Actually Good? | ClusterMAX 3.0",
+      "url": "https://www.youtube.com/watch?v=MWX36ZYnsm0",
+      "summary": "Which GPU clouds are worth trusting with your AI workloads? This Lightning podcast episode explores SemiAnalysis’s ClusterMAX 3.0 and the questions that matter when evaluating managed GPU clusters. About the research: ClusterMAX evaluates configuration, workload performance, reli",
+      "published_at": "2026-10-02T15:00:10+00:00",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
+    },
+    {
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "title": "The latest AI news we announced in September 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "summary": "Here are Google’s latest AI updates from September 2026",
+      "published_at": "2026-10-02T15:00:00+00:00",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "AI is rewriting the developer career ladder. Here’s how to stand out.",
+      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+      "summary": "AI is changing what it takes to stand out—and move forward—as a developer. Writing code is still essential, but developers increasingly need to know how to direct AI, evaluate its output, communicate tradeoffs, and make sound technical decisions. The good news? You can start prep",
+      "published_at": "2026-10-02T15:00:00+00:00",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
+    },
+    {
+      "source": "Google Research Blog",
+      "source_type": "rss",
+      "title": "Toward provably private learning from federated data",
+      "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+      "summary": "Mobile Systems",
+      "published_at": "2026-10-02T14:57:41+00:00",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
+    },
+    {
+      "source": "a16z AI YouTube",
+      "source_type": "youtube",
+      "title": "Why Building an AI Agent Is Easier Than Deploying One",
+      "url": "https://www.youtube.com/watch?v=OTQ-lFsq7zA",
+      "summary": "a16z’s Seema Amble and Elena Burger sit down with Lio co-founder and CEO Vladimir Keil to ask where AI-native startups have an advantage when incumbent software companies already own the customer, the data, and the system of record. Their answer comes down to the work that happen",
+      "published_at": "2026-10-02T14:30:40+00:00",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+      "url": "https://www.latent.space/p/airbnb",
+      "summary": "Prior to joining Airbnb as CTO in January, Ahmad Al-Dahle was head of generative AI at Meta and led the launch of its open source Llama models over 2023-2025. Now Al-Dahle is in charge of turning Airbnb into an “AI-native company”.What that means in practice is using AI internall",
+      "published_at": "2026-10-02T14:04:49+00:00",
+      "details": "Prior to joining Airbnb as CTO in January, Ahmad Al-Dahle was head of generative AI at Meta and led the launch of its open source Llama models over 2023-2025. Now Al-Dahle is in charge of turning Airbnb into an “AI-native company”.What that means in practice is using AI internally to speed up product development, then using those same capabilities to transform the customer experience. We’re calling this an “inside-out AI” approach and in this article we’ll dig into the details.An example of inside-out AI: Airbnb used a custom internal tool called Everest to help accelerate the launch of a new external service. (Diagram by Latent Space)Al-Dahle spoke with Latent Space about Airbnb’s AI transformation. We began by asking him why he made the shift from building frontier models at Meta to deploying them at Airbnb.“Fundamentally, I like to chase where I believe the hard frontiers live,” he replied, pun perhaps intended. “We kind of knew [at Meta] what the flywheel looks like, we understood how to improve the model capabilities, generation on generation.”Al-Dahle’s tweet in January on joining Airbnb from MetaThe next challenge, Al-Dahle thinks, is deploying models at scale. At Airbnb, his goals are to “push people to work differently, because these tools are transforming how you work,” and to “take these systems and deploy them in production, in creative ways that actually add value to a core user experience.”Jumping to prototypes, code is the artifactFrom its launch in 2008, Airbnb has been considered a technology company operating in the hospitality industry. The company went public in 2020 and now has a market capitalization of approximately $93 billion (at time of writing). So it’s a big operation to try and make “AI-native.”Al-Dahle reeled off a few statistics to show that Airbnb is AI-pilled now: 60% of its code is now AI-authored, it has shipped nearly 80% more features and improvements year over year, and pull-request throughput for the average engineer is up about 1.6x.But how exactly has Airbnb done all this?Firstly, he said it’s about changing the organizational process for software engineering. Traditionally, you might do product requirements, then design work in Figma, then engineering implementation, and eventually production testing. In the past, these would’ve required handoffs from one team to another. But now, Airbnb has its product, design and engineering teams move directly to working with prototypes.“Breaking that time down is actually one of the biggest savings that a lot of traditional software companies have to make the leap to do,” said Al-Dahle. “And so we made that leap and it actually ended up adding a ton of tailwind to our product development process.”A byproduct of this change is that teams deal directly with code, rather than dealing with “artifacts” like a product requirements document.“We moved away from excessive artifact generation to the code being the artifact that we reason upon, and prototypes,” he said.AI resolves roughly half of support ticketsAl-Dahle told us that customer support was the first user-facing area that it introduced AI into. He described it as “the hardest problem to deploy,” because “the stakes and the consequences of a mistake are really high.”Roughly half of Airbnb’s support tickets are now resolved purely by AI, said Al-Dahle (this is in line with the company’s Q2 results, which put the figure at nearly 45%).The key to this, he says, is using synthetic data to thoroughly test the system before taking it to production.“We start with: build a model, build the agent, and begin to generate a battery of synthetic data before you ever go into production.”He notes that although agents handle about half of customer support queries, they are careful about what requires human assistance — with safety issues, for example.“So while we solve 50% of the tickets, we’re actually deliberate about the tickets we don’t choose to solve yet [with agents].”Everest, Airbnb’s AI context graphTwo Airbnb Services projects you may not be familiar with yet are grocery deliveries and airport pickups (the grocery service has just been expanded to more cities). Both were launched earlier this year, thanks in part to Airbnb’s inside-out AI approach.It was an internal organizational context graph called Everest that helped bring these products to market quickly. Al-Dahle said that Everest uses technologies such as LLMs, embeddings and AI-based retrieval to build and query the graph.He explained that the grocery delivery and airport pickup services are “kind of similar services — API integrations with partner services [external companies] that integrated onto our platform.” Airbnb’s new grocery delivery serviceThe grocery service was built first, and learnings from it were made available in Everest. That enabled the airport pickup team to do its project much more quickly. In its Q2 earnings report, Airbnb states that “groceries took eight months, nine months and airport pickups took abo",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Calling robotics startups: Submissions for the 2026 Robotics Startup Radar close soon",
+      "url": "https://www.therobotreport.com/calling-all-robotics-startups-apply-now-2026-robotics-startup-radar/",
+      "summary": "The robotics industry is rapidly changing and growing. Each year, we see new robotics startups launch into the scene with exciting technology. At The Robot Report, we want to help our readers keep up with this ever-changing landscape. So, we’re bringing back the Robotics Startup ",
+      "published_at": "2026-10-02T14:00:59+00:00",
+      "first_seen_at": "2026-09-04T23:04:24.929774+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+      "summary": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB",
+      "published_at": "2026-10-02T13:00:39+00:00",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
+    },
+    {
+      "source": "AgiBot YouTube",
+      "source_type": "youtube",
+      "title": "AGIBOT A3 Ultra is on duty at Jinan Metro Station.",
+      "url": "https://www.youtube.com/watch?v=EkI-CAoZWgY",
+      "summary": "In the station, A3 Ultra helps passengers with wayfinding and inquiries, while also supporting routine inspection tasks. From demos to daily operations, AGIBOT humanoid robots are starting to take on real tasks in public spaces. #AGIBOT #EmbodiedAI",
+      "published_at": "2026-10-02T13:00:31+00:00",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "The Future of Frontier Model Architectures with Walter Goodwin, Founder & CEO of Fractile",
+      "url": "https://www.youtube.com/watch?v=OpeCP4wCxkA",
+      "summary": "Founder and CEO of full-stack AI chip company Fractile, Walter Goodwin, joins Sarah Guo to discuss the bets he’s made on the future of the chip market as other major players like Broadcom, NVIDIA, and AMD try to accelerate their workloads. They discuss the difference in Fractile’",
+      "published_at": "2026-10-02T10:00:39+00:00",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
+    },
+    {
+      "source": "No Priors Podcast",
+      "source_type": "rss",
+      "title": "The Future of Frontier Model Architectures with Walter Goodwin, Fractile Founder and CEO",
+      "url": "https://no-priors.com/",
+      "summary": "Founder and CEO of full-stack AI chip company Fractile, Walter Goodwin, joins Sarah Guo to discuss the bets he’s made on the future of the chip market as other major players like Broadcom, NVIDIA, and AMD try to accelerate their workloads. They discuss the difference in Fractile’",
+      "published_at": "2026-10-02T10:00:00+00:00",
+      "audio_url": "https://traffic.megaphone.fm/PDP7579412568.mp3",
+      "details": "Founder and CEO of full-stack AI chip company Fractile, Walter Goodwin, joins Sarah Guo to discuss the bets he’s made on the future of the chip market as other major players like Broadcom, NVIDIA, and AMD try to accelerate their workloads. They discuss the difference in Fractile’s newer approach on model architecture with a full-stack team in the current chip landscape and the technical bets they’re making in that direction. Walter also talks about compressing the gap between the chip design cycle and its payoff period, and making a generational leap in AI inference to realize the bet in volume against the value to be captured. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @goodwin_ml | @fractile_ai Chapters: 00:46 – Walter Goodwin and Fractile Introduction 02:29 – The Chip Landscape Now 04:56 – Common Handoffs From Architecture-Focused Players 07:18 – Full Stack Approach and Team Setup 09:49 – Fractile’s Most Important Technical Bets 15:32 – Workload Predictions and Compressing the Chip Design Cycle 23:03 – Architect Intent to Output Bottlenecks and Accelerating Trials 28:16 – Workload Bets on Model Architectural Shifts 31:20 – The Future of AI Chip Players and Market Structure 35:14 – Conclusion",
+      "dedupe_key": "podcast:e98f5a727be38cb9a0ecee3baf769e95e18ab9b1",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+      "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+      "summary": "Last call for regular tickets for AI Engineer NYC! See you in 2 weeks!As an exclusive for Latent Space subscribers, the first 30 of you can take a 30% off code if it helps (for new tickets only, no refunds).Pi is often mentioned in the same breath as OpenClaw, as we did earlier t",
+      "published_at": "2026-10-02T06:40:53+00:00",
+      "details": "Last call for regular tickets for AI Engineer NYC! See you in 2 weeks!As an exclusive for Latent Space subscribers, the first 30 of you can take a 30% off code if it helps (for new tickets only, no refunds).Pi is often mentioned in the same breath as OpenClaw, as we did earlier this year: but today is time for the increasingly well regarded Earendil, which Pi joined, to have its day in the sun, with both Pi 1.0 and Pi Durable hitting the front page of HN.Pi 1.0:Codemode (native support for MCP, Jev and image models)Extension support for virtual modelsDeferred tool loadingCache warming for anthropic modelsMid-conversation system messages (transcript-aware prompt and tool changes)A new TUI themeFull-screen mode by defaultPi Durable ports Pi to TypeScript and externalizes all stateful components of Pi:Crash Survival: Every step is recorded as a checkpointed task. If a process fails or restarts, agents and subagents automatically resume from their last exact state.Portability: It runs anywhere with a JavaScript runtime (like Node, Bun, or Cloudflare) and uses pluggable storage backends (Memory, SQLite, JSONL) and flexible remote or local execution environments.Concurrency: A single harness can run multiple parallel, branching conversations—such as a main channel and separate threads—without blocking one another.Extensibility: Developers can bundle custom system prompts, tools, hooks, and durable tasks (e.g., multi-step checkout processes with rollback capabilities) into installable “Extensions.”Context Management: Automatic background compaction summarizes older messages to maintain token limits without pausing the agent’s active work.Multiplayer & State Sync: Application state (like a to-do list) is stored in documents directly alongside the conversation transcripts, allowing multiple users or UIs to connect, watch, and steer the same agent simultaneously.Hot-Swapping: Tool and extension code can be updated dynamically while the agent is running, with the next tool call automatically picking up the new code.AI News for 10/01/2026-9/30/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapFrontier and Multimodal Launches: Gemini 4 Argon, GPT-6.1 Sol and FLUX 3Gemini 4 Argon: Google announced a new generation of Gemini, with contributors highlighting revised pretraining mixtures, long-horizon post-training data, and internal applications in memory optimization, code migration and mathematics. These are developer accounts of how the model was built and used—not independent evidence of general superiority (Google researcher).Validation: Google says new Gemini revisions now undergo weeks of testing by thousands of internal software engineers before release (Logan Kilpatrick).Contested readiness: A circulated Bloomberg report attributed coding weaknesses to anonymous insiders; a subsequent post reported a senior DeepMind engineer rejecting that account. Treat the practical coding-quality dispute as unresolved, rather than interpreting either benchmarks or employee reactions as decisive (reported criticism, reported rebuttal).GPT-6.1 Sol: OpenAI’s update is primarily an efficiency story. Sam Altman called it the company’s fastest-growing model and said serving performance had improved after launch-time load problems (update).Measured economics: Artificial Analysis reports $0.72 per Intelligence Index task at maximum effort, versus $1.04 for GPT-6 Sol and $3.26 for Astra. Fewer turns and cheaper cache reads—not simply fewer generated tokens—drive the improvement (results, explanation).Multimodal fix: OpenAI also corrected image encoding for Luna and Sol. Luna gained one Intelligence Index point, including improvements on visual-document and knowledge-work evaluations; Sol changed negligibly (measurement).Solar Mini 4: Upstage’s proprietary text-only reasoning model reports 35B total/3B active parameters, a 1M-token context window and 262K maximum output. Weights are not released, so parameter counts remain vendor-reported (analysis).Pricing: $0.10/$0.40/$0.01 per million input/output/cache-hit tokens.Trade-offs: Artificial Analysis scores it 24 overall and 83% on long-context reasoning, but only 1% on Terminal-Bench 4.0. Despite 208 tokens/s output, approximately 88K output tokens per task produce a 7.1-minute average completion time and roughly five times Luna’s task cost.FLUX 3 Image: Black Forest Labs launched native generation up to 4K, up to ten reference images, bounding-box layout control and targeted multi-turn editing. Preserving every untouched pixel is a vendor capability claim, not independently established here (announcement).Availability: Commercial weights are available; an open-weight variant is promised in coming weeks. Hosted access includes fal and Krea (fal, Krea).Pricing: BFL announced a temporary 50% API discount through O",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "summary": "",
+      "published_at": "2026-10-02T04:01:31+00:00",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
     },
     {
       "source": "Latent Space",
@@ -324,6 +464,15 @@
       "first_seen_at": "2026-10-01T17:15:10.557916+00:00"
     },
     {
+      "source": "Manus Blog",
+      "source_type": "rss",
+      "title": "Introducing Video Editor in Manus 2.0: Anyone Can Now Make A Video Worth Posting",
+      "url": "https://manus.im/blog/introducing-video-editor",
+      "summary": "Create and edit videos with Manus",
+      "published_at": "2026-10-01T00:00:00+00:00",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
+    },
+    {
       "source": "OpenAI News",
       "source_type": "rss",
       "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
@@ -331,6 +480,24 @@
       "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
       "published_at": "2026-10-01T00:00:00+00:00",
       "first_seen_at": "2026-10-02T00:50:55.492577+00:00"
+    },
+    {
+      "source": "Agility Robotics",
+      "source_type": "rss",
+      "title": "Agility and FORT Robotics Announce Strategic Partnership to Advance Humanoid Robot Safety | Agility",
+      "url": "https://www.agilityrobotics.com/content/agility-and-fort-robotics-announce-strategic-partnership-to-advance-humanoid-robot-safety",
+      "summary": "",
+      "published_at": "2026-10-01T00:00:00+00:00",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
+    },
+    {
+      "source": "Manus Blog",
+      "source_type": "rss",
+      "title": "Introducing Game Dev: Enabling Everyone to Make the Games They Want to Play",
+      "url": "https://manus.im/blog/introducing-game-developer",
+      "summary": "Build games on Manus",
+      "published_at": "2026-10-01T00:00:00+00:00",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -754,6 +921,15 @@
       "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
       "published_at": "2026-09-29T00:00:00+00:00",
       "first_seen_at": "2026-09-30T00:31:57.467916+00:00"
+    },
+    {
+      "source": "Agility Robotics",
+      "source_type": "rss",
+      "title": "Agility Robotics Announces New Directors for Planned Public-Company Board | Agility",
+      "url": "https://www.agilityrobotics.com/content/agility-robotics-announces-new-directors-for-planned-public-company-board",
+      "summary": "",
+      "published_at": "2026-09-29T00:00:00+00:00",
+      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
     },
     {
       "source": "Runway",
@@ -4217,15 +4393,6 @@
       "first_seen_at": "2026-09-04T23:04:24.929774+00:00"
     },
     {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Calling robotics startups: Apply now to be part of the 2026 Robotics Startup Radar",
-      "url": "https://www.therobotreport.com/calling-all-robotics-startups-apply-now-2026-robotics-startup-radar/",
-      "summary": "The robotics industry is rapidly changing and growing. Each year, we see new robotics startups launch into the scene with exciting technology. At The Robot Report, we want to help our readers keep up with this ever-changing landscape. So, we’re bringing back the Robotics Startup ",
-      "published_at": "2026-09-04T16:33:59+00:00",
-      "first_seen_at": "2026-09-04T23:04:24.929774+00:00"
-    },
-    {
       "source": "GitHub Blog",
       "source_type": "rss",
       "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
@@ -6212,170 +6379,6 @@
       "summary": "",
       "published_at": "2026-08-24T21:47:52+00:00",
       "first_seen_at": "2026-08-25T11:23:14.282414+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
-      "url": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
-      "summary": "More than one in four images on the web’s most popular home pages have alt text that’s missing, vague, or copied from adjacent images. That’s from WebAIM’s 2026 WebAIM Million report, which found that alt text,an HTML attribute containing text describing the content of an image, ",
-      "published_at": "2026-08-24T20:56:32+00:00",
-      "first_seen_at": "2026-08-24T21:46:32.794806+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "XPeng Motors humanoid robot unit Dogotix raises $900M",
-      "url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
-      "summary": "XPeng’s Dogotix unit is developing the IRON humanoid robot. Source: XPeng Like other global automakers, XPeng Motors is branching into humanoid robots. The electric vehicle manufacturer today said that its Dogotix robotics unit has raised more than $900 million in its initial fun",
-      "published_at": "2026-08-24T20:07:09+00:00",
-      "first_seen_at": "2026-08-24T21:46:32.794806+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "How XPUs Meet a World-Class AI Factory",
-      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
-      "summary": "To generate intelligence at scale, AI factories run continuously, and their economics are defined by delivered output: tokens per second, tokens per watt, cost per token, utilization and uptime. That requires AI infrastructure designed and built as a full factory, not a collectio",
-      "published_at": "2026-08-24T15:00:54+00:00",
-      "first_seen_at": "2026-08-24T21:46:32.794806+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
-      "summary": "The next era of AI inference won’t be defined by a single breakthrough chip, network or system. It’ll be defined by how every layer of the AI factory works together. That’s why NVIDIA is extending Vera Rubin NVL72 with fast token generation for agentic systems. Announced today, t",
-      "published_at": "2026-08-24T15:00:41+00:00",
-      "first_seen_at": "2026-08-24T21:46:32.794806+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
-      "summary": "According to OpenRouter data, agentic AI workloads consume 15x more tokens than a simple chat request. Why? Consider what happens when an AI agent researches a company for an investment decision. The agent queries financial databases, searches news and filings, invokes a sub-agen",
-      "published_at": "2026-08-24T15:00:19+00:00",
-      "first_seen_at": "2026-08-24T21:46:32.794806+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-      "published_at": "2026-08-24T12:00:00+00:00",
-      "first_seen_at": "2026-08-24T21:46:32.794806+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Machine Learning Is Shallow Compared to Math - Ryan Greenblatt",
-      "url": "https://www.youtube.com/shorts/gfi0bOuHiDU",
-      "summary": "",
-      "published_at": "2026-08-23T21:26:53+00:00",
-      "first_seen_at": "2026-08-23T21:39:21.980794+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Use a digital twin to explore automation before committing capital",
-      "url": "https://www.therobotreport.com/use-digital-twin-explore-automation-before-committing-capital/",
-      "summary": "RoboDK is an example of digital twin and offline programming software. It allows users to test robots from more than 1,400 brands so they can find the best fits for their applications. Source: RoboDK Manufacturers of all sizes know that automation can help solve labor challenges,",
-      "published_at": "2026-08-23T12:30:14+00:00",
-      "first_seen_at": "2026-08-23T21:39:21.980794+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "AGIBOT is at the 2026 World Humanoid Robot Games! 🤖🏆",
-      "url": "https://www.youtube.com/watch?v=ChGMsbKiW-Y",
-      "summary": "From collaborative performance to autonomous interaction. 🏓 At the opening ceremony, AGIBOT A3 went head-to-head with table tennis world champion Ding Ning — reading the ball, tracking its trajectory, and returning shots on its own, with no remote control or scripts. Autonomous M",
-      "published_at": "2026-08-23T05:37:14+00:00",
-      "first_seen_at": "2026-08-23T11:17:27.057131+00:00"
-    },
-    {
-      "source": "AgiBot News",
-      "source_type": "rss",
-      "title": "AGIBOT Partners with Chimelong to Develop the World’s First Embodied Intelligence Theme Park-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
-      "url": "https://www.agibot.com/article/231/detail/90.html",
-      "summary": "",
-      "published_at": "2026-08-23T00:00:00+00:00",
-      "first_seen_at": "2026-08-24T11:23:46.769668+00:00"
-    },
-    {
-      "source": "AgiBot News",
-      "source_type": "rss",
-      "title": "AGIBOT Partners with Chimelong to Develop the World’s First Embodied Intelligence Theme Park-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
-      "url": "https://agibot.com/article/231/detail/90.html",
-      "summary": "",
-      "published_at": "2026-08-23T00:00:00+00:00",
-      "first_seen_at": "2026-08-25T11:23:14.282414+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "Is Intelligence a Law of Physics?",
-      "url": "https://www.youtube.com/shorts/wwhzeUVDyUw",
-      "summary": "\"If you apply enough compute to matter, you get this thing that looks like intelligence.\" Max Hodak on why AI models and brains seem to represent concepts using the same underlying geometry.",
-      "published_at": "2026-08-22T23:42:22+00:00",
-      "first_seen_at": "2026-08-23T11:17:27.057131+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "AGIBOT is at the 2026 World Humanoid Robot Games! 🤖🏆",
-      "url": "https://www.youtube.com/watch?v=8ECYhzP7cJ4",
-      "summary": "At the opening ceremony, 24 AGIBOT A3 humanoid robots joined 20 professional dancers in a synchronized group performance, moving in sync with the dancers and each other. Synchronized Movement. Multi-Robot Coordination. Human-Robot Collaboration. #AGIBOT #HumanoidRobots #Robotics ",
-      "published_at": "2026-08-22T16:31:00+00:00",
-      "first_seen_at": "2026-08-22T21:39:22.005337+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Robots don’t run themselves: The workforce powering physical AI",
-      "url": "https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/",
-      "summary": "A hybrid human-robot workforce requires new metrics, according to HireArt. Source: Lee AI, via Adobe Stock As robotic systems move from pilots into scaled deployments, a pattern is becoming harder to ignore: The limiting factor is rarely the robot itself. It’s the workforce requi",
-      "published_at": "2026-08-22T14:30:21+00:00",
-      "first_seen_at": "2026-08-22T21:39:22.005337+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "The technology that could bring robot mowers to one in two American lawns",
-      "url": "https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns/",
-      "summary": "Robotic mowing is becoming more commercially viable because of vision and satellite guidance, AI planning, and autonomy. Source: Sunseeker Robotics For years, robotic lawn mowers have been perceived as a niche technology: an interesting solution, but one limited by complex instal",
-      "published_at": "2026-08-22T12:30:08+00:00",
-      "first_seen_at": "2026-08-22T21:39:22.005337+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
-      "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-      "summary": "By AI standards today is a pretty quiet Friday, so it’s time to take a step back and reflect on what is really going on. If you read our 2025 reading list, and followed our coverage of Z.ai GLM, understood the Poolside pivot, been following our AI for Science themes, and tuned in",
-      "published_at": "2026-08-22T07:36:00+00:00",
-      "details": "By AI standards today is a pretty quiet Friday, so it’s time to take a step back and reflect on what is really going on. If you read our 2025 reading list, and followed our coverage of Z.ai GLM, understood the Poolside pivot, been following our AI for Science themes, and tuned in to today’s Simile pod, you not only are one of the biggest readers of Latent Space, you will probably also arrive at this mental model:Every year since 2022, one more component of the pipeline that produces machine intelligence has flipped from human-made to model-made. Not gradually, and not evenly — each flip has a patient zero, a paper or product where the synthetic version first became load-bearing at a frontier lab, and from there on, the future is simply here but not yet productionized.And if you squint, what we used to call “synthetic data” and “synthetic rubrics” and “AI researcher” and “end to end RL environments” is just increasingly ambitious human simulation - 10% worse, but 100x cheaper and 10,000x faster.Stage 1: The reward signal (2022)The first thing to go synthetic was, counterintuitively, the judge. InstructGPT established the now-canonical trick: collect human preferences once, train a reward model, and let the policy optimize against the model rather than the humans. From the policy’s point of view, the thing dispensing approval was already an LLM. Constitutional AI pushed further and had the AI critique itself against a set of principles (RLAIF), and Lee et al. later showed AI feedback matching human feedback at a fraction of the cost. By the time LLM-as-judge became the default eval methodology (MT-Bench, AlpacaEval), the entire approval apparatus — reward, critique, evaluation — ran on models judging models.Stage 2: The training data (2023)Microsoft’s Phi series made the argument in its title: Textbooks Are All You Need. A small model trained on LLM-synthesized, textbook-quality data punched far above its parameter count, and phi-1.5 confirmed it wasn’t a fluke. Apple’s WRAP generalized the move: don’t just generate data, rephrase the entire web with an LLM, and pretraining gets roughly 3x more efficient. From there the pipeline industrialized — NVIDIA’s Nemotron-4 340B shipped with a permissively licensed synthetic data generation pipeline as a headline feature, and by 2025 reasoning-trace corpora (chains of thought generated by strong reasoners) had become a standard pretraining and mid-training ingredient. The corpus, the thing that was supposed to be the irreducibly human input, was now substantially model-written.Stage 3: The teacher (2023)Weeks after ChatGPT’s API opened, Stanford’s Alpaca demonstrated that a $600 fine-tune on GPT-generated instructions could clone much of a frontier model’s behavior. Vicuna did it with shared conversations; Orca did it with rich teacher explanations rather than bare answers. The technique matured from imitation into a proper training discipline — on-policy generalized knowledge distillation fixed the train/inference mismatch — and reached its cultural peak when DeepSeek-R1 shipped a family of distilled models alongside the flagship, making “the teacher is a model” the default assumption for every small model release since. Stage 4: The curriculum (2024)Stages 1–3 made the inputs synthetic; stage 4 is where the loop starts closing on itself, because the model begins deciding what to learn next. The pieces existed early — Self-Instruct (models writing their own instruction sets) and STaR (models bootstrapping their own reasoning traces) are both 2022 — but the flip came when Meta’s Self-Rewarding Language Models and SPIN showed a model could generate its own tasks, judge its own outputs, and improve past the ceiling of its human preference data. Curriculum design — historically the most artisanal part of ML, the taste-driven choice of what to train on next — became something models do to themselves.Stage 5: The researcher (2026)The assistance era (Copilot, then SWE-agents) kept a human choosing the experiments. The discovery era did not. DeepMind’s AlphaEvolve evolved genuinely new algorithms in 2025, and Sakana’s AI Scientist (now in Nature!) sketched the full paper-writing pipeline. The big moment was Karpathy’s autoresearch in March 2026: a deliberately minimal ratchet loop where a coding agent modifies a real LLM training setup, runs a five-minute experiment, keeps the change only if validation loss improves, and repeats overnight. His own extended run stacked 700 experiments into 20 kept improvements, cutting time-to-GPT-2 from 2.02 to 1.80 hours — real, transferable code changes found while he slept. Stage 6: The environment (2026)RL’s scaling bottleneck moved from the model to the environment: you need thousands of executable, verifiable, professionally realistic task worlds, and humans can’t hand-build them fast enough. We covered this recently in our z.ai / GLM-5.3 issue: Z.ai built pipelines that synthesize environments end to end — research agents mine real wo",
-      "first_seen_at": "2026-08-22T11:17:11.943451+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "The Evolution of the Agent Harness",
-      "url": "https://www.latent.space/p/attention-interface",
-      "summary": "Sometime around Christmas 2025, AI engineers noticed a change in agents. They started to work! It’s hard to pin down exactly why. Maybe we finally had holiday downtime to try the newest agents with the newest models. Maybe the models had crossed some capability threshold. Maybe t",
-      "published_at": "2026-08-22T07:30:52+00:00",
-      "details": "Sometime around Christmas 2025, AI engineers noticed a change in agents. They started to work! It’s hard to pin down exactly why. Maybe we finally had holiday downtime to try the newest agents with the newest models. Maybe the models had crossed some capability threshold. Maybe the wrappers around the models had matured.What I’ll argue in this post is that it was the confluence of the last two. The model and the harness improving together and then their curves of improvement crossing at the right moment. And that dynamic helps to explain what comes next: models keep absorbing the harness into their weights, engineers keep deleting what got absorbed, and what remains is a harness for human attention rather than for the model.Lukasz Kaiser, one of the people who invented the Transformer, said on “Unsupervised Learning” in June:“The change last winter, last Christmas — it’s a little hard to pin down. I mean, the harness changed and a little post-training changed and then new pre-trained models came… but it felt like a big jump which is not that easy to pin down what did it.”The answer to “What happened?” isn’t solely in the model weights. It’s in the system that grew up around the weights.The answer is in the agent harness.Think back to November 2022, when ChatGPT was the most advanced AI tool. The only capability at its disposal was next-token prediction and some Reinforcement Learning from Human Feedback (RLHF) that allowed it to act like a helpful assistant. No tools, no search, and no reasoning.The original ChatGPT was confined to its training data and the prompt you sent it. No more, no less. It was a brain in a vat.The agent harness is a way for the LLM to break free from that confinement and interact with real digital information space.What a Harness Actually IsAn agent harness is everything besides the model weights that makes the agent work. The environment, tools, context and guardrails that surround the model. Without the harness the model is a brain in a vat. It can take an epistemic action, but needs the harness to actuate that decision in real digital space.The harness is like giving the mind of the model a body. With the harness, the model can perceive (context), act (tools), persist information (memory and compaction), and enforce its boundaries (permissions and guardrails).Harness 1.0: The Past, “The Bolt-On Era”Two curves run through the path of model / harness evolution. What the harness asks of the model, and what the model can deliver in practice.The gap between these two curves is equal to the effectiveness of an agent, and the closing of that gap is what I’ll argue led to the tangible improvement in agents that Lukasz Kaiser referenced.Here’s how the gap closes, in stages:ReAct, “The Harness on Paper” (October 2022): ReAct is a prompting technique to get models to reason through prompting. It’s the agentic loop on paper, external to the model weights. It defines the idea of an “agent loop” where a model reasons -> acts -> observes -> repeats. Again, the ReAct loop exists only as a prompting method. Prompting is the only reasoning method that exists at this time and no one calls it a “harness.” Toolformer (Meta, Feb. 2023), that same winter, hints that tool use could be trained in rather than prompted. It’s a bit like Alan Turing’s idea of the computer before it was instantiated in a physical substrate. A powerful idea that is only later made manifest. (ReAct predates ChatGPT by a month — October 2022 vs. November 2022). Both the curves are near zero at this point. The gap is small because we are just getting started.AutoGPT/BabyAGI, “Premature Autonomy” (Spring 2023): With AutoGPT/BabyAGI, the harness curve sprints ahead of the model capability curve. Both hand the model full autonomy, asking the model to act as an “autonomous employee,” but the models at this point are still little more than brittle next-token predictors. A loop doesn’t add capability to a model. A loop amplifies the capability a model has, and below some threshold the loop amplifies errors rather than reliability. Consider the power of compounding in the negative: 95% reliability per-step over a 20-step task results in a ~36% average success rate. The harness hands the model an assignment it has no realistic chance of completing. This is where the gap is at its widest and the next 18 months are a reaction and attempt to close that gap.Cursor/Copilot, “Retreat to Human in the Loop” (2023 - 2024): The first AI-powered IDEs recognize the failure-mode of giving the model too much autonomy. They close the gap by pulling the harness curve down below the model curve. Don’t give the model the loop directly; give the human the loop and empower the human to orchestrate the loop while the model speeds the human up. The first version of Devin tries to hand the autonomy back to the model. A test from the team at Answer.AI shows that is still premature, with a ~15% success rate. It’s evidence that the move from the IDEs to retreat f",
-      "first_seen_at": "2026-08-22T11:17:11.943451+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "How software-defined manufacturing fits into real factory operations",
-      "url": "https://www.therobotreport.com/how-software-defined-manufacturing-fits-into-real-factory-operations/",
-      "summary": "The Robot Report Podcast · How software-defined manufacturing fits into real factory operation Roby Lynn, founder and CEO, R2 Labs. In Episode 258 of The Robot Report Podcast, we discuss software-defined manufacturing, in which automation enables more flexible production. Our gue",
-      "published_at": "2026-08-22T00:48:35+00:00",
-      "first_seen_at": "2026-08-22T11:17:11.943451+00:00"
     },
     {
       "source": "Cursor Blog",
