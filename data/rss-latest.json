@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-01T17:15:10.557916+00:00",
+  "updated_at": "2026-10-02T00:50:55.492577+00:00",
   "count": 700,
-  "new_count": 519,
+  "new_count": 513,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -72,6 +72,72 @@
       "summary": "",
       "published_at": "2026-10-06T00:00:00+00:00",
       "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Academia is for Ambition — Alex Zhang, MIT",
+      "url": "https://www.latent.space/podcast",
+      "summary": "Last call for regular tickets for AI Engineer NYC! As an exclusive for Latent Space subscribers, the first 30 of you can take a 30% off code if it helps - for new tickets only, no refunds! See you in 2 weeks!While we tend to cover industry on the pod, every so often we celebrate ",
+      "published_at": "2026-10-02T00:28:04+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/218414422/044c92ee79bb60914986e42706d74969.mp3",
+      "details": "Last call for regular tickets for AI Engineer NYC! As an exclusive for Latent Space subscribers, the first 30 of you can take a 30% off code if it helps - for new tickets only, no refunds! See you in 2 weeks!While we tend to cover industry on the pod, every so often we celebrate a clearly emerging superstar PhD. In 2024 we featured Shunyu Yao, who went on to build Operator at OpenAI and is now Chief AI Scientist of Tencent. In 2025 we featured Jack Morris, who went on to cofound Engram at $600m and is now a leading voice on continual learning. This year we are proud to feature the work of Alex Zhang of MIT.From GPU kernels and KernelBench to Recursive Language Models, Mismanaged Geniuses, and massive multi-agent swarms, Alex Zhang is exploring how much capability we’re leaving on the table by wrapping increasingly powerful models in primitive systems. RLMs took over the timeline early this year:and an RLM based harness was the first to ~solve ARC-AGI-3 before OpenAI’s Astra:and is even today, influencing new research that has more extreme implications than RLMs:We go deep on GPU Mode and AI-written kernels, research taste and why academics should take bets industry labs won’t, GEV and alternatives to the standard autoregressive language model, and the idea of harnesses as compositional generalizers. Alex explains RLMs, context offloading, programmatic subagent calling, Prime Agent, persistent subagents, and why the “language model” of the future may actually be an invisible swarm of agents underneath a simple interface. We also discuss OpenAI’s massive agent experiments, Kimi swarms, open-ended research at Sakana AI, speculative programmatic tool calling, capability overhang, Neuralese, and where Alex thinks the next big research opportunities may lie.We discuss:Why AI-generated GPU kernels still leave substantial room for human expertiseHow one expert insight can potentially replace enormous amounts of brute-force token searchWhy PhD students should take research bets that initially look trivial, weird, or pointlessWhat SWE-bench, RLMs, ReAct, and Quiet-STaR reveal about research tasteGEV and why a language model does not have to mean an autoregressive text-to-text decoderWhy Claude Code, Codex, and Pi are structurally more similar than they lookHow harness design can improve compositional generalization across tasks and domainsRLMs: context offloading, code execution, recursive subagents, and shared memoryPrime Agent, continual harnesses, and persistent agent-to-agent communicationWhy the model you query in the future may secretly be an entire swarm or scaffoldOpenAI’s 10,000-agent experiment, 130B output tokens, and ~$40M-equivalent problem solvingWhy much of an agent swarm may be wasted search — and why convergence is still hardKimi versus OpenAI and different approaches to multi-agent systemsOpen-endedness, Sakana AI, and finding hidden gems in enormous amounts of generated workWhy current frontier models may already have a large capability overhangSpeculative programmatic tool calling and overlapping tool execution with generationWhether English, code, or an entirely new “Neuralese” constrains how models reasonAI for science, fast-moving benchmarks, and how Alex chooses what research problems to bet onAlex ZhangWebsite: alexzhang13.github.ioX: @a1zhangTimestamps00:00:00 Introduction00:00:49 GPU Mode, KernelBench, and AI-Written Kernels00:07:38 Human Expertise vs. Brute-Force AI Search00:13:20 Research Taste and Taking Big Bets00:19:28 GEV and Rethinking the Language Model00:29:03 Video Game Agents and the Harness Problem00:31:01 Why Claude Code, Codex, and Pi Are So Similar00:36:42 Harnesses as Compositional Generalizers00:44:24 RLMs Explained00:52:01 Prime Agent and Persistent Subagents00:57:41 RLMs in the Wild01:00:30 OpenAI Swarms and the Future of Language Models01:07:26 Open-Endedness and Sakana AI01:15:52 Kimi vs. OpenAI Agent Swarms01:20:06 Capability Overhang and Speculative Tool Calling01:28:19 Neuralese, Future Research, and AI for ScienceTranscriptIntroduction: Alex Zhang, RLMs, and GPU ModeSwyx [00:00:00]: All right, we’re here in the studio with Alex Zhang, I guess most famously of, RLMs, but you have a few other affiliations. Welcome to the show.Alex Zhang [00:00:12]: Yeah. Thank you for having me.Swyx [00:00:13]: Yeah. I guess GPU Mode as well?Alex Zhang [00:00:15]: Yes, GPU Mode as well.Swyx [00:00:16]: You were shepherded in by Mark Saroufim. Not everyone gets that kind of welcome.Alex Zhang [00:00:19]: Yep. Yeah. Yeah. I’m very close to all the people in GPU Mode, so yeahSwyx [00:00:23]: YeahAlex Zhang [00:00:23]: We often end up working together in various capacities, like even beyond just GPU Mode itself, so.Swyx [00:00:29]: Yeah. Can we explain, so people who are not that close Don’t know about this. It’s just a-- it’s a Discord. It used to be focused on, I guess, CUDA Mode, and then generalized a little bit. it was started by Mark.Alex Zhang [00:00:41]: Yep.Swyx [00:00:42]: It wa",
+      "dedupe_key": "podcast:9d29bbb50e9c9446396ba12fb465c8f04fcb9ed0",
+      "first_seen_at": "2026-10-02T00:50:55.492577+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "Recursive Language Models — Alex Zhang, MIT PhD",
+      "url": "https://www.youtube.com/watch?v=kog7mwsDqnk",
+      "summary": "From GPU kernels and KernelBench to Recursive Language Models, agent harnesses, and massive multi-agent swarms, Alex Zhang is exploring how much capability we’re leaving on the table by wrapping increasingly powerful models in primitive systems. In this episode, the MIT researche",
+      "published_at": "2026-10-02T00:15:36+00:00",
+      "first_seen_at": "2026-10-02T00:50:55.492577+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+      "summary": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast ",
+      "published_at": "2026-10-01T23:44:13+00:00",
+      "first_seen_at": "2026-10-02T00:50:55.492577+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "How Conquistadors Conquered the Aztecs - Si Sheppard",
+      "url": "https://www.youtube.com/shorts/KWluK74cNzs",
+      "summary": "",
+      "published_at": "2026-10-01T22:22:58+00:00",
+      "first_seen_at": "2026-10-02T00:50:55.492577+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Top 10 robotics stories of September 2026",
+      "url": "https://www.therobotreport.com/top-10-robotics-stories-of-september-2026/",
+      "summary": "September 2026 was a packed month for the robotics industry. Live events, including IMTS, ROSCon, and iROS, brought a flood of developments around automation and AI. This month, our top 10 is filled with new products, company launches, and major changes for some robotics companie",
+      "published_at": "2026-10-01T20:42:08+00:00",
+      "first_seen_at": "2026-10-02T00:50:55.492577+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Boston Dynamics drops pinkie on new humanoid hand",
+      "url": "https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/",
+      "summary": "Boston Dynamics said it didn’t set out to build a complicated hand, but instead a reliable one capable of using tools. | Source: Boston Dynamics Boston Dynamics today unveiled the newest hand for its Atlas humanoid. The hand has four fingers, 13 degrees of freedom (DOF), is direc",
+      "published_at": "2026-10-01T17:52:51+00:00",
+      "first_seen_at": "2026-10-02T00:50:55.492577+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "The eternal complement",
+      "url": "https://openai.com/index/the-eternal-complement",
+      "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+      "published_at": "2026-10-01T17:00:00+00:00",
+      "first_seen_at": "2026-10-02T00:50:55.492577+00:00"
     },
     {
       "source": "a16z AI YouTube",
@@ -160,7 +226,7 @@
     {
       "source": "IEEE Spectrum Robotics",
       "source_type": "rss",
-      "title": "Atlas Robot’s New Hand May Outperform Human-Like Designs",
+      "title": "Atlas Robot’s New Hand May Outperform Humanlike Designs",
       "url": "https://spectrum.ieee.org/robust-robot-hand",
       "summary": "Today, Boston Dynamics is announcing a redesigned hand for its Atlas robot. The previous generation could do some crazy superhuman things with its three fingers, but it was never intended for mass production in the tens or hundreds of thousands. Switching from research hardware t",
       "published_at": "2026-10-01T14:40:12+00:00",
@@ -256,6 +322,15 @@
       "published_at": "2026-10-01T06:45:05+00:00",
       "details": "GDM last shipped a larger-than-Flash model in February (3.1 Pro), and after successive incremental 3.x Flash versions and the big GDM management shakeup last month, the largest question for GDM was when they would catch up to peers who have in the meantime launched Fable and Astra class models. Well, Argon’s here, with VERY respectable benchmarks (SOTA in 13 of 19 credible benchmarks)… but only accessible in limited cybersecurity preview, though access is promised “as soon as possible”:We like the experimental Long Decode Continuation, which increases output tokens up to 1M as an industry first.AI News for 9/29/2026-9/30/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapGemini 4 Argon: Google Returns to the FrontierLaunch: Google DeepMind introduced Gemini 4 Argon for coding, enterprise knowledge work and cyber defense (@GoogleDeepMind, @sundarpichai).Availability: Access starts with government users and trusted cyber defenders in the Fairwind Program. Google says it will refine guardrails before opening access to developers, enterprises and consumers (@Google, @demishassabis).Output limit: Google cites an industry-leading 1M-token output limit, up from 64K (@GoogleAI, @TheRundownAI).Measurement note: Vals lists 262K max output. Artificial Analysis reached 1M output tokens through Long Decode Continuation, a new API feature that pauses long responses and resumes them across calls (@ValsAI, @ArtificialAnlys).Pricing: Standard pricing is $4/$20 per 1M input/output tokens. A 50% introductory discount brings it to $2/$10, with no end date announced. Cached input gets a 95% discount (@_philschmid, @ArtificialAnlys).Google’s claimed results: Argon takes first place on 13 of 19 published benchmarks against GPT-6 Astra and Claude Opus 5.5. On DeepSWE it scores 77.9%, versus 74.2% for Opus 5.5 and 74.1% for Astra (@TheRundownAI).Internal deployments: Google reports that Argon agents freed more than 300 TiB of data-center memory and are migrating more than 800K lines of C/C++ kernel code to Rust (@kimmonismus).Video decoder: Agents replaced 32K lines of SIMD code with safe Rust, making the existing Rust port 2.7x faster with identical output.Research use: The team says internal agent loops built on Argon helped complete the CK conjecture (@mirrokni).Artificial Analysis evaluation: Argon scores 53 on the Intelligence Index, matching GPT-6 Astra (53) and edging GPT-6.1 Sol (52) (@ArtificialAnlys).Cost per task: At discounted pricing it costs $1.99 per task versus $3.26 for Astra; standard pricing would raise this to $3.98.Token use: The savings come from price, not efficiency. Argon averages 62K output tokens per task against Astra’s 27K.Agentic work: It ranks #1 on AutomationBench-AA at 77.5% and scores 57% on Terminal Bench 4, behind Sonnet 5.5, Opus 5.5 and Astra.Hallucination: Its 15% rate on AA-Omniscience compares with 51% for Astra. The tradeoff is lower accuracy: 50% versus Astra’s 63% (@aipulseda1ly).Vals evaluation: Argon is #1 on the Vals Index at 68.9%, at an average $15.68 per task (@ValsAI, @ValsAI).Coding: It built 30 Vibe Code Bench apps perfectly, against 25 for Opus 5 and 24 for Astra (@ValsAI).Terminal and security: Terminal-Bench 4.0 rose from 19.0% to 57.6%. It scores 70% on CyberBench proof-of-concept tasks and 100% on IOI 2024–2026 (@ValsAI).Efficiency: It uses about a quarter of Sonnet 5.5’s output tokens on Vals Index tasks (@ValsAI).Arena and other evals: Argon is #1 in Text Arena at 1525 and #8 in Code Arena WebDev at 1679 (@arena).Agent Arena: It ranks #8 overall and #1 for steerability on a preliminary 3K sessions (@arena).PostTrainBench: It scores 45.3%, up from 21.99% for Gemini 3.1 Pro (@karinanguyen).Skepticism: Some observers questioned the published numbers.Legal benchmark: Argon’s reported 19.6% on Harvey’s legal benchmark trails Muse Spark 1.2’s listed 25.42% (@BlackHC).Other critiques: Commentators raised possible preference-data benchmaxxing and objected to some figures, including DeepSWE (@teortaxesTex, @teortaxesTex).GPT-6.1 Sol and OpenAI’s DevDay Agent StackIndependent evals: GPT-6.1 Sol is the new #1 on MathArena (@j_dekoninck).Code Arena: It ranks #3 on WebDev at 1759, 70 points above GPT-6 Sol for the same $2/$10 pricing (@arena).Cost per task: Artificial Analysis measures $0.72 per task at max effort, versus $3.26 for Astra and $1.04 for GPT-6 Sol (@ArtificialAnlys).Source of savings: Sol uses fewer turns and has a lower cache-read price (@ArtificialAnlys).Luna bug fix: OpenAI fixed an image-encoding bug, adding 1 Intelligence Index point to GPT-6 Luna.Ultrafast inference: OpenAI quotes up to 300 tok/s. SemiAnalysis reports it runs on NVIDIA GPUs at low batch sizes, not on Cerebras (@kimmonismus).Hands-on report: Generation is about 8x faster, but end-to-end agent tasks speed up only 2–4x becaus",
       "first_seen_at": "2026-10-01T17:15:10.557916+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+      "url": "https://openai.com/index/the-den-family-social",
+      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+      "published_at": "2026-10-01T00:00:00+00:00",
+      "first_seen_at": "2026-10-02T00:50:55.492577+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -663,6 +738,15 @@
       "first_seen_at": "2026-09-29T01:01:32.228012+00:00"
     },
     {
+      "source": "Manus Blog",
+      "source_type": "rss",
+      "title": "Introducing Manus Flex: Use your own API key in the Manus workspace",
+      "url": "https://manus.im/blog/introducing-manus-flex",
+      "summary": "Manus is launching Manus Flex, a new module that lets users power Manus with their own API key from a supported inference provider.",
+      "published_at": "2026-09-29T00:00:00+00:00",
+      "first_seen_at": "2026-10-02T00:50:55.492577+00:00"
+    },
+    {
       "source": "OpenAI News",
       "source_type": "rss",
       "title": "Introducing dots",
@@ -807,15 +891,6 @@
       "first_seen_at": "2026-09-28T18:24:09.587889+00:00"
     },
     {
-      "source": "Manus Blog",
-      "source_type": "rss",
-      "title": "Introducing Manus 2.0",
-      "url": "https://manus.im/blog/introducing-manus-2-0",
-      "summary": "Manus 2.0 is here, with the new Cascade agent harness, Cloud Computer and Automations, Manus Studio for professional creation, and Cue, a new app for personal agents.",
-      "published_at": "2026-09-28T00:00:00+00:00",
-      "first_seen_at": "2026-09-28T18:24:09.587889+00:00"
-    },
-    {
       "source": "AgiBot News",
       "source_type": "rss",
       "title": "AGIBOT and ASD Deploy 100 AGIBOT X2 Humanoid Robots Across 100 Retail Stores-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
@@ -823,6 +898,15 @@
       "summary": "",
       "published_at": "2026-09-28T00:00:00+00:00",
       "first_seen_at": "2026-09-30T16:38:21.773089+00:00"
+    },
+    {
+      "source": "Manus Blog",
+      "source_type": "rss",
+      "title": "Introducing Manus 2.0",
+      "url": "https://manus.im/blog/introducing-manus-2-0",
+      "summary": "Manus 2.0 is here, with the new Cascade agent harness, Cloud Computer and Automations, Manus Studio for professional creation, and Cue, a new app for personal agents.",
+      "published_at": "2026-09-28T00:00:00+00:00",
+      "first_seen_at": "2026-09-28T18:24:09.587889+00:00"
     },
     {
       "source": "OpenAI News",
@@ -6292,90 +6376,6 @@
       "summary": "The Robot Report Podcast · How software-defined manufacturing fits into real factory operation Roby Lynn, founder and CEO, R2 Labs. In Episode 258 of The Robot Report Podcast, we discuss software-defined manufacturing, in which automation enables more flexible production. Our gue",
       "published_at": "2026-08-22T00:48:35+00:00",
       "first_seen_at": "2026-08-22T11:17:11.943451+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
-      "url": "https://www.latent.space/podcast",
-      "summary": "When we first dicsussed the Summer of Simulative AI in 2024 we knew it would be a brief summer, but it has recently come back with a vengeance with SimGym in April and now Simile AI’s $2B Series B, backed by GreenOaks and Index Ventures with prominent backers like Fei-Fei Li and ",
-      "published_at": "2026-08-21T23:37:38+00:00",
-      "audio_url": "https://api.substack.com/feed/podcast/212197985/bfb37479177211a59519fff64084acf8.mp3",
-      "details": "When we first dicsussed the Summer of Simulative AI in 2024 we knew it would be a brief summer, but it has recently come back with a vengeance with SimGym in April and now Simile AI’s $2B Series B, backed by GreenOaks and Index Ventures with prominent backers like Fei-Fei Li and Andrej Karpathy, running tens of millions of simulations for Fortune 100 clients like CVS and 85–99% accuracy vs human focus groups. Time to catch up on why this Second Summer of simulation is working!From creating Smallville, the landmark 2023 paper on Generative Agents that showed AI characters could remember, plan, socialize, and develop emergent behaviors, to now building foundation models of human behavior, Joon Sung Park is trying to answer a much bigger question: what if we could simulate the world before making decisions in it? In this episode, the Simile co-founder and CEO joins us to unpack the path from generative agents to digital twins, why today’s frontier models still fail to capture how humans actually behave, and what it would take to eventually simulate all 8 billion people on Earth.We go deep on Simile’s approach to modeling human behavior: long-form interviews, observational and transaction data, randomized controlled trials, population-level and individual-level models, and post-training on the causal mechanisms behind why people make decisions. Joon explains how his research created digital twins that reproduced human behavior and attitudes 85% as accurately as people reproduced their own responses, why models optimized to be rational can be bad simulations of irrational humans, and why understanding “social physics” may require changing model weights rather than simply prompting frontier LLMs.We also explore the much larger ambition behind simulation: testing products and policies before deploying them, finding counterintuitive paths toward desired outcomes, modeling emergent behavior across entire societies, and potentially tackling problems like climate change, democratic instability, and UBI. Joon reflects on scaling laws for simulation, the economics of data-center-scale simulated worlds, the connection to Thomas Schelling and psychohistory, why simulation is surprisingly similar to painting, and whether we might already be living in one.We discuss:How Smallville and Generative Agents led to SimileWhy Joon’s team asked: “What if we can just recreate the world that we live in?”Why useful personal agents require deep models of their usersMemory architectures, Markdown files, and the limits of prompting“Social physics” and behavioral foundation modelsWhy web data captures what people say more than what they actually doInterviews, transactions, observational data, and randomized controlled trialsWhy predicting the future matters less than understanding how to shape itHow Simile creates representative simulated populationsSimulation versus prediction and the connection to Foundation’s psychohistoryHow to evaluate simulations instead of simply stacking LLM hallucinationsCreating digital twins of 1,000 real people and reaching 85% behavioral accuracyWhy frontier models can struggle to reproduce real human behaviorWhy good simulations need to reproduce human biases and mistakesPost-training models on randomized controlled trialsPopulation-level versus individual-level simulationScaling laws for human simulationThe long-term ambition to simulate all 8 billion people on EarthWhether simulations could help solve climate change or detect collapsing democracyThomas Schelling and the history of agent-based modelingWhy future simulations could require an entire data centerMulti-agent simulations and what happens when simulated people interactReplacing expensive human panels with synthetic populationsWhy market research is only the starting point for simulationWhy Joon sees simulation as surprisingly similar to paintingUsing simulation to study questions like UBIWhether we are already living in a simulationWhy AGI and simulation may be the twin technologies of advanced civilizationsJoon Sung ParkLinkedIn: https://www.linkedin.com/in/joonsparkX: https://x.com/joon_s_pkWebsite: https://www.joonsungpark.comSimile: https://www.simile.comTimestamps00:00:00 Introduction and Joon’s Path from Art to AI00:01:46 Smallville, Generative Agents, and the Origins of Simulation00:05:03 “Let’s Just Create a World” and the Future of Personal Agents00:09:53 Social Physics and Behavioral Foundation Models00:14:08 Prediction vs. Simulation: How Do You Shape the Future?00:16:59 How Simile Models Real People and Populations00:25:35 Evaluating Simulations, Digital Twins, and 85% Accuracy00:30:23 Post-Training Models to Reproduce Human Behavior00:40:04 Scaling Laws and Simulating 8 Billion People00:43:10 From Schelling to Society-Scale Agent Simulations00:46:13 The Cost and Economics of Simulating the World00:52:05 Real-World Use Cases, Synthetic Populations, and the Market00:57:27 The Future of Simulation, Painting, and UBI01:04:23 Are We Alread",
-      "dedupe_key": "podcast:83b0f5aba889c01a82f03201e70143059edcffa9",
-      "first_seen_at": "2026-08-22T11:17:11.943451+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "Chess.com CEO: How to Get Better at Chess",
-      "url": "https://www.youtube.com/shorts/QqGCSNay2oU",
-      "summary": "Do 5 chess puzzles a day. Multiply that by 1,000. You've done 5,000 puzzles, and you're a different player. It's not the one day. It's the habit compounding over time. Chess.com CEO Erik Allebest on why this applies to AI too, it's like having access to a professor's office, exce",
-      "published_at": "2026-08-21T23:15:51+00:00",
-      "first_seen_at": "2026-08-22T11:17:11.943451+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Claude Saying “No” Could Become a Serious AI Safety Problem - Ryan Greenblatt",
-      "url": "https://www.youtube.com/shorts/URHm5xCSkuY",
-      "summary": "",
-      "published_at": "2026-08-21T21:21:04+00:00",
-      "first_seen_at": "2026-08-21T21:42:31.901902+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Amazon’s Bhavana Chandrashekhar to speak at RoboBusiness’ Women in Robotics Lunch",
-      "url": "https://www.therobotreport.com/amazons-bhavana-chandrashekhar-speaks-robobusiness-women-in-robotics-lunch/",
-      "summary": "From left to right: Bhavana Chandrashekhar and Joyce Sidopoulos. Currently, women make up just 35% of the global STEM workforce and 22% of the global AI workforce. This means many women in the robotics industry struggle to find community with other women. At RoboBusiness 2026, wh",
-      "published_at": "2026-08-21T19:57:24+00:00",
-      "first_seen_at": "2026-08-21T21:42:31.901902+00:00"
-    },
-    {
-      "source": "Latent Space YouTube",
-      "source_type": "youtube",
-      "title": "Simulating Humanity: from Generative Agents to 8 Billion Digital Twins — Joon Sung Park, Simile AI",
-      "url": "https://www.youtube.com/watch?v=KpOW9Pk4BUs",
-      "summary": "Next episode → Language Agents: From Reasoning to Acting, with Shunyu Yao and Harrison Chase: https://youtu.be/8t65bss7U74 From creating Smallville, the landmark Generative Agents experiment that showed AI characters could remember, plan, socialize, and develop emergent behaviors",
-      "published_at": "2026-08-21T19:50:24+00:00",
-      "first_seen_at": "2026-08-21T21:42:31.901902+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027",
-      "url": "https://www.therobotreport.com/schaeffler-plans-to-mass-manufacture-gearboxes-for-humanoids-in-2027/",
-      "summary": "Schaeffler developer its formed strain wave gearboxes especially for humanoid robots. | Source: Schaeffler Schaeffler Technologies AG is expanding its humanoid robotics product portfolio with its latest formed strain wave gearboxes. The company said it has concluded the extensive",
-      "published_at": "2026-08-21T19:27:22+00:00",
-      "first_seen_at": "2026-08-21T21:42:31.901902+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
-      "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
-      "summary": "Generative AI",
-      "published_at": "2026-08-21T17:02:24+00:00",
-      "first_seen_at": "2026-08-21T21:42:31.901902+00:00"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "Video Friday: Do We Need Superhuman Humanoid Robots?",
-      "url": "https://spectrum.ieee.org/video-friday-unitree-superhuman",
-      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.Humanoids Summit Seoul: 22–23 Septem",
-      "published_at": "2026-08-21T16:00:01+00:00",
-      "first_seen_at": "2026-08-24T21:46:32.794806+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "source_type": "rss",
-      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
-      "published_at": "2026-08-21T11:59:48+00:00",
-      "first_seen_at": "2026-08-21T21:42:31.901902+00:00"
     },
     {
       "source": "Cursor Blog",
