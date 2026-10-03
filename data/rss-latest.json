@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-03T00:32:18.430395+00:00",
+  "updated_at": "2026-10-03T15:02:07.117076+00:00",
   "count": 700,
-  "new_count": 510,
+  "new_count": 506,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -72,6 +72,43 @@
       "summary": "",
       "published_at": "2026-10-06T00:00:00+00:00",
       "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
+    },
+    {
+      "source": "a16z AI YouTube",
+      "source_type": "youtube",
+      "title": "Why Specialized AI Could Beat The God Model",
+      "url": "https://www.youtube.com/watch?v=ekK8urKHPMQ",
+      "summary": "A16z’s Erik Torenberg sits down with OpenRouter’s Alex Atallah and Replit founder and CEO Amjad Masad to discuss why the future of AI may look less like one all-purpose model and more like an ecosystem of specialized models working together. Alex explains why OpenRouter is bettin",
+      "published_at": "2026-10-03T14:30:34+00:00",
+      "first_seen_at": "2026-10-03T15:02:07.117076+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "The physical AI race will be won in the patent office",
+      "url": "https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/",
+      "summary": "Lightbringer’s co-founders and board members, from left: CTO Markus Andreasson, CEO Dominic Davies, and CCO Ola Wassvik. Source: Lightbringer Developments in AI, machine learning, and automation have given robots capabilities that would have seemed extraordinary a decade ago. As ",
+      "published_at": "2026-10-03T14:30:07+00:00",
+      "first_seen_at": "2026-10-03T15:02:07.117076+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+      "summary": "If you’re even seeing this, you should probably just go enjoy your weekend.AI News for 10/1/2026-10/2/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You",
+      "published_at": "2026-10-03T08:45:15+00:00",
+      "details": "If you’re even seeing this, you should probably just go enjoy your weekend.AI News for 10/1/2026-10/2/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapGPT-6.1 Sol and Sonnet 5.5 Reshape the Cost–Performance FrontierGPT-6.1 Sol launch: OpenAI priced Sol at $2/$10 per million input/output tokens, compared with $10/$50 for Astra (pricing summary).Claimed results: It reportedly beats GPT-6 Sol by 6.4 points on DeepSWE v1.1 and Opus 5.5 by 2.2 points on AutomationBench (summary).Positioning: OpenAI staff describe it as “good, cheap AND fast” (@reach_vb).Codex usage: A global Codex usage reset was set for Oct 2 at 10AM PT (@reach_vb).Tool use: Sol reportedly “REALLY loves codemode,” consistent with GPT models being trained on it (@badlogicgames, codemode note).Agent Arena placements: Sol [Max] entered at #5 (+11.23%) with a $0.56 median cost per task (@arena).Sol cost comparison: That is 39% cheaper than GPT-6 Sol while scoring 1.52 points higher. It is 81% cheaper than Astra while landing within 1.04 points.Sonnet 5.5: Sonnet 5.5 [Max] debuted at #3 (+12.5%) and ranked #1 in the Chat category. It costs $2.74 per task, versus $1.58 for #2 Opus 5.5, which keeps it off the Pareto frontier (debut, frontier).Anthropic’s position: Anthropic models now hold the top three Agent Arena spots.Code and Text Arena: Sol briefly entered WebDev at #3 before Sonnet 5.5 pushed it to #4 (weekly recap).Sonnet on WebDev: Sonnet now sits 2 points behind GPT-6 Astra [Max] at 80% lower cost.Gemini 4 Argon: Argon [High] took #1 in Text Arena.Open models: MiMo-V2.6-Pro and Flash entered Agent Arena at #5 and #9 among open models.Other independent evals: WeirdML v3 finds Sol very token-efficient, close to Astra but with a lower peak. On the same benchmark, Sonnet 5.5 beats Opus 5 and Grok 4.7 beats Kimi-K3; these results are incomplete (@htihle).Reasoning style: Design Arena read 324 thinking summaries. It found that Astra hedges about 20× as often as Opus 5.5, while Opus commits early in about 4 of 5 summaries (@DesignArena).Step 5 Preview: StepFun’s model ranks #7 among open-weight models on Vals at $2.54 per task. It averages nearly two hours per task and has a 1M-token context window (Vals, details).Rumors (unconfirmed):Fable 5.5: Claude Fable 5.5 is rumored for next week and said to outperform an “Astra 6.1” that was reportedly delayed over security concerns. The poster says he cannot verify either claim (@kimmonismus, follow-up).GPT-6 Astra Lite: A “GPT-6 Astra Lite” listing has been spotted, which @scaling01 speculates is the same model as Sol (@scaling01).Decision models and open weights: llama.cpp added a /v1/systemone endpoint for local “Jev-style” decision-model inference (@ggerganov).Running locally: Models are launched with llama serve -hf ggml-org/Kev-4B-GGUF (@ClementDelangue). Jared Palmer published a post on how Kev 1.0 works (post).Ecosystem: Perplexity claims pplx-decider-v1-27b averages 85.7% across 11 benchmarks, ahead of Jev (@AravSrinivas). Clef decision models are now on Ollama (@lucataco).Skeptical view: @mervenoyann calls decision models a rebrand of zero-shot classifiers (tweet).Calibration analysis: A blog post links Jev-style calibration to value and Q-function prediction (@SOURADIPCHAKR18).webAI TwIL-LM3-Pro: This 3.66B model is post-trained from Granite 4.2. In webAI’s tests it roughly matches Qwen3-8B on formal logic. The Q4 GGUF is 2.09 GiB and the license is non-commercial (@kimmonismus).Reka RIDM: Reka released an inverse dynamics model under Apache 2.0. It is trained on games, generalizes to real video and extracts motor and camera actions (@RekaAILabs).Agent Harnesses, Assistants and Developer ToolingOpenAI dots: Sam Altman calls dot his favorite OpenAI product, saying it improves daily as it learns his workflow (@sama).Capabilities: Dot keeps context across apps, coordinates Codex tasks and flags items that need attention (@OpenAIDevs).Comparisons: One user prefers Grokbot’s multi-agent “chief of staff” setup (@kimmonismus). A DIY clone uses Pi, a Telegram gateway and any model (@_alejandroao).Muse Gadgets: Meta open-sourced ESP32 firmware and a Linux SDK for building hardware that works with Muse (@natfriedman).Muse Home Link: Meta made 5,000 units of its own smart-home bridge, free for subscribers while supplies last (@alexandr_wang, shipping).Extensible harnesses: DeepSeek Harness shipped desktop builds for macOS and Windows; Linux users install @deepseek-ai/dsh from npm (@deepseek_ai).Claude Code mods: Mods are plugins with middleware-like hooks into Claude Code (@lydiahallie). The new “You should know” plugin spins off a side agent that flags important output the user might miss (@ClaudeDevs).Pi Durable: Pi now runs on Cloudflare Durable Objects via agents SDK v0.26.0, alongside Pi’s v1.0 release (@mattzcarey, @badlog",
+      "first_seen_at": "2026-10-03T15:02:07.117076+00:00"
+    },
+    {
+      "source": "AgiBot YouTube",
+      "source_type": "youtube",
+      "title": "AGIBOT A3 Ultra is taking on guest-facing service at Shangri-La Shanghai Pudong.",
+      "url": "https://www.youtube.com/watch?v=58PMV_9Ik8k",
+      "summary": "Working in the hotel lobby, A3 Ultra welcomes guests, provides information and handles routine guest service tasks. By taking on everyday guest-facing tasks, A3 Ultra supports hotel staff while becoming part of the daily hospitality experience. #AGIBOT #EmbodiedAI",
+      "published_at": "2026-10-03T02:01:03+00:00",
+      "first_seen_at": "2026-10-03T15:02:07.117076+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -6344,42 +6381,6 @@
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
       "summary": "",
       "published_at": "2026-08-25T11:39:24+00:00",
-      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "AI Companion Robots Are Closing the Human Connection in Modern Homes",
-      "url": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
-      "summary": "This article is brought to you by Ollobot.From about 2017, individuals began to truly connect with the initial wave of companion robots. These devices had personality, moved around, joked, and answered when you spoke to them. Most early companion robots, however, were still limit",
-      "published_at": "2026-08-25T10:00:03+00:00",
-      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "AGIBOT x Chimelong Group: Build the World’s First Embodied‑AI Theme Park",
-      "url": "https://www.youtube.com/watch?v=8_WABDATeDg",
-      "summary": "AGIBOT and Chimelong Group have entered into a strategic partnership to create the world’s first embodied intelligence theme park, bringing robots into new real-world applications across entertainment, hospitality, and immersive experiences. This partnership marks another step in",
-      "published_at": "2026-08-25T07:05:05+00:00",
-      "first_seen_at": "2026-08-25T11:23:14.282414+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "The full stack behind abundant intelligence",
-      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-      "published_at": "2026-08-25T07:05:00+00:00",
-      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "url": "https://openai.com/index/jalapeno-first-results",
-      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "published_at": "2026-08-25T07:00:00+00:00",
       "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
     },
     {
