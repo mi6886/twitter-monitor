@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-04T23:58:26.688410+00:00",
+  "updated_at": "2026-10-05T19:34:36.580157+00:00",
   "count": 700,
-  "new_count": 504,
+  "new_count": 511,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -72,6 +72,69 @@
       "summary": "",
       "published_at": "2026-10-06T00:00:00+00:00",
       "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "FCC robot restrictions could accelerate shift to local AI",
+      "url": "https://www.therobotreport.com/fcc-robot-restrictions-could-accelerate-shift-to-local-ai/",
+      "summary": "A Unitree humanoid robot at the China Humanoid Robot Conference in Seoul in March. Robots are back in the national spotlight, and this time, the conversation is about more than what they can do. It’s about who controls them and what data they collect. The restrictions on foreign-",
+      "published_at": "2026-10-05T17:30:12+00:00",
+      "first_seen_at": "2026-10-05T19:34:36.580157+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "ReviewBench: An open benchmark for AI code review",
+      "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+      "summary": "Agentic code review is becoming an essential piece of how development happens. It helps you inspect pull requests, catch issues, and decide what deserves attention before code ships. But the quality of existing AI reviewers can be hard to measure, and you need to know the strengt",
+      "published_at": "2026-10-05T15:59:40+00:00",
+      "first_seen_at": "2026-10-05T19:34:36.580157+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Our approach to EU text provenance rules",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "published_at": "2026-10-05T15:00:00+00:00",
+      "first_seen_at": "2026-10-05T19:34:36.580157+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps",
+      "url": "https://blogs.nvidia.com/blog/ai-breast-cancer-startups/",
+      "summary": "Breast cancer is the most commonly diagnosed cancer among American women — yet the gaps in care are wide. A majority of women over age 40 skip the recommended annual screening. Radiologists are reading more mammograms with fewer colleagues. And when a diagnosis arrives, the tests",
+      "published_at": "2026-10-05T13:00:57+00:00",
+      "first_seen_at": "2026-10-05T19:34:36.580157+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "How AI Models Learn",
+      "url": "https://www.youtube.com/shorts/lnd920WC8Yk",
+      "summary": "What does it mean to \"train\" an AI model? Inception Labs CEO Stefano Ermon explains, it's compression. The model finds the most efficient way to compress the data, and that's how it learns structure.",
+      "published_at": "2026-10-05T12:23:53+00:00",
+      "first_seen_at": "2026-10-05T19:34:36.580157+00:00"
+    },
+    {
+      "source": "a16z AI YouTube",
+      "source_type": "youtube",
+      "title": "The Current State of Consumer AI",
+      "url": "https://www.youtube.com/watch?v=aCvrzhwUxg0",
+      "summary": "a16z Editorial Partner Elena Burger sits down with investing partners Olivia Moore and Josh Elman to unpack the seventh edition of a16z’s Top 100 Consumer AI Apps, including a new dimension this time: what consumers are actually paying for. The data reveals a striking power-user ",
+      "published_at": "2026-10-05T10:55:10+00:00",
+      "first_seen_at": "2026-10-05T19:34:36.580157+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Building advertising for the way people use AI",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "published_at": "2026-10-05T10:00:00+00:00",
+      "first_seen_at": "2026-10-05T19:34:36.580157+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -1276,6 +1339,15 @@
       "summary": "Manus 2.0 is here, with the new Cascade agent harness, Cloud Computer and Automations, Manus Studio for professional creation, and Cue, a new app for personal agents.",
       "published_at": "2026-09-28T00:00:00+00:00",
       "first_seen_at": "2026-09-29T01:01:32.228012+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Welcome RL Environments to the hub",
+      "url": "https://huggingface.co/blog/rl-environments",
+      "summary": "",
+      "published_at": "2026-09-28T00:00:00+00:00",
+      "first_seen_at": "2026-10-05T19:34:36.580157+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -6306,81 +6378,6 @@
       "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
       "summary": "A language model can perform well on a clean benchmark and still struggle with the cases that matter in production. Benchmarks and curated datasets are useful when prototyping an LLM-based system. They help teams compare models, test an initial prompt, and determine whether an id",
       "published_at": "2026-08-25T21:35:11+00:00",
-      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Why AI labs are shelving their best models - Dylan Patel",
-      "url": "https://www.youtube.com/shorts/LooFKIOAVqY",
-      "summary": "",
-      "published_at": "2026-08-25T21:24:15+00:00",
-      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
-      "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
-      "summary": "Human-Computer Interaction and Visualization",
-      "published_at": "2026-08-25T19:10:59+00:00",
-      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
-    },
-    {
-      "source": "Latent Space YouTube",
-      "source_type": "youtube",
-      "title": "⏭️ Forward Deployed: Voice AI on what works in 2026",
-      "url": "https://www.youtube.com/watch?v=MwNvowwcZOo",
-      "summary": "Voice agents are one of the hottest use cases in enterprise right now, but also one of the hardest to actually take live. Getting latency low enough to feel human without dumbing down the responses, making reliable tool calls to a CRM without dropping the customer mid-call, build",
-      "published_at": "2026-08-25T18:45:32+00:00",
-      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "Can We Build New Senses?",
-      "url": "https://www.youtube.com/shorts/DWOekbnWISA",
-      "summary": "Most BCI companies want to help you talk to AI faster. Max Hodak explains why Science Corporation is focused instead on restoring vision, hearing, and eventually achieving substrate independence.",
-      "published_at": "2026-08-25T16:17:37+00:00",
-      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "5 ways to upgrade your home decor with Google Search",
-      "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
-      "summary": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
-      "published_at": "2026-08-25T16:00:00+00:00",
-      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Dylan Patel – Two labs will soon control most of the world's workforce",
-      "url": "https://www.youtube.com/watch?v=aV26V1UvkJw",
-      "summary": "Had a lot of fun chatting again with my twin brother Dylan Patel. We went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world’s usable FLOPs within the next ",
-      "published_at": "2026-08-25T15:57:53+00:00",
-      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast",
-      "source_type": "rss",
-      "title": "Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028",
-      "url": "https://www.dwarkesh.com/podcast",
-      "summary": "Had a lot of fun chatting again with my twin brother Dylan Patel.We went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world’s usable FLOPs within the next f",
-      "published_at": "2026-08-25T15:32:57+00:00",
-      "audio_url": "https://api.substack.com/feed/podcast/212689635/b1d0ec442f2c0207d04925da65c321a2.mp3",
-      "details": "Had a lot of fun chatting again with my twin brother Dylan Patel.We went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world’s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).And then we discuss whether the >$10T of total AI capex we’ll see by the end of the decade will cause a sovereign debt crisis, where hyperscaler debt raises interest rates, drives non-AI exposed countries into bankruptcy, and crashes non-AI equities.One question we weren’t able to resolve is whether there’s anything that can counter all the forces barrelling towards centralization in this industry - the economies of scale in training, the scarcity of compute, and eventually continual learning and RSI.Watch on YouTube; listen on Apple Podcasts or Spotify.SponsorsGrok Bot has been quite helpful with my search for a new editor. I created a recruiter bot and described the type of editor I was looking for. That bot then spun up a handful of subagents that combed through my emails and X DMs, read the end credits of various documentaries I like, and figured out who edits for some of my favorite YouTubers. It took all of those results, and then delivered me a shortlist of candidates that matched my criteria. Try Grok Bot for yourself at x.ai/botAntithesis lets you add time travel to your software testing toolkit. Since the Antithesis platform is fully deterministic, everything that happens inside of it is perfectly reproducible. So if your software crashes, you can rewind to the exact right moment, freeze time, and investigate. Or you can test different hypotheses by perturbing the system: kill a node or disable a feature, see what happens, then reset the trajectory and try something else. Learn more at antithesis.com/dwarkeshJane Street is hiring for two separate ML internships right now, one focused primarily on research and one focused on engineering. In both cases, interns are expected to contribute to real work, not contrived exercises: one common project is adapting a frontier LLM paper to financial markets, which tend to come with a ton of different gnarly challenges. Importantly, you don’t need any finance background to apply. 2027 applications are open now at janestreet.com/dwarkeshTimestamps(00:00:00) – Two labs will soon control most of the world’s compute(00:07:01) – $6 billion in fab capex enables $1t+ of end revenue(00:13:08) – Compute prices will rise if the labs outbid everyone(00:18:22) – Which layer will capture most of the surplus?(00:25:40) – What could slow down progress?(00:29:43) – Labs are shifting compute from inference to R&D(00:33:27) – China gets less than 10% of new compute, but its labs need less(00:48:48) – Will AI cause a sovereign debt crisis?(01:07:52) – Will the world’s future workforce belong to a few companies?Transcript00:00:00 – Two labs will soon control most of the world’s computeDwarkesh PatelOkay, I’m back with Dylan Patel, founder of SemiAnalysis. Our version of a family Thanksgiving dinner is a regular yearly podcast. But we’re not actually related.Dylan PatelDon’t tell the people this.Dwarkesh PatelIt will destroy the myth. Basically where the world economy is headed is more and more becoming a function of where lab economics are headed, where the compute market is headed, et cetera. I want to understand where the crazy future ends up within a few years. But let’s start with where we are today. Walk me through lab compute and lab revenue right now, and maybe project out a year or two.Dylan PatelWhen we go back to last year, even at the end of the year, most of GDP growth in America was just AI infrastructure. As we look towards this year, about a third of the compute coming online is for the labs, for OpenAI and Anthropic. It may be built by others and then rented to them, but at the end customer, it’s them.As we go forward into the future, the numbers for compute are ballooning. We’re at a little bit over a trillion dollars of CapEx this year. As we go out into ’28, it’s going to be more than $2 trillion. The labs are also taking an increasing percentage of this. So ultimately, you’ve got a very interesting situation where the labs are going from companies that spend tens of billions of dollars a year to hundreds of billions of dollars a year, to forecasting to spend trillions of dollars a year even towards the end of the decade. This is at least some of the contracts they’ve begun signing with their partners.This requires a big reshaping of what happens with their economics. Up until now, they have been companies that mostly lost money. Anthropic started turning a profit in Q2. It’s believed at some point in Q3, OpenAI could start turning a profit even, with the bigger rise of Codex and 5.6 and all this. But if we go back a year ago, all the money they had was venture-funded losses. If we go back to even the beginning",
-      "dedupe_key": "podcast:ede3e87f14092e9f9c17f20711556423c212ad61",
-      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "Leading Publishers Bring Blockbuster PC Games and Technology to NVIDIA RTX Spark",
-      "url": "https://blogs.nvidia.com/blog/gamescom-rtx-spark-pc-games-technology/",
-      "summary": "NVIDIA is bringing the next wave of RTX gaming to the Gamescom conference running this week in Cologne, Germany, with support for new games, anti-cheat technologies and increased visual quality. Electronic Arts, Embark and Ubisoft are among the latest game publishers and develope",
-      "published_at": "2026-08-25T15:30:48+00:00",
       "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
     },
     {
