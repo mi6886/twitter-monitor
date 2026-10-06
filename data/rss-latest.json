@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-06T01:46:30.807569+00:00",
+  "updated_at": "2026-10-06T17:02:00.439453+00:00",
   "count": 700,
-  "new_count": 426,
+  "new_count": 517,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,6 +65,79 @@
   ],
   "items": [
     {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "FireDome builds autonomous ‘artillery’ for wildfire defense",
+      "url": "https://www.therobotreport.com/firedome-builds-autonomous-artillery-for-wildfire-defense/",
+      "summary": "The FireDome launcher is fully autonomous, designed to launch projectiles containing water or fire retardant up to 1,000 ft. from the launcher. | Credit: FireDome In wildfire country, minutes matter, but current fire technology still stops at detection. FireDome is trying to clos",
+      "published_at": "2026-10-06T16:00:31+00:00",
+      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "published_at": "2026-10-06T16:00:00+00:00",
+      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
+    },
+    {
+      "source": "Google Research Blog",
+      "source_type": "rss",
+      "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+      "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+      "summary": "Earth AI",
+      "published_at": "2026-10-06T15:05:11+00:00",
+      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Overview AI launches OV Spark line of AI inspection cameras",
+      "url": "https://www.therobotreport.com/overview-ai-launches-ov-spark-line-ai-inspection-cameras/",
+      "summary": "The OV Spark in production at MEC. | Source: Overview AI Overview AI today launched the OV Spark and OV Spark Pro. The new cameras make up a new line of AI inspection cameras with an agentic AI layer that answers questions in plain English. Spark ships with 10 inspection tools th",
+      "published_at": "2026-10-06T14:51:48+00:00",
+      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
+    },
+    {
+      "source": "a16z AI YouTube",
+      "source_type": "youtube",
+      "title": "Building Cyber Defense for the Agentic Era",
+      "url": "https://www.youtube.com/watch?v=cJsHel27Z6M",
+      "summary": "a16z General Partner David George sits down with Armadin founder and CEO Kevin Mandia to discuss what happens to cybersecurity when attackers can operate at machine speed. After 30 years in security and building Mandiant, Kevin says AI convinced him to get back on the field. He e",
+      "published_at": "2026-10-06T14:30:37+00:00",
+      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
+      "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
+      "summary": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s ",
+      "published_at": "2026-10-06T13:00:19+00:00",
+      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "summary": "",
+      "published_at": "2026-10-06T06:44:39+00:00",
+      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
+      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+      "summary": "It’s been over a year since Reflection launched with us with big goals on coding (and hinted about their RL approach):But they stayed “stealth” longer than Thinking Machines and it was not clear we would ever get a model launch out of them, as the broader open model ecosystem did",
+      "published_at": "2026-10-06T06:28:43+00:00",
+      "details": "It’s been over a year since Reflection launched with us with big goals on coding (and hinted about their RL approach):But they stayed “stealth” longer than Thinking Machines and it was not clear we would ever get a model launch out of them, as the broader open model ecosystem did not slow down one bigt for them. Well, we did:They compare themselves to Inkling, Nemotron, and GLM 5.2, but the SOTA GLM 5.3, Kimi K3, Qwen 3.8 Max, and DeepSeek V4.1 Flash are generally ahead. Still, since this is US-trained from scratch, there’s a segment of the market that has been eagerly waiting for more options here, and more importantly, Reflection has now announced its arrival as a functional neolab!AI News for 10/03/2026-10/5/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapReflection’s Beam Leads a Wave of Open-Weight ReleasesBeam launch: Reflection announced Beam, a text-only 501B-total / 23B-active MoE for coding, agentic and scientific work. It was trained from scratch, and full weights under Apache 2.0 are due this month (announcement, Laskin).Training scale: Team posts cite 23.8T pretraining tokens, partly from an OCR pipeline over hundreds of millions of PDFs (data lead). They also describe a stable RL/OPD run on 10K GB300s with more than 100M rollouts across ~1M tasks (Damos).Claimed results: A summary of Reflection’s claims gives 80.9 on SWE-bench Verified, 3–4x the inference efficiency of GLM 5.2, and four weeks each of pretraining and RL on ~10,500 GB300s (summary). A tech report and OSS integrations are promised (Polozov).Context: Axios reported the launch ahead of time. It said Reflection pays $150M/month for Colossus compute plus a $1B Nebius deal, and that other unnamed US labs will ship open models this month (Curran).Independent and critical reads: Artificial Analysis has early access and expects Beam to be among the most token-efficient open models for its intelligence (AA).MFU and architecture: Elie Bakouch estimates only ~12% BF16 MFU in pretraining. He reads the architecture as 3:1 interleaved global/sliding-window attention and notes better held-out code perplexity than DSv4 (analysis).Compute comparison: Teortaxes calls Beam an iso-FLOP replication of DeepSeek V3 (post). He infers ~1.3B RL sandboxes over 4 weeks, with up to 170K running at once (sandboxes).Positioning: Observers place Beam around GLM-5.2 level (iScienceLuvr) and below DSv4 Flash on some benchmarks (critique). Nathan Lambert groups it with Nvidia and Thinking Machines as strong US releases that still trail Chinese counterparts (Lambert).Other open and specialized models:Aleph Alpha Kolibri: 78B total / 3.46B active, Apache 2.0, built for German and English. Self-reported scores are 96.9% AIME 2025, 84.3% GPQA Diamond and 66.4% SWE-Bench Verified (summary). The dataset is unreleased, and agentic evals sit well below Qwen (Jitsev).Reka Rho-1: A 19B omni model that understands and generates text, images, video and robot actions, trained from scratch on 320 H100s in ~3 months (announcement, compute).Decision models: Command Code’s Agr (31B) and Agr-flash (360M) skip text generation and return typed values with per-option probabilities for tool calls and routing (Agr). SemiAnalysis explains that TypeSafe’s Jev uses the same no-decode approach and displaces frontier models mainly in router roles (explainer).Smaller releases: Upstage’s Solar Mini 4 (35B / 3B active, 512K context) is free on Nous Portal for two weeks (Nous). Eleven v4 Turbo tops AA’s Provider Voice TTS arena at half the price of v4 (AA).OpenAI vs Anthropic: Subscription Value, Speed and EvalsSemiAnalysis limit testing: SemiAnalysis tested plans from Anthropic, OpenAI, Meta, SpaceXAI, MiniMax, Moonshot, Cursor, Cognition and others. It found that Claude subscriptions deliver 5x+ more API-equivalent value than OpenAI plans (report).Methodology: Value depends on the credit cost of each model and token type, not on list API prices (thread).Task-cost adjustment: Adjusting for task cost narrows Claude’s edge to 1.3–2.9x (scaling01).Unverified compute estimate: One analyst claims Anthropic spends 42% of inference compute on subscriptions that earn ~10% of revenue (chart).OpenAI capacity squeeze: Users report that new $200 sign-ups were paused and that usage limits were effectively halved across plans. GPT-6.1 Sol was positioned as the efficient alternative (analysis). Theo describes a reversal in coding-model preference between July and September (post).OpenAI response: Codex lead Tibo pledged a meaningful improvement or a full reset every day for 28 days (pledge).Day 1 speedup: Default speed for GPT-6 Astra and GPT-6.1 Sol rose ~50%, from ~30 to ~50 TPS. The change covers all subscription surfaces and Sign in with ChatGPT partners such as OpenCode, Pi, Amp and Devin (day 1, TPS).Friction: Banked Codex ",
+      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
+    },
+    {
       "source": "Agility Robotics",
       "source_type": "rss",
       "title": "Agility to Host Analyst & Investor Day on October 6, 2026 | Agility",
@@ -72,6 +145,15 @@
       "summary": "",
       "published_at": "2026-10-06T00:00:00+00:00",
       "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
+    },
+    {
+      "source": "Agility Robotics",
+      "source_type": "rss",
+      "title": "Agility Robotics to Livestream Analyst & Investor Day Today | Agility",
+      "url": "https://www.agilityrobotics.com/content/agility-robotics-to-livestream-analyst-investor-day-today",
+      "summary": "",
+      "published_at": "2026-10-06T00:00:00+00:00",
+      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
     },
     {
       "source": "The Robot Report",
@@ -87,9 +169,18 @@
       "source_type": "rss",
       "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
       "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
-      "summary": "Education Innovation",
-      "published_at": "2026-10-05T21:08:31+00:00",
+      "summary": "Generative AI",
+      "published_at": "2026-10-05T21:08:00+00:00",
       "first_seen_at": "2026-10-06T01:46:30.807569+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "168 Conquistadors vs 80000 Inca - Si Sheppard",
+      "url": "https://www.youtube.com/shorts/NWZGTdxyTpc",
+      "summary": "",
+      "published_at": "2026-10-05T21:07:07+00:00",
+      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
     },
     {
       "source": "The Robot Report",
@@ -153,6 +244,15 @@
       "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
       "published_at": "2026-10-05T10:00:00+00:00",
       "first_seen_at": "2026-10-05T19:34:36.580157+00:00"
+    },
+    {
+      "source": "Agility Robotics",
+      "source_type": "rss",
+      "title": "Agility Robotics CEO Peggy Johnson Selected to Join Project Meridian | Agility",
+      "url": "https://www.agilityrobotics.com/content/agility-robotics-ceo-peggy-johnson-selected-to-join-project-meridian",
+      "summary": "",
+      "published_at": "2026-10-05T00:00:00+00:00",
+      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -471,6 +571,15 @@
       "summary": "From GPU kernels and KernelBench to Recursive Language Models, agent harnesses, and massive multi-agent swarms, Alex Zhang is exploring how much capability we’re leaving on the table by wrapping increasingly powerful models in primitive systems. In this episode, the MIT researche",
       "published_at": "2026-10-02T00:15:36+00:00",
       "first_seen_at": "2026-10-02T00:50:55.492577+00:00"
+    },
+    {
+      "source": "AgiBot News",
+      "source_type": "rss",
+      "title": "AGIBOT Partners with Vietnam National Innovation Center(NIC) to Advance Embodied AI Industry and Talent Ecosystem-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "url": "https://www.agibot.com/article/231/detail/126.html",
+      "summary": "",
+      "published_at": "2026-10-02T00:00:00+00:00",
+      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
     },
     {
       "source": "OpenAI News",
@@ -949,6 +1058,15 @@
       "first_seen_at": "2026-09-30T16:38:21.773089+00:00"
     },
     {
+      "source": "AgiBot News",
+      "source_type": "rss",
+      "title": "IDC Data Shows AGIBOT Led Global Humanoid Robot Shipments in H1 2026-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "url": "https://www.agibot.com/article/231/detail/125.html",
+      "summary": "",
+      "published_at": "2026-09-30T00:00:00+00:00",
+      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
+    },
+    {
       "source": "Dwarkesh Podcast YouTube",
       "source_type": "youtube",
       "title": "How Korea Went from Civil War to Near World War - Sarah Paine",
@@ -1366,6 +1484,15 @@
       "summary": "",
       "published_at": "2026-09-28T00:00:00+00:00",
       "first_seen_at": "2026-10-05T19:34:36.580157+00:00"
+    },
+    {
+      "source": "AgiBot News",
+      "source_type": "rss",
+      "title": "AGIBOT and ASD Deploy 100 AGIBOT X2 Humanoid Robots Across 100 Retail Stores-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "url": "https://www.agibot.com/article/231/detail/124.html",
+      "summary": "",
+      "published_at": "2026-09-28T00:00:00+00:00",
+      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -6253,132 +6380,6 @@
       "details": "A few years ago, Caltech Prof. and co-founder of Accelerated Understanding, Anima Anandkumar set out to develop the first open-source weather model with AI. Talking to experts in the field, she was met with skepticism. Weather is chaotic, physics simulations are hard, have been developed for decades, and require supercomputers, the data just isn’t there. Despite reservations, Anima went forth and built. Within a year her team had developed FourCastNet, a predictive model that is competitive with the best physics-based simulations available. Thanks to Anima, and her follow up work, anyone can now predict weather accurately over a short timescale using consumer grade GPUs.1 In the fifteen or so science episodes we’ve released on Latent.Space, we’ve covered atoms, molecules, materials, biology, and math. Anima is a pioneer in studying physical systems that are continuous. Weather, fusion, and fluid or heat flow are huge areas of science that are extremely difficult to model: they are large, chaotic, and fundamentally multi-scale. This is a field the AI community has somewhat neglected, but one we expect will grow fast. We plan to cover large physical systems more in coming episodes.One thing you can glean from Anima’s work is that this area of AI resists the scaling ideas that have permeated the rest of the field. The data isn’t there: open source datasets in many of these domains are limited to tens or hundreds of thousands of examples, far from what token-hungry transformers need. Even worse, the resolution that physics demands pushes the context length into the hundreds of billions, so you can’t just throw more tokens at the problem. That isn’t a ceiling though, just a slower road: progress here comes from building in structure and inductive biases. Sorry for all you bitter-lesson-pilled language modelers.“If each dimension is even a few hundred grid points, which is where industrial scale starts... we’re talking hundreds of billions to even a trillion context length. So forget ever having a transformer for anything of this scale, all of the world’s compute will not be enough.”The math underneathTo tackle these systems, Anima pioneered a technique known as Neural Operators, one of the most beautiful theoretical developments in AI of the last decade.2 These allow you to combine data and physical laws to enable multi-scale inputs and outputs. We’re no longer modeling a grid, we’re modeling a function that evolves over many scales. This allows Anima and crew to build in priors based upon physical intuition.Neural Operators What if we created a neural network where every layer was itself a function?To see how physical priors are still helpful for AI modeling, let’s revisit the problem of weather forecasting on a global scale. The earth is a sphere, which meant that accurate modeling involved using the right basis set —3 the Spherical Harmonics. Run a weather model on a grid and it blows up fast. Move to the natural basis for the problem and it stays stable far longer, long enough to roll out months ahead instead of days. Anima’s Fourier Neural Operator learns directly in this frequency domain, and its spherical variant powers FourCastNet 3, which models the weather across the whole globe and keeps running stably far into the future.FourCastNet 3 The earth is (almost) a sphere — bake the spherical harmonics into your network!The physical world is forgivingAnima explored Neural Operators across other physical domains too, and one striking observation is that the physical world is more forgiving than you’d expect. In fusion, a few thousand samples are enough to predict plasma disruptions, and to do it a million times faster than traditional simulation.None of this is a rejection of scale, it is a different route to it. Anima ultimately still wants to build a “foundation model for physics”, a model that spans many phenomena and does both simulation and design. You get there by building in the structure the physical world already has, not by waiting for data that will never exist. It is a start, and it will take longer than the token-driven parts of AI, because for the physical world tokens were never the answer.“All of the things that work with deep learning, let’s take them, but make them a bit more principled.”Weather is only the beginningNeural operators and weather modeling were a personal passion of mine, so we’ve spent much of this blog and the episode exploring this work. Anima has done so much more! In the episode, we cover several other recent developments from Anima:Anima has a series of works integrating neural networks and automated proof techniques. We talk about TorchLean, a new framework that lets you write PyTorch-style networks inside the proof assistant Lean and formally verify them. This is a major step for proving bounds on neural networks, something that would be really important for someone trying to, e.g., add a neural network as part of the control loop to their fusion reactor!Anima was rece",
       "dedupe_key": "podcast:320f10737cddb4fb3b875310a23493979f7a5396",
       "first_seen_at": "2026-08-27T00:50:46.847519+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "IDS Imaging adds Nion ToF sensor to its portfolio of 3D cameras",
-      "url": "https://www.therobotreport.com/ids-imaging-adds-nion-tof-camera-portfolio-3d-cameras/",
-      "summary": "The Nion iToF sensor combines a global shutter, pixel-internal memory and a fast readout structure. | Source: IDS Imaging IDS Imaging Development Systems GmbH this week expanded its 3D sensor portfolio with Nion. The new product is an industrial time-of-flight, or ToF, camera tha",
-      "published_at": "2026-08-26T15:04:14+00:00",
-      "first_seen_at": "2026-08-27T00:50:46.847519+00:00"
-    },
-    {
-      "source": "a16z AI YouTube",
-      "source_type": "youtube",
-      "title": "The State of AI: Models, Moats, and the Consumer Renaissance",
-      "url": "https://www.youtube.com/watch?v=zEZ0rQ8Ef-Y",
-      "summary": "Anish Acharya joins Jen Kha to break down the next frontier of AI, from the evolving model landscape and open-source AI to why the application layer, and consumer AI in particular, may be entering a new phase. Anish explains why he believes there will be multiple winners at the m",
-      "published_at": "2026-08-26T14:30:27+00:00",
-      "first_seen_at": "2026-08-27T00:50:46.847519+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Bedrock Robotics’ first operator-free excavator deployments take off",
-      "url": "https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/",
-      "summary": "Bedrock is automating earth-moving equipment to improve site safety and fill skilled labor shortages. | Credit: Bedrock Robotics Bedrock Robotics Inc. has deployed fully autonomous, retrofitted heavy excavators onto active infrastructure projects in Texas and Nevada. These AI-dri",
-      "published_at": "2026-08-26T13:51:51+00:00",
-      "first_seen_at": "2026-08-27T00:50:46.847519+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "published_at": "2026-08-26T10:00:00+00:00",
-      "first_seen_at": "2026-08-27T00:50:46.847519+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Learning never stops: How AI makes learning continuous",
-      "url": "https://openai.com/index/learning-never-stops",
-      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-      "published_at": "2026-08-26T10:00:00+00:00",
-      "first_seen_at": "2026-08-27T00:50:46.847519+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "AGIBOT Takes 7 Golds in the Dexterous Hand Challenges 🥇🥇🥇🥇🥇🥇🥇",
-      "url": "https://www.youtube.com/watch?v=FaBS4b1Tgbg",
-      "summary": "At the 2nd World Humanoid Robot Games, AGIBOT reached the finals in all eight Dexterous Hand Challenges, winning 7 gold, 4 silver, and 3 bronze medals in events including block building, powder weighing, and picking up beans with tweezers. Precision in Action. Skills for Real-Wor",
-      "published_at": "2026-08-26T08:50:55+00:00",
-      "first_seen_at": "2026-08-26T11:25:23.074157+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "AGIBOT Strikes Again with Gold in the 100m Obstacles 🥇🤖",
-      "url": "https://www.youtube.com/watch?v=GfSpWBnyUGE",
-      "summary": "At the 2nd World Humanoid Robot Games, AGIBOT X2 took 1st place in the 100m Obstacles, adding another gold to AGIBOT’s medal tally. New event. New winner. Another gold. 🥇 #AGIBOT #HumanoidRobots #Robotics #EmbodiedAI #WHRG2026",
-      "published_at": "2026-08-26T08:50:52+00:00",
-      "first_seen_at": "2026-08-26T11:25:23.074157+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "AGIBOT Wins Another Gold Medal in the Tai Chi Event 🥇🤖",
-      "url": "https://www.youtube.com/watch?v=aT1-a6d30NE",
-      "summary": "At the 2nd World Humanoid Robot Games, following double gold in the Library Scenario Challenge and the Emergency Scenario Challenge, AGIBOT A3 won another gold medal in the Tai Chi Event. Three events. Three gold medals. 🥇🥇🥇 #AGIBOT #HumanoidRobots #Robotics #EmbodiedAI #WHRG2026",
-      "published_at": "2026-08-26T08:50:49+00:00",
-      "first_seen_at": "2026-08-26T11:25:23.074157+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "AGIBOT Strikes Double Gold at the 2nd World Humanoid Robot Games🥇🥇🤖",
-      "url": "https://www.youtube.com/watch?v=2EIQHvbFGzA",
-      "summary": "On August 23, at the 2nd World Humanoid Robot Games, AGIBOT G2 took 1st place in both the Library and Emergency Scenario Challenges. 📚 Library Scenario Challenge 🚒 Emergency Scenario Challenge Two real-world scenarios. Two gold medals. From real-world deployment to the competitio",
-      "published_at": "2026-08-26T08:41:39+00:00",
-      "first_seen_at": "2026-08-26T11:25:23.074157+00:00"
-    },
-    {
-      "source": "Google DeepMind Research",
-      "source_type": "rss",
-      "title": "Visual General Intelligence: A White Paper",
-      "url": "https://deepmind.google/research/publications/270149/",
-      "summary": "",
-      "published_at": "2026-08-26T00:00:00+00:00",
-      "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "summary": "",
-      "published_at": "2026-08-26T00:00:00+00:00",
-      "first_seen_at": "2026-08-27T00:50:46.847519+00:00"
-    },
-    {
-      "source": "Anthropic Research",
-      "source_type": "rss",
-      "title": "Enabling independent research on how people use Claude",
-      "url": "https://www.anthropic.com/research/enabling-independent-research",
-      "summary": "Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those stu",
-      "published_at": "2026-08-26T00:00:00+00:00",
-      "first_seen_at": "2026-08-27T00:50:46.847519+00:00"
-    },
-    {
-      "source": "AgiBot News",
-      "source_type": "rss",
-      "title": "AGIBOT Wins 18 Gold Medals on World Humanoid Robot Games Debut, Tops Gold and Overall Medal Tables-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
-      "url": "https://www.agibot.com/article/231/detail/91.html",
-      "summary": "",
-      "published_at": "2026-08-26T00:00:00+00:00",
-      "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "How loveholidays is making everyone a builder with Codex",
-      "url": "https://openai.com/index/loveholidays",
-      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
-      "published_at": "2026-08-26T00:00:00+00:00",
-      "first_seen_at": "2026-08-26T11:25:23.074157+00:00"
     },
     {
       "source": "Cursor Blog",
