@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-07T00:45:57.599984+00:00",
+  "updated_at": "2026-10-07T17:39:20.800956+00:00",
   "count": 700,
-  "new_count": 515,
+  "new_count": 480,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,89 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Multimodal open d1 decision models for the edge",
+      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "summary": "",
+      "published_at": "2026-10-07T16:54:33+00:00",
+      "first_seen_at": "2026-10-07T17:39:20.800956+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Teradyne Robotics, Elite Robots settle cobot dispute",
+      "url": "https://www.therobotreport.com/terayne-robotics-elite-robots-settle-cobot-dispute/",
+      "summary": "Teradyne claimed that Elite Robots’ cobots (above) and software were similar to its own. Credit: Elite Robots Teradyne Robotics and Elite Robots have reached a mutual agreement resolving a legal dispute over robots and software, bringing the case to an end without either company ",
+      "published_at": "2026-10-07T16:20:52+00:00",
+      "first_seen_at": "2026-10-07T17:39:20.800956+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+      "url": "https://www.latent.space/p/stacklok",
+      "summary": "At a high level, coding agents have a basic architecture: an LLM calls tools in a loop, while carrying forward the required context. Since that’s easiest to implement locally, many coding agents started out as terminal tools and then desktop apps (Claude Code famously began as a ",
+      "published_at": "2026-10-07T14:10:45+00:00",
+      "details": "At a high level, coding agents have a basic architecture: an LLM calls tools in a loop, while carrying forward the required context. Since that’s easiest to implement locally, many coding agents started out as terminal tools and then desktop apps (Claude Code famously began as a CLI tool). But as the open laptop meme illustrates, modern agent harnesses have frustrating limitations if they’re not able to be managed in the cloud.Since 2025, both OpenAI and Anthropic have been trying to shift their harnesses more into the cloud — but with varying levels of success. The challenges include keeping sessions reliable, isolating tool execution and preserving context.This sounds a lot like container orchestration in the early 2010s, from which emerged the open source Kubernetes in 2014. Kubernetes, developed by Google, became the dominant open source system for deploying and managing cloud applications at scale — it kickstarted the “cloud native” era of computing.Kubernetes uses control loops to keep applications running, recover from failures, and scale when needed. What if coding agents could be managed in the same way?That’s the bet that two Kubernetes creators, Craig McLuckie and Joe Beda, are making with Stacklok.Stacklok architecture; diagram via StacklokStacklok raised a $17.5 million Series A back in 2023 from Accel, Madrona and Bain Capital. Initially focused on software supply chain security, the company recently pivoted to Kubernetes-based agentic solutions.Mecatl: a harness built for the cloudThe most interesting product of Stacklok is Mecatl, a “cloud-native harness” begun in June as an open source project on GitHub. At first, I thought the name was pronounced “me-cattle” — a play-on-words referencing the ‘cattle vs. pets’ concept of Kubernetes, where you treat your servers, pods and clusters like cattle rather than pets. But no, the name is actually pronounced “MEH-kah-tl” and is an Aztec word meaning a cord or rope!In any case, what does cloud-native mean in the context of a harness?It’s primarily about “moving the locus of value from the desktop to the cloud,” said McLuckie. He’s talking about “value” from an enterprise perspective — that the code and context are often derived from local environments. “That’s where the IP sits,” Beda chimed in. “And if you want to be able to actually bring that under management, it’s that much more difficult when it’s sitting on a desktop.”McLuckie added that a cloud native approach also allows Stacklok to ask some deeper questions about agentic coding.“Why is the agent loop so intricately coupled to the tool calling subsystems? Why is agent identity being reasoned about through the lens of human identity systems?”Diagram via Mecatl GitHubWhen it comes to open source agent harnesses, there are already well-regarded solutions — such as Pi, a “minimal agent harness” that projects like Flue have built on top of. We asked the Stacklok pair what makes their harness different?Beda didn’t mention Pi specifically, but he did say that in desktop-first harnesses, the loop, local execution and session state often begin inside the same process.“There are a ton of solutions in this space, but they’re all focused to essentially run on the desktop,” he said. “So even if they have pluggability, the architecture is still one process, or one set of tightly coupled processes, that are built to run on the desktop.”A Kubernetes deployment of Mecatl; via GitHubBut can’t enterprises use VMs, containers, or one of many different sandbox products to move their harness to the cloud?Beda says this “lift and shift” approach tends to create issues around the lifecycle of an agent or being able to quiesce it (safely pause it while it waits for human input).“Our thinking is, well, what if we rethought the harness from the ground up to actually run in the cloud?”Separating the agent loop from executionOne of the intriguing approaches of Mecatl is that it keeps the agent loop independent of the client, model provider, state store and execution environment.“This is an application that we know how to run in the cloud well,” said Beda, regarding the loop application. “What if we take that and we separate that out from the more sensitive operations, like tool calling and bash, and then also separate out things like session management and memory, so that these things are no longer stored as JSONL files sitting on disk, but can natively be put into manageable systems”Mecatl architecture; diagram via the project GitHubA lot of you reading this will probably have very opinionated harnesses, customized for your own requirements. But Mecatl is designed to extend beyond a single-user, local harness into infrastructure that enterprises can operate centrally. Beda likened this to how enterprises manage email.“We think, in the future, interactions that you have with an agent while you’re working for an enterprise belong to that enterprise; and they’re going to want to manage that and govern that like they do emai",
+      "first_seen_at": "2026-10-07T17:39:20.800956+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "source_type": "rss",
+      "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction",
+      "url": "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/",
+      "summary": "This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how policies trained on the dataset transfer to a real humanoid robot.What you will learn ",
+      "published_at": "2026-10-07T13:49:48+00:00",
+      "first_seen_at": "2026-10-07T17:39:20.800956+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "summary": "",
+      "published_at": "2026-10-07T12:45:31+00:00",
+      "first_seen_at": "2026-10-07T17:39:20.800956+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Harmonic Drive to share how integrated actuators can reduce engineering at RoboBusiness",
+      "url": "https://www.therobotreport.com/harmonic-drive-share-how-integrated-actuators-reduce-engineering-robobusiness/",
+      "summary": "The RSF-5B IDT Sumpermini actuator with an integrated servo drive. | Source: Harmonic Drive Selecting the right motion architecture is one of the most important design decisions in robotics. At RoboBusiness 2026, Marcel Almonte, a mechatronics applications engineer at Harmonic Dr",
+      "published_at": "2026-10-07T12:24:09+00:00",
+      "first_seen_at": "2026-10-07T17:39:20.800956+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "published_at": "2026-10-07T12:00:00+00:00",
+      "first_seen_at": "2026-10-07T17:39:20.800956+00:00"
+    },
+    {
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "title": "Introducing Playground: Create and play custom games",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
+      "published_at": "2026-10-07T12:00:00+00:00",
+      "first_seen_at": "2026-10-07T17:39:20.800956+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
+      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+      "summary": "Tickets for AIE NYC are selling out soon! See you next week!see past AINews issues for subscriber discounts.Pour one out for Mistral, who shipped a decent Large 4 “Le Chonk” model on the new 3800 GB300 cluster funded by their recent Series D. But they were overshadowed by more ma",
+      "published_at": "2026-10-07T04:55:44+00:00",
+      "details": "Tickets for AIE NYC are selling out soon! See you next week!see past AINews issues for subscriber discounts.Pour one out for Mistral, who shipped a decent Large 4 “Le Chonk” model on the new 3800 GB300 cluster funded by their recent Series D. But they were overshadowed by more mathematics results from OpenAI’s internal Navier-Stokes math model - published as a blogpost, repo, and tweet. The best compliment comes from their Navier-Stokes competitor from Anthropic, who despite his personal issues with OpenAI, does not mince words: “It’s obviously the most significant moment in mathematical history.” This bears some qualification, but most experts seem to agree that it solves many of the top 500 open problems in math. In particular, Result 003, the Quasi-Riemann Hypothesis, is somewhere between a Fields Medal result and “the biggest result in number theory in 200 years”.The most astonishing is the how - while Navier-Stokes was done in 88 hours and 10,000 agents, these solutions were 3 hours of ChatGPT Pro on average.AI News for 10/5/2026-10/6/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpenAI Releases 722 Math Manuscripts From an Unreleased Internal ModelThe release: OpenAI published a broad set of mathematical results from an internal frontier model in a public GitHub repo. It says it consulted the Institute for Advanced Study’s independent Advisory Group on Mathematics and AI on how to release them.Scale and compute: The collection reportedly holds 722 manuscripts grouped into 372 families of related results. They came from an evaluation of about 4,000 research problems and used an average of roughly three hours of ChatGPT Pro thinking compute per result (summary, Rundown).Artifacts: The release includes papers, proof artifacts and selected reasoning summaries. The model itself remains unreleased.Framing: Sam Altman called it “a new era of discovery”.Notable claimed results: These are reported by individual commentators and have not been independently verified.Integer multiplication: One contributor highlighted a result for integer multiplication faster than n log n.Elastic inverse problem: Another singled out a uniqueness result for the elastic inverse problem, which the paper says had been open in 3D since 1994.Millennium-adjacent work: Commenters point to partial progress on Riemann, Hodge and BSD.Mathematician reaction: Levent Alpöge praised the quasi-Riemann and no-Siegel-zeros results and called it “the most significant moment in mathematical history”. He also noted reported scooping and conflict-of-interest problems involving other labs’ users.Composition of results: An analysis estimates about 20% of the results are disproofs or counterexamples. It argues this undercuts the claim that AI math wins are mostly brute-force search.Skepticism and open questions:Errors expected: Will Depue expects that some results should not survive scrutiny. He built citedbyagi.com to track which human papers the release cites.Compute framing: Teortaxes notes that three hours of compute “is not much”.Generalization: François Chollet asks whether gains in RLVR-friendly math and code generalize, or whether non-verifiable domains stay bottlenecked on human data.Mistral Large 4 (”Le Chonk”): Launch, Pricing and Contested EvalsMistral Large 4 preview: The model has 1T total parameters and 49B active, is natively multimodal and is available via API now (announcement). Open weights are promised for end of October.Training status: The RL run is “still in flight and shows no sign of saturation”.Compute: The model was pre- and post-trained on ~3,800 Grace Blackwells in Europe. A larger model is training now.Pricing: $1.36/$4.18 per million input/output tokens, with $0.14 for cached input and 50% off for the first two weeks (Artificial Analysis).Context: Vals and Artificial Analysis list a 512K context window. OpenRouter lists 1M context with up to 256K output.Mistral’s own claims:Human evals: Mistral says it beats GLM 5.3 on STEM, CAD and finance in human evals and is on par in agentic coding.Coding benchmarks: It reports outperforming GLM 5.3 on DeepSWE and Kimi K3 on Terminal-Bench 4 (Rozière).Blind review: In a blind Surge coding review it finished #2, behind only Opus 5.Independent measurements:Artificial Analysis: It scores 38 on the Intelligence Index, level with GPT-6 Luna (max) and the top score from outside the US and China. It scores 50 on the Cyber Index and 82% on CyberGym-E2E-AA. Cost is $1.13 per task, over 4x that of similar-intelligence open models.Vals: It ranks #1 open-weight on HLAB and #9 among open models on the Vals Index. Heavy context use pushes its cost to $13.78 per test.Clinical triage: One evaluator reports a tie for #1 on 669 clinical decisions with zero severe misses.Caveats and disagreement:Refusal effect: Cline attr",
+      "first_seen_at": "2026-10-07T17:39:20.800956+00:00"
+    },
     {
       "source": "Dwarkesh Podcast YouTube",
       "source_type": "youtube",
@@ -555,7 +638,7 @@
     {
       "source": "a16z AI YouTube",
       "source_type": "youtube",
-      "title": "Why AI Is Reinventing How Businesses Buy Everything",
+      "title": "Why Enterprise Software Is Being Rebuilt Around AI Agents",
       "url": "https://www.youtube.com/watch?v=OTQ-lFsq7zA",
       "summary": "a16z’s Seema Amble and Elena Burger sit down with Lio co-founder and CEO Vladimir Keil to ask where AI-native startups have an advantage when incumbent software companies already own the customer, the data, and the system of record. Their answer comes down to the work that happen",
       "published_at": "2026-10-02T14:30:40+00:00",
@@ -1371,7 +1454,7 @@
     {
       "source": "Latent Space YouTube",
       "source_type": "youtube",
-      "title": "The Future of Claude Code: Mods, Mutable Software, & Multiplayer Agents — Thariq Shihipar, Anthropic",
+      "title": "Claude Code’s Bitter Lesson: Prompts, Harnesses, Mods, and Agents — Thariq Shihipar",
       "url": "https://www.youtube.com/watch?v=IZAlq-V19U8",
       "summary": "From the rapid rise of Claude Code to a future where agents can rewrite their own harnesses, collaborate across teams, and operate across cloud and local environments, the way we build software is changing extraordinarily fast. In this episode, Anthropic’s Thariq Shihipar joins s",
       "published_at": "2026-09-29T01:17:41+00:00",
@@ -6292,87 +6375,13 @@
       "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
     },
     {
-      "source": "OpenAI News",
+      "source": "Vidu Product Updates",
       "source_type": "rss",
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-      "published_at": "2026-08-27T09:00:00+00:00",
-      "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-      "published_at": "2026-08-27T03:00:00+00:00",
-      "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
-      "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
-      "summary": "TheInformation had the scoop, and now they have the confirmation — Nvidia is buying HuggingFace for $13B, roughly 80x their $150M ARR, having doubled its customer base in 2026. This is almost double Nvidia’s initial $7B offer in Jan 2026.What can we say? We love it when the good ",
-      "published_at": "2026-08-27T01:50:54+00:00",
-      "details": "TheInformation had the scoop, and now they have the confirmation — Nvidia is buying HuggingFace for $13B, roughly 80x their $150M ARR, having doubled its customer base in 2026. This is almost double Nvidia’s initial $7B offer in Jan 2026.What can we say? We love it when the good guys win. But in the backdrop of GLM-5.3-Flash (aka Ox Alpha) impressing everyone (except GDM vaguepoasters) and Qwen also shipping an impressive Flash model on chinese chips, perhaps the post Hot Chips conversation about Western open AI is a great backdrop for this.AI News for 8/25/2026-8/26/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapTop Story: GLM 5.3 Flash launch and reactionsWhat happenedZ.ai formally launched GLM-5.3-Flash, revealing that the previously previewed “Ox Alpha” model is its public identity.Z.ai announced GLM-5.3-Flash as a natively multimodal model with a 1M-token context window, 320B total parameters / 18B active parameters, released under the MIT License, and available via weights, API, chat, coding plan, and AutoClaw.Z.ai simultaneously positioned it as a highly price-competitive successor to GLM-5.2, claiming on its internal benchmark that it outperforms GLM-5.2 at every effort level and is on par with Claude Opus 4.8 on coding.The launch also resolved the long-running Ox Alpha mystery: multiple posters explicitly connected Ox Alpha to GLM-5.3-Flash, including SemiAnalysis, rasbt, theo, and Cline.Early third-party model infrastructure support appeared almost immediately: CoreWeave, Baseten, and Cline’s free integration in VS Code / JetBrains / CLI.Shortly after launch, Z.ai engineer Zixuan Li said the chat template had been updated and early downloaders should re-download the model, implying a day-0 packaging or prompt-format correction.Artificial Analysis first published an overview with an incorrect 400k context window, then issued a correction to 1M context, aligning with Z.ai’s original announcement.Community response was unusually strong for an open-weight release, ranging from brief shock reactions like “HOLY” to more substantive claims that the model may now be the best intelligence-per-dollar option, e.g. Artificial Analysis and zainhas.The launch got folded into a broader narrative around Chinese frontier open models, with posts arguing that open Chinese labs are converging on similar architecture choices around linear attention, sparse attention, residual path design, and Muon.Independent pushback emerged on at least one modality claim: skalskip92 argued the model looks weak on several vision/object detection tasks despite being “native vision.”Official claims and launch detailsZ.ai’s primary launch tweet is the factual anchor: GLM-5.3-Flash is described as:320B total params / 18B active1M-token contextnatively multimodalMIT licensedpreviously previewed as Ox Alpha“running entirely on Chinese AI chips”Distribution/availability at launch:Weights on Hugging FaceZ.ai APIChatZCodeCoding planAutoClawThe strongest self-reported vendor performance claim came from Z.ai’s coding thread: on the Z.ai Code Bench, GLM-5.3-Flash “clearly outperforms GLM-5.2 at every effort level and performs on par with Claude Opus 4.8”. Because this is first-party benchmarking, it is useful but should be read more cautiously than independent evals.A follow-up launch-support post from AutoClaw framed the model as suitable for vision-language understanding, code generation, and long-horizon agentic tasks and paired availability with credits/rebates, but this is mainly rollout information rather than new technical evidence: AutoClaw launch post.Independent benchmarks and cost/performance positioningThe most substantive independent evaluation in the tweet set came from Artificial Analysis. Their summary: GLM-5.3-Flash scores 57 on the Artificial Analysis Intelligence Index.Artificial Analysis metrics citedAA Intelligence Index score: 57Gap vs GLM-5.3: 3 points behind GLM-5.3 at 60Cost per task: $0.09API price: $0.15 / 1M input, $0.50 / 1M outputCached input: ~$0.026–$0.03 / 1M, described as 80% discountModel size: 320B total / 18B activeLicense: MITContext: initially listed as 400k, later corrected to 1MComparisons cited by Artificial AnalysisTies GPT-5.6 Terra and Muse Spark 1.2 at 57, but at much lower cost per task.$0.09/task vs $0.68/task for GLM-5.3 max.Claimed ~7.5x lower cost per task than GLM-5.3 max.Claimed ~5.7x cheaper per task than GPT-5.6 Terra and ~4.4x cheaper than Muse Spark 1.2.Token-efficiency and reasoning mixArtificial Analysis notes an interesting tradeoff:GLM-5.3-Flash used 149M output tokens to run the Intelligence Indexcompared with 168M for GLM-5.3but more than Kimi K3 (133M) and Qwen3.8 2.4T A95B (136M) at similar Intelligence Index score134M of the 149M tokens (~90%) were reasoning tokensThis is an important nuance: the mod",
-      "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
-      "url": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
-      "summary": "By far the biggest announcement at the 37th Hot Chips conference was OpenAI’s stunning progress on their own chip, less than a year after the Broadcom announcement… and that it isn’t an ASIC; but a full on Blackwell-beating alternative.The key metric now is shifting to performanc",
-      "published_at": "2026-08-27T01:31:22+00:00",
-      "details": "By far the biggest announcement at the 37th Hot Chips conference was OpenAI’s stunning progress on their own chip, less than a year after the Broadcom announcement… and that it isn’t an ASIC; but a full on Blackwell-beating alternative.The key metric now is shifting to performance per watt, and Jalapeno delivers:The full Hot Chips presentation is not yet out but various takes are below. For a fuller breakdown, watch along with the rest of OpenAI:AI News for 8/24/2026-8/25/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpenAI’s Jalapeño Inference Chip and the Shift in the Inference StackJalapeño’s published numbers are the day’s biggest technical story: OpenAI released first benchmark details for its custom inference chip Jalapeño, claiming materially better efficiency and latency than NVIDIA GB200/GB300 systems on real model workloads. In OpenAI’s tests, Jalapeño delivered 1.5–1.9× more work per watt at peak throughput and 1.7–3.6× lower end-to-end latency, with 2.1–4.1× higher performance for highly interactive workloads; the chip is rated at 700W but reportedly stayed at or below 550W on the tested runs. OpenAI says deployment into its own infrastructure begins by year-end, with Gen 2 already deep in development and Gen 3 underway (OpenAI announcement, deployment roadmap, Sam Altman).Why engineers care: the claim is not just raw perf, but a more balanced inference architecture that reduces the usual throughput/latency tradeoff. Multiple technical reactions highlighted that some comparison points are especially notable because Jalapeño reportedly performed well even without tricks like aggressive prefill/decode disaggregation or speculative decoding in some setups, while beating systems that did use them (gdb, kimmonismus summary, eliebakouch analysis, You Jiacheng). SemiAnalysis framed it as unusually strong for a first-generation ASIC and compared it directly against Blackwell and Rubin-class systems (SemiAnalysis, dylan522p).A second-order story is model-assisted systems optimization: OpenAI’s post also said GPT-Astra + Codex helped write and optimize low-level kernels, bringing three previously unplanned open-weight models to high performance on Jalapeño in about two months; for selected attention and MoE blocks, these implementations reportedly ran 1.5–1.8× faster than existing human-expert-written code (kimmonismus, eliebakouch). That is a meaningful signal that compiler/kernel work is increasingly being folded into the model improvement loop, not just application-layer coding.Broader infra implication: several posts tie Jalapeño to a larger industry transition in which frontier labs may no longer be strictly downstream of NVIDIA for inference economics, even if packaging and foundry capacity remain a hard bottleneck (Liam Fedus, teortaxesTex reaction, LearnOpenCV caveat on TSMC/CoWoS capacity).Agent Harnesses, Memory Systems, and Eval Engineering Becoming First-ClassHarness quality is increasingly as important as model choice: several papers and launches converged on the same theme: agent performance depends heavily on the surrounding system. A new Microsoft-led paper on AutoSaddler treats the harness as code and patches prompts, tool configs, and control logic offline using failure traces, reporting gains of +9.0 on GAIA2, +9.6 on SWE-Bench Pro, and +10.0 on Terminal-Bench 2.0 over base harnesses (paper summary). In parallel, another paper quantified harness variance directly, finding that swapping harnesses could move scores far more than swapping models, with model-pair rankings flipping across scaffolds; the proposed fix is a structured Harness Card disclosure standard (analysis, “There Is No Neutral Harness”).Long-horizon software engineering remains very unsolved: SWE Refactor Bench measures whole-repository migration tasks like C→Rust, Maven→Gradle, and POSIX→WebAssembly across real projects including SQLite, zlib, and libsodium. Across 520 runs, only 28 survived all three stages, for a 5.4% survival rate, and 13/20 tasks were solved by nobody (EinsiaAI). This is a useful corrective to strong bug-fix numbers on more local coding benchmarks.Memory systems are being redesigned as programmable state, not compressed chat history: one Alibaba paper summarized by DAIR backs agent sessions with an append-only event log plus a persistent Python kernel, binding tool outputs and derived state to typed variables instead of continually serializing them into prompts. Reported results include 94.8% on LongMemEval_S, 73.1% on BEAM_10M (+5.1 over the previous best published memory system), and 86.7% on LOCA_256K with Qwen3.8-Max (summary). Related work on Knowledge Triage showed that naive context compaction destroys exact-rule retention; after five rounds of compaction, one setup preserved only 10% of safety rules, while type-",
-      "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
-    },
-    {
-      "source": "Agility Robotics",
-      "source_type": "rss",
-      "title": "Agility Robotics to Attend Upcoming Investor Conferences | Agility",
-      "url": "https://www.agilityrobotics.com/content/agility-robotics-to-attend-upcoming-investor-conferences",
-      "summary": "",
-      "published_at": "2026-08-27T00:00:00+00:00",
-      "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
-    },
-    {
-      "source": "AgiBot News",
-      "source_type": "rss",
-      "title": "AGIBOT Founder and CEO Deng Taihua Named to the TIME100 AI 2026 List-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
-      "url": "https://agibot.com/article/231/detail/92.html",
-      "summary": "",
-      "published_at": "2026-08-27T00:00:00+00:00",
-      "first_seen_at": "2026-08-28T05:27:15.746353+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "source_type": "rss",
-      "title": "Start from scratch, without a repo",
-      "url": "https://cursor.com/changelog/start-from-scratch",
-      "summary": "Cloud Agents no longer require a connected GitHub or other third-party SCM provider to get started. Prompt from the get-go, then save your work to a Cursor Origin repo. Get started Select **Start from scratch** in the repo picker, then prompt the agent. In the background, Cursor ",
-      "published_at": "2026-08-27T00:00:00+00:00",
-      "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "source_type": "rss",
-      "title": "Expanding our support for scientists",
-      "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
-      "summary": "",
-      "published_at": "2026-08-27T00:00:00+00:00",
-      "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "source_type": "rss",
-      "title": "Previewing the Model Hardware Standard",
-      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "summary": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
-      "published_at": "2026-08-27T00:00:00+00:00",
-      "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
+      "title": "Vidu Q4 AI Video Model with Native Audio",
+      "url": "https://www.vidu.com/vidu-q4",
+      "summary": "Explore Vidu Q4, an AI video generation model with native audio, faster motion quality, and stronger prompt control for creative work.",
+      "published_at": "2026-08-20T00:00:00+00:00",
+      "first_seen_at": "2026-10-07T17:39:20.800956+00:00"
     },
     {
       "source": "Cursor Blog",
@@ -6419,15 +6428,6 @@
       "published_at": "2026-08-05T08:56:35.387909+00:00",
       "dedupe_key": "page:Coze Changelog:9605569cb0f742915c79771050abf667afffc966f2c1a88b27b771fa3b9c6ba1",
       "first_seen_at": "2026-08-05T08:53:54.819943+00:00"
-    },
-    {
-      "source": "Vidu Product Updates",
-      "source_type": "rss",
-      "title": "Vidu Q3 AI Video Model with Native Audio",
-      "url": "https://www.vidu.com/vidu-q3",
-      "summary": "Explore Vidu Q3, an AI video generation model with native audio, faster motion quality, and stronger prompt control for creative work.",
-      "published_at": "2026-08-05T08:12:59.190000+00:00",
-      "first_seen_at": "2026-08-05T08:44:54.517970+00:00"
     },
     {
       "source": "ByteDance Seed Blog",
