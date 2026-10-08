@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-08T01:02:55.419385+00:00",
+  "updated_at": "2026-10-08T17:41:37.280363+00:00",
   "count": 700,
-  "new_count": 515,
+  "new_count": 521,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,6 +65,127 @@
   ],
   "items": [
     {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "How one bug bounty researcher chooses the features they investigate",
+      "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
+      "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team is excited to spotlight one of the top-performing security researchers participating in the GitHub Security Bug Bounty Program: @vaib25vicky! The security research community makes GitHub safer for everyone—t",
+      "published_at": "2026-10-08T17:02:52+00:00",
+      "first_seen_at": "2026-10-08T17:41:37.280363+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "source_type": "rss",
+      "title": "2026 Usage Policy update",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "summary": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.",
+      "published_at": "2026-10-08T17:00:00+00:00",
+      "first_seen_at": "2026-10-08T17:41:37.280363+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+      "url": "https://www.latent.space/podcast",
+      "summary": "It’s hard to believe that Periodic was only launched last September:One year later, it is considered one of the pre-eminent AI scientist labs, with dizzying talent density and astonishing progress in the autonomous lab buildout:Most people are familiar with the standard credentia",
+      "published_at": "2026-10-08T16:27:54+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/219146438/4de3baad7036438bcc048cc532556c6a.mp3",
+      "details": "It’s hard to believe that Periodic was only launched last September:One year later, it is considered one of the pre-eminent AI scientist labs, with dizzying talent density and astonishing progress in the autonomous lab buildout:Most people are familiar with the standard credentials of Liam and Dogus, but we found an incredible “talent slope” while learning more about Periodic, where each successive employee seems more impressive than the last:From building AI systems that reason over noisy physical experiments to creating laboratories where every instrument can become intelligent, Periodic Labs is betting that the next frontier of AI won’t come from simply training on more internet data, it will come from letting models experiment with the real world. In this episode, Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk join swyx and Brandon to explain why scientific discovery is fundamentally different from math and coding, and what it takes to build AI scientists that can actually discover new materials.We go deep on Periodic’s vision for “synthesis superintelligence”: reinforcement learning grounded in physical experiments, AI-powered materials characterization, simulations and density functional theory, high-throughput labs, and systems that learn from the entire process of doing science rather than only its published results. Liam and Dogus also explain why frontier models will still need experiments, why failed experiments may be some of the most valuable training data, what it means to give every piece of lab equipment “140 IQ,” and how autonomous experimentation could compress decades of scientific trial-and-error into months.We discuss:Why intelligence alone isn’t enough for scientific discoveryHow reinforcement learning changes when the environment is the physical worldWhy science requires reasoning under uncertainty, noise, and missing informationPrediction, synthesis, and characterization in the materials discovery loopWhy physics and materials science are still far from “solved”The “matter compiler” and Periodic’s goal of synthesis superintelligencePhase transitions, X-ray diffraction, and AI-powered materials characterizationDFT, simulations, and why experiments remain the ultimate ground truthRoom-temperature superconductors, new magnets, batteries, and more efficient computeWhy quantum computing may not automatically solve materials discoveryWhat it means for every piece of lab equipment to have “140 IQ”Why data quality and negative results matter more than simply throwing more compute at scienceTraining models on the process of doing science rather than the final answerWhy even future frontier models will still need to physically experimentScaling autonomous labs across AI, chemistry, physics, and custom hardwareHow automated experimentation could massively increase the “surface area for luck” in discovering new materialsLiam FedusLinkedIn: https://www.linkedin.com/in/liam-fedus-26547811/X: https://x.com/LiamFedusEkin Dogus CubukLinkedIn: https://www.linkedin.com/in/ekin-dogus-cubuk-9148b8114/X: https://x.com/ekindogusTimestamps00:00:00 Introduction00:02:49 AI and Reinforcement Learning in the Physical World00:09:17 The End-to-End Materials Discovery Loop00:13:28 Why Physics Isn’t “Solved”00:19:04 The Matter Compiler and AI Characterization00:30:22 DFT, Simulation, and Experimental Ground Truth00:42:27 Dream Materials, Compute, and Quantum Computing00:45:57 Giving Every Lab Instrument “140 IQ”00:50:02 Automating the Lab00:53:16 Data, Models, and Negative Results00:58:13 Training AI on the Process of Science01:00:20 Why Frontier AI Still Needs Experiments01:06:06 Scaling Autonomous Labs01:10:45 Building the Team and Deploying to Industry01:17:01 From AI Copilots to Scientific Outcomes01:20:57 Automating the Search for SuperconductorsTranscriptIntroduction: Intelligence Must Meet RealitySwyx [00:00:00]: Okay. We’re here at Periodic. We’re here today with Liam and Doğuş from Periodic. Welcome, and thanks for having us at yours.Liam Fedus [00:00:11]: Yeah, great to be here, and yeah, thanks for coming in.Swyx [00:00:13]: I want to start off with one of these quotes that I love from your website. It says, “Intelligence is necessary but not sufficient. New knowledge is created when ideas are found to be consistent with reality.” It seems so straightforward, but why is it non-obvious?Liam Fedus [00:00:29]: I think that’s sort of the thesis and premise behind Periodic that Doğuş and I thought when we were building this, which is you can’t just think your way to a solution. The universe is so complicated that in order to actually push the frontier of knowledge and to make progress, you need to create these conjectures and then actually see whether or not it holds. No amount of rereading that textbook or paper, thinking, or disappearing into a room is going to allow you to think through all possible experimental outcomes, expected and unexpected, and you really need this iterative process. And that’s our c",
+      "dedupe_key": "podcast:a94c9b3026a5c5e95ad9c9b971f501ac9699d791",
+      "first_seen_at": "2026-10-08T17:41:37.280363+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Jabil discusses the pace of humanoid robot development and production",
+      "url": "https://www.therobotreport.com/jabil-discusses-pace-humanoid-robot-development-production/",
+      "summary": "The Apollo humanoid robot is designed for a variety of applications. | Credit: Apptronik While much of the focus on humanoid robots has been on entertaining demonstration videos and massive amounts of funds raised, the work of development and finding a value proposition is quietl",
+      "published_at": "2026-10-08T16:16:21+00:00",
+      "first_seen_at": "2026-10-08T17:41:37.280363+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "url": "https://openai.com/index/oracle",
+      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "published_at": "2026-10-08T16:00:00+00:00",
+      "first_seen_at": "2026-10-08T17:41:37.280363+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Helm.ai reaches $70M in signed commercial contracts for its foundation models",
+      "url": "https://www.therobotreport.com/helm-ai-reaches-70m-signed-commercial-contracts-foundation-models/",
+      "summary": "Helm.ai said it has commercial partners spanning perception, full-stack autonomous driving, automated data labeling, and generative simulation. | Source: Helm.ai Helm.ai today said it has signed $70 million in commercial contracts for its foundation models for physical AI over a ",
+      "published_at": "2026-10-08T15:55:31+00:00",
+      "first_seen_at": "2026-10-08T17:41:37.280363+00:00"
+    },
+    {
+      "source": "a16z AI YouTube",
+      "source_type": "youtube",
+      "title": "Building the Cloud for AI Agents | AWS CEO Matt Garman",
+      "url": "https://www.youtube.com/watch?v=rn_afJaPldg",
+      "summary": "a16z’s Raghu Raghuram sits down with AWS CEO Matt Garman to discuss how AI is reshaping the cloud, from the needs of AI-native startups to infrastructure increasingly designed for agents. Matt explains how AWS is adapting as agents write code and manage infrastructure, why it’s r",
+      "published_at": "2026-10-08T14:30:17+00:00",
+      "first_seen_at": "2026-10-08T17:41:37.280363+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "AWS launches open-source Physical AI Toolchain for robotics",
+      "url": "https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/",
+      "summary": "Amazon Web Services (AWS) today launched an open-source Physical AI Toolchain designed to help roboticists move from collecting data to training, simulating, validating and deploying AI models on their robots. The toolchain brings together AWS services and NVIDIA’s Physical AI so",
+      "published_at": "2026-10-08T13:23:58+00:00",
+      "first_seen_at": "2026-10-08T17:41:37.280363+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
+      "summary": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action is also coming: Fire TV users will soon be able to purchase",
+      "published_at": "2026-10-08T13:00:46+00:00",
+      "first_seen_at": "2026-10-08T17:41:37.280363+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "source_type": "rss",
+      "title": "Building on our commitment to American scientific discovery",
+      "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+      "summary": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.",
+      "published_at": "2026-10-08T13:00:00+00:00",
+      "first_seen_at": "2026-10-08T17:41:37.280363+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "source_type": "rss",
+      "title": "This Disembodied Hand Is All the Robot You Need",
+      "url": "https://spectrum.ieee.org/walking-robotic-hand",
+      "summary": "A hand attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have turned an off-the-shelf robotic hand into a completely self-contained robot that walks on its fingertips while usin",
+      "published_at": "2026-10-08T12:00:02+00:00",
+      "first_seen_at": "2026-10-08T17:41:37.280363+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "url": "https://openai.com/index/pollo-ai",
+      "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "published_at": "2026-10-08T12:00:00+00:00",
+      "first_seen_at": "2026-10-08T17:41:37.280363+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing",
+      "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+      "summary": "It’s been about a year since Anthropic shipped Haiku 4.5, and with successive launches of Sonnet and Opus and Fable up to 5.5 it was seeming a little forgotten, especially as OpenAI launched Luna 6 alongside Astra and Sol 6.Well, it’s here, and it’s a welcome update. More in the ",
+      "published_at": "2026-10-08T07:27:51+00:00",
+      "details": "It’s been about a year since Anthropic shipped Haiku 4.5, and with successive launches of Sonnet and Opus and Fable up to 5.5 it was seeming a little forgotten, especially as OpenAI launched Luna 6 alongside Astra and Sol 6.Well, it’s here, and it’s a welcome update. More in the summary below.AI News for 10/06/2026-10/7/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapTop Story: Anthropic releases Claude Haiku 5.5What happenedAnthropic shipped Claude Haiku 5.5, its first Haiku-tier update in about a year. It is priced to match OpenAI’s GPT-6 Luna, and Anthropic cut prices on Sonnet 5.5 and its subscription plans the same day.Pre-launch signals. @scaling01 posted “happy Haiku 5.5 day” before the announcement. @kimmonismus said the model had already appeared in a Claude Code update and predicted “Luna-pricing.” He then posted the pricing ahead of the official post (@kimmonismus) and confirmed when it went live (@kimmonismus).Official launch. @claudeai and @AnthropicAI called it “the cheapest, fastest, and most capable small model we’ve ever released,” costing about 75% less to run than Haiku 4.5 on average.Availability and intended use. It is live on the Claude Platform and in Claude Code (@ClaudeDevs). Anthropic positions it as a subagent paired with Opus 5.5 or Sonnet 5.5, for high-volume, cost-sensitive work such as summaries, compactions and database queries. @mikeyk described the split as “Opus does the heavy thinking, Haiku does the high-volume work.”Tiered pricing (@ClaudeDevs):Prompt lengthInput / output per 1M tokensCache reads per 1MUnder 100K tokens$0.10 / $0.50$0.01Over 100K tokens$0.50 / $2.50$0.05Sonnet 5.5 price cut. Cache reads were halved from $0.20 to $0.10 per 1M tokens. Anthropic says this makes Sonnet 5.5 about 20% cheaper on most long-running or agentic work (@claudeai).API credits for subscribers. Monthly Claude Platform API credits now come with Max 5x ($100), Max 20x ($200) and Team (up to $500, pooled). They work on any model, including Haiku 5.5, and in third-party harnesses (@ClaudeDevs).Same-day SDK update. Computer-use and browser-use toolsets are now built into the Python and TypeScript Claude SDKs. The SDK runs the action loop and sends clicks and keystrokes to drivers from browser_use, Browserbase, E2B or Daytona, so developers no longer write that loop themselves (@ClaudeDevs, quickstart).Partner rollouts on day one:Cursor: @cursor_ai claims “10x less than Haiku 4.5” on shorter requests and published CursorBench comparisons (@cursor_ai).GitHub Copilot in VS Code: @code reports it “matched Claude Sonnet 5 on many coding tasks while using fewer tokens and steps.”Devin: @cognition reports 58.4% on FrontierCode 1.1, ahead of Sonnet 5 at roughly one-eighth the cost per task, and recommends it as a “sidekick” under an Opus 5.5 lead in Fusion.Arena: added to Agent Arena, Code Arena WebDev, Text, Document and Vision, with scores pending (@arena).OpenDocRouter: added the same day (details below).Independent evaluation: Artificial Analysis@ArtificialAnlys published the most detailed third-party numbers (per-eval breakdown, comparison page).Intelligence Index: 43 at max effort, up 26 points from the previous Haiku.Slightly ahead of GLM-5.3 Flash (42), Gemini 3.8 Flash (41) and GPT-6 Luna (38).Comparable to Kimi K3 (44), a 2.8T-parameter open-weights model.Trails Claude Sonnet 5.5 at max effort (56) by 13 points.New controls. This is the first Haiku with Anthropic’s effort settings and adaptive thinking.Token usage is the main caveat.At max effort it uses about 162k output tokens per Index task, roughly 3x GPT-6 Luna at max (~50k).Going from xhigh to max adds 2 points for about 1.8x the tokens.At equal score it is still more verbose: Haiku 5.5 at high effort scores 38 using ~55k tokens, versus Luna at max scoring 38 with ~50k. The gap widens at lower effort settings.Cost figures are provisional. Artificial Analysis does not yet model the 5x price step above 100K tokens. Cost-per-task numbers will follow.AA-Briefcase (private agentic knowledge-work eval): 1578 Elo. That is ahead of Kimi K3 and GLM-5.3, and comparable to Muse Spark 1.3 at max.Terminal-Bench 4.0: 33%, up from 0% for Haiku 4.5.Level with GLM-5.3 Flash.Ahead of Gemini 3.8 Flash (20%) and GPT-6 Luna (13%).Knowledge versus hallucination (AA-Omniscience):ModelAccuracyHallucination rateHaiku 5.536%40%Gemini 3.8 Flash55%55%GPT-6 Luna44%77%Part of Haiku’s lower accuracy comes from being more willing to say it doesn’t know.AutomationBench-AA: 35%, versus 53–60% for Luna, Gemini 3.8 Flash and GLM-5.3 Flash. A pre-release safety bug caused the model to over-refuse. Anthropic is working on a fix, and Artificial Analysis will re-run the eval and expects the score to rise.Specs:1M-token context, up from 200k for Haiku 4.5.Text and image input, text output.5-m",
+      "first_seen_at": "2026-10-08T17:41:37.280363+00:00"
+    },
+    {
       "source": "Latent Space YouTube",
       "source_type": "youtube",
       "title": "AI Scientists Are Here: Autonomous Labs & Synthesis Superintelligence — Periodic Labs",
@@ -81,6 +202,15 @@
       "summary": "AI's real opportunity isn't speed. It's rethinking how a company works. Sequence Holdings CEO Michael Lee on why this is an industrial revolution moment.",
       "published_at": "2026-10-08T00:04:38+00:00",
       "first_seen_at": "2026-10-08T01:02:55.419385+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Disrupting AI-enabled “false front” operations",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+      "published_at": "2026-10-08T00:00:00+00:00",
+      "first_seen_at": "2026-10-08T17:41:37.280363+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -176,6 +306,15 @@
     {
       "source": "Hugging Face Blog",
       "source_type": "rss",
+      "title": "Introducing Falcon ASR",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "summary": "",
+      "published_at": "2026-10-07T13:21:03+00:00",
+      "first_seen_at": "2026-10-08T17:41:37.280363+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
       "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
       "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
       "summary": "",
@@ -192,20 +331,20 @@
       "first_seen_at": "2026-10-07T17:39:20.800956+00:00"
     },
     {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Helping teens learn, plan, and shape the future of AI",
-      "url": "https://openai.com/index/teens-learn-and-plan",
-      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-      "published_at": "2026-10-07T12:00:00+00:00",
-      "first_seen_at": "2026-10-07T17:39:20.800956+00:00"
-    },
-    {
       "source": "Google AI Blog",
       "source_type": "rss",
       "title": "Introducing Playground: Create and play custom games",
       "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
       "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
+      "published_at": "2026-10-07T12:00:00+00:00",
+      "first_seen_at": "2026-10-07T17:39:20.800956+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
       "published_at": "2026-10-07T12:00:00+00:00",
       "first_seen_at": "2026-10-07T17:39:20.800956+00:00"
     },
@@ -6234,142 +6373,6 @@
       "summary": "NeuraGrasp can grasp a wide range of items, from small containers to porous polybags and cloth items. | Source: Locus Robotics Locus Robotics Corp. has successfully tackled many robotic challenges in real working environments. Its autonomous mobile robots, or AMRs, have navigated",
       "published_at": "2026-08-28T13:29:51+00:00",
       "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
-    },
-    {
-      "source": "a16z AI YouTube",
-      "source_type": "youtube",
-      "title": "Why Top Founders Are Racing Into AI Infrastructure",
-      "url": "https://www.youtube.com/watch?v=Zx1Ec8LWFeM",
-      "summary": "Ben Horowitz, Martin Casado, Raghu Raghuram, and Erik Torenberg discuss the launch of a16z's new Machine Age Fund and the infrastructure buildout behind AI, from chips, memory, and networking to power, cooling, and data centers. Why a dedicated fund now? The group argues that the",
-      "published_at": "2026-08-28T13:11:59+00:00",
-      "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "The Rise of Shadow AI",
-      "url": "https://www.youtube.com/shorts/VGPs7mBr8xk",
-      "summary": "What happens when every employee becomes a builder without understanding security, compliance, or where company data goes? You end up with untracked agents triggering other agents on live enterprise data. Ofir Ehrlich and Gonen Stein of Eon join Elad Gil on No Priors to discuss t",
-      "published_at": "2026-08-28T10:29:59+00:00",
-      "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "Three Gold Medal Moments. Three Wins for AGIBOT G2. 🥇🥇🥇🤖",
-      "url": "https://www.youtube.com/watch?v=oXQVTSUSPjI",
-      "summary": "A look back at AGIBOT G2’s standout performances at the 2nd World Humanoid Robot Games, taking gold in the Indoor Emergency, Packing & Warehousing, and Pitch-Pot Challenges. Three challenges. Three golds. 🏆 #AGIBOT #HumanoidRobots #Robotics #EmbodiedAI #WHRG2026",
-      "published_at": "2026-08-28T09:59:55+00:00",
-      "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] OpenAI to reach AGI bar by end-2026",
-      "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
-      "summary": "Normally we eschew AGI timeline talk on Latent Space, because it is so ill defined and unaccountable, but, well, missing it would probably be the worse sin at this point. We last checked in on OpenAI AGI timelines 9 months ago, and, right on target, Chief Scientist Jakub Pachocki",
-      "published_at": "2026-08-28T07:12:10+00:00",
-      "details": "Normally we eschew AGI timeline talk on Latent Space, because it is so ill defined and unaccountable, but, well, missing it would probably be the worse sin at this point. We last checked in on OpenAI AGI timelines 9 months ago, and, right on target, Chief Scientist Jakub Pachocki is now saying the unreleased Astra model is the “Automated AI Research Intern” he had aimed for by September 2026. Sama goes further in their TIME interview and estimates they’ll declare AGI achieved internally by December 2026.Start the clock.AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpen-Source Robotics Breakout: Hugging Face and Pollen’s $399 MicroduckMicroduck launch: The standout hardware release was Microduck, a 25 cm open-source biped from Pollen Robotics and Hugging Face priced at $399 and slated to ship before Christmas. It can be trained in simulation and deployed on the real robot, with 15 actuators and a notably rich sensor stack including camera, speaker, LiDAR, NFC, Bluetooth, and Wi‑Fi. Launch posts from @pollenrobotics, @Thom_Wolf, and @ClementDelangue emphasize reinforcement-learning-based customization plus several pre-trained policies out of the box.Why it matters technically: The interesting part isn’t just “cheap cute robot,” but the package design: an open simulator, transfer from sim to hardware, and a form factor cheap enough to invite community policy training rather than just demo consumption. The simulator is already public via a Hugging Face Space, highlighted by @HuggingApps, and this open-loop from community training to real deployment is what got multiple researchers immediately buying units, e.g. @yacineMTB and @gneubig.Early traction and community experimentation: The release resonated unusually broadly for robotics. Thom Wolf shared experiments such as a quick image-detector integration to let the robot follow a laser pointer in real time @Thom_Wolf, then reported sales velocity of one Microduck every 5 seconds and later $1M in sales @Thom_Wolf, @Thom_Wolf. The combination of low price, open sim, and embodied RL makes this one of the more credible “consumer-scale physical AI” launches in recent memory.GLM-5.3-Flash/Ox Alpha Reveal and Local Open-Model MomentumOx Alpha unmasked as GLM-5.3-Flash: One of the biggest model stories was the confirmation that the mystery model Ox Alpha was actually Z.ai / Zhipu’s GLM-5.3-Flash, as noted by @theo, @UnslothAI, and @togethercompute. The disclosed spec repeatedly cited across tweets: 320B total params, 18B active, 1M context, and hybrid attention, with strong results on coding/agentic benchmarks.Open weights + quantization + local serving: The release caught attention because people quickly pushed it into local workflows. Unsloth said the model can run 3-bit GGUF on 128GB RAM @UnslothAI, while @danielhanchen claimed 4-bit retains 93% accuracy and makes the model practical on a 256GB Mac or two DGX Sparks. This is exactly the kind of post-release ecosystem response open-model engineers care about: quantization, serving recipes, and real deployment constraints moving almost immediately.Price/performance narrative: Several tweets framed GLM-5.3-Flash as a new efficiency frontier. @togethercompute said it nearly matches Luna on DeepSWE while doing more than twice as much work for the same budget; @theo called it good enough to reorder his model rankings; @zainhas suggested using high rather than max reasoning effort because accuracy stayed roughly flat while token usage doubled. Baseten also highlighted 122+ TPS serving throughput on day 0 @baseten, while Databricks cited 270 tok/s and 10% higher quality than GLM-5.2 at 1/10 the cost on OfficeQA Pro v2 @Yuchenj_UW.Video Generation Race: Gemini Omni 1.1 Flash and H3 MaxGemini Omni 1.1 Flash: Google released Gemini Omni 1.1 Flash, a multimodal video generation/editing model with several developer-facing controls: scene extension to 40s, first/last frame control, 3-second video references, 360p draft mode, and 4K upscaling. The rollout was announced by @Google, @GoogleAIStudio, and summarized with prompting guidance by @_philschmid. The most notable product detail is that Google is exposing increasingly explicit temporal and reference conditioning rather than just “prompt harder.”Early leaderboard results: @arena reported Omni 1.1 Flash landing #1 in Text-to-Video Arena and #2 in Image-to-Video Arena, with a +20 pt lead over the #3 text-to-video model and a +25 pt improvement over prior Gemini Omni Flash on image-to-video. That does not settle all qualitative questions, but it indicates Google’s latest post-training and control stack is translating into preference data.fal + MiniMax H3 Max: In parallel, fal launched H3 Max with MiniMax, advertising 15s of high-quality video in 5s and “50x faster” generat",
-      "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
-      "published_at": "2026-08-28T06:00:00+00:00",
-      "first_seen_at": "2026-08-29T03:11:29.280369+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Supporting Thailand’s next generation of AI startups",
-      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
-      "published_at": "2026-08-28T02:00:00+00:00",
-      "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
-    },
-    {
-      "source": "Anthropic Research",
-      "source_type": "rss",
-      "title": "Automated researchers can reliably mitigate alignment failures",
-      "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
-      "summary": "We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.",
-      "published_at": "2026-08-28T00:00:00+00:00",
-      "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "summary": "",
-      "published_at": "2026-08-28T00:00:00+00:00",
-      "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Teradyne Robotics ramps up fight against cobot copycats",
-      "url": "https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/",
-      "summary": "If imitation is the sincerest form of flattery, Teradyne Robotics has had enough compliments for one year. Teradyne Robotics, the parent company of cobot arm maker Universal Robots, has filed a patent infringement lawsuit against a German subsidiary of Chinese robotics company JA",
-      "published_at": "2026-08-27T20:31:27+00:00",
-      "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Why Isn’t China Further Behind in AI? - Dylan Patel",
-      "url": "https://www.youtube.com/shorts/JdLf3xO1hB0",
-      "summary": "",
-      "published_at": "2026-08-27T20:26:04+00:00",
-      "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "NSF to invest $90M into three new technology centers, including one focused on robotics",
-      "url": "https://www.therobotreport.com/nsf-invests-90m-three-new-technology-centers-including-one-focused-robotics/",
-      "summary": "Science and Technology Centers focus on building sustained partnerships across universities, industry, and government and accelerating the use of new ideas and technologies for scientific discovery. | Sources: NSF, left to right: Indiana University, Bloomington; Michigan State Un",
-      "published_at": "2026-08-27T18:12:54+00:00",
-      "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "Planetary prediction engine: Automating global models via Earth AI",
-      "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/",
-      "summary": "Earth AI",
-      "published_at": "2026-08-27T17:37:00+00:00",
-      "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "source_type": "rss",
-      "title": "Gemini Omni 1.1 Flash lets you build with more control",
-      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "summary": "",
-      "published_at": "2026-08-27T16:11:32+00:00",
-      "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "OpenClaw went viral. Meet the maintainers building and securing it.",
-      "url": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
-      "summary": "What began as a personal experiment quickly became a global open source project with extraordinary momentum. OpenClaw is a personal AI assistant that runs on users’ devices and connects with the messaging channels they already use. Started by Peter Steinberger as a weekend projec",
-      "published_at": "2026-08-27T16:00:00+00:00",
-      "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "3 new ways to plan and book travel in Search",
-      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
-      "summary": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
-      "published_at": "2026-08-27T16:00:00+00:00",
-      "first_seen_at": "2026-08-27T20:53:39.799575+00:00"
     },
     {
       "source": "Vidu Product Updates",
