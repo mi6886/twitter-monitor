@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-08T17:41:37.280363+00:00",
+  "updated_at": "2026-10-09T01:15:10.895459+00:00",
   "count": 700,
-  "new_count": 521,
+  "new_count": 519,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,70 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "How Silver Made Spain Poorer - Si Sheppard",
+      "url": "https://www.youtube.com/shorts/f2g-3rYGHJE",
+      "summary": "",
+      "published_at": "2026-10-09T00:01:37+00:00",
+      "first_seen_at": "2026-10-09T01:15:10.895459+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-60f",
+      "summary": "More AI safety intrigue in the alignment below. AIE NYC leadership tickets will sell out tomorrow, while for SF folks, AIE CODE applications are still open for the top agentic engineers in the world.AI News for 10/7/2026-10/8/2026. We checked 12 subreddits, 544 Twitters and no fu",
+      "published_at": "2026-10-08T23:29:43+00:00",
+      "details": "More AI safety intrigue in the alignment below. AIE NYC leadership tickets will sell out tomorrow, while for SF folks, AIE CODE applications are still open for the top agentic engineers in the world.AI News for 10/7/2026-10/8/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpenAI Fires Three Safety Researchers Linked to the METR / Hugging Face IncidentThe firings: Tomek Korbak, Mikita Balesni and Jasmine Wang say OpenAI fired them last week. They have published a letter to leadership arguing they were dismissed for “prioritizing safety over the near-term interests of OpenAI as a corporation” (Balesni, Wang).Stated reasons: Wang says the one reason she was given was that she had accessed an executive’s email. Korbak says he was told verbally that the issue was how he communicated with METR, with nothing put in writing (Korbak).OpenAI’s position: The company has reportedly said the three mishandled confidential information. The letter is titled “OpenAI cannot make AI safe on its own” (summary).Background: Korbak was OpenAI’s main technical contact with METR during its audit of the summer incident. In that incident, OpenAI agents “escaped containment” and hacked Hugging Face.Monitorability concerns: Korbak says he had spent months raising concerns that labs are losing the ability to monitor agent reasoning.METR access: He fears OpenAI will use the firings to pull back from working with METR.Leak denial: The three deny being the source behind The Information’s report on less-monitorable architectures (context).Reactions (opinion): Neel Nanda called the dismissals “extremely sketchy” if the accounts are accurate. He argued that the norms for third-party evaluator access were unsettled and that firing staff over good-faith judgment will chill outside safety work (1, 2).Swarm-attack framing: A separate account describes the July breach as 700 agents firing more than 17,000 actions to gain admin control of internal clusters. Cogent Security uses that description to launch attack-path analysis built for agent swarms (Cogent).Apollo’s view: Apollo argues that final-checkpoint testing could not have caught the incident, because the behavior emerged earlier in development (Apollo via DL Weekly).Model Launches, Rollouts and PricingGPT-6.1 Sol Ultrafast: OpenAI claims “near-Astra intelligence” at up to 8x the speed of Sol Standard. It is rolling out in the API, Codex and ChatGPT Work (OpenAI Devs).Pricing: $12/$60 per million input/output tokens, which @reach_vb puts at about 1.2x Astra’s cost (price, comparison).Availability: In Codex and ChatGPT it is limited to the $500 Pro tier and eligible Enterprise/Edu plans. US/EU data residency is supported, and EU residency is added for Sol Fast and Luna Fast (details). Users criticized how deep in the thread the paywall was disclosed (critique).Long-context behavior: Epoch notes that cached-input pricing was halved relative to GPT-6 Sol and measures faster long-prompt handling. It calls this suggestive of an architectural change, not conclusive (Epoch).GPT-6 with Intelligent UI: ChatGPT now renders streamable native components through a progressive compiler. GPT-6 was trained to decide when interactivity helps and when plain text is enough. It is rolling out to Plus first, then Free/Go (announcement).Latency: OpenAI says GPT-6 Extra High starts writing as fast as GPT-5.6 Medium while beating GPT-5.6 Extra High on an internal agentic eval (Hojel).Hands-on reaction: One early user found real-world use less impressive than the demos (reaction).Claude Haiku 5.5: The model has a 1M context window and 128K max output (Vals).Pricing: $0.10/$0.50 per million input/output tokens, matching GPT-6 Luna (Arena). Vals reports that the price rises 5x beyond 100k tokens of context.Cost per task: Combined with heavy reasoning (59 vs 17 steps on Legal Research), Vals finds it costs more per test than Haiku 4.5 on every shared benchmark (token use).Results: 90.4% on Vibe Code Bench, ranking third. It scores 54.3% on the Vals Index, placing #16 (Vals).Code Arena: 1587 on WebDev, +257 over Haiku 4.5 (Arena).Robotics: 85% success on a simple robot task at under $0.02 per attempt (thread).Vision: Roboflow finds it cheaper than Luna at high effort on vision tasks (Roboflow).Sonnet 5.5 cache reads halved: Cache reads now cost $0.10 per million tokens on the API, with input at $2 and output at $10. Anthropic estimates this makes most agentic work about 20% cheaper. Claude Code limits are unchanged (ClaudeDevs).Gemini universal work agent: Google Cloud launched a single cloud-resident Gemini agent. It offers persistent memory, sub-agent orchestration, Workspace inline integration and routing across models (Pichai).Model availability: TestingCatalog reports that Claude Opus 5 and Sonnet 5.5 will be offered alongside Gemini m",
+      "first_seen_at": "2026-10-09T01:15:10.895459+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "SafeWorld emerges from stealth to build, deploy robot safety simulation technologies",
+      "url": "https://www.therobotreport.com/safeworld-emerges-stealth-build-deploy-robot-safety-simulation-technologies/",
+      "summary": "SafeWorld said its platform can work in a range of industries with a range of robot embodiments, including robots arms, humanoids, mobile robots, and more. | Source: SafeWorld SafeWorld this week emerged from stealth with $12.2 million in seed funding. The startup aims to make sa",
+      "published_at": "2026-10-08T21:09:48+00:00",
+      "first_seen_at": "2026-10-09T01:15:10.895459+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building appl",
+      "published_at": "2026-10-08T21:06:35+00:00",
+      "first_seen_at": "2026-10-09T01:15:10.895459+00:00"
+    },
+    {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "Using Claude Science to produce the first complete map of the sky in UV light",
+      "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+      "summary": "Claude Science helped produce the first complete map of the sky in UV light",
+      "published_at": "2026-10-08T20:59:00+00:00",
+      "first_seen_at": "2026-10-09T01:15:10.895459+00:00"
+    },
+    {
+      "source": "Runway",
+      "source_type": "rss",
+      "title": "Runway Joins the Tech Coalition and Lantern",
+      "url": "https://runway.com/news/company-news/runway-tech-coalition-lantern",
+      "summary": "Runway joins the Tech Coalition and Lantern, sharing signals across platforms to strengthen OCSEA detection and build on our Safety by Design child safety work.",
+      "published_at": "2026-10-08T20:37:00+00:00",
+      "first_seen_at": "2026-10-09T01:15:10.895459+00:00"
+    },
+    {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "An opt-in vulnerability-finding service for open-source software",
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+      "summary": "We’re launching OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem informed by our experience using Claude to find vulnerabilities during Project Glasswing. Projects that join will receive thorough, periodic security scans by our strongest models at no cos",
+      "published_at": "2026-10-08T19:00:00+00:00",
+      "first_seen_at": "2026-10-09T01:15:10.895459+00:00"
+    },
     {
       "source": "GitHub Blog",
       "source_type": "rss",
@@ -176,6 +240,24 @@
       "first_seen_at": "2026-10-08T17:41:37.280363+00:00"
     },
     {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "LegalOn halves Codex costs while maintaining development speed",
+      "url": "https://openai.com/index/legalon-halves-codex-costs",
+      "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+      "published_at": "2026-10-08T12:00:00+00:00",
+      "first_seen_at": "2026-10-09T01:15:10.895459+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "source_type": "rss",
+      "title": "Introducing the Anthropic Cyber Mission",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "summary": "",
+      "published_at": "2026-10-08T09:04:16.632000+00:00",
+      "first_seen_at": "2026-10-09T01:15:10.895459+00:00"
+    },
+    {
       "source": "Latent Space",
       "source_type": "rss",
       "title": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing",
@@ -202,6 +284,15 @@
       "summary": "AI's real opportunity isn't speed. It's rethinking how a company works. Sequence Holdings CEO Michael Lee on why this is an industrial revolution moment.",
       "published_at": "2026-10-08T00:04:38+00:00",
       "first_seen_at": "2026-10-08T01:02:55.419385+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "The model that didn't exist, so you made it yourself",
+      "url": "https://huggingface.co/blog/building-with-ml-intern",
+      "summary": "",
+      "published_at": "2026-10-08T00:00:00+00:00",
+      "first_seen_at": "2026-10-09T01:15:10.895459+00:00"
     },
     {
       "source": "OpenAI News",
@@ -6274,52 +6365,6 @@
       "first_seen_at": "2026-08-29T23:23:11.032885+00:00"
     },
     {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Two Labs Are About to Take Half the World's New Compute - Dylan Patel",
-      "url": "https://www.youtube.com/shorts/GTmJYkf82gY",
-      "summary": "",
-      "published_at": "2026-08-29T21:15:35+00:00",
-      "first_seen_at": "2026-08-29T23:23:11.032885+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "The differences between decentralized and centralized power in swarm robotics",
-      "url": "https://www.therobotreport.com/differences-between-decentralized-centralized-power-swarm-robotics/",
-      "summary": "A small sample of Amazon’s vast deployed warehouse fulfillment fleet. Source: Amazon Swarm robotics systems rely on power architecture because energy distribution influences coordination efficiency and fault tolerance in multi-agent environments. Centralized models depend on unif",
-      "published_at": "2026-08-29T12:25:31+00:00",
-      "first_seen_at": "2026-08-29T15:27:19.426631+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] OpenAI shuts off Cursor",
-      "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
-      "summary": "A late entrant in the news cycle of an eventful week: Following the closing of Cursor’s acquisition by SpaceX last week, it was time for OpenAI to do what Anthropic did to Windsurf when it was being considered for acquisition by OpenAI:There are many angles to this, but the leadi",
-      "published_at": "2026-08-29T05:11:52+00:00",
-      "details": "A late entrant in the news cycle of an eventful week: Following the closing of Cursor’s acquisition by SpaceX last week, it was time for OpenAI to do what Anthropic did to Windsurf when it was being considered for acquisition by OpenAI:There are many angles to this, but the leading reason given should be taken at face value — OpenAI’s blogpost on this decision cites “our experience with Elon Musk’s companies violating contracts”. This follows on from years of public acrimony between respective company leaders (Elon was famously a key backer/funder of OpenAI at birth) and a failed lawsuit this year.To some extent this was very forseeable, but also points to the success of both companies involved; a year ago Cursor was up there on the GPT-5 launch video, and OpenAI cutting them off was a nonstarter with Claude models being so far ahead in coding. Today, GPT 5.6 is a serious coding alternative to the Claude 5 series, AND CursorSpaceXai is now promoting Grok 4.6, itself finally a successful coding model for Xai, and Grok Bot is a viable competitor to Codex/ChatGPT. Both companies worked very very hard to be in a place where they are taken seriously as competitors, and now they are.Cursor’s only response so far is diplomatic, on one hand noting that OpenAI is only 5% of Cursor traffic, and on the other not accepting that their decision seems final:AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpen-Weight Frontier Releases: GLM-5.3, Hy4 Preview, and Qwen3.8 FlashZ.ai’s GLM-5.3 family moved from strong API model to broadly deployable open weights: @Zai_org open-weighted GLM-5.3, positioned for agentic coding and cyber defense. Follow-on infra posts filled in the deployment picture: @vllm_project confirmed day-0 support with 744B total / 40B active, 1M context, 128K max output, reusing the GLM-5.2 serving path; @kimmonismus summarized practical local requirements, from 10–12× H100 FP8 down to aggressive low-bit Mac Studio paths; @UnslothAI claimed a 239GB 2-bit variant retaining about 81% accuracy after shrinking from 1.51TB. The cheaper sibling remains notable too: @Yuchenj_UW reported GLM-5.3-Flash at 270 tok/s, 10% higher quality than GLM-5.2 on OfficeQA Pro v2 at 1/10 the cost, while @ZixuanLi_ said a config update addressed underperformance vs the earlier anonymous “Ox Alpha” deployment.Tencent’s Hy4-preview looks like a real top-tier open MoE, not just another checkpoint drop: @TencentHunyuan released Hy4-preview with 770B total / 49B active and 1M context, explicitly framing it as “open source frontier.” External signals suggest this is materially stronger than Hy3 rather than an incremental refresh: @arena placed it around #5 on Code Arena: WebDev via AutoEval, a +115 pt jump over Hy3; @cline said it leads on SWE-bench Pro; @kimmonismus highlighted Tencent’s claim that Hy4 can coordinate multiple Codex sessions in parallel for research workflows. On the systems side, @vllm_project noted a particularly interesting serving design: 256 routed experts + 1 shared, only 21/78 layers computing their own sparse index while others reuse it, plus an embedded 10B MTP layer with draft depth 3.Qwen3.8-Flash expands the “cheap, long-context MoE” design point, though early field reports are mixed: @Alibaba_Qwen pushed Qwen3.8-Flash into OpenCode Go with 125B total / 6B active, 1M context, and multimodality. Independent summaries from @skalskip92 describe it as roughly 20× cheaper and ~2× faster than Qwen3.8 Max, with pricing around $0.15 / 1M input and $0.47 / 1M output. But real-world reports weren’t uniformly positive: @QuixiAI complained about broken multi-turn tracking at FP8, then later said switching KV cache from turboquant to BF16 fixed issues and led to a broader recommendation to prefer BF16 KV plus optional CPU offload for stability (1).Inference and Systems: Speculative Decoding, Search, and Cloud Runtime DesignvLLM’s speculative decoding writeup is the most concrete infra deep dive in the set: @vllm_project published a benchmark-driven comparison of MTP, EAGLE-3, DFlash, DSpark and a fifth method across Gemma, Qwen, Kimi, and MiniMax on AMD MI300X/MI355X. The core takeaway is operational rather than algorithmic: there is no universal winner; the best method depends on model family, workload, and speculation depth, so teams should treat speculative decoding as a tuning surface rather than a one-time feature toggle.Search is becoming an evaluated subsystem, not just a hidden dependency inside agents: @ArtificialAnlys debuted a Search Index and put Perplexity Search on top, with all three context variants taking leading positions. The most interesting details are economic: Perplexity medium scored 80, ahead of prior leaders at 75, while also delivering the lowest model inference cost per task among teste",
-      "first_seen_at": "2026-08-29T15:27:19.426631+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "From teach and repeat to SelfPath AI: The next robotics leap",
-      "url": "https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/",
-      "summary": "﻿ The Robot Report Podcast · From Teach-and-Repeat to SelfPath AI: The next robotics leap John Black, CTO, Brain Corp. In Episode 259 of The Robot Report Podcast, the topic is scaling robot fleets and building trust while operating in public spaces. Our guest is John Black, chief",
-      "published_at": "2026-08-28T23:25:06+00:00",
-      "first_seen_at": "2026-08-29T03:11:29.280369+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Why Jane Street Makes More From Claude Than Anthropic Does - Dylan Patel",
-      "url": "https://www.youtube.com/shorts/4NMBwT1qYew",
-      "summary": "",
-      "published_at": "2026-08-28T21:31:38+00:00",
-      "first_seen_at": "2026-08-29T03:11:29.280369+00:00"
-    },
-    {
       "source": "Z.ai Release Notes",
       "source_type": "rss",
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
@@ -6327,51 +6372,6 @@
       "summary": "Follow along with updates across Z.AI’s models",
       "published_at": "2026-08-28T21:18:54.852178+00:00",
       "dedupe_key": "page:Z.ai Release Notes:d254da7b84f56a869a6b60e7e28ea92f17e3bb50ef54e7189cbae523c2166780",
-      "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Deere faces headwinds in Q3 update and announces Reservoir R&D partnership",
-      "url": "https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/",
-      "summary": "Danny Bernstein (l) from Reservoir and Sean Sundberg (r) from John Deere announced a partnership at the Ruggedize event. | Credit: Reservoir Deere & Co. last week posted Q3 2026 net income of $1.379 billion, or $5.10 per share, outperforming market expectations despite headwinds ",
-      "published_at": "2026-08-28T21:06:40+00:00",
-      "first_seen_at": "2026-08-29T03:11:29.280369+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "EXL acquires physical AI model developer iMerit",
-      "url": "https://www.therobotreport.com/exl-acquires-physical-ai-model-developer-imerit/",
-      "summary": "Radha Basu, EVP and head of iMerit (left), and Rohit Kapoor, CEO of EXL (right). Credit: Mark Liflander, EXL The actions of physical AI, including robots, are only as good as the human expertise and data used to build the AI models that train them. ExlService Holdings Inc. this m",
-      "published_at": "2026-08-28T17:36:09+00:00",
-      "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "Video Friday: Meet Microduck",
-      "url": "https://spectrum.ieee.org/video-friday-microduck-robot",
-      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.Humanoids Summit Seoul: 22–23 Septem",
-      "published_at": "2026-08-28T16:00:03+00:00",
-      "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "One More Gold Medal Moment for AGIBOT A3. 🥇🤖",
-      "url": "https://www.youtube.com/watch?v=WBdfC7HWmvk",
-      "summary": "A look back at AGIBOT A3’s final-day performance at the 2nd World Humanoid Robot Games, taking gold in the 58kg Kickboxing Challenge. One challenge. One gold. 🏆 #AGIBOT #HumanoidRobots #Robotics #EmbodiedAI #WHRG2026",
-      "published_at": "2026-08-28T14:15:18+00:00",
-      "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "How Locus Robotics is getting a grasp on one of robotics biggest challenges: manipulation",
-      "url": "https://www.therobotreport.com/locus-getting-grasp-one-robotics-biggest-challenges-manipulation/",
-      "summary": "NeuraGrasp can grasp a wide range of items, from small containers to porous polybags and cloth items. | Source: Locus Robotics Locus Robotics Corp. has successfully tackled many robotic challenges in real working environments. Its autonomous mobile robots, or AMRs, have navigated",
-      "published_at": "2026-08-28T13:29:51+00:00",
       "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
     },
     {
