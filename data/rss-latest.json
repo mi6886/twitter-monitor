@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-09T17:16:53.424078+00:00",
+  "updated_at": "2026-10-10T00:56:43.172149+00:00",
   "count": 700,
-  "new_count": 516,
+  "new_count": 523,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,6 +65,93 @@
   ],
   "items": [
     {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+      "url": "https://www.latent.space/podcast",
+      "summary": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind’s Pushmeet Kohli and Biohub’s Sal Candido are rethinking what it takes to build AI that truly understands biology. In this special panel moderated by Brandon Anderson, they explore ",
+      "published_at": "2026-10-10T00:31:26+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/219666029/a55c7eb779368b4623e64d0933a07f0f.mp3",
+      "details": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind’s Pushmeet Kohli and Biohub’s Sal Candido are rethinking what it takes to build AI that truly understands biology. In this special panel moderated by Brandon Anderson, they explore why AlphaFold’s breakthrough was only the beginning, why scaling compute and data alone won’t solve biology, and how the next generation of AI models could transform our understanding of proteins, cells, and human disease.We go deep on the future of AI-driven biology: finding scaling laws in biological data, the tradeoffs between scientific intuition and general-purpose architectures, why protein structure prediction is far from solved, and what it would take to build predictive models of living systems. Pushmeet reflects on the lessons behind AlphaFold, the limits of human interpretability, and whether future frontier models could understand other AI systems better than we can. Sal explains why protein language models may already contain scientific knowledge we haven’t unlocked, how biological modeling must move beyond individual proteins, and why achieving Biohub’s mission to cure all disease requires thinking in terms of 10x breakthroughs rather than incremental improvements.We discuss:The Bitter Lesson for biology: why scaling compute and data isn’t enoughWhy finding the right scaling law matters more than blindly increasing model sizeHow low-quality metagenomic data can improve protein language modelsWhy AI researchers optimize for available data instead of the most important scientific problemsLessons from DeepMind on balancing modeling, data generation, and scientific expertiseWhy building a virtual cell requires fundamentally different datasetsAlphaFold’s handcrafted architecture and the role of scientific intuitionWhy good data matters more than simply having more dataInductive biases, scaling laws, and the future of specialized AI architecturesWhy we aren’t in a post-Transformer world, but architectures are evolvingWhy AlphaFold didn’t actually solve all of protein foldingProtein dynamics, disorder, and the limitations of static structure predictionHow cryo-EM micrographs could unlock richer biological representationsMoving from models of individual proteins to whole biological systemsFeynman’s famous principle and why AI can now create things we don’t understandThe hidden biological knowledge inside protein language modelsWhy trustworthiness and uncertainty calibration matter more than full interpretabilityWhether frontier AI models could interpret other AI systems better than humansWhen AI could deliver 10x–100x acceleration in drug discoveryWhy curing all disease requires thinking about 10x breakthroughs instead of 10% improvementsPushmeet Kohli — Google DeepMindX: https://x.com/pushmeetLinkedIn: https://www.linkedin.com/in/pushmeet-kohli-4838994/Sal Candido — BiohubBiohub: https://biohub.org/team/salvatore-candido/X: https://x.com/salcandidoLinkedIn: https://www.linkedin.com/in/salcandido/Brandon Anderson — ModeratorLinkedIn: https://www.linkedin.com/in/brandon--andersonTimestamps00:00:00 Introduction: The Bitter Lesson for Biological Data00:01:00 Finding Scaling Laws and the Right Data for Biology00:04:54 DeepMind’s Bitter Lesson: Solving Problems vs. Scaling Models00:06:50 AlphaFold, Data Limitations, and Building the Virtual Cell00:09:52 Handcrafted Architectures vs. Scaling Compute00:11:53 Good Data, Inductive Bias, and Model Design00:13:39 Beyond Transformers: The Future of AI Architectures00:14:38 Why AlphaFold Hasn’t Solved Protein Folding00:17:39 Protein Dynamics, Design, and Cryo-EM00:19:09 From Individual Proteins to Whole Biological Systems00:20:43 Feynman’s Principle: Creating Without Understanding00:22:18 The Hidden Knowledge Inside Protein Language Models00:23:48 AlphaFold, Trustworthiness, and Interpretability00:25:56 Could AI Understand Other AI Models Better Than Humans?00:27:43 When Will AI Revolutionize Drug Discovery?00:29:47 Why Curing All Disease Requires 10x BreakthroughsTranscriptIntroduction: Is There a Bitter Lesson for Data?Brandon Anderson [00:00:04]: Great to be here. What an exciting morning. So many cool announcements. I think the future of bioscience is being announced right here. This is the modeling session. We’re all modelers, so of course it’s natural for us to talk about data.One of the things I like to think about when it comes to data is how to scale it properly. This has brought me to the question of the bitter lesson, but recast in the frame of data. The bitter lesson, for those of you who are not AI people, is the statement that methods that scale win eventually. If you can scale enough, it wins. So my question, starting with Sal, is: Is there a bitter lesson for data?Sal Candido [00:01:00]: For sure. You obviously need the right data in order for it to work. One misconception of scaling laws is that scaling laws are everywhere and they always exist. A lot of the work is actual",
+      "dedupe_key": "podcast:c97668a26e1e0acada7d1d4b404219f6c83c77d3",
+      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+      "url": "https://www.youtube.com/watch?v=NufiHZfMwaw",
+      "summary": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind’s Pushmeet Kohli and Biohub’s Sal Candido are rethinking what it takes to build AI that truly understands biology. In this special panel moderated by Brandon Anderson, they explore ",
+      "published_at": "2026-10-10T00:30:41+00:00",
+      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "Why Open Models Can Make Us Safer",
+      "url": "https://www.youtube.com/shorts/z2z1iF2qVK0",
+      "summary": "You can't separate cyber offense from defense. Reflection CEO Misha Laskin explains how restricting access to powerful AI capabilities can leave defenders less equipped to protect themselves, while open models can help level the playing field.",
+      "published_at": "2026-10-10T00:19:04+00:00",
+      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "Why Moctezuma’s Own People Turned on Him - Si Sheppard",
+      "url": "https://www.youtube.com/shorts/BWnygfn04qA",
+      "summary": "",
+      "published_at": "2026-10-10T00:00:15+00:00",
+      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Why humanoid robot demos still fail the generalization test",
+      "url": "https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/",
+      "summary": "The Robot Report Podcast · Why humanoid robot demos still fail the generalization test Jeanine Sinanan-Singh, director of GenAI research at Appen. In Episode 265 of The Robot Report Podcast, our guest is Jeanine Sinanan-Singh, director of generative AI Research at Appen. She disc",
+      "published_at": "2026-10-09T19:28:41+00:00",
+      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin",
+      "url": "https://www.youtube.com/watch?v=up4sG9RM20M",
+      "summary": "Is the future of frontier AI open or closed? ReflectionAI co-founder and CEO Misha Laskin joins Sarah Guo and Elad Gil to discuss the launch of Beam, the company’s 500 billion parameter open-weight reasoning model. Misha breaks down the pre-training and reinforcement learning req",
+      "published_at": "2026-10-09T17:28:41+00:00",
+      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
+    },
+    {
+      "source": "No Priors Podcast",
+      "source_type": "rss",
+      "title": "Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin",
+      "url": "https://no-priors.com/",
+      "summary": "Is the future of frontier AI open or closed? ReflectionAI co-founder and CEO Misha Laskin joins Sarah Guo and Elad Gil to discuss the launch of Beam, the company’s 500 billion parameter open-weight reasoning model. Misha breaks down the pre-training and reinforcement learning req",
+      "published_at": "2026-10-09T17:24:00+00:00",
+      "audio_url": "https://traffic.megaphone.fm/PDP1028435739.mp3",
+      "details": "Is the future of frontier AI open or closed? ReflectionAI co-founder and CEO Misha Laskin joins Sarah Guo and Elad Gil to discuss the launch of Beam, the company’s 500 billion parameter open-weight reasoning model. Misha breaks down the pre-training and reinforcement learning required to produce Beam’s reasoning efficiency, the shift in enterprise compute from renting to owning intelligence, and how he believes that open models will capture the majority of global token demand. He also talks about the open model ecosystem in China and why competition with China’s models is a good thing, safety considerations around open models, and how frontier-level open models may accelerate the pace of scientific discovery. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @MishaLaskin | @reflection_ai Chapters: 00:42 – Misha Laskin Introduction 00:59 – Latest with ReflectionAI 02:07 – Challenges Building an Open Model 03:56 – ReflectionAI’s Agentic Shift 07:37 – Resources for Model Training 10:09 – Scaling Efficiency 12:18 – Training Beam 16:51 – Where Model Value Comes From 19:55 – Beam’s Reasoning Efficiency 22:35 – Monetizing Open Weight Models 25:03 – Future of Open Versus Closed Tokens 31:29 – Competition with Open Models 34:38 – Chinese Open Source Model Ecosystem 38:40 – Will Chinese Models Remain Open 44:44 – Safety and Open Models 53:02 – Debating Access to Powerful Tools 57:16 – AI and Scientific Progress 01:00:36 – Data Centers and Jobs 01:02:07 – Beam and Scientific Research 01:05:37 – Research Head Count to Compute Ratio 01:10:29 – Conclusion",
+      "dedupe_key": "podcast:2e8c396aa1c848753ca7098ba82e8d4bf605ffbf",
+      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Boston Dynamics gives more insight into its redesigned humanoid hand",
+      "url": "https://www.therobotreport.com/boston-dynamics-gives-more-insight-into-its-redesigned-humanoid-hand/",
+      "summary": "Boston Dynamics said its new hand is still capable of handling over 100 lb. | Source: Boston Dynamics Last week, Boston Dynamics Inc. gave a look at its new humanoid robot hand. The four-fingered hand has 13 degrees of freedom, or DoF, and is directly actuated. The company said i",
+      "published_at": "2026-10-09T16:59:57+00:00",
+      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
+    },
+    {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "Investigating unintended model actions in our evaluations and internal use",
+      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+      "summary": "",
+      "published_at": "2026-10-09T16:09:00+00:00",
+      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
+    },
+    {
       "source": "GitHub Blog",
       "source_type": "rss",
       "title": "Hack the World: Why hackathons are still the best place to learn to build",
@@ -72,6 +159,15 @@
       "summary": "Someone bursts through the door and announces, “There’s pizza!” Nearby, a team has duct tape and cardboard holding its prototype together. Another is debugging a model that won’t detect their movements. This is a common scene during hackathons, and for a lot of people they’re the",
       "published_at": "2026-10-09T16:00:00+00:00",
       "first_seen_at": "2026-10-09T17:16:53.424078+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "source_type": "rss",
+      "title": "Video Friday: Robot Decommissioning Takes a Fun Turn",
+      "url": "https://spectrum.ieee.org/video-friday-reachy-mini-raps",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.CoRL 2026: 9–12 November 2026, AUSTI",
+      "published_at": "2026-10-09T15:30:02+00:00",
+      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -92,6 +188,15 @@
       "first_seen_at": "2026-10-09T17:16:53.424078+00:00"
     },
     {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Groceryshop 2026 shows that retail robots are ready to scale, use AI",
+      "url": "https://www.therobotreport.com/groceryshop-2026-shows-retail-robots-ready-scale-use-ai/",
+      "summary": "Groceryshop 2026 provided an opportunity to assess the state of retail robotics. Source: Georges Mirza It has been more than a decade since I first helped to bring robots to live retail center stores. Long gone are retailers’ concerns about robots taking jobs, scaring kids, accid",
+      "published_at": "2026-10-09T12:25:47+00:00",
+      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
+    },
+    {
       "source": "OpenAI News",
       "source_type": "rss",
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
@@ -99,6 +204,15 @@
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "published_at": "2026-10-09T07:00:00+00:00",
       "first_seen_at": "2026-10-09T17:16:53.424078+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "published_at": "2026-10-09T07:00:00+00:00",
+      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -2241,6 +2355,15 @@
       "summary": "The R4 robot is designed to help vineyard, orchard and specialty crop growers overcome sector challenges. | Source: CNH Industrial 2026 has been a tumultuous year for farmers in America. Global trade wars mean farmers’ supplies are growing more expensive, while many crop prices h",
       "published_at": "2026-09-25T12:18:36+00:00",
       "first_seen_at": "2026-09-25T15:42:53.764762+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Lowe’s answers millions of home improvement questions with OpenAI",
+      "url": "https://openai.com/index/lowes",
+      "summary": "Lowe’s uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and move home improvement projects forward.",
+      "published_at": "2026-09-25T07:00:00+00:00",
+      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
     },
     {
       "source": "Latent Space",
@@ -6242,126 +6365,6 @@
       "summary": "This is a video version of a post I wrote. If you want to read the original you can check it out here: https://www.dwarkesh.com/p/openai-huggingface Or listen to it on Spotify: https://open.spotify.com/episode/3twazfjzERPbaBx1zHZtG2?si=23PAgS7qTsqJCLsxuTX1VQ Or Apple Podcasts: ht",
       "published_at": "2026-08-31T20:49:34+00:00",
       "first_seen_at": "2026-09-01T00:39:26.622058+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast",
-      "source_type": "rss",
-      "title": "The rise and fall of agent civilizations",
-      "url": "https://www.dwarkesh.com/podcast",
-      "summary": "This is a video recording of a post I wrote last week. You can read the original here.",
-      "published_at": "2026-08-31T20:36:53+00:00",
-      "audio_url": "https://api.substack.com/feed/podcast/213603862/d5d65fe19895665329a808914904c59a.mp3",
-      "details": "This is a video recording of a post I wrote last week. You can read the original here.",
-      "dedupe_key": "podcast:49f7e20a9db72f4ea8c6828849d6cde79007c9eb",
-      "first_seen_at": "2026-09-01T00:39:26.622058+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "How better grippers can unlock physical AI",
-      "url": "https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/",
-      "summary": "Models can generate actions, but hardware must execute those actions. | Credit: OnRoot Physical AI promises robots that can perceive, act and adapt in the real world with far less task-specific engineering than traditional automation. It’s a compelling proposition: robots powered",
-      "published_at": "2026-08-31T20:20:25+00:00",
-      "first_seen_at": "2026-09-01T00:39:26.622058+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Reframe Systems raises $40M to scale its robotic microfactories for home building",
-      "url": "https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/",
-      "summary": "Reframe Systems combines robotics, Pixels to Parts software, and a network of microfactories to build homes. | Source: Reframe Systems Reframe Systems, a robotics company using physical AI to industrialize home construction, today announced said it has raised $40 million. The com",
-      "published_at": "2026-08-31T18:46:48+00:00",
-      "first_seen_at": "2026-09-01T00:39:26.622058+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
-      "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
-      "summary": "Data Management",
-      "published_at": "2026-08-31T17:19:40+00:00",
-      "first_seen_at": "2026-08-31T17:50:24.016690+00:00"
-    },
-    {
-      "source": "The Robot Report YouTube",
-      "source_type": "youtube",
-      "title": "Reframe Systems raises $40 million",
-      "url": "https://www.youtube.com/watch?v=G-WDPmgLxFk",
-      "summary": "Reframe Systems, a robotics company using physical AI to industrialize home construction, announced it raised $40 million.",
-      "published_at": "2026-08-31T16:34:06+00:00",
-      "first_seen_at": "2026-08-31T17:50:24.016690+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Tech Blog",
-      "source_type": "rss",
-      "title": "Scale AV Perception Across Vehicle Platforms with NVIDIA Omniverse NuRec",
-      "url": "https://developer.nvidia.com/blog/scale-av-perception-across-vehicle-platforms-with-nvidia-omniverse-nurec/",
-      "summary": "A perception stack is shaped by the vehicle that carries it. Move the same software to a new carline—for example, from an SUV to a sedan or another vehicle variant in the portfolio—and its perception of the world changes. The sensor placement, calibration, fields of view, occlusi",
-      "published_at": "2026-08-31T16:00:00+00:00",
-      "first_seen_at": "2026-08-31T17:50:24.016690+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "The #1 Problem in Cybersecurity",
-      "url": "https://www.youtube.com/shorts/a_tmPM-_Cfs",
-      "summary": "Identifying non-human identity has become one of the top priorities in cybersecurity. In a world where agents now write most of the code running online, Eon co-founders Ofir Ehrlich and Gonen Stein say, \"Dashboards will be the only way to figure out what the hell is going on in t",
-      "published_at": "2026-08-31T14:43:08+00:00",
-      "first_seen_at": "2026-08-31T17:50:24.016690+00:00"
-    },
-    {
-      "source": "a16z AI YouTube",
-      "source_type": "youtube",
-      "title": "Why AI Demand Is Outrunning Compute Supply",
-      "url": "https://www.youtube.com/watch?v=FGC4ofTcg2k",
-      "summary": "a16z’s David George sits down with Gavin Baker to unpack the state of the AI boom, why demand for intelligence may still be dramatically underestimated, and why the outcome doesn't necessarily have to be winner-take-all. David and Gavin explore the possibility that frontier labs,",
-      "published_at": "2026-08-31T14:01:07+00:00",
-      "first_seen_at": "2026-08-31T17:50:24.016690+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Early bird pricing for RoboBusiness 2026 ends August 31",
-      "url": "https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/",
-      "summary": "Your chance to get discounted passes to RoboBusiness 2026, the leading event for commercial robotics developers, will come to an end next week. Early bird pricing for the show, which saves attendees $200 on full conference passes, will end Aug. 31, 2026. For expo-only passes, ear",
-      "published_at": "2026-08-31T12:41:56+00:00",
-      "first_seen_at": "2026-08-25T21:46:16.846930+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "url": "https://openai.com/index/polimill",
-      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "published_at": "2026-08-31T07:00:00+00:00",
-      "first_seen_at": "2026-09-01T00:39:26.622058+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "OpenAI supports California’s bill to advance youth AI safety",
-      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-      "published_at": "2026-08-31T07:00:00+00:00",
-      "first_seen_at": "2026-09-01T15:22:05.556542+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "A milestone in expanding access to AI",
-      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-      "published_at": "2026-08-31T04:00:00+00:00",
-      "first_seen_at": "2026-08-31T17:50:24.016690+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "How did A3 do that? 🤖 Go behind the scenes with our engineers",
-      "url": "https://www.youtube.com/watch?v=fJIV9WMKHC0",
-      "summary": "How did A3 do that? 🤖 A3’s performance in the arena is the result of more than powerful hardware. Behind every dynamic movement is a combination of robotics, control, training and engineering — brought together by the AGIBOT team. Go behind the scenes with our engineers as they b",
-      "published_at": "2026-08-31T02:40:56+00:00",
-      "first_seen_at": "2026-08-31T17:50:24.016690+00:00"
     },
     {
       "source": "Z.ai Release Notes",
