@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-10T00:56:43.172149+00:00",
+  "updated_at": "2026-10-10T16:05:35.435052+00:00",
   "count": 700,
-  "new_count": 523,
+  "new_count": 520,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,45 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "Z.ai Release Notes",
+      "source_type": "rss",
+      "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
+      "url": "https://docs.z.ai/release-notes/new-released",
+      "summary": "Follow along with updates across Z.AI’s models",
+      "published_at": "2026-10-10T16:06:06.455273+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:6adbd979b87a8810b01824823854727690c8dd78b52eea3896cd313f238516db",
+      "first_seen_at": "2026-10-10T16:05:35.435052+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
+      "url": "https://www.latent.space/p/standard-bots",
+      "summary": "When you think of robotics and AI, you probably first think of full humanoid robots like Figure’s AI-powered machines and 1X’s NEO home robots. Those may well be the future, but arguably more important in 2026 is industrial robots — which are typically not humanoids.Standard Bots",
+      "published_at": "2026-10-10T14:04:11+00:00",
+      "details": "When you think of robotics and AI, you probably first think of full humanoid robots like Figure’s AI-powered machines and 1X’s NEO home robots. Those may well be the future, but arguably more important in 2026 is industrial robots — which are typically not humanoids.Standard Bots claims to be “America’s largest AI-native industrial robot manufacturer.” It recently raised $200 million at a $1 billion valuation, in a series C round led by General Catalyst and RoboStrategy, a fund focused on robotics. Its customers include NASA, Amazon and Lockheed Martin.We spoke to Evan Beard, co-founder and CEO, and Leif Jentoft, Head of AI, to find out more about Standard Bots’ AI stack and how its models work.To set the scene, Standard Bots’ industrial robot arms are designed for tasks such as machine tending, welding, and assembly. Here’s a quick demo by Jentoft:Pretrained models and task-specific adaptationAccording to Beard, Standard Bots has a shared base model that customers adapt through demonstrations and fine-tuning. Jentoft added that Standard Bots runs a range of models, including a zero-shot perception system for machine tending.Beard says its largest model is in the low billions of parameters — so it’s not that large by frontier lab standards.“We believe data quality matters far more than raw volume,” said Jentoft, “and we focus on getting the most out of targeted data rather than chasing the largest possible dataset.” (This matches the “bitterest lesson” of Jev creator Diogo Almeida, who told us recently that the right task and the right data can matter more than compute.)“Our market access gives us unique access to the highest value data,” he added. “In-situ interventions can fix an edge case with a few dozen examples.”Setting up part identification with ClickFind.Beard notes that Standard Bots focuses on short-horizon tasks to meet production requirements for cycle time and reliability. The company uses conventional programming for parts of a workflow that don’t require learned behavior.Model training happens in the cloud but inference runs locally, said Beard.What does the model do exactly?I asked Jentoft what the learned model does in a typical robot routine, and which parts of the workflow use conventional programming?As an example, he brought up its machine-tending solution for high-mix manufacturing.“We’ve built a zero-shot system that lets a user tell the robot which parts to look for on a given task. The model handles perception — locating and identifying the parts — while conventional programming handles the motion and the cell logic around it.”Here’s a demonstration of the machine-tending:“Our backbone for this task is trained on over a billion images, which is what lets the robot distinguish between lighting conditions, material types, and an object versus its background,” Jentoft said.The Full AI StackBack in April, we had Applied Intuition on the podcast to talk about “Physical AI” and how it differs from on-screen AI. One of the learnings was that the Physical AI isn’t just constrained by model intelligence: the hard part is deploying models onto real hardware, under safety, latency, power, cost, and reliability constraints.But for Standard Bots, that can also be a strength, since it controls the “full stack” from software to hardware. Jentoft points out that it controls the robotic arm, end effector, control system, and AI.“That lets us co-optimize the models and the control policies,” he said. “Despite claims elsewhere, no model today is truly hardware-agnostic, and co-optimizing low-level control and higher-level functions is a major advantage for both performance and iteration speed.”Skild, a company aiming to build “general purpose robotic intelligence,” might quibble with the hardware-agnostic claim — its goal is to achieve cross-hardware generalization.On-prem inference: sensors, edge GPUs, and ‘action chunks’Beard had mentioned that inference is done locally, which is especially important for its core customers: factories.“For factories, which is most of what we’re doing right now — and certainly so much opportunity that we see there — this is something where you need to do inference on-premise,” he said.An AI agent building a machine-tending routine.For machine tending, the model identifies parts while conventional programming handles motion. Jentoft also described how models can generate actions that feed into the robot’s control system.“Wrist cameras and other sensors feed raw pixels and signals into the system over internal gigabit Ethernet, routed internally so no cables tangle,” he explained. “GPUs at the edge process that data to generate action chunks, which stream to low-level control.”He reiterated that inference is run on-premises deliberately.“Cloud compute for robotics is operationally extremely hard — most factories and warehouses don’t have reliable internet, and that’s even more true for mobile robots. Uptime is crucial to customer acceptance, so we keep the loop local.”",
+      "first_seen_at": "2026-10-10T16:05:35.435052+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Why dexterity is physical AI’s real bottleneck",
+      "url": "https://www.therobotreport.com/why-dexterity-is-physical-ai-real-bottleneck/",
+      "summary": "Nicolas Sauvage, founder and president of TDK Ventures, with ANYbotics’ quadruped robot. | Source: TDK Ventures A robot picks up an object, moves it, and puts it down successfully. Is it dexterous? Perhaps. But now ask it to do that successfully hundreds of times, while objects m",
+      "published_at": "2026-10-10T12:45:15+00:00",
+      "first_seen_at": "2026-10-10T16:05:35.435052+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch",
+      "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
+      "summary": "As you can see in the AINews X recap section below, everyone on earth has cloned the Jev API, but only one company can ever create the category. TypeSafe announced their “Series AI” and Sequoia “leaked” that they crossed 100M ARR in their first week.Although there are cynics and ",
+      "published_at": "2026-10-10T06:45:57+00:00",
+      "details": "As you can see in the AINews X recap section below, everyone on earth has cloned the Jev API, but only one company can ever create the category. TypeSafe announced their “Series AI” and Sequoia “leaked” that they crossed 100M ARR in their first week.Although there are cynics and accusations of astroturfing, we hope it is evident that our Jev pod was 100% authentic.AI News for 10/8/2026-10/9/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapDecision Models Become a Product CategoryThe pattern: Several vendors shipped “decision” models on the same day. These return typed answers (probabilities, picks from a list, scores) in a single forward pass instead of free text. Jev is the reference point everyone benchmarks against, and @scaling01 remarked on how fast the format spread.OpenAI Decisions API: Three request types: probability that a condition is true, pick from a list, or score against levels. It accepts text and images, runs on GPT-6 Luna, costs $0.10/M input tokens with no output charge, and is “up to 10x faster” by OpenAI’s own figure (@LearnOpenCV).Microsoft-Decision-1: Positioned for LLM judges and screening scientific hypotheses. An early evaluator says decision models still struggle on consistency and complex decisions (@omarsar0).Perplexity pplx-decider-v1.1-27b: Claims top Decision Bench accuracy at 94.5% across 1,071 cases, at $0.017 per 1K decisions (@perplexitydevs).Cloudflare clef: New clef-omni accepts audio, video, image and text. clef-flash is now cheaper than Jev, and clef overall is about 2x faster (@michellechen). Weights are on Hugging Face.Liquid d1: Now on Vercel AI Gateway, with vision support for classify, route and score tasks (@vercel_dev).Serving and routing: vLLM Semantic Router’s Decision 2.0 answers multiple questions about one input in one pass, with per-option probabilities (@vllm_project). LangSmith uses Jev as a judge that returns separate typed answers for difficulty and correctness on every trace (@hwchase17).Train your own: Unsloth released a free notebook that turns Qwen3.5-4B into a decision model on 8GB of VRAM (@UnslothAI). A walkthrough on Qwen3.5-0.8B reports accuracy rising from 37% to 65% in 60 steps, about 10 minutes on 4GB (@akshay_pachaar).Why harnesses want this: Many agent steps are yes/no calls rather than generation. LangChain says routing each task to the cheapest adequate model cut median Open SWE cost per task by 64% (@hwchase17).Related research: Apple/CMU’s Selection-based Structured Reasoning (SSR) applies the same idea inside agents (@ZhihuFrontier).Method: Six natural-language strategies are scored by length-normalized log-likelihood in one batched forward pass that shares the KV cache.Results: Per-turn reasoning latency falls by more than 90%, but end-to-end latency per question falls only 28–54%. On Qwen3-VL-4B with GRPO, average success is 61.37% versus 61.25% for a TAPO+GSPO baseline.Multi-Agent Orchestration and Coding ToolsClaude Managed Agents dynamic workflows (public beta): A lead agent writes a phased plan, fans it out to up to 1,000 agents per run, then merges the results. It is enabled with multiagent_20261001 (@ClaudeDevs, config).Cost warning: Anthropic advises starting with scoped tasks because token use can be high (guidance).Claude Code Projects: All waitlisted Pro and Max users were admitted. Each project runs tasks as parallel threads (@ClaudeDevs), and sessions can now run locally (@gem_ray).Opus 5.5 fast mode: It has rolled out, but it bills against usage credits and is not included in subscriptions (@theo).Do agent teams pay off?: Vals AI ran GPT-6 Sol and Opus 5.5 on Vibe Code Bench, alone and as teams (@ValsAI).Results: Teams cost 1.8–5.1x more. Only Sol at medium effort improved significantly, by 7.3 points.Behavior: Sol delegated in parallel along architectural lines. Opus ran sequential waves, reaching about 6.8 subagents and roughly 1,140 subagent tool calls per app at max effort, with no significant gain (details).Prime Agent rewrites itself in Rust: Over two weeks, a swarm of more than 2,000 agents used 10K+ sandboxes and 200B+ GLM-5.3 tokens. The result reaches usable input about 13x faster and uses 83% less startup memory (@PrimeIntellect). An accompanying essay argues that context limits lead inevitably to swarms (essay).Codex updates:Windows sandbox: A new mode built on Microsoft Execution Containers (MXC) gives faster setup, network enforcement and granular file controls (@OpenAIDevs).Composer predictions: Codex now suggests your next message, in beta for Pro users only (announcement). Some users criticize the Pro-only gating (@Angaisb_).Reliability: There were complaints of daylong outages (@dzhng).Sentiment: DHH says GPT-6.1 Sol made Codex his primary tool over Claude (@dhh).Devin and Grok Bot: Devins can now spawn trees of managed D",
+      "first_seen_at": "2026-10-10T16:05:35.435052+00:00"
+    },
     {
       "source": "Latent Space",
       "source_type": "rss",
@@ -222,6 +261,15 @@
       "summary": "",
       "published_at": "2026-10-09T00:01:37+00:00",
       "first_seen_at": "2026-10-09T01:15:10.895459+00:00"
+    },
+    {
+      "source": "AgiBot News",
+      "source_type": "rss",
+      "title": "AGIBOT Opens Hong Kong Office in Causeway Bay-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "url": "https://agibot.com/article/231/detail/127.html",
+      "summary": "",
+      "published_at": "2026-10-09T00:00:00+00:00",
+      "first_seen_at": "2026-10-10T16:05:35.435052+00:00"
     },
     {
       "source": "Latent Space",
@@ -6329,52 +6377,6 @@
       "summary": "",
       "published_at": "2026-09-01T00:00:00+00:00",
       "first_seen_at": "2026-09-06T13:54:54.581403+00:00"
-    },
-    {
-      "source": "Runway",
-      "source_type": "rss",
-      "title": "Introducing Solaris",
-      "url": "https://runway.com/news/research/introducing-solaris",
-      "summary": "Solaris is Runway's first Interface World Model: real-time AI that generates interactive interfaces frame by frame, with no code.",
-      "published_at": "2026-08-31T21:16:00+00:00",
-      "first_seen_at": "2026-08-31T17:50:24.016690+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Skild AI unveils S1 flagship robot foundation model",
-      "url": "https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/",
-      "summary": "Skild AI said S1 enables in-context learning for robotics. | Source: Skild AI Skild AI recently unveiled S1, the company’s flagship robot foundation model. Since it was founded in 2023, the company has raised nearly $1.7 billion in funding to create a general-purpose robot brain.",
-      "published_at": "2026-08-31T21:14:08+00:00",
-      "first_seen_at": "2026-09-01T00:39:26.622058+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "The Export Controls Are Working - Dylan Patel",
-      "url": "https://www.youtube.com/shorts/t7_qbA9P6HM",
-      "summary": "",
-      "published_at": "2026-08-31T21:08:02+00:00",
-      "first_seen_at": "2026-09-01T00:39:26.622058+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "The OpenAI/Hugging Face attack, clearly explained",
-      "url": "https://www.youtube.com/watch?v=u15N3l4RT80",
-      "summary": "This is a video version of a post I wrote. If you want to read the original you can check it out here: https://www.dwarkesh.com/p/openai-huggingface Or listen to it on Spotify: https://open.spotify.com/episode/3twazfjzERPbaBx1zHZtG2?si=23PAgS7qTsqJCLsxuTX1VQ Or Apple Podcasts: ht",
-      "published_at": "2026-08-31T20:49:34+00:00",
-      "first_seen_at": "2026-09-01T00:39:26.622058+00:00"
-    },
-    {
-      "source": "Z.ai Release Notes",
-      "source_type": "rss",
-      "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
-      "url": "https://docs.z.ai/release-notes/new-released",
-      "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-08-28T21:18:54.852178+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:d254da7b84f56a869a6b60e7e28ea92f17e3bb50ef54e7189cbae523c2166780",
-      "first_seen_at": "2026-08-28T21:18:23.877586+00:00"
     },
     {
       "source": "Vidu Product Updates",
