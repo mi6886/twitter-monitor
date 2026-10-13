@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-12T20:05:40.039002+00:00",
+  "updated_at": "2026-10-13T02:35:58.865285+00:00",
   "count": 700,
-  "new_count": 524,
+  "new_count": 432,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -136,6 +136,15 @@
       "summary": "a16z General Partner Martin Casado sits down with MakerMaker.AI co-founders Dhaval Adjodah and Owen He to unpack recursive self-improvement, or RSI, and separate the increasingly popular term from what it would actually mean for an AI system to improve itself. Dhaval and Owen dis",
       "published_at": "2026-10-12T14:30:07+00:00",
       "first_seen_at": "2026-10-12T20:05:40.039002+00:00"
+    },
+    {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "Strengthening our defenses against distillation attacks",
+      "url": "https://www.anthropic.com/research/distillation-defenses",
+      "summary": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
+      "published_at": "2026-10-12T09:30:00+00:00",
+      "first_seen_at": "2026-10-13T02:35:58.865285+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -410,7 +419,7 @@
       "first_seen_at": "2026-10-09T01:15:10.895459+00:00"
     },
     {
-      "source": "NVIDIA Blog",
+      "source": "NVIDIA Robotics Blog",
       "source_type": "rss",
       "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
       "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
@@ -6365,18 +6374,6 @@
       "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
       "summary": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
       "published_at": "2026-09-01T16:00:00+00:00",
-      "first_seen_at": "2026-09-01T23:21:10.167326+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast",
-      "source_type": "rss",
-      "title": "Ajeya Cotra – Inside the OpenAI agent swarm that hacked Hugging Face",
-      "url": "https://www.dwarkesh.com/podcast",
-      "summary": "Ajeya Cotra is a researcher at METR, where she works on threat modeling for loss-of-control risks from advanced AI. Before that, she led the technical AI safety program at what is now Coefficient Giving.She is one the three authors of METR and Redwood Research’s “Brief independen",
-      "published_at": "2026-09-01T15:41:06+00:00",
-      "audio_url": "https://api.substack.com/feed/podcast/213682035/1d3eb74fe75861cd1fd2db2ebb09c1a7.mp3",
-      "details": "Ajeya Cotra is a researcher at METR, where she works on threat modeling for loss-of-control risks from advanced AI. Before that, she led the technical AI safety program at what is now Coefficient Giving.She is one the three authors of METR and Redwood Research’s “Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident”.We go through not only what she and her coauthors discovered during this investigation, but what it means for how we should train future, smarter AIs which might be involved in the process of recursive self-improvement.Watch on YouTube; listen on Apple Podcasts or Spotify.SponsorsJane Street’s ML engineering internships start with an intense four-day bootcamp: PyTorch, autograd, writing kernels, profiling workloads… all the things that Jane Street engineers need to know for their daily work. After that, interns tackle real projects, things the firm actually wants in its codebase. If you want to apply, or if you want to watch my recent conversation with Axel, one of Jane Street’s ML engineers, go to janestreet.com/dwarkeshCursor, which is now part of SpaceX, noticed that their MoE layers were eating more than half of total training time. So they wrote and open-sourced Mixture-of-Kittens, which is a custom megakernel for training MoE models on NVL72s. This kernel sped up an end-to-end run across 512 GPUs by 1.4x, from about 760 to over 1000 tokens per second per GPU. If you want to read more about the ML research that Cursor and SpaceX are doing, go to cursor.com/dwarkeshAntithesis hands you (or your agents) a bug’s root cause so you can avoid days of manual debugging. If your test run crashes, Antithesis rewinds, branches off hundreds of slightly varied rollouts, and checks in how many of them the crash still appears. Then it rewinds further and does this all again. As Antithesis rewinds, it eventually finds the spot where the frequency of the crash plummets: that’s where the root cause lives! If you want to see it in action, go to antithesis.com/dwarkeshTimestamps(00:00:00) - Agents get kicked off(00:06:45) - Self-sacrificing behavior(00:13:43) - Potemkin villages(00:23:27) - The Hugging Face attack(00:35:23) - The slopvestigation(00:52:02) - Understanding the AI’s motives(01:05:31) - The actual dangers of anthropomorphizing(01:14:30) - What smarter models might do(01:28:23) - The implications for recursive self-improvement(01:38:10) - Is this the case for open source?(01:53:04) - How do we prevent this in the future?(02:15:58) - The clearest warning shot we might ever getTranscript00:00:00 - Agents get kicked offDwarkesh PatelToday, I’m chatting with Ajeya Cotra, who is one of the authors of an independent investigation published by METR and Redwood Research into the swarm of agents that hacked into Hugging Face. The whole story is pretty crazy. Let’s begin on July 7th, when these agents are kicked off for evaluation. What happens next?Ajeya CotraOpenAI kicks off tens of thousands of different agents on a benchmark called ExploitGym. ExploitGym basically asks agents to find a way to use a particular vulnerability to attack a particular program, which is called the “target program”. When they attack that program, they’re supposed to retrieve a piece of data that’s been lodged into that program called the “flag”. They’re supposed to use the particular designated vulnerability to get the flag. But in many of these cases, that vulnerability just isn’t broad or deep enough to ever actually be exploitable to get the flag.So a bunch of ExploitGym problems are just unintentionally impossible. The authors estimate roughly 30-40% of these problems are impossible in this way. So some large fraction of these agents have these impossible tasks and they’ve been trained to be very persistent at trying to solve tasks even when they look impossible. So they’re banging their head against the wall, trying all sorts of different ways to cheat on these tasks.That leads them to Artifactory, which is a package manager that OpenAI uses to let its agents download packages. So agents often think, “Maybe I could find a way to get information about this program I’m supposed to exploit from the internet, which I’m not supposed to do, by abusing Artifactory somehow.”So 1,200 separate agents in separate sandboxes, while they were poking around Artifactory trying to figure out how to cheat, stumbled onto this message board that agents were using to talk to one another and collaborate. This was established by one particular agent, PHASEONE10841, which first realized, “Oh, you can use Artifactory to leave notes to other agents that are also using Artifactory.” Then it blew up and became really popular. So 1,200 agents were on this message board. They sent 70,000 messages among one another, trying to help each other cheat in all sorts of different ways.The crazy thing about this story is that one hour into this message board being established, an agent pro",
-      "dedupe_key": "podcast:b4d8c567871a8f7f967d3c71092dd9a04ddfa193",
       "first_seen_at": "2026-09-01T23:21:10.167326+00:00"
     },
     {
