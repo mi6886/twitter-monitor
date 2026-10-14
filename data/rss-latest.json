@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-14T15:40:57.396506+00:00",
+  "updated_at": "2026-10-14T23:57:18.134028+00:00",
   "count": 700,
-  "new_count": 491,
+  "new_count": 443,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,6 +65,91 @@
   ],
   "items": [
     {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
+      "url": "https://www.latent.space/p/crossing-the-threshold",
+      "summary": "OpenAI’s Joseph Kim talks about the threshold phenomenon at AIE NY today.One of the key themes at the AI Engineer New York conference this week was how to balance agent autonomy with security and safety. Both frontier labs and financial firms focused on this issue in their presen",
+      "published_at": "2026-10-14T21:40:52+00:00",
+      "details": "OpenAI’s Joseph Kim talks about the threshold phenomenon at AIE NY today.One of the key themes at the AI Engineer New York conference this week was how to balance agent autonomy with security and safety. Both frontier labs and financial firms focused on this issue in their presentations this week.The main lesson: safe autonomy depends on where you put controls and human judgment, rather than how many restrictions you impose.Sponsor: Build shopping into your agent with shop.devAdding commerce to an agent usually means rebuilding search and checkout from scratch. shop.dev gives you a single API for shopping in any agent or app. One connection gives you access to over a billion products with current price and availability, instant sign in with Shop, and one-tap Shop Pay checkout that happens right in the conversation. It’s open to any developer, with no account or key needed to try it. → Try shop.dev todayJoseph Kim, Head of ChatGPT for Financial Services at OpenAI, gave a keynote at AIE New York today. (We also did a special podcast with Kim, which will be released shortly.) He talked about reliability and a “threshold of usefulness,” which he said is “the point where a model becomes capable and reliable enough to save you time.”Kim argued that ever-growing model capability will soon take financial analysts over the threshold and allow them to delegate more work to agents.He made some specific predictions about AI’s role in finance in 2027. Not only will the financial industry rely less on Excel and PowerPoint next year, he claimed, but agents will be good enough to do “investment idea generation and trading.”The “rising tide” of model capabilities is also leading to better traceability.“In finance, you need to be able to check where a number came from and understand the context around it,” said Kim. “We wanted that review to be a natural part of the [ChatGPT for Financial Services] experience. These are the kind of product details that help turn a model’s capabilities into work that someone can use.”Joseph Kim at AIE NY; photo by Richard MacManusAs for when a human needs to be in the loop, Kim framed this as a product design decision.“How would the interface change? What would the user still need to control, review, or approve? Those are product design questions you can start working on now.”Balancing AI Safety and Innovation at a Hedge FundJohn Feminella, SVP Architecture at the hedge fund Two Sigma, is tackling the exact kinds of product design questions Kim referenced. In a keynote, he talked about five of the controls they’ve implemented to keep agents in check without limiting model capabilities.Feminella argued that safety and innovation shouldn’t be viewed as opposite ends of a spectrum. He was especially critical of “approval fatigue,” where a person approving everything can hold back innovation — and also introduce risk, if they’re not fully paying attention to all the decisions they’re required to make.At Two Sigma, they’ve implemented a set of controls, which he defined as “guardrails and shared capabilities that let teams move in ways that don’t hinder what they’re trying to do.”The controls are composable, meaning “each one does one job and then together they let us run agents with real autonomy at an appropriate level of safety.”One of the controls is to use auto-mode classifiers, which Feminella said “make decisions about routine calls and then send a person only the requests that are most important, the ones that are most likely to make a difference.”Classifiers can be used for ambiguous cases, whereas deterministic rules are better for clear cases.Anthropic: Give agents context, then define the boundaries of trustAnthropic’s presentation outlined a similar framework, in its case with the goal of building “trust” into financial agentic workflows.Last month, Anthropic announced Claude for Financial Advisors, allowing financial advisors to connect their systems to Claude and a set of workflow skills.At AIE this week, Belinda Neal, Managing Director of Financial Services at Anthropic, explained why Anthropic has partnered with financial firms on the new product.“Every so often, a model crosses a threshold. And when it does, a wave of working changes.”Neal’s colleague Keon Shahab, who works on applied AI at Anthropic, then talked about “building the trust layer for the agents.” He said this involves three steps:“Who the agent is acting as with an identity and permissions layer. How we can sandbox and determine the approval layer of the agent, so that someone is signing off before it acts. And lastly, how we know the agent will still work once we adjust any variables over time.”Shahab illustrated the boundary between proposing and acting with a trade break investigation agent, which would recommend an order amendment for human approval.“We want it [the agent] to just propose new amendments to our orders data, not actually make those amendments,” he said.“By building once with a foundational layer ",
+      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
+      "url": "https://www.latent.space/podcast",
+      "summary": "A few years ago I stumbled upon Leash Bio’s Substack, and was hooked. Be it their Kaggle competition that showed that no, we really haven’t solved protein-ligand binding, or their crazy discovery that knowing a molecule’s author is perhaps all you need to know to predict how good",
+      "published_at": "2026-10-14T20:35:09+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/220316507/088d386ca7b830a53c64e1cd2678e427.mp3",
+      "details": "A few years ago I stumbled upon Leash Bio’s Substack, and was hooked. Be it their Kaggle competition that showed that no, we really haven’t solved protein-ligand binding, or their crazy discovery that knowing a molecule’s author is perhaps all you need to know to predict how good it is. Their substack — or at least Owl Posting’s1 deep dive on them — should be required reading for any scientist trying to do chemistry with AI.So I was super excited to finally be able to sit down with Ian Quigley from Leash Bio, and pick his brain. Leash specializes in DNA Encoded Libraries (aka “DELs”), a way of collecting ridiculously high-throughput interaction data between proteins and small molecules.2 Before I discovered Leash, I had heard nothing but horror stories from DEL users. And yet, Ian and friends somehow found a way to tame the beast, extracting clean and reproducible data that is just perfect for large scale modeling. Without teasing too much, the answer comes down to epistemic rigor, and an incredible conviction that you just have to Do The Thing.It gets even better! Near the end of this episode, Ian teases something his team was just playing with when we recorded: an AI playground for agents to do verifiable scientific reasoning. They discovered the data they had spent the last few years collecting could provide tens of thousands of “lab-in-the-loop” simulations, just what an agent needs for scientific RL. Two months later, it’s matured into Minos, and today they’re releasing a full preprint, blog, and open dataset. We’ll be releasing a lightning podcast in a few days with an update. Stay tuned!We had a blast with Ian, probably one of our most fun episodes to date. For both complete chemistry novices and expert AI x Bio practitioners, we think you’ll get something out of this.Enjoy!We covered:Why DELs traumatize everyone who touches them, and how Leash puts dozens of barcodes on each molecule to catch proteins that bind the DNA instead of the drug.Ian’s rule that biology only scales two ways: taking pictures and sequencing DNA.The Kaggle competition: about 4B measurements from a basement and about 2,000 teams, with nobody beating chance on an unseen chemical library. Also why Leash quietly feared co-folding would make them obsolete.Clever Hans in ChEMBL: models can guess a molecule’s chemist from its structure, and “who made it” predicts activity about as well as the structure does.Hermes, trained only on Leash’s own data, keeping pace with Boltz on public benchmarks. Plus the BRD4 molecule Boltz had already seen in the PDB.Breaking the pocket: engineering protein mutants at scale after catching Hermes memorizing “nicknames” for proteins instead of binding sites.Lumacaftor-like hits as an accidental detector for misfolded proteins.The agent sandbox: LLMs that reason about SAR in plain English, hunting for the best binders among 6.5M molecules on a budget of 100.The Recursion mafia, and why its alumni companies all rhyme.The Kosuri paradox: if you can collect the data, why do you need the model?Going from a DEL hit to good mouse PKPD in six months on an inflammation program, and the case for pills over antibodies on cytokine targets.What stops a better-funded lab from outscaling them, and Ian’s by-fiat wish for massively parallel purification.1The hands-down best bio blogger on the internet.2As always, the secret here is to map your problem to a combinatorial library and a readout using Next Generation Sequencing. We talk about this in depth in the podcast!",
+      "dedupe_key": "podcast:7a826da05cb9450a9d3773ee85832c0295c2bdfc",
+      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "GitHub availability report: September 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026/",
+      "summary": "Our last update covered content through August. We did not publish another in September while other public content addressed the August 17 outage. This edition covers progress over the past two months. The short version of August and September: we reduced shared-database pressure",
+      "published_at": "2026-10-14T20:01:35+00:00",
+      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
+      "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
+      "summary": "Maintainers look at star history to answer a practical question: did a launch, release, or event change a project’s trajectory? To reconstruct that curve from the GitHub API, tools had to request pages of stargazer records (each person who currently stars the repository and when ",
+      "published_at": "2026-10-14T19:11:33+00:00",
+      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "source_type": "rss",
+      "title": "Preparing for the 2026 US midterms",
+      "url": "https://www.anthropic.com/news/2026-us-midterms",
+      "summary": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.",
+      "published_at": "2026-10-14T18:33:00+00:00",
+      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
+    },
+    {
+      "source": "Google Research Blog",
+      "source_type": "rss",
+      "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+      "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+      "summary": "General Science",
+      "published_at": "2026-10-14T16:14:34+00:00",
+      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
+    },
+    {
+      "source": "Google Research Blog",
+      "source_type": "rss",
+      "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+      "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+      "summary": "Earth AI",
+      "published_at": "2026-10-14T16:14:00+00:00",
+      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
+    },
+    {
+      "source": "Google Research Blog",
+      "source_type": "rss",
+      "title": "Analyzing technical documents with Deep Review",
+      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+      "summary": "General Science",
+      "published_at": "2026-10-14T16:14:00+00:00",
+      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "summary": "",
+      "published_at": "2026-10-14T16:12:42+00:00",
+      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
+    },
+    {
       "source": "The Robot Report",
       "source_type": "rss",
       "title": "RoboBusiness 2026 panel to discuss reshoring with robots",
@@ -110,6 +195,24 @@
       "first_seen_at": "2026-10-14T15:40:57.396506+00:00"
     },
     {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "published_at": "2026-10-14T12:00:00+00:00",
+      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "url": "https://openai.com/index/sentinelone",
+      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "published_at": "2026-10-14T12:00:00+00:00",
+      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
+    },
+    {
       "source": "Anthropic News",
       "source_type": "rss",
       "title": "Singapore office and government MOU",
@@ -128,11 +231,20 @@
       "first_seen_at": "2026-10-14T15:40:57.396506+00:00"
     },
     {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "url": "https://openai.com/index/block-ai-powered-security",
+      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "published_at": "2026-10-14T07:00:00+00:00",
+      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
+    },
+    {
       "source": "NVIDIA Blog",
       "source_type": "rss",
-      "title": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
+      "title": "NVIDIA Announces New Investments in the UK Startup Ecosystem",
       "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
-      "summary": "Across industries, the U.K. is putting the full stack to work — and the scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is putting that principle into practice, including through",
+      "summary": "Across industries, the U.K. is putting the full stack to work. The scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is putting that principle into practice, including through a fi",
       "published_at": "2026-10-14T06:04:15+00:00",
       "first_seen_at": "2026-10-14T15:40:57.396506+00:00"
     },
@@ -154,6 +266,15 @@
       "published_at": "2026-10-14T05:40:28+00:00",
       "details": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.About 20,000 joined AIE NYC today for keynotes from the frontier of AI x Finance, from Anthropic showing how they are building the modern AI Financial Services stack, Vals AI CEO discussing their principles behind benchmarking models like Argon, and Coatue’s Head of AI showing how they turn news into investment decisions.All keynotes are transcribed here and all talks/workshops will be released ASAP. Tune in tomorrow for Day 3:AI News for 10/12/2026-10/13/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapFrontier Model Launches: Gemini 4 Argon and Muse WonderGemini 4 Argon: Google released Argon globally for coding, knowledge work, enterprise workflows and cyber defense. Access spans the paid Gemini API and Gemini platform; Google AI Pro and Ultra in the Gemini app and AI Mode in Search; and Ultra in Antigravity. The official rollout supersedes an earlier newsletter claim that access was restricted to cybersecurity defenders (announcement).Pricing: Introductory API rates are $2/$10 per million input/output tokens, with cached input discounted 95%. Artificial Analysis reports that rates double to $4/$20 after November 30—an important qualification for cost comparisons (Google pricing, discount schedule).Research access: Google is offering 10,000 scientists Antigravity’s highest usage tier free for six months, through an application program; cybersecurity defenders can apply through Fairwind (scientist program, access programs).Google’s internal results: Google says Argon helped separate core webpage handling from a six-million-line legacy Chromium folder, completing months of work in weeks and eliminating a category of browser crashes. It also reports 35% more agentic code submissions, with rollbacks reduced by nearly one-third. These are internal deployment claims, not controlled productivity measurements (engineering results).Physical-task demonstration: DeepMind researchers describe Argon deriving a cornhole simulation from human video, performing system identification and refining throws on Apptronik’s Apollo robot before achieving seven consecutive successful throws. Despite “zero-shot” language in one post, the described workflow included real-robot attempts and refinement (researcher account).Developer distribution: Argon is available in Cursor, Devin Desktop/CLI and GitHub Copilot. Cursor reports 52.8% on CursorBench at default effort, on par with Opus 5.5; Cognition reports 60.5% on FrontierCode 1.1 and a 75% Devin discount through October 27 (Cursor, Devin, Copilot).App integration: Antigravity’s coding interface is entering the Gemini macOS app, while Gemini supports connections to more than 40 apps, including Instacart, OpenTable, Adobe and Shopify (coding interface, connected apps).Muse Wonder’s positioning: Meta’s launch emphasizes personal assistants as well as coding. “Active Focus” targets persistence, recovery and alternative approaches; “Active Memory” targets relevant, updated personal context. Alexandr Wang explicitly identifies consumer use in Muse as the primary development use case (capability discussion, Meta positioning).Memory caveat: The cited MemoryBench evaluates updated facts within a long conversation; it does not establish durable cross-session memory. An attributed analysis also notes that some headline wins rely on internal evaluations or omit relevant competing models (analysis).Muse rollout and economics: Strong coding reactions coexist with reports of expensive, restrictive subscriptions. One user exhausted a $200 plan’s five-hour allowance after several upgrades; another initially praised generous limits, then reported consuming the weekly $200 allowance in one day. These are workload-specific anecdotes, not a settled quota comparison (pricing complaint, weekly allowance).Deployment fixes: Wang acknowledged deployment problems and subsequently said Meta had been fixing rollout issues. Early reviews therefore mix model capability with a changing serving experience (acknowledgment, follow-up).Independent Evaluations: Strong Frontier Results, Uneven Real-World ReliabilityArgon’s capability–cost position: Artificial Analysis places Argon level with GPT-6 Astra on its Intelligence Index at approximately 60% of Astra’s cost per task under introductory pricing: $1.99 per task. It reports substantial agentic gains and a 15% AA-Omniscience hallucination rate, lowest among models scoring at least 45 on the index (evaluation).Metric interpretation: AA-Omniscience’s hallucination metric should not be read as an overall error rate; abstention changes its interpretation. The Muse analysis illustrates this distinction with correct, incorrect and unansw",
       "first_seen_at": "2026-10-14T15:40:57.396506+00:00"
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "source_type": "rss",
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "published_at": "2026-10-14T02:00:14+00:00",
+      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
     },
     {
       "source": "OpenAI News",
@@ -6256,127 +6377,6 @@
       "url": "https://spectrum.ieee.org/moon-ball-robot",
       "summary": "On a good day, the rock quarry in central Texas is about 370,000 kilometers (230,000 miles) from the moon. But last February, when Rishi Jangale watched his 1.8-meter-wide, 150-kilogram inflatable robot roll effortlessly over rocks, gravel, and wet clay, his imagination turned th",
       "published_at": "2026-09-03T12:00:01+00:00",
-      "first_seen_at": "2026-09-03T14:50:55.548559+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-      "published_at": "2026-09-03T12:00:00+00:00",
-      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "published_at": "2026-09-03T12:00:00+00:00",
-      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "NVIDIA to Acquire Hugging Face",
-      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
-      "summary": "I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. Over the past decade, Clem, Julien, Thomas",
-      "published_at": "2026-09-03T11:56:49+00:00",
-      "first_seen_at": "2026-09-03T14:50:55.548559+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "url": "https://openai.com/index/gpt-6-astra",
-      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-      "published_at": "2026-09-03T11:00:00+00:00",
-      "first_seen_at": "2026-09-05T13:39:28.959031+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "Redefining Chip Architecture with Arm CEO Rene Haas",
-      "url": "https://www.youtube.com/watch?v=85Y6h_jbRfs",
-      "summary": "From data center orchestrators to AGI and robotics, CPUs remain the heart of modern computing. Arm CEO Rene Haas joins Elad Gil and Sarah Guo to explore how Arm is positioned at the epicenter of AI-driven demands for compute. Rene explains Arm’s position in the chip supply chain,",
-      "published_at": "2026-09-03T10:00:26+00:00",
-      "first_seen_at": "2026-09-03T14:50:55.548559+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "PlusAI to take autonomous trucking public via a SPAC deal",
-      "url": "https://www.therobotreport.com/plusai-takes-autonomous-trucking-public-via-spac-deal/",
-      "summary": "PlusAI SuperDrive-enabled autonomous trucks at its testing facility in Fremont, Calif. Source: PlusAI PlusAI Inc., which has developed AI-based virtual driver software for autonomous trucks, is going public via a merger with Texas Ventures Acquisition III Corp., a special-purpose",
-      "published_at": "2026-09-03T10:00:14+00:00",
-      "first_seen_at": "2026-09-03T14:50:55.548559+00:00"
-    },
-    {
-      "source": "Runway Research",
-      "source_type": "rss",
-      "title": "Introducing GWM Worlds 2",
-      "url": "https://runway.com/research/introducing-gwm-worlds-2",
-      "summary": "GWM Worlds 2 generates interactive worlds in real time — continuous 720p video at 24 fps and audio at 48,000 Hz, responding to your inputs as you explore.",
-      "published_at": "2026-09-03T10:00:00+00:00",
-      "first_seen_at": "2026-09-03T23:18:59.316228+00:00"
-    },
-    {
-      "source": "No Priors Podcast",
-      "source_type": "rss",
-      "title": "Redefining Chip Architecture with Arm CEO Rene Haas",
-      "url": "https://no-priors.com/",
-      "summary": "From data center orchestrators to AGI and robotics, CPUs remain the heart of modern computing. Arm CEO Rene Haas joins Elad Gil and Sarah Guo to explore how Arm is positioned at the epicenter of AI-driven demands for compute. Rene explains Arm’s position in the chip supply chain,",
-      "published_at": "2026-09-03T10:00:00+00:00",
-      "audio_url": "https://traffic.megaphone.fm/PDP3024512727.mp3",
-      "details": "From data center orchestrators to AGI and robotics, CPUs remain the heart of modern computing. Arm CEO Rene Haas joins Elad Gil and Sarah Guo to explore how Arm is positioned at the epicenter of AI-driven demands for compute. Rene explains Arm’s position in the chip supply chain, and how Arm transitioned from an IP licensing model to producing physical chips like the Arm AGI CPU for Meta. He also discusses bottlenecks in hardware supply chains, SoftBank’s ecosystem and capital strategy, why US semiconductor manufacturing independence is critical, the future of robotics, and why CPUs remain crucial for executing AI workloads. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @renehaas237 | @Arm Chapters: 00:00 – Cold Open Trailer 00:49 – Rene Haas Introduction 01:14 – Arm and Chip Supply Chain 02:37 – Shift from IP to Manufacturing CPUs 04:23 – CPU IP and Customers 06:55 – AI Adoption at Arm 10:15 – Changes in Chip Time to Market 13:27 – Data Center Buildout Bottleneck 15:13 – Softbank Leverage and Capital Strategy 17:43 – Softbank Portfolio Overview 20:13 – Robotics Opportunities for Arm 24:49 – US Manufacturing Protectionism 28:59 – Data Center Backlash 32:30 – Arm Outlook 33:31 – CPU Opportunity 37:06 – Conclusion",
-      "dedupe_key": "podcast:9e8b622d2340daf77abbf11b4f3bb8172cc0b111",
-      "first_seen_at": "2026-09-03T14:50:55.548559+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "AGIBOT WORLD 2026 Theme 3: Reinforcement Learning",
-      "url": "https://www.youtube.com/watch?v=WoxmDmvCKew",
-      "summary": "AGIBOT officially open-sourced AGIBOT WORLD 2026 Theme 3: Reinforcement Learning, a real-world dataset designed to advance reinforcement learning for embodied AI. Built for real-world robot learning, the dataset captures more than expert demonstrations — it captures successes, fa",
-      "published_at": "2026-09-03T06:34:56+00:00",
-      "first_seen_at": "2026-09-03T14:50:55.548559+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
-      "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
-      "summary": "Launch season continues from yesterday, with Gemini 3.8 Flash as rumored today, but Muse Spark 1.3, promised in Zuck’s big comeback letter last month, definitely deserved the title story win today. Per AAII it is now the #3 model in the world (!?!)Just look at the confidence disp",
-      "published_at": "2026-09-03T04:38:33+00:00",
-      "details": "Launch season continues from yesterday, with Gemini 3.8 Flash as rumored today, but Muse Spark 1.3, promised in Zuck’s big comeback letter last month, definitely deserved the title story win today. Per AAII it is now the #3 model in the world (!?!)Just look at the confidence displayed finally putting up comparable numbers to the frontier models from OpenAI and Anthropic (Opus, not Fable)… and promising that it will be open weights as well(!!!):They have an interesting pricing model where it is 90%+ cheaper if you opt in to training:AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapAgent Engineering Courses, Curricula, and Developer PracticeStanford is formalizing AI-native software engineering as a discipline: @mihail_eric announced a new edition of The Modern Software Developer centered on what he calls the “2026 metamorphosis” of software engineering. The notable signal is not just the course itself, but the curriculum reset: 85% of Fall 2025 material is being replaced with topics like agent skills, context engineering, MCP portals, agent-ready codebase design, agentic code review, security, parallel background agents, and software factories. The course also requires students to ship PRs into real OSS repos with support from partners including Browserbase, OpenHands, Semgrep, Milvus, Marimo, CrewAI, Warp, Vercel, Unsloth, and Anyscale, among others.A second Stanford course focuses on first-principles agent construction: @Diyi_Yang and @michaelryan207 announced CS329Z: Engineering AI Agents, explicitly framed around building agents “from scratch.” Alongside Mihail Eric’s course, this suggests a broader shift from “prompting” pedagogy to systems-oriented agent engineering: harnesses, evaluation, memory, tooling, orchestration, and production constraints rather than model usage alone.Practitioner discussion is converging on stateful intelligence allocation, not simple routing: In a panel prompt, @HarryStebbings highlighted @EnoReyes’s argument that getting the most out of models requires more than routing—agents need to understand task state, what just happened, and what comes next in order to allocate intelligence dynamically. That lines up with @jerryjliu0’s point that vendor-neutral startups can outperform frontier labs on narrow tasks by optimizing the harness end-to-end and selectively using both frontier and open-weight models.Model Architecture and Inference: Astra Rumors, Looped Transformers, and Real-Time ServingThe “Astra is a looped transformer” rumor is probably less novel than headlines suggest: @rasbt unpacked reporting around OpenAI’s rumored Astra architecture and argued that the cited “recurrent depth” or “looped transformer” concept is a fairly modest architectural tweak rather than a breakthrough on its own. He points to Nanbeige 4.2-3B as an open-weight precedent: a 22-layer transformer stack reused twice, effectively behaving like a 44-layer model without doubling parameter storage. The tradeoff is straightforward: similar memory footprint, roughly ~2x compute, and only partial token-efficiency retention versus a standard stack. The more substantive historical reference is Mixture-of-recursions, where a learned router adaptively determines how many passes a token gets, allowing easy tokens to exit early and hard tokens to receive more compute.Hidden reasoning is not a necessary implication of recurrence: A second important clarification from @rasbt is that layer reuse does not inherently “obscure chain-of-thought”. It simply moves more computation into latent activations before token emission. If recurrent depth reduces visible reasoning traces, that’s because the model may need to emit fewer intermediate tokens, not because looped transformers intrinsically suppress textual CoT.Serving infra updates continue to target realtime multimodal workloads: @vikhyatk announced Photon 2.1, adding text-to-speech models and NVIDIA B200 support to a realtime multimodal inference engine. Separately, Baseten announced hosted availability of GLM-5.3 Fast, emphasizing higher TPS and real-time deployment positioning via @baseten.Agent Harnesses, Skill Retrieval, and RL Post-Training ToolingByteDance Seed’s HarnessDev reframes agent evaluation around the harness, not just task completion: @omarsar0 highlighted a new paper on HarnessDev, which asks models to start from a weak but runnable seed and build an execution harness, then improve it in a second stage using downstream feedback. Both stages are scored on capability and execution-token cost, making efficiency part of the objective. Across six creator LLMs, four domains, and 2,207 held-out downstream instances, generated harnesses still lag mature human-engineered systems on code, search, and research, but match or exceed them on writing and ML exp",
-      "first_seen_at": "2026-09-03T14:50:55.548559+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "AGIBOT is bringing its Robotics Performance IP to a new real-world setting: live entertainment. 🤖🎭",
-      "url": "https://www.youtube.com/watch?v=mMVbm5xoKUU",
-      "summary": "On August 29, AGIBOT and Resorts World Genting held an exclusive preview of “Wukong Never Fades” — a five-chapter robotics performance inspired by the legend of Sun Wukong. Featuring 40+ AGIBOT robots across the X2, A3 and D1 series, the production brings together robotics, Chine",
-      "published_at": "2026-09-03T03:19:59+00:00",
-      "first_seen_at": "2026-09-03T14:50:55.548559+00:00"
-    },
-    {
-      "source": "Figure AI News",
-      "source_type": "rss",
-      "title": "Figure and Nscale Sign Strategic Partnership For Up to 100,000 GPUs on the NVIDIA Vera Rubin Platform",
-      "url": "https://www.figure.ai/news/figure-and-nscale-sign-strategic-partnership",
-      "summary": "Today we are announcing a partnership with Nscale to deploy the NVIDIA Vera Rubin platform for up to 100,000 GPUs targeted for initial deployment starting the second half of 2027 in Barstow, Texas. This deal represents an initial commitment of $3.5 billion of compute with intent ",
-      "published_at": "2026-09-03T00:00:00+00:00",
-      "first_seen_at": "2026-09-03T14:50:55.548559+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
-      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-      "summary": "",
-      "published_at": "2026-09-03T00:00:00+00:00",
       "first_seen_at": "2026-09-03T14:50:55.548559+00:00"
     },
     {
