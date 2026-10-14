@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-13T17:55:02.753086+00:00",
+  "updated_at": "2026-10-14T00:20:14.326521+00:00",
   "count": 700,
-  "new_count": 526,
+  "new_count": 455,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,54 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "NYSOFA expands partnership with Intuition Robotics to bring ElliQ to more seniors",
+      "url": "https://www.therobotreport.com/nysofa-expands-partnership-intuition-robotics-bring-elliq-more-seniors/",
+      "summary": "ElliQ extracts memories from every conversation with the user and classifies them based on importance and relevance, injecting context into future conversations. | Source: Intuition Robotics The New York State Office for the Aging, or NYSOFA, last week extended its partnership wi",
+      "published_at": "2026-10-13T23:22:05+00:00",
+      "first_seen_at": "2026-10-14T00:20:14.326521+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+      "url": "https://www.latent.space/podcast",
+      "summary": "Watch along AIE NYC and join us at AIE CODE in SF next month!This episode includes a live demo of the Taku robot that is best enjoyed on YouTube.Last month, Dyna made waves by announcing Dyna-2, a world-action model pre-trained on one million hours of human video, claiming severa",
+      "published_at": "2026-10-13T22:25:55+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/220234130/c77b90e7331c0fabae60105d2325e9a0.mp3",
+      "details": "Watch along AIE NYC and join us at AIE CODE in SF next month!This episode includes a live demo of the Taku robot that is best enjoyed on YouTube.Last month, Dyna made waves by announcing Dyna-2, a world-action model pre-trained on one million hours of human video, claiming several new scaling laws on human data across four orders of magnitude. They have now followed up the model with a physical robot agent, Dyna-2.1, that has to be seen to be believed:In his talk at AIE this year, Jason talked about how the real challenge for robotics in the real world is reliable, long-horizon autonomy, and how Dyna got its models to a 99.4% success rate folding restaurant napkins for 24 hours straight, including recovering after it pulled over the whole stack.From training a world-action model on over one million hours of human video to deploying robots that fold thousands of napkins daily at Din Tai Fung, Dyna Robotics is pushing physical AI beyond impressive demos and into real-world production. In this episode, Dyna Robotics co-founder and Chief Scientist Jason Ma joins swyx on-site to unpack how robots can learn new tasks from as little as 45 minutes of demonstrations, why predicting the future of the physical world may be the key to general-purpose robotics, and what it actually takes to build robots that work reliably for real customers.We go deep on Dyna-2, Dyna’s million-hour world-action model that combines future video prediction with robot actions, the scaling laws behind human-to-robot transfer, diffusion transformers and flow matching, and why synthetic environments and self-generated training data could unlock the next wave of robotics progress. Jason also explains why Dyna builds its own hardware instead of relying on off-the-shelf humanoids, how agentic harnesses enable robots to execute hour-long workflows, why dexterous hands and missing sensory data remain major bottlenecks, and what separates real commercial deployments from the graveyard of robotics startups. We also cover world-action models versus vision-language-action models, GPT-6 and coding agents in robotics, and Jason’s journey from AlphaGo and Penn to NVIDIA, Google DeepMind, and founding Dyna.We discuss:Why Dyna-2 was trained on over one million hours of human videoWorld-action models: predicting future video to guide physical robot actionsDiffusion transformers, flow matching, and real-time robotic controlHow robots learn new tasks with as little as 45 minutes of demonstrationsWhy robotics has no equivalent of the internet and data remains its biggest scaling challengeHuman egocentric video, robot demonstrations, and cross-embodiment transferSynthetic environments, simulation, and models that generate their own training dataWhy robots need on-device inference, model distillation, and custom hardwareWhy Dyna chose wheeled semi-humanoids instead of traditional bipedal robotsThe hardware bottleneck: why dexterous robot hands still overheatBest Western, Din Tai Fung, and the difference between robotics pilots and scaled deploymentsThe Bitter Lesson of Robotics: scaling data instead of engineering specialized solutionsAgentic harnesses and robots executing multi-step, hour-long physical workflowsGPT-6, coding agents, and AI-generated simulation environments for robotics researchWorld-action models vs. VLAs, and why vision alone may not be enoughJason’s journey through AlphaGo, Penn, NVIDIA, Google DeepMind, and the Eureka projectDyna’s research culture, deployment-first philosophy, and vision for millions of robotsJason MaLinkedIn: https://www.linkedin.com/in/jason-ma-742224a2/X: https://x.com/JasonMa2020Dyna RoboticsWebsite: https://www.dyna.co/X: https://x.com/DynaRoboticsTimestamps00:00:00 Introduction and Dyna-2’s World-Action Model00:03:08 Diffusion Transformers, Flow Matching, and Generalist Robots00:08:19 The Robotics Data Bottleneck00:13:50 Synthetic Data and Self-Improving World Models00:16:51 Real-Time Inference and Model Distillation00:19:45 Full-Stack Robotics: Hardware and Supply Chains00:25:02 Why Dyna Built a Wheeled Semi-Humanoid00:29:35 Teaching Robots New Tasks and Evaluating Performance00:31:59 Autonomous Workflows and Hardware Limitations00:36:06 Real-World Deployments at Best Western and Din Tai Fung00:41:07 The Bitter Lesson of Robotics00:46:13 Agentic Harnesses for Physical AI00:49:07 GPT-6, Coding Agents, and AI-Native Robotics00:52:02 World-Action Models vs. VLAs00:59:17 From AlphaGo to Founding Dyna Robotics01:04:20 Dyna’s Research Culture and the Future of RoboticsTranscriptIntroduction: Jason Ma and Dyna RoboticsSwyx [00:00:00]: All right, we’re here on site with Jason Ma, the co-founder, chief scientist of Dyna Robotics. Thanks for having us in your office.Jason Ma [00:00:06]: Of course. Thank you for coming.Vibhu [00:00:07]: It’s been a blast. We got to see—you’ll see plenty of B-roll—drinks being pulled, a lot of evals, robots with knives for the first time. So under the hood of all this you have a world action mod",
+      "dedupe_key": "podcast:90a1d27639f8ad389d13a2b74d0a6de881854b25",
+      "first_seen_at": "2026-10-14T00:20:14.326521+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Hello Robot, A&K Robotics to discuss how robots navigate crowded indoor spaces at RoboBusiness",
+      "url": "https://www.therobotreport.com/hello-robot-ak-robotics-discuss-how-robots-navigate-crowded-indoor-spaces-robobusiness/",
+      "summary": "On the left, Hello Robot’s Stretch 4, and on the right, A&K Robotics’ Cruz autonomous pod. | Source: Hello Robot, A&K Robotics Consumer-facing spaces are dynamic, crowded, and highly unpredictable, requiring robots to safely navigate around constantly changing obstacles, operate ",
+      "published_at": "2026-10-13T19:48:58+00:00",
+      "first_seen_at": "2026-10-14T00:20:14.326521+00:00"
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "source_type": "rss",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "summary": "",
+      "published_at": "2026-10-13T19:43:07+00:00",
+      "first_seen_at": "2026-10-14T00:20:14.326521+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+      "summary": "OUR PIPELINE VS. THE PREVIOUS LLM PIPELINESmarter secret scanning, at a fraction of the cost11.5%higher acceptanceOwner-weighted alert precision86%lower median scan execution timePost-push scanning98%lower serving costCompact model vs. remote LLM callsJavaScript draws the arrows ",
+      "published_at": "2026-10-13T17:56:33+00:00",
+      "first_seen_at": "2026-10-14T00:20:14.326521+00:00"
+    },
     {
       "source": "Latent Space YouTube",
       "source_type": "youtube",
@@ -173,6 +221,15 @@
       "first_seen_at": "2026-10-13T17:55:02.753086+00:00"
     },
     {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "published_at": "2026-10-13T12:00:00+00:00",
+      "first_seen_at": "2026-10-14T00:20:14.326521+00:00"
+    },
+    {
       "source": "Latent Space",
       "source_type": "rss",
       "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
@@ -208,6 +265,15 @@
       "summary": "Visit the Manus blog to learn more about our thoughts on the future.",
       "published_at": "2026-10-13T00:00:00+00:00",
       "first_seen_at": "2026-10-13T17:55:02.753086+00:00"
+    },
+    {
+      "source": "Cursor Changelog",
+      "source_type": "rss",
+      "title": "Origin App Marketplace",
+      "url": "https://cursor.com/changelog/origin-app-marketplace",
+      "summary": "Origin now integrates with over 20 apps for deployments, CI, code review, security, monitoring, and project management, from partners including Cloudflare, Linear, Sentry, and Socket Security. Starting today, the marketplace is also open to public submissions, so any team buildin",
+      "published_at": "2026-10-13T00:00:00+00:00",
+      "first_seen_at": "2026-10-14T00:20:14.326521+00:00"
     },
     {
       "source": "No Priors YouTube",
@@ -6311,70 +6377,6 @@
       "summary": "Every object a different size, weight, and grip. Rearranging a full room's worth of stuff is the same generalized manipulation Digit uses to take on mixed loads and changing layouts on a real warehouse floor. #Agility #DigitRobot --------------------------------------- At Agility",
       "published_at": "2026-09-02T15:11:56+00:00",
       "first_seen_at": "2026-09-02T23:21:09.131846+00:00"
-    },
-    {
-      "source": "Agility Robotics YouTube",
-      "source_type": "youtube",
-      "title": "Innovation at Agility: Digit Redecorates",
-      "url": "https://www.youtube.com/shorts/qYllKRUHn3Y",
-      "summary": "Every object a different size, weight, and grip. Rearranging a full room's worth of stuff is the same generalized manipulation Digit uses to take on mixed loads and changing layouts on a real warehouse floor. --------------------------------------- At Agility, we make robots that",
-      "published_at": "2026-09-02T15:10:52+00:00",
-      "first_seen_at": "2026-09-02T23:21:09.131846+00:00"
-    },
-    {
-      "source": "Runway",
-      "source_type": "rss",
-      "title": "Introducing Runway Dev MCP",
-      "url": "https://runway.com/news/company-news/runway-dev-mcp",
-      "summary": "Runway Dev MCP is a hosted MCP server that lets your coding agent research models, configure a Model Router and debug failed generations without leaving your editor.",
-      "published_at": "2026-09-02T14:25:16.960000+00:00",
-      "first_seen_at": "2026-09-02T23:21:09.131846+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
-      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
-      "summary": "",
-      "published_at": "2026-09-02T13:49:14+00:00",
-      "first_seen_at": "2026-09-02T14:56:23.431887+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "url": "https://openai.com/index/atv-big-air-tour",
-      "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-      "published_at": "2026-09-02T12:00:00+00:00",
-      "first_seen_at": "2026-09-02T23:21:09.131846+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
-      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
-      "summary": "With Astra clearly finally warming up for a full launch (with @sama and @openai writing about it again after a month of self imposed pacing), there’s a familiar window to take the narrative with the round robin of model launches, with Grok 4.7 and Gemini Flash 3.8 also on the way",
-      "published_at": "2026-09-02T07:46:08+00:00",
-      "details": "With Astra clearly finally warming up for a full launch (with @sama and @openai writing about it again after a month of self imposed pacing), there’s a familiar window to take the narrative with the round robin of model launches, with Grok 4.7 and Gemini Flash 3.8 also on the way. But that’s also perhaps not the best way to frame today’s launch… which got well over 12M views updating the sitting world best model yet again:The benchmark table speaks for itself:While per-token pricing is the same as Fable/Mythos 5, the cache reads had a 75% price cut… great news for long sessions/long context users, however offset by observed 1.7x output token usage increases per Artificial Analysis, for a total net per-task cost increase of 20% (see recap below).Also don’t World Labs’ Astra launch, by far the most impressive world model launch we’ve ever seen, and on a regular day would have easily gotten title story cards. You can catch up on Fei Fei and Justin Johnson’s vision on our pod and trace from Marble to Astra and what we were talking about with the true potential of world models:AI News for 8/31/2026-9/1/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapTop Story: Fable 5.1 and Mythos 5.1 release and reactionsWhat happenedAnthropic launched Claude Fable 5.1 and Claude Mythos 5.1 as its new flagship models for coding and knowledge work.Anthropic announced the release directly, positioning them as “the world’s most advanced models for coding and knowledge work” via @claudeaiAnthropic product/engineering voices framed Fable 5.1 specifically around autonomous, multi-step work: “complex, multi-step work that runs on its own,” with emphasis on coding, knowledge work, and long-running problem solving via @mikeykAnthropic kept list pricing for Fable 5.1 at $10 / $50 / $12.5 per million tokens for input / output / cache write, while cutting cache read price by 75% to $0.25 / MTok, again noted by @mikeyk, @Teknium, and independently quantified by @ArtificialAnlysEarly benchmark screenshots and system-card excerpts drove much of the discussion, especially around Terminal-Bench-Science, SWE-family evals, HLE, FrontierCode, and Artificial Analysis via @StevenDillmann, @scaling01, @ArtificialAnlysA key interpretive claim emerged from community analysis: Fable and Mythos 5.1 may be the same underlying weights, with different safety/routing behavior, not different base models, per @eliebakouch and later @nrehiew_User reactions split along multiple axes: very strong praise for coding/planning ability and tone, but complaints around rate limits, safeguards false positives, subscription UX, and unclear benchmark presentation via @danshipper, @theo, @kimmonismus, @GregKamradt, @kylebrussell, and @eliebakouchOfficial claims and model positioningAnthropic’s own messaging was straightforward: Fable 5.1 is for difficult, delegated, long-horizon work, while Mythos 5.1 is the paired release for knowledge work. The main official launch post is @claudeai. Supporting commentary from Anthropic staff emphasized:autonomous long-running tasks via @mikeykimproved honesty / better failure reporting (“when it’s stuck it says so instead of reporting success”) via @mikeyknew enterprise-oriented controls, especially Enterprise Frontier Safeguards (EFS), positioned as “ZDR++” for agent observability in enterprise environments via @alexalbert__zero-data-retention support highlighted by users as an important adoption unlock, especially @danshipperThe official pitch was not merely “better benchmark model,” but “usable autonomous worker” — fast enough, cheap enough in cached agent settings, and enterprise-compatible enough to deploy.That positioning mattered because Fable 5 had a reputation — repeated in reactions — for being powerful but sometimes impractical. Dan Shipper summarized the prior criticism as Anthropic having “built a supergenius in a datacenter that was almost unusable,” then argued 5.1 addresses slowness, verbosity, and awkward tone via @danshipper.Technical details and numbersCore published/priced detailsFrom @ArtificialAnlys:Context window: 1 million tokensModalities: text + image inputsPricing: unchanged from Fable 5 forinput: $10 / 1M tokensoutput: $50 / 1M tokenscache write: $12.5 / 1M tokensCache read price: reduced from $1.00 to $0.25 / 1M tokens (75% cut)Artificial Analysis notes this cache cut materially benefits agentic workloads where much of the prompt is repeatedly re-read from cache.Artificial Analysis headline resultsAlso from @ArtificialAnlys:Artificial Analysis Intelligence Index: 66 at max effortahead of:Claude Opus 5 max: 63Claude Fable 5 max: 62GPT-5.6 Sol max: 61Grok 4.6 high: 61HLE: 59.1%previous best cited: Fable 5 at 55.5%Terminal-Bench v2.1: 91.4%SciCode: 62.0%τ³-Banking: +9 points over Fable 5GDPval-AA v2: 1853 Elo, +130 over Fable 5AA-Br",
-      "first_seen_at": "2026-09-02T14:56:23.431887+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "source_type": "rss",
-      "title": "Self-hosted machines",
-      "url": "https://cursor.com/changelog/self-hosted-machines",
-      "summary": "Cursor supports **self-hosted machines**, which let you keep tool execution entirely in your own network. Your codebase, build outputs, and secrets all stay on internal machines running in your infrastructure, while the agent handles tool calls locally. <figure><img src=\"https://",
-      "published_at": "2026-09-02T00:00:00+00:00",
-      "first_seen_at": "2026-09-02T23:21:09.131846+00:00"
-    },
-    {
-      "source": "AgiBot News",
-      "source_type": "rss",
-      "title": "AGIBOT Showcases Humanoid Robotics and RaaS Solutions at LEAP 2026-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
-      "url": "https://www.agibot.com/article/231/detail/93.html",
-      "summary": "",
-      "published_at": "2026-09-02T00:00:00+00:00",
-      "first_seen_at": "2026-09-03T14:50:55.548559+00:00"
     },
     {
       "source": "Vidu Product Updates",
