@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-16T23:38:52.283128+00:00",
+  "updated_at": "2026-10-17T14:02:26.080542+00:00",
   "count": 700,
-  "new_count": 474,
+  "new_count": 488,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,52 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "DeepSeek News",
+      "source_type": "rss",
+      "title": "DeepSeek-V4.1-Flash-1017: Wish-Driven Programming Made Real | DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/news/news261017",
+      "summary": "🚀 DeepSeek-V4.1-Flash-1017 is here!",
+      "published_at": "2026-10-31T00:00:00+00:00",
+      "first_seen_at": "2026-10-17T14:02:26.080542+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "The rise of the machines is canceled: Why humanoids with AI are helpers, not enemies",
+      "url": "https://www.therobotreport.com/rise-machines-canceled-why-humanoids-ai-are-helpers-not-enemies/",
+      "summary": "Boston Dynamics’ Atlas humanoid, shown here, is an example of a robot ready for AI. For decades, engineers have been trying to create robots that look and act like humans. Now, rapid advances in artificial intelligence are bringing humanoid robots out of the lab and onto the fact",
+      "published_at": "2026-10-17T12:30:55+00:00",
+      "first_seen_at": "2026-10-17T14:02:26.080542+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] High Taste Testers Ep. 1",
+      "url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+      "summary": "We are piloting a new show on Latent Space: High Taste Testers, a variant of our food show where we pull you in to a typical lunch conversation in San Francisco. All your favorite talking points, starting with Dev Day and going into the latest models and assistants, are here:Let ",
+      "published_at": "2026-10-17T07:47:38+00:00",
+      "details": "We are piloting a new show on Latent Space: High Taste Testers, a variant of our food show where we pull you in to a typical lunch conversation in San Francisco. All your favorite talking points, starting with Dev Day and going into the latest models and assistants, are here:Let us know your feedback!AI News for 10/15/2026-10/16/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapUS Open-Weights Push: Muse Spark Open and Reflection BeamMuse Spark Open (Meta): An 816B-total, 42B-active MoE with open weights. Artificial Analysis scores it 39 on its Intelligence Index, the highest for a US open-weights model and 13 points above NVIDIA’s Nemotron 3.5 Super VL at 26 (AA).Architecture and footprint: 62 layers, GQA with 16 KV heads, 8 of 256 experts active per token, a 1.8B Perception Encoder and 1M context. Inputs are text, image, video and audio; output is text. BF16 weights are about 1.6TB. Meta’s NVFP4 checkpoint quantizes only the experts, cutting weights to about 530GB. Meta says that fits on 4 Blackwell Ultra GPUs, 8 H200s or two 512GB M5 Ultra Mac Studios.Pricing and efficiency: Together, Fireworks and Baseten charge $1.25/$4.25 per M input/output tokens, with $0.15 cached input. AA puts the cost at $0.84 per index task, versus $2.01 for GLM-5.3 and $0.27 for DeepSeek V4.1 Flash. It uses 40k output tokens per task, the fewest among the top nine open models (cost). Vals counts 55.5M output tokens across its index, the fewest of any open model, but says input tokens drive most of its cost (Vals).Weak spot: It ranks last among the top nine open models on AA’s four agentic evals while leading open models on AA-Omniscience. Vals places it #12 among open-weight models and #38 overall (Vals). Arena ranks it the top US open model on Code Arena WebDev with 1511 points, #13 among open models (Arena).License: The custom Muse Model License requires “Built with Muse Spark Open” attribution. Model-as-a-Service businesses with more than $20M in annual revenue need a separate agreement with Meta.Ecosystem: mlx-lm had day-0 support with vision, plus an Apple blog post on RDMA-distributed inference across Mac Studios (@zcbenz). vLLM served RL rollouts during Muse training and supports the release at launch (vLLM). SemiAnalysis has added B200 configurations to InferenceX (SemiAnalysis).Criticism (opinion): @teortaxesTex calls it “DOA” against the smaller, MIT-licensed V4.1 Flash. He also speculates, without evidence, that Meta withheld Spark 1.3 because of distillation from OpenAI (speculation). @alexandr_wang describes MSL as having built “a machine that builds new models.”Reflection Beam 1.0: A 501B-total, 23B-active MoE with 1M context, released under Apache 2.0. The release includes BF16, FP8 and NVFP4 weights, a DFlash2 drafter, the open Mirror CLI harness Beam was trained on, and a safety report (Reflection, safety report, Mirror).Independent evals: AA scores it 30, #2 among US open models, using about 26k tokens per task. It reaches 48.5% on AutomationBench-AA but only 3.0% on Terminal-Bench 4.0. On AA-Omniscience it answers 33% correctly but hallucinates at 47% (AA). Arena places it #12 among open models in Agent Arena (±3.84%) and makes it the only non-Chinese model in the top 25 open models on Code WebDev (Arena).Architecture: Sliding-window attention with a 512 window in a 5:1 pattern, no RoPE, Llama-4-style global attention scaling, gated attention, QK-norm, sandwich norm, logit softcapping and no shared experts (@eliebakouch).Serving and RL: vLLM had day-0 support. On 4× B300 with NVFP4 at TP4, it measured 1,769 output tok/s at concurrency 16. SkyRL offers day-0 LoRA, full fine-tuning and MXFP8 RL, and reports +62% LoRA decode throughput (276→447 tok/s/GPU), which is a decode result, not an end-to-end training speedup (vLLM, SkyRL). Ollama is serving it free for a limited time, US-hosted with zero data retention (Ollama).Other open releases: StepFun released Step 5 Preview open weights (Together). Tencent shipped Hy Memory 2.0 and claims Hy-Memory-30B-A3B beats Opus 5 on memory frameworks (Tencent). Datalab released Indra, a 1M-parameter OCR model it says runs 15× faster than Tesseract on CPU (@VikParuchuri).Frontier Model Rollouts and the Decision-Model CategoryGemini 4 Argon: Now available to Pro subscribers and in AI Studio Build (@_philschmid, AI Studio).Specs and pricing: The wide release raises the output limit to 1M tokens from 64K, sharing the window with input. Intro pricing is $2/$10 until Nov 30 (DeepLearning.AI).Results: Perplexity reports a new SOTA on its WANDR research benchmark (@AravSrinivas). Argon ranks #5 in Agent Arena at +13.2% (Arena). @MParakhin gives early praise for its math, with the caveat that it needs higher reasoning effort.Anthropic speed and price moves: Haiku 5.5 costs $0.10/$0.50 for prompts up to 100K",
+      "first_seen_at": "2026-10-17T14:02:26.080542+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "High Taste Testers: OpenAI Shipped Everything. What Actually Works?",
+      "url": "https://www.youtube.com/watch?v=ZOH8Q401vt0",
+      "summary": "Six AI power users compare what actually works—and what falls apart once you start using it. Ben Davis, Ben Hylak, Dex Horthy, Allison Durham, Alex Volkov, and swyx discuss OpenAI DevDay, coding agents, personal assistants, model preferences, and the gap between impressive AI cap",
+      "published_at": "2026-10-16T23:45:02+00:00",
+      "first_seen_at": "2026-10-17T14:02:26.080542+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Why opportunity charging is winning as robot fleets scale",
+      "url": "https://www.therobotreport.com/why-opportunity-charging-is-winning-as-robot-fleets-scale/",
+      "summary": "The Robot Report Podcast · Why Opportunity Charging Is Winning as Robot Fleets Scale Ben Waters, CEO of Wibotic. In Episode 266 of The Robot Report Podcast, our guest is Ben Watters is the CEO and co-founder of WiBotic, a company that develops wireless charging solutions and flee",
+      "published_at": "2026-10-16T23:39:33+00:00",
+      "first_seen_at": "2026-10-17T14:02:26.080542+00:00"
+    },
     {
       "source": "Dwarkesh Podcast YouTube",
       "source_type": "youtube",
@@ -226,6 +272,15 @@
       "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "published_at": "2026-10-16T00:00:00+00:00",
       "first_seen_at": "2026-10-16T23:38:52.283128+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "first_seen_at": "2026-10-17T14:02:26.080542+00:00"
     },
     {
       "source": "No Priors YouTube",
@@ -697,6 +752,15 @@
       "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
       "published_at": "2026-10-14T02:00:14+00:00",
       "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
+    },
+    {
+      "source": "ByteDance Seed Blog",
+      "source_type": "rss",
+      "title": "Seed News - ByteDance Seed Team",
+      "url": "https://seed.bytedance.com/blog/seed-alignment-preparedness-team-looking-for-global-talents",
+      "summary": "Seed Alignment & Preparedness team looking for global talents",
+      "published_at": "2026-10-14T00:00:00+00:00",
+      "first_seen_at": "2026-10-17T14:02:26.080542+00:00"
     },
     {
       "source": "OpenAI News",
@@ -6321,60 +6385,6 @@
       "first_seen_at": "2026-09-07T23:32:51.815260+00:00"
     },
     {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "The OpenAI Hugging Face Hack explained in plain English",
-      "url": "https://www.youtube.com/shorts/imodZWltU8Q",
-      "summary": "",
-      "published_at": "2026-09-07T16:49:35+00:00",
-      "first_seen_at": "2026-09-07T23:32:51.815260+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "The Reality of Building Physical Chips",
-      "url": "https://www.youtube.com/shorts/MxM7Wr_NU9Q",
-      "summary": "\"No inventory, no scrap, what's not to like?\" Arm CEO Rene Haas joins Elad Gil and Sarah Guo to break down why Arm now selling physical chips.",
-      "published_at": "2026-09-07T15:25:14+00:00",
-      "first_seen_at": "2026-09-07T16:15:44.428680+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Inbolt to discuss physical AI’s deployment problem at RoboBusiness",
-      "url": "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/",
-      "summary": "Inbolt’s technology lets robots grasp parts however they can, then uses in-hand localization to adjust trajectory mid-move. | Source: Inbolt Physical AI’s consensus says progress is gated by data. More of it, better curated, better simulated. That’s true in the lab. In the factor",
-      "published_at": "2026-09-07T14:00:13+00:00",
-      "first_seen_at": "2026-09-07T16:15:44.428680+00:00"
-    },
-    {
-      "source": "Latent Space YouTube",
-      "source_type": "youtube",
-      "title": "Orbs: Shifting Coding to Cloud — Quinn Slack, Amp Code",
-      "url": "https://www.youtube.com/watch?v=hvwtHZ5E27c",
-      "summary": "swyx catchs up with Quinn Slack, CEO of Amp, discusses how the company has fundamentally changed software development by embracing AI agents and removing traditional processes like mandatory code reviews (7:03). Key Takeaways from the Discussion: The Shift to Cloud-Based Developm",
-      "published_at": "2026-09-07T14:00:06+00:00",
-      "first_seen_at": "2026-09-06T22:54:40.064267+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
-      "url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
-      "summary": "Agility Robotics said it has deployed its Digit humanoid at 9 customer sites as it gears up to go public via a proposed SPAC merger with Churchill Capital Corp. XI. Now we’re getting a first look at Agility’s financials thanks to a new S-4 filing with the SEC. According to the S-",
-      "published_at": "2026-09-07T13:17:45+00:00",
-      "first_seen_at": "2026-09-07T16:15:44.428680+00:00"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "This Robot Will Draw Your Blood Now",
-      "url": "https://spectrum.ieee.org/blood-draw-robot-vitestro-aletta",
-      "summary": "You sit down and put your arm in the cradle. You press a button. The machine takes it from there.A near-infrared light sweeps your inner elbow, hunting for a vein. A puff of alcohol hits your skin. An ultrasound probe glides across your arm, mapping how deep the vessel runs and w",
-      "published_at": "2026-09-07T13:00:01+00:00",
-      "first_seen_at": "2026-09-07T16:15:44.428680+00:00"
-    },
-    {
       "source": "Tesla AI / Optimus YouTube",
       "source_type": "youtube",
       "title": "The Future Has Arrived | Cybercab",
@@ -6437,15 +6447,6 @@
       "published_at": "2026-08-05T08:56:35.387909+00:00",
       "dedupe_key": "page:Coze Changelog:9605569cb0f742915c79771050abf667afffc966f2c1a88b27b771fa3b9c6ba1",
       "first_seen_at": "2026-08-05T08:53:54.819943+00:00"
-    },
-    {
-      "source": "ByteDance Seed Blog",
-      "source_type": "rss",
-      "title": "Seed News - ByteDance Seed Team",
-      "url": "https://seed.bytedance.com/blog/seedrealtime-audio-visual-full-duplex-llm-released-toward-omni-modal-natural-interaction",
-      "summary": "SeedRealtime Audio-Visual Full-Duplex LLM Released: Toward Omni-Modal Natural Interaction",
-      "published_at": "2026-08-05T00:00:00+00:00",
-      "first_seen_at": "2026-08-05T22:31:31.467090+00:00"
     },
     {
       "source": "Kimi Blog",
