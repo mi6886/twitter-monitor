@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-17T14:02:26.080542+00:00",
+  "updated_at": "2026-10-17T23:10:26.691626+00:00",
   "count": 700,
-  "new_count": 488,
+  "new_count": 522,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -72,6 +72,33 @@
       "summary": "🚀 DeepSeek-V4.1-Flash-1017 is here!",
       "published_at": "2026-10-31T00:00:00+00:00",
       "first_seen_at": "2026-10-17T14:02:26.080542+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "First Party Chips and the NVIDIA Price",
+      "url": "https://www.youtube.com/shorts/Bwxm3NQAE5M",
+      "summary": "First party chips are mostly about getting a better price from NVIDIA. Fractile’s Walter Goodwin on why there might be some truth to that joke:",
+      "published_at": "2026-10-17T22:52:48+00:00",
+      "first_seen_at": "2026-10-17T23:10:26.691626+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "ADI explains the race to make AI physical",
+      "url": "https://www.therobotreport.com/adi-explains-the-race-to-make-ai-physical/",
+      "summary": "The Report Report presents a whitepaper on the race to physical AI. AI has become remarkably good at understanding language, images, and code. The next challenge is harder — understanding reality, according to Analog Devices Inc. or ADI. Physical AI moves intelligence out of digi",
+      "published_at": "2026-10-17T21:33:57+00:00",
+      "first_seen_at": "2026-10-17T23:10:26.691626+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+      "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, cont",
+      "published_at": "2026-10-17T21:00:13+00:00",
+      "first_seen_at": "2026-10-17T23:10:26.691626+00:00"
     },
     {
       "source": "The Robot Report",
@@ -6355,34 +6382,6 @@
       "summary": "",
       "published_at": "2026-09-08T00:00:00+00:00",
       "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
-    },
-    {
-      "source": "AgiBot News",
-      "source_type": "rss",
-      "title": "AGIBOT Humanoid Robots Recognized by IFA Innovation Awards and Global Tech Media at IFA 2026-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
-      "url": "https://agibot.com/article/231/detail/98.html",
-      "summary": "",
-      "published_at": "2026-09-08T00:00:00+00:00",
-      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
-    },
-    {
-      "source": "AgiBot News",
-      "source_type": "rss",
-      "title": "AGIBOT Humanoid Robots Recognized by IFA Innovation Awards and Global Tech Media at IFA 2026-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
-      "url": "https://www.agibot.com/article/231/detail/98.html",
-      "summary": "",
-      "published_at": "2026-09-08T00:00:00+00:00",
-      "first_seen_at": "2026-09-09T14:59:57.740544+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
-      "url": "https://www.latent.space/p/aeo",
-      "summary": "Naive autoresearch investment in our AEO have yielded impressive ROI, and so naturally it was time to take it seriously. We were inspired by What Claude Code Actually Chooses, and decided to extend/adjust it to our tastes. After a few billion tokens of prototyping, aligning, and ",
-      "published_at": "2026-09-07T21:32:37+00:00",
-      "details": "Naive autoresearch investment in our AEO have yielded impressive ROI, and so naturally it was time to take it seriously. We were inspired by What Claude Code Actually Chooses, and decided to extend/adjust it to our tastes. After a few billion tokens of prototyping, aligning, and scaling pipelines, here’s the Latent Space Frontier AEO tracker. Our methodology extends AmplifyingAI’s to run 6 prompt variations over 7 models1 (search on) in 161 categories, from coding agents to AI podcasts to AI Sandboxes to Managed Databases to ASR models to even oddball categories like Angel investors and Corporate spend and Payroll software.Answer extraction was done by Astra, and scored for a proprietary AEO score that gives weight to first choices, alternative choices, mentions, but also negative weights to mild and strong anti-recommendations (which are rare, but do happen). Because we know you’ll want it, we also extracted the top cited sources which influence Agent recommendations, as well as an analysis of top failures.Basic ResultsHere are the most dominant products (in their categories) in the world:There are some familiar names in there — opening up the natural question of contamination, which we have checked. Since we have nothing to hide, every prompt and answer pair is inspectable.However, bias does exist - when models are asked for coding agent recommendations, Fable/Opus like Claude Code and Sol/Astra like Codex and Grok loves Cursor and Muse loves Muse Code and SWE-1.7 loves Devin and so on. I wonder why. You can see other “soft biases” emerge too…That said there are notable examples of GPT models recommending Claude, a laudable nonbias:There are 28 categories (out of our total 161) which have a universally dominant primary choice - among all surveyed frontier models.There are a lot more “close contests” and “always the vibesmaid, never the vibe” categories which should be key AEO battlegrounds.Sol vs Astra, Opus vs FableNew pretrains for new model classes represents a new opportunity to check in on what the labs are moving towards in their data and RL priorities, and to check in on whether startups’ investments in AEO are paying off. We prepared special reports analyzing our rankings, observing VERY consequential flips in model choices between model generations from the same lab.We have separate Opus→Fable and Sol→Astra summary pages. For some flips, we highlighted a neutral analysis of what competitors did better in each scenario.Efficiency vs Confidence, and Recommendation SourcingOne of our most surprising findings between Sol→Astra and Opus→Fable is that Anthropic seems to be biasing their models to searching more sources (Sol median of 9 sources, vs Astra median of 5, vs Opus median of 11 sources, vs Fable of 15). Astra seems to be just generally a lot more “confident”, or “efficient”, depending how you look at it - Astra is FAR less likely to change its mind when you lightly paraphrase your question. This makes the value of AEO itself rise as choice randomness declines.Sources analysis also somewhat strongly predicts what the labs do prioritize vs don’t. However the sample size is small here and only represents what we can scrape from attempted toolcalls, not the pretrain dataset. What we CAN validate is that AEO practices measured by Ora and Vercel, like markdown content-negotiation, are real and failures discourage models from reading your content.Just for funHere are the top Angels in the world according to LLMs (some dedupes left to do…).See moreWe also made a little family feud type game where you can see if your priors align with the data. Fun!We are open to further suggestions and business enquiries to develop this if it is of interest. Ping @latentspacepod or email business@latent.space (we have a business manager now! woo!)1As we note in our methodology post, we did try VERY hard to include Gemini/Antigravity, GLM/Zcode, and DeepSeek/DeepCode, but errors and rate limits made them untenable to include in this first run analysis. Please let us know how to raise limits if you represent these companies.",
-      "first_seen_at": "2026-09-07T23:32:51.815260+00:00"
     },
     {
       "source": "Tesla AI / Optimus YouTube",
