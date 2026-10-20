@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-19T17:18:47.840797+00:00",
+  "updated_at": "2026-10-20T00:24:46.390366+00:00",
   "count": 700,
-  "new_count": 524,
+  "new_count": 499,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -74,6 +74,61 @@
       "first_seen_at": "2026-10-17T14:02:26.080542+00:00"
     },
     {
+      "source": "Z.ai Release Notes",
+      "source_type": "rss",
+      "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
+      "url": "https://docs.z.ai/release-notes/new-released",
+      "summary": "Follow along with updates across Z.AI’s models",
+      "published_at": "2026-10-20T00:25:45.295457+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:baac6a072610b94df270b6b00145bb9581f03a2bd638ec36dd6b57858df02e40",
+      "first_seen_at": "2026-10-20T00:24:46.390366+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "How a US Tariff Helped Push Japan to War - Sarah Paine",
+      "url": "https://www.youtube.com/shorts/jG-I55-5rYo",
+      "summary": "",
+      "published_at": "2026-10-19T21:28:33+00:00",
+      "first_seen_at": "2026-10-20T00:24:46.390366+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
+      "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
+      "summary": "In the cavernous hall of Kraftwerk, a former power station in Berlin, German Chancellor Friedrich Merz and NVIDIA founder and CEO Jensen Huang sat down to discuss Germany’s AI roadmap, and in particular, the industrial applications of AI. Huang opened by tracing NVIDIA’s longstan",
+      "published_at": "2026-10-19T19:27:08+00:00",
+      "first_seen_at": "2026-10-20T00:24:46.390366+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
+      "summary": "The agent has finished the bulk of your change. Now you want to inspect one implementation detail, adjust a few lines by hand, and run the project locally before you ship it. But the work is sitting in the GitHub Copilot app… and your editor is where you review diffs, debug code,",
+      "published_at": "2026-10-19T18:47:22+00:00",
+      "first_seen_at": "2026-10-20T00:24:46.390366+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Unleash AI Innovation: The Power of NVIDIA RTX PRO 6000 Blackwell Workstation Edition Fueled by PNY-Supplied GPUs",
+      "url": "https://www.therobotreport.com/unleash-ai-innovation-the-power-of-nvidia-rtx-pro-6000-blackwell-workstation-edition-fueled-by-pny-supplied-gpus/",
+      "summary": "By PNY Technologies Experiment, Prototype, and Innovate with AI Artificial intelligence is transforming industries at an unprecedented pace. From agentic AI that autonomously solves complex, multi-step problems to physical AI that brings intelligence into robotics and autonomous ",
+      "published_at": "2026-10-19T17:38:13+00:00",
+      "first_seen_at": "2026-10-20T00:24:46.390366+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Daimon Robotics building the infrastructure layer for tactile intelligence",
+      "url": "https://www.therobotreport.com/daimon-robotics-building-the-infrastructure-layer-for-tactile-intelligence/",
+      "summary": "Credit: Daimon Robotics Vision has become central to modern robotics, but cameras alone cannot tell a robot everything it needs to know about physical contact. When handling flexible objects, inserting components, or manipulating delicate items, robots need information about forc",
+      "published_at": "2026-10-19T17:07:52+00:00",
+      "first_seen_at": "2026-10-20T00:24:46.390366+00:00"
+    },
+    {
       "source": "The Robot Report",
       "source_type": "rss",
       "title": "Kodama raises $7M to bring robotics to forestry",
@@ -128,6 +183,15 @@
       "first_seen_at": "2026-10-19T17:18:47.840797+00:00"
     },
     {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Advancing coding in low‑resource programming languages",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "published_at": "2026-10-19T12:00:00+00:00",
+      "first_seen_at": "2026-10-20T00:24:46.390366+00:00"
+    },
+    {
       "source": "MiniMax Blog",
       "source_type": "rss",
       "title": "MiniMax M3.1 Flash: Redefining Agent Performance and Cost - MiniMax Research",
@@ -135,6 +199,15 @@
       "summary": "Today, we officially roll out MiniMax M3.1 Flash. As a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making online inference nearly three times faster and reducing usage costs by 70%.",
       "published_at": "2026-10-19T00:00:00+00:00",
       "first_seen_at": "2026-10-19T17:18:47.840797+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "summary": "",
+      "published_at": "2026-10-19T00:00:00+00:00",
+      "first_seen_at": "2026-10-20T00:24:46.390366+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -1253,16 +1326,6 @@
       "summary": "",
       "published_at": "2026-10-10T18:49:05+00:00",
       "first_seen_at": "2026-10-11T16:31:19.944778+00:00"
-    },
-    {
-      "source": "Z.ai Release Notes",
-      "source_type": "rss",
-      "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
-      "url": "https://docs.z.ai/release-notes/new-released",
-      "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-10-10T16:06:06.455273+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:6adbd979b87a8810b01824823854727690c8dd78b52eea3896cd313f238516db",
-      "first_seen_at": "2026-10-10T16:05:35.435052+00:00"
     },
     {
       "source": "Latent Space",
@@ -6327,70 +6390,6 @@
       "summary": "Dynamic Creatures co-founder and CEO Marc Theermann (left) and co-founder and CTO Farbod Farshidian. | Source: Dynamic Creatures | Source: Dynamic Creatures Boston Dynamics is focused on commercializing robots for industrial work, but it’s always had time for some fun, too. We’ve",
       "published_at": "2026-09-08T20:39:51+00:00",
       "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
-    },
-    {
-      "source": "Runway",
-      "source_type": "rss",
-      "title": "The Kinetix Team is Joining Runway",
-      "url": "https://runway.com/news/company-news/kinetix-joins-runway",
-      "summary": "The team from Kinetix, a Paris research lab known for 3D human motion and physically-grounded video generation, is joining Runway to advance world models for robotics and grow Runway's research presence in Europe.",
-      "published_at": "2026-09-08T19:37:00+00:00",
-      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "AI can’t outrun a humanoid’s hardware",
-      "url": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/",
-      "summary": "Editor’s note: Andreas Friedrich, managing director technology and strategy, Allegro MicroSystems, will be speaking at RoboBusiness, which will be on Oct. 20 and 21 in Santa Clara, Calif. He will dissect the critical technological advancements that are making next-generation robo",
-      "published_at": "2026-09-08T19:03:09+00:00",
-      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-      "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
-      "published_at": "2026-09-08T17:00:00+00:00",
-      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast",
-      "source_type": "rss",
-      "title": "Pretraining progress is mostly coming from data",
-      "url": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data",
-      "summary": "How much of the rapid progress in AI that we’ve seen over the last few years1 has come from data versus model improvements? The answer has big implications for the economics of frontier labs and the pace of future progress.We investigate this question at a relatively small scale,",
-      "published_at": "2026-09-08T16:10:16+00:00",
-      "details": "How much of the rapid progress in AI that we’ve seen over the last few years1 has come from data versus model improvements? The answer has big implications for the economics of frontier labs and the pace of future progress.We investigate this question at a relatively small scale, and for pretraining specifically, from 2019 to 2025. During each of those years, a new open model recipe was published which codified that year’s publicly known algorithmic tweaks (for example, improvements in architecture, optimizer, initializations, learning rate schedule, hyperparams, etc). And during each of those years, there was also a new public data corpus (produced by broader scrapes and new curation/extraction/filtering techniques). We train combinations of these year-representative model recipes and data corpuses across different scales of training compute (up to 1e19 FLOPs)2.Obviously, we can’t compare these different models by their cross-entropy loss against a fixed dataset, since we’re varying the datasets they’re trained on. So instead we evaluate these models on end capabilities as measured by the OLMES eval (which aggregates 10 different relatively easy benchmarks, mostly multiple choice QA). Unfortunately, evaluating end capability rather than pretraining loss adds some noise to our results, as you’ll see in the graphs below, though we try to get cleaner bounds by running multiple seeds.We find that from 2019 to 2025, 3.24x more compute efficiency gains have come from data improvements rather than model improvements (12.0x for data and 3.7x for models), at the 1e19 FLOPs compute budget3.Here is a grid which shows how much better a model we train does on the end capability we're testing it on, relative to the 2019 data + architecture baseline, at 3.16e18 FLOPs4.We find that the gains from data and model improvements are mostly independent and don’t interact (i.e. realizing the gains from some model improvement doesn’t require a specific training datapile, or vice versa). 88% of the variance in the OLMES score can be explained by additive effects of the model and data improvements (using a linear model).DiscussionFor context, let’s briefly summarize what changed on both the data and the model side from 2019 to 2025.On the model side, we went from GPT-2 to OLMo-2, including key innovations in optimizers, positional encodings, normalization, activation functions, initializations, and more5.On the data side, we started with OpenWebText in 2019, which contained just web pages linked from Reddit with enough upvotes and then deduplicated and filtered, and thus amounted to only ~9B tokens (this was mostly what GPT-2 was trained on). By 2025, open source data corpuses like UltraFineWeb not only are far larger (by using scrapes of the whole Internet), but also use much more sophisticated filtering (for example, by training a classifier to predict what data will empirically improve model performance).A naive interpretation of our result is that most of the AI progress from 2019-2024 (the era of pretraining) was just better data engineering (extraction, curation, etc.), and that all the model work during that period was much less important.But this is probably the wrong way to think about the value of model improvements. Their main contribution was not necessarily compute efficiency - that is, achieving the same performance with fewer FLOPs. Rather, it was making larger amounts of compute usable in the first place. As the number of parameters, context lengths, run duration, and clusters scale up, all kinds of things are prone to breaking (gradients explode or vanish, memory and bandwidth run out, training becomes infeasibly slow). Much of model research has consisted of removing or pushing back these constraints to scaling. Many of the most important innovations such as MoEs, sparse attention variants, stability innovations (norm placements, initializations, etc.) and system / kernel-level optimizations like FlashAttention fall into this category.The data improvements we investigated here might matter less for larger models. Small models (like the ones we trained) see significant gains from data quality improvements, because they don’t have that much capacity, and so you have to be really careful about what you stuff into them. Whereas big models have so much excess capacity that maybe you just want to throw in as much stuff as you can, even if it’s mostly garbage, and the magic of stochastic gradient descent will separate out the signal from the noise. If you choose to filter aggressively, you’ll have to do dozens of epochs, which empirically gives worse performance than just having a lower average quality but larger dataset. In fact, aggressive data curation is even more harmful once you take into account that frontier models are up to 100x overtrained relative to Chinchilla optimal, in order to minimize the inference compute used for RL and for deployment.An analogy might be the difference between a sailboat and a containe",
-      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Why vision AI is the safety backbone of the automated job site",
-      "url": "https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/",
-      "summary": "ViAct offers viBOT, an autonomous robotic monitor for construction. | Source: viAct Construction is entering a new era of automation. Autonomous earthmoving equipment is beginning to reshape excavation. Robotic layout systems are improving precision. Drones are inspecting hard-to",
-      "published_at": "2026-09-08T16:05:04+00:00",
-      "first_seen_at": "2026-09-08T23:25:43.374695+00:00"
-    },
-    {
-      "source": "a16z AI YouTube",
-      "source_type": "youtube",
-      "title": "Inside OpenAI’s Breakthroughs in Mathematical Reasoning",
-      "url": "https://www.youtube.com/watch?v=1JvyLGd2Sfs",
-      "summary": "a16z Infra Partner Lisha Li sits down with OpenAI mathematicians Mehtaab Sawhney and Mark Sellke to discuss how quickly AI’s mathematical capabilities are advancing, what recent results reveal about model reasoning, and what happens when AI begins making progress on problems math",
-      "published_at": "2026-09-08T14:30:11+00:00",
-      "first_seen_at": "2026-09-08T14:51:53.503735+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-      "summary": "",
-      "published_at": "2026-09-08T14:23:07+00:00",
-      "first_seen_at": "2026-09-08T14:51:53.503735+00:00"
     },
     {
       "source": "Tesla AI / Optimus YouTube",
