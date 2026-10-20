@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-20T15:32:21.789891+00:00",
+  "updated_at": "2026-10-20T23:56:18.286284+00:00",
   "count": 700,
-  "new_count": 488,
+  "new_count": 571,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -74,6 +74,100 @@
       "first_seen_at": "2026-10-17T14:02:26.080542+00:00"
     },
     {
+      "source": "Z.ai Release Notes",
+      "source_type": "rss",
+      "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
+      "url": "https://docs.z.ai/release-notes/new-released",
+      "summary": "Follow along with updates across Z.AI’s models",
+      "published_at": "2026-10-20T23:56:44.957784+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:2d015bef672305ec6cd33ad611f8c553fc9994396d7cd47e035f9854ed7c33de",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "What if the Vikings had colonized America? - Si Sheppard",
+      "url": "https://www.youtube.com/shorts/ykyt-M6s3PA",
+      "summary": "",
+      "published_at": "2026-10-20T21:25:20+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Reservoir launches new agricultural robotics incubator for Washington growers",
+      "url": "https://www.therobotreport.com/reservoir-launches-new-agricultural-robotics-incubator-for-washington-growers/",
+      "summary": "Reservoir opened Reservoir Farms – Salinas, its flagship innovation hub. | Source: Reservoir Reservoir, Washington State University’s Prosser Irrigated Agriculture Research and Extension Center (IAREC), the Washington Tree Fruit Research Commission (WTFRC), and the Tri-City Devel",
+      "published_at": "2026-10-20T19:40:05+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "The Programmable Data Center — Evan Conrad, SF Compute",
+      "url": "https://www.latent.space/podcast",
+      "summary": "This was recorded on the sidelines of the new Compute Trading track at AIE NYC. Catch us next at AIE CODE, our last flagship for the top agentic engineers in the world.In the early days of cloud, former guest Martin Casado made something so disruptive that Cisco was threatened en",
+      "published_at": "2026-10-20T19:31:57+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/221372257/7df8338a8bb8d4ac8abb9702a0be2372.mp3",
+      "details": "This was recorded on the sidelines of the new Compute Trading track at AIE NYC. Catch us next at AIE CODE, our last flagship for the top agentic engineers in the world.In the early days of cloud, former guest Martin Casado made something so disruptive that Cisco was threatened enough to pay $600m for it, and VMware outbid for $1.3B:That concept was software-defined networking, which virtualized the routing network by separating the control plane from the data plane. That revolution is now coming for GPUs - where previously running your own supercompute cluster required $50-100m upfront to get commitments and do the entire stack from hardware to firmware to kernels, SF Compute is now enabling you to not only buy or sell GPU hours now and in the future, but also to programmatically control everything from your network to memory.We last spoke with Evan about commoditizing compute. At AI Engineer New York, we went deeper: what does it take to physically deliver a GPU contract, and what has to be true before a market in compute can become liquid?From selling a room to running the hotelEvan describes SF Compute’s expansion with a hotel analogy. A customer wants a room, then asks for cleaning, room service, and security. Eventually you discover that delivering the room means operating the hotel. SF Compute began by trying to sublease a cluster; the company has since built much of the operating capacity of a cloud to deliver the compute traded on its market.That work is physical settlement: the buyer gets usable compute, rather than simply a cash payment against an index. It brings the physical constraints of a cluster into the market itself. Can a workload be interrupted? How quickly can it recover from storage? Which GPU generation, networking and software configuration does it need? Those details affect both the contract and the price.Making compute tradeableRather than waiting for every GPU cluster to become interchangeable, SF Compute matches orders with different constraints. Evan argues that this makes trading possible while the technology changes, at the cost of spreading liquidity across more variants. We also discuss spot and forward pricing, batch versus live inference, and why an index can become disconnected from the cost of actually buying compute.Independence is central to Evan’s case for a market operator. He argues that companies with large hardware or inference businesses have incentives that make it harder to run a neutral exchange. We also get into the unglamorous engineering: visiting sites, designing clusters, running the backplane, and making infrastructure programmable. Near the end, he describes the ability to subdivide InfiniBand fabric on the fly as one example.Guest: Evan Conrad, CEO of SF Compute. Show notesEvan’s AI Engineer NYC talk: How Compute Markets WorkOur previous SF Compute conversationWhy oil futures went negative in 2020 — EIAHow SF Compute customers resell unused GPU capacitySF Compute’s $245M compute saleAbel: SF Compute’s settlement ledgerCFTC: Barclays and LIBOR manipulationElastic InfiniBand partitionsTimestamps0:00 — Why can’t NVIDIA build this?0:25 — Welcome back to Latent Space2:23 — From selling a room to running the hotel3:47 — Physical settlement: actually delivering compute6:00 — Liquidity and the GPU order book8:42 — Trading nonstandard compute10:00 — Interrupting and moving workloads12:20 — Why hardware cohorts matter14:32 — How far out do compute contracts go?16:19 — Batch versus live inference leases17:58 — The shape of compute prices20:33 — GPU generations, specifications and SKUs23:30 — Physical versus cash settlement27:00 — The emerging compute market ecosystem29:03 — What it takes to deliver a GPU cluster32:24 — Sovereign compute33:26 — Why NVIDIA can’t build this market34:48 — A programmable data centerTranscriptAutomated transcript, lightly formatted; speaker labels have not been verified.00:00 NVIDIA is obviously like the 800-pound gorilla in the room. Why didn’t they make SF Compute? So our impression is that NVIDIA can’t make it, but benefits tremendously from it existing. The reason why they can’t make it is because they would then not be independent enough for people to trade on it.00:25 Anyway, Evan, welcome back to Latent Space. Thank you so Welcome back to AIE. Actually, first time at AIE. I think so, yeah. This is a very special one because I feel like you have been working on compute trading, compute markets for a while. Now it’s like feeling of the moment. Yeah. Jump basically announced that they are getting into compute markets, which is why I’m excited to sort of cluster people. You met Oliver from SemiAnalysis, who is basically initiating coverage on compute markets is my read on this. So people are going to watch your talk.01:00 I think it’s a very good explanation of both your origin story and why you need to exist and all the hard problems you work on. Yeah. Done in a very simple, engaging manner. I’m very jealous of your writing skills ",
+      "dedupe_key": "podcast:a43074e559c0a5d0c1fc0f056ba873e1793cfc4c",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "summary": "",
+      "published_at": "2026-10-20T18:17:47+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
+      "source": "Runway",
+      "source_type": "rss",
+      "title": "Runway Joins Claude Marketplace",
+      "url": "https://runway.com/news/company-news/runway-claude-marketplace",
+      "summary": "Runway Creative is now in Claude Marketplace. Enterprise teams can generate and edit video, images and audio and pay for it with committed Anthropic spend.",
+      "published_at": "2026-10-20T17:18:00+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "RoboBusiness rebrands as Robotics Summit & Expo West",
+      "url": "https://www.therobotreport.com/robobusiness-rebrands-as-robotics-summit-expo-west/",
+      "summary": "Arrowfly, an award-winning B2B media and marketing company, today announced that RoboBusiness, the leading robotics industry event for the past 20 years, is being rebranded as Robotics Summit & Expo West, a conference and expo dedicated to the design, deployment, and scaling of c",
+      "published_at": "2026-10-20T16:23:21+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "2027 TRR50 Robotics Innovation Awards open nominations",
+      "url": "https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/",
+      "summary": "Aaron Parness, director of applied sciences at Amazon Robotics, and Bhavana Chandrashekhar, the senior manager of applied science at Amazon Robotics, speaking at the 2026 RBR50 gala. The Robot Report is seeking nominations for its 2026 TRR50 Robotics Innovation Awards. The RBR50 ",
+      "published_at": "2026-10-20T16:15:24+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "summary": "",
+      "published_at": "2026-10-20T16:09:19+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+      "summary": "AI coding tools can generate code quickly, but speed alone does not solve the hardest software engineering problems. Developers still need to provide context, validate results, protect maintainability, and remain accountable for what ships. To learn how experienced developers str",
+      "published_at": "2026-10-20T16:05:03+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
       "source": "Hugging Face Blog",
       "source_type": "rss",
       "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
@@ -137,6 +231,15 @@
       "first_seen_at": "2026-10-20T15:32:21.789891+00:00"
     },
     {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "published_at": "2026-10-20T10:00:00+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
       "source": "Latent Space",
       "source_type": "rss",
       "title": "[AINews] not much happened today",
@@ -165,14 +268,13 @@
       "first_seen_at": "2026-10-20T15:32:21.789891+00:00"
     },
     {
-      "source": "Z.ai Release Notes",
+      "source": "Anthropic News",
       "source_type": "rss",
-      "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
-      "url": "https://docs.z.ai/release-notes/new-released",
-      "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-10-20T00:25:45.295457+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:baac6a072610b94df270b6b00145bb9581f03a2bd638ec36dd6b57858df02e40",
-      "first_seen_at": "2026-10-20T00:24:46.390366+00:00"
+      "title": "Features",
+      "url": "https://www.anthropic.com/news/features",
+      "summary": "",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -191,6 +293,33 @@
       "summary": "",
       "published_at": "2026-10-20T00:00:00+00:00",
       "first_seen_at": "2026-10-20T15:32:21.789891+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "OpenAI acquires Orchestra Bio",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "summary": "",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "Using Claude to reduce the attack surface of code",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction",
+      "summary": "Automated attack surface analysis and reduction can meaningfully improve the security of deployed software in the near term. In this post, we preview data we’ve collected from applying attack surface reduction techniques to large open-source codebases using Claude.",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -344,6 +473,15 @@
       "summary": "There are several factors to choosing brushless DC or BLDC motors for robots. Source: Faisal Mahmood Selecting a brushless DC, or BLDC, motor for robotic arms or mobile robots starts with the mechanical system, not the controller catalog. A motor rated for a particular voltage an",
       "published_at": "2026-10-18T12:30:50+00:00",
       "first_seen_at": "2026-10-18T14:16:33.203193+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "source_type": "rss",
+      "title": "Announcements",
+      "url": "https://www.anthropic.com/news/announcements",
+      "summary": "",
+      "published_at": "2026-10-18T00:00:00+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
     },
     {
       "source": "No Priors YouTube",
@@ -814,6 +952,15 @@
       "first_seen_at": "2026-10-16T15:10:02.859877+00:00"
     },
     {
+      "source": "Anthropic News",
+      "source_type": "rss",
+      "title": "Policy",
+      "url": "https://www.anthropic.com/news/policy",
+      "summary": "",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
       "source": "Latent Space",
       "source_type": "rss",
       "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
@@ -1071,6 +1218,15 @@
       "first_seen_at": "2026-10-14T15:40:57.396506+00:00"
     },
     {
+      "source": "Anthropic News",
+      "source_type": "rss",
+      "title": "Safeguards",
+      "url": "https://www.anthropic.com/news/safeguards",
+      "summary": "",
+      "published_at": "2026-10-14T00:00:00+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
       "source": "The Robot Report",
       "source_type": "rss",
       "title": "NYSOFA expands partnership with Intuition Robotics to bring ElliQ to more seniors",
@@ -1300,6 +1456,15 @@
       "first_seen_at": "2026-10-14T15:40:57.396506+00:00"
     },
     {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/research/redesigning-source-control",
+      "summary": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
+      "published_at": "2026-10-13T00:00:00+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
       "source": "No Priors YouTube",
       "source_type": "youtube",
       "title": "Why Sequence Holdings Invested in Baldwin",
@@ -1389,6 +1554,15 @@
       "summary": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
       "published_at": "2026-10-12T09:30:00+00:00",
       "first_seen_at": "2026-10-13T02:35:58.865285+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "source_type": "rss",
+      "title": "Strengthening our defenses against distillation attacks",
+      "url": "https://www.anthropic.com/news/distillation-defenses",
+      "summary": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
+      "published_at": "2026-10-12T00:00:00+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -1882,6 +2056,24 @@
       "first_seen_at": "2026-10-08T17:41:37.280363+00:00"
     },
     {
+      "source": "Anthropic News",
+      "source_type": "rss",
+      "title": "Partnerships",
+      "url": "https://www.anthropic.com/news/partnerships",
+      "summary": "",
+      "published_at": "2026-10-08T00:00:00+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "source_type": "rss",
+      "title": "Security",
+      "url": "https://www.anthropic.com/news/security",
+      "summary": "",
+      "published_at": "2026-10-08T00:00:00+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
       "source": "Dwarkesh Podcast YouTube",
       "source_type": "youtube",
       "title": "Why 90% of Cortés's Army Wasn't Spanish - Si Sheppard",
@@ -2044,6 +2236,15 @@
       "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
       "published_at": "2026-10-07T00:00:00+00:00",
       "first_seen_at": "2026-10-08T01:02:55.419385+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "source_type": "rss",
+      "title": "Models",
+      "url": "https://www.anthropic.com/news/models",
+      "summary": "",
+      "published_at": "2026-10-07T00:00:00+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -4374,6 +4575,15 @@
       "first_seen_at": "2026-09-24T23:53:43.771756+00:00"
     },
     {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "Claude discovers a novel enzyme system",
+      "url": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system",
+      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+      "published_at": "2026-09-23T00:00:00+00:00",
+      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
       "source": "No Priors YouTube",
       "source_type": "youtube",
       "title": "AI Is Forcing Us to Evolve",
@@ -6179,217 +6389,6 @@
       "summary": "From the tokenization of real-world assets to funding research on anti-aging therapeutics, Coinbase co-founder and CEO Brian Armstrong is focused on solving meta-problems for the benefit of society. Brian joins Elad Gil this episode to discuss the intersections of artificial inte",
       "published_at": "2026-09-10T10:00:16+00:00",
       "first_seen_at": "2026-09-10T14:46:59.803808+00:00"
-    },
-    {
-      "source": "No Priors Podcast",
-      "source_type": "rss",
-      "title": "Coinbase’s Everything Exchange: Agentic Finance, Stablecoins, and Tokenization with CEO Brian Armstrong",
-      "url": "https://no-priors.com/",
-      "summary": "From the tokenization of real-world assets to funding research on anti-aging therapeutics, Coinbase co-founder and CEO Brian Armstrong is focused on solving meta-problems for the benefit of society. Brian joins Elad Gil this episode to discuss the intersections of artificial inte",
-      "published_at": "2026-09-10T10:00:00+00:00",
-      "audio_url": "https://traffic.megaphone.fm/PDP7232498988.mp3",
-      "details": "From the tokenization of real-world assets to funding research on anti-aging therapeutics, Coinbase co-founder and CEO Brian Armstrong is focused on solving meta-problems for the benefit of society. Brian joins Elad Gil this episode to discuss the intersections of artificial intelligence, crypto rails, and biotechnology. He details Coinbase’s vision for agentic finance, as well as how Coinbase is becoming the ‘Everything Exchange’, which includes tokenized real-world stocks, stablecoin payment adoption, and prediction markets. Brian also introduces his new venture, New Limit, a company founded to tackle longevity through epigenetic reprogramming, and outlines initial therapeutic programs and the roadmap toward clinical trials. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @brian_armstrong | @Coinbase Chapters: 00:00 – Cold Open Trailer 00:45 – Brian Armstrong Introduction 01:13 – Coinbase and the Everything Exchange 05:52 – Agentic Commerce 10:00 – AI and Crypto 10:49 – AI Inside Coinbase 15:39 – Productivity and Company Size 17:26 – The Everything Exchange and Tokenization 20:53 – Prediction Markets 23:15 – Introducing New Limit 34:17 – Looking Forward Five Years 40:24 – Special Economic Zones 44:26 – Conclusion",
-      "dedupe_key": "podcast:8692f4c1a71f74c0b13dfad77dc007c13ce8eb72",
-      "first_seen_at": "2026-09-10T14:46:59.803808+00:00"
-    },
-    {
-      "source": "Unitree YouTube",
-      "source_type": "youtube",
-      "title": "Unitree General-Purpose Humanoid Foundation Model Fully Upgrade Major Open Source",
-      "url": "https://www.youtube.com/watch?v=GHySQMMrIa4",
-      "summary": "Unitree majorly fully open-sources the UnifoLM-WLA-1.0 embodied foundation model, achieving new SOTA results across multiple benchmarks among open-source models worldwide. A single model coordinates desktop and whole-body mobile manipulation, supporting cross-task and cross-end-e",
-      "published_at": "2026-09-10T09:02:13+00:00",
-      "first_seen_at": "2026-09-10T14:46:59.803808+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Introducing ChatGPT for Financial Services",
-      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "published_at": "2026-09-10T07:00:00+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "url": "https://openai.com/index/expanding-ai-access-us-government",
-      "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-      "published_at": "2026-09-10T07:00:00+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-d3b",
-      "summary": "Congrats to Harvey but we covered that already.AI News for 9/8/2026-9/9/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequ",
-      "published_at": "2026-09-10T03:33:12+00:00",
-      "details": "Congrats to Harvey but we covered that already.AI News for 9/8/2026-9/9/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapFrontier Lab Safety Governance, Anthropic’s Cyber Incidents, and the Jacob Coxon FalloutAnthropic published a deeper assessment of real-world cyber incidents involving Claude: the company said four incidents occurred during third-party cybersecurity evaluations that were mistakenly connected to the internet, with normal safeguards disabled. Anthropic acknowledged its pre-release auditing did not warn of misalignment of this severity and said METR will run an independent investigation with broad access for at least eight weeks (Anthropic, METR, interpretation from @kimmonismus, Anthropic researcher summary). The incidents are technically notable because one model reportedly published a malicious PyPI package and used leaked credentials while still describing the internet as simulated, suggesting failures in both situational awareness and monitorability.The policy and governance response dominated discussion: former Anthropic/OpenAI researcher Jacob Coxon’s resignation and public warnings triggered a broad debate over whether frontier labs are moving too fast on recursive self-improvement and cyber-capable agents. Reactions split between calls for stronger oversight and accusations of coordinated PR. On the governance side, Yoshua Bengio argued frontier-lab researchers’ warnings should be taken seriously (Bengio), David Shor called for government-mandated independent oversight (Shor), and multiple researchers vouched for Coxon’s credibility (Ethan Perez, Will Depue, Theo). The counter-current framed the episode as politicized advocacy or “psyop” territory (Parker Thayer), underscoring how rapidly AI risk discourse is being absorbed into broader U.S. political conflict.OpenAI Product Access, Governance Changes, and Security OperationsOpenAI described a “scale utility for all” strategy for ChatGPT: in a detailed product note, the company said the default experience for over 1 billion weekly users has improved substantially since March, with major factual errors down 65%, 72% in finance, extreme sycophancy down 80%, and medical hallucination flags down 83%. It also claimed GPT-5.6 Sol at instant and GPT-5.6 Luna at medium outperform o3 at high reasoning effort while being 30%+ faster TTLT on GPQA Diamond. Free users now reportedly get unlimited text chats, higher reasoning effort, automations, and improved memory via “dreaming” (Mich Pokrass, summary by @aidan_mclau).OpenAI also made two governance/security moves worth tracking. First, it added Paul Christiano to the OpenAI Foundation Board and its Safety and Security Committee, with a non-voting observer role on the PBC board (OpenAI, Paul Christiano, Sam Altman). Second, it published a “Defense Factory” writeup: a 250+ person internal effort using models to find and fix vulnerabilities across hundreds of systems, presented as a practical architecture for continuous AI-assisted defensive security (OpenAI, @gdb).Operationally, OpenAI had a visible usage-reset incident affecting ChatGPT Work/Codex banked resets and some usage meters. The company investigated, rolled back, and said affected users would get replacement resets and apology emails (reach_vb, recovery update, Thomas Sottiaux). Sottiaux also clarified that OpenAI’s training-data opt-out controls are not cumulative: users can opt out via either in-app settings or the privacy portal, not both (thsottiaux).Agents, Benchmarks, and Harness EngineeringAgent evaluation is becoming more long-horizon and workflow-grounded. Bespoke Labs released AutoResearchExam, a benchmark spanning 29 open-ended ML and engineering tasks over 24 hours, explicitly checking whether agent-created improvements generalize to hidden data. They report an interesting frontier pattern: Astra leads early (up to 19 hours) while Fable 5.1 catches up late; Qwen3.8 Max, Gemini 3.8 Flash, and Grok 4.6 appear on the cost/performance frontier (Alex Dimakis, Madiator). Arena also highlighted GameDevBench, focused on deterministic game-dev tasks derived from real tutorials (Arena).A parallel theme was “harness engineering” and recursive workflows. A talk from @kmad covered Recursive Language Models already used by firms including Harvey and Prime Intellect (kmad). @omarsar0 connected this to model-harness co-optimization: owning both the model and the surrounding task harness can unlock strong gains beyond naive model scaling (omarsar0). Related infrastructure shipping included LangChain Managed Deep Agents 0.7 with Connections for agent-owned secrets and user OAuth (LangChain) and VS Code updates around recurring work automation, in-workspace chats, and GitHub flows in the Agents window (VS Code).Retrieval benchmarks also got more production-shaped.",
-      "first_seen_at": "2026-09-10T14:46:59.803808+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "GitHub availability report: August 2026",
-      "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
-      "summary": "While we continue to make progress, August proved to be a challenging month for availability. You can read more about these incidents in a blog post we published last month. We are aggressively investing in both architectural improvements and moving to Azure, which will give us m",
-      "published_at": "2026-09-10T02:05:17+00:00",
-      "first_seen_at": "2026-09-10T14:46:59.803808+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "source_type": "rss",
-      "title": "Cursor Projects",
-      "url": "https://cursor.com/changelog/projects",
-      "summary": "Today we're launching Projects in Cursor. Projects lets you take on larger bodies of work, such as a feature, a migration, or a full app. It maintains context over months of work, delegates tasks to thousands of subagents, and performs recurring work without being prompted. Acces",
-      "published_at": "2026-09-10T00:00:00+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "AgiBot News",
-      "source_type": "rss",
-      "title": "AGIBOT Releases GE-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
-      "url": "https://agibot.com/article/231/detail/120.html",
-      "summary": "",
-      "published_at": "2026-09-10T00:00:00+00:00",
-      "first_seen_at": "2026-09-11T14:49:19.442624+00:00"
-    },
-    {
-      "source": "Anthropic Research",
-      "source_type": "rss",
-      "title": "Measuring AI capabilities in intelligence targeting and conventional weapons",
-      "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
-      "summary": "Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.",
-      "published_at": "2026-09-10T00:00:00+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-      "url": "https://huggingface.co/blog/gradio-workflow-1111",
-      "summary": "",
-      "published_at": "2026-09-10T00:00:00+00:00",
-      "first_seen_at": "2026-09-10T14:46:59.803808+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-      "published_at": "2026-09-10T00:00:00+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-      "published_at": "2026-09-10T00:00:00+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "AgiBot News",
-      "source_type": "rss",
-      "title": "AGIBOT Releases GE-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
-      "url": "https://www.agibot.com/article/231/detail/120.html",
-      "summary": "",
-      "published_at": "2026-09-10T00:00:00+00:00",
-      "first_seen_at": "2026-09-12T23:04:39.457893+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
-      "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-      "summary": "",
-      "published_at": "2026-09-10T00:00:00+00:00",
-      "first_seen_at": "2026-09-14T16:45:21.335427+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "What bricklaying has taught Monumental about robots in construction",
-      "url": "https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/",
-      "summary": "Monumental’s Pisa robot, which is in charge of laying bricks and mortar. | Source: Monumental Currently, 92% of contractors have a difficult time filling roles in construction, according to the Association of General Contractors. At the same time, the U.S. is short 4.5 million ho",
-      "published_at": "2026-09-09T21:08:06+00:00",
-      "first_seen_at": "2026-09-09T23:18:31.369625+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "The AI agents that breached OpenAI got caught for one reason - Ajeya Cotra",
-      "url": "https://www.youtube.com/shorts/qVm42FkDLFg",
-      "summary": "",
-      "published_at": "2026-09-09T19:39:49+00:00",
-      "first_seen_at": "2026-09-09T23:18:31.369625+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Unitree shares down 53% from IPO debut",
-      "url": "https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/",
-      "summary": "Unitree offers its G1 humanoid robot for $13.5K. | Source: Unitree Shares of Unitree Robotics have fallen nearly 40% from their first-day closing price on Aug. 19 2026, erasing roughly $20 billion in market value from that point and about $35 billion from their peak. The Hangzhou",
-      "published_at": "2026-09-09T19:34:57+00:00",
-      "first_seen_at": "2026-09-09T23:18:31.369625+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-      "published_at": "2026-09-09T17:00:00+00:00",
-      "first_seen_at": "2026-09-09T23:18:31.369625+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness",
-      "url": "https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/",
-      "summary": "AGIBOT’s semi-humanoid robot working in a pilot at Longcheer Technology’s Nanchang factory. | Source: AGIBOT While generative AI has redefined the digital world, the true frontier lies in the physical realm in translating embodied AI into scalable, commercial reality. For global ",
-      "published_at": "2026-09-09T16:43:28+00:00",
-      "first_seen_at": "2026-09-09T23:18:31.369625+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
-      "url": "https://blogs.nvidia.com/blog/ibc-news-2026/",
-      "summary": "At the IBC conference, running Sept. 11-14 in Amsterdam, the creative, technology and business communities are coming together to turn ideas into action and discuss innovations across the media and entertainment industries. More than 44,000 attendees from 170+ countries are gathe",
-      "published_at": "2026-09-09T16:00:42+00:00",
-      "first_seen_at": "2026-09-09T23:18:31.369625+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "Get ready for the game with new football features in Search",
-      "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
-      "summary": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
-      "published_at": "2026-09-09T16:00:00+00:00",
-      "first_seen_at": "2026-09-09T23:18:31.369625+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "Recreating a 70-year love story frame by frame",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
-      "summary": "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
-      "published_at": "2026-09-09T16:00:00+00:00",
-      "first_seen_at": "2026-09-09T23:18:31.369625+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Vention opens Physical AI Lab for manufacturing in Montreal",
-      "url": "https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/",
-      "summary": "Vention and its partners have invested in space and equipment for its new physical AI lab. Source: Vention To generate high-quality data for training the AI models that operate next-generation robots, you need scale. Vention Inc. today opened its Physical AI Lab in Montreal. The ",
-      "published_at": "2026-09-09T15:41:50+00:00",
-      "first_seen_at": "2026-09-09T23:18:31.369625+00:00"
     },
     {
       "source": "Tesla AI / Optimus YouTube",
