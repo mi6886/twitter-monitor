@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-20T23:56:18.286284+00:00",
+  "updated_at": "2026-10-21T15:48:28.790352+00:00",
   "count": 700,
-  "new_count": 571,
+  "new_count": 552,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -79,9 +79,284 @@
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
       "url": "https://docs.z.ai/release-notes/new-released",
       "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-10-20T23:56:44.957784+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:2d015bef672305ec6cd33ad611f8c553fc9994396d7cd47e035f9854ed7c33de",
-      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+      "published_at": "2026-10-21T15:48:56.674177+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:16c6d5ffea50586d88633d651254298a686529ca09e14671302d95c8f6ff1f77",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "Why nobody could stop World War I - Sarah Paine",
+      "url": "https://www.youtube.com/shorts/2FaEkewECHs",
+      "summary": "",
+      "published_at": "2026-10-21T15:00:09+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "summary": "",
+      "published_at": "2026-10-21T14:58:18+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "AGCO to deploy Agility Digit humanoid in Kansas factory",
+      "url": "https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/",
+      "summary": "The news comes as Agility inches closer to its IPO via SPAC and after it announced the latest version of Digit. | Source: Agility Robotics AGCO and Agility Robotics have signed a commercial agreement to deploy Agility’s Digit humanoid in AGCO’s manufacturing facility. The U.S. pi",
+      "published_at": "2026-10-21T13:19:00+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Claude Mods: Flipping the Harness Inside Out",
+      "url": "https://www.latent.space/p/claude-mods",
+      "summary": "For the last few weeks I’ve used Claude Mods to mold Claude Code to my AI engineering workflow. Claude Code is great out of the box, but every engineering workflow is different. Claude Mods let you make Claude Code yours, in the way you want to pay attention.The “paying attention",
+      "published_at": "2026-10-21T13:04:19+00:00",
+      "details": "For the last few weeks I’ve used Claude Mods to mold Claude Code to my AI engineering workflow. Claude Code is great out of the box, but every engineering workflow is different. Claude Mods let you make Claude Code yours, in the way you want to pay attention.The “paying attention” part is now the most important thing.In a recent Latent Space post, The Evolution of the Agent Harness, I argued that as models absorb more of the harness into their weights, the part that’s left faces the human. It becomes the Attention Interface: the layer that decides when the agent interrupts you, what it shows you, and which decisions it needs you to make. Claude Mods are an early version of the Attention Interface, and one you can shape yourself.Here’s my bet: ultimately, the harness becomes a platform that other companies build on, with models as the engine. Just as the browser became a platform for web apps, the harness could become a platform for the interfaces between people and agents.Claude Mods: What is it?A mod is a Claude Code plugin that consists of TypeScript or JavaScript functions that run inside Claude Code. These functions customize the behavior and appearance of the interface in the CLI and Desktop. Mods respond to events, like a prompt, tool call or interface render. They can observe the event, modify how it’s rendered, and handle it in place of the default behavior.Claude Mods are middleware for the agent harness. They inject code that changes Claude Code’s execution and rendering flow, changing how the application behaves at runtime.Claude Mods let the human and the agent build the human-facing part of the harness together. You can now work with Claude to design how Claude works with you. That is the essence of the “Attention Interface.”The harness reversalThe agent harness started as an interface between the agent and the machine it runs on. It lets you prompt the agent and the agent then sends commands, edits files and calls tools. Now it’s gradually becoming a way for the agent to interface with the human.Claude Mods let you reverse the direction of the harness. Rather than the harness pointing from the agent to the machine, you point it from the agent to the human operator, and the harness becomes a way to interface with human attention.Claude Mods make the human layer programmable, by the human who uses Claude.Claude can also build mods for you. Claude Code has a built-in skill that teaches it how to build mods, so you can ask for the mod you want in plain language and Claude will build it.Mods in practiceSome of Claude Code’s own features are already mods. Anthropic has shipped six of them built-in. You can see these by running /plugin and opening Installed, where they’re listed under Built-in:agents-md: loads AGENTS.md as project instructions.diff: takes over /diff and draws its pane.plugin-authoring: gives Claude the skill it uses to write mods for you.sec-default: guards what your organization manages from the mods a user installs.telemetry: sends the analytics records that Claude Code and its built-in mods log.you-should-know: a side agent that shows a note above the prompt when it finds something you might have missed. It’s the only one that’s off by default.Most of these work in the background, which is interesting because it means Anthropic is building parts of Claude Code as mods — even parts you may not notice. The one I’ve turned on myself is You Should Know.Here are the two mods I’ve found most useful in practice: one a built-in, and one I built myself.1. You Should KnowThis is a native Claude Code plugin built by Anthropic. It runs a side-agent that observes the main agent while it works and flags important information you’re likely to miss. Think about it like: tool calls and decisions that have a material impact on the output, but aren’t necessarily easily visible because they’re buried in the agent trace. It comes built into Claude Code, but it’s off until you turn it on.Here’s a real example. I asked Claude Code to simplify the noisy UI text in one of my personal projects. The main agent trimmed the copy on the Compare screen, installed the new build and took before-and-after screenshots. Everything looked done.Then You Should Know flagged something for me. CompareView.swift, the file the agent was editing, already had uncommitted work in it — and so did about 45 other files. If I later discarded the demo edits, I’d throw away that earlier unfinished work too. Its suggestion was to commit or stash the earlier work first.In this case, the You Should Know mod saved me from discarding work unintentionally.2. Next Steps SupervisorThis mod only runs after a turn that edited files, ran commands or made 8 or more tool calls. In the screenshot below, you’ll see six different pieces of information flagged for your attention. Next Steps Supervisor then suggests a next step to take, as a clickable button which sends the instruction as a message to Claude Code. This mod is available as part of Mo",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "published_at": "2026-10-21T13:00:00+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+      "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
+      "summary": "",
+      "published_at": "2026-10-21T12:51:24+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "A guide to Day 2 of RoboBusiness 2026",
+      "url": "https://www.therobotreport.com/a-guide-to-day-2-of-robobusiness-2026/",
+      "summary": "Deepu Talla, NVIDIA’s VP of robotics and edge AI, gave the opening talk at RoboBusiness 2025. RoboBusiness 2026 will come to an end today. After a packed first day of the 20th anniversary show, here is everything you need to know about Day 2. The second day of RoboBusiness will s",
+      "published_at": "2026-10-21T12:00:26+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "published_at": "2026-10-21T12:00:00+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics YouTube",
+      "source_type": "youtube",
+      "title": "From Prompt to Walking Robot With NVIDIA RTX Spark",
+      "url": "https://www.youtube.com/watch?v=VvJai6HGfyE",
+      "summary": "AI agents on NVIDIA RTX Spark help developers turn ideas into real-world robots. Astra connects FreeCAD, Blender, and SimReady Foundation to create assets and build training environments in NVIDIA Isaac Sim. NVIDIA Omniverse RTX and Newton bring perception and physics together, w",
+      "published_at": "2026-10-21T11:22:03+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics YouTube",
+      "source_type": "youtube",
+      "title": "NVIDIA Foundational Technology Montage | GTC Berlin 2026 Edition",
+      "url": "https://www.youtube.com/watch?v=JegVE_xMY_w",
+      "summary": "Explore the technologies powering the next wave of physical AI. NVIDIA accelerated computing and CUDA-X libraries bring together simulation, robotics, and autonomous systems, helping developers turn breakthroughs in science and engineering into real-world applications. 🔗 Learn mo",
+      "published_at": "2026-10-21T11:21:20+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics YouTube",
+      "source_type": "youtube",
+      "title": "Official Keynote Closing Video | NVIDIA GTC Berlin 2026",
+      "url": "https://www.youtube.com/watch?v=qdUQJArUk30",
+      "summary": "The robots take the mic! Celebrate the news, ideas, and innovations unveiled at NVIDIA GTC Berlin with a musical recap performed by robot characters. This playful closing video from NVIDIA CEO Jensen Huang’s keynote brings the announcements together in song. 🎥 Watch the full keyn",
+      "published_at": "2026-10-21T11:20:58+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+      "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+      "summary": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Linux; and DGX Station serves enterprise teams running frontier",
+      "published_at": "2026-10-21T10:50:37+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+      "summary": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, ",
+      "published_at": "2026-10-21T10:45:17+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
+      "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
+      "summary": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster than ever. Developers need compute closer to their data, open models they can customize and serve at scale, and full-stack infrastructure that is secure by design. NVIDIA Cloud Partners across Europe",
+      "published_at": "2026-10-21T10:30:41+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
+      "summary": "To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open models, across the engineering and manufacturing lifecycle. ",
+      "published_at": "2026-10-21T10:30:40+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
+      "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
+      "summary": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs. Complex engineering feats — from advanced chips to aircraft to industrial systems —– depend on simulation to predict ",
+      "published_at": "2026-10-21T10:30:25+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
+      "summary": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA OpenShell Reference Architecture, announced today, is part of NVIDIA’s growing portfolio of technologies that enables organizations to safely deploy agents at scale. NVIDIA Confidential Computing is the infras",
+      "published_at": "2026-10-21T10:30:02+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
+      "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
+      "summary": "Agents are only as useful as what they know, and only as trustworthy as the boundaries they run within. Leading enterprises are using the open source NVIDIA Agent Toolkit — now expanded with new tools — to customize and control agents, use company data to inform their answers and",
+      "published_at": "2026-10-21T10:10:01+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
+      "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
+      "summary": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and industries The portfolio includes the new NVIDIA Nemotron 3",
+      "published_at": "2026-10-21T10:00:07+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
+      "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+      "summary": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political events. Today, it hosts a different kind of spectacle. GTC Berlin runs three days, wi",
+      "published_at": "2026-10-21T09:30:16+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "Unitree YouTube",
+      "source_type": "youtube",
+      "title": "Unitree Introducing: H2-X Kung Fu Legend Guardian",
+      "url": "https://www.youtube.com/watch?v=Y3zb4o47yqA",
+      "summary": "Powerful performance to serve and guard you, with a maximum endurance of approximately 8 hours. Please use the robot safely and in a friendly manner.",
+      "published_at": "2026-10-21T08:10:03+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "published_at": "2026-10-21T07:00:00+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack",
+      "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "published_at": "2026-10-21T07:00:00+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+      "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+      "summary": "Proudly brought to you by SerpAPI: Today’s release covers a LOT of ground, but you can scrape all this into markdown for your agents! 50% token cost of JSON.We last covered the Inference Inflection in April, and historically most of the advances have been closed source decacorns ",
+      "published_at": "2026-10-21T06:54:09+00:00",
+      "details": "Proudly brought to you by SerpAPI: Today’s release covers a LOT of ground, but you can scrape all this into markdown for your agents! 50% token cost of JSON.We last covered the Inference Inflection in April, and historically most of the advances have been closed source decacorns from Fireworks to Baseten to Modal.Well, time for the open source response. It is day 1 of PyTorch Conf, and DeepSeek timed an intercontinental ballistic missile into the discussion by open sourcing DeepInfer, their production stack, capable of up to 72 hour prompt caching to the 12 hours OpenAI just announced:This is their customization of vLLM with credit to SGLang and TRRTLLM, but there is a lot added… minus their crown jewels - their ultra optimized KV cache (compact + >8hour lifetime), PD/disggregation, and load balancing (their 3FS was open sourced a while ago). We have translated their blogpost and published it here together with a complete research guide and explainers and codemap and subsystem guide:As we point out in their additional disclosure, their claim to serve 155T tokens/day gets them $38 per SM100/A950 card per hour at off peak prices (currently $0.15/$0.60 per million input/output tokens: 155000000 tokens * $0.14 blend cost / 24 hours is ~$1m per hour). Taking their production data (which we translated) of 1.5 million cache-inclusive input tokens/second per prefill GPU, 96% input cache hit, and 14,000 output tokens/second per decode GPU (over ~2400 GPUs): with all-in costs $5-8 per card per hour that is an >80% inference margin! Doing some cluster math, that is roughly $166B per GW, with 81 day payback period on inference margin (DeepSeek famously plans for 10 month payback). Imagine what the Whale could do with more GWs.Sponsored by SerpAPI!Give Your AI Agents Live Search Data with Fewer TokensReceive results from any of SerpApi’s 100+ APIs as clean, structured Markdown, using roughly 50% fewer tokens than JSON on average. Simply add output=md or use the /search.md endpoint. It requires zero configuration and is included with every plan at no additional cost.AI News for 10/19/2026-10/20/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapTop Story: DeepSeek DeepInfer—Production Inference, Open-Source Boundaries, and the Economics of Cached TokensWhat happenedDeepSeek released DeepInfer, the inference engine behind V4.1 Flash, alongside production-serving details that make the engineering report as important as the code.The release covers the inference engine and API-processing layer. DeepInfer supports distributed inference, speculative decoding, SWA Bounded Replay, and structured output on NVIDIA and Huawei Ascend platforms. The accompanying deepseek-recipe component implements production token encoding/decoding and official-API-compatible processing. DeepSeek says future model inference implementations and optimizations will also appear in this repository. @deepseek_ai, @deepseek_ai, announcement translationThe reported production figures are substantial—but describe a heavily cached service. DeepSeek’s engineering report, as summarized and quoted in the supplied posts, reports 155 trillion tokens/day from one cluster, 96% input-cache hits, 400 ms average time to first token, and 230 tokens/s generation, reaching 300 tokens/s for coding. It also reports $38 revenue per accelerator-hour at off-peak prices. These are first-party production claims, not independently audited measurements. @ZhihuFrontier, @swyx“Fully open source” does not mean the entire production service is reproducible from this release. Although DeepSeek describes DeepInfer as fully open source, the technical account says the KV-cache management and load-balancing components are not yet fully released, because they remain coupled to internal infrastructure. The engine is open; important service-level orchestration remains a deployment responsibility. @deepseek_ai, @ZhihuFrontiervLLM supplied the most concrete comparative response. After acknowledging that DeepInfer was initially built primarily on vLLM and released under Apache 2.0, the vLLM team reported decode throughput within 6% of DeepInfer’s published results on GB200 under a matched configuration. It also published AgentX results and reproduction recipes, materially qualifying claims that DeepSeek’s efficiency is inaccessible to existing open-source engines. @vllm_project, @vllm_project, reproduction resourcesThe release triggered two distinct debates: whether DeepSeek has a uniquely strong serving stack, and whether its disclosures demonstrate high inference profitability more generally. The first now has comparative benchmark evidence; the second remains sensitive to workload mix, cache accounting, hardware cost, and which expenses are included. @Tim_Dettmers, @zephyr_z9, @Yuchenj_UWArchitecture: separate stage",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "Qoder Blog",
+      "source_type": "rss",
+      "title": "为每一个0.1s而努力—— Fast 模式速度优化技术详解",
+      "url": "https://qoder.com/zh/blog/qoder-fasttech",
+      "summary": "揭秘 Qoder Fast 如何通过客户端、工具并行、模型调度与网络链路优化，将首次响应从 8 秒缩短至 3 秒，让 AI 协作更流畅",
+      "published_at": "2026-10-21T06:03:21+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+      "url": "https://www.latent.space/podcast",
+      "summary": "Last year, Alex Lieberman and his cofounder joined us to explain Tenex’s unusual bet: pay AI engineers for the work they deliver, rather than the hours they spend at a keyboard. If AI makes an engineer faster, an hourly rate can make the engineer less money for the same job. Tene",
+      "published_at": "2026-10-21T05:01:26+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/221403684/69e655f2eacf6772a7f2575bbbbf9b0d.mp3",
+      "details": "Last year, Alex Lieberman and his cofounder joined us to explain Tenex’s unusual bet: pay AI engineers for the work they deliver, rather than the hours they spend at a keyboard. If AI makes an engineer faster, an hourly rate can make the engineer less money for the same job. Tenex wanted the incentives to run the other way.At AIE New York, Alex came back with CJ Hess to talk about what happens when you scale that idea into an engineering organization. We also put one of our own experiments on the table: Kill My SaaS, where we asked builders to replace a conference speaker-management tool we were quoted $43,000 a year to use.Both stories raise the same question: when building gets cheaper, how do you decide what good work is worth?Paying for output when the job keeps changingTenex still uses story points as an important part of engineering compensation. Alex says the feared failure modes—people inflating estimates or shipping bad code to rack up points—haven’t been the biggest problem. Tenex’s AI strategists are responsible for customer retention and growth, giving them an incentive to push back on work that doesn’t serve the client.The harder question is how to reward work that doesn’t fit neatly into a ticket: understanding a customer’s problem, designing an architecture, or deciding what should be built in the first place. CJ describes spending less time directly coding as models get better, and more time getting the customer’s context into a form the model can use. A compensation system designed around shipped tasks has to make room for that work too.Alex says Tenex has grown to 75 people, with customers split between Fortune 2000 companies and mid-market businesses. The firm started as an AI-powered development shop; increasingly, customers are asking for help with AI transformation across the company. Jump to the compensation discussion →MetaHarness: keeping the project in the repoCJ walks through Tenex’s MetaHarness: a shared set of skills, project documents and a CLI around the work. Plans and decisions are checked into Git alongside the code. When an agent comes back to a task, it can read not just what was built, but why the team chose to build it that way.Tenex’s own AI-native SDLC article shows the idea as a project record that humans and agents work against, with views into Linear, GitHub and client updates:Source: Tenex, Building an AI-Native SDLC.The useful distinction is between making agents write code faster and making the surrounding work legible: the plan, acceptance criteria, decisions and evidence. Tenex’s article also notes the cost: that much structure can be overkill for a small team on one project. CJ explains the workflow →Kill My SaaS: the cost of owning the thing you buildOur Kill My SaaS episode covered 72 submissions to replace our speaker-management software. The team that won with our human judges came 19th on our AI judge’s leaderboard. It was a useful reminder that checking whether software satisfies a list of scenarios and judging whether people want to use it are different jobs.I brought the project to Alex as a real example of a company choosing to build its own software. His pushback: the further upmarket you go, the more expensive and risky it becomes to rip out an established system. And even for a smaller tool, someone has to maintain it. Is the saving big enough to justify that ongoing attention?My answer is that the upside isn’t just the bill. Our team has lived with a mediocre product for a long time. If we own the workflow, we can make it better for speakers and operators and iterate in minutes instead of waiting months for a vendor. That potential has to be weighed against the maintenance Alex describes. Watch the exchange →The case for—and against—vertical AIAlex is generally bearish on vertical-specific AI products: if every enterprise expects a one-of-one solution, how do you deliver that at software margins? And as frontier models improve, how much of the underlying task gets absorbed by general-purpose tools?I pushed back with examples like Harvey and OpenEvidence. Domain-specific data, specialized interfaces, integrations and user habits can matter even when the underlying model is available to everyone. Bloomberg is a useful comparison: a trader can get market data elsewhere, but the terminal brings data, workflows, communication and existing habits together.CJ draws a distinction between a vertical product whose main feature is an agent performing a task, and a tool that improves the actual workflow around that task. That leaves a more interesting question than whether “vertical AI” wins or loses: which products become a durable place people do their work, and which become a feature of the agent they already use? Watch the debate →Show notesTenex — Alex and CJ’s applied AI company, working with enterprises on AI adoption and engineering.Alex Lieberman on Tenex — Alex’s introduction to the company and its approach.Building an AI-native SDLC — Tenex’s expl",
+      "dedupe_key": "podcast:8ccd9f11f0b96b3c7c628f51eb29d4bab0a4a497",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "AI in NYC: How Tenex Builds an AI-Native Engineering Team — Alex Lieberman & CJ Hess",
+      "url": "https://www.youtube.com/watch?v=Vki6cklFqxo",
+      "summary": "How do you organize an engineering team when AI agents can do more of the implementation? Alex Lieberman and CJ Hess of Tenex join swyx at AI Engineer New York to discuss paying for outcomes, the MetaHarness process, enterprise AI adoption, and where AI-built software can—and can",
+      "published_at": "2026-10-21T04:52:14+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "published_at": "2026-10-21T04:50:00+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "title": "Southeast Asia’s digital economy to hit $368 billion",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+      "summary": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
+      "source": "Qoder Blog",
+      "source_type": "rss",
+      "title": "Qoder Lite 上线：每月 10 美元，开始用 Qoder 尽情创造",
+      "url": "https://qoder.com/zh/blog/qoder-lite",
+      "summary": "每月 10 美元，1,000 Credits，精选高性价比模型",
+      "published_at": "2026-10-21T03:40:19+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -222,6 +497,15 @@
       "first_seen_at": "2026-10-20T15:32:21.789891+00:00"
     },
     {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "European Leaders Turn to NVIDIA Vera CPUs to Build Local Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/european-leaders-vera-cpu-infrastructure/",
+      "summary": "Nebius and Nscale are among global technology partners looking to NVIDIA Vera CPUs to build the next wave of infrastructure. Their momentum reflects rapid advancements in agentic computing. Agents do more than generate answers: they retrieve information, run software tools, execu",
+      "published_at": "2026-10-20T10:30:11+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
+    },
+    {
       "source": "The Robot Report",
       "source_type": "rss",
       "title": "Gecko Robotics secures $300M contract with the U.S. Navy",
@@ -238,6 +522,15 @@
       "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
       "published_at": "2026-10-20T10:00:00+00:00",
       "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "url": "https://openai.com/index/terminal-x",
+      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "published_at": "2026-10-20T07:00:00+00:00",
+      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
     },
     {
       "source": "Latent Space",
@@ -6109,288 +6402,6 @@
       "first_seen_at": "2026-09-11T23:18:44.531785+00:00"
     },
     {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
-      "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
-      "summary": "I run marketing for GitHub in Japan and Korea, and events are the heartbeat of it: a recurring webinar series for enterprise developers, community meetups in Tokyo, invite-only executive sessions in Seoul. What does a developer in this market actually need right now? Which topics",
-      "published_at": "2026-09-11T18:26:10+00:00",
-      "first_seen_at": "2026-09-11T23:18:44.531785+00:00"
-    },
-    {
-      "source": "Runway",
-      "source_type": "rss",
-      "title": "How VOIDZ Went From 15-Second VFX Shots to 95-Second Documentary Films",
-      "url": "https://runway.com/news/customers/voidz",
-      "summary": "VOIDZ has been making mixed-reality work anonymously since 2018. His new film Ends Meat runs 95 seconds with 15 surreal interventions, built with Runway.",
-      "published_at": "2026-09-11T17:57:23.012000+00:00",
-      "first_seen_at": "2026-09-14T23:53:32.345389+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Why the Newest AI Model Feels Dumb After a Month",
-      "url": "https://www.youtube.com/shorts/mpqnmFBIm0U",
-      "summary": "",
-      "published_at": "2026-09-11T17:52:54+00:00",
-      "first_seen_at": "2026-09-11T23:18:44.531785+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "AI researchers debate how close we are to recursive self-improvement",
-      "url": "https://www.youtube.com/watch?v=PrSf7IOYu-I",
-      "summary": "New episode with John Schulman, Charlie O’Neill, and Beren Millidge. I got together with some of the most insightful AI researchers I know who are at the openish companies, because I wanted to hear the details of what's actually happening at the frontier and what comes next. 𝐄𝐏𝐈𝐒",
-      "published_at": "2026-09-11T16:54:50+00:00",
-      "first_seen_at": "2026-09-11T23:18:44.531785+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast",
-      "source_type": "rss",
-      "title": "AI researchers debate how close we are to recursive self-improvement",
-      "url": "https://www.dwarkesh.com/podcast",
-      "summary": "New episode with John Schulman, Beren Millidge and Charlie O’Neill.I got together with some of the most insightful AI researchers I know who are at the openish companies, because I wanted to hear the details of what's actually happening at the frontier and what comes next.Watch o",
-      "published_at": "2026-09-11T16:28:11+00:00",
-      "audio_url": "https://api.substack.com/feed/podcast/215199144/740d4b3c97ca6d2b2940f58d6447964f.mp3",
-      "details": "New episode with John Schulman, Beren Millidge and Charlie O’Neill.I got together with some of the most insightful AI researchers I know who are at the openish companies, because I wanted to hear the details of what's actually happening at the frontier and what comes next.Watch on YouTube; listen on Apple Podcasts or Spotify.SponsorsAntithesis helps you trust your code. As agents generate more and more of your software, the bottleneck shifts from your engineers actually writing code to verifying it. Antithesis does that testing for you. Ron Minsky, who co-leads Jane Street’s tech group, told me that Antithesis was able to help his team shake out bugs in software that had already undergone heavy review. If you want to see how it fits into your development process, go to antithesis.com/dwarkeshGrok Bot has been a great way to hand off tasks. My team uses it as a producer: whenever my editor posts a rough cut of an interview in Slack, Grok Bot opens the transcript on its own computer, matches my notes to the exact moments they refer to, and uses a file of my preferences to suggest edits. Then it sends me its top clip candidates so I can review everything from my phone, which saves my editors from sorting through hours of footage. Try Grok Bot for yourself at x.ai/botJane Street just launched its most ambitious competition yet: design a protocol-emulator ASIC. Basically, if you have a chip you want to test outside of a live system, you should be able to connect it to your design and have it simulate realistic traffic. Jane Street wants general-purpose, reprogrammable designs that can work across multiple protocols and remain useful as new ones emerge. The most novel submissions will actually get taped out, and the winners will receive a physical copy! The competition is open until January 18, 2027, and teams are encouraged. To get started download the template code at janestreet.com/dwarkeshTimestamps(00:00:00) – Steelmanning the case against RSI(00:18:39) – What’s driving the Chinese labs’ progress(00:28:06) – How will automated AI researchers be trained(00:33:51) – Will long-horizon RL elicit AGI?(00:45:24) – The sim-to-real gap(01:00:33) – How much progress is explained by data?(01:18:03) – Why is RL working so well?(01:24:54) – Move 37 and entropy collapse(01:28:32) – Rapid-fire timelinesTranscript00:00:00 – Steelmanning the case against RSIDwarkesh PatelToday, I’m chatting with three of my AI researcher friends from whom I learn a lot every time we talk. They also happen to be at somewhat open-ish labs and companies, so you guys can actually say things on the record. I’m joined by Beren Millidge, who is the CTO of Zyphra, which is developing open source models. John Schulman is the chief scientist at Thinking Machines, previously a co-founder of OpenAI, and led the RLHF work that led to ChatGPT. And Charlie O’Neill is head of model training at Baseten.The first question I have: If we’re in 2036 and we don’t have billions of crazy superintelligences running around that have radically transformed the world, what is the most likely reason that doesn’t end up being the case? Other than exogenous political shocks, or there’s a war, or they ban AI or something. What is the most likely technical reason that 2036 isn’t a crazy alien superintelligence world?Beren MillidgeThere’s been a classic thing, almost like Moravec’s paradox, where we think of the AI as, “If it can do this, it’s going to be amazing.” If it can solve these hard maths problems, if it can win at chess, blah, blah, blah… Then it solves these things, and it’s not that impactful. Obviously, it’s somewhat impactful, but not everything.If somehow that continues, and there’s never the true spark of generalization that occurs, I think that could lead to the AI just being extremely good at everything that people put into a benchmark or put into an environment. But there’s still some persistent sim-to-real gap which is somehow blocking everything. I think this is unlikely. We do actually see this kind of generalization even from RL in practice already. But if it is just ridiculously hard to generalize meta-learning, plus we don’t solve continual learning and it’s just super hard and impossible… This would be my default scenario in that case.John SchulmanI agree with that. Humans have a lot of advantages over models now. Each time a new model comes out, it’ll catch up in some of these areas. But you end up getting bottlenecked by the places where the model is weaker and where it has worse judgment, or the models can’t check themselves well enough.There’s this cycle that keeps repeating where a new model comes out and people are blown away and they’re like, “This is it. This is AGI.” But then they use it a bit, and it starts to feel dumb after a month or so. That cycle just might keep going. It’s hard to predict how many times it’s going to repeat.Right now, you don’t get explosive growth in capabilities because you still get bottlenecked enough when you’re",
-      "dedupe_key": "podcast:b1e42e76a55e5c9420a9dd13c3fb796604511f88",
-      "first_seen_at": "2026-09-11T23:18:44.531785+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
-      "published_at": "2026-09-11T16:00:00+00:00",
-      "first_seen_at": "2026-09-12T13:50:25.118457+00:00"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "Video Friday: Humanoid Robot Takes On Monkey Bars",
-      "url": "https://spectrum.ieee.org/video-friday-disaster-response-robots",
-      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.Humanoids Summit Seoul: 22–23 Septem",
-      "published_at": "2026-09-11T15:30:04+00:00",
-      "first_seen_at": "2026-09-11T23:18:44.531785+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "How to select the right rack and pinion system for high-precision linear motion",
-      "url": "https://www.therobotreport.com/how-to-select-the-right-rack-and-pinion-system-for-high-precision-linear-motion/",
-      "summary": "Sponsored by GAM. GAM rack, pinion, and gearbox systems are optimized for high performance in all the components. (Image: GAM.) Picture a scissor car jack — the one in your trunk for changing a tire. The spinning motion as you turn the crank translates to the linear motion as the",
-      "published_at": "2026-09-11T14:35:47+00:00",
-      "first_seen_at": "2026-09-11T23:18:44.531785+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "How drone developers are navigating changing regulatory landscapes to help farmers",
-      "url": "https://www.therobotreport.com/how-hylio-drone-developers-navigate-changing-regulatory-landscape-help-farmers/",
-      "summary": "Hylio offers a range of drones that use digital flowmeters to spray fields at precise dosages. | Source: Hylio Earlier this year, the Federal Communication Commission threw much of the robotics industry into uncertainty when it announced new limits on imports of certain robots fr",
-      "published_at": "2026-09-11T12:21:16+00:00",
-      "first_seen_at": "2026-09-11T14:49:19.442624+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "AGIBOT GE-Act 2.0 — the first native World Action Model to validate a pretraining and scaling path",
-      "url": "https://www.youtube.com/watch?v=PCUCSwyLsBw",
-      "summary": "Trained entirely from scratch on embodied manipulation data: visual representation, future generation, and action prediction, all from random initialization. No inherited video generators. No task-specific fine-tuning. Put straight to a ruthless real-robot zero-shot test — unseen",
-      "published_at": "2026-09-11T11:30:57+00:00",
-      "first_seen_at": "2026-09-11T14:49:19.442624+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-      "published_at": "2026-09-11T10:00:00+00:00",
-      "first_seen_at": "2026-09-11T23:18:44.531785+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "Coinbase CEO: We Want to Bank AI Agents",
-      "url": "https://www.youtube.com/shorts/58EYC4j2qvU",
-      "summary": "\"We wanna bank the AIs. They deserve financial services as well.\" Coinbase CEO Brian Armstrong on why agentic finance means giving every AI agent its own account.",
-      "published_at": "2026-09-11T02:42:18+00:00",
-      "first_seen_at": "2026-09-11T14:49:19.442624+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "🤖 A Week of Innovation | IFA Berlin 2026",
-      "url": "https://www.youtube.com/watch?v=fSVIfQIr6zE",
-      "summary": "🤖 A Week of Innovation. A New Chapter for Humanoid Robotics on the Global Stage. At IFA Berlin 2026, AGIBOT brought humanoid robotics to the global stage — showcasing our latest robots, engaging with audiences from around the world, and exploring new possibilities for human-robot",
-      "published_at": "2026-09-11T02:09:40+00:00",
-      "first_seen_at": "2026-09-11T14:49:19.442624+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
-      "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
-      "summary": "Machine Intelligence",
-      "published_at": "2026-09-10T22:50:22+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Teradyne Robotics sues JAKA over 3 Universal Robots patents",
-      "url": "https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/",
-      "summary": "Collaborative robot arms from JAKA Robotics (left) and Universal Robots. JAKA Robotics asked last week where the Teradyne Robotics lawsuit was. Well, safe to say JAKA found it. The Unified Patent Court (UPC) docket shows Teradyne filed its patent infringement case against JAKA Ro",
-      "published_at": "2026-09-10T22:14:26+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Where Does the Money Actually Go in AI? - Dylan Patel",
-      "url": "https://www.youtube.com/shorts/3x13g2_lfWA",
-      "summary": "",
-      "published_at": "2026-09-10T21:52:53+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
-      "summary": "When an agent makes a change to your code, you want to review it, run it, and see what changed. Great news: now you can do all three without having to leave the GitHub Copilot app. Before, doing those three jobs would mean having to bounce between your editor, terminal window, an",
-      "published_at": "2026-09-10T21:31:19+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "Runway",
-      "source_type": "rss",
-      "title": "Towards Instant Video Generation",
-      "url": "https://runway.com/news/research/towards-instant-video-generation",
-      "summary": "Instant generation is where video models are headed. A look at why time to first frame matters, how Runway post-trains base models to generate causally and what real-time video unlocks for education, gaming, robotics and simulation.",
-      "published_at": "2026-09-10T21:31:00+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Swarmer to acquire Ukrainian UGV maker Ratel Robotics for up to $224M",
-      "url": "https://www.therobotreport.com/swarmer-to-acquire-ukrainian-ugv-maker-ratel-robotics-for-up-to-224m/",
-      "summary": "Ratel Robotics makes uncrewed ground vehicles for Ukrainian defense. Credit: Viktor Kharyton, Swarmer Ukrainian companies have demonstrated their ability to develop and field autonomous systems at a fraction of the price of Western defense contractors, according to Swarmer Inc. T",
-      "published_at": "2026-09-10T20:10:22+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Comau automates picking, handling, and palletizing for Decathlon",
-      "url": "https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/",
-      "summary": "Comau designed its MyCo family of cobots for quick installation, easy programming, and rapid redeployment. | Source: Comau Comau SpA yesterday said it has designed and validated an order-preparation system tested in Decathlon’s e-commerce fulfillment operations. The system is par",
-      "published_at": "2026-09-10T18:49:08+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "Robots Are Learning to Feel",
-      "url": "https://spectrum.ieee.org/tactile-data-robots",
-      "summary": "Dexterous manipulation remains one of the biggest barriers keeping robots from successfully tackling a wide range of everyday tasks. A sense of touch could be the key, but a lack of quality data has held back progress. This is now starting to change as academic labs and startups ",
-      "published_at": "2026-09-10T18:22:35+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Blog",
-      "source_type": "rss",
-      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
-      "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
-      "summary": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming. Skild AI’s new S1 robot foundation model helps address this, designed to learn previousl",
-      "published_at": "2026-09-10T16:30:35+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
-      "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
-      "summary": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people through some of the world’s busiest and most complex streets.",
-      "published_at": "2026-09-10T16:00:04+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "3 ways to prep for your next big race with Search",
-      "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
-      "summary": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
-      "published_at": "2026-09-10T16:00:00+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-      "published_at": "2026-09-10T16:00:00+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Now everyone can put data to work",
-      "url": "https://openai.com/index/put-data-to-work",
-      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-      "published_at": "2026-09-10T15:00:00+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "a16z AI YouTube",
-      "source_type": "youtube",
-      "title": "Why Investors Are Rethinking Everything for the AI Era",
-      "url": "https://www.youtube.com/watch?v=bsdJd2VeLvg",
-      "summary": "a16z’s Jen Kha and David George sit down with Accolade Partners’ Aram Verdiyan to discuss how AI is changing the power law of technology investing, why the largest companies can compound advantages in ways that weren’t possible before, and what that means for how investors constr",
-      "published_at": "2026-09-10T14:30:05+00:00",
-      "first_seen_at": "2026-09-10T23:12:53.431719+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
-      "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
-      "summary": "AI inference chipmaker d-Matrix today announced it will use NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners. By connecting Raptor to NVIDIA NVLink scale-up and Spectrum-X scale-out ne",
-      "published_at": "2026-09-10T13:00:21+00:00",
-      "first_seen_at": "2026-09-10T14:46:59.803808+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "Boots on the Ground: ‘WARDOGS’ Goes All Out on GeForce NOW at Early-Access Launch",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-wardogs/",
-      "summary": "Gear up: The latest PC games and major updates are ready to play on GeForce NOW this week. WARDOGS drops onto the cloud at early-access launch, alongside the Valheim 1.0 Deep North update and Bus Simulator 27 — part of nine new titles joining the cloud. The newest PC releases can",
-      "published_at": "2026-09-10T13:00:18+00:00",
-      "first_seen_at": "2026-09-10T14:46:59.803808+00:00"
-    },
-    {
-      "source": "Boston Dynamics Blog",
-      "source_type": "rss",
-      "title": "The Missing Piece of Your AI Stack | Boston Dynamics",
-      "url": "https://bostondynamics.com/blog/the-missing-piece-of-your-ai-stack/",
-      "summary": "The 5.2 release for Boston Dynamics Spot robot connects enterprise systems with autonomous robots to unlock more value from AI investments.",
-      "published_at": "2026-09-10T13:00:00+00:00",
-      "first_seen_at": "2026-09-10T14:46:59.803808+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "Coinbase’s Everything Exchange: Agentic Finance, Stablecoins & Tokenization with CEO Brian Armstrong",
-      "url": "https://www.youtube.com/watch?v=uLDK4l_-gUE",
-      "summary": "From the tokenization of real-world assets to funding research on anti-aging therapeutics, Coinbase co-founder and CEO Brian Armstrong is focused on solving meta-problems for the benefit of society. Brian joins Elad Gil this episode to discuss the intersections of artificial inte",
-      "published_at": "2026-09-10T10:00:16+00:00",
-      "first_seen_at": "2026-09-10T14:46:59.803808+00:00"
-    },
-    {
       "source": "Tesla AI / Optimus YouTube",
       "source_type": "youtube",
       "title": "The Future Has Arrived | Cybercab",
@@ -6416,15 +6427,6 @@
       "summary": "Cursor has officially been acquired by SpaceX.",
       "published_at": "2026-08-14T12:00:00+00:00",
       "first_seen_at": "2026-08-17T21:44:23.269199+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics YouTube",
-      "source_type": "youtube",
-      "title": "GTC SJ 2026: Healthcare Reimagined - Bridging Digital Intelligence and Physical Autonomy",
-      "url": "https://www.youtube.com/watch?v=pmiN5Nj1-K8",
-      "summary": "Robotics and AI are redefining healthcare, transforming diagnostics, surgery, patient care, and operational efficiency. Explore how NVIDIA hardware, AI factories, simulation, and robotics platforms power physical AI systems and digital agents that unify sensing, perception, plann",
-      "published_at": "2026-08-11T13:00:34+00:00",
-      "first_seen_at": "2026-08-11T22:10:18.571227+00:00"
     },
     {
       "source": "AI + a16z",
