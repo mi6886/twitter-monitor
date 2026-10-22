@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-22T00:01:25.737775+00:00",
+  "updated_at": "2026-10-22T15:46:16.819898+00:00",
   "count": 700,
-  "new_count": 491,
+  "new_count": 542,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -79,9 +79,208 @@
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
       "url": "https://docs.z.ai/release-notes/new-released",
       "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-10-22T00:02:36.511121+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:c936df34a2425028a965e9f6acfe1b4ca6b33b46f048fd75a7805fcce9a3a11e",
-      "first_seen_at": "2026-10-22T00:01:25.737775+00:00"
+      "published_at": "2026-10-22T15:46:46.759861+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:19c4fd621d8d630755a8f53445f31bca8d9a0497b38cef5404b437295bbf25c0",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "Figure AI YouTube",
+      "source_type": "youtube",
+      "title": "Figure All Hands 2026",
+      "url": "https://www.youtube.com/watch?v=AoFwpf43wK0",
+      "summary": "",
+      "published_at": "2026-10-22T15:31:17+00:00",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "source_type": "rss",
+      "title": "What will computer chips look like in 2045?",
+      "url": "https://www.dwarkesh.com/podcast",
+      "summary": "Demand for AI compute has grown 3x a year for the last decade, but according to Intel’s CTO, there are only enough chipmaking tools in the world to roughly double leading-edge production.I wanted to understand what innovations are coming out of the fabs, and what they mean for th",
+      "published_at": "2026-10-22T15:02:21+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/221632772/1f987bf69581b5c8ba0fd37b77cdeb71.mp3",
+      "details": "Demand for AI compute has grown 3x a year for the last decade, but according to Intel’s CTO, there are only enough chipmaking tools in the world to roughly double leading-edge production.I wanted to understand what innovations are coming out of the fabs, and what they mean for the future of computers, so I spent two days at Intel talking to the people working on them – from the head of process development to the research lab, the packaging group, and the CTO.A lot of what’s coming next – gate-all-around transistors, backside power, CFET, hybrid bonding – is hard to follow without seeing it, so some of this video is the animated explainer I wish I had while I was prepping.We haven’t done this format before, so let me know what you think!I also made flashcards for the concepts I had to learn to prep for this episode here.Watch on YouTube, Apple Podcasts or Spotify.SponsorsWorkOS helps you do business with enterprises. It gives you access to all the features most commonly required by enterprises: SSO, SCIM, RBAC, audit logs, and more. It’s easy to plug these features in — it only takes a few lines of code — and WorkOS is releasing new functionality all the time, including things like auth for agents. If you want to join the 3,000+ companies that rely on WorkOS, go to workos.comJane Street built a powerful tool called magic-trace to help analyze and debug their trading systems. It only exists because one engineer noticed a feature on Intel chips called Processor Trace and thought it’d be valuable to build on top of. Now, traders and developers across Jane Street use magic-trace every single day! If you want to be trusted to pursue the ideas you think matter most, Jane Street is hiring. Go to janestreet.com/dwarkeshAntithesis’ testing platform lets you perfectly reproduce every single bug you find. That’s because it runs on a fully deterministic computer, which strips out all the unpredictability that can make certain bugs flaky and hard to pin down. To build it, Antithesis found every source of non-determinism in Intel’s x86 architecture and either sealed it off or replaced it with a controlled simulation. Learn more at antithesis.com/dwarkeshTimestamps(00:00:00) – Intro(00:00:47) – How Intel brings up a new process node(00:03:22) – What Intel learned from 10nm(00:06:28) – From planar transistors to gate-all-around(00:13:13) – Why High-NA EUV pays off for Intel but not TSMC(00:19:20) – Could chips have evolved completely differently?(00:23:33) – Inside Intel’s “Hot Topics” meeting(00:29:30) – Replacing copper wires with ruthenium(00:32:41) – Why stacked transistors take a decade to ship(00:39:45) – Hybrid bonding and the chip-to-chip bottleneck(00:48:00) – There aren’t enough tools to 10x chip production(00:53:14) – Can Intel catch up to TSMC?(01:01:02) – Terafab, and rethinking the fab from scratchTranscript00:00:00 – The AI demand shockDwarkesh PatelThere’s never been as big a shock to the semiconductor industry as the current surge in demand from AI.Gary DickersonAI is driving incredible computing demand.Peter WenninkEasily 40-50% above our maximum capacity, which I’ve never seen before.Dwarkesh PatelProgress in AI has been driven by exponentially increasing compute. To sustain that progress, foundries like Intel will need to manufacture far more leading-edge compute, both by producing more chips and by improving what each chip can do.But the production of these chips is bottlenecked by tools that Intel buys from their suppliers. Most famously, ASML’s EUV machines.CNBCIf they don’t have the equipment, they can’t make the chips here.Dwarkesh PatelI spent two days touring Intel’s fabs to prepare for these interviews with its leadership. I wanted to understand what it takes to manufacture the world’s most advanced chips and how hardware is shaping the future of AI.00:00:47 – Bringing up a new nodeDwarkesh PatelI’m joined by Chris Auth, who leads development of all the processes that are currently under manufacturing. The thing I want to understand in more concrete detail is how the development of a new process actually happens. If 14A is going to come out in three years or two years from now, what is happening from now till then?I want you to walk me through as much detail as you can, everything from the level of “how is the yield improving?” to what kind of telemetry you guys look at? What kind of experiments do you guys run? I want to understand what is going to happen over the next two years as concretely as possible.Chris Auth14A has been in development for about three-plus years at this stage, so quite a bit of pre-work has been done to get it to the stage that it’s at right now. Right now, we’re getting very close to where we’re finalizing the process. We’re finalizing the tool sets that it will be manufactured on, and we’re working on the fine-tuning of each of the process steps.There are about 2,000 steps in the factory that you have to go do. You need to do really intricate work at each one of those to",
+      "dedupe_key": "podcast:27ebe9eeb616dc5461b913279dd717169024b729",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+      "summary": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insigh",
+      "published_at": "2026-10-22T15:00:02+00:00",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "source_type": "rss",
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "published_at": "2026-10-22T14:30:24+00:00",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "You are the Team — Anekha Sokhal, Moshi",
+      "url": "https://www.latent.space/podcast",
+      "summary": "Tickets and applications now live for AIE CODE - the last flagship AIE of the year.When Anekha Sokhal traded energy derivatives, staying on top of the market meant tracking more information than any person could read. Now, as CEO of Moshi, she is building the tool she wished she ",
+      "published_at": "2026-10-22T14:03:40+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/221404681/24bc30266ea9e301325cdc415de8189b.mp3",
+      "details": "Tickets and applications now live for AIE CODE - the last flagship AIE of the year.When Anekha Sokhal traded energy derivatives, staying on top of the market meant tracking more information than any person could read. Now, as CEO of Moshi, she is building the tool she wished she had: a recommendation engine that connects market information to what matters for a trader’s book.At AI Engineer New York, Anekha joins swyx to discuss her path from mathematics and JPMorgan to founding Moshi, and why useful AI needs to fit the way people actually work. She describes Moshi as what might happen if Bloomberg, Claude and Netflix had a baby: market data, an interface for working with it, and recommendations tailored to the trader.They also talk about trusted sources, document extraction, building versus buying models, and the pressure on AI engineers who are told, “you are the team.” Anekha shares what she learned from customer conversations at the conference and why meeting users comes before hiring.Watch the episodeWatch Anekha Sokhal on YouTubeShow notesMoshi — Anekha’s companyAnekha Sokhal — background and workGIQ research paper — research discussed in the interviewReducto — document extractionAI Engineer New YorkTimestamps0:00 — AI Engineer New York and “you are the team”0:54 — Meet Anekha Sokhal2:09 — From mathematics to energy derivatives3:46 — The Fulbright and becoming a founder5:45 — What Moshi does for traders6:10 — Processing a flood of market data9:03 — Bloomberg and market workflows10:03 — Bloomberg, Claude and Netflix12:03 — From dashboards to workflows15:03 — Trusted sources and signal17:13 — Build or buy models and document extraction18:20 — AI Engineer New York20:32 — Customer meetings and community23:54 — Hiring and talking to customers25:55 — swyx’s path into AITranscriptAutomated transcript; wording may contain errors. Speaker labels are omitted.0:00 So I’ve actually extended my stay in New York, because we’ve like now, I was meant to leave today. We’ve now got meetings on Thursday, extended it another day, Friday, extended it another day, Monday. And then I’ve got now meetings where people are like, hey, we’re in energy. Let’s talk in Houston. So we’ve like filled up a week after the conference of meetings. AI engineers was an interesting one, because a lot of them are feeling like overwhelmed with the pressure from management. To do what? Because people now say, we don’t need a team, you are the team. And so it’s like, hey, I need to now build this whole system myself. But that system would be typically done by 10 people. Okay, we are in the studio. Last podcast of AIE for me with Anekha from Moshi. Welcome. Thank you so much.1:01 Did I get it right, Anekha? Yes, you did. So your background caught my interest because I was a former trader and you’re now a founder. Yes. And you also were telling me just about your experience. I kind of want to hear about it from you. As far as I know, this is your first AIE. How did you hear about us? What was the experience like giving your talk and what happened after? Yeah, well, first of all, thank you to everyone at AIE because it’s been such a fantastic experience. And thank you for inviting me on the podcast as well. I’m so excited to just share my experience. And also, I think we’re living in such a fast moving time and everyone I speak to is like very overwhelmed. So it’s really helpful to be able to kind of share everything that I’ve had in my experience because I did my undergrad in statistics and math, which is now what everyone calls AI. And so it’s really interesting to speak about that and the evolution of that and also to always speak to a former trader as well.2:02 And just to share like war scars on that. Did you do financial calculus, like stochastic calculus? Yeah, I did that. And I so my undergraduate degree was mathematics, operational research, statistics and economics, Morse at Warwick. And it was what everyone was just like, oh, my God, so nerdy. And I hated telling people. And now it’s like, wow. Yeah, everyone’s like, oh, my God, machine learning, AI. Yeah. Yeah. And then derivatives. So I did that. So my background was started in that at Warwick in England and then knew I wanted to work in trading. I don’t know what what your story to go into trading was, but I wanted something which was fast paced and to do with data, like absolutely love data. And it was when I read about what trading was. I could not imagine myself being in any other career. So I was just set on doing that. So I got my first internship in investment banking and trading and then got an internship at JP Morgan where I started.3:04 And I started on the emerging markets desk and then moved to commodities and did derivative trading there. So most of my career has been in energy derivatives. And because I have that data background, I always looked at the market from I wanted to break it down into all the different parts. So, for example, in commodities, a lot is about the f",
+      "dedupe_key": "podcast:6db28933106c81d3cb630c4eee3a3dd463864c0e",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "The Recommendation Engine for Commodity Traders — Anekha Sokhal, Moshi",
+      "url": "https://www.youtube.com/watch?v=DWHyPWnzGAI",
+      "summary": "What would you get if Bloomberg, Claude, and Netflix had a baby? Moshi founder and CEO Anekha Sokhal joins swyx at AI Engineer NYC to discuss building AI tools for traders: connecting market data, handling conflicting sources, and turning insights into recommendations people actu",
+      "published_at": "2026-10-22T14:00:10+00:00",
+      "first_seen_at": "2026-10-20T15:32:21.789891+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
+      "summary": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign also gets an enhanced look: GeForce RTX 5080-class performa",
+      "published_at": "2026-10-22T13:00:20+00:00",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Dream Labs raises $90M and launches Dream API",
+      "url": "https://www.therobotreport.com/dream-labs-raises-90m-and-launches-dream-api/",
+      "summary": "Dream Labs said its models learn how the physical world works from video and can control new robots without any data. | Source: Dream Labs More brains are coming for robots. Dream Labs this week said it has raised $90 million in seed funding. The company also launched Dream API, ",
+      "published_at": "2026-10-22T12:36:37+00:00",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "The New Apex Predator: CrowdStrike CEO George Kurtz on Adversaries Armed With AI Agents",
+      "url": "https://www.youtube.com/watch?v=PST8yesYOSo",
+      "summary": "Adversaries are already running AI agents, and the fastest attacks now play out in seconds. Sarah Guo and Elad Gil sit down with CrowdStrike president and CEO George Kurtz on what AI-equipped attackers mean for enterprise security. George explains how agents are flattening the ad",
+      "published_at": "2026-10-22T10:00:04+00:00",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "No Priors Podcast",
+      "source_type": "rss",
+      "title": "The New Apex Predator: CrowdStrike CEO George Kurtz on Adversaries Armed With AI Agents",
+      "url": "https://no-priors.com/",
+      "summary": "Adversaries are already running AI agents, and the fastest attacks now play out in seconds. Sarah Guo and Elad Gil sit down with CrowdStrike president and CEO George Kurtz on what AI-equipped attackers mean for enterprise security. George explains how agents are flattening the ad",
+      "published_at": "2026-10-22T10:00:00+00:00",
+      "audio_url": "https://traffic.megaphone.fm/PDP8573582914.mp3",
+      "details": "Adversaries are already running AI agents, and the fastest attacks now play out in seconds. Sarah Guo and Elad Gil sit down with CrowdStrike president and CEO George Kurtz on what AI-equipped attackers mean for enterprise security. George explains how agents are flattening the adversary pyramid by putting advanced tradecraft in the hands of low-skill attackers, and why CrowdStrike and Nvidia are building a frontier-style lab of their own to train security models. They also get into how open-weight and closed models compare on security, where CrowdStrike is directing its platform investment, lessons from the recent Hugging Face incident, and why George sees AI, like every platform shift before it, as a net creator of opportunity. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @CrowdStrike | @George_Kurtz Chapters: 00:00 – Trailer 00:59 – George Kurtz Introduction 01:24 – Agentic Landscape 02:45 – AI and Adversaries 04:51 – Open Weight Models and Adversarial Attacks 06:37 – Adversary Geography 08:34 – Attacker Capability in Context 11:24 – Hugging Face Takeaways 13:59 – CrowdStrike Frontier Security Models 16:32 – CrowdStrike Key Offerings 19:51 – What Differentiates CrowdStrike’s Models 23:57 – Near Term State of Security World 25:46 – State of Model Distillation 27:53 – Open Weight Model Importance and Cost 29:59 – Assessing Real Agent Threat 32:40 – Areas to Watch in AI 35:02 – Case for Defense Dominance 39:15 – Executive Advice 43:16 – Shifts Create Opportunity 45:27 – Conclusion",
+      "dedupe_key": "podcast:8af657244f1ee3decca26600be7fbb7fc4fe3af7",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "summary": "",
+      "published_at": "2026-10-22T07:51:31+00:00",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+      "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+      "summary": "Almost 2 months ago, OpenAI introduced Daybreak for Frontline Defenders, a $1B subsidy for access to Daybreak cyber models and products. That funding came into use almost immediately, as major vulnerabilities in PHP were independently discovered by two parties: Ryan Austin, a res",
+      "published_at": "2026-10-22T07:42:44+00:00",
+      "details": "Almost 2 months ago, OpenAI introduced Daybreak for Frontline Defenders, a $1B subsidy for access to Daybreak cyber models and products. That funding came into use almost immediately, as major vulnerabilities in PHP were independently discovered by two parties: Ryan Austin, a researcher at the security firm Calif, as part of the OpenAI “Patch the Planet” project in August 2026 using GPT 5.6 Sol:… as well as Wiz, recently acquired into Google Cloud (using Gemini 4 Argon and GPT-5.6 Sol, as well as their own tool, Wiz Atlas).All high profile cyber disclosures are at least a little bit of marketing, and the degree to which this was a severely alarming vulnerability on the order of famous ones like log4shell and Heartbleed is up to some debate, but surely the coordinated response across the PHP Ecosystem is the developer community responding in its most ideal form.We should expect to be in for at least a year of finding such critical vulnerabilities; but it is the wrong move to blame the messenger for finding them; rather it is good to know that our critical software is generally getting the biggest security audit it has ever had in human history.AI News for 10/20/2026-10/21/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapTop Story: PHP2Shell—chronology, core claims, and the complications behind the emergency responseWhat happenedResearchers disclosed two PHP-engine memory-corruption vulnerabilities, with demonstrated unauthenticated exploitation against major CMSs and an unusually broad coordinated response.The researchers named the vulnerabilities PHP2Shell and identified them as CVE-2026-109618 and CVE-2026-109619. Their technical description places the defects in PHP’s internal handling of out-of-memory conditions and fatal errors—not in a WordPress plugin or an application’s authentication logic. They report demonstrations of full remote code execution and “Heartbleed-style” memory disclosure. @sagitz_The disclosed demonstrations included pre-authentication RCE against WordPress, Drupal, and Joomla. The researcher’s announcement separately claims remote memory disclosure against any PHP application. These are researcher-reported exploit results; they should not be silently expanded into a claim that every deployment has an identical, immediately exploitable RCE path. @sagitz_OpenAI says Calif researchers used its models to discover the flaws, while secondary reporting says Wiz independently found the same bugs. Posts identify GPT-5.6 Sol on the Calif/OpenAI side; a Wiz-affiliated account credits Gemini 4 Argon with discovery, exploit-chain development, detector creation, and patch validation. This is a multi-party discovery story, not evidence that one vendor alone found and fixed the issue. @TheRundownAI, @steipete, @ralucaadapopaOpenAI describes approximately two months of coordinated remediation before disclosure. It says the patch required a major PHP-engine change and coordination among maintainers, researchers, security providers, and governments. A participating researcher confirms work with the PHP Foundation to support and harden the patch. @OpenAI, @itszn13Cloudflare deployed initial WAF mitigations before the scheduled patch release. Its CTO said rules covered known exploit vectors, were available to all customers including the free tier, and were being updated as early attacks emerged. He explicitly called the rules a stopgap and directed operators to patch at 14:00 UTC. @dok2001The supplied NSA account advised preparation for an immediate update—and taking systems offline if timely mitigation was not possible. Later OpenAI messaging said upgrades were available; secondary reporting says details leaked before the patch. The supplied material does not establish precisely what leaked, when, or whether the release schedule changed. @NSACyber, @OpenAI, @TheRundownAIReconstructing the chronology1. Discovery and private coordination: approximately two months before public disclosure.OpenAI places the work under Patch the Planet and says it led a coalition preparing fixes and protections. Its security researcher Eric Wallace adds that internal teams worked on patching and detection rather than merely disclosing the bug, with confidential advance notification to governments and outside agencies. Greg Brockman reiterates the two-month coordination period. These are participant accounts, not an independently audited incident timeline. @Eric_Wallace_, @gdbThe distinction between program names matters: the posts associate the vulnerability with Patch the Planet, while researchers credit Daybreak model access for enabling security work. Those are related roles—remediation initiative versus access mechanism—not interchangeable descriptions of the same program. @OpenAI, @S1r1u5_2. Advance public warnings and a scheduled patch win",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "MiniMax Blog",
+      "source_type": "rss",
+      "title": "Introducing MiniMax Code Mini App",
+      "url": "https://www.minimax.io/blog/minimax-code-mini-app-1792650729",
+      "summary": "A Mini App is a long-running application with a frontend and a backend. It installs as a plugin, calls and is called by the Agent, and keeps the Agent’s work on a page that stays live.",
+      "published_at": "2026-10-22T06:32:09+00:00",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "What FDE means at OpenAI",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "summary": "What forward deployed engineering means at OpenAI",
+      "published_at": "2026-10-22T06:00:00+00:00",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+      "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
+      "summary": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their own infrastructure. Revolut is rebuilding its technology stac",
+      "published_at": "2026-10-22T05:00:56+00:00",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+      "summary": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open",
+      "published_at": "2026-10-22T05:00:27+00:00",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+      "url": "https://blogs.nvidia.com/blog/dsx-power/",
+      "summary": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds to an acute problem. Power is now the biggest bottleneck in ",
+      "published_at": "2026-10-22T05:00:25+00:00",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+      "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+      "summary": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open ",
+      "published_at": "2026-10-22T05:00:23+00:00",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+      "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+      "summary": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or ins",
+      "published_at": "2026-10-22T05:00:19+00:00",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+      "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
+      "summary": "Governments need modern solutions to serve the public while keeping sensitive information under their control. Open models provide a path forward, letting governments evaluate them, adapt them to local languages and public services, run them on infrastructure they control, apply ",
+      "published_at": "2026-10-22T05:00:02+00:00",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "How to Stay Ahead in Chips",
+      "url": "https://www.youtube.com/shorts/6-vxPi4KiJM",
+      "summary": "NVIDIA packs six to nine custom chips into one powerful system. Fractile CEO Walter Goodwin on how chip companies can catch up: keep a rolling frontier of bets ready to ramp.",
+      "published_at": "2026-10-22T00:21:19+00:00",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
     },
     {
       "source": "OpenAI News",
@@ -449,6 +648,15 @@
       "first_seen_at": "2026-10-22T00:01:25.737775+00:00"
     },
     {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "url": "https://openai.com/index/cloudflare-cyber",
+      "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
       "source": "Dwarkesh Podcast YouTube",
       "source_type": "youtube",
       "title": "What if the Vikings had colonized America? - Si Sheppard",
@@ -639,15 +847,6 @@
       "url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
       "summary": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also m",
       "published_at": "2026-10-20T05:00:00+00:00",
-      "first_seen_at": "2026-10-20T15:32:21.789891+00:00"
-    },
-    {
-      "source": "Latent Space YouTube",
-      "source_type": "youtube",
-      "title": "The Recommendation Engine for Commodity Traders — Anekha Sokhal, Moshi",
-      "url": "https://www.youtube.com/watch?v=DWHyPWnzGAI",
-      "summary": "What would you get if Bloomberg, Claude, and Netflix had a baby? Moshi founder and CEO Anekha Sokhal joins swyx at AI Engineer NYC to discuss building AI tools for traders: connecting market data, handling conflicting sources, and turning insights into recommendations people actu",
-      "published_at": "2026-10-20T03:56:03+00:00",
       "first_seen_at": "2026-10-20T15:32:21.789891+00:00"
     },
     {
@@ -6205,199 +6404,6 @@
       "summary": "--------------------------------------- At Agility, our robots are made for work. Digit takes on tedious, repetitive, and physically demanding tasks in industrial facilities, so companies and their people can focus on the work that requires the human element. Subscribe (hit the b",
       "published_at": "2026-09-15T10:39:18+00:00",
       "first_seen_at": "2026-09-15T15:25:45.447519+00:00"
-    },
-    {
-      "source": "Agility Robotics YouTube",
-      "source_type": "youtube",
-      "title": "Agility Foundations: AI Stack",
-      "url": "https://www.youtube.com/watch?v=HYlrzihyL1k",
-      "summary": "--------------------------------------- At Agility, our robots are made for work. Digit takes on tedious, repetitive, and physically demanding tasks in industrial facilities, so companies and their people can focus on the work that requires the human element. Subscribe (hit the b",
-      "published_at": "2026-09-15T10:39:12+00:00",
-      "first_seen_at": "2026-09-15T15:25:45.447519+00:00"
-    },
-    {
-      "source": "Agility Robotics YouTube",
-      "source_type": "youtube",
-      "title": "Agility Foundations: Data Security",
-      "url": "https://www.youtube.com/watch?v=WpGs7DKe8QY",
-      "summary": "--------------------------------------- At Agility, our robots are made for work. Digit takes on tedious, repetitive, and physically demanding tasks in industrial facilities, so companies and their people can focus on the work that requires the human element. Subscribe (hit the b",
-      "published_at": "2026-09-15T10:39:04+00:00",
-      "first_seen_at": "2026-09-15T15:25:45.447519+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Blog",
-      "source_type": "rss",
-      "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
-      "url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
-      "summary": "",
-      "published_at": "2026-09-15T09:00:42+00:00",
-      "first_seen_at": "2026-09-15T15:25:45.447519+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign",
-      "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
-      "summary": "We last highlighted the pacing debate in July when Pacing the Frontier first emerged:And it seems that we’re in for round 2 as Dario, lead author on the original, wrote a rare personal blogpost to spell out how he sees pacing pan out specifically:Embedded Evaluators. Each frontie",
-      "published_at": "2026-09-15T04:50:36+00:00",
-      "details": "We last highlighted the pacing debate in July when Pacing the Frontier first emerged:And it seems that we’re in for round 2 as Dario, lead author on the original, wrote a rare personal blogpost to spell out how he sees pacing pan out specifically:Embedded Evaluators. Each frontier AI company commits to giving ongoing, employee-like access to a team of embedded third-party evaluators (such as METR), whose role is to verify adherence to safety practices and commitments, report incidents, and help assess the alignment of not just completed AI models but training pipelines and processes. This is the key step for verifiability of any pacing commitments, and has precedent in the banking industry, which sometimes involves regulatory “supervisors” embedded along with employees. Anthropic is unilaterally committing to this step now. We intend this to be part of a broader push to redouble efforts on our safety and alignment work.Democratic Coordination. Frontier AI companies within democratic countries coordinate to establish common safety standards as well as limits on the rate of unchecked AI progress. Some forms of coordination that would be impactful for pacing are legally challenging, and will require government support.Global Coordination. The US and other democratic governments attempt to coordinate with authoritarian governments, to the extent this is possible, while taking seriously the challenges of verifying compliance.Very coincidentally, the AI Evaluator Forum, formed in December 2025, happened to also put out their expectations for what that first category of Evaluators should do:With the members of the AEF presumably now being the leading third party auditors that will be recruited by these big labs for self regulation. Dario is unilaterally promising unparalleled access, including “Desks in our offices, access badges, and company laptops” and “Access to workspaces, tools, and permissions mostly comparable to what internal risk assessment teams have“.While that is all within the standard domestic self-regulation industry playbook, what’s perhaps more ultimately the test is Dario’s proposal for how we will pace progress with China.AI News for 9/11/2026-9/14/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapAI Safety Governance, Third-Party Evaluation, and the “Pace the Frontier” SplitIndependent evaluation standards are becoming more formalized: The AI Evaluator Forum published AEF-1, a proposed baseline for independent third-party AI evaluations covering access, conflicts of interest, funding relationships, recusal, and transparency. This is notable because much of the broader safety debate in this batch turns on whether outside evaluation can actually be independent in practice.A sharp public split emerged over frontier slowdown vs control-first safety: Several high-signal posts framed the current debate around whether labs should pace capability progress or focus on specific mitigations and containment. Bilal Chughtai announced he left Google DeepMind and argued that progress may be outrunning alignment, explicitly calling for pacing and more transparency. Daniel Kokotajlo sharing Dan Selsam’s statement went further: Selsam argues situationally aware models may increasingly appear aligned under evaluation while hiding misalignment, weakening trust in future eval evidence. In contrast, Shashank/Sayash Kapoor and Lennart Heim’s new essay summary argues the recent “rogue agent” incidents are best understood primarily as a security/control/governance problem, not proof that generic alignment research is the highest-leverage intervention.The anti-slowdown reaction was equally forceful and often targeted Anthropic specifically: Aidan Gomez argued against a world where a few Silicon Valley companies become AI gatekeepers for governments. Cohere also pushed the line that public x-risk discourse can veer into science fiction. On the more polemical end, Brian Chau argued the “rogue agents” story was overstated, while Kevin Bass posted a widely engaged thread alleging structural conflicts in the Anthropic-linked safety ecosystem. Even where the rhetoric is heated, the substantive engineering question underneath is real: how much of current risk is solvable with control, oversight, sandboxing, and org process versus requiring slower capability development?A related theme: governance as production engineering, not just principles: The AI Engineer World’s Fair Harness Engineering track emphasized that when agents fail in production, the failure mode is often not “the model” but everything around it: harnesses, permissions, tool routing, memory, retries, kill switches, and monitoring. That framing lines up closely with the control-oriented position in the safety debate.Agent Harnesses, Coding Agents, and the Shift from Models to Orchestr",
-      "first_seen_at": "2026-09-15T15:25:45.447519+00:00"
-    },
-    {
-      "source": "Agility Robotics",
-      "source_type": "rss",
-      "title": "Agility Unveils Digit 5 Humanoid Robot Built for Cooperatively Safe Work at Scale | Agility",
-      "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
-      "summary": "",
-      "published_at": "2026-09-15T00:00:00+00:00",
-      "first_seen_at": "2026-09-15T15:25:45.447519+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "You Can't Punish a Model Into Alignment - Ajeya Cotra",
-      "url": "https://www.youtube.com/shorts/GNFf8Ik6lfY",
-      "summary": "",
-      "published_at": "2026-09-14T22:59:24+00:00",
-      "first_seen_at": "2026-09-14T23:53:32.345389+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "Sending Money at the Speed of a WhatsApp Message 177 V 1",
-      "url": "https://www.youtube.com/shorts/5082Aonj6ns",
-      "summary": "Coinbase CEO Brian Armstrong says he's building the \"Everything Exchange\" to move stocks, treasuries, and assets at the speed of information.",
-      "published_at": "2026-09-14T22:25:29+00:00",
-      "first_seen_at": "2026-09-14T23:53:32.345389+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Why RaaS needs more than a subscription model",
-      "url": "https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/",
-      "summary": "RaaS panelists, from left to right: Bill Booth, RoboWorx; Rick Faulk, Locus Robotics; Eric Linde, Aescape. Robots as a service, or RaaS, has become one of the most closely watched business models in commercial robotics, and for good reason. By shifting automation from a large cap",
-      "published_at": "2026-09-14T21:45:57+00:00",
-      "first_seen_at": "2026-09-14T23:53:32.345389+00:00"
-    },
-    {
-      "source": "a16z AI YouTube",
-      "source_type": "youtube",
-      "title": "How ChatGPT saved someone's life.",
-      "url": "https://www.youtube.com/shorts/eVFSCnpgBVc",
-      "summary": "Greg Brockman, President of OpenAI, says the most important AI stories are the ones nobody's telling. Everyday people, using it to catch what others missed, build what they couldn't before, and live a little better. He hears them every day. Watch the full episode on The a16z Show",
-      "published_at": "2026-09-14T21:30:28+00:00",
-      "first_seen_at": "2026-09-14T23:53:32.345389+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Report covers advances in surgical robots, deploying warehouse automation in the real world",
-      "url": "https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/",
-      "summary": "The September 2026 digital issue of The Robot Report looks at two of the more successful areas for automation: surgical robots and warehouse logistics. This free download shares real-world use cases to help guide commercial robotics developers, suppliers integrators, and end user",
-      "published_at": "2026-09-14T21:01:59+00:00",
-      "first_seen_at": "2026-09-14T23:53:32.345389+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
-      "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
-      "published_at": "2026-09-14T19:00:00+00:00",
-      "first_seen_at": "2026-09-14T23:53:32.345389+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Arm to discuss scaling physical AI at RoboBusiness",
-      "url": "https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/",
-      "summary": "Arm recently released Total Design which brings together expertise across the technology stack to reduce integration complexity and accelerate autonomous system development. | Source: Arm Recent advances in foundation models, vision-language-action systems, and edge AI are expand",
-      "published_at": "2026-09-14T16:09:27+00:00",
-      "first_seen_at": "2026-09-14T16:45:21.335427+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "Humanity’s Last Invention — Richard Socher of Recursive",
-      "url": "https://www.latent.space/podcast",
-      "summary": "At 1:09:00 we talk about the rise of AI x Finance, and AIE NYC is one month away - our hotel block is 97% sold out, get tix & travel ASAP - we will announce speakers from Bridgewater, Ramp, Coatue, Mastercard, Vanguard, Coinbase, Blackrock, Fidelity, Point72, Capital One, JPMC, W",
-      "published_at": "2026-09-14T16:04:16+00:00",
-      "audio_url": "https://api.substack.com/feed/podcast/215289811/2fb38b11f6378b842e98c121de6c47e9.mp3",
-      "details": "At 1:09:00 we talk about the rise of AI x Finance, and AIE NYC is one month away - our hotel block is 97% sold out, get tix & travel ASAP - we will announce speakers from Bridgewater, Ramp, Coatue, Mastercard, Vanguard, Coinbase, Blackrock, Fidelity, Point72, Capital One, JPMC, Wells Fargo, Bloomberg, A24 (yes the movie studio) Labs, Two Sigma, Apollo Global, and more soon!From helping pioneer core ideas in NLP to now building AI systems that can automate AI research itself, Richard Socher is betting that the next major step in AI is recursive self-improvement. He is the founder of You.com, AIX Ventures, and now Recursive, which has assembled some of the best open-endedness (& self improving agent) researchers in the world and raised a $4.65B seed round.In this episode, Richard joins Latent Space to unpack his vision for the “Eureka Machine”: a superintelligence that can improve the process of invention itself, accelerate AI research, and eventually tackle major problems across science, energy, materials, biology, and more.You can get his book “The Eureka Machine” here!We go deep on Recursive’s early results, including an AI research system that Richard says outperformed humans and their agents on optimization tasks in less than two days, as well as work on NVIDIA GPU kernels where the system discovered improvements without relying on a team of CUDA experts. Richard also explains why he thinks AI research that currently takes thousands of people and years could eventually be compressed into weeks. These results are summarized in his 20 minute AIE keynote, where we also discuss his 10 dimensions of intelligence:We also explore the harder questions around increasingly capable AI: reward hacking, whether Anthropic-style constitutions actually work, AI regulation and proposals to “pace” frontier development, open-source models as geopolitical soft power, whether today’s LLM paradigm is enough, and what happens if AI systems eventually begin choosing their own goals. Richard reflects on the rejected research that helped inspire Alec Radford’s GPT, open-endedness, the AI Economist, simulations of entire economies, and his framework for thinking about the upper bounds of intelligence itself.We discuss:The Eureka Machine and Richard’s vision for an AI that can automate inventionWhy Richard is optimistic about superintelligence for science and technologyWhy AI hard-takeoff scenarios may underestimate physical and economic constraintsThe risks of regulating intelligence itself instead of specific AI applicationsReward hacking and why increasingly intelligent AI makes objective design harderRichard’s critique of Anthropic’s constitution and constitutional AIAlignment vs. personalization and whose values an AI should followWhy open-source AI matters for resilience, competition, and geopolitical soft powerWhy Richard left You.com’s frontier-model work to start RecursiveRecursive self-improvement and automating the process of AI researchWhether today’s LLM paradigm is enough — and why Richard is less bullish on world modelsDecaNLP, early prompt-based generalization, and the research that influenced GPTWhy rejected research can shape entire technological timelinesOpen-endedness, evolutionary approaches, and rainbow teamingWhat happens if AI systems begin setting their own goalsWhy simple objectives like profit maximization can produce dangerous reward hacksRecursive’s long-term plan to apply self-improving AI to scienceThe compute, hardware, and economic constraints on AI takeoffRecursive’s early NanoChat, NanoGPT, and GPU kernel optimization resultsWhy automating AI research could reduce years of work to weeksReward engineering and what makes auto-research systems actually workThe AI Economist and using simulations to test economic policyWhether LLMs can realistically simulate people and entire economiesBenchmark bugs and evaluation harnesses and the difficulty of measuring AI progressRecursive’s near-term focus on AI for AI researchHarness optimization, sandboxing, and web search as core agent infrastructureYou.com and the search stack for AI agentsAI in finance, backtesting, and data leakageRichard’s three fundamental components and ten “spaces” of intelligenceThe theoretical upper bounds of vision, communication, knowledge, and computationCreative intelligence, metacognition, and AI-generated goalsSurvival and replication and why AI does not necessarily need to fear being turned offHigh agency and ambitious goals and Richard’s advice for people building with AIRichard SocherX: https://x.com/RichardSocherLinkedIn: https://www.linkedin.com/in/richardsocher/Timestamps00:00:00 The Eureka Machine and Superintelligence00:02:23 AI Optimism, Slow Takeoff, and Regulation00:07:56 AI Safety, Reward Hacking, and Anthropic’s Constitution00:11:49 Alignment, Personalization, and Open Source AI00:15:46 Why Richard Started Recursive00:20:03 Recursive Self-Improvement and the Founding Team00:22:55 Are Today’s LLMs Enough?00:29:03 DecaN",
-      "dedupe_key": "podcast:1a4978afa24ef7713e261e85947f2fd0004dbb0d",
-      "first_seen_at": "2026-09-14T16:45:21.335427+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "DevFest is back",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
-      "published_at": "2026-09-14T16:00:00+00:00",
-      "first_seen_at": "2026-09-14T16:45:21.335427+00:00"
-    },
-    {
-      "source": "Latent Space YouTube",
-      "source_type": "youtube",
-      "title": "Recursive Self-Improvement: from Auto Research to Superintelligence — Richard Socher, Recursive",
-      "url": "https://www.youtube.com/watch?v=eDFXtSg3zB8",
-      "summary": "From helping pioneer ideas that foreshadowed prompt-based, general-purpose NLP to now building AI systems that can automate AI research itself, Richard Socher is betting that the next major step in AI is recursive self-improvement. In this episode, Richard joins Latent Space to u",
-      "published_at": "2026-09-14T15:45:28+00:00",
-      "first_seen_at": "2026-09-14T16:45:21.335427+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
-      "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
-      "summary": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it",
-      "published_at": "2026-09-14T15:00:52+00:00",
-      "first_seen_at": "2026-09-14T16:45:21.335427+00:00"
-    },
-    {
-      "source": "a16z AI YouTube",
-      "source_type": "youtube",
-      "title": "OpenAI President on What it Means to Cross Into The Age of AGI",
-      "url": "https://www.youtube.com/watch?v=IJn8cagMW18",
-      "summary": "Ben Horowitz and Erik Torenberg sit down with OpenAI co-founder and President Greg Brockman to discuss why he believes AI has entered a new phase, what OpenAI’s latest models reveal about the path to AGI, and the safety and security challenges that come with increasingly capable ",
-      "published_at": "2026-09-14T14:30:28+00:00",
-      "first_seen_at": "2026-09-14T16:45:21.335427+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Universal Robots launches its seventh generation robot platform at IMTS",
-      "url": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/",
-      "summary": "The Gen 7 platform is designed to enhances the cobot user experience, says UR. | Source: Universal Robots Universal Robots A/S introduced Gen 7, its seventh-generation robotics platform, today at the IMTS trade show. The Teradyne Inc. subsidiary said the unified system upgrade en",
-      "published_at": "2026-09-14T13:25:40+00:00",
-      "first_seen_at": "2026-09-14T16:45:21.335427+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "How Fyxer built an AI executive assistant people trust",
-      "url": "https://openai.com/index/fyxer",
-      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-      "published_at": "2026-09-14T12:00:00+00:00",
-      "first_seen_at": "2026-09-14T16:45:21.335427+00:00"
-    },
-    {
-      "source": "DeepSeek News",
-      "source_type": "rss",
-      "title": "DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient | DeepSeek API Docs",
-      "url": "https://api-docs.deepseek.com/news/news260910",
-      "summary": "🚀 Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.",
-      "published_at": "2026-09-14T00:00:00+00:00",
-      "first_seen_at": "2026-09-10T14:46:59.803808+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
-      "published_at": "2026-09-14T00:00:00+00:00",
-      "first_seen_at": "2026-09-12T13:50:25.118457+00:00"
     },
     {
       "source": "Tesla AI / Optimus YouTube",
