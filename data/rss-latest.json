@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-22T15:46:16.819898+00:00",
+  "updated_at": "2026-10-23T00:00:10.667992+00:00",
   "count": 700,
-  "new_count": 542,
+  "new_count": 459,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -79,9 +79,75 @@
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
       "url": "https://docs.z.ai/release-notes/new-released",
       "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-10-22T15:46:46.759861+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:19c4fd621d8d630755a8f53445f31bca8d9a0497b38cef5404b437295bbf25c0",
-      "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+      "published_at": "2026-10-23T00:02:27.078575+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:6226faee3a44ac2ef194944f98905c748b58309cda94963056677d7c75c9348e",
+      "first_seen_at": "2026-10-23T00:00:10.667992+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "AI’s bottleneck isn’t compute. It’s geometry.",
+      "url": "https://www.youtube.com/shorts/o5UZtZuPAeY",
+      "summary": "",
+      "published_at": "2026-10-22T23:21:44+00:00",
+      "first_seen_at": "2026-10-23T00:00:10.667992+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "summary": "",
+      "published_at": "2026-10-22T22:24:34+00:00",
+      "first_seen_at": "2026-10-23T00:00:10.667992+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Build more responsive apps with the Decisions API",
+      "url": "https://openai.com/index/decisions-api",
+      "summary": "Fast, focused, low-cost decisions for any application.",
+      "published_at": "2026-10-22T19:00:00+00:00",
+      "first_seen_at": "2026-10-23T00:00:10.667992+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+      "url": "https://www.latent.space/podcast",
+      "summary": "Warm welcome to Basil Chatha, our newest cohost from the Forward Deployed side of the AI Engineering world! We’ll be ramping up a new show with him and couldn’t pass up an interview with Modal’s CEO Eric on the occasion of their monster Series D!Two years ago, we spoke with Erik ",
+      "published_at": "2026-10-22T17:40:57+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/221647996/5d4e5f71cd623bb63fd2aff5db9a1836.mp3",
+      "details": "Warm welcome to Basil Chatha, our newest cohost from the Forward Deployed side of the AI Engineering world! We’ll be ramping up a new show with him and couldn’t pass up an interview with Modal’s CEO Eric on the occasion of their monster Series D!Two years ago, we spoke with Erik Bernhardsson about his vision for truly serverless AI infrastructure: developers should be able to run code without provisioning clusters, predicting load, or paying for idle resources. CTO Akshat then joined us to talk about Modal’s infra primitives and stack to offer those primitives and agent experience.A lot has changed in the past 5 months. Since their $5B series C, Modal now reports it crossed $1 billion in annualized run rate, raised a $750 million Series D at a $16B valuation, and has spun up nearly three billion sandboxes. In this conversation, Erik joins Vibhu to explain the infrastructure and economics behind that growth—and why demand for compute rarely looks like the contracts used to buy it.Watch the full conversation on YouTube →GPU demand isn’t rectangularA typical capacity contract gives a customer a fixed number of GPUs for a fixed period. Plot capacity against time and you get a rectangle. Real workloads behave differently: they grow, spike, and fall throughout the day. Buy enough for the peak and you pay for idle hardware; buy less and you risk missing demand.Erik describes Modal’s bet as a kind of duration transformation: pool demand across thousands of customers, secure capacity underneath, and let each customer use what they need when they need it. The smoother the aggregate demand, the more useful that pool can be. It’s a useful companion to our conversation with SF Compute’s Evan Conrad: Evan focuses on making capacity tradeable; Erik focuses on making it usable in smaller, elastic slices.There is a financial risk on the other side. If a provider locks in capacity at today’s prices and GPU prices later fall, it can be left holding expensive supply. Erik says he doesn’t expect an imminent collapse, but thinks the possibility matters when building the business. Jump to the GPU price discussion →The sandbox that almost didn’t make itModal launched sandboxes after Erik and cofounder Akshat Bubna noticed that language models could generate code—and that someone would need a place to run it. Early adoption was modest enough that the team discussed shutting the product down. Then coding agents, background agents, and reinforcement learning created new demand. Erik says sandboxes have grown to roughly a third of Modal’s revenue, a result he didn’t predict at launch.That growth also changes what infrastructure has to do. An agent may create an environment, run code, inspect the result, and try again many times. The latency of starting and restoring those environments becomes part of the experience. In our recent interview with Akshat, we explored this shift from developer experience to agent experience; here Erik adds the product and business story. Jump to the sandbox discussion →Fast startup is an infrastructure featureElasticity only works if capacity can arrive quickly enough to matter. Modal’s serverless GPU write-up describes the machinery: a buffer of available GPUs, a custom filesystem, process checkpointing, and GPU memory snapshots. Those pieces reduce the work needed to bring another model replica online. It is a concrete example of how infrastructure decisions show up in an application’s responsiveness and cost.We also discuss Erik’s path from Spotify’s recommendation system to Modal, how the company buys compute, alternatives to NVIDIA, forward-deployed engineers, and why code review is optional at Modal. Jump to engineering culture →Show notesModal — the AI infrastructure platform Erik founded.Erik’s writing — his essays on infrastructure, markets, and building companies.Modal’s Series D announcement — the company’s latest reported growth and sandbox milestones.How Modal achieved truly serverless GPUs — the startup and scaling techniques behind elastic inference.Modal’s resource solver — how it selects capacity across changing prices and availability.Scaling to one million concurrent sandboxes — an engineering account of sandbox scaling.Our first interview with Erik — the original serverless infrastructure thesis.Our interview with Akshat Bubna — infrastructure and developer experience for agents.The Programmable Data Center — Evan Conrad on GPU trading and physical settlement.Timestamps0:00 What Modal does1:25 From Spotify to building Modal4:19 Founding before the generative AI boom7:43 First customers and fundraising10:00 Building for inference and autoscaling13:21 Where Modal gets GPU capacity15:39 Renting vs. owning infrastructure19:45 The risk of GPU prices falling24:18 Is AI demand infinite?26:12 Alternatives to NVIDIA28:25 What Modal can learn from neoclouds30:26 GPUs as an asset class31:55 Modal’s products: functions and sandboxes36:03 The case for smaller training workloads41:21 How agent sandb",
+      "dedupe_key": "podcast:29acd73af3fb73bfa2f34d8bfd2f856611bd34db",
+      "first_seen_at": "2026-10-23T00:00:10.667992+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "How bug bounty sharpens one researcher’s security skills",
+      "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
+      "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team is excited to spotlight another top-performing security researcher from the GitHub Security Bug Bounty Program: @r31n! As home to the world’s developers, GitHub is dedicated to the security and reliability of ",
+      "published_at": "2026-10-22T17:21:30+00:00",
+      "first_seen_at": "2026-10-23T00:00:10.667992+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "summary": "",
+      "published_at": "2026-10-22T16:11:31+00:00",
+      "first_seen_at": "2026-10-23T00:00:10.667992+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "What will computer chips look like in 2045?",
+      "url": "https://www.youtube.com/watch?v=frYSOKvNiiE",
+      "summary": "I spent two days touring Intel’s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like. A lot of what's coming next – gate-all-around transistors, backside power, CFET, hybrid bonding – is hard to follow without actual",
+      "published_at": "2026-10-22T16:00:07+00:00",
+      "first_seen_at": "2026-10-23T00:00:10.667992+00:00"
     },
     {
       "source": "Figure AI YouTube",
@@ -97,10 +163,10 @@
       "source_type": "rss",
       "title": "What will computer chips look like in 2045?",
       "url": "https://www.dwarkesh.com/podcast",
-      "summary": "Demand for AI compute has grown 3x a year for the last decade, but according to Intel’s CTO, there are only enough chipmaking tools in the world to roughly double leading-edge production.I wanted to understand what innovations are coming out of the fabs, and what they mean for th",
+      "summary": "I spent two days touring Intel’s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like.A lot of what’s coming next – gate-all-around transistors, backside power, CFET, hybrid bonding – is hard to follow without actuall",
       "published_at": "2026-10-22T15:02:21+00:00",
       "audio_url": "https://api.substack.com/feed/podcast/221632772/1f987bf69581b5c8ba0fd37b77cdeb71.mp3",
-      "details": "Demand for AI compute has grown 3x a year for the last decade, but according to Intel’s CTO, there are only enough chipmaking tools in the world to roughly double leading-edge production.I wanted to understand what innovations are coming out of the fabs, and what they mean for the future of computers, so I spent two days at Intel talking to the people working on them – from the head of process development to the research lab, the packaging group, and the CTO.A lot of what’s coming next – gate-all-around transistors, backside power, CFET, hybrid bonding – is hard to follow without seeing it, so some of this video is the animated explainer I wish I had while I was prepping.We haven’t done this format before, so let me know what you think!I also made flashcards for the concepts I had to learn to prep for this episode here.Watch on YouTube, Apple Podcasts or Spotify.SponsorsWorkOS helps you do business with enterprises. It gives you access to all the features most commonly required by enterprises: SSO, SCIM, RBAC, audit logs, and more. It’s easy to plug these features in — it only takes a few lines of code — and WorkOS is releasing new functionality all the time, including things like auth for agents. If you want to join the 3,000+ companies that rely on WorkOS, go to workos.comJane Street built a powerful tool called magic-trace to help analyze and debug their trading systems. It only exists because one engineer noticed a feature on Intel chips called Processor Trace and thought it’d be valuable to build on top of. Now, traders and developers across Jane Street use magic-trace every single day! If you want to be trusted to pursue the ideas you think matter most, Jane Street is hiring. Go to janestreet.com/dwarkeshAntithesis’ testing platform lets you perfectly reproduce every single bug you find. That’s because it runs on a fully deterministic computer, which strips out all the unpredictability that can make certain bugs flaky and hard to pin down. To build it, Antithesis found every source of non-determinism in Intel’s x86 architecture and either sealed it off or replaced it with a controlled simulation. Learn more at antithesis.com/dwarkeshTimestamps(00:00:00) – Intro(00:00:47) – How Intel brings up a new process node(00:03:22) – What Intel learned from 10nm(00:06:28) – From planar transistors to gate-all-around(00:13:13) – Why High-NA EUV pays off for Intel but not TSMC(00:19:20) – Could chips have evolved completely differently?(00:23:33) – Inside Intel’s “Hot Topics” meeting(00:29:30) – Replacing copper wires with ruthenium(00:32:41) – Why stacked transistors take a decade to ship(00:39:45) – Hybrid bonding and the chip-to-chip bottleneck(00:48:00) – There aren’t enough tools to 10x chip production(00:53:14) – Can Intel catch up to TSMC?(01:01:02) – Terafab, and rethinking the fab from scratchTranscript00:00:00 – The AI demand shockDwarkesh PatelThere’s never been as big a shock to the semiconductor industry as the current surge in demand from AI.Gary DickersonAI is driving incredible computing demand.Peter WenninkEasily 40-50% above our maximum capacity, which I’ve never seen before.Dwarkesh PatelProgress in AI has been driven by exponentially increasing compute. To sustain that progress, foundries like Intel will need to manufacture far more leading-edge compute, both by producing more chips and by improving what each chip can do.But the production of these chips is bottlenecked by tools that Intel buys from their suppliers. Most famously, ASML’s EUV machines.CNBCIf they don’t have the equipment, they can’t make the chips here.Dwarkesh PatelI spent two days touring Intel’s fabs to prepare for these interviews with its leadership. I wanted to understand what it takes to manufacture the world’s most advanced chips and how hardware is shaping the future of AI.00:00:47 – Bringing up a new nodeDwarkesh PatelI’m joined by Chris Auth, who leads development of all the processes that are currently under manufacturing. The thing I want to understand in more concrete detail is how the development of a new process actually happens. If 14A is going to come out in three years or two years from now, what is happening from now till then?I want you to walk me through as much detail as you can, everything from the level of “how is the yield improving?” to what kind of telemetry you guys look at? What kind of experiments do you guys run? I want to understand what is going to happen over the next two years as concretely as possible.Chris Auth14A has been in development for about three-plus years at this stage, so quite a bit of pre-work has been done to get it to the stage that it’s at right now. Right now, we’re getting very close to where we’re finalizing the process. We’re finalizing the tool sets that it will be manufactured on, and we’re working on the fine-tuning of each of the process steps.There are about 2,000 steps in the factory that you have to go do. You need to do really intricate work at each one of those to",
+      "details": "I spent two days touring Intel’s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like.A lot of what’s coming next – gate-all-around transistors, backside power, CFET, hybrid bonding – is hard to follow without actually seeing it, so we made all the awesome animated explainers that I wish I had while I was prepping.I also asked Intel’s leadership how the semiconductor industry will cope with the enormous shock in demand from AI.AI compute has grown 3x a year for the last decade, but according to Intel’s CTO, Intel could only double leading-edge wafer production with today’s global stock of chipmaking tools.What kinds of tricks can foundries pull to extend this crossover point where demand surges way ahead of supply?This was a totally new format for us - hope you enjoy!I also made flashcards for the concepts I had to learn to prep for this episode here.Watch on YouTube, Apple Podcasts or Spotify.SponsorsWorkOS helps you do business with enterprises. It gives you access to all the features most commonly required by enterprises: SSO, SCIM, RBAC, audit logs, and more. It’s easy to plug these features in — it only takes a few lines of code — and WorkOS is releasing new functionality all the time, including things like auth for agents. If you want to join the 3,000+ companies that rely on WorkOS, go to workos.comJane Street built a powerful tool called magic-trace to help analyze and debug their trading systems. It only exists because one engineer noticed a feature on Intel chips called Processor Trace and thought it’d be valuable to build on top of. Now, traders and developers across Jane Street use magic-trace every single day! If you want to be trusted to pursue the ideas you think matter most, Jane Street is hiring. Go to janestreet.com/dwarkeshAntithesis’ testing platform lets you perfectly reproduce every single bug you find. That’s because it runs on a fully deterministic computer, which strips out all the unpredictability that can make certain bugs flaky and hard to pin down. To build it, Antithesis found every source of non-determinism in Intel’s x86 architecture and either sealed it off or replaced it with a controlled simulation. Learn more at antithesis.com/dwarkeshTimestamps(00:00:00) – Intro(00:00:47) – How Intel brings up a new process node(00:03:22) – What Intel learned from 10nm(00:06:28) – From planar transistors to gate-all-around(00:13:13) – Why High-NA EUV pays off for Intel but not TSMC(00:19:20) – Could chips have evolved completely differently?(00:23:33) – Inside Intel’s “Hot Topics” meeting(00:29:30) – Replacing copper wires with ruthenium(00:32:41) – Why stacked transistors take a decade to ship(00:39:45) – Hybrid bonding and the chip-to-chip bottleneck(00:48:00) – There aren’t enough tools to 10x chip production(00:53:14) – Can Intel catch up to TSMC?(01:01:02) – Terafab, and rethinking the fab from scratchTranscript00:00:00 – The AI demand shockDwarkesh PatelThere’s never been as big a shock to the semiconductor industry as the current surge in demand from AI.Gary DickersonAI is driving incredible computing demand.Peter WenninkEasily 40-50% above our maximum capacity, which I’ve never seen before.Dwarkesh PatelProgress in AI has been driven by exponentially increasing compute. To sustain that progress, foundries like Intel will need to manufacture far more leading-edge compute, both by producing more chips and by improving what each chip can do.But the production of these chips is bottlenecked by tools that Intel buys from their suppliers. Most famously, ASML’s EUV machines.CNBCIf they don’t have the equipment, they can’t make the chips here.Dwarkesh PatelI spent two days touring Intel’s fabs to prepare for these interviews with its leadership. I wanted to understand what it takes to manufacture the world’s most advanced chips and how hardware is shaping the future of AI.00:00:47 – Bringing up a new nodeDwarkesh PatelI’m joined by Chris Auth, who leads development of all the processes that are currently under manufacturing. The thing I want to understand in more concrete detail is how the development of a new process actually happens. If 14A is going to come out in three years or two years from now, what is happening from now till then?I want you to walk me through as much detail as you can, everything from the level of “how is the yield improving?” to what kind of telemetry you guys look at? What kind of experiments do you guys run? I want to understand what is going to happen over the next two years as concretely as possible.Chris Auth14A has been in development for about three-plus years at this stage, so quite a bit of pre-work has been done to get it to the stage that it’s at right now. Right now, we’re getting very close to where we’re finalizing the process. We’re finalizing the tool sets that it will be manufactured on, and we’re working on the fine-tuning of each of the process steps.There are about 2,000 steps in t",
       "dedupe_key": "podcast:27ebe9eeb616dc5461b913279dd717169024b729",
       "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
     },
@@ -281,6 +347,42 @@
       "summary": "NVIDIA packs six to nine custom chips into one powerful system. Fractile CEO Walter Goodwin on how chip companies can catch up: keep a rolling frontier of bets ready to ramp.",
       "published_at": "2026-10-22T00:21:19+00:00",
       "first_seen_at": "2026-10-22T15:46:16.819898+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "source_type": "rss",
+      "title": "Open call for guest investigators in the life sciences",
+      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+      "summary": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects.",
+      "published_at": "2026-10-22T00:00:00+00:00",
+      "first_seen_at": "2026-10-23T00:00:10.667992+00:00"
+    },
+    {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "summary": "Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years.",
+      "published_at": "2026-10-22T00:00:00+00:00",
+      "first_seen_at": "2026-10-23T00:00:10.667992+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "published_at": "2026-10-22T00:00:00+00:00",
+      "first_seen_at": "2026-10-23T00:00:10.667992+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "source_type": "rss",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "summary": "",
+      "published_at": "2026-10-22T00:00:00+00:00",
+      "first_seen_at": "2026-10-23T00:00:10.667992+00:00"
     },
     {
       "source": "OpenAI News",
@@ -3984,6 +4086,15 @@
       "first_seen_at": "2026-09-30T00:31:57.467916+00:00"
     },
     {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "published_at": "2026-09-29T17:00:00+00:00",
+      "first_seen_at": "2026-09-30T00:31:57.467916+00:00"
+    },
+    {
       "source": "Anthropic Research",
       "source_type": "rss",
       "title": "What Do You Want from AI?",
@@ -4081,15 +4192,6 @@
       "summary": "",
       "published_at": "2026-09-29T13:07:00+00:00",
       "first_seen_at": "2026-09-29T16:46:28.068139+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Introducing GPT-6.1 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "published_at": "2026-09-29T10:00:00+00:00",
-      "first_seen_at": "2026-09-30T00:31:57.467916+00:00"
     },
     {
       "source": "OpenAI News",
@@ -6298,111 +6400,12 @@
       "first_seen_at": "2026-09-15T23:32:30.699729+00:00"
     },
     {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
-      "url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
-      "summary": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella of infrastructure tech. Before a packed audience — with more t",
-      "published_at": "2026-09-15T16:55:40+00:00",
-      "first_seen_at": "2026-09-15T23:32:30.699729+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Your Agent Aced the Task. Will It Do It Again?",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-      "summary": "",
-      "published_at": "2026-09-15T16:00:44+00:00",
-      "first_seen_at": "2026-09-15T23:32:30.699729+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "AI for Societal Impact",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
-      "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
-      "published_at": "2026-09-15T16:00:00+00:00",
-      "first_seen_at": "2026-09-15T23:32:30.699729+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "Building AI to accelerate science and improve lives",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
-      "summary": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …",
-      "published_at": "2026-09-15T16:00:00+00:00",
-      "first_seen_at": "2026-09-15T23:32:30.699729+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "AI for everyone in every language",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
-      "summary": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed.",
-      "published_at": "2026-09-15T16:00:00+00:00",
-      "first_seen_at": "2026-09-15T23:32:30.699729+00:00"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe",
-      "url": "https://spectrum.ieee.org/humanoid-robot-safety",
-      "summary": "Despite the recent deluge of videos of humanoid robots doing backflips and kung fu, the actual pace of progress towards humanoids that can do economically viable jobs at scale has at times seemed a bit plodding. There are some good reasons for this: A humanoid robot needs to be p",
-      "published_at": "2026-09-15T15:22:30+00:00",
-      "first_seen_at": "2026-09-15T15:25:45.447519+00:00"
-    },
-    {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "New insights from Google’s AI & Economy ATLAS",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
-      "summary": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
-      "published_at": "2026-09-15T13:00:00+00:00",
-      "first_seen_at": "2026-09-15T15:25:45.447519+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "InOrbit.AI releases OpenRobOps ISO 21423 reference implementation",
-      "url": "https://www.therobotreport.com/inorbit-ai-releases-openrobops-iso-21423-reference-implementation/",
-      "summary": "OpenRobOps, or ORO as shown here, is designed to enable easier fleet orchestration. Source: InOrbit Orchestrating fleets of mobile robots could be getting easier. InOrbit Inc. has been working to make the core operations layer of its software more accessible to developers. The co",
-      "published_at": "2026-09-15T12:58:29+00:00",
-      "first_seen_at": "2026-09-15T15:25:45.447519+00:00"
-    },
-    {
-      "source": "The Robot Report YouTube",
-      "source_type": "youtube",
-      "title": "Agility Robotics' new Digit 5",
-      "url": "https://www.youtube.com/watch?v=5fLaqJL7Rtc",
-      "summary": "Agility Robotics announced the latest version of its Digit humanoid robot.",
-      "published_at": "2026-09-15T10:55:29+00:00",
-      "first_seen_at": "2026-09-15T15:25:45.447519+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Agility’s Digit 5 humanoid has new legs, batteries, and safety upgrades",
-      "url": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/",
-      "summary": "Agility said it engineered Digit 5 for cooperatively safe work at scale. | Source: Agility Robotics Agility Robotics today unveiled Digit 5, the latest version of its humanoid robot. The news comes as the company prepares to go public through a proposed SPAC merger with Churchill",
-      "published_at": "2026-09-15T10:55:15+00:00",
-      "first_seen_at": "2026-09-15T15:25:45.447519+00:00"
-    },
-    {
       "source": "Agility Robotics YouTube",
       "source_type": "youtube",
       "title": "Introducing Digit 5",
       "url": "https://www.youtube.com/watch?v=oyq9BOwK5XI",
       "summary": "Agility's first humanoid robot engineered for cooperatively safe work at scale, allowing it to work in close proximity to people without the physical safety barriers required by traditional automation. Explore Digit 5 at https://www.agilityrobotics.com/solutions/digit-5 ---------",
       "published_at": "2026-09-15T10:45:43+00:00",
-      "first_seen_at": "2026-09-15T15:25:45.447519+00:00"
-    },
-    {
-      "source": "Agility Robotics YouTube",
-      "source_type": "youtube",
-      "title": "Agility Foundations: Functional Safety",
-      "url": "https://www.youtube.com/watch?v=2dbyg67EtUA",
-      "summary": "--------------------------------------- At Agility, our robots are made for work. Digit takes on tedious, repetitive, and physically demanding tasks in industrial facilities, so companies and their people can focus on the work that requires the human element. Subscribe (hit the b",
-      "published_at": "2026-09-15T10:39:18+00:00",
       "first_seen_at": "2026-09-15T15:25:45.447519+00:00"
     },
     {
