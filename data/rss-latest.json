@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-23T23:52:22.441490+00:00",
+  "updated_at": "2026-10-24T14:13:47.315574+00:00",
   "count": 700,
-  "new_count": 542,
+  "new_count": 535,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -88,9 +88,28 @@
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
       "url": "https://docs.z.ai/release-notes/new-released",
       "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-10-23T23:52:49.132878+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:0c687ee056842cb8417bba30f2d6c2f80523825b943f3c96108bfa17ac6730ef",
-      "first_seen_at": "2026-10-23T23:52:22.441490+00:00"
+      "published_at": "2026-10-24T14:14:15.052421+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:528bc801e7c67736e3465c1e3219c4ba1671d154d40a566754690bba47608453",
+      "first_seen_at": "2026-10-24T14:13:47.315574+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Eka Robotics raises $150M to scale its vision-force-action model for robots",
+      "url": "https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/",
+      "summary": "Eka says its model can generalize across objects, tasks, and environments. | Source: Eka Robotics Eka Robotics this week said it has raised $150 million in Series A funding. The startup said the new funding will help it scale its technology and customer deployments. Founded in 20",
+      "published_at": "2026-10-24T12:34:27+00:00",
+      "first_seen_at": "2026-10-24T14:13:47.315574+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+      "url": "https://latent.space/p/ainews-kimi-31/",
+      "summary": "2 months ago we covered Z.ai CEO Prof Jie Tang’s prediction that we’d get a Fable-class open weights model by year end. 2 weeks ago Meta achieved a Fable-class model in closed source, but, with 2.5 months left to go, we finally got it - a 2.8T open weights model beating Fable 5.1",
+      "published_at": "2026-10-24T07:18:29+00:00",
+      "details": "2 months ago we covered Z.ai CEO Prof Jie Tang’s prediction that we’d get a Fable-class open weights model by year end. 2 weeks ago Meta achieved a Fable-class model in closed source, but, with 2.5 months left to go, we finally got it - a 2.8T open weights model beating Fable 5.1, not just Fable 5, at that: View post on X ↗ with even better efficiency: View post on X ↗ You can tell Kimi is proud of their latest model by how fancy their landing page is: As usual we don’t get much research detail - the update is somewhat similar to Z.ai’s 5.2-5.3 bump - a minor version bump for a lot more post-training: Kimi K3.1 Pro is a post-trained version of Kimi K3, with substantially larger post-training compute. To enable large-scale joint RL across hundreds of downstream domains, we optimized every layer of the stack — the RL framework, long-context inference, training efficiency, sandbox infrastructure, rollout scheduling, and a shared platform for environment quality checks — so that each increment of RL compute delivers stable, predictable returns. As a result, K3.1 Pro achieves consistent gains in every domain.AI News for 10/22/2026-10/23/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapTop Story: Kimi K3.1 Pro launch and reactionsWhat happenedMoonshot launched Kimi K3.1 Pro with near-frontier independent benchmark results, a substantial increase in model size, and an open-weight release promised for November 4, 2026.The model: Moonshot describes K3.1 Pro as a multimodal, “3T-class” mixture-of-experts model with 2.8 trillion total parameters, 104 billion active parameters, and a 1-million-token context window. Its advertised strengths include full-project coding, Blender/CAD work, financial modeling, and long-running agents. @Kimi_MoonshotAvailability: Standard and Highspeed versions launched across Kimi’s website/app, Kimi Work, Kimi Code, and API. Moonshot claims Highspeed preserves intelligence while generating output 2–3× faster; the official-account summary says it costs twice as much. The launch also includes Kimi Hosted Agents, a managed harness with a 24/7 execution environment for long-running work and multi-agent collaboration. @ZhihuFrontier, @ZhihuFrontierIndependent general-capability result: Artificial Analysis placed K3.1 Pro fourth on its Intelligence Index, scoring 55, behind Opus 5.5 at 58 and Sonnet 5.5 and Muse Wonder Full at 56. Its strongest improvements were agentic rather than uniformly distributed across knowledge and science tests. @ArtificialAnlysIndependent coding result: Arena placed it #8 in Code Arena: WebDev, at 1,692 points, up nine places and 37 points over Kimi K3. Moonshot returned to Arena’s top four labs. @arenaIndependent cyber result: Despite deliberately reducing cyber-related training, it subsequently scored 64% on Artificial Analysis’ Cyber Index—the highest publicly accessible result and second overall, behind trusted-access GPT-6 Sol Daybreak Blue at 69%. @ArtificialAnlysThe reaction split: Enthusiasm about a prospective open-weight frontier contender was followed by concerns about inference economics, weaker results on some interactive tasks, benchmark presentation, and allegations of undisclosed paid promotion. These are distinct issues: benchmark quality does not establish deployment economics, and promotional misconduct allegations do not establish model capability. @simonw, @maxbittker, @kimmonismusRelease status, architecture, and what “open” means here At launch, the API was available; the weights were not. Moonshot’s announcement promises weights by November 4, 2026. The supplied tweets do not establish the eventual license, redistribution conditions, commercial-use restrictions, checkpoint precision, or complete inference requirements. Consequently, “soon-to-be open-weight” is more precise than the “OSS” or “open source” language used in several reactions. Artificial Analysis explicitly recorded the weights as unpublished. @Kimi_Moonshot, @ArtificialAnlys The release sequence generated confusion: Early reports predicted a release “today” and potentially the strongest open-weight model, explicitly on rumors/leaks; a follow-up reiterated positive hearsay. Neither was an evaluation. @kimmonismus, @kimmonismus Teasers triggered speculation about November 5, including whether Moonshot would monetize website access before publishing weights. The official announcement subsequently specified November 4. @scaling01, @scaling01, @bigeagle_xd Initial users reported availability on kimi.com before kimi.ai; another later reported obtaining access. These are rollout observations, not evidence of a lasting regional restriction. @teortaxesTex, @teortaxesTex Repeated complaints about suspense and guesses about a symbolic launch time reflected the launch atmosphere, not confirmed scheduling informati",
+      "first_seen_at": "2026-10-24T14:13:47.315574+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -659,6 +678,15 @@
       "summary": "",
       "published_at": "2026-10-22T00:00:00+00:00",
       "first_seen_at": "2026-10-23T00:00:10.667992+00:00"
+    },
+    {
+      "source": "AgiBot News",
+      "source_type": "rss",
+      "title": "AGIBOT Open-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "url": "https://agibot.com/article/231/detail/129.html",
+      "summary": "",
+      "published_at": "2026-10-22T00:00:00+00:00",
+      "first_seen_at": "2026-10-24T14:13:47.315574+00:00"
     },
     {
       "source": "OpenAI News",
@@ -6390,33 +6418,6 @@
       "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
     },
     {
-      "source": "Google AI Blog",
-      "source_type": "rss",
-      "title": "Making global data easier to explore",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-      "summary": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
-      "published_at": "2026-09-17T20:00:00+00:00",
-      "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
-    },
-    {
-      "source": "Figure AI YouTube",
-      "source_type": "youtube",
-      "title": "Helix 2.5 30-Home Generalization",
-      "url": "https://www.youtube.com/watch?v=lJpM_2a1zrE",
-      "summary": "Today we’re releasing Helix 2.5 We rented 30 homes in the Bay Area. The robots arrived with no additional training and started doing useful work",
-      "published_at": "2026-09-17T18:44:32+00:00",
-      "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Designing long-travel axes: When rack and pinion outperforms ball screws and linear motors",
-      "url": "https://www.therobotreport.com/designing-long-travel-axes-when-rack-and-pinion-outperforms-ball-screws-and-linear-motors/",
-      "summary": "Sponsored by GAM. A gearbox, pinion, and rack system provide the 7th axis, or lateral movement, for an articulated robot. (Image: GAM.) Pull a tape measure out a few inches and the blade is rigid. Keep pulling and at some point it starts to flex and wobble, then eventually buckle",
-      "published_at": "2026-09-17T18:34:16+00:00",
-      "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
-    },
-    {
       "source": "Lex Fridman Podcast",
       "source_type": "rss",
       "title": "#502 – Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung",
@@ -6424,7 +6425,7 @@
       "summary": "Andrew Scull is a historian of psychiatry. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep502-sc See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc. Transcript: https://lexfridman.com/andrew-scull-tr",
       "published_at": "2026-09-17T00:40:49+00:00",
       "audio_url": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_andrew_scull.mp3",
-      "details": "Andrew Scull is a historian of psychiatry. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep502-sc See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc. Transcript: https://lexfridman.com/andrew-scull-transcript CONTACT LEX: Feedback – give feedback to Lex: https://lexfridman.com/survey AMA – submit questions, videos or call-in: https://lexfridman.com/ama Hiring – join our team: https://lexfridman.com/hiring Other – other ways to get in touch: https://lexfridman.com/contact EPISODE LINKS: Andrew’s Website (UCSD faculty page): https://sociology.ucsd.edu/people/faculty/emeritus/andrew-scull.html Desperate Remedies (book): https://amzn.to/4vmBquI Madness in Civilization (book): https://amzn.to/3SZhd0I SPONSORS: To support this podcast, check out our sponsors & get discounts: Wispr Flow: AI-powered voice dictation app. Go to https://wisprflow.ai/lex Fin: AI agent for customer service. Go to https://fin.ai/lex LMNT: Zero-sugar electrolyte drink mix. Go to https://drinkLMNT.com/lex Shopify: Sell stuff online. Go to https://shopify.com/lex BetterHelp: Online therapy and counseling. Go to https://betterhelp.com/lex Perplexity: AI-powered answer engine. Go to https://perplexity.ai/ OUTLINE: (00:00) – Introduction (01:07) – Sponsors, Comments, and Reflections (08:10) – Crisis in Psychiatry (37:48) – Categories of Mental Illness (45:07) – Asylums, Eugenics, and the Nazis (57:13) – The Ice Pick Lobotomy (1:03:26) – Malaria “Cure” for Syphilis (1:21:42) – Insulin Coma Therapy (1:29:34) – Electroconvulsive Therapy (ECT) (1:49:03) – One Flew Over the Cuckoo’s Nest (2:06:35) – Freud and Psychoanalysis (2:36:30) – WWII and Cognitive behavioral therapy (CBT) (2:57:04) – Antipsychotics (3:20:24) – Antidepressants (3:33:18) – Future of Psychiatry PODCAST LINKS: – Podcast Website: https://lexfridman.com/podcast – Apple Podcasts: https://apple.co/2lwqZIr – Spotify: https://open.spotify.com/show/2MAi0BvDc6GTFvKFPXnkCL – RSS: https://lexfridman.com/feed/podcast/ – Podcast Playlist: https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4 – Clips Channel: https://www.youtube.com/lexclips",
+      "details": "Andrew Scull is a historian of psychiatry. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep502-sc See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc. Transcript: https://lexfridman.com/andrew-scull-transcript CONTACT LEX: Feedback – give feedback to Lex: https://lexfridman.com/survey AMA – submit questions, videos or call-in: https://lexfridman.com/ama Hiring – join our team: https://lexfridman.com/hiring Other – other ways to get in touch: https://lexfridman.com/contact EPISODE LINKS: Andrew’s Website (UCSD faculty page): https://sociology.ucsd.edu/people/faculty/emeritus/andrew-scull.html Desperate Remedies (book): https://amzn.to/4vmBquI Madness in Civilization (book): https://amzn.to/3SZhd0I SPONSORS: To support this podcast, check out our sponsors & get discounts: Wispr Flow: AI-powered voice dictation app. Go to https://wisprflow.ai/lex Fin: AI agent for customer service. Go to https://fin.ai/lex LMNT: Zero-sugar electrolyte drink mix. Go to https://drinkLMNT.com/lex Shopify: Sell stuff online. Go to https://shopify.com/lex BetterHelp: Online therapy and counseling. Go to https://betterhelp.com/lex Perplexity: AI-powered answer engine. Go to https://perplexity.ai/ OUTLINE: (00:00) – Introduction (01:07) – Sponsors, Comments, and Reflections (08:10) – Crisis in Psychiatry (37:48) – Categories of Mental Illness (45:07) – Asylums, Eugenics, and the Nazis (57:13) – The Ice Pick Lobotomy (1:03:26) – Malaria “Cure” for Syphilis (1:21:42) – Insulin Coma Therapy (1:29:34) – Electroconvulsive Therapy (ECT) (1:49:03) – One Flew Over the Cuckoo’s Nest (2:06:35) – Freud and Psychoanalysis (2:36:30) – WWII and Cognitive behavioral therapy (CBT) (2:57:04) – Antipsychotics (3:20:24) – Antidepressants (3:33:18) – Future of Psychiatry PODCAST LINKS: – Podcast Website: https://lexfridman.com/podcast – Apple Podcasts: https://apple.co/2lwqZIr – Spotify: https://open.spotify.com/episode/082a1V6nazH9ZZqskV1vfz – RSS: https://lexfridman.com/feed/podcast/ – Podcast Playlist: https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4 – Clips Channel: https://www.youtube.com/lexclips",
       "dedupe_key": "podcast:39a39ce431b247b6b6aed419ff7eb9b9cb192fad",
       "first_seen_at": "2026-09-17T15:24:55.571112+00:00"
     },
