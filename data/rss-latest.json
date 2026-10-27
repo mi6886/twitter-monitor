@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-27T00:31:16.993334+00:00",
+  "updated_at": "2026-10-27T16:10:21.399906+00:00",
   "count": 700,
-  "new_count": 549,
+  "new_count": 547,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -81,6 +81,98 @@
       "summary": "🚀 DeepSeek-V4.1-Flash-1017 is here!",
       "published_at": "2026-10-31T00:00:00+00:00",
       "first_seen_at": "2026-10-17T14:02:26.080542+00:00"
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "source_type": "rss",
+      "title": "Genie 4: A new generation of world simulation",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "published_at": "2026-10-27T16:01:38+00:00",
+      "first_seen_at": "2026-10-27T16:10:21.399906+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+      "url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
+      "summary": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discovery that can’t keep up with the disease. The Consortium for B",
+      "published_at": "2026-10-27T15:00:20+00:00",
+      "first_seen_at": "2026-10-27T16:10:21.399906+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Coding From the Himalayas With an Offline AI Agent",
+      "url": "https://latent.space/p/offline-coding/",
+      "summary": "When we talk about working remotely, we take a lot of things for granted, especially reliable internet and power. But sometimes, working remotely means trying to get something done on a flight, during a long train ride, or somewhere with little or no network. I moved to the footh",
+      "published_at": "2026-10-27T14:41:25+00:00",
+      "details": "When we talk about working remotely, we take a lot of things for granted, especially reliable internet and power. But sometimes, working remotely means trying to get something done on a flight, during a long train ride, or somewhere with little or no network. I moved to the foothills of the Himalayas a year ago. I love the peace of living here, but it also comes with its own challenges, including network and power outages. Things I didn’t think about as much before are now part of planning my work. I work as a Principal Engineer at Thomson Reuters, where I spend most of my time coding and reviewing my teammates’ code. Coding agents are already a big part of my everyday workflow, which made me curious about how much of that workflow I could keep using offline.Working from the foothills of the Himalayas. Photo of my workspace. If you’re someone like me, who enjoys working with technology but also finds peace in quiet, remote places where the network doesn’t always cooperate, this article is for you. It’s also for anyone who has wondered whether a coding agent can run entirely on their laptop, with the internet switched off. I tried running a coding agent locally on my laptop to see how much work I could actually get done offline. What can we do offline? A project already on your laptop gives us plenty to work with. We can ask an agent to explain an unfamiliar function, investigate a failing test, refactor a small piece of code, or help finish a feature. These tasks can run offline when the model, project dependencies and test tools are available locally. Downloading a new package or looking something up on the web will still need a connection. Where OpenCode fitsOpenCode is an open-source coding agent that works with your project. You give it a task, and it can read files, propose edits and run commands such as the test suite. In our setup, its permission prompts let us review commands and changes before allowing them. I picked OpenCode because it lets me keep that workflow in the terminal while connecting to a model running on my own laptop. Ollama handles running the model; OpenCode handles the interaction with the project. OpenCode on my Mac, with Qwen3.5 9B selected as the local model. Open-weight models, including Qwen, make this possible: their weights, the learned parameters used to generate responses, can be downloaded and run locally. With Ollama running Qwen on the same laptop, OpenCode can send its requests to a local service. We download everything first, then disconnect the internet for the coding task. Aider is another option if you prefer a guided editing workflow; it also supports Ollama. We are using OpenCode throughout this walkthrough so that the setup and results stay consistent. OpenCode works with the project files and sends model requests to Ollama on the same laptop. Ollama runs Qwen locally.Choosing an open-source model Qwen comes in different sizes. I wanted a model we could run locally that could also use an agent’s tools. For context, here are published results for two Qwen sizes and another open-weight option, as reported in Qwen’s model card. LiveCodeBench v6 tests code generation on programming problems. BFCL-V4 evaluates function calling, which matters when a model needs to choose a tool and give it the right arguments. Higher scores are better on both. ModelLiveCodeBench v6BFCL-V4 Qwen3.5 4B 55.8 50.3 Qwen3.5 9B (used here)65.666.1 gpt-oss-20b 74.6 Not reported The above table scores reported in Qwen’s model card, not measurements from this laptop. “Not reported” means the source does not provide that score. We’re using Qwen3.5 9B for this walkthrough. Its stronger published coding and tool-calling results than the 4B variant made it a useful starting point. The table doesn’t measure laptop speed or the whole OpenCode workflow; our offline file edits and tests are the check for that. Model size and memoryModelApprox. download Qwen3.5 4B 3.3–4.0 GB Qwen3.5 9B (used here)6.6–7.6 GB Qwen3.5 27B 17–20 GB Ollama lists all available sizes; downloads vary by runtime format. Download size isn’t a RAM requirement. Voltti budgets 12–16 GB of memory for a 6.6 GB Qwen3.5 9B build. Our 64k-token OpenCode configuration may need more, so leave room for context and other apps. How OpenCode performed in benchmarks OpenCode has also been tested beyond small demos. The research preprint The Scaffold Effect in Coding Agents compared OpenCode, Goose and OpenHands-SDK on 50 Terminal-Bench Pro tasks using two cloud models. Here are the pass rates reported in Table 2. Coding agentQwen3.6 PlusMiniMax M2.5 Goose 48% [34–62%] 38% [24–52%] OpenCode50% [36–64%]46% [32–60%] OpenHands-SDK 50% [36–64%] 46% [32–60%] The brackets show 95% confidence intervals. The authors caution that most differences in pass rate were not statistically clear. The study also reported substantially higher token use for OpenCode: about 40 times Goose’s tokens per solved task. These runs used cloud APIs and different models from ",
+      "first_seen_at": "2026-10-27T16:10:21.399906+00:00"
+    },
+    {
+      "source": "a16z AI YouTube",
+      "source_type": "youtube",
+      "title": "The AI School Kids Love More Than Vacation | Alpha School's Joe Liemandt",
+      "url": "https://www.youtube.com/watch?v=T4u2FoIm3pw",
+      "summary": "What should school look like if AI can help students learn dramatically faster? Alpha School principal Joe Liemandt argues the answer isn’t to fill the extra time with more academics, but to redesign school around the skills traditional classrooms struggle to teach: agency, teamw",
+      "published_at": "2026-10-27T14:30:18+00:00",
+      "first_seen_at": "2026-10-27T16:10:21.399906+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "ANYbotics begins delivering ANYmal X legged robot for explosive atmospheres",
+      "url": "https://www.therobotreport.com/anybotics-begins-delivering-anymal-x-legged-robot-explosive-atmospheres/",
+      "summary": "ANYmal X is certified to operate in hazardous atmospheres. Source: ANYbotics Hazardous environments are good use cases for robots, which are expanding into new use cases. ANYbotics AG today launched ANYmal X, which it claimed is “the world’s first legged inspection robot for expl",
+      "published_at": "2026-10-27T14:29:58+00:00",
+      "first_seen_at": "2026-10-27T16:10:21.399906+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics YouTube",
+      "source_type": "youtube",
+      "title": "AI in the UK: Drug Discovery, Robotics and AI Factories | NVIDIA",
+      "url": "https://www.youtube.com/watch?v=XWYMvOFMacA",
+      "summary": "From drug discovery to robotics, voice, and video, the UK’s developers, researchers, and companies are advancing AI with NVIDIA accelerated computing. We celebrate their work—and the new AI factories being built to power what comes next. 🔗 NVIDIA Commits $250 Million to Advance U",
+      "published_at": "2026-10-27T13:00:19+00:00",
+      "first_seen_at": "2026-10-27T16:10:21.399906+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "Why AI Attacks Will Get Harder to Spot",
+      "url": "https://www.youtube.com/shorts/2FN80GTzhSI",
+      "summary": "The pyramid of pain, from the least to the most dangerous attackers: Base: hacktivists (most numerous) Middle: cybercriminals Top: nation state actors (fewest) Now AI is closing the gap. CrowdStrike CEO George Kurtz discusses a new type of threat: the agent state",
+      "published_at": "2026-10-27T12:50:09+00:00",
+      "first_seen_at": "2026-10-27T16:10:21.399906+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Embotech and BMW move 1M vehicles with automated driving technology",
+      "url": "https://www.therobotreport.com/embotech-bmw-move-1m-vehicles-automated-driving-technology/",
+      "summary": "A MINI autonomously rolls off a U.K. production line using Embotech technology. Source: BMW Group As vehicles come off the production line, human drivers typically need to get into each one to drive them to be parked or loaded onto trucks. Embotech and BMW today said they have mo",
+      "published_at": "2026-10-27T12:45:27+00:00",
+      "first_seen_at": "2026-10-27T16:10:21.399906+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Xpanner launches autonomous pile driver for solar farm contruction",
+      "url": "https://www.therobotreport.com/xpanner-launches-new-autonomous-pile-driver-solar-farm-contruction/",
+      "summary": "The Xpanner X1 Piling R6 is an automated pile-driving system for utility-scale solar and battery energy storage sites. | Credit: Xpanner Xpanner today announced the X1 Piling R6, a fully automated pile-driving robot built to autonomously install posts for utility-scale solar and ",
+      "published_at": "2026-10-27T11:44:30+00:00",
+      "first_seen_at": "2026-10-27T16:10:21.399906+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+      "url": "https://latent.space/p/ainews-anthropic-s1/",
+      "summary": "Today is one of those days that is tougher to cover for a normally-engineer audience that isn’t used to reading most S-1’s, let alone 350 pages of one of the most unusual S-1’s of all time: Better visualized: With significant operating leverage causing the first profitable quarte",
+      "published_at": "2026-10-27T07:24:59+00:00",
+      "details": "Today is one of those days that is tougher to cover for a normally-engineer audience that isn’t used to reading most S-1’s, let alone 350 pages of one of the most unusual S-1’s of all time: Better visualized: With significant operating leverage causing the first profitable quarter in Anthropic history (adjusted for $1B/quarter of SBC): The incredible efficiency story is told in two loops, and of course you know, we love loop: The pitch going forward is “virtual collaborators” (don’t say agent!) for over a billion knowledge workers by 2028: We believe we have reached an inflection point where AI systems can function as genuine collaborators in professional work. They quickly complete substantive tasks that might otherwise occupy a skilled professional for several hours, a full day, or longer. AI systems are also becoming increasingly capable of performing tasks that were previously too difficult or costly to complete or surfacing original insights and analyses.We refer to these AI systems that work alongside humans to perform complex, multi-step work at professional levels as Virtual Collaborators. Virtual Collaborators carry the access rights, system connections, and context that their organizations grant them, which allows them to function more accurately and reliably. They can navigate and use internal tools and execute workflows that span multiple steps that require sustained reasoning. Virtual Collaborators are AI designed to be embedded where work gets done, and our aim is to continue extending them to knowledge workers globally, a population that is estimated to exceed one billion in 2028. And we end with a useful map of all of Anthropic’s offerings on one screen: AI Twitter RecapTop Story: Anthropic files its S-1. Reactions and highlightsWhat happenedAnthropic publicly filed its S-1 on Monday at ~9am ET. It plans to list on Nasdaq under the ticker \"ANT,\" and the filing shows a company that has crossed into operating profitability while carrying enormous compute commitments.Lead-up. Timing was reported by The Information (@kimmonismus), Fox Business (@negligible_cap) and Bloomberg (@kimmonismus). The IPO itself had been expected around Nov 9 (@kimmonismus). Official filing. Anthropic announced the filing with the standard registration disclaimer (@AnthropicAI). The EDGAR link was posted by @rishdotblog, and the ticker was flagged by @kimmonismus. Revenue. Revenue went from $41M in 2023 to $16.3B in H1 2026, roughly 14x year over year. Q2 alone was $11.6B, up 1,368% YoY (@futurenomics, @kimmonismus). Profitability. Q2 operating profit was $974M. H1 operating cash flow was +$3.9B. The headline $80.7B H1 net loss includes $81.1B of non-cash charges tied to financial instruments (@kimmonismus). Capital efficiency. Anthropic has raised $141.1B in aggregate. It holds $112.4B in cash plus $19.3B in short-term investments. Implied lifetime burn is about $9.7B (@SemiAnalysis_), which SemiAnalysis called \"likely the most efficient scaling of a business in the history of capitalism.\" Compute commitments. Non-cancelable commitments run deep into the next decade (@scaling01). They include up to $120.5B for NVIDIA-powered compute through SpaceXAI, under agreements extending into 2029 (@kimmonismus). Pre-training delay. Anthropic disclosed it recently delayed pre-training of a new frontier model (@scaling01). Anchor investor. Altimeter said it will participate \"majorly\" in the IPO on top of its existing stake (@altcap). Key numbers (facts from the filing vs. derived estimates)Gross margin trajectory (@jaminball): 2023: 37% 2024: −95% 2025: 40% H1 2025: 12% H1 2026: 85% Jamin Ball's summary of the filing (@jaminball): Revenue growth above 1,000% YoY in the last quarter. 21% free-cash-flow margin over the last six months. Less than $10B burned in total to reach more than $16B in quarterly revenue. He also cited a $16.8B Q3 figure that has been widely reported but is not in the S-1 (@jaminball). Cash and burn figures don't agree across accounts. SemiAnalysis puts burn at $9.7B; Austen Allred puts it at $9.4B. Cash is quoted as ~$132B (futurenomics) or $134B \"today\" (Ball). Austen claims $6.7B of positive cumulative FCF from 2023 to June 2026 and $575M/month of current FCF (@Austen). That sits awkwardly next to a $9.4B lifetime burn, so treat derived cash-flow figures with caution. How the $141B raise breaks down (@jaminball): About $128.6B of preferred stock proceeds. $11.3B of convertible notes from Amazon and Google issued in 2023–2025. About $5B has converted. The remaining $6.2B of principal carries a $108.6B fair-value liability, because it converts at $2–5/share versus a ~$59 Series H price. The convertibles are effectively ~1.8B shares, not debt, and that mark-to-market drives most of the GAAP loss. Remaining pieces: ~$0.6B of SAFEs/common and ~$0.7B from pre-2023 rounds. Distribution through cloud marketplaces (@Bensign, @saranormous): 48% of H1 2026 revenue (about $7.8B) flowed through Bedrock, Vertex and Azur",
+      "first_seen_at": "2026-10-27T16:10:21.399906+00:00"
     },
     {
       "source": "Z.ai Release Notes",
@@ -589,6 +681,15 @@
       "summary": "",
       "published_at": "2026-10-23T00:00:00+00:00",
       "first_seen_at": "2026-10-26T17:06:21.963774+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+      "url": "https://openai.com/index/anima",
+      "summary": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
+      "published_at": "2026-10-23T00:00:00+00:00",
+      "first_seen_at": "2026-10-27T16:10:21.399906+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -2684,7 +2785,7 @@
     {
       "source": "Lex Fridman YouTube",
       "source_type": "youtube",
-      "title": "Visiting Taiwan w/ Jensen Huang | Lex Fridman",
+      "title": "The FULL Taiwan Experience w/ Jensen Huang | Lex Fridman",
       "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
       "summary": "I've been traveling the world a bit. One of the most incredible experiences was getting to visit Taiwan with Jensen Huang. It was wild 🤯 Huge crowds, insanely good street food at night markets, and of course a lot of good conversations across many days. I caught some of it on vid",
       "published_at": "2026-10-13T21:26:16+00:00",
@@ -6305,105 +6406,6 @@
       "summary": "From helping build instruction-following models at OpenAI to spending years trying to answer why AI can solve extraordinarily hard problems yet still automate so little real work, Diogo Almeida is betting that the next wave of AI won’t look like chat. In this episode, the TypeSaf",
       "published_at": "2026-09-21T22:10:40+00:00",
       "first_seen_at": "2026-09-22T00:09:50.648824+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "The Hugging Face Attack Was Bigger Than We Thought - Ajeya Cotra",
-      "url": "https://www.youtube.com/shorts/64jq-3jziYM",
-      "summary": "",
-      "published_at": "2026-09-21T19:36:53+00:00",
-      "first_seen_at": "2026-09-22T00:09:50.648824+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "IAC completes autonomous racing event at Laguna Seca",
-      "url": "https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/",
-      "summary": "The corkscrew turn at Laguna Seca Raceway was the site of multiple overtakes at this year’s autonomous race. | Credit: IAC The latest Indy Autonomous Challenge, or IAC, university race took place on Sept. 3, prior to the annual Grand Prix of Monterey weekend. This year’s event fe",
-      "published_at": "2026-09-21T18:02:09+00:00",
-      "first_seen_at": "2026-09-22T00:09:50.648824+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
-      "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
-      "summary": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fit the complete factory design helps builders turn computing ",
-      "published_at": "2026-09-21T18:00:07+00:00",
-      "first_seen_at": "2026-09-22T00:09:50.648824+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Blog",
-      "source_type": "rss",
-      "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
-      "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
-      "summary": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As th",
-      "published_at": "2026-09-21T16:00:46+00:00",
-      "first_seen_at": "2026-09-21T16:45:52.328232+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
-      "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
-      "summary": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a key",
-      "published_at": "2026-09-21T16:00:10+00:00",
-      "first_seen_at": "2026-09-21T16:45:52.328232+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
-      "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
-      "summary": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what ",
-      "published_at": "2026-09-21T14:51:34+00:00",
-      "first_seen_at": "2026-09-21T16:45:52.328232+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-      "summary": "",
-      "published_at": "2026-09-21T13:44:34+00:00",
-      "first_seen_at": "2026-09-21T16:45:52.328232+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Boston Dynamics opens Metaplant Application Center to train Atlas humanoids",
-      "url": "https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/",
-      "summary": "Atlas is now in training in the Metaplant Application Center near Savannah, Ga. Source: Boston Dynamics On the path to general-purpose automation, developers are training humanoid robots on specific skill sets. Boston Dynamics Inc. today opened its Robotics Metaplant Application ",
-      "published_at": "2026-09-21T12:59:00+00:00",
-      "first_seen_at": "2026-09-21T16:45:52.328232+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "published_at": "2026-09-21T12:00:00+00:00",
-      "first_seen_at": "2026-09-22T00:09:50.648824+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-      "published_at": "2026-09-21T12:00:00+00:00",
-      "first_seen_at": "2026-09-22T00:09:50.648824+00:00"
-    },
-    {
-      "source": "Unitree YouTube",
-      "source_type": "youtube",
-      "title": "Unitree Introducing: Unitree Dex5-S Dexterous Hand 22 Degrees of Freedom 1:1 Real-Hand Size",
-      "url": "https://www.youtube.com/watch?v=LAT2RIKjhTo",
-      "summary": "Precision biomimetic dexterous hand, price from $6.5K (Tax and Shipping cost excluded), with all 22 joints supporting smooth backdrivability, and each joint equipped with limit impact torque protection.",
-      "published_at": "2026-09-21T11:27:34+00:00",
-      "first_seen_at": "2026-09-21T16:45:52.328232+00:00"
     },
     {
       "source": "IEEE Spectrum Robotics YouTube",
