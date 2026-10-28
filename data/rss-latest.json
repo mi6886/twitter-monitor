@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-27T16:10:21.399906+00:00",
+  "updated_at": "2026-10-28T00:33:02.642348+00:00",
   "count": 700,
-  "new_count": 547,
+  "new_count": 459,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -83,6 +83,74 @@
       "first_seen_at": "2026-10-17T14:02:26.080542+00:00"
     },
     {
+      "source": "Z.ai Release Notes",
+      "source_type": "rss",
+      "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
+      "url": "https://docs.z.ai/release-notes/new-released",
+      "summary": "Follow along with updates across Z.AI’s models",
+      "published_at": "2026-10-28T00:34:41.340659+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:28197acd0824f37abbd092638fb31be68179312112e7ff68dfaec3d88ac1c702",
+      "first_seen_at": "2026-10-28T00:33:02.642348+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+      "url": "https://latent.space/p/opus55/",
+      "summary": "Watch the full episode on YouTube As we learned from the Anthropic S-1 filings yesterday, the lab has some of the highest revenue and research efficiency in human history, particularly with -126% loss to 19% GAAP profit turnaround in the last year. The company credits this to the",
+      "published_at": "2026-10-27T18:53:10+00:00",
+      "details": "Watch the full episode on YouTube As we learned from the Anthropic S-1 filings yesterday, the lab has some of the highest revenue and research efficiency in human history, particularly with -126% loss to 19% GAAP profit turnaround in the last year. The company credits this to their two core loops: Improvement and Investment: Today we go inside how Anthropic works. Now the dust has settled on Opus 5.5 and it has lasted a month as the generally accepted #1 LLM in the world, we dive into its launch, and how Anthropic ships Claude with Claude with Katelyn Lesse and Angela Jiang, heads of Engineering and Product respectively. The team is working under two kinds of pressure. The models are getting more capable, which makes safe deployment and access decisions harder. At the same time, usage is growing fast enough that ordinary infrastructure choices—like how much CPU an API consumes—become strategic. Those problems meet in the product choices that reach developers. A model launch is also an API launch Anthropic's Opus 5.5 launch emphasizes both model quality and cost. We discuss feedback that the previous Opus generations were be too verbose, alongside the need for stronger intelligence per dollar. Anthropic says the new model costs less to run than its predecessor; the exact saving depends on the workload and its use of cached context. The less visible launch work involves changes to how people integrate the API. One example we discuss is protecting model reasoning against extraction used for distillation. Preserving thinking blocks across turns helps address this, but a new requirement can also break a customer's existing harness. Katelyn also describes what being part of early access programs actually looks like in practice: Customers run evaluations in their own harnesses, report surprising behavior, and sometimes pass along less formal impressions. The useful part is not just a benchmark score: it is seeing the model in environments and tasks Anthropic's own products do not cover. As we have said for 4 straight years now on the podcast, having good evals is golden.The brain and the hands Our favorite mental model in the episode is the distinction between an agent's brain and its hands. In Managed Agents, Anthropic separates the session log and harness from the sandbox that executes code. The harness can persist while an execution environment is created when needed; a failed sandbox does not have to take the whole agent session with it. We covered this in the Thariq pod: Claude Code’s Next Era — Thariq Shihipar, Anthropic — Latent SpaceShipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier Latent Space The same separation gives security a useful architectural property. If generated code runs in a sandbox that never receives a service credential, there is no credential in that sandbox for the code to read. The episode describes credentials held separately and attached through a proxy, alongside controls on where sandbox traffic can go. Anthropic's containment write-up describes the wider set of isolation and network controls used across its products. The distinction matters for performance too. The guests say an earlier approach put the whole coding agent in a sandbox behind an API. Starting the environment and agent added work before the first response; if the sandbox disappeared, so did the running agent. Separating the pieces allowed the platform to pursue lower latency and better reliability while keeping execution isolated. It is a helpful lens for anyone designing an agent runtime. Ask which parts need to survive, which parts execute untrusted work, and which secrets actually need to be present where code runs. The implementation will differ between products, but those questions remain useful. An agent that helps another agent remember Managed Agents also provides a base for experiments in memory and multi-agent workflows. Dreaming is simply implemented as one agent inspecting another agent's prior work and writing memories back. That makes the feature an example of building a higher-level behavior out of the same underlying managed-agent primitives. Their account of the roadmap is more nuanced than a list of features. Memory and learning remain important, but the team says more of its immediate attention has moved to safety as model launches have become harder. They also discuss keeping the base harness relatively simple, while letting developers experiment with verifiers, parallel agents and other strategies on top. Ideas mentioned for future platform capabilities should be treated as plans, not shipped promises. The conversation about evaluations follows naturally. A harness is an application, but improving one starts to resemble research: pick a goal, measure behavior, inspect failures, and iterate. The guests and hosts discuss using models to help build and analyze evaluations, while retaining enough judgment to decide whether the evaluation reflects a real user's job. Show",
+      "first_seen_at": "2026-10-28T00:33:02.642348+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+      "url": "https://www.latent.space/podcast",
+      "summary": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction covers Anthropic’s S-1, the ",
+      "published_at": "2026-10-27T18:40:19+00:00",
+      "audio_url": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a17e24-16fc-71e3-bdc8-f0c1aeee546c/01a17e24-18bb-7daa-afc4-3f3bfdc294d7.mp3",
+      "details": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction covers Anthropic’s S-1, the improvement and investment loops, and why the platform matters. Watch the full episode on YouTube Show notes Claude Opus 5.5 — Anthropic’s launch notes on model behavior, evaluation and pricing. Scaling Managed Agents — Decoupling the brain, harness and sandbox. How Anthropic contains Claude — Isolation, credentials and network controls. Effective harnesses for long-running agents — Maintaining progress across context windows. Our Anthropic S-1 breakdown — Context for the newly recorded introduction. Timestamps 0:00 Anthropic’s S-1 and this interview1:06 Revenue per employee and efficiency3:13 The improvement and investment loops4:04 Why Claude Platform matters6:25 Training incidents and production safeguards7:30 Opus 5.5 launch and pricing9:25 Distillation and preserved thinking14:35 Product and engineering at Anthropic18:05 Scaling the Claude Platform19:25 Model access and safety decisions26:25 Trust grants and product roadmaps30:25 How Anthropic launches models35:55 Benchmarks and model personalization42:10 Claude Managed Agents44:25 Memory, dreaming, and agent harnesses48:25 Evaluating agents53:25 CPU constraints and scaling56:05 Rebuilding the Messages API in Rust1:03:25 The brain and the hands1:05:25 Protecting credentials and sandboxes1:08:25 Training incidents versus production1:10:55 Pacing and launching frontier models1:12:25 Safety classifiers and model routing1:19:25 Emerging agent workloads1:20:55 Fighting AI slop1:27:25 Management, writing, and working styles1:33:25 Building Anthropic’s DevRel team1:40:25 Developer relations and product voices1:43:25 What to try with Opus 5.5",
+      "dedupe_key": "podcast:86f5e810da71b879ff3b8ce14d55f89f8fcb1ef3",
+      "first_seen_at": "2026-10-28T00:33:02.642348+00:00"
+    },
+    {
+      "source": "Google Research Blog",
+      "source_type": "rss",
+      "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "summary": "Education Innovation",
+      "published_at": "2026-10-27T17:35:00+00:00",
+      "first_seen_at": "2026-10-28T00:33:02.642348+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Build specialized multimodal models with LFM3",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "summary": "",
+      "published_at": "2026-10-27T17:16:52+00:00",
+      "first_seen_at": "2026-10-28T00:33:02.642348+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "summary": "",
+      "published_at": "2026-10-27T16:12:42+00:00",
+      "first_seen_at": "2026-10-28T00:33:02.642348+00:00"
+    },
+    {
+      "source": "Runway",
+      "source_type": "rss",
+      "title": "Runway Ads Is Generally Available",
+      "url": "https://runway.com/news/company-news/runway-ads",
+      "summary": "Runway Ads generates on-brand variants of your best-performing ads. Our team grew weekly ad volume 10x and cut cost per subscriber 41%. Now on all paid plans.",
+      "published_at": "2026-10-27T16:11:00+00:00",
+      "first_seen_at": "2026-10-28T00:33:02.642348+00:00"
+    },
+    {
       "source": "Google DeepMind Blog",
       "source_type": "rss",
       "title": "Genie 4: A new generation of world simulation",
@@ -99,6 +167,15 @@
       "summary": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discovery that can’t keep up with the disease. The Consortium for B",
       "published_at": "2026-10-27T15:00:20+00:00",
       "first_seen_at": "2026-10-27T16:10:21.399906+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "url": "https://openai.com/index/retell-ai",
+      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "published_at": "2026-10-27T15:00:00+00:00",
+      "first_seen_at": "2026-10-28T00:33:02.642348+00:00"
     },
     {
       "source": "Latent Space",
@@ -175,14 +252,58 @@
       "first_seen_at": "2026-10-27T16:10:21.399906+00:00"
     },
     {
-      "source": "Z.ai Release Notes",
+      "source": "OpenAI News",
       "source_type": "rss",
-      "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
-      "url": "https://docs.z.ai/release-notes/new-released",
-      "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-10-27T00:31:49.076638+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:3cff40edd8eab1d2c1851ed2bbbb7119464b7cb6f364194bea38284922ffb79c",
-      "first_seen_at": "2026-10-27T00:31:16.993334+00:00"
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "published_at": "2026-10-27T07:00:00+00:00",
+      "first_seen_at": "2026-10-28T00:33:02.642348+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "source_type": "rss",
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "summary": "",
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "first_seen_at": "2026-10-28T00:33:02.642348+00:00"
+    },
+    {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "summary": "Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an update on our progress.",
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "first_seen_at": "2026-10-28T00:33:02.642348+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "url": "https://openai.com/index/check-point-daybreak",
+      "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "first_seen_at": "2026-10-28T00:33:02.642348+00:00"
+    },
+    {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "How AI agents shape experts’ judgment calls",
+      "url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "summary": "In a randomized trial, professional analysts working with an AI coding agent went with the option the agent was randomly assigned to favor 86% of the time. We look at what this means for human oversight of AI-assisted work.",
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "first_seen_at": "2026-10-28T00:33:02.642348+00:00"
+    },
+    {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
+      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+      "summary": "Over the past few months, we’ve used an unreleased, internal research model to find critical vulnerabilities in some of the world’s most widely used software, such as browsers and operating systems. In this post, we share details of five attack chains, which led to remote code ex",
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "first_seen_at": "2026-10-28T00:33:02.642348+00:00"
     },
     {
       "source": "Lex Fridman Podcast",
@@ -359,19 +480,19 @@
       "first_seen_at": "2026-10-27T00:31:16.993334+00:00"
     },
     {
-      "source": "Anthropic News",
+      "source": "Agility Robotics",
       "source_type": "rss",
-      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
-      "url": "https://www.anthropic.com/news/s1-sec",
+      "title": "Agility Robotics Highlights Commercial Momentum and Growing Enterprise Demand for Digit Humanoid Robot | Agility",
+      "url": "https://www.agilityrobotics.com/content/agility-robotics-highlights-commercial-momentum-and-growing-enterprise-demand-for-digit-humanoid-robot",
       "summary": "",
       "published_at": "2026-10-26T00:00:00+00:00",
       "first_seen_at": "2026-10-26T17:06:21.963774+00:00"
     },
     {
-      "source": "Agility Robotics",
+      "source": "Anthropic News",
       "source_type": "rss",
-      "title": "Agility Robotics Highlights Commercial Momentum and Growing Enterprise Demand for Digit Humanoid Robot | Agility",
-      "url": "https://www.agilityrobotics.com/content/agility-robotics-highlights-commercial-momentum-and-growing-enterprise-demand-for-digit-humanoid-robot",
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "url": "https://www.anthropic.com/news/s1-sec",
       "summary": "",
       "published_at": "2026-10-26T00:00:00+00:00",
       "first_seen_at": "2026-10-26T17:06:21.963774+00:00"
@@ -2190,6 +2311,24 @@
       "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "published_at": "2026-10-16T00:00:00+00:00",
       "first_seen_at": "2026-10-17T14:02:26.080542+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "How Grupo Boticário uses AI to strengthen human connections",
+      "url": "https://openai.com/index/grupo-boticario",
+      "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "first_seen_at": "2026-10-28T00:33:02.642348+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "How Localiza reorganized work around generative AI",
+      "url": "https://openai.com/index/localiza-generative-ai",
+      "summary": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "first_seen_at": "2026-10-28T00:33:02.642348+00:00"
     },
     {
       "source": "No Priors YouTube",
@@ -6260,79 +6399,6 @@
       "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
     },
     {
-      "source": "a16z AI YouTube",
-      "source_type": "youtube",
-      "title": "Why Education Has to Change",
-      "url": "https://www.youtube.com/watch?v=Z4x71naDx1Q",
-      "summary": "Ben Horowitz and Erik Torenberg sit down with Gagan Biyani to introduce the Horowitz Andreessen Academy and discuss a bigger question: what should education look like when AI is rapidly changing the skills people need to build, work, and create? Ben and Gagan explain why they bel",
-      "published_at": "2026-09-22T12:04:09+00:00",
-      "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Blog",
-      "source_type": "rss",
-      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-      "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
-      "summary": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a col",
-      "published_at": "2026-09-22T12:00:41+00:00",
-      "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Tech Blog",
-      "source_type": "rss",
-      "title": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
-      "url": "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros/",
-      "summary": "GPU acceleration can speed up compute-intensive robotics workloads, but a fast CUDA kernel alone does not guarantee a fast ROS 2 graph. As messages move between nodes, they may continue to be serialized or copied through CPU memory, eroding the benefits of keeping perception and ",
-      "published_at": "2026-09-22T12:00:00+00:00",
-      "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-      "published_at": "2026-09-22T12:00:00+00:00",
-      "first_seen_at": "2026-09-22T23:37:00.980158+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Intrinsic open sources key parts of its platform for easier development",
-      "url": "https://www.therobotreport.com/intrinsic-open-sources-key-parts-platform-easier-development/",
-      "summary": "Intrinsic also released the Open Machine Tending Solution, an open reference design for CNC machine tending. | Source: Intrinsic Today, Intrinsic, an AI robotics group that joined Google this year, released Intrinsic Core, an open-source set of Robot Operating System-compatible c",
-      "published_at": "2026-09-22T11:55:37+00:00",
-      "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "AGIBOT X2 robots took the stage at the Greater Bay Area Film Concert",
-      "url": "https://www.youtube.com/watch?v=XqELw7VxUjk",
-      "summary": "AGIBOT X2 robots took the stage at the Greater Bay Area Film Concert, dancing alongside performers and moving in sync with each other. Humanoid robots aren’t just showing up in labs and demos anymore. They’re starting to share the stage with people. #AGIBOT #AGIBOTX2 #HumanoidRob",
-      "published_at": "2026-09-22T07:18:08+00:00",
-      "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "AGIBOT A3 interacted with celebrities in real time at the Greater Bay Area Film Concert",
-      "url": "https://www.youtube.com/watch?v=V96ktKRm2VA",
-      "summary": "At the Greater Bay Area Film Concert, AGIBOT A3 interacted with celebrities in real time, responding to the conversation and coordinating its speech, movement and expressions. Powered by WITA-Omni, AGIBOT A3 brings multimodal perception and interaction together for more natural h",
-      "published_at": "2026-09-22T07:17:30+00:00",
-      "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
-      "url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
-      "summary": "Meet Xiaomi and other top Chinese frontier labs at AIE Shanghai!This is a first for the “Apple of China” phone maker-turned-frontier lab: “The MiMo-V2.6 series includes two natively omnimodal models: MiMo-V2.6-Pro is our most capable model to date, while MiMo-V2.6-Flash strikes t",
-      "published_at": "2026-09-22T06:30:56+00:00",
-      "details": "Meet Xiaomi and other top Chinese frontier labs at AIE Shanghai!This is a first for the “Apple of China” phone maker-turned-frontier lab: “The MiMo-V2.6 series includes two natively omnimodal models: MiMo-V2.6-Pro is our most capable model to date, while MiMo-V2.6-Flash strikes the best balance between intelligence, efficiency, and cost. We are also rolling-out MiMo-V2.6-Pro-UltraSpeed, delivering up to 20x faster output speed at the same quality, for users who require extreme generation speed.”Xiaomi is not traditionally considered one of the six Chinese AI Tigers, so it is very surprising to the established order of names you have come to know and love. And… it is natively omnimodal!Xiaomi made news a few days ago when Fuli Luo, a former DeepSeek star engineer now at Xiaomi, started publishing their final RL training runs live, which showed an abnormal amount of transparency in their internal metrics.As they note in their technical report, they scaled RL compute along three axes:Larger batches and higher throughput: large batches on a fully asynchronous architecture, with 1,568 samples per update, training at up to 1M context length, and 3.5 to 3.7B tokens per step.More tasks and richer environments: a multi-task training suite spanning coding, general agents, visual and cyber, mixed across several harnesses so that gains in one capability reinforce the others.More grader compute: relative comparison within each group gives long-horizon RL tasks more precise and more diverse reward signals, closes a self-improvement loop, and steers the model toward shorter paths and fewer tokens per task.ALL of this tooling, including the environments, will be open sourced.- the environment code and training recipes, but the complete 7k+ task datasets have not yet been released.Coding / software engineering: Code recipes, dataset loader and rewardsCyber / vulnerability reproduction: ARVO environment and training recipeGeneral / knowledge work: General environment, tools and training recipeVisual / web development: Web-development environment and gradingMusic generation: Data preparation and music scorerComposable mini-harnesses: Agent configurationsShared environment adapters: mimoagent environmentsAI News for 9/19/2026-9/21/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpen Models, Competition, and the China GapOpen models remain the central policy and market story: Nathan Lambert shared a congressional briefing on open-model performance, adoption, and U.S.-China competition, followed by a public summary. The broader argument resurfaced elsewhere: @Yuchenj_UW claims frontier coding capability has plateaued since Opus 4.8, while open-source models keep closing the gap at 10–50x lower cost; @ClementDelangue similarly argues APIs are overkill for many real-world use cases and that specialized models will take share. Counterpoint: @teortaxesTex argues frontier has actually split into new higher tiers, with internal models and top closed models still well ahead.The release cadence from Chinese labs is now difficult to dismiss: @Thom_Wolf compiled an unusually dense ~10-week run of open releases including Kimi K3, Qwen3.8-Max, DeepSeek V4-Pro, GLM-5.3, Hy4 Preview, Atria Dawn, and more. This is reinforced by a Bloomberg-sourced note via @Polymarket that startups are increasingly building custom models on open weights to cut cost and reduce dependence on OpenAI/Anthropic. The subtext across several tweets: open-weight capability is no longer confined to midsized models; multiple teams are shipping frontier-scale MoEs with credible cost-performance stories.Xiaomi MiMo-V2.6 and RL as the New Scaling LeverMiMo-V2.6 is the biggest open-model release in the set: @XiaomiMiMo launched MiMo-V2.6 Pro and Flash, described as open omnimodal models with weights, technical report, RL environments, and training code. Artificial Analysis says MiMo-V2.6-Pro debuts as the top open-weights model on its Intelligence Index (46), with 1.02T total / 42B active parameters and strong cost efficiency at $0.435/M input and $0.87/M output tokens. @victormustar notes the models are under MIT license.What stood out technically was not just the model, but the RL stack: @eliebakouch highlighted Xiaomi’s environment/data-factory paper for generating RL tasks from open repositories with “agents in the loop” for robustness and anti-cheating. Later commentary points to a second paper and unusually high transparency: @xeophon notes Xiaomi wants to release ~7K RL environments, and @eliebakouch emphasizes the team shipped model + tech report less than a week after the final RL run. A recurring interpretation, from @bertgodel and @Thom_Wolf, is that high-quality open RL environments may now be as strategically important as pretraining corpora were in the last cycle.RL cost/throughput",
-      "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
-    },
-    {
       "source": "PixVerse Product Updates",
       "source_type": "rss",
       "title": "PixVerse Introduces R2, Advancing Its Real-Time World Model Toward Persistent, Playable Worlds | PixVerse",
@@ -6340,72 +6406,6 @@
       "summary": "R2 is the upgrade to PixVerse",
       "published_at": "2026-09-22T00:00:00+00:00",
       "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Transformers now runs llama.cpp quants",
-      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "summary": "",
-      "published_at": "2026-09-22T00:00:00+00:00",
-      "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
-      "url": "https://huggingface.co/blog/omlx",
-      "summary": "",
-      "published_at": "2026-09-22T00:00:00+00:00",
-      "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
-    },
-    {
-      "source": "Agility Robotics",
-      "source_type": "rss",
-      "title": "Scaling a New Market Category | Agility",
-      "url": "https://www.agilityrobotics.com/content/scaling-a-new-market-category",
-      "summary": "",
-      "published_at": "2026-09-22T00:00:00+00:00",
-      "first_seen_at": "2026-09-22T15:24:07.892676+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Priorities and principles for effective third party assessments",
-      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-      "published_at": "2026-09-22T00:00:00+00:00",
-      "first_seen_at": "2026-09-22T23:37:00.980158+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
-      "url": "https://huggingface.co/blog/evaleval-aisi",
-      "summary": "",
-      "published_at": "2026-09-22T00:00:00+00:00",
-      "first_seen_at": "2026-09-22T23:37:00.980158+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
-      "url": "https://www.latent.space/podcast",
-      "summary": "Tickets for AIE NYC now open, and apply for the invite-only AIE CODE. Join us!We have an unusual relationship with today’s guest: for years since coauthoring the InstructGPT paper, Diogo Almeida had been saying that API-available frontier models have been going down the wrong pat",
-      "published_at": "2026-09-21T22:13:49+00:00",
-      "audio_url": "https://api.substack.com/feed/podcast/216783460/cdf8e02436aa264178bb2aa2c85db57c.mp3",
-      "details": "Tickets for AIE NYC now open, and apply for the invite-only AIE CODE. Join us!We have an unusual relationship with today’s guest: for years since coauthoring the InstructGPT paper, Diogo Almeida had been saying that API-available frontier models have been going down the wrong path, everything from the alignment to refusals to reliability perspectives, that we have dropped every mode other than autoregressive chat-tuned LLMs because of the overwhelming success of ChatGPT.In a launch video now viewed ~40M times (by comparison, GPT4o was 22M, Fable 5 was 15M, Navier Stokes was 74M, and 6 Astra was 137M), Diogo introduced Jev and it immediately took over the AI timeline — we’ll skip full Jev explainers because your favorite AI influencer/educator has probably already done one. We also collected:the official patterns and cookbooks you should see first, from AllieJev usecasesspeed based - games and computer usethe voice + computer use example we discuss at 1h34 minsvoice + browser controlThe must not miss Doom demoDriving cars in gamesExcalidrawvirtual try-ons“Smart Games”/smart NPCsguided responses in text messagesJev for coding agents has an official guide jev for lintingcompacting tool callsreasonable pushback from Theo - Diogo has published a note on the Tyranny of the KV Cache that you should read as a followup after the pod for Jev + coding agents, because of his belief that Cache Rules EverythingProgramming Languages built atop Jev (Diogo’s fave)Jev for analytics replay and user journey review“dark data”entity resolutionnatural language search“smart software”a core goal of Jev is to “disappear into the background” - eg as unremarkable as regexJev as a judgeJev memesJev vs LLM capabiltiiesblending transformers and classifiersabout the confidence apiJev vs GLiNER (note difference/pushback, agreed, agreed, agreed)Jev on trolley problemJev BushInstead we’ll focus on what we can uniquely offer — a broader philosophical and mission-based understanding of how and why Jev was created, and what you should expect next in terms of future models from TypeSafe (ReasoningJev?) and what usecases and ideas you should work on vs the 55th low effort clone of Jev’s API or doing a generic JevBench benchmark - something Diogo has rejected publicly.Why RLCD: Three kinds of RLHF, and why they are ALL the wrong north starDiogo knows a good deal about RLHF, given that he was on the team that pioneered post-training at OpenAI — and traces the three branches to Christiano et al 2017 (the robot backflip demo), Stiennon et al 2020 (learning to summarize) and his baby, Ouyang et al 2022 (InstructGPT). From there on, every innovation from Function Calling to Structured Outputs to Reasoning felt like a hack on top of the string based, sequence to sequence prediction paradigm. As he mentions on the pod, from 2023-2024 he struggled unsuccessfully, due to both personal and organization underestimation, to train a model that accurately addressed what he saw as the core problem with making LLMs the heart of software: reliability.Jev’s core innovation is \"Reinforcement Learning for Calibrated Decisions”, a novel, unpublished technique that optimizes for “answers with epistemically honest probabilities on System One tasks” rather than human rated feedback (RLHF) — which causes hallucinations, sycophancy, and permanent reliance on humans — or programmatically verifiable outputs with rubrics (RLVR) — which solves Navier Stokes but exacerbates jagged intelligence and doesn’t integrate well with other software.We’ve talked about the calibration problem before on the pod, but probably the single best place to understand why RLCD became necessary is Diogo’s AIE talk, which discusses why a generation of training helpful AI assistants for humans has impaired them for training models for composable, programmable AI for automation.At the end he also teases his contrarian opinion on scaling laws - which teases how to build a modern neolab without the billions of dollars the major labs have…The Bitterest Lesson: Tasks and Data beats ComputeWe spend a good amount of time discussing Diogo’s essay on the Bitterest Lesson:His point is that “You get what you optimize for and the bitterest lesson in ML is that the most important part of it isn’t ML at all.” - and picking the right north star, eg upvoting for user preference vs being integrated into tool calls - makes everything else fall in line.We’re excited to catch up with a freshly dyed Diogo to discuss:Why AI can solve extraordinarily hard problems but still fail to automate basic workWhat System One Models are and why Jev is built for software rather than chatRLHF, mode collapse, calibration, and the hidden costs of optimizing for human preferencesWhy refusals become a problem when AI is buried inside software dependenciesWhy TypeSafe rejects public benchmarks and optimizes for intelligence per dollarThe “bitterest lesson”: why the right task and the right data can matter more than computeWhy TypeSafe thin",
-      "dedupe_key": "podcast:c1589c27e99dcb96f2b24b3b552b86b875802c73",
-      "first_seen_at": "2026-09-22T00:09:50.648824+00:00"
-    },
-    {
-      "source": "Latent Space YouTube",
-      "source_type": "youtube",
-      "title": "Why I couldn't build Jev at OpenAI — Diogo Almeida, TypeSafe Co-founder & CEO",
-      "url": "https://www.youtube.com/watch?v=cFx9Z3ZXca0",
-      "summary": "From helping build instruction-following models at OpenAI to spending years trying to answer why AI can solve extraordinarily hard problems yet still automate so little real work, Diogo Almeida is betting that the next wave of AI won’t look like chat. In this episode, the TypeSaf",
-      "published_at": "2026-09-21T22:10:40+00:00",
-      "first_seen_at": "2026-09-22T00:09:50.648824+00:00"
     },
     {
       "source": "IEEE Spectrum Robotics YouTube",
