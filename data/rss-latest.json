@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-31T00:51:20.799270+00:00",
+  "updated_at": "2026-10-31T15:56:14.916315+00:00",
   "count": 700,
-  "new_count": 479,
+  "new_count": 545,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -72,6 +72,34 @@
       "summary": "Introducing Kimi K3.1 Pro, our most capable 3T-class open-weight model with 1M-token context and major advances in coding, 3D modeling, and financial research.",
       "published_at": "2026-11-04T00:00:00+00:00",
       "first_seen_at": "2026-10-23T23:52:22.441490+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Unusual robotic animals can prove their utility",
+      "url": "https://www.therobotreport.com/unusual-robotic-animals-can-prove-their-utility/",
+      "summary": "Korean researchers have developed a beetle-like soft robot. Source: KAIST When we hear the word “robot,” we still conjure up images of mechanical figures from old science fiction films. However, reality has long since evolved: We’re surrounded by smart vacuum cleaners, voice assi",
+      "published_at": "2026-10-31T12:30:46+00:00",
+      "first_seen_at": "2026-10-31T15:56:14.916315+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+      "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+      "summary": "As an engineer-focused newsletter we only very rarely let financial stories through (our last example was Jan 2025), but when this is about the future of Google and Google Search, with a recently departed AI leadership, you cannot not care. At its heart is the tension between ove",
+      "published_at": "2026-10-31T05:00:48+00:00",
+      "details": "As an engineer-focused newsletter we only very rarely let financial stories through (our last example was Jan 2025), but when this is about the future of Google and Google Search, with a recently departed AI leadership, you cannot not care. At its heart is the tension between overview pages and underlying pages they summarize. Any good enough summary obviates the need for you reading the source. Google’s Featured Snippets or Knowledge Panels have long had that tension with the publishers that supply that data. But now, Google’s own AI Overviews are potentially affecting traffic with… Google's Search revenue. Google doesn’t break out AI Mode in sufficient detail that we can make any sort of rigorous analysis, but most people are quoting Philipp Schindler (Chief Business Officer): “It’s worth noting that the strong growth in AI Mode queries had an impact because of the lower monetization we were seeing in AI Mode.” Together with other bad earnings results it set off a range of steep declines throughout tech: View post on X ↗ This is against a backdrop of souring tech/AI sentiment in public markets - and with OpenAI raising at $1.25T not $1.4T, not the sort of thing you want in the lead up to one of the biggest tech IPOs of all time. View post on X ↗AI News for 10/29/2026-10/30/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapClaude Ultra Drops the 5-Hour Limit as Anthropic Renames Its Max TiersPlan rename: Anthropic renamed its Max tiers. Max 5x is now \"Max\" at $100/month, and Max 20x is now \"Ultra\" at $200/month. Existing subscribers do not need to take any action (announcement). 5-hour limit removed: Verified Ultra accounts no longer have the 5-hour session limit. The change starts today for most existing subscribers (@claudeai, @bcherny, @alexalbert__). Rollout caveat: Newer accounts keep a temporary limit until they are verified, which Anthropic describes as an anti-fraud measure. Affected users will get an email when the limit is lifted. Unchanged: Weekly limits stay the same. Reaction: The change was widely welcomed, with posts such as \"Huge!!!\" (@theo) and \"Anthropic is on a run\" (@kimmonismus). Subscription economics (unverified analysis): @teortaxesTex cites a SemiAnalysis reconstruction of Anthropic's finances. Margins: Anthropic's API margin is put at about 92%, versus about 84% for DeepSeek. Subsidy: Opus on subscriptions is described as heavily subsidized, breaking even only below about 21.3% utilization. Revenue vs compute: A follow-up estimates that subscriptions bring in about 18% of revenue while using more than 50% of compute (thread). Comparison with DeepSeek: The same author argues that a heavily subsidized DeepSeek V4.1-Flash plan ($10 for about $76.5 of API-equivalent usage) is close in price per token to Claude subscriptions (long post). Frontier and Open Model ReleasesGemini 4 Carbon (Google DeepMind): The model is ranked #1 in Text Arena, #2 in Agent Arena and #4 in WebDev, and changed the Pareto frontier in all three (Arena). Research quality: Perplexity reports a new state of the art on its WANDR long-form research benchmark. Carbon is coming to Pro and Max users inside Computer \"once we have sufficient token capacity\" (@AravSrinivas). Genie 4 world model: Google's new world model generates interactive simulations with sound that users can steer in real time (@Google). Availability: It is a research preview for trusted testers. It is coming soon to Google AI Ultra in Project Genie and to Gemini API and AI Studio early-access partners (rollout). Mistral Large 4 (\"Le Chonk\"): The model has 1T parameters (TRL) and 1M-token context (llama.cpp). Fine-tuning: Axolotl has day-0 LoRA support. Its recommended recipe uses NVFP4 experts with merge-aware LoRA and fits on one 8xB200 node (@winglian). Coding: One third-party coding benchmark ranks it the second-best open-source model (@ThibaultJaigu). NVIDIA Nemotron 3.5 tech report: Super has 120B total and 12B active parameters and handles text, image and video. It scores 51.78% on SWE-bench Pro, beating Nemotron 3 Ultra with about 4.6x fewer active parameters (summary). Lightning variant: A 30B text-only model with 3B active parameters. Serving: Up to 4,856 output tok/s/GPU on GB200 while holding at least 50 tok/s/user. Quantization: NVFP4 recovers 99.62% of median BF16 accuracy. Smaller and specialized models: Microsoft computer-use agent: A 4B hybrid agent that can both click and write code scores 66.0% on OSWorld-Verified, ahead of 27B and 30B agents (@HuggingPapers). Phonic-1: Claims #1 on AA's speech-to-speech index, on τ-Voice and on Sierra's τ³-Voice (@moinnadeem). It was built by a 10-person team with $4M (@davisblalock). mischief 1 (BioComputing Co): An image-to-video model priced from 0.5¢ per second. The company says it is at least 5x faster than its bas",
+      "first_seen_at": "2026-10-31T15:56:14.916315+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "Building ChatGPT for Finance — Joseph Kim, OpenAI's Head of Financial Services",
+      "url": "https://www.youtube.com/watch?v=v-d1WTqIULs",
+      "summary": "What does it take to build AI for finance on top of a general-purpose model? Joseph Kim, who leads work on ChatGPT for Financial Services at OpenAI, joins swyx and Richard at AI Engineer New York to discuss the decisions behind the product: training financial reasoning into a sha",
+      "published_at": "2026-10-31T03:41:20+00:00",
+      "first_seen_at": "2026-10-31T15:56:14.916315+00:00"
     },
     {
       "source": "Z.ai Release Notes",
@@ -6374,33 +6402,6 @@
       "summary": "See how Runway Dev's Model Router compares on cost and usable quality across 250 image-to-video prompts, and which router configuration fits your production pipeline.",
       "published_at": "2026-09-24T20:13:00+00:00",
       "first_seen_at": "2026-09-26T23:39:23.285311+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "When chat is the wrong UI",
-      "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
-      "summary": "We’re 176 years into this AI experiment. Wait…it’s only been three years? Are you sure? Sometimes I remember things that happened last year, but it feels like it was so long ago. Did that really happen to me, or was it something that happened to my dad and he just told me about i",
-      "published_at": "2026-09-24T20:00:00+00:00",
-      "first_seen_at": "2026-09-24T23:53:43.771756+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "Automating coherent long-form video generation",
-      "url": "https://research.google/blog/coherent-long-form-video-generation/",
-      "summary": "Generative AI",
-      "published_at": "2026-09-24T19:40:00+00:00",
-      "first_seen_at": "2026-09-24T23:53:43.771756+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
-      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
-      "summary": "If you’re new to fuzzing and want to learn the fundamentals first, check out our Fuzzing 101 course at gh.io/fuzzing101. Continuous fuzzing is not a magic solution that solves all your problems . Even projects that have been enrolled in OSS-Fuzz for years can still hide critical ",
-      "published_at": "2026-09-24T18:26:12+00:00",
-      "first_seen_at": "2026-09-24T23:53:43.771756+00:00"
     },
     {
       "source": "OpenAI Developer Blog",
