@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-01T00:10:34.476408+00:00",
+  "updated_at": "2026-11-01T16:58:59.154289+00:00",
   "count": 700,
-  "new_count": 512,
+  "new_count": 548,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -74,6 +74,60 @@
       "first_seen_at": "2026-10-23T23:52:22.441490+00:00"
     },
     {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "How Defenders Can Use AI to Fix Security Flaws",
+      "url": "https://www.youtube.com/shorts/79M2vFJ1JiQ",
+      "summary": "The way we built software was fundamentally insecure. OpenAI President Greg Brockman on using AI to find and fix those vulnerabilities.",
+      "published_at": "2026-11-01T16:14:16+00:00",
+      "first_seen_at": "2026-11-01T16:58:59.154289+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "28 Zero-Day Findings in Less Than Two Days: What AI-Speed Discovery Means for Robotics",
+      "url": "https://www.therobotreport.com/28-zero-day-findings-in-less-than-two-days-what-ai-speed-discovery-means-for-robotics/",
+      "summary": "VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. These include projects developed or maintained by Google, NVIDIA, and Meta, among others. Based on initial val",
+      "published_at": "2026-11-01T14:00:58+00:00",
+      "first_seen_at": "2026-11-01T16:58:59.154289+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Why physical AI is the next lucrative frontier",
+      "url": "https://www.therobotreport.com/why-physical-ai-next-lucrative-frontier/",
+      "summary": "Genesis AI recently unveiled the Eno robot to bring physical AI into commercial environments. Source: Genesis AI The fastest-growing market categories have humble beginnings. Physical AI, the combination of robotics and advanced artificial intelligence, is just the latest example",
+      "published_at": "2026-11-01T13:30:41+00:00",
+      "first_seen_at": "2026-11-01T16:58:59.154289+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Solving the Interconnect Challenge in Modern Robotics: How 3M Is Engineering for Motion, Density, and Uptime",
+      "url": "https://www.therobotreport.com/solving-the-interconnect-challenge-in-modern-robotics-how-3m-is-engineering-for-motion-density-and-uptime/",
+      "summary": "By Heilind Electronics As robotics systems grow more capable — faster, more precise, and increasingly reliant on AI-driven vision and control — the humble interconnect is being asked to do more than ever. Signal integrity, mechanical durability, and board real estate are no longe",
+      "published_at": "2026-11-01T13:00:31+00:00",
+      "first_seen_at": "2026-11-01T16:58:59.154289+00:00"
+    },
+    {
+      "source": "AgiBot YouTube",
+      "source_type": "youtube",
+      "title": "Robots Never Clock Out | AGIBOT G2’s 24-Hour Convenience Store Challenge",
+      "url": "https://www.youtube.com/shorts/GLGBvQFsDn0",
+      "summary": "Six AGIBOT G2 take on a 24-hour shift as convenience store trainees. From rush-hour crowds to late-night solo duty and the morning breakfast sprint, can they keep up with nonstop customers and unexpected requests? Stay tuned for the live stream! ⏰Nov 2, 10:00 AM – Nov 3, 10:00 AM",
+      "published_at": "2026-11-01T12:53:38+00:00",
+      "first_seen_at": "2026-11-01T16:58:59.154289+00:00"
+    },
+    {
+      "source": "AgiBot YouTube",
+      "source_type": "youtube",
+      "title": "AGIBOT Innovation Day 2026 Recap：One day. A Closer Look at Embodied AI.",
+      "url": "https://www.youtube.com/watch?v=TH9LQdHWw3A",
+      "summary": "New robots took the stage. Technologies came to life through live demonstrations. Robots showed their capabilities across industrial and commercial settings. From product reveals and technology showcases to demonstrations of material handling, visitor guidance and human-robot int",
+      "published_at": "2026-11-01T11:34:39+00:00",
+      "first_seen_at": "2026-11-01T16:58:59.154289+00:00"
+    },
+    {
       "source": "Z.ai Release Notes",
       "source_type": "rss",
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
@@ -103,6 +157,15 @@
       "details": "At AI Engineer New York this month, we sat down with Aman Singh, the lead AI Engineer at Arca, an “AI-native” company providing wealth management services. We discovered that while agents do most of the background work in the firm, there are guardrails in place to ensure that human advisors are making the final decisions. The goal is for AI to guide the process; or as Singh nicely put it, “agents prompt people more than people prompt agents.” Arca recently raised $48.5 Million in a round led by General Catalyst, with participation from Index Ventures and Venrock. One of the features of using AI in financial services, explained Singh, is that it’s typically long-horizon work — although not long-running. In his AIE presentation, Singh noted that agent tasks at Arca can take up to ten days. “It's very stop-start, there's many actors in between, many decision points, many handoffs,” he said. For this reason, Arca has developed an internal memory system. “So we have this persistence for every client,” Singh said in our podcast discussion. “What has happened so far? What are we tracking for next? What needs to happen immediately in the next couple of days [and] what are we tracking for the long term? Which individual is responsible for which action? All of this is being tracked by our memory systems that our agents contribute to.” Arca uses models from frontier labs like Anthropic and OpenAI, with Claude its primary model provider. The company has built its own harness, which automatically selects the best model to use for a particular task, based on the company’s internal benchmarks. Owning the harness, rather than using a managed agent harness, also means that Arca has the flexibility to change model providers if it needs to. Safety is obviously key for financial services. Singh noted that although agents do much of the work, an agent’s role is limited to analysis and proposing solutions. Trading and any other money movement is handled by a human advisor. “All of our safety restrictions are fully deterministic,” he said. “And they take the decision making off the agent's hands.” In other words, there are certain tools and tasks the agent can execute by itself — but not ones that involve risk to the client. Arca also runs verification checks on known AI security issues, such as prompt injections. Arca’s agent isn’t itself sandboxed, but it does use sandboxes for computation. Singh explained they’ve gone even further, with extra security measures for handling sensitive data. “We've built systems to make it safe for code inside of that sandbox to access our data,” he said. “So we have this thing which translates the code it [the agent] wrote into a strict format that we expect, throw away the code, and you install guardrails on that format before it reaches your back end. So we allow the agents to use code to query our data, which means that they can aggregate it, they can munge it, they can work with it as they see fit to produce [things] like a financial plan.” Another interesting process Arca has implemented is using feedback from human advisors, along with traces from the agents, to improve the harness. A “meta-agent” is used to analyze all this data and suggest changes to the harness. Podcast timestamps00:00 — Introducing Arca’s AI-native wealth management firm 01:40 — How AI supports human financial advisors 02:40 — Choosing models with internal benchmarks 04:01 — Building a custom harness and routing tasks 05:25 — Handling a $100,000 tax bill: Agents and human approvals 07:20 — Agent memory across long-running tasks 09:22 — Safety guardrails and prompt injection defenses 11:02 — Compliance and auditability by default 12:14 — “Agents prompt people more than people prompt agents” 13:46 — Why Arca owns its agent infrastructure 15:05 — AI-native firms versus firms using AI tools 16:09 — Sandboxes and financial plan verification 18:40 — Decision models and checking financial facts 19:51 — Why trade execution stays with human experts 20:32 — Turning staff feedback into evals and improvements 22:22 — Turning operational knowledge into agent context 23:41 — Client examples: Hidden fees and proactive service Watch Aman’s AIE presentation",
       "dedupe_key": "podcast:85712d9491b748b90533c4ed7bf46b453e5d0a54",
       "first_seen_at": "2026-11-01T00:10:34.476408+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "Using Agents for Long-Horizon Financial Work — Aman Singh, Arca",
+      "url": "https://www.youtube.com/watch?v=KM3VQZKjpiY",
+      "summary": "Arca head of AI Aman Singh joins Latent Space head of editorial Richard MacManus at AI Engineer New York, to discuss how Arca is building an AI-native wealth management firm. Singh explains Arca's architecture, which includes a custom harness and persistent memory. He also digs i",
+      "published_at": "2026-10-31T16:00:03+00:00",
+      "first_seen_at": "2026-11-01T16:58:59.154289+00:00"
     },
     {
       "source": "The Robot Report",
@@ -6347,73 +6410,6 @@
       "summary": "The R4 robot is designed to help vineyard, orchard and specialty crop growers overcome sector challenges. | Source: CNH Industrial 2026 has been a tumultuous year for farmers in America. Global trade wars mean farmers’ supplies are growing more expensive, while many crop prices h",
       "published_at": "2026-09-25T12:18:36+00:00",
       "first_seen_at": "2026-09-25T15:42:53.764762+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Lowe’s answers millions of home improvement questions with OpenAI",
-      "url": "https://openai.com/index/lowes",
-      "summary": "Lowe’s uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and move home improvement projects forward.",
-      "published_at": "2026-09-25T07:00:00+00:00",
-      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] The Future of Latent Space",
-      "url": "https://www.latent.space/p/ainews-the-future-of-latent-space",
-      "summary": "It’s been an absolutely MONSTER week already, from new Chinese Open Weight Frontier Lab claiming the throne for the first time, to new SOTA LLM and price cuts from Anthropic and OpenAI, to Meta Connect, to TypeSafe AI’s $10B fundraise after our exclusive podcast this weekend (alr",
-      "published_at": "2026-09-25T05:37:00+00:00",
-      "details": "It’s been an absolutely MONSTER week already, from new Chinese Open Weight Frontier Lab claiming the throne for the first time, to new SOTA LLM and price cuts from Anthropic and OpenAI, to Meta Connect, to TypeSafe AI’s $10B fundraise after our exclusive podcast this weekend (already one of our top of all time, with two pods on genomic language models and AI scientists sending us above heavyweights like TBPN and MKBHD in Apple Podcasts, and helping cross 200K on YouTube). Today is the calm before the DevDay storm, so we’re taking some time to share some long overdue changes we are making to Latent Space in the coming week:Plans for AINews v3: This op-ed you are reading has always been human-authored by swyx (hi!!) every weekday for the last 3 years, and what started as a simple way to solve Discord fatigue eventually became LS’s newspaper: an awkward hybrid of Money Stuff mixed with engineer-tuned TechMeme mixed with AI writing evals that somehow grew to over 200k subscribers. Meanwhile, the Latent Space Discord is now tens of thousands of members and yet quieter than ever with increasing amounts of self promotional spammers. The solution is obvious: merge the “job to be done” of the LS Discord and AINews.Plans for a new home: with the success of our AI for Science pod and writing, and new podcasts from food to FDE rising, we’re slowly becoming a multi-show, multi-newsletter network of the best technical news, analysis and edutainment in AI. We’ll be exploring a migration to Beehiiv and a new homepage.Open for business: with a new Business/Ops Manager and Head of Editorial, we are once again reopening for sponsorships (business@latent.space) and PR/tips! That said, join us next week at Supabase Select in SF!!! Supabase is the universally preferred integrated backend by every frontier model and we’re excited to interview their founders on their incredible journey building a fully remote open source database company from 0 to $10B, and see what’s next.Sponsored by SupabaseEverything Supabase has been building will be unveiled on October 2 — live for one day in San Francisco!See what Supabase is launching →AI News for 9/23/2026-9/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapFrontier Model Wave: Claude Opus 5.5, GPT-6 Astra/Sol/Luna, Gemini 3.8 Flash, and Xiaomi MiMo-V2.6-ProClaude Opus 5.5: Opus 5.5 now leads SimpleBench at 88.4%. On vision evals, @skalskip92 ranks it Anthropic’s best vision model to date: better than Fable 5 and GPT-6 Sol, worse than GPT-6 Astra, at about 60% lower cost than Fable 5.1.Reasoning effort: On Terminal-Bench-Science, Opus 5.5 climbs from 24% at low effort to 62% at xhigh, then drops to 59% at max. @theo recommends avoiding “max” because it imposes a minimum reasoning budget.Terminal-Bench-Science leaders: GPT-6 Astra and Opus 5.5 lead Fable 5.1 by about 20 points. The best model from outside those two labs is Qwen3.8 Max at 12%.Community sentiment: Many say the $200 Claude Code plan now beats Codex. Astra remains the preferred review/audit model.GPT-6 family:Astra reportedly beat NetHack on its 3rd try.Luna [Max] entered Code Arena WebDev at #24 (1593), +74 over GPT-5.6 Luna, at about $0.40/Mtok blended.DOOM agent matches show Astra at 82.5% win rate, Sol fastest, Luna best wins/$.Gemini 3.8 Flash: Scores 41 on the AA Intelligence Index at 291 tok/s with 1M context, and is free in Cline. On ARC-AGI it posts 89.2% on v2 at $0.40/task and 98.5% on v1. On v3 it scores 10.4% with the standard harness and 35% with the provider harness.Xiaomi MiMo-V2.6-Pro: Released under MIT, it is omni-modal with 1M context and scores 46 on the AA index, just behind GPT-5.6 Sol at 47. Cost is $0.13 vs $1.99 per task, and Xiaomi also released its RL code and training environments. @teortaxesTex notes its RL gains don’t generalize to harder math evals.Other releases:Grok 4.7 debuted at #16 in Agent Arena at $1.14 per task.Meta’s Muse Spark 1.3 is available on GCP and Oracle, and Spark 1.4 has appeared on OpenCode.Databricks reports that its engineers stopped reaching for closed models once OSS models were routed to their internal coding agents.“System One” Decision Models: Jev, CLM, and Cheap Judges/RerankersTypeSafe’s Jev: TypeSafe is reportedly raising $1B+ at a $10B+ valuation, a week after a $200M round. Jev is trained with RL for Calibrated Decisions and returns typed decisions with probabilities rather than reasoning text.Jev-as-a-Judge paper: The paper reports Jev costs $0.044 per 1K judgments at 152ms median latency, about 277× cheaper than GPT-6. It stays within 3 points on RewardBench and HaluEval, but trails by 14.5 points on JudgeBench. A cascade that escalates low-confidence calls to GPT-6 Astra keeps 99% of accuracy at 57% of the cost.Production and ecosystem signals:Ramp matched GPT-5.6 Luna reranking a",
-      "first_seen_at": "2026-09-25T15:42:53.764762+00:00"
-    },
-    {
-      "source": "Latent Space YouTube",
-      "source_type": "youtube",
-      "title": "Runway’s Bet Beyond Video: World Models, Robotics, and the Neural OS — Anastasis Germanidis",
-      "url": "https://www.youtube.com/watch?v=fGRd5gYhztg",
-      "summary": "From making one of the earliest bets on generative video to building world models that simulate physics, power robots, and render software interfaces directly as pixels, Runway is pushing far beyond AI video generation. In this episode, Runway co-founder Anastasis Germanidis join",
-      "published_at": "2026-09-25T01:40:15+00:00",
-      "first_seen_at": "2026-09-25T15:42:53.764762+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
-      "url": "https://www.latent.space/podcast",
-      "summary": "Earlier this month, world model company Runway introduced GWM Worlds 2, a research preview that “turns high-fidelity video and audio generation into real-time interactive simulation.” Runway calls this an “autoregressive diffusion” model; with autoregressive describing how it gen",
-      "published_at": "2026-09-25T01:30:57+00:00",
-      "audio_url": "https://api.substack.com/feed/podcast/217289983/80ecbf8ba268d83a6cde12d5f719e123.mp3",
-      "details": "Earlier this month, world model company Runway introduced GWM Worlds 2, a research preview that “turns high-fidelity video and audio generation into real-time interactive simulation.” Runway calls this an “autoregressive diffusion” model; with autoregressive describing how it generates over time.One new feature in particular caught our eye: WorldPrompt, a proposed input format for specifying a generated world and the actions within it. It allows you to fix some aspects of a simulated environment — including the first frame — and then create a series of timestamped events. The events, or actions, can even be prompted in real-time.To understand the implications of WorldPrompt, we spoke to Kamil Sindi, Runway’s CTO, and Robin Kahlow, its Principal Research Scientist for generative video and multimodal AI. We also have exclusive comments from Anastasis Germanidis, co-founder & co-CEO of Runway, courtesy of a podcast swyx and Vibhu did with him.Who’s building real-time interactive world models?First, some context about world models that can generate interactive video and audio in real-time.Runway is reportedly valued at $5.3 billion, based on its most recent fund raise of $315 million in February. Its first release, GWM Worlds, was launched last December.Alongside Runway, there are several other notable projects in this domain: Google DeepMind’s Genie 3 (which also generates at 720p and 24 fps), Odyssey-2 Pro, and World Labs’ RTFM (Real-Time Frame Model). We’ve summarized their differences in the following table:Given the complexity and massive latency demands of real-time video and audio generation (which we’ll get into below), all of the projects listed above have limitations. For instance, Google notes that Genie 3 “can currently support a few minutes of continuous interaction, rather than extended hours.”But as our interviews with Runway show, real progress is being made.The central idea of WorldPromptWorldPrompt, a new feature in GWM Worlds 2, helps differentiate Runway from its competition. You can think of it as a control layer for characters, cameras and the environment. As Kahlow put it, it’s a way to “control all the different subjects in the world” — similar to a computer game.“Like, if there’s an NPC [Non-Player Character] somewhere, the NPC might walk up to you and say something. So you could achieve the same thing with this kind of model, where you can have very detailed control over everything in the scene.”As the name suggests, WorldPrompt is a prompting mechanism — not a programming language. So, unlike virtual world games like Minecraft or Roblox, GWM Worlds 2 doesn’t offer scripting capabilities or the ability to control state. But there’s a power to that, as Sindi pointed out.“You can create promptable worlds on-demand with video and audio in sync, across all these different domains and environments. That’s not a distant-future hypothetical thing,” he said.But there are also limitations to prompting a world model. We asked how reliably the model would follow an instruction to create, for example, a law of gravity or a certain ability in a character?“Yeah, so it’s a research preview,” Kahlow replied. “So it’s not perfect, of course, and there are still flaws. It really depends on how difficult the action is. I would say movement works quite reliably.”Sindi added that more training plus scaling the data and models is resulting in “better following.”How a video model becomes a real-time runtimeDespite the current limitations of GWM Worlds 2 — especially if you compare it to pre-designed and scriptable worlds like Minecraft or Roblox — the true promise of world models like Runway is that they’ll eventually lead to fully self-generated, real-time games and experiences. Which is an extremely hard engineering problem, as Kahlow reminded us.“There are two challenges. One is making the model not generate a whole clip at once. So instead, you want it to generate frame by frame while you’re looking at it. And the other challenge is actually making the generation fast, so you can play it in real time.”High-level view of GWM Worlds 2 processGWM Worlds 2 offers real-time interactive worlds streamed in continuous 720p video at 24 frames per second (fps) and audio at 48,000 Hz.Runway achieved this firstly by taking its foundational audio-video generation model and fine-tuning it to the new WorldPrompt format, so the model can follow that. It then post-trains the model to generate autoregressively.“And after that, we work on making it real-time through distillation methods,” Kahlow added.Co-CEO Anastasis Germanidis offered more technical details in our podcast with him. He told us that the process starts from “bidirectional diffusion that basically generates an entire video at once and [makes] it autoregressive.” This allows the model to “generate one frame or a few frames at a time.”Autoregressive causal diffusion vs traditional video models; image via RunwayGermanidis described two possible forms of distill",
-      "dedupe_key": "podcast:b63ec451f73ed0e8c3a08882f0477c5d8219e3f0",
-      "first_seen_at": "2026-09-25T15:42:53.764762+00:00"
-    },
-    {
-      "source": "Anthropic Research",
-      "source_type": "rss",
-      "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
-      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
-      "summary": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
-      "published_at": "2026-09-25T00:00:00+00:00",
-      "first_seen_at": "2026-09-25T23:57:34.495472+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-      "url": "https://openai.com/index/wayfair",
-      "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
-      "published_at": "2026-09-25T00:00:00+00:00",
-      "first_seen_at": "2026-10-06T01:46:30.807569+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "AI is learning to hide what it's thinking - Noam Brown",
-      "url": "https://www.youtube.com/shorts/jlPNUtNnFvs",
-      "summary": "",
-      "published_at": "2026-09-24T23:25:28+00:00",
-      "first_seen_at": "2026-09-24T23:53:43.771756+00:00"
     },
     {
       "source": "OpenAI Developer Blog",
