@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-02T20:37:14.218205+00:00",
+  "updated_at": "2026-11-03T02:56:23.989625+00:00",
   "count": 700,
-  "new_count": 551,
+  "new_count": 468,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -72,6 +72,37 @@
       "summary": "Introducing Kimi K3.1 Pro, our most capable 3T-class open-weight model with 1M-token context and major advances in coding, 3D modeling, and financial research.",
       "published_at": "2026-11-04T00:00:00+00:00",
       "first_seen_at": "2026-10-23T23:52:22.441490+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
+      "url": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/",
+      "summary": "Digit 5 includes redesigned legs and new batteries for commercial use. Source: Agility Robotics Agility Robotics has cleared a major hurdle in its planned initial public offering (IPO). Shareholders of Churchill Capital Corp XI approved the special purpose acquisition company’s (",
+      "published_at": "2026-11-03T00:15:39+00:00",
+      "first_seen_at": "2026-11-03T02:56:23.989625+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
+      "url": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
+      "summary": "In this episode, we chat with Jacob Lauritzen, CTO of Legora, following the announcement of their $550M Series E at an $8.8B valuation a couple weeks ago. We talk about what it takes to build AI agents for lawyers and what other people building agents can learn from that work. Le",
+      "published_at": "2026-11-02T23:01:02+00:00",
+      "details": "In this episode, we chat with Jacob Lauritzen, CTO of Legora, following the announcement of their $550M Series E at an $8.8B valuation a couple weeks ago. We talk about what it takes to build AI agents for lawyers and what other people building agents can learn from that work. Legora started in a Stockholm basement with a simple product: ChatGPT, Swedish law, and a search tool. Jacob had already been through YC with his own startup when he helped Max Junestrand with the application for Leya (now Legora). He later joined as head of engineering and is now CTO. Today the agent drafts and edits Word documents, reviews thousands of contracts at once, and coordinates work between lawyers, their clients, and other agents. The company passed $100 million in ARR in April, less than 18 months after launch, and now has more than 1,800 customers. It raised $550 million in March at a $5.55 billion valuation, then another $550 million in October at an $8.8 billion valuation. Its latest acquisition, Wexler, was its fifth just this year. We asked Jacob how you evaluate agents when you can't see your customers' data, which tasks still need better models, how legal engineers and forward deployed engineers split the work, and why the billable hour as a business model is being upended. Watch the full conversation on YouTube →Open video on YouTube ↗What changed for the billable hour? When Jacob first read Leya's YC application, he had one piece of feedback: people had tried building legal tech a million times, and it never worked. If lawyers bill by the hour, getting faster means earning less. Why would they buy a tool that does that? What changed, he says, is the pressure on firms. In the US, routine work like small reviews is already shifting to flat project fees. Some firms do it for free to hold on to the client. The money moves to M&A, litigation, and time spent with clients. We asked whether that means firms will stop needing paralegals and junior lawyers. Jacob says that's not what Legora is seeing. A good junior is worth more today than two years ago because they get so much more done, just as in engineering. Jump to the billing model discussion →Evals without access to customer data Most teams improve their agents by reading traces. Legora can't read any. Almost everything users upload is confidential, and much of it belongs to the firm's clients, not the firm. So the evals team has to recreate the kinds of work customers do. Three engineers and three lawyers build RL environments to simulate the work their customers do. One example is a 10,000-file data room where the agent runs due diligence and has to produce a report that catches the right red flags. The team plots the results on a heat map by practice area and task. A new model often gets better at some kinds of legal work and worse at others. The team draws on a pool of about 100 legal engineers: lawyers who spent three or four years in big law, often with a CS degree. In production, Legora classifies failures into 10 to 20 known failure modes and runs cheap LLM-based checks behind feature flags. Those restrictions also determine which infrastructure Legora can use. Everything runs on Azure because when Legora started, law firms wouldn't accept AWS or GCP, and Microsoft was already an approved vendor through 365. Jump to evals without traces →Where smarter models still matter Legora resisted a model picker for a long time before giving in. Jacob's view is that a lawyer shouldn't have to decide whether a contract is a Sonnet-high or an Opus-mid task. It's Legora's job to find the best available tradeoff between quality, cost, latency, governance, and regional availability. He estimates that models already handle about 60% of legal work really well. For those tasks it's a cost and latency problem now. Complex analysis and editing across million-token contracts still need more intelligence. Legora has started post-training open-weight models for narrow tasks like legal research, with no plans to train its own frontier model. For drafting, Jacob finds Fable and Opus too verbose. Astra is more concise. To address hallucinations, everything the agent writes gets a citation that highlights a bounding box in the source PDF, multiple layers down. Jump to the model discussion →A few building blocks, many products Six months into the job, Jacob showed the team a slide of the 300 Spartans and declared that Legora would stay at 20 engineers forever. It now has 100, and he says that still feels too small. His job now is to build a system where the team can ship just a few things and customers feel like they're getting a lot. The team builds around a few primitives: projects that hold files, the agent, Tabular Review, and lists. Lists are a flexible Notion-style database with triggers and automations. Agents can create and read lists, and changes to a list can start an agent. Intake is a Slack bot that turns a request into a ticket on a list. Tabular Review is the one the indus",
+      "first_seen_at": "2026-11-03T02:56:23.989625+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+      "url": "https://www.latent.space/podcast",
+      "summary": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the CTO of Legora, one of the fastest-growing companies in legal tech history. The ",
+      "published_at": "2026-11-02T22:54:03+00:00",
+      "audio_url": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a19df0-34a3-7307-96fc-48928908772b/01a19df0-35e0-7c61-90cc-3a37c8983d85.mp3",
+      "details": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the CTO of Legora, one of the fastest-growing companies in legal tech history. The team started in a Stockholm basement with ChatGPT, Swedish law, and a search tool. Today, a lawyer can use Legora to draft and edit Word documents, review 10,000 contracts in a single table, or run due diligence. The agent also coordinates work between lawyers, clients, and other agents. When Legora made its own acquisitions, the team used it for diligence. What we talked about • Why Legora resisted adding a model picker for years, and why it finally added one • Jacob’s estimate that models already do about 60% of legal work well, and why the rest takes a smarter model • How three engineers and three lawyers build test environments modeled on customers’ work, much like the “worlds” used in reinforcement learning • A citation problem where the model got it right 70% of the time, then 99% after one release. Legora didn’t have to change anything. • Why Legora runs everything on Azure and why it doesn’t use ElevenLabs • Tabular Review, the million-cell spreadsheet the industry copied down to the name • How intake works, how agents create lists, and how a list can start another agent • What legal engineers and forward-deployed engineers each do, and who gets to write code • The 300 Spartans slide Jacob used to argue that 20 engineers would be enough forever. Now there are 100, and he still feels short-handed. • Why Jacob finds Fable and Opus too chatty for drafting and likes Astra’s concise writing • Why drafting a long contract is a search problem • Whether model labs will cut off legal tools the way they cut off coding tools • What happens to law firm partnerships, the billable hour, and jobs for junior lawyers Legora is hiring engineers in New York, Stockholm, and London. Chapters 0:00 Cold open 0:40 Meet Jacob Lauritzen, CTO of Legora 1:05 Starting out as underdogs in a Stockholm basement 1:54 How Legora grew from ChatGPT with Swedish law into a legal agent 4:12 The switch from assistant to agent 5:23 Which models Legora uses and why it added a model picker 7:48 Are today’s models good enough for lawyers? 8:20 What agents couldn’t do nine months ago 9:18 Testing the agent in simulated worlds and a 10,000-file data room 10:07 The evals team and Legora’s 100 legal engineers 11:03 When evals didn’t seem worth it and one release took citations from 70% to 99% 12:18 What legal practice could look like in five to ten years 14:18 Will the law firm partnership model survive? 16:40 What happens to paralegals and junior lawyers? 18:00 The billable hour and why earlier legal tech fell short 19:39 Where the money goes now 22:44 How Legora used its own product for acquisition diligence 23:59 How Swedish and American law firms differ 26:12 Product metrics when you can’t read the traces 27:41 Paraphrasing traces and narrowing failures down to 10 or 20 types 28:42 Why data privacy led Legora to run everything on Azure 30:04 Open-weight models and model arbitrage 30:55 Transcription models and why Legora doesn’t use ElevenLabs 33:33 The agent, Tabular Review, projects, and the Word add-in 34:24 How a lawyer uses Tabular Review 35:51 Why a spreadsheet works and what you learn from the first 10 rows 37:53 How the legal intake bot works in Slack 39:11 How agents create lists and lists start agents 40:15 Building products on those same pieces and acquiring Wexler 42:37 What forward-deployed engineers do at Legora 43:52 How legal engineers and forward-deployed engineers onboard a big client 46:43 What’s next for the forward-deployed team over the coming year 47:24 Why Legora resisted building APIs 49:26 Can the agent be the API? 50:12 The 300 Spartans slide and the plan to stay at 20 engineers 51:32 The bets nobody asked Legora to make 53:05 Post-training open-weight models for legal research 54:05 Search, retrieval, and late interaction 54:51 What makes a good legal agent harness and why drafting depends on search 56:25 Which model writes the best draft? 57:03 Hallucinations and Legora’s citation system 57:41 Do lawyers check the citations? 58:19 MapReduce or one big context window for a million-token contract? 1:00:16 Getting anonymized examples and the idea of buying a law firm for its data 1:01:53 Why Jacob advises against default embeddings 1:02:44 Will lawyers work in Legora or through Claude? 1:03:26 Will the model labs cut Legora off? 1:04:24 Law schools and scholarships for computer science majors 1:05:28 Hiring in New York, Stockholm, and London 1:06:09 Why most work eventually becomes legal work Guest — Jacob Lauritzen, CTO of Legora https://legora.com Co-host — swyx, Latent Space Host — Basil Chatha, Forward Deployed https://forwardeployed.com",
+      "dedupe_key": "podcast:1d8636326c706424088c7937fb22efc1ed1a4002",
+      "first_seen_at": "2026-11-03T02:56:23.989625+00:00"
     },
     {
       "source": "Z.ai Release Notes",
@@ -149,6 +180,24 @@
     {
       "source": "OpenAI News",
       "source_type": "rss",
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "published_at": "2026-11-02T15:30:00+00:00",
+      "first_seen_at": "2026-11-03T02:56:23.989625+00:00"
+    },
+    {
+      "source": "Runway",
+      "source_type": "rss",
+      "title": "Runway Dev is in Claude Code, Codex and Cursor",
+      "url": "https://runway.com/news/developers/runway-dev-plugins-for-coding-agents",
+      "summary": "Runway Dev plugins for Claude Code, Codex and Cursor connect your coding agent to Runway’s API so it can build generative media features from your editor.",
+      "published_at": "2026-11-02T15:00:00+00:00",
+      "first_seen_at": "2026-11-03T02:56:23.989625+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
       "title": "Introducing the Grid Protectors Program",
       "url": "https://openai.com/index/grid-protectors-program",
       "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
@@ -208,6 +257,15 @@
       "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "published_at": "2026-11-02T00:00:00+00:00",
       "first_seen_at": "2026-11-02T20:37:14.218205+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "first_seen_at": "2026-11-03T02:56:23.989625+00:00"
     },
     {
       "source": "GitHub Blog",
@@ -386,6 +444,18 @@
       "details": "The Robert Caro interview.Watch on YouTube; listen on Apple Podcasts or Spotify.SponsorsAntithesis lets you run thorough simulation tests on every PR your coding agents ship. That’s because Antithesis is FAST. On a recent project, it packed fifteen hours of simulation into each fifteen-minute run: every change could be tested in thousands of hostile worlds before being merged. Every minute your software spends in Antithesis is one of the unluckiest hours it will ever experience. Learn more at antithesis.com/dwarkeshWorkOS’s Airlock is a judgment layer that sits between your agents and your most important tools. When an agent makes a request, Airlock evaluates it against your company’s policies and decides whether to allow it, block it, or escalate it to a human. If it allows it, Airlock takes action on behalf of the agent, which means your agents never see your API keys or other credentials. Airlock is in early access. If you’re interested, go to workos.com/airlockJane Street’s mystery ASIC puzzle is over, and they’ve published a blog post that reveals the chip’s purpose. You can read it here: blog.janestreet.com/asic-puzzle-results/. More importantly, there’s another challenge live now! For this one, you have to design a protocol-emulator ASIC that can be used to test chips outside of a live system. Jane Street will pay to fabricate their favorite submissions. The competition is open until January 18th. Get started at janestreet.com/dwarkeshTimestamps(00:00:00) – How Caro gets people to talk(00:05:03) – Does America need a little more Moses today?(00:12:42) – Moses the young idealist(00:17:57) – Watching Moses lose power(00:24:01) – Did Moses realize he was changing?(00:27:53) – Building during the Great Depression(00:32:51) – The threats and promises of Lyndon Johnson(00:36:08) – Could Kennedy have passed Johnson’s laws?(00:41:00) – Getting a book down to one sentence(00:46:21) – All the material that never made it into the books(00:52:59) – LonelinessTranscript00:00:00 – How Caro gets people to talkDwarkesh Patel“If you do everything, you will win.” That is the maxim by which Lyndon Johnson lived his life. My guest today is Robert Caro. Over the 50 years that he has spent writing about Lyndon Johnson, he has lived in the edges of the Texas Hill Country to understand the poverty and loneliness of Johnson’s youth. He has sifted through millions of documents in the Senate and presidential libraries of the entire nation. He has chased down for interviews everyone, from the former goon who helped Johnson steal an election to the chauffeur who drove him on his first desperate campaign.In other words, my guest today is a man who understands Johnson’s aphorism: “If you do everything, you’ll win.” Mr. Caro, it is such a huge honor to have you on the show.Robert CaroIt’s great to be here.Dwarkesh PatelMy first question is what I hinted at in the introduction. How much do you see yourself represented in Johnson or in Moses? Is part of the reason you’re able to write so compellingly about them that you share some of their qualities?Robert CaroLet me say first, I think, I hope, there are qualities of both these guys that I don’t share. Among other things they’re so, I’ll use the word, ruthless. You say they’d do anything to win. That’s part of their greatness.I remember when I started learning about Robert Moses, I went to the La Guardia papers, which were kept in the Boat Basin. They were stored by the Municipal Archives, literally in the 79th Street Boat Basin on the Hudson River, three levels down. There was this row of file cabinets against the wall. I’m sitting there day after day going through these documents. Occasionally I’d come across a note that Robert Moses wrote, and I realized I’m following the same path he was. It’s fascinating, actually.Dwarkesh PatelObviously, not all the qualities. But the quality I’m referring to here is that just like Johnson or just like Moses, you refuse to take no for an answer. If somebody says, “I won’t give you an interview,” you don’t stop there. You refuse to leave a stone unturned. So there is a relentlessness that you share with these subjects.Robert CaroI’m going to take that as a compliment. Yes. You feel there are certain people that you have to interview. If they don’t want to give you an interview, you can’t, I feel, say no. Like Lyndon Johnson’s first secretary, the one who rode in the car with him on the campaigns. I said, “There’s no other human being on earth who knows what Lyndon Johnson is doing all these hours driving back and forth across Texas. I don’t know what I have to do, but I have to get him to tell me honestly about this thing.”Dwarkesh PatelThis raises another question that I wanted to ask you. You’re interviewing all these people, and in many cases, they must know that it’s not good for them to tell you what you want to know. In many cases, they tell you anyway. How do you get people to tell you things that they know they shouldn’t tell you?Robert ",
       "dedupe_key": "podcast:12f5cf5f288f1cc29dbfa68dcd6165764c89700a",
       "first_seen_at": "2026-10-31T00:51:20.799270+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "source_type": "rss",
+      "title": "What Robert Caro learned about power after studying it for 50 years",
+      "url": "https://www.dwarkesh.com/podcast",
+      "summary": "The Robert Caro interview.Watch on YouTube; listen on Apple Podcasts or Spotify.SponsorsAntithesis lets you run thorough simulation tests on every PR your coding agents ship. That’s because Antithesis is FAST. On a recent project, it packed fifteen hours of simulation into each f",
+      "published_at": "2026-10-30T16:56:02+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/222791845/c1cb04aeef87ac39b122e45d5ab19e38.mp3",
+      "details": "The Robert Caro interview.Watch on YouTube; listen on Apple Podcasts or Spotify.SponsorsAntithesis lets you run thorough simulation tests on every PR your coding agents ship. That’s because Antithesis is FAST. On a recent project, it packed fifteen hours of simulation into each fifteen-minute run: every change could be tested in thousands of hostile worlds before being merged. Every minute your software spends in Antithesis is one of the unluckiest hours it will ever experience. Learn more at antithesis.com/dwarkeshWorkOS’s Airlock is a judgment layer that sits between your agents and your most important tools. When an agent makes a request, Airlock evaluates it against your company’s policies and decides whether to allow it, block it, or escalate it to a human. If it allows it, Airlock takes action on behalf of the agent, which means your agents never see your API keys or other credentials. Airlock is in early access. If you’re interested, go to workos.com/airlockJane Street’s mystery ASIC puzzle is over, and they’ve published a blog post that reveals the chip’s purpose. You can read it here: blog.janestreet.com/asic-puzzle-results/. More importantly, there’s another challenge live now! For this one, you have to design a protocol-emulator ASIC that can be used to test chips outside of a live system. Jane Street will pay to fabricate their favorite submissions. The competition is open until January 18th. Get started at janestreet.com/dwarkeshTimestamps(00:00:00) – How Caro gets people to talk(00:05:03) – Does America need a little more Moses today?(00:12:42) – Moses the young idealist(00:17:57) – Watching Moses lose power(00:24:01) – Did Moses realize he was changing?(00:27:53) – Building during the Great Depression(00:32:51) – The threats and promises of Lyndon Johnson(00:36:08) – Could Kennedy have passed Johnson’s laws?(00:41:00) – Getting a book down to one sentence(00:46:21) – All the material that never made it into the books(00:52:59) – LonelinessTranscript00:00:00 – How Caro gets people to talkDwarkesh Patel“If you do everything, you will win.” That is the maxim by which Lyndon Johnson lived his life. My guest today is Robert Caro. Over the 50 years that he has spent writing about Lyndon Johnson, he has lived in the edges of the Texas Hill Country to understand the poverty and loneliness of Johnson’s youth. He has sifted through millions of documents in the Senate and presidential libraries of the entire nation. He has chased down for interviews everyone, from the former goon who helped Johnson steal an election to the chauffeur who drove him on his first desperate campaign.In other words, my guest today is a man who understands Johnson’s aphorism: “If you do everything, you’ll win.” Mr. Caro, it is such a huge honor to have you on the show.Robert CaroIt’s great to be here.Dwarkesh PatelMy first question is what I hinted at in the introduction. How much do you see yourself represented in Johnson or in Moses? Is part of the reason you’re able to write so compellingly about them that you share some of their qualities?Robert CaroLet me say first, I think, I hope, there are qualities of both these guys that I don’t share. Among other things they’re so, I’ll use the word, ruthless. You say they’d do anything to win. That’s part of their greatness.I remember when I started learning about Robert Moses, I went to the La Guardia papers, which were kept in the Boat Basin. They were stored by the Municipal Archives, literally in the 79th Street Boat Basin on the Hudson River, three levels down. There was this row of file cabinets against the wall. I’m sitting there day after day going through these documents. Occasionally I’d come across a note that Robert Moses wrote, and I realized I’m following the same path he was. It’s fascinating, actually.Dwarkesh PatelObviously, not all the qualities. But the quality I’m referring to here is that just like Johnson or just like Moses, you refuse to take no for an answer. If somebody says, “I won’t give you an interview,” you don’t stop there. You refuse to leave a stone unturned. So there is a relentlessness that you share with these subjects.Robert CaroI’m going to take that as a compliment. Yes. You feel there are certain people that you have to interview. If they don’t want to give you an interview, you can’t, I feel, say no. Like Lyndon Johnson’s first secretary, the one who rode in the car with him on the campaigns. I said, “There’s no other human being on earth who knows what Lyndon Johnson is doing all these hours driving back and forth across Texas. I don’t know what I have to do, but I have to get him to tell me honestly about this thing.”Dwarkesh PatelThis raises another question that I wanted to ask you. You’re interviewing all these people, and in many cases, they must know that it’s not good for them to tell you what you want to know. In many cases, they tell you anyway. How do you get people to tell you things that they know they shouldn’t tell you?Robert ",
+      "dedupe_key": "podcast:a59ff14de802965fa9d02ffa13d869ea58e10c2b",
+      "first_seen_at": "2026-11-03T02:56:23.989625+00:00"
     },
     {
       "source": "IEEE Spectrum Robotics",
@@ -3019,7 +3089,7 @@
       "source_type": "rss",
       "title": "How Itaú is building generative AI for its entire customer base",
       "url": "https://openai.com/index/itau-generative-ai",
-      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees—in one of Brazil’s most regulated sectors.",
       "published_at": "2026-10-16T19:00:00+00:00",
       "first_seen_at": "2026-10-16T23:38:52.283128+00:00"
     },
@@ -6344,69 +6414,6 @@
       "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
       "published_at": "2026-09-28T00:00:00+00:00",
       "first_seen_at": "2026-09-29T01:01:32.228012+00:00"
-    },
-    {
-      "source": "Manus Blog",
-      "source_type": "rss",
-      "title": "Introducing Manus 2.0",
-      "url": "http://manus.im/blog/introducing-manus-2-0",
-      "summary": "Manus 2.0 is here, with the new Cascade agent harness, Cloud Computer and Automations, Manus Studio for professional creation, and Cue, a new app for personal agents.",
-      "published_at": "2026-09-28T00:00:00+00:00",
-      "first_seen_at": "2026-09-29T01:01:32.228012+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Welcome RL Environments to the hub",
-      "url": "https://huggingface.co/blog/rl-environments",
-      "summary": "",
-      "published_at": "2026-09-28T00:00:00+00:00",
-      "first_seen_at": "2026-10-05T19:34:36.580157+00:00"
-    },
-    {
-      "source": "AgiBot News",
-      "source_type": "rss",
-      "title": "AGIBOT and ASD Deploy 100 AGIBOT X2 Humanoid Robots Across 100 Retail Stores-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
-      "url": "https://www.agibot.com/article/231/detail/124.html",
-      "summary": "",
-      "published_at": "2026-09-28T00:00:00+00:00",
-      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "What If Each AI Generation Gets Slightly Less Aligned? - Noam Brown",
-      "url": "https://www.youtube.com/shorts/vkecOqfTh_I",
-      "summary": "",
-      "published_at": "2026-09-27T20:35:49+00:00",
-      "first_seen_at": "2026-09-27T23:49:47.512894+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "What does a 300+ robot deployment actually look like?",
-      "url": "https://www.youtube.com/watch?v=HpR3yKnYFhQ",
-      "summary": "What does a 300+ robot deployment actually look like? At Chimelong in Zhuhai, AGIBOT robots are performing, guiding visitors, answering questions and providing services across the resort. This is what embodied AI looks like when it leaves the demo floor and starts operating aroun",
-      "published_at": "2026-09-27T14:21:47+00:00",
-      "first_seen_at": "2026-09-27T15:30:03.539374+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Asimov’s laws are not enough to keep robotics and AI safe",
-      "url": "https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/",
-      "summary": "Some tech leaders and lawmakers are mirroring Asimov’s concern about threats that robotics and AI pose to society. Source: Rinaldo Brutoco, AI Most science fiction fans are aware that Isaac Asimov propounded his Three Laws of Robotics in the March 1942 issue of Astounding Science",
-      "published_at": "2026-09-27T12:26:44+00:00",
-      "first_seen_at": "2026-09-27T15:30:03.539374+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "The Persona Behind Every Company",
-      "url": "https://www.youtube.com/shorts/fI5Xa04T-Qc",
-      "summary": "Blackstone celebrates the investor. Palantir celebrates the engineer. Sequence Holdings CEO Michael Lee on No Priors: who a company celebrates decides who it can attract.",
-      "published_at": "2026-09-26T22:31:16+00:00",
-      "first_seen_at": "2026-09-26T23:39:23.285311+00:00"
     },
     {
       "source": "OpenAI Developer Blog",
