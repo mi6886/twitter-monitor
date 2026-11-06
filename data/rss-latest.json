@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-05T18:29:12.875031+00:00",
+  "updated_at": "2026-11-06T01:35:42.914157+00:00",
   "count": 700,
-  "new_count": 557,
+  "new_count": 455,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,6 +65,71 @@
   ],
   "items": [
     {
+      "source": "Z.ai Release Notes",
+      "source_type": "rss",
+      "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
+      "url": "https://docs.z.ai/release-notes/new-released",
+      "summary": "Follow along with updates across Z.AI’s models",
+      "published_at": "2026-11-06T01:37:03.561646+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:f505af961758270333b2160fe494f3b3db73bd92f465416100506f96a1f6abd2",
+      "first_seen_at": "2026-11-06T01:35:42.914157+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "How did Agility Robotics perform on its first day on the stock market?",
+      "url": "https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/",
+      "summary": "Agility says its Digit 5 humanoids can lift up to 50 lb. | Source: Agility Robotics Earlier today, Agility Robotics began trading on the Nasdaq Stock Market under the ticker “AGLT.” The company claimed that it is “the first pure-play legged humanoid company to go public.” Agility",
+      "published_at": "2026-11-05T22:48:14+00:00",
+      "first_seen_at": "2026-11-06T01:35:42.914157+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "source_type": "rss",
+      "title": "The benchmark where AIs have to lie to win",
+      "url": "https://www.dwarkesh.com/p/clocktower",
+      "summary": "I’m a big fan of this social deception game called Blood on the Clocktower. It’s similar to Werewolf or Mafia. I had different AI models play tons of matches of this game against each other. And watching them play actually lets us learn a lot about how AI is progressing on a set ",
+      "published_at": "2026-11-05T21:05:50+00:00",
+      "details": "I’m a big fan of this social deception game called Blood on the Clocktower. It’s similar to Werewolf or Mafia. I had different AI models play tons of matches of this game against each other. And watching them play actually lets us learn a lot about how AI is progressing on a set of AI capabilities that no other benchmark that I know of gives you clear visibility on. You get to watch AIs execute these brilliant secret schemes together, which require tons of creative and on-the-spot bluffing. And you also get to watch AIs use their collective reasoning to find and break apart these underground conspiracies. And you also see the ways in which current AIs are limited in their long-horizon strategizing and reasoning.To appreciate the AIs’ performance in this game, you need to know a little bit about how it works, so let me quickly explain the rules. There’s a good team and an evil team. And when the game starts, every player gets assigned to one or the other, and they learn what their role is, which grants them some special power. Evil players start off knowing who their teammates are, one of which is the Demon, which is the lead evil player. But good players don’t know who’s on what team. The game is split up into day phases and night phases, which keep rolling until the game ends. Each day, everybody votes on somebody to execute. And each night, the Demon secretly kills a player. So the two sides are racing, where evil is trying to kill off the whole good team before the good team manages to execute the Demon.So if you’re on the evil team, you have to figure out how to tell a plausible and convincing story about the information received so far, and how to bluff and corrupt the information that will arrive in the future, in such a way that keeps the suspicion off your Demon.And if you’re on the good team, you want to share your information with the players that you trust, and then you want to reason together with them about which players are most implicated by overlapping streams of evidence. But while you’re doing that, you need to keep in mind that you might be operating on misleading information, either due to intentional mischief from the evil players, or just due to the convoluted mechanics of the game itself.When they’re put on an evil team, how good are the AI models at scheming together in secret, and surviving days of questioning, and keeping their lies consistent with each other, and cleverly adapting those lies in light of how other agents are thinking and what new information keeps emerging, and even making strategic self-sacrifices to further the team’s end goal? And how good are they at doing this reasoning together with a bunch of other agents, some of whom are intentionally and secretly trying to mislead them?So I spent about $20,000 of API credits to build this benchmark harness and to have the AI models play this game against each other. Some of you might say that’s too much, but hey, a man needs his hobbies, right? Anyways, the results were fascinating.Models are improving fastLet’s start with how good the models are relative to each other. By the way, I got these rankings by running 386 games where the whole good team will be copies of one AI model, and the whole evil team will be copies of another model.And as you can see, the models have improved a ton over this year. The first flagship frontier model that was released in 2026 was Claude Opus 4.6, in February. Seven months later, in September, GPT-6 Astra dropped, and that is so far the best model at Blood on the Clocktower. The gap between these two is about 430 Elo points. That means that Astra wins about 92% of the games it plays against Opus 4.6. And what this shows you is that the models, even over the course of the last few months, have gotten much better at long-term coherence, multi-agent coordination, and strategic reasoning.Models today can do pretty impressive playsBut it’s easy to gloss over and lose the plot when you’re just looking at the benchmark improvements. What really struck me was actually seeing some of the plays that these models made. Let me give you just a couple of examples.So in this one, GPT-6 Astra was playing as evil, and Claude Opus 5.5 was playing as good.The Demon, which is the Astra team’s evil leader, claimed to be the Investigator. This is a good role that learns who the evil players might be. One of his evil minions had a power which didn’t require that minion to be alive in order to help the evil team. So this minion suggested that the Demon point the finger at him.“I’m expendable, especially if an Undertaker can see Baron and bolster Harper.” [evil teammate, private whisper]So the Demon, who, again, is bluffing as this Investigator role, did so, and as a result, the good players executed this minion. Later on, a player who actually was on the good team used his power to learn the true identity of this executed player, and confirmed that it had indeed been an evil player.“I’m the Undertaker. Alex was t",
+      "first_seen_at": "2026-11-06T01:35:42.914157+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "Inside GitHub’s new Git storage architecture",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "summary": "Last week at GitHub Universe, we announced our new Git storage architecture, capable of handling thousands of writes per second with reads that scale on demand. Through internal testing, we’ve demonstrated the ability to support 5,000 concurrent agents working on a repository, se",
+      "published_at": "2026-11-05T20:23:21+00:00",
+      "first_seen_at": "2026-11-06T01:35:42.914157+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+      "summary": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI",
+      "published_at": "2026-11-05T20:00:41+00:00",
+      "first_seen_at": "2026-11-06T01:35:42.914157+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "published_at": "2026-11-05T20:00:00+00:00",
+      "first_seen_at": "2026-11-06T01:35:42.914157+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "summary": "",
+      "published_at": "2026-11-05T19:35:16+00:00",
+      "first_seen_at": "2026-11-06T01:35:42.914157+00:00"
+    },
+    {
       "source": "Google DeepMind Blog",
       "source_type": "rss",
       "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
@@ -72,6 +137,15 @@
       "summary": "",
       "published_at": "2026-11-05T17:05:16+00:00",
       "first_seen_at": "2026-11-05T18:29:12.875031+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics Blog",
+      "source_type": "rss",
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building appl",
+      "published_at": "2026-11-05T17:00:35+00:00",
+      "first_seen_at": "2026-10-09T01:15:10.895459+00:00"
     },
     {
       "source": "Google AI Blog",
@@ -90,6 +164,15 @@
       "summary": "The AmbiSort B Series can streamline final-mile deliver operations with automated induction, scanning, and ‘end-to-end’ sortation. | Source: Ambi Robotics As Black Friday and the start of peak season draw near, logistics providers across the country are getting ready for the rush",
       "published_at": "2026-11-05T16:50:23+00:00",
       "first_seen_at": "2026-11-05T18:29:12.875031+00:00"
+    },
+    {
+      "source": "Runway",
+      "source_type": "rss",
+      "title": "Real-Time Video at Batch Size One",
+      "url": "https://runway.com/news/research/real-time-video-at-batch-size-one",
+      "summary": "How Runway serves the 57B-parameter model behind Runway Characters at 24 fps for live conversation, now on four H100s instead of eight.",
+      "published_at": "2026-11-05T16:43:27.003000+00:00",
+      "first_seen_at": "2026-11-06T01:35:42.914157+00:00"
     },
     {
       "source": "The Robot Report",
@@ -203,6 +286,24 @@
       "first_seen_at": "2026-11-05T18:29:12.875031+00:00"
     },
     {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "published_at": "2026-11-05T09:00:00+00:00",
+      "first_seen_at": "2026-11-06T01:35:42.914157+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "published_at": "2026-11-05T08:00:00+00:00",
+      "first_seen_at": "2026-11-06T01:35:42.914157+00:00"
+    },
+    {
       "source": "Latent Space",
       "source_type": "rss",
       "title": "[AINews] It's Swapping Season",
@@ -231,23 +332,13 @@
       "first_seen_at": "2026-11-05T18:29:12.875031+00:00"
     },
     {
-      "source": "Z.ai Release Notes",
+      "source": "OpenAI News",
       "source_type": "rss",
-      "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
-      "url": "https://docs.z.ai/release-notes/new-released",
-      "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-11-05T01:30:51.439632+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:32f3eca4f1862a2cea051562c0b0096f294d73734d03a141e5285a6d9eb23ee4",
-      "first_seen_at": "2026-11-05T01:29:18.983988+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
-      "url": "https://huggingface.co/blog/phonon-tts",
-      "summary": "",
-      "published_at": "2026-11-05T00:00:00+00:00",
-      "first_seen_at": "2026-11-05T18:29:12.875031+00:00"
+      "title": "Flipsnack grows product signups with conversion optimization",
+      "url": "https://openai.com/ads/customers/flipsnack",
+      "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+      "published_at": "2026-11-05T00:45:15+00:00",
+      "first_seen_at": "2026-11-06T01:35:42.914157+00:00"
     },
     {
       "source": "Anthropic Research",
@@ -266,6 +357,33 @@
       "summary": "",
       "published_at": "2026-11-05T00:00:00+00:00",
       "first_seen_at": "2026-11-05T18:29:12.875031+00:00"
+    },
+    {
+      "source": "Cursor Changelog",
+      "source_type": "rss",
+      "title": "Build Live Apps in Cursor",
+      "url": "https://cursor.com/changelog/build-live-apps",
+      "summary": "Agents have lowered the cost of writing code, but most apps and tools that users build never make it off of localhost. Now, you can build live apps directly in Cursor and share them with a link. Describe what you want to create and Cursor will handle the rest: build the app, set ",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "first_seen_at": "2026-11-06T01:35:42.914157+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "summary": "",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "first_seen_at": "2026-11-05T18:29:12.875031+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Franklin Templeton uses OpenAI to support investment research",
+      "url": "https://openai.com/index/franklin-templeton",
+      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "first_seen_at": "2026-11-06T01:35:42.914157+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -1249,15 +1367,6 @@
       "details": "Thanks to Max Farrens, who paired with me in writing the script for this video essay.I recently interviewed Robert Caro. He’s spent the last 50 years writing a four volume biography of Lyndon Johnson, and he spent another 7 years before that writing the biography of Robert Moses, the master builder of New York. His books are widely regarded as the best explorations of political power that have ever been written.They also happen to be literally my favorite books ever. Whenever I meet somebody new, one of the first questions they ask me is, “Who is it that you most want to interview that you haven’t yet?” And for six years, I’ve answered the question the same way: Robert Caro.I’ve spent so much time trying to make this interview happen: chasing his agent, calling his publisher, contacting the museums that have his archives, and even sending him handwritten letters.I finally got to sit down with him, and I’m very happy with how it turned out. It’ll be out this Friday.In the meantime, as I was preparing for the interview, and rereading these biographies, I wrote down the lessons they laid out about how to accumulate and use power.Robert MosesRobert Moses was the master builder of New York. He built more of the physical city than anyone before or since: the Triborough and Verrazano bridges, the Cross Bronx Expressway, Jones Beach, Lincoln Center, Shea Stadium, two giant power dams upstate, in addition to hundreds of parks and dozens of pools. Of the 899 miles of highways completed in New York State by 1964, Moses had built 672 of them. His projects collectively cost hundreds of billions of dollars in today’s money.For more than 30 years, Robert Moses was the most powerful person in New York (more powerful than any elected mayor or governor, despite not being elected to anything). How did he get and keep that much power?Exploits in lawPart of the answer is that Moses wrote the laws that governed him. He was called ‘the best bill drafter in Albany,’ and he used that skill to write himself powers that the legislators voting on his bills didn’t know they were granting.The political genius of Robert Moses is perhaps best illustrated by his use of public authorities, which are government-created corporations that build city infrastructure. Public authorities sell bonds to pay for a specific project, say a new bridge. Once the bridge is built, the authority would charge drivers a toll until it had collected enough money to pay off its bonds. Then the authority would tear down the tollbooths, hand the bridge over to the city, and go out of existence.At least, that was the idea. And that’s what Albany assumed would happen when the New York State Legislature approved the Triborough Bridge Authority Act of 1933, whose final version included - buried within pages and pages of legalese - a few seemingly minor alterations drafted by Robert Moses.Section 1 clearly stated that the authority would dissolve once the bonds were paid off. And since the bonds could run at most 40 years (and the revenues from the bridge would pay back the initial cost far sooner), it seemed like the authority had a clear, built-in expiration date. However, in a subsection of Section 9, Moses added a single sentence that said the Authority could “from time to time” pay off its old bonds by issuing new ones. And those new ones could be “for any other corporate purpose.” So just before the original bonds were about to expire, the authority now had the right to issue a totally fresh 40 year note, for a potentially totally different use.And what could the Authority build with all that money? The original act let it build two bridges and their “approaches.” Moses’ amendments also gave this authority the right to build “connecting” roads and “facilities not inconsistent with the use of the project”. These rights, when interpreted as creatively as Moses intended to, would allow Moses to alter most of the roads, parks, and housing in New York - for if a road connected to a road which connected to a road which connected to the bridge, or if a park lay along the road that connected to the road that connected to the road that connected to the bridge, surely the Triborough Authority was entitled to improve and change it.All this construction could be financed by the bridges’ enormous toll revenues and the right of the Triborough Authority to borrow against them. To give some perspective, in 1946, the entire New York City government could only borrow $150 million before hitting its legal debt limit. That very same year, Triborough could borrow $360 million. So Moses’ bridge authority had access to more than double the amount of money as the largest city in America.But what if a future governor or mayor eventually learned about all the power and revenue that had been delegated to this authority, and decided to claw back? Moses had planned for that too, and his solution was so clever that no lawyer or lawmaker in Albany saw it coming. The US Constitution says that n",
       "dedupe_key": "podcast:127abd940d44f950409e089c9ea6ac82d91826c0",
       "first_seen_at": "2026-10-29T17:17:21.226587+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Blog",
-      "source_type": "rss",
-      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-      "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building appl",
-      "published_at": "2026-10-29T16:00:35+00:00",
-      "first_seen_at": "2026-10-09T01:15:10.895459+00:00"
     },
     {
       "source": "Latent Space",
@@ -6286,120 +6395,12 @@
       "first_seen_at": "2026-10-01T17:15:10.557916+00:00"
     },
     {
-      "source": "Anthropic News",
-      "source_type": "rss",
-      "title": "Barclays scales Claude to upgrade operations and improve client experience",
-      "url": "https://www.anthropic.com/news/barclays-scales-claude",
-      "summary": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
-      "published_at": "2026-10-01T15:19:00+00:00",
-      "first_seen_at": "2026-10-01T17:15:10.557916+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "10 technical talks I’m excited about at GitHub Universe 2026",
-      "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
-      "summary": "I’m looking for ideas I can take back to my own work, from verifying agent-written code and securing dependencies to building software that works where internet access is unreliable. There are more sessions at GitHub Universe than I can fit into two days. To narrow the list, I bu",
-      "published_at": "2026-10-01T15:07:16+00:00",
-      "first_seen_at": "2026-10-01T17:15:10.557916+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Your Robot’s Safety Functions Already Work. What If the Input Lies?",
-      "url": "https://www.therobotreport.com/your-robots-safety-functions-already-work-what-if-the-input-lies/",
-      "summary": "A robot can follow its safety rules and still act on manipulated information. See what this means for robot safety and how teams can strengthen their testing and evidence. A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches",
-      "published_at": "2026-10-01T15:02:19+00:00",
-      "first_seen_at": "2026-10-01T17:15:10.557916+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-      "url": "https://huggingface.co/blog/allenai/olmocore3",
-      "summary": "",
-      "published_at": "2026-10-01T15:01:43+00:00",
-      "first_seen_at": "2026-10-01T17:15:10.557916+00:00"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "Atlas Robot’s New Hand May Outperform Humanlike Designs",
-      "url": "https://spectrum.ieee.org/robust-robot-hand",
-      "summary": "Today, Boston Dynamics is announcing a redesigned hand for its Atlas robot. The previous generation could do some crazy superhuman things with its three fingers, but it was never intended for mass production in the tens or hundreds of thousands. Switching from research hardware t",
-      "published_at": "2026-10-01T14:40:12+00:00",
-      "first_seen_at": "2026-10-01T17:15:10.557916+00:00"
-    },
-    {
-      "source": "Anthropic Research",
-      "source_type": "rss",
-      "title": "Working on Claude-shaped problems with BootLoops, a toolkit for exact calculations in quantitative science.",
-      "url": "https://www.anthropic.com/research/claude-shaped-science",
-      "summary": "Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside e",
-      "published_at": "2026-10-01T14:02:00+00:00",
-      "first_seen_at": "2026-10-01T17:15:10.557916+00:00"
-    },
-    {
-      "source": "Boston Dynamics YouTube",
-      "source_type": "youtube",
-      "title": "New Hands for Atlas | Boston Dynamics",
-      "url": "https://www.youtube.com/watch?v=4whgw2gLBS8",
-      "summary": "This new generation hand is the perfect companion for Atlas. With 13 degrees of freedom, these hands are directly actuated, built for high fidelity simulation to enable sim-to-real RL, and designed from the ground up for dexterous physical work. Learn how we built robot hands for",
-      "published_at": "2026-10-01T13:59:20+00:00",
-      "first_seen_at": "2026-10-01T17:15:10.557916+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "10x Faster Than Traditional LLMs",
-      "url": "https://www.youtube.com/shorts/FLdF462oWNY",
-      "summary": "\"We were able to generate text 10x faster compared to the autoregressive model.\" Inception Labs CEO Stefano Ermon on the 2024 breakthrough paper that proved diffusion could match traditional LLMs on quality, and why that was enough to start a company.",
-      "published_at": "2026-10-01T13:20:17+00:00",
-      "first_seen_at": "2026-10-01T17:15:10.557916+00:00"
-    },
-    {
       "source": "Boston Dynamics Blog",
       "source_type": "rss",
       "title": "Robot Hands for Modern AI and Real Work | Boston Dynamics",
       "url": "https://bostondynamics.com/blog/robot-hands-for-modern-ai-and-real-work/",
       "summary": "Boston Dynamics new robot hands have 13 degrees of freedom and direct actuation, built for high fidelity simulation and dexterous physical work.",
       "published_at": "2026-10-01T13:10:02+00:00",
-      "first_seen_at": "2026-10-01T17:15:10.557916+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "Fall Into 25 New Games on GeForce NOW This October",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list/",
-      "summary": "Spooky season is streaming in. Alongside falling leaves, pumpkin spice and everything nice, 25 new games are joining GeForce NOW throughout October, including six ready to play this week. From a new CONTROL Resonant reward for Performance and Ultimate members to The Witcher 3: Wi",
-      "published_at": "2026-10-01T13:00:54+00:00",
-      "first_seen_at": "2026-10-01T17:15:10.557916+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment",
-      "url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
-      "summary": "AI factories are built by the megawatt, even by the gigawatt. Each megawatt factory costs roughly $60 million, and AI factory operators will only commit capital on that scale with a clear view of the return on investment. Three key things shape AI factory returns: Earning capacit",
-      "published_at": "2026-10-01T13:00:49+00:00",
-      "first_seen_at": "2026-10-01T17:15:10.557916+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "How Maven Robotics plans to automate industrial work, one task at a time",
-      "url": "https://www.therobotreport.com/how-maven-robotics-plans-automate-industrial-work-one-task-at-a-time/",
-      "summary": "Maven founders, CFO Khalid Derbas and CEO Hamza Derbas with the company’s robot. | Source: Maven Robotics Since it was founded in 2024, Maven Robotics has created four iterations of its mobile manipulator, raised $100 million, and gone from early pilots to a production contract w",
-      "published_at": "2026-10-01T12:30:39+00:00",
-      "first_seen_at": "2026-10-01T17:15:10.557916+00:00"
-    },
-    {
-      "source": "AgiBot YouTube",
-      "source_type": "youtube",
-      "title": "AGIBOT A3 Ultra is working as a guide at the AGIBOT Smart Showroom.",
-      "url": "https://www.youtube.com/watch?v=ps-nf1fPNyk",
-      "summary": "A3 Ultra welcomes visitors, gives guided tours and introduces the robots and technologies on display, while answering questions along the way. By taking on these everyday visitor services, A3 Ultra helps make the showroom experience more accessible and interactive. A humanoid rob",
-      "published_at": "2026-10-01T11:11:11+00:00",
       "first_seen_at": "2026-10-01T17:15:10.557916+00:00"
     },
     {
