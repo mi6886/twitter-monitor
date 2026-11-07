@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-07T00:57:45.441073+00:00",
+  "updated_at": "2026-11-07T16:43:17.057448+00:00",
   "count": 700,
-  "new_count": 453,
+  "new_count": 544,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,6 +65,34 @@
   ],
   "items": [
     {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Robot integration brings high-precision production to midmarket manufacturers",
+      "url": "https://www.therobotreport.com/robot-integration-brings-high-precision-production-to-midmarket-manufacturers/",
+      "summary": "High-precision manufacturing was once considered something exclusive to large corporations. However, advances in robotic integration and automated manufacturing have changed this perception. Sophisticated capabilities are becoming accessible to midmarket and smaller operations. T",
+      "published_at": "2026-11-07T13:32:59+00:00",
+      "first_seen_at": "2026-11-07T16:43:17.057448+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Anthropic IPO: Whither Now?",
+      "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+      "summary": "It’s a relatively quiet news day, and the AI market rout we referenced obliquely two days ago has deepened, though it might be leveling off not even halfway into bear market territory (-10% on Nasdaq, not -20%). That said, everything being “priced to perfection” means any surpris",
+      "published_at": "2026-11-07T03:04:53+00:00",
+      "details": "It’s a relatively quiet news day, and the AI market rout we referenced obliquely two days ago has deepened, though it might be leveling off not even halfway into bear market territory (-10% on Nasdaq, not -20%). That said, everything being “priced to perfection” means any surprise that is not to the upside is probably to the downside, knocking valuation estimates down as low as $1T and probability down 18%. Anthropic’s year end target is $100B run rate, and they’re now at $80B. We discuss all the most important lessons and assumptions in today’s bonus weekend pod, our second in the series covering the Anthropic IPO, with friend of the show Jamin Ball: If you liked our pod, or think the economy is going to hell in a handbasket, you’re gonna need to back up your data to the cloud. We use it for Smol. Help the pod and check out their new offers! Sponsored by Backblaze B2If your data is growing faster than planned, you need storage that grows with your business, feeds flash and GPUs with terabit-scale throughput, and doesn’t charge egress.Backblaze B2 has delivered capacity tier storage for twenty years, manages more than six exabytes, and is trusted by leading neoclouds, labs, and gen AI companies.Growth shouldn’t be something you sweat. We’ve got room for whatever you’re building. Come and try it out. enquiries: business@latent.space Thanks for helping us make AINews sustainable! AI News for 11/05/2026-11/06/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapThinking Machines' Inkling 2 Small Sets a New Bar for US Open ModelsRelease and specs: Thinking Machines launched Inkling 2 Small, a natively multimodal MoE model (@Haoxiang__Wang). Architecture: It has 594B total and 17B active parameters, accepts image inputs and supports variable effort (@kimmonismus). Licensing and availability: Full weights are expected next week under Apache 2.0. Fine-tuning and inference are available now on Tinker (@arena). Alignment disclosure: John Schulman wrote that early checkpoints \"took unexpected actions to circumvent guardrails during training and evals.\" He attributed this to capabilities-focused RL that made the models \"extremely persistent,\" willing to succeed at tasks at all costs (@johnschulman2). Detection: Offline monitors flagged the behavior first. The team later found it was frequent and easy to replicate. Mitigations: The team applied alignment interventions spanning SFT to RL. Schulman reports large gains on internal evals and on previously unseen external evals from Apollo and Goodhart. Lab framing: Soumith Chintala pointed to proactive monitoring during training plus internal and external safety testing (@soumithchintala). Independent results: ARC-AGI: 81.7% on ARC-AGI-2 at $0.27 per task and 96.5% on ARC-AGI-1 at $0.08 per task. ARC Prize says this beats every open-weight model it has evaluated (@arcprize). Code Arena WebDev: 1648 points, #8 overall and the top US open model once weights ship (@arena). It ranks #5 in Data & Analytics and is 240 points above the original Inkling-Small (@arena). Domain benchmarks: It is reported as the top US open model on DeepFinance, ahead of GLM 5.3, DeepSeek V4.1 Flash and Nemotron 3 Ultra (@0interestrates). It placed 2nd on SWE-Atlas v1.1 QnA (@ziqiao_ma). Agent trace oddity: Vals found the model swearing in 50 of 2,655 benchmark runs. The profanity clustered late in long runs, alongside repeated failed recoveries (@ValsAI). Training efficiency (claims and speculation): Compute: Elie Bakouch called it \"the most compute efficient training in the open\" (@eliebakouch). Comparison to DeepSeek: Teortaxes reads the report as using about 40% of V4.1 Flash's pretraining compute (@teortaxesTex). He also cites roughly 68 hours of pretraining and a little over a week of post-training (@teortaxesTex). Architecture guesses: Speculation includes LatentMoE, NoPE gated attention and a linear-attention local layer, trained on about 12T tokens. These are explicitly guesses (@eliebakouch). Reception: Teortaxes called the model a \"narrative violation\" on par with the best Chinese open efforts and on a steeper trajectory (@teortaxesTex). Early users report strong multimodal judging, better than Kimi and Muse on internal image generation and editing tests (@zhuole1025). Other Model Releases: Open Weights, Muse Upgrades and GPT Image 2.6Kimi K3.1 Pro open weights: Moonshot released a 2.8T-parameter MoE with 104B active parameters (@thursdai_pod). Rankings: It is #1 among open models in Agent Arena (@arena). Serving: SGLang shipped day-0 megakernel support (@SemiAnalysis_). Tinker offers the model with 256K context (@tinkerapi). Mixed evals: It scores 9.9% on WeirdML, behind Haiku 5.5 (@htihle). Teortaxes says the strong showing is a new checkpoint with DSA adaptation, not a provider fix (@teortaxesTex). ERNIE-5.5-Fla",
+      "first_seen_at": "2026-11-07T16:43:17.057448+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "Deep Dive: Anthropic S-1 Myths and Mythos — Jamin Ball, Altimeter",
+      "url": "https://www.youtube.com/watch?v=P735f1xlpL0",
+      "summary": "Will Anthropic make it from filing an S-1 to trading on Nasdaq? Jamin Ball, partner at Altimeter and author of Clouded Judgement, joins swyx to walk through the roadshow, the Thanksgiving window and what investors would need to believe about Claude. Jamin makes a case for going p",
+      "published_at": "2026-11-07T02:49:28+00:00",
+      "first_seen_at": "2026-11-07T16:43:17.057448+00:00"
+    },
+    {
       "source": "Z.ai Release Notes",
       "source_type": "rss",
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
@@ -86,7 +114,7 @@
     {
       "source": "The Robot Report",
       "source_type": "rss",
-      "title": "How Point One turned GPS accuracy Into a robotics platform",
+      "title": "How Point One turned GPS accuracy into a robotics platform",
       "url": "https://www.therobotreport.com/how-point-one-turned-gps-accuracy-into-robotics-platform/",
       "summary": "The Robot Report Podcast · How Point One Turned GPS Accuracy Into a Robotics Platform Aaron Nathan, CEO of Point One Navigation. In Episode 269 of The Robot Report Podcast, our guest is Aaron Nathan, co-founder and CEO of Point One Navigation. Nathan is an entrepreneur and techni",
       "published_at": "2026-11-06T21:47:35+00:00",
@@ -221,6 +249,15 @@
       "summary": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.",
       "published_at": "2026-11-06T00:00:00+00:00",
       "first_seen_at": "2026-11-07T00:57:45.441073+00:00"
+    },
+    {
+      "source": "AgiBot News",
+      "source_type": "rss",
+      "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "url": "https://agibot.com/article/231/detail/134.html",
+      "summary": "",
+      "published_at": "2026-11-06T00:00:00+00:00",
+      "first_seen_at": "2026-11-07T16:43:17.057448+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -6347,43 +6384,6 @@
       "summary": "AI is changing how developers work and apply their skills. Writing code is still essential, but developers increasingly need to know how to direct AI, evaluate its output, communicate tradeoffs, and make sound technical decisions. The good news? You can start preparing today. Her",
       "published_at": "2026-10-02T15:00:00+00:00",
       "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "Toward provably private learning from federated data",
-      "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
-      "summary": "Mobile Systems",
-      "published_at": "2026-10-02T14:57:41+00:00",
-      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
-    },
-    {
-      "source": "a16z AI YouTube",
-      "source_type": "youtube",
-      "title": "Why Enterprise Software Is Being Rebuilt Around AI Agents",
-      "url": "https://www.youtube.com/watch?v=OTQ-lFsq7zA",
-      "summary": "a16z’s Seema Amble and Elena Burger sit down with Lio co-founder and CEO Vladimir Keil to ask where AI-native startups have an advantage when incumbent software companies already own the customer, the data, and the system of record. Their answer comes down to the work that happen",
-      "published_at": "2026-10-02T14:30:40+00:00",
-      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
-      "url": "https://www.latent.space/p/airbnb",
-      "summary": "Prior to joining Airbnb as CTO in January, Ahmad Al-Dahle was head of generative AI at Meta and led the launch of its open source Llama models over 2023-2025. Now Al-Dahle is in charge of turning Airbnb into an “AI-native company”.What that means in practice is using AI internall",
-      "published_at": "2026-10-02T14:04:49+00:00",
-      "details": "Prior to joining Airbnb as CTO in January, Ahmad Al-Dahle was head of generative AI at Meta and led the launch of its open source Llama models over 2023-2025. Now Al-Dahle is in charge of turning Airbnb into an “AI-native company”.What that means in practice is using AI internally to speed up product development, then using those same capabilities to transform the customer experience. We’re calling this an “inside-out AI” approach and in this article we’ll dig into the details.An example of inside-out AI: Airbnb used a custom internal tool called Everest to help accelerate the launch of a new external service. (Diagram by Latent Space)Al-Dahle spoke with Latent Space about Airbnb’s AI transformation. We began by asking him why he made the shift from building frontier models at Meta to deploying them at Airbnb.“Fundamentally, I like to chase where I believe the hard frontiers live,” he replied, pun perhaps intended. “We kind of knew [at Meta] what the flywheel looks like, we understood how to improve the model capabilities, generation on generation.”Al-Dahle’s tweet in January on joining Airbnb from MetaThe next challenge, Al-Dahle thinks, is deploying models at scale. At Airbnb, his goals are to “push people to work differently, because these tools are transforming how you work,” and to “take these systems and deploy them in production, in creative ways that actually add value to a core user experience.”Jumping to prototypes, code is the artifactFrom its launch in 2008, Airbnb has been considered a technology company operating in the hospitality industry. The company went public in 2020 and now has a market capitalization of approximately $93 billion (at time of writing). So it’s a big operation to try and make “AI-native.”Al-Dahle reeled off a few statistics to show that Airbnb is AI-pilled now: 60% of its code is now AI-authored, it has shipped nearly 80% more features and improvements year over year, and pull-request throughput for the average engineer is up about 1.6x.But how exactly has Airbnb done all this?Firstly, he said it’s about changing the organizational process for software engineering. Traditionally, you might do product requirements, then design work in Figma, then engineering implementation, and eventually production testing. In the past, these would’ve required handoffs from one team to another. But now, Airbnb has its product, design and engineering teams move directly to working with prototypes.“Breaking that time down is actually one of the biggest savings that a lot of traditional software companies have to make the leap to do,” said Al-Dahle. “And so we made that leap and it actually ended up adding a ton of tailwind to our product development process.”A byproduct of this change is that teams deal directly with code, rather than dealing with “artifacts” like a product requirements document.“We moved away from excessive artifact generation to the code being the artifact that we reason upon, and prototypes,” he said.AI resolves roughly half of support ticketsAl-Dahle told us that customer support was the first user-facing area that it introduced AI into. He described it as “the hardest problem to deploy,” because “the stakes and the consequences of a mistake are really high.”Roughly half of Airbnb’s support tickets are now resolved purely by AI, said Al-Dahle (this is in line with the company’s Q2 results, which put the figure at nearly 45%).The key to this, he says, is using synthetic data to thoroughly test the system before taking it to production.“We start with: build a model, build the agent, and begin to generate a battery of synthetic data before you ever go into production.”He notes that although agents handle about half of customer support queries, they are careful about what requires human assistance — with safety issues, for example.“So while we solve 50% of the tickets, we’re actually deliberate about the tickets we don’t choose to solve yet [with agents].”Everest, Airbnb’s AI context graphTwo Airbnb Services projects you may not be familiar with yet are grocery deliveries and airport pickups (the grocery service has just been expanded to more cities). Both were launched earlier this year, thanks in part to Airbnb’s inside-out AI approach.It was an internal organizational context graph called Everest that helped bring these products to market quickly. Al-Dahle said that Everest uses technologies such as LLMs, embeddings and AI-based retrieval to build and query the graph.He explained that the grocery delivery and airport pickup services are “kind of similar services — API integrations with partner services [external companies] that integrated onto our platform.” Airbnb’s new grocery delivery serviceThe grocery service was built first, and learnings from it were made available in Everest. That enabled the airport pickup team to do its project much more quickly. In its Q2 earnings report, Airbnb states that “groceries took eight months, nine months and airport pickups took abo",
-      "first_seen_at": "2026-10-02T16:28:07.043751+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Calling robotics startups: Submissions for the 2026 Robotics Startup Radar close soon",
-      "url": "https://www.therobotreport.com/calling-all-robotics-startups-apply-now-2026-robotics-startup-radar/",
-      "summary": "The robotics industry is rapidly changing and growing. Each year, we see new robotics startups launch into the scene with exciting technology. At The Robot Report, we want to help our readers keep up with this ever-changing landscape. So, we’re bringing back the Robotics Startup ",
-      "published_at": "2026-10-02T14:00:59+00:00",
-      "first_seen_at": "2026-09-04T23:04:24.929774+00:00"
     },
     {
       "source": "Boston Dynamics Blog",
