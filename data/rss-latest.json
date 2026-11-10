@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-09T21:16:16.179349+00:00",
+  "updated_at": "2026-11-10T03:37:12.812785+00:00",
   "count": 700,
-  "new_count": 562,
+  "new_count": 464,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,15 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
+      "url": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/",
+      "summary": "A range of developers, including RLWRLD, Skild AI, and Flexion, are already using NVIDIA’s latest technology. | Source: NVIDIA NVIDIA Corp. today introduced GR00T 2, its updated open frontier world action model, and Isaac Lab 3.0, the latest version of its open-source robot learn",
+      "published_at": "2026-11-09T21:52:05+00:00",
+      "first_seen_at": "2026-11-10T03:37:12.812785+00:00"
+    },
     {
       "source": "Z.ai Release Notes",
       "source_type": "rss",
@@ -195,13 +204,22 @@
       "first_seen_at": "2026-11-09T21:16:16.179349+00:00"
     },
     {
-      "source": "NVIDIA Blog",
+      "source": "NVIDIA Robotics Blog",
       "source_type": "rss",
       "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
       "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
       "summary": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is ",
       "published_at": "2026-11-09T14:00:01+00:00",
       "first_seen_at": "2026-11-09T21:16:16.179349+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "published_at": "2026-11-09T13:00:00+00:00",
+      "first_seen_at": "2026-11-10T03:37:12.812785+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -217,7 +235,7 @@
       "source_type": "rss",
       "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
       "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
-      "summary": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Ryu Je-myung, vice minister of science and ICT, joined NVIDIA leaders to meet with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI s",
+      "summary": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Representatives from the Ministry of Science and ICT and NVIDIA met with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconduct",
       "published_at": "2026-11-09T08:00:53+00:00",
       "first_seen_at": "2026-11-09T21:16:16.179349+00:00"
     },
@@ -229,6 +247,15 @@
       "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
       "published_at": "2026-11-09T08:00:00+00:00",
       "first_seen_at": "2026-11-09T21:16:16.179349+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "first_seen_at": "2026-11-10T03:37:12.812785+00:00"
     },
     {
       "source": "NVIDIA Robotics Blog",
@@ -292,6 +319,15 @@
       "summary": "More Realistic Images, More Stable Editing Across 100 Rounds | Introducing Seedream 5.5",
       "published_at": "2026-11-09T00:00:00+00:00",
       "first_seen_at": "2026-11-09T21:16:16.179349+00:00"
+    },
+    {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "Claude can design electronic prototypes from start to finish",
+      "url": "https://www.anthropic.com/research/claude-electronics-design",
+      "summary": "We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.",
+      "published_at": "2026-11-09T00:00:00+00:00",
+      "first_seen_at": "2026-11-10T03:37:12.812785+00:00"
     },
     {
       "source": "Latent Space",
@@ -528,15 +564,6 @@
       "first_seen_at": "2026-11-07T00:57:45.441073+00:00"
     },
     {
-      "source": "Anthropic Research",
-      "source_type": "rss",
-      "title": "The components of agent memory",
-      "url": "https://www.anthropic.com/research/components-of-agent-memory",
-      "summary": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.",
-      "published_at": "2026-11-06T00:00:00+00:00",
-      "first_seen_at": "2026-11-07T00:57:45.441073+00:00"
-    },
-    {
       "source": "AgiBot News",
       "source_type": "rss",
       "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
@@ -544,6 +571,15 @@
       "summary": "",
       "published_at": "2026-11-06T00:00:00+00:00",
       "first_seen_at": "2026-11-07T16:43:17.057448+00:00"
+    },
+    {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "The components of agent memory",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "summary": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.",
+      "published_at": "2026-11-06T00:00:00+00:00",
+      "first_seen_at": "2026-11-07T00:57:45.441073+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -6363,42 +6399,6 @@
       "summary": "",
       "published_at": "2026-10-06T00:00:00+00:00",
       "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "source_type": "rss",
-      "title": "Remote control for local agents",
-      "url": "https://cursor.com/changelog/remote-control-local-agents",
-      "summary": "You can now see and reply to the local agents running on your computer from the Cursor iOS app. Get started Remote Control is on by default for everyone except Enterprise organizations. Download the Cursor iOS app and sign in. Computers on your account appear in the app automatic",
-      "published_at": "2026-10-06T00:00:00+00:00",
-      "first_seen_at": "2026-10-07T00:45:57.599984+00:00"
-    },
-    {
-      "source": "Agility Robotics",
-      "source_type": "rss",
-      "title": "Agility Robotics to Livestream Analyst & Investor Day Today | Agility",
-      "url": "https://www.agilityrobotics.com/content/agility-robotics-to-livestream-analyst-investor-day-today",
-      "summary": "",
-      "published_at": "2026-10-06T00:00:00+00:00",
-      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Teradyne invests in Bright Machines to bring robotics to AI infrastructure manufacturing",
-      "url": "https://www.therobotreport.com/teradyne-invests-ibright-machines-brings-robotics-ai-infrastructure-manufacturing/",
-      "summary": "Bright Factory is an intelligent manufacturing platform connecting design, automation, and data. | Source: Bright Machines Teradyne Inc. today announced a strategic investment in Bright Machines Inc., a builder of AI and data center infrastructure. The companies are also launchin",
-      "published_at": "2026-10-05T23:34:35+00:00",
-      "first_seen_at": "2026-10-06T01:46:30.807569+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
-      "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
-      "summary": "Generative AI",
-      "published_at": "2026-10-05T21:08:00+00:00",
-      "first_seen_at": "2026-10-06T01:46:30.807569+00:00"
     },
     {
       "source": "Runway Research",
