@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-10T03:37:12.812785+00:00",
+  "updated_at": "2026-11-10T18:27:11.983271+00:00",
   "count": 700,
-  "new_count": 464,
+  "new_count": 553,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,6 +65,188 @@
   ],
   "items": [
     {
+      "source": "Z.ai Release Notes",
+      "source_type": "rss",
+      "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
+      "url": "https://docs.z.ai/release-notes/new-released",
+      "summary": "Follow along with updates across Z.AI’s models",
+      "published_at": "2026-11-10T18:27:38.426345+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:b28af668eab7dc0c82742fc02f628ecc05253121e07bae19e056e9904359606c",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "Git security vulnerabilities announced",
+      "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+      "summary": "Today, the Git project is releasing new versions to address six security vulnerabilities. These include arbitrary code execution when recursively cloning a malicious repository, writes to unintended files, and memory corruption when processing merges or binary patches. The fixes ",
+      "published_at": "2026-11-10T18:00:00+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "MiniMax Blog",
+      "source_type": "rss",
+      "title": "MiniMax H3-Image: Bringing 4K Image Generation into the 10-Second Era - MiniMax Research",
+      "url": "https://www.minimax.io/blog/minimax-h3-image",
+      "summary": "Today, we're releasing MiniMax H3-Image, an open-weight image generation model built on H3. It supports text-to-image generation, reference-based generation, and image editing.",
+      "published_at": "2026-11-10T16:23:20+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Why predictive maintenance matters more as factories add robots",
+      "url": "https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/",
+      "summary": "Robot data combined with predictive analytics can improve uptime and productivity, says ATS. Source: Pexels, Advanced Technology Services Factories are adding more robots because they can handle repetitive, precise, and physically demanding work at high speed. As robotics take on",
+      "published_at": "2026-11-10T16:13:40+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "source_type": "rss",
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "summary": "",
+      "published_at": "2026-11-10T16:03:47+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "summary": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon, the f",
+      "published_at": "2026-11-10T16:00:03+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics Tech Blog",
+      "source_type": "rss",
+      "title": "Running AV Reasoning Models Within Onboard Compute and Latency Limits",
+      "url": "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits/",
+      "summary": "Autonomous vehicle (AV) developers need reasoning models that can operate within the compute and latency constraints of an onboard system. Larger models provide a foundation for developing these capabilities, but moving them into a vehicle requires additional work to reduce model",
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "a16z AI YouTube",
+      "source_type": "youtube",
+      "title": "Where Startups Can Win Beyond OpenAI and Anthropic | HubSpot’s Dharmesh Shah",
+      "url": "https://www.youtube.com/watch?v=s4lXP9IuHjk",
+      "summary": "As frontier AI labs expand into applications, where should startups build? a16z Partner Joe Schmidt joins HubSpot co-founder and CTO Dharmesh Shah to explore why the software opportunity is growing, and how founders can stay off the “Yellow Brick Road” the labs are racing down. D",
+      "published_at": "2026-11-10T15:30:23+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Intel and Altera expand collaboration to simplify sensor integration for physical AI",
+      "url": "https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/",
+      "summary": "Altera and Intel are collaborating to accelerate the development of intelligent systems across industries. Intel Corp. and Altera Corp. today said they are jointly developing flexible, real-time, sensor-bridge reference systems for edge and physical AI applications including robo",
+      "published_at": "2026-11-10T14:47:10+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "summary": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+      "published_at": "2026-11-10T14:00:00+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor",
+      "url": "https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/",
+      "summary": "The X10 drone features high-resolution visual and radiometric cameras in modular sensor packages. | Source: Skydio Axon Enterprise Inc. last week said it has invested $1.2 billion in Skydio Inc., a San Mateo, Calif.-based drone manufacturer. With the investment, Axon gains 20% ow",
+      "published_at": "2026-11-10T13:06:58+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "summary": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+      "published_at": "2026-11-10T13:00:00+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "source_type": "rss",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "published_at": "2026-11-10T12:02:28+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "published_at": "2026-11-10T12:00:00+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Closing the AI guidance gap in education",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "published_at": "2026-11-10T09:00:00+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "published_at": "2026-11-10T07:00:00+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+      "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+      "summary": "On Friday, we asked Jamin Ball what comes next for Anthropic’s IPO. On Monday the roadshow started and Anthropic shipped the long-anticipated next-version of Claude Fable and Mythos. Of course, it is the new top model in the world, taking back Opus 5.5’s #1 spot from Gemini 4 Car",
+      "published_at": "2026-11-10T06:34:44+00:00",
+      "details": "On Friday, we asked Jamin Ball what comes next for Anthropic’s IPO. On Monday the roadshow started and Anthropic shipped the long-anticipated next-version of Claude Fable and Mythos. Of course, it is the new top model in the world, taking back Opus 5.5’s #1 spot from Gemini 4 Carbon which had its brief moment in the sun (10 days). View post on X ↗ Fable comes with a 20% per token price cut… but is more token hungry, as both SemiAnalysis GDPx and Artificial Analysis agree: Fable 5.1 cost $10 per million input tokens and $50 per million output tokens. Fable 5.2 costs $8 and $40. Yet on GDPx, a benchmark of professional tasks, SemiAnalysis paid $88.15 per task, up from $67.16. The run logs give a clue. Where Opus 5.5 and Fable 5.1 would try about 20 test cases, 5.2 sometimes wrote hundreds or thousands and spun up subagents to check its work independently. All that checking helped Fable take first place at 16.4%. You pay for the checks either way. Which effort setting should you put in production? On FrontierCode 2.0, Anthropic reports that Fable at High matched Opus 5.5 at Max for about half the cost per task… but don’t talk about Fable at Max.AI News for 11/07/2026-11/09/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapTop Story: Claude Fable 5.2 / Mythos 5.2 Benchmarks, Economics, Restrictions, and First ImpressionsWhat happenedAnthropic shipped Claude Fable 5.2 and Claude Mythos 5.2, claiming both are \"a step above Opus 5.5 in almost all the capabilities we evaluated.\" It tops most independent leaderboards. It also arrives with deliberate RSI nerfs, heavier per-task costs and restricted subscription access. Launch claims. @claudeai announced the pair as built for \"the most daunting technical challenges,\" with gains in coding, reasoning and vision. @marktenenholtz flagged unusual system-card phrasing: \"The model that underlies Claude Fable 5.2 and Claude Mythos 5.2.\" That implies a single shared base model. Vendor-reported headline numbers, per @kimmonismus: Up to 30% faster output than the 5.1 models. On FrontierCode 2.0, Fable 5.2 at High matched Opus 5.5 at Max for about half the cost per task, and at Xhigh it was the top released model. 1,000 Fable 5.2 agents formalized the existing proof of Fermat's Last Theorem in 30 hours. Opus 5.5 completed 26% in 18 hours on the same setup. Mythos 5.2 accurately modeled 28 of 34 gene-therapy capsids. Alignment was at or above recent Claude models, with external pre-release testing. Default effort. Medium is the default effort in the Claude apps and Claude Code. Pricing. $8/$40 per 1M input/output tokens, 20% below Fable 5.1's $10/$50 (@jaminball, @arena). The rest of the spec, per Artificial Analysis: Cache writes cost $10 (5-minute TTL) or $16 (1-hour TTL); cache reads cost $0.20. 1M-token context with text and image input. Five effort levels: low, medium, high, xhigh, max. Long-horizon demos from Anthropic. An OS was built from an empty folder by 1,000+ subagents over 8 days. It boots on a laptop and has its own kernel, disk/keyboard/network drivers, persistent storage, windowing, login, an installer and built-in Claude (@kimmonismus). Fable designed three working electronic devices from a short prompt (@kimmonismus). It proposed untested chemical synthesis routes. It improved on listed solutions to 72 open optimization problems. @RLanceMartin published the safety-bounded scaling write-up for the 1,000-agent FLT run. Subscription access. Ultra and Team Premium users get Fable \"resets\" scaled by tenure: 1 reset under 6 months, 2 for 6–12 months, 3 above 12 months, usable until March 8 (@ClaudeDevs; echoed by @bcherny and @edwinarbus). Pro and Team Standard get a one-week trial capped at half the weekly limit, plus one reset. Fable can only consume 50% of a weekly limit. Data retention. Fable 5.2 requires data retention by default so Anthropic's safety classifiers can run. Zero data retention is available only to eligible enterprise customers (@code). Rollout, day one: Cursor (@cursor_ai). GitHub Copilot / VS Code, where it \"solved more tasks than Fable 5.1 while using fewer steps and tool calls\" (@code). Perplexity Computer (Pro/Max) and Search (Max) (@perplexity_ai). @AravSrinivas made it his \"new default.\" Factory (@factory). Hermes Agent via Nous Portal and OpenRouter (@Teknium). Arena (@arena) and DesignArena (@grx_xce). Official model-selection guide. @ClaudeDevs published guidance on Fable vs Opus vs Sonnet vs Haiku. It covers when to raise effort instead of switching models, and when to push subagents to smaller models. Independent evals (facts)Artificial Analysis Intelligence Index v5 (@ArtificialAnlys, breakdown): Fable 5.2 is #1 at 65 (max). Fable 5.2 (max) — Index score 65 Gemini 4 Carbon (high) — Index score 60 Opus 5.5 (max) — Index score 59 GPT-6 Astra (max) — Index score",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "summary": "",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "Anthropic News",
+      "source_type": "rss",
+      "title": "Anthropic launches roadshow for proposed initial public offering",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "summary": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Decision Models in Hugging Face",
+      "url": "https://huggingface.co/blog/decision",
+      "summary": "",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
+    },
+    {
       "source": "The Robot Report",
       "source_type": "rss",
       "title": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
@@ -72,16 +254,6 @@
       "summary": "A range of developers, including RLWRLD, Skild AI, and Flexion, are already using NVIDIA’s latest technology. | Source: NVIDIA NVIDIA Corp. today introduced GR00T 2, its updated open frontier world action model, and Isaac Lab 3.0, the latest version of its open-source robot learn",
       "published_at": "2026-11-09T21:52:05+00:00",
       "first_seen_at": "2026-11-10T03:37:12.812785+00:00"
-    },
-    {
-      "source": "Z.ai Release Notes",
-      "source_type": "rss",
-      "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
-      "url": "https://docs.z.ai/release-notes/new-released",
-      "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-11-09T21:16:48.971208+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:3471bee0e3b71b15e04dcacae57ebd485ddd127d1d94a0034b1041238af8d94d",
-      "first_seen_at": "2026-11-09T21:16:16.179349+00:00"
     },
     {
       "source": "No Priors YouTube",
@@ -109,6 +281,15 @@
       "summary": "Natural Language Processing",
       "published_at": "2026-11-09T20:29:39+00:00",
       "first_seen_at": "2026-11-09T21:16:16.179349+00:00"
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "source_type": "rss",
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+      "published_at": "2026-11-09T19:51:47+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
     },
     {
       "source": "NVIDIA Robotics Tech Blog",
@@ -197,7 +378,7 @@
     {
       "source": "IEEE Spectrum Robotics",
       "source_type": "rss",
-      "title": "Can Agentic Robotics Solve Robotics’ Data Scaling Problem?",
+      "title": "Can Agentic Robotics Solve Robotics’ Data-Scaling Problem?",
       "url": "https://spectrum.ieee.org/agentic-robotics",
       "summary": "Robotics companies are investing heavily in the belief that data will solve the most difficult problems in robotics. Once AI systems have ingested enough data from human demonstrations, the thinking goes, robots will be able to perform the vast majority of the manual tasks that h",
       "published_at": "2026-11-09T14:00:02+00:00",
@@ -354,9 +535,9 @@
     {
       "source": "Latent Space YouTube",
       "source_type": "youtube",
-      "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "title": "Will Repos Become Software Factories? — Mihail Eric, Monaco",
       "url": "https://www.youtube.com/watch?v=dpY7YzZo4kE",
-      "summary": "[One Million AI Engineer Special] We’re celebrating one million subscribers on the AI Engineer YouTube channel with Mihail Eric, who teaches Stanford’s Modern Software Developer course and leads AI at Monaco. What do you assign when students can finish last year’s homework with o",
+      "summary": "What do you assign when students can finish last year’s homework with one prompt? For the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to understand an unfamiliar repo, propose a change, and explain it to the person w",
       "published_at": "2026-11-08T21:23:23+00:00",
       "first_seen_at": "2026-11-09T21:16:16.179349+00:00"
     },
@@ -616,6 +797,15 @@
       "summary": "We put Claude in two EVE games to study how AI agents handle markets and teamwork, where they break down, and what safeguards they might need.",
       "published_at": "2026-11-06T00:00:00+00:00",
       "first_seen_at": "2026-11-07T00:57:45.441073+00:00"
+    },
+    {
+      "source": "AgiBot News",
+      "source_type": "rss",
+      "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "url": "https://www.agibot.com/article/231/detail/134.html",
+      "summary": "",
+      "published_at": "2026-11-06T00:00:00+00:00",
+      "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
     },
     {
       "source": "The Robot Report",
@@ -6209,196 +6399,6 @@
       "published_at": "2026-10-07T04:55:44+00:00",
       "details": "Tickets for AIE NYC are selling out soon! See you next week!see past AINews issues for subscriber discounts.Pour one out for Mistral, who shipped a decent Large 4 “Le Chonk” model on the new 3800 GB300 cluster funded by their recent Series D. But they were overshadowed by more mathematics results from OpenAI’s internal Navier-Stokes math model - published as a blogpost, repo, and tweet. The best compliment comes from their Navier-Stokes competitor from Anthropic, who despite his personal issues with OpenAI, does not mince words: “It’s obviously the most significant moment in mathematical history.” This bears some qualification, but most experts seem to agree that it solves many of the top 500 open problems in math. In particular, Result 003, the Quasi-Riemann Hypothesis, is somewhere between a Fields Medal result and “the biggest result in number theory in 200 years”.The most astonishing is the how - while Navier-Stokes was done in 88 hours and 10,000 agents, these solutions were 3 hours of ChatGPT Pro on average.AI News for 10/5/2026-10/6/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapOpenAI Releases 722 Math Manuscripts From an Unreleased Internal ModelThe release: OpenAI published a broad set of mathematical results from an internal frontier model in a public GitHub repo. It says it consulted the Institute for Advanced Study’s independent Advisory Group on Mathematics and AI on how to release them.Scale and compute: The collection reportedly holds 722 manuscripts grouped into 372 families of related results. They came from an evaluation of about 4,000 research problems and used an average of roughly three hours of ChatGPT Pro thinking compute per result (summary, Rundown).Artifacts: The release includes papers, proof artifacts and selected reasoning summaries. The model itself remains unreleased.Framing: Sam Altman called it “a new era of discovery”.Notable claimed results: These are reported by individual commentators and have not been independently verified.Integer multiplication: One contributor highlighted a result for integer multiplication faster than n log n.Elastic inverse problem: Another singled out a uniqueness result for the elastic inverse problem, which the paper says had been open in 3D since 1994.Millennium-adjacent work: Commenters point to partial progress on Riemann, Hodge and BSD.Mathematician reaction: Levent Alpöge praised the quasi-Riemann and no-Siegel-zeros results and called it “the most significant moment in mathematical history”. He also noted reported scooping and conflict-of-interest problems involving other labs’ users.Composition of results: An analysis estimates about 20% of the results are disproofs or counterexamples. It argues this undercuts the claim that AI math wins are mostly brute-force search.Skepticism and open questions:Errors expected: Will Depue expects that some results should not survive scrutiny. He built citedbyagi.com to track which human papers the release cites.Compute framing: Teortaxes notes that three hours of compute “is not much”.Generalization: François Chollet asks whether gains in RLVR-friendly math and code generalize, or whether non-verifiable domains stay bottlenecked on human data.Mistral Large 4 (”Le Chonk”): Launch, Pricing and Contested EvalsMistral Large 4 preview: The model has 1T total parameters and 49B active, is natively multimodal and is available via API now (announcement). Open weights are promised for end of October.Training status: The RL run is “still in flight and shows no sign of saturation”.Compute: The model was pre- and post-trained on ~3,800 Grace Blackwells in Europe. A larger model is training now.Pricing: $1.36/$4.18 per million input/output tokens, with $0.14 for cached input and 50% off for the first two weeks (Artificial Analysis).Context: Vals and Artificial Analysis list a 512K context window. OpenRouter lists 1M context with up to 256K output.Mistral’s own claims:Human evals: Mistral says it beats GLM 5.3 on STEM, CAD and finance in human evals and is on par in agentic coding.Coding benchmarks: It reports outperforming GLM 5.3 on DeepSWE and Kimi K3 on Terminal-Bench 4 (Rozière).Blind review: In a blind Surge coding review it finished #2, behind only Opus 5.Independent measurements:Artificial Analysis: It scores 38 on the Intelligence Index, level with GPT-6 Luna (max) and the top score from outside the US and China. It scores 50 on the Cyber Index and 82% on CyberGym-E2E-AA. Cost is $1.13 per task, over 4x that of similar-intelligence open models.Vals: It ranks #1 open-weight on HLAB and #9 among open models on the Vals Index. Heavy context use pushes its cost to $13.78 per test.Clinical triage: One evaluator reports a tie for #1 on 669 clinical decisions with zero severe misses.Caveats and disagreement:Refusal effect: Cline attr",
       "first_seen_at": "2026-10-07T17:39:20.800956+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "url": "https://openai.com/index/gpt-6-for-everyone",
-      "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-      "published_at": "2026-10-07T00:00:00+00:00",
-      "first_seen_at": "2026-10-08T01:02:55.419385+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "source_type": "rss",
-      "title": "Models",
-      "url": "https://www.anthropic.com/news/models",
-      "summary": "",
-      "published_at": "2026-10-07T00:00:00+00:00",
-      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Toppling Saddam was the easy part - Sarah Paine",
-      "url": "https://www.youtube.com/shorts/7rk18oEEqzc",
-      "summary": "",
-      "published_at": "2026-10-06T22:55:07+00:00",
-      "first_seen_at": "2026-10-07T00:45:57.599984+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Boston Dynamics appoints former Amazon exec Rohit Prasad as new CEO",
-      "url": "https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/",
-      "summary": "Rohit Prasad is Boston Dynamics’ new CEO. | Source: Boston Dynamics It’s been nearly nine months since Robert Playter, the former CEO of Boston Dynamics, stepped down. The company today named Rohit Prasad as its new CEO, effective tomorrow. Prasad will take over from Chief Financ",
-      "published_at": "2026-10-06T21:00:30+00:00",
-      "first_seen_at": "2026-10-07T00:45:57.599984+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "Building Git infrastructure for agent-scale development",
-      "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
-      "summary": "Every day on GitHub, millions of developers build the products their customers rely on, contribute to open source, and pursue personal projects. GitHub’s architecture has changed steadily over the years to support that work and the growing demands of the developers and organizati",
-      "published_at": "2026-10-06T20:57:56+00:00",
-      "first_seen_at": "2026-10-07T00:45:57.599984+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Pegasus 1.6 brings video understanding to physical AI, says TwelveLabs",
-      "url": "https://www.therobotreport.com/pegasus-1-6-brings-video-understanding-physical-ai-says-twelvelabs/",
-      "summary": "Pegasus provides temporal context, spatial reasoning, and judgement on whether a task was completed. Source: TwelveLabs As the physical world rapidly digitalizes, AI teams are gathering vast amounts of complex video, but transforming raw footage into actionable models remains a c",
-      "published_at": "2026-10-06T20:07:48+00:00",
-      "first_seen_at": "2026-10-07T00:45:57.599984+00:00"
-    },
-    {
-      "source": "Google DeepMind Blog",
-      "source_type": "rss",
-      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "summary": "",
-      "published_at": "2026-10-06T19:57:04+00:00",
-      "first_seen_at": "2026-10-07T00:45:57.599984+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "source_type": "rss",
-      "title": "Expanding the Cyber Verification Program",
-      "url": "https://www.anthropic.com/news/cyber-verification-program",
-      "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
-      "published_at": "2026-10-06T19:00:00+00:00",
-      "first_seen_at": "2026-10-07T00:45:57.599984+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Sovereign AI, same landlord — thoughts on the physical AI race",
-      "url": "https://www.therobotreport.com/sovereign-ai-same-landlord-thoughts-physical-ai-race/",
-      "summary": "NVIDIA has partnered with Hugging Face to ensure its role in physical AI development. Source: NVIDIA The physical AI developers determined not to rely on NVIDIA have had some wins lately. OpenAI shipped its own chip. Anthropic stood up an in-house silicon team with salaries that ",
-      "published_at": "2026-10-06T17:47:50+00:00",
-      "first_seen_at": "2026-10-07T00:45:57.599984+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "FireDome builds autonomous ‘artillery’ for wildfire defense",
-      "url": "https://www.therobotreport.com/firedome-builds-autonomous-artillery-for-wildfire-defense/",
-      "summary": "The FireDome launcher is fully autonomous, designed to launch projectiles containing water or fire retardant up to 1,000 ft. from the launcher. | Credit: FireDome In wildfire country, minutes matter, but current fire technology still stops at detection. FireDome is trying to clos",
-      "published_at": "2026-10-06T16:00:31+00:00",
-      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "url": "https://openai.com/index/atlassian-partnership",
-      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
-      "published_at": "2026-10-06T16:00:00+00:00",
-      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
-      "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
-      "summary": "Earth AI",
-      "published_at": "2026-10-06T15:05:11+00:00",
-      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Overview AI launches OV Spark line of AI inspection cameras",
-      "url": "https://www.therobotreport.com/overview-ai-launches-ov-spark-line-ai-inspection-cameras/",
-      "summary": "The OV Spark in production at MEC. | Source: Overview AI Overview AI today launched the OV Spark and OV Spark Pro. The new cameras make up a new line of AI inspection cameras with an agentic AI layer that answers questions in plain English. Spark ships with 10 inspection tools th",
-      "published_at": "2026-10-06T14:51:48+00:00",
-      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
-    },
-    {
-      "source": "a16z AI YouTube",
-      "source_type": "youtube",
-      "title": "The Biggest Shift in Cybersecurity in 30 Years",
-      "url": "https://www.youtube.com/watch?v=cJsHel27Z6M",
-      "summary": "a16z General Partner David George sits down with Armadin founder and CEO Kevin Mandia to discuss what happens to cybersecurity when attackers can operate at machine speed. After 30 years in security and building Mandiant, Kevin says AI convinced him to get back on the field. He e",
-      "published_at": "2026-10-06T14:30:37+00:00",
-      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
-      "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
-      "summary": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s ",
-      "published_at": "2026-10-06T13:00:19+00:00",
-      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "How Jump Trading is scaling quant research with ChatGPT",
-      "url": "https://openai.com/index/jump-trading",
-      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
-      "published_at": "2026-10-06T12:00:00+00:00",
-      "first_seen_at": "2026-10-07T00:45:57.599984+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Sharing AI progress in mathematics",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-      "published_at": "2026-10-06T12:00:00+00:00",
-      "first_seen_at": "2026-10-07T00:45:57.599984+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Advancing computer use with Ironclad",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-      "published_at": "2026-10-06T10:00:00+00:00",
-      "first_seen_at": "2026-10-07T00:45:57.599984+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
-      "summary": "",
-      "published_at": "2026-10-06T06:44:39+00:00",
-      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
-      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
-      "summary": "It’s been over a year since Reflection launched with us with big goals on coding (and hinted about their RL approach):But they stayed “stealth” longer than Thinking Machines and it was not clear we would ever get a model launch out of them, as the broader open model ecosystem did",
-      "published_at": "2026-10-06T06:28:43+00:00",
-      "details": "It’s been over a year since Reflection launched with us with big goals on coding (and hinted about their RL approach):But they stayed “stealth” longer than Thinking Machines and it was not clear we would ever get a model launch out of them, as the broader open model ecosystem did not slow down one bigt for them. Well, we did:They compare themselves to Inkling, Nemotron, and GLM 5.2, but the SOTA GLM 5.3, Kimi K3, Qwen 3.8 Max, and DeepSeek V4.1 Flash are generally ahead. Still, since this is US-trained from scratch, there’s a segment of the market that has been eagerly waiting for more options here, and more importantly, Reflection has now announced its arrival as a functional neolab!AI News for 10/03/2026-10/5/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapReflection’s Beam Leads a Wave of Open-Weight ReleasesBeam launch: Reflection announced Beam, a text-only 501B-total / 23B-active MoE for coding, agentic and scientific work. It was trained from scratch, and full weights under Apache 2.0 are due this month (announcement, Laskin).Training scale: Team posts cite 23.8T pretraining tokens, partly from an OCR pipeline over hundreds of millions of PDFs (data lead). They also describe a stable RL/OPD run on 10K GB300s with more than 100M rollouts across ~1M tasks (Damos).Claimed results: A summary of Reflection’s claims gives 80.9 on SWE-bench Verified, 3–4x the inference efficiency of GLM 5.2, and four weeks each of pretraining and RL on ~10,500 GB300s (summary). A tech report and OSS integrations are promised (Polozov).Context: Axios reported the launch ahead of time. It said Reflection pays $150M/month for Colossus compute plus a $1B Nebius deal, and that other unnamed US labs will ship open models this month (Curran).Independent and critical reads: Artificial Analysis has early access and expects Beam to be among the most token-efficient open models for its intelligence (AA).MFU and architecture: Elie Bakouch estimates only ~12% BF16 MFU in pretraining. He reads the architecture as 3:1 interleaved global/sliding-window attention and notes better held-out code perplexity than DSv4 (analysis).Compute comparison: Teortaxes calls Beam an iso-FLOP replication of DeepSeek V3 (post). He infers ~1.3B RL sandboxes over 4 weeks, with up to 170K running at once (sandboxes).Positioning: Observers place Beam around GLM-5.2 level (iScienceLuvr) and below DSv4 Flash on some benchmarks (critique). Nathan Lambert groups it with Nvidia and Thinking Machines as strong US releases that still trail Chinese counterparts (Lambert).Other open and specialized models:Aleph Alpha Kolibri: 78B total / 3.46B active, Apache 2.0, built for German and English. Self-reported scores are 96.9% AIME 2025, 84.3% GPQA Diamond and 66.4% SWE-Bench Verified (summary). The dataset is unreleased, and agentic evals sit well below Qwen (Jitsev).Reka Rho-1: A 19B omni model that understands and generates text, images, video and robot actions, trained from scratch on 320 H100s in ~3 months (announcement, compute).Decision models: Command Code’s Agr (31B) and Agr-flash (360M) skip text generation and return typed values with per-option probabilities for tool calls and routing (Agr). SemiAnalysis explains that TypeSafe’s Jev uses the same no-decode approach and displaces frontier models mainly in router roles (explainer).Smaller releases: Upstage’s Solar Mini 4 (35B / 3B active, 512K context) is free on Nous Portal for two weeks (Nous). Eleven v4 Turbo tops AA’s Provider Voice TTS arena at half the price of v4 (AA).OpenAI vs Anthropic: Subscription Value, Speed and EvalsSemiAnalysis limit testing: SemiAnalysis tested plans from Anthropic, OpenAI, Meta, SpaceXAI, MiniMax, Moonshot, Cursor, Cognition and others. It found that Claude subscriptions deliver 5x+ more API-equivalent value than OpenAI plans (report).Methodology: Value depends on the credit cost of each model and token type, not on list API prices (thread).Task-cost adjustment: Adjusting for task cost narrows Claude’s edge to 1.3–2.9x (scaling01).Unverified compute estimate: One analyst claims Anthropic spends 42% of inference compute on subscriptions that earn ~10% of revenue (chart).OpenAI capacity squeeze: Users report that new $200 sign-ups were paused and that usage limits were effectively halved across plans. GPT-6.1 Sol was positioned as the efficient alternative (analysis). Theo describes a reversal in coding-model preference between July and September (post).OpenAI response: Codex lead Tibo pledged a meaningful improvement or a full reset every day for 28 days (pledge).Day 1 speedup: Default speed for GPT-6 Astra and GPT-6.1 Sol rose ~50%, from ~30 to ~50 TPS. The change covers all subscription surfaces and Sign in with ChatGPT partners such as OpenCode, Pi, Amp and Devin (day 1, TPS).Friction: Banked Codex ",
-      "first_seen_at": "2026-10-06T17:02:00.439453+00:00"
-    },
-    {
-      "source": "Agility Robotics",
-      "source_type": "rss",
-      "title": "Agility to Host Analyst & Investor Day on October 6, 2026 | Agility",
-      "url": "https://www.agilityrobotics.com/content/agility-to-host-analyst-investor-day-on-october-6-2026",
-      "summary": "",
-      "published_at": "2026-10-06T00:00:00+00:00",
-      "first_seen_at": "2026-09-17T23:33:59.326503+00:00"
     },
     {
       "source": "Runway Research",
