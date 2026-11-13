@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-13T01:53:47.713750+00:00",
+  "updated_at": "2026-11-13T18:20:51.988125+00:00",
   "count": 700,
-  "new_count": 441,
+  "new_count": 535,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -70,9 +70,119 @@
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
       "url": "https://docs.z.ai/release-notes/new-released",
       "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-11-13T01:55:23.249724+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:2ddce0d35d5c9fad4cd8eb1ba0bb3632d2c04e37ba2f92f29c69e872ca27b872",
-      "first_seen_at": "2026-11-13T01:53:47.713750+00:00"
+      "published_at": "2026-11-13T18:21:19.609435+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:a105677d7689cd5a90fca0d2759471c35c0ceea9679332b77f2c552efe69ea4e",
+      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "summary": "",
+      "published_at": "2026-11-13T18:00:39+00:00",
+      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "source_type": "rss",
+      "title": "Video Friday: NASA PROMISEs a New Moon Rover",
+      "url": "https://spectrum.ieee.org/video-friday-moon-rover-promise",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.Humanoids 2026: 6–9 December 2026, S",
+      "published_at": "2026-11-13T17:30:03+00:00",
+      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "XYBench: Helping with the problem behind the question",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "summary": "",
+      "published_at": "2026-11-13T17:02:35+00:00",
+      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics Tech Blog",
+      "source_type": "rss",
+      "title": "Adapt Human Motion for Robots with NVIDIA SOMA Retargeter",
+      "url": "https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/",
+      "summary": "Human motion offers roboticists a great starting point for teaching humanoid robots how to move. A human demonstration captures the coordination and timing behind natural movement, from everyday actions to complex tasks. But a robot cannot simply copy the same joint motion from a",
+      "published_at": "2026-11-13T17:00:00+00:00",
+      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial",
+      "url": "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/",
+      "summary": "Four of the six robots pass a performance assessment as the trial puts customer service, retail operations and embodied AI capabilities to the test in a working store. Six AGIBOT G2 wheeled humanoid robots completed a 24-hour trial at an operating convenience store in Shanghai’s ",
+      "published_at": "2026-11-13T16:32:58+00:00",
+      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
+    },
+    {
+      "source": "a16z AI YouTube",
+      "source_type": "youtube",
+      "title": "Cyberattacks Used to Take Months. AI Can Do It in Minutes.",
+      "url": "https://www.youtube.com/watch?v=PbD9pVXxsYM",
+      "summary": "AI isn’t just helping defenders find vulnerabilities. It’s giving attackers the speed and expertise to exploit them faster than many companies can respond. Wiz co-founder and CTO Ami Luttwak joins a16z General Partners Zane Lackey and Sarah Wang to unpack what he calls “Black Oct",
+      "published_at": "2026-11-13T15:30:16+00:00",
+      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "published_at": "2026-11-13T15:00:00+00:00",
+      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "summary": "",
+      "published_at": "2026-11-13T14:05:22+00:00",
+      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "How Rhoda AI is using video data to create generalized AI models for robots",
+      "url": "https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/",
+      "summary": "Rhoda pretrains its models on internet-scale video to build a strong prior on motion, physics, and physical interaction. | Source: Rhoda AI Earlier this year, Rhoda AI emerged from 18 months of stealth with $450 million in Series A funding. The company is working with customers i",
+      "published_at": "2026-11-13T13:30:44+00:00",
+      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+      "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+      "summary": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital ",
+      "published_at": "2026-11-13T13:00:42+00:00",
+      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "summary": "Congrats to Gemini 4 Hydrogen on their launch and it seems Anthropic’s IPO is well under way, but today’s headline was only ever going to be about one thing, the most earthshaking leadership change in AI (after Demis/Jeff/et al at Google DeepMind). Yesterday we covered reports th",
+      "published_at": "2026-11-13T09:04:13+00:00",
+      "details": "Congrats to Gemini 4 Hydrogen on their launch and it seems Anthropic’s IPO is well under way, but today’s headline was only ever going to be about one thing, the most earthshaking leadership change in AI (after Demis/Jeff/et al at Google DeepMind). Yesterday we covered reports that NVIDIA’s board was preparing to replace Jensen Huang following an NYT report of an affair with an accused Chinese spy. Following news of a second affair, today NVIDIA announced his resignation (correlation/causation is debatable here), presumably forced by the board: View post on X ↗ There is also some discussion of the extent that Chinese models can demonstrably be shown to be trained on Blackwell GPUs that they should not have access to… though the scale is debated. After 33 years, Jensen Huang has stepped down as CEO, president and boardmember. Colette Kress, NVIDIA’s CFO since 2013, will keep that job while serving as interim CEO… leading into what will presumably the best attended earnings call in the history of $NVDA next week. AI News for 11/11/2026-11/12/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapGemini 4 Hydrogen: Google's Fast Gemini 4 Tier Ships BroadlyLaunch: Google DeepMind released Gemini 4 Hydrogen, a speed-first model positioned alongside Carbon and Argon. Google says it completes tasks 2.5x faster than Gemini 3.8 Flash and edges Argon on the Artificial Analysis Intelligence Index, 51 vs 50 at default thinking and 54 at the new xhigh level (DeepMind, Koray Kavukcuoglu). Specs and pricing: The model offers four thinking levels (low, medium, high and xhigh) and a 1M context window. It costs $1.50/$7.50 per million input/output tokens, with a 95% discount on cached input (Phil Schmid, Artificial Analysis). Official claims: Google reports 57% on Terminal-Bench 4.0 and more than 3x Gemini 3.8 Flash on Terminal-Bench 4.1. It also claims more than 5x fewer fabricated claims, #1 on Vals Tax Agent Bench and leading results on AutomationBench-AA and Agents' Last Exam (Google). Availability: Hydrogen is available on all Gemini API tiers, including a free tier in AI Studio. It is the default model in Search AI Mode, and free Gemini app users get it through auto-selection. Paid Pro and Ultra subscribers can use it in Antigravity (Sundar Pichai, GeminiApp, Search). Orchestrator multi-model mode: In Antigravity, Carbon plans while Hydrogen writes and tests code. Google says this reaches near-Carbon success on Terminal-Bench 4.0 with 24% less quota and 19% faster completion. It is rolling out to Ultra subscribers (Google, Mohan). Artificial Analysis measurements: The independent results show a mixed profile. Intelligence and cost: At xhigh, Hydrogen scores 54, one point behind Claude Sonnet 5.5 (max) and GPT-6.1 Sol (max). Its cost is about 32% of Sonnet's but about 2.5x Sol's. Cost per task is $3.16 at xhigh and $1.87 at high. Output speed is about 200 tok/s (AA). Strengths: Hydrogen has an 8% hallucination rate on AA-Omniscience, versus 43% for Sonnet and 52% for Sol. It also shares the #1 score on GDP.pdf visual reasoning. Weaknesses: It scores 54% on Terminal-Bench 4.0 at both high and xhigh, below Sonnet at 64% and Sol at 56%. Third-party leaderboards: Agent Arena: Hydrogen debuts at #5 with +14.8% net improvement across 6.5k sessions. It is the fastest model in the top 10 at 5.3 minutes per task median, with a median cost of $1.6 per task (Arena). Code Arena WebDev: It ranks #10 with 1703 points (Arena). Vals Index: It is #6 at 68.5%, 2 points behind Carbon at 38% of Carbon's price (Vals). Coding agents: CursorBench rises to 54.3% from 39.6% for 3.8 Flash (Cursor). Cognition's FrontierCode 2.0 shows 38.2%, just behind Sol (Cognition). SWE-sweep shows 13.5%, versus 9.5% for Astra (KLieret). Caveats from users: Runaway reasoning: One tester saw xhigh spend 131K thinking tokens and about $1.08 without answering a jersey-number image question. The same tester reports budget exhaustion on 1.8% of a text benchmark (skalskip92). Weak spots: Hydrogen scored 1% on MazeBench (patience_cave). Pricing structure: Simon Willison says Hydrogen is only a 25% discount on the Carbon/Argon token price, though those models reportedly double in price on Dec 1 (simonw). Speed: Theo disputes the \"built for speed\" framing based on his own timings (theo). Open-Weight Releases: Inkling 2 Small LeadsInkling 2 Small: Thinking Machines released the weights under Apache 2.0 (thinkymachines, Mira Murati). Size: It is a 594B-total / 17B-active MoE with text and image input and up to 1M context (HF). Architecture: New components include attention residuals with a q/k/v split, gated attention, a dynamic attention sink, dynamic shortconv and value norm (Songlin Yang). Experts use NVFP4 in layers 0–39 and MXFP8 in the last eight, with SWA widened to 1k and softcaps on the LM",
+      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+      "url": "https://latent.space/p/artcraft/",
+      "summary": "The theme of day two of the AI Engineer Code Summit in San Francisco was increasing ambition using AI. And there have been few projects as ambitious as ArtCraft in the AI era. So far the fledgling company has released 17 open source versions of popular software tools, starting wi",
+      "published_at": "2026-11-13T04:17:25+00:00",
+      "details": "The theme of day two of the AI Engineer Code Summit in San Francisco was increasing ambition using AI. And there have been few projects as ambitious as ArtCraft in the AI era. So far the fledgling company has released 17 open source versions of popular software tools, starting with a Photoshop alternative built from scratch in Rust called PhotoCraft. You could feel the excitement in the room this morning when ArtCraft founder and CEO Brandon Thomas presented a kind of manifesto for AI-based open source at AIE Code. When he mentioned that ArtCraft had cloned Adobe’s Acrobat, with a product called PdfCraft, it got a round of applause from the audience. In wrapping up, his rallying cries of “let's take back the entire internet” and “let's rebuild everything” were greeted with whoops and cheers. Thomas began his presentation by reliving the internet’s early history. In his view, the web started out with the right intentions, but things got screwed up once Web 2.0 hit the mainstream. “We had a bunch of chat applications that were completely open,” he said, regarding the 1990s internet. “So, IRC is like Discord, but you can spin up your own servers that you actually own. You can use whatever programs to automate them and interrogate them without rules.” His point wasn’t necessarily that everything was open source, but that web users could freely build things. With Flash, for example — a commercial animation tool eventually acquired by Adobe — “kids were making all kinds of animations.” When Web 2.0 came along, with its superior broadband and smartphones, “it brought everybody into the fold.” Thomas acknowledged that this widened the scope of internet software, but at the cost of that freedom to build with leading apps. “The diffuse, experimental, early web started to disappear,” he said. “The APIs got taken away from us, and then we started seeing distribution being gatekept by the big providers.” It seems Adobe in particular annoyed Thomas. He described getting billed with an unexpected fee when he cancelled a monthly plan. “It's really frustrating that the web — that was once really, really promising and open and free — has turned into this extractive, owned, rent-seeking world.” This inspired him to start ArtCraft, “with the ethos of ‘let's build everything open source.’” A message even anti-AI people have gotten behind, according to Thomas. In addition to PhotoCraft, they’ve copied other apps in the Adobe suite, cloned Figma, and created a Microsoft-like word processor called WordCraft. There are also independent apps such as SolidCraft, a community-led CAD project distributed through ArtCraft’s launcher. Thomas reiterated that these AI-built applications are 100% open — “not only the desktop apps, but the actual infrastructure as well.” PhotoCraft: The development process ArtCraft is starting with rewriting familiar tools. Thomas’s longer-term vision is for users (such as artists who were previously using Photoshop) to tailor the software to their own workflows. As he framed it, they want to “undo what had happened during Web 2.0, when everything became owned and consolidated and gatekept, and just give people back their applications.” AI is the means to achieve that, he said. But aren’t there already open source alternatives to Photoshop, like GIMP? “GIMP isn't really used by artists,” said Thomas during his presentation. “We actually observed artists vibe coding their own workflows on top of the software that we gave them.” To begin creating PhotoCraft, the team gave an AI model a detailed prompt outlining Photoshop’s tools, data structures and file importers. After that, they “laid out a large, large prompt to say, let's build out the application.” As part of that process, they made everything MCP and CLI compatible. Within 24 hours, said Thomas, “we were looking at a pretty good approximation of what Photoshop was — and it kind of blew our minds away.” PhotoCraft interface; via ArtCraft website Thomas noted that PhotoCraft is “still not at 100% parity” — he said they’ve just passed 60% — but the team has set an internal goal to reach as close to 100% as possible. (The project’s GitHub claims about 76% parity for feature breadth and about 46% for professional readiness.) “Right now, we want to fill the muscle memory of all the artists that use Adobe. So we are going for Adobe, their interface and ‘look and feel’ directly.” But after ArtCraft has achieved that, they plan to “build new apps that have new interfaces that are more agentic.” A big reaction Thomas said he was surprised by the amount of attention PhotoCraft, in particular, has gotten — ranging from the New York Times requesting an interview, to a swelling of its open source community to about 4,000 developers. “I'm still struggling to bear with what has happened. It struck a nerve with people. They felt sort of maligned by Adobe and other tech companies. And what we built has really resonated with them.” After his presentation, Thomas was mobbed",
+      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
     },
     {
       "source": "GitHub Blog",
@@ -82,6 +192,24 @@
       "summary": "We continue to share monthly updates on the work behind GitHub’s availability and reliability. The short version of October: we added substantial independently scalable Azure capacity and removed several ways that failures could escalate. However, write outages, monitoring gaps d",
       "published_at": "2026-11-13T00:20:16+00:00",
       "first_seen_at": "2026-11-13T01:53:47.713750+00:00"
+    },
+    {
+      "source": "Anthropic Research",
+      "source_type": "rss",
+      "title": "Building strong safety evaluations",
+      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+      "summary": "Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.",
+      "published_at": "2026-11-13T00:00:00+00:00",
+      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
+    },
+    {
+      "source": "DeepSeek News",
+      "source_type": "rss",
+      "title": "The full DeepSeek App experience, now via API | DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/news/news261113",
+      "summary": "Search, files, links, safety, and voice. The capabilities behind the DeepSeek App are now available through the DeepSeek API.",
+      "published_at": "2026-11-13T00:00:00+00:00",
+      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
     },
     {
       "source": "GitHub Blog",
@@ -262,7 +390,7 @@
     {
       "source": "Dwarkesh Podcast YouTube",
       "source_type": "youtube",
-      "title": "How Robert Moses Got Everything Built - Robert Caro",
+      "title": "How Robert Moses Got Everything Built",
       "url": "https://www.youtube.com/shorts/3eMnUYkvbJg",
       "summary": "",
       "published_at": "2026-11-12T00:00:15+00:00",
@@ -501,7 +629,7 @@
     {
       "source": "Lex Fridman YouTube",
       "source_type": "youtube",
-      "title": "Russia-Ukraine War: Putin, Zelenskyy, Drones and the Future of Warfare | Lex Fridman Podcast #504",
+      "title": "Ukraine War: Putin, Zelenskyy, Trump, Drones and the Future of Warfare | Lex Fridman Podcast #504",
       "url": "https://www.youtube.com/watch?v=2hJkprFnzhY",
       "summary": "Preston Stewart is a West Point graduate and Afghanistan veteran who covers the Ukraine war extensively on his YouTube channel, his podcast called War and Conflict, and his newsletter called Defense Tech News. Michael Kofman is a world-class military analyst specializing in the R",
       "published_at": "2026-11-10T23:52:20+00:00",
@@ -674,6 +802,15 @@
       "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
     },
     {
+      "source": "Google DeepMind Blog",
+      "source_type": "rss",
+      "title": "Opening the datasets behind our AI weather models",
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+      "published_at": "2026-11-10T11:13:04+00:00",
+      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
+    },
+    {
       "source": "OpenAI News",
       "source_type": "rss",
       "title": "Introducing Businesses in ChatGPT",
@@ -729,6 +866,15 @@
       "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
     },
     {
+      "source": "Agility Robotics",
+      "source_type": "rss",
+      "title": "Agility Robotics Files Customary Registration Statements Following Completion of Business Combination | Agility",
+      "url": "https://www.agilityrobotics.com/content/agility-robotics-files-customary-registration-statements-following-completion-of-business-combination",
+      "summary": "",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
+    },
+    {
       "source": "Hugging Face Blog",
       "source_type": "rss",
       "title": "Pay for Hugging Face Hub with your Google Cloud Account",
@@ -776,7 +922,7 @@
     {
       "source": "Dwarkesh Podcast YouTube",
       "source_type": "youtube",
-      "title": "How Robert Moses Ruled New York Without Being Elected - Robert Caro",
+      "title": "How Robert Moses Ruled New York Without Being Elected",
       "url": "https://www.youtube.com/shorts/bkzWrrsRyqA",
       "summary": "",
       "published_at": "2026-11-09T20:37:38+00:00",
@@ -1080,7 +1226,7 @@
     {
       "source": "Dwarkesh Podcast YouTube",
       "source_type": "youtube",
-      "title": "How LBJ Fooled the Segregationists - Robert Caro",
+      "title": "How LBJ Fooled the Segregationists",
       "url": "https://www.youtube.com/shorts/S4NYamZuts4",
       "summary": "",
       "published_at": "2026-11-07T21:53:54+00:00",
@@ -1238,7 +1384,7 @@
     {
       "source": "Dwarkesh Podcast YouTube",
       "source_type": "youtube",
-      "title": "The Man Who Built New York Without Winning a Single Vote - Robert Caro",
+      "title": "The Man Who Built New York Without Winning a Single Vote",
       "url": "https://www.youtube.com/shorts/JyB3mExvn_w",
       "summary": "",
       "published_at": "2026-11-06T04:34:08+00:00",
@@ -5901,7 +6047,7 @@
     {
       "source": "Lex Fridman YouTube",
       "source_type": "youtube",
-      "title": "Taiwan: The Most Epic Night Market Experience w/ Jensen Huang | Lex Fridman",
+      "title": "Jensen Huang & Lex in Taiwan",
       "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
       "summary": "I've been traveling the world a bit. One of the most incredible experiences was getting to visit Taiwan with Jensen Huang. It was wild 🤯 Huge crowds, insanely good street food at night markets, and of course a lot of good conversations across many days. I caught some of it on vid",
       "published_at": "2026-10-13T21:26:16+00:00",
@@ -6261,160 +6407,6 @@
       "summary": "Why doesn't every frontier lab build its own chip? Because if a rival finds a 5x efficiency gain that only runs on their silicon, you're out of the race before your chips deploy. Fractile CEO Walter Goodwin on why third party chips survive.",
       "published_at": "2026-10-11T15:50:18+00:00",
       "first_seen_at": "2026-10-11T16:31:19.944778+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Will ‘boring’ robots win in the real world? Why robotic form should follow workflow",
-      "url": "https://www.therobotreport.com/will-boring-robots-win-in-the-real-world-why-robotic-form-should-follow-workflow/",
-      "summary": "The Atlas humanoid robot doing a cartwheel. | Source: Boston Dynamics Robots have captured our imagination. We have seen humanoids balancing on one leg, doing backflips, folding laundry, and moving smoothly over difficult terrain. This is all behavior that only a few years ago se",
-      "published_at": "2026-10-11T12:36:24+00:00",
-      "first_seen_at": "2026-10-11T16:31:19.944778+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
-      "url": "https://www.latent.space/p/nyc2026",
-      "summary": "If you’re seeing this you’re part of our very very light subscription/paid tier, and we genuinely appreciate you: your donations have funded our production process indefinitely and it is my sincere i… Read more",
-      "published_at": "2026-10-10T22:07:17+00:00",
-      "details": "If you’re seeing this you’re part of our very very light subscription/paid tier, and we genuinely appreciate you: your donations have funded our production process indefinitely and it is my sincere i… Read more",
-      "first_seen_at": "2026-10-11T00:15:24.478885+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
-      "url": "https://latent.space/p/nyc2026/",
-      "summary": "Tomorrow and Tuesday. If you see this you’re in!This post is for paid subscribers. Read it on Latent Space.",
-      "published_at": "2026-10-10T22:07:17+00:00",
-      "details": "Tomorrow and Tuesday. If you see this you’re in!This post is for paid subscribers. Read it on Latent Space.",
-      "first_seen_at": "2026-10-23T15:37:12.563926+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "The One Weakness That Destroyed the Aztec and Inca Empires - Si Sheppard",
-      "url": "https://www.youtube.com/shorts/hTHPsAOEIWM",
-      "summary": "",
-      "published_at": "2026-10-10T18:49:05+00:00",
-      "first_seen_at": "2026-10-11T16:31:19.944778+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
-      "url": "https://www.latent.space/p/standard-bots",
-      "summary": "When you think of robotics and AI, you probably first think of full humanoid robots like Figure’s AI-powered machines and 1X’s NEO home robots. Those may well be the future, but arguably more important in 2026 is industrial robots — which are typically not humanoids.Standard Bots",
-      "published_at": "2026-10-10T14:04:11+00:00",
-      "details": "When you think of robotics and AI, you probably first think of full humanoid robots like Figure’s AI-powered machines and 1X’s NEO home robots. Those may well be the future, but arguably more important in 2026 is industrial robots — which are typically not humanoids.Standard Bots claims to be “America’s largest AI-native industrial robot manufacturer.” It recently raised $200 million at a $1 billion valuation, in a series C round led by General Catalyst and RoboStrategy, a fund focused on robotics. Its customers include NASA, Amazon and Lockheed Martin.We spoke to Evan Beard, co-founder and CEO, and Leif Jentoft, Head of AI, to find out more about Standard Bots’ AI stack and how its models work.To set the scene, Standard Bots’ industrial robot arms are designed for tasks such as machine tending, welding, and assembly. Here’s a quick demo by Jentoft:Pretrained models and task-specific adaptationAccording to Beard, Standard Bots has a shared base model that customers adapt through demonstrations and fine-tuning. Jentoft added that Standard Bots runs a range of models, including a zero-shot perception system for machine tending.Beard says its largest model is in the low billions of parameters — so it’s not that large by frontier lab standards.“We believe data quality matters far more than raw volume,” said Jentoft, “and we focus on getting the most out of targeted data rather than chasing the largest possible dataset.” (This matches the “bitterest lesson” of Jev creator Diogo Almeida, who told us recently that the right task and the right data can matter more than compute.)“Our market access gives us unique access to the highest value data,” he added. “In-situ interventions can fix an edge case with a few dozen examples.”Setting up part identification with ClickFind.Beard notes that Standard Bots focuses on short-horizon tasks to meet production requirements for cycle time and reliability. The company uses conventional programming for parts of a workflow that don’t require learned behavior.Model training happens in the cloud but inference runs locally, said Beard.What does the model do exactly?I asked Jentoft what the learned model does in a typical robot routine, and which parts of the workflow use conventional programming?As an example, he brought up its machine-tending solution for high-mix manufacturing.“We’ve built a zero-shot system that lets a user tell the robot which parts to look for on a given task. The model handles perception — locating and identifying the parts — while conventional programming handles the motion and the cell logic around it.”Here’s a demonstration of the machine-tending:“Our backbone for this task is trained on over a billion images, which is what lets the robot distinguish between lighting conditions, material types, and an object versus its background,” Jentoft said.The Full AI StackBack in April, we had Applied Intuition on the podcast to talk about “Physical AI” and how it differs from on-screen AI. One of the learnings was that the Physical AI isn’t just constrained by model intelligence: the hard part is deploying models onto real hardware, under safety, latency, power, cost, and reliability constraints.But for Standard Bots, that can also be a strength, since it controls the “full stack” from software to hardware. Jentoft points out that it controls the robotic arm, end effector, control system, and AI.“That lets us co-optimize the models and the control policies,” he said. “Despite claims elsewhere, no model today is truly hardware-agnostic, and co-optimizing low-level control and higher-level functions is a major advantage for both performance and iteration speed.”Skild, a company aiming to build “general purpose robotic intelligence,” might quibble with the hardware-agnostic claim — its goal is to achieve cross-hardware generalization.On-prem inference: sensors, edge GPUs, and ‘action chunks’Beard had mentioned that inference is done locally, which is especially important for its core customers: factories.“For factories, which is most of what we’re doing right now — and certainly so much opportunity that we see there — this is something where you need to do inference on-premise,” he said.An AI agent building a machine-tending routine.For machine tending, the model identifies parts while conventional programming handles motion. Jentoft also described how models can generate actions that feed into the robot’s control system.“Wrist cameras and other sensors feed raw pixels and signals into the system over internal gigabit Ethernet, routed internally so no cables tangle,” he explained. “GPUs at the edge process that data to generate action chunks, which stream to low-level control.”He reiterated that inference is run on-premises deliberately.“Cloud compute for robotics is operationally extremely hard — most factories and warehouses don’t have reliable internet, and that’s even more true for mobile robots. Uptime is crucial to customer acceptance, so we keep the loop local.”",
-      "first_seen_at": "2026-10-10T16:05:35.435052+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Why dexterity is physical AI’s real bottleneck",
-      "url": "https://www.therobotreport.com/why-dexterity-is-physical-ai-real-bottleneck/",
-      "summary": "Nicolas Sauvage, founder and president of TDK Ventures, with ANYbotics’ quadruped robot. | Source: TDK Ventures A robot picks up an object, moves it, and puts it down successfully. Is it dexterous? Perhaps. But now ask it to do that successfully hundreds of times, while objects m",
-      "published_at": "2026-10-10T12:45:15+00:00",
-      "first_seen_at": "2026-10-10T16:05:35.435052+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch",
-      "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
-      "summary": "As you can see in the AINews X recap section below, everyone on earth has cloned the Jev API, but only one company can ever create the category. TypeSafe announced their “Series AI” and Sequoia “leaked” that they crossed 100M ARR in their first week.Although there are cynics and ",
-      "published_at": "2026-10-10T06:45:57+00:00",
-      "details": "As you can see in the AINews X recap section below, everyone on earth has cloned the Jev API, but only one company can ever create the category. TypeSafe announced their “Series AI” and Sequoia “leaked” that they crossed 100M ARR in their first week.Although there are cynics and accusations of astroturfing, we hope it is evident that our Jev pod was 100% authentic.AI News for 10/8/2026-10/9/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapDecision Models Become a Product CategoryThe pattern: Several vendors shipped “decision” models on the same day. These return typed answers (probabilities, picks from a list, scores) in a single forward pass instead of free text. Jev is the reference point everyone benchmarks against, and @scaling01 remarked on how fast the format spread.OpenAI Decisions API: Three request types: probability that a condition is true, pick from a list, or score against levels. It accepts text and images, runs on GPT-6 Luna, costs $0.10/M input tokens with no output charge, and is “up to 10x faster” by OpenAI’s own figure (@LearnOpenCV).Microsoft-Decision-1: Positioned for LLM judges and screening scientific hypotheses. An early evaluator says decision models still struggle on consistency and complex decisions (@omarsar0).Perplexity pplx-decider-v1.1-27b: Claims top Decision Bench accuracy at 94.5% across 1,071 cases, at $0.017 per 1K decisions (@perplexitydevs).Cloudflare clef: New clef-omni accepts audio, video, image and text. clef-flash is now cheaper than Jev, and clef overall is about 2x faster (@michellechen). Weights are on Hugging Face.Liquid d1: Now on Vercel AI Gateway, with vision support for classify, route and score tasks (@vercel_dev).Serving and routing: vLLM Semantic Router’s Decision 2.0 answers multiple questions about one input in one pass, with per-option probabilities (@vllm_project). LangSmith uses Jev as a judge that returns separate typed answers for difficulty and correctness on every trace (@hwchase17).Train your own: Unsloth released a free notebook that turns Qwen3.5-4B into a decision model on 8GB of VRAM (@UnslothAI). A walkthrough on Qwen3.5-0.8B reports accuracy rising from 37% to 65% in 60 steps, about 10 minutes on 4GB (@akshay_pachaar).Why harnesses want this: Many agent steps are yes/no calls rather than generation. LangChain says routing each task to the cheapest adequate model cut median Open SWE cost per task by 64% (@hwchase17).Related research: Apple/CMU’s Selection-based Structured Reasoning (SSR) applies the same idea inside agents (@ZhihuFrontier).Method: Six natural-language strategies are scored by length-normalized log-likelihood in one batched forward pass that shares the KV cache.Results: Per-turn reasoning latency falls by more than 90%, but end-to-end latency per question falls only 28–54%. On Qwen3-VL-4B with GRPO, average success is 61.37% versus 61.25% for a TAPO+GSPO baseline.Multi-Agent Orchestration and Coding ToolsClaude Managed Agents dynamic workflows (public beta): A lead agent writes a phased plan, fans it out to up to 1,000 agents per run, then merges the results. It is enabled with multiagent_20261001 (@ClaudeDevs, config).Cost warning: Anthropic advises starting with scoped tasks because token use can be high (guidance).Claude Code Projects: All waitlisted Pro and Max users were admitted. Each project runs tasks as parallel threads (@ClaudeDevs), and sessions can now run locally (@gem_ray).Opus 5.5 fast mode: It has rolled out, but it bills against usage credits and is not included in subscriptions (@theo).Do agent teams pay off?: Vals AI ran GPT-6 Sol and Opus 5.5 on Vibe Code Bench, alone and as teams (@ValsAI).Results: Teams cost 1.8–5.1x more. Only Sol at medium effort improved significantly, by 7.3 points.Behavior: Sol delegated in parallel along architectural lines. Opus ran sequential waves, reaching about 6.8 subagents and roughly 1,140 subagent tool calls per app at max effort, with no significant gain (details).Prime Agent rewrites itself in Rust: Over two weeks, a swarm of more than 2,000 agents used 10K+ sandboxes and 200B+ GLM-5.3 tokens. The result reaches usable input about 13x faster and uses 83% less startup memory (@PrimeIntellect). An accompanying essay argues that context limits lead inevitably to swarms (essay).Codex updates:Windows sandbox: A new mode built on Microsoft Execution Containers (MXC) gives faster setup, network enforcement and granular file controls (@OpenAIDevs).Composer predictions: Codex now suggests your next message, in beta for Pro users only (announcement). Some users criticize the Pro-only gating (@Angaisb_).Reliability: There were complaints of daylong outages (@dzhng).Sentiment: DHH says GPT-6.1 Sol made Codex his primary tool over Claude (@dhh).Devin and Grok Bot: Devins can now spawn trees of managed D",
-      "first_seen_at": "2026-10-10T16:05:35.435052+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
-      "url": "https://www.latent.space/podcast",
-      "summary": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind’s Pushmeet Kohli and Biohub’s Sal Candido are rethinking what it takes to build AI that truly understands biology. In this special panel moderated by Brandon Anderson, they explore ",
-      "published_at": "2026-10-10T00:31:26+00:00",
-      "audio_url": "https://api.substack.com/feed/podcast/219666029/a55c7eb779368b4623e64d0933a07f0f.mp3",
-      "details": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind’s Pushmeet Kohli and Biohub’s Sal Candido are rethinking what it takes to build AI that truly understands biology. In this special panel moderated by Brandon Anderson, they explore why AlphaFold’s breakthrough was only the beginning, why scaling compute and data alone won’t solve biology, and how the next generation of AI models could transform our understanding of proteins, cells, and human disease.We go deep on the future of AI-driven biology: finding scaling laws in biological data, the tradeoffs between scientific intuition and general-purpose architectures, why protein structure prediction is far from solved, and what it would take to build predictive models of living systems. Pushmeet reflects on the lessons behind AlphaFold, the limits of human interpretability, and whether future frontier models could understand other AI systems better than we can. Sal explains why protein language models may already contain scientific knowledge we haven’t unlocked, how biological modeling must move beyond individual proteins, and why achieving Biohub’s mission to cure all disease requires thinking in terms of 10x breakthroughs rather than incremental improvements.We discuss:The Bitter Lesson for biology: why scaling compute and data isn’t enoughWhy finding the right scaling law matters more than blindly increasing model sizeHow low-quality metagenomic data can improve protein language modelsWhy AI researchers optimize for available data instead of the most important scientific problemsLessons from DeepMind on balancing modeling, data generation, and scientific expertiseWhy building a virtual cell requires fundamentally different datasetsAlphaFold’s handcrafted architecture and the role of scientific intuitionWhy good data matters more than simply having more dataInductive biases, scaling laws, and the future of specialized AI architecturesWhy we aren’t in a post-Transformer world, but architectures are evolvingWhy AlphaFold didn’t actually solve all of protein foldingProtein dynamics, disorder, and the limitations of static structure predictionHow cryo-EM micrographs could unlock richer biological representationsMoving from models of individual proteins to whole biological systemsFeynman’s famous principle and why AI can now create things we don’t understandThe hidden biological knowledge inside protein language modelsWhy trustworthiness and uncertainty calibration matter more than full interpretabilityWhether frontier AI models could interpret other AI systems better than humansWhen AI could deliver 10x–100x acceleration in drug discoveryWhy curing all disease requires thinking about 10x breakthroughs instead of 10% improvementsPushmeet Kohli — Google DeepMindX: https://x.com/pushmeetLinkedIn: https://www.linkedin.com/in/pushmeet-kohli-4838994/Sal Candido — BiohubBiohub: https://biohub.org/team/salvatore-candido/X: https://x.com/salcandidoLinkedIn: https://www.linkedin.com/in/salcandido/Brandon Anderson — ModeratorLinkedIn: https://www.linkedin.com/in/brandon--andersonTimestamps00:00:00 Introduction: The Bitter Lesson for Biological Data00:01:00 Finding Scaling Laws and the Right Data for Biology00:04:54 DeepMind’s Bitter Lesson: Solving Problems vs. Scaling Models00:06:50 AlphaFold, Data Limitations, and Building the Virtual Cell00:09:52 Handcrafted Architectures vs. Scaling Compute00:11:53 Good Data, Inductive Bias, and Model Design00:13:39 Beyond Transformers: The Future of AI Architectures00:14:38 Why AlphaFold Hasn’t Solved Protein Folding00:17:39 Protein Dynamics, Design, and Cryo-EM00:19:09 From Individual Proteins to Whole Biological Systems00:20:43 Feynman’s Principle: Creating Without Understanding00:22:18 The Hidden Knowledge Inside Protein Language Models00:23:48 AlphaFold, Trustworthiness, and Interpretability00:25:56 Could AI Understand Other AI Models Better Than Humans?00:27:43 When Will AI Revolutionize Drug Discovery?00:29:47 Why Curing All Disease Requires 10x BreakthroughsTranscriptIntroduction: Is There a Bitter Lesson for Data?Brandon Anderson [00:00:04]: Great to be here. What an exciting morning. So many cool announcements. I think the future of bioscience is being announced right here. This is the modeling session. We’re all modelers, so of course it’s natural for us to talk about data.One of the things I like to think about when it comes to data is how to scale it properly. This has brought me to the question of the bitter lesson, but recast in the frame of data. The bitter lesson, for those of you who are not AI people, is the statement that methods that scale win eventually. If you can scale enough, it wins. So my question, starting with Sal, is: Is there a bitter lesson for data?Sal Candido [00:01:00]: For sure. You obviously need the right data in order for it to work. One misconception of scaling laws is that scaling laws are everywhere and they always exist. A lot of the work is actual",
-      "dedupe_key": "podcast:c97668a26e1e0acada7d1d4b404219f6c83c77d3",
-      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
-    },
-    {
-      "source": "Latent Space YouTube",
-      "source_type": "youtube",
-      "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
-      "url": "https://www.youtube.com/watch?v=NufiHZfMwaw",
-      "summary": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind’s Pushmeet Kohli and Biohub’s Sal Candido are rethinking what it takes to build AI that truly understands biology. In this special panel moderated by Brandon Anderson, they explore ",
-      "published_at": "2026-10-10T00:30:41+00:00",
-      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "Why Open Models Can Make Us Safer",
-      "url": "https://www.youtube.com/shorts/z2z1iF2qVK0",
-      "summary": "You can't separate cyber offense from defense. Reflection CEO Misha Laskin explains how restricting access to powerful AI capabilities can leave defenders less equipped to protect themselves, while open models can help level the playing field.",
-      "published_at": "2026-10-10T00:19:04+00:00",
-      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Why Moctezuma’s Own People Turned on Him - Si Sheppard",
-      "url": "https://www.youtube.com/shorts/BWnygfn04qA",
-      "summary": "",
-      "published_at": "2026-10-10T00:00:15+00:00",
-      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Why humanoid robot demos still fail the generalization test",
-      "url": "https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/",
-      "summary": "The Robot Report Podcast · Why humanoid robot demos still fail the generalization test Jeanine Sinanan-Singh, director of GenAI research at Appen. In Episode 265 of The Robot Report Podcast, our guest is Jeanine Sinanan-Singh, director of generative AI Research at Appen. She disc",
-      "published_at": "2026-10-09T19:28:41+00:00",
-      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin",
-      "url": "https://www.youtube.com/watch?v=up4sG9RM20M",
-      "summary": "Is the future of frontier AI open or closed? ReflectionAI co-founder and CEO Misha Laskin joins Sarah Guo and Elad Gil to discuss the launch of Beam, the company’s 500 billion parameter open-weight reasoning model. Misha breaks down the pre-training and reinforcement learning req",
-      "published_at": "2026-10-09T17:28:41+00:00",
-      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
-    },
-    {
-      "source": "No Priors Podcast",
-      "source_type": "rss",
-      "title": "Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin",
-      "url": "https://no-priors.com/",
-      "summary": "Is the future of frontier AI open or closed? ReflectionAI co-founder and CEO Misha Laskin joins Sarah Guo and Elad Gil to discuss the launch of Beam, the company’s 500 billion parameter open-weight reasoning model. Misha breaks down the pre-training and reinforcement learning req",
-      "published_at": "2026-10-09T17:24:00+00:00",
-      "audio_url": "https://traffic.megaphone.fm/PDP1028435739.mp3",
-      "details": "Is the future of frontier AI open or closed? ReflectionAI co-founder and CEO Misha Laskin joins Sarah Guo and Elad Gil to discuss the launch of Beam, the company’s 500 billion parameter open-weight reasoning model. Misha breaks down the pre-training and reinforcement learning required to produce Beam’s reasoning efficiency, the shift in enterprise compute from renting to owning intelligence, and how he believes that open models will capture the majority of global token demand. He also talks about the open model ecosystem in China and why competition with China’s models is a good thing, safety considerations around open models, and how frontier-level open models may accelerate the pace of scientific discovery. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @MishaLaskin | @reflection_ai Chapters: 00:42 – Misha Laskin Introduction 00:59 – Latest with ReflectionAI 02:07 – Challenges Building an Open Model 03:56 – ReflectionAI’s Agentic Shift 07:37 – Resources for Model Training 10:09 – Scaling Efficiency 12:18 – Training Beam 16:51 – Where Model Value Comes From 19:55 – Beam’s Reasoning Efficiency 22:35 – Monetizing Open Weight Models 25:03 – Future of Open Versus Closed Tokens 31:29 – Competition with Open Models 34:38 – Chinese Open Source Model Ecosystem 38:40 – Will Chinese Models Remain Open 44:44 – Safety and Open Models 53:02 – Debating Access to Powerful Tools 57:16 – AI and Scientific Progress 01:00:36 – Data Centers and Jobs 01:02:07 – Beam and Scientific Research 01:05:37 – Research Head Count to Compute Ratio 01:10:29 – Conclusion",
-      "dedupe_key": "podcast:2e8c396aa1c848753ca7098ba82e8d4bf605ffbf",
-      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Boston Dynamics gives more insight into its redesigned humanoid hand",
-      "url": "https://www.therobotreport.com/boston-dynamics-gives-more-insight-into-its-redesigned-humanoid-hand/",
-      "summary": "Boston Dynamics said its new hand is still capable of handling over 100 lb. | Source: Boston Dynamics Last week, Boston Dynamics Inc. gave a look at its new humanoid robot hand. The four-fingered hand has 13 degrees of freedom, or DoF, and is directly actuated. The company said i",
-      "published_at": "2026-10-09T16:59:57+00:00",
-      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
-    },
-    {
-      "source": "Anthropic Research",
-      "source_type": "rss",
-      "title": "Investigating unintended model actions in our evaluations and internal use",
-      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
-      "summary": "",
-      "published_at": "2026-10-09T16:09:00+00:00",
-      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
     },
     {
       "source": "Figure AI News",
