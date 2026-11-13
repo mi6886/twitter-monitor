@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-12T18:40:18.566599+00:00",
+  "updated_at": "2026-11-13T01:53:47.713750+00:00",
   "count": 700,
-  "new_count": 537,
+  "new_count": 441,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,61 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "Z.ai Release Notes",
+      "source_type": "rss",
+      "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
+      "url": "https://docs.z.ai/release-notes/new-released",
+      "summary": "Follow along with updates across Z.AI’s models",
+      "published_at": "2026-11-13T01:55:23.249724+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:2ddce0d35d5c9fad4cd8eb1ba0bb3632d2c04e37ba2f92f29c69e872ca27b872",
+      "first_seen_at": "2026-11-13T01:53:47.713750+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "GitHub availability report: October 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+      "summary": "We continue to share monthly updates on the work behind GitHub’s availability and reliability. The short version of October: we added substantial independently scalable Azure capacity and removed several ways that failures could escalate. However, write outages, monitoring gaps d",
+      "published_at": "2026-11-13T00:20:16+00:00",
+      "first_seen_at": "2026-11-13T01:53:47.713750+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "summary": "How many times this week did you re-explain the same task to an agent? How many times did you ask your colleague with deep institutional knowledge how to solve a specific problem? That context shouldn’t be lost in a chat or locked in one person’s head. Agent skills let you captur",
+      "published_at": "2026-11-12T22:54:52+00:00",
+      "first_seen_at": "2026-11-13T01:53:47.713750+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "published_at": "2026-11-12T20:00:00+00:00",
+      "first_seen_at": "2026-11-13T01:53:47.713750+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "summary": "",
+      "published_at": "2026-11-12T19:07:35+00:00",
+      "first_seen_at": "2026-11-13T01:53:47.713750+00:00"
+    },
+    {
+      "source": "Runway",
+      "source_type": "rss",
+      "title": "Closing the Gap Between Policy and Practice",
+      "url": "https://runway.com/news/safety/closing-the-gap",
+      "summary": "Runway’s moderation now allows sword fights, shootouts and horror while blocking real harm. What changed, where limits remain and how to flag mistakes.",
+      "published_at": "2026-11-12T18:50:00+00:00",
+      "first_seen_at": "2026-11-13T01:53:47.713750+00:00"
+    },
     {
       "source": "Google DeepMind Blog",
       "source_type": "rss",
@@ -137,6 +192,15 @@
       "first_seen_at": "2026-11-12T18:40:18.566599+00:00"
     },
     {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "published_at": "2026-11-12T12:00:00+00:00",
+      "first_seen_at": "2026-11-13T01:53:47.713750+00:00"
+    },
+    {
       "source": "No Priors YouTube",
       "source_type": "youtube",
       "title": "Powering AI-Driven Drug Discovery with President of Isomorphic Labs Max Jaderberg",
@@ -185,16 +249,6 @@
       "published_at": "2026-11-12T05:08:20+00:00",
       "details": "Today at the AI Engineer Code Summit, the main theme was system one models — non-generative models that return structured choices, scores, or probabilities. They’re also typically much faster and cheaper than reasoning LLMs (a.k.a. system two models). And who better to give an inspirational rallying cry for system one models than Diogo Almeida, co-founder and CEO of TypeSafe AI. Almeida was lead creator of Jev, the product that kicked off this trend less than two months ago. Jev was an instant revelation for AI engineers when it was released in September. In a podcast with Latent Space on launch (which quickly became our most popular episode of the year), Almeida explained the core problem with making LLMs the heart of software: reliability. In his keynote at AIE Code today, he took it a step further by claiming that Jev is “reliable intelligence” that should be used for “just automating everything.” Integrating system one models into code Of particular interest to AI engineers is Almeida’s point that system one models should become integrated with code. As he put it in his keynote, “code is the language of automation, therefore you need to integrate with code.” Latent Space founder swyx interprets this as a call to “liberally sprinkle ‘System One’ model calls everywhere INSIDE application code to make smarter software instead of increasingly convoluted forms of ‘concat strings together and hope for the best\" AI engineering.’” The term “smart software” was used throughout Almeida’s presentation. It sounds like the kind of term used by companies like Microsoft or IBM during Web 2.0, but in the AI era it does actually signify a harsh reality about LLM-driven software: sometimes it’s just not very smart. As Almeida quipped during his presentation, “you get Einstein 95% of the time, but Mr. Bean 5% of the time.” “And if you can't tell which is which, how the fuck are you going to automate anything,” he added. Almeida ended with an impassioned plea to “automate everything.” Like an AI-pilled, pink-haired Steve Jobs, he called out to “the dreamers and the people who don't want to be limited by everything that has happened so far,” promising that TypeSafe AI wants to “really fight for you, and we want this to be as reliable as a fourth logic gate.” How Glean uses Jev With the unenviable task of immediately following Almeida on stage, Chinmay Goyal from Glean presented a more prosaic version of Jev usage. He explained that system one models are used at Glean alongside LLMs and other types of classifiers, and that Jev is especially suited for “zero-shot flexibility.” “As the taxonomy of the decision space changes, we don't have to fine-tune these models again and again,” he said. In a short interview after his presentation, Goyal told Latent Space that their customers don’t actually need to know which type of model they’re using. “Jev powers a significant number of flows [but] the user just needs to have a product that works; that is always our aim with building anything. So we want to hide away all the complexity of whether we are using Jev or we are using a full-blown LLM.” In the conclusion of his presentation, Goyal offered some rules on when to use Jev: Jev patterns and prototypes Next up at AIE Code were Chibi Vikram and Kevin Bernstein from UiPath, a business orchestration and automation platform. One of their examples showed a test of Jev ranking document chunks. They held a “tournament” where Jev picked the most relevant chunks from small groups, then the winners advanced to another round, and so on. This whole process took under a second, even with thousands of Jev calls. “We realized that Jev is a building block that we can adjust,” said Vikram about this and other experiments, “and we have to find these new strategies where we will be able to apply this building block. It might look less intelligent on its own, but with these strategies and patterns, we can get more intelligent — with even the current Jev model that we have.” Scott Roberts, a Principal Engineer at Workday, finished the ‘system one’ session at AIE Code with some prototypes his team has run with Jev. In one, an interface starts to fill in a time-off card while the user is still typing. It was an interesting showcase of Almeida’s idea that a fast model call can change what the software itself does. Roberts described it as going “from predicting what you want to say to predicting what you want to do.” Like the early internet The biggest learning I took from the System One presentations today is that a model like Jev can open up surprising new ways to build software. I was sitting next to a conference attendee who heads up AI at his company. He told me that in his spare time, he used Jev to create a website that sorts and ranks news about fantasy football. But the final word has to go to Almeida, who likened the new opportunities opened up by system one models to the experimentation of the early internet. “I think that there's going to be an ",
       "first_seen_at": "2026-11-12T18:40:18.566599+00:00"
-    },
-    {
-      "source": "Z.ai Release Notes",
-      "source_type": "rss",
-      "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
-      "url": "https://docs.z.ai/release-notes/new-released",
-      "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-11-12T02:18:07.304462+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:7ce9956089820b653741fc78e79f3aec4cc794d734ae7711a3d99f99af5fedc9",
-      "first_seen_at": "2026-11-12T02:17:35.620046+00:00"
     },
     {
       "source": "AgiBot YouTube",
@@ -541,7 +595,7 @@
     {
       "source": "NVIDIA Blog",
       "source_type": "rss",
-      "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+      "title": "NVIDIA Expands Open Source Commitment With OpenShell Contribution and New AI Infrastructure",
       "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
       "summary": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon, the f",
       "published_at": "2026-11-10T16:00:03+00:00",
@@ -6361,60 +6415,6 @@
       "summary": "",
       "published_at": "2026-10-09T16:09:00+00:00",
       "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "Hack the World: Why hackathons are still the best place to learn to build",
-      "url": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build/",
-      "summary": "Someone bursts through the door and announces, “There’s pizza!” Nearby, a team has duct tape and cardboard holding its prototype together. Another is debugging a model that won’t detect their movements. This is a common scene during hackathons, and for a lot of people they’re the",
-      "published_at": "2026-10-09T16:00:00+00:00",
-      "first_seen_at": "2026-10-09T17:16:53.424078+00:00"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "Video Friday: Robot Decommissioning Takes a Fun Turn",
-      "url": "https://spectrum.ieee.org/video-friday-reachy-mini-raps",
-      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.CoRL 2026: 9–12 November 2026, AUSTI",
-      "published_at": "2026-10-09T15:30:02+00:00",
-      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Impactful scheduling for GPU clusters",
-      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
-      "summary": "",
-      "published_at": "2026-10-09T15:20:29+00:00",
-      "first_seen_at": "2026-10-09T17:16:53.424078+00:00"
-    },
-    {
-      "source": "a16z AI YouTube",
-      "source_type": "youtube",
-      "title": "Former Intel CEO: Why This is the Best Time to Build Hardware",
-      "url": "https://www.youtube.com/watch?v=1Q_7yU7FZ1k",
-      "summary": "a16z's Raghu Raghuram and Guido Appenzeller sit down with Playground Global General Partner and former Intel CEO Pat Gelsinger to discuss the next wave of semiconductor innovation and the physical constraints shaping the AI buildout. Drawing on his experience designing Intel's 38",
-      "published_at": "2026-10-09T14:30:19+00:00",
-      "first_seen_at": "2026-10-09T17:16:53.424078+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Groceryshop 2026 shows that retail robots are ready to scale, use AI",
-      "url": "https://www.therobotreport.com/groceryshop-2026-shows-retail-robots-ready-scale-use-ai/",
-      "summary": "Groceryshop 2026 provided an opportunity to assess the state of retail robotics. Source: Georges Mirza It has been more than a decade since I first helped to bring robots to live retail center stores. Long gone are retailers’ concerns about robots taking jobs, scaring kids, accid",
-      "published_at": "2026-10-09T12:25:47+00:00",
-      "first_seen_at": "2026-10-10T00:56:43.172149+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos",
-      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "published_at": "2026-10-09T07:00:00+00:00",
-      "first_seen_at": "2026-10-09T17:16:53.424078+00:00"
     },
     {
       "source": "Figure AI News",
