@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-14T01:28:32.562876+00:00",
+  "updated_at": "2026-11-14T16:49:55.708431+00:00",
   "count": 700,
-  "new_count": 396,
+  "new_count": 522,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -70,9 +70,37 @@
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
       "url": "https://docs.z.ai/release-notes/new-released",
       "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-11-14T01:30:21.636778+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:3b83daaf799a6f4eec9cd4cf9d37487246a85a76336876d0569dda40e414f854",
-      "first_seen_at": "2026-11-14T01:28:32.562876+00:00"
+      "published_at": "2026-11-14T16:50:28.594141+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:bb94acf105f1a146cb0b057cc833a952256aa79bd3514d3797dc019beee6e0d8",
+      "first_seen_at": "2026-11-14T16:49:55.708431+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] The No AI Slop Manifesto",
+      "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+      "summary": "Congrats to both llama.ccp and ggml for reaching 1.0 (declaring stability and removing 35 deprecated functions from llama.cpp’s public header) and with SGLang also announcing 1.0 at the recent SGLang Summit. However, today’s title story goes to the No AI Slop manifesto, which aro",
+      "published_at": "2026-11-14T08:31:02+00:00",
+      "details": "Congrats to both llama.ccp and ggml for reaching 1.0 (declaring stability and removing 35 deprecated functions from llama.cpp’s public header) and with SGLang also announcing 1.0 at the recent SGLang Summit. However, today’s title story goes to the No AI Slop manifesto, which arose out of the conference discussions at AIE CODE and which Dex introduced in the closing keynote after cosignatures by many of the speakers at the conference. It seems Hacker News also liked it, voting it up to the front page today. We started this manifesto to offer a useful tool for discussion at work, and hope it gets used that way. Full manifesto, with cosignatures and edits and discussions open at https://www.slopmanifesto.com/Sponsored by DeepgramDeepgram is the voice AI infrastructure behind natural conversation—bringing speech-to-text, text-to-speech, voice-focused LLMs, and agents to teams building with voice AI. For any stack and any tools you already love building with, Deepgram slots in as your foundational voice AI technology. So you have control. And we have the context to listen, understand, and speak like a human. Learn more about the Real-time Context Standard.Sponsored by Backblaze B2Growth shouldn’t make you sweat. Backblaze B2 delivers capacity storage that scales with your business and keeps flash and GPUs fed with terabit-scale throughput. Put B2 to the test! contact business@latent.space for further enquiries. Thank to Deepgram and Backblaze for supporting AINews! AI Twitter RecapLocal inference and agent infrastructurellama.cpp 1.0. Users running mixture-of-experts models larger than their GPU memory can now set aside a cache for frequently used experts. Georgi Gerganov · Daniel Han Chen’s exampleLangChain’s Series C. CapitalG led the round. LangSmith lets teams trace and evaluate production agents across frameworks. The company plans to announce new LangSmith features on November 20. LangChain · CapitalGFrontier and Open Model LaunchesGemini 4 Hydrogen in GitHub Copilot. GitHub made the model generally available in Copilot across its app, CLI and VS Code. GitHubIndependent checks: Roboflow's vision bench shows high effort at 29.3s per image, against 51.4s for Argon and 132.3s for Carbon, though Carbon has better detection accuracy (@skalskip92). One 3D-modeling test found Hydrogen more expensive than Argon because it loops on over-verification (@dzhng). Google's week: Google also shipped two 8th-gen TPUs, Gemini 4 Carbon, Gemini Robotics 2.5, AlphaGenome 2 and a Decisions API (@sundarpichai). MathArena: Gemini 4 Carbon took #1, displacing GPT-6.1 Sol (@j_dekoninck). Claude Fable 5.2 in Agent Arena. Arena published new results for long coding sessions. Pricing: API pricing fell from $10/$50 to $8/$40 per 1M input/output tokens (@arena). Agent Arena: The model ranks #1 at +30.4% net improvement, about 1.6x Opus 5.5. Its lead grows on long tasks, reaching 93% vs 85% no-correction responses at 16+ turns (@arena, turns). Thinking Machines Inkling 2 Small: The model's open weights are now on the Hub (@ariG23498). It is the #1 US open model in Code Arena WebDev at 1647 (@arena). NVFP4 training: It uses a native 4-bit forward pass from the first pretraining step through the final RL rollout (blog). The mixed-precision recipe is detailed by @jackcookjack. NVFP4 is stored in 3.6x fewer bits than BF16 and runs up to 6x faster on GB300 (quote). Inference detail: A width-4 short convolution requires a rolling 3-token cache per layer alongside the KV cache (@andrew_n_carr). ERNIE 5.5 Flash Preview (Baidu): The model has 280B total and 14B active parameters, a 1M-token context and free OpenRouter access. Open weights are promised before Nov 25 (@omarsar0), with Apache 2.0 cited by Arena. Other releases: Ripple-65B Preview: The dense model claims US open-weight SOTA on agentic coding (@RicursiveAI). MiniMax H3-Image: It is the #1 open-weights model on Artificial Analysis image editing and T2I (@ArtificialAnlys). DeepSeek API: DeepSeek exposed its app features via API, including search, files, OCR, ASR and TTS, with separate tool fees and an open-source frontend (@deepseek_ai, pricing). ChatGPT Wallet: The feature lets Dot agents buy items without seeing card numbers, via Amex, Mastercard and Visa (@TheRundownAI). Independent Evals, Benchmarks and Decision ModelsAA Coding Agent Index v2.1: The update moves to FrontierCode 2.0 and Terminal-Bench 4.1 (@ArtificialAnlys). Leaders: Fable 5.2 and Opus 5.5 tie at 58. Average scores fell 5 points; GPT-6.1 Terra in Codex is the only configuration that did not drop. Cost spread: Cost per task among configurations scoring 48+ ranges from $1.51 for Codex with GPT-6.1 Sol to $44.22 for Fable 5.2 at max. Fable at medium, high and xhigh all lie on the Pareto frontier (costs). Cyber and agent benchmarks: Tencent Hy4: The model scores 58% on the AA Cyber Index, ranking #3, and 76% on CWE-Bench-AA, ranking #1. It costs $0.92 per task (@ArtificialAnlys). Agent Initiative Benchmark: GPT-6.1 Sol",
+      "first_seen_at": "2026-11-14T16:49:55.708431+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "Rethinking Drug Development With Computing",
+      "url": "https://www.youtube.com/shorts/mydXxjJ6ppY",
+      "summary": "Drug development means: -About 15 years -About $1.5 billion -Failures and toxicity problems found late, in clinical trials Isomorphic Labs has an idea to fix this:",
+      "published_at": "2026-11-14T00:48:39+00:00",
+      "first_seen_at": "2026-11-14T16:49:55.708431+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "I’ve changed my mind about continual learning",
+      "url": "https://www.youtube.com/shorts/CoSptp9tYpY",
+      "summary": "",
+      "published_at": "2026-11-13T22:39:45+00:00",
+      "first_seen_at": "2026-11-14T16:49:55.708431+00:00"
     },
     {
       "source": "Google Research Blog",
@@ -82,6 +110,15 @@
       "summary": "Education Innovation",
       "published_at": "2026-11-13T20:47:18+00:00",
       "first_seen_at": "2026-11-14T01:28:32.562876+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics YouTube",
+      "source_type": "youtube",
+      "title": "Meet GR00T 2, our most advanced, open System One model for robotics research.",
+      "url": "https://www.youtube.com/shorts/IOcODanTpN0",
+      "summary": "GR00T 2 learns skills from human demonstrations and predicts how its actions will change the physical world. Those skills can carry across different robot bodies, reducing the need to teach each robot every task from scratch. Watch GR00T 2 put that research into motion. Real robo",
+      "published_at": "2026-11-13T19:36:39+00:00",
+      "first_seen_at": "2026-11-14T16:49:55.708431+00:00"
     },
     {
       "source": "NVIDIA Robotics Tech Blog",
@@ -101,6 +138,15 @@
       "published_at": "2026-11-13T18:37:51+00:00",
       "details": "Many thanks to Max Farrens, Gabe Fried, and Thomas Larsen for pairing with me through significant parts of writing and researching this essay. You can watch or listen to me narrate this essay on YouTube, Spotify, and Apple Podcasts.If you asked me earlier this year how far away we are from superintelligence, I’d probably have said at least the better part of a decade. But over the last three months, I’ve updated my views a ton. I’ve been debating people about this question, both on and off the podcast. And I’ve been watching the progress of AI on verifiable domains and thinking about what that implies for AI research itself.I’ve now come to the view that we’re only a couple of years away, and possibly only a couple of months away, from AIs that are as good as the best humans at AI research. I’ve also come to believe that automating AI research will compress so much progress into a single year that, soon thereafter (so by 2030, but plausibly as early as next year), we’ll have AIs that are at least as good as the best human experts in every field. I know this is a wild claim, and it’s one that I myself didn’t believe even a couple of months ago. Let me walk you through how my thinking has changed.Before we get into more speculative arguments, I want to point out that we have a lot of evidence that AI is already dramatically speeding up further AI progress at the frontier.For example, METR, which is an independent evaluation organization, concluded after three months embedded inside Anthropic that Anthropic’s overall rate of progress on well-scoped tasks is 2x what it was a year ago, and that a “majority of this acceleration today is likely attributable to Anthropic’s extensive use of AI to do R&D.”OpenAI published a blog post about this in September, where they showed that the heaviest 10% of AI users among OpenAI’s researchers went from using around $1,000 a day of internal coding agents at the beginning of the summer to over $7,000 a day by the end of August.In September, Anthropic put out a similar post on its own AI uplift. They reported that, as of August, Claude “leads” more than 26% of Anthropic’s AI R&D work—up from under 1% as recently as February.1Math is a preview of what will happen to AI researchWhen I think about how big a deal it could be if AIs automate AI research, and how soon that could happen, a really important update for me has been just seeing how quickly AI capabilities in mathematics have exploded. Current AIs are slicing through well-scoped problems in mathematics like a hot knife through butter. It was only two years ago that I asked Dario why LLMs aren’t able to use their vast knowledge across so many different fields in order to connect different ideas and make new discoveries. And lo and behold, here we are: In a wholly verifiable domain like mathematics, AIs are doing this search-and-match discovery to such a great extent that hundreds of important results (which the top mathematicians and computer scientists in the world had spent decades trying to resolve) are being churned out as side quests to hype up future model releases.It’s crazy how fast we went from, in 2023, “This model can’t reliably add four-digit numbers,” to, in 2024, “This model can barely solve any problems in a high school math competition,” to, in 2025, “Oh, it can win a gold medal at the International Mathematical Olympiad,” to, earlier this year, “Wow, it’s solving open Erdős problems, but maybe just because no human has attempted to solve these particular problems, and a similar solution was already in the literature,” to, about a month ago, “Okay, it fucking solved a Millennium Prize problem in 88 hours.”There’s a line in the novel East of Eden: “And there is one sure thing about the fall of gods: they do not fall a little; they crash and shatter.”It’s true that progress has skewed disproportionately towards the verification-laden parts of math, like finding counterexamples (rather than coming up with new theories, say). Toby Ord posted a great essay about this recently. He writes, “While current AI systems are starting to automate mathematical proof, there is currently very little evidence that they can ask powerful questions or find profound new fields of mathematical enquiry.”But another way to say the same point would be: Current AI systems have solved a Millennium Prize problem, all without the ability to ask powerful questions or find profound new fields of mathematical inquiry.And this ability to solve well-scoped problems is going to be an even bigger deal for machine learning research than for mathematics, broadly construed. That’s because the goal of mathematics research is not just to prove or disprove long lists of conjectures, but to extend human understanding of mathematical concepts. Coming up with the idea of topology, group theory, or the Cartesian grid matters far more than knowing exactly how many one-unit-apart pairs you can make from n dots. We mainly care about such abstruse questions",
       "first_seen_at": "2026-11-14T01:28:32.562876+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "Recursive self-improvement has started",
+      "url": "https://www.youtube.com/watch?v=1NHPDzpfR6Y",
+      "summary": "If you asked me earlier this year how far away we are from superintelligence, I’d probably have said at least the better part of a decade. But over the last three months, from debating people on and off the podcast, I’ve updated my views a ton. Let me walk you through how my thin",
+      "published_at": "2026-11-13T18:37:05+00:00",
+      "first_seen_at": "2026-11-14T16:49:55.708431+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -675,7 +721,7 @@
     {
       "source": "Lex Fridman YouTube",
       "source_type": "youtube",
-      "title": "Ukraine War: Putin, Zelenskyy, Trump, Drones and the Future of Warfare | Lex Fridman Podcast #504",
+      "title": "Russia-Ukraine War: Putin, Zelenskyy, Trump and the Future of Warfare | Lex Fridman Podcast #504",
       "url": "https://www.youtube.com/watch?v=2hJkprFnzhY",
       "summary": "Preston Stewart is a West Point graduate and Afghanistan veteran who covers the Ukraine war extensively on his YouTube channel, his podcast called War and Conflict, and his newsletter called Defense Tech News. Michael Kofman is a world-class military analyst specializing in the R",
       "published_at": "2026-11-10T23:52:20+00:00",
@@ -6093,7 +6139,7 @@
     {
       "source": "Lex Fridman YouTube",
       "source_type": "youtube",
-      "title": "Jensen Huang & Lex in Taiwan",
+      "title": "Taiwan: Street Food with the CEO of a $5 Trillion Company | Jensen Huang and Lex Fridman",
       "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
       "summary": "I've been traveling the world a bit. One of the most incredible experiences was getting to visit Taiwan with Jensen Huang. It was wild 🤯 Huge crowds, insanely good street food at night markets, and of course a lot of good conversations across many days. I caught some of it on vid",
       "published_at": "2026-10-13T21:26:16+00:00",
@@ -6363,51 +6409,6 @@
       "published_at": "2026-10-12T18:18:17+00:00",
       "details": "CJ Avilla and Harrison Stall, Members of Technical Staff at Anthropic, at AI Engineer NYC today. The AI Engineer New York 2026 conference kicked off this morning with a series of workshops, including Anthropic discussing how to orchestrate its Claude Managed Agents. Of particular interest was a brand new feature, announced on Friday, called dynamic workflows — or simply “flows,” as the presenters repeatedly called it. Flows are defined as “a new type of multiagent orchestration, built for your most ambitious workloads.” CJ Avilla and Harrison Stall, both Members of Technical Staff at Anthropic, began by invoking some operating system projects of the past — from Ken Thompson building the original Unix operating system, through to Linux evolving from one person (Linus Torvalds) to layers of trusted maintainers. The lesson: agents need the same level of organization in order to do the types of big, ambitious projects Anthropic envisions for dynamic workflows. Sponsored by Union.ai Build a sovereign AI factory The best engineering teams are building AI factories where they own and control not only their data, compute, and infrastructure, but also a durable runtime on their cloud. Union.ai gives your workflows the durability to adapt and right-size infra resources and recover from failures without re-running completed work. Get started directly through AWS Marketplace and try Union.ai free for 30 days. To learn more, visit us at AI Engineer New York booth #48. “I think a lot of us who are orchestrating and managing lots of agents now might start to feel this feeling of being the bottleneck and being the breaking point as we have lots of agents contributing tons and tons of PRs,” Avilla said. “And we’re sitting there in our GitHub trying to approve PRs and make sure that everything works as expected.” From agent rosters to dynamic workflows The pair noted that dynamic workflows began in Claude Code as the “a harness for every task” concept. But flows can run longer than a single agent or a roster. The basic idea is that Claude chooses the organization of agents. “Flows are essentially the next version of multi-agent orchestration,” said Stall, “where you can let Claude fully orchestrate the entirety of its own multi-agent topology.” The way this works is that the lead agent creates a plan for how it wants to accomplish tasks. Claude then writes an orchestration program, which launches agents, collects results, and manages information flow. Image via Anthropic Previously, Claude Managed Agents required developers to configure a coordinator and a roster of subagents. With dynamic workflows, Claude itself determines how to divide and orchestrate the work. “Across multiple different phases of the multi-agent orchestration, it’s able to accomplish discrete, verifiable units of work without you having to manage any of the interconnections between these things,” Stall said. That said, Avilla noted that the user can introduce specialist sub-agents if they wish. “It’s also possible in the agent config to pass in pre-configured sub-agents,” he said. All of this is available in Claude Console, the interface used by developers accessing Claude through API — the whole point of Claude Managed Agents. Claude Console, where Managed Agents is located. The presenters then showed a relatively simple workflow of a stock watchlist scanner. Although this was far removed from the big, ambitious projects Anthropic is encouraging, it did illustrate the basic pattern: a scan phase distributed individual tickers to agents with isolated contexts, and a later review phase examined the findings before producing a report. Q&A: Budgets and the limits of self-improvement The audience Q&A surfaced a number of potential problems. One audience member asked how Claude decides how many agents a task needs, and could a simple ticker scan trigger hundreds of sub-agents? “The answer really is evals and lower defaults,” Stall replied, noting that ambitious tasks generally require explicitly encouraging greater parallelization. One enduring concern with agent orchestration is maintaining control over your token budget. Someone asked whether the lead agent knows how much money it has available? Stall replied that the model does not know its budget while running, but that developers can set a session budget. He added that informing models of their budgets could make the agents “a little bit anxious,” which elicited chuckles from the audience. Scanner in the stock watchlist example. A related question was how can developers make repeated flows cheaper and more efficient over time? Outside of asking Claude to examine the costs incurred, Avilla suggested another relatively new feature be used: dreaming. In the documentation, “dreaming” is defined as a research preview feature. A dream “reads an existing memory store alongside past session transcripts, then produces a new, reorganized memory store,” with duplicates merged, “stale or contradicted entries” replac",
       "first_seen_at": "2026-10-23T15:37:12.563926+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
-      "summary": "Context matters when you’re working with AI. Every codebase has its own house rules: how components are structured, which scripts to run, and which conventions apply to different frameworks and file types. Copilot can help you make changes across a project, but it works best when",
-      "published_at": "2026-10-12T17:43:59+00:00",
-      "first_seen_at": "2026-10-12T20:05:40.039002+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Nobody Knows Why the Plague Keeps Coming Back - Si Sheppard",
-      "url": "https://www.youtube.com/shorts/RUoY5GCdONY",
-      "summary": "",
-      "published_at": "2026-10-12T17:40:51+00:00",
-      "first_seen_at": "2026-10-12T20:05:40.039002+00:00"
-    },
-    {
-      "source": "Latent Space YouTube",
-      "source_type": "youtube",
-      "title": "High Taste Testers: DevDay Edition",
-      "url": "https://www.youtube.com/shorts/sRBpc624dGk",
-      "summary": "a pilot for our new talk show featuring your favorite opinionmakers and leaders in AI! Sponsorship and business inquiries: business@latent.space",
-      "published_at": "2026-10-12T15:26:32+00:00",
-      "first_seen_at": "2026-10-12T20:05:40.039002+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
-      "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
-      "summary": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San",
-      "published_at": "2026-10-12T15:00:25+00:00",
-      "first_seen_at": "2026-10-12T20:05:40.039002+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Closing the reality gap: Why real-time execution has become the new competitive advantage",
-      "url": "https://www.therobotreport.com/closing-reality-gap-why-real-time-execution-has-become-new-competitive-advantage/",
-      "summary": "Daifuku helped to automate Kagetsudo Co.’s product storage system and production lines. | Source: Daifuku Organizations across the supply chain continue to invest heavily in automation. Yet for many warehouse and distribution leaders, the expected gains in productivity, throughpu",
-      "published_at": "2026-10-12T14:30:33+00:00",
-      "first_seen_at": "2026-10-12T20:05:40.039002+00:00"
     },
     {
       "source": "Figure AI News",
