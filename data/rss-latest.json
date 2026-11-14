@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-13T18:20:51.988125+00:00",
+  "updated_at": "2026-11-14T01:28:32.562876+00:00",
   "count": 700,
-  "new_count": 535,
+  "new_count": 396,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -70,9 +70,37 @@
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
       "url": "https://docs.z.ai/release-notes/new-released",
       "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-11-13T18:21:19.609435+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:a105677d7689cd5a90fca0d2759471c35c0ceea9679332b77f2c552efe69ea4e",
-      "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
+      "published_at": "2026-11-14T01:30:21.636778+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:3b83daaf799a6f4eec9cd4cf9d37487246a85a76336876d0569dda40e414f854",
+      "first_seen_at": "2026-11-14T01:28:32.562876+00:00"
+    },
+    {
+      "source": "Google Research Blog",
+      "source_type": "rss",
+      "title": "Advancing science & engineering with Antigravity’s /teamwork",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "summary": "Education Innovation",
+      "published_at": "2026-11-13T20:47:18+00:00",
+      "first_seen_at": "2026-11-14T01:28:32.562876+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics Tech Blog",
+      "source_type": "rss",
+      "title": "Run Native DLA Inference in Python on NVIDIA Jetson AGX Orin Using cuDLA",
+      "url": "https://developer.nvidia.com/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/",
+      "summary": "AI applications at the edge often need to run multiple neural networks within limited compute and power budgets. NVIDIA Deep Learning Accelerator (DLA) platforms provide dedicated hardware for deep learning inference. On NVIDIA Jetson AGX Orin, DLA executes supported neural netwo",
+      "published_at": "2026-11-13T18:57:10+00:00",
+      "first_seen_at": "2026-11-14T01:28:32.562876+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "source_type": "rss",
+      "title": "The avalanche that hit math is coming for AI development",
+      "url": "https://www.dwarkesh.com/p/rsi",
+      "summary": "Many thanks to Max Farrens, Gabe Fried, and Thomas Larsen for pairing with me through significant parts of writing and researching this essay. You can watch or listen to me narrate this essay on YouTube, Spotify, and Apple Podcasts.If you asked me earlier this year how far away w",
+      "published_at": "2026-11-13T18:37:51+00:00",
+      "details": "Many thanks to Max Farrens, Gabe Fried, and Thomas Larsen for pairing with me through significant parts of writing and researching this essay. You can watch or listen to me narrate this essay on YouTube, Spotify, and Apple Podcasts.If you asked me earlier this year how far away we are from superintelligence, I’d probably have said at least the better part of a decade. But over the last three months, I’ve updated my views a ton. I’ve been debating people about this question, both on and off the podcast. And I’ve been watching the progress of AI on verifiable domains and thinking about what that implies for AI research itself.I’ve now come to the view that we’re only a couple of years away, and possibly only a couple of months away, from AIs that are as good as the best humans at AI research. I’ve also come to believe that automating AI research will compress so much progress into a single year that, soon thereafter (so by 2030, but plausibly as early as next year), we’ll have AIs that are at least as good as the best human experts in every field. I know this is a wild claim, and it’s one that I myself didn’t believe even a couple of months ago. Let me walk you through how my thinking has changed.Before we get into more speculative arguments, I want to point out that we have a lot of evidence that AI is already dramatically speeding up further AI progress at the frontier.For example, METR, which is an independent evaluation organization, concluded after three months embedded inside Anthropic that Anthropic’s overall rate of progress on well-scoped tasks is 2x what it was a year ago, and that a “majority of this acceleration today is likely attributable to Anthropic’s extensive use of AI to do R&D.”OpenAI published a blog post about this in September, where they showed that the heaviest 10% of AI users among OpenAI’s researchers went from using around $1,000 a day of internal coding agents at the beginning of the summer to over $7,000 a day by the end of August.In September, Anthropic put out a similar post on its own AI uplift. They reported that, as of August, Claude “leads” more than 26% of Anthropic’s AI R&D work—up from under 1% as recently as February.1Math is a preview of what will happen to AI researchWhen I think about how big a deal it could be if AIs automate AI research, and how soon that could happen, a really important update for me has been just seeing how quickly AI capabilities in mathematics have exploded. Current AIs are slicing through well-scoped problems in mathematics like a hot knife through butter. It was only two years ago that I asked Dario why LLMs aren’t able to use their vast knowledge across so many different fields in order to connect different ideas and make new discoveries. And lo and behold, here we are: In a wholly verifiable domain like mathematics, AIs are doing this search-and-match discovery to such a great extent that hundreds of important results (which the top mathematicians and computer scientists in the world had spent decades trying to resolve) are being churned out as side quests to hype up future model releases.It’s crazy how fast we went from, in 2023, “This model can’t reliably add four-digit numbers,” to, in 2024, “This model can barely solve any problems in a high school math competition,” to, in 2025, “Oh, it can win a gold medal at the International Mathematical Olympiad,” to, earlier this year, “Wow, it’s solving open Erdős problems, but maybe just because no human has attempted to solve these particular problems, and a similar solution was already in the literature,” to, about a month ago, “Okay, it fucking solved a Millennium Prize problem in 88 hours.”There’s a line in the novel East of Eden: “And there is one sure thing about the fall of gods: they do not fall a little; they crash and shatter.”It’s true that progress has skewed disproportionately towards the verification-laden parts of math, like finding counterexamples (rather than coming up with new theories, say). Toby Ord posted a great essay about this recently. He writes, “While current AI systems are starting to automate mathematical proof, there is currently very little evidence that they can ask powerful questions or find profound new fields of mathematical enquiry.”But another way to say the same point would be: Current AI systems have solved a Millennium Prize problem, all without the ability to ask powerful questions or find profound new fields of mathematical inquiry.And this ability to solve well-scoped problems is going to be an even bigger deal for machine learning research than for mathematics, broadly construed. That’s because the goal of mathematics research is not just to prove or disprove long lists of conjectures, but to extend human understanding of mathematical concepts. Coming up with the idea of topology, group theory, or the Cartesian grid matters far more than knowing exactly how many one-unit-apart pairs you can make from n dots. We mainly care about such abstruse questions",
+      "first_seen_at": "2026-11-14T01:28:32.562876+00:00"
     },
     {
       "source": "Hugging Face Blog",
@@ -156,6 +184,15 @@
       "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
     },
     {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Narwal builds robot vacuums to serve regional needs",
+      "url": "https://www.therobotreport.com/narwal-builds-robot-vacuums-to-serve-regional-needs/",
+      "summary": "Narwal has designed robots that can both vacuum and mop. Source: Narwal Robots have entered homes, but the path to consumer adoption has been long and winding. iRobot Corp. was the pioneer but entered bankruptcy proceedings late in 2025. Narwal Robotics Corp. has spent a decade o",
+      "published_at": "2026-11-13T13:18:05+00:00",
+      "first_seen_at": "2026-11-14T01:28:32.562876+00:00"
+    },
+    {
       "source": "NVIDIA Blog",
       "source_type": "rss",
       "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
@@ -173,6 +210,15 @@
       "published_at": "2026-11-13T09:04:13+00:00",
       "details": "Congrats to Gemini 4 Hydrogen on their launch and it seems Anthropic’s IPO is well under way, but today’s headline was only ever going to be about one thing, the most earthshaking leadership change in AI (after Demis/Jeff/et al at Google DeepMind). Yesterday we covered reports that NVIDIA’s board was preparing to replace Jensen Huang following an NYT report of an affair with an accused Chinese spy. Following news of a second affair, today NVIDIA announced his resignation (correlation/causation is debatable here), presumably forced by the board: View post on X ↗ There is also some discussion of the extent that Chinese models can demonstrably be shown to be trained on Blackwell GPUs that they should not have access to… though the scale is debated. After 33 years, Jensen Huang has stepped down as CEO, president and boardmember. Colette Kress, NVIDIA’s CFO since 2013, will keep that job while serving as interim CEO… leading into what will presumably the best attended earnings call in the history of $NVDA next week. AI News for 11/11/2026-11/12/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapGemini 4 Hydrogen: Google's Fast Gemini 4 Tier Ships BroadlyLaunch: Google DeepMind released Gemini 4 Hydrogen, a speed-first model positioned alongside Carbon and Argon. Google says it completes tasks 2.5x faster than Gemini 3.8 Flash and edges Argon on the Artificial Analysis Intelligence Index, 51 vs 50 at default thinking and 54 at the new xhigh level (DeepMind, Koray Kavukcuoglu). Specs and pricing: The model offers four thinking levels (low, medium, high and xhigh) and a 1M context window. It costs $1.50/$7.50 per million input/output tokens, with a 95% discount on cached input (Phil Schmid, Artificial Analysis). Official claims: Google reports 57% on Terminal-Bench 4.0 and more than 3x Gemini 3.8 Flash on Terminal-Bench 4.1. It also claims more than 5x fewer fabricated claims, #1 on Vals Tax Agent Bench and leading results on AutomationBench-AA and Agents' Last Exam (Google). Availability: Hydrogen is available on all Gemini API tiers, including a free tier in AI Studio. It is the default model in Search AI Mode, and free Gemini app users get it through auto-selection. Paid Pro and Ultra subscribers can use it in Antigravity (Sundar Pichai, GeminiApp, Search). Orchestrator multi-model mode: In Antigravity, Carbon plans while Hydrogen writes and tests code. Google says this reaches near-Carbon success on Terminal-Bench 4.0 with 24% less quota and 19% faster completion. It is rolling out to Ultra subscribers (Google, Mohan). Artificial Analysis measurements: The independent results show a mixed profile. Intelligence and cost: At xhigh, Hydrogen scores 54, one point behind Claude Sonnet 5.5 (max) and GPT-6.1 Sol (max). Its cost is about 32% of Sonnet's but about 2.5x Sol's. Cost per task is $3.16 at xhigh and $1.87 at high. Output speed is about 200 tok/s (AA). Strengths: Hydrogen has an 8% hallucination rate on AA-Omniscience, versus 43% for Sonnet and 52% for Sol. It also shares the #1 score on GDP.pdf visual reasoning. Weaknesses: It scores 54% on Terminal-Bench 4.0 at both high and xhigh, below Sonnet at 64% and Sol at 56%. Third-party leaderboards: Agent Arena: Hydrogen debuts at #5 with +14.8% net improvement across 6.5k sessions. It is the fastest model in the top 10 at 5.3 minutes per task median, with a median cost of $1.6 per task (Arena). Code Arena WebDev: It ranks #10 with 1703 points (Arena). Vals Index: It is #6 at 68.5%, 2 points behind Carbon at 38% of Carbon's price (Vals). Coding agents: CursorBench rises to 54.3% from 39.6% for 3.8 Flash (Cursor). Cognition's FrontierCode 2.0 shows 38.2%, just behind Sol (Cognition). SWE-sweep shows 13.5%, versus 9.5% for Astra (KLieret). Caveats from users: Runaway reasoning: One tester saw xhigh spend 131K thinking tokens and about $1.08 without answering a jersey-number image question. The same tester reports budget exhaustion on 1.8% of a text benchmark (skalskip92). Weak spots: Hydrogen scored 1% on MazeBench (patience_cave). Pricing structure: Simon Willison says Hydrogen is only a 25% discount on the Carbon/Argon token price, though those models reportedly double in price on Dec 1 (simonw). Speed: Theo disputes the \"built for speed\" framing based on his own timings (theo). Open-Weight Releases: Inkling 2 Small LeadsInkling 2 Small: Thinking Machines released the weights under Apache 2.0 (thinkymachines, Mira Murati). Size: It is a 594B-total / 17B-active MoE with text and image input and up to 1M context (HF). Architecture: New components include attention residuals with a q/k/v split, gated attention, a dynamic attention sink, dynamic shortconv and value norm (Songlin Yang). Experts use NVFP4 in layers 0–39 and MXFP8 in the last eight, with SWA widened to 1k and softcaps on the LM",
       "first_seen_at": "2026-11-13T18:20:51.988125+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "published_at": "2026-11-13T08:00:00+00:00",
+      "first_seen_at": "2026-11-14T01:28:32.562876+00:00"
     },
     {
       "source": "Latent Space",
@@ -6362,51 +6408,6 @@
       "summary": "Daifuku helped to automate Kagetsudo Co.’s product storage system and production lines. | Source: Daifuku Organizations across the supply chain continue to invest heavily in automation. Yet for many warehouse and distribution leaders, the expected gains in productivity, throughpu",
       "published_at": "2026-10-12T14:30:33+00:00",
       "first_seen_at": "2026-10-12T20:05:40.039002+00:00"
-    },
-    {
-      "source": "a16z AI YouTube",
-      "source_type": "youtube",
-      "title": "Recursive Self-Improvement and the Future of AI",
-      "url": "https://www.youtube.com/watch?v=3Q1mdn5ZGvM",
-      "summary": "a16z General Partner Martin Casado sits down with MakerMaker.AI co-founders Dhaval Adjodah and Owen He to unpack recursive self-improvement, or RSI, and separate the increasingly popular term from what it would actually mean for an AI system to improve itself. Dhaval and Owen dis",
-      "published_at": "2026-10-12T14:30:07+00:00",
-      "first_seen_at": "2026-10-12T20:05:40.039002+00:00"
-    },
-    {
-      "source": "Anthropic Research",
-      "source_type": "rss",
-      "title": "Strengthening our defenses against distillation attacks",
-      "url": "https://www.anthropic.com/research/distillation-defenses",
-      "summary": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
-      "published_at": "2026-10-12T09:30:00+00:00",
-      "first_seen_at": "2026-10-13T02:35:58.865285+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "source_type": "rss",
-      "title": "Strengthening our defenses against distillation attacks",
-      "url": "https://www.anthropic.com/news/distillation-defenses",
-      "summary": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
-      "published_at": "2026-10-12T00:00:00+00:00",
-      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
-    },
-    {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "The Aztec Prince Who Helped Cortés Destroy His Own Empire - Si Sheppard",
-      "url": "https://www.youtube.com/shorts/Q3nhfMQLZdQ",
-      "summary": "",
-      "published_at": "2026-10-11T20:54:26+00:00",
-      "first_seen_at": "2026-10-12T00:36:34.603124+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "Why Third Party Chips Survive",
-      "url": "https://www.youtube.com/shorts/OIriINdD2O0",
-      "summary": "Why doesn't every frontier lab build its own chip? Because if a rival finds a 5x efficiency gain that only runs on their silicon, you're out of the race before your chips deploy. Fractile CEO Walter Goodwin on why third party chips survive.",
-      "published_at": "2026-10-11T15:50:18+00:00",
-      "first_seen_at": "2026-10-11T16:31:19.944778+00:00"
     },
     {
       "source": "Figure AI News",
