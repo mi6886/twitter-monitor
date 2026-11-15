@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-15T01:05:09.471836+00:00",
+  "updated_at": "2026-11-15T17:32:16.392024+00:00",
   "count": 700,
-  "new_count": 424,
+  "new_count": 519,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -73,6 +73,33 @@
       "published_at": "2026-11-15T01:06:49.236493+00:00",
       "dedupe_key": "page:Z.ai Release Notes:788a054518e2edf6d6b0cfae8adbc3d952c0f239f1ec8fb8afbabdf135fe42e8",
       "first_seen_at": "2026-11-15T01:05:09.471836+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "The Next 4 Years of AI Will Look Nothing Like the Last 4",
+      "url": "https://www.youtube.com/shorts/SeGUXN8XIu8",
+      "summary": "",
+      "published_at": "2026-11-15T01:05:37+00:00",
+      "first_seen_at": "2026-11-15T17:32:16.392024+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "How Cloudflare Thinks About AI Token Usage",
+      "url": "https://www.youtube.com/shorts/no6lv6pTJeU",
+      "summary": "“We don’t have a token leaderboard. We encourage people to focus on the output.” Cloudflare CTO Dane Knecht on how Cloudflare thinks about AI tokens:",
+      "published_at": "2026-11-14T23:51:00+00:00",
+      "first_seen_at": "2026-11-15T17:32:16.392024+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics YouTube",
+      "source_type": "youtube",
+      "title": "From AI Factories to Intelligent Cities",
+      "url": "https://www.youtube.com/watch?v=ha-gDrDm8Es",
+      "summary": "AI factories, physical AI, and agents, built with local partners are helping cities improve planning, operations, and public services. Learn how shared infrastructure and city-led governance support safer streets, more responsive operations, and stronger local AI innovation. #SCE",
+      "published_at": "2026-11-14T17:48:26+00:00",
+      "first_seen_at": "2026-11-15T17:32:16.392024+00:00"
     },
     {
       "source": "Latent Space",
@@ -721,7 +748,7 @@
     {
       "source": "Lex Fridman YouTube",
       "source_type": "youtube",
-      "title": "Russia-Ukraine War: Putin, Zelenskyy, Trump and the Future of Warfare | Lex Fridman Podcast #504",
+      "title": "Russia-Ukraine War: Putin, Zelenskyy, Drones and the Future of Warfare | Lex Fridman Podcast #504",
       "url": "https://www.youtube.com/watch?v=2hJkprFnzhY",
       "summary": "Preston Stewart is a West Point graduate and Afghanistan veteran who covers the Ukraine war extensively on his YouTube channel, his podcast called War and Conflict, and his newsletter called Defense Tech News. Michael Kofman is a world-class military analyst specializing in the R",
       "published_at": "2026-11-10T23:52:20+00:00",
@@ -6139,7 +6166,7 @@
     {
       "source": "Lex Fridman YouTube",
       "source_type": "youtube",
-      "title": "Taiwan: Street Food with the CEO of a $5 Trillion Company | Jensen Huang and Lex Fridman",
+      "title": "Taiwan Night Market Food Tour w/ Jensen Huang | Lex Fridman",
       "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
       "summary": "I've been traveling the world a bit. One of the most incredible experiences was getting to visit Taiwan with Jensen Huang. It was wild 🤯 Huge crowds, insanely good street food at night markets, and of course a lot of good conversations across many days. I caught some of it on vid",
       "published_at": "2026-10-13T21:26:16+00:00",
@@ -6380,35 +6407,6 @@
       "summary": "With 90% retention, startups almost can't compete in insurance brokerages. Sequence Holdings bought into one instead. CEO Michael Lee on the Baldwin thesis. New No Priors episode, out now.",
       "published_at": "2026-10-12T23:07:23+00:00",
       "first_seen_at": "2026-10-13T17:55:02.753086+00:00"
-    },
-    {
-      "source": "Anthropic Research",
-      "source_type": "rss",
-      "title": "AI models may be capable of self-replicating without access to a datacenter",
-      "url": "https://www.anthropic.com/research/self-replicating-ai",
-      "summary": "Small AI models may be only months away from being able to self-replicate across cheap IoT devices like Android TV boxes, with no datacenter needed.",
-      "published_at": "2026-10-12T19:30:00+00:00",
-      "first_seen_at": "2026-10-12T20:05:40.039002+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents (Updated with video!)",
-      "url": "https://www.latent.space/p/claude-dynamic-workflows",
-      "summary": "CJ Avilla and Harrison Stall, Members of Technical Staff at Anthropic, at AI Engineer NYC today.The AI Engineer New York 2026 conference kicked off this morning with a series of workshops, including Anthropic discussing how to orchestrate its Claude Managed Agents. Of particular ",
-      "published_at": "2026-10-12T18:18:17+00:00",
-      "details": "CJ Avilla and Harrison Stall, Members of Technical Staff at Anthropic, at AI Engineer NYC today.The AI Engineer New York 2026 conference kicked off this morning with a series of workshops, including Anthropic discussing how to orchestrate its Claude Managed Agents. Of particular interest was a brand new feature, announced on Friday, called dynamic workflows — or simply “flows,” as the presenters repeatedly called it.Flows are defined as “a new type of multiagent orchestration, built for your most ambitious workloads.”CJ Avilla and Harrison Stall, both Members of Technical Staff at Anthropic, began by invoking some operating system projects of the past — from Ken Thompson building the original Unix operating system, through to Linux evolving from one person (Linus Torvalds) to layers of trusted maintainers. The lesson: agents need the same level of organization in order to do the types of big, ambitious projects Anthropic envisions for dynamic workflows.Sponsored by Union.ai Build a sovereign AI factoryThe best engineering teams are building AI factories where they own and control not only their data, compute, and infrastructure, but also a durable runtime on their cloud.Union.ai gives your workflows the durability to adapt and right-size infra resources and recover from failures without re-running completed work.Get started directly through AWS Marketplace and try Union.ai free for 30 days.To learn more, visit us at AI Engineer New York booth #48.“I think a lot of us who are orchestrating and managing lots of agents now might start to feel this feeling of being the bottleneck and being the breaking point as we have lots of agents contributing tons and tons of PRs,” Avilla said. “And we’re sitting there in our GitHub trying to approve PRs and make sure that everything works as expected.”From agent rosters to dynamic workflowsThe pair noted that dynamic workflows began in Claude Code as the “a harness for every task” concept. But flows can run longer than a single agent or a roster. The basic idea is that Claude chooses the organization of agents.“Flows are essentially the next version of multi-agent orchestration,” said Stall, “where you can let Claude fully orchestrate the entirety of its own multi-agent topology.”The way this works is that the lead agent creates a plan for how it wants to accomplish tasks. Claude then writes an orchestration program, which launches agents, collects results, and manages information flow.Image via AnthropicPreviously, Claude Managed Agents required developers to configure a coordinator and a roster of subagents. With dynamic workflows, Claude itself determines how to divide and orchestrate the work.“Across multiple different phases of the multi-agent orchestration, it’s able to accomplish discrete, verifiable units of work without you having to manage any of the interconnections between these things,” Stall said.That said, Avilla noted that the user can introduce specialist sub-agents if they wish.“It’s also possible in the agent config to pass in pre-configured sub-agents,” he said.All of this is available in Claude Console, the interface used by developers accessing Claude through API — the whole point of Claude Managed Agents.Claude Console, where Managed Agents is located.The presenters then showed a relatively simple workflow of a stock watchlist scanner. Although this was far removed from the big, ambitious projects Anthropic is encouraging, it did illustrate the basic pattern: a scan phase distributed individual tickers to agents with isolated contexts, and a later review phase examined the findings before producing a report.Q&A: Budgets and the limits of self-improvementThe audience Q&A surfaced a number of potential problems. One audience member asked how Claude decides how many agents a task needs, and could a simple ticker scan trigger hundreds of sub-agents?“The answer really is evals and lower defaults,” Stall replied, noting that ambitious tasks generally require explicitly encouraging greater parallelization.One enduring concern with agent orchestration is maintaining control over your token budget. Someone asked whether the lead agent knows how much money it has available?Stall replied that the model does not know its budget while running, but that developers can set a session budget. He added that informing models of their budgets could make the agents “a little bit anxious,” which elicited chuckles from the audience.Scanner in the stock watchlist example.A related question was how can developers make repeated flows cheaper and more efficient over time?Outside of asking Claude to examine the costs incurred, Avilla suggested another relatively new feature be used: dreaming. In the documentation, “dreaming” is defined as a research preview feature. A dream “reads an existing memory store alongside past session transcripts, then produces a new, reorganized memory store,” with duplicates merged, “stale or contradicted entries” replaced, and “new insights surface",
-      "first_seen_at": "2026-10-12T20:05:40.039002+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents (Updated with video!)",
-      "url": "https://latent.space/p/claude-dynamic-workflows/",
-      "summary": "CJ Avilla and Harrison Stall, Members of Technical Staff at Anthropic, at AI Engineer NYC today. The AI Engineer New York 2026 conference kicked off this morning with a series of workshops, including Anthropic discussing how to orchestrate its Claude Managed Agents. Of particular",
-      "published_at": "2026-10-12T18:18:17+00:00",
-      "details": "CJ Avilla and Harrison Stall, Members of Technical Staff at Anthropic, at AI Engineer NYC today. The AI Engineer New York 2026 conference kicked off this morning with a series of workshops, including Anthropic discussing how to orchestrate its Claude Managed Agents. Of particular interest was a brand new feature, announced on Friday, called dynamic workflows — or simply “flows,” as the presenters repeatedly called it. Flows are defined as “a new type of multiagent orchestration, built for your most ambitious workloads.” CJ Avilla and Harrison Stall, both Members of Technical Staff at Anthropic, began by invoking some operating system projects of the past — from Ken Thompson building the original Unix operating system, through to Linux evolving from one person (Linus Torvalds) to layers of trusted maintainers. The lesson: agents need the same level of organization in order to do the types of big, ambitious projects Anthropic envisions for dynamic workflows. Sponsored by Union.ai Build a sovereign AI factory The best engineering teams are building AI factories where they own and control not only their data, compute, and infrastructure, but also a durable runtime on their cloud. Union.ai gives your workflows the durability to adapt and right-size infra resources and recover from failures without re-running completed work. Get started directly through AWS Marketplace and try Union.ai free for 30 days. To learn more, visit us at AI Engineer New York booth #48. “I think a lot of us who are orchestrating and managing lots of agents now might start to feel this feeling of being the bottleneck and being the breaking point as we have lots of agents contributing tons and tons of PRs,” Avilla said. “And we’re sitting there in our GitHub trying to approve PRs and make sure that everything works as expected.” From agent rosters to dynamic workflows The pair noted that dynamic workflows began in Claude Code as the “a harness for every task” concept. But flows can run longer than a single agent or a roster. The basic idea is that Claude chooses the organization of agents. “Flows are essentially the next version of multi-agent orchestration,” said Stall, “where you can let Claude fully orchestrate the entirety of its own multi-agent topology.” The way this works is that the lead agent creates a plan for how it wants to accomplish tasks. Claude then writes an orchestration program, which launches agents, collects results, and manages information flow. Image via Anthropic Previously, Claude Managed Agents required developers to configure a coordinator and a roster of subagents. With dynamic workflows, Claude itself determines how to divide and orchestrate the work. “Across multiple different phases of the multi-agent orchestration, it’s able to accomplish discrete, verifiable units of work without you having to manage any of the interconnections between these things,” Stall said. That said, Avilla noted that the user can introduce specialist sub-agents if they wish. “It’s also possible in the agent config to pass in pre-configured sub-agents,” he said. All of this is available in Claude Console, the interface used by developers accessing Claude through API — the whole point of Claude Managed Agents. Claude Console, where Managed Agents is located. The presenters then showed a relatively simple workflow of a stock watchlist scanner. Although this was far removed from the big, ambitious projects Anthropic is encouraging, it did illustrate the basic pattern: a scan phase distributed individual tickers to agents with isolated contexts, and a later review phase examined the findings before producing a report. Q&A: Budgets and the limits of self-improvement The audience Q&A surfaced a number of potential problems. One audience member asked how Claude decides how many agents a task needs, and could a simple ticker scan trigger hundreds of sub-agents? “The answer really is evals and lower defaults,” Stall replied, noting that ambitious tasks generally require explicitly encouraging greater parallelization. One enduring concern with agent orchestration is maintaining control over your token budget. Someone asked whether the lead agent knows how much money it has available? Stall replied that the model does not know its budget while running, but that developers can set a session budget. He added that informing models of their budgets could make the agents “a little bit anxious,” which elicited chuckles from the audience. Scanner in the stock watchlist example. A related question was how can developers make repeated flows cheaper and more efficient over time? Outside of asking Claude to examine the costs incurred, Avilla suggested another relatively new feature be used: dreaming. In the documentation, “dreaming” is defined as a research preview feature. A dream “reads an existing memory store alongside past session transcripts, then produces a new, reorganized memory store,” with duplicates merged, “stale or contradicted entries” replac",
-      "first_seen_at": "2026-10-23T15:37:12.563926+00:00"
     },
     {
       "source": "Figure AI News",
