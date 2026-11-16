@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-15T17:32:16.392024+00:00",
+  "updated_at": "2026-11-16T01:05:41.187066+00:00",
   "count": 700,
-  "new_count": 519,
+  "new_count": 520,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,51 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+      "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+      "summary": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA,",
+      "published_at": "2026-11-16T00:00:28+00:00",
+      "first_seen_at": "2026-11-16T01:05:41.187066+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "AI’s math progress matters more for AI research than for math",
+      "url": "https://www.youtube.com/shorts/7DO3mOl_OrI",
+      "summary": "",
+      "published_at": "2026-11-15T23:19:02+00:00",
+      "first_seen_at": "2026-11-16T01:05:41.187066+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "published_at": "2026-11-15T22:00:01+00:00",
+      "first_seen_at": "2026-11-16T01:05:41.187066+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "published_at": "2026-11-15T22:00:00+00:00",
+      "first_seen_at": "2026-11-16T01:05:41.187066+00:00"
+    },
+    {
+      "source": "IEEE Spectrum Robotics",
+      "source_type": "rss",
+      "title": "Why Skydio Built a Lopsided Drone",
+      "url": "https://spectrum.ieee.org/skydio-f10-lightrunner-asymmetrical-drone",
+      "summary": "Skydio’s drones have always been magical. From MIT research and early prototypes to what I would argue is still the most advanced consumer drone ever made, this is a company that makes very cool stuff. Sadly, Skydio no longer makes cool stuff for consumers, instead focusing on dr",
+      "published_at": "2026-11-15T14:00:02+00:00",
+      "first_seen_at": "2026-11-16T01:05:41.187066+00:00"
+    },
     {
       "source": "Z.ai Release Notes",
       "source_type": "rss",
@@ -6166,7 +6211,7 @@
     {
       "source": "Lex Fridman YouTube",
       "source_type": "youtube",
-      "title": "Taiwan Night Market Food Tour w/ Jensen Huang | Lex Fridman",
+      "title": "Taiwan: Street Food with the CEO of a $5 Trillion Company | Jensen Huang and Lex Fridman",
       "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
       "summary": "I've been traveling the world a bit. One of the most incredible experiences was getting to visit Taiwan with Jensen Huang. It was wild 🤯 Huge crowds, insanely good street food at night markets, and of course a lot of good conversations across many days. I caught some of it on vid",
       "published_at": "2026-10-13T21:26:16+00:00",
@@ -6361,51 +6406,6 @@
       "url": "https://manus.im/blog/manus-partners-oppo",
       "summary": "Visit the Manus blog to learn more about our thoughts on the future.",
       "published_at": "2026-10-13T00:00:00+00:00",
-      "first_seen_at": "2026-10-13T17:55:02.753086+00:00"
-    },
-    {
-      "source": "Cursor Changelog",
-      "source_type": "rss",
-      "title": "Origin App Marketplace",
-      "url": "https://cursor.com/changelog/origin-app-marketplace",
-      "summary": "Origin now integrates with over 20 apps for deployments, CI, code review, security, monitoring, and project management, from partners including Cloudflare, Linear, Sentry, and Socket Security. Starting today, the marketplace is also open to public submissions, so any team buildin",
-      "published_at": "2026-10-13T00:00:00+00:00",
-      "first_seen_at": "2026-10-14T00:20:14.326521+00:00"
-    },
-    {
-      "source": "Manus Blog",
-      "source_type": "rss",
-      "title": "Introducing Manus for Business: Become an AI-native company today",
-      "url": "https://manus.im/blog/manus-team-plan",
-      "summary": "Manus for Business",
-      "published_at": "2026-10-13T00:00:00+00:00",
-      "first_seen_at": "2026-10-14T15:40:57.396506+00:00"
-    },
-    {
-      "source": "Anthropic Research",
-      "source_type": "rss",
-      "title": "Redesigning source control at Anthropic",
-      "url": "https://www.anthropic.com/research/redesigning-source-control",
-      "summary": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
-      "published_at": "2026-10-13T00:00:00+00:00",
-      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
-    },
-    {
-      "source": "Agility Robotics",
-      "source_type": "rss",
-      "title": "Agility Robotics and Churchill Capital Corp XI S-4 Registration Statement Declared Effective by SEC in Connection with Proposed Business Combination | Agility",
-      "url": "https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-s-4-registration-statement-declared-effective-by-sec-in-connection-with-proposed-business-combination",
-      "summary": "",
-      "published_at": "2026-10-13T00:00:00+00:00",
-      "first_seen_at": "2026-10-26T17:06:21.963774+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "Why Sequence Holdings Invested in Baldwin",
-      "url": "https://www.youtube.com/shorts/hch0LxG0n34",
-      "summary": "With 90% retention, startups almost can't compete in insurance brokerages. Sequence Holdings bought into one instead. CEO Michael Lee on the Baldwin thesis. New No Priors episode, out now.",
-      "published_at": "2026-10-12T23:07:23+00:00",
       "first_seen_at": "2026-10-13T17:55:02.753086+00:00"
     },
     {
