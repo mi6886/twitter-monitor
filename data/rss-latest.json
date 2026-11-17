@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-17T03:57:32.048350+00:00",
+  "updated_at": "2026-11-17T19:34:22.939202+00:00",
   "count": 700,
-  "new_count": 529,
+  "new_count": 538,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -70,9 +70,128 @@
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
       "url": "https://docs.z.ai/release-notes/new-released",
       "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-11-17T03:57:50.086202+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:010726746456d582eb1d21185d4715b9a4029b2c04db93c922bb83d3172b7170",
-      "first_seen_at": "2026-11-17T03:57:32.048350+00:00"
+      "published_at": "2026-11-17T19:34:52.122045+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:b2534edc6419ded8885a7cd8299fa98be7c02f8f7d69ff2e9b85faec69c6d274",
+      "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
+    },
+    {
+      "source": "a16z AI YouTube",
+      "source_type": "youtube",
+      "title": "Can AI build AI?",
+      "url": "https://www.youtube.com/shorts/ArJTup6HNRA",
+      "summary": "In our first episode of Working Theory, a16z General Partner Sarah Wang explores recursive self-improvement with two leading AI researchers: Mark Chen, Chief Research Officer at OpenAI, and John Schulman, co-founder and Chief Scientist of Thinking Machines Lab, and co-founder of ",
+      "published_at": "2026-11-17T19:27:29+00:00",
+      "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "Maintainers don’t need more AI bug reports. They need fixes.",
+      "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+      "summary": "AI has made finding potential vulnerabilities fast and cheap. Fixing them still takes human judgment, and in open source, that work falls to maintainers. Many are already flooded with AI-generated security findings, including duplicates and reports that aren’t vulnerabilities at ",
+      "published_at": "2026-11-17T18:29:29+00:00",
+      "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "source_type": "rss",
+      "title": "Building the Agent Host Protocol for sessions that continue across devices",
+      "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+      "summary": "Models are now good enough to work for hours or even days on their own. You don’t have to watch over every thing they do, but you still need to be able to check in, no matter where you are. An agent can’t live only inside one application. The work should continue even If you clos",
+      "published_at": "2026-11-17T18:20:40+00:00",
+      "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "published_at": "2026-11-17T17:45:00+00:00",
+      "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
+    },
+    {
+      "source": "a16z AI YouTube",
+      "source_type": "youtube",
+      "title": "How Close Is Self-Improving AI? OpenAI & Thinking Machines Researchers Explain",
+      "url": "https://www.youtube.com/watch?v=h_aA1-R70E8",
+      "summary": "For decades, the idea of AI improving itself was just a thought experiment. Today, AI is already helping researchers at frontier labs run experiments, write code and test ideas faster. Mark Chen says OpenAI has built “AI research interns.” So how far are we from AI that can do th",
+      "published_at": "2026-11-17T17:41:29+00:00",
+      "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
+    },
+    {
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "title": "Put Gemini to work for you",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "summary": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+      "published_at": "2026-11-17T17:00:00+00:00",
+      "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
+      "url": "https://latent.space/p/cloudflare/",
+      "summary": "Cloudflare has been one of the essential infrastructure companies of the web for the past decade and a half. But now, it’s turning into a neolab — at least according to a presentation at AI Engineer Code Summit by Michelle Chen, who runs Cloudflare’s AI Platform on the product si",
+      "published_at": "2026-11-17T15:00:00+00:00",
+      "details": "Cloudflare has been one of the essential infrastructure companies of the web for the past decade and a half. But now, it’s turning into a neolab — at least according to a presentation at AI Engineer Code Summit by Michelle Chen, who runs Cloudflare’s AI Platform on the product side. We’ll get into what exactly a neolab is in a minute (the short version: they build models and they’re not called OpenAI or Anthropic). Cloudflare is claiming to be one because it too has begun to launch models. Two System One models, to be precise: Clef and Clairic. As Chen explained in her talk, Clef is a decision model directly inspired by TypeSafe AI’s revolutionary Jev model, while Clairic is a new type of system one model that Cloudflare calls an “extract” model. In an interview with Latent Space after her presentation, Chen hinted that Cloudflare won’t just be producing system one models. There will be large language models, too. “We're not being a neolab [to] only launch system one models, even though it makes sense for our infrastructure. We've kind of entered this Pandora's box now, right? We opened it, now the possibilities are endless.” Chen said it’s “not just system one models, but potentially reasoning models that we've been experimenting with, and other LLMs and whatnot.” However, she added that these probably won’t be pre-trained models built from scratch, like the frontier labs produce. “I don't think that's our focus, but I think we can take existing resources out there and make [them] a lot more efficient and effective.” She noted that “most of our team really just does post-training,” so that will be the focus in model development. What is a neolab and is Cloudflare really one? The term neolab literally means a ‘new lab’ and it was coined last November by Stephanie Palazzolo from The Information, who defined it as “a new generation of research-focused AI startups.” Deedy Das, a partner at Menlo Ventures and an AI influencer, runs a big list of neolabs. It includes companies like Thinking Machines Lab, Poolside, and TypeSafe AI itself. According to Das, neolabs employ elite researchers, spend a lot of compute (“usually to train its own AI model”), don't have significant revenue traction, and they’re typically startups that have raised a lot of money. Deedy Das’ list of neolabs — note that TypeSafe is among the top 20. Cloudflare doesn’t tick at least half of those boxes, since it’s a public company with significant revenue traction. In fact, earlier this month Cloudflare announced record earnings. “The third quarter was Cloudflare's best quarter ever,” said CEO Matthew Prince. “We crossed $3 billion in annualized revenue with revenue of $782 million, up 39% year over year.” So Cloudflare as a “neolab” is pushing the accepted definition. However, as Chen argued in her presentation, building models is part of a natural progression for the company: from infrastructure, to compute (e.g. the Workers platform, including now for agents), to storage, to serving open weight models like Kimi, GLM and DeepSeek (on Workers AI), to now building its own models. Jev as the “east wind” Chen readily admits that Jev inspired Cloudflare’s pivot to building models. Referencing a Chinese proverb, she framed Jev’s arrival in September as “the east wind” that unexpectedly changed how Cloudflare viewed AI models. “And so when the system one and Jev paradigm started coming on board,” Chen said in her presentation, “we were like, this makes so much sense for us to adopt, right? We don't have to send every request to an LLM. We can send some of it to a System One model.” In our conversation, Chen commented on how it took only two weeks for them to build Clef — which is a copy of Jev — whereas it took TypeSafe AI two years to build Jev. She meant that as a compliment for how hard TypeSafe AI worked to create this new type of model. “All credit to TypeSafe, really, for actually attacking this space and inventing something new here, that people could relate to so strongly and be able to use it. And, yeah, we came up with a model super quickly, but they put in a lot of legwork and we knew exactly what the API schema should look like and whatnot.” Cloudflare is, at its core, still an infrastructure company — speed and low latency is its meat and potatoes. The main benefit of System One models, Chen remarked, is that they allow more work to be done by smaller, faster models, where output is measured in milliseconds rather than seconds. Clairic and what extraction models do While Clef was a clone of Jev, Cloudflare soon came up with an original twist on System One with Clairic, launched last month as “the first model in a new class: System One extraction models.” “What Clairic does is it can take unstructured input, and it can extract, compute, estimate and forecast values from those inputs,” Chen explained in her presentation. In our interview, Chen said that her team wanted to use System One principles to find other areas where LLMs were “ov",
+      "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial",
+      "url": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/",
+      "summary": "GlobalFoundries will test Boston Dynamics’ Atlas humanoid (right) in semiconductor manufacturing tasks in 2027. | Credit: Boston Dynamics GlobalFoundries, a leading semiconductor manufacturer, will become the first customer outside of the automotive industry to test Boston Dynami",
+      "published_at": "2026-11-17T14:49:05+00:00",
+      "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+      "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+      "summary": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC G",
+      "published_at": "2026-11-17T14:00:10+00:00",
+      "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
+      "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+      "summary": "Perplexity crossed a $1B annual revenue run rate today, CEO Aravind Srinivas told Semafor at a live event. The Information reported previously under $250M at the start of the year and over $750M by August, with Computer driving some of the growth. At usual agent lab multiples (eg",
+      "published_at": "2026-11-17T09:24:56+00:00",
+      "details": "Perplexity crossed a $1B annual revenue run rate today, CEO Aravind Srinivas told Semafor at a live event. The Information reported previously under $250M at the start of the year and over $750M by August, with Computer driving some of the growth. At usual agent lab multiples (eg Cognition also crossed $1B, with Cursor crossing $4.6B), this would roughly mean that Perplexity is now worth $30-50B — if the unit economics hold up. This is a nice bump on the $20B round in September 2025, and qualifies for our “>$10B fundraise” rule for title stories. Gathering up some recent Perplexity launches for those catching up: Computer. September’s Automations let it pick up recurring tasks where it left off. November’s Teammates take on ongoing jobs. Computer also runs fully locally on supported Macs. Monitor API. Watch a topic or page and get a webhook when something relevant changes. Frontier Research. The new research lab has access to 10,000+ GPUs and plans to publish papers, data, models, and code. Sponsored by DeepgramDeepgram is the voice AI infrastructure behind natural conversation—bringing speech-to-text, text-to-speech, voice-focused LLMs, and agents to teams building with voice AI. For any stack and any tools you already love building with, Deepgram slots in as your foundational voice AI technology. So you have control. And we have the context to listen, understand, and speak like a human.Learn more about the Real-time Context Standard.AI Twitter RecapQwen4-Max in the wild Friday’s Qwen4-Max preview is now a shipping model. At the highest reasoning setting, Qwen4-Max scored 43 on the Intelligence Index, up from 34. Average cost fell from $10.02 to $3.27 per task. Alibaba cut output pricing from $6 to $4.50 per million tokens, and the model generated about 39% fewer of them. Kimi K3.1 Pro cost $3.68 per index task and scored 67% on Terminal-Bench 4.0 to Qwen’s 48%. Artificial AnalysisInside the model. Alibaba kept the total parameter count at 2.4T and reduced the number active per token by 25% to 71B. The model takes images and text, with a 1M-token context window. Smaller open-weight Qwen4 models are still to come. AlibabaArena and Vals: Arena ranks it #14 overall on Agent Arena, the top Chinese model, with +7.5% net over 14.7k sessions (Arena). WebDev: It placed #6 in Code Arena WebDev at 1750, +74 over its predecessor (WebDev). It also placed #6 in Image-to-WebDev, just above Claude Opus 5 and GPT-6 Sol (I2WebDev). Vals Index: It is #11 overall, with large gains in coding and finance (Vals). Legal-benchmark caveat: On HLAB it gets 95.7% of checklist items right but passes only 21.3% of tasks, and its output tokens rise 3.6x (HLAB). Vision results (independent): Roboflow calls it underwhelming on its VLM benchmark, with Google, OpenAI and Anthropic now far ahead. At high reasoning effort, however, it is ~4.5x faster and ~68% cheaper per image than Qwen3.8-Max (Roboflow). Safety, alignment and eval integrityOpenAI embedded assessments: OpenAI is giving Apollo, METR, Transluce and Goodfire internal access to its models and systems (OpenAI). Scope by group: Apollo places six evaluators onsite for four months (Rundown). METR reviews OpenAI's largest RL run, with access to transcripts, monitor records and checkpoint snapshots (METR). Transluce runs a six-week audit of post-training alignment evals, with a fuller follow-up in early 2027 (Transluce). Goodfire embeds interpretability researchers to monitor training runs (Goodfire). Limits: METR says its scope excludes the misalignment incidents OpenAI has disclosed and is narrower than METR proposed (scope). Criticism of the access terms: Critics say the deals fall short of Sam Altman's promise of \"employee-like access.\" Reported gaps: Assessors get no Slack access, OpenAI selects which staff they interview, and they cannot access weights or run training-based elicitation (Neel Nanda, Alex Mallen). Former-employee account: Mikita Balesni says assessors cannot quote employees, even anonymously, and some may be barred from publishing on internal-only models (balesni). Goodfire acquisition talks: The Information reports OpenAI explored buying the interpretability startup for more than $5B. Goodfire reportedly wanted to stay independent so it could sell to multiple labs (report). Other integrity signals: Benchmark contamination: Claude appears to have memorized details of the LinuxArena control eval (Karvonen). Incident taxonomy: OpenAI published a v0.1 framework for classifying AI control incidents (framework). Disclosure policy: Anthropic is cutting its coordinated disclosure window from 90 to 30 days for high- and critical-severity vulnerabilities (policy). Inference systems and agent infrastructureTogether moves on from hand-tuned megakernels. Its first design made it into production for one customer. Agents now search for smaller groups of GPU operations to fuse. Together reports 28% higher throughput on Llama 3.2 1B on B200. Engineering writeupDeepSeek V4.1 Flash",
+      "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "published_at": "2026-11-17T00:00:00+00:00",
+      "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Introducing OpenAI for Chile",
+      "url": "https://openai.com/index/introducing-openai-for-chile",
+      "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+      "published_at": "2026-11-17T00:00:00+00:00",
+      "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Astra for Law leads in legal intelligence",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "published_at": "2026-11-17T00:00:00+00:00",
+      "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
     },
     {
       "source": "The Robot Report",
@@ -116,7 +235,7 @@
     {
       "source": "Latent Space YouTube",
       "source_type": "youtube",
-      "title": "Why FLUX 3 Trains on Images, Video and Sound — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+      "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
       "url": "https://www.youtube.com/watch?v=8cGfJOU3AlQ",
       "summary": "A camera moves around a person. Halfway around, the model has to draw the back of a head it has never seen. How much can it learn about that missing view just by watching video? That’s the question we put to Andreas Blattmann and Dustin Podell of Black Forest Labs. Their answer r",
       "published_at": "2026-11-16T21:26:27+00:00",
@@ -143,7 +262,7 @@
     {
       "source": "Dwarkesh Podcast YouTube",
       "source_type": "youtube",
-      "title": "We could be 12 months away from AIs that can overthrow the government",
+      "title": "AIs might overthrow the government within a year – Paul Christiano",
       "url": "https://www.youtube.com/watch?v=SyHM5hNPAEo",
       "summary": "Paul Christiano is head of the Alignment Research Center. Previously, he was head of AI safety at the US AI Safety Institute. Before that, he led alignment at OpenAI, where he invented RLHF. He’s recently joined OpenAI’s board (though here he is speaking as a private citizen). Pa",
       "published_at": "2026-11-16T18:08:23+00:00",
@@ -286,6 +405,15 @@
       "summary": "This article is brought to you by VicOne.VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. These include projects developed or maintained by Google, NVIDIA, and",
       "published_at": "2026-11-16T10:00:01+00:00",
       "first_seen_at": "2026-11-16T20:47:15.548112+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "published_at": "2026-11-16T09:30:00+00:00",
+      "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
     },
     {
       "source": "OpenAI News",
@@ -889,6 +1017,15 @@
       "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
       "published_at": "2026-11-12T00:00:00+00:00",
       "first_seen_at": "2026-11-12T18:40:18.566599+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "ChatGPT Ads increases its market presence in 44 countries",
+      "url": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+      "summary": "Aleph selected as ChatGPT Ads’ exclusive reseller in 44 countries to offer local invoicing, in-person support and local market expertise to brands and agencies",
+      "published_at": "2026-11-12T00:00:00+00:00",
+      "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
     },
     {
       "source": "Runway",
@@ -1631,6 +1768,15 @@
       "summary": "We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.",
       "published_at": "2026-11-09T00:00:00+00:00",
       "first_seen_at": "2026-11-10T03:37:12.812785+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "How VistaPrint helps small businesses get the word out",
+      "url": "https://openai.com/ads/customers/vistaprint",
+      "summary": "Small business owners preparing for a launch or an event often know what they want to accomplish before they know what to print. VistaPrint uses ChatGPT Ads to show how products like signs and branded merchandise can help them get the word out.",
+      "published_at": "2026-11-09T00:00:00+00:00",
+      "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
     },
     {
       "source": "Latent Space",
@@ -6241,150 +6387,6 @@
       "summary": "From a four-billion-measurement Kaggle competition to models that recognize a molecule’s chemist, Leash Bio is testing what AI actually learns about chemistry. Co-founder and CEO Ian Quigley joins Brandon Anderson and RJ Honicky to explain how Leash makes DNA-encoded libraries (D",
       "published_at": "2026-10-14T20:34:51+00:00",
       "first_seen_at": "2026-10-15T15:28:31.209438+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "GitHub availability report: September 2026",
-      "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026/",
-      "summary": "Our last update covered content through August. We did not publish another in September while other public content addressed the August 17 outage. This edition covers progress over the past two months. The short version of August and September: we reduced shared-database pressure",
-      "published_at": "2026-10-14T20:01:35+00:00",
-      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
-      "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
-      "summary": "Maintainers look at star history to answer a practical question: did a launch, release, or event change a project’s trajectory? To reconstruct that curve from the GitHub API, tools had to request pages of stargazer records (each person who currently stars the repository and when ",
-      "published_at": "2026-10-14T19:11:33+00:00",
-      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "source_type": "rss",
-      "title": "Preparing for the 2026 US midterms",
-      "url": "https://www.anthropic.com/news/2026-us-midterms",
-      "summary": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.",
-      "published_at": "2026-10-14T18:33:00+00:00",
-      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
-      "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
-      "summary": "General Science",
-      "published_at": "2026-10-14T16:14:00+00:00",
-      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
-      "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
-      "summary": "Earth AI",
-      "published_at": "2026-10-14T16:14:00+00:00",
-      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
-    },
-    {
-      "source": "Google Research Blog",
-      "source_type": "rss",
-      "title": "Analyzing technical documents with Deep Review",
-      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
-      "summary": "General Science",
-      "published_at": "2026-10-14T16:14:00+00:00",
-      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
-      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
-      "summary": "",
-      "published_at": "2026-10-14T16:12:42+00:00",
-      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "RoboBusiness 2026 panel to discuss reshoring with robots",
-      "url": "https://www.therobotreport.com/robobusiness-2026-panel-discusses-reshoring-with-robots/",
-      "summary": "The Spot quadruped conducts inspections at a Michelin plant in Lexington, S.C. Source: Boston Dynamics Robotics is a key enabler of reshoring production to the U.S., but there is little consensus on how to best encourage it. Most industrial automation is made by foreign-owned com",
-      "published_at": "2026-10-14T15:08:59+00:00",
-      "first_seen_at": "2026-10-14T15:40:57.396506+00:00"
-    },
-    {
-      "source": "a16z AI YouTube",
-      "source_type": "youtube",
-      "title": "Can Open Models Keep Up With OpenAI and Anthropic? | Nathan Lambert",
-      "url": "https://www.youtube.com/watch?v=BKuK0M6oDTI",
-      "summary": "a16z Partner Lisha Li sits down with AI researcher and Trillium founder Nathan Lambert to ask how durable the gap really is between frontier AI labs and open models. Nathan argues that OpenAI and Anthropic have structural advantages in compute, capital, and the ability to pioneer",
-      "published_at": "2026-10-14T14:30:08+00:00",
-      "first_seen_at": "2026-10-14T15:40:57.396506+00:00"
-    },
-    {
-      "source": "Boston Dynamics YouTube",
-      "source_type": "youtube",
-      "title": "Machine, Assemble, Repair: How We Build Atlas | Boston Dynamics",
-      "url": "https://www.youtube.com/watch?v=dP_i7hRvGpE",
-      "summary": "From custom part to running robot, the Atlas shop floor is built on precision, rapid assembly, and real-time collaboration. By machining parts in-house and streamlining assembly and repair under one roof, we are driving the manufacturing velocity needed to turn complex designs in",
-      "published_at": "2026-10-14T14:00:18+00:00",
-      "first_seen_at": "2026-10-14T15:40:57.396506+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "Timken Precision Drives puts the motion challenge first in humanoid robots",
-      "url": "https://www.therobotreport.com/timken-precision-drives-puts-motion-challenge-first-humanoid-robots/",
-      "summary": "Timken Precision Drives offers a portfolio of motion technologies for humanoid developers. Source: Timken, Shutterstock What does your humanoid robot’s motion system need to do? For engineers developing humanoids, the answer involves balancing torque, speed, stiffness, weight, po",
-      "published_at": "2026-10-14T12:20:19+00:00",
-      "first_seen_at": "2026-10-14T15:40:57.396506+00:00"
-    },
-    {
-      "source": "No Priors YouTube",
-      "source_type": "youtube",
-      "title": "The Slow Part of Chip Design",
-      "url": "https://www.youtube.com/shorts/1ME4s5TqX0c",
-      "summary": "\"We can now have extreme intelligence that is guiding our experiments, but now we're just experiment bottlenecked.” Fractile CEO Walter Goodwin on why smarter AI still can’t make chip design instant.",
-      "published_at": "2026-10-14T12:18:05+00:00",
-      "first_seen_at": "2026-10-14T15:40:57.396506+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "url": "https://openai.com/index/amp-beyond-coding",
-      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "published_at": "2026-10-14T12:00:00+00:00",
-      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "SentinelOne cuts malware analysis from weeks to hours",
-      "url": "https://openai.com/index/sentinelone",
-      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-      "published_at": "2026-10-14T12:00:00+00:00",
-      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
-    },
-    {
-      "source": "Qoder Blog",
-      "source_type": "rss",
-      "title": "FAST 快速档位: 让反馈跟上你的思路",
-      "url": "https://qoder.com/zh/blog/qoder-fast",
-      "summary": "Qoder Fast 快速档位上线：生成速度提升超150%，Token消耗减少27%",
-      "published_at": "2026-10-14T08:37:46+00:00",
-      "first_seen_at": "2026-10-15T15:28:31.209438+00:00"
-    },
-    {
-      "source": "Anthropic News",
-      "source_type": "rss",
-      "title": "Singapore office and government MOU",
-      "url": "https://www.anthropic.com/news/singapore-office-opening",
-      "summary": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.",
-      "published_at": "2026-10-14T08:30:00+00:00",
-      "first_seen_at": "2026-10-14T15:40:57.396506+00:00"
     },
     {
       "source": "Anthropic Engineering",
