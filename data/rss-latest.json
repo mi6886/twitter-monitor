@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-17T19:34:22.939202+00:00",
+  "updated_at": "2026-11-18T02:56:30.594916+00:00",
   "count": 700,
-  "new_count": 538,
+  "new_count": 530,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,6 +65,33 @@
   ],
   "items": [
     {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "California DMV bars Waymo AVs from operating on the state’s freeways",
+      "url": "https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/",
+      "summary": "Waymo said the DMV order only applies to freeways and will not affect its operations on city streets. | Source: Waymo The California Department of Motor Vehicles has barred Waymo autonomous vehicles (AVs) from operating on the state’s freeways. The DMV issued the order on Nov. 11",
+      "published_at": "2026-11-17T23:55:07+00:00",
+      "first_seen_at": "2026-11-18T02:56:30.594916+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "How Fast Can AI Become an Expert?",
+      "url": "https://www.youtube.com/shorts/o7D3wiHnU4k",
+      "summary": "",
+      "published_at": "2026-11-17T20:39:17+00:00",
+      "first_seen_at": "2026-11-18T02:56:30.594916+00:00"
+    },
+    {
+      "source": "The Robot Report",
+      "source_type": "rss",
+      "title": "Learn how AI is changing supply chain robotics",
+      "url": "https://www.therobotreport.com/learn-how-ai-is-changing-supply-chain-robotics/",
+      "summary": "From left to right: Lior Elazary, the co-founder and CEO of inVia Robotics, Josip Cesic, the co-founder and CEO of Gideon, and Jeff Mahler, the co-founder and CTO of Ambi Robotics. Supply chain robotics is undergoing rapid transformation. Companies hope to address labor shortages",
+      "published_at": "2026-11-17T19:58:18+00:00",
+      "first_seen_at": "2026-11-18T02:56:30.594916+00:00"
+    },
+    {
       "source": "Z.ai Release Notes",
       "source_type": "rss",
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
@@ -113,7 +140,7 @@
     {
       "source": "a16z AI YouTube",
       "source_type": "youtube",
-      "title": "How Close Is Self-Improving AI? OpenAI & Thinking Machines Researchers Explain",
+      "title": "OpenAI’s Cofounder & Research Chief Explain Self-Improving AI",
       "url": "https://www.youtube.com/watch?v=h_aA1-R70E8",
       "summary": "For decades, the idea of AI improving itself was just a thought experiment. Today, AI is already helping researchers at frontier labs run experiments, write code and test ideas faster. Mark Chen says OpenAI has built “AI research interns.” So how far are we from AI that can do th",
       "published_at": "2026-11-17T17:41:29+00:00",
@@ -165,6 +192,24 @@
       "published_at": "2026-11-17T09:24:56+00:00",
       "details": "Perplexity crossed a $1B annual revenue run rate today, CEO Aravind Srinivas told Semafor at a live event. The Information reported previously under $250M at the start of the year and over $750M by August, with Computer driving some of the growth. At usual agent lab multiples (eg Cognition also crossed $1B, with Cursor crossing $4.6B), this would roughly mean that Perplexity is now worth $30-50B — if the unit economics hold up. This is a nice bump on the $20B round in September 2025, and qualifies for our “>$10B fundraise” rule for title stories. Gathering up some recent Perplexity launches for those catching up: Computer. September’s Automations let it pick up recurring tasks where it left off. November’s Teammates take on ongoing jobs. Computer also runs fully locally on supported Macs. Monitor API. Watch a topic or page and get a webhook when something relevant changes. Frontier Research. The new research lab has access to 10,000+ GPUs and plans to publish papers, data, models, and code. Sponsored by DeepgramDeepgram is the voice AI infrastructure behind natural conversation—bringing speech-to-text, text-to-speech, voice-focused LLMs, and agents to teams building with voice AI. For any stack and any tools you already love building with, Deepgram slots in as your foundational voice AI technology. So you have control. And we have the context to listen, understand, and speak like a human.Learn more about the Real-time Context Standard.AI Twitter RecapQwen4-Max in the wild Friday’s Qwen4-Max preview is now a shipping model. At the highest reasoning setting, Qwen4-Max scored 43 on the Intelligence Index, up from 34. Average cost fell from $10.02 to $3.27 per task. Alibaba cut output pricing from $6 to $4.50 per million tokens, and the model generated about 39% fewer of them. Kimi K3.1 Pro cost $3.68 per index task and scored 67% on Terminal-Bench 4.0 to Qwen’s 48%. Artificial AnalysisInside the model. Alibaba kept the total parameter count at 2.4T and reduced the number active per token by 25% to 71B. The model takes images and text, with a 1M-token context window. Smaller open-weight Qwen4 models are still to come. AlibabaArena and Vals: Arena ranks it #14 overall on Agent Arena, the top Chinese model, with +7.5% net over 14.7k sessions (Arena). WebDev: It placed #6 in Code Arena WebDev at 1750, +74 over its predecessor (WebDev). It also placed #6 in Image-to-WebDev, just above Claude Opus 5 and GPT-6 Sol (I2WebDev). Vals Index: It is #11 overall, with large gains in coding and finance (Vals). Legal-benchmark caveat: On HLAB it gets 95.7% of checklist items right but passes only 21.3% of tasks, and its output tokens rise 3.6x (HLAB). Vision results (independent): Roboflow calls it underwhelming on its VLM benchmark, with Google, OpenAI and Anthropic now far ahead. At high reasoning effort, however, it is ~4.5x faster and ~68% cheaper per image than Qwen3.8-Max (Roboflow). Safety, alignment and eval integrityOpenAI embedded assessments: OpenAI is giving Apollo, METR, Transluce and Goodfire internal access to its models and systems (OpenAI). Scope by group: Apollo places six evaluators onsite for four months (Rundown). METR reviews OpenAI's largest RL run, with access to transcripts, monitor records and checkpoint snapshots (METR). Transluce runs a six-week audit of post-training alignment evals, with a fuller follow-up in early 2027 (Transluce). Goodfire embeds interpretability researchers to monitor training runs (Goodfire). Limits: METR says its scope excludes the misalignment incidents OpenAI has disclosed and is narrower than METR proposed (scope). Criticism of the access terms: Critics say the deals fall short of Sam Altman's promise of \"employee-like access.\" Reported gaps: Assessors get no Slack access, OpenAI selects which staff they interview, and they cannot access weights or run training-based elicitation (Neel Nanda, Alex Mallen). Former-employee account: Mikita Balesni says assessors cannot quote employees, even anonymously, and some may be barred from publishing on internal-only models (balesni). Goodfire acquisition talks: The Information reports OpenAI explored buying the interpretability startup for more than $5B. Goodfire reportedly wanted to stay independent so it could sell to multiple labs (report). Other integrity signals: Benchmark contamination: Claude appears to have memorized details of the LinuxArena control eval (Karvonen). Incident taxonomy: OpenAI published a v0.1 framework for classifying AI control incidents (framework). Disclosure policy: Anthropic is cutting its coordinated disclosure window from 90 to 30 days for high- and critical-severity vulnerabilities (policy). Inference systems and agent infrastructureTogether moves on from hand-tuned megakernels. Its first design made it into production for one customer. Agents now search for smaller groups of GPU operations to fuse. Together reports 28% higher throughput on Llama 3.2 1B on B200. Engineering writeupDeepSeek V4.1 Flash",
       "first_seen_at": "2026-11-17T19:34:22.939202+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Introducing ChatGPT for Sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "published_at": "2026-11-17T08:00:00+00:00",
+      "first_seen_at": "2026-11-18T02:56:30.594916+00:00"
+    },
+    {
+      "source": "Manus Blog",
+      "source_type": "rss",
+      "title": "Manus Joins the Godot Foundation as a Platinum Sponsor",
+      "url": "https://manus.im/blog/manus-joins-godot-foundation",
+      "summary": "Manus is joining the Godot Foundation as a Platinum Sponsor to help fund Godot, the free, open-source engine for making 2D and 3D games.",
+      "published_at": "2026-11-17T00:00:00+00:00",
+      "first_seen_at": "2026-11-18T02:56:30.594916+00:00"
     },
     {
       "source": "OpenAI News",
@@ -1293,7 +1338,7 @@
       "source_type": "rss",
       "title": "Git security vulnerabilities announced",
       "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
-      "summary": "Today, the Git project is releasing new versions to address six security vulnerabilities. These include arbitrary code execution when recursively cloning a malicious repository, writes to unintended files, and memory corruption when processing merges or binary patches. The fixes ",
+      "summary": "Editor’s note (November 17, 2026): This post has been updated with additional CVE information and updated guidance for GitHub Enterprise Server users. Please see the release information below for the versions that include the fixes. Today, the Git project is releasing new version",
       "published_at": "2026-11-10T18:00:00+00:00",
       "first_seen_at": "2026-11-10T18:27:11.983271+00:00"
     },
@@ -6347,62 +6392,11 @@
       "first_seen_at": "2026-10-23T15:37:12.563926+00:00"
     },
     {
-      "source": "Dwarkesh Podcast YouTube",
-      "source_type": "youtube",
-      "title": "Why the Aztecs Refused to Kill Cortés - Si Sheppard",
-      "url": "https://www.youtube.com/shorts/_hH7vnTWnq8",
-      "summary": "",
-      "published_at": "2026-10-14T21:33:58+00:00",
-      "first_seen_at": "2026-10-15T15:28:31.209438+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
-      "url": "https://www.latent.space/podcast",
-      "summary": "A few years ago I stumbled upon Leash Bio’s Substack, and was hooked. Be it their Kaggle competition that showed that no, we really haven’t solved protein-ligand binding, or their crazy discovery that knowing a molecule’s author is perhaps all you need to know to predict how good",
-      "published_at": "2026-10-14T20:35:09+00:00",
-      "audio_url": "https://api.substack.com/feed/podcast/220316507/088d386ca7b830a53c64e1cd2678e427.mp3",
-      "details": "A few years ago I stumbled upon Leash Bio’s Substack, and was hooked. Be it their Kaggle competition that showed that no, we really haven’t solved protein-ligand binding, or their crazy discovery that knowing a molecule’s author is perhaps all you need to know to predict how good it is. Their substack — or at least Owl Posting’s1 deep dive on them — should be required reading for any scientist trying to do chemistry with AI.So I was super excited to finally be able to sit down with Ian Quigley from Leash Bio, and pick his brain. Leash specializes in DNA Encoded Libraries (aka “DELs”), a way of collecting ridiculously high-throughput interaction data between proteins and small molecules.2 Before I discovered Leash, I had heard nothing but horror stories from DEL users. And yet, Ian and friends somehow found a way to tame the beast, extracting clean and reproducible data that is just perfect for large scale modeling. Without teasing too much, the answer comes down to epistemic rigor, and an incredible conviction that you just have to Do The Thing.It gets even better! Near the end of this episode, Ian teases something his team was just playing with when we recorded: an AI playground for agents to do verifiable scientific reasoning. They discovered the data they had spent the last few years collecting could provide tens of thousands of “lab-in-the-loop” simulations, just what an agent needs for scientific RL. Two months later, it’s matured into Minos, and today they’re releasing a full preprint, blog, and open dataset. We’ll be releasing a lightning podcast in a few days with an update. Stay tuned!We had a blast with Ian, probably one of our most fun episodes to date. For both complete chemistry novices and expert AI x Bio practitioners, we think you’ll get something out of this.Enjoy!We covered:Why DELs traumatize everyone who touches them, and how Leash puts dozens of barcodes on each molecule to catch proteins that bind the DNA instead of the drug.Ian’s rule that biology only scales two ways: taking pictures and sequencing DNA.The Kaggle competition: about 4B measurements from a basement and about 2,000 teams, with nobody beating chance on an unseen chemical library. Also why Leash quietly feared co-folding would make them obsolete.Clever Hans in ChEMBL: models can guess a molecule’s chemist from its structure, and “who made it” predicts activity about as well as the structure does.Hermes, trained only on Leash’s own data, keeping pace with Boltz on public benchmarks. Plus the BRD4 molecule Boltz had already seen in the PDB.Breaking the pocket: engineering protein mutants at scale after catching Hermes memorizing “nicknames” for proteins instead of binding sites.Lumacaftor-like hits as an accidental detector for misfolded proteins.The agent sandbox: LLMs that reason about SAR in plain English, hunting for the best binders among 6.5M molecules on a budget of 100.The Recursion mafia, and why its alumni companies all rhyme.The Kosuri paradox: if you can collect the data, why do you need the model?Going from a DEL hit to good mouse PKPD in six months on an inflammation program, and the case for pills over antibodies on cytokine targets.What stops a better-funded lab from outscaling them, and Ian’s by-fiat wish for massively parallel purification.1The hands-down best bio blogger on the internet.2As always, the secret here is to map your problem to a combinatorial library and a readout using Next Generation Sequencing. We talk about this in depth in the podcast!",
-      "dedupe_key": "podcast:7a826da05cb9450a9d3773ee85832c0295c2bdfc",
-      "first_seen_at": "2026-10-14T23:57:18.134028+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
-      "url": "https://www.latent.space/podcast",
-      "summary": "A few years ago I stumbled upon Leash Bio’s Substack, and was hooked. Be it their Kaggle competition that showed that no, we really haven’t solved protein-ligand binding, or their crazy discovery that knowing a molecule’s author is perhaps all you need to know to predict how good",
-      "published_at": "2026-10-14T20:35:09+00:00",
-      "audio_url": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a15fdf-75d0-7979-85d4-17bb65ed0842/01a15fdf-7633-7e4d-a6ce-fbb8cdd309b7.mp3",
-      "details": "A few years ago I stumbled upon Leash Bio’s Substack, and was hooked. Be it their Kaggle competition that showed that no, we really haven’t solved protein-ligand binding, or their crazy discovery that knowing a molecule’s author is perhaps all you need to know to predict how good it is. Their substack — or at least Owl Posting’s1 deep dive on them — should be required reading for any scientist trying to do chemistry with AI.So I was super excited to finally be able to sit down with Ian Quigley from Leash Bio, and pick his brain. Leash specializes in DNA Encoded Libraries (aka “DELs”), a way of collecting ridiculously high-throughput interaction data between proteins and small molecules.2 Before I discovered Leash, I had heard nothing but horror stories from DEL users. And yet, Ian and friends somehow found a way to tame the beast, extracting clean and reproducible data that is just perfect for large scale modeling. Without teasing too much, the answer comes down to epistemic rigor, and an incredible conviction that you just have to Do The Thing.It gets even better! Near the end of this episode, Ian teases something his team was just playing with when we recorded: an AI playground for agents to do verifiable scientific reasoning. They discovered the data they had spent the last few years collecting could provide tens of thousands of “lab-in-the-loop” simulations, just what an agent needs for scientific RL. Two months later, it’s matured into Minos, and today they’re releasing a full preprint, blog, and open dataset. We’ll be releasing a lightning podcast in a few days with an update. Stay tuned!We had a blast with Ian, probably one of our most fun episodes to date. For both complete chemistry novices and expert AI x Bio practitioners, we think you’ll get something out of this.Enjoy!We covered:Why DELs traumatize everyone who touches them, and how Leash puts dozens of barcodes on each molecule to catch proteins that bind the DNA instead of the drug.Ian’s rule that biology only scales two ways: taking pictures and sequencing DNA.The Kaggle competition: about 4B measurements from a basement and about 2,000 teams, with nobody beating chance on an unseen chemical library. Also why Leash quietly feared co-folding would make them obsolete.Clever Hans in ChEMBL: models can guess a molecule’s chemist from its structure, and “who made it” predicts activity about as well as the structure does.Hermes, trained only on Leash’s own data, keeping pace with Boltz on public benchmarks. Plus the BRD4 molecule Boltz had already seen in the PDB.Breaking the pocket: engineering protein mutants at scale after catching Hermes memorizing “nicknames” for proteins instead of binding sites.Lumacaftor-like hits as an accidental detector for misfolded proteins.The agent sandbox: LLMs that reason about SAR in plain English, hunting for the best binders among 6.5M molecules on a budget of 100.The Recursion mafia, and why its alumni companies all rhyme.The Kosuri paradox: if you can collect the data, why do you need the model?Going from a DEL hit to good mouse PKPD in six months on an inflammation program, and the case for pills over antibodies on cytokine targets.What stops a better-funded lab from outscaling them, and Ian’s by-fiat wish for massively parallel purification.1The hands-down best bio blogger on the internet.2As always, the secret here is to map your problem to a combinatorial library and a readout using Next Generation Sequencing. We talk about this in depth in the podcast!",
-      "dedupe_key": "podcast:4772fb4e8d07c8c54ff2145a2786db92f35aabfe",
-      "first_seen_at": "2026-10-23T15:37:12.563926+00:00"
-    },
-    {
-      "source": "Latent Space YouTube",
-      "source_type": "youtube",
-      "title": "From Wet Lab to RL Env: 10,000 Drug-Discovery Campaigns in a Weekend — Ian Quigley, Leash Bio",
-      "url": "https://www.youtube.com/watch?v=hQSBJVreLms",
-      "summary": "From a four-billion-measurement Kaggle competition to models that recognize a molecule’s chemist, Leash Bio is testing what AI actually learns about chemistry. Co-founder and CEO Ian Quigley joins Brandon Anderson and RJ Honicky to explain how Leash makes DNA-encoded libraries (D",
-      "published_at": "2026-10-14T20:34:51+00:00",
-      "first_seen_at": "2026-10-15T15:28:31.209438+00:00"
-    },
-    {
       "source": "Anthropic Engineering",
       "source_type": "rss",
       "title": "Redesigning source control at Anthropic",
       "url": "https://www.anthropic.com/engineering/redesigning-source-control",
       "summary": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
-      "published_at": "2026-10-13T00:00:00+00:00",
-      "first_seen_at": "2026-10-13T17:55:02.753086+00:00"
-    },
-    {
-      "source": "Manus Blog",
-      "source_type": "rss",
-      "title": "Manus Partners with OPPO to Bring Agentic AI Experiences to Smartphones",
-      "url": "https://manus.im/blog/manus-partners-oppo",
-      "summary": "Visit the Manus blog to learn more about our thoughts on the future.",
       "published_at": "2026-10-13T00:00:00+00:00",
       "first_seen_at": "2026-10-13T17:55:02.753086+00:00"
     },
