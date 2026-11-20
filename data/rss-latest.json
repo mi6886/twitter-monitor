@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-19T19:19:16.491598+00:00",
+  "updated_at": "2026-11-20T02:22:29.626599+00:00",
   "count": 700,
-  "new_count": 529,
+  "new_count": 526,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,6 +65,45 @@
   ],
   "items": [
     {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+      "url": "https://www.latent.space/podcast",
+      "summary": "Open video on YouTube ↗ Linear was founded to build a better issue tracker. Seven years and $134 million in funding later, its CEO Karri Saarinen published a post titled \"Issue tracking is dead.\" In this episode, we chat with Cristina Cordova, COO of Linear, about how the company",
+      "published_at": "2026-11-19T23:58:21+00:00",
+      "audio_url": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1f60c-1b1f-791d-ab17-93dc95925d0f/01a1f60c-1d13-7e51-8f68-58af8c020059.mp3",
+      "details": "Open video on YouTube ↗ Linear was founded to build a better issue tracker. Seven years and $134 million in funding later, its CEO Karri Saarinen published a post titled \"Issue tracking is dead.\" In this episode, we chat with Cristina Cordova, COO of Linear, about how the company navigated that and how its go-to-market changed along the way. Cristina spent seven and a half years at Stripe, led platform and partnerships at Notion, and was a partner at First Round before joining Linear in 2023. Linear's founders built it after living with legacy issue trackers at Coinbase, Airbnb and Uber, and it spread self-serve through startups like Vercel and Ramp. When she joined, Linear had about 40 people and one salesperson. Since then it has shipped an MCP server, a platform for building agents into Linear, integrations with Codex, Cursor and GitHub Copilot, and its own Linear Agent. Agents created 3% of Linear's work a year ago. Now it's more than half. Linear passed $100 million in ARR this year with more than 40,000 paying customers and 177% net revenue retention, and in August employees sold $99 million in stock at a $2.5 billion valuation. We talk about why she stopped chasing enterprise deals three weeks after joining, why Linear has never hired a single SDR, why it won't let an LLM answer support tickets on its own, and what the AI budgets behind $100M-in-months ARR mean for everyone else. Half the work on Linear is now created by agents Linear shipped its MCP server in May 2025, and Cristina says it was basically the first in its category. A year and a half later, more than half the issues created in Linear come from agents. That doesn't mean Linear wants to be a database with an MCP server on top. Cristina thinks SaaS companies settling for that are making a big mistake. If the agent workflows inside your product aren't better than the ones outside it, nobody has a reason to open your app. So she watches two lines: agent usage and app usage. If agent usage climbs and app usage doesn't, you're becoming a commodity. At Linear, both are up and to the right, because people still come back to the app to see and coordinate the work. Jump to the MCP discussion →\"Issue tracking is dead\" When Karri published \"Issue tracking is dead\" in March, most of Linear's customers agreed with him. Then they asked the obvious question: so what am I buying? Linear's answer is a product development system built around agent orchestration, where humans stop doing the manual work of filing, labeling, assigning and closing issues. Customers had been pushing it there. Most of the frontier AI labs run on Linear and wanted it to move faster. Pre-AI companies like Ramp and Coinbase were building their own internal agents and needed an API to plug them into Linear. Cristina says Linear is lucky it's small enough to cannibalize itself. Google has a much harder problem: put an AI answer above every search result, and fewer people look at the ads. Jump to the \"issue tracking is dead\" discussion →The AI budget behind $100M in months The thing speeding up purchases right now, Cristina says, is AI budget. Companies carved out money for AI tools that didn't exist before, and any product that fits inside it skips the usual fight for spend. At some companies that budget is very high. It's already starting to change. Buyers are signing one-year deals and paid pilots, not three-year contracts, because nobody knows what they'll want in two years. And some overnight-$100M stories are a handful of $30 to $40 million contracts with defense companies or giant law firms. That's a very different business from Linear's 40,000 paying customers on what was, until June, entirely seat-based pricing. When those one-year deals come up for renewal, we'll find out whose ARR was real. Jump to the AI budget discussion →Linear threw out its 2025 enterprise roadmap Three weeks after joining in 2023, Cristina crossed \"move upmarket to enterprise\" off Linear's company goals. It had one salesperson. She went after growth-stage companies that would have to rip out an existing tool instead, the same way Stripe won new businesses long before it won switchers. Linear finally declared an enterprise push in 2025, with a roadmap full of features for large organizations. Then agents happened. Linear built an MCP server, an agents platform with a whole new set of APIs, and integrations with Codex, Cursor and GitHub Copilot. None of it was planned, and a lot of the enterprise work never got done. Cristina chose to race ahead anyway. Competitors waited, and enterprises started putting Linear on their shortlists. Jump to the enterprise roadmap discussion →No SDRs, no forward deployed engineers Linear has never hired a single SDR. Cristina thinks the qualification call wastes the customer's time: they want a demo, not questions about their budget. AEs do their own outbound, with tooling to keep it personal. It doesn't do forward deployed engineering either. Linear should be easy enough",
+      "dedupe_key": "podcast:9194aaf6c6ca819324d65835b364c03e6e720f4b",
+      "first_seen_at": "2026-11-20T02:22:29.626599+00:00"
+    },
+    {
+      "source": "Google Research Blog",
+      "source_type": "rss",
+      "title": "A game you cannot win unless you have a quantum computer",
+      "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
+      "summary": "Quantum",
+      "published_at": "2026-11-19T20:03:00+00:00",
+      "first_seen_at": "2026-11-20T02:22:29.626599+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "Scaling Linear's GTM to $100M+ ARR — Cristina Cordova, COO",
+      "url": "https://www.youtube.com/watch?v=x0VSm6IjcDQ",
+      "summary": "Over half the issues created in Linear now come from agents instead of people. I sat down with Cristina Cordova (COO at Linear) to talk about what that does to the software industry. They shipped an MCP server early, watched agents take over half the work, and then had to answer ",
+      "published_at": "2026-11-19T20:01:37+00:00",
+      "first_seen_at": "2026-11-20T02:22:29.626599+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+      "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+      "summary": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding acce",
+      "published_at": "2026-11-19T20:00:15+00:00",
+      "first_seen_at": "2026-11-20T02:22:29.626599+00:00"
+    },
+    {
       "source": "Z.ai Release Notes",
       "source_type": "rss",
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
@@ -91,6 +130,15 @@
       "summary": "Supervised autonomous UAV inspection at an industrial facility. | Source: ZenaDrone An autonomous drone can complete a carefully planned inspection route in a controlled environment and still struggle with the same route at an operating industrial facility. A steel structure may ",
       "published_at": "2026-11-19T17:01:55+00:00",
       "first_seen_at": "2026-11-19T19:19:16.491598+00:00"
+    },
+    {
+      "source": "NVIDIA Robotics Blog",
+      "source_type": "rss",
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building appl",
+      "published_at": "2026-11-19T17:00:35+00:00",
+      "first_seen_at": "2026-10-09T01:15:10.895459+00:00"
     },
     {
       "source": "Google AI Blog",
@@ -174,11 +222,47 @@
     {
       "source": "Lex Fridman YouTube",
       "source_type": "youtube",
-      "title": "GTA 6, Crime, Jewel Heists, Mafia, Gangs, Prison, Corrupt Cops & Money | Lex Fridman Podcast #505",
+      "title": "GTA 6 and the Biggest Jewelry Thief in US History | Lex Fridman Podcast #505",
       "url": "https://www.youtube.com/watch?v=v1X9Fqs5a14",
       "summary": "Larry Lawton is one of the most notorious and prolific jewelry thieves in US history, who was eventually caught by the FBI, spent more than a decade in prison, including a lot of time in the hole, and then he turned his life around to run the Reality Check Program, that helps kee",
       "published_at": "2026-11-19T03:15:09+00:00",
       "first_seen_at": "2026-11-19T19:19:16.491598+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "first_seen_at": "2026-11-20T02:22:29.626599+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "See PR scans in action",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "first_seen_at": "2026-11-20T02:22:29.626599+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "first_seen_at": "2026-11-20T02:22:29.626599+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Get started with Daybreak Blue",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "first_seen_at": "2026-11-20T02:22:29.626599+00:00"
     },
     {
       "source": "The Robot Report",
@@ -2569,15 +2653,6 @@
       "summary": "",
       "published_at": "2026-11-05T17:05:16+00:00",
       "first_seen_at": "2026-11-05T18:29:12.875031+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics Blog",
-      "source_type": "rss",
-      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-      "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building appl",
-      "published_at": "2026-11-05T17:00:35+00:00",
-      "first_seen_at": "2026-10-09T01:15:10.895459+00:00"
     },
     {
       "source": "Google AI Blog",
@@ -6323,78 +6398,6 @@
       "summary": "Startups in the MassRobotics healthcare catalyst cohort will have an opportunity to showcase their technology at the Robotics Summit & Expo. | Source: MassRobotics MassRobotics this week opened its call for applicants for Cohort 6 of its Healthcare Robotics Startup Catalyst Progr",
       "published_at": "2026-10-16T17:57:12+00:00",
       "first_seen_at": "2026-10-16T23:38:52.283128+00:00"
-    },
-    {
-      "source": "Anthropic Research",
-      "source_type": "rss",
-      "title": "Designing more efficient quantum circuits with Claude",
-      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
-      "summary": "Working largely on its own, Claude designed quantum circuits that improve on the best published versions, in some cases by an order of magnitude or more.",
-      "published_at": "2026-10-16T17:29:00+00:00",
-      "first_seen_at": "2026-10-16T23:38:52.283128+00:00"
-    },
-    {
-      "source": "Anthropic Research",
-      "source_type": "rss",
-      "title": "Claude reveals ECDSA curve origins",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "summary": "The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.",
-      "published_at": "2026-10-16T17:02:00+00:00",
-      "first_seen_at": "2026-10-16T23:38:52.283128+00:00"
-    },
-    {
-      "source": "Anthropic Research",
-      "source_type": "rss",
-      "title": "The AI expectations gap",
-      "url": "https://www.anthropic.com/research/ai-expectations-gap",
-      "summary": "How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.",
-      "published_at": "2026-10-16T16:45:00+00:00",
-      "first_seen_at": "2026-10-16T23:38:52.283128+00:00"
-    },
-    {
-      "source": "IEEE Spectrum Robotics",
-      "source_type": "rss",
-      "title": "Video Friday: When Two Robots Become One",
-      "url": "https://spectrum.ieee.org/video-friday-reconfigurable-robots",
-      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.CoRL 2026: 9–12 November 2026, AUSTI",
-      "published_at": "2026-10-16T16:30:02+00:00",
-      "first_seen_at": "2026-10-16T23:38:52.283128+00:00"
-    },
-    {
-      "source": "Anthropic Research",
-      "source_type": "rss",
-      "title": "How employment is changing at Anthropic",
-      "url": "https://www.anthropic.com/research/employment-at-anthropic",
-      "summary": "How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy.",
-      "published_at": "2026-10-16T16:26:00+00:00",
-      "first_seen_at": "2026-10-16T23:38:52.283128+00:00"
-    },
-    {
-      "source": "Anthropic Research",
-      "source_type": "rss",
-      "title": "Working at the frontier shapes expectations for the future",
-      "url": "https://www.anthropic.com/research/expectations-for-the-future",
-      "summary": "We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy.",
-      "published_at": "2026-10-16T16:21:00+00:00",
-      "first_seen_at": "2026-10-16T23:38:52.283128+00:00"
-    },
-    {
-      "source": "a16z AI YouTube",
-      "source_type": "youtube",
-      "title": "Why AI Can Write Code But Can’t Keep It Running (Yet)",
-      "url": "https://www.youtube.com/watch?v=blkIGLlZePg",
-      "summary": "AI can write production code in minutes. But can it debug and operate that code when something goes wrong? Grepr CEO Jad Naous argues that running real-world systems is a fundamentally harder challenge, with unpredictable workloads, failures, and countless possible states. Jad jo",
-      "published_at": "2026-10-16T14:30:19+00:00",
-      "first_seen_at": "2026-10-16T15:10:02.859877+00:00"
-    },
-    {
-      "source": "Unitree YouTube",
-      "source_type": "youtube",
-      "title": "Unitree Introducing: UniUni Intelligent Swarm Control System",
-      "url": "https://www.youtube.com/watch?v=GQHx67tzVCo",
-      "summary": "It enables rapid, intelligent choreography of swarm robot movements and formations, real-time device status monitoring, safety braking, and more. How many robots would you like to see perform together?",
-      "published_at": "2026-10-16T08:43:38+00:00",
-      "first_seen_at": "2026-10-16T15:10:02.859877+00:00"
     },
     {
       "source": "Anthropic Engineering",
