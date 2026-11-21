@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-21T02:24:34.456277+00:00",
+  "updated_at": "2026-11-21T17:51:44.974782+00:00",
   "count": 700,
-  "new_count": 489,
+  "new_count": 519,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -70,9 +70,19 @@
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
       "url": "https://docs.z.ai/release-notes/new-released",
       "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-11-21T02:25:04.058974+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:26edf7bd5e5630a5904e2906d1d2960c259c7200ae429f1c76b13f1bc5945a41",
-      "first_seen_at": "2026-11-21T02:24:34.456277+00:00"
+      "published_at": "2026-11-21T17:52:09.496828+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:1360e19d3556e4d076cf979056531a6f1e50f87ca1da0c002f2cdf92bc669d47",
+      "first_seen_at": "2026-11-21T17:51:44.974782+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Riemann Hypothesis proved...twice independently",
+      "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+      "summary": "Within a few hours of each other (timeline), two mathematicians claimed independent proofs of the Riemann Hypothesis, the most famous open problem in mathematics (Scientific American). Levent Alpöge of Anthropic first made his Claude-driven proof in a note released with Lean code",
+      "published_at": "2026-11-21T05:02:13+00:00",
+      "details": "Within a few hours of each other (timeline), two mathematicians claimed independent proofs of the Riemann Hypothesis, the most famous open problem in mathematics (Scientific American). Levent Alpöge of Anthropic first made his Claude-driven proof in a note released with Lean code (1.3GB worth, ~250,000 page equivalent) rather than a full paper. Elliot Glazer confirms that the formalized statement is GRH and puts the chance of a Lean bug well under 1%. So if it finishes compiling with no extra axioms, it is probably correct, and no human will ever have read all of it… …prompting Alessandro Masullo to release his 940 page, 100% human, work in progress proof he had been working on for the last 12 years (and had been undergoing secret manual review and revision per Kevin Hartnett). This is the third in the trilogy of frontier math breakthroughs, following from the Navier Stokes solutions and the Quasi-Riemann bounding, but it doesn’t feel over. OpenAI's September Navier-Stokes claim is still the cautionary tale: critics argued that its Lean proof did not match the natural-language result. Both AI-claimed Millennium Prize results will take years to verify. Apart from the incredible accomplishment of the most famous problem in mathematics, one cannot miss the contrast that the AI-written solution is probably correct but incomprehensible, and the other solution is probably technically incorrect but understandable. Sponsored by Agentfield.AIOpen models are ready. Most coding harnesses aren’t. On DeepSWE, CodeAF finished #1 of ten on the same open model, ahead of Claude Code, at the lowest cost per fix.Try CodeAF! As Levent eloquently put it: “Claude far outpaced me near the finish line. No, Claude flew, and danced, and sparkled near that finish line.” This also ties into other AI themes we’ve covered on the podcast and on this newsletter: The nature of Slop: Levent says “I am presenting the world with a complete argument before having mastered a massive neighbourhood around its mathematics. It being obviously inappropriate to attempt to post some massive unreadable travesty of \"slop\", I decided to only present Lean.” One of the key tenets of the No Slop Manifesto is that you should understand what you ship (“Slop is when we put less effort into producing something than we ask the consumer to spend understanding it.”). And yet, this giant pile of Lean is verifiably correct and is incredibly significant in human history. Should we have delayed its release by a decade simply because we didn’t understand every single bit of it? Weak to Strong alignment: the typical experience of using agents is Strong to Weak - we are general intelligences guiding not-as-smart AI to do things we know how to do well. We also often expect AI to automate most work “within distribution”, and expect it to run into more trouble at the limits of capability where the “centaur” pattern of human-AI-collaboration is required. Levent’s lived experience is the opposite - collaborating with Claude only in the early stages and then leaving him far behind with the critical parts involving automorphic forms on higher-rank groups. We are starting to need Weak to Strong alignment — the open ended domain of controlling AI smarter than us. Sponsored by Backblaze B2If your data is growing faster than planned, you need storage that grows with your business, feeds flash and GPUs with terabit-scale throughput, and doesn’t charge egress.Backblaze B2 has delivered capacity tier storage for twenty years, manages more than six exabytes, and is trusted by leading neoclouds, labs, and gen AI companies.Growth shouldn’t be something you sweat. We’ve got room for whatever you’re building.Come and try it out!AI Twitter RecapClaimed Proof of the Riemann Hypothesis with ClaudeThe claim: Anthropic mathematician Levent Alpöge says that, \"working with Claude,\" he has found a proof of the Riemann Hypothesis. He says the method also covers the Generalized Riemann Hypothesis (GRH) (Scientific American, statement summary, remark.pdf link). Artifact: Only Lean code was released. A written-out prose version reportedly ran past 250,000 pages (timeline). Timeline: The work began on Oct 6. Eight of the 20 steps landed on Nov 15, and the final entry on Nov 16 reads \"GRH.\" Alpöge credits Claude for the parts involving automorphic forms on higher-rank groups, an area where he says he has little mastery (breakdown). Unknowns: The Claude model used and the degree of human steering have not been disclosed (open questions). Verification status: Elliot Glazer confirms that the formalized statement is GRH. The Lean code is \"still compiling, will take a few hours.\" He puts the chance of a Lean bug at <<1% (analysis). Provisional status: Artificial Analysis notes that both AI-claimed Millennium results are unverified: this one and OpenAI's September Navier-Stokes claim, which used an unreleased model (tally). Competing human proof: Alessandro Masullo has announced a separate, purely human proof",
+      "first_seen_at": "2026-11-21T17:51:44.974782+00:00"
     },
     {
       "source": "Dwarkesh Podcast YouTube",
@@ -386,7 +396,7 @@
     {
       "source": "Lex Fridman YouTube",
       "source_type": "youtube",
-      "title": "Larry Lawton: GTA 6, Crime, Jewel Heists, Prison, Mafia, Miami & Money | Lex Fridman Podcast #505",
+      "title": "GTA 6, Crime, Money, Prison & the Biggest Jewel Thief in US History | Lex Fridman Podcast #505",
       "url": "https://www.youtube.com/watch?v=v1X9Fqs5a14",
       "summary": "Larry Lawton is one of the most notorious and prolific jewelry thieves in US history, who was eventually caught by the FBI, spent more than a decade in prison, including a lot of time in the hole, and then he turned his life around to run the Reality Check Program, that helps kee",
       "published_at": "2026-11-19T03:15:09+00:00",
@@ -6389,15 +6399,6 @@
       "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
       "published_at": "2026-10-19T12:00:00+00:00",
       "first_seen_at": "2026-10-20T00:24:46.390366+00:00"
-    },
-    {
-      "source": "MiniMax Blog",
-      "source_type": "rss",
-      "title": "MiniMax M3.1 Flash: Redefining Agent Performance and Cost - MiniMax Research",
-      "url": "https://www.minimax.io/blog/minimax-m31f",
-      "summary": "Today, we officially roll out MiniMax M3.1 Flash. As a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making online inference nearly three times faster and reducing usage costs by 70%.",
-      "published_at": "2026-10-19T00:00:00+00:00",
-      "first_seen_at": "2026-10-19T17:18:47.840797+00:00"
     },
     {
       "source": "Anthropic Engineering",
