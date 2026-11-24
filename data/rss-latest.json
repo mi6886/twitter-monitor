@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-23T22:25:48.772654+00:00",
+  "updated_at": "2026-11-24T05:20:50.705621+00:00",
   "count": 700,
-  "new_count": 542,
+  "new_count": 486,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -67,12 +67,12 @@
     {
       "source": "TRAE Blog",
       "source_type": "rss",
-      "title": "TRAE Blog 页面更新",
+      "title": "Blog | TRAE - Collaborate with Intelligence",
       "url": "https://www.trae.ai/blog",
-      "summary": "官网更新页发生变化，请打开原页面查看最新内容。",
-      "published_at": "2026-11-23T22:26:14.347081+00:00",
-      "dedupe_key": "page:TRAE Blog:7ff9e61fe371955691e5f6b78f5d1b820872d361da3e7ee98ad85ae0894a5499",
-      "first_seen_at": "2026-11-23T22:25:48.772654+00:00"
+      "summary": "Ideas, insights, and everything we're building at TRAE.",
+      "published_at": "2026-11-24T05:21:21.273251+00:00",
+      "dedupe_key": "page:TRAE Blog:2650331128ac47226ea1899e966eecb6d71959520c1b4d48e4c38fac14cdf55e",
+      "first_seen_at": "2026-11-24T05:20:50.705621+00:00"
     },
     {
       "source": "Z.ai Release Notes",
@@ -80,9 +80,19 @@
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
       "url": "https://docs.z.ai/release-notes/new-released",
       "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-11-23T22:26:14.116522+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:a3f2c4a8454308e1ecc75df4b68a4ce742335b9bb69c9877dc415acbe760edf0",
-      "first_seen_at": "2026-11-23T22:25:48.772654+00:00"
+      "published_at": "2026-11-24T05:21:20.976299+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:c413686f2dfccb74bf20ebf3573ca9d9e2ca336c08189cf5c6edfc0099872d4e",
+      "first_seen_at": "2026-11-24T05:20:50.705621+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
+      "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+      "summary": "Congrats to Sierra on tripling last year’s $10B valuation, and to Z.ai for releasing GLM 5.4, their first looped transformer following Thinking Machine’s much smaller Inkling Mini 2 from last week. However all these are outshone by today’s twin title stories… Jensen Huang is back",
+      "published_at": "2026-11-24T04:14:16+00:00",
+      "details": "Congrats to Sierra on tripling last year’s $10B valuation, and to Z.ai for releasing GLM 5.4, their first looped transformer following Thinking Machine’s much smaller Inkling Mini 2 from last week. However all these are outshone by today’s twin title stories… Jensen Huang is back. Eleven days after announcing his resignation, Nvidia announced his return as CEO, president and member of the Board of Directors. View post on X ↗ The board voted unanimously after more meetings with Jensen on Sunday and said it received input from senior U.S. officials (aka the Treasury Secretary and the President dialing into the board meeting). Colette Kress remains CFO, the independent directors’ investigation continues, and Jensen’s Senate hearing is still due in 8 days. Nvidia also formed a board committee for national security and export control. As Matt Levine points out, with the firing AND the rehiring by this board with involvement from the government, the investigators are now being put in a position of having had the outcome somewhat predetermined for them, because both have demonstrated that they did not need to wait for any further evidence to come to light. OpenAI put its pretraining loss curve on the record. In Perplexity and Intelligence, Chief scientist Jakub Pachocki plotted base-model log-perplexity back to GPT-3.5 (on their internal held-out coding dataset… which has notable caveats): View post on X ↗ Think of it as how surprised the model is by the next token on a held-out dataset. Lower is better. GPT-3.5 was around 0.99 and GPT-4 around 0.91. When OpenAI put a model around 0.76 (GPT6 Astra) to work on open math problems, hundreds of frontier math problems started falling quickly. Pachocki extrapolates that another jump in capabilities could come around 0.68–0.70. This is all in context of pacing the frontier. Pachocki proposes that labs agree on a first limit to development and spell out what would let them cross it, such as a successor to chain-of-thought monitoring. Microsoft’s Mustafa Suleyman gave the first win by cosigning and joining in, running MAI-2 Base on OpenAI’s evaluation set and reporting 0.819. We’d need at least a couple more top labs to join this effort for it to gather steam as a real self-regulatory limit, most notably of course, Anthropic. Sponsored by Backblaze B2If your data is growing faster than planned, you need storage that grows with your business, feeds flash and GPUs with terabit-scale throughput, and doesn’t charge egress.Backblaze B2 has delivered capacity tier storage for twenty years, manages more than six exabytes, and is trusted by leading neoclouds, labs, and gen AI companies.Growth shouldn’t be something you sweat. We’ve got room for whatever you’re building.Try it out! Enquiries and feedback to business@latent.space AI Twitter RecapOpenAI Publishes Its Pretraining Perplexity History and Proposes Shared Development LimitsThe disclosure: Jakub Pachocki's essay \"Perplexity and Intelligence\" publishes five years of OpenAI base-model log-perplexity on a fixed held-out dataset. It argues for industry-wide limits based on perplexity and other measurements, with further progress gated on milestones in understanding and monitoring AI behavior, such as a successor to chain-of-thought (CoT) monitors (essay thread). Policy framing: Sam Altman quoted the proposal for a first common limit with concrete exit criteria (quote). He tied it to the standards commitments in the White House Accords (accords). Endorsements: Greg Brockman highlighted the warning that alignment progress is unlikely to keep pace with pretraining acceleration (gdb). Mark Chen called the numbers formerly \"sensitive IP\" and asked other labs to disclose their key metrics (markchen90). Claimed findings: Losses below 0.8 coincided with emergent capabilities in cybersecurity and mathematics (excerpt). Thresholds and timing: OpenAI expects further \"transformative capabilities\" in the ~0.68–0.7 window and describes a steep acceleration in 2026 (summary). Internal model: An unreleased internal model already sits below GPT-6.2 Astra. Pachocki says pretraining could see an \"avalanche\" like the recent one in math as soon as 2027 (scaling01). Community extrapolations (unofficial): Dan Hendrycks infers ~3–5×/yr compute-efficiency gains since GPT-4, possibly 100×+ this year (hendrycks). One fit, using the internal model at 0.732 against 0.761 for the released model, reaches 0.70 between January and March 2027 (fits). Microsoft joins: With OpenAI's permission, Microsoft AI reported MAI-2 Base at 0.819 on OpenAI's eval set. It shares OpenAI's tokenizer and lands in GPT-5.6 Sol base-model territory. Mustafa Suleyman suggested bits-per-byte for future cross-lab comparisons (mustafasuleyman). Open-model mapping: Elie Bakouch used MAI as a bridge to place open models on OpenAI's curve (plot). He labels the further chaining through Inkling bpb a \"very weak approximation\" (details). Lucas Beyer's caveat: Inkling's held-out codebase ma",
+      "first_seen_at": "2026-11-24T05:20:50.705621+00:00"
     },
     {
       "source": "OpenAI News",
@@ -6407,15 +6417,6 @@
       "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
       "published_at": "2026-10-20T10:00:00+00:00",
       "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
-    },
-    {
-      "source": "OpenAI News",
-      "source_type": "rss",
-      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-      "url": "https://openai.com/index/terminal-x",
-      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-      "published_at": "2026-10-20T07:00:00+00:00",
-      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
     },
     {
       "source": "Anthropic Engineering",
