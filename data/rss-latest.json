@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-24T20:58:31.083141+00:00",
+  "updated_at": "2026-11-25T04:16:12.213708+00:00",
   "count": 700,
-  "new_count": 526,
+  "new_count": 524,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -65,14 +65,63 @@
   ],
   "items": [
     {
+      "source": "TRAE Blog",
+      "source_type": "rss",
+      "title": "TRAE Blog 页面更新",
+      "url": "https://www.trae.ai/blog",
+      "summary": "官网更新页发生变化，请打开原页面查看最新内容。",
+      "published_at": "2026-11-25T04:16:42.061156+00:00",
+      "dedupe_key": "page:TRAE Blog:7ff9e61fe371955691e5f6b78f5d1b820872d361da3e7ee98ad85ae0894a5499",
+      "first_seen_at": "2026-11-25T04:16:12.213708+00:00"
+    },
+    {
       "source": "Z.ai Release Notes",
       "source_type": "rss",
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
       "url": "https://docs.z.ai/release-notes/new-released",
       "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-11-24T20:58:53.583941+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:233e583e6adcc8de4865a982ed2d7dff20f4ed537cb38e65ca404719c6b497e5",
-      "first_seen_at": "2026-11-24T20:58:31.083141+00:00"
+      "published_at": "2026-11-25T04:16:41.533698+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:66d11d3eb8022885a2116ffdd996f2c807bb4a737c69c69da81667c5e6a7f445",
+      "first_seen_at": "2026-11-25T04:16:12.213708+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "Patient Safety vs. Risk Appetite in Drug Development",
+      "url": "https://www.youtube.com/shorts/MGwa6t5jqyg",
+      "summary": "How Much Risk Is Acceptable in Drug Development? Isomorphic Labs President Max Jaderberg: “It’s centrally important to just always have patient safety in mind.” “You need to understand what are the risks and the appetites of patients, and that can be different for different indic",
+      "published_at": "2026-11-24T23:16:55+00:00",
+      "first_seen_at": "2026-11-25T04:16:12.213708+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "source_type": "rss",
+      "title": "Responding to objections to recursive self-improvement",
+      "url": "https://www.dwarkesh.com/podcast",
+      "summary": "(00:00:00) – IntroDwarkesh Patel 00:00:00Okay, so I recently released this essay and this video about recursive self-improvement and why I expect superintelligence by 2030. A wild claim, and understandably, lots of people had objections. Many of them are actually quite interestin",
+      "published_at": "2026-11-24T21:45:30+00:00",
+      "audio_url": "https://api.substack.com/feed/podcast/226413128/a9606f26acc6870494c29aa0a5007a9d.mp3",
+      "details": "(00:00:00) – IntroDwarkesh Patel 00:00:00Okay, so I recently released this essay and this video about recursive self-improvement and why I expect superintelligence by 2030. A wild claim, and understandably, lots of people had objections. Many of them are actually quite interesting and compelling, and I want to go through them here. And by the way, I’m joined by Max Farrens, who is my General Manager, and we ended up discussing all of these ideas as we were writing them down. And in fact, we paired in a lot of the writing.(00:00:24) – Jim: “Do you have a real job?”Max Farrens 00:00:25I think a good place to start is with a comment on the Substack version of the post that comes from a user named Jim, who writes as The 1690 Project. “Dwarkesh, do you have a real job where you use this stuff” (meaning AI) “in and day out? I am guessing you do not, because I do, and this is not what I am seeing at all.” What do you think?Dwarkesh Patel 00:00:47Those are two different questions. Do I use these things day in, day out? Yes. Do I have a real job? Debatable. Don’t answer that. Funny that the guy’s like bragging about having a real job. He’s like, he’s like a gotcha on me. Like, I’ve been one of the main people who for the last year and a half has been arguing that the basic learning capabilities that these models lack do in fact impair their productivity. I think people who a naive understanding of what it means to automate a job just look at a system like GPT-6 and say, oh, why can’t we have AGI? It can automate all the white-collar work. I think this is totally wrong. The point I’m making in this essay is that are currently worse than humans at almost everything, right? IT is 1% of the economy, well-scoped coding tasks is a small fraction of IT. In some things, AIs are in fact getting to human level or beyond human level, where we have lots of verifiable proxies. And I would argue that just like math, AI research has a lot of verifiable proxies. And so the consequences of narrow progress in AI research or towards AIs that can do AI research leads to general improvements in AI capabilities. So if you look at a system like GPT-3 and you compare it to GPT-6, GPT-6 is also narrow intelligence, right? It can solve Millennium Prize problems, but it can’t be my video editor. So it can do basically everything way better than GPT-3. What I am imagining is that disproportionate progress in ML research, or AIs that are good at doing ML research, will compress as much progress as we had between GPT-3 and GPT-6 into a single year. And so the end result is within a year of having a system like GPT-7 or GPT-8 or whatever it ends up being, we end up with systems that are more generally capable in the way that humans are generally capable, and are on track to then rapidly become better than humans at everything.(00:02:41) – Cindy Wu: Is AI research a verifiable domain?Max Farrens 00:02:42So Cindy Wu writes on X, “Dwarkesh conveniently sweeps under the rug that climbing a metric involves defining it. Supposing you define it in a way that avoids Goodharting, reward hacking, etc., you need data and environments which do the lifting on defining good metrics. This is most of the game of making AGI, converting fuzzy concepts to formalized objects you can climb without gaming, which requires costly fixes later. He elides the hard problem by saying AI will just automate data.”Dwarkesh Patel 00:03:12I think there’s two parts to Cindy’s objection here. One is: can we find metrics which capture general AI progress? Are we aware of such metrics? And two, will we be able to generate the data that makes AIs good at getting better at those metrics? A big part of my essay was dedicated to articulating what those verifiable proxies for general AI progress are, right? So in pre-training, the loss on a held-out corpus is not only a proxy for pre-training progress, it is the basis of pre-training progress, and that is extremely verifiable. And there’s a lot of other proxies you can come up with that are just general intelligence capabilities that are kind of agnostic for any given paradigm. For example, how fast do you master a video game you’ve never seen before? This is one of the key ways that humans are different from current AIs, that humans master new video games really rapidly. How fast can an AI that has only seen a data corpus up to 1700 figure out general relativity? How many open math problems can it solve, right? So there’s a lot of paradigm-agnostic, hard metrics of progress we can come up with. The second argument here is learning algorithms. The application of learning algorithms is very general. The transformer was invented to beat the existing state of the art in translation, but because that architecture, or the implications of the architecture, were general, it also was really good at predicting the next token in WikiText. It’s also really good at generating images and so on. And similarly with reasoning models. Initially they were ",
+      "dedupe_key": "podcast:8d2b2ae854625d8dca3af1814e7a1aa17f94b2fc",
+      "first_seen_at": "2026-11-25T04:16:12.213708+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "The strongest objections to RSI",
+      "url": "https://www.youtube.com/watch?v=Em6tbhj9o6A",
+      "summary": "I read your comments. Link to the original essay: https://www.youtube.com/watch?v=1NHPDzpfR6Y (00:00:00) – “Do you have a real job?” (00:02:41) – Cindy Wu: Is AI research a verifiable domain? (00:11:10) – corsaren: The overarching objection (00:12:20) – corsaren: Are the essay’s ",
+      "published_at": "2026-11-24T21:43:11+00:00",
+      "first_seen_at": "2026-11-25T04:16:12.213708+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "When 6 Years of AI Progress Happens in 6 Months - Paul Christiano",
+      "url": "https://www.youtube.com/shorts/K42jlW-THdo",
+      "summary": "",
+      "published_at": "2026-11-24T21:06:48+00:00",
+      "first_seen_at": "2026-11-25T04:16:12.213708+00:00"
     },
     {
       "source": "The Robot Report",
@@ -122,21 +171,20 @@
     {
       "source": "OpenAI News",
       "source_type": "rss",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "published_at": "2026-11-24T13:00:00+00:00",
+      "first_seen_at": "2026-11-25T04:16:12.213708+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
       "title": "Searching for distant planets with Astra",
       "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
       "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
       "published_at": "2026-11-24T11:00:00+00:00",
       "first_seen_at": "2026-11-24T20:58:31.083141+00:00"
-    },
-    {
-      "source": "TRAE Blog",
-      "source_type": "rss",
-      "title": "Blog | TRAE - Collaborate with Intelligence",
-      "url": "https://www.trae.ai/blog",
-      "summary": "Ideas, insights, and everything we're building at TRAE.",
-      "published_at": "2026-11-24T05:21:21.273251+00:00",
-      "dedupe_key": "page:TRAE Blog:2650331128ac47226ea1899e966eecb6d71959520c1b4d48e4c38fac14cdf55e",
-      "first_seen_at": "2026-11-24T05:20:50.705621+00:00"
     },
     {
       "source": "Latent Space",
@@ -165,6 +213,15 @@
       "summary": "",
       "published_at": "2026-11-24T00:00:00+00:00",
       "first_seen_at": "2026-11-24T20:58:31.083141+00:00"
+    },
+    {
+      "source": "OpenAI News",
+      "source_type": "rss",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "first_seen_at": "2026-11-25T04:16:12.213708+00:00"
     },
     {
       "source": "OpenAI News",
@@ -250,7 +307,7 @@
     {
       "source": "a16z AI YouTube",
       "source_type": "youtube",
-      "title": "Why OpenAI Acquired a Biotech Startup",
+      "title": "OpenAI’s Plan to Reinvent Drug Discovery",
       "url": "https://www.youtube.com/watch?v=RwYz8XhZiu0",
       "summary": "What happens when scientists are no longer limited by human attention? OpenAI’s Joy Jiao and Ashoka Rajendra join a16z’s Jay Rughani and Jorge Conde to discuss how AI and thousands of parallel agents could reshape drug discovery and development. They trace OpenAI’s life sciences ",
       "published_at": "2026-11-23T15:30:33+00:00",
@@ -659,7 +716,7 @@
     {
       "source": "Lex Fridman YouTube",
       "source_type": "youtube",
-      "title": "GTA 6, Crime, Money, Prison Gangs & Biggest Jewelry Thief in US History | Lex Fridman Podcast #505",
+      "title": "GTA 6, Crime, Jewel Heists, Mafia, Gangs, Prison, Corrupt Cops & Money | Lex Fridman Podcast #505",
       "url": "https://www.youtube.com/watch?v=v1X9Fqs5a14",
       "summary": "Larry Lawton is one of the most notorious and prolific jewelry thieves in US history, who was eventually caught by the FBI, spent more than a decade in prison, including a lot of time in the hole, and then he turned his life around to run the Reality Check Program, that helps kee",
       "published_at": "2026-11-19T03:15:09+00:00",
@@ -6363,60 +6420,6 @@
       "summary": "",
       "published_at": "2026-10-20T18:17:47+00:00",
       "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
-    },
-    {
-      "source": "Runway",
-      "source_type": "rss",
-      "title": "Runway Joins Claude Marketplace",
-      "url": "https://runway.com/news/company-news/runway-claude-marketplace",
-      "summary": "Runway Creative is now in Claude Marketplace. Enterprise teams can generate and edit video, images and audio and pay for it with committed Anthropic spend.",
-      "published_at": "2026-10-20T17:18:00+00:00",
-      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "RoboBusiness rebrands as Robotics Summit & Expo West",
-      "url": "https://www.therobotreport.com/robobusiness-rebrands-as-robotics-summit-expo-west/",
-      "summary": "Arrowfly, an award-winning B2B media and marketing company, today announced that RoboBusiness, the leading robotics industry event for the past 20 years, is being rebranded as Robotics Summit & Expo West, a conference and expo dedicated to the design, deployment, and scaling of c",
-      "published_at": "2026-10-20T16:23:21+00:00",
-      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "2027 TRR50 Robotics Innovation Awards open nominations",
-      "url": "https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/",
-      "summary": "Aaron Parness, director of applied sciences at Amazon Robotics, and Bhavana Chandrashekhar, the senior manager of applied science at Amazon Robotics, speaking at the 2026 RBR50 gala. The Robot Report is seeking nominations for its 2026 TRR50 Robotics Innovation Awards. The RBR50 ",
-      "published_at": "2026-10-20T16:15:24+00:00",
-      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "url": "https://huggingface.co/blog/allenai/fairstress",
-      "summary": "",
-      "published_at": "2026-10-20T16:09:19+00:00",
-      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
-    },
-    {
-      "source": "GitHub Blog",
-      "source_type": "rss",
-      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
-      "summary": "AI coding tools can generate code quickly, but speed alone does not solve the hardest software engineering problems. Developers still need to provide context, validate results, protect maintainability, and remain accountable for what ships. To learn how experienced developers str",
-      "published_at": "2026-10-20T16:05:03+00:00",
-      "first_seen_at": "2026-10-20T23:56:18.286284+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "summary": "",
-      "published_at": "2026-10-20T15:19:48+00:00",
-      "first_seen_at": "2026-10-20T15:32:21.789891+00:00"
     },
     {
       "source": "Anthropic Engineering",
