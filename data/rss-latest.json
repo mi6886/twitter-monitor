@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-26T03:37:21.129797+00:00",
+  "updated_at": "2026-11-26T19:57:39.879684+00:00",
   "count": 700,
-  "new_count": 518,
+  "new_count": 483,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -70,9 +70,63 @@
       "title": "New Released - Overview - Z.AI DEVELOPER DOCUMENT",
       "url": "https://docs.z.ai/release-notes/new-released",
       "summary": "Follow along with updates across Z.AI’s models",
-      "published_at": "2026-11-26T03:37:47.551832+00:00",
-      "dedupe_key": "page:Z.ai Release Notes:a8636e9419ecdd1914d4f0b7a5050d60a2856b0b5ae6d63bf49b6724f3cc7d76",
-      "first_seen_at": "2026-11-26T03:37:21.129797+00:00"
+      "published_at": "2026-11-26T19:58:07.534112+00:00",
+      "dedupe_key": "page:Z.ai Release Notes:f6d36f85571c3c23c01c28c6c7c73584ee811eb39d8999fc2c78f01c65996a12",
+      "first_seen_at": "2026-11-26T19:57:39.879684+00:00"
+    },
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+      "url": "https://www.youtube.com/watch?v=qjPcaZf_plo",
+      "summary": "Almost half the agent work on Clay now happens in tools like Claude Code, not their own agent. Swyx and I sat down with Jeff Barg (Head of AI at Clay) to talk about what that means for a SaaS company. Clay went from agents filling out spreadsheet cells to a coding agent that buil",
+      "published_at": "2026-11-26T19:48:59+00:00",
+      "first_seen_at": "2026-11-26T19:57:39.879684+00:00"
+    },
+    {
+      "source": "NVIDIA Blog",
+      "source_type": "rss",
+      "title": "Come for the Games, Stay for the Community With GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
+      "summary": "Good games bring people together. This GFN Thursday, GeForce NOW is celebrating the members, creators and community moderators who turn every session into something worth sharing. From friendships formed in online lobbies to new worlds explored on everyday devices, GeForce NOW Am",
+      "published_at": "2026-11-26T14:00:22+00:00",
+      "first_seen_at": "2026-11-26T19:57:39.879684+00:00"
+    },
+    {
+      "source": "MiniMax Blog",
+      "source_type": "rss",
+      "title": "The H3 Family: Models, Community, and What's Next - MiniMax Research",
+      "url": "https://www.minimax.io/blog/minimax-h3-family",
+      "summary": "",
+      "published_at": "2026-11-26T12:00:09+00:00",
+      "first_seen_at": "2026-11-26T19:57:39.879684+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "summary": "",
+      "published_at": "2026-11-26T11:37:17+00:00",
+      "first_seen_at": "2026-11-26T19:57:39.879684+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "summary": "",
+      "published_at": "2026-11-26T05:05:36+00:00",
+      "first_seen_at": "2026-11-26T19:57:39.879684+00:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "summary": "",
+      "published_at": "2026-11-26T00:00:00+00:00",
+      "first_seen_at": "2026-11-26T19:57:39.879684+00:00"
     },
     {
       "source": "Latent Space",
@@ -6342,60 +6396,6 @@
       "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
       "summary": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Linux; and DGX Station serves enterprise teams running frontier",
       "published_at": "2026-10-21T10:50:37+00:00",
-      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
-      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
-      "summary": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, ",
-      "published_at": "2026-10-21T10:45:17+00:00",
-      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
-      "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
-      "summary": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster than ever. Developers need compute closer to their data, open models they can customize and serve at scale, and full-stack infrastructure that is secure by design. NVIDIA Cloud Partners across Europe",
-      "published_at": "2026-10-21T10:30:41+00:00",
-      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
-      "summary": "To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open models, across the engineering and manufacturing lifecycle. ",
-      "published_at": "2026-10-21T10:30:40+00:00",
-      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
-      "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
-      "summary": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs. Complex engineering feats — from advanced chips to aircraft to industrial systems —– depend on simulation to predict ",
-      "published_at": "2026-10-21T10:30:25+00:00",
-      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
-      "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
-      "summary": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA OpenShell Reference Architecture, announced today, is part of NVIDIA’s growing portfolio of technologies that enables organizations to safely deploy agents at scale. NVIDIA Confidential Computing is the infras",
-      "published_at": "2026-10-21T10:30:02+00:00",
-      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
-      "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
-      "summary": "Agents are only as useful as what they know, and only as trustworthy as the boundaries they run within. Leading enterprises are using the open source NVIDIA Agent Toolkit — now expanded with new tools — to customize and control agents, use company data to inform their answers and",
-      "published_at": "2026-10-21T10:10:01+00:00",
       "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
     },
     {
