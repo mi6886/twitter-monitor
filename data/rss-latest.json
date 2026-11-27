@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-26T19:57:39.879684+00:00",
+  "updated_at": "2026-11-27T03:39:34.132104+00:00",
   "count": 700,
-  "new_count": 483,
+  "new_count": 513,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,36 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+      "url": "https://www.latent.space/podcast",
+      "summary": "Open video on YouTube ↗Clay wants you to get about the same results whether you use its own agent or point Claude Code at Clay. Usage is already split close to 50/50 between Clay’s agent and outside harnesses. In this episode, we chat with Jeff Barg, Head of AI at Clay, about wha",
+      "published_at": "2026-11-26T23:02:48+00:00",
+      "audio_url": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a21990-d1c6-7a0c-b8e0-fa2c1f04b55c/01a21990-d354-76be-8342-c5bfbf222b77.mp3",
+      "details": "Open video on YouTube ↗Clay wants you to get about the same results whether you use its own agent or point Claude Code at Clay. Usage is already split close to 50/50 between Clay’s agent and outside harnesses. In this episode, we chat with Jeff Barg, Head of AI at Clay, about what it takes to build go-to-market infrastructure that any agent can use. Jeff joined Clay when it acquired Avenue, the ops alerting startup he cofounded. At the time, Clay had about 50 people, and Avenue had five. AI was already a big part of how Clay thought about its product, but nobody there worked on AI. Since then, the business has grown roughly 10x, and the team is up to around 600 people. In September, Clay raised $115 million at a $7.1 billion valuation. By Jeff’s napkin math, it would cost about $1,500 to check all 40 million companies in Clay’s database against your ideal customer profile with a classifier like TypeSafe’s Jev. Models have been acing Clay’s lead-qualification evals for about a year now. Jeff sees more value in using frontier models for orchestration and deep research. We also talk about why customers hate picking a model, how Clay plans to pick one for them, and why the team still runs its agents on a system it built with BullMQ, without Temporal or LangGraph. Jeff tells us what happened when OpenAI called off Clay’s ChatGPT apps launch with two days to go. We get into why customers hated Workflows at first, how agents came to build most workflows, and when post-training pays off. We also talk about why agents still can’t debug other agents, even as Clay’s agent can count its YC customers in about a minute. Sculptor started as a tool loop. Now it's a coding agent. When Jeff took over as Head of AI, one engineer was doing all of Clay’s agent work. He soon left to start his own company. Claude Code changed what Jeff wanted to build. His first launch was Sculptor, which shipped in September 2025 on models from the Sonnet 3.5 era. It ran a set of tools in a loop with a system prompt the team had spent a lot of time tuning. It was great at adding columns but terrible at booking ten qualified meetings. The evals didn’t catch much. Clay used an LLM to judge which tools Sculptor called. That missed things people actually did with it, like asking it to analyze a table or giving it an enterprise table with millions of rows. Jeff took away three lessons. Coding agents are really good at Bash and Python. Sculptor’s tools were too limited to do much by stringing them together. And the agent couldn’t see CRM data or campaign results. So Clay rebuilt Sculptor as a coding agent on the Pi harness. It runs the Clay CLI in a cloud sandbox. A new data layer called Audiences matches records across the CRM and Gong so the agent can see them together. Jump to the Sculptor discussion →Most companies post-train too early For Jeff’s first eighteen months at Clay, the team talked about training its own models. It only started to look viable in the past couple of months. Jeff sees two ways to bring costs down. First, swap in an off-the-shelf open-weight model, which is already much cheaper than Opus. Then you can post-train a smaller model on your own tools and queries until it does as well as Opus on your tasks. Jeff sees companies make two mistakes here. One is trying to beat the frontier models, which is still really hard even in a single domain. The other is starting before you spend enough on inference for the savings to matter. Jeff puts that threshold somewhere between $10 million and $100 million. Jump to the post-training discussion →$1,500 to score every company in the world Clay hasn’t put TypeSafe’s Jev into production yet, but Jeff has run the numbers. Clay’s database has about 40 million companies. A LinkedIn page is roughly a thousand tokens, and an ideal customer profile adds about 500 more. Ask a classifier whether each company is a good fit, and the bill for all 40 million comes to around $1,500. Today, most customers qualify a list of maybe 10,000 companies. At these prices, you can start with the entire market. Jeff puts a good enrichment budget at $1 to $10 per qualified lead and $10 to $100 per booked call. He thinks qualification itself is close to solved. Models have been scoring about as high as they can on Clay’s evals for roughly a year. Just about any model from the past year can pull a company’s latest funding round. Frontier models still matter for deep prospecting research and for orchestration, where Jeff says the best plays can be ten to a hundred times as effective as an average one. Jump to the Jev discussion →Customers hate the model selector Customers complain when they see Clay’s model selector. They can’t check the evals for their use case every time a new model ships, and they shouldn’t have to. Clay is about to launch an automatic router that picks a model for each task. There’s no fancy branding. Finding Apple’s CEO is a very different job from finding the CEO of an obscure local company. The s",
+      "dedupe_key": "podcast:fbbc2561f8e4754e96045a23247bd25297dedbba",
+      "first_seen_at": "2026-11-27T03:39:34.132104+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "Could AI solve the Riemann hypothesis this way? - Grant Sanderson",
+      "url": "https://www.youtube.com/shorts/WNHac8LYzKQ",
+      "summary": "",
+      "published_at": "2026-11-26T23:00:27+00:00",
+      "first_seen_at": "2026-11-27T03:39:34.132104+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "Terry Tao on AI solving the Riemann hypothesis",
+      "url": "https://www.youtube.com/shorts/ufvSPf329pA",
+      "summary": "When I interviewed Terry Tao in March of this year, I asked him about AI solving the Riemann hypothesis. Here's what he said: \"Part of the reason we prize problems like the Riemann hypothesis is that we’re pretty sure a new type of mathematics has to be created. We don’t even kno",
+      "published_at": "2026-11-26T21:33:01+00:00",
+      "first_seen_at": "2026-11-27T03:39:34.132104+00:00"
+    },
     {
       "source": "Z.ai Release Notes",
       "source_type": "rss",
@@ -6369,33 +6399,6 @@
       "url": "https://www.youtube.com/watch?v=VvJai6HGfyE",
       "summary": "AI agents on NVIDIA RTX Spark help developers turn ideas into real-world robots. Astra connects FreeCAD, Blender, and SimReady Foundation to create assets and build training environments in NVIDIA Isaac Sim. NVIDIA Omniverse RTX and Newton bring perception and physics together, w",
       "published_at": "2026-10-21T11:22:03+00:00",
-      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics YouTube",
-      "source_type": "youtube",
-      "title": "NVIDIA Foundational Technology Montage | GTC Berlin 2026 Edition",
-      "url": "https://www.youtube.com/watch?v=JegVE_xMY_w",
-      "summary": "Explore the technologies powering the next wave of physical AI. NVIDIA accelerated computing and CUDA-X libraries bring together simulation, robotics, and autonomous systems, helping developers turn breakthroughs in science and engineering into real-world applications. 🔗 Learn mo",
-      "published_at": "2026-10-21T11:21:20+00:00",
-      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
-    },
-    {
-      "source": "NVIDIA Robotics YouTube",
-      "source_type": "youtube",
-      "title": "Official Keynote Closing Video | NVIDIA GTC Berlin 2026",
-      "url": "https://www.youtube.com/watch?v=qdUQJArUk30",
-      "summary": "The robots take the mic! Celebrate the news, ideas, and innovations unveiled at NVIDIA GTC Berlin with a musical recap performed by robot characters. This playful closing video from NVIDIA CEO Jensen Huang’s keynote brings the announcements together in song. 🎥 Watch the full keyn",
-      "published_at": "2026-10-21T11:20:58+00:00",
-      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
-    },
-    {
-      "source": "NVIDIA Blog",
-      "source_type": "rss",
-      "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-      "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
-      "summary": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Linux; and DGX Station serves enterprise teams running frontier",
-      "published_at": "2026-10-21T10:50:37+00:00",
       "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
     },
     {
