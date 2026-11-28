@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-27T19:46:40.501727+00:00",
+  "updated_at": "2026-11-28T03:20:17.253642+00:00",
   "count": 700,
-  "new_count": 514,
+  "new_count": 512,
   "sources": [
     "OpenAI News",
     "OpenAI Developer Blog",
@@ -64,6 +64,45 @@
     "Coze Changelog"
   ],
   "items": [
+    {
+      "source": "Latent Space YouTube",
+      "source_type": "youtube",
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "url": "https://www.youtube.com/watch?v=lCtMq8jegvo",
+      "summary": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger engagements, and when it ma",
+      "published_at": "2026-11-28T03:18:18+00:00",
+      "first_seen_at": "2026-11-28T03:20:17.253642+00:00"
+    },
+    {
+      "source": "No Priors YouTube",
+      "source_type": "youtube",
+      "title": "Build Like a Startup",
+      "url": "https://www.youtube.com/shorts/iuVEsEJwO-E",
+      "summary": "George Kurtz on how big companies need to adapt in the AI era: “Having smaller teams that are focused on a problem, they can leverage AI.” “Get back to your startup roots because it takes that level of change in a bigger company.” “You gotta disrupt yourself internally.”",
+      "published_at": "2026-11-28T01:00:07+00:00",
+      "first_seen_at": "2026-11-28T03:20:17.253642+00:00"
+    },
+    {
+      "source": "Dwarkesh Podcast YouTube",
+      "source_type": "youtube",
+      "title": "AI Just Did a Decade of Math in a Month - Paul Christiano",
+      "url": "https://www.youtube.com/shorts/7YLqyt5lCXg",
+      "summary": "",
+      "published_at": "2026-11-27T22:53:12+00:00",
+      "first_seen_at": "2026-11-28T03:20:17.253642+00:00"
+    },
+    {
+      "source": "Latent Space",
+      "source_type": "rss",
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "url": "https://www.latent.space/podcast",
+      "summary": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger engagements, and when it ma",
+      "published_at": "2026-11-27T22:19:18+00:00",
+      "audio_url": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a21efa-24c7-769b-afbe-cd7e135e4e85/01a21efa-28a3-7145-a228-ed763afc8f37.mp3",
+      "details": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger engagements, and when it makes sense to build a data operation in-house. We also get into what the labs are buying. A good training task should sit just ahead of what a model can do today. Gabe explains how senior engineers design the task, choose the starting data, and build a verifier that can score the result. Thanks to G2i for co-organizing AI Engineer CODE 2026 and sponsoring this episode. Join us April 26–27 at AI Engineer Miami 2027. Show notes G2i builds AI training data and reinforcement learning environments with senior engineers. ORC is the multi-agent coding platform Gabe’s team uses internally. Recorded at AI Engineer CODE in San Francisco. Chapters 0:00 How hard should training tasks be?0:15 What G2i sells to frontier labs2:42 From human labels to expert engineering5:19 From recruiting engineers to building training data6:46 Tasks, seed data, and verifiers8:04 How G2i screens engineers for agentic work12:24 How frontier labs buy training data16:24 How big is the market?18:45 Shared data, exclusivity, and in-house teams22:16 How labs budget and price training data24:54 The market for raw company data27:44 Where demand goes next30:30 G2i and ORC",
+      "dedupe_key": "podcast:d8702a26d6e6e8d01a1acb4a285e98382aad0982",
+      "first_seen_at": "2026-11-28T03:20:17.253642+00:00"
+    },
     {
       "source": "Z.ai Release Notes",
       "source_type": "rss",
@@ -6374,44 +6413,6 @@
       "summary": "",
       "published_at": "2026-10-21T15:00:09+00:00",
       "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "source_type": "rss",
-      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
-      "summary": "",
-      "published_at": "2026-10-21T14:58:18+00:00",
-      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
-    },
-    {
-      "source": "The Robot Report",
-      "source_type": "rss",
-      "title": "AGCO to deploy Agility Digit humanoid in Kansas factory",
-      "url": "https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/",
-      "summary": "The news comes as Agility inches closer to its IPO via SPAC and after it announced the latest version of Digit. | Source: Agility Robotics AGCO and Agility Robotics have signed a commercial agreement to deploy Agility’s Digit humanoid in AGCO’s manufacturing facility. The U.S. pi",
-      "published_at": "2026-10-21T13:19:00+00:00",
-      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "Claude Mods: Flipping the Harness Inside Out",
-      "url": "https://www.latent.space/p/claude-mods",
-      "summary": "For the last few weeks I’ve used Claude Mods to mold Claude Code to my AI engineering workflow. Claude Code is great out of the box, but every engineering workflow is different. Claude Mods let you make Claude Code yours, in the way you want to pay attention.The “paying attention",
-      "published_at": "2026-10-21T13:04:19+00:00",
-      "details": "For the last few weeks I’ve used Claude Mods to mold Claude Code to my AI engineering workflow. Claude Code is great out of the box, but every engineering workflow is different. Claude Mods let you make Claude Code yours, in the way you want to pay attention.The “paying attention” part is now the most important thing.In a recent Latent Space post, The Evolution of the Agent Harness, I argued that as models absorb more of the harness into their weights, the part that’s left faces the human. It becomes the Attention Interface: the layer that decides when the agent interrupts you, what it shows you, and which decisions it needs you to make. Claude Mods are an early version of the Attention Interface, and one you can shape yourself.Here’s my bet: ultimately, the harness becomes a platform that other companies build on, with models as the engine. Just as the browser became a platform for web apps, the harness could become a platform for the interfaces between people and agents.Claude Mods: What is it?A mod is a Claude Code plugin that consists of TypeScript or JavaScript functions that run inside Claude Code. These functions customize the behavior and appearance of the interface in the CLI and Desktop. Mods respond to events, like a prompt, tool call or interface render. They can observe the event, modify how it’s rendered, and handle it in place of the default behavior.Claude Mods are middleware for the agent harness. They inject code that changes Claude Code’s execution and rendering flow, changing how the application behaves at runtime.Claude Mods let the human and the agent build the human-facing part of the harness together. You can now work with Claude to design how Claude works with you. That is the essence of the “Attention Interface.”The harness reversalThe agent harness started as an interface between the agent and the machine it runs on. It lets you prompt the agent and the agent then sends commands, edits files and calls tools. Now it’s gradually becoming a way for the agent to interface with the human.Claude Mods let you reverse the direction of the harness. Rather than the harness pointing from the agent to the machine, you point it from the agent to the human operator, and the harness becomes a way to interface with human attention.Claude Mods make the human layer programmable, by the human who uses Claude.Claude can also build mods for you. Claude Code has a built-in skill that teaches it how to build mods, so you can ask for the mod you want in plain language and Claude will build it.Mods in practiceSome of Claude Code’s own features are already mods. Anthropic has shipped six of them built-in. You can see these by running /plugin and opening Installed, where they’re listed under Built-in:agents-md: loads AGENTS.md as project instructions.diff: takes over /diff and draws its pane.plugin-authoring: gives Claude the skill it uses to write mods for you.sec-default: guards what your organization manages from the mods a user installs.telemetry: sends the analytics records that Claude Code and its built-in mods log.you-should-know: a side agent that shows a note above the prompt when it finds something you might have missed. It’s the only one that’s off by default.Most of these work in the background, which is interesting because it means Anthropic is building parts of Claude Code as mods — even parts you may not notice. The one I’ve turned on myself is You Should Know.Here are the two mods I’ve found most useful in practice: one a built-in, and one I built myself.1. You Should KnowThis is a native Claude Code plugin built by Anthropic. It runs a side-agent that observes the main agent while it works and flags important information you’re likely to miss. Think about it like: tool calls and decisions that have a material impact on the output, but aren’t necessarily easily visible because they’re buried in the agent trace. It comes built into Claude Code, but it’s off until you turn it on.Here’s a real example. I asked Claude Code to simplify the noisy UI text in one of my personal projects. The main agent trimmed the copy on the Compare screen, installed the new build and took before-and-after screenshots. Everything looked done.Then You Should Know flagged something for me. CompareView.swift, the file the agent was editing, already had uncommitted work in it — and so did about 45 other files. If I later discarded the demo edits, I’d throw away that earlier unfinished work too. Its suggestion was to commit or stash the earlier work first.In this case, the You Should Know mod saved me from discarding work unintentionally.2. Next Steps SupervisorThis mod only runs after a turn that edited files, ran commands or made 8 or more tool calls. In the screenshot below, you’ll see six different pieces of information flagged for your attention. Next Steps Supervisor then suggests a next step to take, as a clickable button which sends the instruction as a message to Claude Code. This mod is available as part of Mo",
-      "first_seen_at": "2026-10-21T15:48:28.790352+00:00"
-    },
-    {
-      "source": "Latent Space",
-      "source_type": "rss",
-      "title": "Claude Mods: Flipping the Harness Inside Out",
-      "url": "https://latent.space/p/claude-mods/",
-      "summary": "For the last few weeks I’ve used Claude Mods to mold Claude Code to my AI engineering workflow. Claude Code is great out of the box, but every engineering workflow is different. Claude Mods let you make Claude Code yours, in the way you want to pay attention. The “paying attentio",
-      "published_at": "2026-10-21T13:04:19+00:00",
-      "details": "For the last few weeks I’ve used Claude Mods to mold Claude Code to my AI engineering workflow. Claude Code is great out of the box, but every engineering workflow is different. Claude Mods let you make Claude Code yours, in the way you want to pay attention. The “paying attention” part is now the most important thing. In a recent Latent Space post, The Evolution of the Agent Harness, I argued that as models absorb more of the harness into their weights, the part that’s left faces the human. It becomes the Attention Interface: the layer that decides when the agent interrupts you, what it shows you, and which decisions it needs you to make. Claude Mods are an early version of the Attention Interface, and one you can shape yourself. Here’s my bet: ultimately, the harness becomes a platform that other companies build on, with models as the engine. Just as the browser became a platform for web apps, the harness could become a platform for the interfaces between people and agents. Claude Mods: What is it? A mod is a Claude Code plugin that consists of TypeScript or JavaScript functions that run inside Claude Code. These functions customize the behavior and appearance of the interface in the CLI and Desktop. Mods respond to events, like a prompt, tool call or interface render. They can observe the event, modify how it’s rendered, and handle it in place of the default behavior. Claude Mods are middleware for the agent harness. They inject code that changes Claude Code’s execution and rendering flow, changing how the application behaves at runtime. Claude Mods let the human and the agent build the human-facing part of the harness together. You can now work with Claude to design how Claude works with you. That is the essence of the “Attention Interface.” The harness reversal The agent harness started as an interface between the agent and the machine it runs on. It lets you prompt the agent and the agent then sends commands, edits files and calls tools. Now it’s gradually becoming a way for the agent to interface with the human. Claude Mods let you reverse the direction of the harness. Rather than the harness pointing from the agent to the machine, you point it from the agent to the human operator, and the harness becomes a way to interface with human attention. Claude Mods make the human layer programmable, by the human who uses Claude. Claude can also build mods for you. Claude Code has a built-in skill that teaches it how to build mods, so you can ask for the mod you want in plain language and Claude will build it. Mods in practice Some of Claude Code’s own features are already mods. Anthropic has shipped six of them built-in. You can see these by running /plugin and opening Installed, where they’re listed under Built-in: agents-md: loads AGENTS.md as project instructions. diff: takes over /diff and draws its pane. plugin-authoring: gives Claude the skill it uses to write mods for you. sec-default: guards what your organization manages from the mods a user installs. telemetry: sends the analytics records that Claude Code and its built-in mods log. you-should-know: a side agent that shows a note above the prompt when it finds something you might have missed. It’s the only one that’s off by default. Most of these work in the background, which is interesting because it means Anthropic is building parts of Claude Code as mods — even parts you may not notice. The one I’ve turned on myself is You Should Know. Here are the two mods I’ve found most useful in practice: one a built-in, and one I built myself. 1. You Should Know This is a native Claude Code plugin built by Anthropic. It runs a side-agent that observes the main agent while it works and flags important information you’re likely to miss. Think about it like: tool calls and decisions that have a material impact on the output, but aren’t necessarily easily visible because they’re buried in the agent trace. It comes built into Claude Code, but it’s off until you turn it on. Here’s a real example. I asked Claude Code to simplify the noisy UI text in one of my personal projects. The main agent trimmed the copy on the Compare screen, installed the new build and took before-and-after screenshots. Everything looked done. Then You Should Know flagged something for me. CompareView.swift, the file the agent was editing, already had uncommitted work in it — and so did about 45 other files. If I later discarded the demo edits, I’d throw away that earlier unfinished work too. Its suggestion was to commit or stash the earlier work first. In this case, the You Should Know mod saved me from discarding work unintentionally. 2. Next Steps Supervisor This mod only runs after a turn that edited files, ran commands or made 8 or more tool calls. In the screenshot below, you’ll see six different pieces of information flagged for your attention. Next Steps Supervisor then suggests a next step to take, as a clickable button which sends the instruction as a message to Claude Code. This m",
-      "first_seen_at": "2026-10-23T15:37:12.563926+00:00"
     },
     {
       "source": "Qoder Blog",
